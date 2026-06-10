@@ -20,13 +20,18 @@ def main(company: str) -> None:
     cdir = company_dir(company)
     scores = pd.read_parquet(cdir / "axis_scores.parquet")
     quotes = read_json(cdir / "evidence_quotes.json")
+    level = "chunk" if "level" not in scores.columns else "chunk"
+    if "level" in scores.columns:
+        scores = scores[scores["level"] == level]
 
     fig = go.Figure()
     for axis, style in [("altruism", {}), ("control", {"dash": "dot"})]:
         sub = scores[scores["axis"] == axis].sort_values("year")
+        axis_q = quotes[axis]
+        qlevel = axis_q.get("chunk", axis_q) if isinstance(axis_q.get("chunk"), dict) else axis_q
         hover = [
             f"{int(r.year)}: z={r.zscore:.2f}, n={r.n_chunks} (k={r.k_used})<br>"
-            + quotes[axis][str(int(r.year))][0]["text"][:160]
+            + qlevel[str(int(r.year))][0]["text"][:160]
             for r in sub.itertuples()
         ]
         fig.add_trace(go.Scatter(

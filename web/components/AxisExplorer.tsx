@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import AxisChart, { type ChartRow } from "@/components/AxisChart";
-import type { AxisData, YearScore } from "@/lib/data";
+import type { AxisData, ScoreLevel, YearScore } from "@/lib/data";
 
 interface Props {
   axis: AxisData;
@@ -10,20 +10,32 @@ interface Props {
 }
 
 export default function AxisExplorer({ axis, control }: Props) {
+  const availableLevels = useMemo(() => {
+    const levels: ScoreLevel[] = [];
+    if (axis.levels.chunk?.years.length) levels.push("chunk");
+    if (axis.levels.sentence?.years.length) levels.push("sentence");
+    return levels;
+  }, [axis]);
+
+  const [level, setLevel] = useState<ScoreLevel>(
+    availableLevels.includes("chunk") ? "chunk" : "sentence"
+  );
+
+  const axisYears = axis.levels[level]?.years ?? [];
+  const controlYears = control?.levels[level]?.years ?? [];
+
   const byYear = useMemo(
-    () => new Map(axis.years.map((y) => [y.year, y])),
-    [axis]
+    () => new Map(axisYears.map((y) => [y.year, y])),
+    [axisYears]
   );
   const [selectedYear, setSelectedYear] = useState<number>(
-    axis.years[axis.years.length - 1]?.year
+    axisYears[axisYears.length - 1]?.year
   );
 
   const rows: ChartRow[] = useMemo(() => {
-    const controlByYear = new Map(
-      (control?.years ?? []).map((y) => [y.year, y.zscore])
-    );
+    const controlByYear = new Map(controlYears.map((y) => [y.year, y.zscore]));
     const years = [
-      ...new Set([...axis.years.map((y) => y.year), ...controlByYear.keys()]),
+      ...new Set([...axisYears.map((y) => y.year), ...controlByYear.keys()]),
     ].sort((a, b) => a - b);
     return years.map((year) => {
       const y = byYear.get(year);
@@ -36,22 +48,43 @@ export default function AxisExplorer({ axis, control }: Props) {
         kUsed: y?.kUsed ?? 0,
       };
     });
-  }, [axis, control, byYear]);
+  }, [axisYears, controlYears, byYear]);
 
   const selected: YearScore | undefined = byYear.get(selectedYear);
 
   return (
     <div>
+      {availableLevels.length > 1 && (
+        <div className="mb-4 flex gap-2">
+          {availableLevels.map((l) => (
+            <button
+              key={l}
+              onClick={() => setLevel(l)}
+              className={`rounded-md px-3 py-1.5 text-xs font-medium capitalize transition-colors ${
+                level === l
+                  ? "bg-indigo-600 text-white"
+                  : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-300"
+              }`}
+            >
+              {l} level
+            </button>
+          ))}
+        </div>
+      )}
+
       <AxisChart
         rows={rows}
         axisName={axis.axis}
+        level={level}
         selectedYear={selectedYear}
         onSelectYear={setSelectedYear}
       />
       <div className="mt-1 flex items-center justify-between">
         <p className="text-xs text-neutral-500">
-          Click a point to inspect a year. Amber rings mark thin-coverage years
-          (fewer chunks than the top-k window).
+          {level === "sentence"
+            ? "Sentence-level scoring isolates idealistic lines within dense pages."
+            : "Chunk-level scoring (default). "}
+          Click a point to inspect. Amber rings = thin coverage.
         </p>
         <div className="flex items-center gap-4 text-xs text-neutral-500">
           <span className="flex items-center gap-1.5">
@@ -66,7 +99,7 @@ export default function AxisExplorer({ axis, control }: Props) {
       </div>
 
       <div className="mt-8 flex flex-wrap gap-1.5">
-        {axis.years.map((y) => (
+        {axisYears.map((y) => (
           <button
             key={y.year}
             onClick={() => setSelectedYear(y.year)}
@@ -86,28 +119,29 @@ export default function AxisExplorer({ axis, control }: Props) {
           <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
             <h2 className="text-xl font-semibold">{selected.year}</h2>
             <span className="font-mono text-sm text-neutral-500">
-              z = {selected.zscore.toFixed(2)} · {selected.nChunks} chunks ·
-              top-{selected.kUsed}
+              z = {selected.zscore.toFixed(2)} · {selected.nChunks}{" "}
+              {level === "sentence" ? "sentences" : "chunks"} · top-
+              {selected.kUsed}
             </span>
             {selected.thin && (
               <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-800 dark:bg-amber-900/40 dark:text-amber-300">
                 thin coverage
               </span>
             )}
-            {selected.carriedForwardFrac !== null && (
+            {level === "chunk" && selected.carriedForwardFrac !== null && (
               <span
                 className="rounded-full bg-neutral-100 px-2 py-0.5 text-xs text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
                 title="Fraction of this year's mission chunks near-duplicated from the prior year"
               >
                 {Math.round(selected.carriedForwardFrac * 100)}% carried
-                forward · {Math.round((1 - selected.carriedForwardFrac) * 100)}%
-                new text
+                forward
               </span>
             )}
           </div>
 
           <h3 className="mt-5 text-sm font-medium uppercase tracking-wide text-neutral-500">
-            Top-matching chunks (the evidence)
+            Top-matching {level === "sentence" ? "sentences" : "chunks"} (the
+            evidence)
           </h3>
           <ul className="mt-3 space-y-3">
             {selected.quotes.map((q, i) => (

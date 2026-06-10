@@ -1,14 +1,6 @@
 #!/usr/bin/env python
 """Step 8: validation — ground truth, LLM cross-check, axis robustness.
 
-1. Ground truth: does altruism peak near 2014? Is the control axis decoupled
-   (low correlation between altruism and control year series)?
-2. LLM pairwise tournament: judge model compares evidence quotes between year
-   pairs (randomized order, temperature 0), Bradley-Terry ranking, compared
-   against the embedding ranking (Spearman).
-3. Perturbation: leave-one-sentence-out per pole, confirm the year ranking
-   holds (Spearman vs full axis).
-
 Writes data/<company>/validation_report.md + validation.json (M6 review gate).
 """
 
@@ -35,19 +27,26 @@ TOURNAMENT_QUESTION = (
     "Answer with exactly one letter: A or B."
 )
 
+EARLY_YEARS = list(range(2005, 2014))
 
-def quotes_text(quotes: dict, axis: str, year: int, max_chunks: int = 3) -> str:
-    items = quotes[axis][str(year)][:max_chunks]
+
+def quotes_text(quotes: dict, axis: str, year: int, level: str = "chunk", max_items: int = 3) -> str:
+    axis_q = quotes[axis]
+    if "chunk" in axis_q:
+        items = axis_q[level][str(year)][:max_items]
+    else:
+        items = axis_q[str(year)][:max_items]
     return "\n".join(f"- {q['text']}" for q in items)
 
 
-def ground_truth_check(scores: pd.DataFrame) -> dict:
-    alt = scores[scores["axis"] == "altruism"].sort_values("year")
-    ctrl = scores[scores["axis"] == "control"].sort_values("year")
+def ground_truth_check(scores: pd.DataFrame, level: str = "chunk") -> dict:
+    alt = scores[(scores["axis"] == "altruism") & (scores["level"] == level)].sort_values("year")
+    ctrl = scores[(scores["axis"] == "control") & (scores["level"] == level)].sort_values("year")
     peak_year = int(alt.loc[alt["zscore"].idxmax(), "year"])
     merged = alt.merge(ctrl, on="year", suffixes=("_alt", "_ctrl"))
     r, p = pearsonr(merged["raw_topk_mean_alt"], merged["raw_topk_mean_ctrl"])
     return {
+        "level": level,
         "altruism_peak_year": peak_year,
         "peak_within_2014_pm2": abs(peak_year - 2014) <= 2,
         "altruism_control_correlation": round(float(r), 3),
@@ -57,7 +56,6 @@ def ground_truth_check(scores: pd.DataFrame) -> dict:
 
 
 def bradley_terry(years: list[int], wins: dict[tuple[int, int], int], iters: int = 200) -> dict[int, float]:
-    """Simple MM fit of Bradley-Terry strengths from pairwise win counts."""
     strength = {y: 1.0 for y in years}
     total_wins = {y: 0 for y in years}
     opponents: dict[int, list[int]] = {y: [] for y in years}
@@ -75,7 +73,7 @@ def bradley_terry(years: list[int], wins: dict[tuple[int, int], int], iters: int
     return strength
 
 
-def tournament(quotes: dict, years: list[int], n_pairs: int, seed: int) -> dict:
+def tournament(quotes: dict, years: list[int], n_pairs: int, seed: int, level: str = "chunk") -> dict:
     rng = random.Random(seed)
     all_pairs = [(a, b) for i, a in enumerate(years) for b in years[i + 1:]]
     pairs = rng.sample(all_pairs, min(n_pairs, len(all_pairs)))
@@ -83,11 +81,11 @@ def tournament(quotes: dict, years: list[int], n_pairs: int, seed: int) -> dict:
     wins: dict[tuple[int, int], int] = {}
     judgments = []
     for a, b in pairs:
-        flip = rng.random() < 0.5  # randomize presentation order
+        flip = rng.random() < 0.5
         first, second = (b, a) if flip else (a, b)
         prompt = TOURNAMENT_QUESTION.format(
-            a=quotes_text(quotes, "altruism", first),
-            b=quotes_text(quotes, "altruism", second),
+            a=quotes_text(quotes, "altruism", first, level=level),
+            b=quotes_text(quotes, "altruism", second, level=level),
         )
         resp = client.messages.create(
             model=JUDGE_MODEL, max_tokens=5, temperature=0,
@@ -101,6 +99,30 @@ def tournament(quotes: dict, years: list[int], n_pairs: int, seed: int) -> dict:
         print(f"  {a} vs {b} -> {winner}")
     strengths = bradley_terry(years, wins)
     return {"judgments": judgments, "strengths": {str(y): s for y, s in strengths.items()}}
+
+
+def embedding_vs_llm(scores: pd.DataFrame, tournament_result: dict, level: str) -> float:
+    alt = scores[(scores["axis"] == "altruism") & (scores["level"] == level)].sort_values("year")
+    emb_rank = alt.set_index("year")["zscore"]
+    llm_rank = pd.Series({int(y): s for y, s in tournament_result["strengths"].items()})
+    rho, _ = spearmanr(emb_rank.sort_index(), llm_rank.sort_index())
+    return round(float(rho), 3)
+
+
+def early_year_agreement(scores: pd.DataFrame, tournament_result: dict) -> dict:
+    """Compare chunk vs sentence embedding rankings to LLM on early years."""
+    years = [y for y in EARLY_YEARS if str(y) in tournament_result["strengths"]]
+    if len(years) < 3:
+        return {"note": "insufficient early-year tournament coverage"}
+    llm = pd.Series({int(y): tournament_result["strengths"][str(y)] for y in years})
+    out = {}
+    for level in ("chunk", "sentence"):
+        alt = scores[(scores["axis"] == "altruism") & (scores["level"] == level)]
+        emb = alt[alt["year"].isin(years)].set_index("year")["zscore"]
+        if len(emb) >= 3:
+            rho, _ = spearmanr(emb.sort_index(), llm.sort_index())
+            out[f"{level}_vs_llm_spearman"] = round(float(rho), 3)
+    return out
 
 
 def perturbation_check(company: str) -> dict:
@@ -132,32 +154,49 @@ def perturbation_check(company: str) -> dict:
 
 
 def write_report(cdir, results: dict) -> None:
-    gt, pert = results["ground_truth"], results["perturbation"]
+    gt = results["ground_truth_chunk"]
+    gt_sent = results.get("ground_truth_sentence", {})
+    pert = results["perturbation"]
     lines = [
-        "# Validation report (M6 review gate)", "",
-        "## 1. Ground truth",
+        "# Validation report (M6 redux)", "",
+        "## 1. Ground truth (chunk level)",
         f"- Altruism peak year: **{gt['altruism_peak_year']}** "
         f"({'PASS' if gt['peak_within_2014_pm2'] else 'FAIL'} vs 2014 +/- 2)",
         f"- Altruism-control correlation: {gt['altruism_control_correlation']} "
         f"({'decoupled: PASS' if gt['control_decoupled'] else 'coupled: INVESTIGATE'})", "",
-        "## 2. LLM pairwise tournament",
     ]
+    if gt_sent:
+        lines += [
+            "## 1b. Ground truth (sentence level)",
+            f"- Altruism peak year: **{gt_sent['altruism_peak_year']}**",
+            f"- Altruism-control correlation: {gt_sent['altruism_control_correlation']}", "",
+        ]
+    lines += ["## 2. LLM pairwise tournament"]
     if "tournament" in results:
         lines += [
-            f"- Embedding-vs-LLM ranking agreement (Spearman): "
-            f"**{results['tournament_spearman']}**",
-            f"- {len(results['tournament']['judgments'])} pairwise judgments "
-            f"(see validation.json)", "",
+            f"- Chunk embedding-vs-LLM Spearman: **{results['tournament_spearman_chunk']}**",
+            f"- Sentence embedding-vs-LLM Spearman: **{results.get('tournament_spearman_sentence', 'n/a')}**",
+            f"- {len(results['tournament']['judgments'])} pairwise judgments", "",
         ]
+        early = results.get("early_year_agreement", {})
+        if early:
+            lines += ["### Early-year agreement (2005-2013)", ""]
+            for k, v in early.items():
+                lines.append(f"- {k}: {v}")
+            lines.append("")
     else:
         lines += ["- Skipped (--skip-tournament)", ""]
     lines += [
         "## 3. Axis-sentence perturbation",
         f"- Min Spearman across leave-one-out: **{pert['min_spearman']}** "
-        f"({'PASS' if pert['robust'] else 'FRAGILE — review phrase sets'})",
+        f"({'PASS' if pert['robust'] else 'FRAGILE'})",
         f"- Mean: {pert['mean_spearman']}", "",
-        "Disagreements between checks are case studies, not silent overrides — "
-        "investigate the chunks before believing or discarding the finding.",
+        "## 4. Data expansion notes",
+        "- Link expansion added sub-page captures (teams, belonging, etc.)",
+        "- SPA deep-sample found no rendered 2018-2022 HTML (JS shells only)",
+        "- JSON API samples are job-listing payloads — parser skipped",
+        "",
+        "Disagreements are case studies, not silent overrides.",
     ]
     (cdir / "validation_report.md").write_text("\n".join(lines) + "\n")
 
@@ -167,19 +206,23 @@ def main(company: str, n_pairs: int, seed: int, skip_tournament: bool) -> None:
     scores = pd.read_parquet(cdir / "axis_scores.parquet")
     quotes = read_json(cdir / "evidence_quotes.json")
 
-    results: dict = {"ground_truth": ground_truth_check(scores)}
-    print(f"Ground truth: {results['ground_truth']}")
+    results: dict = {
+        "ground_truth_chunk": ground_truth_check(scores, "chunk"),
+        "ground_truth_sentence": ground_truth_check(scores, "sentence"),
+    }
+    print(f"Ground truth (chunk): {results['ground_truth_chunk']}")
+    print(f"Ground truth (sentence): {results['ground_truth_sentence']}")
 
     if not skip_tournament:
-        alt = scores[scores["axis"] == "altruism"].sort_values("year")
-        years = alt["year"].tolist()
-        print(f"Tournament over {len(years)} years, {n_pairs} pairs:")
-        results["tournament"] = tournament(quotes, years, n_pairs, seed)
-        emb_rank = alt.set_index("year")["zscore"]
-        llm_rank = pd.Series({int(y): s for y, s in results["tournament"]["strengths"].items()})
-        rho, _ = spearmanr(emb_rank.sort_index(), llm_rank.sort_index())
-        results["tournament_spearman"] = round(float(rho), 3)
-        print(f"Embedding-vs-LLM Spearman: {results['tournament_spearman']}")
+        alt_years = scores[(scores["axis"] == "altruism") & (scores["level"] == "chunk")]["year"].tolist()
+        print(f"Tournament over {len(alt_years)} years, {n_pairs} pairs:")
+        results["tournament"] = tournament(quotes, alt_years, n_pairs, seed, level="chunk")
+        results["tournament_spearman_chunk"] = embedding_vs_llm(scores, results["tournament"], "chunk")
+        results["tournament_spearman_sentence"] = embedding_vs_llm(scores, results["tournament"], "sentence")
+        results["early_year_agreement"] = early_year_agreement(scores, results["tournament"])
+        print(f"Chunk vs LLM: {results['tournament_spearman_chunk']}")
+        print(f"Sentence vs LLM: {results['tournament_spearman_sentence']}")
+        print(f"Early years: {results['early_year_agreement']}")
 
     print("Perturbation check...")
     results["perturbation"] = perturbation_check(company)
@@ -187,7 +230,7 @@ def main(company: str, n_pairs: int, seed: int, skip_tournament: bool) -> None:
 
     write_json(cdir / "validation.json", results)
     write_report(cdir, results)
-    print(f"Wrote {cdir / 'validation_report.md'} — review it (manual step M6)")
+    print(f"Wrote {cdir / 'validation_report.md'}")
 
 
 if __name__ == "__main__":

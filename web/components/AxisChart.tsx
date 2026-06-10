@@ -24,6 +24,7 @@ export interface ChartRow {
 interface Props {
   rows: ChartRow[];
   axisName: string;
+  level: "chunk" | "sentence";
   selectedYear: number;
   onSelectYear: (year: number) => void;
 }
@@ -34,6 +35,7 @@ const bisectYear = bisector<ChartRow, number>((d) => d.year).center;
 function Chart({
   rows,
   axisName,
+  level,
   selectedYear,
   onSelectYear,
   width,
@@ -76,7 +78,7 @@ function Chart({
 
   return (
     <div className="relative">
-      <svg width={width} height={height} role="img" aria-label={`${axisName} axis over time`}>
+      <svg width={width} height={height} role="img" aria-label={`${axisName} axis over time (${level} level)`}>
         <Group left={MARGIN.left} top={MARGIN.top}>
           <GridRows
             scale={yScale}
@@ -219,7 +221,7 @@ function Chart({
             )}
             {tooltipData.value !== null && (
               <div className="flex justify-between gap-4">
-                <dt>chunks</dt>
+                <dt>{level === "sentence" ? "sentences" : "chunks"}</dt>
                 <dd>
                   {tooltipData.nChunks} (top-{tooltipData.kUsed})
                 </dd>

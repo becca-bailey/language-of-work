@@ -59,9 +59,18 @@ def main(company: str, validate_only: bool) -> None:
         sample_chunks = [c for c in chunks if c["chunk_id"] in hand_labels]
         predictions = classify_chunks(sample_chunks)
     else:
-        predictions = classify_chunks(chunks)
-        write_json(cdir / "classifications.json", predictions)
-        print(f"Wrote {cdir / 'classifications.json'}")
+        existing: dict[str, str] = {}
+        cls_path = cdir / "classifications.json"
+        if cls_path.exists():
+            existing = read_json(cls_path)
+        new_chunks = [c for c in chunks if c["chunk_id"] not in existing]
+        print(f"Incremental: {len(new_chunks)} new, {len(existing)} already classified")
+        if new_chunks:
+            predictions = {**existing, **classify_chunks(new_chunks)}
+        else:
+            predictions = existing
+        write_json(cls_path, predictions)
+        print(f"Wrote {cls_path} ({len(predictions)} total)")
         write_mission_review(cdir, chunks, predictions)
 
     if hand_labels:

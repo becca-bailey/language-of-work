@@ -18,10 +18,12 @@ export interface YearScore {
   quotes: EvidenceQuote[];
 }
 
+export type ScoreLevel = "chunk" | "sentence";
+
 export interface AxisData {
   company: string;
   axis: string;
-  years: YearScore[];
+  levels: Partial<Record<ScoreLevel, { years: YearScore[] }>>;
 }
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
@@ -35,7 +37,16 @@ export async function loadAxis(
       path.join(DATA_DIR, company, `${axis}.json`),
       "utf-8"
     );
-    return JSON.parse(raw) as AxisData;
+    const parsed = JSON.parse(raw) as AxisData & { years?: YearScore[] };
+    // backward compat: old flat format
+    if (!parsed.levels && parsed.years) {
+      return {
+        company: parsed.company,
+        axis: parsed.axis,
+        levels: { chunk: { years: parsed.years } },
+      };
+    }
+    return parsed;
   } catch {
     return null;
   }

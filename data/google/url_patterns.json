@@ -2,20 +2,90 @@
   "company": "google",
   "comment": "Hub careers pages to query in CDX. Edit during manual step M1 (see docs/manual/M1-url-archaeology.md), then re-run 'fetch_snapshots.py discover' to verify coverage. Removed after CDX probing: about.google/careers/ (zero captures), jobs.google.com/ (redirects/404 only).",
   "patterns": [
-    { "url": "google.com/jobs/", "match_type": "exact", "era_hint": "2005-2007" },
-    { "url": "google.com/jobs/index.html", "match_type": "exact", "era_hint": "2005-2007" },
-    { "url": "google.com/intl/en/jobs/", "match_type": "exact", "era_hint": "2005-2012" },
-    { "url": "google.com/intl/en/jobs/index.html", "match_type": "exact", "era_hint": "2005-2012" },
-    { "url": "google.com/about/jobs/", "match_type": "exact", "era_hint": "2012-2014" },
-    { "url": "google.com/about/careers/", "match_type": "exact", "era_hint": "2014-2016" },
-    { "url": "google.com/about/careers/lifeatgoogle/", "match_type": "exact", "era_hint": "2014-2016" },
-    { "url": "google.com/about/careers/applications/", "match_type": "exact", "era_hint": "2023+" },
-    { "url": "careers.google.com/", "match_type": "exact", "era_hint": "2016-2023" },
-    { "url": "careers.google.com/how-we-care-for-googlers/", "match_type": "exact", "era_hint": "2017+" },
-    { "url": "careers.google.com/how-we-hire/", "match_type": "exact", "era_hint": "2016-2023" }
+    {
+      "url": "google.com/jobs/",
+      "match_type": "exact",
+      "era_hint": "2005-2007"
+    },
+    {
+      "url": "google.com/jobs/index.html",
+      "match_type": "exact",
+      "era_hint": "2005-2007"
+    },
+    {
+      "url": "google.com/intl/en/jobs/",
+      "match_type": "exact",
+      "era_hint": "2005-2012"
+    },
+    {
+      "url": "google.com/intl/en/jobs/index.html",
+      "match_type": "exact",
+      "era_hint": "2005-2012"
+    },
+    {
+      "url": "google.com/about/jobs/",
+      "match_type": "exact",
+      "era_hint": "2012-2014"
+    },
+    {
+      "url": "google.com/about/careers/",
+      "match_type": "exact",
+      "era_hint": "2014-2016"
+    },
+    {
+      "url": "google.com/about/careers/lifeatgoogle/",
+      "match_type": "exact",
+      "era_hint": "2014-2016"
+    },
+    {
+      "url": "google.com/about/careers/applications/",
+      "match_type": "exact",
+      "era_hint": "2023+"
+    },
+    {
+      "url": "careers.google.com/",
+      "match_type": "exact",
+      "era_hint": "2016-2023"
+    },
+    {
+      "url": "careers.google.com/how-we-care-for-googlers/",
+      "match_type": "exact",
+      "era_hint": "2017+"
+    },
+    {
+      "url": "careers.google.com/how-we-hire/",
+      "match_type": "exact",
+      "era_hint": "2016-2023"
+    },
+    {
+      "url": "about.google/belonging/",
+      "match_type": "exact",
+      "era_hint": "belonging"
+    },
+    {
+      "url": "diversity.google/",
+      "match_type": "exact",
+      "era_hint": "diversity"
+    },
+    {
+      "url": "buildyourfuture.withgoogle.com/",
+      "match_type": "exact",
+      "era_hint": "students"
+    },
+    {
+      "url": "careers.google.com/teams/",
+      "match_type": "exact",
+      "era_hint": "teams"
+    }
   ],
   "spa_json_probes": [
-    { "url": "careers.google.com/api/", "match_type": "prefix" },
-    { "url": "careers.google.com/jobs/results/", "match_type": "exact" }
+    {
+      "url": "careers.google.com/api/",
+      "match_type": "prefix"
+    },
+    {
+      "url": "careers.google.com/jobs/results/",
+      "match_type": "exact"
+    }
   ]
 }

@@ -1,10 +1,19 @@
 {
-  "ground_truth": {
-    "altruism_peak_year": 2014,
-    "peak_within_2014_pm2": true,
-    "altruism_control_correlation": -0.005,
-    "correlation_p": 0.986,
+  "ground_truth_chunk": {
+    "level": "chunk",
+    "altruism_peak_year": 2025,
+    "peak_within_2014_pm2": false,
+    "altruism_control_correlation": 0.499,
+    "correlation_p": 0.049,
     "control_decoupled": true
+  },
+  "ground_truth_sentence": {
+    "level": "sentence",
+    "altruism_peak_year": 2007,
+    "peak_within_2014_pm2": false,
+    "altruism_control_correlation": 0.64,
+    "correlation_p": 0.008,
+    "control_decoupled": false
   },
   "tournament": {
     "judgments": [
@@ -20,7 +29,7 @@
           2005,
           2025
         ],
-        "winner": 2005
+        "winner": 2025
       },
       {
         "pair": [
@@ -34,7 +43,7 @@
           2013,
           2016
         ],
-        "winner": 2013
+        "winner": 2016
       },
       {
         "pair": [
@@ -55,7 +64,7 @@
           2006,
           2025
         ],
-        "winner": 2006
+        "winner": 2025
       },
       {
         "pair": [
@@ -104,21 +113,21 @@
           2005,
           2017
         ],
-        "winner": 2005
+        "winner": 2017
       },
       {
         "pair": [
           2011,
           2012
         ],
-        "winner": 2011
+        "winner": 2012
       },
       {
         "pair": [
           2009,
           2010
         ],
-        "winner": 2010
+        "winner": 2009
       },
       {
         "pair": [
@@ -132,14 +141,14 @@
           2023,
           2024
         ],
-        "winner": 2024
+        "winner": 2023
       },
       {
         "pair": [
           2015,
           2017
         ],
-        "winner": 2015
+        "winner": 2017
       },
       {
         "pair": [
@@ -160,7 +169,7 @@
           2009,
           2025
         ],
-        "winner": 2009
+        "winner": 2025
       },
       {
         "pair": [
@@ -181,14 +190,14 @@
           2010,
           2017
         ],
-        "winner": 2010
+        "winner": 2017
       },
       {
         "pair": [
           2006,
           2017
         ],
-        "winner": 2006
+        "winner": 2017
       },
       {
         "pair": [
@@ -202,7 +211,7 @@
           2011,
           2025
         ],
-        "winner": 2011
+        "winner": 2025
       },
       {
         "pair": [
@@ -223,7 +232,7 @@
           2008,
           2025
         ],
-        "winner": 2008
+        "winner": 2025
       },
       {
         "pair": [
@@ -251,7 +260,7 @@
           2017,
           2024
         ],
-        "winner": 2024
+        "winner": 2017
       },
       {
         "pair": [
@@ -272,7 +281,7 @@
           2014,
           2025
         ],
-        "winner": 2014
+        "winner": 2025
       },
       {
         "pair": [
@@ -290,54 +299,59 @@
       }
     ],
     "strengths": {
-      "2005": 0.02984835550501808,
-      "2006": 0.6108914540125184,
-      "2007": 0.01056489027126531,
-      "2008": 7.590390559399245e-06,
-      "2009": 1.394146546006719e-05,
-      "2010": 0.0003996319926265367,
-      "2011": 3.877290226413403e-06,
-      "2012": 0.0,
-      "2013": 1.7755746352051018e-07,
-      "2014": 0.3084282342314227,
-      "2015": 0.03813892778420582,
-      "2016": 0.0,
-      "2017": 0.0,
-      "2023": 9.029837150265544e-05,
-      "2024": 0.0016125319764187047,
-      "2025": 8.915131240427352e-08
+      "2005": 0.00010512438136033111,
+      "2006": 0.0024756880405561303,
+      "2007": 8.660115830295413e-05,
+      "2008": 0.0,
+      "2009": 3.1154125520578346e-06,
+      "2010": 3.896023960679027e-08,
+      "2011": 0.0,
+      "2012": 6.459713051345822e-07,
+      "2013": 0.0,
+      "2014": 0.009899829445238111,
+      "2015": 0.002180613960124424,
+      "2016": 6.9523513726837e-07,
+      "2017": 0.058556815700483746,
+      "2023": 7.201494487676944e-05,
+      "2024": 0.0,
+      "2025": 0.9266188167898236
     }
   },
-  "tournament_spearman": 0.532,
+  "tournament_spearman_chunk": 0.673,
+  "tournament_spearman_sentence": 0.707,
+  "early_year_agreement": {
+    "chunk_vs_llm_spearman": 0.373,
+    "sentence_vs_llm_spearman": 0.678
+  },
   "perturbation": {
     "per_sentence": [
       {
         "dropped": "A0: We believe technology has the power to solve humanity's greatest challenges.",
-        "spearman": 0.972
+        "spearman": 0.985
       },
       {
         "dropped": "A1: Join us in building products that leave the world better than we found it.",
-        "spearman": 0.979
+        "spearman": 0.991
       },
       {
         "dropped": "A2: Our mission is to create innovations that uplift communities and transform lives for the better.",
-        "spearman": 0.973
+        "spearman": 0.994
       },
       {
         "dropped": "A3: At our company, we measure success by the positive impact we create in society.",
-        "spearman": 0.947
+        "spearman": 0.971
       },
       {
         "dropped": "A4: We envision a future where technology serves as a force for universal good.",
-        "spearman": 0.996
+        "spearman": 0.985
       },
       {
         "dropped": "A5: We're building something bigger than ourselves—a legacy of meaningful progress.",
-        "spearman": 0.996
+        "spearman": 0.994
       },
       {
         "dropped": "A6: Come help us pursue breakthroughs that will benefit generations to come.",
-        "spearman": 0.979
+        "spearman": 0.997
       },
       {
         "dropped": "A7: Join us in our quest to unlock technology's potential for human flourishing.",
@@ -345,39 +359,39 @@
       },
       {
         "dropped": "B0: You'll work alongside teams who measure success in customer acquisition, retention, and sustainable growth.",
-        "spearman": 0.973
+        "spearman": 0.962
       },
       {
         "dropped": "B1: We prioritize features based on commercial value and ship solutions that move the bottom line.",
-        "spearman": 0.968
+        "spearman": 0.988
       },
       {
         "dropped": "B2: We invest in innovation that creates competitive advantage and generates measurable returns.",
-        "spearman": 0.938
+        "spearman": 0.991
       },
       {
         "dropped": "B3: Join us if you want your work to directly contribute to revenue growth and market expansion.",
-        "spearman": 0.943
+        "spearman": 0.965
       },
       {
         "dropped": "B4: Our technical strategy is shaped by competitive positioning and customer willingness to pay.",
-        "spearman": 0.979
+        "spearman": 0.988
       },
       {
         "dropped": "B5: Our product roadmap reflects what the market demands, and we pivot quickly when customer feedback requires it.",
-        "spearman": 0.976
+        "spearman": 0.997
       },
       {
         "dropped": "B6: We build technology that solves real problems for paying customers.",
-        "spearman": 0.999
+        "spearman": 0.997
       },
       {
         "dropped": "B7: You'll collaborate with colleagues who understand that great technology must also make financial sense.",
-        "spearman": 0.973
+        "spearman": 0.97
       }
     ],
-    "min_spearman": 0.938,
-    "mean_spearman": 0.974,
+    "min_spearman": 0.962,
+    "mean_spearman": 0.985,
     "robust": true
   }
 }
