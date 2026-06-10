@@ -8,6 +8,7 @@ boundaries. Trafilatura runs in parallel as a coverage comparison.
 
 from __future__ import annotations
 
+import difflib
 import hashlib
 import re
 from dataclasses import dataclass
@@ -162,6 +163,34 @@ def trafilatura_words(html: str | bytes) -> int:
         html = html.decode("utf-8", errors="replace")
     text = trafilatura.extract(html) or ""
     return _word_count(text)
+
+
+NEAR_DUP_TEXT_RATIO = 0.92
+
+
+def dedup_chunks(chunks: list[dict], *, threshold: float = NEAR_DUP_TEXT_RATIO) -> list[dict]:
+    """Drop near-duplicate chunks, keeping the longest version of each.
+
+    Exact-text dedup first, then SequenceMatcher ratio for snapshots of the
+    same page that differ slightly (nav trimming, whitespace, etc.).
+    """
+    exact_seen: set[str] = set()
+    unique: list[dict] = []
+    for c in chunks:
+        if c["text"] not in exact_seen:
+            exact_seen.add(c["text"])
+            unique.append(c)
+    # longest first so we keep the fullest capture
+    unique.sort(key=lambda c: len(c["text"]), reverse=True)
+    kept: list[dict] = []
+    for c in unique:
+        if any(
+            difflib.SequenceMatcher(None, c["text"], k["text"]).ratio() >= threshold
+            for k in kept
+        ):
+            continue
+        kept.append(c)
+    return kept
 
 
 def coverage_stats(chunks: list[dict], html: str | bytes) -> dict:

@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import AxisChart, { type ChartRow } from "@/components/AxisChart";
-import type { AxisData, ScoreLevel, YearScore } from "@/lib/data";
+import type { AxisData, YearScore } from "@/lib/data";
 
 interface Props {
   axis: AxisData;
@@ -10,19 +10,8 @@ interface Props {
 }
 
 export default function AxisExplorer({ axis, control }: Props) {
-  const availableLevels = useMemo(() => {
-    const levels: ScoreLevel[] = [];
-    if (axis.levels.chunk?.years.length) levels.push("chunk");
-    if (axis.levels.sentence?.years.length) levels.push("sentence");
-    return levels;
-  }, [axis]);
-
-  const [level, setLevel] = useState<ScoreLevel>(
-    availableLevels.includes("chunk") ? "chunk" : "sentence"
-  );
-
-  const axisYears = axis.levels[level]?.years ?? [];
-  const controlYears = control?.levels[level]?.years ?? [];
+  const axisYears = axis.years;
+  const controlYears = control?.years ?? [];
 
   const byYear = useMemo(
     () => new Map(axisYears.map((y) => [y.year, y])),
@@ -44,7 +33,7 @@ export default function AxisExplorer({ axis, control }: Props) {
         value: y?.zscore ?? null,
         control: controlByYear.get(year) ?? null,
         thin: y?.thin ?? false,
-        nChunks: y?.nChunks ?? 0,
+        nItems: y?.nChunks ?? 0,
         kUsed: y?.kUsed ?? 0,
       };
     });
@@ -54,37 +43,16 @@ export default function AxisExplorer({ axis, control }: Props) {
 
   return (
     <div>
-      {availableLevels.length > 1 && (
-        <div className="mb-4 flex gap-2">
-          {availableLevels.map((l) => (
-            <button
-              key={l}
-              onClick={() => setLevel(l)}
-              className={`rounded-md px-3 py-1.5 text-xs font-medium capitalize transition-colors ${
-                level === l
-                  ? "bg-indigo-600 text-white"
-                  : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-300"
-              }`}
-            >
-              {l} level
-            </button>
-          ))}
-        </div>
-      )}
-
       <AxisChart
         rows={rows}
         axisName={axis.axis}
-        level={level}
         selectedYear={selectedYear}
         onSelectYear={setSelectedYear}
       />
       <div className="mt-1 flex items-center justify-between">
         <p className="text-xs text-neutral-500">
-          {level === "sentence"
-            ? "Sentence-level scoring isolates idealistic lines within dense pages."
-            : "Chunk-level scoring (default). "}
-          Click a point to inspect. Amber rings = thin coverage.
+          Sentence-level scoring — top idealistic lines per year, not diluted
+          by page chrome. Click a point to inspect. Amber rings = thin coverage.
         </p>
         <div className="flex items-center gap-4 text-xs text-neutral-500">
           <span className="flex items-center gap-1.5">
@@ -119,29 +87,18 @@ export default function AxisExplorer({ axis, control }: Props) {
           <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
             <h2 className="text-xl font-semibold">{selected.year}</h2>
             <span className="font-mono text-sm text-neutral-500">
-              z = {selected.zscore.toFixed(2)} · {selected.nChunks}{" "}
-              {level === "sentence" ? "sentences" : "chunks"} · top-
-              {selected.kUsed}
+              z = {selected.zscore.toFixed(2)} · {selected.nChunks} sentences ·
+              top-{selected.kUsed}
             </span>
             {selected.thin && (
               <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-800 dark:bg-amber-900/40 dark:text-amber-300">
                 thin coverage
               </span>
             )}
-            {level === "chunk" && selected.carriedForwardFrac !== null && (
-              <span
-                className="rounded-full bg-neutral-100 px-2 py-0.5 text-xs text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300"
-                title="Fraction of this year's mission chunks near-duplicated from the prior year"
-              >
-                {Math.round(selected.carriedForwardFrac * 100)}% carried
-                forward
-              </span>
-            )}
           </div>
 
           <h3 className="mt-5 text-sm font-medium uppercase tracking-wide text-neutral-500">
-            Top-matching {level === "sentence" ? "sentences" : "chunks"} (the
-            evidence)
+            Top-matching sentences (the evidence)
           </h3>
           <ul className="mt-3 space-y-3">
             {selected.quotes.map((q, i) => (

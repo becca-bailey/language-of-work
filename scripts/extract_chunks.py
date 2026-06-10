@@ -11,7 +11,7 @@ from __future__ import annotations
 import argparse
 from collections import defaultdict
 
-from lowork.chunking import chunk_html, coverage_stats
+from lowork.chunking import chunk_html, coverage_stats, dedup_chunks
 from lowork.config import company_dir
 from lowork.io import read_json, write_json, write_jsonl
 
@@ -40,15 +40,11 @@ def main(company: str) -> None:
     chunks_dir = cdir / "chunks"
     total = 0
     for year, chunks in sorted(by_year.items()):
-        # Dedup identical texts within a year (same page captured multiple times)
-        seen: set[str] = set()
-        unique = []
-        for c in chunks:
-            if c["text"] not in seen:
-                seen.add(c["text"])
-                unique.append(c)
+        unique = dedup_chunks(chunks)
         total += write_jsonl(chunks_dir / f"{year}.jsonl", unique)
-        print(f"{year}: {len(unique)} unique chunks")
+        dropped = len(chunks) - len(unique)
+        note = f" ({dropped} near-dups dropped)" if dropped else ""
+        print(f"{year}: {len(unique)} unique chunks{note}")
 
     write_json(cdir / "snapshots.json", manifest)
     thin_years = sorted({int(c["timestamp"][:4]) for c in manifest["captures"]

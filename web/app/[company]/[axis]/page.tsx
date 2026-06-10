@@ -27,7 +27,7 @@ export default async function AxisPage({
         <span className="capitalize">{axis}</span>
       </h1>
       <p className="mt-2 max-w-prose text-sm text-neutral-600 dark:text-neutral-400">
-        Yearly top-k mean projection of mission/brand chunks onto the {axis}{" "}
+        Yearly top-k mean of mission/brand sentences projected onto the {axis}{" "}
         contrast axis, z-scored within company. The dashed control axis tracks
         page composition — if both move together, the signal is composition,
         not values.

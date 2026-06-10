@@ -18,12 +18,10 @@ export interface YearScore {
   quotes: EvidenceQuote[];
 }
 
-export type ScoreLevel = "chunk" | "sentence";
-
 export interface AxisData {
   company: string;
   axis: string;
-  levels: Partial<Record<ScoreLevel, { years: YearScore[] }>>;
+  years: YearScore[];
 }
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
@@ -37,16 +35,15 @@ export async function loadAxis(
       path.join(DATA_DIR, company, `${axis}.json`),
       "utf-8"
     );
-    const parsed = JSON.parse(raw) as AxisData & { years?: YearScore[] };
-    // backward compat: old flat format
-    if (!parsed.levels && parsed.years) {
-      return {
-        company: parsed.company,
-        axis: parsed.axis,
-        levels: { chunk: { years: parsed.years } },
-      };
-    }
-    return parsed;
+    const parsed = JSON.parse(raw) as AxisData & {
+      years?: YearScore[];
+      levels?: { sentence?: { years: YearScore[] }; chunk?: { years: YearScore[] } };
+    };
+    // Current: flat sentence-level export. Legacy: nested levels object.
+    if (parsed.years) return parsed;
+    const years =
+      parsed.levels?.sentence?.years ?? parsed.levels?.chunk?.years ?? [];
+    return { company: parsed.company, axis: parsed.axis, years };
   } catch {
     return null;
   }

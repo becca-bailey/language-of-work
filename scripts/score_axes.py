@@ -18,6 +18,7 @@ import numpy as np
 import pandas as pd
 
 from lowork.axes import near_duplicates, project, topk_mean, zscore
+from lowork.chunking import dedup_chunks
 from lowork.config import AXES_DIR, EMBEDDING_MODEL, NEAR_DUP_COSINE, TOP_K, company_dir
 from lowork.embeddings import EmbeddingStore
 from lowork.io import read_json, write_json
@@ -93,6 +94,12 @@ def score_sentence_level(mission: pd.DataFrame, axis_names: list[str]) -> tuple[
         return pd.DataFrame(), {}
 
     sent_df = pd.DataFrame(records)
+    # Drop duplicate sentences within each year (from near-dup chunks)
+    sent_df = (
+        sent_df.sort_values("text", key=lambda s: s.str.len(), ascending=False)
+        .drop_duplicates(subset=["year", "text"], keep="first")
+        .reset_index(drop=True)
+    )
     embs = store.embed(sent_df["text"].tolist())
     sent_df["embedding"] = list(embs)
     sent_df["model"] = EMBEDDING_MODEL
@@ -131,6 +138,10 @@ def main(company: str, axis_names: list[str]) -> None:
     cdir = company_dir(company)
     df = pd.read_parquet(cdir / "embeddings.parquet")
     mission = df[df["label"] == "mission_brand"].reset_index(drop=True)
+    n_before = len(mission)
+    mission = pd.DataFrame(dedup_chunks(mission.to_dict("records")))
+    if len(mission) < n_before:
+        print(f"Deduped mission chunks: {n_before} -> {len(mission)}")
     print(f"{len(mission)} mission chunks across {mission['year'].nunique()} years")
 
     chunk_scores, chunk_quotes = score_chunk_level(mission, axis_names)

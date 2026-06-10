@@ -2,25 +2,18 @@
 
 ## 1. Ground truth (chunk level)
 - Altruism peak year: **2025** (FAIL vs 2014 +/- 2)
-- Altruism-control correlation: 0.499 (decoupled: PASS)
+- Altruism-control correlation: 0.322 (decoupled: PASS)
 
 ## 1b. Ground truth (sentence level)
-- Altruism peak year: **2007**
-- Altruism-control correlation: 0.64
+- Altruism peak year: **2014**
+- Altruism-control correlation: 0.699
 
 ## 2. LLM pairwise tournament
-- Chunk embedding-vs-LLM Spearman: **0.673**
-- Sentence embedding-vs-LLM Spearman: **0.707**
-- 40 pairwise judgments
-
-### Early-year agreement (2005-2013)
-
-- chunk_vs_llm_spearman: 0.373
-- sentence_vs_llm_spearman: 0.678
+- Skipped (--skip-tournament)
 
 ## 3. Axis-sentence perturbation
-- Min Spearman across leave-one-out: **0.962** (PASS)
-- Mean: 0.985
+- Min Spearman across leave-one-out: **0.959** (PASS)
+- Mean: 0.987
 
 ## 4. Data expansion notes
 - Link expansion added sub-page captures (teams, belonging, etc.)
