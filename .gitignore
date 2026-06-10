@@ -1,0 +1,21 @@
+.env
+.venv/
+__pycache__/
+*.egg-info/
+.DS_Store
+
+# Raw HTML is the permanent record but bulky; kept on disk, not in git.
+# The snapshots.json manifest IS committed.
+data/*/raw_html/
+
+# Derived artifacts are reproducible from raw HTML + cached embeddings
+data/*/chunks/
+data/*/embeddings.parquet
+data/*/embedding_cache/
+data/*/axis_scores.parquet
+
+# Next.js
+web/node_modules/
+web/.next/
+web/out/
+web/public/data/

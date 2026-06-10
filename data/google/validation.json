@@ -1,0 +1,383 @@
+{
+  "ground_truth": {
+    "altruism_peak_year": 2014,
+    "peak_within_2014_pm2": true,
+    "altruism_control_correlation": -0.005,
+    "correlation_p": 0.986,
+    "control_decoupled": true
+  },
+  "tournament": {
+    "judgments": [
+      {
+        "pair": [
+          2011,
+          2023
+        ],
+        "winner": 2023
+      },
+      {
+        "pair": [
+          2005,
+          2025
+        ],
+        "winner": 2005
+      },
+      {
+        "pair": [
+          2005,
+          2009
+        ],
+        "winner": 2005
+      },
+      {
+        "pair": [
+          2013,
+          2016
+        ],
+        "winner": 2013
+      },
+      {
+        "pair": [
+          2007,
+          2014
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2007,
+          2010
+        ],
+        "winner": 2007
+      },
+      {
+        "pair": [
+          2006,
+          2025
+        ],
+        "winner": 2006
+      },
+      {
+        "pair": [
+          2006,
+          2009
+        ],
+        "winner": 2006
+      },
+      {
+        "pair": [
+          2017,
+          2025
+        ],
+        "winner": 2025
+      },
+      {
+        "pair": [
+          2005,
+          2024
+        ],
+        "winner": 2005
+      },
+      {
+        "pair": [
+          2012,
+          2015
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2016,
+          2023
+        ],
+        "winner": 2023
+      },
+      {
+        "pair": [
+          2010,
+          2015
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2005,
+          2017
+        ],
+        "winner": 2005
+      },
+      {
+        "pair": [
+          2011,
+          2012
+        ],
+        "winner": 2011
+      },
+      {
+        "pair": [
+          2009,
+          2010
+        ],
+        "winner": 2010
+      },
+      {
+        "pair": [
+          2005,
+          2010
+        ],
+        "winner": 2005
+      },
+      {
+        "pair": [
+          2023,
+          2024
+        ],
+        "winner": 2024
+      },
+      {
+        "pair": [
+          2015,
+          2017
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2006,
+          2024
+        ],
+        "winner": 2006
+      },
+      {
+        "pair": [
+          2007,
+          2008
+        ],
+        "winner": 2007
+      },
+      {
+        "pair": [
+          2009,
+          2025
+        ],
+        "winner": 2009
+      },
+      {
+        "pair": [
+          2011,
+          2014
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2014,
+          2023
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2010,
+          2017
+        ],
+        "winner": 2010
+      },
+      {
+        "pair": [
+          2006,
+          2017
+        ],
+        "winner": 2006
+      },
+      {
+        "pair": [
+          2012,
+          2025
+        ],
+        "winner": 2025
+      },
+      {
+        "pair": [
+          2011,
+          2025
+        ],
+        "winner": 2011
+      },
+      {
+        "pair": [
+          2012,
+          2023
+        ],
+        "winner": 2023
+      },
+      {
+        "pair": [
+          2015,
+          2023
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2008,
+          2025
+        ],
+        "winner": 2008
+      },
+      {
+        "pair": [
+          2016,
+          2025
+        ],
+        "winner": 2025
+      },
+      {
+        "pair": [
+          2009,
+          2013
+        ],
+        "winner": 2009
+      },
+      {
+        "pair": [
+          2015,
+          2016
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2017,
+          2024
+        ],
+        "winner": 2024
+      },
+      {
+        "pair": [
+          2005,
+          2006
+        ],
+        "winner": 2006
+      },
+      {
+        "pair": [
+          2006,
+          2012
+        ],
+        "winner": 2006
+      },
+      {
+        "pair": [
+          2014,
+          2025
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2008,
+          2010
+        ],
+        "winner": 2010
+      },
+      {
+        "pair": [
+          2012,
+          2014
+        ],
+        "winner": 2014
+      }
+    ],
+    "strengths": {
+      "2005": 0.02984835550501808,
+      "2006": 0.6108914540125184,
+      "2007": 0.01056489027126531,
+      "2008": 7.590390559399245e-06,
+      "2009": 1.394146546006719e-05,
+      "2010": 0.0003996319926265367,
+      "2011": 3.877290226413403e-06,
+      "2012": 0.0,
+      "2013": 1.7755746352051018e-07,
+      "2014": 0.3084282342314227,
+      "2015": 0.03813892778420582,
+      "2016": 0.0,
+      "2017": 0.0,
+      "2023": 9.029837150265544e-05,
+      "2024": 0.0016125319764187047,
+      "2025": 8.915131240427352e-08
+    }
+  },
+  "tournament_spearman": 0.532,
+  "perturbation": {
+    "per_sentence": [
+      {
+        "dropped": "A0: We believe technology has the power to solve humanity's greatest challenges.",
+        "spearman": 0.972
+      },
+      {
+        "dropped": "A1: Join us in building products that leave the world better than we found it.",
+        "spearman": 0.979
+      },
+      {
+        "dropped": "A2: Our mission is to create innovations that uplift communities and transform lives for the better.",
+        "spearman": 0.973
+      },
+      {
+        "dropped": "A3: At our company, we measure success by the positive impact we create in society.",
+        "spearman": 0.947
+      },
+      {
+        "dropped": "A4: We envision a future where technology serves as a force for universal good.",
+        "spearman": 0.996
+      },
+      {
+        "dropped": "A5: We're building something bigger than ourselves—a legacy of meaningful progress.",
+        "spearman": 0.996
+      },
+      {
+        "dropped": "A6: Come help us pursue breakthroughs that will benefit generations to come.",
+        "spearman": 0.979
+      },
+      {
+        "dropped": "A7: Join us in our quest to unlock technology's potential for human flourishing.",
+        "spearman": 0.991
+      },
+      {
+        "dropped": "B0: You'll work alongside teams who measure success in customer acquisition, retention, and sustainable growth.",
+        "spearman": 0.973
+      },
+      {
+        "dropped": "B1: We prioritize features based on commercial value and ship solutions that move the bottom line.",
+        "spearman": 0.968
+      },
+      {
+        "dropped": "B2: We invest in innovation that creates competitive advantage and generates measurable returns.",
+        "spearman": 0.938
+      },
+      {
+        "dropped": "B3: Join us if you want your work to directly contribute to revenue growth and market expansion.",
+        "spearman": 0.943
+      },
+      {
+        "dropped": "B4: Our technical strategy is shaped by competitive positioning and customer willingness to pay.",
+        "spearman": 0.979
+      },
+      {
+        "dropped": "B5: Our product roadmap reflects what the market demands, and we pivot quickly when customer feedback requires it.",
+        "spearman": 0.976
+      },
+      {
+        "dropped": "B6: We build technology that solves real problems for paying customers.",
+        "spearman": 0.999
+      },
+      {
+        "dropped": "B7: You'll collaborate with colleagues who understand that great technology must also make financial sense.",
+        "spearman": 0.973
+      }
+    ],
+    "min_spearman": 0.938,
+    "mean_spearman": 0.974,
+    "robust": true
+  }
+}
