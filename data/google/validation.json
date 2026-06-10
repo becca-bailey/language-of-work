@@ -2,18 +2,22 @@
   "ground_truth_chunk": {
     "level": "chunk",
     "altruism_peak_year": 2025,
-    "peak_within_2014_pm2": false,
     "altruism_control_correlation": 0.322,
     "correlation_p": 0.223,
-    "control_decoupled": true
+    "control_decoupled": true,
+    "expected_peak": 2014,
+    "peak_tolerance": 2,
+    "peak_within_expected": false
   },
   "ground_truth_sentence": {
     "level": "sentence",
     "altruism_peak_year": 2014,
-    "peak_within_2014_pm2": true,
     "altruism_control_correlation": 0.699,
     "correlation_p": 0.003,
-    "control_decoupled": false
+    "control_decoupled": false,
+    "expected_peak": 2014,
+    "peak_tolerance": 2,
+    "peak_within_expected": true
   },
   "perturbation": {
     "per_sentence": [

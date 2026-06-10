@@ -20,8 +20,15 @@ export interface YearScore {
 
 export interface AxisData {
   company: string;
+  displayName?: string;
   axis: string;
   years: YearScore[];
+}
+
+export interface CompanyManifestEntry {
+  id: string;
+  displayName: string;
+  axes: string[];
 }
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
@@ -49,12 +56,23 @@ export async function loadAxis(
   }
 }
 
-export async function listDatasets(): Promise<
-  { company: string; axes: string[] }[]
-> {
+export async function loadCompaniesManifest(): Promise<CompanyManifestEntry[]> {
+  try {
+    const raw = await fs.readFile(
+      path.join(DATA_DIR, "companies.json"),
+      "utf-8"
+    );
+    const parsed = JSON.parse(raw) as { companies: CompanyManifestEntry[] };
+    return parsed.companies ?? [];
+  } catch {
+    return listDatasetsLegacy();
+  }
+}
+
+async function listDatasetsLegacy(): Promise<CompanyManifestEntry[]> {
   try {
     const companies = await fs.readdir(DATA_DIR);
-    const out = [];
+    const out: CompanyManifestEntry[] = [];
     for (const company of companies) {
       const stat = await fs.stat(path.join(DATA_DIR, company));
       if (!stat.isDirectory()) continue;
@@ -63,10 +81,42 @@ export async function listDatasets(): Promise<
         .filter((f) => f.endsWith(".json"))
         .map((f) => f.replace(/\.json$/, ""))
         .filter((a) => a !== "control");
-      if (axes.length) out.push({ company, axes });
+      if (axes.length)
+        out.push({
+          id: company,
+          displayName: company.charAt(0).toUpperCase() + company.slice(1),
+          axes,
+        });
     }
     return out;
   } catch {
     return [];
   }
+}
+
+export async function listDatasets(): Promise<CompanyManifestEntry[]> {
+  return loadCompaniesManifest();
+}
+
+export async function loadAxisForCompanies(
+  companyIds: string[],
+  axis: string
+): Promise<(AxisData | null)[]> {
+  return Promise.all(companyIds.map((id) => loadAxis(id, axis)));
+}
+
+export function compareableAxes(
+  companies: CompanyManifestEntry[]
+): string[] {
+  const counts = new Map<string, number>();
+  for (const c of companies) {
+    for (const axis of c.axes) {
+      if (axis === "control") continue;
+      counts.set(axis, (counts.get(axis) ?? 0) + 1);
+    }
+  }
+  return [...counts.entries()]
+    .filter(([, n]) => n >= 2)
+    .map(([axis]) => axis)
+    .sort();
 }

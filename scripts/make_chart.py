@@ -12,11 +12,13 @@ import argparse
 import pandas as pd
 import plotly.graph_objects as go
 
+from lowork.company import CompanyProfile
 from lowork.config import company_dir
 from lowork.io import read_json
 
 
 def main(company: str) -> None:
+    profile = CompanyProfile.load(company)
     cdir = company_dir(company)
     scores = pd.read_parquet(cdir / "axis_scores.parquet")
     quotes = read_json(cdir / "evidence_quotes.json")
@@ -46,8 +48,10 @@ def main(company: str) -> None:
             marker=dict(symbol="x", size=12),
         ))
 
+    axes = sorted(scores["axis"].unique())
+    axis_label = " + ".join(a for a in axes if a != "control") or "axes"
     fig.update_layout(
-        title=f"{company.title()} careers page: altruism axis over time (z-scored)",
+        title=f"{profile.display_name} careers page: {axis_label} over time (z-scored)",
         xaxis_title="Year", yaxis_title="z-score (within company)",
         template="plotly_white",
     )

@@ -1,0 +1,88 @@
+{
+  "company": "amazon",
+  "display_name": "Amazon",
+  "comment": "Draft profile for M1 URL archaeology. Run 'fetch_snapshots.py discover --company amazon' to verify CDX coverage before fetch.",
+  "hosts": [
+    "amazon.com",
+    "www.amazon.com",
+    "amazon.jobs",
+    "www.amazon.jobs",
+    "aboutamazon.com",
+    "www.aboutamazon.com"
+  ],
+  "patterns": [
+    {
+      "url": "amazon.com/careers",
+      "match_type": "exact",
+      "era_hint": "2005-2012"
+    },
+    {
+      "url": "amazon.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2005-2012"
+    },
+    {
+      "url": "amazon.com/gp/jobs/",
+      "match_type": "exact",
+      "era_hint": "2008-2013"
+    },
+    {
+      "url": "amazon.jobs/",
+      "match_type": "exact",
+      "era_hint": "2013-2018"
+    },
+    {
+      "url": "www.amazon.jobs/en/",
+      "match_type": "exact",
+      "era_hint": "2015-2020"
+    },
+    {
+      "url": "amazon.jobs/working/working-amazon",
+      "match_type": "exact",
+      "era_hint": "2017-2022"
+    },
+    {
+      "url": "www.amazon.jobs/en/working/working-amazon",
+      "match_type": "exact",
+      "era_hint": "2018-2023"
+    },
+    {
+      "url": "aboutamazon.com/workplace/",
+      "match_type": "exact",
+      "era_hint": "2020+"
+    },
+    {
+      "url": "www.aboutamazon.com/workplace/",
+      "match_type": "exact",
+      "era_hint": "2020+"
+    }
+  ],
+  "spa_json_probes": [
+    {
+      "url": "amazon.jobs/api/",
+      "match_type": "prefix"
+    },
+    {
+      "url": "www.amazon.jobs/api/",
+      "match_type": "prefix"
+    }
+  ],
+  "spa_content_paths": [
+    "amazon.jobs/",
+    "www.amazon.jobs/en/",
+    "www.amazon.jobs/en/working/working-amazon",
+    "aboutamazon.com/workplace/"
+  ],
+  "alt_domains": [
+    {
+      "url": "aboutamazon.com/workplace/",
+      "match_type": "exact",
+      "era_hint": "workplace"
+    },
+    {
+      "url": "amazon.jobs/working/working-amazon",
+      "match_type": "exact",
+      "era_hint": "culture"
+    }
+  ]
+}

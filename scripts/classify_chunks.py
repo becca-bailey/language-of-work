@@ -18,6 +18,7 @@ import pandas as pd
 from lowork.classify import agreement_report, classify_chunks
 from lowork.config import company_dir
 from lowork.io import load_all_chunks, read_json, write_json
+from lowork.relabel import apply_relabel_heuristics
 
 
 def load_hand_labels(cdir) -> dict[str, str]:
@@ -29,11 +30,18 @@ def load_hand_labels(cdir) -> dict[str, str]:
     return dict(zip(df["chunk_id"], df["label"].str.strip()))
 
 
-def write_mission_review(cdir, chunks: list[dict], labels: dict[str, str]) -> None:
-    lines = ["# M4 read-through: mission_brand chunks by year", ""]
+def write_label_review(
+    cdir,
+    chunks: list[dict],
+    labels: dict[str, str],
+    label: str,
+    filename: str,
+    title: str,
+) -> None:
+    lines = [f"# {title}", ""]
     by_year: dict[int, list[dict]] = {}
     for c in chunks:
-        if labels.get(c["chunk_id"]) == "mission_brand":
+        if labels.get(c["chunk_id"]) == label:
             by_year.setdefault(c["year"], []).append(c)
     for year, year_chunks in sorted(by_year.items()):
         lines.append(f"## {year} ({len(year_chunks)} chunks)")
@@ -42,9 +50,20 @@ def write_mission_review(cdir, chunks: list[dict], labels: dict[str, str]) -> No
             heading = f"**{c['heading']}** — " if c["heading"] else ""
             lines.append(f"- {heading}{c['text']}")
         lines.append("")
-    path = cdir / "mission_review.md"
+    path = cdir / filename
     path.write_text("\n".join(lines) + "\n")
-    print(f"Wrote {path} for the M4 read-through gate")
+    print(f"Wrote {path} ({sum(len(v) for v in by_year.values())} chunks)")
+
+
+def write_mission_review(cdir, chunks: list[dict], labels: dict[str, str]) -> None:
+    write_label_review(
+        cdir, chunks, labels, "mission_brand",
+        "mission_review.md", "M4 read-through: mission_brand chunks by year",
+    )
+    write_label_review(
+        cdir, chunks, labels, "employee_story",
+        "employee_stories_review.md", "M4 read-through: employee_story chunks by year",
+    )
 
 
 def main(company: str, validate_only: bool) -> None:
@@ -63,13 +82,23 @@ def main(company: str, validate_only: bool) -> None:
         cls_path = cdir / "classifications.json"
         if cls_path.exists():
             existing = read_json(cls_path)
+        chunk_ids = {c["chunk_id"] for c in chunks}
+        existing = {k: v for k, v in existing.items() if k in chunk_ids}
         new_chunks = [c for c in chunks if c["chunk_id"] not in existing]
         print(f"Incremental: {len(new_chunks)} new, {len(existing)} already classified")
         if new_chunks:
             predictions = {**existing, **classify_chunks(new_chunks)}
         else:
             predictions = existing
+        predictions, relabels = apply_relabel_heuristics(predictions, chunks)
+        if relabels:
+            print(f"Heuristic relabel: {len(relabels)} chunks")
+            for r in relabels[:10]:
+                print(f"  {r['chunk_id']}: {r['from']} -> {r['to']} ({r['reason']})")
+            if len(relabels) > 10:
+                print(f"  ... and {len(relabels) - 10} more")
         write_json(cls_path, predictions)
+        write_json(cdir / "relabel_log.json", relabels)
         print(f"Wrote {cls_path} ({len(predictions)} total)")
         write_mission_review(cdir, chunks, predictions)
 

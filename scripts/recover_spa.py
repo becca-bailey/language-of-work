@@ -19,24 +19,10 @@ from collections import Counter
 import httpx
 
 from lowork.chunking import chunk_html, coverage_stats
+from lowork.company import CompanyProfile
 from lowork.config import company_dir
 from lowork.io import read_json, write_json
 from lowork.wayback import Capture, cdx_query, dedup_by_digest, fetch_capture, select_per_year
-
-CONTENT_PATHS = [
-    "careers.google.com/",
-    "careers.google.com/how-we-hire/",
-    "careers.google.com/how-we-care-for-googlers/",
-    "careers.google.com/teams/",
-    "careers.google.com/jobs/",
-]
-
-ALT_DOMAINS = [
-    {"url": "about.google/belonging/", "match_type": "exact", "era_hint": "belonging"},
-    {"url": "diversity.google/", "match_type": "exact", "era_hint": "diversity"},
-    {"url": "buildyourfuture.withgoogle.com/", "match_type": "exact", "era_hint": "students"},
-    {"url": "careers.google.com/teams/", "match_type": "exact", "era_hint": "teams"},
-]
 
 MIN_DOM_WORDS = 80  # coverage threshold for rendered captures
 
@@ -48,6 +34,12 @@ def manifest_sets(manifest: dict) -> tuple[set[str], set[str]]:
 
 
 def cmd_deep_sample(company: str, per_year: int, from_year: int, to_year: int) -> None:
+    profile = CompanyProfile.load(company)
+    content_paths = profile.spa_content_paths
+    if not content_paths:
+        print(f"No spa_content_paths in profile for {company}; skipping deep-sample")
+        return
+
     cdir = company_dir(company)
     manifest = read_json(cdir / "snapshots.json")
     raw_dir = cdir / "raw_html"
@@ -56,7 +48,7 @@ def cmd_deep_sample(company: str, per_year: int, from_year: int, to_year: int) -
     added = 0
     kept = []
     with httpx.Client(follow_redirects=True) as client:
-        for path in CONTENT_PATHS:
+        for path in content_paths:
             print(f"CDX (no collapse): {path}")
             caps = cdx_query(
                 client, path, match_type="exact", collapse=None,
@@ -179,14 +171,20 @@ def cmd_sample_json(company: str, n: int, seed: int) -> None:
 
 
 def cmd_probe_domains(company: str) -> None:
+    profile = CompanyProfile.load(company)
+    alt_domains = profile.alt_domains
+    if not alt_domains:
+        print(f"No alt_domains in profile for {company}; skipping probe-domains")
+        return
+
     cdir = company_dir(company)
-    patterns_path = cdir / "url_patterns.json"
+    patterns_path = profile.profile_path
     cfg = read_json(patterns_path)
     lines = [f"# B3: Alternate domain probe ({company})", ""]
     new_patterns = []
 
     with httpx.Client(follow_redirects=True) as client:
-        for probe in ALT_DOMAINS:
+        for probe in alt_domains:
             print(f"CDX: {probe['url']}")
             caps = cdx_query(client, probe["url"], match_type=probe["match_type"])
             years = sorted({c.year for c in caps})
@@ -233,7 +231,7 @@ def cmd_probe_domains(company: str) -> None:
         write_json(cdir / "snapshots.json", manifest)
 
     (cdir / "alt_domain_probe.md").write_text("\n".join(lines) + "\n")
-    print(f"B3: probed {len(ALT_DOMAINS)} domains, added {len(to_add)} patterns, fetched {fetched} captures")
+    print(f"B3: probed {len(alt_domains)} domains, added {len(to_add)} patterns, fetched {fetched} captures")
 
 
 if __name__ == "__main__":

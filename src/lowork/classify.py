@@ -12,7 +12,8 @@ SYSTEM_PROMPT = """You classify text chunks extracted from archived company care
 
 Assign exactly one label to each chunk:
 
-- mission_brand: company mission, values, culture, "why work here" brand copy, statements about impact or what the company believes
+- mission_brand: company mission, values, culture, "why work here" brand copy, statements about impact or what the company believes — company voice only, not individual employee narratives
+- employee_story: "meet our people" profiles, named-employee career narratives, interview-style spotlights ("When Beryl joined...", "Rich's combat experience..."). Aspirational employee quotes still belong here. NOT mission_brand even when inspiring; NOT job_listing unless describing what a team does rather than one person's story
 - job_listing: job postings AND team/department descriptions — what a team does, its responsibilities, the work involved, qualifications. Even when phrased aspirationally ("change the world"), if the subject is what a team/role does, it is job_listing
 - benefits_perks: compensation, health benefits, perks, food, offices-as-perk, time off, learning stipends
 - process_logistics: how to apply, interview process, application status, hiring timeline, FAQs about applying — including prose that directs applicants where to go ("check out our teams and roles", "connect with us on social media", "still a student? visit our student site")
@@ -21,10 +22,12 @@ Assign exactly one label to each chunk:
 
 Many chunks mix content. Decide by the DOMINANT content, with these tie-breakers:
 
-1. ANY text attached to a specific team, department, or job family is job_listing — descriptions of the team's work AND short aspirational taglines on team cards ("Engineering & Technology: Develop the products and tools of the future for billions of users", "Sales, Service & Support: Equip businesses with the right tools to help them grow"). Aspirational flavor does not make it mission_brand. mission_brand is reserved for text about the company as a whole: its mission, values, culture, offices, or impact — never a specific team or role.
+1. ANY text attached to a specific team, department, or job family is job_listing — descriptions of the team's work AND short aspirational taglines on team cards ("Engineering: Build products used by billions", "Sales: Help businesses grow with our tools"). Aspirational flavor does not make it mission_brand. mission_brand is reserved for text about the company as a whole: its mission, values, culture, offices, or impact — never a specific team or role.
 2. A list of department names, locations, or links is navigation_junk even when a legal sentence (e.g. an agency-resume disclaimer) is appended to the end. legal_boilerplate requires the legal text to be the dominant content of the chunk, not a tail.
-3. If a chunk contains substantive company-level prose followed by junk fragments (job counts, link labels, calls to action), classify by the prose and ignore the junk — "each one of our offices is designed to inspire innovation... 329 jobs 246 jobs" and playful brand copy like "Take a ride on the Google self-guided tour. Stop by our offices around the globe..." are mission_brand, not navigation_junk.
-4. Short full-sentence directives aimed at applicants are process_logistics, not navigation_junk — e.g. "Check out our teams and roles to learn more" or "Still a student? This way to our student site." But a single framing stub followed by a list of links or channel names ("Use these social media channels to connect with us: @googlejobs Life at Google channel...") is navigation_junk — the list is the dominant content, not the sentence introducing it.
+3. If a chunk contains substantive company-level prose followed by junk fragments (job counts, link labels, calls to action), classify by the prose and ignore the junk — e.g. "each one of our offices is designed to inspire innovation... 329 jobs 246 jobs" or playful brand copy like "Take a self-guided tour of our offices around the globe..." are mission_brand, not navigation_junk.
+4. Short full-sentence directives aimed at applicants are process_logistics, not navigation_junk — e.g. "Check out our teams and roles to learn more" or "Still a student? Visit our student careers site." But a single framing stub followed by a list of links or channel names ("Use these social media channels to connect with us: @companyjobs Life at Company channel...") is navigation_junk — the list is the dominant content, not the sentence introducing it.
+5. Chunks that open with e-commerce account chrome ("Hello. Sign in", "Today's Deals", "Gift Cards", "Your Account") are navigation_junk — even if mission copy follows. The chrome dominates; mission prose in a separate chunk would be mission_brand.
+6. City or office location descriptions ("Seattle is a great place to work...", population, geography) are navigation_junk or benefits_perks, not mission_brand.
 
 Respond with a JSON array, one object per chunk, in input order:
 [{"id": "<chunk id>", "label": "<label>"}]

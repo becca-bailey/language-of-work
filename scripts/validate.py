@@ -15,6 +15,7 @@ from anthropic import Anthropic
 from scipy.stats import pearsonr, spearmanr
 
 from lowork.axes import AxisDef, build_axis, project, topk_mean
+from lowork.company import CompanyProfile, ValidationHypothesis
 from lowork.config import AXES_DIR, JUDGE_MODEL, TOP_K, company_dir
 from lowork.embeddings import EmbeddingStore
 from lowork.io import read_json, write_json
@@ -39,20 +40,33 @@ def quotes_text(quotes: dict, axis: str, year: int, level: str = "chunk", max_it
     return "\n".join(f"- {q['text']}" for q in items)
 
 
-def ground_truth_check(scores: pd.DataFrame, level: str = "chunk") -> dict:
+def ground_truth_check(
+    scores: pd.DataFrame,
+    level: str = "chunk",
+    *,
+    validation: ValidationHypothesis | None = None,
+) -> dict:
     alt = scores[(scores["axis"] == "altruism") & (scores["level"] == level)].sort_values("year")
     ctrl = scores[(scores["axis"] == "control") & (scores["level"] == level)].sort_values("year")
     peak_year = int(alt.loc[alt["zscore"].idxmax(), "year"])
     merged = alt.merge(ctrl, on="year", suffixes=("_alt", "_ctrl"))
     r, p = pearsonr(merged["raw_topk_mean_alt"], merged["raw_topk_mean_ctrl"])
-    return {
+    result = {
         "level": level,
         "altruism_peak_year": peak_year,
-        "peak_within_2014_pm2": abs(peak_year - 2014) <= 2,
         "altruism_control_correlation": round(float(r), 3),
         "correlation_p": round(float(p), 3),
         "control_decoupled": bool(abs(r) < 0.5),
     }
+    if validation:
+        result["expected_peak"] = validation.expected_altruism_peak
+        result["peak_tolerance"] = validation.tolerance
+        result["peak_within_expected"] = (
+            abs(peak_year - validation.expected_altruism_peak) <= validation.tolerance
+        )
+    else:
+        result["peak_within_expected"] = None
+    return result
 
 
 def bradley_terry(years: list[int], wins: dict[tuple[int, int], int], iters: int = 200) -> dict[int, float]:
@@ -153,22 +167,31 @@ def perturbation_check(company: str) -> dict:
             "mean_spearman": round(sum(rhos) / len(rhos), 3), "robust": min(rhos) >= 0.8}
 
 
-def write_report(cdir, results: dict) -> None:
+def _peak_line(gt: dict) -> str:
+    peak = gt["altruism_peak_year"]
+    if gt.get("expected_peak") is not None:
+        exp = gt["expected_peak"]
+        tol = gt.get("peak_tolerance", 2)
+        status = "PASS" if gt.get("peak_within_expected") else "FAIL"
+        return f"- Altruism peak year: **{peak}** ({status} vs {exp} +/- {tol})"
+    return f"- Altruism peak year: **{peak}** (no hypothesis configured)"
+
+
+def write_report(cdir, results: dict, profile: CompanyProfile) -> None:
     gt = results["ground_truth_chunk"]
     gt_sent = results.get("ground_truth_sentence", {})
     pert = results["perturbation"]
     lines = [
-        "# Validation report (M6 redux)", "",
+        f"# Validation report: {profile.display_name}", "",
         "## 1. Ground truth (chunk level)",
-        f"- Altruism peak year: **{gt['altruism_peak_year']}** "
-        f"({'PASS' if gt['peak_within_2014_pm2'] else 'FAIL'} vs 2014 +/- 2)",
+        _peak_line(gt),
         f"- Altruism-control correlation: {gt['altruism_control_correlation']} "
         f"({'decoupled: PASS' if gt['control_decoupled'] else 'coupled: INVESTIGATE'})", "",
     ]
     if gt_sent:
         lines += [
             "## 1b. Ground truth (sentence level)",
-            f"- Altruism peak year: **{gt_sent['altruism_peak_year']}**",
+            _peak_line(gt_sent),
             f"- Altruism-control correlation: {gt_sent['altruism_control_correlation']}", "",
         ]
     lines += ["## 2. LLM pairwise tournament"]
@@ -191,24 +214,26 @@ def write_report(cdir, results: dict) -> None:
         f"- Min Spearman across leave-one-out: **{pert['min_spearman']}** "
         f"({'PASS' if pert['robust'] else 'FRAGILE'})",
         f"- Mean: {pert['mean_spearman']}", "",
-        "## 4. Data expansion notes",
-        "- Link expansion added sub-page captures (teams, belonging, etc.)",
-        "- SPA deep-sample found no rendered 2018-2022 HTML (JS shells only)",
-        "- JSON API samples are job-listing payloads — parser skipped",
-        "",
-        "Disagreements are case studies, not silent overrides.",
     ]
+    if profile.validation and profile.validation.notes:
+        lines += ["## 4. Data expansion notes", ""]
+        lines += [f"- {note}" for note in profile.validation.notes]
+        lines += ["", "Disagreements are case studies, not silent overrides.", ""]
+    else:
+        lines += ["Disagreements are case studies, not silent overrides.", ""]
     (cdir / "validation_report.md").write_text("\n".join(lines) + "\n")
 
 
 def main(company: str, n_pairs: int, seed: int, skip_tournament: bool) -> None:
+    profile = CompanyProfile.load(company)
+    validation = profile.validation
     cdir = company_dir(company)
     scores = pd.read_parquet(cdir / "axis_scores.parquet")
     quotes = read_json(cdir / "evidence_quotes.json")
 
     results: dict = {
-        "ground_truth_chunk": ground_truth_check(scores, "chunk"),
-        "ground_truth_sentence": ground_truth_check(scores, "sentence"),
+        "ground_truth_chunk": ground_truth_check(scores, "chunk", validation=validation),
+        "ground_truth_sentence": ground_truth_check(scores, "sentence", validation=validation),
     }
     print(f"Ground truth (chunk): {results['ground_truth_chunk']}")
     print(f"Ground truth (sentence): {results['ground_truth_sentence']}")
@@ -229,7 +254,7 @@ def main(company: str, n_pairs: int, seed: int, skip_tournament: bool) -> None:
     print(f"Min Spearman: {results['perturbation']['min_spearman']}")
 
     write_json(cdir / "validation.json", results)
-    write_report(cdir, results)
+    write_report(cdir, results, profile)
     print(f"Wrote {cdir / 'validation_report.md'}")
 
 

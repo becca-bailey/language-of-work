@@ -34,6 +34,7 @@ NEAR_DUP_COSINE = 0.95
 
 CHUNK_LABELS = [
     "mission_brand",
+    "employee_story",
     "job_listing",
     "benefits_perks",
     "process_logistics",

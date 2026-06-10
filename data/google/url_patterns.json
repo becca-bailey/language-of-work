@@ -1,6 +1,16 @@
 {
   "company": "google",
+  "display_name": "Google",
   "comment": "Hub careers pages to query in CDX. Edit during manual step M1 (see docs/manual/M1-url-archaeology.md), then re-run 'fetch_snapshots.py discover' to verify coverage. Removed after CDX probing: about.google/careers/ (zero captures), jobs.google.com/ (redirects/404 only).",
+  "hosts": [
+    "google.com",
+    "www.google.com",
+    "careers.google.com",
+    "about.google",
+    "jobs.google.com",
+    "diversity.google",
+    "buildyourfuture.withgoogle.com"
+  ],
   "patterns": [
     {
       "url": "google.com/jobs/",
@@ -87,5 +97,43 @@
       "url": "careers.google.com/jobs/results/",
       "match_type": "exact"
     }
-  ]
+  ],
+  "spa_content_paths": [
+    "careers.google.com/",
+    "careers.google.com/how-we-hire/",
+    "careers.google.com/how-we-care-for-googlers/",
+    "careers.google.com/teams/",
+    "careers.google.com/jobs/"
+  ],
+  "alt_domains": [
+    {
+      "url": "about.google/belonging/",
+      "match_type": "exact",
+      "era_hint": "belonging"
+    },
+    {
+      "url": "diversity.google/",
+      "match_type": "exact",
+      "era_hint": "diversity"
+    },
+    {
+      "url": "buildyourfuture.withgoogle.com/",
+      "match_type": "exact",
+      "era_hint": "students"
+    },
+    {
+      "url": "careers.google.com/teams/",
+      "match_type": "exact",
+      "era_hint": "teams"
+    }
+  ],
+  "validation": {
+    "expected_altruism_peak": 2014,
+    "tolerance": 2,
+    "notes": [
+      "Link expansion added sub-page captures (teams, belonging, etc.)",
+      "SPA deep-sample found no rendered 2018-2022 HTML (JS shells only)",
+      "JSON API samples are job-listing payloads — parser skipped"
+    ]
+  }
 }

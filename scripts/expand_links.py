@@ -17,6 +17,7 @@ from collections import Counter
 
 import httpx
 
+from lowork.company import CompanyProfile
 from lowork.config import company_dir
 from lowork.io import read_json, write_json
 from lowork.links import harvest_from_manifest
@@ -56,10 +57,14 @@ def existing_digests(manifest: dict) -> set[str]:
 
 
 def cmd_discover(company: str, cap_per_page: int) -> None:
+    profile = CompanyProfile.load(company)
     cdir = company_dir(company)
     manifest = read_json(cdir / "snapshots.json")
     raw_dir = cdir / "raw_html"
-    harvested = harvest_from_manifest(raw_dir, manifest["captures"], cap_per_page=cap_per_page)
+    hosts = tuple(profile.hosts)
+    harvested = harvest_from_manifest(
+        raw_dir, manifest["captures"], hosts=hosts, cap_per_page=cap_per_page
+    )
     print(f"Harvested {len(harvested)} unique content URLs from {len(manifest['captures'])} captures")
 
     already = existing_urls(manifest)

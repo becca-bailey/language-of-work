@@ -24,16 +24,7 @@ JOB_PATTERNS = re.compile(
     re.I,
 )
 
-CAREERS_HOSTS = (
-    "google.com",
-    "www.google.com",
-    "careers.google.com",
-    "about.google",
-    "jobs.google.com",
-)
-
-
-def _normalize_url(href: str, base: str) -> str | None:
+def _normalize_url(href: str, base: str, *, hosts: tuple[str, ...]) -> str | None:
     if not href or href.startswith(("#", "mailto:", "javascript:")):
         return None
     full = urljoin(base, href)
@@ -41,7 +32,7 @@ def _normalize_url(href: str, base: str) -> str | None:
     if parsed.scheme not in ("http", "https"):
         return None
     host = parsed.netloc.lower().removeprefix("www.")
-    if not any(host == h or host.endswith("." + h) for h in CAREERS_HOSTS):
+    if not any(host == h or host.endswith("." + h) for h in hosts):
         return None
     path = parsed.path.rstrip("/") + ("/" if parsed.path.endswith("/") else "")
     if not path:
@@ -56,12 +47,14 @@ def is_content_url(url: str) -> bool:
     return bool(CONTENT_PATTERNS.search(url))
 
 
-def extract_links(html: str | bytes, base_url: str, *, cap: int = 10) -> list[str]:
+def extract_links(
+    html: str | bytes, base_url: str, *, hosts: tuple[str, ...], cap: int = 10
+) -> list[str]:
     soup = BeautifulSoup(html, "lxml")
     seen: set[str] = set()
     out: list[str] = []
     for a in soup.find_all("a", href=True):
-        norm = _normalize_url(a["href"], base_url)
+        norm = _normalize_url(a["href"], base_url, hosts=hosts)
         if not norm or norm in seen:
             continue
         if not is_content_url(norm):
@@ -77,6 +70,7 @@ def harvest_from_manifest(
     raw_dir: Path,
     captures: list[dict],
     *,
+    hosts: tuple[str, ...],
     cap_per_page: int = 10,
 ) -> dict[str, list[dict]]:
     """Return {discovered_url: [{parent_timestamp, parent_url, html_file}, ...]}."""
@@ -91,7 +85,7 @@ def harvest_from_manifest(
         base = cap["original"]
         if not base.startswith("http"):
             base = "https://" + base.lstrip("/")
-        for link in extract_links(html, base, cap=cap_per_page):
+        for link in extract_links(html, base, hosts=hosts, cap=cap_per_page):
             by_url[link].append(
                 {
                     "parent_timestamp": cap["timestamp"],

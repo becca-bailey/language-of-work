@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import gzip
 import hashlib
 import time
 from dataclasses import dataclass, asdict
@@ -164,13 +165,48 @@ def html_path(raw_dir: Path, cap: Capture) -> Path:
     return raw_dir / f"{cap.timestamp}_{url_hash}.html"
 
 
+def _decode_body(raw: bytes, content_encoding: str) -> bytes:
+    """Decompress when the archive labels content gzip; keep raw bytes on failure."""
+    if "gzip" not in content_encoding.lower():
+        return raw
+    try:
+        return gzip.decompress(raw)
+    except OSError:
+        return raw
+
+
 def fetch_capture(client: httpx.Client, cap: Capture, raw_dir: Path) -> tuple[Path, int]:
     """Download original bytes for a capture. Skips if already on disk."""
     path = html_path(raw_dir, cap)
     if path.exists():
         return path, 0
-    resp = _get(client, cap.raw_url)
-    if resp.status_code != 200:
-        raise RuntimeError(f"HTTP {resp.status_code} for {cap.raw_url}")
-    path.write_bytes(resp.content)
-    return path, len(resp.content)
+
+    # Stream raw bytes — Wayback often sets Content-Encoding: gzip on captures
+    # that are not valid gzip, which breaks httpx's automatic decoder.
+    for attempt in range(MAX_RETRIES):
+        _throttle()
+        try:
+            with client.stream(
+                "GET",
+                cap.raw_url,
+                timeout=60,
+                headers={"Accept-Encoding": "identity"},
+            ) as resp:
+                if resp.status_code in (429, 503):
+                    time.sleep(5 * (attempt + 1))
+                    continue
+                if resp.status_code != 200:
+                    raise RuntimeError(f"HTTP {resp.status_code} for {cap.raw_url}")
+                raw = b"".join(resp.iter_raw())
+                encoding = resp.headers.get("content-encoding", "")
+        except httpx.TransportError:
+            if attempt == MAX_RETRIES - 1:
+                raise
+            time.sleep(5 * (attempt + 1))
+            continue
+
+        body = _decode_body(raw, encoding)
+        path.write_bytes(body)
+        return path, len(body)
+
+    raise RuntimeError(f"exhausted retries for {cap.raw_url}")

@@ -55,6 +55,114 @@ def strip_nav_runs(text: str) -> str:
     return _ws.sub(" ", _NAV_RUN.sub(" ", text)).strip()
 
 
+# Inline e-commerce / careers-page chrome merged into body text on older captures.
+_LEADING_CHROME = [
+    re.compile(r"^Hello\.?\s*Sign in[^.]*\.?\s*", re.I),
+    re.compile(r"^Your Amazon Careers Profile\s*Sign in to existing careers profile\s*", re.I),
+    re.compile(r"^New customer\?\s*Start here\s*\.?\s*", re.I),
+    re.compile(
+        r"^FREE (?:Two-Day|2-Day) Shipping[^.]*\.?\s*|"
+        r"^Save on everything you need for college[^.]*\.?\s*",
+        re.I,
+    ),
+    re.compile(r"^Sponsored by [^.]+\s*", re.I),
+    re.compile(r"^Your Amazon\.com\s+", re.I),
+    re.compile(
+        r"^(?:Today's Deals|Gifts & Wish Lists|Gift Cards|Your Account)\s*"
+        r"(?:\|\s*Help\s*)?",
+        re.I,
+    ),
+]
+
+_CAREERS_MENU_RUN = re.compile(
+    r"^(?:Search for Jobs(?:\s+at Amazon)?|Apply Now\s*›|Careers Home|"
+    r"About Amazon|Amazon Values|Inside Amazon|Locations|Benefits|"
+    r"University Recruiting(?:\s+Home)?|Military Recruiting(?:\s+Home)?|"
+    r"How to Apply|FAQ|Disability Accommodations|E-Verify|Code Ninjas|"
+    r"Amazonians on Amazon|Careers at Amazon)\s*"
+    r"(?:›|\||\s)*",
+    re.I,
+)
+
+_MISSION_ANCHOR = re.compile(
+    r"(?:At Amazon,|Work hard\. Have fun\.|Build your future with Amazon|"
+    r"Invent the future with Amazon|Our mission is to be|"
+    r"We're a company of pioneers|Come build the future|"
+    r"Every Amazonian,|Can one conversation change the world|"
+    r"At Google, our strategy|Enjoy what you do|Let's work together|"
+    r"Google's mission is)",
+    re.I,
+)
+
+_CHROME_START = re.compile(
+    r"^(?:Hello\.?\s*Sign in|New customer\?|FREE (?:Two-Day|2-Day)|"
+    r"Your Amazon\.com|Today's Deals|Sponsored by|com\b)",
+    re.I,
+)
+
+_NAVISH = re.compile(
+    r"\b(?:sign in|today's deals|gift cards|your account|apply now|"
+    r"careers home|careers at amazon|university recruiting)\b",
+    re.I,
+)
+
+_TRAILING_CHROME = [
+    re.compile(r"\s*Amazon\.com Home\s*\|\s*Directory of All Stores.*$", re.I),
+    re.compile(r"\s*Your Recent History\s*\(.*$", re.I),
+    re.compile(r"\s*›\s*View and edit your browsing history.*$", re.I),
+    re.compile(
+        r"\s*Amazon ranked America's most reputable company!.*$",
+        re.I,
+    ),
+    re.compile(r"\s*After viewing product detail pages.*$", re.I),
+    re.compile(r"\s*Conditions of Use Privacy Notice.*$", re.I),
+    # International store-directory footer on old amazon.com pages
+    re.compile(r"\s*Canada China France Germany Italy Japan United Kingdom.*$", re.I),
+]
+
+
+def _prefix_is_navish(prefix: str) -> bool:
+    if not prefix.strip():
+        return False
+    hits = len(_NAVISH.findall(prefix))
+    words = len(prefix.split())
+    return hits >= 2 or (hits >= 1 and words >= 8)
+
+
+def strip_site_chrome(text: str) -> str:
+    """Strip leading/trailing site chrome inlined in old careers-page captures."""
+    t = text
+    for _ in range(12):
+        prev = t
+        for pat in _LEADING_CHROME:
+            t = pat.sub("", t, count=1)
+        while _CAREERS_MENU_RUN.match(t):
+            t = _CAREERS_MENU_RUN.sub("", t, count=1)
+        t = re.sub(r"^com\s+", "", t, flags=re.I)
+        t = _ws.sub(" ", t).strip()
+        if t == prev:
+            break
+
+    m = _MISSION_ANCHOR.search(t)
+    if m and m.start() > 0:
+        prefix = t[: m.start()]
+        has_menu_tail = bool(
+            re.search(r"\b(?:How to Apply|FAQ|Careers Home|Help)\b", prefix, re.I)
+        )
+        if (
+            _CHROME_START.match(t)
+            or _CAREERS_MENU_RUN.match(t)
+            or _prefix_is_navish(prefix)
+            or has_menu_tail
+        ):
+            t = t[m.start() :].strip()
+
+    for pat in _TRAILING_CHROME:
+        t = pat.sub("", t).strip()
+
+    return _ws.sub(" ", t).strip()
+
+
 def _is_pure_link_list(text: str) -> bool:
     """Punctuation-free TitleCase lists like department/location name rows."""
     if _TERMINAL.search(text):
@@ -124,7 +232,7 @@ def sections_to_chunks(sections: list[Section]) -> list[dict]:
         for para in section.paragraphs:
             if _is_pure_link_list(para):
                 continue
-            para = strip_nav_runs(para)
+            para = strip_site_chrome(strip_nav_runs(para))
             if _word_count(para) < 6:
                 continue
             pw = _word_count(para)

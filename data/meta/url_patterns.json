@@ -1,0 +1,88 @@
+{
+  "company": "meta",
+  "display_name": "Meta",
+  "comment": "Draft profile for M1 URL archaeology. Run 'fetch_snapshots.py discover --company meta' to verify CDX coverage before fetch.",
+  "hosts": [
+    "facebook.com",
+    "www.facebook.com",
+    "metacareers.com",
+    "www.metacareers.com",
+    "about.fb.com",
+    "www.about.fb.com"
+  ],
+  "patterns": [
+    {
+      "url": "facebook.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2008-2015"
+    },
+    {
+      "url": "www.facebook.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2008-2015"
+    },
+    {
+      "url": "facebook.com/careers/life/",
+      "match_type": "exact",
+      "era_hint": "2012-2018"
+    },
+    {
+      "url": "www.facebook.com/careers/life/",
+      "match_type": "exact",
+      "era_hint": "2012-2018"
+    },
+    {
+      "url": "facebook.com/careers/teams/",
+      "match_type": "exact",
+      "era_hint": "2014-2019"
+    },
+    {
+      "url": "www.facebook.com/careers/teams/",
+      "match_type": "exact",
+      "era_hint": "2014-2019"
+    },
+    {
+      "url": "metacareers.com/",
+      "match_type": "exact",
+      "era_hint": "2021+"
+    },
+    {
+      "url": "www.metacareers.com/",
+      "match_type": "exact",
+      "era_hint": "2021+"
+    },
+    {
+      "url": "metacareers.com/life/",
+      "match_type": "exact",
+      "era_hint": "2021+"
+    },
+    {
+      "url": "www.metacareers.com/life/",
+      "match_type": "exact",
+      "era_hint": "2021+"
+    }
+  ],
+  "spa_json_probes": [
+    {
+      "url": "metacareers.com/api/",
+      "match_type": "prefix"
+    },
+    {
+      "url": "www.metacareers.com/api/",
+      "match_type": "prefix"
+    }
+  ],
+  "spa_content_paths": [
+    "facebook.com/careers/",
+    "facebook.com/careers/life/",
+    "metacareers.com/",
+    "metacareers.com/life/"
+  ],
+  "alt_domains": [
+    {
+      "url": "metacareers.com/life/",
+      "match_type": "exact",
+      "era_hint": "life"
+    }
+  ]
+}

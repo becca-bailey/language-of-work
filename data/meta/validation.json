@@ -1,0 +1,89 @@
+{
+  "ground_truth_chunk": {
+    "level": "chunk",
+    "altruism_peak_year": 2025,
+    "altruism_control_correlation": 0.637,
+    "correlation_p": 0.173,
+    "control_decoupled": false,
+    "peak_within_expected": null
+  },
+  "ground_truth_sentence": {
+    "level": "sentence",
+    "altruism_peak_year": 2025,
+    "altruism_control_correlation": 0.716,
+    "correlation_p": 0.11,
+    "control_decoupled": false,
+    "peak_within_expected": null
+  },
+  "perturbation": {
+    "per_sentence": [
+      {
+        "dropped": "A0: We believe technology has the power to solve humanity's greatest challenges.",
+        "spearman": 0.963
+      },
+      {
+        "dropped": "A1: Join us in building products that leave the world better than we found it.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "A2: Our mission is to create innovations that uplift communities and transform lives for the better.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "A3: At our company, we measure success by the positive impact we create in society.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "A4: We envision a future where technology serves as a force for universal good.",
+        "spearman": 0.988
+      },
+      {
+        "dropped": "A5: We're building something bigger than ourselves—a legacy of meaningful progress.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "A6: Come help us pursue breakthroughs that will benefit generations to come.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "A7: Join us in our quest to unlock technology's potential for human flourishing.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "B0: You'll work alongside teams who measure success in customer acquisition, retention, and sustainable growth.",
+        "spearman": 0.951
+      },
+      {
+        "dropped": "B1: We prioritize features based on commercial value and ship solutions that move the bottom line.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "B2: We invest in innovation that creates competitive advantage and generates measurable returns.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "B3: Join us if you want your work to directly contribute to revenue growth and market expansion.",
+        "spearman": 0.988
+      },
+      {
+        "dropped": "B4: Our technical strategy is shaped by competitive positioning and customer willingness to pay.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "B5: Our product roadmap reflects what the market demands, and we pivot quickly when customer feedback requires it.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "B6: We build technology that solves real problems for paying customers.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "B7: You'll collaborate with colleagues who understand that great technology must also make financial sense.",
+        "spearman": 1.0
+      }
+    ],
+    "min_spearman": 0.951,
+    "mean_spearman": 0.993,
+    "robust": true
+  }
+}

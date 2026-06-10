@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { listDatasets } from "@/lib/data";
+import { getAxisContent } from "@/lib/content";
 
 export default async function Home() {
   const datasets = await listDatasets();
+  const axes = [...new Set(datasets.flatMap((d) => d.axes))].sort();
 
   return (
     <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-16">
@@ -19,34 +21,36 @@ export default async function Home() {
       </p>
 
       <h2 className="mt-12 text-sm font-medium uppercase tracking-wide text-neutral-500">
-        Analyses
+        Topics
       </h2>
-      {datasets.length === 0 ? (
+      {axes.length === 0 ? (
         <p className="mt-4 rounded-lg border border-dashed border-neutral-300 p-6 text-sm text-neutral-500 dark:border-neutral-700">
           No exported data yet. Run the pipeline through{" "}
           <code className="font-mono">scripts/export_web.py</code>, then reload.
         </p>
       ) : (
         <ul className="mt-4 space-y-2">
-          {datasets.flatMap(({ company, axes }) =>
-            axes.map((axis) => (
-              <li key={`${company}/${axis}`}>
+          {axes.map((axis) => {
+            const content = getAxisContent(axis);
+            return (
+              <li key={axis}>
                 <Link
-                  href={`/${company}/${axis}`}
-                  className="group flex items-baseline justify-between rounded-lg border border-neutral-200 px-4 py-3 transition-colors hover:border-neutral-400 dark:border-neutral-800 dark:hover:border-neutral-600"
+                  href={`/${axis}`}
+                  className="group flex items-baseline justify-between gap-4 rounded-lg border border-neutral-200 px-4 py-3 transition-colors hover:border-neutral-400 dark:border-neutral-800 dark:hover:border-neutral-600"
                 >
                   <span>
-                    <span className="font-medium capitalize">{company}</span>
-                    <span className="text-neutral-400"> / </span>
-                    <span className="capitalize">{axis}</span>
+                    <span className="font-medium">{content.title}</span>
+                    <span className="mt-0.5 block text-sm text-neutral-500 dark:text-neutral-400">
+                      {content.teaser}
+                    </span>
                   </span>
                   <span className="text-sm text-neutral-400 transition-transform group-hover:translate-x-0.5">
                     &rarr;
                   </span>
                 </Link>
               </li>
-            ))
-          )}
+            );
+          })}
         </ul>
       )}
     </main>
