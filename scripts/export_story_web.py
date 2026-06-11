@@ -18,6 +18,9 @@ STORY_COMPANIES = ["google", "amazon", "meta", "palantir", "coinbase", "netflix"
 DEI_VIEW_EXCLUDED: set[str] = set()
 # Meta careers copy scores high on inclusion embeddings without workforce DEI rhetoric.
 ENVELOPE_EXCLUDED: set[str] = {"meta"}
+# Palantir's idealism language has a distinct civilizational-mission quality that
+# doesn't fit the standard idealism arc narrative; exclude until it has its own framing.
+ALTRUISM_EXCLUDED: set[str] = {"palantir"}
 INVESTOR_COVERAGE_START = 2020
 
 # Registers that signal active DEI language (pro-inclusion stance)
@@ -772,6 +775,7 @@ def _build_altruism_year_quotes(
 
 
 def export_altruism(companies: list[str]) -> None:
+    companies = [c for c in companies if c not in ALTRUISM_EXCLUDED]
     company_series = []
     series_by_company: dict[str, list[dict]] = {}
     quotes_by_company: dict[str, dict] = {}
