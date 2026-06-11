@@ -105,6 +105,58 @@ export async function loadAxisForCompanies(
   return Promise.all(companyIds.map((id) => loadAxis(id, axis)));
 }
 
+export interface DeiYearScore {
+  year: number;
+  inclusionTopkMean: number;
+  inclusionMean: number;
+  inclusionMax: number;
+  inclusionFractionPresent: number;
+  meritocracyTopkMean: number;
+  meritocracyMean: number;
+  nChunks: number;
+  kUsed: number;
+  thin: boolean;
+  registers: Record<string, number>;
+  controlTopkMean: number | null;
+  inclusionQuotes: EvidenceQuote[];
+  meritocracyQuotes: EvidenceQuote[];
+}
+
+export interface DeiData {
+  company: string;
+  displayName?: string;
+  axis: string;
+  years: DeiYearScore[];
+  phrases: {
+    terms: PhraseTerm[];
+    high_scoring_sentences: { id: string; year: number; text: string; score: number }[];
+    lexicons?: {
+      inclusion?: PhraseTerm[];
+      civilizational?: PhraseTerm[];
+    };
+  };
+}
+
+export interface PhraseTerm {
+  term: string;
+  first_year: number;
+  last_year: number;
+  max_score: number;
+  example: string;
+}
+
+export async function loadDei(company: string): Promise<DeiData | null> {
+  try {
+    const raw = await fs.readFile(
+      path.join(DATA_DIR, company, "dei.json"),
+      "utf-8"
+    );
+    return JSON.parse(raw) as DeiData;
+  } catch {
+    return null;
+  }
+}
+
 export function compareableAxes(
   companies: CompanyManifestEntry[]
 ): string[] {

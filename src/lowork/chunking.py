@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import difflib
 import hashlib
+import json
 import re
 from dataclasses import dataclass
 
@@ -245,9 +246,21 @@ def sections_to_chunks(sections: list[Section]) -> list[dict]:
 
 
 def chunk_html(html: str | bytes, *, source_url: str, timestamp: str) -> list[dict]:
-    chunks = sections_to_chunks(extract_sections(html))
+    dom_chunks = sections_to_chunks(extract_sections(html))
+    dom_words = sum(_word_count(c["text"]) for c in dom_chunks)
+
+    if dom_words < 80:
+        next_chunks = _chunks_from_next_data(html, source_url=source_url, timestamp=timestamp)
+        if next_chunks:
+            dom_chunks = [{"heading": c["heading"], "text": c["text"]} for c in next_chunks]
+            extraction_source = "next_data"
+        else:
+            extraction_source = "dom"
+    else:
+        extraction_source = "dom"
+
     out = []
-    for i, chunk in enumerate(chunks):
+    for i, chunk in enumerate(dom_chunks):
         text = chunk["text"]
         chunk_id = hashlib.sha256(f"{timestamp}|{source_url}|{i}|{text}".encode()).hexdigest()[:16]
         out.append(
@@ -260,9 +273,88 @@ def chunk_html(html: str | bytes, *, source_url: str, timestamp: str) -> list[di
                 "year": int(timestamp[:4]),
                 "word_count": _word_count(text),
                 "position": i,
+                "extraction_source": extraction_source,
             }
         )
     return out
+
+
+# --- __NEXT_DATA__ (Next.js SPA) prose recovery ---
+
+_NEXT_DATA_ID = re.compile(
+    r'<script[^>]+id=["\']__NEXT_DATA__["\'][^>]*>([\s\S]*?)</script>',
+    re.I,
+)
+_URL_LIKE = re.compile(r"^https?://|^/|\.(?:png|jpg|jpeg|gif|webp|svg|mp4|woff|ico)(?:\?|$)", re.I)
+_MOSTLY_ALPHA = re.compile(r"[A-Za-z]{3,}")
+
+
+def _is_prose_string(s: str) -> bool:
+    s = _clean(s)
+    if len(s) < 25 or _word_count(s) < 10:
+        return False
+    if _URL_LIKE.search(s.strip()):
+        return False
+    if s.startswith("{") or s.startswith("["):
+        return False
+    alpha = sum(c.isalpha() or c.isspace() for c in s)
+    if alpha / max(len(s), 1) < 0.75:
+        return False
+    if not _MOSTLY_ALPHA.search(s):
+        return False
+    # skip obvious ids / slugs
+    if re.fullmatch(r"[\w\-/]+", s) and "/" in s:
+        return False
+    return True
+
+
+def _walk_next_json(obj, path: tuple[str, ...], out: list[tuple[str, str]]) -> None:
+    if isinstance(obj, dict):
+        title_hint = ""
+        for k in ("title", "heading", "name", "label"):
+            if k in obj and isinstance(obj[k], str) and 3 <= len(obj[k]) <= 120:
+                title_hint = obj[k]
+                break
+        for k, v in obj.items():
+            if isinstance(v, str) and _is_prose_string(v):
+                heading = title_hint if title_hint and title_hint not in v else ""
+                out.append((heading, v))
+            else:
+                _walk_next_json(v, path + (str(k),), out)
+    elif isinstance(obj, list):
+        for i, item in enumerate(obj):
+            _walk_next_json(item, path + (str(i),), out)
+
+
+def _chunks_from_next_data(
+    html: str | bytes, *, source_url: str, timestamp: str
+) -> list[dict]:
+    if isinstance(html, bytes):
+        html = html.decode("utf-8", errors="replace")
+    m = _NEXT_DATA_ID.search(html)
+    if not m:
+        return []
+    try:
+        data = json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return []
+
+    prose: list[tuple[str, str]] = []
+    _walk_next_json(data, (), prose)
+
+    seen: set[str] = set()
+    chunks: list[dict] = []
+    for heading, text in prose:
+        text = strip_site_chrome(_clean(text))
+        if not _is_prose_string(text):
+            continue
+        key = text[:200]
+        if key in seen:
+            continue
+        seen.add(key)
+        chunks.append({"heading": heading, "text": text})
+
+    return chunks
 
 
 def trafilatura_words(html: str | bytes) -> int:

@@ -73,11 +73,32 @@ def cmd_discover(company: str) -> None:
     print(f"\nWrote {out_path}")
 
 
+def _existing_keys(manifest: dict) -> tuple[set[tuple[str, str]], set[str]]:
+    """Return (url, timestamp) pairs and digests already in the manifest."""
+    capture_keys: set[tuple[str, str]] = set()
+    digests: set[str] = set()
+    for cap in manifest.get("captures", []):
+        capture_keys.add((cap["original"], cap["timestamp"]))
+        if "digest" in cap:
+            digests.add(cap["digest"])
+    return capture_keys, digests
+
+
 def cmd_fetch(company: str, per_year: int) -> None:
     cfg = load_patterns(company)
     cdir = company_dir(company)
     raw_dir = cdir / "raw_html"
     raw_dir.mkdir(exist_ok=True)
+
+    manifest_path = cdir / "snapshots.json"
+    if manifest_path.exists():
+        manifest = read_json(manifest_path)
+        print(f"Merging into existing manifest ({len(manifest.get('captures', []))} captures)")
+    else:
+        manifest = {"company": company, "captures": []}
+
+    existing_keys, existing_digests = _existing_keys(manifest)
+    added = 0
 
     with httpx.Client(follow_redirects=True) as client:
         results = query_all_patterns(client, cfg["patterns"])
@@ -87,14 +108,20 @@ def cmd_fetch(company: str, per_year: int) -> None:
 
         selected = select_per_year(unique, per_year=per_year)
         n_selected = sum(len(v) for v in selected.values())
-        print(f"Selected {n_selected} captures across {len(selected)} years\n")
+        print(f"Selected {n_selected} pattern captures across {len(selected)} years\n")
 
-        manifest: dict = {"company": company, "captures": [], "digest_timeline": digest_timeline}
         spotcheck = [f"# M2 spot-check links: {company}", "",
                      "Open a sample across eras; confirm real careers content.", ""]
         for year, caps in sorted(selected.items()):
             spotcheck.append(f"## {year}")
             for cap in caps:
+                key = (cap.original, cap.timestamp)
+                if key in existing_keys:
+                    print(f"  skip dup {cap.timestamp} {cap.original}")
+                    continue
+                if cap.digest in existing_digests:
+                    print(f"  skip digest {cap.timestamp} {cap.original}")
+                    continue
                 try:
                     path, nbytes = fetch_capture(client, cap, raw_dir)
                     status = "cached" if nbytes == 0 else f"{nbytes} bytes"
@@ -103,7 +130,11 @@ def cmd_fetch(company: str, per_year: int) -> None:
                     manifest["captures"].append({**cap.to_dict(), "fetch_error": str(e)})
                     continue
                 print(f"  {cap.timestamp} {cap.original} ({status})")
-                manifest["captures"].append({**cap.to_dict(), "html_file": path.name})
+                rec = {**cap.to_dict(), "html_file": path.name, "source": "pattern_fetch"}
+                manifest["captures"].append(rec)
+                existing_keys.add(key)
+                existing_digests.add(cap.digest)
+                added += 1
                 spotcheck.append(f"- [{cap.timestamp} — {cap.original}]({cap.replay_url})")
             spotcheck.append("")
 
@@ -116,9 +147,11 @@ def cmd_fetch(company: str, per_year: int) -> None:
             )
             json_candidates.extend(c.to_dict() for c in caps)
         manifest["json_candidates"] = json_candidates
+        manifest["digest_timeline"] = digest_timeline
         print(f"\nSPA JSON candidates found: {len(json_candidates)}")
+        print(f"Added {added} new pattern captures (total {len(manifest['captures'])})")
 
-    write_json(cdir / "snapshots.json", manifest)
+    write_json(manifest_path, manifest)
     (cdir / "spotcheck_links.md").write_text("\n".join(spotcheck) + "\n")
     print(f"Wrote {cdir / 'snapshots.json'} and {cdir / 'spotcheck_links.md'}")
 

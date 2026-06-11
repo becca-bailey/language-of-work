@@ -27,10 +27,14 @@ from lowork.wayback import Capture, cdx_query, dedup_by_digest, fetch_capture, s
 MIN_DOM_WORDS = 80  # coverage threshold for rendered captures
 
 
-def manifest_sets(manifest: dict) -> tuple[set[str], set[str]]:
-    urls = {c["original"] for c in manifest.get("captures", [])}
-    digests = {c["digest"] for c in manifest.get("captures", []) if "digest" in c}
-    return urls, digests
+def manifest_sets(manifest: dict) -> tuple[set[tuple[str, str]], set[str]]:
+    keys: set[tuple[str, str]] = set()
+    digests: set[str] = set()
+    for c in manifest.get("captures", []):
+        keys.add((c["original"], c["timestamp"]))
+        if "digest" in c:
+            digests.add(c["digest"])
+    return keys, digests
 
 
 def cmd_deep_sample(company: str, per_year: int, from_year: int, to_year: int) -> None:
@@ -63,7 +67,7 @@ def cmd_deep_sample(company: str, per_year: int, from_year: int, to_year: int) -
                     step = max(1, len(pool) // per_year)
                     pool = pool[::step][:per_year]
                 for cap in pool:
-                    if cap.original in urls or cap.digest in digests:
+                    if (cap.original, cap.timestamp) in urls or cap.digest in digests:
                         continue
                     try:
                         path_obj, nbytes = fetch_capture(client, cap, raw_dir)
@@ -84,7 +88,7 @@ def cmd_deep_sample(company: str, per_year: int, from_year: int, to_year: int) -
                         "coverage": stats,
                     }
                     manifest["captures"].append(rec)
-                    urls.add(cap.original)
+                    urls.add((cap.original, cap.timestamp))
                     digests.add(cap.digest)
                     added += 1
                     kept.append(rec)
@@ -212,7 +216,7 @@ def cmd_probe_domains(company: str) -> None:
             selected = select_per_year(unique, per_year=4)
             for year_caps in selected.values():
                 for cap in year_caps:
-                    if cap.original in m_urls or cap.digest in digests:
+                    if (cap.original, cap.timestamp) in m_urls or cap.digest in digests:
                         continue
                     try:
                         path_obj, nbytes = fetch_capture(client, cap, raw_dir)
@@ -221,7 +225,7 @@ def cmd_probe_domains(company: str) -> None:
                             "html_file": path_obj.name,
                             "source": "alt_domain",
                         })
-                        m_urls.add(cap.original)
+                        m_urls.add((cap.original, cap.timestamp))
                         digests.add(cap.digest)
                         fetched += 1
                         print(f"  fetched {cap.timestamp} {cap.original}")

@@ -1,0 +1,26 @@
+{
+  "company": "netflix",
+  "display_name": "Netflix",
+  "comment": "Jobs hub and culture memo pages for performance/DEI story.",
+  "hosts": [
+    "jobs.netflix.com",
+    "www.netflix.com"
+  ],
+  "patterns": [
+    {
+      "url": "jobs.netflix.com/culture",
+      "match_type": "exact",
+      "era_hint": "2017-2026"
+    },
+    {
+      "url": "jobs.netflix.com/",
+      "match_type": "exact",
+      "era_hint": "2005-2026"
+    },
+    {
+      "url": "www.netflix.com/jobs",
+      "match_type": "exact",
+      "era_hint": "2005-2018"
+    }
+  ]
+}

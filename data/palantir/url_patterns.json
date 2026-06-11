@@ -1,0 +1,97 @@
+{
+  "company": "palantir",
+  "display_name": "Palantir",
+  "comment": "Careers and culture pages for DEI contrast analysis. Run 'fetch_snapshots.py discover --company palantir' to verify CDX coverage before fetch.",
+  "hosts": [
+    "palantir.com",
+    "www.palantir.com"
+  ],
+  "patterns": [
+    {
+      "url": "palantir.com/careers",
+      "match_type": "exact",
+      "era_hint": "2013-2020"
+    },
+    {
+      "url": "www.palantir.com/careers",
+      "match_type": "exact",
+      "era_hint": "2013-2020"
+    },
+    {
+      "url": "palantir.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2013-2026"
+    },
+    {
+      "url": "www.palantir.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2013-2026"
+    },
+    {
+      "url": "palantir.com/life",
+      "match_type": "exact",
+      "era_hint": "culture"
+    },
+    {
+      "url": "www.palantir.com/life",
+      "match_type": "exact",
+      "era_hint": "culture"
+    },
+    {
+      "url": "palantir.com/life-at-palantir/",
+      "match_type": "exact",
+      "era_hint": "culture"
+    },
+    {
+      "url": "www.palantir.com/life-at-palantir/",
+      "match_type": "exact",
+      "era_hint": "culture"
+    },
+    {
+      "url": "palantir.com/about",
+      "match_type": "exact",
+      "era_hint": "about"
+    },
+    {
+      "url": "www.palantir.com/about",
+      "match_type": "exact",
+      "era_hint": "about"
+    },
+    {
+      "url": "palantir.com/about/letter",
+      "match_type": "exact",
+      "era_hint": "letters"
+    },
+    {
+      "url": "www.palantir.com/about/letter",
+      "match_type": "exact",
+      "era_hint": "letters"
+    }
+  ],
+  "spa_json_probes": [
+    {
+      "url": "palantir.com/api/",
+      "match_type": "prefix"
+    },
+    {
+      "url": "www.palantir.com/api/",
+      "match_type": "prefix"
+    }
+  ],
+  "spa_content_paths": [
+    "palantir.com/careers/",
+    "www.palantir.com/careers/"
+  ],
+  "alt_domains": [
+    {
+      "url": "palantir.com/life",
+      "match_type": "exact",
+      "era_hint": "culture"
+    },
+    {
+      "url": "palantir.com/about/letter",
+      "match_type": "exact",
+      "era_hint": "letters"
+    }
+  ]
+}

@@ -21,6 +21,18 @@ const CONTENT: Record<string, AxisContent> = {
     summary:
       "Scores are relative within each company; compare the shapes of trajectories, not absolute levels.",
   },
+  dei: {
+    title: "DEI Language",
+    teaser:
+      "When did diversity and inclusion language appear on careers pages — and who retracted it?",
+    framing: [
+      "When did each company first add substantive DEI language to their careers pages? Which shifted from explicit demographic commitments to vague aspirational framing — and who retracted language after 2023?",
+      "Early patterns suggest at least three distinct responses to the DEI era — adopt-and-retract, adopt-and-quiet, and never-adopt or counter-program — but as archive coverage fills in (especially post-2018 SPA-era pages), these stories may change. Inclusion intensity is raw cosine to an inclusion pole; register breakdown shows what kind of language appears.",
+      "A separate civilizational lexicon tracks vocabulary like \"the West\" descriptively — when it first and last appeared on careers pages. Many readers understand this language as coded; the analysis reports timing, not intent.",
+    ],
+    summary:
+      "Absence of language is a real data point. Careers-page scope only — not annual letters or press. Compare register fingerprints, not just intensity lines.",
+  },
 };
 
 /** Returns editorial content for an axis, with a generic fallback so new axes don't crash. */

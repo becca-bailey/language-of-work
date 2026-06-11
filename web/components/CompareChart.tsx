@@ -11,6 +11,7 @@ import { LinePath } from "@visx/shape";
 import { TooltipWithBounds, useTooltip } from "@visx/tooltip";
 import { extent } from "d3-array";
 import { localPoint } from "@visx/event";
+import type { TimelineEvent } from "@/lib/events";
 
 export interface CompanySeries {
   company: string;
@@ -21,6 +22,7 @@ export interface CompanySeries {
 interface Props {
   series: CompanySeries[];
   axisName: string;
+  events?: TimelineEvent[];
 }
 
 const MARGIN = { top: 16, right: 24, bottom: 36, left: 52 };
@@ -38,6 +40,7 @@ type TooltipRow = { year: number; company: string; displayName: string; zscore: 
 function Chart({
   series,
   axisName,
+  events = [],
   width,
   height,
 }: Props & { width: number; height: number }) {
@@ -125,6 +128,33 @@ function Chart({
             className="stroke-neutral-300 dark:stroke-neutral-700"
           />
 
+          {events
+            .filter(
+              (ev) =>
+                ev.year >= xScale.domain()[0] && ev.year <= xScale.domain()[1]
+            )
+            .map((ev) => (
+              <g key={ev.id}>
+                <line
+                  x1={xScale(ev.year)}
+                  x2={xScale(ev.year)}
+                  y1={0}
+                  y2={innerH}
+                  strokeDasharray="4 4"
+                  className="stroke-amber-400/70"
+                />
+                <text
+                  x={xScale(ev.year) + 3}
+                  y={4}
+                  textAnchor="start"
+                  transform={`rotate(90, ${xScale(ev.year) + 3}, 4)`}
+                  className="fill-amber-600 text-[9px] dark:fill-amber-400"
+                >
+                  {ev.label}
+                </text>
+              </g>
+            ))}
+
           {series.map((s) => (
             <LinePath
               key={s.company}
@@ -140,15 +170,24 @@ function Chart({
 
           {series.map((s) =>
             s.points.map((d) => (
-              <circle
-                key={`${s.company}-${d.year}`}
-                cx={xScale(d.year)}
-                cy={yScale(d.zscore)}
-                r={d.thin ? 4 : 3}
-                fill={colorScale(s.company)}
-                stroke={d.thin ? "#f59e0b" : "none"}
-                strokeWidth={d.thin ? 2 : 0}
-              />
+              <g key={`${s.company}-${d.year}`}>
+                {d.thin && (
+                  <circle
+                    cx={xScale(d.year)}
+                    cy={yScale(d.zscore)}
+                    r={7}
+                    fill="none"
+                    strokeWidth={2}
+                    className="stroke-amber-500"
+                  />
+                )}
+                <circle
+                  cx={xScale(d.year)}
+                  cy={yScale(d.zscore)}
+                  r={3}
+                  fill={colorScale(s.company)}
+                />
+              </g>
             ))
           )}
 

@@ -1,0 +1,31 @@
+{
+  "company": "coinbase",
+  "display_name": "Coinbase",
+  "comment": "Careers pages for performance/DEI story — includes pre/post Sept 2020 mission-focused shift.",
+  "hosts": [
+    "coinbase.com",
+    "www.coinbase.com"
+  ],
+  "patterns": [
+    {
+      "url": "coinbase.com/careers",
+      "match_type": "exact",
+      "era_hint": "2013-2026"
+    },
+    {
+      "url": "www.coinbase.com/careers",
+      "match_type": "exact",
+      "era_hint": "2013-2026"
+    },
+    {
+      "url": "coinbase.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2013-2026"
+    },
+    {
+      "url": "www.coinbase.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2013-2026"
+    }
+  ]
+}

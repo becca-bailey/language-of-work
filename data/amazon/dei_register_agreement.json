@@ -1,0 +1,22 @@
+{
+  "n": 29,
+  "accuracy": 0.966,
+  "confusion": {
+    "absent": {
+      "absent": 26
+    },
+    "aspirational_vague": {
+      "aspirational_vague": 2
+    },
+    "meritocracy": {
+      "absent": 1
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "0a17fce94d323d00",
+      "hand_label": "meritocracy",
+      "predicted": "absent"
+    }
+  ]
+}

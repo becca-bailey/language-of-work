@@ -21,6 +21,44 @@ export default async function Home() {
       </p>
 
       <h2 className="mt-12 text-sm font-medium uppercase tracking-wide text-neutral-500">
+        Stories
+      </h2>
+      <ul className="mt-4 space-y-2">
+        <li>
+          <Link
+            href="/stories/performance"
+            className="group flex items-baseline justify-between gap-4 rounded-lg border border-indigo-200 bg-indigo-50/50 px-4 py-3 transition-colors hover:border-indigo-400 dark:border-indigo-900 dark:bg-indigo-950/30 dark:hover:border-indigo-700"
+          >
+            <span>
+              <span className="font-medium">Performance Language</span>
+              <span className="mt-0.5 block text-sm text-neutral-500 dark:text-neutral-400">
+                Did the hardcore turn follow Twitter? When did hustle language peak?
+              </span>
+            </span>
+            <span className="text-sm text-neutral-400 transition-transform group-hover:translate-x-0.5">
+              &rarr;
+            </span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/stories/dei"
+            className="group flex items-baseline justify-between gap-4 rounded-lg border border-indigo-200 bg-indigo-50/50 px-4 py-3 transition-colors hover:border-indigo-400 dark:border-indigo-900 dark:bg-indigo-950/30 dark:hover:border-indigo-700"
+          >
+            <span>
+              <span className="font-medium">DEI Language</span>
+              <span className="mt-0.5 block text-sm text-neutral-500 dark:text-neutral-400">
+                Industry-wide adoption and retraction — careers pages vs investor filings.
+              </span>
+            </span>
+            <span className="text-sm text-neutral-400 transition-transform group-hover:translate-x-0.5">
+              &rarr;
+            </span>
+          </Link>
+        </li>
+      </ul>
+
+      <h2 className="mt-12 text-sm font-medium uppercase tracking-wide text-neutral-500">
         Topics
       </h2>
       {axes.length === 0 ? (

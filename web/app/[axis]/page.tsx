@@ -4,9 +4,12 @@ import {
   compareableAxes,
   loadAxis,
   loadCompaniesManifest,
+  loadDei,
   type AxisData,
+  type DeiData,
 } from "@/lib/data";
 import { getAxisContent } from "@/lib/content";
+import { dominantRegister } from "@/lib/deiRegisters";
 
 interface Finding {
   company: string;
@@ -15,6 +18,61 @@ interface Finding {
   peakYear: number;
   latestYear: number;
   yearsCovered: number;
+}
+
+function computeDeiFinding(
+  data: DeiData,
+  displayName: string
+): Finding | null {
+  const years = [...data.years].sort((a, b) => a.year - b.year);
+  if (years.length === 0) return null;
+
+  const peak = years.reduce((best, y) =>
+    y.inclusionTopkMean > best.inclusionTopkMean ? y : best
+  );
+  const latest = years[years.length - 1];
+  const substantive = years.find((y) => y.inclusionTopkMean >= 0.2);
+  const firstYear = substantive?.year ?? years[0].year;
+
+  let retractionYear: number | null = null;
+  let maxDrop = 0;
+  for (let i = 1; i < years.length; i++) {
+    const drop = years[i - 1].inclusionTopkMean - years[i].inclusionTopkMean;
+    if (drop > maxDrop && years[i - 1].year >= peak.year) {
+      maxDrop = drop;
+      retractionYear = years[i].year;
+    }
+  }
+
+  const dominant = dominantRegister(data);
+
+  let sentence: string;
+  if (years.length === 1) {
+    sentence = `${displayName} has only one measured year (${latest.year}).`;
+  } else if (dominant === "meritocracy") {
+    sentence = `${displayName}'s careers pages are counter-programmed: meritocracy rhetoric dominates DEI-register chunks (${years.length} years measured), with inclusion intensity staying near zero.`;
+  } else if (peak.inclusionTopkMean < 0.15) {
+    sentence = `${displayName} shows little substantive inclusion language on careers pages across the archive (${years.length} years measured).`;
+  } else {
+    const parts = [
+      `${displayName}'s inclusion language first appears around ${firstYear}, peaks in ${peak.year}`,
+    ];
+    if (retractionYear && maxDrop >= 0.05) {
+      parts.push(`with the largest drop after the peak in ${retractionYear}`);
+    } else if (latest.year !== peak.year) {
+      parts.push(`and has shifted by ${latest.year}`);
+    }
+    sentence = parts.join(", ") + ".";
+  }
+
+  return {
+    company: data.company,
+    displayName,
+    sentence,
+    peakYear: peak.year,
+    latestYear: latest.year,
+    yearsCovered: years.length,
+  };
 }
 
 function computeFinding(
@@ -67,12 +125,19 @@ export default async function TopicPage({
   const canCompare = compareableAxes(manifest).includes(axis);
 
   const findings = (
-    await Promise.all(
-      companies.map(async (c) => {
-        const data = await loadAxis(c.id, axis);
-        return data ? computeFinding(data, c.displayName, content.title) : null;
-      })
-    )
+    axis === "dei"
+      ? await Promise.all(
+          companies.map(async (c) => {
+            const data = await loadDei(c.id);
+            return data ? computeDeiFinding(data, c.displayName) : null;
+          })
+        )
+      : await Promise.all(
+          companies.map(async (c) => {
+            const data = await loadAxis(c.id, axis);
+            return data ? computeFinding(data, c.displayName, content.title) : null;
+          })
+        )
   ).filter((f): f is Finding => f !== null);
 
   return (
@@ -128,10 +193,27 @@ export default async function TopicPage({
         </>
       )}
 
+      {axis === "dei" && (
+        <Link
+          href="/stories/dei"
+          className="group mt-10 flex items-baseline justify-between rounded-lg border border-indigo-200 bg-indigo-50/50 px-4 py-3 transition-colors hover:border-indigo-400 dark:border-indigo-900 dark:bg-indigo-950/30 dark:hover:border-indigo-700"
+        >
+          <span>
+            <span className="font-medium">Industry story view</span>
+            <span className="mt-0.5 block text-sm text-neutral-500 dark:text-neutral-400">
+              Mean trend + heatmap across companies; toggle careers vs investor filings.
+            </span>
+          </span>
+          <span className="text-sm text-neutral-400 transition-transform group-hover:translate-x-0.5">
+            &rarr;
+          </span>
+        </Link>
+      )}
+
       {canCompare && (
         <Link
           href={`/${axis}/compare`}
-          className="group mt-10 flex items-baseline justify-between rounded-lg border border-indigo-200 bg-indigo-50/50 px-4 py-3 transition-colors hover:border-indigo-400 dark:border-indigo-900 dark:bg-indigo-950/30 dark:hover:border-indigo-700"
+          className={`group flex items-baseline justify-between rounded-lg border border-indigo-200 bg-indigo-50/50 px-4 py-3 transition-colors hover:border-indigo-400 dark:border-indigo-900 dark:bg-indigo-950/30 dark:hover:border-indigo-700 ${axis === "dei" ? "mt-4" : "mt-10"}`}
         >
           <span className="font-medium">Compare all companies</span>
           <span className="text-sm text-neutral-400 transition-transform group-hover:translate-x-0.5">

@@ -36,17 +36,20 @@ def main(axis_names: list[str], company: str) -> None:
     for name in axis_names:
         axis = AxisDef.from_yaml(AXES_DIR / f"{name}.yaml")
         vec = build_axis(store, axis)
-        write_json(
-            built_dir / f"{name}.json",
-            {
-                "name": axis.name,
-                "model": EMBEDDING_MODEL,
-                "pole_a": {"label": axis.pole_a_label, "sentences": axis.pole_a},
-                "pole_b": {"label": axis.pole_b_label, "sentences": axis.pole_b},
-                "vector": vec.tolist(),
-            },
-        )
-        print(f"Built axis '{name}' ({axis.pole_a_label} <-> {axis.pole_b_label})")
+        built: dict = {
+            "name": axis.name,
+            "model": EMBEDDING_MODEL,
+            "single_pole": axis.is_single_pole,
+            "pole_a": {"label": axis.pole_a_label, "sentences": axis.pole_a},
+            "vector": vec.tolist(),
+        }
+        if axis.pole_b:
+            built["pole_b"] = {"label": axis.pole_b_label, "sentences": axis.pole_b}
+        write_json(built_dir / f"{name}.json", built)
+        if axis.is_single_pole:
+            print(f"Built axis '{name}' (single-pole: {axis.pole_a_label})")
+        else:
+            print(f"Built axis '{name}' ({axis.pole_a_label} <-> {axis.pole_b_label})")
 
         if corpus_texts:
             flags = circularity_check(store, axis, corpus_texts)

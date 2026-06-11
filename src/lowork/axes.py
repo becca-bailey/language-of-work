@@ -17,19 +17,24 @@ class AxisDef:
     name: str
     pole_a_label: str
     pole_a: list[str]
-    pole_b_label: str
+    pole_b_label: str | None
     pole_b: list[str]
 
     @classmethod
     def from_yaml(cls, path: Path) -> "AxisDef":
         raw = yaml.safe_load(path.read_text())
+        pole_b = raw.get("pole_b")
         return cls(
             name=raw["name"],
             pole_a_label=raw["pole_a"]["label"],
             pole_a=raw["pole_a"]["sentences"],
-            pole_b_label=raw["pole_b"]["label"],
-            pole_b=raw["pole_b"]["sentences"],
+            pole_b_label=pole_b["label"] if pole_b else None,
+            pole_b=pole_b["sentences"] if pole_b else [],
         )
+
+    @property
+    def is_single_pole(self) -> bool:
+        return not self.pole_b
 
 
 def _unit(v: np.ndarray) -> np.ndarray:
@@ -48,16 +53,23 @@ def build_axis(
     drop_a/drop_b leave one sentence out of a pole (for perturbation testing).
     """
     pole_a = [s for i, s in enumerate(axis.pole_a) if i != drop_a]
-    pole_b = [s for i, s in enumerate(axis.pole_b) if i != drop_b]
     vec_a = store.embed(pole_a).mean(axis=0)
+    if axis.is_single_pole:
+        return _unit(vec_a)
+    pole_b = [s for i, s in enumerate(axis.pole_b) if i != drop_b]
     vec_b = store.embed(pole_b).mean(axis=0)
     return _unit(vec_a - vec_b)
 
 
 def project(embeddings: np.ndarray, axis_vec: np.ndarray) -> np.ndarray:
-    """Signed projection of unit-normalized chunk embeddings onto the axis."""
+    """Project embeddings onto axis_vec.
+
+    Contrast axes: signed projection (pole A minus pole B direction).
+    Single-pole axes: cosine similarity to the pole (0 = absent).
+    """
     norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
-    return (embeddings / norms) @ axis_vec
+    unit = embeddings / norms
+    return unit @ axis_vec
 
 
 def topk_mean(scores: np.ndarray, k: int) -> tuple[float, int, np.ndarray]:
@@ -105,9 +117,9 @@ def circularity_check(
     word n-gram (verbatim phrase overlap). Flags are for human adjudication,
     not automatic rejection.
     """
-    sentences = [(s, axis.pole_a_label) for s in axis.pole_a] + [
-        (s, axis.pole_b_label) for s in axis.pole_b
-    ]
+    sentences = [(s, axis.pole_a_label) for s in axis.pole_a]
+    if axis.pole_b:
+        sentences += [(s, axis.pole_b_label) for s in axis.pole_b]
     sent_embs = store.embed([s for s, _ in sentences])
     corpus_embs = store.embed(corpus_texts)
     corpus_unit = corpus_embs / np.linalg.norm(corpus_embs, axis=1, keepdims=True)

@@ -1,0 +1,394 @@
+{
+  "ground_truth_chunk": {
+    "level": "chunk",
+    "altruism_peak_year": 2018,
+    "altruism_control_correlation": 0.443,
+    "correlation_p": 0.129,
+    "control_decoupled": true,
+    "peak_within_expected": null
+  },
+  "ground_truth_sentence": {
+    "level": "sentence",
+    "altruism_peak_year": 2018,
+    "altruism_control_correlation": 0.22,
+    "correlation_p": 0.471,
+    "control_decoupled": true,
+    "peak_within_expected": null
+  },
+  "tournament": {
+    "judgments": [
+      {
+        "pair": [
+          2011,
+          2015
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2010,
+          2015
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2013,
+          2018
+        ],
+        "winner": 2018
+      },
+      {
+        "pair": [
+          2012,
+          2025
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2012,
+          2022
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2011,
+          2021
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2011,
+          2013
+        ],
+        "winner": 2013
+      },
+      {
+        "pair": [
+          2022,
+          2024
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2010,
+          2026
+        ],
+        "winner": 2026
+      },
+      {
+        "pair": [
+          2017,
+          2024
+        ],
+        "winner": 2017
+      },
+      {
+        "pair": [
+          2010,
+          2017
+        ],
+        "winner": 2017
+      },
+      {
+        "pair": [
+          2024,
+          2026
+        ],
+        "winner": 2024
+      },
+      {
+        "pair": [
+          2022,
+          2025
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2012,
+          2021
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2012,
+          2023
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2012,
+          2026
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2013,
+          2023
+        ],
+        "winner": 2013
+      },
+      {
+        "pair": [
+          2010,
+          2012
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2024,
+          2025
+        ],
+        "winner": 2024
+      },
+      {
+        "pair": [
+          2011,
+          2012
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2015,
+          2022
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2013,
+          2026
+        ],
+        "winner": 2013
+      },
+      {
+        "pair": [
+          2015,
+          2021
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2013,
+          2017
+        ],
+        "winner": 2017
+      },
+      {
+        "pair": [
+          2012,
+          2018
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2025,
+          2026
+        ],
+        "winner": 2026
+      },
+      {
+        "pair": [
+          2023,
+          2025
+        ],
+        "winner": 2023
+      },
+      {
+        "pair": [
+          2013,
+          2022
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2023,
+          2024
+        ],
+        "winner": 2024
+      },
+      {
+        "pair": [
+          2010,
+          2011
+        ],
+        "winner": 2011
+      },
+      {
+        "pair": [
+          2010,
+          2025
+        ],
+        "winner": 2010
+      },
+      {
+        "pair": [
+          2017,
+          2025
+        ],
+        "winner": 2017
+      },
+      {
+        "pair": [
+          2021,
+          2023
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2011,
+          2025
+        ],
+        "winner": 2011
+      },
+      {
+        "pair": [
+          2015,
+          2026
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2010,
+          2024
+        ],
+        "winner": 2024
+      },
+      {
+        "pair": [
+          2022,
+          2026
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2015,
+          2023
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2010,
+          2021
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2010,
+          2018
+        ],
+        "winner": 2018
+      }
+    ],
+    "strengths": {
+      "2010": 1.6104389620200632e-08,
+      "2011": 2.838006210280958e-06,
+      "2012": 0.8871797659406103,
+      "2013": 0.0002445014762673271,
+      "2015": 0.0002835771508210577,
+      "2017": 0.06177536534624834,
+      "2018": 0.012980873836998372,
+      "2021": 0.012968539196518476,
+      "2022": 0.02420669843462503,
+      "2023": 7.558274113060312e-07,
+      "2024": 0.00035484420805084374,
+      "2025": 0.0,
+      "2026": 2.2244718490908048e-06
+    }
+  },
+  "tournament_spearman_chunk": 0.484,
+  "tournament_spearman_sentence": 0.747,
+  "early_year_agreement": {
+    "chunk_vs_llm_spearman": 0.8,
+    "sentence_vs_llm_spearman": 0.4
+  },
+  "perturbation": {
+    "per_sentence": [
+      {
+        "dropped": "A0: We believe technology has the power to solve humanity's greatest challenges.",
+        "spearman": 0.996
+      },
+      {
+        "dropped": "A1: Join us in building products that leave the world better than we found it.",
+        "spearman": 0.998
+      },
+      {
+        "dropped": "A2: Our mission is to create innovations that uplift communities and transform lives for the better.",
+        "spearman": 0.983
+      },
+      {
+        "dropped": "A3: At our company, we measure success by the positive impact we create in society.",
+        "spearman": 0.998
+      },
+      {
+        "dropped": "A4: We envision a future where technology serves as a force for universal good.",
+        "spearman": 0.944
+      },
+      {
+        "dropped": "A5: We're building something bigger than ourselves—a legacy of meaningful progress.",
+        "spearman": 0.995
+      },
+      {
+        "dropped": "A6: Come help us pursue breakthroughs that will benefit generations to come.",
+        "spearman": 0.983
+      },
+      {
+        "dropped": "A7: Join us in our quest to unlock technology's potential for human flourishing.",
+        "spearman": 0.983
+      },
+      {
+        "dropped": "B0: You'll work alongside teams who measure success in customer acquisition, retention, and sustainable growth.",
+        "spearman": 0.994
+      },
+      {
+        "dropped": "B1: We prioritize features based on commercial value and ship solutions that move the bottom line.",
+        "spearman": 0.998
+      },
+      {
+        "dropped": "B2: We invest in innovation that creates competitive advantage and generates measurable returns.",
+        "spearman": 0.995
+      },
+      {
+        "dropped": "B3: Join us if you want your work to directly contribute to revenue growth and market expansion.",
+        "spearman": 0.987
+      },
+      {
+        "dropped": "B4: Our technical strategy is shaped by competitive positioning and customer willingness to pay.",
+        "spearman": 0.998
+      },
+      {
+        "dropped": "B5: Our product roadmap reflects what the market demands, and we pivot quickly when customer feedback requires it.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "B6: We build technology that solves real problems for paying customers.",
+        "spearman": 0.961
+      },
+      {
+        "dropped": "B7: You'll collaborate with colleagues who understand that great technology must also make financial sense.",
+        "spearman": 0.999
+      }
+    ],
+    "min_spearman": 0.944,
+    "mean_spearman": 0.988,
+    "robust": true
+  }
+}
