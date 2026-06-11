@@ -1,10 +1,11 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import CompareChart from "@/components/CompareChart";
 import { loadAxis, loadCompaniesManifest, loadDei } from "@/lib/data";
 import { DEI_EVENTS } from "@/lib/events";
 import { getAxisContent } from "@/lib/content";
 import RegisterShareCompare from "@/components/RegisterShareCompare";
+import { storyPathForAxis } from "@/lib/stories";
 
 export default async function ComparePage({
   params,
@@ -12,6 +13,9 @@ export default async function ComparePage({
   params: Promise<{ axis: string }>;
 }) {
   const { axis } = await params;
+  const storyPath = storyPathForAxis(axis);
+  if (storyPath) redirect(storyPath);
+
   const manifest = await loadCompaniesManifest();
   const companyIds = manifest
     .filter((c) => c.axes.includes(axis))

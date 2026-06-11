@@ -75,7 +75,7 @@ def write_register_review(cdir, chunks: list[dict], registers: dict[str, str]) -
     print(f"Wrote {path}")
 
 
-def main(company: str, validate_only: bool, heuristic: bool) -> None:
+def main(company: str, validate_only: bool, heuristic: bool, reclassify_all: bool) -> None:
     cdir = company_dir(company)
     chunks = load_all_chunks(cdir / "chunks")
     classifications = read_json(cdir / "classifications.json")
@@ -94,20 +94,27 @@ def main(company: str, validate_only: bool, heuristic: bool) -> None:
         else:
             predictions = classify_registers(sample)
     else:
-        existing: dict[str, str] = {}
         reg_path = cdir / "dei_registers.json"
-        if reg_path.exists():
-            existing = read_json(reg_path)
-        new_chunks = [c for c in analysis if c["chunk_id"] not in existing]
-        print(f"Incremental: {len(new_chunks)} new, {len(existing)} already classified")
-        if new_chunks:
+        if reclassify_all:
+            print(f"Reclassifying all {len(analysis)} analysis chunks")
             if heuristic:
-                new_preds = {c["chunk_id"]: heuristic_register(c["text"]) for c in new_chunks}
+                predictions = {c["chunk_id"]: heuristic_register(c["text"]) for c in analysis}
             else:
-                new_preds = classify_registers(new_chunks)
-            predictions = {**existing, **new_preds}
+                predictions = classify_registers(analysis)
         else:
-            predictions = existing
+            existing: dict[str, str] = {}
+            if reg_path.exists():
+                existing = read_json(reg_path)
+            new_chunks = [c for c in analysis if c["chunk_id"] not in existing]
+            print(f"Incremental: {len(new_chunks)} new, {len(existing)} already classified")
+            if new_chunks:
+                if heuristic:
+                    new_preds = {c["chunk_id"]: heuristic_register(c["text"]) for c in new_chunks}
+                else:
+                    new_preds = classify_registers(new_chunks)
+                predictions = {**existing, **new_preds}
+            else:
+                predictions = existing
         predictions = apply_overrides(cdir, predictions)
         write_json(reg_path, predictions)
         print(f"Wrote {reg_path} ({len(predictions)} total)")
@@ -130,5 +137,10 @@ if __name__ == "__main__":
         action="store_true",
         help="Keyword fallback (offline bootstrap; use API for production)",
     )
+    parser.add_argument(
+        "--reclassify-all",
+        action="store_true",
+        help="Ignore existing dei_registers.json and classify every analysis chunk",
+    )
     args = parser.parse_args()
-    main(args.company, args.validate_only, args.heuristic)
+    main(args.company, args.validate_only, args.heuristic, args.reclassify_all)

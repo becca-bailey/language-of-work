@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 
 from anthropic import Anthropic
 
@@ -14,8 +15,30 @@ DEI_REGISTERS = [
     "aspirational_vague",
     "belonging_culture",
     "meritocracy",
+    "civilizational_mission",
     "absent",
 ]
+
+# Active DEI registers (pro-inclusion employer rhetoric)
+ACTIVE_DEI_REGISTERS = [
+    "explicit_demographic",
+    "structural_process",
+    "aspirational_vague",
+    "belonging_culture",
+]
+
+# Counter-programming registers (stance opposite to workforce DEI adoption)
+COUNTER_DEI_REGISTERS = ["meritocracy", "civilizational_mission"]
+
+CIVILIZATIONAL_PATTERN = re.compile(
+    r"\b(?:"
+    r"future of the west|the west'?s most important|western (?:tech )?institutions|"
+    r"warfighters?|battlefield|build with consequence|tinker at the margins|"
+    r"technological republic|most important institutions|"
+    r"empower the world'?s most important institutions"
+    r")\b",
+    re.I,
+)
 
 SYSTEM_PROMPT = """You classify text chunks from archived company careers pages by DEI register.
 
@@ -27,39 +50,35 @@ Assign exactly one register to each chunk:
 - structural_process: describes systems and processes designed to reduce bias in employment — "We use structured interviews to reduce bias in hiring." / "We audit our pay practices annually for equity."
 - aspirational_vague: inclusion values, partnerships, or pride without binding specifics — generic diversity/inclusion claims, lists of "diverse perspectives" without targets, external partnerships (Lean In, ERG spotlights), encouragement without company accountability.
 - belonging_culture: focuses on worker experience of inclusion at the company — "Bring your whole self to work." / "You'll find people here who look like you and think differently than you."
-- meritocracy: explicitly frames hiring or advancement as purely performance-based IN CONTRAST to identity or background — language that crowds out demographic inclusion. Includes explicit anti-DEI positioning: rejecting identity-based hiring, DEI programs, or "politics" in hiring. "We hire on merit, not identity politics." / "We don't do DEI — we hire the best." / "We evaluate everyone on the same criteria regardless of where they come from." Generic "hire the best" or "brightest minds" alone is NOT meritocracy.
-- absent: no workforce DEI-relevant language — mission/innovation copy, customer impact, patient populations, product features, standard recruiting, leadership principles, EEO boilerplate alone.
+- meritocracy: explicitly frames hiring or advancement as purely performance-based IN CONTRAST to identity or background — language that crowds out demographic inclusion. Includes explicit anti-DEI positioning: rejecting identity-based hiring, DEI programs, or "politics" in hiring. "We hire on merit, not identity politics." / "We evaluate everyone on the same criteria regardless of where they come from." Generic "hire the best" or "brightest minds" alone is NOT meritocracy.
+- civilizational_mission: employer brand framed around civilizational, geopolitical, or institutional mission rather than workforce inclusion — "future of the West," Western institutions, battlefield/consequence, serving the West's most important institutions. Distinct from generic product mission: this is an explicit civilizational hiring/identity pitch, often counter-programming DEI-era employer branding. Palantir-style "We built Palantir to ensure the future of the West" belongs here, NOT absent.
+- absent: no workforce DEI-relevant language — generic mission/innovation copy, customer impact, product features, standard recruiting boilerplate without civilizational employer framing.
 
 Tie-breakers:
 1. If a chunk mixes registers, choose the DOMINANT one.
 2. Naming a demographic is NOT enough for explicit_demographic — require workforce accountability (targets, programs, commitments). Partnerships, spotlights, and encouragement → aspirational_vague.
 3. Generic "diversity" / "inclusion" / "varying backgrounds" without targets → aspirational_vague, not explicit_demographic.
-4. Demographics in CUSTOMER, patient, or societal-impact context → absent (e.g. "breast cancer in women" as a patient population is medical, not workforce DEI).
-5. Invention culture, shareholder letters, "smart people" / "people like you" recruiting → absent unless clearly DEI-framed.
+4. Demographics in CUSTOMER, patient, or societal-impact context → absent unless civilizational employer framing dominates.
+5. "Hire the best" / engineering excellence WITHOUT civilizational framing → absent or meritocracy only if explicit contrast with identity/DEI.
 6. EEO/legal boilerplate alone → absent unless substantive DEI commitments beyond compliance.
-7. Employee spotlights mentioning background without company-level DEI framing → usually absent unless primarily about belonging.
 
 Calibration examples (trust these over surface keywords):
 
-→ aspirational_vague (NOT explicit_demographic):
-"We are proud to partner with Lean In, committed to offering women encouragement and support to achieve their goals, including stories of Amazonians who Leaned In."
-"We are builders who bring varying backgrounds, ideas, and points of view — gender, race, age, sexual orientation, culture, education — to inventing on behalf of customers."
+→ civilizational_mission (NOT absent):
+"We built Palantir to ensure the future of the West, not to tinker at the margins."
+"Palantirians deliver mission-critical outcomes for the West's most important institutions."
+"If you want to empower the world's most important institutions, you belong here."
 
-→ absent (NOT meritocracy, NOT explicit_demographic):
-"We hire the world's brightest minds and offer them an environment to invent and innovate." / Bezos shareholder letters about invention, platforms, and customer-centricity.
-"AI can help detect breast cancer — the most common cancer in women worldwide — through mammography partnerships with hospitals."
-"At Amazon, we believe every day is still Day One — your day to join a company that redefines itself every day."
-
-→ explicit_demographic (requires workforce accountability):
-"We are working to increase representation of women and Black employees in leadership, and we publish our workforce data annually."
-
-→ meritocracy (requires contrast with identity/background OR explicit anti-DEI):
-"We hire the best people regardless of background — we evaluate everyone on the same criteria and don't lower our standards."
+→ meritocracy:
 "We hire on merit, not identity politics — we don't run DEI programs or set demographic hiring targets."
-"Our culture is a meritocracy: excellence is the only criterion that matters in who we hire and promote."
+"You are judged by outcomes. Your work will speak for itself." (when clearly about evaluation/hiring bar)
 
-→ absent (NOT meritocracy — mission/idealism without hiring contrast):
-"We solve the world's hardest problems with software" / Palantir mission copy about impact and engineering excellence without contrasting merit with identity or rejecting DEI.
+→ aspirational_vague (NOT explicit_demographic):
+"We are proud to partner with Lean In, committed to offering women encouragement and support to achieve their goals."
+"Palantir Scholarship for Women in Technology" / Girl Geek Dinner spotlights.
+
+→ absent (NOT civilizational_mission — generic mission):
+"We solve hard problems with data." / "We build software that helps organizations make better decisions."
 
 Respond with a JSON array, one object per chunk, in input order:
 [{"id": "<chunk id>", "register": "<register>"}]
@@ -68,9 +87,41 @@ Use only the registers above. Respond with the JSON array only."""
 BATCH_SIZE = 25
 
 
+def is_civilizational_mission(text: str) -> bool:
+    return bool(CIVILIZATIONAL_PATTERN.search(text))
+
+
 def heuristic_register(text: str) -> str:
     """Keyword fallback for offline bootstrap — not for production scoring."""
     t = text.lower()
+
+    if is_civilizational_mission(text):
+        return "civilizational_mission"
+
+    if any(
+        w in t
+        for w in (
+            "judged by outcomes",
+            "work will speak for itself",
+            "uncompromising engineering",
+            "best and the brightest",
+            "rigorous hiring standards",
+        )
+    ):
+        return "meritocracy"
+
+    if any(
+        w in t
+        for w in (
+            "social or political activism",
+            "refuge from division",
+            "unrelated to our mission while at work",
+            "don't engage in social",
+            "do not engage in social",
+        )
+    ):
+        return "meritocracy"
+
     if not any(
         w in t
         for w in (
@@ -83,15 +134,19 @@ def heuristic_register(text: str) -> str:
             "bias",
             "merit",
             "whole self",
+            "women in tech",
+            "girl geek",
+            "scholarship for women",
         )
     ):
         return "absent"
+
     if any(w in t for w in ("black", "latinx", "hispanic", "lgbtq", "veteran", "disabilit")):
         if any(w in t for w in ("representation", "target", "percent", "%", "workforce data", "increase")):
             return "explicit_demographic"
         return "aspirational_vague"
     if "women" in t and not any(w in t for w in ("breast cancer", "mammograph", "patient", "screening")):
-        if any(w in t for w in ("lean in", "partner", "encouragement", "support to achieve")):
+        if any(w in t for w in ("lean in", "partner", "encouragement", "support to achieve", "scholarship", "girl geek")):
             return "aspirational_vague"
         if any(w in t for w in ("representation", "target", "percent", "%")):
             return "explicit_demographic"

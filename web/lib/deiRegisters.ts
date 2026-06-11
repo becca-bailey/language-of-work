@@ -7,6 +7,7 @@ export const DEI_REGISTER_ORDER = [
   "aspirational_vague",
   "belonging_culture",
   "meritocracy",
+  "civilizational_mission",
 ] as const;
 
 export type DeiRegister = (typeof DEI_REGISTER_ORDER)[number];

@@ -15,6 +15,7 @@ const REGISTER_ORDER = [
   "aspirational_vague",
   "belonging_culture",
   "meritocracy",
+  "civilizational_mission",
 ] as const;
 
 const COLORS: Record<string, string> = {
@@ -23,6 +24,7 @@ const COLORS: Record<string, string> = {
   aspirational_vague: "#6366f1",
   belonging_culture: "#8b5cf6",
   meritocracy: "#f59e0b",
+  civilizational_mission: "#dc2626",
 };
 
 const MARGIN = { top: 8, right: 8, bottom: 36, left: 40 };

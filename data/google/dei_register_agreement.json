@@ -1,14 +1,14 @@
 {
   "n": 39,
-  "accuracy": 0.897,
+  "accuracy": 0.846,
   "confusion": {
     "absent": {
-      "absent": 34,
-      "aspirational_vague": 2
+      "absent": 32,
+      "aspirational_vague": 4
     },
     "belonging_culture": {
       "belonging_culture": 1,
-      "aspirational_vague": 1
+      "absent": 1
     },
     "aspirational_vague": {
       "absent": 1
@@ -18,10 +18,20 @@
     {
       "chunk_id": "aa9596878df0131d",
       "hand_label": "belonging_culture",
+      "predicted": "absent"
+    },
+    {
+      "chunk_id": "88fad3df553068f8",
+      "hand_label": "absent",
       "predicted": "aspirational_vague"
     },
     {
-      "chunk_id": "f2f926f47cca9987",
+      "chunk_id": "cb7eb2c944e115c4",
+      "hand_label": "absent",
+      "predicted": "aspirational_vague"
+    },
+    {
+      "chunk_id": "da083246dc150e59",
       "hand_label": "absent",
       "predicted": "aspirational_vague"
     },

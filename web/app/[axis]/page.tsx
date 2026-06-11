@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import {
   compareableAxes,
   loadAxis,
@@ -10,6 +10,7 @@ import {
 } from "@/lib/data";
 import { getAxisContent } from "@/lib/content";
 import { dominantRegister } from "@/lib/deiRegisters";
+import { storyPathForAxis } from "@/lib/stories";
 
 interface Finding {
   company: string;
@@ -49,6 +50,8 @@ function computeDeiFinding(
   let sentence: string;
   if (years.length === 1) {
     sentence = `${displayName} has only one measured year (${latest.year}).`;
+  } else if (dominant === "civilizational_mission") {
+    sentence = `${displayName}'s careers pages lean on civilizational mission framing — West/institutions language as employer identity rather than workforce DEI (${years.length} years measured).`;
   } else if (dominant === "meritocracy") {
     sentence = `${displayName}'s careers pages are counter-programmed: meritocracy rhetoric dominates DEI-register chunks (${years.length} years measured), with inclusion intensity staying near zero.`;
   } else if (peak.inclusionTopkMean < 0.15) {
@@ -117,6 +120,9 @@ export default async function TopicPage({
   params: Promise<{ axis: string }>;
 }) {
   const { axis } = await params;
+  const storyPath = storyPathForAxis(axis);
+  if (storyPath) redirect(storyPath);
+
   const manifest = await loadCompaniesManifest();
   const companies = manifest.filter((c) => c.axes.includes(axis));
   if (companies.length === 0) notFound();
@@ -191,23 +197,6 @@ export default async function TopicPage({
             </p>
           )}
         </>
-      )}
-
-      {axis === "dei" && (
-        <Link
-          href="/stories/dei"
-          className="group mt-10 flex items-baseline justify-between rounded-lg border border-indigo-200 bg-indigo-50/50 px-4 py-3 transition-colors hover:border-indigo-400 dark:border-indigo-900 dark:bg-indigo-950/30 dark:hover:border-indigo-700"
-        >
-          <span>
-            <span className="font-medium">Industry story view</span>
-            <span className="mt-0.5 block text-sm text-neutral-500 dark:text-neutral-400">
-              Mean trend + heatmap across companies; toggle careers vs investor filings.
-            </span>
-          </span>
-          <span className="text-sm text-neutral-400 transition-transform group-hover:translate-x-0.5">
-            &rarr;
-          </span>
-        </Link>
       )}
 
       {canCompare && (

@@ -15,7 +15,7 @@ from lowork.io import read_json, write_json
 REGISTER_KEYS = [f"register_{r}" for r in DEI_REGISTERS]
 
 # Companies with DEI data on disk but excluded from the public DEI view
-DEI_VIEW_EXCLUDED = {"palantir"}
+DEI_VIEW_EXCLUDED: set[str] = set()
 
 
 def update_manifest(company: str) -> None:

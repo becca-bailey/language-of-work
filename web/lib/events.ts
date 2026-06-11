@@ -9,6 +9,13 @@ export interface TimelineEvent {
 /** Shared external events annotated on DEI charts. */
 export const DEI_EVENTS: TimelineEvent[] = [
   {
+    id: "armstrong-memo",
+    label: "Armstrong mission memo",
+    year: 2020 + 8 / 12,
+    description:
+      "September 2020 — Brian Armstrong declares Coinbase apolitical and mission-focused; careers-page copy lags ~3 years.",
+  },
+  {
     id: "george-floyd",
     label: "George Floyd protests",
     year: 2020 + 5 / 12,

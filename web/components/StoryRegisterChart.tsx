@@ -5,7 +5,7 @@ import { ParentSize } from "@visx/responsive";
 import { scaleBand, scaleLinear } from "@visx/scale";
 import { allYears, type StoryCompanySeries } from "@/lib/storyTypes";
 
-/** Active (pro-inclusion) registers stack upward; meritocracy stacks downward. */
+/** Active (pro-inclusion) registers stack upward; counter registers stack downward. */
 const ACTIVE_REGISTERS = [
   "explicit_demographic",
   "structural_process",
@@ -13,12 +13,15 @@ const ACTIVE_REGISTERS = [
   "belonging_culture",
 ] as const;
 
+const COUNTER_REGISTERS = ["meritocracy", "civilizational_mission"] as const;
+
 const COLORS: Record<string, string> = {
   explicit_demographic: "#059669",
   structural_process: "#0d9488",
   aspirational_vague: "#6366f1",
   belonging_culture: "#8b5cf6",
   meritocracy: "#f59e0b",
+  civilizational_mission: "#dc2626",
 };
 
 const LABELS: Record<string, string> = {
@@ -26,7 +29,8 @@ const LABELS: Record<string, string> = {
   structural_process: "structural process",
   aspirational_vague: "aspirational vague",
   belonging_culture: "belonging culture",
-  meritocracy: "meritocracy / counter-programming",
+  meritocracy: "meritocracy / anti-DEI",
+  civilizational_mission: "civilizational mission",
 };
 
 const ROW_H = 96;
@@ -40,7 +44,7 @@ interface YearShares {
   year: number;
   nChunks: number;
   shares: Record<string, number>;
-  meritocracyShare: number;
+  counterShares: Record<string, number>;
 }
 
 function sharesFor(company: StoryCompanySeries): YearShares[] {
@@ -52,11 +56,15 @@ function sharesFor(company: StoryCompanySeries): YearShares[] {
       for (const reg of ACTIVE_REGISTERS) {
         shares[reg] = (y.registers?.[reg] ?? 0) / n;
       }
+      const counterShares: Record<string, number> = {};
+      for (const reg of COUNTER_REGISTERS) {
+        counterShares[reg] = (y.registers?.[reg] ?? 0) / n;
+      }
       return {
         year: y.year,
         nChunks: y.nChunks,
         shares,
-        meritocracyShare: (y.registers?.meritocracy ?? 0) / n,
+        counterShares,
       };
     });
 }
@@ -80,7 +88,6 @@ function CompanyRow({
 
   const innerW = width - MARGIN.left - MARGIN.right;
   const innerH = ROW_H - MARGIN.top - MARGIN.bottom;
-  // Split the vertical space: active stacks up from the baseline, meritocracy hangs below.
   const baseline = innerH * 0.72;
 
   const xScale = useMemo(
@@ -144,18 +151,26 @@ function CompanyRow({
               </rect>
             );
           });
-          const merH = downScale(d.meritocracyShare);
+          let yBelow = baseline;
+          const counterBars = COUNTER_REGISTERS.map((reg) => {
+            const share = d.counterShares[reg];
+            if (share <= 0) return null;
+            const h = downScale(share);
+            const bar = (
+              <rect key={reg} x={x} y={yBelow} width={w} height={h} fill={COLORS[reg]}>
+                <title>
+                  {company.displayName} {year}: {LABELS[reg]}{" "}
+                  {(share * 100).toFixed(0)}% ({d.nChunks} chunks)
+                </title>
+              </rect>
+            );
+            yBelow += h;
+            return bar;
+          });
           return (
             <g key={year}>
               {bars}
-              {d.meritocracyShare > 0 && (
-                <rect x={x} y={baseline} width={w} height={merH} fill={COLORS.meritocracy}>
-                  <title>
-                    {company.displayName} {year}: {LABELS.meritocracy}{" "}
-                    {(d.meritocracyShare * 100).toFixed(0)}% ({d.nChunks} chunks)
-                  </title>
-                </rect>
-              )}
+              {counterBars}
             </g>
           );
         })}
@@ -190,7 +205,8 @@ export default function StoryRegisterChart({ companies }: Props) {
     for (const c of withRegisters) {
       for (const d of sharesFor(c)) {
         const active = Object.values(d.shares).reduce((a, b) => a + b, 0);
-        max = Math.max(max, active, d.meritocracyShare);
+        const counter = Object.values(d.counterShares).reduce((a, b) => a + b, 0);
+        max = Math.max(max, active, counter);
       }
     }
     return Math.min(max, 1);
@@ -215,7 +231,7 @@ export default function StoryRegisterChart({ companies }: Props) {
         </div>
       ))}
       <div className="mt-3 flex flex-wrap gap-3 text-[10px] text-neutral-500">
-        {[...ACTIVE_REGISTERS, "meritocracy"].map((reg) => (
+        {[...ACTIVE_REGISTERS, ...COUNTER_REGISTERS].map((reg) => (
           <span key={reg} className="flex items-center gap-1">
             <span
               className="inline-block h-2 w-2 rounded-sm"
@@ -227,8 +243,8 @@ export default function StoryRegisterChart({ companies }: Props) {
       </div>
       <p className="mt-1 text-xs text-neutral-500">
         Bars above the line = share of chunks in an active DEI register that year. Bars below
-        the line = meritocracy / anti-DEI counter-programming. Thin grey marks = measured
-        years with no DEI-register language at all.
+        the line = counter-programming (meritocracy rhetoric or civilizational mission framing).
+        Thin grey marks = measured years with no classified DEI-register language.
       </p>
     </div>
   );

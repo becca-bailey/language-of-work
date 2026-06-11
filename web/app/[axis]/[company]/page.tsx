@@ -4,6 +4,7 @@ import AxisExplorer from "@/components/AxisExplorer";
 import DeiExplorer from "@/components/DeiExplorer";
 import { loadAxis, loadDei } from "@/lib/data";
 import { getAxisContent } from "@/lib/content";
+import { storyPathForAxis } from "@/lib/stories";
 
 export default async function CompanyReportPage({
   params,
@@ -14,6 +15,8 @@ export default async function CompanyReportPage({
   // control is only an overlay on other axes, never a standalone page
   if (axis === "control") notFound();
   const content = getAxisContent(axis);
+  const backHref = storyPathForAxis(axis) ?? `/${axis}`;
+  const backLabel = storyPathForAxis(axis) ? "Story" : content.title;
 
   if (axis === "dei") {
     const dei = await loadDei(company);
@@ -21,10 +24,10 @@ export default async function CompanyReportPage({
     return (
       <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-12">
         <Link
-          href={`/${axis}`}
+          href={backHref}
           className="text-sm text-neutral-500 transition-colors hover:text-neutral-800 dark:hover:text-neutral-200"
         >
-          &larr; {content.title}
+          &larr; DEI {backLabel.toLowerCase()}
         </Link>
         <h1 className="mt-4 text-2xl font-semibold tracking-tight">
           {dei.displayName ?? dei.company}
@@ -51,10 +54,10 @@ export default async function CompanyReportPage({
   return (
     <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-12">
       <Link
-        href={`/${axis}`}
+        href={backHref}
         className="text-sm text-neutral-500 transition-colors hover:text-neutral-800 dark:hover:text-neutral-200"
       >
-        &larr; {content.title}
+        &larr; {storyPathForAxis(axis) ? `${content.title} story` : content.title}
       </Link>
       <h1 className="mt-4 text-2xl font-semibold tracking-tight">
         {data.displayName ?? data.company}
