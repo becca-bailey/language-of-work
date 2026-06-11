@@ -1,0 +1,3866 @@
+{
+  "company": "palantir",
+  "displayName": "Palantir",
+  "axis": "dei",
+  "years": [
+    {
+      "year": 2010,
+      "inclusionTopkMean": 0.2698,
+      "inclusionMean": 0.2698,
+      "inclusionMax": 0.3503,
+      "inclusionFractionPresent": 0.6,
+      "meritocracyTopkMean": 0.2483,
+      "meritocracyMean": 0.2483,
+      "nChunks": 5,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 2,
+        "civilizational_mission": 0,
+        "absent": 3
+      },
+      "controlTopkMean": 0.0555,
+      "inclusionQuotes": [
+        {
+          "text": "Over the last decade, Silicon Valley has transformed every individual with access to the Internet into a researcher. It used to be that you needed a Masters degree or a Ph.D. in a particular field, ties to highly specialized experts and tomes buried in dusty university libraries, to meet the myriad intellectual demands of work and life. Now — with a little help from Google and Wikipedia – anyone c",
+          "heading": "Perspectives on Palantir",
+          "register": "absent",
+          "inclusion": 0.3503,
+          "meritocracy": 0.3521,
+          "stanceDiff": -0.0018,
+          "salience": 0.3521,
+          "score": 0.3503
+        },
+        {
+          "text": "Palantir Technologies is working to radically change how groups analyze information. We were founded in 2004 by a handful of PayPal alumni and Stanford computer scientists. Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards. We currently offer two products: Palantir Government and Palantir Finance ",
+          "heading": "About Palantir",
+          "register": "meritocracy",
+          "inclusion": 0.2676,
+          "meritocracy": 0.2147,
+          "stanceDiff": 0.0529,
+          "salience": 0.2676,
+          "score": 0.2676
+        },
+        {
+          "text": "Palantir was built by technologists serious about protecting privacy and civil liberties. Thoughts on Palantir and the promise of analysis by our CEO, Alex Karp. Read » The Palantir White Papers. Learn more about the science behind our technology. Learn about Palantir with Operation Tradestop , an interactive analysis game leveraging Palantir Government.",
+          "heading": "Palantir’s Commitment to Protecting Civil Liberties",
+          "register": "absent",
+          "inclusion": 0.2622,
+          "meritocracy": 0.2127,
+          "stanceDiff": 0.0495,
+          "salience": 0.2622,
+          "score": 0.2622
+        },
+        {
+          "text": "Palantir places all the analytical power and technical prowess of the world’s best software engineers at your fingertips. Palantir shifts the paradigm away from both the etching technologies that merely let you map out what you already know and the quasi stand-alone field of artificial intelligence, that while useful for some types of analysis, has limits when it comes to making sense out of massi",
+          "heading": "Perspectives on Palantir",
+          "register": "absent",
+          "inclusion": 0.2389,
+          "meritocracy": 0.2397,
+          "stanceDiff": -0.0009,
+          "salience": 0.2397,
+          "score": 0.2389
+        },
+        {
+          "text": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs. As the CEO and founder of Palantir Technologies, I can say with pride that every engineer on the Palantir team is working with a sense of excitement and mission, convinced that we have created a product that will help analysts take quantum leaps",
+          "heading": "Perspectives on Palantir",
+          "register": "meritocracy",
+          "inclusion": 0.2301,
+          "meritocracy": 0.2223,
+          "stanceDiff": 0.0078,
+          "salience": 0.2301,
+          "score": 0.2301
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "Over the last decade, Silicon Valley has transformed every individual with access to the Internet into a researcher. It used to be that you needed a Masters degree or a Ph.D. in a particular field, ties to highly specialized experts and tomes buried in dusty university libraries, to meet the myriad intellectual demands of work and life. Now — with a little help from Google and Wikipedia – anyone c",
+          "heading": "Perspectives on Palantir",
+          "register": "absent",
+          "inclusion": 0.3503,
+          "meritocracy": 0.3521,
+          "stanceDiff": -0.0018,
+          "salience": 0.3521,
+          "score": 0.3521
+        },
+        {
+          "text": "Palantir places all the analytical power and technical prowess of the world’s best software engineers at your fingertips. Palantir shifts the paradigm away from both the etching technologies that merely let you map out what you already know and the quasi stand-alone field of artificial intelligence, that while useful for some types of analysis, has limits when it comes to making sense out of massi",
+          "heading": "Perspectives on Palantir",
+          "register": "absent",
+          "inclusion": 0.2389,
+          "meritocracy": 0.2397,
+          "stanceDiff": -0.0009,
+          "salience": 0.2397,
+          "score": 0.2397
+        },
+        {
+          "text": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs. As the CEO and founder of Palantir Technologies, I can say with pride that every engineer on the Palantir team is working with a sense of excitement and mission, convinced that we have created a product that will help analysts take quantum leaps",
+          "heading": "Perspectives on Palantir",
+          "register": "meritocracy",
+          "inclusion": 0.2301,
+          "meritocracy": 0.2223,
+          "stanceDiff": 0.0078,
+          "salience": 0.2301,
+          "score": 0.2223
+        },
+        {
+          "text": "Palantir Technologies is working to radically change how groups analyze information. We were founded in 2004 by a handful of PayPal alumni and Stanford computer scientists. Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards. We currently offer two products: Palantir Government and Palantir Finance ",
+          "heading": "About Palantir",
+          "register": "meritocracy",
+          "inclusion": 0.2676,
+          "meritocracy": 0.2147,
+          "stanceDiff": 0.0529,
+          "salience": 0.2676,
+          "score": 0.2147
+        },
+        {
+          "text": "Palantir was built by technologists serious about protecting privacy and civil liberties. Thoughts on Palantir and the promise of analysis by our CEO, Alex Karp. Read » The Palantir White Papers. Learn more about the science behind our technology. Learn about Palantir with Operation Tradestop , an interactive analysis game leveraging Palantir Government.",
+          "heading": "Palantir’s Commitment to Protecting Civil Liberties",
+          "register": "absent",
+          "inclusion": 0.2622,
+          "meritocracy": 0.2127,
+          "stanceDiff": 0.0495,
+          "salience": 0.2622,
+          "score": 0.2127
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "inclusionTopkMean": 0.2626,
+      "inclusionMean": 0.2626,
+      "inclusionMax": 0.263,
+      "inclusionFractionPresent": 1.0,
+      "meritocracyTopkMean": 0.2116,
+      "meritocracyMean": 0.2116,
+      "nChunks": 2,
+      "kUsed": 2,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 0,
+        "absent": 1
+      },
+      "controlTopkMean": -0.0565,
+      "inclusionQuotes": [
+        {
+          "text": "Palantir Technologies is working to radically change how groups analyze information. We were founded in 2004 by a handful of PayPal alumni and Stanford computer scientists. Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards. We currently offer two products: Palantir Government and Palantir Finance ",
+          "heading": "About Palantir",
+          "register": "meritocracy",
+          "inclusion": 0.263,
+          "meritocracy": 0.2105,
+          "stanceDiff": 0.0525,
+          "salience": 0.263,
+          "score": 0.263
+        },
+        {
+          "text": "Palantir was built by technologists serious about protecting privacy and civil liberties. Thoughts on Palantir and the promise of analysis by our CEO, Alex Karp. Read » The Palantir White Papers. Learn more about the science behind our technology. Learn about Palantir with Operation Tradestop , an interactive analysis game leveraging Palantir Government.",
+          "heading": "Palantir’s Commitment to Protecting Civil Liberties",
+          "register": "absent",
+          "inclusion": 0.2622,
+          "meritocracy": 0.2127,
+          "stanceDiff": 0.0495,
+          "salience": 0.2622,
+          "score": 0.2622
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "Palantir was built by technologists serious about protecting privacy and civil liberties. Thoughts on Palantir and the promise of analysis by our CEO, Alex Karp. Read » The Palantir White Papers. Learn more about the science behind our technology. Learn about Palantir with Operation Tradestop , an interactive analysis game leveraging Palantir Government.",
+          "heading": "Palantir’s Commitment to Protecting Civil Liberties",
+          "register": "absent",
+          "inclusion": 0.2622,
+          "meritocracy": 0.2127,
+          "stanceDiff": 0.0495,
+          "salience": 0.2622,
+          "score": 0.2127
+        },
+        {
+          "text": "Palantir Technologies is working to radically change how groups analyze information. We were founded in 2004 by a handful of PayPal alumni and Stanford computer scientists. Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards. We currently offer two products: Palantir Government and Palantir Finance ",
+          "heading": "About Palantir",
+          "register": "meritocracy",
+          "inclusion": 0.263,
+          "meritocracy": 0.2105,
+          "stanceDiff": 0.0525,
+          "salience": 0.263,
+          "score": 0.2105
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "inclusionTopkMean": 0.3226,
+      "inclusionMean": 0.3226,
+      "inclusionMax": 0.4818,
+      "inclusionFractionPresent": 1.0,
+      "meritocracyTopkMean": 0.277,
+      "meritocracyMean": 0.277,
+      "nChunks": 5,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 2,
+        "civilizational_mission": 0,
+        "absent": 3
+      },
+      "controlTopkMean": 0.0348,
+      "inclusionQuotes": [
+        {
+          "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes. Our solutions are revolutionizing the work being done at organizations across government, commercial and health industries. We build groundbreaking technologies , from our data fusion platforms to the extensions cooked up in our labs . Protecting civil liberties . Promoting op",
+          "heading": "Palantir",
+          "register": "absent",
+          "inclusion": 0.4818,
+          "meritocracy": 0.4383,
+          "stanceDiff": 0.0435,
+          "salience": 0.4818,
+          "score": 0.4818
+        },
+        {
+          "text": "Palantir was built by technologists serious about protecting privacy and civil liberties.",
+          "heading": "Palantir’s Commitment to Protecting Civil Liberties",
+          "register": "absent",
+          "inclusion": 0.3304,
+          "meritocracy": 0.2754,
+          "stanceDiff": 0.055,
+          "salience": 0.3304,
+          "score": 0.3304
+        },
+        {
+          "text": "Palantir Technologies is working to radically change how groups analyze information. We were founded in 2004 by a handful of PayPal alumni and Stanford computer scientists. Since then we've doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic and rigorous hiring standards. We currently offer a suite of software applications for integrating, visual",
+          "heading": "Follow us elsewhere",
+          "register": "meritocracy",
+          "inclusion": 0.285,
+          "meritocracy": 0.2274,
+          "stanceDiff": 0.0576,
+          "salience": 0.285,
+          "score": 0.285
+        },
+        {
+          "text": "Palantir Technologies is working to radically change how groups analyze information. We were founded in 2004 by a handful of PayPal alumni and Stanford computer scientists. Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards. We currently offer two products: Palantir Government and Palantir Finance ",
+          "heading": "About Palantir",
+          "register": "meritocracy",
+          "inclusion": 0.263,
+          "meritocracy": 0.2105,
+          "stanceDiff": 0.0525,
+          "salience": 0.263,
+          "score": 0.263
+        },
+        {
+          "text": "A Grameen Foundation Community Knowledge worker speaks with a Ugandan farmer. A piece recently published on both the Scientific American and Fast Company’s CoExist websites highlights our most recent work with the Grameen Foundation. We participated in Hacking for Hunger, a first-of-its-kind hackathon held by the Office of Innovation & Development Alliances at USAID, which [...]",
+          "heading": "Grameen Foundation & Palantir: Partners for Food Security",
+          "register": "absent",
+          "inclusion": 0.2528,
+          "meritocracy": 0.2335,
+          "stanceDiff": 0.0193,
+          "salience": 0.2528,
+          "score": 0.2528
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes. Our solutions are revolutionizing the work being done at organizations across government, commercial and health industries. We build groundbreaking technologies , from our data fusion platforms to the extensions cooked up in our labs . Protecting civil liberties . Promoting op",
+          "heading": "Palantir",
+          "register": "absent",
+          "inclusion": 0.4818,
+          "meritocracy": 0.4383,
+          "stanceDiff": 0.0435,
+          "salience": 0.4818,
+          "score": 0.4383
+        },
+        {
+          "text": "Palantir was built by technologists serious about protecting privacy and civil liberties.",
+          "heading": "Palantir’s Commitment to Protecting Civil Liberties",
+          "register": "absent",
+          "inclusion": 0.3304,
+          "meritocracy": 0.2754,
+          "stanceDiff": 0.055,
+          "salience": 0.3304,
+          "score": 0.2754
+        },
+        {
+          "text": "A Grameen Foundation Community Knowledge worker speaks with a Ugandan farmer. A piece recently published on both the Scientific American and Fast Company’s CoExist websites highlights our most recent work with the Grameen Foundation. We participated in Hacking for Hunger, a first-of-its-kind hackathon held by the Office of Innovation & Development Alliances at USAID, which [...]",
+          "heading": "Grameen Foundation & Palantir: Partners for Food Security",
+          "register": "absent",
+          "inclusion": 0.2528,
+          "meritocracy": 0.2335,
+          "stanceDiff": 0.0193,
+          "salience": 0.2528,
+          "score": 0.2335
+        },
+        {
+          "text": "Palantir Technologies is working to radically change how groups analyze information. We were founded in 2004 by a handful of PayPal alumni and Stanford computer scientists. Since then we've doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic and rigorous hiring standards. We currently offer a suite of software applications for integrating, visual",
+          "heading": "Follow us elsewhere",
+          "register": "meritocracy",
+          "inclusion": 0.285,
+          "meritocracy": 0.2274,
+          "stanceDiff": 0.0576,
+          "salience": 0.285,
+          "score": 0.2274
+        },
+        {
+          "text": "Palantir Technologies is working to radically change how groups analyze information. We were founded in 2004 by a handful of PayPal alumni and Stanford computer scientists. Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards. We currently offer two products: Palantir Government and Palantir Finance ",
+          "heading": "About Palantir",
+          "register": "meritocracy",
+          "inclusion": 0.263,
+          "meritocracy": 0.2105,
+          "stanceDiff": 0.0525,
+          "salience": 0.263,
+          "score": 0.2105
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "inclusionTopkMean": 0.3544,
+      "inclusionMean": 0.28,
+      "inclusionMax": 0.4818,
+      "inclusionFractionPresent": 0.6364,
+      "meritocracyTopkMean": 0.2871,
+      "meritocracyMean": 0.2366,
+      "nChunks": 11,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 3,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 0,
+        "absent": 7
+      },
+      "controlTopkMean": 0.0313,
+      "inclusionQuotes": [
+        {
+          "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes. Our solutions are revolutionizing the work being done at organizations across government, commercial and health industries. We build groundbreaking technologies , from our data fusion platforms to the extensions cooked up in our labs . Protecting civil liberties . Promoting op",
+          "heading": "Palantir",
+          "register": "absent",
+          "inclusion": 0.4818,
+          "meritocracy": 0.4383,
+          "stanceDiff": 0.0435,
+          "salience": 0.4818,
+          "score": 0.4818
+        },
+        {
+          "text": "On November 13, Pooja Sankar, CEO of Piazza, an online Q&A platform used by students and teachers, sat down with four women at Palantir to discuss their experiences working in technology. Originally broadcasted live to students in Piazza’s network, the panelists spoke about their roles at Palantir and how they’ve navigated the ups and downs [...]",
+          "heading": "Panel features Palantir Women on Working in Tech",
+          "register": "absent",
+          "inclusion": 0.4014,
+          "meritocracy": 0.2728,
+          "stanceDiff": 0.1286,
+          "salience": 0.4014,
+          "score": 0.4014
+        },
+        {
+          "text": "Last month we hosted Palantir Sync: Investigate, which brought together members of the investigative, regulatory, and prosecutorial communities for a discussion of how technology and data are transforming their missions. Through a series of presentations we demonstrated how our software could provide a single, end-to-end platform for their investigations—from initial lead all the way to [...]",
+          "heading": "Palantir Sync brings together investigative, regulatory, and prosecutorial communities to discuss how technology can revolutionize their missions",
+          "register": "absent",
+          "inclusion": 0.3204,
+          "meritocracy": 0.2539,
+          "stanceDiff": 0.0665,
+          "salience": 0.3204,
+          "score": 0.3204
+        },
+        {
+          "text": "Palantir Technologies is working to radically change how groups analyze information. We were founded in 2004 by a handful of PayPal alumni and Stanford computer scientists. Since then we've doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic and rigorous hiring standards. We currently offer a suite of software applications for integrating, visual",
+          "heading": "Follow us elsewhere",
+          "register": "meritocracy",
+          "inclusion": 0.285,
+          "meritocracy": 0.2274,
+          "stanceDiff": 0.0576,
+          "salience": 0.285,
+          "score": 0.285
+        },
+        {
+          "text": "Girl Geeks from around the Bay rang in the new year and broke in Palantir’s new event space with Girl Geek Dinner #32, which focused on philanthropy, technology, and the opportunities presented by both for women worldwide. Lucy Bernholz, visiting scholar at Stanford University’s Center on Philanthropy and Civil Society, opened the night with her [...]",
+          "heading": "Palantir hosts Bay Area Girl Geek Dinner #32",
+          "register": "aspirational_vague",
+          "inclusion": 0.2834,
+          "meritocracy": 0.2063,
+          "stanceDiff": 0.0772,
+          "salience": 0.2834,
+          "score": 0.2834
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes. Our solutions are revolutionizing the work being done at organizations across government, commercial and health industries. We build groundbreaking technologies , from our data fusion platforms to the extensions cooked up in our labs . Protecting civil liberties . Promoting op",
+          "heading": "Palantir",
+          "register": "absent",
+          "inclusion": 0.4818,
+          "meritocracy": 0.4383,
+          "stanceDiff": 0.0435,
+          "salience": 0.4818,
+          "score": 0.4383
+        },
+        {
+          "text": "On November 13, Pooja Sankar, CEO of Piazza, an online Q&A platform used by students and teachers, sat down with four women at Palantir to discuss their experiences working in technology. Originally broadcasted live to students in Piazza’s network, the panelists spoke about their roles at Palantir and how they’ve navigated the ups and downs [...]",
+          "heading": "Panel features Palantir Women on Working in Tech",
+          "register": "absent",
+          "inclusion": 0.4014,
+          "meritocracy": 0.2728,
+          "stanceDiff": 0.1286,
+          "salience": 0.4014,
+          "score": 0.2728
+        },
+        {
+          "text": "Last month we hosted Palantir Sync: Investigate, which brought together members of the investigative, regulatory, and prosecutorial communities for a discussion of how technology and data are transforming their missions. Through a series of presentations we demonstrated how our software could provide a single, end-to-end platform for their investigations—from initial lead all the way to [...]",
+          "heading": "Palantir Sync brings together investigative, regulatory, and prosecutorial communities to discuss how technology can revolutionize their missions",
+          "register": "absent",
+          "inclusion": 0.3204,
+          "meritocracy": 0.2539,
+          "stanceDiff": 0.0665,
+          "salience": 0.3204,
+          "score": 0.2539
+        },
+        {
+          "text": "Congratulations to the winners of this year’s Palantir Scholarship for Women in Technology! This year, scholarship applicants wrote essays addressing why they were pursuing a technical degree, what can be done to increase the number of women in technical fields, and what ways technology can be used to promote opportunities for women worldwide. The finalists were [...]",
+          "heading": "Announcing the 2012-2013 Palantir Scholarship for Women in Technology Winners!",
+          "register": "aspirational_vague",
+          "inclusion": 0.2788,
+          "meritocracy": 0.2371,
+          "stanceDiff": 0.0417,
+          "salience": 0.2788,
+          "score": 0.2371
+        },
+        {
+          "text": "A Grameen Foundation Community Knowledge worker speaks with a Ugandan farmer. A piece recently published on both the Scientific American and Fast Company’s CoExist websites highlights our most recent work with the Grameen Foundation. We participated in Hacking for Hunger, a first-of-its-kind hackathon held by the Office of Innovation & Development Alliances at USAID, which [...]",
+          "heading": "Grameen Foundation & Palantir: Partners for Food Security",
+          "register": "absent",
+          "inclusion": 0.2528,
+          "meritocracy": 0.2335,
+          "stanceDiff": 0.0193,
+          "salience": 0.2528,
+          "score": 0.2335
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "inclusionTopkMean": 0.4842,
+      "inclusionMean": 0.4842,
+      "inclusionMax": 0.4842,
+      "inclusionFractionPresent": 1.0,
+      "meritocracyTopkMean": 0.4337,
+      "meritocracyMean": 0.4337,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 0,
+        "civilizational_mission": 0,
+        "absent": 1
+      },
+      "controlTopkMean": null,
+      "inclusionQuotes": [
+        {
+          "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes. Our solutions and integrations are revolutionizing the work being done at organizations across government, commercial and health industries. We build groundbreaking technologies , including our data fusion platforms . Protecting civil liberties . Promoting open software . Surf",
+          "heading": "Palantir",
+          "register": "absent",
+          "inclusion": 0.4842,
+          "meritocracy": 0.4337,
+          "stanceDiff": 0.0505,
+          "salience": 0.4842,
+          "score": 0.4842
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes. Our solutions and integrations are revolutionizing the work being done at organizations across government, commercial and health industries. We build groundbreaking technologies , including our data fusion platforms . Protecting civil liberties . Promoting open software . Surf",
+          "heading": "Palantir",
+          "register": "absent",
+          "inclusion": 0.4842,
+          "meritocracy": 0.4337,
+          "stanceDiff": 0.0505,
+          "salience": 0.4842,
+          "score": 0.4337
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "inclusionTopkMean": 0.4647,
+      "inclusionMean": 0.4039,
+      "inclusionMax": 0.5128,
+      "inclusionFractionPresent": 0.875,
+      "meritocracyTopkMean": 0.4364,
+      "meritocracyMean": 0.3754,
+      "nChunks": 8,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 0,
+        "civilizational_mission": 0,
+        "absent": 8
+      },
+      "controlTopkMean": 0.0108,
+      "inclusionQuotes": [
+        {
+          "text": "Perks, benefits, social activities, and learning opportunities: we believe people are our most important asset, so we invest in our people every day to promote productivity and reduce friction.",
+          "heading": "Life at Palantir",
+          "register": "absent",
+          "inclusion": 0.5128,
+          "meritocracy": 0.4608,
+          "stanceDiff": 0.052,
+          "salience": 0.5128,
+          "score": 0.5128
+        },
+        {
+          "text": "With a combination of perks, benefits, social activities, and learning opportunities, we invest every day in our most important asset: our people.",
+          "heading": "Life At Palantir",
+          "register": "absent",
+          "inclusion": 0.5005,
+          "meritocracy": 0.44,
+          "stanceDiff": 0.0605,
+          "salience": 0.5005,
+          "score": 0.5005
+        },
+        {
+          "text": "Where you take the next step in your career matters. While we certainly think we’re doing exciting, impactful work, we don’t want you to just take our word for it. Find out more about us—we think you’ll like what you see.",
+          "heading": "Get to Know Us Better",
+          "register": "absent",
+          "inclusion": 0.4946,
+          "meritocracy": 0.4823,
+          "stanceDiff": 0.0123,
+          "salience": 0.4946,
+          "score": 0.4946
+        },
+        {
+          "text": "Our environment is designed to make work energizing and to stimulate the best thinking. We have no set hours—as long as your work is getting done, you're free to work whatever schedule suits you. Some folks come in during \"normal business\" hours and head home for dinner with their families; others spend 16 hours a day at the office—not because they're working that whole time, but because the offic",
+          "heading": "Choose Your Own Adventure",
+          "register": "absent",
+          "inclusion": 0.4126,
+          "meritocracy": 0.4328,
+          "stanceDiff": -0.0202,
+          "salience": 0.4328,
+          "score": 0.4126
+        },
+        {
+          "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer. You do have to speak up when things aren't right and build to fix what's broken.",
+          "heading": "Engineering Culture",
+          "register": "absent",
+          "inclusion": 0.4027,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0367,
+          "salience": 0.4027,
+          "score": 0.4027
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "Where you take the next step in your career matters. While we certainly think we’re doing exciting, impactful work, we don’t want you to just take our word for it. Find out more about us—we think you’ll like what you see.",
+          "heading": "Get to Know Us Better",
+          "register": "absent",
+          "inclusion": 0.4946,
+          "meritocracy": 0.4823,
+          "stanceDiff": 0.0123,
+          "salience": 0.4946,
+          "score": 0.4823
+        },
+        {
+          "text": "Perks, benefits, social activities, and learning opportunities: we believe people are our most important asset, so we invest in our people every day to promote productivity and reduce friction.",
+          "heading": "Life at Palantir",
+          "register": "absent",
+          "inclusion": 0.5128,
+          "meritocracy": 0.4608,
+          "stanceDiff": 0.052,
+          "salience": 0.5128,
+          "score": 0.4608
+        },
+        {
+          "text": "With a combination of perks, benefits, social activities, and learning opportunities, we invest every day in our most important asset: our people.",
+          "heading": "Life At Palantir",
+          "register": "absent",
+          "inclusion": 0.5005,
+          "meritocracy": 0.44,
+          "stanceDiff": 0.0605,
+          "salience": 0.5005,
+          "score": 0.44
+        },
+        {
+          "text": "Our environment is designed to make work energizing and to stimulate the best thinking. We have no set hours—as long as your work is getting done, you're free to work whatever schedule suits you. Some folks come in during \"normal business\" hours and head home for dinner with their families; others spend 16 hours a day at the office—not because they're working that whole time, but because the offic",
+          "heading": "Choose Your Own Adventure",
+          "register": "absent",
+          "inclusion": 0.4126,
+          "meritocracy": 0.4328,
+          "stanceDiff": -0.0202,
+          "salience": 0.4328,
+          "score": 0.4328
+        },
+        {
+          "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer. You do have to speak up when things aren't right and build to fix what's broken.",
+          "heading": "Engineering Culture",
+          "register": "absent",
+          "inclusion": 0.4027,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0367,
+          "salience": 0.4027,
+          "score": 0.366
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "inclusionTopkMean": 0.4169,
+      "inclusionMean": 0.3881,
+      "inclusionMax": 0.5128,
+      "inclusionFractionPresent": 0.8333,
+      "meritocracyTopkMean": 0.3823,
+      "meritocracyMean": 0.3581,
+      "nChunks": 6,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 0,
+        "civilizational_mission": 0,
+        "absent": 6
+      },
+      "controlTopkMean": null,
+      "inclusionQuotes": [
+        {
+          "text": "Perks, benefits, social activities, and learning opportunities: we believe people are our most important asset, so we invest in our people every day to promote productivity and reduce friction.",
+          "heading": "Life at Palantir",
+          "register": "absent",
+          "inclusion": 0.5128,
+          "meritocracy": 0.4608,
+          "stanceDiff": 0.052,
+          "salience": 0.5128,
+          "score": 0.5128
+        },
+        {
+          "text": "With a combination of perks, benefits, social activities, and learning opportunities, we invest every day in our most important asset: our people.",
+          "heading": "Life At Palantir",
+          "register": "absent",
+          "inclusion": 0.5005,
+          "meritocracy": 0.44,
+          "stanceDiff": 0.0605,
+          "salience": 0.5005,
+          "score": 0.5005
+        },
+        {
+          "text": "Our environment is designed to make work energizing and to stimulate the best thinking. We have no set hours—as long as your work is getting done, you're free to work whatever schedule suits you. Some folks come in during \"normal business\" hours and head home for dinner with their families; others spend 16 hours a day at the office—not because they're working that whole time, but because the offic",
+          "heading": "Choose Your Own Adventure",
+          "register": "absent",
+          "inclusion": 0.4126,
+          "meritocracy": 0.4328,
+          "stanceDiff": -0.0202,
+          "salience": 0.4328,
+          "score": 0.4126
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world. We’re building a future where data can be leveraged to serve people, create value, and improve quality of life. Palantir interns apply their knowledge to real-world problems from day one. Learn more.",
+          "heading": "There is so much left to build",
+          "register": "absent",
+          "inclusion": 0.3572,
+          "meritocracy": 0.3062,
+          "stanceDiff": 0.051,
+          "salience": 0.3572,
+          "score": 0.3572
+        },
+        {
+          "text": "Focus on what matters: Palantir provides a variety of perks that help us focus on the mission by promoting productivity and freeing up time at and away from the office. Good grub: At Palantir, you will never be hungry. Chefs craft weekly menus consisting of organic and local foods, and we serve three meals a day. Family, friends, and guests are always welcome, and to-go boxes are always available.",
+          "heading": "Making Life Easy",
+          "register": "absent",
+          "inclusion": 0.3014,
+          "meritocracy": 0.2715,
+          "stanceDiff": 0.0298,
+          "salience": 0.3014,
+          "score": 0.3014
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "Perks, benefits, social activities, and learning opportunities: we believe people are our most important asset, so we invest in our people every day to promote productivity and reduce friction.",
+          "heading": "Life at Palantir",
+          "register": "absent",
+          "inclusion": 0.5128,
+          "meritocracy": 0.4608,
+          "stanceDiff": 0.052,
+          "salience": 0.5128,
+          "score": 0.4608
+        },
+        {
+          "text": "With a combination of perks, benefits, social activities, and learning opportunities, we invest every day in our most important asset: our people.",
+          "heading": "Life At Palantir",
+          "register": "absent",
+          "inclusion": 0.5005,
+          "meritocracy": 0.44,
+          "stanceDiff": 0.0605,
+          "salience": 0.5005,
+          "score": 0.44
+        },
+        {
+          "text": "Our environment is designed to make work energizing and to stimulate the best thinking. We have no set hours—as long as your work is getting done, you're free to work whatever schedule suits you. Some folks come in during \"normal business\" hours and head home for dinner with their families; others spend 16 hours a day at the office—not because they're working that whole time, but because the offic",
+          "heading": "Choose Your Own Adventure",
+          "register": "absent",
+          "inclusion": 0.4126,
+          "meritocracy": 0.4328,
+          "stanceDiff": -0.0202,
+          "salience": 0.4328,
+          "score": 0.4328
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world. We’re building a future where data can be leveraged to serve people, create value, and improve quality of life. Palantir interns apply their knowledge to real-world problems from day one. Learn more.",
+          "heading": "There is so much left to build",
+          "register": "absent",
+          "inclusion": 0.3572,
+          "meritocracy": 0.3062,
+          "stanceDiff": 0.051,
+          "salience": 0.3572,
+          "score": 0.3062
+        },
+        {
+          "text": "Focus on what matters: Palantir provides a variety of perks that help us focus on the mission by promoting productivity and freeing up time at and away from the office. Good grub: At Palantir, you will never be hungry. Chefs craft weekly menus consisting of organic and local foods, and we serve three meals a day. Family, friends, and guests are always welcome, and to-go boxes are always available.",
+          "heading": "Making Life Easy",
+          "register": "absent",
+          "inclusion": 0.3014,
+          "meritocracy": 0.2715,
+          "stanceDiff": 0.0298,
+          "salience": 0.3014,
+          "score": 0.2715
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "inclusionTopkMean": 0.3961,
+      "inclusionMean": 0.371,
+      "inclusionMax": 0.4354,
+      "inclusionFractionPresent": 1.0,
+      "meritocracyTopkMean": 0.3766,
+      "meritocracyMean": 0.3389,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 1,
+        "absent": 5
+      },
+      "controlTopkMean": -0.0006,
+      "inclusionQuotes": [
+        {
+          "text": "We are engineers on a mission. We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms ",
+          "heading": "We go where we’re needed most",
+          "register": "civilizational_mission",
+          "inclusion": 0.4354,
+          "meritocracy": 0.4355,
+          "stanceDiff": -0.0001,
+          "salience": 0.4355,
+          "score": 0.4354
+        },
+        {
+          "text": "We believe in augmenting human intelligence, not replacing it. With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better. In 2004, when we looked at the available technology, we saw products that were too rigid to handle novel problems, and custom systems that took too long to deploy and required too many services to ma",
+          "heading": "Why We’re Here",
+          "register": "absent",
+          "inclusion": 0.4134,
+          "meritocracy": 0.3608,
+          "stanceDiff": 0.0526,
+          "salience": 0.4134,
+          "score": 0.4134
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line. To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machin",
+          "heading": "We make products for human-driven analysis of real-world data",
+          "register": "absent",
+          "inclusion": 0.4096,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0437,
+          "salience": 0.4096,
+          "score": 0.4096
+        },
+        {
+          "text": "We’re engineers, not academics. At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science. Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mis",
+          "heading": "We build our company around mission-driven engineering",
+          "register": "meritocracy",
+          "inclusion": 0.3776,
+          "meritocracy": 0.3859,
+          "stanceDiff": -0.0083,
+          "salience": 0.3859,
+          "score": 0.3776
+        },
+        {
+          "text": "Our customers have data and a deep understanding of the problems they face. We have proven products and an engineering mindset. We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years. By establishing a true partnership, we help customers get the most o",
+          "heading": "We meet the problems where they live",
+          "register": "absent",
+          "inclusion": 0.3446,
+          "meritocracy": 0.3347,
+          "stanceDiff": 0.0099,
+          "salience": 0.3446,
+          "score": 0.3446
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "We are engineers on a mission. We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms ",
+          "heading": "We go where we’re needed most",
+          "register": "civilizational_mission",
+          "inclusion": 0.4354,
+          "meritocracy": 0.4355,
+          "stanceDiff": -0.0001,
+          "salience": 0.4355,
+          "score": 0.4355
+        },
+        {
+          "text": "We’re engineers, not academics. At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science. Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mis",
+          "heading": "We build our company around mission-driven engineering",
+          "register": "meritocracy",
+          "inclusion": 0.3776,
+          "meritocracy": 0.3859,
+          "stanceDiff": -0.0083,
+          "salience": 0.3859,
+          "score": 0.3859
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line. To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machin",
+          "heading": "We make products for human-driven analysis of real-world data",
+          "register": "absent",
+          "inclusion": 0.4096,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0437,
+          "salience": 0.4096,
+          "score": 0.366
+        },
+        {
+          "text": "We believe in augmenting human intelligence, not replacing it. With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better. In 2004, when we looked at the available technology, we saw products that were too rigid to handle novel problems, and custom systems that took too long to deploy and required too many services to ma",
+          "heading": "Why We’re Here",
+          "register": "absent",
+          "inclusion": 0.4134,
+          "meritocracy": 0.3608,
+          "stanceDiff": 0.0526,
+          "salience": 0.4134,
+          "score": 0.3608
+        },
+        {
+          "text": "Our customers have data and a deep understanding of the problems they face. We have proven products and an engineering mindset. We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years. By establishing a true partnership, we help customers get the most o",
+          "heading": "We meet the problems where they live",
+          "register": "absent",
+          "inclusion": 0.3446,
+          "meritocracy": 0.3347,
+          "stanceDiff": 0.0099,
+          "salience": 0.3446,
+          "score": 0.3347
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "inclusionTopkMean": 0.4108,
+      "inclusionMean": 0.377,
+      "inclusionMax": 0.4354,
+      "inclusionFractionPresent": 1.0,
+      "meritocracyTopkMean": 0.3828,
+      "meritocracyMean": 0.3418,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 1,
+        "absent": 7
+      },
+      "controlTopkMean": -0.0809,
+      "inclusionQuotes": [
+        {
+          "text": "We are engineers on a mission. We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms ",
+          "heading": "We go where we’re needed most",
+          "register": "civilizational_mission",
+          "inclusion": 0.4354,
+          "meritocracy": 0.4355,
+          "stanceDiff": -0.0001,
+          "salience": 0.4355,
+          "score": 0.4354
+        },
+        {
+          "text": "We believe in augmenting human intelligence, not replacing it. With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better. In 2004, when we looked at the available technology, we saw products that were too rigid to handle novel problems, and custom systems that took too long to deploy and required too many services to ma",
+          "heading": "Why We’re Here",
+          "register": "absent",
+          "inclusion": 0.4134,
+          "meritocracy": 0.3608,
+          "stanceDiff": 0.0526,
+          "salience": 0.4134,
+          "score": 0.4134
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line. To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machin",
+          "heading": "We make products for human-driven analysis of real-world data",
+          "register": "absent",
+          "inclusion": 0.4096,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0437,
+          "salience": 0.4096,
+          "score": 0.4096
+        },
+        {
+          "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer. You do have to speak up when things aren't right and build to fix what's broken.",
+          "heading": "Engineering Culture",
+          "register": "absent",
+          "inclusion": 0.4027,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0367,
+          "salience": 0.4027,
+          "score": 0.4027
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world. We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+          "heading": "There is so much left to build",
+          "register": "absent",
+          "inclusion": 0.3927,
+          "meritocracy": 0.3379,
+          "stanceDiff": 0.0549,
+          "salience": 0.3927,
+          "score": 0.3927
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "We are engineers on a mission. We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms ",
+          "heading": "We go where we’re needed most",
+          "register": "civilizational_mission",
+          "inclusion": 0.4354,
+          "meritocracy": 0.4355,
+          "stanceDiff": -0.0001,
+          "salience": 0.4355,
+          "score": 0.4355
+        },
+        {
+          "text": "We’re engineers, not academics. At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science. Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mis",
+          "heading": "We build our company around mission-driven engineering",
+          "register": "meritocracy",
+          "inclusion": 0.3776,
+          "meritocracy": 0.3859,
+          "stanceDiff": -0.0083,
+          "salience": 0.3859,
+          "score": 0.3859
+        },
+        {
+          "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer. You do have to speak up when things aren't right and build to fix what's broken.",
+          "heading": "Engineering Culture",
+          "register": "absent",
+          "inclusion": 0.4027,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0367,
+          "salience": 0.4027,
+          "score": 0.366
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line. To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machin",
+          "heading": "We make products for human-driven analysis of real-world data",
+          "register": "absent",
+          "inclusion": 0.4096,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0437,
+          "salience": 0.4096,
+          "score": 0.366
+        },
+        {
+          "text": "We believe in augmenting human intelligence, not replacing it. With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better. In 2004, when we looked at the available technology, we saw products that were too rigid to handle novel problems, and custom systems that took too long to deploy and required too many services to ma",
+          "heading": "Why We’re Here",
+          "register": "absent",
+          "inclusion": 0.4134,
+          "meritocracy": 0.3608,
+          "stanceDiff": 0.0526,
+          "salience": 0.4134,
+          "score": 0.3608
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "inclusionTopkMean": 0.4108,
+      "inclusionMean": 0.377,
+      "inclusionMax": 0.4354,
+      "inclusionFractionPresent": 1.0,
+      "meritocracyTopkMean": 0.3828,
+      "meritocracyMean": 0.3418,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 1,
+        "absent": 7
+      },
+      "controlTopkMean": null,
+      "inclusionQuotes": [
+        {
+          "text": "We are engineers on a mission. We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms ",
+          "heading": "We go where we’re needed most",
+          "register": "civilizational_mission",
+          "inclusion": 0.4354,
+          "meritocracy": 0.4355,
+          "stanceDiff": -0.0001,
+          "salience": 0.4355,
+          "score": 0.4354
+        },
+        {
+          "text": "We believe in augmenting human intelligence, not replacing it. With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better. In 2004, when we looked at the available technology, we saw products that were too rigid to handle novel problems, and custom systems that took too long to deploy and required too many services to ma",
+          "heading": "Why We’re Here",
+          "register": "absent",
+          "inclusion": 0.4134,
+          "meritocracy": 0.3608,
+          "stanceDiff": 0.0526,
+          "salience": 0.4134,
+          "score": 0.4134
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line. To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machin",
+          "heading": "We make products for human-driven analysis of real-world data",
+          "register": "absent",
+          "inclusion": 0.4096,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0437,
+          "salience": 0.4096,
+          "score": 0.4096
+        },
+        {
+          "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer. You do have to speak up when things aren't right and build to fix what's broken.",
+          "heading": "Engineering Culture",
+          "register": "absent",
+          "inclusion": 0.4027,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0367,
+          "salience": 0.4027,
+          "score": 0.4027
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world. We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+          "heading": "There is so much left to build",
+          "register": "absent",
+          "inclusion": 0.3927,
+          "meritocracy": 0.3379,
+          "stanceDiff": 0.0549,
+          "salience": 0.3927,
+          "score": 0.3927
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "We are engineers on a mission. We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms ",
+          "heading": "We go where we’re needed most",
+          "register": "civilizational_mission",
+          "inclusion": 0.4354,
+          "meritocracy": 0.4355,
+          "stanceDiff": -0.0001,
+          "salience": 0.4355,
+          "score": 0.4355
+        },
+        {
+          "text": "We’re engineers, not academics. At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science. Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mis",
+          "heading": "We build our company around mission-driven engineering",
+          "register": "meritocracy",
+          "inclusion": 0.3776,
+          "meritocracy": 0.3859,
+          "stanceDiff": -0.0083,
+          "salience": 0.3859,
+          "score": 0.3859
+        },
+        {
+          "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer. You do have to speak up when things aren't right and build to fix what's broken.",
+          "heading": "Engineering Culture",
+          "register": "absent",
+          "inclusion": 0.4027,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0367,
+          "salience": 0.4027,
+          "score": 0.366
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line. To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machin",
+          "heading": "We make products for human-driven analysis of real-world data",
+          "register": "absent",
+          "inclusion": 0.4096,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0437,
+          "salience": 0.4096,
+          "score": 0.366
+        },
+        {
+          "text": "We believe in augmenting human intelligence, not replacing it. With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better. In 2004, when we looked at the available technology, we saw products that were too rigid to handle novel problems, and custom systems that took too long to deploy and required too many services to ma",
+          "heading": "Why We’re Here",
+          "register": "absent",
+          "inclusion": 0.4134,
+          "meritocracy": 0.3608,
+          "stanceDiff": 0.0526,
+          "salience": 0.4134,
+          "score": 0.3608
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "inclusionTopkMean": 0.4108,
+      "inclusionMean": 0.377,
+      "inclusionMax": 0.4354,
+      "inclusionFractionPresent": 1.0,
+      "meritocracyTopkMean": 0.3828,
+      "meritocracyMean": 0.3418,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 1,
+        "absent": 7
+      },
+      "controlTopkMean": null,
+      "inclusionQuotes": [
+        {
+          "text": "We are engineers on a mission. We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms ",
+          "heading": "We go where we’re needed most",
+          "register": "civilizational_mission",
+          "inclusion": 0.4354,
+          "meritocracy": 0.4355,
+          "stanceDiff": -0.0001,
+          "salience": 0.4355,
+          "score": 0.4354
+        },
+        {
+          "text": "We believe in augmenting human intelligence, not replacing it. With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better. In 2004, when we looked at the available technology, we saw products that were too rigid to handle novel problems, and custom systems that took too long to deploy and required too many services to ma",
+          "heading": "Why We’re Here",
+          "register": "absent",
+          "inclusion": 0.4134,
+          "meritocracy": 0.3608,
+          "stanceDiff": 0.0526,
+          "salience": 0.4134,
+          "score": 0.4134
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line. To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machin",
+          "heading": "We make products for human-driven analysis of real-world data",
+          "register": "absent",
+          "inclusion": 0.4096,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0437,
+          "salience": 0.4096,
+          "score": 0.4096
+        },
+        {
+          "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer. You do have to speak up when things aren't right and build to fix what's broken.",
+          "heading": "Engineering Culture",
+          "register": "absent",
+          "inclusion": 0.4027,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0367,
+          "salience": 0.4027,
+          "score": 0.4027
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world. We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+          "heading": "There is so much left to build",
+          "register": "absent",
+          "inclusion": 0.3927,
+          "meritocracy": 0.3379,
+          "stanceDiff": 0.0549,
+          "salience": 0.3927,
+          "score": 0.3927
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "We are engineers on a mission. We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms ",
+          "heading": "We go where we’re needed most",
+          "register": "civilizational_mission",
+          "inclusion": 0.4354,
+          "meritocracy": 0.4355,
+          "stanceDiff": -0.0001,
+          "salience": 0.4355,
+          "score": 0.4355
+        },
+        {
+          "text": "We’re engineers, not academics. At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science. Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mis",
+          "heading": "We build our company around mission-driven engineering",
+          "register": "meritocracy",
+          "inclusion": 0.3776,
+          "meritocracy": 0.3859,
+          "stanceDiff": -0.0083,
+          "salience": 0.3859,
+          "score": 0.3859
+        },
+        {
+          "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer. You do have to speak up when things aren't right and build to fix what's broken.",
+          "heading": "Engineering Culture",
+          "register": "absent",
+          "inclusion": 0.4027,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0367,
+          "salience": 0.4027,
+          "score": 0.366
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line. To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machin",
+          "heading": "We make products for human-driven analysis of real-world data",
+          "register": "absent",
+          "inclusion": 0.4096,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0437,
+          "salience": 0.4096,
+          "score": 0.366
+        },
+        {
+          "text": "We believe in augmenting human intelligence, not replacing it. With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better. In 2004, when we looked at the available technology, we saw products that were too rigid to handle novel problems, and custom systems that took too long to deploy and required too many services to ma",
+          "heading": "Why We’re Here",
+          "register": "absent",
+          "inclusion": 0.4134,
+          "meritocracy": 0.3608,
+          "stanceDiff": 0.0526,
+          "salience": 0.4134,
+          "score": 0.3608
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "inclusionTopkMean": 0.454,
+      "inclusionMean": 0.3491,
+      "inclusionMax": 0.5223,
+      "inclusionFractionPresent": 0.8235,
+      "meritocracyTopkMean": 0.4356,
+      "meritocracyMean": 0.3199,
+      "nChunks": 17,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 1,
+        "absent": 15
+      },
+      "controlTopkMean": -0.0208,
+      "inclusionQuotes": [
+        {
+          "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.5223,
+          "meritocracy": 0.5471,
+          "stanceDiff": -0.0248,
+          "salience": 0.5471,
+          "score": 0.5223
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4892,
+          "meritocracy": 0.4413,
+          "stanceDiff": 0.048,
+          "salience": 0.4892,
+          "score": 0.4892
+        },
+        {
+          "text": "We are engineers on a mission. We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms ",
+          "heading": "We go where we’re needed most",
+          "register": "civilizational_mission",
+          "inclusion": 0.4354,
+          "meritocracy": 0.4355,
+          "stanceDiff": -0.0001,
+          "salience": 0.4355,
+          "score": 0.4354
+        },
+        {
+          "text": "We believe in augmenting human intelligence, not replacing it. With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better. In 2004, when we looked at the available technology, we saw products that were too rigid to handle novel problems, and custom systems that took too long to deploy and required too many services to ma",
+          "heading": "Why We’re Here",
+          "register": "absent",
+          "inclusion": 0.4134,
+          "meritocracy": 0.3608,
+          "stanceDiff": 0.0526,
+          "salience": 0.4134,
+          "score": 0.4134
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line. To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machin",
+          "heading": "We make products for human-driven analysis of real-world data",
+          "register": "absent",
+          "inclusion": 0.4096,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0437,
+          "salience": 0.4096,
+          "score": 0.4096
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.5223,
+          "meritocracy": 0.5471,
+          "stanceDiff": -0.0248,
+          "salience": 0.5471,
+          "score": 0.5471
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4892,
+          "meritocracy": 0.4413,
+          "stanceDiff": 0.048,
+          "salience": 0.4892,
+          "score": 0.4413
+        },
+        {
+          "text": "We are engineers on a mission. We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms ",
+          "heading": "We go where we’re needed most",
+          "register": "civilizational_mission",
+          "inclusion": 0.4354,
+          "meritocracy": 0.4355,
+          "stanceDiff": -0.0001,
+          "salience": 0.4355,
+          "score": 0.4355
+        },
+        {
+          "text": "We’re engineers, not academics. At our offices around the world, we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science. Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+          "heading": "We build our company around mission-driven engineering",
+          "register": "meritocracy",
+          "inclusion": 0.3766,
+          "meritocracy": 0.3882,
+          "stanceDiff": -0.0116,
+          "salience": 0.3882,
+          "score": 0.3882
+        },
+        {
+          "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer. You do have to speak up when things aren't right and build to fix what's broken.",
+          "heading": "Engineering Culture",
+          "register": "absent",
+          "inclusion": 0.4027,
+          "meritocracy": 0.366,
+          "stanceDiff": 0.0367,
+          "salience": 0.4027,
+          "score": 0.366
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "inclusionTopkMean": 0.4646,
+      "inclusionMean": 0.333,
+      "inclusionMax": 0.5223,
+      "inclusionFractionPresent": 0.75,
+      "meritocracyTopkMean": 0.449,
+      "meritocracyMean": 0.3057,
+      "nChunks": 28,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 1,
+        "absent": 26
+      },
+      "controlTopkMean": 0.0506,
+      "inclusionQuotes": [
+        {
+          "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.5223,
+          "meritocracy": 0.5471,
+          "stanceDiff": -0.0248,
+          "salience": 0.5471,
+          "score": 0.5223
+        },
+        {
+          "text": "If you want to stare into the face of important problems and have the freedom to solve them, we want to work with you. We have some resources to help you navigate the hiring process.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.499,
+          "meritocracy": 0.4581,
+          "stanceDiff": 0.0409,
+          "salience": 0.499,
+          "score": 0.499
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4892,
+          "meritocracy": 0.4413,
+          "stanceDiff": 0.048,
+          "salience": 0.4892,
+          "score": 0.4892
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4076,
+          "meritocracy": 0.3918,
+          "stanceDiff": 0.0157,
+          "salience": 0.4076,
+          "score": 0.4076
+        },
+        {
+          "text": "Explore Palantir careers. There is so much left to build.",
+          "heading": "Careers | Palantir",
+          "register": "absent",
+          "inclusion": 0.405,
+          "meritocracy": 0.2988,
+          "stanceDiff": 0.1062,
+          "salience": 0.405,
+          "score": 0.405
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.5223,
+          "meritocracy": 0.5471,
+          "stanceDiff": -0.0248,
+          "salience": 0.5471,
+          "score": 0.5471
+        },
+        {
+          "text": "If you want to stare into the face of important problems and have the freedom to solve them, we want to work with you. We have some resources to help you navigate the hiring process.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.499,
+          "meritocracy": 0.4581,
+          "stanceDiff": 0.0409,
+          "salience": 0.499,
+          "score": 0.4581
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4892,
+          "meritocracy": 0.4413,
+          "stanceDiff": 0.048,
+          "salience": 0.4892,
+          "score": 0.4413
+        },
+        {
+          "text": "There’s a role here for you—whether you're a new grad or have years of experience.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.3797,
+          "meritocracy": 0.3996,
+          "stanceDiff": -0.0199,
+          "salience": 0.3996,
+          "score": 0.3996
+        },
+        {
+          "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursui",
+          "heading": "",
+          "register": "civilizational_mission",
+          "inclusion": 0.3675,
+          "meritocracy": 0.3991,
+          "stanceDiff": -0.0316,
+          "salience": 0.3991,
+          "score": 0.3991
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "inclusionTopkMean": 0.4535,
+      "inclusionMean": 0.3522,
+      "inclusionMax": 0.5223,
+      "inclusionFractionPresent": 0.8333,
+      "meritocracyTopkMean": 0.4429,
+      "meritocracyMean": 0.3284,
+      "nChunks": 24,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 1,
+        "absent": 22
+      },
+      "controlTopkMean": -0.0044,
+      "inclusionQuotes": [
+        {
+          "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.5223,
+          "meritocracy": 0.5471,
+          "stanceDiff": -0.0248,
+          "salience": 0.5471,
+          "score": 0.5223
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4892,
+          "meritocracy": 0.4413,
+          "stanceDiff": 0.048,
+          "salience": 0.4892,
+          "score": 0.4892
+        },
+        {
+          "text": "Where you take the next step in your career matters. Find out more about us—we think you’ll like what you see.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4436,
+          "meritocracy": 0.4275,
+          "stanceDiff": 0.0161,
+          "salience": 0.4436,
+          "score": 0.4436
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4076,
+          "meritocracy": 0.3918,
+          "stanceDiff": 0.0157,
+          "salience": 0.4076,
+          "score": 0.4076
+        },
+        {
+          "text": "Explore Palantir careers. There is so much left to build.",
+          "heading": "Careers | Palantir",
+          "register": "absent",
+          "inclusion": 0.405,
+          "meritocracy": 0.2988,
+          "stanceDiff": 0.1062,
+          "salience": 0.405,
+          "score": 0.405
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.5223,
+          "meritocracy": 0.5471,
+          "stanceDiff": -0.0248,
+          "salience": 0.5471,
+          "score": 0.5471
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4892,
+          "meritocracy": 0.4413,
+          "stanceDiff": 0.048,
+          "salience": 0.4892,
+          "score": 0.4413
+        },
+        {
+          "text": "Where you take the next step in your career matters. Find out more about us—we think you’ll like what you see.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4436,
+          "meritocracy": 0.4275,
+          "stanceDiff": 0.0161,
+          "salience": 0.4436,
+          "score": 0.4275
+        },
+        {
+          "text": "There’s a role here for you—whether you're a new grad or have years of experience.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.3797,
+          "meritocracy": 0.3996,
+          "stanceDiff": -0.0199,
+          "salience": 0.3996,
+          "score": 0.3996
+        },
+        {
+          "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursui",
+          "heading": "",
+          "register": "civilizational_mission",
+          "inclusion": 0.3675,
+          "meritocracy": 0.3991,
+          "stanceDiff": -0.0316,
+          "salience": 0.3991,
+          "score": 0.3991
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "inclusionTopkMean": 0.4651,
+      "inclusionMean": 0.3515,
+      "inclusionMax": 0.5223,
+      "inclusionFractionPresent": 0.8333,
+      "meritocracyTopkMean": 0.4438,
+      "meritocracyMean": 0.3267,
+      "nChunks": 24,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 2,
+        "absent": 21
+      },
+      "controlTopkMean": -0.0449,
+      "inclusionQuotes": [
+        {
+          "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.5223,
+          "meritocracy": 0.5471,
+          "stanceDiff": -0.0248,
+          "salience": 0.5471,
+          "score": 0.5223
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4892,
+          "meritocracy": 0.4413,
+          "stanceDiff": 0.048,
+          "salience": 0.4892,
+          "score": 0.4892
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and within commercial and governmental institutions.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.473,
+          "meritocracy": 0.4298,
+          "stanceDiff": 0.0431,
+          "salience": 0.473,
+          "score": 0.473
+        },
+        {
+          "text": "If you want to empower the world's most important institutions, you belong here.",
+          "heading": "",
+          "register": "civilizational_mission",
+          "inclusion": 0.4334,
+          "meritocracy": 0.4017,
+          "stanceDiff": 0.0317,
+          "salience": 0.4334,
+          "score": 0.4334
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4076,
+          "meritocracy": 0.3918,
+          "stanceDiff": 0.0157,
+          "salience": 0.4076,
+          "score": 0.4076
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.5223,
+          "meritocracy": 0.5471,
+          "stanceDiff": -0.0248,
+          "salience": 0.5471,
+          "score": 0.5471
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4892,
+          "meritocracy": 0.4413,
+          "stanceDiff": 0.048,
+          "salience": 0.4892,
+          "score": 0.4413
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and within commercial and governmental institutions.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.473,
+          "meritocracy": 0.4298,
+          "stanceDiff": 0.0431,
+          "salience": 0.473,
+          "score": 0.4298
+        },
+        {
+          "text": "If you want to empower the world's most important institutions, you belong here.",
+          "heading": "",
+          "register": "civilizational_mission",
+          "inclusion": 0.4334,
+          "meritocracy": 0.4017,
+          "stanceDiff": 0.0317,
+          "salience": 0.4334,
+          "score": 0.4017
+        },
+        {
+          "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursui",
+          "heading": "",
+          "register": "civilizational_mission",
+          "inclusion": 0.3675,
+          "meritocracy": 0.3991,
+          "stanceDiff": -0.0316,
+          "salience": 0.3991,
+          "score": 0.3991
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "inclusionTopkMean": 0.4,
+      "inclusionMean": 0.3177,
+      "inclusionMax": 0.4334,
+      "inclusionFractionPresent": 0.7826,
+      "meritocracyTopkMean": 0.3898,
+      "meritocracyMean": 0.2974,
+      "nChunks": 23,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "meritocracy": 1,
+        "civilizational_mission": 4,
+        "absent": 18
+      },
+      "controlTopkMean": -0.04,
+      "inclusionQuotes": [
+        {
+          "text": "If you want to empower the world's most important institutions, you belong here.",
+          "heading": "",
+          "register": "civilizational_mission",
+          "inclusion": 0.4334,
+          "meritocracy": 0.4017,
+          "stanceDiff": 0.0317,
+          "salience": 0.4334,
+          "score": 0.4334
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4076,
+          "meritocracy": 0.3918,
+          "stanceDiff": 0.0157,
+          "salience": 0.4076,
+          "score": 0.4076
+        },
+        {
+          "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world. We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.3927,
+          "meritocracy": 0.3379,
+          "stanceDiff": 0.0549,
+          "salience": 0.3927,
+          "score": 0.3927
+        },
+        {
+          "text": "We build software that empowers organizations to effectively integrate their data, decisions, and operations.",
+          "heading": "Palantir",
+          "register": "absent",
+          "inclusion": 0.3842,
+          "meritocracy": 0.3203,
+          "stanceDiff": 0.0639,
+          "salience": 0.3842,
+          "score": 0.3842
+        },
+        {
+          "text": "Our customers have data and a deep understanding of the problems they face. We have proven products and an engineering mindset.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.382,
+          "meritocracy": 0.3875,
+          "stanceDiff": -0.0056,
+          "salience": 0.3875,
+          "score": 0.382
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "If you want to empower the world's most important institutions, you belong here.",
+          "heading": "",
+          "register": "civilizational_mission",
+          "inclusion": 0.4334,
+          "meritocracy": 0.4017,
+          "stanceDiff": 0.0317,
+          "salience": 0.4334,
+          "score": 0.4017
+        },
+        {
+          "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well. Some institutions have the resources to pay for our products, and some don’t. Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursui",
+          "heading": "",
+          "register": "civilizational_mission",
+          "inclusion": 0.3675,
+          "meritocracy": 0.3991,
+          "stanceDiff": -0.0316,
+          "salience": 0.3991,
+          "score": 0.3991
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4076,
+          "meritocracy": 0.3918,
+          "stanceDiff": 0.0157,
+          "salience": 0.4076,
+          "score": 0.3918
+        },
+        {
+          "text": "Our customers have data and a deep understanding of the problems they face. We have proven products and an engineering mindset.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.382,
+          "meritocracy": 0.3875,
+          "stanceDiff": -0.0056,
+          "salience": 0.3875,
+          "score": 0.3875
+        },
+        {
+          "text": "At our offices around the world, we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science. Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+          "heading": "",
+          "register": "meritocracy",
+          "inclusion": 0.3675,
+          "meritocracy": 0.3689,
+          "stanceDiff": -0.0014,
+          "salience": 0.3689,
+          "score": 0.3689
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "inclusionTopkMean": 0.4087,
+      "inclusionMean": 0.3259,
+      "inclusionMax": 0.4582,
+      "inclusionFractionPresent": 0.7857,
+      "meritocracyTopkMean": 0.4475,
+      "meritocracyMean": 0.3242,
+      "nChunks": 28,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
+        "meritocracy": 2,
+        "civilizational_mission": 3,
+        "absent": 22
+      },
+      "controlTopkMean": 0.0529,
+      "inclusionQuotes": [
+        {
+          "text": "We attract people who are intellectually diverse and contrarian at heart. Palantirians have strong convictions and open minds. Whether you have PhD or GED, deep thinking matters most.",
+          "heading": "Free Thinkers",
+          "register": "aspirational_vague",
+          "inclusion": 0.4582,
+          "meritocracy": 0.4953,
+          "stanceDiff": -0.037,
+          "salience": 0.4953,
+          "score": 0.4582
+        },
+        {
+          "text": "We built Palantir to ensure the future of the West, not to tinker at the margins. On the factory floor. In the operating room. Across the battlefield. We build with consequence.",
+          "heading": "",
+          "register": "civilizational_mission",
+          "inclusion": 0.4113,
+          "meritocracy": 0.3995,
+          "stanceDiff": 0.0118,
+          "salience": 0.4113,
+          "score": 0.4113
+        },
+        {
+          "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.4076,
+          "meritocracy": 0.3918,
+          "stanceDiff": 0.0157,
+          "salience": 0.4076,
+          "score": 0.4076
+        },
+        {
+          "text": "We build software that empowers organizations to effectively integrate their data, decisions, and operations.",
+          "heading": "Palantir",
+          "register": "absent",
+          "inclusion": 0.3842,
+          "meritocracy": 0.3203,
+          "stanceDiff": 0.0639,
+          "salience": 0.3842,
+          "score": 0.3842
+        },
+        {
+          "text": "Our customers have data and a deep understanding of the problems they face. We have proven products and an engineering mindset.",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.382,
+          "meritocracy": 0.3875,
+          "stanceDiff": -0.0056,
+          "salience": 0.3875,
+          "score": 0.382
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "We attract people who are intellectually diverse and contrarian at heart. Palantirians have strong convictions and open minds. Whether you have PhD or GED, deep thinking matters most.",
+          "heading": "Free Thinkers",
+          "register": "aspirational_vague",
+          "inclusion": 0.4582,
+          "meritocracy": 0.4953,
+          "stanceDiff": -0.037,
+          "salience": 0.4953,
+          "score": 0.4953
+        },
+        {
+          "text": "Palantirians make decisions quickly. We optimize for impact, not consensus. There is no bureaucratic distance between identifying a problem and fixing it.",
+          "heading": "Fast-movers",
+          "register": "absent",
+          "inclusion": 0.3755,
+          "meritocracy": 0.472,
+          "stanceDiff": -0.0964,
+          "salience": 0.472,
+          "score": 0.472
+        },
+        {
+          "text": "You are not evaluated by distant executives — you are judged by outcomes. There's no oversight from anyone who isn't directly in the problem with you. Your work will speak for itself.",
+          "heading": "Independents",
+          "register": "meritocracy",
+          "inclusion": 0.2944,
+          "meritocracy": 0.4619,
+          "stanceDiff": -0.1674,
+          "salience": 0.4619,
+          "score": 0.4619
+        },
+        {
+          "text": "Palantirians take initiative. There's no top-down instruction holding you back. This creates unusual freedom: when you see a solution, you own it.",
+          "heading": "Catalysts",
+          "register": "absent",
+          "inclusion": 0.3544,
+          "meritocracy": 0.4091,
+          "stanceDiff": -0.0548,
+          "salience": 0.4091,
+          "score": 0.4091
+        },
+        {
+          "text": "We built Palantir to ensure the future of the West, not to tinker at the margins. On the factory floor. In the operating room. Across the battlefield. We build with consequence.",
+          "heading": "",
+          "register": "civilizational_mission",
+          "inclusion": 0.4113,
+          "meritocracy": 0.3995,
+          "stanceDiff": 0.0118,
+          "salience": 0.4113,
+          "score": 0.3995
+        }
+      ]
+    }
+  ],
+  "phrases": {
+    "terms": [
+      {
+        "term": "women",
+        "first_year": 2013,
+        "last_year": 2013,
+        "max_score": 0.3941,
+        "example": "On November 13, Pooja Sankar, CEO of Piazza, an online Q&A platform used by students and teachers, sat down with four women at Palantir to discuss their experiences working in technology."
+      }
+    ],
+    "high_scoring_sentences": [
+      {
+        "id": "f0ce6635c689",
+        "year": 2010,
+        "text": "Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards.",
+        "score": 0.4857
+      },
+      {
+        "id": "a5d67e315c75",
+        "year": 2010,
+        "text": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs.",
+        "score": 0.4007
+      },
+      {
+        "id": "51c352090787",
+        "year": 2010,
+        "text": "However it can no longer be denied that in today’s work environment, being able to deepen our understanding of an issue has made us all the more valuable.",
+        "score": 0.3831
+      },
+      {
+        "id": "44b3ed7c57c8",
+        "year": 2010,
+        "text": "We at Palantir Technologies believe that the next seismic shift already has begun.",
+        "score": 0.3601
+      },
+      {
+        "id": "15d6207b0187",
+        "year": 2010,
+        "text": "Our products are built for real analysis with a focus on security, scalability, ease of use, and collaboration.",
+        "score": 0.3419
+      },
+      {
+        "id": "2ed1107f974b",
+        "year": 2010,
+        "text": "Palantir was built by technologists serious about protecting privacy and civil liberties.",
+        "score": 0.3304
+      },
+      {
+        "id": "d6cc25a13375",
+        "year": 2010,
+        "text": "As the CEO and founder of Palantir Technologies, I can say with pride that every engineer on the Palantir team is working with a sense of excitement and mission, convinced that we have created a product that will help analysts take quantum leaps in their knowledge base and their fields of particular expertise.",
+        "score": 0.3288
+      },
+      {
+        "id": "b34ebe95b5e5",
+        "year": 2010,
+        "text": "Thoughts on Palantir and the promise of analysis by our CEO, Alex Karp.",
+        "score": 0.327
+      },
+      {
+        "id": "bca6b5f5b8b2",
+        "year": 2010,
+        "text": "At Palantir, we’ve created a rich \"conceptual environment,\" where each analyst can create his or her own visual intuitive space where they can absorb, understand, and interact with disparate information to come up with sophisticated findings.",
+        "score": 0.3099
+      },
+      {
+        "id": "483acecf8360",
+        "year": 2010,
+        "text": "Palantir Technologies is working to radically change how groups analyze information.",
+        "score": 0.3081
+      },
+      {
+        "id": "f0ce6635c689",
+        "year": 2011,
+        "text": "Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards.",
+        "score": 0.4857
+      },
+      {
+        "id": "15d6207b0187",
+        "year": 2011,
+        "text": "Our products are built for real analysis with a focus on security, scalability, ease of use, and collaboration.",
+        "score": 0.3419
+      },
+      {
+        "id": "2ed1107f974b",
+        "year": 2011,
+        "text": "Palantir was built by technologists serious about protecting privacy and civil liberties.",
+        "score": 0.3304
+      },
+      {
+        "id": "b34ebe95b5e5",
+        "year": 2011,
+        "text": "Thoughts on Palantir and the promise of analysis by our CEO, Alex Karp.",
+        "score": 0.327
+      },
+      {
+        "id": "483acecf8360",
+        "year": 2011,
+        "text": "Palantir Technologies is working to radically change how groups analyze information.",
+        "score": 0.3081
+      },
+      {
+        "id": "86f3bfe61a0f",
+        "year": 2012,
+        "text": "From the technology we build to the problems we solve and organizations we support, our work is a reflection of who we are and what we believe.",
+        "score": 0.5464
+      },
+      {
+        "id": "34c0c22a99c5",
+        "year": 2012,
+        "text": "We love to build things and solve hard problems, and we believe the best idea wins.",
+        "score": 0.5277
+      },
+      {
+        "id": "36613c90bd22",
+        "year": 2012,
+        "text": "Our people are the makers and keepers of a unique culture that allows us to do serious work without taking ourselves too seriously.",
+        "score": 0.5031
+      },
+      {
+        "id": "74ab80f21122",
+        "year": 2012,
+        "text": "We’re passionate about making a difference with mission-driven organizations through our philanthropic work.",
+        "score": 0.5003
+      },
+      {
+        "id": "f0ce6635c689",
+        "year": 2012,
+        "text": "Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards.",
+        "score": 0.4857
+      },
+      {
+        "id": "6493c292c2c5",
+        "year": 2012,
+        "text": "Since then we've doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic and rigorous hiring standards.",
+        "score": 0.4812
+      },
+      {
+        "id": "27337b52f4a4",
+        "year": 2012,
+        "text": "We're looking for smart, driven people.",
+        "score": 0.4742
+      },
+      {
+        "id": "bd41e6cb8ac2",
+        "year": 2012,
+        "text": "With strong mission focus , we all work together to help make the world a better place.",
+        "score": 0.452
+      },
+      {
+        "id": "ef934f5387e0",
+        "year": 2012,
+        "text": "Our work is inspired by what we believe .",
+        "score": 0.4339
+      },
+      {
+        "id": "5255544242db",
+        "year": 2012,
+        "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes.",
+        "score": 0.4065
+      },
+      {
+        "id": "6faa73538bcc",
+        "year": 2012,
+        "text": "From food to games to special events, life at Palantir is designed to energize and inspire.",
+        "score": 0.394
+      },
+      {
+        "id": "63b89bbca421",
+        "year": 2012,
+        "text": "Check out our student internships and other open positions .",
+        "score": 0.3904
+      },
+      {
+        "id": "ac556813dcf8",
+        "year": 2012,
+        "text": "We build groundbreaking technologies , from our data fusion platforms to the extensions cooked up in our labs .",
+        "score": 0.3757
+      },
+      {
+        "id": "e8574db9dd18",
+        "year": 2012,
+        "text": "Learn about getting hired at Palantir.",
+        "score": 0.3634
+      },
+      {
+        "id": "eed0143f343a",
+        "year": 2012,
+        "text": "Our solutions are revolutionizing the work being done at organizations across government, commercial and health industries.",
+        "score": 0.3507
+      },
+      {
+        "id": "15d6207b0187",
+        "year": 2012,
+        "text": "Our products are built for real analysis with a focus on security, scalability, ease of use, and collaboration.",
+        "score": 0.3419
+      },
+      {
+        "id": "e5fbb92efb30",
+        "year": 2012,
+        "text": "Our products are built for real analysis with a focus on security, scalability, ease of use and collaboration.",
+        "score": 0.3344
+      },
+      {
+        "id": "b4225803f256",
+        "year": 2012,
+        "text": "Palantir is grounded in an engineering culture .",
+        "score": 0.3334
+      },
+      {
+        "id": "2ed1107f974b",
+        "year": 2012,
+        "text": "Palantir was built by technologists serious about protecting privacy and civil liberties.",
+        "score": 0.3304
+      },
+      {
+        "id": "483acecf8360",
+        "year": 2012,
+        "text": "Palantir Technologies is working to radically change how groups analyze information.",
+        "score": 0.3081
+      },
+      {
+        "id": "86f3bfe61a0f",
+        "year": 2013,
+        "text": "From the technology we build to the problems we solve and organizations we support, our work is a reflection of who we are and what we believe.",
+        "score": 0.5464
+      },
+      {
+        "id": "34c0c22a99c5",
+        "year": 2013,
+        "text": "We love to build things and solve hard problems, and we believe the best idea wins.",
+        "score": 0.5277
+      },
+      {
+        "id": "36613c90bd22",
+        "year": 2013,
+        "text": "Our people are the makers and keepers of a unique culture that allows us to do serious work without taking ourselves too seriously.",
+        "score": 0.5031
+      },
+      {
+        "id": "74ab80f21122",
+        "year": 2013,
+        "text": "We’re passionate about making a difference with mission-driven organizations through our philanthropic work.",
+        "score": 0.5003
+      },
+      {
+        "id": "6493c292c2c5",
+        "year": 2013,
+        "text": "Since then we've doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic and rigorous hiring standards.",
+        "score": 0.4812
+      },
+      {
+        "id": "27337b52f4a4",
+        "year": 2013,
+        "text": "We're looking for smart, driven people.",
+        "score": 0.4742
+      },
+      {
+        "id": "bd41e6cb8ac2",
+        "year": 2013,
+        "text": "With strong mission focus , we all work together to help make the world a better place.",
+        "score": 0.452
+      },
+      {
+        "id": "ef934f5387e0",
+        "year": 2013,
+        "text": "Our work is inspired by what we believe .",
+        "score": 0.4339
+      },
+      {
+        "id": "5255544242db",
+        "year": 2013,
+        "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes.",
+        "score": 0.4065
+      },
+      {
+        "id": "a4676d06b916",
+        "year": 2013,
+        "text": "On November 13, Pooja Sankar, CEO of Piazza, an online Q&A platform used by students and teachers, sat down with four women at Palantir to discuss their experiences working in technology.",
+        "score": 0.3941
+      },
+      {
+        "id": "6faa73538bcc",
+        "year": 2013,
+        "text": "From food to games to special events, life at Palantir is designed to energize and inspire.",
+        "score": 0.394
+      },
+      {
+        "id": "63b89bbca421",
+        "year": 2013,
+        "text": "Check out our student internships and other open positions .",
+        "score": 0.3904
+      },
+      {
+        "id": "ac556813dcf8",
+        "year": 2013,
+        "text": "We build groundbreaking technologies , from our data fusion platforms to the extensions cooked up in our labs .",
+        "score": 0.3757
+      },
+      {
+        "id": "e8574db9dd18",
+        "year": 2013,
+        "text": "Learn about getting hired at Palantir.",
+        "score": 0.3634
+      },
+      {
+        "id": "eed0143f343a",
+        "year": 2013,
+        "text": "Our solutions are revolutionizing the work being done at organizations across government, commercial and health industries.",
+        "score": 0.3507
+      },
+      {
+        "id": "9e0983e29c7d",
+        "year": 2013,
+        "text": "Originally broadcasted live to students in Piazza’s network, the panelists spoke about their roles at Palantir and how they’ve navigated the ups and downs [...]",
+        "score": 0.3373
+      },
+      {
+        "id": "e5fbb92efb30",
+        "year": 2013,
+        "text": "Our products are built for real analysis with a focus on security, scalability, ease of use and collaboration.",
+        "score": 0.3344
+      },
+      {
+        "id": "b4225803f256",
+        "year": 2013,
+        "text": "Palantir is grounded in an engineering culture .",
+        "score": 0.3334
+      },
+      {
+        "id": "483acecf8360",
+        "year": 2013,
+        "text": "Palantir Technologies is working to radically change how groups analyze information.",
+        "score": 0.3081
+      },
+      {
+        "id": "e0b2d33bed40",
+        "year": 2013,
+        "text": "Last month we hosted Palantir Sync: Investigate, which brought together members of the investigative, regulatory, and prosecutorial communities for a discussion of how technology and data are transforming their missions.",
+        "score": 0.3015
+      },
+      {
+        "id": "86f3bfe61a0f",
+        "year": 2014,
+        "text": "From the technology we build to the problems we solve and organizations we support, our work is a reflection of who we are and what we believe.",
+        "score": 0.5464
+      },
+      {
+        "id": "34c0c22a99c5",
+        "year": 2014,
+        "text": "We love to build things and solve hard problems, and we believe the best idea wins.",
+        "score": 0.5277
+      },
+      {
+        "id": "36613c90bd22",
+        "year": 2014,
+        "text": "Our people are the makers and keepers of a unique culture that allows us to do serious work without taking ourselves too seriously.",
+        "score": 0.5031
+      },
+      {
+        "id": "74ab80f21122",
+        "year": 2014,
+        "text": "We’re passionate about making a difference with mission-driven organizations through our philanthropic work.",
+        "score": 0.5003
+      },
+      {
+        "id": "27337b52f4a4",
+        "year": 2014,
+        "text": "We're looking for smart, driven people.",
+        "score": 0.4742
+      },
+      {
+        "id": "bd41e6cb8ac2",
+        "year": 2014,
+        "text": "With strong mission focus , we all work together to help make the world a better place.",
+        "score": 0.452
+      },
+      {
+        "id": "ef934f5387e0",
+        "year": 2014,
+        "text": "Our work is inspired by what we believe .",
+        "score": 0.4339
+      },
+      {
+        "id": "5255544242db",
+        "year": 2014,
+        "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes.",
+        "score": 0.4065
+      },
+      {
+        "id": "6faa73538bcc",
+        "year": 2014,
+        "text": "From food to games to special events, life at Palantir is designed to energize and inspire.",
+        "score": 0.394
+      },
+      {
+        "id": "63b89bbca421",
+        "year": 2014,
+        "text": "Check out our student internships and other open positions .",
+        "score": 0.3904
+      },
+      {
+        "id": "15577d4bd5ac",
+        "year": 2014,
+        "text": "We build groundbreaking technologies , including our data fusion platforms .",
+        "score": 0.37
+      },
+      {
+        "id": "e8574db9dd18",
+        "year": 2014,
+        "text": "Learn about getting hired at Palantir.",
+        "score": 0.3634
+      },
+      {
+        "id": "69df774f55f2",
+        "year": 2014,
+        "text": "Our solutions and integrations are revolutionizing the work being done at organizations across government, commercial and health industries.",
+        "score": 0.3519
+      },
+      {
+        "id": "b4225803f256",
+        "year": 2014,
+        "text": "Palantir is grounded in an engineering culture .",
+        "score": 0.3334
+      },
+      {
+        "id": "656f954bf65e",
+        "year": 2015,
+        "text": "Perks, benefits, social activities, and learning opportunities: we believe people are our most important asset, so we invest in our people every day to promote productivity and reduce friction.",
+        "score": 0.5128
+      },
+      {
+        "id": "24f4ddcc1598",
+        "year": 2015,
+        "text": "With a combination of perks, benefits, social activities, and learning opportunities, we invest every day in our most important asset: our people.",
+        "score": 0.5005
+      },
+      {
+        "id": "18381f46613b",
+        "year": 2015,
+        "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+        "score": 0.4892
+      },
+      {
+        "id": "bc6b0f8ca04e",
+        "year": 2015,
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "score": 0.4528
+      },
+      {
+        "id": "10d728474b68",
+        "year": 2015,
+        "text": "Our environment is designed to make work energizing and to stimulate the best thinking.",
+        "score": 0.4478
+      },
+      {
+        "id": "1d909292c2a1",
+        "year": 2015,
+        "text": "While we certainly think we’re doing exciting, impactful work, we don’t want you to just take our word for it.",
+        "score": 0.4314
+      },
+      {
+        "id": "03ce39b72974",
+        "year": 2015,
+        "text": "Focus on what matters: Palantir provides a variety of perks that help us focus on the mission by promoting productivity and freeing up time at and away from the office.",
+        "score": 0.3746
+      },
+      {
+        "id": "e312a64e9493",
+        "year": 2015,
+        "text": "Find out more about us—we think you’ll like what you see.",
+        "score": 0.3686
+      },
+      {
+        "id": "e713c9ccac8a",
+        "year": 2015,
+        "text": "We have a small gym and showers on-site, and provide organized yoga classes, on-site haircuts, a doctor, a chiropractor, massages, laundry and dry-cleaning.",
+        "score": 0.326
+      },
+      {
+        "id": "66a00bb6cf39",
+        "year": 2015,
+        "text": "You do have to speak up when things aren't right and build to fix what's broken.",
+        "score": 0.3184
+      },
+      {
+        "id": "9ee28af6dca9",
+        "year": 2015,
+        "text": "Where you take the next step in your career matters.",
+        "score": 0.3164
+      },
+      {
+        "id": "129ad3257433",
+        "year": 2015,
+        "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer.",
+        "score": 0.3111
+      },
+      {
+        "id": "68c7423caa76",
+        "year": 2015,
+        "text": "No sweat: We offer local gym memberships to all employees, and family members get a discounted rate.",
+        "score": 0.3101
+      },
+      {
+        "id": "c7b302864b5d",
+        "year": 2015,
+        "text": "Palantir interns apply their knowledge to real-world problems from day one.",
+        "score": 0.3074
+      },
+      {
+        "id": "3bea40b35647",
+        "year": 2015,
+        "text": "We have organized games of pickup basketball, soccer, and ultimate Frisbee, and we field teams in local basketball leagues.",
+        "score": 0.3035
+      },
+      {
+        "id": "6936a16fe562",
+        "year": 2015,
+        "text": "We have no set hours—as long as your work is getting done, you're free to work whatever schedule suits you.",
+        "score": 0.3016
+      },
+      {
+        "id": "656f954bf65e",
+        "year": 2016,
+        "text": "Perks, benefits, social activities, and learning opportunities: we believe people are our most important asset, so we invest in our people every day to promote productivity and reduce friction.",
+        "score": 0.5128
+      },
+      {
+        "id": "24f4ddcc1598",
+        "year": 2016,
+        "text": "With a combination of perks, benefits, social activities, and learning opportunities, we invest every day in our most important asset: our people.",
+        "score": 0.5005
+      },
+      {
+        "id": "18381f46613b",
+        "year": 2016,
+        "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+        "score": 0.4892
+      },
+      {
+        "id": "bc6b0f8ca04e",
+        "year": 2016,
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "score": 0.4528
+      },
+      {
+        "id": "10d728474b68",
+        "year": 2016,
+        "text": "Our environment is designed to make work energizing and to stimulate the best thinking.",
+        "score": 0.4478
+      },
+      {
+        "id": "03ce39b72974",
+        "year": 2016,
+        "text": "Focus on what matters: Palantir provides a variety of perks that help us focus on the mission by promoting productivity and freeing up time at and away from the office.",
+        "score": 0.3746
+      },
+      {
+        "id": "ec545547e817",
+        "year": 2016,
+        "text": "We have a small gym and showers on-site, and provide organized yoga classes, on-site haircuts, a doctor, a chiropractor, massages, laundry, and dry cleaning.",
+        "score": 0.3259
+      },
+      {
+        "id": "41808417effd",
+        "year": 2016,
+        "text": "No sweat: We offer a discounted rates for local gyms to all Palantirians and family members, as well as a wellness subsidy.",
+        "score": 0.308
+      },
+      {
+        "id": "c7b302864b5d",
+        "year": 2016,
+        "text": "Palantir interns apply their knowledge to real-world problems from day one.",
+        "score": 0.3074
+      },
+      {
+        "id": "3bea40b35647",
+        "year": 2016,
+        "text": "We have organized games of pickup basketball, soccer, and ultimate Frisbee, and we field teams in local basketball leagues.",
+        "score": 0.3035
+      },
+      {
+        "id": "6936a16fe562",
+        "year": 2016,
+        "text": "We have no set hours—as long as your work is getting done, you're free to work whatever schedule suits you.",
+        "score": 0.3016
+      },
+      {
+        "id": "a4d4b8358fb1",
+        "year": 2017,
+        "text": "We believe in augmenting human intelligence, not replacing it.",
+        "score": 0.4429
+      },
+      {
+        "id": "5ddbfd63c8ec",
+        "year": 2017,
+        "text": "At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+        "score": 0.4353
+      },
+      {
+        "id": "0e904d5706bc",
+        "year": 2017,
+        "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+        "score": 0.4292
+      },
+      {
+        "id": "9dccb60fc2bd",
+        "year": 2017,
+        "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+        "score": 0.4082
+      },
+      {
+        "id": "9bf887a9abcb",
+        "year": 2017,
+        "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+        "score": 0.4076
+      },
+      {
+        "id": "16c45b3da39a",
+        "year": 2017,
+        "text": "We are engineers on a mission.",
+        "score": 0.4056
+      },
+      {
+        "id": "d7145d453ae1",
+        "year": 2017,
+        "text": "We have proven products and an engineering mindset.",
+        "score": 0.3848
+      },
+      {
+        "id": "8110196f3156",
+        "year": 2017,
+        "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+        "score": 0.3844
+      },
+      {
+        "id": "114171769ad7",
+        "year": 2017,
+        "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+        "score": 0.3843
+      },
+      {
+        "id": "02a24f2faf4c",
+        "year": 2017,
+        "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+        "score": 0.3775
+      },
+      {
+        "id": "e82d8629ec14",
+        "year": 2017,
+        "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+        "score": 0.3678
+      },
+      {
+        "id": "60a74fac2a93",
+        "year": 2017,
+        "text": "By establishing a true partnership, we help customers get the most out of our products and engineering expertise.",
+        "score": 0.3587
+      },
+      {
+        "id": "ed45494404c7",
+        "year": 2017,
+        "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+        "score": 0.3527
+      },
+      {
+        "id": "e7c69f28be65",
+        "year": 2017,
+        "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+        "score": 0.3502
+      },
+      {
+        "id": "7393e25e3fef",
+        "year": 2017,
+        "text": "See the challenges we help our customers face",
+        "score": 0.3415
+      },
+      {
+        "id": "5087c9530587",
+        "year": 2017,
+        "text": "We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years.",
+        "score": 0.3145
+      },
+      {
+        "id": "de6de7519ef4",
+        "year": 2017,
+        "text": "Organizations around the world are using Palantir to help them do their most important work.",
+        "score": 0.3008
+      },
+      {
+        "id": "18381f46613b",
+        "year": 2018,
+        "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+        "score": 0.4892
+      },
+      {
+        "id": "bc6b0f8ca04e",
+        "year": 2018,
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "score": 0.4528
+      },
+      {
+        "id": "a4d4b8358fb1",
+        "year": 2018,
+        "text": "We believe in augmenting human intelligence, not replacing it.",
+        "score": 0.4429
+      },
+      {
+        "id": "5ddbfd63c8ec",
+        "year": 2018,
+        "text": "At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+        "score": 0.4353
+      },
+      {
+        "id": "0e904d5706bc",
+        "year": 2018,
+        "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+        "score": 0.4292
+      },
+      {
+        "id": "9dccb60fc2bd",
+        "year": 2018,
+        "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+        "score": 0.4082
+      },
+      {
+        "id": "9bf887a9abcb",
+        "year": 2018,
+        "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+        "score": 0.4076
+      },
+      {
+        "id": "16c45b3da39a",
+        "year": 2018,
+        "text": "We are engineers on a mission.",
+        "score": 0.4056
+      },
+      {
+        "id": "d7145d453ae1",
+        "year": 2018,
+        "text": "We have proven products and an engineering mindset.",
+        "score": 0.3848
+      },
+      {
+        "id": "8110196f3156",
+        "year": 2018,
+        "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+        "score": 0.3844
+      },
+      {
+        "id": "114171769ad7",
+        "year": 2018,
+        "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+        "score": 0.3843
+      },
+      {
+        "id": "02a24f2faf4c",
+        "year": 2018,
+        "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+        "score": 0.3775
+      },
+      {
+        "id": "e82d8629ec14",
+        "year": 2018,
+        "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+        "score": 0.3678
+      },
+      {
+        "id": "60a74fac2a93",
+        "year": 2018,
+        "text": "By establishing a true partnership, we help customers get the most out of our products and engineering expertise.",
+        "score": 0.3587
+      },
+      {
+        "id": "ed45494404c7",
+        "year": 2018,
+        "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+        "score": 0.3527
+      },
+      {
+        "id": "e7c69f28be65",
+        "year": 2018,
+        "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+        "score": 0.3502
+      },
+      {
+        "id": "7393e25e3fef",
+        "year": 2018,
+        "text": "See the challenges we help our customers face",
+        "score": 0.3415
+      },
+      {
+        "id": "66a00bb6cf39",
+        "year": 2018,
+        "text": "You do have to speak up when things aren't right and build to fix what's broken.",
+        "score": 0.3184
+      },
+      {
+        "id": "5087c9530587",
+        "year": 2018,
+        "text": "We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years.",
+        "score": 0.3145
+      },
+      {
+        "id": "129ad3257433",
+        "year": 2018,
+        "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer.",
+        "score": 0.3111
+      },
+      {
+        "id": "de6de7519ef4",
+        "year": 2018,
+        "text": "Organizations around the world are using Palantir to help them do their most important work.",
+        "score": 0.3008
+      },
+      {
+        "id": "18381f46613b",
+        "year": 2019,
+        "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+        "score": 0.4892
+      },
+      {
+        "id": "bc6b0f8ca04e",
+        "year": 2019,
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "score": 0.4528
+      },
+      {
+        "id": "a4d4b8358fb1",
+        "year": 2019,
+        "text": "We believe in augmenting human intelligence, not replacing it.",
+        "score": 0.4429
+      },
+      {
+        "id": "5ddbfd63c8ec",
+        "year": 2019,
+        "text": "At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+        "score": 0.4353
+      },
+      {
+        "id": "0e904d5706bc",
+        "year": 2019,
+        "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+        "score": 0.4292
+      },
+      {
+        "id": "9dccb60fc2bd",
+        "year": 2019,
+        "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+        "score": 0.4082
+      },
+      {
+        "id": "9bf887a9abcb",
+        "year": 2019,
+        "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+        "score": 0.4076
+      },
+      {
+        "id": "16c45b3da39a",
+        "year": 2019,
+        "text": "We are engineers on a mission.",
+        "score": 0.4056
+      },
+      {
+        "id": "d7145d453ae1",
+        "year": 2019,
+        "text": "We have proven products and an engineering mindset.",
+        "score": 0.3848
+      },
+      {
+        "id": "8110196f3156",
+        "year": 2019,
+        "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+        "score": 0.3844
+      },
+      {
+        "id": "114171769ad7",
+        "year": 2019,
+        "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+        "score": 0.3843
+      },
+      {
+        "id": "02a24f2faf4c",
+        "year": 2019,
+        "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+        "score": 0.3775
+      },
+      {
+        "id": "e82d8629ec14",
+        "year": 2019,
+        "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+        "score": 0.3678
+      },
+      {
+        "id": "60a74fac2a93",
+        "year": 2019,
+        "text": "By establishing a true partnership, we help customers get the most out of our products and engineering expertise.",
+        "score": 0.3587
+      },
+      {
+        "id": "ed45494404c7",
+        "year": 2019,
+        "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+        "score": 0.3527
+      },
+      {
+        "id": "e7c69f28be65",
+        "year": 2019,
+        "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+        "score": 0.3502
+      },
+      {
+        "id": "7393e25e3fef",
+        "year": 2019,
+        "text": "See the challenges we help our customers face",
+        "score": 0.3415
+      },
+      {
+        "id": "66a00bb6cf39",
+        "year": 2019,
+        "text": "You do have to speak up when things aren't right and build to fix what's broken.",
+        "score": 0.3184
+      },
+      {
+        "id": "5087c9530587",
+        "year": 2019,
+        "text": "We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years.",
+        "score": 0.3145
+      },
+      {
+        "id": "129ad3257433",
+        "year": 2019,
+        "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer.",
+        "score": 0.3111
+      },
+      {
+        "id": "de6de7519ef4",
+        "year": 2019,
+        "text": "Organizations around the world are using Palantir to help them do their most important work.",
+        "score": 0.3008
+      },
+      {
+        "id": "18381f46613b",
+        "year": 2020,
+        "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+        "score": 0.4892
+      },
+      {
+        "id": "bc6b0f8ca04e",
+        "year": 2020,
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "score": 0.4528
+      },
+      {
+        "id": "a4d4b8358fb1",
+        "year": 2020,
+        "text": "We believe in augmenting human intelligence, not replacing it.",
+        "score": 0.4429
+      },
+      {
+        "id": "5ddbfd63c8ec",
+        "year": 2020,
+        "text": "At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+        "score": 0.4353
+      },
+      {
+        "id": "0e904d5706bc",
+        "year": 2020,
+        "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+        "score": 0.4292
+      },
+      {
+        "id": "9dccb60fc2bd",
+        "year": 2020,
+        "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+        "score": 0.4082
+      },
+      {
+        "id": "9bf887a9abcb",
+        "year": 2020,
+        "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+        "score": 0.4076
+      },
+      {
+        "id": "16c45b3da39a",
+        "year": 2020,
+        "text": "We are engineers on a mission.",
+        "score": 0.4056
+      },
+      {
+        "id": "d7145d453ae1",
+        "year": 2020,
+        "text": "We have proven products and an engineering mindset.",
+        "score": 0.3848
+      },
+      {
+        "id": "8110196f3156",
+        "year": 2020,
+        "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+        "score": 0.3844
+      },
+      {
+        "id": "114171769ad7",
+        "year": 2020,
+        "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+        "score": 0.3843
+      },
+      {
+        "id": "02a24f2faf4c",
+        "year": 2020,
+        "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+        "score": 0.3775
+      },
+      {
+        "id": "e82d8629ec14",
+        "year": 2020,
+        "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+        "score": 0.3678
+      },
+      {
+        "id": "60a74fac2a93",
+        "year": 2020,
+        "text": "By establishing a true partnership, we help customers get the most out of our products and engineering expertise.",
+        "score": 0.3587
+      },
+      {
+        "id": "ed45494404c7",
+        "year": 2020,
+        "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+        "score": 0.3527
+      },
+      {
+        "id": "e7c69f28be65",
+        "year": 2020,
+        "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+        "score": 0.3502
+      },
+      {
+        "id": "7393e25e3fef",
+        "year": 2020,
+        "text": "See the challenges we help our customers face",
+        "score": 0.3415
+      },
+      {
+        "id": "66a00bb6cf39",
+        "year": 2020,
+        "text": "You do have to speak up when things aren't right and build to fix what's broken.",
+        "score": 0.3184
+      },
+      {
+        "id": "5087c9530587",
+        "year": 2020,
+        "text": "We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years.",
+        "score": 0.3145
+      },
+      {
+        "id": "129ad3257433",
+        "year": 2020,
+        "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer.",
+        "score": 0.3111
+      },
+      {
+        "id": "de6de7519ef4",
+        "year": 2020,
+        "text": "Organizations around the world are using Palantir to help them do their most important work.",
+        "score": 0.3008
+      },
+      {
+        "id": "a755a4fa7833",
+        "year": 2021,
+        "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+        "score": 0.5223
+      },
+      {
+        "id": "18381f46613b",
+        "year": 2021,
+        "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+        "score": 0.4892
+      },
+      {
+        "id": "6537218a2293",
+        "year": 2021,
+        "text": "At our offices around the world, we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+        "score": 0.4669
+      },
+      {
+        "id": "bc6b0f8ca04e",
+        "year": 2021,
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "score": 0.4528
+      },
+      {
+        "id": "a4d4b8358fb1",
+        "year": 2021,
+        "text": "We believe in augmenting human intelligence, not replacing it.",
+        "score": 0.4429
+      },
+      {
+        "id": "0e904d5706bc",
+        "year": 2021,
+        "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+        "score": 0.4292
+      },
+      {
+        "id": "9dccb60fc2bd",
+        "year": 2021,
+        "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+        "score": 0.4082
+      },
+      {
+        "id": "9bf887a9abcb",
+        "year": 2021,
+        "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+        "score": 0.4076
+      },
+      {
+        "id": "16c45b3da39a",
+        "year": 2021,
+        "text": "We are engineers on a mission.",
+        "score": 0.4056
+      },
+      {
+        "id": "d7145d453ae1",
+        "year": 2021,
+        "text": "We have proven products and an engineering mindset.",
+        "score": 0.3848
+      },
+      {
+        "id": "8110196f3156",
+        "year": 2021,
+        "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+        "score": 0.3844
+      },
+      {
+        "id": "114171769ad7",
+        "year": 2021,
+        "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+        "score": 0.3843
+      },
+      {
+        "id": "305f09e11578",
+        "year": 2021,
+        "text": "We build software that empowers organizations to effectively integrate their data, decisions, and operations.",
+        "score": 0.3842
+      },
+      {
+        "id": "02a24f2faf4c",
+        "year": 2021,
+        "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+        "score": 0.3775
+      },
+      {
+        "id": "e82d8629ec14",
+        "year": 2021,
+        "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+        "score": 0.3678
+      },
+      {
+        "id": "0e390f8e7777",
+        "year": 2021,
+        "text": "We managed to accelerate the cultural transformation at Globo by partnering with Palantir.",
+        "score": 0.3589
+      },
+      {
+        "id": "60a74fac2a93",
+        "year": 2021,
+        "text": "By establishing a true partnership, we help customers get the most out of our products and engineering expertise.",
+        "score": 0.3587
+      },
+      {
+        "id": "ed45494404c7",
+        "year": 2021,
+        "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+        "score": 0.3527
+      },
+      {
+        "id": "e7c69f28be65",
+        "year": 2021,
+        "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+        "score": 0.3502
+      },
+      {
+        "id": "7393e25e3fef",
+        "year": 2021,
+        "text": "See the challenges we help our customers face",
+        "score": 0.3415
+      },
+      {
+        "id": "febb84bf56c4",
+        "year": 2021,
+        "text": "Our platforms are used throughout the public, private, and non-profit sectors to help organizations quickly implement solutions to the hardest problems they face.",
+        "score": 0.336
+      },
+      {
+        "id": "94df4629b205",
+        "year": 2021,
+        "text": "This partnership really created an environment conducive to the type of digital transformation we were aiming for.",
+        "score": 0.3322
+      },
+      {
+        "id": "66a00bb6cf39",
+        "year": 2021,
+        "text": "You do have to speak up when things aren't right and build to fix what's broken.",
+        "score": 0.3184
+      },
+      {
+        "id": "5087c9530587",
+        "year": 2021,
+        "text": "We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years.",
+        "score": 0.3145
+      },
+      {
+        "id": "129ad3257433",
+        "year": 2021,
+        "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer.",
+        "score": 0.3111
+      },
+      {
+        "id": "53832d9d1796",
+        "year": 2021,
+        "text": "Being able to change the teams’ mindset around decisions and how decisions should be made using data was one of the biggest gains we had with the partnership.",
+        "score": 0.3066
+      },
+      {
+        "id": "de6de7519ef4",
+        "year": 2021,
+        "text": "Organizations around the world are using Palantir to help them do their most important work.",
+        "score": 0.3008
+      },
+      {
+        "id": "a755a4fa7833",
+        "year": 2022,
+        "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+        "score": 0.5223
+      },
+      {
+        "id": "18381f46613b",
+        "year": 2022,
+        "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+        "score": 0.4892
+      },
+      {
+        "id": "6537218a2293",
+        "year": 2022,
+        "text": "At our offices around the world, we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+        "score": 0.4669
+      },
+      {
+        "id": "bc6b0f8ca04e",
+        "year": 2022,
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "score": 0.4528
+      },
+      {
+        "id": "0e904d5706bc",
+        "year": 2022,
+        "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+        "score": 0.4292
+      },
+      {
+        "id": "abc0f8397832",
+        "year": 2022,
+        "text": "If you want to stare into the face of important problems and have the freedom to solve them, we want to work with you.",
+        "score": 0.4288
+      },
+      {
+        "id": "65ac95d698ff",
+        "year": 2022,
+        "text": "We have some resources to help you navigate the hiring process.",
+        "score": 0.423
+      },
+      {
+        "id": "9dccb60fc2bd",
+        "year": 2022,
+        "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+        "score": 0.4082
+      },
+      {
+        "id": "9bf887a9abcb",
+        "year": 2022,
+        "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+        "score": 0.4076
+      },
+      {
+        "id": "d7145d453ae1",
+        "year": 2022,
+        "text": "We have proven products and an engineering mindset.",
+        "score": 0.3848
+      },
+      {
+        "id": "8110196f3156",
+        "year": 2022,
+        "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+        "score": 0.3844
+      },
+      {
+        "id": "114171769ad7",
+        "year": 2022,
+        "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+        "score": 0.3843
+      },
+      {
+        "id": "305f09e11578",
+        "year": 2022,
+        "text": "We build software that empowers organizations to effectively integrate their data, decisions, and operations.",
+        "score": 0.3842
+      },
+      {
+        "id": "98984b49176e",
+        "year": 2022,
+        "text": "There’s a role here for you—whether you're a new grad or have years of experience.",
+        "score": 0.3797
+      },
+      {
+        "id": "02a24f2faf4c",
+        "year": 2022,
+        "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+        "score": 0.3775
+      },
+      {
+        "id": "e82d8629ec14",
+        "year": 2022,
+        "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+        "score": 0.3678
+      },
+      {
+        "id": "60a74fac2a93",
+        "year": 2022,
+        "text": "By establishing a true partnership, we help customers get the most out of our products and engineering expertise.",
+        "score": 0.3587
+      },
+      {
+        "id": "ed45494404c7",
+        "year": 2022,
+        "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+        "score": 0.3527
+      },
+      {
+        "id": "e7c69f28be65",
+        "year": 2022,
+        "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+        "score": 0.3502
+      },
+      {
+        "id": "febb84bf56c4",
+        "year": 2022,
+        "text": "Our platforms are used throughout the public, private, and non-profit sectors to help organizations quickly implement solutions to the hardest problems they face.",
+        "score": 0.336
+      },
+      {
+        "id": "5087c9530587",
+        "year": 2022,
+        "text": "We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years.",
+        "score": 0.3145
+      },
+      {
+        "id": "de6de7519ef4",
+        "year": 2022,
+        "text": "Organizations around the world are using Palantir to help them do their most important work.",
+        "score": 0.3008
+      },
+      {
+        "id": "a755a4fa7833",
+        "year": 2023,
+        "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+        "score": 0.5223
+      },
+      {
+        "id": "18381f46613b",
+        "year": 2023,
+        "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+        "score": 0.4892
+      },
+      {
+        "id": "6537218a2293",
+        "year": 2023,
+        "text": "At our offices around the world, we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+        "score": 0.4669
+      },
+      {
+        "id": "bc6b0f8ca04e",
+        "year": 2023,
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "score": 0.4528
+      },
+      {
+        "id": "0e904d5706bc",
+        "year": 2023,
+        "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+        "score": 0.4292
+      },
+      {
+        "id": "9dccb60fc2bd",
+        "year": 2023,
+        "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+        "score": 0.4082
+      },
+      {
+        "id": "9bf887a9abcb",
+        "year": 2023,
+        "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+        "score": 0.4076
+      },
+      {
+        "id": "d7145d453ae1",
+        "year": 2023,
+        "text": "We have proven products and an engineering mindset.",
+        "score": 0.3848
+      },
+      {
+        "id": "8110196f3156",
+        "year": 2023,
+        "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+        "score": 0.3844
+      },
+      {
+        "id": "114171769ad7",
+        "year": 2023,
+        "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+        "score": 0.3843
+      },
+      {
+        "id": "305f09e11578",
+        "year": 2023,
+        "text": "We build software that empowers organizations to effectively integrate their data, decisions, and operations.",
+        "score": 0.3842
+      },
+      {
+        "id": "98984b49176e",
+        "year": 2023,
+        "text": "There’s a role here for you—whether you're a new grad or have years of experience.",
+        "score": 0.3797
+      },
+      {
+        "id": "02a24f2faf4c",
+        "year": 2023,
+        "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+        "score": 0.3775
+      },
+      {
+        "id": "e312a64e9493",
+        "year": 2023,
+        "text": "Find out more about us—we think you’ll like what you see.",
+        "score": 0.3686
+      },
+      {
+        "id": "312a887db547",
+        "year": 2023,
+        "text": "At Palantir, we believe that with good data and the right software, institutions can solve hard problems and change the world for the better.",
+        "score": 0.3681
+      },
+      {
+        "id": "e82d8629ec14",
+        "year": 2023,
+        "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+        "score": 0.3678
+      },
+      {
+        "id": "ed45494404c7",
+        "year": 2023,
+        "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+        "score": 0.3527
+      },
+      {
+        "id": "e7c69f28be65",
+        "year": 2023,
+        "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+        "score": 0.3502
+      },
+      {
+        "id": "febb84bf56c4",
+        "year": 2023,
+        "text": "Our platforms are used throughout the public, private, and non-profit sectors to help organizations quickly implement solutions to the hardest problems they face.",
+        "score": 0.336
+      },
+      {
+        "id": "9ee28af6dca9",
+        "year": 2023,
+        "text": "Where you take the next step in your career matters.",
+        "score": 0.3164
+      },
+      {
+        "id": "de6de7519ef4",
+        "year": 2023,
+        "text": "Organizations around the world are using Palantir to help them do their most important work.",
+        "score": 0.3008
+      },
+      {
+        "id": "a755a4fa7833",
+        "year": 2024,
+        "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+        "score": 0.5223
+      },
+      {
+        "id": "18381f46613b",
+        "year": 2024,
+        "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+        "score": 0.4892
+      },
+      {
+        "id": "df18de92c816",
+        "year": 2024,
+        "text": "At Palantir, we work for the common good—within our organization and within commercial and governmental institutions.",
+        "score": 0.473
+      },
+      {
+        "id": "6537218a2293",
+        "year": 2024,
+        "text": "At our offices around the world, we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+        "score": 0.4669
+      },
+      {
+        "id": "bc6b0f8ca04e",
+        "year": 2024,
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "score": 0.4528
+      },
+      {
+        "id": "dd0f7bf0436f",
+        "year": 2024,
+        "text": "If you want to empower the world's most important institutions, you belong here.",
+        "score": 0.4334
+      },
+      {
+        "id": "0e904d5706bc",
+        "year": 2024,
+        "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+        "score": 0.4292
+      },
+      {
+        "id": "9dccb60fc2bd",
+        "year": 2024,
+        "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+        "score": 0.4082
+      },
+      {
+        "id": "9bf887a9abcb",
+        "year": 2024,
+        "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+        "score": 0.4076
+      },
+      {
+        "id": "d7145d453ae1",
+        "year": 2024,
+        "text": "We have proven products and an engineering mindset.",
+        "score": 0.3848
+      },
+      {
+        "id": "8110196f3156",
+        "year": 2024,
+        "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+        "score": 0.3844
+      },
+      {
+        "id": "114171769ad7",
+        "year": 2024,
+        "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+        "score": 0.3843
+      },
+      {
+        "id": "305f09e11578",
+        "year": 2024,
+        "text": "We build software that empowers organizations to effectively integrate their data, decisions, and operations.",
+        "score": 0.3842
+      },
+      {
+        "id": "02a24f2faf4c",
+        "year": 2024,
+        "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+        "score": 0.3775
+      },
+      {
+        "id": "312a887db547",
+        "year": 2024,
+        "text": "At Palantir, we believe that with good data and the right software, institutions can solve hard problems and change the world for the better.",
+        "score": 0.3681
+      },
+      {
+        "id": "e82d8629ec14",
+        "year": 2024,
+        "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+        "score": 0.3678
+      },
+      {
+        "id": "ed45494404c7",
+        "year": 2024,
+        "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+        "score": 0.3527
+      },
+      {
+        "id": "e7c69f28be65",
+        "year": 2024,
+        "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+        "score": 0.3502
+      },
+      {
+        "id": "febb84bf56c4",
+        "year": 2024,
+        "text": "Our platforms are used throughout the public, private, and non-profit sectors to help organizations quickly implement solutions to the hardest problems they face.",
+        "score": 0.336
+      },
+      {
+        "id": "de6de7519ef4",
+        "year": 2024,
+        "text": "Organizations around the world are using Palantir to help them do their most important work.",
+        "score": 0.3008
+      },
+      {
+        "id": "18381f46613b",
+        "year": 2025,
+        "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+        "score": 0.4892
+      },
+      {
+        "id": "6537218a2293",
+        "year": 2025,
+        "text": "At our offices around the world, we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+        "score": 0.4669
+      },
+      {
+        "id": "bc6b0f8ca04e",
+        "year": 2025,
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "score": 0.4528
+      },
+      {
+        "id": "dd0f7bf0436f",
+        "year": 2025,
+        "text": "If you want to empower the world's most important institutions, you belong here.",
+        "score": 0.4334
+      },
+      {
+        "id": "0e904d5706bc",
+        "year": 2025,
+        "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+        "score": 0.4292
+      },
+      {
+        "id": "9dccb60fc2bd",
+        "year": 2025,
+        "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+        "score": 0.4082
+      },
+      {
+        "id": "9bf887a9abcb",
+        "year": 2025,
+        "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+        "score": 0.4076
+      },
+      {
+        "id": "d7145d453ae1",
+        "year": 2025,
+        "text": "We have proven products and an engineering mindset.",
+        "score": 0.3848
+      },
+      {
+        "id": "8110196f3156",
+        "year": 2025,
+        "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+        "score": 0.3844
+      },
+      {
+        "id": "114171769ad7",
+        "year": 2025,
+        "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+        "score": 0.3843
+      },
+      {
+        "id": "305f09e11578",
+        "year": 2025,
+        "text": "We build software that empowers organizations to effectively integrate their data, decisions, and operations.",
+        "score": 0.3842
+      },
+      {
+        "id": "02a24f2faf4c",
+        "year": 2025,
+        "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+        "score": 0.3775
+      },
+      {
+        "id": "312a887db547",
+        "year": 2025,
+        "text": "At Palantir, we believe that with good data and the right software, institutions can solve hard problems and change the world for the better.",
+        "score": 0.3681
+      },
+      {
+        "id": "e82d8629ec14",
+        "year": 2025,
+        "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+        "score": 0.3678
+      },
+      {
+        "id": "ed45494404c7",
+        "year": 2025,
+        "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+        "score": 0.3527
+      },
+      {
+        "id": "e7c69f28be65",
+        "year": 2025,
+        "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+        "score": 0.3502
+      },
+      {
+        "id": "febb84bf56c4",
+        "year": 2025,
+        "text": "Our platforms are used throughout the public, private, and non-profit sectors to help organizations quickly implement solutions to the hardest problems they face.",
+        "score": 0.336
+      },
+      {
+        "id": "de6de7519ef4",
+        "year": 2025,
+        "text": "Organizations around the world are using Palantir to help them do their most important work.",
+        "score": 0.3008
+      },
+      {
+        "id": "a85203d9f57f",
+        "year": 2025,
+        "text": "Palantirians deliver mission-critical outcomes for the West's most important institutions.",
+        "score": 0.3
+      },
+      {
+        "id": "194df89299da",
+        "year": 2026,
+        "text": "We attract people who are intellectually diverse and contrarian at heart.",
+        "score": 0.5158
+      },
+      {
+        "id": "6537218a2293",
+        "year": 2026,
+        "text": "At our offices around the world, we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+        "score": 0.4669
+      },
+      {
+        "id": "0e904d5706bc",
+        "year": 2026,
+        "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+        "score": 0.4292
+      },
+      {
+        "id": "9dccb60fc2bd",
+        "year": 2026,
+        "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+        "score": 0.4082
+      },
+      {
+        "id": "9bf887a9abcb",
+        "year": 2026,
+        "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+        "score": 0.4076
+      },
+      {
+        "id": "b4e0612af810",
+        "year": 2026,
+        "text": "We optimize for impact, not consensus.",
+        "score": 0.3938
+      },
+      {
+        "id": "d7145d453ae1",
+        "year": 2026,
+        "text": "We have proven products and an engineering mindset.",
+        "score": 0.3848
+      },
+      {
+        "id": "8110196f3156",
+        "year": 2026,
+        "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+        "score": 0.3844
+      },
+      {
+        "id": "114171769ad7",
+        "year": 2026,
+        "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+        "score": 0.3843
+      },
+      {
+        "id": "305f09e11578",
+        "year": 2026,
+        "text": "We build software that empowers organizations to effectively integrate their data, decisions, and operations.",
+        "score": 0.3842
+      },
+      {
+        "id": "02a24f2faf4c",
+        "year": 2026,
+        "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+        "score": 0.3775
+      },
+      {
+        "id": "312a887db547",
+        "year": 2026,
+        "text": "At Palantir, we believe that with good data and the right software, institutions can solve hard problems and change the world for the better.",
+        "score": 0.3681
+      },
+      {
+        "id": "e82d8629ec14",
+        "year": 2026,
+        "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+        "score": 0.3678
+      },
+      {
+        "id": "9e1c9c422f0b",
+        "year": 2026,
+        "text": "We built Palantir to ensure the future of the West, not to tinker at the margins.",
+        "score": 0.3574
+      },
+      {
+        "id": "ed45494404c7",
+        "year": 2026,
+        "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+        "score": 0.3527
+      },
+      {
+        "id": "e7c69f28be65",
+        "year": 2026,
+        "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+        "score": 0.3502
+      },
+      {
+        "id": "febb84bf56c4",
+        "year": 2026,
+        "text": "Our platforms are used throughout the public, private, and non-profit sectors to help organizations quickly implement solutions to the hardest problems they face.",
+        "score": 0.336
+      },
+      {
+        "id": "8ca9db113141",
+        "year": 2026,
+        "text": "Sleek moving text that says \"The world's hardest problems need the worlds smartest people.\"",
+        "score": 0.3057
+      },
+      {
+        "id": "de6de7519ef4",
+        "year": 2026,
+        "text": "Organizations around the world are using Palantir to help them do their most important work.",
+        "score": 0.3008
+      }
+    ],
+    "lexicons": {
+      "inclusion": [
+        {
+          "term": "women",
+          "first_year": 2013,
+          "last_year": 2013,
+          "max_score": 0.3941,
+          "example": "On November 13, Pooja Sankar, CEO of Piazza, an online Q&A platform used by students and teachers, sat down with four women at Palantir to discuss their experiences working in technology."
+        }
+      ],
+      "civilizational": [
+        {
+          "term": "the west",
+          "first_year": 2025,
+          "last_year": 2026,
+          "max_score": 0.3574,
+          "example": "We built Palantir to ensure the future of the West, not to tinker at the margins."
+        }
+      ]
+    }
+  }
+}

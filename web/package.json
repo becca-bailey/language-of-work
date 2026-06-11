@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "export-data": "cd .. && uv run scripts/export_web.py --company google && uv run scripts/export_web.py --company amazon && uv run scripts/export_web.py --company meta && uv run scripts/export_web.py --company palantir && uv run scripts/export_dei_web.py --company google && uv run scripts/export_dei_web.py --company amazon && uv run scripts/export_dei_web.py --company meta && uv run scripts/export_dei_web.py --company palantir && uv run scripts/export_dei_web.py --company coinbase && uv run scripts/export_dei_web.py --company netflix && uv run scripts/export_story_web.py"
   },
   "dependencies": {
     "@visx/axis": "^3.12.0",

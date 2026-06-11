@@ -1,0 +1,1193 @@
+{
+  "story": "performance",
+  "title": "Performance Language",
+  "metric": "fractionPresent",
+  "metricLabel": "Share of chunks with performance language",
+  "sources": {
+    "careers": {
+      "coverageStart": 2005,
+      "companies": [
+        {
+          "id": "google",
+          "displayName": "Google",
+          "years": [
+            {
+              "year": 2005,
+              "fractionPresent": 0.6667,
+              "topkMean": 0.3241,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2006,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3855,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2007,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3865,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2008,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4594,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2009,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3651,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2010,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3873,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4447,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "fractionPresent": 0.4848,
+              "topkMean": 0.4389,
+              "nChunks": 33,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "fractionPresent": 0.5,
+              "topkMean": 0.2757,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 0.7353,
+              "topkMean": 0.4281,
+              "nChunks": 34,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "fractionPresent": 0.7037,
+              "topkMean": 0.4213,
+              "nChunks": 27,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "fractionPresent": 0.625,
+              "topkMean": 0.3227,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 0.8571,
+              "topkMean": 0.3927,
+              "nChunks": 14,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 0.75,
+              "topkMean": 0.2552,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 1.0,
+              "topkMean": 0.351,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.75,
+              "topkMean": 0.3183,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 0.5333,
+              "topkMean": 0.4136,
+              "nChunks": 15,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "amazon",
+          "displayName": "Amazon",
+          "years": [
+            {
+              "year": 2008,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3588,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3979,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3965,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2013,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3268,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4326,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4819,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 0.9412,
+              "topkMean": 0.4871,
+              "nChunks": 17,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 0.5,
+              "topkMean": 0.2819,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2019,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4158,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2020,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3498,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2021,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3498,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3498,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3498,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3498,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3498,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 0.5556,
+              "topkMean": 0.3587,
+              "nChunks": 9,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "meta",
+          "displayName": "Meta",
+          "years": [
+            {
+              "year": 2009,
+              "fractionPresent": 1.0,
+              "topkMean": 0.6036,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2010,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4783,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3884,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3554,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2015,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4449,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4449,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4362,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4362,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4256,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 0.0,
+              "topkMean": 0.1674,
+              "nChunks": 8,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "palantir",
+          "displayName": "Palantir",
+          "years": [
+            {
+              "year": 2010,
+              "fractionPresent": 0.8,
+              "topkMean": 0.2853,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2011,
+              "fractionPresent": 0.5,
+              "topkMean": 0.2412,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "fractionPresent": 0.8,
+              "topkMean": 0.3075,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "fractionPresent": 0.3636,
+              "topkMean": 0.302,
+              "nChunks": 11,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4885,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2015,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4578,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "fractionPresent": 1.0,
+              "topkMean": 0.414,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 0.7143,
+              "topkMean": 0.4119,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 0.7778,
+              "topkMean": 0.4119,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "fractionPresent": 0.7778,
+              "topkMean": 0.4119,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "fractionPresent": 0.7778,
+              "topkMean": 0.4119,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "fractionPresent": 0.7059,
+              "topkMean": 0.4393,
+              "nChunks": 17,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 0.7857,
+              "topkMean": 0.4457,
+              "nChunks": 28,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 0.875,
+              "topkMean": 0.4348,
+              "nChunks": 24,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.875,
+              "topkMean": 0.4364,
+              "nChunks": 24,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 0.8261,
+              "topkMean": 0.4104,
+              "nChunks": 23,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 0.8929,
+              "topkMean": 0.4519,
+              "nChunks": 28,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "coinbase",
+          "displayName": "Coinbase",
+          "years": [
+            {
+              "year": 2013,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4292,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3923,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3657,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3403,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 1.0,
+              "topkMean": 0.334,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 1.0,
+              "topkMean": 0.2947,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2019,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4313,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4053,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4788,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4208,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3363,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4605,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 1.0,
+              "topkMean": 0.5275,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 1.0,
+              "topkMean": 0.5,
+              "nChunks": 7,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "netflix",
+          "displayName": "Netflix",
+          "years": [
+            {
+              "year": 2005,
+              "fractionPresent": 0.0,
+              "topkMean": 0.1369,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2010,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4855,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4838,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4838,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2013,
+              "fractionPresent": 1.0,
+              "topkMean": 0.466,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4542,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2015,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4339,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 1.0,
+              "topkMean": 0.5032,
+              "nChunks": 30,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 0.9688,
+              "topkMean": 0.5192,
+              "nChunks": 32,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "fractionPresent": 0.9143,
+              "topkMean": 0.5179,
+              "nChunks": 35,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "fractionPresent": 0.9394,
+              "topkMean": 0.5177,
+              "nChunks": 33,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "fractionPresent": 0.9394,
+              "topkMean": 0.5177,
+              "nChunks": 33,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 0.9118,
+              "topkMean": 0.5177,
+              "nChunks": 34,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 0.5,
+              "topkMean": 0.3835,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.9167,
+              "topkMean": 0.5426,
+              "nChunks": 12,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 1.0,
+              "topkMean": 0.5158,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 1.0,
+              "topkMean": 0.5037,
+              "nChunks": 9,
+              "thin": false
+            }
+          ]
+        }
+      ]
+    },
+    "investor": {
+      "coverageStart": 2020,
+      "companies": [
+        {
+          "id": "google",
+          "displayName": "Google",
+          "years": [
+            {
+              "year": 2021,
+              "fractionPresent": 0.6,
+              "topkMean": 0.3016,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 0.5,
+              "topkMean": 0.3064,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 0.5,
+              "topkMean": 0.3049,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.5,
+              "topkMean": 0.3268,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 0.5,
+              "topkMean": 0.3256,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 0.4444,
+              "topkMean": 0.2953,
+              "nChunks": 9,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "amazon",
+          "displayName": "Amazon",
+          "years": [
+            {
+              "year": 2021,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3324,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3441,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3451,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3441,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3275,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 1.0,
+              "topkMean": 0.325,
+              "nChunks": 1,
+              "thin": true
+            }
+          ]
+        },
+        {
+          "id": "meta",
+          "displayName": "Meta",
+          "years": [
+            {
+              "year": 2021,
+              "fractionPresent": 0.0,
+              "topkMean": 0.2094,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 0.0,
+              "topkMean": 0.1986,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 0.0,
+              "topkMean": 0.1984,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.0,
+              "topkMean": 0.2057,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 0.0,
+              "topkMean": 0.1998,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 0.0,
+              "topkMean": 0.206,
+              "nChunks": 8,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "coinbase",
+          "displayName": "Coinbase",
+          "years": [
+            {
+              "year": 2022,
+              "fractionPresent": 0.1667,
+              "topkMean": 0.2994,
+              "nChunks": 12,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 0.1818,
+              "topkMean": 0.3042,
+              "nChunks": 11,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.2,
+              "topkMean": 0.3118,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 0.3333,
+              "topkMean": 0.3126,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 0.125,
+              "topkMean": 0.2802,
+              "nChunks": 8,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "netflix",
+          "displayName": "Netflix",
+          "years": [
+            {
+              "year": 2021,
+              "fractionPresent": 0.0,
+              "topkMean": 0.2172,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 0.0,
+              "topkMean": 0.2049,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 0.1111,
+              "topkMean": 0.2321,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.1111,
+              "topkMean": 0.2341,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 0.1111,
+              "topkMean": 0.2423,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 0.1111,
+              "topkMean": 0.2424,
+              "nChunks": 9,
+              "thin": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "lexicons": {
+    "hardcore": [
+      {
+        "term": "exceptional talent",
+        "first_year": 2017,
+        "last_year": 2017,
+        "max_score": 0.4654,
+        "example": "They recognize exceptional talent, and willingly move them throughout the organization.",
+        "company": "amazon"
+      },
+      {
+        "term": "high performance",
+        "first_year": 2013,
+        "last_year": 2026,
+        "max_score": 0.54,
+        "example": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here.",
+        "company": "netflix"
+      }
+    ]
+  },
+  "highlights": [
+    {
+      "id": "fb9596bae03a",
+      "stance": "work_hard_play_hard",
+      "stanceLabel": "Work hard, play hard",
+      "stanceNote": "The classic startup-era bargain — intensity framed as fun.",
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2011,
+      "source": "careers",
+      "text": "Work hard. Have fun. Make history. Build your future with Amazon! Amazon… a place where builders can build. We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience for our customers. We want you to help share and shape our mission to be Earth’s most customer-centric company. Amazon’s evolution from Web site to e-commerce partner to de",
+      "heading": "",
+      "score": 0.4667
+    },
+    {
+      "id": "364f72b685b8",
+      "stance": "work_hard_play_hard",
+      "stanceLabel": "Work hard, play hard",
+      "stanceNote": "The classic startup-era bargain — intensity framed as fun.",
+      "company": "google",
+      "displayName": "Google",
+      "year": 2007,
+      "source": "careers",
+      "text": "Enjoy what you do, where you do it, and the people you do it with. What is it that you really want to do? Your master plan, not just your 5-year plan. At Google, our strategy is simple: we hire great people and support them in turning their aspirations into reality. We work hard here, and play here, and dream here. Googlers are bright, passionate people with diverse backgrounds, coming together to",
+      "heading": "",
+      "score": 0.4093
+    },
+    {
+      "id": "0a714f2e0794",
+      "stance": "raise_the_bar",
+      "stanceLabel": "Raise the bar",
+      "stanceNote": "Leadership-principles language — standards others may find unreasonable.",
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2017,
+      "source": "careers",
+      "text": "Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
+      "heading": "Insist on the Highest Standards",
+      "score": 0.46
+    },
+    {
+      "id": "b540c429f596",
+      "stance": "flexible_autonomy",
+      "stanceLabel": "Trust over hours",
+      "stanceNote": "Anti-crunch framing — output matters, not face time.",
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2016,
+      "source": "careers",
+      "text": "Our environment is designed to make work energizing and to stimulate the best thinking. We have no set hours—as long as your work is getting done, you're free to work whatever schedule suits you. Some folks come in during \"normal business\" hours and head home for dinner with their families; others spend 16 hours a day at the office—not because they're working that whole time, but because the offic",
+      "heading": "Choose Your Own Adventure",
+      "score": 0.4865
+    },
+    {
+      "id": "1246cb5f1a0d",
+      "stance": "move_fast",
+      "stanceLabel": "Move fast",
+      "stanceNote": "Speed and scale as hiring pitch.",
+      "company": "meta",
+      "displayName": "Meta",
+      "year": 2010,
+      "source": "careers",
+      "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes. We need help from people who like to move fast, tackle the big stuff, and have an immediate impact. Sound like you?",
+      "heading": "Hello. Facebook is hiring.",
+      "score": 0.6036
+    },
+    {
+      "id": "ca0ff1d1380f",
+      "stance": "move_fast",
+      "stanceLabel": "Move fast",
+      "stanceNote": "Speed and scale as hiring pitch.",
+      "company": "meta",
+      "displayName": "Meta",
+      "year": 2016,
+      "source": "careers",
+      "text": "Connecting the world takes every one of us Move fast Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make ",
+      "heading": "What’s it like to work at Facebook?",
+      "score": 0.4449
+    },
+    {
+      "id": "8f71d1edd362",
+      "stance": "move_fast",
+      "stanceLabel": "Move fast",
+      "stanceNote": "Speed and scale as hiring pitch.",
+      "company": "meta",
+      "displayName": "Meta",
+      "year": 2018,
+      "source": "careers",
+      "text": "Connecting the world takes every one of us Move fast Connecting people, building community and bringing the world closer together happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and market",
+      "heading": "What’s it like to work at Facebook?",
+      "score": 0.4362
+    },
+    {
+      "id": "91ad4a3482a4",
+      "stance": "mission_intensity",
+      "stanceLabel": "Mission intensity",
+      "stanceNote": "Post-2020 civilizational framing — consequence, the West, impact over consensus.",
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2026,
+      "source": "careers",
+      "text": "Palantirians make decisions quickly. We optimize for impact, not consensus. There is no bureaucratic distance between identifying a problem and fixing it.",
+      "heading": "Fast-movers",
+      "score": 0.5712
+    },
+    {
+      "id": "161b77b2a7e9",
+      "stance": "mission_intensity",
+      "stanceLabel": "Mission intensity",
+      "stanceNote": "Post-2020 civilizational framing — consequence, the West, impact over consensus.",
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2026,
+      "source": "careers",
+      "text": "We built Palantir to ensure the future of the West, not to tinker at the margins. On the factory floor. In the operating room. Across the battlefield. We build with consequence.",
+      "heading": "",
+      "score": 0.5299
+    },
+    {
+      "id": "dbbc53b9478b",
+      "stance": "mission_intensity",
+      "stanceLabel": "Mission intensity",
+      "stanceNote": "Post-2020 civilizational framing — consequence, the West, impact over consensus.",
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2024,
+      "source": "careers",
+      "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+      "heading": "",
+      "score": 0.4919
+    },
+    {
+      "id": "c99ded1b38b9",
+      "stance": "not_a_family",
+      "stanceLabel": "Not a family",
+      "stanceNote": "Netflix culture memo — high performance over kinship.",
+      "company": "netflix",
+      "displayName": "Netflix",
+      "year": 2026,
+      "source": "careers",
+      "text": "Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by performance — not seniority, tenure or unconditional loyalty. It’s also why we focus on maintaining a high performance culture . To recruit and retain stunning colleagues, we pay personal top of market for the role and location — a judgment about what that person could make in a s",
+      "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
+      "score": 0.6027
+    },
+    {
+      "id": "e28ec007f19c",
+      "stance": "not_a_family",
+      "stanceLabel": "Not a family",
+      "stanceNote": "Netflix culture memo — high performance over kinship.",
+      "company": "netflix",
+      "displayName": "Netflix",
+      "year": 2024,
+      "source": "careers",
+      "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
+      "heading": "Freedom and Responsibility",
+      "score": 0.5591
+    },
+    {
+      "id": "4997d76aa4e7",
+      "stance": "not_a_family",
+      "stanceLabel": "Not a family",
+      "stanceNote": "Netflix culture memo — high performance over kinship.",
+      "company": "netflix",
+      "displayName": "Netflix",
+      "year": 2018,
+      "source": "careers",
+      "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
+      "heading": "Dream Team",
+      "score": 0.5328
+    },
+    {
+      "id": "3946e6bb7bdc",
+      "stance": "high_performer",
+      "stanceLabel": "High-performer ultimatum",
+      "stanceNote": "Coinbase championship-team framing — outsized rewards, severance for the unremarkable.",
+      "company": "coinbase",
+      "displayName": "Coinbase",
+      "year": 2026,
+      "source": "careers",
+      "text": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers. Outperformance is met with outsized reward. Unremarkable performance gets a generous severance package.",
+      "heading": "Championship team",
+      "score": 0.6685
+    },
+    {
+      "id": "0070e18e505c",
+      "stance": "high_performer",
+      "stanceLabel": "High-performer ultimatum",
+      "stanceNote": "Coinbase championship-team framing — outsized rewards, severance for the unremarkable.",
+      "company": "coinbase",
+      "displayName": "Coinbase",
+      "year": 2026,
+      "source": "careers",
+      "text": "You will be pushed beyond what you think you're capable of. You will be surrounded by others who excel in their disciplines and expect the same from you. But for those who embrace the challenge, it can be the most impactful work of your career.",
+      "heading": "Working at Coinbase isn't for the faint of heart.",
+      "score": 0.5698
+    },
+    {
+      "id": "358965d86f72",
+      "stance": "mission_focused",
+      "stanceLabel": "Mission-focused",
+      "stanceNote": "Coinbase post-2020 apolitical, mission-first framing.",
+      "company": "coinbase",
+      "displayName": "Coinbase",
+      "year": 2025,
+      "source": "careers",
+      "text": "Our mission is ambitious and important. We don’t engage in social or political activism that is unrelated to our mission while at work. We seek to make the workplace a refuge from division, so we can stay focused on making progress toward the mission. To attract top talent around the world and embrace decentralization, all full-time employees can work remote. Prefer an office? We also offer except",
+      "heading": "Welcome to Coinbase.",
+      "score": 0.5723
+    },
+    {
+      "id": "2ae8ee2f4f56",
+      "stance": "investor_tone",
+      "stanceLabel": "Investor-facing",
+      "stanceNote": "How performance language reads in 10-K Human Capital sections.",
+      "company": "google",
+      "displayName": "Google",
+      "year": 2022,
+      "source": "investor",
+      "text": "We are a company of curious, talented, and passionate people. We embrace collaboration and creativity, and encourage the iteration of ideas to address complex challenges in technology and society. Our people are critical for our continued success, so we work hard to create an environment where employees can have fulfilling careers, and be happy, healthy, and productive. We offer industry-leading b",
+      "heading": "Human Capital",
+      "score": 0.4564
+    },
+    {
+      "id": "ef9142dc8e01",
+      "stance": "investor_tone",
+      "stanceLabel": "Investor-facing",
+      "stanceNote": "How performance language reads in 10-K Human Capital sections.",
+      "company": "google",
+      "displayName": "Google",
+      "year": 2026,
+      "source": "investor",
+      "text": "of this Annual Report on Form 10-K. Culture and Workforce Our people are critical for our continued success, so we work hard to create an environment where employees can have fulfilling careers and perform at a high level. We offer industry-leading benefits and programs to take care of the diverse needs of our employees and their families, including opportunities for career growth and development,",
+      "heading": "Risk Factors",
+      "score": 0.3608
+    },
+    {
+      "id": "1e2980949e14",
+      "stance": "investor_tone",
+      "stanceLabel": "Investor-facing",
+      "stanceNote": "How performance language reads in 10-K Human Capital sections.",
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2023,
+      "source": "investor",
+      "text": "Our employees are critical to our mission of being Earth’s most customer-centric company. As of December 31, 2022, we employed approximately 1,541,000 full-time and part-time employees. Additionally, we use independent contractors and temporary personnel to supplement our workforce. Competition for qualified personnel is intense, particularly for software engineers, computer scientists, and other ",
+      "heading": "Human Capital",
+      "score": 0.3451
+    }
+  ]
+}

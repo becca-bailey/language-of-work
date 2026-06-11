@@ -12,6 +12,15 @@ export const DEI_REGISTER_ORDER = [
 
 export type DeiRegister = (typeof DEI_REGISTER_ORDER)[number];
 
+export const DEI_REGISTER_COLORS: Record<string, string> = {
+  explicit_demographic: "#059669",
+  structural_process: "#0d9488",
+  aspirational_vague: "#6366f1",
+  belonging_culture: "#8b5cf6",
+  meritocracy: "#f59e0b",
+  civilizational_mission: "#dc2626",
+};
+
 export interface CompanyRegisterShare {
   company: string;
   displayName: string;

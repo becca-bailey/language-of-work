@@ -1,0 +1,862 @@
+{
+  "story": "altruism",
+  "title": "Changing the World",
+  "metric": "zscore",
+  "metricLabel": "Idealism (z-scored within company)",
+  "sources": {
+    "careers": {
+      "coverageStart": 2005,
+      "companies": [
+        {
+          "id": "google",
+          "displayName": "Google",
+          "years": [
+            {
+              "year": 2005,
+              "zscore": 0.7412,
+              "topkMean": 0.1805,
+              "controlZscore": 0.2148,
+              "nChunks": 12,
+              "thin": false
+            },
+            {
+              "year": 2006,
+              "zscore": 0.7323,
+              "topkMean": 0.18,
+              "controlZscore": 1.3006,
+              "nChunks": 11,
+              "thin": false
+            },
+            {
+              "year": 2007,
+              "zscore": 0.7369,
+              "topkMean": 0.1802,
+              "controlZscore": 1.4093,
+              "nChunks": 25,
+              "thin": false
+            },
+            {
+              "year": 2008,
+              "zscore": -1.427,
+              "topkMean": 0.0523,
+              "controlZscore": -0.2459,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2009,
+              "zscore": -0.6266,
+              "topkMean": 0.0996,
+              "controlZscore": -1.5311,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2010,
+              "zscore": -1.3684,
+              "topkMean": 0.0558,
+              "controlZscore": -1.5665,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "zscore": -1.7107,
+              "topkMean": 0.0355,
+              "controlZscore": -0.9838,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "zscore": 0.9172,
+              "topkMean": 0.1909,
+              "controlZscore": 1.5967,
+              "nChunks": 137,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "zscore": -0.4965,
+              "topkMean": 0.1073,
+              "controlZscore": 0.0779,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "zscore": 1.4128,
+              "topkMean": 0.2202,
+              "controlZscore": 0.3854,
+              "nChunks": 49,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "zscore": -0.548,
+              "topkMean": 0.1043,
+              "controlZscore": -1.2355,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "zscore": -0.6495,
+              "topkMean": 0.0983,
+              "controlZscore": -0.4461,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "zscore": 0.9419,
+              "topkMean": 0.1923,
+              "controlZscore": 0.3344,
+              "nChunks": 19,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "zscore": 0.7462,
+              "topkMean": 0.1808,
+              "controlZscore": -0.7379,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "zscore": -0.6268,
+              "topkMean": 0.0996,
+              "controlZscore": 0.2987,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "zscore": 1.2251,
+              "topkMean": 0.2091,
+              "controlZscore": 1.129,
+              "nChunks": 44,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "amazon",
+          "displayName": "Amazon",
+          "years": [
+            {
+              "year": 2008,
+              "zscore": 0.6538,
+              "topkMean": 0.1458,
+              "controlZscore": 0.8885,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2011,
+              "zscore": 1.2773,
+              "topkMean": 0.1747,
+              "controlZscore": -0.4106,
+              "nChunks": 20,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "zscore": 1.7712,
+              "topkMean": 0.1977,
+              "controlZscore": 1.6285,
+              "nChunks": 24,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "zscore": -1.1174,
+              "topkMean": 0.0636,
+              "controlZscore": 0.0848,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "zscore": -0.7195,
+              "topkMean": 0.0821,
+              "controlZscore": -1.2964,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "zscore": -0.1006,
+              "topkMean": 0.1108,
+              "controlZscore": 1.3666,
+              "nChunks": 44,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "zscore": -1.371,
+              "topkMean": 0.0518,
+              "controlZscore": -0.6221,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2019,
+              "zscore": -0.3843,
+              "topkMean": 0.0976,
+              "controlZscore": -1.0476,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2026,
+              "zscore": -0.0096,
+              "topkMean": 0.115,
+              "controlZscore": -0.5917,
+              "nChunks": 15,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "meta",
+          "displayName": "Meta",
+          "years": [
+            {
+              "year": 2009,
+              "zscore": -0.9547,
+              "topkMean": 0.0634,
+              "controlZscore": -0.7487,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "zscore": 0.1195,
+              "topkMean": 0.1399,
+              "controlZscore": -1.3328,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "zscore": -1.2428,
+              "topkMean": 0.0429,
+              "controlZscore": -0.6007,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "zscore": 0.5262,
+              "topkMean": 0.1689,
+              "controlZscore": 0.3694,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "zscore": 1.788,
+              "topkMean": 0.2587,
+              "controlZscore": 1.6521,
+              "nChunks": 23,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "zscore": -0.2361,
+              "topkMean": 0.1146,
+              "controlZscore": 0.6607,
+              "nChunks": 13,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "palantir",
+          "displayName": "Palantir",
+          "years": [
+            {
+              "year": 2010,
+              "zscore": 0.2763,
+              "topkMean": 0.148,
+              "controlZscore": 1.2984,
+              "nChunks": 31,
+              "thin": false
+            },
+            {
+              "year": 2011,
+              "zscore": -1.4753,
+              "topkMean": 0.035,
+              "controlZscore": -1.2782,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2012,
+              "zscore": 1.07,
+              "topkMean": 0.1993,
+              "controlZscore": 0.8225,
+              "nChunks": 27,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "zscore": 0.0481,
+              "topkMean": 0.1333,
+              "controlZscore": 0.7425,
+              "nChunks": 19,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "zscore": 0.3668,
+              "topkMean": 0.1539,
+              "controlZscore": 0.27,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "zscore": 1.0423,
+              "topkMean": 0.1975,
+              "controlZscore": 0.008,
+              "nChunks": 29,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "zscore": 1.7429,
+              "topkMean": 0.2427,
+              "controlZscore": -1.8407,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2021,
+              "zscore": -0.841,
+              "topkMean": 0.076,
+              "controlZscore": -0.4574,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "zscore": 0.6845,
+              "topkMean": 0.1744,
+              "controlZscore": 1.187,
+              "nChunks": 29,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "zscore": -0.8494,
+              "topkMean": 0.0754,
+              "controlZscore": -0.0802,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2024,
+              "zscore": -0.0621,
+              "topkMean": 0.1262,
+              "controlZscore": -1.0118,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "zscore": -1.8482,
+              "topkMean": 0.011,
+              "controlZscore": -0.899,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2026,
+              "zscore": -0.155,
+              "topkMean": 0.1202,
+              "controlZscore": 1.2389,
+              "nChunks": 16,
+              "thin": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "lexicons": {},
+  "peakPresent": [
+    {
+      "company": "google",
+      "displayName": "Google",
+      "peakYear": 2014,
+      "peakZscore": 1.4128,
+      "peakQuote": {
+        "text": "At Google, we believe in making the world a better place through technology.",
+        "heading": "Global Impact Awards: Giving back at Google scale",
+        "score": 0.3435
+      },
+      "latestYear": 2025,
+      "latestZscore": 1.2251,
+      "latestQuote": {
+        "text": "We’re applying Google’s innovation, research, and resources to promote progress and expand opportunity for everyone.",
+        "heading": "Accelerating the impact of nonprofits",
+        "score": 0.2658
+      }
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "peakYear": 2013,
+      "peakZscore": 1.7712,
+      "peakQuote": {
+        "text": "The most radical and transformative of inventions are often those that empower others to unleash their creativity — to pursue their dreams.",
+        "heading": "",
+        "score": 0.2663
+      },
+      "latestYear": 2026,
+      "latestZscore": -0.0096,
+      "latestQuote": {
+        "text": "Every Amazonian, from warehouse floor to corporate HQ, shares a drive to impact the future, today.",
+        "heading": "Impact the future, today",
+        "score": 0.1627
+      }
+    },
+    {
+      "company": "meta",
+      "displayName": "Meta",
+      "peakYear": 2025,
+      "peakZscore": 1.788,
+      "peakQuote": {
+        "text": "Every day, we redefine and build a future that’s more open, accessible, and focused on human connection.",
+        "heading": "Join us in connecting the world.",
+        "score": 0.2822
+      },
+      "latestYear": 2026,
+      "latestZscore": -0.2361,
+      "latestQuote": {
+        "text": "This breakthrough tech allows people to answer messages, capture high-quality audio and video, and use Meta AI on a private in-lens display with intuitive, on-wrist controls — proving what's possible when you push the limits of AI in wearables.",
+        "heading": "We build awesome things",
+        "score": 0.1335
+      }
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "peakYear": 2018,
+      "peakZscore": 1.7429,
+      "peakQuote": {
+        "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+        "heading": "There is so much left to build",
+        "score": 0.2944
+      },
+      "latestYear": 2026,
+      "latestZscore": -0.155,
+      "latestQuote": {
+        "text": "Sleek moving text that says \"The world's hardest problems need the worlds smartest people.\"",
+        "heading": "Worlds Smartest People Gif",
+        "score": 0.1475
+      }
+    }
+  ],
+  "yearQuotes": [
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2005,
+      "text": "Can one conversation change the world?",
+      "heading": "",
+      "score": 0.251,
+      "zscore": 0.7412
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2006,
+      "text": "Can one conversation change the world?",
+      "heading": "",
+      "score": 0.251,
+      "zscore": 0.7323
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2007,
+      "text": "Can one conversation change the world?",
+      "heading": "",
+      "score": 0.251,
+      "zscore": 0.7369
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2008,
+      "text": "It’s your day to be a part of something great.",
+      "heading": "",
+      "score": 0.2083,
+      "zscore": 0.6538
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2008,
+      "text": "At Google, we've designed a culture that helps you get there.",
+      "heading": "Let's work together.",
+      "score": 0.1021,
+      "zscore": -1.427
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2009,
+      "text": "Googlers relish the freedom to create the next generation of web technologies in an environment designed to foster collaboration, creativity, health, and happiness.",
+      "heading": "Let’s work together.",
+      "score": 0.1422,
+      "zscore": -0.6266
+    },
+    {
+      "company": "meta",
+      "displayName": "Meta",
+      "year": 2009,
+      "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes.",
+      "heading": "Hello. Facebook is hiring.",
+      "score": 0.0838,
+      "zscore": -0.9547
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2010,
+      "text": "At Google, our world is flat.",
+      "heading": "Do more. A lot more.",
+      "score": 0.086,
+      "zscore": -1.3684
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2010,
+      "text": "Over the last decade, Silicon Valley has transformed every individual with access to the Internet into a researcher.",
+      "heading": "Perspectives on Palantir",
+      "score": 0.1645,
+      "zscore": 0.2763
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2011,
+      "text": "We're making history and the good news is that we've only just begun.",
+      "heading": "",
+      "score": 0.2306,
+      "zscore": 1.2773
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2011,
+      "text": "At Google, innovation and creativity keeps our projects changing and improving.",
+      "heading": "Let’s work together.",
+      "score": 0.0534,
+      "zscore": -1.7107
+    },
+    {
+      "company": "meta",
+      "displayName": "Meta",
+      "year": 2011,
+      "text": "Our employees build and create technology that fundamentally changes how hundreds of millions of people around the world connect and share.",
+      "heading": "Hello. Facebook is hiring.",
+      "score": 0.1399,
+      "zscore": 0.1195
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2011,
+      "text": "Palantir Technologies is working to radically change how groups analyze information.",
+      "heading": "About Palantir",
+      "score": 0.1086,
+      "zscore": -1.4753
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2012,
+      "text": "Our hope is to bring the power of search to previously unexplored areas, and to help people access and use even more of the ever-expanding information in their lives.",
+      "heading": "Ten things we know to be true",
+      "score": 0.2603,
+      "zscore": 0.9172
+    },
+    {
+      "company": "meta",
+      "displayName": "Meta",
+      "year": 2012,
+      "text": "No matter what part of Facebook you join, you'll be building something big and new.",
+      "heading": "",
+      "score": 0.0966,
+      "zscore": -1.2428
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2012,
+      "text": "We’re passionate about making a difference with mission-driven organizations through our philanthropic work.",
+      "heading": "Palantir",
+      "score": 0.2361,
+      "zscore": 1.07
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2013,
+      "text": "The most radical and transformative of inventions are often those that empower others to unleash their creativity — to pursue their dreams.",
+      "heading": "",
+      "score": 0.2663,
+      "zscore": 1.7712
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2013,
+      "text": "At Google, we don’t just accept difference - we celebrate it, we support it, and we thrive on it for the benefit of our employees, our products and our community.",
+      "heading": "Life at Google",
+      "score": 0.1441,
+      "zscore": -0.4965
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2013,
+      "text": "Lucy Bernholz, visiting scholar at Stanford University’s Center on Philanthropy and Civil Society, opened the night with her [...]",
+      "heading": "Palantir hosts Bay Area Girl Geek Dinner #32",
+      "score": 0.1785,
+      "zscore": 0.0481
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2014,
+      "text": "Play the amazon.jobs game, and guess what words really inspire us every day.",
+      "heading": "Amazon.jobs-play the game!",
+      "score": 0.0653,
+      "zscore": -1.1174
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2014,
+      "text": "At Google, we believe in making the world a better place through technology.",
+      "heading": "Global Impact Awards: Giving back at Google scale",
+      "score": 0.3435,
+      "zscore": 1.4128
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2015,
+      "text": "Whether it’s creating self-driving cars or translating the web into 64 languages, we love big bets.",
+      "heading": "Thinking big: Larry Page talks moon shots",
+      "score": 0.1511,
+      "zscore": -0.548
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2015,
+      "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+      "heading": "There is so much left to build",
+      "score": 0.2944,
+      "zscore": 0.3668
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2016,
+      "text": "Success is measured against the possible, not the probable.",
+      "heading": "we pioneer",
+      "score": 0.0899,
+      "zscore": -0.7195
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2016,
+      "text": "We value giving back to the community just as much as we value the products we create.",
+      "heading": "Give back",
+      "score": 0.1063,
+      "zscore": -0.6495
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2017,
+      "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers.",
+      "heading": "Diversity at Amazon",
+      "score": 0.1255,
+      "zscore": -0.1006
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2017,
+      "text": "We’re cultivating the next generation of technologists through computer science education.",
+      "heading": "Education",
+      "score": 0.2371,
+      "zscore": 0.9419
+    },
+    {
+      "company": "meta",
+      "displayName": "Meta",
+      "year": 2017,
+      "text": "Be bold We’re determined to build a better, more connected world for everyone.",
+      "heading": "What’s it like to work at Facebook?",
+      "score": 0.306,
+      "zscore": 0.5262
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2017,
+      "text": "With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better.",
+      "heading": "Why We’re Here",
+      "score": 0.248,
+      "zscore": 1.0423
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2018,
+      "text": "Since then, we have expanded to create the best-selling e-reader family in the world.",
+      "heading": "Amazon Devices",
+      "score": 0.0794,
+      "zscore": -1.371
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2018,
+      "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+      "heading": "There is so much left to build",
+      "score": 0.2944,
+      "zscore": 1.7429
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2019,
+      "text": "Our mission is to be Earth's most customer-centric company.",
+      "heading": "Come build the future with us",
+      "score": 0.1154,
+      "zscore": -0.3843
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2021,
+      "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+      "heading": "",
+      "score": 0.191,
+      "zscore": -0.841
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2022,
+      "text": "With good data and the right technology, people and institutions today can still solve hard problems and change the world for the better.",
+      "heading": "",
+      "score": 0.248,
+      "zscore": 0.6845
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2023,
+      "text": "Make people's lives better through technology.",
+      "heading": "Find your team",
+      "score": 0.3256,
+      "zscore": 0.7462
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2023,
+      "text": "At Palantir, we believe that with good data and the right software, institutions can solve hard problems and change the world for the better.",
+      "heading": "About Palantir",
+      "score": 0.1758,
+      "zscore": -0.8494
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2024,
+      "text": "Whether it's business or engineering & technology, we're here to help get you to your future.",
+      "heading": "Build your future with Google",
+      "score": 0.0996,
+      "zscore": -0.6268
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2024,
+      "text": "If you want to empower the world's most important institutions, you belong here.",
+      "heading": "",
+      "score": 0.1712,
+      "zscore": -0.0621
+    },
+    {
+      "company": "google",
+      "displayName": "Google",
+      "year": 2025,
+      "text": "We’re applying Google’s innovation, research, and resources to promote progress and expand opportunity for everyone.",
+      "heading": "Accelerating the impact of nonprofits",
+      "score": 0.2658,
+      "zscore": 1.2251
+    },
+    {
+      "company": "meta",
+      "displayName": "Meta",
+      "year": 2025,
+      "text": "Every day, we redefine and build a future that’s more open, accessible, and focused on human connection.",
+      "heading": "Join us in connecting the world.",
+      "score": 0.2822,
+      "zscore": 1.788
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2025,
+      "text": "Palantirians deliver mission-critical outcomes for the West's most important institutions.",
+      "heading": "",
+      "score": 0.0536,
+      "zscore": -1.8482
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2026,
+      "text": "Every Amazonian, from warehouse floor to corporate HQ, shares a drive to impact the future, today.",
+      "heading": "Impact the future, today",
+      "score": 0.1627,
+      "zscore": -0.0096
+    },
+    {
+      "company": "meta",
+      "displayName": "Meta",
+      "year": 2026,
+      "text": "This breakthrough tech allows people to answer messages, capture high-quality audio and video, and use Meta AI on a private in-lens display with intuitive, on-wrist controls — proving what's possible when you push the limits of AI in wearables.",
+      "heading": "We build awesome things",
+      "score": 0.1335,
+      "zscore": -0.2361
+    },
+    {
+      "company": "palantir",
+      "displayName": "Palantir",
+      "year": 2026,
+      "text": "Sleek moving text that says \"The world's hardest problems need the worlds smartest people.\"",
+      "heading": "Worlds Smartest People Gif",
+      "score": 0.1475,
+      "zscore": -0.155
+    }
+  ]
+}

@@ -114,6 +114,17 @@ function computeFinding(
   };
 }
 
+export async function generateStaticParams() {
+  const manifest = await loadCompaniesManifest();
+  const axes = new Set<string>();
+  for (const c of manifest) {
+    for (const axis of c.axes) {
+      if (axis !== "control") axes.add(axis);
+    }
+  }
+  return [...axes].map((axis) => ({ axis }));
+}
+
 export default async function TopicPage({
   params,
 }: {

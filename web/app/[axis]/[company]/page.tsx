@@ -2,9 +2,20 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import AxisExplorer from "@/components/AxisExplorer";
 import DeiExplorer from "@/components/DeiExplorer";
-import { loadAxis, loadDei } from "@/lib/data";
+import { loadAxis, loadCompaniesManifest, loadDei } from "@/lib/data";
 import { getAxisContent } from "@/lib/content";
 import { storyPathForAxis } from "@/lib/stories";
+
+export async function generateStaticParams() {
+  const manifest = await loadCompaniesManifest();
+  const params: { axis: string; company: string }[] = [];
+  for (const c of manifest) {
+    for (const axis of c.axes) {
+      if (axis !== "control") params.push({ axis, company: c.id });
+    }
+  }
+  return params;
+}
 
 export default async function CompanyReportPage({
   params,

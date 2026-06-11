@@ -8,20 +8,13 @@ import { Bar } from "@visx/shape";
 import type { DeiData } from "@/lib/data";
 import {
   DEI_REGISTER_ORDER,
+  DEI_REGISTER_COLORS,
   registerSharesFromDei,
   type CompanyRegisterShare,
 } from "@/lib/deiRegisters";
 
 const REGISTER_ORDER = DEI_REGISTER_ORDER;
-
-const COLORS: Record<string, string> = {
-  explicit_demographic: "#059669",
-  structural_process: "#0d9488",
-  aspirational_vague: "#6366f1",
-  belonging_culture: "#8b5cf6",
-  meritocracy: "#f59e0b",
-  civilizational_mission: "#dc2626",
-};
+const COLORS = DEI_REGISTER_COLORS;
 
 const MARGIN = { top: 8, right: 8, bottom: 8, left: 88 };
 
