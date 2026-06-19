@@ -1,0 +1,37 @@
+{
+  "company": "openai",
+  "display_name": "OpenAI",
+  "comment": "OpenAI founded 2015 as nonprofit, restructured 2019. Careers at openai.com/careers, earlier era may have used openai.com/jobs. Charter page is mission-critical text. Run M1 archaeology after discovery.",
+  "hosts": [
+    "openai.com",
+    "www.openai.com"
+  ],
+  "patterns": [
+    {
+      "url": "openai.com/careers",
+      "match_type": "exact",
+      "era_hint": "2018+"
+    },
+    {
+      "url": "openai.com/jobs",
+      "match_type": "exact",
+      "era_hint": "2016-2019"
+    },
+    {
+      "url": "openai.com/about",
+      "match_type": "exact",
+      "era_hint": "2016+"
+    },
+    {
+      "url": "openai.com/charter",
+      "match_type": "exact",
+      "era_hint": "2018+"
+    }
+  ],
+  "spa_content_paths": [
+    "openai.com/careers",
+    "openai.com/about"
+  ],
+  "alt_domains": [],
+  "validation": {}
+}

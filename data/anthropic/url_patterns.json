@@ -1,0 +1,32 @@
+{
+  "company": "anthropic",
+  "display_name": "Anthropic",
+  "comment": "Anthropic founded 2021; Wayback coverage starts ~2021. Careers and mission content both live on anthropic.com. Run M1 archaeology after discovery to confirm active eras.",
+  "hosts": [
+    "anthropic.com",
+    "www.anthropic.com"
+  ],
+  "patterns": [
+    {
+      "url": "anthropic.com/careers",
+      "match_type": "exact",
+      "era_hint": "2021+"
+    },
+    {
+      "url": "anthropic.com/about",
+      "match_type": "exact",
+      "era_hint": "2021+"
+    },
+    {
+      "url": "anthropic.com/company",
+      "match_type": "exact",
+      "era_hint": "2021+"
+    }
+  ],
+  "spa_content_paths": [
+    "anthropic.com/careers",
+    "anthropic.com/about"
+  ],
+  "alt_domains": [],
+  "validation": {}
+}
