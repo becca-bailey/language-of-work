@@ -8,7 +8,7 @@ import argparse
 import pandas as pd
 
 from lowork.company import CompanyProfile
-from lowork.config import DATA_DIR, ROOT, TOP_K, company_dir
+from lowork.config import ROOT, TOP_K, company_dir
 from lowork.dei import DEI_REGISTERS
 from lowork.io import read_json, write_json
 

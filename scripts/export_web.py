@@ -47,23 +47,54 @@ def main(company: str) -> None:
     quotes = read_json(cdir / "evidence_quotes.json")
     out_dir = ROOT / "web" / "public" / "data" / company
 
+    # Altruism is cleaned: techno-optimism (product hype) is split out so the
+    # per-company line tracks genuine "change the world" mission, not "we build
+    # amazing technology". n==0 years (no world-changing language) are dropped as
+    # absences rather than imputed, so the detail chart matches the story line.
+    split_path = cdir / "altruism_split.parquet"
+    split_df = pd.read_parquet(split_path) if split_path.exists() else None
+    split_quotes = (
+        read_json(cdir / "altruism_split_quotes.json")
+        if (cdir / "altruism_split_quotes.json").exists()
+        else {}
+    )
+
     exported_axes: list[str] = []
     for axis in scores["axis"].unique():
         sub = scores[(scores["axis"] == axis) & (scores["level"] == LEVEL)].sort_values("year")
         axis_quotes = quotes.get(axis, {}).get(LEVEL, {})
-        years = [
-            {
-                "year": int(r.year),
-                "zscore": round(float(r.zscore), 4),
-                "rawTopkMean": round(float(r.raw_topk_mean), 4),
-                "nChunks": int(r.n_chunks),
-                "kUsed": int(r.k_used),
-                "thin": int(r.n_chunks) < TOP_K,
-                "carriedForwardFrac": None,
-                "quotes": axis_quotes.get(str(int(r.year)), []),
-            }
-            for r in sub.itertuples()
-        ]
+
+        if axis == "altruism" and split_df is not None:
+            wq = split_quotes.get("worldChanging", {})
+            years = [
+                {
+                    "year": int(r.year),
+                    "zscore": round(float(r.world_zscore), 4),
+                    "rawTopkMean": round(float(r.world_topk), 4),
+                    "nChunks": int(r.world_n),
+                    "kUsed": min(int(r.world_n), TOP_K),
+                    "thin": int(r.world_n) < TOP_K,
+                    "carriedForwardFrac": None,
+                    "technoShare": round(float(r.techno_share), 4),
+                    "quotes": wq.get(str(int(r.year)), []),
+                }
+                for r in split_df.sort_values("year").itertuples()
+                if int(r.world_n) > 0 and pd.notna(r.world_zscore)
+            ]
+        else:
+            years = [
+                {
+                    "year": int(r.year),
+                    "zscore": round(float(r.zscore), 4),
+                    "rawTopkMean": round(float(r.raw_topk_mean), 4),
+                    "nChunks": int(r.n_chunks),
+                    "kUsed": int(r.k_used),
+                    "thin": int(r.n_chunks) < TOP_K,
+                    "carriedForwardFrac": None,
+                    "quotes": axis_quotes.get(str(int(r.year)), []),
+                }
+                for r in sub.itertuples()
+            ]
         write_json(
             out_dir / f"{axis}.json",
             {"company": company, "displayName": profile.display_name, "axis": axis, "years": years},

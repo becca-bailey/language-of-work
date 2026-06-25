@@ -15,6 +15,12 @@ export default function AltruismStoryExplorer({ data, framing = [] }: Props) {
   const peakPresent = data.peakPresent ?? [];
   const yearQuotes = data.yearQuotes ?? [];
 
+  // Main idealism sparkline uses the cleaned (techno-removed) world-changing series
+  // where available, so the headline line reflects genuine mission.
+  const cleanedCompanies = companies.map((c) =>
+    c.worldChanging ? { ...c, years: c.worldChanging } : c
+  );
+
   return (
     <div className="space-y-10">
       {framing.map((p, i) => (
@@ -37,15 +43,13 @@ export default function AltruismStoryExplorer({ data, framing = [] }: Props) {
           </h2>
           <p className="mt-1 max-w-prose text-sm text-neutral-600 dark:text-neutral-400">
             Each company&apos;s careers copy projected onto an idealism ↔ commercial
-            pragmatism axis, then z-scored within company. Google&apos;s famous
-            &ldquo;change the world&rdquo; era peaks around 2014 at sentence level;
-            the sparklines show who else had a moment — and when it passed.
+            pragmatism axis, then z-scored within company &mdash; with{" "}
+            <strong>techno-optimism removed</strong>, so this tracks genuine
+            &ldquo;change the world&rdquo; mission, not &ldquo;we build amazing
+            technology&rdquo; product hype.
           </p>
           <div className="mt-4">
-            <StorySparklines
-              companies={companies}
-              metricLabel={data.metricLabel}
-            />
+            <StorySparklines companies={cleanedCompanies} metricLabel={data.metricLabel} />
           </div>
         </section>
       )}

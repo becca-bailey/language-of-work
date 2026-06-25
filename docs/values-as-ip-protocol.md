@@ -8,7 +8,7 @@ freeze" at the bottom. After freeze, the body is immutable; all changes go in th
 **Measurement may not begin until:** this file is marked FROZEN and committed.
 
 This is the pre-registration the design (§4 Phase 0, §8) requires. Its sole job is to fix
-predictions *before* any corpus is measured, so H6 (firm-type → pathway) is falsifiable. Anchors
+predictions _before_ any corpus is measured, so H6 (firm-type → pathway) is falsifiable. Anchors
 only; the comparison set is registered separately if/when the fork holds.
 
 ---
@@ -29,18 +29,20 @@ dates are the before/after anchors.
 > freeze a wrong anchor.
 
 ### Menlo Innovations — **Pathway A (ossification)** [FROZEN]
-- *Joy, Inc.: How We Built a Workplace People Love*, Richard Sheridan — **2013** [verify: Penguin/
+
+- _Joy, Inc.: How We Built a Workplace People Love_, Richard Sheridan — **2013** [verify: Penguin/
   Portfolio publisher record].
-- *Chief Joy Officer*, Sheridan — **2018** [verify].
+- _Chief Joy Officer_, Sheridan — **2018** [verify].
 - "The Menlo Way" — wordmark; **filing/registration date [verify via USPTO TSDR]**.
 - Paid factory tours / workshops productized — **launch date [verify]** (predates the books;
   this is the productization-of-culture anchor).
-- **Primary codification anchor for analysis:** 2013 (*Joy, Inc.*), with the tour/trademark
+- **Primary codification anchor for analysis:** 2013 (_Joy, Inc._), with the tour/trademark
   productization as a secondary, earlier anchor.
-- *Type within pathway:* Frozen — brand-as-product small firm; canon expected inert, claimed
+- _Type within pathway:_ Frozen — brand-as-product small firm; canon expected inert, claimed
   impact relocated to an unverified replication market.
 
 ### Automattic — **Pathway B (weaponization)** [FROZEN]
+
 - The Automattic Creed — founder-authored canon; **date of codification [verify]**.
 - WordPress trademark — held by the WordPress Foundation; Automattic holds a commercial license;
   the Foundation/commons-stewardship structure **[verify dates: Foundation formation 2010; mark
@@ -48,20 +50,21 @@ dates are the before/after anchors.
 - **Rupture anchor:** September 2024 WP Engine feud; WP Engine v. Automattic/Mullenweg litigation
   filed **October 2024** [verify exact filing date, N.D. Cal.]; the "Alignment Offer" employee
   exodus, **October 2024** [verify].
-- *Type within pathway:* Influence-real-then-ruptured — distributed-work replication genuinely
+- _Type within pathway:_ Influence-real-then-ruptured — distributed-work replication genuinely
   cleared and WordPress powers a large share of the web (so the rupture is NOT impact-relocation),
   yet the values brand ruptured via the mark.
 
 ---
 
 ## 3. Controls (register before freeze; see open items)
+
 - **(a) Un-codified small firm, strong un-branded culture** — CANDIDATE PENDING. Requirement: a
   small firm with a strong internal culture that never wrote the book, trademarked a "Way," or
   productized tours. Selecting this is a judgment call reserved for confirmation; do not fabricate.
-- **(b) Falsification probe — codified firm with a *documented, named* adopter.** CANDIDATE
+- **(b) Falsification probe — codified firm with a _documented, named_ adopter.** CANDIDATE
   PENDING. Strong candidate: the **Spotify "squads/tribes" model** — codified and openly named by
   many adopting organizations (and even disowned by Spotify), so the replication market
-  demonstrably cleared. This is the case that should make H4 *fail by design*, proving H4 is a
+  demonstrably cleared. This is the case that should make H4 _fail by design_, proving H4 is a
   narrow claim, not a hypocrisy detector.
 
 ---
@@ -72,51 +75,58 @@ Directional, with the disconfirming result restated. "Canon" = the tagged missio
 subset, not all firm text.
 
 ### H1 — Capture under stress (both anchors)
+
 - **Menlo:** weak/absent — no mark-vs-mission conflict event of force; register stays in
-  mission/meta. *(H1 is largely a Pathway-B phenomenon; near-null for Menlo is expected, not a
-  failure.)*
+  mission/meta. _(H1 is largely a Pathway-B phenomenon; near-null for Menlo is expected, not a
+  failure.)_
 - **Automattic:** **strong.** In windows around Sept–Oct 2024, firm/founder language shifts from
   mission-register ("democratize publishing") toward rights-register ("trademark," "infringement,"
-  "license," "consistent enforcement," "protect"). *Disconfirmed if* Automattic resolves the
+  "license," "consistent enforcement," "protect"). _Disconfirmed if_ Automattic resolves the
   mission–mark conflict in favor of the mission, or language stays in mission-register through it.
 
 ### H2 — The gap (both anchors)
-- **Menlo:** canon↔worker gap is **large and widens gradually** post-2013. *Disconfirmed if* small,
+
+- **Menlo:** canon↔worker gap is **large and widens gradually** post-2013. _Disconfirmed if_ small,
   or narrows as the brand matures.
 - **Automattic:** gap **opens sharply at the 2024 rupture**, cleanest via the same-author discovery
-  corpus (internal vs. external), with a public-record fallback. *Disconfirmed if* small, or
+  corpus (internal vs. external), with a public-record fallback. _Disconfirmed if_ small, or
   narrows.
 
 ### H3 — Canon ossification (Pathway A: Menlo)
+
 - **Menlo:** canon shows **lower diachronic drift post-2013** than matched un-codified control (3a)
-  and than its own pre-2013 baseline, even across the 2020 COVID virtual pivot. *Disconfirmed if*
+  and than its own pre-2013 baseline, even across the 2020 COVID virtual pivot. _Disconfirmed if_
   the canon drifts as much as the control, or tracks external shocks the way un-codified language
   does.
 
 ### H4 — Impact relocation (Pathway A: Menlo)
+
 - **Menlo:** post-2013 self-description migrates **object→meta** (away from the consulting work,
   toward culture-as-teachable-model); reported "impact" denominators are story-consumption (tour
-  visitors, book sales, reach), not documented practice-adoption. *Disconfirmed if* self-
+  visitors, book sales, reach), not documented practice-adoption. _Disconfirmed if_ self-
   description stays object-level, OR Menlo can name documented organizations that rebuilt on the
-  model (the replication market clears). *Expected to FAIL for the Spotify-model control (3b) —
-  that failure is the point.*
+  model (the replication market clears). _Expected to FAIL for the Spotify-model control (3b) —
+  that failure is the point._
 
 ### H5 — Liturgical canon, divergent conduct (Pathway B: Automattic)
+
 - **Automattic:** **low canon drift co-occurring with high conduct divergence** — the Creed stays
   fixed as liturgy while tactical conduct/communications around 2024 sit at the rights pole and
-  diverge from it. *Disconfirmed if* under stress the canon itself is revised to match conduct, OR
+  diverge from it. _Disconfirmed if_ under stress the canon itself is revised to match conduct, OR
   conduct stays consistent with the canon.
 
 ### H6 — Firm type predicts pathway (the fork)
+
 - **Prediction:** Menlo (brand-as-product small firm) → Pathway A signature (low canon drift +
   object→meta relocation, no weaponized conduct). Automattic (infrastructure/competitive-IP) →
-  Pathway B signature (low canon drift + high conduct divergence, mark weaponized). *Disconfirmed
-  if* Menlo weaponizes, or Automattic ossifies-and-relocates rather than weaponizing — either
+  Pathway B signature (low canon drift + high conduct divergence, mark weaponized). _Disconfirmed
+  if_ Menlo weaponizes, or Automattic ossifies-and-relocates rather than weaponizing — either
   misclassification means firm type is not the conditioning variable.
 
 ---
 
 ## 5. Planned analyses (fixed before measurement)
+
 - Axes: `object_meta`, `mission_rights` (built per §7 of the design, `build_axes.py`, circularity
   check). Canon drift = axis-position variance + cumulative drift of the canon subset across
   Wayback snapshots. Conduct divergence = event-windowed `mission_rights` classification of
@@ -128,6 +138,7 @@ subset, not all firm text.
 ---
 
 ## Open items before freeze
+
 1. Verify all **[verify]** dates (USPTO TSDR for marks; publisher records for books; PACER/court
    record for the WP Engine filing). Replace each with a sourced date.
 2. Confirm the two controls (§3) — name (3a), confirm (3b).
@@ -135,4 +146,12 @@ subset, not all firm text.
 4. Confirm the Phase-1a feasibility verdict (corpus viability) before committing to both anchors.
 
 ## Changelog (append-only after freeze)
+
 - 2026-06-11 — Protocol drafted (anchors only). Not yet frozen; open items outstanding.
+- 2026-06-19 — Phase 1a feasibility verdict: **both anchors VIABLE** (see plan §"Phase 1a
+  findings"). Menlo worker-N small (~37 on-point HN items) — supplement worker sources, report as
+  ranges. Automattic strongly viable; 2024 rupture window densely covered. Codification anchors for
+  Menlo confirmed via Open Library — _Joy, Inc._ **2013**, _Chief Joy Officer_ **2018** (open item 1
+  now partially closed for Menlo books; trademark "The Menlo Way" + Automattic dates still need
+  TSDR/PACER). Worker-corpus expansion under consideration before freeze (see plan §3 / worker
+  sources).

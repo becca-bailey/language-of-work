@@ -1,0 +1,40 @@
+{
+  "case": "automattic",
+  "fetched_at": "2026-06-23T17:07:35+00:00",
+  "sources_requested": [
+    "wayback"
+  ],
+  "per_source": {
+    "wayback": {
+      "register": "firm",
+      "status": "ok",
+      "records": 593,
+      "undated_dropped": 0,
+      "subtypes": {
+        "—": 593
+      },
+      "year_min": 2010,
+      "year_max": 2026
+    }
+  },
+  "register_counts": {
+    "worker": 1469,
+    "firm": 565
+  },
+  "subtype_counts": {
+    "community": 1469,
+    "—": 565
+  },
+  "total_chunks": 2034,
+  "year_span": [
+    2007,
+    2026
+  ],
+  "undated_dropped": 0,
+  "caveats": [
+    "Worker-register text (hn/reddit) is community discussion-about (subtype=community), not verified first-person testimony — weight downstream, never a point estimate.",
+    "Firm register spans book metadata (codification dates), longitudinal canon snapshots (wayback), and the live present-day canon (live); tag the canon subset before H3/H5.",
+    "Counts/spans reflect the full on-disk corpus (merge-by-source), not just this run.",
+    "Undated records (no resolvable year) are dropped from the timeline; see undated_dropped."
+  ]
+}

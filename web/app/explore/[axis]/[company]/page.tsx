@@ -26,7 +26,7 @@ export default async function CompanyReportPage({
   // control is only an overlay on other axes, never a standalone page
   if (axis === "control") notFound();
   const content = getAxisContent(axis);
-  const backHref = storyPathForAxis(axis) ?? `/${axis}`;
+  const backHref = storyPathForAxis(axis) ?? `/explore/${axis}`;
   const backLabel = storyPathForAxis(axis) ? "Story" : content.title;
 
   if (axis === "dei") {
@@ -80,6 +80,15 @@ export default async function CompanyReportPage({
         contrast axis, z-scored within company. The dashed control axis tracks
         page composition — if both move together, the signal is composition,
         not values.
+        {axis === "altruism" && (
+          <>
+            {" "}
+            Techno-optimism (product-capability hype like &ldquo;we build amazing
+            technology&rdquo;) is split out, so this tracks genuine
+            &ldquo;change the world&rdquo; mission only; years with no
+            world-changing language are shown as gaps, not lows.
+          </>
+        )}
       </p>
       <div className="mt-8">
         <AxisExplorer axis={data} control={control} />

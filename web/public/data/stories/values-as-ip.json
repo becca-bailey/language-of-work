@@ -1,0 +1,286 @@
+{
+  "story": "values-as-ip",
+  "title": "When Values Become Intellectual Property",
+  "axis": "mission_rights",
+  "poleHigh": "mission",
+  "poleLow": "rights",
+  "metricLabel": "mission ←→ rights (firm-register projection)",
+  "cases": [
+    {
+      "company": "automattic",
+      "displayName": "Automattic",
+      "canonBand": {
+        "mean": 0.122,
+        "lo": 0.0514,
+        "hi": 0.1925,
+        "n": 73
+      },
+      "series": [
+        {
+          "id": "canon",
+          "label": "Canon (codified values)",
+          "years": [
+            {
+              "year": 2011,
+              "value": 0.1752,
+              "n": 1,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "value": 0.1752,
+              "n": 1,
+              "thin": true
+            },
+            {
+              "year": 2013,
+              "value": 0.1344,
+              "n": 2,
+              "thin": true
+            },
+            {
+              "year": 2015,
+              "value": 0.1126,
+              "n": 4,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "value": 0.1761,
+              "n": 3,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "value": 0.2277,
+              "n": 1,
+              "thin": true
+            },
+            {
+              "year": 2018,
+              "value": 0.1117,
+              "n": 7,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "value": 0.135,
+              "n": 5,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "value": 0.1303,
+              "n": 6,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "value": 0.0942,
+              "n": 6,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "value": 0.0674,
+              "n": 4,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "value": 0.122,
+              "n": 4,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "value": 0.0931,
+              "n": 8,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "value": 0.1518,
+              "n": 3,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "value": 0.1287,
+              "n": 18,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "conduct",
+          "label": "Conduct (other firm text)",
+          "years": [
+            {
+              "year": 2010,
+              "value": 0.0487,
+              "n": 39,
+              "thin": false
+            },
+            {
+              "year": 2011,
+              "value": 0.0999,
+              "n": 17,
+              "thin": false
+            },
+            {
+              "year": 2012,
+              "value": 0.0598,
+              "n": 34,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "value": 0.0449,
+              "n": 19,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "value": 0.0852,
+              "n": 74,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "value": 0.04,
+              "n": 15,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "value": 0.061,
+              "n": 23,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "value": 0.0157,
+              "n": 9,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "value": 0.0667,
+              "n": 29,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "value": 0.0497,
+              "n": 13,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "value": 0.0898,
+              "n": 18,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "value": -0.0761,
+              "n": 5,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "value": -0.1364,
+              "n": 4,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "value": 0.114,
+              "n": 19,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "value": -0.1618,
+              "n": 7,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "value": 0.0957,
+              "n": 20,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "value": 0.0203,
+              "n": 68,
+              "thin": false
+            }
+          ]
+        }
+      ],
+      "rightsQuotes": [
+        {
+          "year": 2026,
+          "text": "It’s never pleasant to hear you may need to change something, but if a trademark is not enforce it is at risk of being lost, so it’s necessary and also better for consumers to understand who has official permission to use the WordPress trademark in commercial ",
+          "heading": "wordpressfoundation.org/trademark-policy",
+          "score": -0.2664
+        },
+        {
+          "year": 2026,
+          "text": "Permission from the WordPress Foundation is required to use the WordPress or WordCamp name or logo as part of any project, product, service, domain name, or company name.",
+          "heading": "wordpressfoundation.org/trademark-policy",
+          "score": -0.2663
+        },
+        {
+          "year": 2010,
+          "text": "Similarly, it’s OK to use the WordPress logo as part of a page that describes your products or services, but it is not OK to use it as part of your company or product logo or branding itself. Under no circumstances is it permitted to use WordPress as part of a",
+          "heading": "WordPress Trademark Usage Policy",
+          "score": -0.2302
+        },
+        {
+          "year": 2026,
+          "text": "Similarly, it’s OK to use the WordPress or WordCamp logo as part of a page that describes your products or services, but it is not OK to use it as part of your company or product logo or branding itself. Under no circumstances is it permitted to use WordPress ",
+          "heading": "wordpressfoundation.org/trademark-policy",
+          "score": -0.2297
+        }
+      ],
+      "missionQuotes": [
+        {
+          "year": 2026,
+          "text": "We value impact, not how much time you put in. Effectiveness over busyness. Quality, not quantity. We firmly believe that work can and should be fun, while also being challenging and providing essential services. That workers should be trusted by giving them a",
+          "heading": "automattic.com/about",
+          "score": 0.2798
+        },
+        {
+          "year": 2016,
+          "text": "I will never stop learning. I won’t just work on things that are assigned to me. I know there’s no such thing as a status quo. I will build our business sustainably through passionate and loyal customers. I will never pass up an opportunity to help out a colle",
+          "heading": "Creed",
+          "score": 0.2277
+        },
+        {
+          "year": 2017,
+          "text": "I will never stop learning. I won’t just work on things that are assigned to me. I know there’s no such thing as a status quo. I will build our business sustainably through passionate and loyal customers. I will never pass up an opportunity to help out a colle",
+          "heading": "Creed",
+          "score": 0.2277
+        },
+        {
+          "year": 2026,
+          "text": "I will never stop learning. I won’t just work on things that are assigned to me. I know there’s no such thing as a status quo. I will build our business sustainably through passionate and loyal customers. I will never pass up an opportunity to help out a colle",
+          "heading": "automattic.com/creed",
+          "score": 0.2274
+        }
+      ],
+      "events": [
+        {
+          "id": "wpengine",
+          "label": "WP Engine rupture",
+          "year": 2024.75,
+          "description": "September 2024 — Automattic/Matt Mullenweg move against WP Engine: trademark demands, an 8% license-fee claim, and control of the WordPress.org login — the mission canon turned into enforced rights."
+        }
+      ]
+    }
+  ]
+}

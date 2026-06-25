@@ -27,7 +27,7 @@ export default function StoryCompanyLinks({
         {companies.map((c) => (
           <li key={c.id}>
             <Link
-              href={`/${axis}/${c.id}`}
+              href={`/explore/${axis}/${c.id}`}
               className="group flex items-baseline justify-between rounded-lg border border-neutral-200 px-4 py-3 transition-colors hover:border-neutral-400 dark:border-neutral-800 dark:hover:border-neutral-600"
             >
               <span className="font-medium">{c.displayName}</span>

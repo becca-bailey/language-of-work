@@ -14,6 +14,49 @@ weaponization). Comparison set deferred until the fork is proven on the two anch
 
 ---
 
+## The mission this study serves
+
+> The relevant question is not "why does culture decay?" but, following Doctorow's inversion of
+> enshittification, **"what prevents cultural enshittification — and what happens to the language of
+> values when those forces erode?"**
+
+Cultural decay is the default under market pressure, not the anomaly. A workplace culture does not
+stay good because leaders care about it; it stays good while specific **counterforces** hold the
+default back — a tight labor market that gives workers bargaining power, competition for talent and
+reputation, the founder's still-personal stake, and (rarely) regulation or organized labor. When
+those counterforces erode, the culture enshittifies regardless of stated intentions. The
+millennial-era bet — that better intentions, training, DEI metrics, and committees would hold the
+tide — worked only while the labor market made it cheap to mean it. This study is about what is
+left, and what the *language* does, after that power recedes.
+
+**Values-as-IP is the lens, not a competing theory.** Codifying values into intellectual property —
+a trademarked "Way," a founder-authored Creed, a productized culture, a controlled nominal commons —
+is precisely the move available to leaders *once the live counterforces are gone*. The codified
+canon is durable in a way the conditions that produced it were not, so it persists, frozen, while
+practice drifts beneath it. That is why a firm can "appear not to live up to its values more over
+time": the canon is fixed at the moment of codification, the counterforces keep eroding, and the gap
+between the two is what the instrument measures. Codification does not cause the decay; it **outlives
+the conditions that made the values real, and masks their erosion.**
+
+So the two pathways are two things that happen to codified values once the counterforces recede:
+- **Pathway A (ossification, Menlo):** the canon becomes inert liturgy and the claimed impact
+  relocates to an unverified replication market (object→meta). Decay shows up as *drift away from
+  the work*, not as conflict.
+- **Pathway B (weaponization, Automattic):** the canon stays fixed while the now-defensible asset is
+  turned outward — the mission-register collapses into a rights-register under stress. Decay shows up
+  as *the values being enforced against people* rather than lived.
+
+**Scope guard.** The frozen protocol (H1–H6) measures the *symptom* — canon drift, conduct
+divergence, the canon↔worker gap. It does not yet measure the counterforces themselves (labor-market
+slack, competition, founder tenure, organizing). Treat the counterforces as the **interpretive
+layer** for now: where a public, datable proxy exists (e.g. the 2022–2024 tech-labor-market
+inversion against Automattic's 2024 rupture; Menlo's founder tenure and firm size against its canon
+freeze), annotate the timeline with it as context, never as a measured variable. Turning a
+counterforce into a measured covariate is a deliberate, separately-registered extension (see Phase 4
+note) — not a silent edit to the frozen predictions.
+
+---
+
 ## 0. Relationship to the existing instrument
 
 Project 2 (the DEI sub-study) is the structural template. Almost all scaffolding transfers:
@@ -91,6 +134,30 @@ Automattic only, before committing to full corpus construction:
   the case set changes *before* sunk cost. Record the verdict + the `source_map.md` summary in the
   protocol changelog.
 
+### Phase 1a findings (run 2026-06-19) — both anchors VIABLE
+Ran `explore_sources.py` (hn + books) for both anchors. Verdict and what it changed:
+- **Automattic — strongly viable.** Exact-phrase `"Automattic"` ≈ 3,379 HN items (2008→2025);
+  the 2024 rupture window is densely covered with rights-register material (cease-and-desist,
+  trademark transfer to the Foundation, "8% license fee," the Alignment Offer, "Paranoia and Fear
+  Inside Automattic"). Canon = the Creed (web), not a book — books register is naturally minor for
+  Pathway B; *The Year Without Pants* (Berkun, 2013) is a usable insider account.
+- **Menlo — viable but small worker-N.** `"Menlo Innovations"` ≈ 37 HN items, qualitatively
+  on-point (a 2012 comment: people are *"paying to learn the Menlo Way"* — the H4 relocation signal
+  in the wild). Report worker results as ranges/trajectories; supplement with Reddit/Indeed when
+  those fetchers land. Codification anchors **confirmed** (Open Library): *Joy, Inc.* 2013,
+  *Chief Joy Officer* 2018.
+- **Tooling findings folded into the plan:** (1) keyless Google Books is dead (quota 0) → books now
+  via **Open Library**; (2) HN Algolia `nbHits` overcounts via loose token matching — *quote* the
+  phrase (`"Automattic"` 317,927→3,379) and trust ranked samples, not totals; (3) generic case
+  terms collide with the world (bare `Menlo Way` ≈ Menlo Park) → use disambiguated/quoted queries;
+  (4) empty press/legal rows in the maps are **tooling gaps** (news.py/courts.py unbuilt), not data
+  gaps — both registers are clearly populated (HN already surfaces the docket and press coverage).
+- **Worker-source access reality (2026):** keyless APIs are closing. Google Books → quota 0; Reddit
+  `.json` → HTML block (needs OAuth). Ladder for the worker register: keyless-and-open (HN Algolia,
+  Open Library) → OAuth where required (Reddit) → **lawful manual-ingest** for ToS-restricted
+  sources (Glassdoor/Indeed via `ingest_manual_html.py`), never auto-scrape. Worker records carry a
+  `subtype` (employee / visitor / community / review) so reliability is a weight, not a label.
+
 ### Phase 1b — Anchor corpus construction (Menlo, Automattic)
 Run the per-source fetchers (§2) for the sources that cleared the Phase-1a gate, each normalizing
 into the shared chunk record. Three register-distinct, timestamped corpora per case:
@@ -126,6 +193,25 @@ into the shared chunk record. Three register-distinct, timestamped corpora per c
   (`label_sample.py` → `validate.py` pattern).
 - Output: validated axis set + register-bridging procedure + confusion stats.
 
+#### Phase 2 progress (run 2026-06-23) — both axes built + circularity-clean + face-valid
+- **Both axes built** → `axes/built/{object_meta,mission_rights}.json` (8 sentences/pole, corporate
+  voice). `build_axes.py` was extended to run the **circularity check on the Project-3 firm/canon
+  subset** (`register=="firm"`) since there is no DEI-style `mission_brand` classification here —
+  `circularity_check` embeds those chunks cache-first, so no classify/embed prerequisite.
+- **Lexical-leakage fix (important).** First drafts embedded firms' *verbatim* canon — "democratize
+  publishing" (Automattic), "the way we work"/"ripples" (Menlo/Sheridan). That would make H4/H5
+  partly tautological (a chunk scores its pole by lexical identity, not concept) and break H6 cross-
+  case comparability. Poles were **genericized to the concept, not the slogan**; the YAML headers
+  record this constraint. Re-running, both axes now produce **0 circularity flags** against *both*
+  anchors' canon (incl. Automattic's actual mission text vs. the mission pole — the leakage test).
+- **Face validity confirmed** (projection of firm chunks, both cases): mission_rights puts the Creed
+  + "value impact not time" at the mission pole and WordPress trademark-enforcement language at the
+  rights pole; object_meta puts "we make products for people" at object and, on Menlo, the
+  productized **"factory tours… gone virtual"** at meta — the H4 impact-relocation signal in situ.
+- **Still open in Phase 2:** hand-labeled validation sample (`label_sample.py`→`validate.py`); the
+  §6 register-confound procedure for H2 (worker-register poles); and the Project-3 classification
+  step (no `classifications.json` yet — `embed_chunks.py` still assumes the DEI label set).
+
 ### Phase 3 — Per-case measurement (branches by pathway)
 - **Both anchors:** H1 (capture under stress, event-anchored `mission_rights` classification in
   windows around dated conflict events) and H2 (the gap — discovery corpus where available, public
@@ -135,8 +221,14 @@ into the shared chunk record. Three register-distinct, timestamped corpora per c
   an audit of every impact claim: is the denominator story-consumption or practice-adoption?).
 - **Automattic (B):** H5 (low canon drift co-occurring with high conduct divergence) — hold canon
   drift against event-anchored conduct/tactical classification; worker↔firm lead-lag.
+- **Counterforce annotation (interpretive, not a hypothesis):** on each case's timeline, overlay the
+  public, datable counterforce proxies that the mission frame points to — e.g. the 2022–2024 tech
+  labor-market inversion (layoffs, loss of worker bargaining power) against Automattic's 2024
+  rupture; Menlo's founder tenure and static firm size against its post-2013 canon freeze. These are
+  context for reading the measured gap, explicitly flagged as un-modeled. Do **not** fit, weight, or
+  test them here — that is the Phase 4 extension.
 - Output: per-case result sheet, one page per applicable hypothesis, disconfirming-check applied
-  honestly.
+  honestly, with the counterforce overlay as a clearly-labeled context band.
 
 ### Phase 4 — Fork test + (later) comparison set
 - **Evaluate H6** on the two anchors: did each case's frozen pathway classification match its
@@ -146,12 +238,23 @@ into the shared chunk record. Three register-distinct, timestamped corpora per c
   theory.
 - Plot the 2-D space **canon-drift × conduct-divergence**; assemble the typology
   (frozen / drift / ruptured / founder-collapse / influence-real-then-ruptured / mixed).
+- **Counterforces-as-variable extension (separately registered, only if the fork holds).** This is
+  where the mission's core question becomes a measurement rather than an annotation: take a datable
+  counterforce proxy (labor-market slack, competitive pressure, founder tenure, organizing/union
+  events) and test whether the canon↔practice gap *widens as the counterforce erodes*. It needs its
+  own frozen pre-registration — new constructs, new disconfirming results — because it adds variables
+  the current H1–H6 do not contain. Flagged here so it is built deliberately, not smuggled into the
+  anchor analysis.
 
 ### Phase 5 — Presentation (The Pudding model)
 Scrollama + D3, reusing the existing `web/` export pattern (`export_web.py` →
-`web/public/data/`). Core scenes, with **Scene 3 carrying the thesis**: Menlo's flat canon line
-with no conduct to contradict it, beside Automattic's flat canon line *with an erupting conduct
-trace diverging beneath it*. Then the typology map.
+`web/public/data/`). The narrative opens on the mission question — *what holds a culture in place,
+and what happens to its stated values when that grip loosens?* — and frames codification as what
+remains after the holding force is gone. Core scenes, with **Scene 3 carrying the thesis**: Menlo's
+flat canon line with no conduct to contradict it, beside Automattic's flat canon line *with an
+erupting conduct trace diverging beneath it* — the same frozen canon, two ways for the practice to
+leave it behind. Where a counterforce proxy exists, render it as a receding band beneath the canon
+line so the viewer reads the gap *opening as the force erodes*. Then the typology map.
 
 ---
 
@@ -181,8 +284,11 @@ to disk for reproducibility. It does *not* chunk, classify, or score — that's 
   description pulls.
 - `sources/hn.py` — Hacker News Algolia API ("working at X" / company threads) — the master plan's
   blessed worker source; full corpus, date-filterable.
-- `sources/reddit.py` — Reddit public JSON / API where accessible; supplementary worker source,
-  flagged for post-2023 API limits.
+- `sources/reddit.py` — Reddit worker testimony. **Keyless `.json` is blocked** (Reddit serves the
+  HTML app shell to unauthenticated/datacenter clients); built for app-only **OAuth**
+  (`REDDIT_CLIENT_ID`/`REDDIT_CLIENT_SECRET`) and degrades with an actionable message when creds are
+  absent. Every record tagged `source=reddit` + `subtype=community` + provenance (subreddit, score,
+  num_comments) — reliability handled as metadata to weight/filter, not a discard flag.
 - `sources/glassdoor.py` — **stub + caution only.** Scraping violates ToS; use academic datasets or
   manual capture if at all. Do not build the study around it.
 - `sources/trademarks.py` — USPTO **TSDR** lookup for trademark filing/registration dates
@@ -206,7 +312,12 @@ to disk for reproducibility. It does *not* chunk, classify, or score — that's 
   modeled on `classify_dei_register.py` but aggregating around dated events, not calendar years.
 
 ## 3. Standing risks (carry from §8 of the design)
-Selection bias (controls + frozen pre-registration are the counterweight); "no documented
+**Causal-frame risk (new, from the mission reframe):** the instrument measures the *symptom* (canon
+drift, conduct divergence, the gap), not the *cause* (eroding counterforces). Do not let the
+narrative claim that codification *causes* decay, or that an eroding labor market *caused* a measured
+gap — the counterforce layer is annotation until separately registered (Phase 4). State the
+mechanism as "codification outlives and masks the conditions," and keep the measured claims to what
+the axes actually show. Selection bias (controls + frozen pre-registration are the counterweight); "no documented
 adoption" ≠ "no adoption" (keep H4's claim narrow); worker-corpus sampling skew (report ranges/
 trajectories, never point estimates); **register confound (the biggest technical risk — H2 only)**;
 active litigation + named individuals (Automattic/WP Engine, Patagonia/Pattie Gonia, Gravity's

@@ -67,7 +67,7 @@ export default async function ComparePage({
   return (
     <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-12">
       <Link
-        href={`/${axis}`}
+        href={`/explore/${axis}`}
         className="text-sm text-neutral-500 transition-colors hover:text-neutral-800 dark:hover:text-neutral-200"
       >
         &larr; {content.title}
@@ -106,7 +106,7 @@ export default async function ComparePage({
         {series.map((d) => (
           <li key={d.company}>
             <Link
-              href={`/${axis}/${d.company}`}
+              href={`/explore/${axis}/${d.company}`}
               className="text-sm text-indigo-600 hover:underline dark:text-indigo-400"
             >
               {d.displayName ?? d.company} — full detail &rarr;

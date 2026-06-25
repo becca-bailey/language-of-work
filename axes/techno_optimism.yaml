@@ -1,0 +1,36 @@
+# Techno-optimism axis: technology-as-marvel <-> human betterment
+#
+# Disambiguates two kinds of lofty employer language that the altruism axis
+# (idealism <-> commercial pragmatism) conflates: "we build amazing technology"
+# is NOT "we will change the world." Product-capability hype (advanced, powerful,
+# breakthrough, cutting-edge) scores as idealism on the altruism axis because it
+# is enthusiastic and non-commercial — but it is praise of the *product*, not a
+# claim of *human betterment*. This axis separates them so the altruism signal
+# can be read as genuine world-changing mission, not technical superlatives.
+#
+# pole_a (positive projection) = techno-optimism / product marvel
+# pole_b (negative projection) = world betterment / altruistic mission
+# Poles are generic concept, not verbatim corpus lifts (circularity discipline).
+name: techno_optimism
+pole_a:
+  label: techno_optimism
+  sentences:
+    - "We build the most advanced and powerful technology in the world."
+    - "Our products push the boundaries of what is technically possible."
+    - "We engineer cutting-edge, state-of-the-art systems at massive scale."
+    - "Our latest release is faster, smarter, and more capable than anything before it."
+    - "We ship the most sophisticated hardware and software on the market."
+    - "Our breakthroughs deliver unprecedented performance, speed, and capability."
+    - "We pioneer next-generation platforms at the frontier of the field."
+    - "Our technology sets the industry standard for power and innovation."
+pole_b:
+  label: world_betterment
+  sentences:
+    - "We exist to improve people's lives and serve humanity."
+    - "Our mission is to make the world a fairer and kinder place."
+    - "We work to solve society's greatest challenges and uplift communities."
+    - "We measure success by the positive difference we make in people's lives."
+    - "We are here to help people thrive and build a better future together."
+    - "Our purpose is to expand opportunity and well-being for everyone."
+    - "We strive to leave the world better than we found it."
+    - "We care about human dignity, fairness, and the common good."

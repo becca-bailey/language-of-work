@@ -10,7 +10,7 @@ import re
 import pandas as pd
 
 from lowork.company import CompanyProfile
-from lowork.config import DATA_DIR, ROOT, company_dir
+from lowork.config import DATA_DIR, ROOT, TOP_K, company_dir
 from lowork.dei import COUNTER_DEI_REGISTERS, DEI_REGISTERS
 from lowork.io import read_json, write_json
 
@@ -774,6 +774,33 @@ def _build_altruism_year_quotes(
     return out
 
 
+def _altruism_split(company: str) -> tuple[list[dict], list[dict]] | None:
+    """world-changing vs techno-optimism series from altruism_split.parquet."""
+    path = company_dir(company) / "altruism_split.parquet"
+    if not path.exists():
+        return None
+    df = pd.read_parquet(path).sort_values("year")
+    world, techno = [], []
+    for r in df.itertuples():
+        y = int(r.year)
+        world.append({
+            "year": y,
+            "zscore": None if pd.isna(r.world_zscore) else round(float(r.world_zscore), 4),
+            "topkMean": None if pd.isna(r.world_topk) else round(float(r.world_topk), 4),
+            "nChunks": int(r.world_n),
+            "thin": int(r.world_n) < TOP_K,
+        })
+        techno.append({
+            "year": y,
+            "zscore": round(float(r.techno_zscore), 4) if pd.notna(r.techno_zscore) else None,
+            "topkMean": None if pd.isna(r.techno_topk) else round(float(r.techno_topk), 4),
+            "nChunks": int(r.techno_n),
+            "technoShare": round(float(r.techno_share), 4),
+            "thin": int(r.techno_n) < TOP_K,
+        })
+    return world, techno
+
+
 def export_altruism(companies: list[str]) -> None:
     companies = [c for c in companies if c not in ALTRUISM_EXCLUDED]
     company_series = []
@@ -801,11 +828,20 @@ def export_altruism(companies: list[str]) -> None:
         quotes_by_company[company] = evidence.get("altruism", {}).get("sentence", {})
 
         profile = CompanyProfile.load(company)
-        company_series.append({
+        entry = {
             "id": company,
             "displayName": profile.display_name,
             "years": years,
-        })
+        }
+        split = _altruism_split(company)
+        if split:
+            world, techno = split
+            entry["worldChanging"] = world
+            entry["technoOptimism"] = techno
+            split_q_path = company_dir(company) / "altruism_split_quotes.json"
+            if split_q_path.exists():
+                entry["splitQuotes"] = read_json(split_q_path)
+        company_series.append(entry)
 
     if not company_series:
         print("No altruism data to export")
@@ -834,6 +870,12 @@ def export_altruism(companies: list[str]) -> None:
         "lexicons": {},
         "peakPresent": peak_present,
         "yearQuotes": year_quotes,
+        "splitNote": (
+            "Idealistic language is split via the techno_optimism axis into "
+            "world-changing mission vs. techno-optimism (product-capability hype). "
+            "'We build amazing technology' is not 'we'll change the world' — e.g. "
+            "Meta's recent idealism is ~100% techno-optimism."
+        ),
     }
     out_dir = ROOT / "web" / "public" / "data" / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)

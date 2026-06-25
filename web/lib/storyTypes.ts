@@ -85,10 +85,23 @@ export type StoryMetricKey =
   | "salienceTopkMean"
   | "zscore";
 
+export interface StoryTechnoYear {
+  year: number;
+  zscore?: number | null;
+  topkMean?: number | null;
+  nChunks: number;
+  technoShare: number;
+  thin: boolean;
+}
+
 export interface StoryCompanySeries {
   id: string;
   displayName: string;
   years: StoryYearPoint[];
+  /** Genuine "change the world" idealism (techno-optimism removed). */
+  worldChanging?: StoryYearPoint[];
+  /** Product-capability hype split out of idealism via the techno_optimism axis. */
+  technoOptimism?: StoryTechnoYear[];
 }
 
 export interface StorySourceData {
@@ -156,6 +169,7 @@ export interface StoryData {
   stancePresence?: StoryStancePresence[];
   peakPresent?: StoryPeakPresent[];
   yearQuotes?: StoryYearQuote[];
+  splitNote?: string;
 }
 
 export function metricValue(

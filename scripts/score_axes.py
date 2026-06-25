@@ -134,10 +134,24 @@ def score_sentence_level(mission: pd.DataFrame, axis_names: list[str]) -> tuple[
     return pd.concat(rows, ignore_index=True), quotes
 
 
-def main(company: str, axis_names: list[str]) -> None:
+def main(
+    company: str,
+    axis_names: list[str],
+    register: str | None = None,
+    exclude_subtype: str | None = None,
+) -> None:
     cdir = company_dir(company)
     df = pd.read_parquet(cdir / "embeddings.parquet")
-    mission = df[df["label"] == "mission_brand"].reset_index(drop=True)
+    mission = df[df["label"] == "mission_brand"]
+    # Optional register/subtype filters (default off, so DEI-study companies are
+    # unchanged). Project 3 uses these to score one consistent register — e.g. the
+    # Menlo canon (firm, excluding subtype=blog) so the timeline reflects changing
+    # idealism, not a changing voice.
+    if register is not None and "register" in mission.columns:
+        mission = mission[mission["register"] == register]
+    if exclude_subtype is not None and "subtype" in mission.columns:
+        mission = mission[mission["subtype"].fillna("") != exclude_subtype]
+    mission = mission.reset_index(drop=True)
     n_before = len(mission)
     mission = pd.DataFrame(dedup_chunks(mission.to_dict("records")))
     if len(mission) < n_before:
@@ -168,5 +182,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--company", default="google")
     parser.add_argument("axes", nargs="*", default=["altruism", "control"])
+    parser.add_argument("--register", default=None,
+                        help="filter to one register (e.g. firm) before scoring")
+    parser.add_argument("--exclude-subtype", default=None,
+                        help="drop chunks with this subtype (e.g. blog) before scoring")
     args = parser.parse_args()
-    main(args.company, args.axes)
+    main(args.company, args.axes or ["altruism", "control"],
+         register=args.register, exclude_subtype=args.exclude_subtype)

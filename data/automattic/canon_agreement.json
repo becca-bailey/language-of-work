@@ -1,0 +1,79 @@
+{
+  "n": 120,
+  "accuracy": 0.9,
+  "confusion": {
+    "on_topic": {
+      "on_topic": 80,
+      "junk": 8
+    },
+    "junk": {
+      "junk": 25,
+      "on_topic": 4
+    },
+    "canon": {
+      "canon": 3
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "2a4a1877d3701360",
+      "hand_label": "on_topic",
+      "predicted": "junk"
+    },
+    {
+      "chunk_id": "2b1ae55315006ded",
+      "hand_label": "junk",
+      "predicted": "on_topic"
+    },
+    {
+      "chunk_id": "21eae497a8e8984b",
+      "hand_label": "on_topic",
+      "predicted": "junk"
+    },
+    {
+      "chunk_id": "a3cd432807d02eac",
+      "hand_label": "on_topic",
+      "predicted": "junk"
+    },
+    {
+      "chunk_id": "9abc9f9bbc976382",
+      "hand_label": "on_topic",
+      "predicted": "junk"
+    },
+    {
+      "chunk_id": "4cd6e77a4bd7f494",
+      "hand_label": "on_topic",
+      "predicted": "junk"
+    },
+    {
+      "chunk_id": "1d6b7f35eb5772ea",
+      "hand_label": "on_topic",
+      "predicted": "junk"
+    },
+    {
+      "chunk_id": "d9e6e9aafcd19a68",
+      "hand_label": "junk",
+      "predicted": "on_topic"
+    },
+    {
+      "chunk_id": "c929a9bc01072ee8",
+      "hand_label": "junk",
+      "predicted": "on_topic"
+    },
+    {
+      "chunk_id": "94fe2cf5f5fd69a8",
+      "hand_label": "on_topic",
+      "predicted": "junk"
+    },
+    {
+      "chunk_id": "2f873c704d153b00",
+      "hand_label": "junk",
+      "predicted": "on_topic"
+    },
+    {
+      "chunk_id": "028a42ef350a8f61",
+      "hand_label": "on_topic",
+      "predicted": "junk"
+    }
+  ]
+}

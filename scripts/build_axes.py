@@ -16,7 +16,7 @@ import pandas as pd
 from lowork.axes import AxisDef, build_axis, circularity_check
 from lowork.config import AXES_DIR, EMBEDDING_MODEL, company_dir
 from lowork.embeddings import EmbeddingStore
-from lowork.io import write_json
+from lowork.io import load_all_chunks, write_json
 
 
 def main(axis_names: list[str], company: str) -> None:
@@ -24,13 +24,27 @@ def main(axis_names: list[str], company: str) -> None:
     built_dir = AXES_DIR / "built"
     built_dir.mkdir(exist_ok=True)
 
+    # Circularity corpus: the chunks the axes will actually score, so leakage of
+    # those chunks' wording into a pole is what we want to catch. DEI used the
+    # classified mission_brand subset; Project 3 has no classification step, so
+    # fall back to the firm/canon chunks (register=="firm") — the subset H3/H4/H5
+    # score the canon hypotheses on. circularity_check embeds these cache-first.
     corpus_texts: list[str] = []
     emb_path = company_dir(company) / "embeddings.parquet"
     if emb_path.exists():
         df = pd.read_parquet(emb_path)
-        corpus_texts = df[df["label"] == "mission_brand"]["text"].tolist()
+        if "label" in df.columns and (df["label"] == "mission_brand").any():
+            corpus_texts = df[df["label"] == "mission_brand"]["text"].tolist()
+        elif "register" in df.columns:
+            corpus_texts = df[df["register"] == "firm"]["text"].tolist()
     else:
-        print("WARNING: no embeddings.parquet yet — skipping circularity check")
+        chunks = load_all_chunks(company_dir(company) / "chunks")
+        corpus_texts = [c["text"] for c in chunks if c.get("register") == "firm"]
+
+    if corpus_texts:
+        print(f"Circularity corpus: {len(corpus_texts)} firm/canon chunks from '{company}'")
+    else:
+        print("WARNING: no circularity corpus found — skipping circularity check")
 
     all_flags = []
     for name in axis_names:
@@ -67,6 +81,7 @@ def main(axis_names: list[str], company: str) -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
+    # TODO: Remove specific defaults, require arguments
     parser.add_argument("axes", nargs="*", default=["altruism", "control"])
     parser.add_argument("--company", default="google")
     args = parser.parse_args()

@@ -139,7 +139,939 @@
               "nChunks": 44,
               "thin": false
             }
-          ]
+          ],
+          "worldChanging": [
+            {
+              "year": 2005,
+              "zscore": 0.6178,
+              "topkMean": 0.1767,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2006,
+              "zscore": 0.5092,
+              "topkMean": 0.1703,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2007,
+              "zscore": 0.6102,
+              "topkMean": 0.1762,
+              "nChunks": 18,
+              "thin": false
+            },
+            {
+              "year": 2008,
+              "zscore": -1.7197,
+              "topkMean": 0.0394,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2009,
+              "zscore": -0.7986,
+              "topkMean": 0.0935,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2010,
+              "zscore": -1.3763,
+              "topkMean": 0.0595,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "zscore": null,
+              "topkMean": null,
+              "nChunks": 0,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "zscore": 0.8289,
+              "topkMean": 0.1891,
+              "nChunks": 61,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "zscore": -0.9624,
+              "topkMean": 0.0838,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "zscore": 1.1676,
+              "topkMean": 0.209,
+              "nChunks": 32,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "zscore": 1.1676,
+              "topkMean": 0.209,
+              "nChunks": 24,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "zscore": -0.5839,
+              "topkMean": 0.1061,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "zscore": 0.5701,
+              "topkMean": 0.1739,
+              "nChunks": 17,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "zscore": 0.1052,
+              "topkMean": 0.1466,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "zscore": 0.4256,
+              "topkMean": 0.1654,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "zscore": 1.1584,
+              "topkMean": 0.2084,
+              "nChunks": 28,
+              "thin": false
+            }
+          ],
+          "technoOptimism": [
+            {
+              "year": 2005,
+              "zscore": -0.5598,
+              "topkMean": 0.0466,
+              "nChunks": 6,
+              "technoShare": 0.5,
+              "thin": false
+            },
+            {
+              "year": 2006,
+              "zscore": -1.0864,
+              "topkMean": 0.0232,
+              "nChunks": 4,
+              "technoShare": 0.3636,
+              "thin": true
+            },
+            {
+              "year": 2007,
+              "zscore": -0.4861,
+              "topkMean": 0.0499,
+              "nChunks": 7,
+              "technoShare": 0.28,
+              "thin": false
+            },
+            {
+              "year": 2008,
+              "zscore": -0.5267,
+              "topkMean": 0.0481,
+              "nChunks": 1,
+              "technoShare": 0.1667,
+              "thin": true
+            },
+            {
+              "year": 2009,
+              "zscore": -0.6132,
+              "topkMean": 0.0442,
+              "nChunks": 3,
+              "technoShare": 0.75,
+              "thin": true
+            },
+            {
+              "year": 2010,
+              "zscore": -0.8287,
+              "topkMean": 0.0347,
+              "nChunks": 4,
+              "technoShare": 0.6667,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "zscore": -0.4163,
+              "topkMean": 0.053,
+              "nChunks": 2,
+              "technoShare": 1.0,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "zscore": 1.6314,
+              "topkMean": 0.1439,
+              "nChunks": 82,
+              "technoShare": 0.5734,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "zscore": -1.0385,
+              "topkMean": 0.0254,
+              "nChunks": 4,
+              "technoShare": 0.4444,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "zscore": 1.8964,
+              "topkMean": 0.1557,
+              "nChunks": 28,
+              "technoShare": 0.4667,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "zscore": 1.7439,
+              "topkMean": 0.1489,
+              "nChunks": 25,
+              "technoShare": 0.5102,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "zscore": -1.0058,
+              "topkMean": 0.0268,
+              "nChunks": 4,
+              "technoShare": 0.3636,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "zscore": -0.4731,
+              "topkMean": 0.0505,
+              "nChunks": 2,
+              "technoShare": 0.1053,
+              "thin": true
+            },
+            {
+              "year": 2023,
+              "zscore": 0.7217,
+              "topkMean": 0.1035,
+              "nChunks": 1,
+              "technoShare": 0.1667,
+              "thin": true
+            },
+            {
+              "year": 2024,
+              "zscore": 0.7217,
+              "topkMean": 0.1035,
+              "nChunks": 1,
+              "technoShare": 0.1429,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "zscore": 0.3195,
+              "topkMean": 0.0857,
+              "nChunks": 17,
+              "technoShare": 0.3778,
+              "thin": false
+            }
+          ],
+          "splitQuotes": {
+            "worldChanging": {
+              "2005": [
+                {
+                  "text": "Can one conversation change the world?",
+                  "heading": "",
+                  "score": 0.251
+                },
+                {
+                  "text": "There's still so much for us to dream and do.",
+                  "heading": "",
+                  "score": 0.2401
+                },
+                {
+                  "text": "It can also produce ideas that transform how people live their lives.",
+                  "heading": "",
+                  "score": 0.1839
+                },
+                {
+                  "text": "Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service .",
+                  "heading": "",
+                  "score": 0.1155
+                },
+                {
+                  "text": "We believe in hard work, a fun atmosphere, and the sort of creativity that only comes about when talented people from diverse backgrounds approach problems from varying perspectives.",
+                  "heading": "",
+                  "score": 0.0928
+                }
+              ],
+              "2006": [
+                {
+                  "text": "Can one conversation change the world?",
+                  "heading": "",
+                  "score": 0.251
+                },
+                {
+                  "text": "There's still so much for us to dream and do.",
+                  "heading": "",
+                  "score": 0.2401
+                },
+                {
+                  "text": "It can also produce ideas that transform how people live their lives.",
+                  "heading": "",
+                  "score": 0.1839
+                },
+                {
+                  "text": "We believe in hard work, a fun atmosphere, and the sort of creativity that only comes about when talented people from diverse backgrounds approach problems from varying perspectives.",
+                  "heading": "",
+                  "score": 0.0928
+                },
+                {
+                  "text": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality.",
+                  "heading": "",
+                  "score": 0.0836
+                }
+              ],
+              "2007": [
+                {
+                  "text": "Can one conversation change the world?",
+                  "heading": "",
+                  "score": 0.251
+                },
+                {
+                  "text": "There's still so much for us to dream and do.",
+                  "heading": "",
+                  "score": 0.2401
+                },
+                {
+                  "text": "It can also produce ideas that transform how people live their lives.",
+                  "heading": "",
+                  "score": 0.1839
+                },
+                {
+                  "text": "Googlers are bright, passionate people with diverse backgrounds, coming together to create a unique culture.",
+                  "heading": "",
+                  "score": 0.1133
+                },
+                {
+                  "text": "We believe in hard work, a fun atmosphere, and the sort of creativity that only comes about when talented people from diverse backgrounds approach problems from varying perspectives.",
+                  "heading": "",
+                  "score": 0.0928
+                }
+              ],
+              "2008": [
+                {
+                  "text": "At Google, we've designed a culture that helps you get there.",
+                  "heading": "Let's work together.",
+                  "score": 0.1021
+                },
+                {
+                  "text": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality.",
+                  "heading": "Search openings",
+                  "score": 0.0836
+                },
+                {
+                  "text": "From our flexible, project-based approach to corporate structure to our innovative perks and benefits, we do everything we can to make sure our employees not only have great jobs, but great lives.",
+                  "heading": "Let's work together.",
+                  "score": 0.0155
+                },
+                {
+                  "text": "Chances are you have a good idea of where you want to go in life.",
+                  "heading": "Let's work together.",
+                  "score": 0.0119
+                },
+                {
+                  "text": "If the answer is yes, then you've come to the right place.",
+                  "heading": "Let's work together.",
+                  "score": -0.0164
+                }
+              ],
+              "2009": [
+                {
+                  "text": "At Google, we understand that our worldwide success results from our globally diverse workforce.",
+                  "heading": "Let’s work together.",
+                  "score": 0.0935
+                }
+              ],
+              "2010": [
+                {
+                  "text": "At Google, we understand that our worldwide success results from our globally diverse workforce.",
+                  "heading": "Let’s work together.",
+                  "score": 0.0935
+                },
+                {
+                  "text": "When everyone in the company is reaching out, not up, good ideas can go a lot farther.",
+                  "heading": "Do more. A lot more.",
+                  "score": 0.0256
+                }
+              ],
+              "2012": [
+                {
+                  "text": "Our hope is to bring the power of search to previously unexplored areas, and to help people access and use even more of the ever-expanding information in their lives.",
+                  "heading": "Ten things we know to be true",
+                  "score": 0.2603
+                },
+                {
+                  "text": "And our researchers continue looking into ways to bring all the world’s information to people seeking answers.",
+                  "heading": "Ten things we know to be true",
+                  "score": 0.1878
+                },
+                {
+                  "text": "Those are the kinds of changes we seek to make, and we’re always looking for new places where we can make a difference.",
+                  "heading": "Ten things we know to be true",
+                  "score": 0.1814
+                },
+                {
+                  "text": "We build products that we hope will make the web better—and therefore your experience on the web better.",
+                  "heading": "What we do for the web",
+                  "score": 0.1581
+                },
+                {
+                  "text": "Our company was founded in California, but our mission is to facilitate access to information for the entire world, and in every language.",
+                  "heading": "Ten things we know to be true",
+                  "score": 0.1578
+                }
+              ],
+              "2013": [
+                {
+                  "text": "At Google, we don’t just accept difference - we celebrate it, we support it, and we thrive on it for the benefit of our employees, our products and our community.",
+                  "heading": "Life at Google",
+                  "score": 0.1441
+                },
+                {
+                  "text": "Google is proud to be an equal opportunity workplace and is an affirmative action employer.",
+                  "heading": "Life at Google",
+                  "score": 0.0999
+                },
+                {
+                  "text": "Get to know who we are - from the inside out.",
+                  "heading": "Life at Google",
+                  "score": 0.0898
+                },
+                {
+                  "text": "Take me to Life at Google Still a student?",
+                  "heading": "Life at Google",
+                  "score": 0.0822
+                },
+                {
+                  "text": "This way to student jobs and internships.",
+                  "heading": "Life at Google",
+                  "score": 0.0031
+                }
+              ],
+              "2014": [
+                {
+                  "text": "At Google, we believe in making the world a better place through technology.",
+                  "heading": "Global Impact Awards: Giving back at Google scale",
+                  "score": 0.3435
+                },
+                {
+                  "text": "At Google, our mission is to organize the world’s information and make it universally accessible. ...",
+                  "heading": "Google: A great workplace for women",
+                  "score": 0.2208
+                },
+                {
+                  "text": "We’ve always wanted Google to be a place that brought together smart, talented people from a diversity of backgrounds, and where you could bring your whole self to work.",
+                  "heading": "Culture and Diversity",
+                  "score": 0.1696
+                },
+                {
+                  "text": "We want people to feel good about using Google products.",
+                  "heading": "Going green for good",
+                  "score": 0.16
+                },
+                {
+                  "text": "Googlers solve complex problems everyday in the name of our core mission to organize the world’s information and make it universally accessible to our users.",
+                  "heading": "Do Cool Things That Matter",
+                  "score": 0.151
+                }
+              ],
+              "2015": [
+                {
+                  "text": "At Google, we believe in making the world a better place through technology.",
+                  "heading": "Global Impact Awards: Giving back at Google scale",
+                  "score": 0.3435
+                },
+                {
+                  "text": "At Google, our mission is to organize the world’s information and make it universally accessible. ...",
+                  "heading": "Google: A great workplace for women",
+                  "score": 0.2208
+                },
+                {
+                  "text": "We’ve always wanted Google to be a place that brought together smart, talented people from a diversity of backgrounds, and where you could bring your whole self to work.",
+                  "heading": "Culture and Diversity",
+                  "score": 0.1696
+                },
+                {
+                  "text": "We want people to feel good about using Google products.",
+                  "heading": "Going green for good",
+                  "score": 0.16
+                },
+                {
+                  "text": "Googlers solve complex problems everyday in the name of our core mission to organize the world’s information and make it universally accessible to our users.",
+                  "heading": "Do Cool Things That Matter",
+                  "score": 0.151
+                }
+              ],
+              "2016": [
+                {
+                  "text": "At Google, we don’t just accept difference - we celebrate it, we support it, and we thrive on it for the benefit of our employees, our products and our community.",
+                  "heading": "Life at Google",
+                  "score": 0.1441
+                },
+                {
+                  "text": "We value giving back to the community just as much as we value the products we create.",
+                  "heading": "Give back",
+                  "score": 0.1063
+                },
+                {
+                  "text": "Google is proud to be an equal opportunity workplace and is an affirmative action employer.",
+                  "heading": "Life at Google",
+                  "score": 0.0999
+                },
+                {
+                  "text": "We match Googlers’ charitable donations and add donations for hours Googlers work as volunteers.",
+                  "heading": "Give back",
+                  "score": 0.0902
+                },
+                {
+                  "text": "Get to know who we are - from the inside out.",
+                  "heading": "Life at Google",
+                  "score": 0.0898
+                }
+              ],
+              "2017": [
+                {
+                  "text": "And while progress will take time, our actions today will determine who we are in the future.",
+                  "heading": "Building a Google that works for everyone",
+                  "score": 0.2183
+                },
+                {
+                  "text": "Google should be a place where people from different backgrounds and experiences come to do their best work–a place where every Googler feels they belong.",
+                  "heading": "Building a Google that works for everyone",
+                  "score": 0.1752
+                },
+                {
+                  "text": "These commitments require us to look at bias through a wider lens: at Google, in the industry, and in society.",
+                  "heading": "Building a Google that works for everyone",
+                  "score": 0.1688
+                },
+                {
+                  "text": "We’re still not where we want to be when it comes to diversity, but last year, we made progress in our efforts to build a more diverse Google.",
+                  "heading": "In 2015, we moved in the right direction.",
+                  "score": 0.1623
+                },
+                {
+                  "text": "“A diverse mix of voices leads to better discussions, decisions, and outcomes for everyone.”",
+                  "heading": "",
+                  "score": 0.1447
+                }
+              ],
+              "2023": [
+                {
+                  "text": "Make people's lives better through technology.",
+                  "heading": "Find your team",
+                  "score": 0.3256
+                },
+                {
+                  "text": "Together, we create access to information and build products for everyone.",
+                  "heading": "Find your team",
+                  "score": 0.1667
+                },
+                {
+                  "text": "Large or small, each one of our offices is designed to inspire innovation, big ideas, and community.",
+                  "heading": "Our locations",
+                  "score": 0.1279
+                },
+                {
+                  "text": "Find, grow, and support the people who make Google great.",
+                  "heading": "Find your team",
+                  "score": 0.1071
+                },
+                {
+                  "text": "Equip businesses with the right tools to help them grow.",
+                  "heading": "Find your team",
+                  "score": 0.0055
+                }
+              ],
+              "2024": [
+                {
+                  "text": "Make people's lives better through technology.",
+                  "heading": "Find your team",
+                  "score": 0.3256
+                },
+                {
+                  "text": "Together, we create access to information and build products for everyone.",
+                  "heading": "Find your team",
+                  "score": 0.1667
+                },
+                {
+                  "text": "Large or small, each one of our offices is designed to inspire innovation, big ideas, and community.",
+                  "heading": "Our locations",
+                  "score": 0.1279
+                },
+                {
+                  "text": "Find, grow, and support the people who make Google great.",
+                  "heading": "Find your team",
+                  "score": 0.1071
+                },
+                {
+                  "text": "Whether it's business or engineering & technology, we're here to help get you to your future.",
+                  "heading": "Build your future with Google",
+                  "score": 0.0996
+                }
+              ],
+              "2025": [
+                {
+                  "text": "We’re applying Google’s innovation, research, and resources to promote progress and expand opportunity for everyone.",
+                  "heading": "Accelerating the impact of nonprofits",
+                  "score": 0.2658
+                },
+                {
+                  "text": "We're committed to creating tools that make it easier for everyone to accomplish important everyday tasks - like having conversations, getting work done, and enjoying entertainment.",
+                  "heading": "Android & Pixel for everyone",
+                  "score": 0.2041
+                },
+                {
+                  "text": "Working with the disability community to build more helpful phones for all",
+                  "heading": "We’re building technology that helps each person reach their full potential.",
+                  "score": 0.1913
+                },
+                {
+                  "text": "Here are some of the ways we’re doing it: In 2022, we announced the 1,000 Languages Initiative , an ambitious commitment to build an AI model that will support the 1,000 most spoken languages and bring greater inclusion to billions of people in marginalized communities all around the world.",
+                  "heading": "Accessibility with AI",
+                  "score": 0.191
+                },
+                {
+                  "text": "That’s why we’re using AI to make the internet and digital tools more accessible and useful for speakers of all languages, all around the world.",
+                  "heading": "Accessibility with AI",
+                  "score": 0.1899
+                }
+              ]
+            },
+            "technoOptimism": {
+              "2005": [
+                {
+                  "text": "We are hiring engineers for Google New York , Google Santa Monica , Google Kirkland , Google India ( Bangalore and Hyderabad ), Google Europe (Zurich) and Google Japan",
+                  "heading": "",
+                  "score": 0.0944
+                },
+                {
+                  "text": "In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace.",
+                  "heading": "",
+                  "score": 0.0393
+                },
+                {
+                  "text": "Googlers have been Olympic athletes and Jeopardy champions; professional chefs and independent film makers.",
+                  "heading": "",
+                  "score": 0.0369
+                },
+                {
+                  "text": "While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work environment . • View all department openings • Top 10 reasons to work at Google • Engineering summer internships • Culture and Benefits • An inside view of Google • Balancing work & life • Read me !",
+                  "heading": "",
+                  "score": 0.0315
+                },
+                {
+                  "text": "And whether you work at our headquarters in Mountain View, California, or in any of our offices around the world, we think you'll find Google a place where you can aspire to outsized accomplishments.",
+                  "heading": "",
+                  "score": 0.0311
+                }
+              ],
+              "2006": [
+                {
+                  "text": "Googlers have been Olympic athletes and Jeopardy champions; professional chefs and independent film makers.",
+                  "heading": "",
+                  "score": 0.0369
+                },
+                {
+                  "text": "And whether you work at our headquarters in Mountain View, California, or in any of our locations around the world, we think you'll find Google a place where you can aspire to outsized accomplishments.",
+                  "heading": "",
+                  "score": 0.0293
+                },
+                {
+                  "text": "Quick and direct access to information can deliver news from abroad, encourage a child's curiosity, and reunite long-lost friends.",
+                  "heading": "",
+                  "score": 0.0267
+                },
+                {
+                  "text": "To all recruitment agencies: Google does not accept agency resumes.",
+                  "heading": "",
+                  "score": 0.0
+                }
+              ],
+              "2007": [
+                {
+                  "text": "Engineer \"Software QA\") Life at Google Google offers the freedom of a startup with the stability of a large, profitable and growing company.",
+                  "heading": "",
+                  "score": 0.1085
+                },
+                {
+                  "text": "What's it like to work at Google?",
+                  "heading": "",
+                  "score": 0.0481
+                },
+                {
+                  "text": "Googlers have been Olympic athletes and Jeopardy champions; professional chefs and independent film makers.",
+                  "heading": "",
+                  "score": 0.0369
+                },
+                {
+                  "text": "And whether you work at our headquarters in Mountain View, California, or in any of our locations around the world, we think you'll find Google a place where you can aspire to outsized accomplishments.",
+                  "heading": "",
+                  "score": 0.0293
+                },
+                {
+                  "text": "Quick and direct access to information can deliver news from abroad, encourage a child's curiosity, and reunite long-lost friends.",
+                  "heading": "",
+                  "score": 0.0267
+                }
+              ],
+              "2008": [
+                {
+                  "text": "What's it like to work at Google?",
+                  "heading": "Let's work together.",
+                  "score": 0.0481
+                }
+              ],
+              "2009": [
+                {
+                  "text": "Googlers relish the freedom to create the next generation of web technologies in an environment designed to foster collaboration, creativity, health, and happiness.",
+                  "heading": "Let’s work together.",
+                  "score": 0.0544
+                },
+                {
+                  "text": "What’s it like to work at Google ?",
+                  "heading": "Let’s work together.",
+                  "score": 0.0418
+                },
+                {
+                  "text": "In every Google office, you will find challenging projects and smart people with potential to change the world.",
+                  "heading": "Let’s work together.",
+                  "score": 0.0365
+                }
+              ],
+              "2010": [
+                {
+                  "text": "Googlers relish the freedom to create the next generation of web technologies in an environment designed to foster collaboration, creativity, health, and happiness.",
+                  "heading": "Let’s work together.",
+                  "score": 0.0544
+                },
+                {
+                  "text": "What’s it like to work at Google ?",
+                  "heading": "Let’s work together.",
+                  "score": 0.0418
+                },
+                {
+                  "text": "In every Google office, you will find challenging projects and smart people with potential to change the world.",
+                  "heading": "Let’s work together.",
+                  "score": 0.0365
+                },
+                {
+                  "text": "At Google, our world is flat.",
+                  "heading": "Do more. A lot more.",
+                  "score": 0.0059
+                }
+              ],
+              "2011": [
+                {
+                  "text": "At Google, innovation and creativity keeps our projects changing and improving.",
+                  "heading": "Let’s work together.",
+                  "score": 0.0847
+                },
+                {
+                  "text": "Our consistency comes from our Googlers – smart, amazing people who foster an environment of collaboration and fun.",
+                  "heading": "Let’s work together.",
+                  "score": 0.0213
+                }
+              ],
+              "2012": [
+                {
+                  "text": "We keep speed in mind with each new product we release, whether it’s a mobile application or Google Chrome, a browser designed to be fast enough for the modern web.",
+                  "heading": "Ten things we know to be true",
+                  "score": 0.1677
+                },
+                {
+                  "text": "When we launched Gmail, it had more storage space than any email service available.",
+                  "heading": "Ten things we know to be true",
+                  "score": 0.147
+                },
+                {
+                  "text": "Our Los Angeles offices have grown to become one of the largest development centers in the United States.",
+                  "heading": "What's it like to work in Los Angeles?",
+                  "score": 0.1397
+                },
+                {
+                  "text": "Our approach to email included features like speedy search, huge amounts of storage and threaded messages.",
+                  "heading": "Gmail: no joke",
+                  "score": 0.1375
+                },
+                {
+                  "text": "Word got out about Google Chrome a day ahead of schedule when a comic book introducing our new open source browser was shipped earlier than planned.",
+                  "heading": "The comic heard ‘round the world",
+                  "score": 0.1276
+                }
+              ],
+              "2013": [
+                {
+                  "text": "Take a ride on the Google self-guided tour.",
+                  "heading": "Locations",
+                  "score": 0.0862
+                },
+                {
+                  "text": "From our history and culture, to the people behind our products, get the inside scoop on all things Googley.",
+                  "heading": "Life at Google",
+                  "score": 0.0084
+                },
+                {
+                  "text": "Keep your arms and legs inside the vehicle at all times.",
+                  "heading": "Locations",
+                  "score": 0.0038
+                },
+                {
+                  "text": "Stop by our offices around the globe to find what you’re searching for.",
+                  "heading": "Locations",
+                  "score": 0.0029
+                }
+              ],
+              "2014": [
+                {
+                  "text": "Google researchers teamed up with Stanford University computer scientists to build a \"deep learning\" neural ...",
+                  "heading": "A network’s first lesson in machine learning",
+                  "score": 0.1855
+                },
+                {
+                  "text": "Learn how our design teams worked together to engineer a creative revolution in this story from The Verge.",
+                  "heading": "Google by design",
+                  "score": 0.1547
+                },
+                {
+                  "text": "Business analysts and engineers alike create solutions at an incredible ...",
+                  "heading": "Need for speed: How Matt helped Google Fiber upgrade internet service",
+                  "score": 0.1542
+                },
+                {
+                  "text": "With all the talk about cloud computing, it’s easy to forget that the 20 billion ...",
+                  "heading": "A rare inside look at Google’s top-secret data centers",
+                  "score": 0.1456
+                },
+                {
+                  "text": "Creating and launching a new product can be daunting.",
+                  "heading": "Google Instant goes global: Laura delivers our fastest search to the world",
+                  "score": 0.1384
+                }
+              ],
+              "2015": [
+                {
+                  "text": "Google researchers teamed up with Stanford University computer scientists to build a \"deep learning\" neural ...",
+                  "heading": "A network’s first lesson in machine learning",
+                  "score": 0.1855
+                },
+                {
+                  "text": "Learn how our design teams worked together to engineer a creative revolution in this story from The Verge.",
+                  "heading": "Google by design",
+                  "score": 0.1547
+                },
+                {
+                  "text": "With all the talk about cloud computing, it’s easy to forget that the 20 billion ...",
+                  "heading": "A rare inside look at Google’s top-secret data centers",
+                  "score": 0.1456
+                },
+                {
+                  "text": "Creating and launching a new product can be daunting.",
+                  "heading": "Google Instant goes global: Laura delivers our fastest search to the world",
+                  "score": 0.1384
+                },
+                {
+                  "text": "Our engineers use technology to solve some of the world’s biggest challenges.",
+                  "heading": "Innovation at Google",
+                  "score": 0.1203
+                }
+              ],
+              "2016": [
+                {
+                  "text": "Take a ride on the Google self-guided tour.",
+                  "heading": "Locations",
+                  "score": 0.0862
+                },
+                {
+                  "text": "Stop by our offices around the globe to find what you're searching for.",
+                  "heading": "Locations",
+                  "score": 0.0087
+                },
+                {
+                  "text": "From our history and culture, to the people behind our products, get the inside scoop on all things Googley.",
+                  "heading": "Life at Google",
+                  "score": 0.0084
+                },
+                {
+                  "text": "Keep your arms and legs inside the vehicle at all times.",
+                  "heading": "Locations",
+                  "score": 0.0038
+                }
+              ],
+              "2017": [
+                {
+                  "text": "Of new hires in 2015 were women in tech, compared to 19% of our current population.",
+                  "heading": "In 2015, we moved in the right direction.",
+                  "score": 0.0633
+                },
+                {
+                  "text": "We’re cultivating the next generation of technologists through computer science education.",
+                  "heading": "Education",
+                  "score": 0.0376
+                }
+              ],
+              "2023": [
+                {
+                  "text": "Develop the products and tools of the future for billions of users.",
+                  "heading": "Find your team",
+                  "score": 0.1035
+                }
+              ],
+              "2024": [
+                {
+                  "text": "Develop the products and tools of the future for billions of users.",
+                  "heading": "Find your team",
+                  "score": 0.1035
+                }
+              ],
+              "2025": [
+                {
+                  "text": "We’re now using the MST Scale to develop better face detection, camera, and image editing products, building on advances we introduced in 2021 with Real Tone .",
+                  "heading": "Skin tone representation",
+                  "score": 0.1317
+                },
+                {
+                  "text": "Ellis Monk that’s more representative than the current tech industry standard.",
+                  "heading": "Skin tone representation",
+                  "score": 0.103
+                },
+                {
+                  "text": "We’ve added support for additional languages across many AI-powered products and features, including Live Caption , Google Translate , and Gemini .",
+                  "heading": "Accessibility with AI",
+                  "score": 0.0713
+                },
+                {
+                  "text": "For example, we’ve partnered with Mayo Clinic to develop an AI system that can help doctors reduce planning time and improve the efficiency of radiotherapy, a common cancer treatment.",
+                  "heading": "AI in Mammography",
+                  "score": 0.067
+                },
+                {
+                  "text": "Conversation mode for Pixel phones, which uses on-device machine learning to help anyone better hear conversations in loud environments by tuning out competing noise.",
+                  "heading": "Android & Pixel for everyone",
+                  "score": 0.0552
+                }
+              ]
+            }
+          }
         },
         {
           "id": "amazon",
@@ -217,7 +1149,712 @@
               "nChunks": 15,
               "thin": false
             }
-          ]
+          ],
+          "worldChanging": [
+            {
+              "year": 2008,
+              "zscore": 1.3437,
+              "topkMean": 0.1458,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2011,
+              "zscore": 2.318,
+              "topkMean": 0.1721,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2012,
+              "zscore": 0.9653,
+              "topkMean": 0.1356,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2013,
+              "zscore": 1.5492,
+              "topkMean": 0.1513,
+              "nChunks": 11,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "zscore": -1.7076,
+              "topkMean": 0.0636,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "zscore": -0.7313,
+              "topkMean": 0.0899,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "zscore": 0.0521,
+              "topkMean": 0.111,
+              "nChunks": 36,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "zscore": -0.7313,
+              "topkMean": 0.0899,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2019,
+              "zscore": -0.5402,
+              "topkMean": 0.0951,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2020,
+              "zscore": -0.4447,
+              "topkMean": 0.0976,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2021,
+              "zscore": -0.4447,
+              "topkMean": 0.0976,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2022,
+              "zscore": -0.4447,
+              "topkMean": 0.0976,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2023,
+              "zscore": -0.4447,
+              "topkMean": 0.0976,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2024,
+              "zscore": -0.4447,
+              "topkMean": 0.0976,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "zscore": -0.4447,
+              "topkMean": 0.0976,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2026,
+              "zscore": 0.1504,
+              "topkMean": 0.1137,
+              "nChunks": 12,
+              "thin": false
+            }
+          ],
+          "technoOptimism": [
+            {
+              "year": 2008,
+              "zscore": -0.7454,
+              "topkMean": 0.0351,
+              "nChunks": 2,
+              "technoShare": 0.25,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "zscore": 2.0283,
+              "topkMean": 0.1116,
+              "nChunks": 14,
+              "technoShare": 0.7,
+              "thin": false
+            },
+            {
+              "year": 2012,
+              "zscore": 1.0902,
+              "topkMean": 0.0858,
+              "nChunks": 7,
+              "technoShare": 0.7,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "zscore": 1.9698,
+              "topkMean": 0.11,
+              "nChunks": 13,
+              "technoShare": 0.5417,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "zscore": -0.7454,
+              "topkMean": null,
+              "nChunks": 0,
+              "technoShare": 0.0,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "zscore": -0.53,
+              "topkMean": 0.041,
+              "nChunks": 2,
+              "technoShare": 0.6667,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "zscore": 0.0606,
+              "topkMean": 0.0573,
+              "nChunks": 11,
+              "technoShare": 0.234,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "zscore": 0.7793,
+              "topkMean": 0.0772,
+              "nChunks": 5,
+              "technoShare": 0.8333,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "zscore": -0.53,
+              "topkMean": 0.041,
+              "nChunks": 2,
+              "technoShare": 0.4,
+              "thin": true
+            },
+            {
+              "year": 2020,
+              "zscore": -0.7454,
+              "topkMean": null,
+              "nChunks": 0,
+              "technoShare": 0.0,
+              "thin": true
+            },
+            {
+              "year": 2021,
+              "zscore": -0.7454,
+              "topkMean": null,
+              "nChunks": 0,
+              "technoShare": 0.0,
+              "thin": true
+            },
+            {
+              "year": 2022,
+              "zscore": -0.7454,
+              "topkMean": null,
+              "nChunks": 0,
+              "technoShare": 0.0,
+              "thin": true
+            },
+            {
+              "year": 2023,
+              "zscore": -0.7454,
+              "topkMean": null,
+              "nChunks": 0,
+              "technoShare": 0.0,
+              "thin": true
+            },
+            {
+              "year": 2024,
+              "zscore": -0.7454,
+              "topkMean": null,
+              "nChunks": 0,
+              "technoShare": 0.0,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "zscore": -0.7454,
+              "topkMean": null,
+              "nChunks": 0,
+              "technoShare": 0.0,
+              "thin": true
+            },
+            {
+              "year": 2026,
+              "zscore": 1.0951,
+              "topkMean": 0.0859,
+              "nChunks": 3,
+              "technoShare": 0.2,
+              "thin": true
+            }
+          ],
+          "splitQuotes": {
+            "worldChanging": {
+              "2008": [
+                {
+                  "text": "It’s your day to be a part of something great.",
+                  "heading": "",
+                  "score": 0.2083
+                },
+                {
+                  "text": "A day to take a first step.",
+                  "heading": "",
+                  "score": 0.1776
+                },
+                {
+                  "text": "A day to look forward to new challenges.",
+                  "heading": "",
+                  "score": 0.1305
+                },
+                {
+                  "text": "At Amazon, we believe that every day is still Day One.",
+                  "heading": "",
+                  "score": 0.1299
+                },
+                {
+                  "text": "Your day to make your ideas come to life.",
+                  "heading": "",
+                  "score": 0.0828
+                }
+              ],
+              "2011": [
+                {
+                  "text": "We're making history and the good news is that we've only just begun.",
+                  "heading": "",
+                  "score": 0.2306
+                },
+                {
+                  "text": "We’re making history and the good news is that we’ve only just begun.",
+                  "heading": "",
+                  "score": 0.2267
+                },
+                {
+                  "text": "Every day across the world we develop the ideas, the services and the products that make life easier for tens of millions of customers, and good things happen faster.",
+                  "heading": "",
+                  "score": 0.1489
+                },
+                {
+                  "text": "We want you to help share and shape our mission to be Earth's most customer-centric company.",
+                  "heading": "",
+                  "score": 0.1281
+                },
+                {
+                  "text": "We want you to help share and shape our mission to be Earth’s most customer-centric company.",
+                  "heading": "",
+                  "score": 0.1259
+                }
+              ],
+              "2012": [
+                {
+                  "text": "We're making history and the good news is that we've only just begun.",
+                  "heading": "",
+                  "score": 0.2306
+                },
+                {
+                  "text": "We want you to help share and shape our mission to be Earth's most customer-centric company.",
+                  "heading": "",
+                  "score": 0.1281
+                },
+                {
+                  "text": "Many of the problems we face have no textbook solution, and so we -happily-invent new ones - Jeff Bezos, 2010 Shareholder letter.",
+                  "heading": "",
+                  "score": 0.0481
+                }
+              ],
+              "2013": [
+                {
+                  "text": "Join us, and you’ll not only see the future, you’ll create it.",
+                  "heading": "",
+                  "score": 0.1999
+                },
+                {
+                  "text": "It’s what we do, every day — and the good news is that we’ve only just begun.",
+                  "heading": "",
+                  "score": 0.1881
+                },
+                {
+                  "text": "And there’s still more to do: We want you to help share and shape our mission to be Earth’s most customer-centric company.",
+                  "heading": "",
+                  "score": 0.1569
+                },
+                {
+                  "text": "And there’s still more to do: Amazonians are leaning into the future, with radical and transformational innovations that create value for thousands of authors, entrepreneurs, and developers.",
+                  "heading": "",
+                  "score": 0.1099
+                },
+                {
+                  "text": "Amazon is proud to be a platform partner with Lean In, a non-profit organization committed to offering women the encouragement and support to achieve their goals.",
+                  "heading": "",
+                  "score": 0.1019
+                }
+              ],
+              "2014": [
+                {
+                  "text": "Play the amazon.jobs game, and guess what words really inspire us every day.",
+                  "heading": "Amazon.jobs-play the game!",
+                  "score": 0.0653
+                },
+                {
+                  "text": "We say that we're \"Peculiar,\" but what does that mean?",
+                  "heading": "Amazon.jobs-play the game!",
+                  "score": 0.0619
+                }
+              ],
+              "2016": [
+                {
+                  "text": "Success is measured against the possible, not the probable.",
+                  "heading": "we pioneer",
+                  "score": 0.0899
+                }
+              ],
+              "2017": [
+                {
+                  "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers.",
+                  "heading": "Diversity at Amazon",
+                  "score": 0.1255
+                },
+                {
+                  "text": "Thinking small is a self-fulfilling prophecy.",
+                  "heading": "Think Big",
+                  "score": 0.1226
+                },
+                {
+                  "text": "We work on behalf of our people to invent mechanisms for development like Career Choice.",
+                  "heading": "Hire and Develop the Best",
+                  "score": 0.1131
+                },
+                {
+                  "text": "As we do new things, we accept that we may be misunderstood for long periods of time.",
+                  "heading": "Invent and Simplify",
+                  "score": 0.104
+                },
+                {
+                  "text": "Success is measured against the possible, not the probable.",
+                  "heading": "we pioneer",
+                  "score": 0.0899
+                }
+              ],
+              "2018": [
+                {
+                  "text": "Success is measured against the possible, not the probable.",
+                  "heading": "we pioneer",
+                  "score": 0.0899
+                }
+              ],
+              "2019": [
+                {
+                  "text": "Our mission is to be Earth's most customer-centric company.",
+                  "heading": "Come build the future with us",
+                  "score": 0.1154
+                },
+                {
+                  "text": "Success is measured against the possible, not the probable.",
+                  "heading": "we pioneer",
+                  "score": 0.0899
+                },
+                {
+                  "text": "This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
+                  "heading": "Come build the future with us",
+                  "score": 0.0799
+                }
+              ],
+              "2020": [
+                {
+                  "text": "Our mission is to be Earth's most customer-centric company.",
+                  "heading": "Come build the future with us",
+                  "score": 0.1154
+                },
+                {
+                  "text": "This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
+                  "heading": "Come build the future with us",
+                  "score": 0.0799
+                }
+              ],
+              "2021": [
+                {
+                  "text": "Our mission is to be Earth's most customer-centric company.",
+                  "heading": "Come build the future with us",
+                  "score": 0.1154
+                },
+                {
+                  "text": "This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
+                  "heading": "Come build the future with us",
+                  "score": 0.0799
+                }
+              ],
+              "2022": [
+                {
+                  "text": "Our mission is to be Earth's most customer-centric company.",
+                  "heading": "Come build the future with us",
+                  "score": 0.1154
+                },
+                {
+                  "text": "This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
+                  "heading": "Come build the future with us",
+                  "score": 0.0799
+                }
+              ],
+              "2023": [
+                {
+                  "text": "Our mission is to be Earth's most customer-centric company.",
+                  "heading": "Come build the future with us",
+                  "score": 0.1154
+                },
+                {
+                  "text": "This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
+                  "heading": "Come build the future with us",
+                  "score": 0.0799
+                }
+              ],
+              "2024": [
+                {
+                  "text": "Our mission is to be Earth's most customer-centric company.",
+                  "heading": "Come build the future with us",
+                  "score": 0.1154
+                },
+                {
+                  "text": "This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
+                  "heading": "Come build the future with us",
+                  "score": 0.0799
+                }
+              ],
+              "2025": [
+                {
+                  "text": "Our mission is to be Earth's most customer-centric company.",
+                  "heading": "Come build the future with us",
+                  "score": 0.1154
+                },
+                {
+                  "text": "This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
+                  "heading": "Come build the future with us",
+                  "score": 0.0799
+                }
+              ],
+              "2026": [
+                {
+                  "text": "Every Amazonian, from warehouse floor to corporate HQ, shares a drive to impact the future, today.",
+                  "heading": "Impact the future, today",
+                  "score": 0.1627
+                },
+                {
+                  "text": "United by our peculiar culture of curiosity, bold ownership and fearless initiative, we channel our customer obsession into making everyday impact—big and small.",
+                  "heading": "Impact the future, today",
+                  "score": 0.1225
+                },
+                {
+                  "text": "Upskilling We’re investing billions of dollars to help our employees and our neighbors prepare for the jobs of the future.",
+                  "heading": "Working at Amazon",
+                  "score": 0.104
+                },
+                {
+                  "text": "We offer free public tours to show what happens behind the scenes in our fulfillment centers around the world.",
+                  "heading": "Working at Amazon",
+                  "score": 0.1009
+                },
+                {
+                  "text": "Together at Amazon helps us do that by empowering employees to grow, thrive, and connect through customized recommendations for programs, resources, and engagement opportunities.",
+                  "heading": "Working at Amazon",
+                  "score": 0.0782
+                }
+              ]
+            },
+            "technoOptimism": {
+              "2008": [
+                {
+                  "text": "That’s the energy and excitement behind Amazon.",
+                  "heading": "",
+                  "score": 0.0544
+                },
+                {
+                  "text": "And your day to join a company that redefines itself every day.",
+                  "heading": "",
+                  "score": 0.0158
+                }
+              ],
+              "2011": [
+                {
+                  "text": "Random forests, naďve Bayesian estimators, RESTful services, gossip protocols, eventual consistency, data sharding, anti-entropy, Byzantine quorum, erasure coding, vector clocks ... walk into certain Amazon meetings, and you may momentarily think you've stumbled into a computer science lecture.-- Jeff Bezos, 2010 Shareholder letter.",
+                  "heading": "",
+                  "score": 0.1494
+                },
+                {
+                  "text": "From providing Earth's biggest selection of products to developing ground-breaking software and devices that change entire industries, Amazon is a place of invention and progressive thinking.",
+                  "heading": "",
+                  "score": 0.1235
+                },
+                {
+                  "text": "We’ve revolutionized the online shopping experience, cloud computing and the book… join us and see what’s next!",
+                  "heading": "",
+                  "score": 0.1029
+                },
+                {
+                  "text": "Amazon’s evolution from Web site to e-commerce partner to development platform is driven by the spirit of innovation that is part of our DNA.",
+                  "heading": "",
+                  "score": 0.0914
+                },
+                {
+                  "text": "Invention is in our DNA and technology is the fundamental tool we wield to evolve and improve every aspect of the experience we provide our customers - Jeff Bezos, 2010 Shareholder letter.",
+                  "heading": "",
+                  "score": 0.091
+                }
+              ],
+              "2012": [
+                {
+                  "text": "Random forests, naďve Bayesian estimators, RESTful services, gossip protocols, eventual consistency, data sharding, anti-entropy, Byzantine quorum, erasure coding, vector clocks ... walk into certain Amazon meetings, and you may momentarily think you've stumbled into a computer science lecture.-- Jeff Bezos, 2010 Shareholder letter.",
+                  "heading": "",
+                  "score": 0.1494
+                },
+                {
+                  "text": "Invention is in our DNA and technology is the fundamental tool we wield to evolve and improve every aspect of the experience we provide our customers - Jeff Bezos, 2010 Shareholder letter.",
+                  "heading": "",
+                  "score": 0.091
+                },
+                {
+                  "text": "Amazon's evolution from Web site to e-commerce partner to development platform is driven by the spirit of invention that is part of our DNA.",
+                  "heading": "",
+                  "score": 0.0881
+                },
+                {
+                  "text": "We do this every day by solving complex technical and business problems with ingenuity and simplicity.",
+                  "heading": "",
+                  "score": 0.0524
+                },
+                {
+                  "text": "Amazon... a place where builders can build.",
+                  "heading": "",
+                  "score": 0.0479
+                }
+              ],
+              "2013": [
+                {
+                  "text": "Invention has become second nature at Amazon, and in my view the team’s pace of innovation is even accelerating — I can assure you it’s very energizing.",
+                  "heading": "",
+                  "score": 0.1674
+                },
+                {
+                  "text": "While most people have heard of Amazon.com, Amazon Web Services, and Kindle products, not many know that we also develop video games, engineer music and video streaming technology, shoot high-fashion photography, and help other businesses sell and distribute their products.",
+                  "heading": "",
+                  "score": 0.109
+                },
+                {
+                  "text": "Invent the future with Amazon Invention comes in many forms and at many scales.",
+                  "heading": "",
+                  "score": 0.1028
+                },
+                {
+                  "text": "Amazon’s evolution from website to e-commerce partner to development platform is driven by the spirit of invention that is part of Amazon’s DNA.",
+                  "heading": "",
+                  "score": 0.0929
+                },
+                {
+                  "text": "People who are innovative; people who enjoy solving complex problems with ingenuity and simplicity.",
+                  "heading": "",
+                  "score": 0.0781
+                }
+              ],
+              "2016": [
+                {
+                  "text": "For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
+                  "heading": "we pioneer",
+                  "score": 0.0412
+                },
+                {
+                  "text": "It's our job to make bold bets, and we get our energy from inventing on behalf of customers.",
+                  "heading": "we pioneer",
+                  "score": 0.0409
+                }
+              ],
+              "2017": [
+                {
+                  "text": "They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here\".",
+                  "heading": "Invent and Simplify",
+                  "score": 0.087
+                },
+                {
+                  "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify.",
+                  "heading": "Invent and Simplify",
+                  "score": 0.0668
+                },
+                {
+                  "text": "They benchmark themselves and their teams against the best.",
+                  "heading": "Earn Trust",
+                  "score": 0.0508
+                },
+                {
+                  "text": "For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
+                  "heading": "we pioneer",
+                  "score": 0.0412
+                },
+                {
+                  "text": "It's our job to make bold bets, and we get our energy from inventing on behalf of customers.",
+                  "heading": "we pioneer",
+                  "score": 0.0409
+                }
+              ],
+              "2018": [
+                {
+                  "text": "We have gone beyond Kindle with our powerhouse Fire tablets, built for work...",
+                  "heading": "Amazon Devices",
+                  "score": 0.1627
+                },
+                {
+                  "text": "Amazon introduced the first Kindle in 2007 - at that time, it offered 90,000 eBooks and sold out 5.5 hours after the announcement.",
+                  "heading": "Amazon Devices",
+                  "score": 0.078
+                },
+                {
+                  "text": "Since then, we have expanded to create the best-selling e-reader family in the world.",
+                  "heading": "Amazon Devices",
+                  "score": 0.0631
+                },
+                {
+                  "text": "For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
+                  "heading": "we pioneer",
+                  "score": 0.0412
+                },
+                {
+                  "text": "It's our job to make bold bets, and we get our energy from inventing on behalf of customers.",
+                  "heading": "we pioneer",
+                  "score": 0.0409
+                }
+              ],
+              "2019": [
+                {
+                  "text": "For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
+                  "heading": "we pioneer",
+                  "score": 0.0412
+                },
+                {
+                  "text": "It's our job to make bold bets, and we get our energy from inventing on behalf of customers.",
+                  "heading": "we pioneer",
+                  "score": 0.0409
+                }
+              ],
+              "2026": [
+                {
+                  "text": "Amazon evaluates carriers using rigorous security and safety standards, smart trailer technology, chain-of-custody controls, and law enforcement collaboration.",
+                  "heading": "How Amazon protects cargo from fraud and theft across its shipping network",
+                  "score": 0.1432
+                },
+                {
+                  "text": "Our unmatched scale offers every employee endless opportunities to reimagine how customers shop, stream, eat, connect and live.",
+                  "heading": "Impact the future, today",
+                  "score": 0.0661
+                },
+                {
+                  "text": "Tours Come experience Amazon in person!",
+                  "heading": "Working at Amazon",
+                  "score": 0.0484
+                }
+              ]
+            }
+          }
         },
         {
           "id": "meta",
@@ -271,7 +1908,455 @@
               "nChunks": 13,
               "thin": false
             }
-          ]
+          ],
+          "worldChanging": [
+            {
+              "year": 2009,
+              "zscore": -1.0367,
+              "topkMean": 0.0431,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2010,
+              "zscore": -1.0367,
+              "topkMean": 0.0431,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "zscore": -0.9437,
+              "topkMean": 0.0488,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "zscore": -0.9437,
+              "topkMean": 0.0488,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2015,
+              "zscore": 0.991,
+              "topkMean": 0.1679,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "zscore": 0.991,
+              "topkMean": 0.1679,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "zscore": 1.0065,
+              "topkMean": 0.1689,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "zscore": 1.0065,
+              "topkMean": 0.1689,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "zscore": 1.0023,
+              "topkMean": 0.1686,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "zscore": null,
+              "topkMean": null,
+              "nChunks": 0,
+              "thin": true
+            }
+          ],
+          "technoOptimism": [
+            {
+              "year": 2009,
+              "zscore": 1.4397,
+              "topkMean": 0.2528,
+              "nChunks": 1,
+              "technoShare": 0.5,
+              "thin": true
+            },
+            {
+              "year": 2010,
+              "zscore": 1.4397,
+              "topkMean": 0.2528,
+              "nChunks": 1,
+              "technoShare": 0.5,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "zscore": -0.9159,
+              "topkMean": 0.0667,
+              "nChunks": 2,
+              "technoShare": 0.5,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "zscore": -1.5036,
+              "topkMean": 0.0203,
+              "nChunks": 1,
+              "technoShare": 0.3333,
+              "thin": true
+            },
+            {
+              "year": 2015,
+              "zscore": -0.5298,
+              "topkMean": 0.0972,
+              "nChunks": 1,
+              "technoShare": 0.1667,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "zscore": -0.5298,
+              "topkMean": 0.0972,
+              "nChunks": 1,
+              "technoShare": 0.1667,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "zscore": -0.5298,
+              "topkMean": 0.0972,
+              "nChunks": 1,
+              "technoShare": 0.1667,
+              "thin": true
+            },
+            {
+              "year": 2018,
+              "zscore": -0.5298,
+              "topkMean": 0.0972,
+              "nChunks": 1,
+              "technoShare": 0.1667,
+              "thin": true
+            },
+            {
+              "year": 2025,
+              "zscore": 0.4722,
+              "topkMean": 0.1763,
+              "nChunks": 17,
+              "technoShare": 0.7391,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "zscore": 1.1871,
+              "topkMean": 0.2328,
+              "nChunks": 13,
+              "technoShare": 1.0,
+              "thin": false
+            }
+          ],
+          "splitQuotes": {
+            "worldChanging": {
+              "2009": [
+                {
+                  "text": "We need help from people who like to move fast, tackle the big stuff, and have an immediate impact.",
+                  "heading": "Hello. Facebook is hiring.",
+                  "score": 0.0431
+                }
+              ],
+              "2010": [
+                {
+                  "text": "We need help from people who like to move fast, tackle the big stuff, and have an immediate impact.",
+                  "heading": "Hello. Facebook is hiring.",
+                  "score": 0.0431
+                }
+              ],
+              "2011": [
+                {
+                  "text": "No matter what part of Facebook you join, you'll be building something big and new.",
+                  "heading": "",
+                  "score": 0.0966
+                },
+                {
+                  "text": "In fact, we insist on them.",
+                  "heading": "",
+                  "score": 0.001
+                }
+              ],
+              "2012": [
+                {
+                  "text": "No matter what part of Facebook you join, you'll be building something big and new.",
+                  "heading": "",
+                  "score": 0.0966
+                },
+                {
+                  "text": "In fact, we insist on them.",
+                  "heading": "",
+                  "score": 0.001
+                }
+              ],
+              "2015": [
+                {
+                  "text": "Be bold We’re determined to build a better, more connected world for everyone.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.306
+                },
+                {
+                  "text": "When you’re in charge of making a difference, there’s no limit to what you can do.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.1886
+                },
+                {
+                  "text": "Connecting the world takes every one of us Move fast Connecting the world happens in real time.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.1756
+                },
+                {
+                  "text": "From engineers to designers and marketers, we empower the people who work at Facebook to make an impact.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0857
+                },
+                {
+                  "text": "We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0837
+                }
+              ],
+              "2016": [
+                {
+                  "text": "Be bold We’re determined to build a better, more connected world for everyone.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.306
+                },
+                {
+                  "text": "When you’re in charge of making a difference, there’s no limit to what you can do.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.1886
+                },
+                {
+                  "text": "Connecting the world takes every one of us Move fast Connecting the world happens in real time.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.1756
+                },
+                {
+                  "text": "From engineers to designers and marketers, we empower the people who work at Facebook to make an impact.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0857
+                },
+                {
+                  "text": "We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0837
+                }
+              ],
+              "2017": [
+                {
+                  "text": "Be bold We’re determined to build a better, more connected world for everyone.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.306
+                },
+                {
+                  "text": "When you’re in charge of making a difference, there’s no limit to what you can do.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.1886
+                },
+                {
+                  "text": "Connecting the world takes every one of us Move fast Connecting people, building community and bringing the world closer together happens in real time.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.1804
+                },
+                {
+                  "text": "From engineers to designers and marketers, we empower the people who work at Facebook to make an impact.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0857
+                },
+                {
+                  "text": "We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0837
+                }
+              ],
+              "2018": [
+                {
+                  "text": "Be bold We’re determined to build a better, more connected world for everyone.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.306
+                },
+                {
+                  "text": "When you’re in charge of making a difference, there’s no limit to what you can do.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.1886
+                },
+                {
+                  "text": "Connecting the world takes every one of us Move fast Connecting people, building community and bringing the world closer together happens in real time.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.1804
+                },
+                {
+                  "text": "From engineers to designers and marketers, we empower the people who work at Facebook to make an impact.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0857
+                },
+                {
+                  "text": "We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0837
+                }
+              ],
+              "2025": [
+                {
+                  "text": "Every day, we redefine and build a future that’s more open, accessible, and focused on human connection.",
+                  "heading": "Join us in connecting the world.",
+                  "score": 0.2822
+                },
+                {
+                  "text": "Explore our featured roles and join our mission to build the future of human connection.",
+                  "heading": "Join us in connecting the world.",
+                  "score": 0.212
+                },
+                {
+                  "text": "Together we can build awesome things.",
+                  "heading": "Our best ideas happen together",
+                  "score": 0.2077
+                },
+                {
+                  "text": "Teamwork drives innovation, cultivates human connection and supports constant learning.",
+                  "heading": "Our best ideas happen together",
+                  "score": 0.0802
+                },
+                {
+                  "text": "Whatever role each of us plays — engineer, analyst, strategist, designer — our best work comes through collaboration and combining our collective skills.",
+                  "heading": "Our best ideas happen together",
+                  "score": 0.061
+                }
+              ]
+            },
+            "technoOptimism": {
+              "2009": [
+                {
+                  "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes.",
+                  "heading": "Hello. Facebook is hiring.",
+                  "score": 0.2528
+                }
+              ],
+              "2010": [
+                {
+                  "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes.",
+                  "heading": "Hello. Facebook is hiring.",
+                  "score": 0.2528
+                }
+              ],
+              "2011": [
+                {
+                  "text": "Our employees build and create technology that fundamentally changes how hundreds of millions of people around the world connect and share.",
+                  "heading": "Hello. Facebook is hiring.",
+                  "score": 0.0772
+                },
+                {
+                  "text": "At our Palo Alto headquarters, we also offer free breakfast, lunch and dinner at our Cafe.",
+                  "heading": "",
+                  "score": 0.0561
+                }
+              ],
+              "2012": [
+                {
+                  "text": "At our Menlo Park headquarters, we also offer free breakfast, lunch and dinner at our Cafe.",
+                  "heading": "",
+                  "score": 0.0203
+                }
+              ],
+              "2015": [
+                {
+                  "text": "Our teams are small and nimble.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0972
+                }
+              ],
+              "2016": [
+                {
+                  "text": "Our teams are small and nimble.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0972
+                }
+              ],
+              "2017": [
+                {
+                  "text": "Our teams are small and nimble.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0972
+                }
+              ],
+              "2018": [
+                {
+                  "text": "Our teams are small and nimble.",
+                  "heading": "What’s it like to work at Facebook?",
+                  "score": 0.0972
+                }
+              ],
+              "2025": [
+                {
+                  "text": "We build next-generation hardware and software like Meta Quest headsets, AR wearables and Ray-Ban AI glasses that do everything from assisting surgeons with training to creating virtual classrooms to “seeing” the world from home.",
+                  "heading": "Our best ideas happen together",
+                  "score": 0.1958
+                },
+                {
+                  "text": "We build next-generation hardware and software like Meta Quest headsets, AR wearables and Ray-Ban Meta glasses that do everything from assisting surgeons with training to creating virtual classrooms to “seeing” the world from home.",
+                  "heading": "Our best ideas happen together",
+                  "score": 0.193
+                },
+                {
+                  "text": "Innovate the leading spatial platform and new devices Our teams create new ways to connect in the metaverse and take wearables beyond gaming.",
+                  "heading": "Our best ideas happen together",
+                  "score": 0.1901
+                },
+                {
+                  "text": "AI is influencing the metaverse in mind-blowing ways and we’re staying a step ahead.",
+                  "heading": "We build awesome things",
+                  "score": 0.1567
+                },
+                {
+                  "text": "At the forefront of innovation, the possibilities are endless Work with the brightest AI minds to build the future of human connection.",
+                  "heading": "Our best ideas happen together",
+                  "score": 0.1462
+                }
+              ],
+              "2026": [
+                {
+                  "text": "Their groundbreaking technologies drive research and development in areas such as computer vision, advanced optics and virtual reality.",
+                  "heading": "We build awesome things",
+                  "score": 0.3222
+                },
+                {
+                  "text": "This breakthrough tech allows people to answer messages, capture high-quality audio and video, and use Meta AI on a private in-lens display with intuitive, on-wrist controls — proving what's possible when you push the limits of AI in wearables.",
+                  "heading": "We build awesome things",
+                  "score": 0.2541
+                },
+                {
+                  "text": "From Oakley Meta Vanguard to Oakley Meta HTSN, this is the next evolution of AI glasses.",
+                  "heading": "We build awesome things",
+                  "score": 0.2019
+                },
+                {
+                  "text": "With 2x the battery life and 3K Ultra HD video capture, your favorite AI glasses just got better.",
+                  "heading": "We build awesome things",
+                  "score": 0.1938
+                },
+                {
+                  "text": "The latest version of Ray-Ban Meta AI glasses lets you capture every adventure in sharper, smoother, more vivid contrast — all while interacting with hands-free, on-device AI.",
+                  "heading": "We build awesome things",
+                  "score": 0.1921
+                }
+              ]
+            }
+          }
         }
       ]
     }
@@ -613,5 +2698,6 @@
       "score": 0.1335,
       "zscore": -0.2361
     }
-  ]
+  ],
+  "splitNote": "Idealistic language is split via the techno_optimism axis into world-changing mission vs. techno-optimism (product-capability hype). 'We build amazing technology' is not 'we'll change the world' — e.g. Meta's recent idealism is ~100% techno-optimism."
 }

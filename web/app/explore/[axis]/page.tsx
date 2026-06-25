@@ -212,7 +212,7 @@ export default async function TopicPage({
 
       {canCompare && (
         <Link
-          href={`/${axis}/compare`}
+          href={`/explore/${axis}/compare`}
           className={`group flex items-baseline justify-between rounded-lg border border-indigo-200 bg-indigo-50/50 px-4 py-3 transition-colors hover:border-indigo-400 dark:border-indigo-900 dark:bg-indigo-950/30 dark:hover:border-indigo-700 ${axis === "dei" ? "mt-4" : "mt-10"}`}
         >
           <span className="font-medium">Compare all companies</span>
@@ -229,7 +229,7 @@ export default async function TopicPage({
         {companies.map((c) => (
           <li key={c.id}>
             <Link
-              href={`/${axis}/${c.id}`}
+              href={`/explore/${axis}/${c.id}`}
               className="group flex items-baseline justify-between rounded-lg border border-neutral-200 px-4 py-3 transition-colors hover:border-neutral-400 dark:border-neutral-800 dark:hover:border-neutral-600"
             >
               <span className="font-medium">{c.displayName}</span>
