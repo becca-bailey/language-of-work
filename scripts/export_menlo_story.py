@@ -93,8 +93,9 @@ def idealism_series(cdir) -> tuple[list[dict], dict]:
 def cohort_series() -> list[dict]:
     """Cohort idealism z-trajectories from the altruism story, for the overlay.
 
-    Same metric as Menlo's per-year zscore (z within company), so the comparison is
-    of *shape and timing*, not absolute level — exactly what the altruism story makes.
+    Uses the same cleaned "world-changing" series the other idealism pages show
+    (techno-optimism removed), so the cohort here matches those pages exactly.
+    Z within company, so the comparison is of shape and timing, not absolute level.
     """
     path = ROOT / "web" / "public" / "data" / "stories" / "altruism.json"
     if not path.exists():
@@ -102,9 +103,11 @@ def cohort_series() -> list[dict]:
     alt = read_json(path)
     out = []
     for c in alt.get("sources", {}).get("careers", {}).get("companies", []):
+        # Prefer the cleaned world-changing series (what the other pages render).
+        source = c.get("worldChanging") or c.get("years", [])
         years = [
             {"year": int(y["year"]), "zscore": round(float(y["zscore"]), 4)}
-            for y in c.get("years", [])
+            for y in source
             if y.get("zscore") is not None
         ]
         if len(years) >= 2:

@@ -1,12 +1,15 @@
 "use client";
 
-import MenloIdealismChart from "@/components/MenloIdealismChart";
-import type { MenloStory, MenloPhrase } from "@/lib/menloStory";
+import CompareChart, { type CompanySeries } from "@/components/CompareChart";
+import MenloPhraseChart from "@/components/MenloPhraseChart";
+import MenloAuditChart, { type AuditDatum } from "@/components/MenloAuditChart";
+import type { TimelineEvent } from "@/lib/events";
+import type { MenloStory } from "@/lib/menloStory";
 
-const AXIS_MIN = 2006;
-const AXIS_MAX = 2026;
-const span = AXIS_MAX - AXIS_MIN;
-const pct = (year: number) => ((year - AXIS_MIN) / span) * 100;
+function eventYear(date: string): number {
+  const [y, m] = date.split("-");
+  return Number(y) + (m ? (Number(m) - 1) / 12 : 0);
+}
 
 const GROUP_LABELS: Record<string, string> = {
   trademarks: "Trademarks & brand marks",
@@ -25,38 +28,39 @@ function SectionHeading({ kicker, title }: { kicker: string; title: string }) {
   );
 }
 
-function PhraseLifespan({ p }: { p: MenloPhrase }) {
-  const left = pct(p.first_year);
-  const width = Math.max(pct(p.last_year) - left, 1.5);
-  const single = p.first_year === p.last_year;
-  return (
-    <div className="grid grid-cols-[11rem_1fr] items-center gap-3 py-1">
-      <div className="truncate text-sm" title={p.term}>
-        {p.term}
-        <span className="ml-1 text-xs text-neutral-400">×{p.count}</span>
-      </div>
-      <div className="relative h-5 rounded bg-neutral-100 dark:bg-neutral-800">
-        <div
-          className="absolute top-0 flex h-5 items-center rounded bg-amber-400/80 dark:bg-amber-500/70"
-          style={{ left: `${left}%`, width: `${width}%` }}
-          title={`${p.first_year}–${p.last_year}`}
-        >
-          {!single && (
-            <span className="px-1 text-[10px] font-medium text-amber-950">
-              {p.first_year}–{p.last_year}
-            </span>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-}
-
 export default function MenloStoryExplorer({ data }: { data: MenloStory }) {
   const { idealism, brandedLanguage, events, annotations, impactAudit, outsiderView } =
     data;
-  const auditEntries = Object.entries(impactAudit.counts);
-  const auditMax = Math.max(...auditEntries.map(([, n]) => n), 1);
+  const auditData: AuditDatum[] = Object.entries(impactAudit.counts).map(
+    ([label, n]) => {
+      const isTest = label.startsWith("named adopter");
+      return { label, value: isTest ? impactAudit.namedAdopterCredible : n, isTest };
+    }
+  );
+
+  // Idealism line: Menlo (highlighted first) + the cleaned cohort, for CompareChart.
+  const idealismSeries: CompanySeries[] = [
+    {
+      company: "menlo",
+      displayName: "Menlo",
+      points: idealism.series.map((s) => ({
+        year: s.year,
+        zscore: s.zscore,
+        thin: s.thin,
+      })),
+    },
+    ...idealism.cohort.map((c) => ({
+      company: c.id,
+      displayName: c.displayName,
+      points: c.years.map((y) => ({ year: y.year, zscore: y.zscore, thin: false })),
+    })),
+  ];
+  const chartEvents: TimelineEvent[] = events.map((ev, i) => ({
+    id: `menlo-ev-${i}`,
+    label: ev.label.split(/[:(]/)[0].trim().slice(0, 30),
+    year: eventYear(ev.date),
+    description: ev.label,
+  }));
 
   return (
     <div className="space-y-14">
@@ -74,16 +78,7 @@ export default function MenloStoryExplorer({ data }: { data: MenloStory }) {
           length; some marks were coined and dropped; &ldquo;return joy&rdquo; is a
           late addition.
         </p>
-        {Object.entries(brandedLanguage).map(([group, terms]) => (
-          <div key={group} className="space-y-1">
-            <p className="text-xs font-medium uppercase tracking-wide text-neutral-500">
-              {GROUP_LABELS[group] ?? group}
-            </p>
-            {terms.map((p) => (
-              <PhraseLifespan key={p.term} p={p} />
-            ))}
-          </div>
-        ))}
+        <MenloPhraseChart groups={brandedLanguage} groupLabels={GROUP_LABELS} />
       </section>
 
       {/* Act 2 — idealism by era */}
@@ -96,7 +91,11 @@ export default function MenloStoryExplorer({ data }: { data: MenloStory }) {
           {idealism.note} Against the careers-page cohort, the contrast is the point:
           Menlo holds and rises while the industry&apos;s idealism peaks and falls away.
         </p>
-        <MenloIdealismChart series={idealism.series} cohort={idealism.cohort} />
+        <CompareChart
+          series={idealismSeries}
+          axisName="idealism"
+          events={chartEvents}
+        />
       </section>
 
       {/* Act 3 — the echo */}
@@ -110,32 +109,8 @@ export default function MenloStoryExplorer({ data }: { data: MenloStory }) {
           The denominator is people who came to <em>look</em> — never workplaces that
           rebuilt on the model.
         </p>
-        <div className="max-w-xl space-y-1">
-          {auditEntries.map(([label, n]) => {
-            const isTest = label.startsWith("named adopter");
-            const value = isTest ? impactAudit.namedAdopterCredible : n;
-            return (
-              <div
-                key={label}
-                className="grid grid-cols-[13rem_1fr_2.5rem] items-center gap-3 py-1"
-              >
-                <div className="text-sm">{label}</div>
-                <div className="h-4 rounded bg-neutral-100 dark:bg-neutral-800">
-                  <div
-                    className={`h-4 rounded ${
-                      isTest
-                        ? "bg-rose-500"
-                        : "bg-sky-400/80 dark:bg-sky-500/70"
-                    }`}
-                    style={{ width: `${(value / auditMax) * 100}%` }}
-                  />
-                </div>
-                <div className="text-right text-xs font-medium tabular-nums">
-                  {value}
-                </div>
-              </div>
-            );
-          })}
+        <div className="max-w-2xl">
+          <MenloAuditChart data={auditData} />
         </div>
         <p className="max-w-prose rounded bg-rose-50 p-3 text-sm text-rose-900 dark:bg-rose-950/40 dark:text-rose-200">
           <strong>0 credible named adopters.</strong> {impactAudit.finding}
