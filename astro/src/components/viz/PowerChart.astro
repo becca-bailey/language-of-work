@@ -1,0 +1,12 @@
+---
+import PowerCultureChart from "@/components/PowerCultureChart";
+import { loadPowerStory } from "@/lib/powerStory";
+
+const power = await loadPowerStory();
+---
+
+{power && (
+  <div class="my-6">
+    <PowerCultureChart data={power} client:only="react" />
+  </div>
+)}

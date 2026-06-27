@@ -1,0 +1,42 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import BenefitsChart from "@/components/BenefitsChart";
+import { loadBenefitsStory } from "@/lib/benefitsStory";
+
+const data = await loadBenefitsStory();
+if (!data) return Astro.redirect("/404");
+---
+
+<Layout title={data.title}>
+  <main class="mx-auto w-full max-w-4xl flex-1 px-6 py-12">
+    <a
+      href="/"
+      class="text-sm text-neutral-500 transition-colors hover:text-neutral-800 dark:hover:text-neutral-200"
+    >
+      &larr; Stories
+    </a>
+    <h1 class="mt-4 text-3xl font-semibold tracking-tight">{data.title}</h1>
+    <p class="mt-2 max-w-prose text-lg text-neutral-600 dark:text-neutral-400">
+      {data.subtitle}
+    </p>
+    <p class="mt-4 max-w-prose text-sm text-neutral-600 dark:text-neutral-400">
+      {data.intro}
+    </p>
+
+    <div class="mt-8">
+      <BenefitsChart categories={data.categories} years={data.years} />
+    </div>
+
+    <div class="mt-8 max-w-prose space-y-2 text-xs text-neutral-500">
+      <p>
+        Each panel shares a y-scale, so taller lines are more commonly advertised. Hover a
+        point for the year and share. Some of these (fertility, family leave, caregiving) double
+        as <em>material</em> diversity signals — grouped and tracked against the rhetoric on the{" "}
+        <a class="underline" href="/stories/dei/">DEI story</a>.
+      </p>
+      <p>
+        <strong>Honesty.</strong> {data.caveat}
+      </p>
+    </div>
+  </main>
+</Layout>

@@ -1,0 +1,15 @@
+---
+import NetflixEvolutionStrip from "@/components/NetflixEvolutionStrip";
+import { loadNetflixStory } from "@/lib/netflixStory";
+
+const n = await loadNetflixStory();
+---
+
+{n && (
+  <div class="my-6">
+    <p class="mb-2 text-sm text-neutral-600 dark:text-neutral-400">
+      {n.netflixEvolution.headline}
+    </p>
+    <NetflixEvolutionStrip years={n.netflixEvolution.years} rows={n.netflixEvolution.rows} />
+  </div>
+)}
