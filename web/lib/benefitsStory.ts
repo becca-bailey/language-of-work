@@ -18,6 +18,20 @@ export interface BenefitsCategory {
   peakYear: number | null;
 }
 
+export interface MaterialDEIComponent {
+  id: string;
+  label: string;
+  total: number;
+}
+
+export interface MaterialDEI {
+  label: string;
+  blurb: string;
+  components: MaterialDEIComponent[];
+  series: BenefitsPoint[];
+  total: number;
+}
+
 export interface BenefitsStory {
   story: string;
   title: string;
@@ -27,6 +41,7 @@ export interface BenefitsStory {
   years: number[];
   totalsByYear: Record<string, number>;
   categories: BenefitsCategory[];
+  materialDEI: MaterialDEI;
 }
 
 export async function loadBenefitsStory(): Promise<BenefitsStory | null> {

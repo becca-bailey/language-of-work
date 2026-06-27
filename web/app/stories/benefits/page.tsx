@@ -29,16 +29,13 @@ export default async function BenefitsPage() {
 
       <div className="mt-8 max-w-prose space-y-2 text-xs text-neutral-500">
         <p>
-          Each panel shares a y-scale, so taller lines are more commonly advertised. The{" "}
-          <span className="rounded bg-purple-100 px-1 text-purple-700 dark:bg-purple-950/50 dark:text-purple-300">
-            also DEI
-          </span>{" "}
-          tag marks categories (fertility) that double as a diversity signal —
-          see the{" "}
+          Each panel shares a y-scale, so taller lines are more commonly advertised. Hover a
+          point for the year and share. Some of these (fertility, family leave, caregiving) double
+          as <em>material</em> diversity signals — grouped and tracked against the rhetoric on the{" "}
           <Link className="underline" href="/stories/dei">
             DEI story
           </Link>
-          . Hover a point for the year and share.
+          .
         </p>
         <p>
           <strong>Honesty.</strong> {data.caveat}

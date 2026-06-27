@@ -14,7 +14,7 @@ function Spark({ cat, years, yMax }: { cat: BenefitsCategory; years: number[]; y
     return { ...s, x, y };
   });
   const path = pts.map((p, i) => `${i === 0 ? "M" : "L"}${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ");
-  const color = cat.deiSignal ? "#a855f7" : "#0ea5e9";
+  const color = "#0ea5e9";
   const last = pts[pts.length - 1];
   return (
     <svg viewBox={`0 0 ${W} ${H}`} className="w-full" preserveAspectRatio="none" aria-hidden>
@@ -46,11 +46,6 @@ export default function BenefitsChart({
         <div key={c.id} className="rounded-lg border border-neutral-200 p-3 dark:border-neutral-800">
           <div className="flex items-baseline justify-between gap-2">
             <span className="text-sm font-medium">{c.label}</span>
-            {c.deiSignal && (
-              <span className="rounded bg-purple-100 px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-purple-700 dark:bg-purple-950/50 dark:text-purple-300">
-                also DEI
-              </span>
-            )}
           </div>
           <div className="mt-1">
             <Spark cat={c} years={years} yMax={yMax} />

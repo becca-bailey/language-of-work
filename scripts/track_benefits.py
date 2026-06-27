@@ -51,6 +51,28 @@ CATEGORIES = [
      r"education(?:al)? (?:budget|stipend|reimbursement)"),
 ]
 
+# "Material DEI" composite: concrete family- and identity-positive benefits — the
+# substance counterpoint to rhetorical DEI language on the /stories/dei register chart.
+# A *derived union* (a posting counts once if it names ANY component), kept separate from
+# the display categories above so the family/caregiving split stays intact. Components and
+# regexes validated against the filtered corpus to avoid EEO-boilerplate false positives
+# (bare "transgender"/"religious"/"disability" appear in nondiscrimination statements).
+MATERIAL_DEI = [
+    ("family_building", "Fertility & family-building",
+     r"fertilit|\bIVF\b|egg freez|surrogacy|family planning|family[- ]building|"
+     r"carrot fertility|adoption (?:assist|reimburse|benefit|support|leave)|adoptive"),
+    ("family_leave", "Parental & family leave",
+     r"parental leave|maternity leave|paternity leave|family leave|bonding leave|"
+     r"paid family|parental bonding"),
+    ("caregiving", "Caregiving & childcare",
+     r"caregiv|backup (?:care|child ?care)|child ?care|elder care|dependent care"),
+    ("lactation", "Lactation support",
+     r"lactation|nursing (?:room|mother|parent)|milk stork"),
+    ("identity", "Identity-positive coverage",
+     r"domestic partner|gender[- ]affirming|trans(?:gender)?[- ]inclusive|"
+     r"same[- ]sex (?:partner|spouse|coverage)"),
+]
+
 
 def _smooth(series: dict[int, float]) -> dict[int, float]:
     ys = sorted(series)
@@ -63,8 +85,12 @@ def _smooth(series: dict[int, float]) -> dict[int, float]:
 
 def main() -> None:
     pats = [(cid, label, dei, re.compile(p, re.I)) for cid, label, dei, p in CATEGORIES]
+    mpats = [(cid, label, re.compile(p, re.I)) for cid, label, p in MATERIAL_DEI]
     total_by_year: dict[int, int] = defaultdict(int)
     hits_by_year: dict[str, dict[int, int]] = {cid: defaultdict(int) for cid, *_ in CATEGORIES}
+    # material-DEI: per-year union (posting counts once if it names ANY component) + per-component totals
+    mat_union_by_year: dict[int, int] = defaultdict(int)
+    mat_component_total: dict[str, int] = {cid: 0 for cid, *_ in MATERIAL_DEI}
 
     for c in COMPANIES:
         clsp = company_dir(c) / "classifications.json"
@@ -82,6 +108,13 @@ def main() -> None:
             for cid, _label, _dei, rx in pats:
                 if rx.search(t):
                     hits_by_year[cid][y] += 1
+            hit_material = False
+            for cid, _label, rx in mpats:
+                if rx.search(t):
+                    mat_component_total[cid] += 1
+                    hit_material = True
+            if hit_material:
+                mat_union_by_year[y] += 1
 
     years = sorted(total_by_year)
     categories = []
@@ -100,6 +133,23 @@ def main() -> None:
         })
     categories.sort(key=lambda c: -c["total"])
 
+    # material-DEI composite block
+    mat_share = {y: mat_union_by_year.get(y, 0) / total_by_year[y] for y in years if total_by_year[y]}
+    mat_sm = _smooth(mat_share)
+    mat_series = [{"year": y, "share": round(mat_share[y], 4), "count": mat_union_by_year.get(y, 0),
+                   "smoothed": round(mat_sm[y], 4)} for y in years]
+    material_dei = {
+        "label": "Material family- & identity-positive benefits",
+        "blurb": ("Share of job postings naming a concrete family- or identity-positive benefit "
+                  "(fertility/family-building, parental & family leave, caregiving & childcare, "
+                  "lactation support, domestic-partner coverage) — the substance counterpoint to "
+                  "rhetorical DEI language."),
+        "components": [{"id": cid, "label": label, "total": mat_component_total[cid]}
+                       for cid, label, _ in MATERIAL_DEI],
+        "series": mat_series,
+        "total": sum(s["count"] for s in mat_series),
+    }
+
     out = {
         "story": "benefits",
         "title": "How the perks changed",
@@ -114,6 +164,7 @@ def main() -> None:
         "years": years,
         "totalsByYear": {str(y): total_by_year[y] for y in years},
         "categories": categories,
+        "materialDEI": material_dei,
     }
     out_dir = ROOT / "web" / "public" / "data" / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -129,6 +180,9 @@ def main() -> None:
     print(f"Wrote benefits.json + benefits_trends.md ({len(categories)} categories, {years[0]}–{years[-1]})")
     for c in categories:
         print(f"  {c['label']:26s}{'[DEI]' if c['deiSignal'] else '     '} n={c['total']:3d} first={c['firstYear']} peak={c['peakYear']}")
+    print(f"  --- Material DEI composite (union n={material_dei['total']}) ---")
+    for comp in material_dei["components"]:
+        print(f"  {comp['label']:30s} n={comp['total']:3d}")
 
 
 if __name__ == "__main__":

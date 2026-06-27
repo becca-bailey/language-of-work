@@ -4,10 +4,12 @@ import DEIStoryExplorer from "@/components/DEIStoryExplorer";
 import StoryCompanyLinks from "@/components/StoryCompanyLinks";
 import { DEI_EVENTS } from "@/lib/events";
 import { loadStory } from "@/lib/stories";
+import { loadBenefitsStory } from "@/lib/benefitsStory";
 
 export default async function DeiStoryPage() {
   const data = await loadStory("dei");
   if (!data) notFound();
+  const benefits = await loadBenefitsStory();
 
   const companies =
     data.sources.careers?.companies.map((c) => ({
@@ -28,6 +30,7 @@ export default async function DeiStoryPage() {
         <DEIStoryExplorer
           data={data}
           events={DEI_EVENTS}
+          materialDEI={benefits?.materialDEI ?? null}
           framing={[
             "When did substantive diversity and inclusion language appear on careers pages — and who retracted it after 2023? Coinbase's apolitical stance, Netflix's \"not a family\" culture memo, and Palantir's civilizational mission copy are counter-examples worth reading alongside Google, Amazon, and Meta.",
             "The inclusion embedding axis measures topic, not stance. Anti-DEI copy like \"refuge from division\" scores high on inclusion because it borrows belonging vocabulary — so a unipolar score cannot show the flip. The stance envelope (inclusion − meritocracy per chunk) and register classifier are the fixes.",

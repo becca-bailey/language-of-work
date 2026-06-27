@@ -1,20 +1,24 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo } from "react";
 import StoryRegisterChart from "@/components/StoryRegisterChart";
 import StoryQuoteTimeline from "@/components/StoryQuoteTimeline";
 import StoryStanceEnvelope from "@/components/StoryStanceEnvelope";
 import StorySalienceChart from "@/components/StorySalienceChart";
+import MaterialDEIChart from "@/components/MaterialDEIChart";
 import type { TimelineEvent } from "@/lib/events";
 import type { StoryData, StoryHighlight } from "@/lib/storyTypes";
+import type { MaterialDEI } from "@/lib/benefitsStory";
 
 interface Props {
   data: StoryData;
   events?: TimelineEvent[];
   framing?: string[];
+  materialDEI?: MaterialDEI | null;
 }
 
-export default function DEIStoryExplorer({ data, events = [], framing = [] }: Props) {
+export default function DEIStoryExplorer({ data, events = [], framing = [], materialDEI = null }: Props) {
   const companies = data.sources.careers?.companies ?? [];
   const hasRegisters = companies.some((c) => c.years.some((y) => y.registers));
   const hasEnvelopes = (data.envelopes?.length ?? 0) > 0;
@@ -59,6 +63,31 @@ export default function DEIStoryExplorer({ data, events = [], framing = [] }: Pr
           <div className="mt-4">
             <StoryRegisterChart companies={companies} />
           </div>
+        </section>
+      )}
+
+      {materialDEI && materialDEI.total > 0 && (
+        <section>
+          <h2 className="text-sm font-medium uppercase tracking-wide text-neutral-500">
+            Is there substance behind the words?
+          </h2>
+          <p className="mt-1 max-w-prose text-sm text-neutral-600 dark:text-neutral-400">
+            {materialDEI.blurb} Note the different lens: the bars above are the share of{" "}
+            <em>DEI chunks</em> by stance; this line is the share of <em>job postings</em> that name
+            a concrete benefit. The rhetoric spikes and retracts — the material substance stays a
+            low, flat line.
+          </p>
+          <div className="mt-4">
+            <MaterialDEIChart data={materialDEI} />
+          </div>
+          <p className="mt-2 max-w-prose text-xs text-neutral-500">
+            Self-presentation: what&apos;s <em>advertised</em>, not audited — rarely advertised is
+            not the same as rarely offered. Thin and uneven per year; keyword-based. See the{" "}
+            <Link className="underline" href="/stories/benefits">
+              benefits tracker
+            </Link>
+            .
+          </p>
         </section>
       )}
 
