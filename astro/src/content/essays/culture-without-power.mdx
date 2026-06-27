@@ -11,6 +11,7 @@ import Evolution from "@/components/viz/Evolution.astro";
 import AuditBar from "@/components/viz/AuditBar.astro";
 import ObjectivityMatrix from "@/components/viz/ObjectivityMatrix.astro";
 import ImplicitExplicit from "@/components/viz/ImplicitExplicit.astro";
+import CoinbaseDiff from "@/components/viz/CoinbaseDiff.astro";
 import PowerChart from "@/components/viz/PowerChart.astro";
 
 > Working draft. The notes under each heading are the outline, to be replaced with prose; the charts and quotes are live and update with the data.
@@ -126,26 +127,7 @@ import PowerChart from "@/components/viz/PowerChart.astro";
 - Coinbase 2024: "Unremarkable performance gets a generous severance package" (0.86, one-word edit).
 - Only company to print the formula — and it did so the year Netflix dropped it.
 
-<div class="my-6 rounded-lg border border-amber-300 bg-amber-50 p-4 dark:border-amber-700/60 dark:bg-amber-950/30">
-  <p class="text-xs font-medium uppercase tracking-wide text-amber-700 dark:text-amber-500">
-    The one verbatim lift
-  </p>
-  <div class="mt-2 space-y-1 font-mono text-sm">
-    <p>
-      <span class="text-neutral-500">Netflix 2009: </span>
-      <span class="rounded bg-rose-200/60 px-1 dark:bg-rose-900/50">adequate</span> performance gets a
-      generous severance package
-    </p>
-    <p>
-      <span class="text-neutral-500">Coinbase 2024: </span>
-      <span class="rounded bg-amber-200/70 px-1 dark:bg-amber-800/50">unremarkable</span> performance gets
-      a generous severance package
-    </p>
-  </div>
-  <p class="mt-2 text-xs text-amber-900 dark:text-amber-200">
-    A one-word edit (0.86 similarity) — the only company to print the formula, in the year Netflix dropped it.
-  </p>
-</div>
+<CoinbaseDiff />
 
 ### 3.5 What this pattern means
 

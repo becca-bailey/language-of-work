@@ -4,6 +4,9 @@ import NetflixConceptTree from "@/components/NetflixConceptTree";
 import NetflixEvolutionStrip from "@/components/NetflixEvolutionStrip";
 import NetflixObjectivityMatrix from "@/components/NetflixObjectivityMatrix";
 import AuditBarChart, { type BarDatum } from "@/components/AuditBarChart";
+import DeckQuotes from "@/components/DeckQuotes";
+import CoinbaseDiff from "@/components/CoinbaseDiff";
+import ImplicitExplicitTable from "@/components/ImplicitExplicitTable";
 import type { NetflixStory } from "@/lib/netflixStory";
 
 function SectionHeading({ kicker, title }: { kicker: string; title: string }) {
@@ -39,28 +42,7 @@ export default function NetflixStoryExplorer({ data }: { data: NetflixStory }) {
           culture in unusually blunt terms — and defined &ldquo;performance&rdquo; with no
           metric at all.
         </p>
-        <div className="grid gap-3 sm:grid-cols-2">
-          {deckQuotes.map((q) => {
-            const caveat = q.label.toLowerCase().includes("caveat");
-            return (
-              <div
-                key={q.label}
-                className={`rounded-lg border p-4 ${
-                  caveat
-                    ? "border-amber-300 bg-amber-50 dark:border-amber-700/60 dark:bg-amber-950/30"
-                    : "border-neutral-200 dark:border-neutral-800"
-                }`}
-              >
-                <p className="text-xs font-medium uppercase tracking-wide text-neutral-500">
-                  {q.label}
-                </p>
-                <p className="mt-1 text-sm text-neutral-700 dark:text-neutral-300">
-                  &ldquo;{q.text}&rdquo;
-                </p>
-              </div>
-            );
-          })}
-        </div>
+        <DeckQuotes quotes={deckQuotes} />
       </section>
 
       {/* Act 2 — the spread */}
@@ -74,27 +56,7 @@ export default function NetflixStoryExplorer({ data }: { data: NetflixStory }) {
         <NetflixConceptTree concepts={propagation.concepts} />
 
         {/* Coinbase one-word diff */}
-        <div className="rounded-lg border border-amber-300 bg-amber-50 p-4 dark:border-amber-700/60 dark:bg-amber-950/30">
-          <p className="text-xs font-medium uppercase tracking-wide text-amber-700 dark:text-amber-500">
-            The one verbatim lift
-          </p>
-          <div className="mt-2 space-y-1 font-mono text-sm">
-            <p>
-              <span className="text-neutral-500">Netflix 2009: </span>
-              <span className="rounded bg-rose-200/60 px-1 dark:bg-rose-900/50">adequate</span>{" "}
-              performance gets a generous severance package
-            </p>
-            <p>
-              <span className="text-neutral-500">Coinbase 2024: </span>
-              <span className="rounded bg-amber-200/70 px-1 dark:bg-amber-800/50">unremarkable</span>{" "}
-              performance gets a generous severance package
-            </p>
-          </div>
-          <p className="mt-2 text-xs text-amber-900 dark:text-amber-200">
-            A one-word edit (0.86 similarity) — the only company to print the formula. And
-            it printed it in 2024, the year Netflix itself had dropped it.
-          </p>
-        </div>
+        <CoinbaseDiff />
 
         {/* Netflix walked it back */}
         <div className="space-y-3 pt-2">
@@ -133,24 +95,7 @@ export default function NetflixStoryExplorer({ data }: { data: NetflixStory }) {
             Companies didn&apos;t copy &ldquo;keeper test,&rdquo; but the vaguer phrases
             make the same subjective cut while claiming objectivity (interpretation).
           </p>
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse text-sm">
-              <thead>
-                <tr className="border-b border-neutral-200 text-left text-xs uppercase tracking-wide text-neutral-500 dark:border-neutral-800">
-                  <th className="py-2 pr-4 font-medium">Netflix, explicit</th>
-                  <th className="py-2 font-medium">Industry, implicit</th>
-                </tr>
-              </thead>
-              <tbody>
-                {implicitExplicit.map((m) => (
-                  <tr key={m.explicit} className="border-b border-neutral-100 dark:border-neutral-800/60">
-                    <td className="py-2 pr-4 text-neutral-700 dark:text-neutral-300">{m.explicit}</td>
-                    <td className="py-2 text-neutral-600 dark:text-neutral-400">{m.implicit}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <ImplicitExplicitTable rows={implicitExplicit} />
         </div>
 
         <p className="max-w-prose text-sm text-neutral-600 dark:text-neutral-400">

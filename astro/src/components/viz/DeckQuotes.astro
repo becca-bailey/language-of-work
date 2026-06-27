@@ -1,16 +1,12 @@
 ---
+import DeckQuotes from "@/components/DeckQuotes";
 import { loadNetflixStory } from "@/lib/netflixStory";
 
 const n = await loadNetflixStory();
 ---
 
 {n && (
-  <div class="my-6 grid gap-3 sm:grid-cols-2">
-    {n.deckQuotes.map((q) => (
-      <div class="rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
-        <p class="text-xs font-medium uppercase tracking-wide text-neutral-500">{q.label}</p>
-        <p class="mt-1 text-sm text-neutral-700 dark:text-neutral-300">&ldquo;{q.text}&rdquo;</p>
-      </div>
-    ))}
+  <div class="my-6">
+    <DeckQuotes quotes={n.deckQuotes} />
   </div>
 )}
