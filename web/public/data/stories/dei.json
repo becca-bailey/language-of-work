@@ -1609,35 +1609,35 @@
           "years": [
             {
               "year": 2009,
-              "activeShare": 0.0,
+              "activeShare": 0.0625,
               "meritocracyShare": 0.0,
               "civilizationalShare": 0.0,
               "counterShare": 0.0,
-              "netScore": -0.0029,
-              "topkMean": 0.4535,
-              "stanceMean": -0.0029,
-              "salienceTopkMean": 0.4564,
+              "netScore": 0.0485,
+              "topkMean": 0.4084,
+              "stanceMean": 0.0481,
+              "salienceTopkMean": 0.409,
               "textChurn": 1.0,
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
                 "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "belonging_culture": 1,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 15
               },
-              "nChunks": 1,
-              "thin": true,
-              "stanceMax": -0.0029,
+              "nChunks": 16,
+              "thin": false,
+              "stanceMax": 0.0947,
               "stanceMaxQuote": {
-                "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes. We need help from people who like to move fast, tackle the big stuff, and have an immediate impact. Sound like you?",
-                "heading": "Hello. Facebook is hiring.",
+                "text": "We know that passion and commitment has to be paired with rest and balance. We offer 21 days of paid vacation to make sure you take a break once in a while.",
+                "heading": "Paid Time Off (PTO)",
                 "register": "absent",
-                "stanceDiff": -0.0029,
-                "inclusion": 0.4535,
-                "meritocracy": 0.4564,
-                "salience": 0.4564,
+                "stanceDiff": 0.0947,
+                "inclusion": 0.4172,
+                "meritocracy": 0.3225,
+                "salience": 0.4172,
                 "stanceProjection": null
               },
               "stanceMin": -0.0029,
@@ -1661,11 +1661,11 @@
               "meritocracyShare": 0.0,
               "civilizationalShare": 0.0,
               "counterShare": 0.0,
-              "netScore": 0.0098,
-              "topkMean": 0.3904,
-              "stanceMean": 0.0098,
-              "salienceTopkMean": 0.3918,
-              "textChurn": 0.5,
+              "netScore": 0.0288,
+              "topkMean": 0.4026,
+              "stanceMean": 0.0386,
+              "salienceTopkMean": 0.4109,
+              "textChurn": 0.3889,
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
@@ -1673,30 +1673,30 @@
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 2
+                "absent": 18
               },
-              "nChunks": 2,
-              "thin": true,
-              "stanceMax": 0.0226,
+              "nChunks": 18,
+              "thin": false,
+              "stanceMax": 0.0947,
               "stanceMaxQuote": {
-                "text": "and Perks We've got it good! At our Palo Alto headquarters, we also offer free breakfast, lunch and dinner at our Cafe. Whether you're looking for healthy salads, or hearty world cuisine from Belize, India, etc., or just a couple slices of pizza, Chef Josef and his team of culinary geniuses in Palo Alto make it happen every day. Life at Facebook Innovation is paramount No matter what part of Faceb",
-                "heading": "Platform & Product Marketing",
+                "text": "We know that passion and commitment has to be paired with rest and balance. We offer 21 days of paid vacation to make sure you take a break once in a while.",
+                "heading": "Paid Time Off (PTO)",
                 "register": "absent",
-                "stanceDiff": 0.0226,
-                "inclusion": 0.3272,
-                "meritocracy": 0.3046,
-                "salience": 0.3272,
+                "stanceDiff": 0.0947,
+                "inclusion": 0.4172,
+                "meritocracy": 0.3225,
+                "salience": 0.4172,
                 "stanceProjection": null
               },
-              "stanceMin": -0.0029,
+              "stanceMin": -0.0388,
               "stanceMinQuote": {
-                "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes. We need help from people who like to move fast, tackle the big stuff, and have an immediate impact. Sound like you?",
-                "heading": "Hello. Facebook is hiring.",
+                "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
+                "heading": "Build stuff that will get used. Fast.",
                 "register": "absent",
-                "stanceDiff": -0.0029,
-                "inclusion": 0.4535,
-                "meritocracy": 0.4564,
-                "salience": 0.4564,
+                "stanceDiff": -0.0388,
+                "inclusion": 0.401,
+                "meritocracy": 0.4397,
+                "salience": 0.4397,
                 "stanceProjection": null
               },
               "bipolarTopkMean": 0.0004,
@@ -1709,11 +1709,11 @@
               "meritocracyShare": 0.0,
               "civilizationalShare": 0.0,
               "counterShare": 0.0,
-              "netScore": 0.0533,
-              "topkMean": 0.3874,
-              "stanceMean": 0.0533,
-              "salienceTopkMean": 0.3874,
-              "textChurn": 1.0,
+              "netScore": 0.0529,
+              "topkMean": 0.4275,
+              "stanceMean": 0.0502,
+              "salienceTopkMean": 0.4353,
+              "textChurn": 0.2778,
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
@@ -1721,30 +1721,30 @@
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 3
+                "absent": 18
               },
-              "nChunks": 3,
-              "thin": true,
-              "stanceMax": 0.0904,
+              "nChunks": 18,
+              "thin": false,
+              "stanceMax": 0.0947,
               "stanceMaxQuote": {
-                "text": "Our employees build and create technology that fundamentally changes how hundreds of millions of people around the world connect and share. Come work with us.",
-                "heading": "Hello. Facebook is hiring.",
+                "text": "We know that passion and commitment has to be paired with rest and balance. We offer 21 days of paid vacation to make sure you take a break once in a while.",
+                "heading": "Paid Time Off (PTO)",
                 "register": "absent",
-                "stanceDiff": 0.0904,
-                "inclusion": 0.4736,
-                "meritocracy": 0.3832,
-                "salience": 0.4736,
+                "stanceDiff": 0.0947,
+                "inclusion": 0.4172,
+                "meritocracy": 0.3225,
+                "salience": 0.4172,
                 "stanceProjection": null
               },
-              "stanceMin": 0.0229,
+              "stanceMin": -0.0388,
               "stanceMinQuote": {
-                "text": "and Perks food We've got it good! At our Palo Alto headquarters, we also offer free breakfast, lunch and dinner at our Cafe. Whether you're looking for healthy salads, or hearty world cuisine from Belize, India, etc., or just a couple slices of pizza, Chef Josef and his team of culinary geniuses in Palo Alto make it happen every day. Life at Facebook life Innovation is paramount No matter what par",
-                "heading": "Platform & Product Marketing",
+                "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
+                "heading": "Build stuff that will get used. Fast.",
                 "register": "absent",
-                "stanceDiff": 0.0229,
-                "inclusion": 0.324,
-                "meritocracy": 0.3011,
-                "salience": 0.324,
+                "stanceDiff": -0.0388,
+                "inclusion": 0.401,
+                "meritocracy": 0.4397,
+                "salience": 0.4397,
                 "stanceProjection": null
               },
               "bipolarTopkMean": 0.041,
@@ -1800,16 +1800,61 @@
               "bipolarMin": 0.0238
             },
             {
-              "year": 2015,
+              "year": 2013,
+              "activeShare": 0.125,
+              "meritocracyShare": 0.0,
+              "civilizationalShare": 0.0,
+              "counterShare": 0.0,
+              "netScore": 0.0589,
+              "topkMean": 0.4626,
+              "stanceMean": 0.0336,
+              "salienceTopkMean": 0.4627,
+              "textChurn": 1.0,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 1,
+                "belonging_culture": 0,
+                "meritocracy": 0,
+                "civilizational_mission": 0,
+                "absent": 7
+              },
+              "nChunks": 8,
+              "thin": false,
+              "stanceMax": 0.184,
+              "stanceMaxQuote": {
+                "text": "At Facebook, we value diversity on an individual level. We’re dedicated to creating an environment where people can be their authentic selves and share their own diverse backgrounds, experiences, perspectives and ideas. Facebook is proud to be an Equal Employment Opportunity and Affirmative Action employer. Facebook participates in the E-Verify program in certain locations, as required by law. Lea",
+                "heading": "When we say “be yourself,” we mean it.",
+                "register": "aspirational_vague",
+                "stanceDiff": 0.184,
+                "inclusion": 0.5678,
+                "meritocracy": 0.3838,
+                "salience": 0.5678,
+                "stanceProjection": null
+              },
+              "stanceMin": -0.0557,
+              "stanceMinQuote": {
+                "text": "To have the biggest impact, we need to focus on solving the most important problems. It sounds simple, but most companies do this poorly and waste a lot of time. We expect everyone at Facebook to be good at finding the biggest problems to work on.",
+                "heading": "Focus on Impact",
+                "register": "absent",
+                "stanceDiff": -0.0557,
+                "inclusion": 0.3404,
+                "meritocracy": 0.3961,
+                "salience": 0.3961,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2014,
               "activeShare": 0.0,
               "meritocracyShare": 0.0,
               "civilizationalShare": 0.0,
               "counterShare": 0.0,
-              "netScore": 0.0447,
-              "topkMean": 0.4305,
-              "stanceMean": 0.0447,
-              "salienceTopkMean": 0.4305,
-              "textChurn": 1.0,
+              "netScore": 0.0085,
+              "topkMean": 0.4121,
+              "stanceMean": 0.0147,
+              "salienceTopkMean": 0.4257,
+              "textChurn": 0.1429,
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
@@ -1817,30 +1862,75 @@
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 7
               },
-              "nChunks": 1,
-              "thin": true,
-              "stanceMax": 0.0447,
+              "nChunks": 7,
+              "thin": false,
+              "stanceMax": 0.0825,
               "stanceMaxQuote": {
-                "text": "Connecting the world takes every one of us Move fast Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make ",
-                "heading": "What’s it like to work at Facebook?",
+                "text": "Facebook was created to make the world more open and connected, not just to build a company. We expect everyone at Facebook to focus every day on how to build real value for the world in everything they do.",
+                "heading": "Build Social Value",
                 "register": "absent",
-                "stanceDiff": 0.0447,
-                "inclusion": 0.4305,
-                "meritocracy": 0.3858,
-                "salience": 0.4305,
+                "stanceDiff": 0.0825,
+                "inclusion": 0.3956,
+                "meritocracy": 0.3131,
+                "salience": 0.3956,
                 "stanceProjection": null
               },
-              "stanceMin": 0.0447,
+              "stanceMin": -0.0557,
               "stanceMinQuote": {
-                "text": "Connecting the world takes every one of us Move fast Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make ",
-                "heading": "What’s it like to work at Facebook?",
+                "text": "To have the biggest impact, we need to focus on solving the most important problems. It sounds simple, but most companies do this poorly and waste a lot of time. We expect everyone at Facebook to be good at finding the biggest problems to work on.",
+                "heading": "Focus on Impact",
                 "register": "absent",
-                "stanceDiff": 0.0447,
-                "inclusion": 0.4305,
-                "meritocracy": 0.3858,
-                "salience": 0.4305,
+                "stanceDiff": -0.0557,
+                "inclusion": 0.3404,
+                "meritocracy": 0.3961,
+                "salience": 0.3961,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2015,
+              "activeShare": 0.0,
+              "meritocracyShare": 0.0,
+              "civilizationalShare": 0.0,
+              "counterShare": 0.0,
+              "netScore": 0.0283,
+              "topkMean": 0.4371,
+              "stanceMean": 0.0142,
+              "salienceTopkMean": 0.4371,
+              "textChurn": 0.375,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "meritocracy": 0,
+                "civilizational_mission": 0,
+                "absent": 8
+              },
+              "nChunks": 8,
+              "thin": false,
+              "stanceMax": 0.0825,
+              "stanceMaxQuote": {
+                "text": "Facebook was created to make the world more open and connected, not just to build a company. We expect everyone at Facebook to focus every day on how to build real value for the world in everything they do.",
+                "heading": "Build Social Value",
+                "register": "absent",
+                "stanceDiff": 0.0825,
+                "inclusion": 0.3956,
+                "meritocracy": 0.3131,
+                "salience": 0.3956,
+                "stanceProjection": null
+              },
+              "stanceMin": -0.0557,
+              "stanceMinQuote": {
+                "text": "To have the biggest impact, we need to focus on solving the most important problems. It sounds simple, but most companies do this poorly and waste a lot of time. We expect everyone at Facebook to be good at finding the biggest problems to work on.",
+                "heading": "Focus on Impact",
+                "register": "absent",
+                "stanceDiff": -0.0557,
+                "inclusion": 0.3404,
+                "meritocracy": 0.3961,
+                "salience": 0.3961,
                 "stanceProjection": null
               },
               "bipolarTopkMean": 0.0866,
@@ -1849,46 +1939,46 @@
             },
             {
               "year": 2016,
-              "activeShare": 0.0,
+              "activeShare": 0.1905,
               "meritocracyShare": 0.0,
               "civilizationalShare": 0.0,
               "counterShare": 0.0,
-              "netScore": 0.0447,
-              "topkMean": 0.4305,
-              "stanceMean": 0.0447,
-              "salienceTopkMean": 0.4305,
-              "textChurn": 0.0,
+              "netScore": 0.0835,
+              "topkMean": 0.5547,
+              "stanceMean": 0.0711,
+              "salienceTopkMean": 0.5547,
+              "textChurn": 0.9524,
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "aspirational_vague": 1,
+                "belonging_culture": 3,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 17
               },
-              "nChunks": 1,
-              "thin": true,
-              "stanceMax": 0.0447,
+              "nChunks": 21,
+              "thin": false,
+              "stanceMax": 0.1586,
               "stanceMaxQuote": {
-                "text": "Connecting the world takes every one of us Move fast Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make ",
-                "heading": "What’s it like to work at Facebook?",
-                "register": "absent",
-                "stanceDiff": 0.0447,
-                "inclusion": 0.4305,
-                "meritocracy": 0.3858,
-                "salience": 0.4305,
+                "text": "Be your authentic self. We're dedicated to creating a workplace where everyone belongs. Hear more from the people who work here.",
+                "heading": "Authentic Self",
+                "register": "belonging_culture",
+                "stanceDiff": 0.1586,
+                "inclusion": 0.6688,
+                "meritocracy": 0.5102,
+                "salience": 0.6688,
                 "stanceProjection": null
               },
-              "stanceMin": 0.0447,
+              "stanceMin": -0.0145,
               "stanceMinQuote": {
-                "text": "Connecting the world takes every one of us Move fast Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make ",
-                "heading": "What’s it like to work at Facebook?",
+                "text": "We don’t have rules, we have values that guide the way we work and the decisions we make. View Facebook's 5 Core Values.",
+                "heading": "Facebook’s Values",
                 "register": "absent",
-                "stanceDiff": 0.0447,
-                "inclusion": 0.4305,
-                "meritocracy": 0.3858,
-                "salience": 0.4305,
+                "stanceDiff": -0.0145,
+                "inclusion": 0.3825,
+                "meritocracy": 0.397,
+                "salience": 0.397,
                 "stanceProjection": null
               },
               "bipolarTopkMean": 0.0866,
@@ -1897,46 +1987,46 @@
             },
             {
               "year": 2017,
-              "activeShare": 0.0,
+              "activeShare": 0.2222,
               "meritocracyShare": 0.0,
               "civilizationalShare": 0.0,
               "counterShare": 0.0,
-              "netScore": 0.0574,
-              "topkMean": 0.4357,
-              "stanceMean": 0.0574,
-              "salienceTopkMean": 0.4357,
-              "textChurn": 1.0,
+              "netScore": 0.0542,
+              "topkMean": 0.5028,
+              "stanceMean": 0.0597,
+              "salienceTopkMean": 0.5028,
+              "textChurn": 0.3333,
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "aspirational_vague": 1,
+                "belonging_culture": 1,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 7
               },
-              "nChunks": 1,
-              "thin": true,
-              "stanceMax": 0.0574,
+              "nChunks": 9,
+              "thin": false,
+              "stanceMax": 0.1673,
               "stanceMaxQuote": {
-                "text": "Connecting the world takes every one of us Move fast Connecting people, building community and bringing the world closer together happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and market",
-                "heading": "What’s it like to work at Facebook?",
-                "register": "absent",
-                "stanceDiff": 0.0574,
-                "inclusion": 0.4357,
-                "meritocracy": 0.3784,
-                "salience": 0.4357,
+                "text": "Facebook hosted a black leadership panel event to give people a safe space to discuss a hot topic in our country today — “How to have candid conversations about race and diversity in the Silicon Valley tech space.” Attendees with a background in tech came together to network, connect, and learn from one another.",
+                "heading": "Facebook hosts Technicolor Black Leadership Panel",
+                "register": "aspirational_vague",
+                "stanceDiff": 0.1673,
+                "inclusion": 0.4094,
+                "meritocracy": 0.2421,
+                "salience": 0.4094,
                 "stanceProjection": null
               },
-              "stanceMin": 0.0574,
+              "stanceMin": -0.0145,
               "stanceMinQuote": {
-                "text": "Connecting the world takes every one of us Move fast Connecting people, building community and bringing the world closer together happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and market",
-                "heading": "What’s it like to work at Facebook?",
+                "text": "We don’t have rules, we have values that guide the way we work and the decisions we make. View Facebook's 5 Core Values.",
+                "heading": "Facebook’s Values",
                 "register": "absent",
-                "stanceDiff": 0.0574,
-                "inclusion": 0.4357,
-                "meritocracy": 0.3784,
-                "salience": 0.4357,
+                "stanceDiff": -0.0145,
+                "inclusion": 0.3825,
+                "meritocracy": 0.397,
+                "salience": 0.397,
                 "stanceProjection": null
               },
               "bipolarTopkMean": 0.1027,
@@ -1945,51 +2035,96 @@
             },
             {
               "year": 2018,
-              "activeShare": 0.0,
+              "activeShare": 0.1429,
               "meritocracyShare": 0.0,
               "civilizationalShare": 0.0,
               "counterShare": 0.0,
-              "netScore": 0.0574,
-              "topkMean": 0.4357,
-              "stanceMean": 0.0574,
-              "salienceTopkMean": 0.4357,
-              "textChurn": 0.0,
+              "netScore": 0.0544,
+              "topkMean": 0.4984,
+              "stanceMean": 0.0502,
+              "salienceTopkMean": 0.4984,
+              "textChurn": 0.2857,
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
                 "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "belonging_culture": 1,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 6
               },
-              "nChunks": 1,
-              "thin": true,
-              "stanceMax": 0.0574,
+              "nChunks": 7,
+              "thin": false,
+              "stanceMax": 0.0945,
               "stanceMaxQuote": {
-                "text": "Connecting the world takes every one of us Move fast Connecting people, building community and bringing the world closer together happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and market",
-                "heading": "What’s it like to work at Facebook?",
-                "register": "absent",
-                "stanceDiff": 0.0574,
-                "inclusion": 0.4357,
-                "meritocracy": 0.3784,
-                "salience": 0.4357,
+                "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
+                "heading": "Be yourself",
+                "register": "belonging_culture",
+                "stanceDiff": 0.0945,
+                "inclusion": 0.6221,
+                "meritocracy": 0.5276,
+                "salience": 0.6221,
                 "stanceProjection": null
               },
-              "stanceMin": 0.0574,
+              "stanceMin": -0.0145,
               "stanceMinQuote": {
-                "text": "Connecting the world takes every one of us Move fast Connecting people, building community and bringing the world closer together happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and market",
-                "heading": "What’s it like to work at Facebook?",
+                "text": "We don’t have rules, we have values that guide the way we work and the decisions we make. View Facebook's 5 Core Values.",
+                "heading": "Facebook’s Values",
                 "register": "absent",
-                "stanceDiff": 0.0574,
-                "inclusion": 0.4357,
-                "meritocracy": 0.3784,
-                "salience": 0.4357,
+                "stanceDiff": -0.0145,
+                "inclusion": 0.3825,
+                "meritocracy": 0.397,
+                "salience": 0.397,
                 "stanceProjection": null
               },
               "bipolarTopkMean": 0.1027,
               "bipolarMax": 0.1027,
               "bipolarMin": 0.1027
+            },
+            {
+              "year": 2019,
+              "activeShare": 0.6667,
+              "meritocracyShare": 0.0,
+              "civilizationalShare": 0.0,
+              "counterShare": 0.0,
+              "netScore": 0.0878,
+              "topkMean": 0.3783,
+              "stanceMean": 0.0878,
+              "salienceTopkMean": 0.3783,
+              "textChurn": 1.0,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 2,
+                "belonging_culture": 0,
+                "meritocracy": 0,
+                "civilizational_mission": 0,
+                "absent": 1
+              },
+              "nChunks": 3,
+              "thin": true,
+              "stanceMax": 0.1074,
+              "stanceMaxQuote": {
+                "text": "Jumpstart your career – and do important work. An internship program for students from underrepresented communities. Move Fast. Be Bold. Be Yourself. Diversity is a must-have for Facebook, not an option. Veterans play a key role in helping us achieve our mission. Learn about our hiring process and what to expect. We make sure you have the resources and care for you to thrive. You have questions? W",
+                "heading": "",
+                "register": "aspirational_vague",
+                "stanceDiff": 0.1074,
+                "inclusion": 0.4267,
+                "meritocracy": 0.3193,
+                "salience": 0.4267,
+                "stanceProjection": null
+              },
+              "stanceMin": 0.0624,
+              "stanceMinQuote": {
+                "text": "So far, we've connected more than 2 billion people — which means we still have more than 5 billion to go. The scale and complexity of our work are unprecedented, and the work we do makes a real difference in the lives of people around the world. Over time, we’ve expanded the Facebook family to include Instagram, WhatsApp, Messenger, Augmented & Virtual Reality, and Facebook Connectivity — but when",
+                "heading": "Build Social Value",
+                "register": "absent",
+                "stanceDiff": 0.0624,
+                "inclusion": 0.2787,
+                "meritocracy": 0.2163,
+                "salience": 0.2787,
+                "stanceProjection": null
+              }
             },
             {
               "year": 2025,
@@ -2045,10 +2180,10 @@
               "meritocracyShare": 0.0,
               "civilizationalShare": 0.0,
               "counterShare": 0.0,
-              "netScore": 0.0343,
-              "topkMean": 0.1564,
-              "stanceMean": 0.035,
-              "salienceTopkMean": 0.1564,
+              "netScore": 0.043,
+              "topkMean": 0.1892,
+              "stanceMean": 0.0381,
+              "salienceTopkMean": 0.1892,
               "textChurn": 1.0,
               "registers": {
                 "explicit_demographic": 0,
@@ -2057,19 +2192,19 @@
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 8
+                "absent": 11
               },
-              "nChunks": 8,
+              "nChunks": 11,
               "thin": false,
-              "stanceMax": 0.0424,
+              "stanceMax": 0.051,
               "stanceMaxQuote": {
-                "text": "From Oakley Meta Vanguard to Oakley Meta HTSN, this is the next evolution of AI glasses. Oakley and Meta have joined forces to bring AI glasses to sports and everyday lifestyles, combining Oakley's eye-catching style with Meta's innovative wearable and AI technology. Built for life on the field, trail, or track, with everyday use cases, Oakley Meta is here to evolve sport and enhance performance. ",
+                "text": "Our next-generation Ray-Ban Meta glasses let you interact with AI wherever you go — hands-free. Take photos and videos, listen to music, chat with friends, even livestream on social media. They’re comfortable and stylish, with exceptional visual and sound quality. Our first AR glasses prototype — something we’ve been working on for nearly a decade — has arrived. Wireless, with a wide FOV display a",
                 "heading": "We build awesome things",
                 "register": "absent",
-                "stanceDiff": 0.0424,
-                "inclusion": 0.1696,
-                "meritocracy": 0.1272,
-                "salience": 0.1696,
+                "stanceDiff": 0.051,
+                "inclusion": 0.1784,
+                "meritocracy": 0.1274,
+                "salience": 0.1784,
                 "stanceProjection": null
               },
               "stanceMin": 0.0195,
@@ -7920,6 +8055,40 @@
           "text": "We track the representation of our workforce because we know that diversity helps us build the best possible customer experiences and products for our globally diverse customer base.",
           "heading": "Our workforce data",
           "score": 0.6764
+        }
+      ]
+    },
+    {
+      "company": "meta",
+      "displayName": "Meta",
+      "quotes": [
+        {
+          "year": 2009,
+          "register": "belonging_culture",
+          "text": "We pair innovation and passion with cutting loose and having fun: racing around on RipStiks; playing Bughouse chess, a hand of poker, or a game of Risk; rocking out in our music room; and embarking on all-night coding binges for new features and ideas. Our language team rewrites the site in Pirate English, just for kicks. (Why upload photos when you can \"hoist a portrait\"?) There's also an Ultimat",
+          "heading": "How We Roll",
+          "score": 0.4042
+        },
+        {
+          "year": 2013,
+          "register": "aspirational_vague",
+          "text": "At Facebook, we value diversity on an individual level. We’re dedicated to creating an environment where people can be their authentic selves and share their own diverse backgrounds, experiences, perspectives and ideas. Facebook is proud to be an Equal Employment Opportunity and Affirmative Action employer. Facebook participates in the E-Verify program in certain locations, as required by law. Lea",
+          "heading": "When we say “be yourself,” we mean it.",
+          "score": 0.5678
+        },
+        {
+          "year": 2018,
+          "register": "belonging_culture",
+          "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
+          "heading": "Be yourself",
+          "score": 0.6221
+        },
+        {
+          "year": 2019,
+          "register": "aspirational_vague",
+          "text": "Jumpstart your career – and do important work. An internship program for students from underrepresented communities. Move Fast. Be Bold. Be Yourself. Diversity is a must-have for Facebook, not an option. Veterans play a key role in helping us achieve our mission. Learn about our hiring process and what to expect. We make sure you have the resources and care for you to thrive. You have questions? W",
+          "heading": "",
+          "score": 0.4295
         }
       ]
     },
@@ -15325,7 +15494,7 @@
         {
           "year": 2009,
           "counts": {
-            "neutral": 1
+            "neutral": 16
           },
           "shares": {
             "affirming_dei": 0.0,
@@ -15334,12 +15503,12 @@
             "performance_elite": 0.0,
             "civilizational_mission": 0.0
           },
-          "nChunks": 1
+          "nChunks": 16
         },
         {
           "year": 2010,
           "counts": {
-            "neutral": 2
+            "neutral": 18
           },
           "shares": {
             "affirming_dei": 0.0,
@@ -15348,12 +15517,12 @@
             "performance_elite": 0.0,
             "civilizational_mission": 0.0
           },
-          "nChunks": 2
+          "nChunks": 18
         },
         {
           "year": 2011,
           "counts": {
-            "neutral": 3
+            "neutral": 18
           },
           "shares": {
             "affirming_dei": 0.0,
@@ -15362,7 +15531,7 @@
             "performance_elite": 0.0,
             "civilizational_mission": 0.0
           },
-          "nChunks": 3
+          "nChunks": 18
         },
         {
           "year": 2012,
@@ -15379,9 +15548,9 @@
           "nChunks": 1
         },
         {
-          "year": 2015,
+          "year": 2013,
           "counts": {
-            "neutral": 1
+            "neutral": 8
           },
           "shares": {
             "affirming_dei": 0.0,
@@ -15390,12 +15559,40 @@
             "performance_elite": 0.0,
             "civilizational_mission": 0.0
           },
-          "nChunks": 1
+          "nChunks": 8
+        },
+        {
+          "year": 2014,
+          "counts": {
+            "neutral": 7
+          },
+          "shares": {
+            "affirming_dei": 0.0,
+            "neutral": 1.0,
+            "mission_focus_apolitical": 0.0,
+            "performance_elite": 0.0,
+            "civilizational_mission": 0.0
+          },
+          "nChunks": 7
+        },
+        {
+          "year": 2015,
+          "counts": {
+            "neutral": 8
+          },
+          "shares": {
+            "affirming_dei": 0.0,
+            "neutral": 1.0,
+            "mission_focus_apolitical": 0.0,
+            "performance_elite": 0.0,
+            "civilizational_mission": 0.0
+          },
+          "nChunks": 8
         },
         {
           "year": 2016,
           "counts": {
-            "neutral": 1
+            "neutral": 21
           },
           "shares": {
             "affirming_dei": 0.0,
@@ -15404,12 +15601,12 @@
             "performance_elite": 0.0,
             "civilizational_mission": 0.0
           },
-          "nChunks": 1
+          "nChunks": 21
         },
         {
           "year": 2017,
           "counts": {
-            "neutral": 1
+            "neutral": 9
           },
           "shares": {
             "affirming_dei": 0.0,
@@ -15418,12 +15615,12 @@
             "performance_elite": 0.0,
             "civilizational_mission": 0.0
           },
-          "nChunks": 1
+          "nChunks": 9
         },
         {
           "year": 2018,
           "counts": {
-            "neutral": 1
+            "neutral": 7
           },
           "shares": {
             "affirming_dei": 0.0,
@@ -15432,7 +15629,21 @@
             "performance_elite": 0.0,
             "civilizational_mission": 0.0
           },
-          "nChunks": 1
+          "nChunks": 7
+        },
+        {
+          "year": 2019,
+          "counts": {
+            "neutral": 3
+          },
+          "shares": {
+            "affirming_dei": 0.0,
+            "neutral": 1.0,
+            "mission_focus_apolitical": 0.0,
+            "performance_elite": 0.0,
+            "civilizational_mission": 0.0
+          },
+          "nChunks": 3
         },
         {
           "year": 2025,

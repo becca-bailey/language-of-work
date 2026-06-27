@@ -256,24 +256,24 @@
           "years": [
             {
               "year": 2009,
-              "fractionPresent": 1.0,
-              "topkMean": 0.6036,
-              "nChunks": 1,
-              "thin": true
+              "fractionPresent": 0.5625,
+              "topkMean": 0.4481,
+              "nChunks": 16,
+              "thin": false
             },
             {
               "year": 2010,
-              "fractionPresent": 1.0,
-              "topkMean": 0.4783,
-              "nChunks": 2,
-              "thin": true
+              "fractionPresent": 0.6111,
+              "topkMean": 0.4498,
+              "nChunks": 18,
+              "thin": false
             },
             {
               "year": 2011,
-              "fractionPresent": 1.0,
-              "topkMean": 0.3884,
-              "nChunks": 3,
-              "thin": true
+              "fractionPresent": 0.6667,
+              "topkMean": 0.4285,
+              "nChunks": 18,
+              "thin": false
             },
             {
               "year": 2012,
@@ -283,31 +283,52 @@
               "thin": true
             },
             {
+              "year": 2013,
+              "fractionPresent": 1.0,
+              "topkMean": 0.453,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4332,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
               "year": 2015,
               "fractionPresent": 1.0,
-              "topkMean": 0.4449,
-              "nChunks": 1,
-              "thin": true
+              "topkMean": 0.4649,
+              "nChunks": 8,
+              "thin": false
             },
             {
               "year": 2016,
-              "fractionPresent": 1.0,
-              "topkMean": 0.4449,
-              "nChunks": 1,
-              "thin": true
+              "fractionPresent": 0.619,
+              "topkMean": 0.4585,
+              "nChunks": 21,
+              "thin": false
             },
             {
               "year": 2017,
-              "fractionPresent": 1.0,
-              "topkMean": 0.4362,
-              "nChunks": 1,
-              "thin": true
+              "fractionPresent": 0.7778,
+              "topkMean": 0.4482,
+              "nChunks": 9,
+              "thin": false
             },
             {
               "year": 2018,
               "fractionPresent": 1.0,
-              "topkMean": 0.4362,
-              "nChunks": 1,
+              "topkMean": 0.439,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "fractionPresent": 0.6667,
+              "topkMean": 0.3279,
+              "nChunks": 3,
               "thin": true
             },
             {
@@ -320,8 +341,8 @@
             {
               "year": 2026,
               "fractionPresent": 0.0,
-              "topkMean": 0.1674,
-              "nChunks": 8,
+              "topkMean": 0.1871,
+              "nChunks": 11,
               "thin": false
             }
           ]
@@ -1443,17 +1464,17 @@
       "score": 0.5742
     },
     {
-      "id": "ca0ff1d1380f",
+      "id": "ae54c3b352d4",
       "stance": "move_fast",
       "stanceLabel": "Move fast",
       "stanceNote": "Speed and scale as hiring pitch.",
       "company": "meta",
       "displayName": "Meta",
-      "year": 2016,
+      "year": 2011,
       "source": "careers",
-      "text": "Connecting the world takes every one of us Move fast Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make ",
-      "heading": "What’s it like to work at Facebook?",
-      "score": 0.4449
+      "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
+      "heading": "Build stuff that will get used. Fast.",
+      "score": 0.5046
     },
     {
       "id": "91ad4a3482a4",

@@ -26,21 +26,81 @@
 
 - Innovate and make friends. No matter what part of Facebook you join, you'll be building something big and new. We welcome pioneers. In fact, we insist on them. Learn more about our culture. Work well. At our Menlo Park headquarters, we also offer free breakfast, lunch and dinner at our Cafe. Learn more about our benefits.
 
-## 2015 (1 chunks)
+## 2013 (8 chunks)
+
+- **When we say “be yourself,” we mean it.** — At Facebook, we value diversity on an individual level. We’re dedicated to creating an environment where people can be their authentic selves and share their own diverse backgrounds, experiences, perspectives and ideas. Facebook is proud to be an Equal Employment Opportunity and Affirmative Action employer. Facebook participates in the E-Verify program in certain locations, as required by law. Learn more about diversity at Facebook.
+- **Be Open** — We believe that a more open world is a better world. The same goes for our company. Informed people make better decisions and have a greater impact, which is why we work hard to make sure everyone at Facebook has access to as much information about the company as possible.
+- **Be Bold** — We have another saying: “The riskiest thing is to take no risks.” In a world that’s changing so quickly, you’re guaranteed to fail if you don’t take any risks. We encourage everyone to make bold decisions, even if that means being wrong some of the time.
+- **Focus on Impact** — To have the biggest impact, we need to focus on solving the most important problems. It sounds simple, but most companies do this poorly and waste a lot of time. We expect everyone at Facebook to be good at finding the biggest problems to work on.
+- **Move Fast** — We have a saying: “Move fast and break things.” The idea is that if you never break anything, you’re probably not moving fast enough. At Facebook, we’re less afraid of making mistakes than we are of losing opportunities.
+- **Build Social Value** — Facebook was created to make the world more open and connected, not just to build a company. We expect everyone at Facebook to focus every day on how to build real value for the world in everything they do.
+- **We’re making the world more open and connected. Want to help?** — Working at Facebook means doing what you love. We hire trailblazers, hackers and pioneers. We want people who can solve challenging problems, make a real impact and build something big. You should join us.
+- **What’s it really like to work at Facebook?** — Hear from our team about what we hold important and how we get things done. Make an Impact. Work at Facebook.
+
+## 2014 (7 chunks)
+
+- **Be Open** — We believe that a more open world is a better world. The same goes for our company. Informed people make better decisions and have a greater impact, which is why we work hard to make sure everyone at Facebook has access to as much information about the company as possible.
+- **We’re making the world more open and connected. Want to help?** — Working at Facebook means doing what you love. We hire trailblazers, hackers and pioneers. We want people who can solve challenging problems, make a real impact and build something big. You should join us. For contractor opportunities at Facebook, click here.
+- **Be Bold** — We have another saying: “The riskiest thing is to take no risks.” In a world that’s changing so quickly, you’re guaranteed to fail if you don’t take any risks. We encourage everyone to make bold decisions, even if that means being wrong some of the time.
+- **Focus on Impact** — To have the biggest impact, we need to focus on solving the most important problems. It sounds simple, but most companies do this poorly and waste a lot of time. We expect everyone at Facebook to be good at finding the biggest problems to work on.
+- **Move Fast** — We have a saying: “Move fast and break things.” The idea is that if you never break anything, you’re probably not moving fast enough. At Facebook, we’re less afraid of making mistakes than we are of losing opportunities.
+- **Build Social Value** — Facebook was created to make the world more open and connected, not just to build a company. We expect everyone at Facebook to focus every day on how to build real value for the world in everything they do.
+- **What’s it really like to work at Facebook?** — Hear from our team about what we hold important and how we get things done. Make an Impact. Work at Facebook.
+
+## 2015 (8 chunks)
 
 - **What’s it like to work at Facebook?** — Connecting the world takes every one of us Move fast Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make an impact. When you’re in charge of making a difference, there’s no limit to what you can do.
+- **Be Open** — We believe that a more open world is a better world. The same goes for our company. Informed people make better decisions and have a greater impact, which is why we work hard to make sure everyone at Facebook has access to as much information about the company as possible.
+- **Be Bold** — We have another saying: “The riskiest thing is to take no risks.” In a world that’s changing so quickly, you’re guaranteed to fail if you don’t take any risks. We encourage everyone to make bold decisions, even if that means being wrong some of the time.
+- **Focus on Impact** — To have the biggest impact, we need to focus on solving the most important problems. It sounds simple, but most companies do this poorly and waste a lot of time. We expect everyone at Facebook to be good at finding the biggest problems to work on.
+- **Move Fast** — We have a saying: “Move fast and break things.” The idea is that if you never break anything, you’re probably not moving fast enough. At Facebook, we’re less afraid of making mistakes than we are of losing opportunities.
+- **Build Social Value** — Facebook was created to make the world more open and connected, not just to build a company. We expect everyone at Facebook to focus every day on how to build real value for the world in everything they do.
+- **We’re making the world more open and connected. Want to help?** — Working at Facebook means doing what you love. We hire trailblazers, hackers and pioneers. We want people who can solve challenging problems, make a real impact and build something big. You should join us.
+- **What’s it really like to work at Facebook?** — Hear from our team about what we hold important and how we get things done. Facebook #1: Highest Rated Companies for Internships (Glassdoo...
 
-## 2016 (1 chunks)
+## 2016 (13 chunks)
 
 - **What’s it like to work at Facebook?** — Connecting the world takes every one of us Move fast Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make an impact. When you’re in charge of making a difference, there’s no limit to what you can do.
+- **Positions in Menlo Park, CA - Dublin, Ireland - Singapore** — Our mission of making the world more open and connected influences the way we work at Facebook in unique and meaningful ways. This sense of purpose is what inspires us to connect over a billion active users every day. This past month Facebook celebrated International Women's History month by raising the visibility of women of small businesses and the voices of women across the globe as a whole. Here's more abut these initiatives.
+- **Be bold** — We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make an impact. When you’re in charge of making a difference, there’s no limit to what you can do.
+- **Health** — We’re committed to building a healthy community—one person at a time. But health is more than just getting the care you need. It’s about getting and staying healthy in all areas of your life. Our programs can help you do just that.
+- **Community** — As we build a more connected world, it's important that we stay connected to each other. You can join a Facebook Club or create your own. We provide funding and support to help you make meaningful friendships at Facebook.
+- **Family** — We strive to be a great place to work for people with families. Our programs make it easier and give you an extra hand to make sure your family feels cared for at every stage of life.
+- **Be yourself** — Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.
+- **Convenience** — We want to make your workspace as convenient as possible so you can focus on connecting the world. Every office is unique to meet your needs, save you time and help you focus.
+- **Move fast** — Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.
+- **Do the most meaningful work of your career** — People are at the heart of every connection we build. We design products and deliver services that create a more human world — one connection at a time.
+- **Authentic Self** — Be your authentic self. We're dedicated to creating a workplace where everyone belongs. Hear more from the people who work here.
+- **Facebook’s Values** — We don’t have rules, we have values that guide the way we work and the decisions we make. View Facebook's 5 Core Values.
+- **What’s it like to work at Facebook?** — Hear from our team about what we hold important and how we get things done. Connecting the world takes every one of us
 
-## 2017 (1 chunks)
+## 2017 (9 chunks)
 
 - **What’s it like to work at Facebook?** — Connecting the world takes every one of us Move fast Connecting people, building community and bringing the world closer together happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make an impact. When you’re in charge of making a difference, there’s no limit to what you can do.
+- **Facebook hosts Technicolor Black Leadership Panel** — Facebook hosted a black leadership panel event to give people a safe space to discuss a hot topic in our country today — “How to have candid conversations about race and diversity in the Silicon Valley tech space.” Attendees with a background in tech came together to network, connect, and learn from one another.
+- **Facebook Clonee Data Center Ireland** — The Clonee data center will be Facebook's first in Ireland and follows Luleå, in Sweden, as our second in Europe. The facility will be part of the infrastructure that enables billions of people to connect with the people and things they care about on Facebook, Messenger, Instagram and more.
+- **Be bold** — We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make an impact. When you’re in charge of making a difference, there’s no limit to what you can do.
+- **Be yourself** — Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.
+- **Move fast** — Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.
+- **Do the most meaningful work of your career** — People are at the heart of every connection we build. We design products and deliver services that create a more human world — one connection at a time.
+- **Facebook’s Values** — We don’t have rules, we have values that guide the way we work and the decisions we make. View Facebook's 5 Core Values.
+- **What’s it like to work at Facebook?** — Hear from our team about what we hold important and how we get things done. Connecting the world takes every one of us
 
-## 2018 (1 chunks)
+## 2018 (7 chunks)
 
 - **What’s it like to work at Facebook?** — Connecting the world takes every one of us Move fast Connecting people, building community and bringing the world closer together happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make an impact. When you’re in charge of making a difference, there’s no limit to what you can do.
+- **Be bold** — We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make an impact. When you’re in charge of making a difference, there’s no limit to what you can do.
+- **Move fast** — Connecting people, building community and bringing the world closer together happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.
+- **Be yourself** — Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.
+- **Do the most meaningful work of your career** — People are at the heart of every connection we build. We design products and deliver services that bring the world closer together — one connection at a time.
+- **Facebook’s Values** — We don’t have rules, we have values that guide the way we work and the decisions we make. View Facebook's 5 Core Values.
+- **What’s it like to work at Facebook?** — Hear from our team about what we hold important and how we get things done. Connecting the world takes every one of us
+
+## 2019 (3 chunks)
+
+- Jumpstart your career – and do important work. An internship program for students from underrepresented communities. Move Fast. Be Bold. Be Yourself. Diversity is a must-have for Facebook, not an option. Veterans play a key role in helping us achieve our mission. Learn about our hiring process and what to expect. We make sure you have the resources and care for you to thrive. You have questions? We have answers. Jumpstart your career at Facebook and do exciting work. Every day, we encourage you to bring your authentic self to work. People are at the heart of every connection we build. We design products and deliver services that bring the world closer together — one connection at a time. At Facebook, you’ll do the best work of your career. Every day, you’ll have new problems to solve—and meet new people to learn from. And we’re committed to supporting the learning you need to grow. In everything we do, we’re guided by five core values.
+- Jumpstart your career – and do important work. An internship program for students from underrepresented communities. Move Fast. Be Bold. Be Yourself. Diversity is a must-have for Facebook, not an option. Veterans play a key role in helping us achieve our mission. Learn about our hiring process and what to expect. We make sure you have the resources and care for you to thrive. You have questions? We have answers. Jumpstart your career at Facebook and do exciting work. Every day, we encourage you to bring your authentic self to work.
+- **Build Social Value** — So far, we've connected more than 2 billion people — which means we still have more than 5 billion to go. The scale and complexity of our work are unprecedented, and the work we do makes a real difference in the lives of people around the world. Over time, we’ve expanded the Facebook family to include Instagram, WhatsApp, Messenger, Augmented & Virtual Reality, and Facebook Connectivity — but when it comes to bringing the world closer together, we’re just getting started.
 
 ## 2025 (8 chunks)
 
