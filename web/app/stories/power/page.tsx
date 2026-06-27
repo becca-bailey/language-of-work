@@ -59,14 +59,18 @@ export default async function PowerStoryPage() {
 
       <div className="mt-12 max-w-prose space-y-2 text-xs text-neutral-500">
         <p>
-          <strong>How to read it.</strong> Across {data.companies.length} companies, two
-          signals rise and fall with the worker-power band: <em>idealism</em> (the
-          industry-optimism barometer) and <em>DEI</em> (the worker-oriented intervention) —
-          both ~+0.75 correlation with the quits rate (smoothed). <em>Performance/intensity</em>{" "}
-          stays flat near the top regardless: it serves whoever can hire and fire, so it
-          needs no leverage to survive. Idealism co-moves not because it serves workers
-          (workers are cynical of &ldquo;change the world&rdquo; talk) but because lofty talk
-          and worker leverage both ride the same boom.
+          <strong>How to read it.</strong> Across {data.companies.length} companies,{" "}
+          <em>idealism</em> (the optimism barometer) and <em>DEI</em> (the worker-oriented
+          intervention) both track the worker-power band (~+0.75 smoothed correlation with
+          the quits rate). <em>Performance/intensity</em> stays flat near the top
+          regardless — it serves whoever can hire and fire, so it needs no leverage to
+          survive. <em>Wellbeing/balance</em>, the worker concession, is the honest
+          surprise: even scored over both mission and benefits copy it stays flat and only
+          weakly co-moves (~+0.35 smoothed), and the benefits corpus is thin (≈135 chunks),
+          so it is under-measured here — job-listing benefit lists would measure it
+          properly. Idealism co-moves not because it serves workers (workers
+          are cynical of &ldquo;change the world&rdquo; talk) but because lofty talk and
+          worker leverage both ride the same boom.
         </p>
         <p>
           <strong>Honesty.</strong> {data.companiesNote} {data.power.caveat} This is

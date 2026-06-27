@@ -1,0 +1,31 @@
+# Wellbeing axis: work-life balance / care <-> intensity / sacrifice
+#
+# The worker-care "concession" framing vs the all-in sacrifice framing. Distinct from the
+# performance axis (which measures performance-language presence): this measures whether
+# the copy leans toward protecting people (balance, rest, sustainability, wellbeing) or
+# toward demanding sacrifice (long hours, grind, all-in, relentless). Tracks the
+# concession that rose then receded. Poles in corporate careers register, generic (no
+# verbatim corpus lifts), per the build_axes circularity discipline.
+name: wellbeing
+pole_a:
+  label: wellbeing_balance
+  sentences:
+    - "We support a healthy work-life balance and a sustainable pace."
+    - "Your wellbeing matters — we offer generous time off and encourage real rest."
+    - "We care about mental health and actively guard against burnout."
+    - "Take the time you need to recharge; rested people do their best work."
+    - "Flexible schedules let you fit work around your life, not the other way around."
+    - "We invest in our people's health, families, and lives outside of work."
+    - "Sustainable, humane workloads are part of how we operate."
+    - "Excellent work should never come at the cost of your health or your life outside it."
+pole_b:
+  label: intensity_sacrifice
+  sentences:
+    - "We work long hours at high intensity and expect total commitment."
+    - "This is not a job for the faint of heart; we go all in."
+    - "We move fast and grind to win, whatever it takes."
+    - "The pace is relentless and the work is demanding."
+    - "We expect people to be all-in on the mission, around the clock."
+    - "Comfort is not the goal; we push hard and sacrifice for results."
+    - "Hard work and hustle define how we operate here."
+    - "We hold an intense bar and accept nothing less than maximum effort."

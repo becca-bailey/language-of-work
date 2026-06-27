@@ -20,6 +20,7 @@ const COLOR: Record<string, string> = {
   optimism: "#6366f1",
   workers: "#10b981",
   management: "#ef4444",
+  wellbeing: "#14b8a6",
 };
 
 type Tip =

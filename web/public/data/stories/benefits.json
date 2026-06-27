@@ -1,0 +1,1105 @@
+{
+  "story": "benefits",
+  "title": "How the perks changed",
+  "subtitle": "Which benefits companies advertised, and how the list shifted over time.",
+  "intro": "Benefit categories mentioned in job listings and benefits copy across 11 companies, as a share of postings per year. Multi-label (a listing names several). Fertility is also a DEI signal. Keyword-based and uneven year to year — read the shapes, not the exact values.",
+  "caveat": "Self-presentation (what's advertised, not provided); keyword presence misses paraphrase; coverage is thin/uneven per year (n shown). Trends, not precise counts.",
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "totalsByYear": {
+    "2011": 21,
+    "2012": 38,
+    "2013": 76,
+    "2014": 145,
+    "2015": 27,
+    "2016": 43,
+    "2017": 26,
+    "2018": 32,
+    "2019": 13,
+    "2020": 18,
+    "2021": 31,
+    "2022": 39,
+    "2023": 39,
+    "2024": 30,
+    "2025": 42,
+    "2026": 46
+  },
+  "categories": [
+    {
+      "id": "health",
+      "label": "Health insurance",
+      "deiSignal": false,
+      "series": [
+        {
+          "year": 2011,
+          "share": 0.0952,
+          "count": 2,
+          "smoothed": 0.0739
+        },
+        {
+          "year": 2012,
+          "share": 0.0526,
+          "count": 2,
+          "smoothed": 0.0624
+        },
+        {
+          "year": 2013,
+          "share": 0.0395,
+          "count": 3,
+          "smoothed": 0.0445
+        },
+        {
+          "year": 2014,
+          "share": 0.0414,
+          "count": 6,
+          "smoothed": 0.0516
+        },
+        {
+          "year": 2015,
+          "share": 0.0741,
+          "count": 2,
+          "smoothed": 0.0695
+        },
+        {
+          "year": 2016,
+          "share": 0.093,
+          "count": 4,
+          "smoothed": 0.1198
+        },
+        {
+          "year": 2017,
+          "share": 0.1923,
+          "count": 5,
+          "smoothed": 0.1472
+        },
+        {
+          "year": 2018,
+          "share": 0.1562,
+          "count": 5,
+          "smoothed": 0.2188
+        },
+        {
+          "year": 2019,
+          "share": 0.3077,
+          "count": 4,
+          "smoothed": 0.2102
+        },
+        {
+          "year": 2020,
+          "share": 0.1667,
+          "count": 3,
+          "smoothed": 0.2119
+        },
+        {
+          "year": 2021,
+          "share": 0.1613,
+          "count": 5,
+          "smoothed": 0.1691
+        },
+        {
+          "year": 2022,
+          "share": 0.1795,
+          "count": 7,
+          "smoothed": 0.1478
+        },
+        {
+          "year": 2023,
+          "share": 0.1026,
+          "count": 4,
+          "smoothed": 0.1829
+        },
+        {
+          "year": 2024,
+          "share": 0.2667,
+          "count": 8,
+          "smoothed": 0.2024
+        },
+        {
+          "year": 2025,
+          "share": 0.2381,
+          "count": 10,
+          "smoothed": 0.2262
+        },
+        {
+          "year": 2026,
+          "share": 0.1739,
+          "count": 8,
+          "smoothed": 0.206
+        }
+      ],
+      "total": 78,
+      "firstYear": 2011,
+      "peakYear": 2019
+    },
+    {
+      "id": "flexibility",
+      "label": "Flexibility / remote",
+      "deiSignal": false,
+      "series": [
+        {
+          "year": 2011,
+          "share": 0.0952,
+          "count": 2,
+          "smoothed": 0.0871
+        },
+        {
+          "year": 2012,
+          "share": 0.0789,
+          "count": 3,
+          "smoothed": 0.0668
+        },
+        {
+          "year": 2013,
+          "share": 0.0263,
+          "count": 2,
+          "smoothed": 0.042
+        },
+        {
+          "year": 2014,
+          "share": 0.0207,
+          "count": 3,
+          "smoothed": 0.0527
+        },
+        {
+          "year": 2015,
+          "share": 0.1111,
+          "count": 3,
+          "smoothed": 0.0749
+        },
+        {
+          "year": 2016,
+          "share": 0.093,
+          "count": 4,
+          "smoothed": 0.1065
+        },
+        {
+          "year": 2017,
+          "share": 0.1154,
+          "count": 3,
+          "smoothed": 0.0903
+        },
+        {
+          "year": 2018,
+          "share": 0.0625,
+          "count": 2,
+          "smoothed": 0.0593
+        },
+        {
+          "year": 2019,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0394
+        },
+        {
+          "year": 2020,
+          "share": 0.0556,
+          "count": 1,
+          "smoothed": 0.0615
+        },
+        {
+          "year": 2021,
+          "share": 0.129,
+          "count": 4,
+          "smoothed": 0.1043
+        },
+        {
+          "year": 2022,
+          "share": 0.1282,
+          "count": 5,
+          "smoothed": 0.1285
+        },
+        {
+          "year": 2023,
+          "share": 0.1282,
+          "count": 5,
+          "smoothed": 0.1188
+        },
+        {
+          "year": 2024,
+          "share": 0.1,
+          "count": 3,
+          "smoothed": 0.0919
+        },
+        {
+          "year": 2025,
+          "share": 0.0476,
+          "count": 2,
+          "smoothed": 0.1072
+        },
+        {
+          "year": 2026,
+          "share": 0.1739,
+          "count": 8,
+          "smoothed": 0.1108
+        }
+      ],
+      "total": 50,
+      "firstYear": 2011,
+      "peakYear": 2026
+    },
+    {
+      "id": "financial",
+      "label": "Financial / equity",
+      "deiSignal": false,
+      "series": [
+        {
+          "year": 2011,
+          "share": 0.0952,
+          "count": 2,
+          "smoothed": 0.0871
+        },
+        {
+          "year": 2012,
+          "share": 0.0789,
+          "count": 3,
+          "smoothed": 0.0668
+        },
+        {
+          "year": 2013,
+          "share": 0.0263,
+          "count": 2,
+          "smoothed": 0.0443
+        },
+        {
+          "year": 2014,
+          "share": 0.0276,
+          "count": 4,
+          "smoothed": 0.0427
+        },
+        {
+          "year": 2015,
+          "share": 0.0741,
+          "count": 2,
+          "smoothed": 0.0494
+        },
+        {
+          "year": 2016,
+          "share": 0.0465,
+          "count": 2,
+          "smoothed": 0.0658
+        },
+        {
+          "year": 2017,
+          "share": 0.0769,
+          "count": 2,
+          "smoothed": 0.0411
+        },
+        {
+          "year": 2018,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0256
+        },
+        {
+          "year": 2019,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2020,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0108
+        },
+        {
+          "year": 2021,
+          "share": 0.0323,
+          "count": 1,
+          "smoothed": 0.0193
+        },
+        {
+          "year": 2022,
+          "share": 0.0256,
+          "count": 1,
+          "smoothed": 0.0364
+        },
+        {
+          "year": 2023,
+          "share": 0.0513,
+          "count": 2,
+          "smoothed": 0.0701
+        },
+        {
+          "year": 2024,
+          "share": 0.1333,
+          "count": 4,
+          "smoothed": 0.1012
+        },
+        {
+          "year": 2025,
+          "share": 0.119,
+          "count": 5,
+          "smoothed": 0.1276
+        },
+        {
+          "year": 2026,
+          "share": 0.1304,
+          "count": 6,
+          "smoothed": 0.1247
+        }
+      ],
+      "total": 36,
+      "firstYear": 2011,
+      "peakYear": 2024
+    },
+    {
+      "id": "family_caregiving",
+      "label": "Family / caregiving",
+      "deiSignal": false,
+      "series": [
+        {
+          "year": 2011,
+          "share": 0.0952,
+          "count": 2,
+          "smoothed": 0.0871
+        },
+        {
+          "year": 2012,
+          "share": 0.0789,
+          "count": 3,
+          "smoothed": 0.08
+        },
+        {
+          "year": 2013,
+          "share": 0.0658,
+          "count": 5,
+          "smoothed": 0.0551
+        },
+        {
+          "year": 2014,
+          "share": 0.0207,
+          "count": 3,
+          "smoothed": 0.0412
+        },
+        {
+          "year": 2015,
+          "share": 0.037,
+          "count": 1,
+          "smoothed": 0.0502
+        },
+        {
+          "year": 2016,
+          "share": 0.093,
+          "count": 4,
+          "smoothed": 0.069
+        },
+        {
+          "year": 2017,
+          "share": 0.0769,
+          "count": 2,
+          "smoothed": 0.0671
+        },
+        {
+          "year": 2018,
+          "share": 0.0312,
+          "count": 1,
+          "smoothed": 0.0617
+        },
+        {
+          "year": 2019,
+          "share": 0.0769,
+          "count": 1,
+          "smoothed": 0.0361
+        },
+        {
+          "year": 2020,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0471
+        },
+        {
+          "year": 2021,
+          "share": 0.0645,
+          "count": 2,
+          "smoothed": 0.0301
+        },
+        {
+          "year": 2022,
+          "share": 0.0256,
+          "count": 1,
+          "smoothed": 0.0386
+        },
+        {
+          "year": 2023,
+          "share": 0.0256,
+          "count": 1,
+          "smoothed": 0.0282
+        },
+        {
+          "year": 2024,
+          "share": 0.0333,
+          "count": 1,
+          "smoothed": 0.0435
+        },
+        {
+          "year": 2025,
+          "share": 0.0714,
+          "count": 3,
+          "smoothed": 0.0494
+        },
+        {
+          "year": 2026,
+          "share": 0.0435,
+          "count": 2,
+          "smoothed": 0.0575
+        }
+      ],
+      "total": 32,
+      "firstYear": 2011,
+      "peakYear": 2011
+    },
+    {
+      "id": "mental_health",
+      "label": "Mental health / wellness",
+      "deiSignal": false,
+      "series": [
+        {
+          "year": 2011,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2012,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0088
+        },
+        {
+          "year": 2013,
+          "share": 0.0263,
+          "count": 2,
+          "smoothed": 0.0157
+        },
+        {
+          "year": 2014,
+          "share": 0.0207,
+          "count": 3,
+          "smoothed": 0.028
+        },
+        {
+          "year": 2015,
+          "share": 0.037,
+          "count": 1,
+          "smoothed": 0.0425
+        },
+        {
+          "year": 2016,
+          "share": 0.0698,
+          "count": 3,
+          "smoothed": 0.0484
+        },
+        {
+          "year": 2017,
+          "share": 0.0385,
+          "count": 1,
+          "smoothed": 0.0465
+        },
+        {
+          "year": 2018,
+          "share": 0.0312,
+          "count": 1,
+          "smoothed": 0.0232
+        },
+        {
+          "year": 2019,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0104
+        },
+        {
+          "year": 2020,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.043
+        },
+        {
+          "year": 2021,
+          "share": 0.129,
+          "count": 4,
+          "smoothed": 0.0516
+        },
+        {
+          "year": 2022,
+          "share": 0.0256,
+          "count": 1,
+          "smoothed": 0.0687
+        },
+        {
+          "year": 2023,
+          "share": 0.0513,
+          "count": 2,
+          "smoothed": 0.0701
+        },
+        {
+          "year": 2024,
+          "share": 0.1333,
+          "count": 4,
+          "smoothed": 0.0853
+        },
+        {
+          "year": 2025,
+          "share": 0.0714,
+          "count": 3,
+          "smoothed": 0.0827
+        },
+        {
+          "year": 2026,
+          "share": 0.0435,
+          "count": 2,
+          "smoothed": 0.0575
+        }
+      ],
+      "total": 27,
+      "firstYear": 2013,
+      "peakYear": 2024
+    },
+    {
+      "id": "fitness",
+      "label": "Fitness",
+      "deiSignal": false,
+      "series": [
+        {
+          "year": 2011,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0132
+        },
+        {
+          "year": 2012,
+          "share": 0.0263,
+          "count": 1,
+          "smoothed": 0.0132
+        },
+        {
+          "year": 2013,
+          "share": 0.0132,
+          "count": 1,
+          "smoothed": 0.0155
+        },
+        {
+          "year": 2014,
+          "share": 0.0069,
+          "count": 1,
+          "smoothed": 0.019
+        },
+        {
+          "year": 2015,
+          "share": 0.037,
+          "count": 1,
+          "smoothed": 0.0457
+        },
+        {
+          "year": 2016,
+          "share": 0.093,
+          "count": 4,
+          "smoothed": 0.069
+        },
+        {
+          "year": 2017,
+          "share": 0.0769,
+          "count": 2,
+          "smoothed": 0.0566
+        },
+        {
+          "year": 2018,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0256
+        },
+        {
+          "year": 2019,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2020,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0108
+        },
+        {
+          "year": 2021,
+          "share": 0.0323,
+          "count": 1,
+          "smoothed": 0.0193
+        },
+        {
+          "year": 2022,
+          "share": 0.0256,
+          "count": 1,
+          "smoothed": 0.0278
+        },
+        {
+          "year": 2023,
+          "share": 0.0256,
+          "count": 1,
+          "smoothed": 0.0393
+        },
+        {
+          "year": 2024,
+          "share": 0.0667,
+          "count": 2,
+          "smoothed": 0.0466
+        },
+        {
+          "year": 2025,
+          "share": 0.0476,
+          "count": 2,
+          "smoothed": 0.0453
+        },
+        {
+          "year": 2026,
+          "share": 0.0217,
+          "count": 1,
+          "smoothed": 0.0347
+        }
+      ],
+      "total": 18,
+      "firstYear": 2012,
+      "peakYear": 2016
+    },
+    {
+      "id": "food",
+      "label": "Food / perks",
+      "deiSignal": false,
+      "series": [
+        {
+          "year": 2011,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0395
+        },
+        {
+          "year": 2012,
+          "share": 0.0789,
+          "count": 3,
+          "smoothed": 0.0307
+        },
+        {
+          "year": 2013,
+          "share": 0.0132,
+          "count": 1,
+          "smoothed": 0.033
+        },
+        {
+          "year": 2014,
+          "share": 0.0069,
+          "count": 1,
+          "smoothed": 0.0067
+        },
+        {
+          "year": 2015,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0256
+        },
+        {
+          "year": 2016,
+          "share": 0.0698,
+          "count": 3,
+          "smoothed": 0.0489
+        },
+        {
+          "year": 2017,
+          "share": 0.0769,
+          "count": 2,
+          "smoothed": 0.0489
+        },
+        {
+          "year": 2018,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0513
+        },
+        {
+          "year": 2019,
+          "share": 0.0769,
+          "count": 1,
+          "smoothed": 0.0627
+        },
+        {
+          "year": 2020,
+          "share": 0.1111,
+          "count": 2,
+          "smoothed": 0.0627
+        },
+        {
+          "year": 2021,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.037
+        },
+        {
+          "year": 2022,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2023,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2024,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2025,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2026,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        }
+      ],
+      "total": 13,
+      "firstYear": 2012,
+      "peakYear": 2020
+    },
+    {
+      "id": "learning",
+      "label": "Learning / development",
+      "deiSignal": false,
+      "series": [
+        {
+          "year": 2011,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2012,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2013,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2014,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2015,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0233
+        },
+        {
+          "year": 2016,
+          "share": 0.0698,
+          "count": 3,
+          "smoothed": 0.0489
+        },
+        {
+          "year": 2017,
+          "share": 0.0769,
+          "count": 2,
+          "smoothed": 0.0489
+        },
+        {
+          "year": 2018,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0256
+        },
+        {
+          "year": 2019,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2020,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2021,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2022,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0085
+        },
+        {
+          "year": 2023,
+          "share": 0.0256,
+          "count": 1,
+          "smoothed": 0.0085
+        },
+        {
+          "year": 2024,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0085
+        },
+        {
+          "year": 2025,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0072
+        },
+        {
+          "year": 2026,
+          "share": 0.0217,
+          "count": 1,
+          "smoothed": 0.0109
+        }
+      ],
+      "total": 7,
+      "firstYear": 2016,
+      "peakYear": 2017
+    },
+    {
+      "id": "time_off",
+      "label": "Time off",
+      "deiSignal": false,
+      "series": [
+        {
+          "year": 2011,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2012,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2013,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2014,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2015,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2016,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2017,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2018,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2019,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2020,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0215
+        },
+        {
+          "year": 2021,
+          "share": 0.0645,
+          "count": 2,
+          "smoothed": 0.0301
+        },
+        {
+          "year": 2022,
+          "share": 0.0256,
+          "count": 1,
+          "smoothed": 0.0386
+        },
+        {
+          "year": 2023,
+          "share": 0.0256,
+          "count": 1,
+          "smoothed": 0.0282
+        },
+        {
+          "year": 2024,
+          "share": 0.0333,
+          "count": 1,
+          "smoothed": 0.0276
+        },
+        {
+          "year": 2025,
+          "share": 0.0238,
+          "count": 1,
+          "smoothed": 0.019
+        },
+        {
+          "year": 2026,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0119
+        }
+      ],
+      "total": 6,
+      "firstYear": 2021,
+      "peakYear": 2021
+    },
+    {
+      "id": "fertility",
+      "label": "Fertility",
+      "deiSignal": true,
+      "series": [
+        {
+          "year": 2011,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2012,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2013,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2014,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2015,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2016,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2017,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0104
+        },
+        {
+          "year": 2018,
+          "share": 0.0312,
+          "count": 1,
+          "smoothed": 0.0104
+        },
+        {
+          "year": 2019,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0104
+        },
+        {
+          "year": 2020,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2021,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2022,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2023,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0
+        },
+        {
+          "year": 2024,
+          "share": 0.0,
+          "count": 0,
+          "smoothed": 0.0079
+        },
+        {
+          "year": 2025,
+          "share": 0.0238,
+          "count": 1,
+          "smoothed": 0.0152
+        },
+        {
+          "year": 2026,
+          "share": 0.0217,
+          "count": 1,
+          "smoothed": 0.0228
+        }
+      ],
+      "total": 3,
+      "firstYear": 2018,
+      "peakYear": 2018
+    }
+  ]
+}

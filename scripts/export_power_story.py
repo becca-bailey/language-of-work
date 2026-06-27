@@ -15,10 +15,12 @@ Writes web/public/data/stories/power.json.
 
 from __future__ import annotations
 
+import numpy as np
 import pandas as pd
 
+from lowork.axes import project
 from lowork.company import CompanyProfile
-from lowork.config import ROOT, company_dir
+from lowork.config import AXES_DIR, ROOT, TOP_K, company_dir
 from lowork.io import read_json, write_json
 
 STORIES = ROOT / "web" / "public" / "data" / "stories"
@@ -42,6 +44,31 @@ def _idealism_per_company() -> dict[str, dict[int, float]]:
         df = pd.read_parquet(p)
         out[c] = {int(r.year): float(r.world_topk) for r in df.itertuples()
                   if int(r.world_n) > 0 and pd.notna(r.world_topk)}
+    return out
+
+
+def _wellbeing_per_company() -> dict[str, dict[int, float]]:
+    """Wellbeing projection (balance↔sacrifice) per company, scored over BOTH mission_brand
+    AND benefits_perks chunks — benefits copy is where wellbeing actually lives (81% of it),
+    so restricting to mission_brand undercounted it badly. Top-k chunk projection per year."""
+    vec = np.asarray(read_json(AXES_DIR / "built" / "wellbeing.json")["vector"], dtype=np.float32)
+    out: dict[str, dict[int, float]] = {}
+    for c in COHORT:
+        p = company_dir(c) / "embeddings.parquet"
+        if not p.exists():
+            continue
+        df = pd.read_parquet(p)
+        sub = df[df["label"].isin(["mission_brand", "benefits_perks"])]
+        if sub.empty:
+            continue
+        proj = project(np.stack(sub["embedding"].tolist()).astype(np.float32), vec)
+        sub = sub.assign(_w=proj)
+        d = {}
+        for y, g in sub.groupby("year"):
+            top = sorted(g["_w"].tolist(), reverse=True)[:TOP_K]
+            d[int(y)] = sum(top) / len(top)
+        if d:
+            out[c] = d
     return out
 
 
@@ -123,6 +150,10 @@ def main() -> None:
             "dei", "DEI language — worker-oriented (conditional)", "workers",
             "surged ~2021, rolled back from 2023",
             _per_company_from_story(dei, "activeShare")),
+        _metric_block(
+            "wellbeing", "Wellbeing / balance — worker concession", "wellbeing",
+            "the balance/rest framing — given in the boom, quietly withdrawn",
+            _wellbeing_per_company()),
         _metric_block(
             "performance", "Performance / intensity — management-serving (constant)",
             "management", "needs no leverage to survive — the constant substrate",

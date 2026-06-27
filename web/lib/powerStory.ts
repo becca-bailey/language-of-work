@@ -16,7 +16,7 @@ export interface PowerCompanySeries {
 export interface PowerMetric {
   id: string;
   label: string;
-  benefits: "workers" | "management" | "optimism";
+  benefits: "workers" | "management" | "optimism" | "wellbeing";
   note: string;
   series: PowerSeriesPoint[];
   perCompany: PowerCompanySeries[];

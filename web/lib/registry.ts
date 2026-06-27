@@ -63,6 +63,13 @@ export const STORIES: StoryMeta[] = [
       "Who belongs at each company, in their careers pages' own words — from belonging-first to an explicit elite filter.",
     study: "careers",
   },
+  {
+    slug: "benefits",
+    title: "How the perks changed",
+    teaser:
+      "Which benefits companies advertised over time — fitness and free food fading, mental-health and remote rising, fertility (also a DEI signal) growing.",
+    study: "careers",
+  },
 ];
 
 export function storiesByStudy(): { study: StudyMeta; stories: StoryMeta[] }[] {
