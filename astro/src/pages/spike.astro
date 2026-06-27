@@ -1,0 +1,55 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import PowerCultureChart from "@/components/PowerCultureChart";
+import BenefitsChart from "@/components/BenefitsChart";
+import { loadPowerStory } from "@/lib/powerStory";
+
+// Phase 0 GO/NO-GO spike: one island chart + one static chart on one page.
+const power = await loadPowerStory();
+---
+
+<Layout title="Phase 0 spike">
+  <main class="mx-auto w-full max-w-4xl flex-1 px-6 py-12">
+    <h1 class="text-3xl font-semibold tracking-tight">Phase 0 spike</h1>
+    <p class="mt-2 text-neutral-600 dark:text-neutral-400">
+      PowerCultureChart (island, client:only) + BenefitsChart (static, no JS).
+    </p>
+
+    {power && (
+      <section class="mt-10">
+        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+          Island: PowerCultureChart
+        </h2>
+        <div class="mt-4">
+          <PowerCultureChart data={power} client:only="react" />
+        </div>
+      </section>
+    )}
+
+    <section class="mt-12">
+      <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+        Static: BenefitsChart (placeholder demo data)
+      </h2>
+      <div class="mt-4">
+        <BenefitsChart
+          categories={[
+            {
+              id: "demo",
+              label: "Demo benefit",
+              deiSignal: false,
+              total: 3,
+              firstYear: 2018,
+              peakYear: 2020,
+              series: [
+                { year: 2018, share: 0.1, count: 1, smoothed: 0.1 },
+                { year: 2019, share: 0.3, count: 2, smoothed: 0.2 },
+                { year: 2020, share: 0.5, count: 3, smoothed: 0.4 },
+              ],
+            },
+          ]}
+          years={[2018, 2019, 2020]}
+        />
+      </div>
+    </section>
+  </main>
+</Layout>
