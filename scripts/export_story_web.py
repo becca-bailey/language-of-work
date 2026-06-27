@@ -14,7 +14,8 @@ from lowork.config import DATA_DIR, ROOT, TOP_K, company_dir
 from lowork.dei import COUNTER_DEI_REGISTERS, DEI_REGISTERS
 from lowork.io import read_json, write_json
 
-STORY_COMPANIES = ["google", "amazon", "meta", "palantir", "coinbase", "netflix"]
+STORY_COMPANIES = ["google", "amazon", "meta", "palantir", "coinbase", "netflix",
+                   "shopify", "stripe", "airbnb", "brex", "snap"]
 DEI_VIEW_EXCLUDED: set[str] = set()
 # Meta careers copy scores high on inclusion embeddings without workforce DEI rhetoric.
 ENVELOPE_EXCLUDED: set[str] = {"meta"}

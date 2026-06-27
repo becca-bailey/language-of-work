@@ -31,6 +31,13 @@ export const STUDIES: StudyMeta[] = [
 
 export const STORIES: StoryMeta[] = [
   {
+    slug: "power",
+    title: "Culture is downstream of power",
+    teaser:
+      "Worker-serving language (DEI) tracks worker power and collapses when it falls; the management-serving substrate (performance) never moves.",
+    study: "careers",
+  },
+  {
     slug: "dei",
     title: "DEI Language",
     teaser: "Industry-wide adoption, retraction, and counter-programming on careers pages.",

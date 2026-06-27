@@ -1,0 +1,195 @@
+{
+  "source": "FRED JOLTS Quits Rate (JTSQUR), annual mean of monthly observations.",
+  "metric": "quitsRate",
+  "metricLabel": "Worker power — JOLTS quits rate (% / month, annual mean)",
+  "caveat": "Economy-wide quits rate, not tech-only — a proxy for worker bargaining power; tech tracked the national swing. Co-movement, not causation.",
+  "quits": [
+    {
+      "year": 2000,
+      "quitsRate": 2.2,
+      "nMonths": 1
+    },
+    {
+      "year": 2001,
+      "quitsRate": 2.208,
+      "nMonths": 12
+    },
+    {
+      "year": 2002,
+      "quitsRate": 1.95,
+      "nMonths": 12
+    },
+    {
+      "year": 2003,
+      "quitsRate": 1.817,
+      "nMonths": 12
+    },
+    {
+      "year": 2004,
+      "quitsRate": 1.942,
+      "nMonths": 12
+    },
+    {
+      "year": 2005,
+      "quitsRate": 2.108,
+      "nMonths": 12
+    },
+    {
+      "year": 2006,
+      "quitsRate": 2.175,
+      "nMonths": 12
+    },
+    {
+      "year": 2007,
+      "quitsRate": 2.092,
+      "nMonths": 12
+    },
+    {
+      "year": 2008,
+      "quitsRate": 1.85,
+      "nMonths": 12
+    },
+    {
+      "year": 2009,
+      "quitsRate": 1.342,
+      "nMonths": 12
+    },
+    {
+      "year": 2010,
+      "quitsRate": 1.425,
+      "nMonths": 12
+    },
+    {
+      "year": 2011,
+      "quitsRate": 1.483,
+      "nMonths": 12
+    },
+    {
+      "year": 2012,
+      "quitsRate": 1.533,
+      "nMonths": 12
+    },
+    {
+      "year": 2013,
+      "quitsRate": 1.675,
+      "nMonths": 12
+    },
+    {
+      "year": 2014,
+      "quitsRate": 1.833,
+      "nMonths": 12
+    },
+    {
+      "year": 2015,
+      "quitsRate": 1.967,
+      "nMonths": 12
+    },
+    {
+      "year": 2016,
+      "quitsRate": 2.083,
+      "nMonths": 12
+    },
+    {
+      "year": 2017,
+      "quitsRate": 2.158,
+      "nMonths": 12
+    },
+    {
+      "year": 2018,
+      "quitsRate": 2.258,
+      "nMonths": 12
+    },
+    {
+      "year": 2019,
+      "quitsRate": 2.317,
+      "nMonths": 12
+    },
+    {
+      "year": 2020,
+      "quitsRate": 2.083,
+      "nMonths": 12
+    },
+    {
+      "year": 2021,
+      "quitsRate": 2.708,
+      "nMonths": 12
+    },
+    {
+      "year": 2022,
+      "quitsRate": 2.758,
+      "nMonths": 12
+    },
+    {
+      "year": 2023,
+      "quitsRate": 2.367,
+      "nMonths": 12
+    },
+    {
+      "year": 2024,
+      "quitsRate": 2.067,
+      "nMonths": 12
+    },
+    {
+      "year": 2025,
+      "quitsRate": 2.017,
+      "nMonths": 12
+    },
+    {
+      "year": 2026,
+      "quitsRate": 1.95,
+      "nMonths": 4
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-03",
+      "label": "COVID shock — mass furloughs/layoffs",
+      "kind": "power_down"
+    },
+    {
+      "date": "2021-01",
+      "label": "Alphabet Workers Union forms",
+      "kind": "power_up"
+    },
+    {
+      "date": "2021-04",
+      "label": "Basecamp “no politics at work” → ~⅓ of staff quit",
+      "kind": "shift"
+    },
+    {
+      "date": "2021-11",
+      "label": "Great Resignation — quits rate peaks (~3%)",
+      "kind": "power_up"
+    },
+    {
+      "date": "2022-11",
+      "label": "Musk buys Twitter; “extremely hardcore” ultimatum",
+      "kind": "shift"
+    },
+    {
+      "date": "2022-11",
+      "label": "Tech layoff wave begins (Meta, Amazon, Twitter)",
+      "kind": "power_down"
+    },
+    {
+      "date": "2023-01",
+      "label": "Google cuts 12,000; layoffs broaden",
+      "kind": "power_down"
+    },
+    {
+      "date": "2023-06",
+      "label": "SCOTUS ends affirmative action (DEI pressure)",
+      "kind": "intervention"
+    },
+    {
+      "date": "2024-09",
+      "label": "Amazon mandates 5-day return-to-office",
+      "kind": "power_down"
+    },
+    {
+      "date": "2025-01",
+      "label": "Meta ends DEI programs",
+      "kind": "intervention"
+    }
+  ]
+}
