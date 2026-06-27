@@ -173,12 +173,13 @@ def main() -> None:
         "story": "power",
         "title": "Culture is downstream of power",
         "subtitle": "The language that rises and falls with workers' leverage — and the part that never needed it.",
-        "thesis": ("Across 11 companies, the optimism barometer (idealism) and the "
-                   "worker-oriented intervention (DEI) both track worker bargaining power "
-                   "(the quits rate) — they ride the boom up and recede when it ends. "
-                   "Performance/intensity, which serves whoever can hire and fire, is flat "
-                   "regardless. The culture that persists is the part that benefits the "
-                   "people in power; the rest is rented."),
+        "thesis": ("Across 11 companies, the worker-oriented intervention (DEI) tracks "
+                   "worker bargaining power (the quits rate) — it rises and recedes with "
+                   "leverage even after the decade's shared trend is removed. The optimism "
+                   "barometer (idealism) rides the same boom but is mostly co-trending, not "
+                   "power-responsive. Performance/intensity, which serves whoever can hire "
+                   "and fire, is flat regardless. The culture that persists is the part that "
+                   "benefits the people in power; the rest is rented."),
         "companies": COHORT,
         "companiesNote": (
             f"All three metrics are means over the same {len(COHORT)} companies, each scored "

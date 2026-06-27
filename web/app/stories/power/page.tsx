@@ -60,23 +60,30 @@ export default async function PowerStoryPage() {
       <div className="mt-12 max-w-prose space-y-2 text-xs text-neutral-500">
         <p>
           <strong>How to read it.</strong> Across {data.companies.length} companies,{" "}
-          <em>idealism</em> (the optimism barometer) and <em>DEI</em> (the worker-oriented
-          intervention) both track the worker-power band (~+0.75 smoothed correlation with
-          the quits rate). <em>Performance/intensity</em> stays flat near the top
-          regardless — it serves whoever can hire and fire, so it needs no leverage to
-          survive. <em>Wellbeing/balance</em>, the worker concession, is the honest
-          surprise: even scored over both mission and benefits copy it stays flat and only
-          weakly co-moves (~+0.35 smoothed), and the benefits corpus is thin (≈135 chunks),
-          so it is under-measured here — job-listing benefit lists would measure it
-          properly. Idealism co-moves not because it serves workers (workers
-          are cynical of &ldquo;change the world&rdquo; talk) but because lofty talk and
-          worker leverage both ride the same boom.
+          <em>DEI</em> — the worker-oriented intervention — tracks the worker-power cycle:
+          it rises and falls with the quits rate even after the decade&rsquo;s shared upward
+          trend is removed (first-difference r ≈ +0.58). <em>Idealism</em> (the optimism
+          barometer) looks like it tracks power too (raw r ≈ +0.63, +0.74 smoothed), but
+          strip the trend and most of it fades (first-difference r ≈ +0.32): it rides the
+          same boom rather than responding to worker leverage year to year — consistent with
+          workers being cynical of &ldquo;change the world&rdquo; talk.{" "}
+          <em>Performance/intensity</em> stays flat near the top regardless (r ≈ −0.04
+          differenced) — it serves whoever can hire and fire, so it needs no leverage to
+          survive. <em>Wellbeing/balance</em>, the worker concession, is the honest surprise:
+          flat and only weakly co-moving (≈ +0.15 smoothed) even scored over both mission and
+          benefits copy, and the benefits corpus is thin (≈135 chunks), so it is
+          under-measured here — job-listing benefit lists would measure it properly.
         </p>
         <p>
           <strong>Honesty.</strong> {data.companiesNote} {data.power.caveat} This is
           co-movement and selection, not causation; the &ldquo;who benefits&rdquo; labels
-          are interpretation. At six companies the aggregate was too noisy to read DEI; the
-          co-movement only firmed up at eleven — so treat it as suggestive, not decisive.
+          are interpretation. The strongest result is also the most robust: DEI&rsquo;s link
+          to worker power survives first-differencing and leave-one-company-out (range +0.45
+          to +0.66), and held steady when Meta&rsquo;s history was substantially re-expanded.
+          Idealism&rsquo;s raw correlation is mostly shared trend, so read it as co-trending,
+          not power-responsive. At six companies the aggregate was too noisy to read DEI; it
+          only firmed up at eleven — so treat it as suggestive, not decisive. (Lag is
+          uninterpretable on a series this short and trending.)
         </p>
       </div>
     </main>
