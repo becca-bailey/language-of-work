@@ -27,12 +27,6 @@ export const STUDIES: StudyMeta[] = [
     blurb:
       "How companies describe themselves as employers over time, measured along embedding-based semantic axes built from archived careers pages.",
   },
-  {
-    id: "values-as-ip",
-    name: "Values as Intellectual Property",
-    blurb:
-      "What happens to the language of values once a culture is codified into ownable assets — a creed, a trademarked “Way,” a controlled commons.",
-  },
 ];
 
 export const STORIES: StoryMeta[] = [
@@ -49,18 +43,18 @@ export const STORIES: StoryMeta[] = [
     study: "careers",
   },
   {
-    slug: "values-as-ip",
-    title: "When Values Become Intellectual Property",
+    slug: "netflix-culture",
+    title: "A Team, Not a Family",
     teaser:
-      "Automattic's codified canon holds at the mission pole while its conduct language turns toward rights and enforcement.",
-    study: "values-as-ip",
+      "Netflix's 2009 culture deck, the model it spread (narrowly to Coinbase, broadly by convergence), and the scoreboard that isn't there.",
+    study: "careers",
   },
   {
-    slug: "menlo",
-    title: "The Menlo Way",
+    slug: "culture-fit",
+    title: "Who is a culture fit?",
     teaser:
-      "A company codified and broadcast a humane culture more than almost anyone — and its influence never propagated. Durable language, boutique impact.",
-    study: "values-as-ip",
+      "Who belongs at each company, in their careers pages' own words — from belonging-first to an explicit elite filter.",
+    study: "careers",
   },
 ];
 

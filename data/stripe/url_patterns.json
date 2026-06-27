@@ -1,0 +1,11 @@
+{
+  "company": "stripe",
+  "display_name": "Stripe",
+  "comment": "Jobs/culture pages for the Netflix performance-culture propagation study.",
+  "hosts": ["stripe.com"],
+  "patterns": [
+    {"url": "stripe.com/jobs", "match_type": "exact", "era_hint": "2012-2026"},
+    {"url": "stripe.com/jobs/culture", "match_type": "exact", "era_hint": "2016-2026"},
+    {"url": "stripe.com/jobs/", "match_type": "prefix", "era_hint": "2014-2026"}
+  ]
+}

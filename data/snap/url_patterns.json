@@ -1,0 +1,11 @@
+{
+  "company": "snap",
+  "display_name": "Snap",
+  "comment": "Careers pages for the Netflix performance-culture propagation study.",
+  "hosts": ["careers.snap.com", "snap.com", "www.snap.com"],
+  "patterns": [
+    {"url": "careers.snap.com/", "match_type": "exact", "era_hint": "2018-2026"},
+    {"url": "snap.com/jobs", "match_type": "exact", "era_hint": "2016-2020"},
+    {"url": "careers.snap.com/", "match_type": "prefix", "era_hint": "2018-2026"}
+  ]
+}

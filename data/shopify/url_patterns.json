@@ -1,0 +1,11 @@
+{
+  "company": "shopify",
+  "display_name": "Shopify",
+  "comment": "Careers pages for the Netflix performance-culture propagation study. Tobi Lutke's 2022 'Shopify is not a family' memo makes it a marquee adoption case.",
+  "hosts": ["shopify.com", "www.shopify.com"],
+  "patterns": [
+    {"url": "shopify.com/careers", "match_type": "exact", "era_hint": "2010-2026"},
+    {"url": "www.shopify.com/careers", "match_type": "exact", "era_hint": "2010-2026"},
+    {"url": "shopify.com/careers/", "match_type": "prefix", "era_hint": "2014-2026"}
+  ]
+}

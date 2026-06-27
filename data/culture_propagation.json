@@ -1,0 +1,235 @@
+{
+  "threshold": 0.62,
+  "origin": "netflix",
+  "concepts": {
+    "talent_density": "Talent density",
+    "keeper_test": "Keeper test",
+    "team_not_family": "Team, not a family",
+    "dream_team": "Dream team / stunning colleagues",
+    "high_performer_supremacy": "High performer ≫ average",
+    "adequate_severance": "Adequate → severance",
+    "raise_the_bar": "Raise the bar",
+    "judged_by_outcomes": "Judged by outcomes/results",
+    "only_the_best": "Only the best / A-players"
+  },
+  "displayNames": {
+    "netflix": "Netflix",
+    "google": "Google",
+    "amazon": "Amazon",
+    "meta": "Meta",
+    "palantir": "Palantir",
+    "coinbase": "Coinbase",
+    "shopify": "Shopify",
+    "stripe": "Stripe",
+    "airbnb": "Airbnb",
+    "brex": "Brex",
+    "snap": "Snap"
+  },
+  "timeline": {
+    "talent_density": {
+      "netflix": {
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 4
+      }
+    },
+    "keeper_test": {
+      "netflix": {
+        "firstYearConcept": 2009,
+        "nConcept": 18,
+        "yearsConcept": [
+          2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2024,
+          2025,
+          2026
+        ],
+        "example": "We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try",
+        "exampleScore": 0.797,
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 28
+      }
+    },
+    "team_not_family": {
+      "netflix": {
+        "firstYearConcept": 2009,
+        "nConcept": 10,
+        "yearsConcept": [
+          2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2024,
+          2025,
+          2026
+        ],
+        "example": "We model ourselves on being a team, not a family.",
+        "exampleScore": 0.802,
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 25
+      }
+    },
+    "dream_team": {
+      "netflix": {
+        "firstYearConcept": 2017,
+        "nConcept": 15,
+        "yearsConcept": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2024,
+          2025,
+          2026
+        ],
+        "example": "More specifically, we have great people working together as a dream team .",
+        "exampleScore": 0.681,
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 126
+      }
+    },
+    "high_performer_supremacy": {
+      "netflix": {
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 4
+      },
+      "shopify": {
+        "firstYearVerbatim": 2026,
+        "nVerbatim": 1
+      }
+    },
+    "adequate_severance": {
+      "netflix": {
+        "firstYearConcept": 2009,
+        "nConcept": 13,
+        "yearsConcept": [
+          2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022
+        ],
+        "example": "Unlike many companies, we practice:adequate performance gets agenerous severance package",
+        "exampleScore": 0.759,
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 13
+      },
+      "coinbase": {
+        "firstYearConcept": 2024,
+        "nConcept": 3,
+        "yearsConcept": [
+          2024,
+          2025,
+          2026
+        ],
+        "example": "Unremarkable performance gets a generous severance package.",
+        "exampleScore": 0.858,
+        "firstYearVerbatim": 2024,
+        "nVerbatim": 3
+      }
+    },
+    "raise_the_bar": {
+      "amazon": {
+        "firstYearConcept": 2017,
+        "nConcept": 3,
+        "yearsConcept": [
+          2017
+        ],
+        "example": "Leaders raise the performance bar with every hire and promotion.",
+        "exampleScore": 0.666,
+        "firstYearVerbatim": 2017,
+        "nVerbatim": 1
+      },
+      "shopify": {
+        "firstYearConcept": 2026,
+        "nConcept": 1,
+        "yearsConcept": [
+          2026
+        ],
+        "example": "We raise the floor, while we constantly redefine the ceiling.",
+        "exampleScore": 0.642
+      },
+      "stripe": {
+        "firstYearConcept": 2020,
+        "nConcept": 1,
+        "yearsConcept": [
+          2020
+        ],
+        "example": "But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to sacrifice that for quantity of output.",
+        "exampleScore": 0.652,
+        "firstYearVerbatim": 2020,
+        "nVerbatim": 1
+      },
+      "brex": {
+        "firstYearConcept": 2021,
+        "nConcept": 2,
+        "yearsConcept": [
+          2021,
+          2024
+        ],
+        "example": "We take our results personally, and we deliver at the highest standards, with integrity, despite the odds.",
+        "exampleScore": 0.626,
+        "firstYearVerbatim": 2025,
+        "nVerbatim": 2
+      }
+    },
+    "judged_by_outcomes": {
+      "palantir": {
+        "firstYearConcept": 2026,
+        "nConcept": 1,
+        "yearsConcept": [
+          2026
+        ],
+        "example": "You are not evaluated by distant executives — you are judged by outcomes.",
+        "exampleScore": 0.718,
+        "firstYearVerbatim": 2026,
+        "nVerbatim": 1
+      }
+    },
+    "only_the_best": {
+      "amazon": {
+        "firstYearConcept": 2011,
+        "nConcept": 1,
+        "yearsConcept": [
+          2011
+        ],
+        "example": "We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience for our customers.",
+        "exampleScore": 0.628
+      },
+      "palantir": {
+        "firstYearVerbatim": 2010,
+        "nVerbatim": 1
+      },
+      "coinbase": {
+        "firstYearVerbatim": 2024,
+        "nVerbatim": 2
+      },
+      "shopify": {
+        "firstYearConcept": 2025,
+        "nConcept": 1,
+        "yearsConcept": [
+          2025
+        ],
+        "example": "We hire the best people and match their expertise to our most exciting work.",
+        "exampleScore": 0.674,
+        "firstYearVerbatim": 2026,
+        "nVerbatim": 1
+      },
+      "brex": {
+        "firstYearVerbatim": 2024,
+        "nVerbatim": 1
+      }
+    }
+  }
+}

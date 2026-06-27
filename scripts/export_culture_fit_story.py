@@ -1,0 +1,133 @@
+#!/usr/bin/env python
+"""Export the "Who is a culture fit?" story — a brief per-company summary of who belongs,
+according to each company's own careers pages, with verbatim supporting quotes.
+
+Curated narrative (the summaries are interpretation; the quotes are verbatim careers-page
+text pulled from the corpus). Companies ordered along the spectrum the quotes reveal:
+belonging-first → elite-filter. Writes web/public/data/stories/culture-fit.json.
+"""
+
+from __future__ import annotations
+
+from lowork.config import ROOT
+from lowork.io import write_json
+
+# Ordered belonging-first -> elite-filter. Quotes are verbatim careers-page lines.
+CARDS = [
+    {
+        "id": "airbnb", "displayName": "Airbnb",
+        "summary": "Belonging-first: a diverse mix of identities and interests where everyone is meant to fit.",
+        "quotes": [
+            {"year": 2023, "text": "We seek to host employees who express a diversity of cultures, interests, thinking, and identities."},
+            {"year": 2023, "text": "Just like each listing is unique, so is each person, and we work to build a culture where everyone can belong and thrive."},
+        ],
+    },
+    {
+        "id": "snap", "displayName": "Snap",
+        "summary": "Talented, but framed as inclusive — the most talented people in a place where everyone belongs.",
+        "quotes": [
+            {"year": 2026, "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs."},
+            {"year": 2021, "text": "A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products."},
+        ],
+    },
+    {
+        "id": "google", "displayName": "Google",
+        "summary": "Smart, passionate generalists from diverse backgrounds — defined by enthusiasm, not a filter.",
+        "quotes": [
+            {"year": 2012, "text": "We put great stock in our employees — energetic, passionate people from diverse backgrounds with creative approaches to work, play and life."},
+            {"year": 2005, "text": "We believe in hard work, a fun atmosphere, and the sort of creativity that only comes about when talented people from diverse backgrounds approach problems together."},
+        ],
+    },
+    {
+        "id": "stripe", "displayName": "Stripe",
+        "summary": "Craftspeople — people who care about execution and want to work alongside the people already there.",
+        "quotes": [
+            {"year": 2013, "text": "We're looking for people who care deeply about quality of execution and who want to build technology that people love to use."},
+            {"year": 2014, "text": "We know we're doing a good job of hiring so long as we see people continuing to join simply to work with those who are already here."},
+        ],
+    },
+    {
+        "id": "meta", "displayName": "Meta",
+        "summary": "Movers — people who go fast, take on the big stuff, and have immediate impact.",
+        "quotes": [
+            {"year": 2009, "text": "We need help from people who like to move fast, tackle the big stuff, and have an immediate impact."},
+            {"year": 2025, "text": "Come work alongside passionate individuals who are excited to learn and love what they do."},
+        ],
+    },
+    {
+        "id": "brex", "displayName": "Brex",
+        "summary": "Ambitious strivers — big dreamers with grit, autonomy, and ambition.",
+        "quotes": [
+            {"year": 2025, "text": "We hire people who dream big, who have grit, autonomy, and ambition."},
+            {"year": 2026, "text": "We believe your potential should only be limited by how big you can dream."},
+        ],
+    },
+    {
+        "id": "coinbase", "displayName": "Coinbase",
+        "summary": "Mission-aligned optimists who must also be star performers — optimism early, high performance later.",
+        "quotes": [
+            {"year": 2019, "text": "We are building a team of smart, creative, passionate optimists, the kind of people who see opportunity where others see roadblocks."},
+            {"year": 2026, "text": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers."},
+        ],
+    },
+    {
+        "id": "amazon", "displayName": "Amazon",
+        "summary": "The brightest, customer-obsessed, held to a relentlessly high bar.",
+        "quotes": [
+            {"year": 2011, "text": "We hire the world's brightest minds and offer them an environment in which they can relentlessly improve the experience for our customers."},
+            {"year": 2017, "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high."},
+        ],
+    },
+    {
+        "id": "palantir", "displayName": "Palantir",
+        "summary": "Smart, driven, and mission-serious — engineers, not academics, judged by outcomes.",
+        "quotes": [
+            {"year": 2012, "text": "We're looking for smart, driven people."},
+            {"year": 2026, "text": "You are not evaluated by distant executives — you are judged by outcomes."},
+        ],
+    },
+    {
+        "id": "shopify", "displayName": "Shopify",
+        "summary": "The best — and openly self-selecting: if you're not a great match, you won't last.",
+        "quotes": [
+            {"year": 2025, "text": "We hire the best people and match their expertise to our most exciting work."},
+            {"year": 2023, "text": "It's hard to work here if you're not a great match, and we want to ensure those who consider applying can thrive in our unique environment."},
+        ],
+    },
+    {
+        "id": "netflix", "displayName": "Netflix",
+        "summary": "High performers who thrive on freedom — stunning colleagues on a team, not a family.",
+        "quotes": [
+            {"year": 2024, "text": "We hire unusually responsible people who thrive on this openness and freedom."},
+            {"year": 2018, "text": "Our culture has helped us attract and retain stunning colleagues, making work here more satisfying."},
+        ],
+    },
+]
+
+
+def main() -> None:
+    out = {
+        "story": "culture-fit",
+        "title": "Who is a culture fit?",
+        "subtitle": "Who belongs at each company — in their careers pages' own words",
+        "intro": (
+            "Every careers page implies an ideal worker. Read side by side, they fall on a "
+            "spectrum: from belonging-first (\"everyone can belong and thrive\") to an "
+            "explicit elite filter (\"it's hard to work here if you're not a great "
+            "match\"). Here is who each company says fits, in its own words."
+        ),
+        "caveat": (
+            "These are careers-page self-descriptions — how companies say they choose "
+            "people, not how they actually do. Summaries are interpretation; quotes are "
+            "verbatim."
+        ),
+        "cards": CARDS,
+    }
+    out_dir = ROOT / "web" / "public" / "data" / "stories"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    write_json(out_dir / "culture-fit.json", out)
+    print(f"Wrote {out_dir / 'culture-fit.json'} ({len(CARDS)} companies)")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,11 @@
+{
+  "company": "airbnb",
+  "display_name": "Airbnb",
+  "comment": "Careers pages for the Netflix performance-culture propagation study.",
+  "hosts": ["careers.airbnb.com", "airbnb.com", "www.airbnb.com"],
+  "patterns": [
+    {"url": "careers.airbnb.com/", "match_type": "exact", "era_hint": "2019-2026"},
+    {"url": "airbnb.com/careers", "match_type": "exact", "era_hint": "2011-2019"},
+    {"url": "careers.airbnb.com/", "match_type": "prefix", "era_hint": "2019-2026"}
+  ]
+}

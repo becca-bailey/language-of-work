@@ -100,3 +100,23 @@ interpretive layer.
   never collapsing), kept internally because insulated, but never propagated (no named
   adopters; impact measured in tour visitors and book reach). Caring + broadcasting,
   absent a counterforce, changes one workplace, not an industry.
+- **Netflix:** the *winning* model when the counterforce is gone. The 2009 deck's
+  performance-filter culture ("a team, not a family," keeper test, fire-the-adequate) is
+  precisely what leaders can adopt once a slack labor market removes workers' ability to
+  push back — "we can cut you" presumes you can't easily walk. Its *canonical language*
+  spread (narrowly verbatim to Coinbase; broadly by convergence), while the audit shows
+  the objectivity it claims is rhetorical, not measured (7% claim merit, 0% define a
+  metric; Netflix even refuses rankings). Menlo is the model that couldn't export
+  goodness; Netflix is the model that *did* export the filter — the two poles of what
+  "codified culture" does once the holding force erodes. See
+  [netflix-culture-outline.md](netflix-culture-outline.md).
+
+## Performance-culture as the counterforce-erosion endgame
+Idealism/DEI were the *rented gains* of the worker-power era; the Netflix performance-
+filter is the *house rule* of its absence. The same 2022–2024 labor-market inversion that
+collapsed the idealism/DEI language is what makes "adequate performance gets a generous
+severance" sayable on a careers page. The sports metaphor supplies the moral cover —
+*it's just objective performance* — while the objectivity audit shows there is no
+scoreboard, so the discretion (and its bias) is the point. **Interpretive layer**, same
+guardrail as the counterforces: measured = the language spread + the missing metric;
+*not* measured = the bias itself or that layoffs caused the shift.

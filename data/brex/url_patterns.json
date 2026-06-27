@@ -1,0 +1,10 @@
+{
+  "company": "brex",
+  "display_name": "Brex",
+  "comment": "Careers pages for the Netflix performance-culture propagation study.",
+  "hosts": ["brex.com", "www.brex.com"],
+  "patterns": [
+    {"url": "brex.com/careers", "match_type": "exact", "era_hint": "2019-2026"},
+    {"url": "brex.com/careers/", "match_type": "prefix", "era_hint": "2019-2026"}
+  ]
+}

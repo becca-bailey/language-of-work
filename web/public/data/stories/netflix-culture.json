@@ -1,0 +1,391 @@
+{
+  "story": "netflix-culture",
+  "title": "A Team, Not a Family",
+  "subtitle": "Netflix's 2009 culture deck, the model it spread, and the scoreboard that isn't there",
+  "thesis": "Netflix authored the canonical language of the performance-filter culture. Its ethos spread across tech by convergence; its brutal formulations stayed on Netflix's own page — except Coinbase, which copied the severance line nearly verbatim. And the objectivity it all claims is rhetorical: 7% of culture copy invokes merit, 0% defines a metric.",
+  "deckQuotes": [
+    {
+      "label": "Talent density",
+      "text": "The Key: Increase Talent Density faster than Complexity Grows."
+    },
+    {
+      "label": "Team, not a family",
+      "text": "We're a team, not a family. We're like a pro sports team, not a kid's recreational team."
+    },
+    {
+      "label": "The keeper test",
+      "text": "Which of my people, if they told me they were leaving for a similar job at a peer company, would I fight hard to keep at Netflix?"
+    },
+    {
+      "label": "Fire the adequate",
+      "text": "Adequate performance gets a generous severance package."
+    },
+    {
+      "label": "Performance, undefined",
+      "text": "You accomplish amazing amounts of important work… you focus on great results rather than on process."
+    },
+    {
+      "label": "Their own caveat",
+      "text": "Pro Sports Team Metaphor is Good, but Imperfect."
+    }
+  ],
+  "propagation": {
+    "originYear": 2009,
+    "note": "Concept-level semantic matching (threshold 0.62, hand-validated) + verbatim overlay. 'Generic' concepts (raise-the-bar is Amazon's; best-and-brightest predates everyone) are shown but NOT claimed as Netflix propagation.",
+    "concepts": [
+      {
+        "id": "adequate_severance",
+        "label": "Adequate → severance",
+        "tier": "lift",
+        "originYear": 2009,
+        "adopters": [
+          {
+            "company": "coinbase",
+            "displayName": "Coinbase",
+            "year": 2024,
+            "verbatim": true,
+            "example": "Unremarkable performance gets a generous severance package.",
+            "score": 0.858
+          }
+        ]
+      },
+      {
+        "id": "dream_team",
+        "label": "Dream team / stunning colleagues",
+        "tier": "netflix_only",
+        "originYear": 2017,
+        "adopters": []
+      },
+      {
+        "id": "high_performer_supremacy",
+        "label": "High performer ≫ average",
+        "tier": "netflix_only",
+        "originYear": 2009,
+        "adopters": [
+          {
+            "company": "shopify",
+            "displayName": "Shopify",
+            "year": 2026,
+            "verbatim": true,
+            "example": "",
+            "score": null
+          }
+        ]
+      },
+      {
+        "id": "keeper_test",
+        "label": "Keeper test",
+        "tier": "netflix_only",
+        "originYear": 2009,
+        "adopters": []
+      },
+      {
+        "id": "talent_density",
+        "label": "Talent density",
+        "tier": "netflix_only",
+        "originYear": 2009,
+        "adopters": []
+      },
+      {
+        "id": "team_not_family",
+        "label": "Team, not a family",
+        "tier": "netflix_only",
+        "originYear": 2009,
+        "adopters": []
+      },
+      {
+        "id": "judged_by_outcomes",
+        "label": "Judged by outcomes/results",
+        "tier": "generic",
+        "originYear": null,
+        "adopters": [
+          {
+            "company": "palantir",
+            "displayName": "Palantir",
+            "year": 2026,
+            "verbatim": true,
+            "example": "You are not evaluated by distant executives — you are judged by outcomes.",
+            "score": 0.718
+          }
+        ]
+      },
+      {
+        "id": "only_the_best",
+        "label": "Only the best / A-players",
+        "tier": "generic",
+        "originYear": null,
+        "adopters": [
+          {
+            "company": "palantir",
+            "displayName": "Palantir",
+            "year": 2010,
+            "verbatim": true,
+            "example": "",
+            "score": null
+          },
+          {
+            "company": "amazon",
+            "displayName": "Amazon",
+            "year": 2011,
+            "verbatim": false,
+            "example": "We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience for our customers.",
+            "score": 0.628
+          },
+          {
+            "company": "coinbase",
+            "displayName": "Coinbase",
+            "year": 2024,
+            "verbatim": true,
+            "example": "",
+            "score": null
+          },
+          {
+            "company": "brex",
+            "displayName": "Brex",
+            "year": 2024,
+            "verbatim": true,
+            "example": "",
+            "score": null
+          },
+          {
+            "company": "shopify",
+            "displayName": "Shopify",
+            "year": 2025,
+            "verbatim": true,
+            "example": "We hire the best people and match their expertise to our most exciting work.",
+            "score": 0.674
+          }
+        ]
+      },
+      {
+        "id": "raise_the_bar",
+        "label": "Raise the bar",
+        "tier": "generic",
+        "originYear": null,
+        "adopters": [
+          {
+            "company": "amazon",
+            "displayName": "Amazon",
+            "year": 2017,
+            "verbatim": true,
+            "example": "Leaders raise the performance bar with every hire and promotion.",
+            "score": 0.666
+          },
+          {
+            "company": "stripe",
+            "displayName": "Stripe",
+            "year": 2020,
+            "verbatim": true,
+            "example": "But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to sacrifice that for quantity of output.",
+            "score": 0.652
+          },
+          {
+            "company": "brex",
+            "displayName": "Brex",
+            "year": 2021,
+            "verbatim": true,
+            "example": "We take our results personally, and we deliver at the highest standards, with integrity, despite the odds.",
+            "score": 0.626
+          },
+          {
+            "company": "shopify",
+            "displayName": "Shopify",
+            "year": 2026,
+            "verbatim": false,
+            "example": "We raise the floor, while we constantly redefine the ceiling.",
+            "score": 0.642
+          }
+        ]
+      }
+    ]
+  },
+  "objectivity": {
+    "scanned": 1103,
+    "claim": 78,
+    "metricCredible": 0,
+    "claimPct": 7.1,
+    "smokingGun": "Netflix explicitly refuses to keep score: “We have no bell curves or rankings or quotas such as 'cut the bottom 10% every year'” — while demanding you be a “high performer” judged by a manager's gut (the keeper test).",
+    "finding": "Pervasive objectivity rhetoric, no defined metric. The language borrows sports' objectivity without its scoreboard."
+  },
+  "objectivityMatrix": [
+    {
+      "concept": "Keeper test",
+      "claims": true,
+      "metric": false,
+      "eval": "Manager's gut — “would I fight to keep you?” (a power decision)"
+    },
+    {
+      "concept": "Adequate → severance",
+      "claims": true,
+      "metric": false,
+      "eval": "A subjective label: who counts as “adequate” / “unremarkable”"
+    },
+    {
+      "concept": "High performer ≫ average",
+      "claims": true,
+      "metric": false,
+      "eval": "Undefined comparison to an undefined “average”"
+    },
+    {
+      "concept": "Raise the bar",
+      "claims": true,
+      "metric": false,
+      "eval": "Hiring-manager discretion about “above the bar”"
+    },
+    {
+      "concept": "Judged by outcomes",
+      "claims": true,
+      "metric": false,
+      "eval": "Unspecified “outcomes” / “impact”"
+    },
+    {
+      "concept": "Talent density",
+      "claims": true,
+      "metric": false,
+      "eval": "Concentration of an undefined “high performer”"
+    },
+    {
+      "concept": "Only the best / A-players",
+      "claims": true,
+      "metric": false,
+      "eval": "Undefined “best” / “top talent”"
+    }
+  ],
+  "implicitExplicit": [
+    {
+      "explicit": "The keeper test — would I fight to keep you?",
+      "implicit": "We hire (and keep) only the best"
+    },
+    {
+      "explicit": "Adequate performance gets a generous severance",
+      "implicit": "We maintain a high bar / raise the bar"
+    },
+    {
+      "explicit": "A team, not a family",
+      "implicit": "A high-performance, results-driven team"
+    },
+    {
+      "explicit": "A high performer is many times more effective",
+      "implicit": "Top talent / A-players"
+    }
+  ],
+  "netflixEvolution": {
+    "years": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "rows": [
+      {
+        "concept": "Talent density",
+        "firstYear": 2009,
+        "lastYear": 2009,
+        "present": [
+          2009
+        ],
+        "retired": true
+      },
+      {
+        "concept": "Keeper test",
+        "firstYear": 2009,
+        "lastYear": 2026,
+        "present": [
+          2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2024,
+          2025,
+          2026
+        ],
+        "retired": false
+      },
+      {
+        "concept": "Team, not a family",
+        "firstYear": 2009,
+        "lastYear": 2026,
+        "present": [
+          2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2024,
+          2025,
+          2026
+        ],
+        "retired": false
+      },
+      {
+        "concept": "Dream team / stunning colleagues",
+        "firstYear": 2009,
+        "lastYear": 2026,
+        "present": [
+          2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "retired": false
+      },
+      {
+        "concept": "High performer ≫ average",
+        "firstYear": 2009,
+        "lastYear": 2026,
+        "present": [
+          2009,
+          2024,
+          2025,
+          2026
+        ],
+        "retired": false
+      },
+      {
+        "concept": "Adequate → severance",
+        "firstYear": 2009,
+        "lastYear": 2022,
+        "present": [
+          2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022
+        ],
+        "retired": true
+      }
+    ],
+    "headline": "Netflix carried “adequate performance → a generous severance” 2009–2022, then dropped it in its ~2023 rewrite — the same formula Coinbase printed verbatim in 2024. Netflix invented it, softened it; only the disciple kept the faith."
+  }
+}
