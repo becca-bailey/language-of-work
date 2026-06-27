@@ -20,6 +20,22 @@ export interface StoryMeta {
   study: string; // StudyMeta.id
 }
 
+export interface EssayMeta {
+  slug: string; // route under /essays/
+  title: string;
+  teaser: string;
+}
+
+// Long-form synthesis pieces that tie the studies into one argument.
+export const ESSAYS: EssayMeta[] = [
+  {
+    slug: "culture-without-power",
+    title: "Culture Without Power",
+    teaser:
+      "The sports metaphor that never measured, the Netflix model that spread, and why — when performance can't be measured — power decides what counts.",
+  },
+];
+
 export const STUDIES: StudyMeta[] = [
   {
     id: "careers",

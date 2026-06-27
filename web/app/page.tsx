@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { storiesByStudy } from "@/lib/registry";
+import { storiesByStudy, ESSAYS } from "@/lib/registry";
 
 export default function Home() {
   const groups = storiesByStudy();
@@ -17,6 +17,37 @@ export default function Home() {
         as employers, as missions, as cultures — and how it shifts over time,
         tracked as movement along embedding-based semantic axes.
       </p>
+
+      {ESSAYS.length > 0 && (
+        <section className="mt-12">
+          <h2 className="text-sm font-medium uppercase tracking-wide text-neutral-500">
+            Essays
+          </h2>
+          <p className="mt-2 max-w-prose text-sm text-neutral-500 dark:text-neutral-400">
+            Long-form pieces that tie the studies into one argument.
+          </p>
+          <ul className="mt-4 space-y-2">
+            {ESSAYS.map((essay) => (
+              <li key={essay.slug}>
+                <Link
+                  href={`/essays/${essay.slug}`}
+                  className="group flex items-baseline justify-between gap-4 rounded-lg border border-rose-200 bg-rose-50/50 px-4 py-3 transition-colors hover:border-rose-400 dark:border-rose-900 dark:bg-rose-950/30 dark:hover:border-rose-700"
+                >
+                  <span>
+                    <span className="font-medium">{essay.title}</span>
+                    <span className="mt-0.5 block text-sm text-neutral-500 dark:text-neutral-400">
+                      {essay.teaser}
+                    </span>
+                  </span>
+                  <span className="text-sm text-neutral-400 transition-transform group-hover:translate-x-0.5">
+                    &rarr;
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {groups.map(({ study, stories }) => (
         <section key={study.id} className="mt-12">
