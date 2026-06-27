@@ -1,0 +1,18 @@
+---
+import AuditBarChart, { type BarDatum } from "@/components/AuditBarChart";
+import { loadNetflixStory } from "@/lib/netflixStory";
+
+const n = await loadNetflixStory();
+const data: BarDatum[] = n
+  ? [
+      { label: "Claims objective merit", value: n.objectivity.claim, isTest: false },
+      { label: "Defines an actual metric", value: n.objectivity.metricCredible, isTest: true },
+    ]
+  : [];
+---
+
+{n && (
+  <div class="my-6 max-w-2xl">
+    <AuditBarChart data={data} client:only="react" />
+  </div>
+)}
