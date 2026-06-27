@@ -1,17 +1,26 @@
 # M4 read-through: mission_brand chunks by year
 
-## 2009 (1 chunks)
+## 2009 (4 chunks)
 
+- **Build stuff that will get used. Fast.** — Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around. The web is shifting from a vast encyclopedia of information to a social environment that reflects our real identities, and the relationships and information we care about. Facebook is at the forefront of that change. We're leading a social movement by building ground-breaking technology that gives people the power to share and makes the world more open and connected. As we grow quickly in every way, each of our employees has the opportunity to have an enormous impact. We're looking for dynamic people that get excited by big questions and unsolved problems.
+- **Believe in Your Work** — We're making it possible for many millions of people on Facebook to broaden their horizons, deepen their friendships, share good times, and solve problems together. We've just begun to realize the full potential of what Facebook can contribute, and we're deeply committed to making the most of those opportunities. As you see the impact of your own work - and what your colleagues are accomplishing - you'll feel motivated each week by the passion, dedication, and vision that drives Facebook forward.
+- **How We Roll** — We pair innovation and passion with cutting loose and having fun: racing around on RipStiks; playing Bughouse chess, a hand of poker, or a game of Risk; rocking out in our music room; and embarking on all-night coding binges for new features and ideas. Our language team rewrites the site in Pirate English, just for kicks. (Why upload photos when you can "hoist a portrait"?) There's also an Ultimate Frisbee team, Nacho Thursday, and all kinds of new fun being invented every week.
 - **Hello. Facebook is hiring.** — We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes. We need help from people who like to move fast, tackle the big stuff, and have an immediate impact. Sound like you?
 
-## 2010 (1 chunks)
+## 2010 (4 chunks)
 
+- **Believe in your work** — The web is shifting from a vast encyclopedia of information to a social environment that reflects our real identities, and the relationships and information we care about. Facebook is at the forefront of that change. We're leading a social movement by building ground-breaking technology that gives people the power to share and makes the world more open and connected. As we grow quickly in every way, each of our employees has the opportunity to have an enormous impact. We're looking for dynamic people that get excited by big questions and unsolved problems.
 - **Hello. Facebook is hiring.** — We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes. We need help from people who like to move fast, tackle the big stuff, and have an immediate impact. Sound like you?
+- **Build stuff that will get used. Fast.** — Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.
+- **We Make Life Easy** — Facebook offers a ton of great benefits and perks to make sure your life is as satisfying as your work.
 
-## 2011 (2 chunks)
+## 2011 (5 chunks)
 
+- **Believe in your work** — The web is shifting from a vast encyclopedia of information to a social environment that reflects our real identities, and the relationships and information we care about. Facebook is at the forefront of that change. We're leading a social movement by building ground-breaking technology that gives people the power to share and makes the world more open and connected. As we grow quickly in every way, each of our employees has the opportunity to have an enormous impact. We're looking for dynamic people that get excited by big questions and unsolved problems.
 - Innovate and make friends. No matter what part of Facebook you join, you'll be building something big and new. We welcome pioneers. In fact, we insist on them. Learn more about our culture. Work well. At our Palo Alto headquarters, we also offer free breakfast, lunch and dinner at our Cafe. Learn more about our benefits.
+- **Make an impact. Work at Facebook** — All of us working at Facebook have a common goal: Helping you connect and share with the people you care about. Hear from our leadership team about why we emphasize freedom and autonomy inside the company and how we build new technology for people. Make an impact. Work at Facebook Rebuilding the Web Around People
 - **Hello. Facebook is hiring.** — Our employees build and create technology that fundamentally changes how hundreds of millions of people around the world connect and share. Come work with us.
+- **Build stuff that will get used. Fast.** — Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.
 
 ## 2012 (1 chunks)
 
