@@ -77,10 +77,24 @@ def clean_html(raw: bytes) -> tuple[str, int]:
         c.extract()
     for tag in soup(STRIP_TAGS):
         tag.decompose()
+
+    body = soup.body or soup
+    total_chars = len(body.get_text(" ")) or 1
+
+    def _safe_decompose(el) -> None:
+        # Never remove a container that holds most of the page: chrome/footer/nav
+        # are small, but obfuscated class/id tokens (e.g. FB atomic CSS) can collide
+        # with a keyword on a wrapper that holds the whole content. Guard against it.
+        if el.name in ("body", "html"):
+            return
+        if len(el.get_text(" ")) > 0.5 * total_chars:
+            return
+        el.decompose()
+
     for el in soup.find_all(_is_chrome):
-        el.decompose()
+        _safe_decompose(el)
     for el in soup.find_all(_is_navigation):
-        el.decompose()
+        _safe_decompose(el)
 
     body = soup.body or soup
     blocks: list[tuple[str, str]] = []  # (kind, text); kind in {"h", "p"}
@@ -117,6 +131,55 @@ def clean_html(raw: bytes) -> tuple[str, int]:
     return "\n".join(out_lines), kept
 
 
+# --- plain-text path (for SPA pages: paste rendered/selected text) ---
+
+# Optional leading metadata lines, e.g.  "url: https://www.metacareers.com/"  /  "date: 20230701"
+_META_LINE = re.compile(r"^\s*#?\s*(url|source|date|captured)\s*[:=]\s*(.+?)\s*$", re.I)
+
+
+def clean_text(text: str) -> tuple[str, int, str | None, str | None]:
+    """Wrap pasted plain text into minimal semantic HTML for the pipeline.
+
+    Honors optional leading `url:` / `date:` header lines so SPA captures carry
+    provenance. Blank-line-separated blocks become <p> (or <h2> if short).
+    """
+    url = date = None
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        if not lines[i].strip():
+            i += 1
+            continue
+        m = _META_LINE.match(lines[i])
+        if not m:
+            break
+        key, val = m.group(1).lower(), m.group(2).strip()
+        if key in ("url", "source"):
+            url = val
+        else:
+            d = re.sub(r"\D", "", val)
+            if len(d) in (8, 14):
+                date = d
+        i += 1
+    body = "\n".join(lines[i:])
+
+    out = ["<!doctype html>", '<html><head><meta charset="utf-8"></head><body>']
+    kept = 0
+    seen: set[str] = set()
+    for block in re.split(r"\n\s*\n", body):
+        t = strip_site_chrome(strip_nav_runs(_clean(block.replace("\n", " "))))
+        if not t or _is_pure_link_list(t):
+            continue
+        if len(t.split()) < 6:  # short standalone line -> treat as a heading
+            out.append(f"<h2>{t}</h2>")
+        elif t not in seen:
+            seen.add(t)
+            out.append(f"<p>{t}</p>")
+            kept += 1
+    out.append("</body></html>")
+    return "\n".join(out), kept, url, date
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--company", required=True)
@@ -132,25 +195,47 @@ def main() -> None:
                 else {"company": args.company, "captures": []})
     by_file = {c["file"]: c for c in manifest.get("captures", [])}
 
-    files = ([mdir / args.file] if args.file
-             else sorted(f for f in mdir.glob("*.html") if f.parent == mdir))
+    text_html = mdir / "_text_html"
+    if args.file:
+        files = [mdir / args.file]
+    else:
+        files = sorted(f for f in mdir.iterdir()
+                       if f.parent == mdir and f.suffix.lower() in (".html", ".txt", ".md"))
     for f in files:
         backup = raw_backup / f.name
         if backup.exists():
-            raw = backup.read_bytes()          # always clean from the pristine original
+            raw = backup.read_bytes()          # always process from the pristine original
         else:
             raw = f.read_bytes()
             shutil.copy2(f, backup)            # preserve original once
-        url, ts = _wayback_meta(raw)
-        cleaned, kept = clean_html(raw)
-        f.write_text(cleaned, encoding="utf-8")
+
+        if f.suffix.lower() in (".txt", ".md"):
+            cleaned, kept, url, ts = clean_text(raw.decode("utf-8", errors="replace"))
+            text_html.mkdir(exist_ok=True)
+            out_file = text_html / (f.stem + ".html")
+            out_file.write_text(cleaned, encoding="utf-8")
+            manifest_file = f"_text_html/{out_file.name}"
+            if not ts:  # fall back to a leading 4-digit year in the filename
+                ym = re.match(r"(\d{4})", f.stem)
+                ts = ym.group(1) + "0701120000" if ym else None
+            if not url:
+                url = f"manual-text:{f.stem}"
+            source = "manual-text"
+        else:
+            cleaned, kept = clean_html(raw)
+            f.write_text(cleaned, encoding="utf-8")
+            manifest_file = f.name
+            url, ts = _wayback_meta(raw)
+            source = "wayback-manual"
+
         if url and ts:
-            prev = by_file.get(f.name, {})
-            by_file[f.name] = {"file": f.name, "url": url, "capture_date": ts,
-                               "source": prev.get("source", "wayback-manual")}
+            prev = by_file.get(manifest_file, {})
+            by_file[manifest_file] = {"file": manifest_file, "url": url,
+                                      "capture_date": ts,
+                                      "source": prev.get("source", source)}
             note = f"{url} @ {ts}"
         else:
-            note = "NO Wayback metadata found — add a manifest entry by hand"
+            note = "NO metadata (add url:/date: header or a manifest entry by hand)"
         print(f"{f.name}: {kept} paragraphs ({note})")
 
     manifest["captures"] = sorted(by_file.values(),
