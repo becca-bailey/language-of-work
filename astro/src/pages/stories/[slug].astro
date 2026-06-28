@@ -1,0 +1,67 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const stories = await getCollection("stories");
+  return stories.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Layout title={entry.data.title} description={entry.data.subtitle}>
+  <main class="mx-auto w-full max-w-4xl flex-1 px-6 py-12">
+    <a
+      href="/"
+      class="text-sm text-neutral-500 transition-colors hover:text-neutral-800 dark:hover:text-neutral-200"
+    >
+      &larr; Stories
+    </a>
+    <h1 class="mt-4 text-3xl font-semibold tracking-tight">{entry.data.title}</h1>
+    {entry.data.subtitle && (
+      <p class="mt-2 max-w-prose text-lg text-neutral-600 dark:text-neutral-400">
+        {entry.data.subtitle}
+      </p>
+    )}
+    {entry.data.thesis && (
+      <p class="mt-4 max-w-prose border-l-2 border-indigo-400 pl-4 text-sm text-neutral-700 dark:text-neutral-300">
+        {entry.data.thesis}
+      </p>
+    )}
+
+    <article class="story-prose mt-10">
+      <Content />
+    </article>
+  </main>
+</Layout>
+
+<style is:global>
+  /* Prose styling for MDX story pages (no @tailwindcss/typography dep). */
+  .story-prose {
+    line-height: 1.7;
+  }
+  .story-prose h2 {
+    margin-top: 3rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: color-mix(in srgb, currentColor 55%, transparent);
+  }
+  .story-prose p {
+    margin-top: 1rem;
+    max-width: 65ch;
+    font-size: 0.9rem;
+    color: color-mix(in srgb, currentColor 80%, transparent);
+  }
+  .story-prose strong {
+    font-weight: 600;
+    color: inherit;
+  }
+</style>
