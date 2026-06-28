@@ -1,0 +1,12 @@
+---
+import BenefitsChart from "@/components/BenefitsChart";
+import { loadBenefitsStory } from "@/lib/benefitsStory";
+
+const data = await loadBenefitsStory();
+---
+
+{data && (
+  <div class="my-6">
+    <BenefitsChart categories={data.categories} years={data.years} />
+  </div>
+)}

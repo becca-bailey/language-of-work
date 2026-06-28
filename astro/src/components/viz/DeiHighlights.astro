@@ -1,0 +1,39 @@
+---
+import { loadStory } from "@/lib/stories";
+import type { StoryHighlight } from "@/lib/storyTypes";
+
+const data = await loadStory("dei");
+const highlights = (data?.highlights ?? []).filter((h) => h.source === "careers");
+
+const groups = new Map<string, { note: string; label: string; items: StoryHighlight[] }>();
+for (const h of highlights) {
+  const g = groups.get(h.stance) ?? { note: h.stanceNote, label: h.stanceLabel, items: [] };
+  g.items.push(h);
+  groups.set(h.stance, g);
+}
+const grouped = [...groups.values()];
+---
+
+{grouped.length > 0 && (
+  <div class="my-6 space-y-8">
+    {grouped.map((g) => (
+      <div>
+        <h3 class="text-sm font-medium text-indigo-700 dark:text-indigo-400">{g.label}</h3>
+        <p class="mt-1 text-xs text-neutral-500">{g.note}</p>
+        <ul class="mt-3 space-y-3">
+          {g.items.map((h) => (
+            <li class="rounded-lg border border-neutral-200 px-4 py-3 dark:border-neutral-800">
+              <p class="text-sm leading-relaxed text-neutral-800 dark:text-neutral-200">
+                &ldquo;{h.text}&rdquo;
+              </p>
+              <p class="mt-2 font-mono text-xs text-neutral-400">
+                {h.displayName} · {h.year}
+                {h.heading ? ` · ${h.heading}` : ""}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+)}

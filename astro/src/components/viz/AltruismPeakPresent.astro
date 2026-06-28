@@ -1,0 +1,13 @@
+---
+import StoryPeakPresent from "@/components/StoryPeakPresent";
+import { loadStory } from "@/lib/stories";
+
+const data = await loadStory("altruism");
+const items = data?.peakPresent ?? [];
+---
+
+{items.length > 0 && (
+  <div class="my-6">
+    <StoryPeakPresent items={items} />
+  </div>
+)}

@@ -1,0 +1,13 @@
+---
+import StoryRegisterChart from "@/components/StoryRegisterChart";
+import { loadStory } from "@/lib/stories";
+
+const data = await loadStory("dei");
+const companies = data?.sources.careers?.companies ?? [];
+---
+
+{companies.length > 0 && (
+  <div class="my-6">
+    <StoryRegisterChart companies={companies} client:only="react" />
+  </div>
+)}

@@ -1,0 +1,13 @@
+---
+import StoryQuoteTimeline from "@/components/StoryQuoteTimeline";
+import { loadStory } from "@/lib/stories";
+
+const data = await loadStory("dei");
+const timelines = data?.timelines ?? [];
+---
+
+{timelines.length > 0 && (
+  <div class="my-6">
+    <StoryQuoteTimeline timelines={timelines} client:only="react" />
+  </div>
+)}

@@ -1,0 +1,14 @@
+---
+import StorySalienceChart from "@/components/StorySalienceChart";
+import { loadStory } from "@/lib/stories";
+import { DEI_EVENTS } from "@/lib/events";
+
+const data = await loadStory("dei");
+const companies = data?.sources.careers?.companies ?? [];
+---
+
+{companies.length > 0 && (
+  <div class="my-6">
+    <StorySalienceChart companies={companies} events={DEI_EVENTS} client:only="react" />
+  </div>
+)}

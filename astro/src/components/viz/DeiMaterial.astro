@@ -1,0 +1,13 @@
+---
+import MaterialDEIChart from "@/components/MaterialDEIChart";
+import { loadBenefitsStory } from "@/lib/benefitsStory";
+
+const b = await loadBenefitsStory();
+const m = b?.materialDEI ?? null;
+---
+
+{m && m.total > 0 && (
+  <div class="my-6">
+    <MaterialDEIChart data={m} />
+  </div>
+)}
