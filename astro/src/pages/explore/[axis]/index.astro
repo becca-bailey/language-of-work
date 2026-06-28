@@ -1,0 +1,213 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import {
+  compareableAxes,
+  loadAxis,
+  loadCompaniesManifest,
+  loadDei,
+  type AxisData,
+  type DeiData,
+} from "@/lib/data";
+import { getAxisContent } from "@/lib/content";
+import { dominantRegister } from "@/lib/deiRegisters";
+import { storyPathForAxis } from "@/lib/stories";
+
+interface Finding {
+  company: string;
+  displayName: string;
+  sentence: string;
+  peakYear: number;
+  latestYear: number;
+  yearsCovered: number;
+}
+
+function computeDeiFinding(data: DeiData, displayName: string): Finding | null {
+  const years = [...data.years].sort((a, b) => a.year - b.year);
+  if (years.length === 0) return null;
+  const peak = years.reduce((best, y) =>
+    y.inclusionTopkMean > best.inclusionTopkMean ? y : best
+  );
+  const latest = years[years.length - 1];
+  const substantive = years.find((y) => y.inclusionTopkMean >= 0.2);
+  const firstYear = substantive?.year ?? years[0].year;
+  let retractionYear: number | null = null;
+  let maxDrop = 0;
+  for (let i = 1; i < years.length; i++) {
+    const drop = years[i - 1].inclusionTopkMean - years[i].inclusionTopkMean;
+    if (drop > maxDrop && years[i - 1].year >= peak.year) {
+      maxDrop = drop;
+      retractionYear = years[i].year;
+    }
+  }
+  const dominant = dominantRegister(data);
+  let sentence: string;
+  if (years.length === 1) {
+    sentence = `${displayName} has only one measured year (${latest.year}).`;
+  } else if (dominant === "civilizational_mission") {
+    sentence = `${displayName}'s careers pages lean on civilizational mission framing — West/institutions language as employer identity rather than workforce DEI (${years.length} years measured).`;
+  } else if (dominant === "meritocracy") {
+    sentence = `${displayName}'s careers pages are counter-programmed: meritocracy rhetoric dominates DEI-register chunks (${years.length} years measured), with inclusion intensity staying near zero.`;
+  } else if (peak.inclusionTopkMean < 0.15) {
+    sentence = `${displayName} shows little substantive inclusion language on careers pages across the archive (${years.length} years measured).`;
+  } else {
+    const parts = [
+      `${displayName}'s inclusion language first appears around ${firstYear}, peaks in ${peak.year}`,
+    ];
+    if (retractionYear && maxDrop >= 0.05) {
+      parts.push(`with the largest drop after the peak in ${retractionYear}`);
+    } else if (latest.year !== peak.year) {
+      parts.push(`and has shifted by ${latest.year}`);
+    }
+    sentence = parts.join(", ") + ".";
+  }
+  return {
+    company: data.company,
+    displayName,
+    sentence,
+    peakYear: peak.year,
+    latestYear: latest.year,
+    yearsCovered: years.length,
+  };
+}
+
+function computeFinding(data: AxisData, displayName: string, axisTitle: string): Finding | null {
+  const years = [...data.years].sort((a, b) => a.year - b.year);
+  if (years.length === 0) return null;
+  const peak = years.reduce((best, y) => (y.zscore > best.zscore ? y : best));
+  const latest = years[years.length - 1];
+  const delta = latest.zscore - peak.zscore;
+  const axisLabel = axisTitle.toLowerCase();
+  let sentence: string;
+  if (years.length === 1) {
+    sentence = `${displayName} has only one measured year (${latest.year}), so there's no trend yet.`;
+  } else if (peak.year === latest.year) {
+    sentence = `${displayName}'s ${axisLabel} language peaked in ${peak.year} — the most recent year measured — so it's still at its high point.`;
+  } else if (delta > -0.25) {
+    sentence = `${displayName}'s ${axisLabel} language peaked in ${peak.year} and has held roughly steady since.`;
+  } else {
+    const drop = Math.abs(delta);
+    const qualifier = drop >= 1 ? "declined sharply" : "declined";
+    sentence = `${displayName}'s ${axisLabel} language peaked in ${peak.year} and has ${qualifier} since (${delta.toFixed(1)}σ by ${latest.year}).`;
+  }
+  return {
+    company: data.company,
+    displayName,
+    sentence,
+    peakYear: peak.year,
+    latestYear: latest.year,
+    yearsCovered: years.length,
+  };
+}
+
+export async function getStaticPaths() {
+  const manifest = await loadCompaniesManifest();
+  const axes = new Set<string>();
+  for (const c of manifest) {
+    for (const axis of c.axes) {
+      if (axis !== "control") axes.add(axis);
+    }
+  }
+  return [...axes].map((axis) => ({ params: { axis } }));
+}
+
+const { axis } = Astro.params as { axis: string };
+const storyPath = storyPathForAxis(axis);
+if (storyPath) return Astro.redirect(storyPath);
+
+const manifest = await loadCompaniesManifest();
+const companies = manifest.filter((c) => c.axes.includes(axis));
+if (companies.length === 0) return Astro.redirect("/404");
+
+const content = getAxisContent(axis);
+const canCompare = compareableAxes(manifest).includes(axis);
+
+const findings = (
+  axis === "dei"
+    ? await Promise.all(
+        companies.map(async (c) => {
+          const data = await loadDei(c.id);
+          return data ? computeDeiFinding(data, c.displayName) : null;
+        })
+      )
+    : await Promise.all(
+        companies.map(async (c) => {
+          const data = await loadAxis(c.id, axis);
+          return data ? computeFinding(data, c.displayName, content.title) : null;
+        })
+      )
+).filter((f): f is Finding => f !== null);
+---
+
+<Layout title={content.title}>
+  <main class="mx-auto w-full max-w-3xl flex-1 px-6 py-12">
+    <a
+      href="/"
+      class="text-sm text-neutral-500 transition-colors hover:text-neutral-800 dark:hover:text-neutral-200"
+    >
+      &larr; Home
+    </a>
+    <h1 class="mt-4 text-3xl font-semibold tracking-tight">{content.title}</h1>
+    {content.framing.map((paragraph, i) => (
+      <p
+        class={
+          i === 0
+            ? "mt-4 max-w-prose text-lg text-neutral-700 dark:text-neutral-300"
+            : "mt-3 max-w-prose text-sm text-neutral-600 dark:text-neutral-400"
+        }
+      >
+        {paragraph}
+      </p>
+    ))}
+
+    {findings.length > 0 && (
+      <>
+        <h2 class="mt-12 text-sm font-medium uppercase tracking-wide text-neutral-500">
+          Findings
+        </h2>
+        <ul class="mt-4 space-y-3">
+          {findings.map((f) => (
+            <li class="rounded-lg border border-neutral-200 px-4 py-3 dark:border-neutral-800">
+              <p class="text-sm text-neutral-800 dark:text-neutral-200">{f.sentence}</p>
+              <p class="mt-1 font-mono text-xs text-neutral-400">
+                peak {f.peakYear} &middot; latest {f.latestYear} &middot; {f.yearsCovered} years covered
+              </p>
+            </li>
+          ))}
+        </ul>
+        {content.summary && (
+          <p class="mt-4 max-w-prose text-xs text-neutral-500">{content.summary}</p>
+        )}
+      </>
+    )}
+
+    {canCompare && (
+      <a
+        href={`/explore/${axis}/compare`}
+        class:list={[
+          "group flex items-baseline justify-between rounded-lg border border-indigo-200 bg-indigo-50/50 px-4 py-3 transition-colors hover:border-indigo-400 dark:border-indigo-900 dark:bg-indigo-950/30 dark:hover:border-indigo-700",
+          axis === "dei" ? "mt-4" : "mt-10",
+        ]}
+      >
+        <span class="font-medium">Compare all companies</span>
+        <span class="text-sm text-neutral-400 transition-transform group-hover:translate-x-0.5">&rarr;</span>
+      </a>
+    )}
+
+    <h2 class="mt-10 text-sm font-medium uppercase tracking-wide text-neutral-500">
+      Company reports
+    </h2>
+    <ul class="mt-4 space-y-2">
+      {companies.map((c) => (
+        <li>
+          <a
+            href={`/explore/${axis}/${c.id}`}
+            class="group flex items-baseline justify-between rounded-lg border border-neutral-200 px-4 py-3 transition-colors hover:border-neutral-400 dark:border-neutral-800 dark:hover:border-neutral-600"
+          >
+            <span class="font-medium">{c.displayName}</span>
+            <span class="text-sm text-neutral-400 transition-transform group-hover:translate-x-0.5">&rarr;</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </main>
+</Layout>

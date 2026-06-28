@@ -1,0 +1,102 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import CompareChart from "@/components/CompareChart";
+import RegisterShareCompare from "@/components/RegisterShareCompare";
+import { compareableAxes, loadAxis, loadCompaniesManifest, loadDei } from "@/lib/data";
+import { DEI_EVENTS } from "@/lib/events";
+import { getAxisContent } from "@/lib/content";
+import { storyPathForAxis } from "@/lib/stories";
+
+export async function getStaticPaths() {
+  const manifest = await loadCompaniesManifest();
+  return compareableAxes(manifest).map((axis) => ({ params: { axis } }));
+}
+
+const { axis } = Astro.params as { axis: string };
+const storyPath = storyPathForAxis(axis);
+if (storyPath) return Astro.redirect(storyPath);
+
+const manifest = await loadCompaniesManifest();
+const companyIds = manifest.filter((c) => c.axes.includes(axis)).map((c) => c.id);
+if (companyIds.length < 2) return Astro.redirect("/404");
+
+const content = getAxisContent(axis);
+
+const deiDatasets =
+  axis === "dei"
+    ? (await Promise.all(companyIds.map((id) => loadDei(id)))).filter(
+        (d): d is NonNullable<typeof d> => d !== null
+      )
+    : [];
+
+const series =
+  axis === "dei"
+    ? deiDatasets.map((d) => ({
+        company: d.company,
+        displayName: d.displayName ?? d.company,
+        points: d.years.map((y) => ({ year: y.year, zscore: y.inclusionTopkMean, thin: y.thin })),
+      }))
+    : (await Promise.all(companyIds.map((id) => loadAxis(id, axis))))
+        .filter((d): d is NonNullable<typeof d> => d !== null)
+        .map((d) => ({
+          company: d.company,
+          displayName: d.displayName ?? d.company,
+          points: d.years.map((y) => ({ year: y.year, zscore: y.zscore, thin: y.thin })),
+        }));
+
+if (series.length < 2) return Astro.redirect("/404");
+---
+
+<Layout title={`Compare: ${content.title}`}>
+  <main class="mx-auto w-full max-w-4xl flex-1 px-6 py-12">
+    <a
+      href={`/explore/${axis}`}
+      class="text-sm text-neutral-500 transition-colors hover:text-neutral-800 dark:hover:text-neutral-200"
+    >
+      &larr; {content.title}
+    </a>
+    <h1 class="mt-4 text-2xl font-semibold tracking-tight">Compare: {content.title}</h1>
+    <p class="mt-2 max-w-prose text-sm text-neutral-600 dark:text-neutral-400">
+      Side-by-side trajectories for {series.map((d) => d.displayName).join(", ")}.
+      {axis === "dei"
+        ? " Raw inclusion cosine — comparable across companies; near-zero means absent."
+        : " Each line is z-scored within its own company — compare shapes, not absolute magnitudes."}
+    </p>
+    <div class="mt-8">
+      <CompareChart
+        series={series}
+        axisName={axis}
+        events={axis === "dei" ? DEI_EVENTS : undefined}
+        client:only="react"
+      />
+    </div>
+
+    {axis === "dei" && deiDatasets.length >= 2 && (
+      <div class="mt-12">
+        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+          Register fingerprint
+        </h2>
+        <p class="mt-1 max-w-prose text-sm text-neutral-600 dark:text-neutral-400">
+          What kind of DEI language each company uses — normalized share of register-classified
+          chunks (excluding absent).
+        </p>
+        <div class="mt-4">
+          <RegisterShareCompare datasets={deiDatasets} client:only="react" />
+        </div>
+      </div>
+    )}
+
+    <ul class="mt-8 space-y-2 border-t border-neutral-200 pt-6 dark:border-neutral-800">
+      {series.map((d) => (
+        <li>
+          <a
+            href={`/explore/${axis}/${d.company}`}
+            class="text-sm text-indigo-600 hover:underline dark:text-indigo-400"
+          >
+            {d.displayName ?? d.company} — full detail &rarr;
+          </a>
+        </li>
+      ))}
+    </ul>
+  </main>
+</Layout>

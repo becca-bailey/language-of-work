@@ -1,0 +1,81 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import AxisExplorer from "@/components/AxisExplorer";
+import DeiExplorer from "@/components/DeiExplorer";
+import { loadAxis, loadCompaniesManifest, loadDei } from "@/lib/data";
+import { getAxisContent } from "@/lib/content";
+import { storyPathForAxis } from "@/lib/stories";
+
+export async function getStaticPaths() {
+  const manifest = await loadCompaniesManifest();
+  const params: { params: { axis: string; company: string } }[] = [];
+  for (const c of manifest) {
+    for (const axis of c.axes) {
+      if (axis !== "control") params.push({ params: { axis, company: c.id } });
+    }
+  }
+  return params;
+}
+
+const { axis, company } = Astro.params as { axis: string; company: string };
+if (axis === "control") return Astro.redirect("/404");
+
+const content = getAxisContent(axis);
+const backHref = storyPathForAxis(axis) ?? `/explore/${axis}`;
+const isStory = Boolean(storyPathForAxis(axis));
+
+const dei = axis === "dei" ? await loadDei(company) : null;
+const data = axis === "dei" ? null : await loadAxis(company, axis);
+const control = axis === "dei" ? null : await loadAxis(company, "control");
+
+if (axis === "dei" ? !dei : !data) return Astro.redirect("/404");
+
+const displayName = (dei?.displayName ?? dei?.company) || (data?.displayName ?? data?.company);
+---
+
+<Layout title={`${displayName} / ${content.title}`}>
+  <main class="mx-auto w-full max-w-4xl flex-1 px-6 py-12">
+    <a
+      href={backHref}
+      class="text-sm text-neutral-500 transition-colors hover:text-neutral-800 dark:hover:text-neutral-200"
+    >
+      &larr; {axis === "dei" ? `DEI ${isStory ? "story" : content.title.toLowerCase()}` : isStory ? `${content.title} story` : content.title}
+    </a>
+    <h1 class="mt-4 text-2xl font-semibold tracking-tight">
+      {displayName}<span class="text-neutral-400"> / </span>{content.title}
+    </h1>
+
+    {axis === "dei" && dei && (
+      <>
+        <p class="mt-2 max-w-prose text-sm text-neutral-600 dark:text-neutral-400">
+          Inclusion intensity (raw cosine to the inclusion pole) on mission/brand chunks —
+          near-zero means the language is absent, not opposed. Meritocracy rhetoric shows up in
+          the register breakdown below. Vertical lines mark external events.
+        </p>
+        <div class="mt-8">
+          <DeiExplorer data={dei} client:only="react" />
+        </div>
+      </>
+    )}
+
+    {axis !== "dei" && data && (
+      <>
+        <p class="mt-2 max-w-prose text-sm text-neutral-600 dark:text-neutral-400">
+          Yearly top-k mean of mission/brand sentences projected onto the {axis} contrast axis,
+          z-scored within company. The dashed control axis tracks page composition — if both move
+          together, the signal is composition, not values.
+          {axis === "altruism" && (
+            <>
+              {" "}Techno-optimism (product-capability hype like "we build amazing technology") is
+              split out, so this tracks genuine "change the world" mission only; years with no
+              world-changing language are shown as gaps, not lows.
+            </>
+          )}
+        </p>
+        <div class="mt-8">
+          <AxisExplorer axis={data} control={control} client:only="react" />
+        </div>
+      </>
+    )}
+  </main>
+</Layout>
