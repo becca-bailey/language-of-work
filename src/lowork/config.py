@@ -15,6 +15,9 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "data"
 AXES_DIR = ROOT / "axes"
 DOCS_DIR = ROOT / "docs"
+# Web-facing JSON the export scripts emit and the Astro site reads at build
+# time. Lives inside the Astro project so the whole site deploys from `astro/`.
+WEB_DATA_DIR = ROOT / "astro" / "src" / "data"
 
 # Pinned models (temperature 0 everywhere)
 EMBEDDING_MODEL = "text-embedding-3-large"

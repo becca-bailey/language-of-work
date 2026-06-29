@@ -8,7 +8,7 @@ test is on FIRST DIFFERENCES (year-over-year changes); we also show raw alongsid
 smoothed (smoothing inflates r on n~14), leave-one-company-out sensitivity, and
 per-company spread. Lag is reported but uninterpretable on short trending series.
 
-Reads web/public/data/stories/power.json; writes data/power_robustness.md.
+Reads astro/src/data/stories/power.json; writes data/power_robustness.md.
 """
 
 from __future__ import annotations
@@ -17,7 +17,7 @@ import json
 
 import numpy as np
 
-from lowork.config import ROOT
+from lowork.config import WEB_DATA_DIR, ROOT
 
 
 def _smooth(d: dict[int, float]) -> dict[int, float]:
@@ -42,7 +42,7 @@ def _diff(d: dict[int, float]) -> dict[int, float]:
 
 
 def main() -> None:
-    p = json.loads((ROOT / "web/public/data/stories/power.json").read_text())
+    p = json.loads((WEB_DATA_DIR / "stories" / "power.json").read_text())
     power = {d["year"]: d["value"] for d in p["power"]["series"] if d.get("value") is not None}
 
     rows = []

@@ -9,7 +9,7 @@ uninterpretable, so canon and conduct are scored separately. Worker-register tex
 is excluded — H2's cross-register confound is out of scope for this view.
 
 Reads data/<case>/embeddings.parquet (canon label set) and the built axis, writes
-web/public/data/stories/values-as-ip.json.
+astro/src/data/stories/values-as-ip.json.
 """
 
 from __future__ import annotations
@@ -21,7 +21,7 @@ import pandas as pd
 
 from lowork.axes import project
 from lowork.company import CompanyProfile
-from lowork.config import AXES_DIR, ROOT, company_dir
+from lowork.config import WEB_DATA_DIR, AXES_DIR, ROOT, company_dir
 from lowork.io import read_json, write_json
 
 AXIS = "mission_rights"
@@ -134,7 +134,7 @@ def main(cases: list[str]) -> None:
         "metricLabel": "mission ←→ rights (firm-register projection)",
         "cases": series,
     }
-    out_dir = ROOT / "web" / "public" / "data" / "stories"
+    out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
     write_json(out_dir / "values-as-ip.json", out)
     print(f"Wrote {out_dir / 'values-as-ip.json'} ({len(series)} case(s))")

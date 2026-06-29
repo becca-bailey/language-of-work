@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Step 9b: export sentence-level pipeline output for the Next.js frontend.
 
-Writes web/public/data/<company>/<axis>.json — one year series per axis,
+Writes astro/src/data/<company>/<axis>.json — one year series per axis,
 sentence-level only (the default analysis granularity).
 """
 
@@ -12,15 +12,15 @@ import argparse
 import pandas as pd
 
 from lowork.company import CompanyProfile
-from lowork.config import ROOT, TOP_K, company_dir
+from lowork.config import WEB_DATA_DIR, ROOT, TOP_K, company_dir
 from lowork.io import read_json, write_json
 
 LEVEL = "sentence"
 
 
 def update_companies_manifest(company: str, axes: list[str]) -> None:
-    """Merge this company's export into web/public/data/companies.json."""
-    manifest_path = ROOT / "web" / "public" / "data" / "companies.json"
+    """Merge this company's export into astro/src/data/companies.json."""
+    manifest_path = WEB_DATA_DIR / "companies.json"
     if manifest_path.exists():
         manifest = read_json(manifest_path)
     else:
@@ -45,7 +45,7 @@ def main(company: str) -> None:
     cdir = company_dir(company)
     scores = pd.read_parquet(cdir / "axis_scores.parquet")
     quotes = read_json(cdir / "evidence_quotes.json")
-    out_dir = ROOT / "web" / "public" / "data" / company
+    out_dir = WEB_DATA_DIR / company
 
     # Altruism is cleaned: techno-optimism (product hype) is split out so the
     # per-company line tracks genuine "change the world" mission, not "we build

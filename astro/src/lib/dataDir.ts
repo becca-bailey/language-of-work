@@ -3,12 +3,11 @@ import path from "path";
 /**
  * Single source of truth for where the Python pipeline writes its JSON.
  *
- * The data is NOT duplicated into the Astro project. Loaders point at the
- * canonical `web/public/data` (sibling to this `astro/` project). `astro build`
- * runs with cwd = the astro project root, so we resolve one level up into `web`.
- *
- * Cutover (Phase 4) is a one-line change here once Python repoints its output.
+ * Post-cutover (Phase 4) the export scripts write into this Astro project
+ * (`lowork.config.WEB_DATA_DIR` → `astro/src/data`) so the whole site deploys
+ * from `astro/` with no sibling dependency. `astro build` runs with cwd = the
+ * astro project root, so we resolve into `src/data`.
  */
-export const DATA_DIR = path.resolve(process.cwd(), "..", "web", "public", "data");
+export const DATA_DIR = path.resolve(process.cwd(), "src", "data");
 
 export const STORIES_DIR = path.join(DATA_DIR, "stories");

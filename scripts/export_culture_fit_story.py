@@ -4,12 +4,12 @@ according to each company's own careers pages, with verbatim supporting quotes.
 
 Curated narrative (the summaries are interpretation; the quotes are verbatim careers-page
 text pulled from the corpus). Companies ordered along the spectrum the quotes reveal:
-belonging-first → elite-filter. Writes web/public/data/stories/culture-fit.json.
+belonging-first → elite-filter. Writes astro/src/data/stories/culture-fit.json.
 """
 
 from __future__ import annotations
 
-from lowork.config import ROOT
+from lowork.config import WEB_DATA_DIR, ROOT
 from lowork.io import write_json
 
 # Ordered belonging-first -> elite-filter. Quotes are verbatim careers-page lines.
@@ -123,7 +123,7 @@ def main() -> None:
         ),
         "cards": CARDS,
     }
-    out_dir = ROOT / "web" / "public" / "data" / "stories"
+    out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
     write_json(out_dir / "culture-fit.json", out)
     print(f"Wrote {out_dir / 'culture-fit.json'} ({len(CARDS)} companies)")

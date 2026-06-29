@@ -3,7 +3,7 @@
 
 Reads data/culture_propagation.json (the threshold-validated adoption timeline) +
 recomputes the objectivity audit, and curates the deck's canonical quotes. Writes
-web/public/data/stories/netflix-culture.json. Framing is the data-supported one:
+astro/src/data/stories/netflix-culture.json. Framing is the data-supported one:
 Netflix authored the canonical language; the ethos spread by convergence; the brutal
 formulations stayed in-house except Coinbase. See docs/netflix-culture-outline.md.
 """
@@ -14,7 +14,7 @@ import re
 
 import pandas as pd
 
-from lowork.config import ROOT, company_dir
+from lowork.config import WEB_DATA_DIR, ROOT, company_dir
 from lowork.io import read_json, write_json
 
 # concept -> tier: lift (distinctive + propagated) / netflix_only (distinctive, stayed) /
@@ -192,7 +192,7 @@ def main() -> None:
         "implicitExplicit": IMPLICIT_EXPLICIT,
         "netflixEvolution": netflix_evolution(),
     }
-    out_dir = ROOT / "web" / "public" / "data" / "stories"
+    out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
     write_json(out_dir / "netflix-culture.json", out)
     print(f"Wrote {out_dir / 'netflix-culture.json'}")

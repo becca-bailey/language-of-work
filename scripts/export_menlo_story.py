@@ -4,7 +4,7 @@
 Reuses what the pipeline already produced — axis_scores.parquet + evidence_quotes.json
 (canon idealism line + top quotes), menlo_phrases.json (branded vocabulary), and
 sources.json (events) — and recomputes the impact-claim denominator audit. Writes
-web/public/data/stories/menlo.json.
+astro/src/data/stories/menlo.json.
 
 Three-act story (see docs/menlo-story-outline.md):
   Act 1 the belief · Act 2 the megaphone · Act 3 the echo that never came.
@@ -18,7 +18,7 @@ import re
 
 import pandas as pd
 
-from lowork.config import ROOT, company_dir
+from lowork.config import WEB_DATA_DIR, ROOT, company_dir
 from lowork.io import read_json, write_json
 
 ERAS = [
@@ -97,7 +97,7 @@ def cohort_series() -> list[dict]:
     (techno-optimism removed), so the cohort here matches those pages exactly.
     Z within company, so the comparison is of shape and timing, not absolute level.
     """
-    path = ROOT / "web" / "public" / "data" / "stories" / "altruism.json"
+    path = WEB_DATA_DIR / "stories" / "altruism.json"
     if not path.exists():
         return []
     alt = read_json(path)
@@ -211,7 +211,7 @@ def main() -> None:
         "impactAudit": impact_audit(firm),
         "outsiderView": outsider_view(firm),
     }
-    out_dir = ROOT / "web" / "public" / "data" / "stories"
+    out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
     write_json(out_dir / "menlo.json", out)
     print(f"Wrote {out_dir / 'menlo.json'}")

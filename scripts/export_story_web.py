@@ -10,7 +10,7 @@ import re
 import pandas as pd
 
 from lowork.company import CompanyProfile
-from lowork.config import DATA_DIR, ROOT, TOP_K, company_dir
+from lowork.config import WEB_DATA_DIR, DATA_DIR, ROOT, TOP_K, company_dir
 from lowork.dei import COUNTER_DEI_REGISTERS, DEI_REGISTERS
 from lowork.io import read_json, write_json
 
@@ -281,7 +281,7 @@ def export_performance(companies: list[str]) -> None:
         "lexicons": lexicons,
         "highlights": highlights,
     }
-    out_dir = ROOT / "web" / "public" / "data" / "stories"
+    out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
     write_json(out_dir / "performance.json", out)
     print(f"Wrote {out_dir / 'performance.json'}")
@@ -878,7 +878,7 @@ def export_altruism(companies: list[str]) -> None:
             "Meta's recent idealism is ~100% techno-optimism."
         ),
     }
-    out_dir = ROOT / "web" / "public" / "data" / "stories"
+    out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
     write_json(out_dir / "altruism.json", out)
     print(f"Wrote {out_dir / 'altruism.json'}")
@@ -959,7 +959,7 @@ def export_dei(companies: list[str]) -> None:
         "envelopes": envelopes,
         "stancePresence": stancePresence,
     }
-    out_dir = ROOT / "web" / "public" / "data" / "stories"
+    out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
     write_json(out_dir / "dei.json", out)
     print(f"Wrote {out_dir / 'dei.json'}")

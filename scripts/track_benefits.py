@@ -8,7 +8,7 @@ Family/caregiving is a standard benefit; fertility is split out and dual-flagged
 signal (the more DEI-coded reproductive perk). Reports per-year prevalence (share of
 benefit-bearing chunks mentioning a category) + 3-yr smoothing; self-presentation only.
 
-Writes web/public/data/stories/benefits.json + data/benefits_trends.md (review).
+Writes astro/src/data/stories/benefits.json + data/benefits_trends.md (review).
 """
 
 from __future__ import annotations
@@ -16,7 +16,7 @@ from __future__ import annotations
 import re
 from collections import defaultdict
 
-from lowork.config import ROOT, company_dir
+from lowork.config import WEB_DATA_DIR, ROOT, company_dir
 from lowork.io import read_json, load_all_chunks, write_json
 
 COMPANIES = ["google", "amazon", "meta", "palantir", "coinbase", "netflix",
@@ -166,7 +166,7 @@ def main() -> None:
         "categories": categories,
         "materialDEI": material_dei,
     }
-    out_dir = ROOT / "web" / "public" / "data" / "stories"
+    out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
     write_json(out_dir / "benefits.json", out)
 

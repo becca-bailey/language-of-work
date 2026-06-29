@@ -10,7 +10,7 @@ Reframe (per the user): idealism is an industry-optimism barometer, not a worker
 concession — it co-moves with worker power because both ride the same boom. DEI is the
 worker-oriented (conditional) intervention; performance is the management-serving constant.
 
-Writes web/public/data/stories/power.json.
+Writes astro/src/data/stories/power.json.
 """
 
 from __future__ import annotations
@@ -20,10 +20,10 @@ import pandas as pd
 
 from lowork.axes import project
 from lowork.company import CompanyProfile
-from lowork.config import AXES_DIR, ROOT, TOP_K, company_dir
+from lowork.config import WEB_DATA_DIR, AXES_DIR, ROOT, TOP_K, company_dir
 from lowork.io import read_json, write_json
 
-STORIES = ROOT / "web" / "public" / "data" / "stories"
+STORIES = WEB_DATA_DIR / "stories"
 
 # ONE set for ALL THREE metrics (no per-metric subsets). Every company is scored on all
 # three axes. Basecamp/Twitter are documented cases elsewhere, not in this aggregate.

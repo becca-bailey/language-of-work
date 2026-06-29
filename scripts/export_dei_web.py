@@ -8,7 +8,7 @@ import argparse
 import pandas as pd
 
 from lowork.company import CompanyProfile
-from lowork.config import ROOT, TOP_K, company_dir
+from lowork.config import WEB_DATA_DIR, ROOT, TOP_K, company_dir
 from lowork.dei import DEI_REGISTERS
 from lowork.io import read_json, write_json
 
@@ -19,7 +19,7 @@ DEI_VIEW_EXCLUDED: set[str] = set()
 
 
 def update_manifest(company: str) -> None:
-    manifest_path = ROOT / "web" / "public" / "data" / "companies.json"
+    manifest_path = WEB_DATA_DIR / "companies.json"
     if manifest_path.exists():
         manifest = read_json(manifest_path)
     else:
@@ -76,7 +76,7 @@ def main(company: str) -> None:
             "meritocracyQuotes": evidence.get("meritocracy", {}).get(str(int(r.year)), []),
         })
 
-    out_dir = ROOT / "web" / "public" / "data" / company
+    out_dir = WEB_DATA_DIR / company
     write_json(
         out_dir / "dei.json",
         {

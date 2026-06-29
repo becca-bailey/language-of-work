@@ -1,0 +1,15 @@
+# Astro static site. The whole web app lives in `astro/`; the Python pipeline
+# writes its JSON into `astro/src/data` (lowork.config.WEB_DATA_DIR), so the
+# build has no dependency outside this directory.
+#
+# `base` makes Netlify run the build from `astro/`; `publish` is resolved
+# relative to that base, so `dist` = `astro/dist`. Astro's trailingSlash:
+# "always" + directory output emit `/<route>/index.html`, which Netlify serves
+# for both `/route` and `/route/` — covering the deep-link 404 risk from Phase 0.
+[build]
+  base = "astro"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
