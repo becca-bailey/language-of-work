@@ -7,7 +7,8 @@ const essays = defineCollection({
     title: z.string(),
     teaser: z.string().optional(),
     subtitle: z.string().optional(),
-    draft: z.boolean().optional(),
+    // Shown in production only when true; otherwise a draft (dev-only).
+    published: z.boolean().optional(),
   }),
 });
 
@@ -17,6 +18,12 @@ const stories = defineCollection({
     title: z.string(),
     subtitle: z.string().optional(),
     thesis: z.string().optional(),
+    // Homepage hub metadata (was registry.ts): which study it belongs to, the
+    // listing teaser, sort order, and draft/published gating.
+    study: z.string(),
+    teaser: z.string(),
+    order: z.number().default(0),
+    published: z.boolean().optional(),
   }),
 });
 

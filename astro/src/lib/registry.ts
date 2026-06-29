@@ -1,23 +1,20 @@
 /**
- * Single source of truth for the stories the site presents, grouped by study.
+ * Study metadata + the homepage hub grouping.
  *
  * A "study" is a research project (its own cases, axes, and method); a "story"
- * is a curated narrative under /stories/[slug]. The homepage hub renders from
- * this registry so adding a story is a one-line edit here, not a page rewrite.
- * The generic axis explorer lives separately under /explore/[axis].
+ * is a curated narrative under /stories/[slug]. Stories themselves now live
+ * entirely in the `stories` content collection (MDX frontmatter carries title,
+ * teaser, study, order, published) — adding a story is just dropping an MDX
+ * file, same as essays. This module only holds the study-level metadata the
+ * collection can't, and groups the collection by study for the homepage.
  */
+import { getCollection } from "astro:content";
+import { isVisible } from "./visibility";
 
 export interface StudyMeta {
   id: string;
   name: string;
   blurb: string;
-}
-
-export interface StoryMeta {
-  slug: string; // route under /stories/
-  title: string;
-  teaser: string;
-  study: string; // StudyMeta.id
 }
 
 export const STUDIES: StudyMeta[] = [
@@ -29,52 +26,17 @@ export const STUDIES: StudyMeta[] = [
   },
 ];
 
-export const STORIES: StoryMeta[] = [
-  {
-    slug: "power",
-    title: "Culture is downstream of power",
-    teaser:
-      "Worker-serving language (DEI) tracks worker power and collapses when it falls; the management-serving substrate (performance) never moves.",
-    study: "careers",
-  },
-  {
-    slug: "dei",
-    title: "DEI Language",
-    teaser: "Industry-wide adoption, retraction, and counter-programming on careers pages.",
-    study: "careers",
-  },
-  {
-    slug: "altruism",
-    title: "Changing the World",
-    teaser: 'When did idealistic "change the world" copy peak — and who still sounds that way?',
-    study: "careers",
-  },
-  {
-    slug: "netflix-culture",
-    title: "A Team, Not a Family",
-    teaser:
-      "Netflix's 2009 culture deck, the model it spread (narrowly to Coinbase, broadly by convergence), and the scoreboard that isn't there.",
-    study: "careers",
-  },
-  {
-    slug: "culture-fit",
-    title: "Who is a culture fit?",
-    teaser:
-      "Who belongs at each company, in their careers pages' own words — from belonging-first to an explicit elite filter.",
-    study: "careers",
-  },
-  {
-    slug: "benefits",
-    title: "How the perks changed",
-    teaser:
-      "Which benefits companies advertised over time — fitness and free food fading, mental-health and remote rising, fertility (also a DEI signal) growing.",
-    study: "careers",
-  },
-];
+/** Published stories (all in dev; published-only in prod), in display order. */
+export async function visibleStories() {
+  return (await getCollection("stories", (s) => isVisible(s.data.published))).sort(
+    (a, b) => a.data.order - b.data.order
+  );
+}
 
-export function storiesByStudy(): { study: StudyMeta; stories: StoryMeta[] }[] {
+export async function storiesByStudy() {
+  const stories = await visibleStories();
   return STUDIES.map((study) => ({
     study,
-    stories: STORIES.filter((s) => s.study === study.id),
+    stories: stories.filter((s) => s.data.study === study.id),
   })).filter((group) => group.stories.length > 0);
 }

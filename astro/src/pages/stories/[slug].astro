@@ -1,9 +1,11 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import { isVisible } from "@/lib/visibility";
 import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
-  const stories = await getCollection("stories");
+  // Only build published stories, so a draft has no reachable route in prod.
+  const stories = await getCollection("stories", (s) => isVisible(s.data.published));
   return stories.map((entry) => ({
     params: { slug: entry.id },
     props: { entry },

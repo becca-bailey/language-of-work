@@ -2,6 +2,11 @@
 import StorySparklines from "@/components/StorySparklines";
 import { loadStory } from "@/lib/stories";
 
+interface Props {
+  metricLabel?: string;
+}
+const { metricLabel } = Astro.props;
+
 const data = await loadStory("altruism");
 const companies = data?.sources.careers?.companies ?? [];
 // Headline line uses the cleaned (techno-removed) world-changing series where available.
@@ -10,6 +15,6 @@ const cleaned = companies.map((c) => (c.worldChanging ? { ...c, years: c.worldCh
 
 {cleaned.length > 0 && (
   <div class="my-6">
-    <StorySparklines companies={cleaned} metricLabel={data?.metricLabel} client:only="react" />
+    <StorySparklines companies={cleaned} metricLabel={metricLabel} client:only="react" />
   </div>
 )}

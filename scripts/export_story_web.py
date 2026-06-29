@@ -855,11 +855,11 @@ def export_altruism(companies: list[str]) -> None:
         companies, series_by_company, quotes_by_company
     )
 
+    # Data only — editorial prose (title, axis label, the techno-optimism split
+    # note) lives in the MDX story / component props, not in the dataset.
     out = {
         "story": "altruism",
-        "title": "Changing the World",
         "metric": "zscore",
-        "metricLabel": "Idealism (z-scored within company)",
         "sources": {
             "careers": {
                 "coverageStart": min(
@@ -871,12 +871,6 @@ def export_altruism(companies: list[str]) -> None:
         "lexicons": {},
         "peakPresent": peak_present,
         "yearQuotes": year_quotes,
-        "splitNote": (
-            "Idealistic language is split via the techno_optimism axis into "
-            "world-changing mission vs. techno-optimism (product-capability hype). "
-            "'We build amazing technology' is not 'we'll change the world' — e.g. "
-            "Meta's recent idealism is ~100% techno-optimism."
-        ),
     }
     out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)

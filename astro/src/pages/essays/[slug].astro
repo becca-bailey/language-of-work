@@ -1,9 +1,10 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import { isVisible } from "@/lib/visibility";
 import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
-  const essays = await getCollection("essays");
+  const essays = await getCollection("essays", (e) => isVisible(e.data.published));
   return essays.map((entry) => ({
     params: { slug: entry.id },
     props: { entry },
