@@ -911,58 +911,24 @@ def export_dei(companies: list[str]) -> None:
             "years": _dei_careers_year_rows(df, stance_df, evidence),
         })
     if careers_series:
+        # Data only: the register chart needs registers + nChunks + thin (to
+        # tell no-capture from DEI-absent); the hover needs the two stance
+        # quotes. The retired salience/envelope/stance fields stay out.
+        keep = {"year", "registers", "nChunks", "thin", "stanceMaxQuote", "stanceMinQuote"}
+        for c in careers_series:
+            c["years"] = [{k: v for k, v in y.items() if k in keep} for y in c["years"]]
         sources["careers"] = {
-            "coverageStart": min(
-                y["year"] for c in careers_series for y in c["years"]
-            ),
+            "coverageStart": min(y["year"] for c in careers_series for y in c["years"]),
             "companies": careers_series,
         }
 
-    # Investor: net score from dei_investor_scores.parquet (no registers)
-    investor_series = []
-    for company in dei_companies:
-        path = company_dir(company) / "dei_investor_scores.parquet"
-        if not path.exists():
-            continue
-        df = pd.read_parquet(path)
-        profile = CompanyProfile.load(company)
-        investor_series.append({
-            "id": company,
-            "displayName": profile.display_name,
-            "years": _dei_investor_year_rows(df),
-        })
-    if investor_series:
-        sources["investor"] = {
-            "coverageStart": INVESTOR_COVERAGE_START,
-            "companies": investor_series,
-        }
-
-    # Merge phrase lexicons from all dei companies
-    lexicons: dict[str, list] = {"inclusion": [], "civilizational": []}
-    for company in dei_companies:
-        path = company_dir(company) / "dei_phrases.json"
-        if not path.exists():
-            continue
-        data = read_json(path)
-        for era in ("inclusion", "civilizational"):
-            for t in data.get("lexicons", {}).get(era, data.get("terms", [])):
-                lexicons[era].append({**t, "company": company})
-
-    highlights = _curate_dei_highlights(dei_companies)
-    timelines = _curate_dei_timelines(dei_companies)
-    envelopes = _build_envelopes(dei_companies)
-    stancePresence = _build_stance_presence(dei_companies)
+    # Editorial framing (title, axis label) lives in the MDX. The investor
+    # source, phrase lexicons, and the retired salience/envelope/timeline
+    # blocks are rendered by nothing, so they stay out of the JSON.
     out = {
         "story": "dei",
-        "title": "DEI Language",
-        "metric": "activeShare",
-        "metricLabel": "Share of careers-page chunks in an active DEI register",
         "sources": sources,
-        "lexicons": lexicons,
-        "highlights": highlights,
-        "timelines": timelines,
-        "envelopes": envelopes,
-        "stancePresence": stancePresence,
+        "highlights": _curate_dei_highlights(dei_companies),
     }
     out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)

@@ -1,10 +1,6 @@
 ---
 title: DEI Language
-subtitle: >-
-  When did substantive diversity and inclusion language appear on careers pages — and who
-  retracted it after 2023? Coinbase's apolitical stance, Netflix's "not a family" culture
-  memo, and Palantir's civilizational mission copy are counter-examples worth reading
-  alongside Google, Amazon, and Meta.
+subtitle: When substantive diversity language appeared on careers pages — and who retracted it after 2023.
 published: true
 study: careers
 order: 2
@@ -12,75 +8,43 @@ teaser: "Industry-wide adoption, retraction, and counter-programming on careers 
 ---
 
 import DeiRegisterChart from "@/components/viz/DeiRegisterChart.astro";
-import DeiMaterial from "@/components/viz/DeiMaterial.astro";
-import DeiStanceEnvelope from "@/components/viz/DeiStanceEnvelope.astro";
-import DeiSalience from "@/components/viz/DeiSalience.astro";
-import DeiTimeline from "@/components/viz/DeiTimeline.astro";
 import DeiHighlights from "@/components/viz/DeiHighlights.astro";
-import CompanyLinks from "@/components/viz/CompanyLinks.astro";
 
-The inclusion embedding axis measures topic, not stance. Anti-DEI copy like "refuge from
-division" scores high on inclusion because it borrows belonging vocabulary — so a unipolar
-score cannot show the flip. The stance envelope (inclusion − meritocracy per chunk) and
-register classifier are the fixes.
+I also wanted to study diversity and inclusion language — how often companies mention it, and
+what kind of signal it is. Is it vague and aspirational, or does it name specific goals for
+specific groups? (Mostly, when it existed at all, it was vague and aspirational.)
 
-Two different stories need two metrics: topical salience (is the page talking about this at
-all?) and signed stance (which direction?). Coinbase is the rare case where salience stays
-high while stance inverts. Armstrong's September 2020 blog memo precedes the careers-page
-shift by roughly three years.
+DEI language isn't the same as policy; it's a signal, not proof of good conditions for
+marginalized people. But as a job seeker, it's the kind of signal that decides whether I
+apply. So I classified every careers-page chunk into a *register* — a type of DEI language —
+with the Claude API, hand-tuning the prompts. Early on it couldn't tell "we want a diverse
+workforce" from "we serve a diverse customer base"; the difference matters. Amazon's diversity
+mentions were almost always about customers — the first real *workforce* mention in my data
+shows up in 2026.
 
-## What kind of DEI language, year by year
-
-Every careers-page chunk is classified into a DEI register by an LLM. This shows stance, not
-just topic: aspirational boilerplate, structural commitments, and anti-DEI
-counter-programming each get their own color.
+The chart stacks each company's registers by year: inclusion language above the line,
+counter-programming below — meritocracy / anti-DEI framing and the "civilizational mission"
+language best exemplified by Palantir's many invocations of "the West."
 
 <DeiRegisterChart />
 
-## Is there substance behind the words?
-
-Share of job postings naming a concrete family- or identity-positive benefit
-(fertility/family-building, parental & family leave, caregiving & childcare, lactation
-support, domestic-partner coverage) — the substance counterpoint to rhetorical DEI language.
-Note the different lens: the bars above are the share of *DEI chunks* by stance; this line is
-the share of *job postings* that name a concrete benefit. The rhetoric spikes and retracts —
-the material substance stays a low, flat line.
-
-<DeiMaterial />
-
-Self-presentation: what's *advertised*, not audited — rarely advertised is not the same as
-rarely offered. Thin and uneven per year; keyword-based. See the [benefits
-tracker](/stories/benefits/).
-
-## Stance envelope — did the direction flip?
-
-A unipolar inclusion score cannot show inversion — anti-DEI copy still scores high because it
-talks about belonging. The envelope plots the most inclusion-leaning and most
-meritocracy-leaning chunk each year (inclusion − meritocracy). Coinbase peaks at +0.14 in
-2021–22, then negative territory arrives in 2024.
-
-<DeiStanceEnvelope />
-
-## Topical salience — did the topic disappear?
-
-Separate from stance direction: how much is the page talking about DEI-adjacent topics at
-all? Coinbase keeps high salience while stance inverts; most companies show salience peaking
-around 2021 then evaporating.
-
-<DeiSalience />
-
-## How each company's voice changed
-
-First and most recent appearance of each register on a company's careers pages — read top to
-bottom as a then-vs-now narrative.
-
-<DeiTimeline />
+Read it as adoption and retraction: the rhetoric spikes around 2021 and recedes, and the
+counterforces grow after 2020. Coinbase is the rare inversion — Armstrong's 2020 "apolitical"
+memo precedes the careers-page flip by about three years. Hover any year for the actual
+language.
 
 ## Standout language
 
-Chunks that most clearly signal a stance on workplace inclusion — grouped by rhetorical move,
-not just highest scores.
+The chunks that most clearly signal a stance on workplace inclusion, grouped by rhetorical
+move rather than by raw score.
 
 <DeiHighlights />
 
-<CompanyLinks story="dei" />
+## How this was measured
+
+Each careers-page chunk is embedded and classified into a DEI register by an LLM, with
+manually tuned prompts. The inclusion axis measures topic, not direction — anti-DEI copy ("a
+refuge from division") scores high because it borrows belonging vocabulary — so the register
+classifier, not a single score, is what surfaces the flip. In the chart, a solid baseline
+tick marks a page that was archived but silent on DEI; a dashed tick marks a year with no
+archived page at all.
