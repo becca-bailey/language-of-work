@@ -38,6 +38,7 @@ function valueAt(metric: PowerMetric, company: string | null, year: number): num
 function Chart({ data, width }: { data: PowerStory; width: number }) {
   const [mode, setMode] = useState<"aggregate" | "company">("aggregate");
   const [hoverCo, setHoverCo] = useState<string | null>(null);
+  const [pinnedCo, setPinnedCo] = useState<string | null>(null);
   const { showTooltip, hideTooltip, tooltipData, tooltipLeft, tooltipTop } =
     useTooltip<Tip>();
 
@@ -49,6 +50,9 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
   const power = data.power.series.filter((p) => p.year >= X_MIN);
   const events = data.events.filter((e) => e.year >= X_MIN);
   const companies = metrics[0]?.perCompany.map((c) => ({ id: c.id, name: c.displayName })) ?? [];
+  // Hover previews; click pins. The pinned company stays highlighted while you
+  // move onto the chart to read the crosshair values.
+  const activeCo = hoverCo ?? pinnedCo;
 
   const crossYear = tooltipData?.kind === "cross" ? tooltipData.year : null;
   if (innerW <= 0) return null;
@@ -71,14 +75,21 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
         {mode === "company" && (
           <div className="flex flex-wrap gap-1.5 text-neutral-500">
             {companies.map((c) => (
-              <span
+              <button
                 key={c.id}
                 onMouseEnter={() => setHoverCo(c.id)}
                 onMouseLeave={() => setHoverCo(null)}
-                className={`cursor-default rounded px-1.5 py-0.5 ${hoverCo === c.id ? "bg-neutral-800 text-white dark:bg-neutral-200 dark:text-neutral-900" : "bg-neutral-100 dark:bg-neutral-800"}`}
+                onClick={() => setPinnedCo(pinnedCo === c.id ? null : c.id)}
+                className={`cursor-pointer rounded px-1.5 py-0.5 ${
+                  pinnedCo === c.id
+                    ? "bg-indigo-600 text-white"
+                    : activeCo === c.id
+                      ? "bg-neutral-800 text-white dark:bg-neutral-200 dark:text-neutral-900"
+                      : "bg-neutral-100 dark:bg-neutral-800"
+                }`}
               >
                 {c.name}
-              </span>
+              </button>
             ))}
           </div>
         )}
@@ -103,12 +114,12 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
               {/* lines */}
               {mode === "company"
                 ? m.perCompany.map((c) => {
-                    const hot = hoverCo === c.id;
+                    const hot = activeCo === c.id;
                     return (
                       <LinePath key={c.id} data={c.series} x={(d) => xScale(d.year)}
                         y={(d) => yScale(d.norm)} curve={curveMonotoneX}
                         stroke={hot ? color : "#9ca3af"} strokeWidth={hot ? 2.5 : 1}
-                        strokeOpacity={hot ? 1 : hoverCo ? 0.15 : 0.35} fill="none" />
+                        strokeOpacity={hot ? 1 : activeCo ? 0.15 : 0.35} fill="none" />
                     );
                   })
                 : (
@@ -166,8 +177,9 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
       <figcaption className="mt-2 max-w-prose text-xs text-neutral-500">
         Each panel: the language metric (line) over the{" "}
         <span className="rounded bg-neutral-200/80 px-1 dark:bg-neutral-700/60">shaded worker-power band</span>{" "}
-        (quits rate, normalized). Toggle to <em>By company</em> and hover a name to trace one
-        firm. Hover a dashed line for the power event. n = {data.companies.length} companies.
+        (quits rate, normalized). Toggle to <em>By company</em>, then hover a name to preview or
+        click to pin one firm and read its values across the panels. Hover a dashed line for the
+        power event. n = {data.companies.length} companies.
       </figcaption>
 
       {tooltipData && (
@@ -183,13 +195,13 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
             <>
               <p className="font-semibold">
                 {tooltipData.year}
-                {mode === "company" && hoverCo ? ` · ${companies.find((c) => c.id === hoverCo)?.name}` : ""}
+                {mode === "company" && activeCo ? ` · ${companies.find((c) => c.id === activeCo)?.name}` : ""}
               </p>
               <p className="mt-0.5 text-neutral-500">
                 worker power: {(power.find((p) => p.year === tooltipData.year)?.norm ?? 0).toFixed(2)}
               </p>
               {metrics.map((m) => {
-                const v = valueAt(m, mode === "company" ? hoverCo : null, tooltipData.year);
+                const v = valueAt(m, mode === "company" ? activeCo : null, tooltipData.year);
                 return (
                   <p key={m.id} style={{ color: COLOR[m.benefits] }}>
                     {m.id}: {v === null ? "–" : v.toFixed(2)}

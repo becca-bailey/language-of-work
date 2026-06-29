@@ -30,25 +30,11 @@ export interface PowerEvent {
   kind: string;
 }
 
-export interface PowerCase {
-  company: string;
-  date: string;
-  title: string;
-  shift: string;
-  quotes: string[];
-  source: string;
-}
-
 export interface PowerStory {
   story: string;
-  title: string;
-  subtitle: string;
-  thesis: string;
   companies: string[];
-  companiesNote: string;
   power: { label: string; caveat: string; series: PowerSeriesPoint[] };
   metrics: PowerMetric[];
-  cases: PowerCase[];
   events: PowerEvent[];
 }
 

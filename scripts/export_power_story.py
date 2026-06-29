@@ -82,6 +82,42 @@ def _per_company_from_story(companies: list[dict], field: str) -> dict[str, dict
     return out
 
 
+# Active (pro-inclusion) DEI registers — must match StoryRegisterChart.
+_ACTIVE_DEI = ("explicit_demographic", "structural_process", "aspirational_vague", "belonging_culture")
+
+
+def _dei_active_share() -> dict[str, dict[int, float]]:
+    """Per company-year active-DEI-register share, read straight from each
+    company's dei_scores.parquet — power owns its data, no dei.json dependency."""
+    out: dict[str, dict[int, float]] = {}
+    for c in COHORT:
+        p = company_dir(c) / "dei_scores.parquet"
+        if not p.exists():
+            continue
+        series: dict[int, float] = {}
+        for r in pd.read_parquet(p).itertuples():
+            n = int(getattr(r, "n_chunks", 0) or 0)
+            active = sum(int(getattr(r, f"register_{reg}", 0)) for reg in _ACTIVE_DEI)
+            series[int(r.year)] = (active / n) if n > 0 else 0.0
+        out[c] = series
+    return out
+
+
+def _performance_per_company() -> dict[str, dict[int, float]]:
+    """Careers performance presence per company from performance_scores.parquet —
+    read from source, not the performance story JSON."""
+    out: dict[str, dict[int, float]] = {}
+    for c in COHORT:
+        p = company_dir(c) / "performance_scores.parquet"
+        if not p.exists():
+            continue
+        df = pd.read_parquet(p)
+        sub = df[df["source"] == "careers"]
+        out[c] = {int(r.year): float(r.performance_fraction_present)
+                  for r in sub.itertuples() if pd.notna(r.performance_fraction_present)}
+    return out
+
+
 def _metric_block(mid: str, label: str, benefits: str, note: str,
                   per_company: dict[str, dict[int, float]]) -> dict:
     years = sorted({y for d in per_company.values() for y in d if y >= START_YEAR})
@@ -104,41 +140,14 @@ def _metric_block(mid: str, label: str, benefits: str, note: str,
             "series": agg, "perCompany": comps}
 
 
-# Power-shift cases: ownership/control concentrates -> culture hardens immediately.
-# Documented primary docs, NOT in the quant aggregate (illustrations).
-CASES = [
-    {
-        "company": "Basecamp", "date": "2021-04", "title": "“Changes at Basecamp”",
-        "shift": ("Founders unilaterally banned political talk, scrapped committees and "
-                  "“paternalistic” benefits; ~1/3 of staff took buyouts and left."),
-        "quotes": [
-            "No more societal and political discussions on our company Basecamp account.",
-            "No more paternalistic benefits.",
-            "No more committees.",
-        ],
-        "source": "Jason Fried, world.hey.com/jason/changes-at-basecamp-7f32afc5 (Apr 2021)",
-    },
-    {
-        "company": "Twitter / X", "date": "2022-11", "title": "“Extremely hardcore”",
-        "shift": ("Days after Musk's takeover, an ultimatum: commit to “extremely "
-                  "hardcore” long hours or take severance — after ~50% layoffs and an RTO order."),
-        "quotes": [
-            "Going forward, to build a breakthrough Twitter 2.0 … we will need to be extremely hardcore. This will mean working long hours at high intensity.",
-            "Only exceptional performance will constitute a passing grade.",
-        ],
-        "source": "Elon Musk, all-staff email, Nov 16 2022 (widely reported)",
-    },
-]
-
-
 def _event_year(date: str) -> float:
     y, _, m = date.partition("-")
     return int(y) + ((int(m) - 1) / 12 if m else 0)
 
 
 def main() -> None:
-    dei = read_json(STORIES / "dei.json")["sources"]["careers"]["companies"]
-    perf = read_json(STORIES / "performance.json")["sources"]["careers"]["companies"]
+    # Every metric is read from source parquet — power.json is self-contained and
+    # does not depend on the dei/performance story JSONs being regenerated first.
     power = read_json(ROOT / "data" / "power_proxies.json")
 
     metrics = [
@@ -149,15 +158,13 @@ def main() -> None:
         _metric_block(
             "dei", "DEI language — worker-oriented (conditional)", "workers",
             "surged ~2021, rolled back from 2023",
-            _per_company_from_story(dei, "activeShare")),
-        _metric_block(
-            "wellbeing", "Wellbeing / balance — worker concession", "wellbeing",
-            "the balance/rest framing — given in the boom, quietly withdrawn",
-            _wellbeing_per_company()),
+            _dei_active_share()),
+        # Wellbeing demoted — under-measured on careers copy (it lives in benefits
+        # text); revisit with the benefits story. Not shown as a power panel.
         _metric_block(
             "performance", "Performance / intensity — management-serving (constant)",
             "management", "needs no leverage to survive — the constant substrate",
-            _per_company_from_story(perf, "fractionPresent")),
+            _performance_per_company()),
     ]
 
     pseries = [p for p in power["quits"] if p["year"] >= START_YEAR]
@@ -169,30 +176,19 @@ def main() -> None:
          "norm": round((p["quitsRate"] - plo) / prng, 4)} for p in pseries
     ]
 
+    # Editorial framing (title, subtitle, thesis, the cohort note) lives in the
+    # MDX. Basecamp/Twitter were illustrative "shift" cases outside the 11-company
+    # dataset — drop the cases block and their chart annotations (kind=="shift").
     out = {
         "story": "power",
-        "title": "Culture is downstream of power",
-        "subtitle": "The language that rises and falls with workers' leverage — and the part that never needed it.",
-        "thesis": ("Across 11 companies, the worker-oriented intervention (DEI) tracks "
-                   "worker bargaining power (the quits rate) — it rises and recedes with "
-                   "leverage even after the decade's shared trend is removed. The optimism "
-                   "barometer (idealism) rides the same boom but is mostly co-trending, not "
-                   "power-responsive. Performance/intensity, which serves whoever can hire "
-                   "and fire, is flat regardless. The culture that persists is the part that "
-                   "benefits the people in power; the rest is rented."),
         "companies": COHORT,
-        "companiesNote": (
-            f"All three metrics are means over the same {len(COHORT)} companies, each scored "
-            "on all three axes — no per-metric subsetting. Basecamp and Twitter/X are "
-            "documented as power-shift cases below, not in this aggregate (Basecamp has no "
-            "careers corpus; Twitter/X is thin post-2022)."),
         "power": {"label": power["metricLabel"], "caveat": power["caveat"], "series": power_series},
         "metrics": metrics,
-        "cases": CASES,
         "events": [
             {"year": round(_event_year(e["date"]), 3), "date": e["date"],
              "label": e["label"], "kind": e["kind"]}
             for e in power["events"]
+            if e["kind"] != "shift"
         ],
     }
     write_json(STORIES / "power.json", out)

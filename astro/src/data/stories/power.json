@@ -1,8 +1,5 @@
 {
   "story": "power",
-  "title": "Culture is downstream of power",
-  "subtitle": "The language that rises and falls with workers' leverage — and the part that never needed it.",
-  "thesis": "Across 11 companies, the worker-oriented intervention (DEI) tracks worker bargaining power (the quits rate) — it rises and recedes with leverage even after the decade's shared trend is removed. The optimism barometer (idealism) rides the same boom but is mostly co-trending, not power-responsive. Performance/intensity, which serves whoever can hire and fire, is flat regardless. The culture that persists is the part that benefits the people in power; the rest is rented.",
   "companies": [
     "google",
     "amazon",
@@ -16,7 +13,6 @@
     "brex",
     "snap"
   ],
-  "companiesNote": "All three metrics are means over the same 11 companies, each scored on all three axes — no per-metric subsetting. Basecamp and Twitter/X are documented as power-shift cases below, not in this aggregate (Basecamp has no careers corpus; Twitter/X is thin post-2022).",
   "power": {
     "label": "Worker power — JOLTS quits rate (% / month, annual mean)",
     "caveat": "Economy-wide quits rate, not tech-only — a proxy for worker bargaining power; tech tracked the national swing. Co-movement, not causation.",
@@ -137,33 +133,33 @@
         },
         {
           "year": 2020,
-          "value": 0.1633,
-          "norm": 0.5222
+          "value": 0.1659,
+          "norm": 0.5324
         },
         {
           "year": 2021,
-          "value": 0.1749,
-          "norm": 0.5679
+          "value": 0.1765,
+          "norm": 0.5742
         },
         {
           "year": 2022,
-          "value": 0.1471,
-          "norm": 0.4585
+          "value": 0.1505,
+          "norm": 0.4718
         },
         {
           "year": 2023,
-          "value": 0.1344,
-          "norm": 0.4083
+          "value": 0.1363,
+          "norm": 0.4157
         },
         {
           "year": 2024,
-          "value": 0.1483,
-          "norm": 0.4629
+          "value": 0.1488,
+          "norm": 0.4649
         },
         {
           "year": 2025,
-          "value": 0.1493,
-          "norm": 0.4672
+          "value": 0.1542,
+          "norm": 0.4861
         },
         {
           "year": 2026,
@@ -329,9 +325,34 @@
               "norm": 0.4676
             },
             {
+              "year": 2020,
+              "value": 0.1893,
+              "norm": 0.6245
+            },
+            {
+              "year": 2021,
+              "value": 0.1893,
+              "norm": 0.6245
+            },
+            {
+              "year": 2022,
+              "value": 0.1775,
+              "norm": 0.5779
+            },
+            {
+              "year": 2023,
+              "value": 0.1534,
+              "norm": 0.4831
+            },
+            {
+              "year": 2024,
+              "value": 0.1534,
+              "norm": 0.4831
+            },
+            {
               "year": 2025,
-              "value": 0.1686,
-              "norm": 0.543
+              "value": 0.2216,
+              "norm": 0.7514
             }
           ]
         },
@@ -859,72 +880,72 @@
         {
           "year": 2013,
           "value": 0.081,
-          "norm": 0.0925
+          "norm": 0.081
         },
         {
           "year": 2014,
           "value": 0.0574,
-          "norm": 0.0655
+          "norm": 0.0574
         },
         {
           "year": 2015,
           "value": 0.1177,
-          "norm": 0.1345
+          "norm": 0.1177
         },
         {
           "year": 2016,
           "value": 0.129,
-          "norm": 0.1474
+          "norm": 0.129
         },
         {
           "year": 2017,
-          "value": 0.1639,
-          "norm": 0.1874
+          "value": 0.164,
+          "norm": 0.164
         },
         {
           "year": 2018,
           "value": 0.1022,
-          "norm": 0.1169
+          "norm": 0.1022
         },
         {
           "year": 2019,
           "value": 0.2067,
-          "norm": 0.2363
+          "norm": 0.2067
         },
         {
           "year": 2020,
-          "value": 0.1011,
-          "norm": 0.1155
+          "value": 0.1632,
+          "norm": 0.1632
         },
         {
           "year": 2021,
-          "value": 0.2281,
-          "norm": 0.2607
+          "value": 0.2931,
+          "norm": 0.2931
         },
         {
           "year": 2022,
-          "value": 0.1527,
-          "norm": 0.1745
+          "value": 0.1708,
+          "norm": 0.1708
         },
         {
           "year": 2023,
-          "value": 0.0575,
-          "norm": 0.0658
+          "value": 0.1518,
+          "norm": 0.1518
         },
         {
           "year": 2024,
-          "value": 0.1094,
-          "norm": 0.1251
+          "value": 0.1985,
+          "norm": 0.1985
         },
         {
           "year": 2025,
-          "value": 0.1517,
-          "norm": 0.1733
+          "value": 0.1744,
+          "norm": 0.1744
         },
         {
           "year": 2026,
           "value": 0.1224,
-          "norm": 0.1399
+          "norm": 0.1224
         }
       ],
       "perCompany": [
@@ -940,12 +961,12 @@
             {
               "year": 2014,
               "value": 0.0588,
-              "norm": 0.0672
+              "norm": 0.0588
             },
             {
               "year": 2015,
               "value": 0.037,
-              "norm": 0.0423
+              "norm": 0.037
             },
             {
               "year": 2016,
@@ -955,7 +976,7 @@
             {
               "year": 2017,
               "value": 0.2857,
-              "norm": 0.3265
+              "norm": 0.2857
             },
             {
               "year": 2018,
@@ -975,7 +996,7 @@
             {
               "year": 2025,
               "value": 0.2667,
-              "norm": 0.3048
+              "norm": 0.2667
             }
           ]
         },
@@ -1001,7 +1022,7 @@
             {
               "year": 2017,
               "value": 0.1176,
-              "norm": 0.1344
+              "norm": 0.1176
             },
             {
               "year": 2018,
@@ -1046,7 +1067,7 @@
             {
               "year": 2026,
               "value": 0.1111,
-              "norm": 0.127
+              "norm": 0.1111
             }
           ]
         },
@@ -1057,7 +1078,7 @@
             {
               "year": 2013,
               "value": 0.125,
-              "norm": 0.1429
+              "norm": 0.125
             },
             {
               "year": 2014,
@@ -1072,27 +1093,52 @@
             {
               "year": 2016,
               "value": 0.1905,
-              "norm": 0.2177
+              "norm": 0.1905
             },
             {
               "year": 2017,
               "value": 0.2222,
-              "norm": 0.2539
+              "norm": 0.2222
             },
             {
               "year": 2018,
               "value": 0.1429,
-              "norm": 0.1633
+              "norm": 0.1429
             },
             {
               "year": 2019,
               "value": 0.6667,
-              "norm": 0.7619
+              "norm": 0.6667
+            },
+            {
+              "year": 2020,
+              "value": 0.7222,
+              "norm": 0.7222
+            },
+            {
+              "year": 2021,
+              "value": 0.8125,
+              "norm": 0.8125
+            },
+            {
+              "year": 2022,
+              "value": 0.3158,
+              "norm": 0.3158
+            },
+            {
+              "year": 2023,
+              "value": 1.0,
+              "norm": 1.0
+            },
+            {
+              "year": 2024,
+              "value": 1.0,
+              "norm": 1.0
             },
             {
               "year": 2025,
-              "value": 0.0,
-              "norm": 0.0
+              "value": 0.25,
+              "norm": 0.25
             },
             {
               "year": 2026,
@@ -1108,7 +1154,7 @@
             {
               "year": 2013,
               "value": 0.2727,
-              "norm": 0.3117
+              "norm": 0.2727
             },
             {
               "year": 2014,
@@ -1173,7 +1219,7 @@
             {
               "year": 2026,
               "value": 0.0357,
-              "norm": 0.0408
+              "norm": 0.0357
             }
           ]
         },
@@ -1184,17 +1230,17 @@
             {
               "year": 2013,
               "value": 0.25,
-              "norm": 0.2857
+              "norm": 0.25
             },
             {
               "year": 2014,
               "value": 0.4,
-              "norm": 0.4571
+              "norm": 0.4
             },
             {
               "year": 2015,
               "value": 0.3333,
-              "norm": 0.3809
+              "norm": 0.3333
             },
             {
               "year": 2016,
@@ -1224,12 +1270,12 @@
             {
               "year": 2021,
               "value": 0.2,
-              "norm": 0.2286
+              "norm": 0.2
             },
             {
               "year": 2022,
               "value": 0.4,
-              "norm": 0.4571
+              "norm": 0.4
             },
             {
               "year": 2023,
@@ -1275,32 +1321,32 @@
             {
               "year": 2017,
               "value": 0.1,
-              "norm": 0.1143
+              "norm": 0.1
             },
             {
               "year": 2018,
               "value": 0.0938,
-              "norm": 0.1072
+              "norm": 0.0938
             },
             {
               "year": 2019,
               "value": 0.1429,
-              "norm": 0.1633
+              "norm": 0.1429
             },
             {
               "year": 2020,
               "value": 0.1515,
-              "norm": 0.1731
+              "norm": 0.1515
             },
             {
               "year": 2021,
               "value": 0.1515,
-              "norm": 0.1731
+              "norm": 0.1515
             },
             {
               "year": 2022,
               "value": 0.1471,
-              "norm": 0.1681
+              "norm": 0.1471
             },
             {
               "year": 2023,
@@ -1310,17 +1356,17 @@
             {
               "year": 2024,
               "value": 0.1667,
-              "norm": 0.1905
+              "norm": 0.1667
             },
             {
               "year": 2025,
               "value": 0.2,
-              "norm": 0.2286
+              "norm": 0.2
             },
             {
               "year": 2026,
               "value": 0.1111,
-              "norm": 0.127
+              "norm": 0.1111
             }
           ]
         },
@@ -1341,42 +1387,42 @@
             {
               "year": 2015,
               "value": 0.5714,
-              "norm": 0.653
+              "norm": 0.5714
             },
             {
               "year": 2016,
               "value": 0.5556,
-              "norm": 0.635
+              "norm": 0.5556
             },
             {
               "year": 2017,
               "value": 0.5,
-              "norm": 0.5714
+              "norm": 0.5
             },
             {
               "year": 2018,
               "value": 0.1429,
-              "norm": 0.1633
+              "norm": 0.1429
             },
             {
               "year": 2019,
               "value": 0.2222,
-              "norm": 0.2539
+              "norm": 0.2222
             },
             {
               "year": 2020,
               "value": 0.1667,
-              "norm": 0.1905
+              "norm": 0.1667
             },
             {
               "year": 2021,
               "value": 0.2222,
-              "norm": 0.2539
+              "norm": 0.2222
             },
             {
               "year": 2022,
               "value": 0.2222,
-              "norm": 0.2539
+              "norm": 0.2222
             },
             {
               "year": 2023,
@@ -1422,27 +1468,27 @@
             {
               "year": 2016,
               "value": 0.2857,
-              "norm": 0.3265
+              "norm": 0.2857
             },
             {
               "year": 2017,
               "value": 0.25,
-              "norm": 0.2857
+              "norm": 0.25
             },
             {
               "year": 2018,
               "value": 0.5,
-              "norm": 0.5714
+              "norm": 0.5
             },
             {
               "year": 2019,
               "value": 0.25,
-              "norm": 0.2857
+              "norm": 0.25
             },
             {
               "year": 2020,
               "value": 0.1154,
-              "norm": 0.1319
+              "norm": 0.1154
             },
             {
               "year": 2022,
@@ -1457,17 +1503,17 @@
             {
               "year": 2024,
               "value": 0.1364,
-              "norm": 0.1559
+              "norm": 0.1364
             },
             {
               "year": 2025,
               "value": 0.1429,
-              "norm": 0.1633
+              "norm": 0.1429
             },
             {
               "year": 2026,
               "value": 0.1,
-              "norm": 0.1143
+              "norm": 0.1
             }
           ]
         },
@@ -1493,42 +1539,42 @@
             {
               "year": 2018,
               "value": 0.1429,
-              "norm": 0.1633
+              "norm": 0.1429
             },
             {
               "year": 2019,
               "value": 0.2857,
-              "norm": 0.3265
+              "norm": 0.2857
             },
             {
               "year": 2020,
               "value": 0.1429,
-              "norm": 0.1633
+              "norm": 0.1429
             },
             {
               "year": 2021,
               "value": 0.2,
-              "norm": 0.2286
+              "norm": 0.2
             },
             {
               "year": 2022,
               "value": 0.2857,
-              "norm": 0.3265
+              "norm": 0.2857
             },
             {
               "year": 2023,
               "value": 0.375,
-              "norm": 0.4286
+              "norm": 0.375
             },
             {
               "year": 2024,
               "value": 0.5,
-              "norm": 0.5714
+              "norm": 0.5
             },
             {
               "year": 2025,
               "value": 0.5,
-              "norm": 0.5714
+              "norm": 0.5
             }
           ]
         },
@@ -1539,42 +1585,42 @@
             {
               "year": 2019,
               "value": 0.5,
-              "norm": 0.5714
+              "norm": 0.5
             },
             {
               "year": 2020,
               "value": 0.3333,
-              "norm": 0.3809
+              "norm": 0.3333
             },
             {
               "year": 2021,
               "value": 0.1765,
-              "norm": 0.2017
+              "norm": 0.1765
             },
             {
               "year": 2022,
               "value": 0.1667,
-              "norm": 0.1905
+              "norm": 0.1667
             },
             {
               "year": 2023,
               "value": 0.1429,
-              "norm": 0.1633
+              "norm": 0.1429
             },
             {
               "year": 2024,
               "value": 0.1818,
-              "norm": 0.2078
+              "norm": 0.1818
             },
             {
               "year": 2025,
               "value": 0.0588,
-              "norm": 0.0672
+              "norm": 0.0588
             },
             {
               "year": 2026,
               "value": 0.0769,
-              "norm": 0.0879
+              "norm": 0.0769
             }
           ]
         },
@@ -1600,783 +1646,17 @@
             {
               "year": 2021,
               "value": 0.875,
-              "norm": 1.0
+              "norm": 0.875
             },
             {
               "year": 2025,
               "value": 0.5,
-              "norm": 0.5714
+              "norm": 0.5
             },
             {
               "year": 2026,
               "value": 0.6667,
-              "norm": 0.7619
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wellbeing",
-      "label": "Wellbeing / balance — worker concession",
-      "benefits": "wellbeing",
-      "note": "the balance/rest framing — given in the boom, quietly withdrawn",
-      "series": [
-        {
-          "year": 2013,
-          "value": 0.0073,
-          "norm": 0.339
-        },
-        {
-          "year": 2014,
-          "value": 0.0182,
-          "norm": 0.3634
-        },
-        {
-          "year": 2015,
-          "value": 0.0399,
-          "norm": 0.4122
-        },
-        {
-          "year": 2016,
-          "value": 0.0877,
-          "norm": 0.5199
-        },
-        {
-          "year": 2017,
-          "value": 0.0576,
-          "norm": 0.452
-        },
-        {
-          "year": 2018,
-          "value": 0.0255,
-          "norm": 0.3798
-        },
-        {
-          "year": 2019,
-          "value": 0.0253,
-          "norm": 0.3794
-        },
-        {
-          "year": 2020,
-          "value": 0.0272,
-          "norm": 0.3837
-        },
-        {
-          "year": 2021,
-          "value": 0.0574,
-          "norm": 0.4516
-        },
-        {
-          "year": 2022,
-          "value": 0.0319,
-          "norm": 0.3943
-        },
-        {
-          "year": 2023,
-          "value": 0.033,
-          "norm": 0.3967
-        },
-        {
-          "year": 2024,
-          "value": 0.0304,
-          "norm": 0.391
-        },
-        {
-          "year": 2025,
-          "value": 0.0518,
-          "norm": 0.4389
-        },
-        {
-          "year": 2026,
-          "value": 0.0543,
-          "norm": 0.4447
-        }
-      ],
-      "perCompany": [
-        {
-          "id": "google",
-          "displayName": "Google",
-          "series": [
-            {
-              "year": 2013,
-              "value": 0.0415,
-              "norm": 0.4158
-            },
-            {
-              "year": 2014,
-              "value": 0.1141,
-              "norm": 0.5792
-            },
-            {
-              "year": 2015,
-              "value": 0.1141,
-              "norm": 0.5792
-            },
-            {
-              "year": 2016,
-              "value": 0.2144,
-              "norm": 0.8047
-            },
-            {
-              "year": 2017,
-              "value": 0.2328,
-              "norm": 0.8461
-            },
-            {
-              "year": 2018,
-              "value": 0.0358,
-              "norm": 0.403
-            },
-            {
-              "year": 2023,
-              "value": 0.0278,
-              "norm": 0.3851
-            },
-            {
-              "year": 2024,
-              "value": 0.0147,
-              "norm": 0.3556
-            },
-            {
-              "year": 2025,
-              "value": 0.1355,
-              "norm": 0.6273
-            }
-          ]
-        },
-        {
-          "id": "amazon",
-          "displayName": "Amazon",
-          "series": [
-            {
-              "year": 2013,
-              "value": 0.0035,
-              "norm": 0.3304
-            },
-            {
-              "year": 2014,
-              "value": 0.0367,
-              "norm": 0.405
-            },
-            {
-              "year": 2016,
-              "value": -0.1434,
-              "norm": 0.0
-            },
-            {
-              "year": 2017,
-              "value": -0.0203,
-              "norm": 0.2769
-            },
-            {
-              "year": 2018,
-              "value": -0.0162,
-              "norm": 0.286
-            },
-            {
-              "year": 2019,
-              "value": -0.0182,
-              "norm": 0.2816
-            },
-            {
-              "year": 2020,
-              "value": -0.0821,
-              "norm": 0.1377
-            },
-            {
-              "year": 2021,
-              "value": -0.0821,
-              "norm": 0.1377
-            },
-            {
-              "year": 2022,
-              "value": -0.0821,
-              "norm": 0.1377
-            },
-            {
-              "year": 2023,
-              "value": -0.0821,
-              "norm": 0.1377
-            },
-            {
-              "year": 2024,
-              "value": -0.0821,
-              "norm": 0.1377
-            },
-            {
-              "year": 2025,
-              "value": -0.0821,
-              "norm": 0.1377
-            },
-            {
-              "year": 2026,
-              "value": 0.1009,
-              "norm": 0.5493
-            }
-          ]
-        },
-        {
-          "id": "meta",
-          "displayName": "Meta",
-          "series": [
-            {
-              "year": 2013,
-              "value": 0.0118,
-              "norm": 0.3491
-            },
-            {
-              "year": 2014,
-              "value": -0.0128,
-              "norm": 0.2938
-            },
-            {
-              "year": 2015,
-              "value": -0.0218,
-              "norm": 0.2735
-            },
-            {
-              "year": 2016,
-              "value": 0.3012,
-              "norm": 1.0
-            },
-            {
-              "year": 2017,
-              "value": 0.0342,
-              "norm": 0.3994
-            },
-            {
-              "year": 2018,
-              "value": 0.0058,
-              "norm": 0.3355
-            },
-            {
-              "year": 2019,
-              "value": -0.0087,
-              "norm": 0.3029
-            },
-            {
-              "year": 2025,
-              "value": 0.036,
-              "norm": 0.4034
-            },
-            {
-              "year": 2026,
-              "value": 0.0128,
-              "norm": 0.3512
-            }
-          ]
-        },
-        {
-          "id": "palantir",
-          "displayName": "Palantir",
-          "series": [
-            {
-              "year": 2013,
-              "value": 0.0283,
-              "norm": 0.3862
-            },
-            {
-              "year": 2014,
-              "value": -0.0259,
-              "norm": 0.2643
-            },
-            {
-              "year": 2015,
-              "value": 0.1168,
-              "norm": 0.5852
-            },
-            {
-              "year": 2016,
-              "value": 0.1098,
-              "norm": 0.5694
-            },
-            {
-              "year": 2017,
-              "value": -0.0054,
-              "norm": 0.3103
-            },
-            {
-              "year": 2018,
-              "value": 0.0183,
-              "norm": 0.3637
-            },
-            {
-              "year": 2019,
-              "value": 0.0183,
-              "norm": 0.3637
-            },
-            {
-              "year": 2020,
-              "value": 0.0183,
-              "norm": 0.3637
-            },
-            {
-              "year": 2021,
-              "value": 0.0352,
-              "norm": 0.4018
-            },
-            {
-              "year": 2022,
-              "value": 0.0513,
-              "norm": 0.4379
-            },
-            {
-              "year": 2023,
-              "value": 0.058,
-              "norm": 0.453
-            },
-            {
-              "year": 2024,
-              "value": 0.0519,
-              "norm": 0.4391
-            },
-            {
-              "year": 2025,
-              "value": 0.0492,
-              "norm": 0.4333
-            },
-            {
-              "year": 2026,
-              "value": 0.0407,
-              "norm": 0.414
-            }
-          ]
-        },
-        {
-          "id": "coinbase",
-          "displayName": "Coinbase",
-          "series": [
-            {
-              "year": 2013,
-              "value": -0.0478,
-              "norm": 0.2149
-            },
-            {
-              "year": 2014,
-              "value": -0.0148,
-              "norm": 0.2892
-            },
-            {
-              "year": 2015,
-              "value": 0.0514,
-              "norm": 0.438
-            },
-            {
-              "year": 2016,
-              "value": 0.0331,
-              "norm": 0.3969
-            },
-            {
-              "year": 2017,
-              "value": 0.0708,
-              "norm": 0.4818
-            },
-            {
-              "year": 2018,
-              "value": 0.0781,
-              "norm": 0.4983
-            },
-            {
-              "year": 2019,
-              "value": -0.0359,
-              "norm": 0.2417
-            },
-            {
-              "year": 2020,
-              "value": -0.034,
-              "norm": 0.2459
-            },
-            {
-              "year": 2021,
-              "value": -0.0279,
-              "norm": 0.2598
-            },
-            {
-              "year": 2022,
-              "value": -0.0412,
-              "norm": 0.2299
-            },
-            {
-              "year": 2023,
-              "value": -0.0267,
-              "norm": 0.2624
-            },
-            {
-              "year": 2024,
-              "value": -0.0555,
-              "norm": 0.1977
-            },
-            {
-              "year": 2025,
-              "value": -0.0549,
-              "norm": 0.1991
-            },
-            {
-              "year": 2026,
-              "value": -0.0013,
-              "norm": 0.3196
-            }
-          ]
-        },
-        {
-          "id": "netflix",
-          "displayName": "Netflix",
-          "series": [
-            {
-              "year": 2013,
-              "value": -0.0477,
-              "norm": 0.2153
-            },
-            {
-              "year": 2014,
-              "value": -0.0408,
-              "norm": 0.2307
-            },
-            {
-              "year": 2015,
-              "value": -0.0254,
-              "norm": 0.2655
-            },
-            {
-              "year": 2017,
-              "value": 0.0714,
-              "norm": 0.4831
-            },
-            {
-              "year": 2018,
-              "value": 0.0707,
-              "norm": 0.4814
-            },
-            {
-              "year": 2019,
-              "value": 0.0769,
-              "norm": 0.4955
-            },
-            {
-              "year": 2020,
-              "value": 0.0767,
-              "norm": 0.495
-            },
-            {
-              "year": 2021,
-              "value": 0.0791,
-              "norm": 0.5005
-            },
-            {
-              "year": 2022,
-              "value": 0.0791,
-              "norm": 0.5005
-            },
-            {
-              "year": 2023,
-              "value": 0.0104,
-              "norm": 0.3458
-            },
-            {
-              "year": 2024,
-              "value": 0.0268,
-              "norm": 0.3828
-            },
-            {
-              "year": 2025,
-              "value": 0.0093,
-              "norm": 0.3433
-            },
-            {
-              "year": 2026,
-              "value": -0.0094,
-              "norm": 0.3014
-            }
-          ]
-        },
-        {
-          "id": "shopify",
-          "displayName": "Shopify",
-          "series": [
-            {
-              "year": 2013,
-              "value": 0.0864,
-              "norm": 0.5167
-            },
-            {
-              "year": 2014,
-              "value": 0.0566,
-              "norm": 0.4498
-            },
-            {
-              "year": 2015,
-              "value": 0.063,
-              "norm": 0.4642
-            },
-            {
-              "year": 2016,
-              "value": 0.099,
-              "norm": 0.5451
-            },
-            {
-              "year": 2017,
-              "value": 0.0291,
-              "norm": 0.3879
-            },
-            {
-              "year": 2018,
-              "value": -0.0114,
-              "norm": 0.2969
-            },
-            {
-              "year": 2019,
-              "value": -0.0101,
-              "norm": 0.2997
-            },
-            {
-              "year": 2020,
-              "value": 0.0065,
-              "norm": 0.3372
-            },
-            {
-              "year": 2021,
-              "value": 0.0224,
-              "norm": 0.3729
-            },
-            {
-              "year": 2022,
-              "value": 0.0303,
-              "norm": 0.3906
-            },
-            {
-              "year": 2023,
-              "value": -0.0025,
-              "norm": 0.3168
-            },
-            {
-              "year": 2024,
-              "value": -0.01,
-              "norm": 0.2999
-            },
-            {
-              "year": 2025,
-              "value": -0.0166,
-              "norm": 0.2853
-            },
-            {
-              "year": 2026,
-              "value": 0.0252,
-              "norm": 0.3792
-            }
-          ]
-        },
-        {
-          "id": "stripe",
-          "displayName": "Stripe",
-          "series": [
-            {
-              "year": 2013,
-              "value": -0.0173,
-              "norm": 0.2835
-            },
-            {
-              "year": 2014,
-              "value": 0.0323,
-              "norm": 0.3952
-            },
-            {
-              "year": 2015,
-              "value": 0.0393,
-              "norm": 0.4109
-            },
-            {
-              "year": 2016,
-              "value": 0.0687,
-              "norm": 0.4769
-            },
-            {
-              "year": 2017,
-              "value": 0.0537,
-              "norm": 0.4433
-            },
-            {
-              "year": 2018,
-              "value": 0.0534,
-              "norm": 0.4426
-            },
-            {
-              "year": 2019,
-              "value": 0.0455,
-              "norm": 0.4249
-            },
-            {
-              "year": 2020,
-              "value": 0.0427,
-              "norm": 0.4187
-            },
-            {
-              "year": 2022,
-              "value": -0.0432,
-              "norm": 0.2253
-            },
-            {
-              "year": 2023,
-              "value": 0.0112,
-              "norm": 0.3477
-            },
-            {
-              "year": 2024,
-              "value": 0.0563,
-              "norm": 0.4492
-            },
-            {
-              "year": 2025,
-              "value": 0.0522,
-              "norm": 0.4399
-            },
-            {
-              "year": 2026,
-              "value": 0.0512,
-              "norm": 0.4378
-            }
-          ]
-        },
-        {
-          "id": "airbnb",
-          "displayName": "Airbnb",
-          "series": [
-            {
-              "year": 2015,
-              "value": -0.0183,
-              "norm": 0.2813
-            },
-            {
-              "year": 2016,
-              "value": 0.0193,
-              "norm": 0.366
-            },
-            {
-              "year": 2017,
-              "value": 0.0517,
-              "norm": 0.4388
-            },
-            {
-              "year": 2018,
-              "value": 0.0021,
-              "norm": 0.3272
-            },
-            {
-              "year": 2019,
-              "value": 0.0976,
-              "norm": 0.542
-            },
-            {
-              "year": 2020,
-              "value": 0.0976,
-              "norm": 0.542
-            },
-            {
-              "year": 2021,
-              "value": 0.1173,
-              "norm": 0.5863
-            },
-            {
-              "year": 2022,
-              "value": 0.0964,
-              "norm": 0.5393
-            },
-            {
-              "year": 2023,
-              "value": 0.1162,
-              "norm": 0.5838
-            },
-            {
-              "year": 2024,
-              "value": 0.0822,
-              "norm": 0.5074
-            },
-            {
-              "year": 2025,
-              "value": 0.0822,
-              "norm": 0.5074
-            }
-          ]
-        },
-        {
-          "id": "brex",
-          "displayName": "Brex",
-          "series": [
-            {
-              "year": 2019,
-              "value": 0.0704,
-              "norm": 0.4809
-            },
-            {
-              "year": 2020,
-              "value": 0.1019,
-              "norm": 0.5516
-            },
-            {
-              "year": 2021,
-              "value": 0.2058,
-              "norm": 0.7855
-            },
-            {
-              "year": 2022,
-              "value": 0.1648,
-              "norm": 0.6933
-            },
-            {
-              "year": 2023,
-              "value": 0.1845,
-              "norm": 0.7375
-            },
-            {
-              "year": 2024,
-              "value": 0.1898,
-              "norm": 0.7494
-            },
-            {
-              "year": 2025,
-              "value": 0.262,
-              "norm": 0.9118
-            },
-            {
-              "year": 2026,
-              "value": 0.1742,
-              "norm": 0.7143
-            }
-          ]
-        },
-        {
-          "id": "snap",
-          "displayName": "Snap",
-          "series": [
-            {
-              "year": 2018,
-              "value": 0.0181,
-              "norm": 0.3631
-            },
-            {
-              "year": 2019,
-              "value": 0.0172,
-              "norm": 0.3612
-            },
-            {
-              "year": 2020,
-              "value": 0.0172,
-              "norm": 0.3612
-            },
-            {
-              "year": 2021,
-              "value": 0.1094,
-              "norm": 0.5685
-            },
-            {
-              "year": 2025,
-              "value": 0.0965,
-              "norm": 0.5395
-            },
-            {
-              "year": 2026,
-              "value": 0.0946,
-              "norm": 0.5352
+              "norm": 0.6667
             }
           ]
         }
@@ -2390,8 +1670,8 @@
       "series": [
         {
           "year": 2013,
-          "value": 0.8579,
-          "norm": 0.8579
+          "value": 0.858,
+          "norm": 0.858
         },
         {
           "year": 2014,
@@ -2425,28 +1705,28 @@
         },
         {
           "year": 2020,
-          "value": 0.9273,
-          "norm": 0.9273
+          "value": 0.929,
+          "norm": 0.929
         },
         {
           "year": 2021,
-          "value": 0.8317,
-          "norm": 0.8317
+          "value": 0.8435,
+          "norm": 0.8435
         },
         {
           "year": 2022,
-          "value": 0.9275,
-          "norm": 0.9275
+          "value": 0.918,
+          "norm": 0.918
         },
         {
           "year": 2023,
-          "value": 0.8305,
-          "norm": 0.8305
+          "value": 0.8475,
+          "norm": 0.8475
         },
         {
           "year": 2024,
-          "value": 0.9061,
-          "norm": 0.9061
+          "value": 0.9155,
+          "norm": 0.9155
         },
         {
           "year": 2025,
@@ -2620,6 +1900,31 @@
               "year": 2019,
               "value": 0.6667,
               "norm": 0.6667
+            },
+            {
+              "year": 2020,
+              "value": 0.9444,
+              "norm": 0.9444
+            },
+            {
+              "year": 2021,
+              "value": 0.9375,
+              "norm": 0.9375
+            },
+            {
+              "year": 2022,
+              "value": 0.8421,
+              "norm": 0.8421
+            },
+            {
+              "year": 2023,
+              "value": 1.0,
+              "norm": 1.0
+            },
+            {
+              "year": 2024,
+              "value": 1.0,
+              "norm": 1.0
             },
             {
               "year": 2025,
@@ -3149,31 +2454,6 @@
       ]
     }
   ],
-  "cases": [
-    {
-      "company": "Basecamp",
-      "date": "2021-04",
-      "title": "“Changes at Basecamp”",
-      "shift": "Founders unilaterally banned political talk, scrapped committees and “paternalistic” benefits; ~1/3 of staff took buyouts and left.",
-      "quotes": [
-        "No more societal and political discussions on our company Basecamp account.",
-        "No more paternalistic benefits.",
-        "No more committees."
-      ],
-      "source": "Jason Fried, world.hey.com/jason/changes-at-basecamp-7f32afc5 (Apr 2021)"
-    },
-    {
-      "company": "Twitter / X",
-      "date": "2022-11",
-      "title": "“Extremely hardcore”",
-      "shift": "Days after Musk's takeover, an ultimatum: commit to “extremely hardcore” long hours or take severance — after ~50% layoffs and an RTO order.",
-      "quotes": [
-        "Going forward, to build a breakthrough Twitter 2.0 … we will need to be extremely hardcore. This will mean working long hours at high intensity.",
-        "Only exceptional performance will constitute a passing grade."
-      ],
-      "source": "Elon Musk, all-staff email, Nov 16 2022 (widely reported)"
-    }
-  ],
   "events": [
     {
       "year": 2020.167,
@@ -3188,22 +2468,10 @@
       "kind": "power_up"
     },
     {
-      "year": 2021.25,
-      "date": "2021-04",
-      "label": "Basecamp “no politics at work” → ~⅓ of staff quit",
-      "kind": "shift"
-    },
-    {
       "year": 2021.833,
       "date": "2021-11",
       "label": "Great Resignation — quits rate peaks (~3%)",
       "kind": "power_up"
-    },
-    {
-      "year": 2022.833,
-      "date": "2022-11",
-      "label": "Musk buys Twitter; “extremely hardcore” ultimatum",
-      "kind": "shift"
     },
     {
       "year": 2022.833,

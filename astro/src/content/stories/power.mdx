@@ -2,13 +2,11 @@
 title: Culture is downstream of power
 subtitle: The language that rises and falls with workers' leverage — and the part that never needed it.
 thesis: >-
-  Across 11 companies, the worker-oriented intervention (DEI) tracks worker
-  bargaining power (the quits rate) — it rises and recedes with leverage even
-  after the decade's shared trend is removed. The optimism barometer (idealism)
-  rides the same boom but is mostly co-trending, not power-responsive.
-  Performance/intensity, which serves whoever can hire and fire, is flat
-  regardless. The culture that persists is the part that benefits the people in
-  power; the rest is rented.
+  Across 11 companies, the worker-oriented language (DEI) tracks worker bargaining power (the
+  quits rate) — it rises and recedes with leverage even after the decade's shared trend is
+  removed. Idealism rides the same boom but mostly co-trends. Performance, which serves
+  whoever can hire and fire, stays flat regardless. The culture that persists is the part that
+  benefits the people in power; the rest is rented.
 published: true
 study: careers
 order: 1
@@ -16,43 +14,41 @@ teaser: "Worker-serving language (DEI) tracks worker power and collapses when it
 ---
 
 import PowerChart from "@/components/viz/PowerChart.astro";
-import PowerCases from "@/components/viz/PowerCases.astro";
+
+All of this raises a harder question. If careers-page language is mostly a reflection of the
+labor market, what does it say about worker power?
+
+To find out, I overlaid three language trajectories — idealism, DEI, and performance — against
+the JOLTS quit rate from the U.S. Bureau of Labor Statistics, a rough proxy for when workers
+had the leverage to walk. It's not an exact science, but the patterns are there.
 
 <PowerChart />
 
-## Power-shift cases — when control concentrates, culture hardens overnight
+Netflix has always kept a high performance bar, but its idealism drops right before the quit
+rate does. Across all eleven companies the pattern is softer but holds. **DEI** — the
+worker-oriented language — rises and recedes with worker power even after you strip out the
+decade's shared upward trend; it's the one signal that genuinely responds to leverage rather
+than just riding the boom. **Idealism** climbs with the same boom but mostly co-trends —
+workers were always a little cynical about billionaires promising to change the world. And
+**performance**, which serves whoever can hire and fire, stays flat near the top no matter
+what.
 
-<PowerCases />
+In 2026 you can't trust what a company says about itself. But you can trust the pattern of
+when it stops saying it. Cultural signaling doesn't give workers power — it reflects the power
+they already have.
 
-Documented illustrations, not in the quantitative aggregate — the moment ownership or
-control concentrates (a buyout, a founder edict), the cultural apparatus (committees,
-political talk, "paternalistic" benefits) is the first thing cut.
+## How this was measured
 
-## How to read it
+Each line is an industry mean over the same eleven companies (2013–2026), every one scored on
+all three axes — no per-metric subsetting. The quits rate is economy-wide, a proxy for tech
+bargaining power; read this as co-movement, not causation.
 
-Across 11 companies, **DEI** — the worker-oriented intervention — tracks the worker-power
-cycle: it rises and falls with the quits rate even after the decade's shared upward trend is
-removed (first-difference r ≈ +0.58). **Idealism** (the optimism barometer) looks like it
-tracks power too (raw r ≈ +0.63, +0.74 smoothed), but strip the trend and most of it fades
-(first-difference r ≈ +0.32): it rides the same boom rather than responding to worker
-leverage year to year — consistent with workers being cynical of "change the world" talk.
-**Performance/intensity** stays flat near the top regardless (r ≈ −0.04 differenced) — it
-serves whoever can hire and fire, so it needs no leverage to survive. **Wellbeing/balance**,
-the worker concession, is the honest surprise: flat and only weakly co-moving (≈ +0.15
-smoothed) even scored over both mission and benefits copy, and the benefits corpus is thin
-(≈135 chunks), so it is under-measured here.
+The DEI link is the most robust result: it survives first-differencing (r ≈ +0.58) and
+leave-one-company-out (+0.45 to +0.66), and held steady when Meta's history was substantially
+re-expanded. Idealism's raw correlation (r ≈ +0.63) is mostly shared trend, so read it as
+co-trending, not power-responsive. At six companies the aggregate was too noisy to read; it
+only firmed up at eleven, so treat it as suggestive, not decisive.
 
-## Honesty
-
-All three metrics are means over the same 11 companies, each scored on all three axes — no
-per-metric subsetting. Basecamp and Twitter/X are documented as power-shift cases above, not
-in this aggregate (Basecamp has no careers corpus; Twitter/X is thin post-2022). The quits
-rate is economy-wide, not tech-only — a proxy for worker bargaining power; tech tracked the
-national swing. Co-movement, not causation.
-
-The strongest result is also the most robust: DEI's link to worker power survives
-first-differencing and leave-one-company-out (range +0.45 to +0.66), and held steady when
-Meta's history was substantially re-expanded. Idealism's raw correlation is mostly shared
-trend, so read it as co-trending, not power-responsive. At six companies the aggregate was
-too noisy to read DEI; it only firmed up at eleven — so treat it as suggestive, not decisive.
-(Lag is uninterpretable on a series this short and trending.)
+One axis is missing on purpose. Wellbeing — the balance-and-rest framing that's the clearest
+*worker concession* — lives in benefits copy, not mission statements, so this careers corpus
+under-measures it badly. It belongs with the benefits data, where I'll come back to it.
