@@ -10,7 +10,11 @@
     "adequate_severance": "Adequate → severance",
     "raise_the_bar": "Raise the bar",
     "judged_by_outcomes": "Judged by outcomes/results",
-    "only_the_best": "Only the best / A-players"
+    "only_the_best": "Only the best / A-players",
+    "freedom_responsibility": "Freedom & responsibility / no rules",
+    "context_not_control": "Context, not control",
+    "aligned_loosely_coupled": "Highly aligned, loosely coupled",
+    "no_vacation_policy": "No vacation policy / unlimited time off"
   },
   "displayNames": {
     "netflix": "Netflix",
@@ -142,14 +146,15 @@
     "raise_the_bar": {
       "amazon": {
         "firstYearConcept": 2017,
-        "nConcept": 3,
+        "nConcept": 6,
         "yearsConcept": [
-          2017
+          2017,
+          2019
         ],
         "example": "Leaders raise the performance bar with every hire and promotion.",
         "exampleScore": 0.666,
         "firstYearVerbatim": 2017,
-        "nVerbatim": 1
+        "nVerbatim": 2
       },
       "shopify": {
         "firstYearConcept": 2026,
@@ -228,6 +233,85 @@
       },
       "brex": {
         "firstYearVerbatim": 2024,
+        "nVerbatim": 1
+      }
+    },
+    "freedom_responsibility": {
+      "netflix": {
+        "firstYearConcept": 2013,
+        "nConcept": 3,
+        "yearsConcept": [
+          2013,
+          2014,
+          2015
+        ],
+        "example": "We don't focus on rules, processes or procedures.",
+        "exampleScore": 0.667,
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 16
+      },
+      "meta": {
+        "firstYearConcept": 2016,
+        "nConcept": 3,
+        "yearsConcept": [
+          2016,
+          2017,
+          2018
+        ],
+        "example": "We don’t have rules, we have values that guide the way we work and the decisions we make.",
+        "exampleScore": 0.782
+      }
+    },
+    "context_not_control": {
+      "netflix": {
+        "firstYearConcept": 2009,
+        "nConcept": 5,
+        "yearsConcept": [
+          2009,
+          2024,
+          2025,
+          2026
+        ],
+        "example": "We expect managers to practice context not control — giving their teams the context and clarity needed to make good decisions instead of trying to control everything themselves.",
+        "exampleScore": 0.781,
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 16
+      }
+    },
+    "aligned_loosely_coupled": {
+      "netflix": {
+        "firstYearConcept": 2009,
+        "nConcept": 11,
+        "yearsConcept": [
+          2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2024,
+          2025,
+          2026
+        ],
+        "example": "Highly Aligned, Loosely Coupled• Highly Aligned – Strategy and goals are clear, specific, broadly understood – Team interactions focused on strategy and goals, rather than tactics ",
+        "exampleScore": 0.802,
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 21
+      }
+    },
+    "no_vacation_policy": {
+      "netflix": {
+        "firstYearConcept": 2017,
+        "nConcept": 3,
+        "yearsConcept": [
+          2017,
+          2018,
+          2019
+        ],
+        "example": "Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.",
+        "exampleScore": 0.746,
+        "firstYearVerbatim": 2009,
         "nVerbatim": 1
       }
     }

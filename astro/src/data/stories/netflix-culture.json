@@ -94,6 +94,36 @@
         "adopters": []
       },
       {
+        "id": "context_not_control",
+        "label": "Context, not control",
+        "tier": "generic",
+        "originYear": 2009,
+        "adopters": []
+      },
+      {
+        "id": "freedom_responsibility",
+        "label": "Freedom & responsibility / no rules",
+        "tier": "generic",
+        "originYear": 2013,
+        "adopters": [
+          {
+            "company": "meta",
+            "displayName": "Meta",
+            "year": 2016,
+            "verbatim": false,
+            "example": "We don’t have rules, we have values that guide the way we work and the decisions we make.",
+            "score": 0.782
+          }
+        ]
+      },
+      {
+        "id": "aligned_loosely_coupled",
+        "label": "Highly aligned, loosely coupled",
+        "tier": "generic",
+        "originYear": 2009,
+        "adopters": []
+      },
+      {
         "id": "judged_by_outcomes",
         "label": "Judged by outcomes/results",
         "tier": "generic",
@@ -108,6 +138,13 @@
             "score": 0.718
           }
         ]
+      },
+      {
+        "id": "no_vacation_policy",
+        "label": "No vacation policy / unlimited time off",
+        "tier": "generic",
+        "originYear": 2017,
+        "adopters": []
       },
       {
         "id": "only_the_best",
@@ -200,10 +237,10 @@
     ]
   },
   "objectivity": {
-    "scanned": 1103,
-    "claim": 78,
+    "scanned": 1238,
+    "claim": 79,
     "metricCredible": 0,
-    "claimPct": 7.1,
+    "claimPct": 6.4,
     "smokingGun": "Netflix explicitly refuses to keep score: “We have no bell curves or rankings or quotas such as 'cut the bottom 10% every year'” — while demanding you be a “high performer” judged by a manager's gut (the keeper test).",
     "finding": "Pervasive objectivity rhetoric, no defined metric. The language borrows sports' objectivity without its scoreboard."
   },

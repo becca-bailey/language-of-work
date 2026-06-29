@@ -108,6 +108,39 @@ CONCEPTS: dict[str, dict] = {
         ],
         "regex": re.compile(r"best and (?:the )?brightest|A[\s-]?players?|top talent|only the best", re.I),
     },
+    "freedom_responsibility": {
+        "label": "Freedom & responsibility / no rules",
+        "anchors": [
+            "We don't have rules; we rely on people's good judgment.",
+            "We run on freedom and responsibility, not rules and process.",
+            "We have values, not rules — we trust people to act in the company's interest.",
+        ],
+        "regex": re.compile(r"freedom and responsibility|don'?t have rules|values,? not rules|no rules,? (?:just|but|we|only)", re.I),
+    },
+    "context_not_control": {
+        "label": "Context, not control",
+        "anchors": [
+            "Leaders lead with context, not control.",
+            "Managers set context and let teams make the decisions rather than controlling them.",
+        ],
+        "regex": re.compile(r"context,? not control|lead(?:ing)? with context", re.I),
+    },
+    "aligned_loosely_coupled": {
+        "label": "Highly aligned, loosely coupled",
+        "anchors": [
+            "We stay highly aligned and loosely coupled.",
+            "Teams are loosely coupled but highly aligned on strategy and goals.",
+        ],
+        "regex": re.compile(r"highly aligned|loosely coupled", re.I),
+    },
+    "no_vacation_policy": {
+        "label": "No vacation policy / unlimited time off",
+        "anchors": [
+            "We have no vacation policy; take time off as you see fit.",
+            "There is no formal vacation tracking — take the time you need.",
+        ],
+        "regex": re.compile(r"no vacation policy|unlimited (?:vacation|pto|time off|paid time)", re.I),
+    },
 }
 
 
@@ -212,6 +245,6 @@ def main(threshold: float, review_top: int) -> None:
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--threshold", type=float, default=0.55)
+    p.add_argument("--threshold", type=float, default=0.62)  # hand-validated
     p.add_argument("--review-top", type=int, default=3)
     main(p.parse_args().threshold, p.parse_args().review_top)
