@@ -76,6 +76,10 @@ export interface StoryYearPoint {
   topkMean: number;
   nChunks: number;
   thin: boolean;
+  /** Control-line value denormalized onto worldChanging points (altruism chart). */
+  control?: number | null;
+  /** Most-idealistic quote for this company-year (altruism chart hover). */
+  quote?: string;
 }
 
 export type StoryMetricKey =

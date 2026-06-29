@@ -836,12 +836,23 @@ def export_altruism(companies: list[str]) -> None:
         }
         split = _altruism_split(company)
         if split:
-            world, techno = split
-            entry["worldChanging"] = world
-            entry["technoOptimism"] = techno
+            world, _techno = split
+            # Denormalize onto each worldChanging point exactly what the chart
+            # renders: the control-line value and the single most-idealistic
+            # quote for that year. The full split-quote lists and the techno
+            # series are not rendered by anything, so they stay out of the JSON.
+            control_by_year = {y["year"]: y.get("controlZscore") for y in years}
             split_q_path = company_dir(company) / "altruism_split_quotes.json"
-            if split_q_path.exists():
-                entry["splitQuotes"] = read_json(split_q_path)
+            wc_quotes = (
+                read_json(split_q_path).get("worldChanging", {})
+                if split_q_path.exists() else {}
+            )
+            for pt in world:
+                pt["control"] = control_by_year.get(pt["year"])
+                items = wc_quotes.get(str(pt["year"]), [])
+                if items:
+                    pt["quote"] = max(items, key=lambda q: q.get("score", 0)).get("text")
+            entry["worldChanging"] = world
         company_series.append(entry)
 
     if not company_series:

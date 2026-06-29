@@ -1,0 +1,19 @@
+---
+import AltruismExplorer from "@/components/AltruismExplorer";
+import { loadStory } from "@/lib/stories";
+
+interface Props {
+  featured?: string;
+  metricLabel?: string;
+}
+const { featured, metricLabel } = Astro.props;
+
+const data = await loadStory("altruism");
+const companies = (data?.sources.careers?.companies ?? []).filter((c) => c.worldChanging);
+---
+
+{companies.length > 0 && (
+  <div class="my-6">
+    <AltruismExplorer companies={companies} featured={featured} metricLabel={metricLabel} client:only="react" />
+  </div>
+)}

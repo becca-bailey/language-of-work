@@ -1,48 +1,47 @@
 ---
 title: Changing the World
-subtitle: >-
-  Which tech companies said they were changing the world — and did that early optimism fade?
-  This story tracks idealistic employer language on careers pages from the mid-2000s through
-  today.
+subtitle: Which tech companies said they'd change the world — and when that optimism peaked.
 published: true
 study: careers
 order: 3
 teaser: "When did idealistic \"change the world\" copy peak — and who still sounds that way?"
 ---
 
-import AltruismSparklines from "@/components/viz/AltruismSparklines.astro";
+import AltruismExplorer from "@/components/viz/AltruismExplorer.astro";
 import AltruismPeakPresent from "@/components/viz/AltruismPeakPresent.astro";
-import AltruismYearCompare from "@/components/viz/AltruismYearCompare.astro";
-import CompanyLinks from "@/components/viz/CompanyLinks.astro";
 
-Scores are z-scored within each company, so the question is when a company's own copy got
-more or less idealistic — not whether Google sounds loftier than Amazon. Compare shapes and
-timing, not absolute levels.
+As a job seeker, I've become a student of tech careers pages — the ones with smiling
+employees in matching t-shirts, each insisting it has the best culture for a certain kind of
+person. If you're a smart, enthusiastic generalist who wants to change the world, you'd
+supposedly feel at home at Google.
 
-Sentence-level scoring surfaces the most idealistic lines per year ("Can one conversation
-change the world?") rather than diluting them with navigation chrome. When idealism drops
-alongside the control axis, the signal may be page composition — not rhetoric.
+But "change the world" is a phrase with a shelf life. I pulled careers copy from the Wayback
+Machine and projected each company's language onto an idealism ↔ commercial-pragmatism axis —
+z-scored within each company, so the question isn't whether Google sounds loftier than
+Amazon, but when *its own* copy got more or less idealistic. (Techno-optimism is stripped
+out: "we build amazing technology" isn't "we'll change the world.")
 
-## When did idealism peak?
+Google's idealism peaked around 2014, shortly after *The Internship* taught the world the
+word "Googlyness."
 
-Each company's careers copy projected onto an idealism ↔ commercial-pragmatism axis, then
-z-scored within company — with **techno-optimism removed**, so this tracks genuine "change
-the world" mission, not "we build amazing technology" product hype.
+<AltruismExplorer featured="google" metricLabel="Idealism (z-scored within company)" />
 
-<AltruismSparklines metricLabel="Idealism (z-scored within company)" />
+Hover any year to read the most idealistic line measured. The dotted line shows how much the
+page itself changed, so you can tell a real shift from page churn — switch companies, or flip
+to the industry average.
 
 ## Peak vs. present
 
-The highest-scoring idealistic sentence from each company's peak year beside the most recent
-year measured — a then-vs-now read on employer branding.
+The most idealistic line from each company's peak year, beside its most recent — a
+then-vs-now read on how the mission talk has aged.
 
 <AltruismPeakPresent />
 
-## Same year, different voices
+## How this was measured
 
-Pick a year to see what each company's careers page was literally saying at peak idealism —
-side by side, not overlaid on one chart.
-
-<AltruismYearCompare />
-
-<CompanyLinks story="altruism" />
+Each sentence is embedded and projected onto the idealism axis, then z-scored within company
+so we track each firm against itself. Sentence-level scoring surfaces the loftiest lines
+("Can one conversation change the world?") rather than diluting them with navigation chrome.
+Hollow points mark thin years (few archived chunks) — read the shapes, not the exact values.
+When idealism falls alongside the dotted control line, the change may be page composition,
+not rhetoric.
