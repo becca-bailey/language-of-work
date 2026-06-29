@@ -160,6 +160,49 @@ def select_per_year(captures: list[Capture], per_year: int = 4) -> dict[int, lis
     return selected
 
 
+def representative_capture(captures: list[Capture]) -> Capture | None:
+    """Pick one capture to probe a pattern's content signal.
+
+    Uses the median-timestamp capture, not the most recent: era-limited paths
+    (e.g. facebook.com/careers/ that died at the SPA migration) often have a
+    dead redirect/shell as their latest capture while the path was content-rich
+    mid-life. The median samples the path in its prime.
+    """
+    if not captures:
+        return None
+    ordered = sorted(captures, key=lambda c: c.timestamp)
+    return ordered[len(ordered) // 2]
+
+
+def fetch_raw_text(client: httpx.Client, cap: Capture) -> str | None:
+    """Fetch a capture's original bytes as decoded text, without writing to disk.
+
+    Mirrors fetch_capture's gzip/identity handling. Returns None on failure so
+    callers can treat a pattern as unprobeable rather than crashing discovery.
+    """
+    for attempt in range(MAX_RETRIES):
+        _throttle()
+        try:
+            with client.stream(
+                "GET", cap.raw_url, timeout=60,
+                headers={"Accept-Encoding": "identity"},
+            ) as resp:
+                if resp.status_code in (429, 503):
+                    time.sleep(5 * (attempt + 1))
+                    continue
+                if resp.status_code != 200:
+                    return None
+                raw = b"".join(resp.iter_raw())
+                encoding = resp.headers.get("content-encoding", "")
+        except httpx.TransportError:
+            if attempt == MAX_RETRIES - 1:
+                return None
+            time.sleep(5 * (attempt + 1))
+            continue
+        return _decode_body(raw, encoding).decode("utf-8", errors="replace")
+    return None
+
+
 def html_path(raw_dir: Path, cap: Capture) -> Path:
     url_hash = hashlib.sha256(cap.original.encode()).hexdigest()[:12]
     return raw_dir / f"{cap.timestamp}_{url_hash}.html"

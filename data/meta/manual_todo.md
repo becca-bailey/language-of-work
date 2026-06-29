@@ -12,24 +12,28 @@ Wayback can't recover these server-side; capture them by hand.
    then `extract_chunks` → `classify_chunks` → `embed_chunks --labels dei` → re-score.
 
 ## Worklist
-| done | year | url | wayback (pick a snapshot in-year) |
+Status legend: [x] done (≥3 mission_brand chunks) · [~] partial (what Wayback
+has, no more recoverable) · [NO] no Wayback coverage (SPA shell only — even a
+browser render boots blank because the content loaded via un-archived APIs).
+
+| done | year | url | notes |
 | --- | --- | --- | --- |
-| [ ] | 2009 | facebook.com/careers/ | https://web.archive.org/web/20090601000000*/facebook.com/careers/ |
-| [ ] | 2010 | facebook.com/careers/ | https://web.archive.org/web/20100601000000*/facebook.com/careers/ |
-| [ ] | 2011 | facebook.com/careers/ | https://web.archive.org/web/20110601000000*/facebook.com/careers/ |
-| [ ] | 2012 | facebook.com/careers/ | https://web.archive.org/web/20120601000000*/facebook.com/careers/ |
-| [ ] | 2013 | facebook.com/careers/ | https://web.archive.org/web/20130601000000*/facebook.com/careers/ |
-| [ ] | 2014 | facebook.com/careers/ | https://web.archive.org/web/20140601000000*/facebook.com/careers/ |
-| [ ] | 2015 | facebook.com/careers/ | https://web.archive.org/web/20150601000000*/facebook.com/careers/ |
-| [ ] | 2016 | facebook.com/careers/ | https://web.archive.org/web/20160601000000*/facebook.com/careers/ |
-| [ ] | 2017 | facebook.com/careers/ | https://web.archive.org/web/20170601000000*/facebook.com/careers/ |
-| [ ] | 2018 | facebook.com/careers/ | https://web.archive.org/web/20180601000000*/facebook.com/careers/ |
-| [ ] | 2019 | facebook.com/careers/ | https://web.archive.org/web/20190601000000*/facebook.com/careers/ |
-| [ ] | 2020 | facebook.com/careers/ | https://web.archive.org/web/20200601000000*/facebook.com/careers/ |
-| [ ] | 2021 | facebook.com/careers/ | https://web.archive.org/web/20210601000000*/facebook.com/careers/ |
-| [ ] | 2022 | facebook.com/careers/ | https://web.archive.org/web/20220601000000*/facebook.com/careers/ |
-| [ ] | 2023 | facebook.com/careers/ | https://web.archive.org/web/20230601000000*/facebook.com/careers/ |
-| [ ] | 2024 | facebook.com/careers/ | https://web.archive.org/web/20240601000000*/facebook.com/careers/ |
+| [x] | 2009 | facebook.com/careers/ | manual capture ingested |
+| [x] | 2010 | facebook.com/careers/ | manual capture ingested |
+| [x] | 2011 | facebook.com/careers/ | manual capture ingested |
+| [NO] | 2012 | facebook.com/careers/ | no Wayback coverage — SPA-related errors, only 1 thin chunk recoverable |
+| [x] | 2013 | facebook.com/careers/ | manual capture ingested |
+| [x] | 2014 | facebook.com/careers/ | manual capture ingested |
+| [x] | 2015 | facebook.com/careers/ | manual capture ingested |
+| [x] | 2016 | facebook.com/careers/ | manual capture ingested |
+| [x] | 2017 | facebook.com/careers/ | manual capture ingested |
+| [x] | 2018 | facebook.com/careers/ | manual capture ingested |
+| [x] | 2019 | facebook.com/careers/ | manual capture ingested |
+| [x] | 2020 | facebook.com/careers/facebook-life/{,diversity,benefits} | manual capture ingested |
+| [x] | 2021 | facebook.com/careers/facebook-life/{,diversity} | manual capture ingested |
+| [x] | 2022 | metacareers.com/facebook-life/{,diversity,benefits} | manual capture ingested |
+| [~] | 2023 | metacareers.com/facebook-life/ | mostly SPA shells; per-pattern fetch auto-recovered 2 mission_brand chunks. archive.today for more |
+| [~] | 2024 | metacareers.com/facebook-life/ | per-pattern fetch auto-recovered 2 mission_brand chunks; root/diversity snapshots are shells |
 
 ## manual_manifest.json template
 ```json
@@ -45,4 +49,5 @@ Wayback can't recover these server-side; capture them by hand.
 }
 ```
 
-Current mission_brand counts by year: {2009: 1, 2010: 1, 2011: 2, 2012: 1, 2015: 1, 2016: 1, 2017: 1, 2018: 1, 2025: 8, 2026: 11}
+Current mission_brand counts by year: {2009: 4, 2010: 4, 2011: 5, 2012: 1, 2013: 8, 2014: 7, 2015: 8, 2016: 13, 2017: 9, 2018: 7, 2019: 3, 2020: 16, 2021: 16, 2022: 17, 2023: 2, 2024: 2, 2025: 10, 2026: 11}
+(Updated 2026-06-29. 2012 = no coverage (1 chunk); 2023/2024 partial (2 each, auto-recovered by per-pattern subpath fetch).)

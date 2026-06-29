@@ -16,9 +16,58 @@ from collections import Counter
 
 import httpx
 
+from lowork.chunking import chunk_html
 from lowork.config import company_dir
 from lowork.io import read_json, write_json
-from lowork.wayback import Capture, cdx_query, dedup_by_digest, fetch_capture, select_per_year
+from lowork.wayback import (
+    Capture,
+    cdx_query,
+    dedup_by_digest,
+    fetch_capture,
+    fetch_raw_text,
+    select_per_year,
+)
+
+# Below this many DOM-extracted words, a sample is a nav/boilerplate shell.
+# We measure with structure-aware chunk_html, NOT trafilatura: trafilatura
+# recovers the ~156-word EEO boilerplate even on empty SPA shells, which would
+# mask them as content. chunk_html skips that div-based boilerplate, so a real
+# server-rendered page scores well above this floor and a shell scores ~0.
+SHELL_WORD_THRESHOLD = 50
+
+
+def _sample_captures(caps: list[Capture], k: int = 3) -> list[Capture]:
+    """Earliest / median / latest captures — content presence varies by era
+    within one pattern (a path can be a live page in some years, a redirect
+    shell in others), so a single sample misclassifies. Dedup when < k exist."""
+    ordered = sorted(caps, key=lambda c: c.timestamp)
+    if len(ordered) <= k:
+        return ordered
+    idxs = sorted({0, len(ordered) // 2, len(ordered) - 1})
+    return [ordered[i] for i in idxs]
+
+
+def probe_content_signal(
+    client: httpx.Client, caps: list[Capture]
+) -> dict | None:
+    """Sample a few captures across a pattern's eras and measure real prose.
+
+    Returns {words, samples, shell} where `words` is the best DOM-extracted
+    word count seen — a pattern is a shell only if *every* sampled era is one.
+    None if nothing was fetchable.
+    """
+    samples: list[dict] = []
+    for cap in _sample_captures(caps):
+        html = fetch_raw_text(client, cap)
+        if html is None:
+            continue
+        dom_words = sum(c["word_count"] for c in chunk_html(
+            html, source_url=cap.original, timestamp=cap.timestamp))
+        samples.append({"timestamp": cap.timestamp, "words": dom_words})
+    if not samples:
+        return None
+    best = max(s["words"] for s in samples)
+    return {"words": best, "samples": samples, "shell": best < SHELL_WORD_THRESHOLD}
 
 
 def load_patterns(company: str) -> dict:
@@ -48,16 +97,48 @@ def cmd_discover(company: str) -> None:
     with httpx.Client(follow_redirects=True) as client:
         results = query_all_patterns(client, cfg["patterns"])
 
-    all_years = sorted({c.year for caps in results.values() for c in caps})
-    if not all_years:
-        print("No captures found for any pattern.")
-        return
-    header = "| Pattern | " + " | ".join(str(y)[2:] for y in all_years) + " |"
-    sep = "|---" * (len(all_years) + 1) + "|"
+        all_years = sorted({c.year for caps in results.values() for c in caps})
+        if not all_years:
+            print("No captures found for any pattern.")
+            return
+
+        # Content probe: one representative sample per pattern, to tell
+        # content-bearing paths from SPA/nav shells before we bulk-fetch.
+        print("\nProbing content signal (earliest/median/latest per pattern)...")
+        signals: dict[str, dict] = {}
+        for url, caps in results.items():
+            if not caps:
+                continue
+            sig = probe_content_signal(client, caps)
+            if sig is None:
+                continue
+            signals[url] = sig
+            tag = "SHELL" if sig["shell"] else "content"
+            eras = ",".join(f"{s['timestamp'][:6]}:{s['words']}w" for s in sig["samples"])
+            print(f"  {url}: best {sig['words']}w [{tag}]  ({eras})")
+        write_json(company_dir(company) / "discovery_signals.json", signals)
+
+    header = "| Pattern | signal | " + " | ".join(str(y)[2:] for y in all_years) + " |"
+    sep = "|---" * (len(all_years) + 2) + "|"
     lines += [header, sep]
     for url, caps in results.items():
         counts = Counter(c.year for c in caps)
-        lines.append(f"| {url} | " + " | ".join(str(counts.get(y, "")) for y in all_years) + " |")
+        sig = signals.get(url)
+        if sig is None:
+            cell = "—"
+        else:
+            cell = f"{sig['words']}w" + (" ⚠shell" if sig["shell"] else "")
+        lines.append(
+            f"| {url} | {cell} | "
+            + " | ".join(str(counts.get(y, "")) for y in all_years) + " |"
+        )
+
+    shells = [u for u, s in signals.items() if s["shell"]]
+    if shells:
+        lines += ["", "## Shell patterns (skipped by fetch)", "",
+                  "Sample extracted < %d words — SPA/nav shell, no archived prose:"
+                  % SHELL_WORD_THRESHOLD, ""]
+        lines += [f"- {u}" for u in shells]
 
     lines += ["", "## Gaps to investigate", ""]
     year_totals = Counter()
@@ -100,15 +181,40 @@ def cmd_fetch(company: str, per_year: int) -> None:
     existing_keys, existing_digests = _existing_keys(manifest)
     added = 0
 
+    # Content signals from `discover`; skip patterns probed as pure shells.
+    sig_path = cdir / "discovery_signals.json"
+    signals = read_json(sig_path) if sig_path.exists() else {}
+    if not signals:
+        print("No discovery_signals.json — run `discover` first to skip shell "
+              "patterns; fetching all patterns this run.")
+
     with httpx.Client(follow_redirects=True) as client:
         results = query_all_patterns(client, cfg["patterns"])
         all_caps = [c for caps in results.values() for c in caps]
-        unique, digest_timeline = dedup_by_digest(all_caps)
-        print(f"\n{len(all_caps)} captures, {len(unique)} unique by digest")
+        _, digest_timeline = dedup_by_digest(all_caps)
 
-        selected = select_per_year(unique, per_year=per_year)
+        # Select per-pattern-per-year so content-bearing subpaths each get their
+        # own quota instead of being crowded out by the high-volume root page.
+        # Dedup by digest across patterns so identical content isn't re-fetched.
+        seen_digests: set[str] = set()
+        selected: dict[int, list[Capture]] = {}
+        for url, caps in results.items():
+            if signals.get(url, {}).get("shell"):
+                print(f"  skip shell pattern {url}")
+                continue
+            unique, _ = dedup_by_digest(caps)
+            unique = [c for c in unique if c.digest not in seen_digests]
+            for year, chosen in select_per_year(unique, per_year=per_year).items():
+                for cap in chosen:
+                    if cap.digest in seen_digests:
+                        continue
+                    seen_digests.add(cap.digest)
+                    selected.setdefault(year, []).append(cap)
+        for year in selected:
+            selected[year].sort(key=lambda c: c.timestamp)
         n_selected = sum(len(v) for v in selected.values())
-        print(f"Selected {n_selected} pattern captures across {len(selected)} years\n")
+        print(f"\nSelected {n_selected} captures across {len(selected)} years "
+              f"(per-pattern, {len(seen_digests)} unique digests)\n")
 
         spotcheck = [f"# M2 spot-check links: {company}", "",
                      "Open a sample across eras; confirm real careers content.", ""]
