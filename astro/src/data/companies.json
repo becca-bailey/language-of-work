@@ -1,6 +1,15 @@
 {
   "companies": [
     {
+      "id": "airbnb",
+      "displayName": "Airbnb",
+      "axes": [
+        "altruism",
+        "dei",
+        "wellbeing"
+      ]
+    },
+    {
       "id": "amazon",
       "displayName": "Amazon",
       "axes": [
@@ -9,10 +18,21 @@
       ]
     },
     {
+      "id": "brex",
+      "displayName": "Brex",
+      "axes": [
+        "altruism",
+        "dei",
+        "wellbeing"
+      ]
+    },
+    {
       "id": "coinbase",
       "displayName": "Coinbase",
       "axes": [
-        "dei"
+        "altruism",
+        "dei",
+        "wellbeing"
       ]
     },
     {
@@ -34,7 +54,9 @@
       "id": "netflix",
       "displayName": "Netflix",
       "axes": [
-        "dei"
+        "altruism",
+        "dei",
+        "wellbeing"
       ]
     },
     {
@@ -42,6 +64,33 @@
       "displayName": "Palantir",
       "axes": [
         "altruism"
+      ]
+    },
+    {
+      "id": "shopify",
+      "displayName": "Shopify",
+      "axes": [
+        "altruism",
+        "dei",
+        "wellbeing"
+      ]
+    },
+    {
+      "id": "snap",
+      "displayName": "Snap",
+      "axes": [
+        "altruism",
+        "dei",
+        "wellbeing"
+      ]
+    },
+    {
+      "id": "stripe",
+      "displayName": "Stripe",
+      "axes": [
+        "altruism",
+        "dei",
+        "wellbeing"
       ]
     }
   ]
