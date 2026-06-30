@@ -21,14 +21,14 @@
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 0
+        "absent": 2
       },
       "controlTopkMean": 0.0623,
       "inclusionQuotes": [
         {
           "text": "Why Join Amazon? Benefits Help How to Apply FAQ We make decisions as a company, and as individuals, based on our core values. Customer Obsession: We start with the customer and work backwards. Innovation: If you don't listen to your customers you will fail. But if you only listen to your customers you will also fail. Bias for Action: We live in a time of unheralded revolution and insurmountable op",
           "heading": "",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3917,
           "meritocracy": 0.3961,
           "stanceDiff": -0.0044,
@@ -38,7 +38,7 @@
         {
           "text": "Why Join Amazon? Benefits Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce. Since Jeff Bezos started Amazon.com in 1995, we have significantly expanded our product offerings, international sites, and worldwide network of fulfillment and customer service centers. Today, Amazon.com offers ev",
           "heading": "",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.2587,
           "meritocracy": 0.2154,
           "stanceDiff": 0.0433,
@@ -50,7 +50,7 @@
         {
           "text": "Why Join Amazon? Benefits Help How to Apply FAQ We make decisions as a company, and as individuals, based on our core values. Customer Obsession: We start with the customer and work backwards. Innovation: If you don't listen to your customers you will fail. But if you only listen to your customers you will also fail. Bias for Action: We live in a time of unheralded revolution and insurmountable op",
           "heading": "",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3917,
           "meritocracy": 0.3961,
           "stanceDiff": -0.0044,
@@ -60,7 +60,7 @@
         {
           "text": "Why Join Amazon? Benefits Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce. Since Jeff Bezos started Amazon.com in 1995, we have significantly expanded our product offerings, international sites, and worldwide network of fulfillment and customer service centers. Today, Amazon.com offers ev",
           "heading": "",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.2587,
           "meritocracy": 0.2154,
           "stanceDiff": 0.0433,
@@ -87,7 +87,7 @@
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 1
+        "absent": 2
       },
       "controlTopkMean": 0.0439,
       "inclusionQuotes": [
@@ -104,7 +104,7 @@
         {
           "text": "Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce. Since Jeff Bezos started Amazon.com in 1995, we have significantly expanded our product offerings, international sites, and worldwide network of fulfillment and customer service centers. Today, Amazon.com offers everything from books and el",
           "heading": "",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.2441,
           "meritocracy": 0.2115,
           "stanceDiff": 0.0326,
@@ -126,7 +126,7 @@
         {
           "text": "Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce. Since Jeff Bezos started Amazon.com in 1995, we have significantly expanded our product offerings, international sites, and worldwide network of fulfillment and customer service centers. Today, Amazon.com offers everything from books and el",
           "heading": "",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.2441,
           "meritocracy": 0.2115,
           "stanceDiff": 0.0326,
@@ -281,7 +281,7 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
@@ -312,7 +312,7 @@
         {
           "text": "The news is out—Amazon is ranked #3 on the 2014 Woman Engineer Magazine Readers' Choice top 50 employers for woman engineers!",
           "heading": "The News Is Out",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.2777,
           "meritocracy": 0.2201,
           "stanceDiff": 0.0576,
@@ -344,7 +344,7 @@
         {
           "text": "The news is out—Amazon is ranked #3 on the 2014 Woman Engineer Magazine Readers' Choice top 50 employers for woman engineers!",
           "heading": "The News Is Out",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.2777,
           "meritocracy": 0.2201,
           "stanceDiff": 0.0576,
@@ -367,18 +367,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 1
+        "absent": 16
       },
       "controlTopkMean": 0.0709,
       "inclusionQuotes": [
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Diversity at Amazon",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -388,7 +388,7 @@
         {
           "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
           "heading": "Hire and Develop The Best",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4821,
           "meritocracy": 0.5056,
           "stanceDiff": -0.0234,
@@ -398,7 +398,7 @@
         {
           "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here\". As we do new things, we accept that we may be misunderstood for long periods of time.",
           "heading": "Invent and Simplify",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4116,
           "meritocracy": 0.4422,
           "stanceDiff": -0.0306,
@@ -418,7 +418,7 @@
         {
           "text": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. Our passion for pioneering will drive us to explore narrow passages, and, unavoidably, many will turn out to be blind alleys. But - with a bit of good fortune - there will also be a few that open up into broad avenues.",
           "heading": "Deliver Results",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3516,
           "meritocracy": 0.4245,
           "stanceDiff": -0.0729,
@@ -430,7 +430,7 @@
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Diversity at Amazon",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -440,7 +440,7 @@
         {
           "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
           "heading": "Hire and Develop The Best",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4821,
           "meritocracy": 0.5056,
           "stanceDiff": -0.0234,
@@ -450,7 +450,7 @@
         {
           "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here\". As we do new things, we accept that we may be misunderstood for long periods of time.",
           "heading": "Invent and Simplify",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4116,
           "meritocracy": 0.4422,
           "stanceDiff": -0.0306,
@@ -460,7 +460,7 @@
         {
           "text": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. Our passion for pioneering will drive us to explore narrow passages, and, unavoidably, many will turn out to be blind alleys. But - with a bit of good fortune - there will also be a few that open up into broad avenues.",
           "heading": "Deliver Results",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3516,
           "meritocracy": 0.4245,
           "stanceDiff": -0.0729,
@@ -470,7 +470,7 @@
         {
           "text": "Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
           "heading": "Insist on the Highest Standards",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.2758,
           "meritocracy": 0.3993,
           "stanceDiff": -0.1236,
@@ -492,12 +492,12 @@
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
-        "structural_process": 0,
-        "aspirational_vague": 2,
+        "structural_process": 2,
+        "aspirational_vague": 25,
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 15
+        "absent": 20
       },
       "controlTopkMean": 0.0818,
       "inclusionQuotes": [
@@ -514,7 +514,7 @@
         {
           "text": "Amazon has hundreds of millions of customers who benefit from diversity of thought. We are a company of builders who bring varying backgrounds, ideas, and points of view to decisions and inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, disability, culture, education, as well as professional and l",
           "heading": "Diversity of thought",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.5979,
           "meritocracy": 0.4312,
           "stanceDiff": 0.1668,
@@ -524,7 +524,7 @@
         {
           "text": "Our Affinity Groups bring people together across businesses and geographies. They also provide critical inputs and insights about where the company should focus its diversity efforts. With executive and company sponsorship, our Affinity Groups play an important role in building internal networks for career development and in reaching out to communities outside the company.",
           "heading": "Building Community",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.5046,
           "meritocracy": 0.2928,
           "stanceDiff": 0.2118,
@@ -544,7 +544,7 @@
         {
           "text": "Our Affinity Groups have extended their reach into our local communities. For example, the Black Employee Network (BEN) and Latinos@Amazon support Rainier Scholars, a non-profit dedicated to cultivating and supporting the academic potential of students of color, by hosting workplace receptions, attending academic enrichment program tours, and sending care packages to college level Rainier Scholars",
           "heading": "Community outreach",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4535,
           "meritocracy": 0.2881,
           "stanceDiff": 0.1654,
@@ -586,7 +586,7 @@
         {
           "text": "Amazon has hundreds of millions of customers who benefit from diversity of thought. We are a company of builders who bring varying backgrounds, ideas, and points of view to decisions and inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, disability, culture, education, as well as professional and l",
           "heading": "Diversity of thought",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.5979,
           "meritocracy": 0.4312,
           "stanceDiff": 0.1668,
@@ -617,20 +617,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
-        "structural_process": 0,
-        "aspirational_vague": 0,
-        "belonging_culture": 0,
+        "explicit_demographic": 2,
+        "structural_process": 3,
+        "aspirational_vague": 20,
+        "belonging_culture": 3,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 2
+        "absent": 21
       },
       "controlTopkMean": -0.0328,
       "inclusionQuotes": [
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Diversity at Amazon",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -640,7 +640,7 @@
         {
           "text": "Amazon has hundreds of millions of customers who benefit from diversity of thought. We are a company of builders who bring varying backgrounds, ideas, and points of view to decisions and inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, disability, culture, education, as well as professional and l",
           "heading": "Diversity of thought",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.5979,
           "meritocracy": 0.4312,
           "stanceDiff": 0.1668,
@@ -650,7 +650,7 @@
         {
           "text": "Our Affinity Groups bring people together across businesses and geographies. They also provide critical inputs and insights about where the company should focus its diversity efforts. With executive and company sponsorship, our Affinity Groups play an important role in building internal networks for career development and in reaching out to communities outside the company.",
           "heading": "Building Community",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.5046,
           "meritocracy": 0.2928,
           "stanceDiff": 0.2118,
@@ -660,7 +660,7 @@
         {
           "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
           "heading": "Hire and Develop the Best",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4821,
           "meritocracy": 0.5056,
           "stanceDiff": -0.0234,
@@ -670,7 +670,7 @@
         {
           "text": "Our Affinity Groups have extended their reach into our local communities. For example, the Black Employee Network (BEN) and Latinos@Amazon support Rainier Scholars, a non-profit dedicated to cultivating and supporting the academic potential of students of color, by hosting workplace receptions, attending academic enrichment program tours, and sending care packages to college level Rainier Scholars",
           "heading": "Community outreach",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4535,
           "meritocracy": 0.2881,
           "stanceDiff": 0.1654,
@@ -682,7 +682,7 @@
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Diversity at Amazon",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -692,7 +692,7 @@
         {
           "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
           "heading": "Hire and Develop the Best",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4821,
           "meritocracy": 0.5056,
           "stanceDiff": -0.0234,
@@ -702,7 +702,7 @@
         {
           "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here\". As we do new things, we accept that we may be misunderstood for long periods of time.",
           "heading": "Invent and Simplify",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4116,
           "meritocracy": 0.4422,
           "stanceDiff": -0.0306,
@@ -712,7 +712,7 @@
         {
           "text": "Amazon has hundreds of millions of customers who benefit from diversity of thought. We are a company of builders who bring varying backgrounds, ideas, and points of view to decisions and inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, disability, culture, education, as well as professional and l",
           "heading": "Diversity of thought",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.5979,
           "meritocracy": 0.4312,
           "stanceDiff": 0.1668,
@@ -722,7 +722,7 @@
         {
           "text": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. Our passion for pioneering will drive us to explore narrow passages, and, unavoidably, many will turn out to be blind alleys. But - with a bit of good fortune - there will also be a few that open up into broad avenues.",
           "heading": "Deliver Results",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3516,
           "meritocracy": 0.4245,
           "stanceDiff": -0.0729,
@@ -745,18 +745,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 2
+        "absent": 17
       },
       "controlTopkMean": -0.0673,
       "inclusionQuotes": [
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Our pioneers",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -766,7 +766,7 @@
         {
           "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
           "heading": "Hire and Develop the Best",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4821,
           "meritocracy": 0.5056,
           "stanceDiff": -0.0234,
@@ -776,7 +776,7 @@
         {
           "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.\" As we do new things, we accept that we may be misunderstood for long periods of time.",
           "heading": "Invent and Simplify",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4133,
           "meritocracy": 0.4414,
           "stanceDiff": -0.0281,
@@ -796,7 +796,7 @@
         {
           "text": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. Our passion for pioneering will drive us to explore narrow passages, and, unavoidably, many will turn out to be blind alleys. But - with a bit of good fortune - there will also be a few that open up into broad avenues.",
           "heading": "Deliver Results",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3516,
           "meritocracy": 0.4245,
           "stanceDiff": -0.0729,
@@ -808,7 +808,7 @@
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Our pioneers",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -818,7 +818,7 @@
         {
           "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
           "heading": "Hire and Develop the Best",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4821,
           "meritocracy": 0.5056,
           "stanceDiff": -0.0234,
@@ -828,7 +828,7 @@
         {
           "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.\" As we do new things, we accept that we may be misunderstood for long periods of time.",
           "heading": "Invent and Simplify",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4133,
           "meritocracy": 0.4414,
           "stanceDiff": -0.0281,
@@ -838,7 +838,7 @@
         {
           "text": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. Our passion for pioneering will drive us to explore narrow passages, and, unavoidably, many will turn out to be blind alleys. But - with a bit of good fortune - there will also be a few that open up into broad avenues.",
           "heading": "Deliver Results",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3516,
           "meritocracy": 0.4245,
           "stanceDiff": -0.0729,
@@ -848,7 +848,7 @@
         {
           "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
           "heading": "Insist on the Highest Standards",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.2798,
           "meritocracy": 0.4088,
           "stanceDiff": -0.129,
@@ -871,18 +871,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 1
+        "absent": 16
       },
       "controlTopkMean": -0.0642,
       "inclusionQuotes": [
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Our pioneers",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -892,7 +892,7 @@
         {
           "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
           "heading": "Hire and Develop the Best",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4821,
           "meritocracy": 0.5056,
           "stanceDiff": -0.0234,
@@ -902,7 +902,7 @@
         {
           "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.\" As we do new things, we accept that we may be misunderstood for long periods of time.",
           "heading": "Invent and Simplify",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4133,
           "meritocracy": 0.4414,
           "stanceDiff": -0.0281,
@@ -912,7 +912,7 @@
         {
           "text": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. Our passion for pioneering will drive us to explore narrow passages, and, unavoidably, many will turn out to be blind alleys. But - with a bit of good fortune - there will also be a few that open up into broad avenues.",
           "heading": "Deliver Results",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3516,
           "meritocracy": 0.4245,
           "stanceDiff": -0.0729,
@@ -922,7 +922,7 @@
         {
           "text": "Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.",
           "heading": "Are Right, A Lot",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3458,
           "meritocracy": 0.3586,
           "stanceDiff": -0.0128,
@@ -934,7 +934,7 @@
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Our pioneers",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -944,7 +944,7 @@
         {
           "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
           "heading": "Hire and Develop the Best",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4821,
           "meritocracy": 0.5056,
           "stanceDiff": -0.0234,
@@ -954,7 +954,7 @@
         {
           "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.\" As we do new things, we accept that we may be misunderstood for long periods of time.",
           "heading": "Invent and Simplify",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4133,
           "meritocracy": 0.4414,
           "stanceDiff": -0.0281,
@@ -964,7 +964,7 @@
         {
           "text": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. Our passion for pioneering will drive us to explore narrow passages, and, unavoidably, many will turn out to be blind alleys. But - with a bit of good fortune - there will also be a few that open up into broad avenues.",
           "heading": "Deliver Results",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3516,
           "meritocracy": 0.4245,
           "stanceDiff": -0.0729,
@@ -974,7 +974,7 @@
         {
           "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
           "heading": "Insist on the Highest Standards",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.2798,
           "meritocracy": 0.4088,
           "stanceDiff": -0.129,
@@ -997,18 +997,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 1
+        "absent": 16
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Our pioneers",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -1018,7 +1018,7 @@
         {
           "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
           "heading": "Hire and Develop the Best",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4821,
           "meritocracy": 0.5056,
           "stanceDiff": -0.0234,
@@ -1028,7 +1028,7 @@
         {
           "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.\" As we do new things, we accept that we may be misunderstood for long periods of time.",
           "heading": "Invent and Simplify",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4133,
           "meritocracy": 0.4414,
           "stanceDiff": -0.0281,
@@ -1038,7 +1038,7 @@
         {
           "text": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. Our passion for pioneering will drive us to explore narrow passages, and, unavoidably, many will turn out to be blind alleys. But - with a bit of good fortune - there will also be a few that open up into broad avenues.",
           "heading": "Deliver Results",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3516,
           "meritocracy": 0.4245,
           "stanceDiff": -0.0729,
@@ -1048,7 +1048,7 @@
         {
           "text": "Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.",
           "heading": "Are Right, A Lot",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3458,
           "meritocracy": 0.3586,
           "stanceDiff": -0.0128,
@@ -1060,7 +1060,7 @@
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Our pioneers",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -1070,7 +1070,7 @@
         {
           "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
           "heading": "Hire and Develop the Best",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4821,
           "meritocracy": 0.5056,
           "stanceDiff": -0.0234,
@@ -1080,7 +1080,7 @@
         {
           "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.\" As we do new things, we accept that we may be misunderstood for long periods of time.",
           "heading": "Invent and Simplify",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.4133,
           "meritocracy": 0.4414,
           "stanceDiff": -0.0281,
@@ -1090,7 +1090,7 @@
         {
           "text": "Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle. Our passion for pioneering will drive us to explore narrow passages, and, unavoidably, many will turn out to be blind alleys. But - with a bit of good fortune - there will also be a few that open up into broad avenues.",
           "heading": "Deliver Results",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.3516,
           "meritocracy": 0.4245,
           "stanceDiff": -0.0729,
@@ -1100,7 +1100,7 @@
         {
           "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
           "heading": "Insist on the Highest Standards",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.2798,
           "meritocracy": 0.4088,
           "stanceDiff": -0.129,
@@ -1169,7 +1169,7 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 2,
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
@@ -1180,7 +1180,7 @@
         {
           "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average starting pay of $19 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
           "heading": "Our Workplace",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4245,
           "meritocracy": 0.3219,
           "stanceDiff": 0.1026,
@@ -1190,7 +1190,7 @@
         {
           "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average starting pay of $18 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
           "heading": "Our Workplace",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.414,
           "meritocracy": 0.3096,
           "stanceDiff": 0.1044,
@@ -1212,7 +1212,7 @@
         {
           "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average starting pay of $19 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
           "heading": "Our Workplace",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4245,
           "meritocracy": 0.3219,
           "stanceDiff": 0.1026,
@@ -1232,7 +1232,7 @@
         {
           "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average starting pay of $18 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
           "heading": "Our Workplace",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.414,
           "meritocracy": 0.3096,
           "stanceDiff": 0.1044,
@@ -1255,7 +1255,7 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
@@ -1266,7 +1266,7 @@
         {
           "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average wage of over $20.50 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
           "heading": "Our Workplace",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4304,
           "meritocracy": 0.3145,
           "stanceDiff": 0.1159,
@@ -1298,7 +1298,7 @@
         {
           "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average wage of over $20.50 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
           "heading": "Our Workplace",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4304,
           "meritocracy": 0.3145,
           "stanceDiff": 0.1159,
@@ -1321,18 +1321,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 3,
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 1
+        "absent": 2
       },
       "controlTopkMean": -0.0445,
       "inclusionQuotes": [
         {
           "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Read more Upskilling Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Read more Inclusive experiences and technology Inclusive experiences and technology We’re in this together—reaching across culture",
           "heading": "",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.5386,
           "meritocracy": 0.3959,
           "stanceDiff": 0.1427,
@@ -1342,7 +1342,7 @@
         {
           "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Upskilling Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Inclusive experiences and technology Inclusive experiences and technology We’re in this together—reaching across cultures—creating global te",
           "heading": "",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4979,
           "meritocracy": 0.3679,
           "stanceDiff": 0.13,
@@ -1352,7 +1352,7 @@
         {
           "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Read more Employee Benefits Amazon is proud of our ability to create great jobs with great benefits for all employees. Read more Inclusive Experiences and Technology We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways. Read mo",
           "heading": "",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4555,
           "meritocracy": 0.3598,
           "stanceDiff": 0.0957,
@@ -1372,7 +1372,7 @@
         {
           "text": "Amazon is increasing the average total compensation package for fulfillment and transportation employees in the U.S. to over $29 per hour.",
           "heading": "Amazon increases wages, adds new benefits for hourly US employees",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.1937,
           "meritocracy": 0.1352,
           "stanceDiff": 0.0585,
@@ -1384,7 +1384,7 @@
         {
           "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Read more Upskilling Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Read more Inclusive experiences and technology Inclusive experiences and technology We’re in this together—reaching across culture",
           "heading": "",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.5386,
           "meritocracy": 0.3959,
           "stanceDiff": 0.1427,
@@ -1394,7 +1394,7 @@
         {
           "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Upskilling Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Inclusive experiences and technology Inclusive experiences and technology We’re in this together—reaching across cultures—creating global te",
           "heading": "",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4979,
           "meritocracy": 0.3679,
           "stanceDiff": 0.13,
@@ -1404,7 +1404,7 @@
         {
           "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Read more Employee Benefits Amazon is proud of our ability to create great jobs with great benefits for all employees. Read more Inclusive Experiences and Technology We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways. Read mo",
           "heading": "",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4555,
           "meritocracy": 0.3598,
           "stanceDiff": 0.0957,
@@ -1424,7 +1424,7 @@
         {
           "text": "Amazon is increasing the average total compensation package for fulfillment and transportation employees in the U.S. to over $29 per hour.",
           "heading": "Amazon increases wages, adds new benefits for hourly US employees",
-          "register": null,
+          "register": "absent",
           "inclusion": 0.1937,
           "meritocracy": 0.1352,
           "stanceDiff": 0.0585,
@@ -1447,11 +1447,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 3,
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 8
+        "absent": 9
       },
       "controlTopkMean": -0.0369,
       "inclusionQuotes": [
@@ -1478,7 +1478,7 @@
         {
           "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Inclusive experiences and technology We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and",
           "heading": "",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4703,
           "meritocracy": 0.3496,
           "stanceDiff": 0.1207,
@@ -1488,7 +1488,7 @@
         {
           "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Together initiatives We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways. ",
           "heading": "Working at Amazon",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4673,
           "meritocracy": 0.3547,
           "stanceDiff": 0.1126,
@@ -1540,7 +1540,7 @@
         {
           "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Together initiatives We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways. ",
           "heading": "Working at Amazon",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4673,
           "meritocracy": 0.3547,
           "stanceDiff": 0.1126,
@@ -1550,7 +1550,7 @@
         {
           "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Inclusive experiences and technology We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and",
           "heading": "",
-          "register": null,
+          "register": "aspirational_vague",
           "inclusion": 0.4703,
           "meritocracy": 0.3496,
           "stanceDiff": 0.1207,

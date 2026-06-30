@@ -13,11 +13,11 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 1,
+                "aspirational_vague": 2,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 3
               },
               "nChunks": 5,
               "thin": false,
@@ -34,7 +34,7 @@
               "stanceMinQuote": {
                 "text": "Can one conversation change the world? Quick and direct access to information can deliver news from abroad, encourage a child's curiosity, and reunite long-lost friends. It can also produce ideas that transform how people live their lives. At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality. We believe in hard work, a fun atmosphere, and the so",
                 "heading": "",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": -0.0058,
                 "inclusion": 0.3784,
                 "meritocracy": 0.3842,
@@ -47,7 +47,7 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 1,
+                "aspirational_vague": 2,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
@@ -58,7 +58,7 @@
               "stanceMaxQuote": {
                 "text": "Can one conversation change the world? Quick and direct access to information can deliver news from abroad, encourage a child's curiosity, and reunite long-lost friends. It can also produce ideas that transform how people live their lives. At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality. We believe in hard work, a fun atmosphere, and the so",
                 "heading": "",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.0078,
                 "inclusion": 0.3447,
                 "meritocracy": 0.3369,
@@ -81,18 +81,18 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 2,
+                "aspirational_vague": 3,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 0
+                "absent": 2
               },
               "nChunks": 5,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "Chances are you have a good idea of where you want to go in life. At Google, we've designed a culture that helps you get there. From our flexible, project-based approach to corporate structure to our innovative perks and benefits, we do everything we can to make sure our employees not only have great jobs, but great lives. Into being challenged? Into having fun? Want to change the world? If the an",
                 "heading": "Let's work together.",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": 0.0432,
                 "inclusion": 0.3647,
                 "meritocracy": 0.3215,
@@ -102,7 +102,7 @@
               "stanceMinQuote": {
                 "text": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality. To all recruitment agencies: Google does not accept agency resumes. Please do not forward resumes to our jobs alias, Google employees or any other company location. Google is not responsible for any fees related to unsolicited resumes.",
                 "heading": "Search openings",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": -0.0136,
                 "inclusion": 0.3547,
                 "meritocracy": 0.3682,
@@ -323,7 +323,7 @@
                 "belonging_culture": 1,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 32
+                "absent": 33
               },
               "nChunks": 35,
               "thin": false,
@@ -388,10 +388,10 @@
                 "explicit_demographic": 0,
                 "structural_process": 0,
                 "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "belonging_culture": 1,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 8
+                "absent": 21
               },
               "nChunks": 22,
               "thin": false,
@@ -408,7 +408,7 @@
               "stanceMinQuote": {
                 "text": "What happens when you mix together entrepreneurial drive, resources, freedom and the urge to do ...",
                 "heading": "Missions that matter",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": -0.0526,
                 "inclusion": 0.2589,
                 "meritocracy": 0.3115,
@@ -453,20 +453,20 @@
             {
               "year": 2018,
               "registers": {
-                "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "explicit_demographic": 14,
+                "structural_process": 2,
+                "aspirational_vague": 2,
+                "belonging_culture": 2,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 4
+                "absent": 11
               },
               "nChunks": 31,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "Third, we are taking a more systemic approach to improve outcomes in workforce representation, and to create an inclusive culture. Our company-wide strategy is anchored in further operationalizing four longstanding commitments: Drive fairness within Google’s processes, as well as in our distribution of resources and opportunity. Endeavor to attract, develop, progress, and retain more underrepresen",
                 "heading": "3. Overarching strategy",
-                "register": null,
+                "register": "explicit_demographic",
                 "stanceDiff": 0.2233,
                 "inclusion": 0.6646,
                 "meritocracy": 0.4413,
@@ -476,7 +476,7 @@
               "stanceMinQuote": {
                 "text": "There’s no one kind of Googler, so we’re always looking for people who can bring new perspectives and life experiences to our teams. If you’re looking for a place that values your curiosity, passion, and desire to learn, if you’re seeking colleagues who are big thinkers eager to take on fresh challenges as a team, then you’re a future Googler.",
                 "heading": "How we hire",
-                "register": null,
+                "register": "belonging_culture",
                 "stanceDiff": 0.0313,
                 "inclusion": 0.4208,
                 "meritocracy": 0.3895,
@@ -487,20 +487,20 @@
             {
               "year": 2019,
               "registers": {
-                "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "explicit_demographic": 26,
+                "structural_process": 14,
+                "aspirational_vague": 9,
+                "belonging_culture": 3,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 0
+                "absent": 9
               },
               "nChunks": 61,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "When communities are underrepresented in our workforce, they can be underserved by our products. Business and product inclusion is the intentional practice of designing products and services for a diverse range of consumers and communities by better understanding their unique needs. The goal is better user experience and accelerated business growth. Around the world, Google engineers, designers, a",
                 "heading": "Business & product inclusion",
-                "register": null,
+                "register": "structural_process",
                 "stanceDiff": 0.2412,
                 "inclusion": 0.5335,
                 "meritocracy": 0.2923,
@@ -510,7 +510,7 @@
               "stanceMinQuote": {
                 "text": "There’s no one kind of Googler, so we’re always looking for people who can bring new perspectives and life experiences to our teams. If you’re looking for a place that values your curiosity, passion, and desire to learn, if you’re seeking colleagues who are big thinkers eager to take on fresh challenges as a team, then you’re a future Googler.",
                 "heading": "How we hire",
-                "register": null,
+                "register": "belonging_culture",
                 "stanceDiff": 0.0313,
                 "inclusion": 0.4208,
                 "meritocracy": 0.3895,
@@ -521,20 +521,20 @@
             {
               "year": 2020,
               "registers": {
-                "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "explicit_demographic": 18,
+                "structural_process": 9,
+                "aspirational_vague": 11,
+                "belonging_culture": 1,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 0
+                "absent": 11
               },
               "nChunks": 50,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "When communities are underrepresented in our workforce, they can be underserved by our products. Business and product inclusion is the intentional practice of designing products and services for a diverse range of consumers and communities by better understanding their unique needs. The goal is better user experience and accelerated business growth. Around the world, Google engineers, designers, a",
                 "heading": "Business & product inclusion",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": 0.2412,
                 "inclusion": 0.5335,
                 "meritocracy": 0.2923,
@@ -544,7 +544,7 @@
               "stanceMinQuote": {
                 "text": "There’s no one kind of Googler, so we’re always looking for people who can bring new perspectives and life experiences to our teams. If you’re looking for a place that values your curiosity, passion, and desire to learn, if you’re seeking colleagues who are big thinkers eager to take on fresh challenges as a team, then you’re a future Googler.",
                 "heading": "How we hire",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.0313,
                 "inclusion": 0.4208,
                 "meritocracy": 0.3895,
@@ -555,20 +555,20 @@
             {
               "year": 2021,
               "registers": {
-                "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "explicit_demographic": 2,
+                "structural_process": 4,
+                "aspirational_vague": 6,
+                "belonging_culture": 2,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 0
+                "absent": 1
               },
               "nChunks": 15,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "In order to tackle structural inequities we face as a society, we must take a systems-level approach. This means mobilizing every aspect of the company — from doubling down on the successful changes we’ve made to hiring, to creating a stronger culture of belonging, to continuing to build products and invest in communities in ways that are truly helpful — in order to drive meaningful and lasting ch",
                 "heading": "Building diversity, equity, and inclusion into our workplace, products, and programs is at the heart of creating a more helpful Google for everyone. When we get this right, we ensure that everyone feels like they belong at Google and beyond.",
-                "register": null,
+                "register": "explicit_demographic",
                 "stanceDiff": 0.2465,
                 "inclusion": 0.6363,
                 "meritocracy": 0.3897,
@@ -578,7 +578,7 @@
               "stanceMinQuote": {
                 "text": "Pedro : The mission of Google has never been more relevant than today. Think about it: organizing the world’s information and making it universally accessible and useful. And when we think about the words universally accessible — this is the ultimate definition of inclusivity. And we are far from being perfect, but we are making a journey in terms of trying to make our products as available and ac",
                 "heading": "Why is belonging important at Google?",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": 0.0744,
                 "inclusion": 0.4099,
                 "meritocracy": 0.3354,
@@ -589,20 +589,20 @@
             {
               "year": 2022,
               "registers": {
-                "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "explicit_demographic": 6,
+                "structural_process": 5,
+                "aspirational_vague": 6,
+                "belonging_culture": 5,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 0
+                "absent": 13
               },
               "nChunks": 35,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "In order to tackle structural inequities we face as a society, we must take a systems-level approach. This means mobilizing every aspect of the company — from doubling down on the successful changes we’ve made to hiring, to creating a stronger culture of belonging, to continuing to build products and invest in communities in ways that are truly helpful — in order to drive meaningful and lasting ch",
                 "heading": "Building diversity, equity, and inclusion into our workplace, products, and programs is at the heart of creating a more helpful Google for everyone. When we get this right, we ensure that everyone feels like they belong at Google and beyond.",
-                "register": null,
+                "register": "explicit_demographic",
                 "stanceDiff": 0.2465,
                 "inclusion": 0.6363,
                 "meritocracy": 0.3897,
@@ -612,7 +612,7 @@
               "stanceMinQuote": {
                 "text": "Whether it's business or engineering & technology, we're here to help get you to your future.",
                 "heading": "Build your future with Google",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": -0.0274,
                 "inclusion": 0.3419,
                 "meritocracy": 0.3693,
@@ -623,20 +623,20 @@
             {
               "year": 2023,
               "registers": {
-                "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "explicit_demographic": 4,
+                "structural_process": 2,
+                "aspirational_vague": 3,
+                "belonging_culture": 3,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 2
+                "absent": 15
               },
               "nChunks": 27,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "As of 2021, we've reached our goal of improving leadership representation of Black+, Latino+, and Native American+ Googlers by 30% , and we're on track to double Black+ representation throughout our U.S. offices by 2025. As we work towards our representation goals, we're focusing on more than just hiring. Our recruiting leads are working closely with internal groups like the Black Googler Network ",
                 "heading": "How we’re making progress on our representation goals",
-                "register": null,
+                "register": "explicit_demographic",
                 "stanceDiff": 0.2385,
                 "inclusion": 0.5679,
                 "meritocracy": 0.3294,
@@ -646,7 +646,7 @@
               "stanceMinQuote": {
                 "text": "Whether it's business or engineering & technology, we're here to help get you to your future.",
                 "heading": "Build your future with Google",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": -0.0274,
                 "inclusion": 0.3419,
                 "meritocracy": 0.3693,
@@ -657,20 +657,20 @@
             {
               "year": 2024,
               "registers": {
-                "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 0,
+                "explicit_demographic": 2,
+                "structural_process": 3,
+                "aspirational_vague": 6,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 4
+                "absent": 14
               },
               "nChunks": 25,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "As of 2021, we've reached our goal of improving leadership representation of Black+, Latino+, and Native American+ Googlers by 30% , and we're on track to double Black+ representation throughout our U.S. offices by 2025. As we work towards our representation goals, we're focusing on more than just hiring. Our recruiting leads are working closely with internal groups like the Black Googler Network ",
                 "heading": "How we’re making progress on our representation goals",
-                "register": null,
+                "register": "explicit_demographic",
                 "stanceDiff": 0.2385,
                 "inclusion": 0.5679,
                 "meritocracy": 0.3294,
@@ -691,20 +691,20 @@
             {
               "year": 2025,
               "registers": {
-                "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 4,
-                "belonging_culture": 0,
+                "explicit_demographic": 4,
+                "structural_process": 7,
+                "aspirational_vague": 9,
+                "belonging_culture": 2,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 11
+                "absent": 24
               },
               "nChunks": 46,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "In 2020, Google announced a commitment to improve leadership representation of underrepresented groups. We met that goal in 2022 and will continue to build diverse representation, including underrepresented groups, to reflect the diversity of the world around us.",
                 "heading": "Creating more diverse leadership teams, including historically underrepresented groups, together",
-                "register": null,
+                "register": "explicit_demographic",
                 "stanceDiff": 0.2399,
                 "inclusion": 0.5728,
                 "meritocracy": 0.3329,
@@ -737,14 +737,14 @@
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 0
+                "absent": 2
               },
               "nChunks": 2,
               "thin": true,
               "stanceMaxQuote": {
                 "text": "Why Join Amazon? Benefits Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce. Since Jeff Bezos started Amazon.com in 1995, we have significantly expanded our product offerings, international sites, and worldwide network of fulfillment and customer service centers. Today, Amazon.com offers ev",
                 "heading": "",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": 0.0433,
                 "inclusion": 0.2587,
                 "meritocracy": 0.2154,
@@ -754,7 +754,7 @@
               "stanceMinQuote": {
                 "text": "Why Join Amazon? Benefits Help How to Apply FAQ We make decisions as a company, and as individuals, based on our core values. Customer Obsession: We start with the customer and work backwards. Innovation: If you don't listen to your customers you will fail. But if you only listen to your customers you will also fail. Bias for Action: We live in a time of unheralded revolution and insurmountable op",
                 "heading": "",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": -0.0044,
                 "inclusion": 0.3917,
                 "meritocracy": 0.3961,
@@ -771,7 +771,7 @@
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 2
               },
               "nChunks": 2,
               "thin": true,
@@ -788,7 +788,7 @@
               "stanceMinQuote": {
                 "text": "Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce. Since Jeff Bezos started Amazon.com in 1995, we have significantly expanded our product offerings, international sites, and worldwide network of fulfillment and customer service centers. Today, Amazon.com offers everything from books and el",
                 "heading": "",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": 0.0326,
                 "inclusion": 0.2441,
                 "meritocracy": 0.2115,
@@ -869,7 +869,7 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 1,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
@@ -880,7 +880,7 @@
               "stanceMaxQuote": {
                 "text": "The news is out—Amazon is ranked #3 on the 2014 Woman Engineer Magazine Readers' Choice top 50 employers for woman engineers!",
                 "heading": "The News Is Out",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.0576,
                 "inclusion": 0.2777,
                 "meritocracy": 0.2201,
@@ -903,18 +903,18 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 1,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 16
               },
               "nChunks": 17,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
                 "heading": "Diversity at Amazon",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.1653,
                 "inclusion": 0.6929,
                 "meritocracy": 0.5276,
@@ -924,7 +924,7 @@
               "stanceMinQuote": {
                 "text": "Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
                 "heading": "Insist on the Highest Standards",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": -0.1236,
                 "inclusion": 0.2758,
                 "meritocracy": 0.3993,
@@ -936,19 +936,19 @@
               "year": 2017,
               "registers": {
                 "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 2,
+                "structural_process": 2,
+                "aspirational_vague": 25,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 15
+                "absent": 20
               },
               "nChunks": 47,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "Our Affinity Groups bring people together across businesses and geographies. They also provide critical inputs and insights about where the company should focus its diversity efforts. With executive and company sponsorship, our Affinity Groups play an important role in building internal networks for career development and in reaching out to communities outside the company.",
                 "heading": "Building Community",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.2118,
                 "inclusion": 0.5046,
                 "meritocracy": 0.2928,
@@ -969,20 +969,20 @@
             {
               "year": 2018,
               "registers": {
-                "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 0,
-                "belonging_culture": 0,
+                "explicit_demographic": 2,
+                "structural_process": 3,
+                "aspirational_vague": 20,
+                "belonging_culture": 3,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 2
+                "absent": 21
               },
               "nChunks": 49,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "Our Affinity Groups bring people together across businesses and geographies. They also provide critical inputs and insights about where the company should focus its diversity efforts. With executive and company sponsorship, our Affinity Groups play an important role in building internal networks for career development and in reaching out to communities outside the company.",
                 "heading": "Building Community",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.2118,
                 "inclusion": 0.5046,
                 "meritocracy": 0.2928,
@@ -992,7 +992,7 @@
               "stanceMinQuote": {
                 "text": "Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
                 "heading": "Insist on the Highest Standards",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": -0.1236,
                 "inclusion": 0.2758,
                 "meritocracy": 0.3993,
@@ -1005,18 +1005,18 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 1,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 2
+                "absent": 17
               },
               "nChunks": 18,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
                 "heading": "Our pioneers",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.1653,
                 "inclusion": 0.6929,
                 "meritocracy": 0.5276,
@@ -1026,7 +1026,7 @@
               "stanceMinQuote": {
                 "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
                 "heading": "Insist on the Highest Standards",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": -0.129,
                 "inclusion": 0.2798,
                 "meritocracy": 0.4088,
@@ -1039,18 +1039,18 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 1,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 16
               },
               "nChunks": 17,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
                 "heading": "Our pioneers",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.1653,
                 "inclusion": 0.6929,
                 "meritocracy": 0.5276,
@@ -1060,7 +1060,7 @@
               "stanceMinQuote": {
                 "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
                 "heading": "Insist on the Highest Standards",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": -0.129,
                 "inclusion": 0.2798,
                 "meritocracy": 0.4088,
@@ -1073,18 +1073,18 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 1,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 16
               },
               "nChunks": 17,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
                 "heading": "Our pioneers",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.1653,
                 "inclusion": 0.6929,
                 "meritocracy": 0.5276,
@@ -1094,7 +1094,7 @@
               "stanceMinQuote": {
                 "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
                 "heading": "Insist on the Highest Standards",
-                "register": null,
+                "register": "absent",
                 "stanceDiff": -0.129,
                 "inclusion": 0.2798,
                 "meritocracy": 0.4088,
@@ -1141,7 +1141,7 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 2,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
@@ -1152,7 +1152,7 @@
               "stanceMaxQuote": {
                 "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average starting pay of $18 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
                 "heading": "Our Workplace",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.1044,
                 "inclusion": 0.414,
                 "meritocracy": 0.3096,
@@ -1175,7 +1175,7 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 1,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
@@ -1186,7 +1186,7 @@
               "stanceMaxQuote": {
                 "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average wage of over $20.50 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
                 "heading": "Our Workplace",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.1159,
                 "inclusion": 0.4304,
                 "meritocracy": 0.3145,
@@ -1209,18 +1209,18 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 3,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 1
+                "absent": 2
               },
               "nChunks": 5,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Read more Upskilling Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Read more Inclusive experiences and technology Inclusive experiences and technology We’re in this together—reaching across culture",
                 "heading": "",
-                "register": null,
+                "register": "aspirational_vague",
                 "stanceDiff": 0.1427,
                 "inclusion": 0.5386,
                 "meritocracy": 0.3959,
@@ -1243,11 +1243,11 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 1,
+                "aspirational_vague": 3,
                 "belonging_culture": 0,
                 "meritocracy": 0,
                 "civilizational_mission": 0,
-                "absent": 8
+                "absent": 9
               },
               "nChunks": 12,
               "thin": false,
