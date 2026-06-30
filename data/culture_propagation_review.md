@@ -25,11 +25,11 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.479 Stripe    2025  Push back on managers when you sense they’re making hires who are merely “fine.” Hold an equally high bar for performanc
 - [ ] 0.477 Stripe    2020  We value managers who are (and remain) experts in their areas and are hands-on practitioners, while also focused on deve
 - [ ] 0.470 Amazon    2007  High Hiring Bar: When making a hiring decision we ask ourselves: "Will I admire this person?
+- [ ] 0.447 Google    2020  Google works hard to attract the best talent and once they are here, we want them to stay.
+- [ ] 0.447 Google    2021  Google works hard to attract the best talent and once they are here, we want them to stay.
+- [ ] 0.447 Google    2022  Google works hard to attract the best talent and once they are here, we want them to stay.
 - [ ] 0.437 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
 - [ ] 0.421 Shopify   2026  This is why we're intentional about talent.
-- [ ] 0.420 Shopify   2025  We default to the most important work rather than adhering to prescriptive roles – and we hire the same way.
-- [ ] 0.411 Amazon    2020  Leaders raise the performance bar with every hire and promotion.
-- [ ] 0.411 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
 
 ## Team, not a family
 - [✓] 0.802 Netflix   2021  We model ourselves on being a team, not a family.
@@ -84,8 +84,8 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.413 Stripe    2025  Many companies can offer you attractive benefits and compensation.
 - [ ] 0.413 Stripe    2022  Many companies can offer you attractive benefits and compensation.
 - [ ] 0.402 Google    2008  From our flexible, project-based approach to corporate structure to our innovative perks and benefits, we do everything 
+- [ ] 0.402 Google    2007  From our flexible, project-based approach to corporate structure to our innovative perks and benefits, we do everything 
 - [ ] 0.391 Shopify   2026  If these principles match what drives you – not just where you work, but why you build – let's talk.
-- [ ] 0.388 Shopify   2024  If you prefer a prescriptive corporate structure and an in-person office environment, that’s not us.
 
 ## Raise the bar
 - [✓] 0.666 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
@@ -155,7 +155,7 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.467 Stripe    2025  They clearly communicate decisions and hold themselves and their teams accountable for results.
 - [ ] 0.449 Shopify   2026  As agents act on behalf of merchants and buyers, control shifts from "approve each action" to "define the boundaries, mo
 - [ ] 0.442 Shopify   2026  Control means setting parameters, not approving every step.
-- [ ] 0.416 Meta      2022  It's a self-starter culture, we aren't told what to do to achieve results.
+- [ ] 0.438 Google    2019  Our leadership will share ownership for improved outcomes, taking actions based on the current state of their organizati
 
 ## Highly aligned, loosely coupled
 - [✓] 0.802 Netflix   2009  Highly Aligned, Loosely Coupled• Highly Aligned – Strategy and goals are clear, specific, broadly understood – Team inte

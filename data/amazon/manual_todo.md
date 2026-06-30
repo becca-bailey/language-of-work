@@ -14,6 +14,7 @@ Wayback can't recover these server-side; capture them by hand.
 ## Worklist
 | done | year | url | wayback (pick a snapshot in-year) |
 | --- | --- | --- | --- |
+| [ ] | 2007 | amazon.com/careers | https://web.archive.org/web/20070601000000*/amazon.com/careers |
 | [ ] | 2008 | amazon.com/careers | https://web.archive.org/web/20080601000000*/amazon.com/careers |
 | [ ] | 2009 | amazon.com/careers | https://web.archive.org/web/20090601000000*/amazon.com/careers |
 | [ ] | 2010 | amazon.com/careers | https://web.archive.org/web/20100601000000*/amazon.com/careers |
@@ -22,26 +23,21 @@ Wayback can't recover these server-side; capture them by hand.
 | [ ] | 2013 | amazon.com/careers | https://web.archive.org/web/20130601000000*/amazon.com/careers |
 | [ ] | 2014 | amazon.com/careers | https://web.archive.org/web/20140601000000*/amazon.com/careers |
 | [ ] | 2015 | amazon.com/careers | https://web.archive.org/web/20150601000000*/amazon.com/careers |
-| [ ] | 2016 | amazon.com/careers | https://web.archive.org/web/20160601000000*/amazon.com/careers |
-| [ ] | 2020 | amazon.com/careers | https://web.archive.org/web/20200601000000*/amazon.com/careers |
-| [ ] | 2021 | amazon.com/careers | https://web.archive.org/web/20210601000000*/amazon.com/careers |
 | [ ] | 2022 | amazon.com/careers | https://web.archive.org/web/20220601000000*/amazon.com/careers |
-| [ ] | 2023 | amazon.com/careers | https://web.archive.org/web/20230601000000*/amazon.com/careers |
 | [ ] | 2024 | amazon.com/careers | https://web.archive.org/web/20240601000000*/amazon.com/careers |
-| [ ] | 2025 | amazon.com/careers | https://web.archive.org/web/20250601000000*/amazon.com/careers |
 
 ## manual_manifest.json template
 ```json
 {
   "captures": [
     {
-      "file": "2008_careers.html",
+      "file": "2007_careers.html",
       "url": "https://amazon.com/careers",
-      "capture_date": "20080601",
+      "capture_date": "20070601",
       "source": "manual"
     }
   ]
 }
 ```
 
-Current mission_brand counts by year: {2008: 1, 2011: 2, 2013: 2, 2014: 2, 2016: 1, 2017: 17, 2018: 3, 2019: 18, 2020: 1, 2021: 1, 2022: 1, 2023: 1, 2024: 1, 2025: 1, 2026: 7}
+Current mission_brand counts by year: {2007: 2, 2008: 2, 2011: 2, 2013: 2, 2014: 2, 2016: 17, 2017: 44, 2018: 45, 2019: 18, 2020: 18, 2021: 17, 2022: 1, 2023: 3, 2024: 2, 2025: 4, 2026: 8}
