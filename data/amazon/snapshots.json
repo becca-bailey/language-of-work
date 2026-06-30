@@ -2543,11 +2543,2156 @@
         "dom_to_trafilatura_ratio": 0.61
       },
       "thin": false
+    },
+    {
+      "urlkey": "com,amazon)/b?ie=utf8&node=239364011",
+      "timestamp": "20070506231520",
+      "original": "http://www.amazon.com:80/b?ie=UTF8&node=239364011",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "7URLLJD5WGQJKMZBZM6UYOJADRKW4UTD",
+      "length": 6364,
+      "html_file": "20070506231520_efa88e7e35fd.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 364,
+        "trafilatura_words": 363,
+        "dom_to_trafilatura_ratio": 1.0
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,amazon)/b?ie=utf8&node=239367011",
+      "timestamp": "20070519151709",
+      "original": "http://www.amazon.com:80/b?ie=UTF8&node=239367011",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "JEZPD4T3PHB5HYB7R7KLHGYKW2IBDSSI",
+      "length": 5386,
+      "html_file": "20070519151709_b66647fa4b51.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 103,
+        "trafilatura_words": 102,
+        "dom_to_trafilatura_ratio": 1.01
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,amazon)/b?ie=utf8&node=239365011",
+      "timestamp": "20070705090433",
+      "original": "http://www.amazon.com:80/b?ie=UTF8&node=239365011",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "YLTARGPIJ6AYGOPDS3J2SHQGUJRBTBCF",
+      "length": 5763,
+      "html_file": "20070705090433_13450f2ff2e7.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 146,
+        "trafilatura_words": 137,
+        "dom_to_trafilatura_ratio": 1.07
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,amazon)/b?ie=utf8&node=239364011",
+      "timestamp": "20070706120135",
+      "original": "http://www.amazon.com:80/b?ie=UTF8&node=239364011",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "SMJFISSBPMTBYO53ZFMOJY4VP3KCOU6K",
+      "length": 6639,
+      "html_file": "20070706120135_efa88e7e35fd.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 373,
+        "trafilatura_words": 363,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,amazon)/b?ie=utf8&node=239365011",
+      "timestamp": "20070912055934",
+      "original": "http://www.amazon.com:80/b?ie=UTF8&node=239365011",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "JW2AWJ6MQGLLKUQCFJQOI2CKNJPQLKDA",
+      "length": 7317,
+      "html_file": "20070912055934_13450f2ff2e7.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 146,
+        "trafilatura_words": 135,
+        "dom_to_trafilatura_ratio": 1.08
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,amazon)/b?ie=utf8&node=239367011",
+      "timestamp": "20070923171718",
+      "original": "http://www.amazon.com:80/b?ie=UTF8&node=239367011",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "IP6GCAI2FKU7WBCPEI6EC425WULF65XO",
+      "length": 8354,
+      "html_file": "20070923171718_b66647fa4b51.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 428,
+        "trafilatura_words": 416,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,amazon)/b?ie=utf8&node=239364011",
+      "timestamp": "20080220061438",
+      "original": "http://www.amazon.com:80/b?ie=UTF8&node=239364011",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "QV5QT5EICRLEFL5FMXNTL7ZU6QCHYTRX",
+      "length": 9427,
+      "html_file": "20080220061438_efa88e7e35fd.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 369,
+        "trafilatura_words": 370,
+        "dom_to_trafilatura_ratio": 1.0
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/",
+      "timestamp": "20140204232643",
+      "original": "http://www.amazon.jobs:80/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "BZWTLJC3QGMERSLO5RYYE74SZD5EKVSU",
+      "length": 55482,
+      "html_file": "20140204232643_0c0f4267b70f.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 9,
+        "dom_words": 811,
+        "trafilatura_words": 4652,
+        "dom_to_trafilatura_ratio": 0.17
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,amazon)/gp/jobs",
+      "timestamp": "20140409204220",
+      "original": "http://www.amazon.com:80/gp/jobs/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "T3BFUDSADXPJ2V2KZPRZUYBC5BPVEJZW",
+      "length": 27434,
+      "html_file": "20140409204220_836d9c6b1324.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 457,
+        "trafilatura_words": 602,
+        "dom_to_trafilatura_ratio": 0.76
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/",
+      "timestamp": "20140814200416",
+      "original": "http://www.amazon.jobs/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "MMHJBORVXFQHRVWM5SB23ANBXEFQXCKY",
+      "length": 55886,
+      "html_file": "20140814200416_864f7a71943d.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 9,
+        "dom_words": 806,
+        "trafilatura_words": 4669,
+        "dom_to_trafilatura_ratio": 0.17
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/",
+      "timestamp": "20141004203344",
+      "original": "http://www.amazon.jobs:80/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "B5CJ4STDW5SBDRPC5I6HQKL6LCCLZXQX",
+      "length": 41526,
+      "html_file": "20141004203344_0c0f4267b70f.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 0,
+        "dom_to_trafilatura_ratio": null
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20141202191852",
+      "original": "http://www.amazon.jobs:80/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "WL63MQEKQPCHTYJO4EBZG5C2SDMIBVID",
+      "length": 39573,
+      "html_file": "20141202191852_7e8dbe944e18.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 0,
+        "dom_to_trafilatura_ratio": null
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,amazon)/gp/jobs",
+      "timestamp": "20150206085431",
+      "original": "http://www.amazon.com/gp/jobs",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "YWSLIHFKEEEE456UAHANAQQJSJITCMHQ",
+      "length": 28907,
+      "html_file": "20150206085431_59b98b1a5bf1.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 3,
+        "dom_words": 634,
+        "trafilatura_words": 607,
+        "dom_to_trafilatura_ratio": 1.04
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20150207061241",
+      "original": "http://www.amazon.jobs:80/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "6WOTNCCZJWDO5OWBXUPGUIV72XCG3TVD",
+      "length": 39814,
+      "html_file": "20150207061241_7e8dbe944e18.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 0,
+        "dom_to_trafilatura_ratio": null
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,amazon)/gp/jobs",
+      "timestamp": "20150303155601",
+      "original": "http://www.amazon.com:80/gp/jobs?",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "RTARCRRDH26PXAAFGKZ5AS4OKWY6NJ33",
+      "length": 28958,
+      "html_file": "20150303155601_d1d5ffd74d1f.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 3,
+        "dom_words": 648,
+        "trafilatura_words": 628,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,amazon)/gp/jobs",
+      "timestamp": "20150407155731",
+      "original": "http://www.amazon.com/gp/jobs/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "RUCY3GOBGMHYWPIDGU5SAFYI3YD4QOXD",
+      "length": 36274,
+      "html_file": "20150407155731_eab1cb4b4dbe.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 218,
+        "trafilatura_words": 632,
+        "dom_to_trafilatura_ratio": 0.34
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20150407165111",
+      "original": "http://www.amazon.jobs:80/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "M53QHUW5HN32Z7QPKTSIRWJ37EMUXZIP",
+      "length": 40346,
+      "html_file": "20150407165111_7e8dbe944e18.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 0,
+        "dom_to_trafilatura_ratio": null
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20150813223926",
+      "original": "http://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "DCPBY275SIKBZSRAU6VG3AC7AHN2ASOT",
+      "length": 45407,
+      "html_file": "20150813223926_dab4c92c12a6.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 0,
+        "dom_to_trafilatura_ratio": null
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "jobs,amazon)/",
+      "timestamp": "20151002183646",
+      "original": "http://www.amazon.jobs:80/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "XQLXLCJLIKJX4O3UVA4GA555RV6ESHC2",
+      "length": 47118,
+      "html_file": "20151002183646_0c0f4267b70f.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 0,
+        "dom_to_trafilatura_ratio": null
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20160201224459",
+      "original": "http://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "V6UCF2FACZU43WPJW76J3EJGGA7KW2D2",
+      "length": 46822,
+      "html_file": "20160201224459_dab4c92c12a6.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 0,
+        "dom_to_trafilatura_ratio": null
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20160202105309",
+      "original": "https://www.amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "P77BIKGDG2WAKMC3HWQZIHB6XROHR22K",
+      "length": 5109,
+      "html_file": "20160202105309_b6a502b9e9cb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 8,
+        "dom_words": 332,
+        "trafilatura_words": 213,
+        "dom_to_trafilatura_ratio": 1.56
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20160405092334",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "NFIIFQXYXPGOPMIDMLKOUCUAFSTK3H63",
+      "length": 44507,
+      "html_file": "20160405092334_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20160505044702",
+      "original": "https://www.amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "XESAPCPVU3E4WMCSQIDLBJU7JC3JN54C",
+      "length": 6696,
+      "html_file": "20160505044702_b6a502b9e9cb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 9,
+        "dom_words": 683,
+        "trafilatura_words": 557,
+        "dom_to_trafilatura_ratio": 1.23
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20160505053149",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "J7YUW6SZHYAMISI46AN3BPZLHXIVV7YE",
+      "length": 45395,
+      "html_file": "20160505053149_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20160811231553",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "RF4FZ42UBIZCDSUEMALT7NVHWUJMS3QM",
+      "length": 48114,
+      "html_file": "20160811231553_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20160812232438",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "UQFIF6ODM4D5JUAIGEVRTMWZDWONN4W5",
+      "length": 48683,
+      "html_file": "20160812232438_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20160812233120",
+      "original": "https://www.amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "JMNWUAG6HUU5BJRLKE5AM3SANT627M2F",
+      "length": 7627,
+      "html_file": "20160812233120_b6a502b9e9cb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 10,
+        "dom_words": 905,
+        "trafilatura_words": 789,
+        "dom_to_trafilatura_ratio": 1.15
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20161007073715",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "LEOALLON22C2KS6KHNAVRVHBLMOPK5UA",
+      "length": 61195,
+      "html_file": "20161007073715_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20161021184757",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "EED2HKO2PM3AXPZ4LCOLQK467D5PPUOK",
+      "length": 62184,
+      "html_file": "20161021184757_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20161021184804",
+      "original": "https://www.amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "WIZP2LG7AM5Z575UFZSPJL6SRVH5O4ZV",
+      "length": 9015,
+      "html_file": "20161021184804_b6a502b9e9cb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 10,
+        "dom_words": 905,
+        "trafilatura_words": 789,
+        "dom_to_trafilatura_ratio": 1.15
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20161123154409",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "LFGZYBH2YM662QFRXY6YLWC35X56ROG6",
+      "length": 72478,
+      "html_file": "20161123154409_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20170120060117",
+      "original": "https://www.amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "6DSLUA5GH4NQCOXNKOOXTVQR32GYXLXQ",
+      "length": 8380,
+      "html_file": "20170120060117_b6a502b9e9cb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 9,
+        "dom_words": 550,
+        "trafilatura_words": 428,
+        "dom_to_trafilatura_ratio": 1.29
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20170120060227",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "T7XYSDZUVQBOMOQUIIDDWRVN6SUPQSML",
+      "length": 100373,
+      "html_file": "20170120060227_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20170202054518",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "O3PCSJGUURX7H7CWBNDZGF3C2UJZIWBA",
+      "length": 104191,
+      "html_file": "20170202054518_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20170407033826",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "2OHO7NURXNBOHTG5EHXSN4PGVVEBXWMZ",
+      "length": 135920,
+      "html_file": "20170407033826_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/landing_pages/diversity",
+      "timestamp": "20170630132423",
+      "original": "https://www.amazon.jobs/en/landing_pages/diversity",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "PDF5CWTVOHK5GUFDBS2NU3OOXSYC3VOU",
+      "length": 30383,
+      "html_file": "20170630132423_add381e3c07d.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 30,
+        "dom_words": 3452,
+        "trafilatura_words": 3352,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20170723145053",
+      "original": "https://www.amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "JSJ2IFXQASEF7DG7FDLCAWQCNQWKJAQO",
+      "length": 9254,
+      "html_file": "20170723145053_b6a502b9e9cb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 10,
+        "dom_words": 852,
+        "trafilatura_words": 761,
+        "dom_to_trafilatura_ratio": 1.12
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20170805100252",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "E3DWPWZFWCGMKUE4UFAUZWP5QR2LPDFJ",
+      "length": 233201,
+      "html_file": "20170805100252_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/landing_pages/diversity",
+      "timestamp": "20170807002500",
+      "original": "https://www.amazon.jobs/en/landing_pages/diversity",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "O44TIX6M3EDI27U74W4JNFCQRYBO5MDX",
+      "length": 30378,
+      "html_file": "20170807002500_add381e3c07d.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 30,
+        "dom_words": 3452,
+        "trafilatura_words": 3352,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20170815212922",
+      "original": "https://amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "DLCBP7SYLX5VZ56KF4H7SWV5RJUOUGPP",
+      "length": 8243,
+      "html_file": "20170815212922_90ccc5a69dc8.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 8,
+        "dom_words": 430,
+        "trafilatura_words": 343,
+        "dom_to_trafilatura_ratio": 1.25
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20170815222342",
+      "original": "https://amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "HRZTG6CHRPBXTDF7N5KKMQSKL6K4N64M",
+      "length": 242253,
+      "html_file": "20170815222342_8bd7e8c7697f.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20170929122404",
+      "original": "https://amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "ZGFTKHFUQENVQDHENHXWAD7YMG677BPU",
+      "length": 8487,
+      "html_file": "20170929122404_90ccc5a69dc8.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 8,
+        "dom_words": 491,
+        "trafilatura_words": 377,
+        "dom_to_trafilatura_ratio": 1.3
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/landing_pages/diversity",
+      "timestamp": "20171001181006",
+      "original": "https://www.amazon.jobs/en/landing_pages/diversity",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "W365ZDEXCZOZ3M7ZHLOGPB7EUTJWPNQC",
+      "length": 30665,
+      "html_file": "20171001181006_add381e3c07d.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 30,
+        "dom_words": 3452,
+        "trafilatura_words": 3352,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/",
+      "timestamp": "20171003231154",
+      "original": "https://www.amazon.jobs/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "UCKEONOJQEIG5MLCTDAHVTY6AZ5PKDEG",
+      "length": 9629,
+      "html_file": "20171003231154_6cd8967ce1d4.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 10,
+        "dom_words": 917,
+        "trafilatura_words": 827,
+        "dom_to_trafilatura_ratio": 1.11
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20171003231157",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "DM6ZXMK6M7H23IZQ6A5HER3525OMYLPY",
+      "length": 282923,
+      "html_file": "20171003231157_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20180201023441",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "RSIXU27JRVO4OAEXMKY6OXLEXRTQC4TE",
+      "length": 302936,
+      "html_file": "20180201023441_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20180202025335",
+      "original": "https://www.amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "I3FSF7H3Q3QVRNGY5I2GBQ5W4RBGMTY5",
+      "length": 8366,
+      "html_file": "20180202025335_b6a502b9e9cb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 8,
+        "dom_words": 498,
+        "trafilatura_words": 412,
+        "dom_to_trafilatura_ratio": 1.21
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/landing_pages/diversity",
+      "timestamp": "20180202025337",
+      "original": "https://www.amazon.jobs/en/landing_pages/diversity",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "6OB676QW5S575ESOSWJXMMAFLDZSNATD",
+      "length": 30499,
+      "html_file": "20180202025337_add381e3c07d.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 30,
+        "dom_words": 3452,
+        "trafilatura_words": 3352,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20180322085955",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "CWFL5IW5FNYZAJZJJZO6IY6B4VQ3FVWS",
+      "length": 210261,
+      "html_file": "20180322085955_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/landing_pages/diversity",
+      "timestamp": "20180322103036",
+      "original": "https://www.amazon.jobs/en/landing_pages/diversity",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "BRMYDRP7US6BRAHG5M5PL2NAWTLRSZHZ",
+      "length": 30500,
+      "html_file": "20180322103036_add381e3c07d.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 30,
+        "dom_words": 3452,
+        "trafilatura_words": 3352,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20180405141628",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "GDSVQYNDWNI5KDWGFUB33QOP67G6MQCO",
+      "length": 210312,
+      "html_file": "20180405141628_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20180405142839",
+      "original": "https://www.amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "KJNQQOH7V5PCHE67KSJICYW6BM6MTOSG",
+      "length": 8166,
+      "html_file": "20180405142839_b6a502b9e9cb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 8,
+        "dom_words": 404,
+        "trafilatura_words": 281,
+        "dom_to_trafilatura_ratio": 1.44
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/landing_pages/diversity",
+      "timestamp": "20180405155608",
+      "original": "https://www.amazon.jobs/en/landing_pages/diversity",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "3XBJEFNND6XSXZYGA6O7NRS62MPJVECE",
+      "length": 30527,
+      "html_file": "20180405155608_add381e3c07d.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 30,
+        "dom_words": 3452,
+        "trafilatura_words": 3352,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20180405235009",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "2F4G2DACCVO6U4FF2UOZM7DZ5N53VTF6",
+      "length": 206685,
+      "html_file": "20180405235009_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 263,
+        "dom_to_trafilatura_ratio": 2.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/landing_pages/diversity",
+      "timestamp": "20180503222258",
+      "original": "https://www.amazon.jobs/en/landing_pages/diversity",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "EVTQPOXFDAZGGZDSJBITS7F37I2POXWA",
+      "length": 30531,
+      "html_file": "20180503222258_add381e3c07d.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 30,
+        "dom_words": 3452,
+        "trafilatura_words": 3352,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20180802103932",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "UNZYOYWYWUJGUAFGZ32JEGBW5XJWP5XA",
+      "length": 238041,
+      "html_file": "20180802103932_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 260,
+        "dom_to_trafilatura_ratio": 2.77
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20180802103939",
+      "original": "https://www.amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "6SUGIAJ6NECPHUG3HNSOYRO7MRFSC3BG",
+      "length": 9243,
+      "html_file": "20180802103939_b6a502b9e9cb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 10,
+        "dom_words": 747,
+        "trafilatura_words": 573,
+        "dom_to_trafilatura_ratio": 1.3
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20180831090248",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "X6F5F4CZMXPPLDEP6EPXVCDIKUMZHMUD",
+      "length": 256667,
+      "html_file": "20180831090248_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 260,
+        "dom_to_trafilatura_ratio": 2.77
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/working/working-amazon",
+      "timestamp": "20180907140248",
+      "original": "https://www.amazon.jobs/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "RXKQZH7526Q2HTZUQBATKI5OXIQDNLNF",
+      "length": 260398,
+      "html_file": "20180907140248_d68ba23ebaf3.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 260,
+        "dom_to_trafilatura_ratio": 2.77
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20181005001206",
+      "original": "https://www.amazon.jobs/en/working/working-amazon/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "634LSP3OYRB7DMQH7KYKMWXYNPBZDEAE",
+      "length": 265139,
+      "html_file": "20181005001206_908048699ca7.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 273,
+        "dom_to_trafilatura_ratio": 2.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en",
+      "timestamp": "20181005115441",
+      "original": "https://www.amazon.jobs/en",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "X3Z5NWBHRWNJNSOMZJ5ZEPFHJOTQE73P",
+      "length": 9041,
+      "html_file": "20181005115441_b6a502b9e9cb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 9,
+        "dom_words": 717,
+        "trafilatura_words": 551,
+        "dom_to_trafilatura_ratio": 1.3
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20190201025602",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "KETJS6V4RSFGGMQJ7J4ECH7K44LF3RV2",
+      "length": 329440,
+      "html_file": "20190201025602_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 273,
+        "dom_to_trafilatura_ratio": 2.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20190401201414",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "KJLOK66S5L6EEQ72COSL3RW5QUS25RWO",
+      "length": 348656,
+      "html_file": "20190401201414_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 273,
+        "dom_to_trafilatura_ratio": 2.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/",
+      "timestamp": "20190510013821",
+      "original": "https://www.amazon.jobs/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "TXKAL2LF2SGDZGL6TAG4FMMY5JH4R7CM",
+      "length": 2293,
+      "html_file": "20190510013821_6cd8967ce1d4.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 76,
+        "trafilatura_words": 91,
+        "dom_to_trafilatura_ratio": 0.84
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20190801003200",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "EIIUEH5LBXSCGBJY7MEZKLLPLPG5WEVR",
+      "length": 386436,
+      "html_file": "20190801003200_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 720,
+        "trafilatura_words": 273,
+        "dom_to_trafilatura_ratio": 2.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20191002003829",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "CCTNWYUGRMOHBOOROA5FABMCRNWHFBC5",
+      "length": 399184,
+      "html_file": "20191002003829_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 713,
+        "trafilatura_words": 270,
+        "dom_to_trafilatura_ratio": 2.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20200202040839",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "ITLJ2TQDROWK4WUTUZGMNJQACAAW3PIB",
+      "length": 433836,
+      "html_file": "20200202040839_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 713,
+        "trafilatura_words": 270,
+        "dom_to_trafilatura_ratio": 2.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20200401162352",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "X2J6JUWNOF4QKNSKR6IUW6FY2UTPX53O",
+      "length": 458997,
+      "html_file": "20200401162352_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 713,
+        "trafilatura_words": 270,
+        "dom_to_trafilatura_ratio": 2.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20200803100129",
+      "original": "https://www.amazon.jobs/en/working/working-amazon/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "NQE7D6QHB32FVMSTCJ2CWKOF7DFJ67GK",
+      "length": 269064,
+      "html_file": "20200803100129_908048699ca7.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 16,
+        "dom_words": 644,
+        "trafilatura_words": 184,
+        "dom_to_trafilatura_ratio": 3.5
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20201001013908",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "RHKMBFUL2JBQPIVPI422XCL26XVCOUHD",
+      "length": 359774,
+      "html_file": "20201001013908_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 713,
+        "trafilatura_words": 270,
+        "dom_to_trafilatura_ratio": 2.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/",
+      "timestamp": "20201117221931",
+      "original": "https://www.amazon.jobs",
+      "mimetype": "unk",
+      "statuscode": "200",
+      "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+      "length": 801,
+      "html_file": "20201117221931_4469359a681b.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 3,
+        "dom_words": 378,
+        "trafilatura_words": 401,
+        "dom_to_trafilatura_ratio": 0.94
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20201126190613",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "5FMHIRULCIOQXITZPB7I5WFCZ736ONWS",
+      "length": 35162,
+      "html_file": "20201126190613_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 284,
+        "trafilatura_words": 431,
+        "dom_to_trafilatura_ratio": 0.66
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20201204170649",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "ZFA4K7H5UK6X75HZQ7XUTXGXUKG4SQX7",
+      "length": 35737,
+      "html_file": "20201204170649_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 284,
+        "trafilatura_words": 431,
+        "dom_to_trafilatura_ratio": 0.66
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20210102062414",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "PFZW3DWPVBMAWI3M66W7UO5XOUPJNIXX",
+      "length": 398222,
+      "html_file": "20210102062414_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 713,
+        "trafilatura_words": 270,
+        "dom_to_trafilatura_ratio": 2.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20210110074531",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "T32I4C6L2WW7J5HNTXAUPJLSXJKQCG47",
+      "length": 36100,
+      "html_file": "20210110074531_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 277,
+        "trafilatura_words": 431,
+        "dom_to_trafilatura_ratio": 0.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "jobs,amazon)/en/working/working-amazon",
+      "timestamp": "20210201065119",
+      "original": "https://www.amazon.jobs/en/working/working-amazon",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "O2BLFUDQSON625GRE6VLV35NHSIDRBXK",
+      "length": 407131,
+      "html_file": "20210201065119_7a9e1bfb4f4a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 17,
+        "dom_words": 713,
+        "trafilatura_words": 270,
+        "dom_to_trafilatura_ratio": 2.64
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20210204114403",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "ZVZCZTXUSLQCRWQII6KGZUHLOHUB3Q7Q",
+      "length": 36001,
+      "html_file": "20210204114403_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 283,
+        "trafilatura_words": 430,
+        "dom_to_trafilatura_ratio": 0.66
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20210307095736",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "QDVXABK5TMIEE45B7VDMCTOCHB23Z43S",
+      "length": 33257,
+      "html_file": "20210307095736_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 279,
+        "trafilatura_words": 430,
+        "dom_to_trafilatura_ratio": 0.65
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20210404022420",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "6NNXOMDYDKTXYI4RXKJGHNMRRHB2QS3K",
+      "length": 28825,
+      "html_file": "20210404022420_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 308,
+        "trafilatura_words": 430,
+        "dom_to_trafilatura_ratio": 0.72
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20210714210756",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "OXUSFQTEFYNTVRLBAI2VFZWDGVQRZ2HL",
+      "length": 33355,
+      "html_file": "20210714210756_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 257,
+        "trafilatura_words": 431,
+        "dom_to_trafilatura_ratio": 0.6
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20210812034506",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "APYNWMIEJNCGZ2QFFQ3LCYBLM5ABZ7ER",
+      "length": 33108,
+      "html_file": "20210812034506_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 253,
+        "trafilatura_words": 431,
+        "dom_to_trafilatura_ratio": 0.59
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20210901230103",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "J2UOYLGF5LSQIP3H3YRACGW7OS3RNVRV",
+      "length": 33453,
+      "html_file": "20210901230103_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 261,
+        "trafilatura_words": 431,
+        "dom_to_trafilatura_ratio": 0.61
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20211006134323",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "E2ESDYDSGS5NV7XTAFULQ2QCPRZ7DTOF",
+      "length": 33920,
+      "html_file": "20211006134323_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 234,
+        "trafilatura_words": 431,
+        "dom_to_trafilatura_ratio": 0.54
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20220104014134",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "J5KO5L567G25DVKKZA7D5YAHFQFAOJM3",
+      "length": 34305,
+      "html_file": "20220104014134_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 253,
+        "trafilatura_words": 378,
+        "dom_to_trafilatura_ratio": 0.67
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20220204042435",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "2KXVHIKCDGIGEVZGJFMEPKLAQKQJVNN7",
+      "length": 34351,
+      "html_file": "20220204042435_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 281,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20220301025332",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "ZUQCRN7LUOPPDJWW7UHTCXMVGLXRRJUA",
+      "length": 34298,
+      "html_file": "20220301025332_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 285,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.75
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20220406231112",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "TPCYNYC5SAUOECMACGJKC7LETOPJWKCE",
+      "length": 33829,
+      "html_file": "20220406231112_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 270,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.71
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20220701081820",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "FWB4E7DPWGUOF3R4XJCE7FARYRORTALK",
+      "length": 34147,
+      "html_file": "20220701081820_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 267,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.7
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20220801184903",
+      "original": "https://www.aboutamazon.com/workplace/",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "U3L5FWJ7OFHSVEINFJHEZALUZRKGAWSB",
+      "length": 36025,
+      "html_file": "20220801184903_27b3e419af70.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 256,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.67
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20220901002703",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "VSDYG56BY6FK7I7IQIPB2XHU6322SR3W",
+      "length": 37080,
+      "html_file": "20220901002703_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 254,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.67
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20221005093402",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "5XT3MCL5BKGIDGISFQPUSR62PACC75MY",
+      "length": 37229,
+      "html_file": "20221005093402_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 257,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.67
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20230105061435",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "JRMMK6S3DM7CYEASZBU6XXBKRF5VSAI4",
+      "length": 37725,
+      "html_file": "20230105061435_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 316,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.83
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20230205134840",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "4WAKLXVURHZDHXWKQLMM56WPQ2YGCPAI",
+      "length": 38334,
+      "html_file": "20230205134840_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 302,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.79
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20230303203758",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "M6EN25CENEK36XDXC5CYNJWMF65SDQY6",
+      "length": 38536,
+      "html_file": "20230303203758_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 302,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.79
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20230401142539",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "7TSNPG5WC5BGGCAXRFCOZSCTEEFZK4IP",
+      "length": 38231,
+      "html_file": "20230401142539_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 321,
+        "trafilatura_words": 427,
+        "dom_to_trafilatura_ratio": 0.75
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20230802224559",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "T5UZKJ5JMTD7T7KIPHOJWDUGZ6IWIXYX",
+      "length": 38458,
+      "html_file": "20230802224559_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 275,
+        "trafilatura_words": 415,
+        "dom_to_trafilatura_ratio": 0.66
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20230904002923",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "6RNATHIBOCGUFJIONQC6AI3FTF4RPRRH",
+      "length": 38643,
+      "html_file": "20230904002923_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 317,
+        "trafilatura_words": 457,
+        "dom_to_trafilatura_ratio": 0.69
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20231004004608",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "R3MFR57YBD7LOFNKYGYYFNS3UGQ2CKRP",
+      "length": 38908,
+      "html_file": "20231004004608_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 316,
+        "trafilatura_words": 460,
+        "dom_to_trafilatura_ratio": 0.69
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20231130162450",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "IX6TOWGOTRYMAPIZTIGUMPZRFQKTMZGC",
+      "length": 39524,
+      "html_file": "20231130162450_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 333,
+        "trafilatura_words": 444,
+        "dom_to_trafilatura_ratio": 0.75
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20240102071706",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "LNSFU4V6FJO5HKK6KLOEPHF7FXSSZ2BN",
+      "length": 40084,
+      "html_file": "20240102071706_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 326,
+        "trafilatura_words": 444,
+        "dom_to_trafilatura_ratio": 0.73
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20240205152829",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "XIXDGDVQ5UJ4OIPGFCU3KJLQFZJQYJBW",
+      "length": 40045,
+      "html_file": "20240205152829_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 330,
+        "trafilatura_words": 444,
+        "dom_to_trafilatura_ratio": 0.74
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20240408022016",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "45P6KFAUC73U72BQ343KUAELNCJTUTCM",
+      "length": 40817,
+      "html_file": "20240408022016_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 316,
+        "trafilatura_words": 444,
+        "dom_to_trafilatura_ratio": 0.71
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20240505063533",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "ONDHCFCSF7Y7VOWCEAHM3RGIPEVBJ2QY",
+      "length": 40423,
+      "html_file": "20240505063533_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 315,
+        "trafilatura_words": 444,
+        "dom_to_trafilatura_ratio": 0.71
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20240718091505",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "KQFIYGFHP5YI377OUGC2SMLLZ2UCLD3U",
+      "length": 41593,
+      "html_file": "20240718091505_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 298,
+        "trafilatura_words": 444,
+        "dom_to_trafilatura_ratio": 0.67
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20240802063855",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "LF5PYYFXWQVJFAQ3TGLVUK64CQ2FCTQY",
+      "length": 40928,
+      "html_file": "20240802063855_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 295,
+        "trafilatura_words": 444,
+        "dom_to_trafilatura_ratio": 0.66
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20240911023128",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "UVFN3URZEOVY2FTE6K5ANSJB3OGMVQ2C",
+      "length": 40527,
+      "html_file": "20240911023128_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 301,
+        "trafilatura_words": 444,
+        "dom_to_trafilatura_ratio": 0.68
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20241007141100",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "GPUZB3UYY2FFPHU5XYNYVZ4KDSO2LVMC",
+      "length": 40982,
+      "html_file": "20241007141100_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 301,
+        "trafilatura_words": 454,
+        "dom_to_trafilatura_ratio": 0.66
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20250102205355",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "JM4BHC26MX4PRHQ65BMDBVJH3RXPHEGZ",
+      "length": 60930,
+      "html_file": "20250102205355_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 161,
+        "trafilatura_words": 174,
+        "dom_to_trafilatura_ratio": 0.93
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20250201055604",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "XOWVQPQ22IC3ATHL4GQLV2RXKWCFGB5F",
+      "length": 60921,
+      "html_file": "20250201055604_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 173,
+        "trafilatura_words": 174,
+        "dom_to_trafilatura_ratio": 0.99
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20250303022530",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "KIQAKWWBAYFF4S3GWNZSYPMEWSAU67MF",
+      "length": 61263,
+      "html_file": "20250303022530_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 173,
+        "trafilatura_words": 174,
+        "dom_to_trafilatura_ratio": 0.99
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20250401074043",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "NOAB66ADHJA3CD64D2QCMWDB3SCS5XYB",
+      "length": 60622,
+      "html_file": "20250401074043_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 183,
+        "trafilatura_words": 174,
+        "dom_to_trafilatura_ratio": 1.05
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20250704025110",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "RVN7UMP6LVVJDX4NZHTMLNK63YB4WCPV",
+      "length": 61444,
+      "html_file": "20250704025110_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 168,
+        "trafilatura_words": 345,
+        "dom_to_trafilatura_ratio": 0.49
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20250802052554",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "2U3EX635E3SN5BFFXGT2HO3BOZX4PIXT",
+      "length": 61866,
+      "html_file": "20250802052554_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 158,
+        "trafilatura_words": 384,
+        "dom_to_trafilatura_ratio": 0.41
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20250912042424",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "WYA5MFZXS6EBQY6EZLROIMQ64P4G7XHR",
+      "length": 61725,
+      "html_file": "20250912042424_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 158,
+        "trafilatura_words": 384,
+        "dom_to_trafilatura_ratio": 0.41
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20251004034134",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "PJS2JOYQM5DL6BPL5E7AK3ENMRMGQWFL",
+      "length": 62679,
+      "html_file": "20251004034134_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 158,
+        "trafilatura_words": 386,
+        "dom_to_trafilatura_ratio": 0.41
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20260113072145",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "RT2AFMLVV2O2BRP2C3YEKGWD6SZGQW3D",
+      "length": 63985,
+      "html_file": "20260113072145_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 158,
+        "trafilatura_words": 381,
+        "dom_to_trafilatura_ratio": 0.41
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20260203192302",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "K4KSRATO7VOCQQHANBFZLIF5AJASOMAG",
+      "length": 39478,
+      "html_file": "20260203192302_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 158,
+        "trafilatura_words": 363,
+        "dom_to_trafilatura_ratio": 0.44
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,aboutamazon)/workplace",
+      "timestamp": "20260312051656",
+      "original": "https://www.aboutamazon.com/workplace",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "VGJXSBIZWDE6625VDOI7Q74BEGC4MP3H",
+      "length": 50113,
+      "html_file": "20260312051656_e0046d472460.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 2,
+        "dom_words": 156,
+        "trafilatura_words": 363,
+        "dom_to_trafilatura_ratio": 0.43
+      },
+      "thin": false
     }
   ],
   "digest_timeline": {
     "RS6ZJ3LT6SMTOMO5WKDXTJI2YXSAIYFI": [
       "20051105010628"
+    ],
+    "7URLLJD5WGQJKMZBZM6UYOJADRKW4UTD": [
+      "20070506231520"
+    ],
+    "JEZPD4T3PHB5HYB7R7KLHGYKW2IBDSSI": [
+      "20070519151709"
+    ],
+    "YLTARGPIJ6AYGOPDS3J2SHQGUJRBTBCF": [
+      "20070705090433"
+    ],
+    "SMJFISSBPMTBYO53ZFMOJY4VP3KCOU6K": [
+      "20070706120135"
+    ],
+    "JW2AWJ6MQGLLKUQCFJQOI2CKNJPQLKDA": [
+      "20070912055934"
+    ],
+    "IP6GCAI2FKU7WBCPEI6EC425WULF65XO": [
+      "20070923171718"
+    ],
+    "QV5QT5EICRLEFL5FMXNTL7ZU6QCHYTRX": [
+      "20080220061438"
     ],
     "VWRBG563BG7PRDVY7VNWFYJ26YC57M5G": [
       "20080723213906",
@@ -4812,6 +6957,15 @@
       "length": 2489
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10379831",
+      "timestamp": "20260629140433",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10379831",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "OE2TCG5BCBGWIAFULR4WS4BKDUREWSER",
+      "length": 2629
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10380260",
       "timestamp": "20260401155049",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10380260",
@@ -4848,6 +7002,24 @@
       "length": 2622
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10388673",
+      "timestamp": "20260628194740",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10388673",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "OC5YXTYZ65CALMSVBIJ2MPABMFCDRUJH",
+      "length": 2710
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10388814",
+      "timestamp": "20260501081325",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10388814",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "BXXGEYSSCZ6D3AMREVC2THECL45ENRMB",
+      "length": 2542
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10390147",
       "timestamp": "20260416114315",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10390147",
@@ -4857,13 +7029,13 @@
       "length": 2550
     },
     {
-      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10390514",
-      "timestamp": "20260625055414",
-      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10390514",
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10390448",
+      "timestamp": "20260628194706",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10390448",
       "mimetype": "application/json",
       "statuscode": "200",
-      "digest": "DMDZAP5OZE2OGJVMHAOXOBOSFOQ47EPB",
-      "length": 2643
+      "digest": "NOFUGBDLVAJXGTCRKHQP4RCVYVRUJPGP",
+      "length": 2562
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10393903",
@@ -4873,6 +7045,24 @@
       "statuscode": "200",
       "digest": "Y2S65GVY57B4H3NLQLADWWRHCE5UE6KQ",
       "length": 2541
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10394248",
+      "timestamp": "20260629224545",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10394248",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TXLRR4WQWMEUN3PYMMV4UWQIQ3UOH4CJ",
+      "length": 2613
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10394847",
+      "timestamp": "20260514220414",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10394847",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "E3YJFBRQI5YYVLTN7XCHRSG6BR2VTXTH",
+      "length": 2608
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10396342",
@@ -4891,6 +7081,24 @@
       "statuscode": "200",
       "digest": "2FH76X4VB4SD7AJ7VEFEP6DDY3KJLGCK",
       "length": 2641
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10397141",
+      "timestamp": "20260628194809",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10397141",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "I2V3VFHQHKPHAUVS6UX5HWGQX7Y23XSF",
+      "length": 2533
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10397965",
+      "timestamp": "20260505205538",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10397965",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ONMKYRZPB65NUIPL6EILAXJGIDO7RG4N",
+      "length": 2544
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10399974",
@@ -4999,6 +7207,24 @@
       "statuscode": "200",
       "digest": "HVTB7Z2YBYIPULEIJHFMWZDCO3SJJETP",
       "length": 2515
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10421926",
+      "timestamp": "20260628194918",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10421926",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LPCMFOKGQNP65KRSL5OFKBPGP6EWCLBM",
+      "length": 2676
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10423126",
+      "timestamp": "20260525164154",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10423126",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6DSJ7RKTAHV2HP5TLTVS2QOGWMBWXF7N",
+      "length": 2608
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10425896",
@@ -28068,6 +30294,24 @@
       "length": 2706
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3098229",
+      "timestamp": "20260627193523",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3098229",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "QM66EV4JGAKCZRGWCTMEH4UO44AMOYN6",
+      "length": 2557
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3098231",
+      "timestamp": "20251004215235",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3098231",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "QNHTALZVQ3ER2ORWXNGFY5JSXUJJ3T4A",
+      "length": 2531
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3099562",
       "timestamp": "20251224064916",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3099562",
@@ -28428,6 +30672,15 @@
       "length": 2885
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3122200",
+      "timestamp": "20260629140555",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3122200",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YE45ABATMIZH4FMASKMBW73TTYCLKME4",
+      "length": 2613
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3122543",
       "timestamp": "20251205171423",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3122543",
@@ -28597,6 +30850,15 @@
       "statuscode": "200",
       "digest": "JDU3QDB3Y2BJX2HZA66T4PU6QBXZCJLQ",
       "length": 2975
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3134150",
+      "timestamp": "20260627193523",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3134150",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XFY4JBLONMU5BYA5OCNRTBLTCCBDL5VJ",
+      "length": 2475
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3135965",
@@ -28941,6 +31203,15 @@
       "length": 1581
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3155154",
+      "timestamp": "20260627193448",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3155154",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4NDBJ42OGLZQ63UJGE5TUIXO22XC3JFE",
+      "length": 2586
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3155526",
       "timestamp": "20260430053531",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3155526",
@@ -29031,13 +31302,13 @@
       "length": 2558
     },
     {
-      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3160740",
-      "timestamp": "20260621213500",
-      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3160740",
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3160033",
+      "timestamp": "20260627193428",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3160033",
       "mimetype": "application/json",
       "statuscode": "200",
-      "digest": "5HSNTXZQKOVKP5XPVWPQEZMTTCIFNYVB",
-      "length": 2479
+      "digest": "TVMPJGAT7HQECOA6O6H5OHDMMQCMSXME",
+      "length": 2498
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3161325",
@@ -29128,6 +31399,15 @@
       "statuscode": "200",
       "digest": "OBWXMPMWYKGSVAS534UBGHRGOLYSU3DU",
       "length": 2636
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3170644",
+      "timestamp": "20260628194843",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3170644",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "3TQDVTZ6UKWTDLZO4OBCKLGNP3DMEZBF",
+      "length": 2643
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3171711",
@@ -29452,6 +31732,24 @@
       "statuscode": "200",
       "digest": "MK4VMADKQNHNSARXSJLT7UA43IPLY2OP",
       "length": 2575
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3204310",
+      "timestamp": "20260628194634",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3204310",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DWO5RKQJVXVPB6SUJVF3ESDL7Y27P7C7",
+      "length": 2582
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3205695",
+      "timestamp": "20260408221146",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3205695",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "V3TSQPL32273G2L62272WBFGV3QFJNH6",
+      "length": 2547
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=4157",
@@ -30660,6 +32958,15 @@
       "length": 2489
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10379831",
+      "timestamp": "20260629140433",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10379831",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "OE2TCG5BCBGWIAFULR4WS4BKDUREWSER",
+      "length": 2629
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10380260",
       "timestamp": "20260401155049",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10380260",
@@ -30696,6 +33003,24 @@
       "length": 2622
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10388673",
+      "timestamp": "20260628194740",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10388673",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "OC5YXTYZ65CALMSVBIJ2MPABMFCDRUJH",
+      "length": 2710
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10388814",
+      "timestamp": "20260501081325",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10388814",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "BXXGEYSSCZ6D3AMREVC2THECL45ENRMB",
+      "length": 2542
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10390147",
       "timestamp": "20260416114315",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10390147",
@@ -30705,13 +33030,13 @@
       "length": 2550
     },
     {
-      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10390514",
-      "timestamp": "20260625055414",
-      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10390514",
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10390448",
+      "timestamp": "20260628194706",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10390448",
       "mimetype": "application/json",
       "statuscode": "200",
-      "digest": "DMDZAP5OZE2OGJVMHAOXOBOSFOQ47EPB",
-      "length": 2643
+      "digest": "NOFUGBDLVAJXGTCRKHQP4RCVYVRUJPGP",
+      "length": 2562
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10393903",
@@ -30721,6 +33046,24 @@
       "statuscode": "200",
       "digest": "Y2S65GVY57B4H3NLQLADWWRHCE5UE6KQ",
       "length": 2541
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10394248",
+      "timestamp": "20260629224545",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10394248",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TXLRR4WQWMEUN3PYMMV4UWQIQ3UOH4CJ",
+      "length": 2613
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10394847",
+      "timestamp": "20260514220414",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10394847",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "E3YJFBRQI5YYVLTN7XCHRSG6BR2VTXTH",
+      "length": 2608
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10396342",
@@ -30739,6 +33082,24 @@
       "statuscode": "200",
       "digest": "2FH76X4VB4SD7AJ7VEFEP6DDY3KJLGCK",
       "length": 2641
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10397141",
+      "timestamp": "20260628194809",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10397141",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "I2V3VFHQHKPHAUVS6UX5HWGQX7Y23XSF",
+      "length": 2533
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10397965",
+      "timestamp": "20260505205538",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10397965",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ONMKYRZPB65NUIPL6EILAXJGIDO7RG4N",
+      "length": 2544
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10399974",
@@ -30847,6 +33208,24 @@
       "statuscode": "200",
       "digest": "HVTB7Z2YBYIPULEIJHFMWZDCO3SJJETP",
       "length": 2515
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10421926",
+      "timestamp": "20260628194918",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10421926",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LPCMFOKGQNP65KRSL5OFKBPGP6EWCLBM",
+      "length": 2676
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10423126",
+      "timestamp": "20260525164154",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10423126",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6DSJ7RKTAHV2HP5TLTVS2QOGWMBWXF7N",
+      "length": 2608
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10425896",
@@ -53916,6 +56295,24 @@
       "length": 2706
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3098229",
+      "timestamp": "20260627193523",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3098229",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "QM66EV4JGAKCZRGWCTMEH4UO44AMOYN6",
+      "length": 2557
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3098231",
+      "timestamp": "20251004215235",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3098231",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "QNHTALZVQ3ER2ORWXNGFY5JSXUJJ3T4A",
+      "length": 2531
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3099562",
       "timestamp": "20251224064916",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3099562",
@@ -54276,6 +56673,15 @@
       "length": 2885
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3122200",
+      "timestamp": "20260629140555",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3122200",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YE45ABATMIZH4FMASKMBW73TTYCLKME4",
+      "length": 2613
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3122543",
       "timestamp": "20251205171423",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3122543",
@@ -54445,6 +56851,15 @@
       "statuscode": "200",
       "digest": "JDU3QDB3Y2BJX2HZA66T4PU6QBXZCJLQ",
       "length": 2975
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3134150",
+      "timestamp": "20260627193523",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3134150",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XFY4JBLONMU5BYA5OCNRTBLTCCBDL5VJ",
+      "length": 2475
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3135965",
@@ -54789,6 +57204,15 @@
       "length": 1581
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3155154",
+      "timestamp": "20260627193448",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3155154",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4NDBJ42OGLZQ63UJGE5TUIXO22XC3JFE",
+      "length": 2586
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3155526",
       "timestamp": "20260430053531",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3155526",
@@ -54879,13 +57303,13 @@
       "length": 2558
     },
     {
-      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3160740",
-      "timestamp": "20260621213500",
-      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3160740",
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3160033",
+      "timestamp": "20260627193428",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3160033",
       "mimetype": "application/json",
       "statuscode": "200",
-      "digest": "5HSNTXZQKOVKP5XPVWPQEZMTTCIFNYVB",
-      "length": 2479
+      "digest": "TVMPJGAT7HQECOA6O6H5OHDMMQCMSXME",
+      "length": 2498
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3161325",
@@ -54976,6 +57400,15 @@
       "statuscode": "200",
       "digest": "OBWXMPMWYKGSVAS534UBGHRGOLYSU3DU",
       "length": 2636
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3170644",
+      "timestamp": "20260628194843",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3170644",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "3TQDVTZ6UKWTDLZO4OBCKLGNP3DMEZBF",
+      "length": 2643
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3171711",
@@ -55300,6 +57733,24 @@
       "statuscode": "200",
       "digest": "MK4VMADKQNHNSARXSJLT7UA43IPLY2OP",
       "length": 2575
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3204310",
+      "timestamp": "20260628194634",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3204310",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DWO5RKQJVXVPB6SUJVF3ESDL7Y27P7C7",
+      "length": 2582
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3205695",
+      "timestamp": "20260408221146",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3205695",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "V3TSQPL32273G2L62272WBFGV3QFJNH6",
+      "length": 2547
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=4157",

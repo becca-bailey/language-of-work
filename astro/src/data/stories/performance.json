@@ -137,24 +137,24 @@
           "displayName": "Amazon",
           "years": [
             {
+              "year": 2007,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3517,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
               "year": 2008,
               "fractionPresent": 1.0,
-              "topkMean": 0.3588,
-              "nChunks": 1,
+              "topkMean": 0.3123,
+              "nChunks": 2,
               "thin": true
             },
             {
               "year": 2011,
               "fractionPresent": 1.0,
-              "topkMean": 0.3979,
-              "nChunks": 3,
-              "thin": true
-            },
-            {
-              "year": 2012,
-              "fractionPresent": 1.0,
-              "topkMean": 0.3965,
-              "nChunks": 1,
+              "topkMean": 0.4139,
+              "nChunks": 2,
               "thin": true
             },
             {
@@ -166,52 +166,52 @@
             },
             {
               "year": 2014,
-              "fractionPresent": 1.0,
-              "topkMean": 0.4326,
-              "nChunks": 2,
+              "fractionPresent": 0.6667,
+              "topkMean": 0.3582,
+              "nChunks": 3,
               "thin": true
             },
             {
               "year": 2016,
-              "fractionPresent": 1.0,
-              "topkMean": 0.4819,
-              "nChunks": 1,
-              "thin": true
-            },
-            {
-              "year": 2017,
               "fractionPresent": 0.9412,
               "topkMean": 0.4871,
               "nChunks": 17,
               "thin": false
             },
             {
+              "year": 2017,
+              "fractionPresent": 0.6383,
+              "topkMean": 0.4871,
+              "nChunks": 47,
+              "thin": false
+            },
+            {
               "year": 2018,
-              "fractionPresent": 0.5,
-              "topkMean": 0.2819,
-              "nChunks": 2,
-              "thin": true
+              "fractionPresent": 0.6078,
+              "topkMean": 0.4871,
+              "nChunks": 51,
+              "thin": false
             },
             {
               "year": 2019,
-              "fractionPresent": 1.0,
-              "topkMean": 0.4158,
-              "nChunks": 2,
-              "thin": true
+              "fractionPresent": 0.9444,
+              "topkMean": 0.4893,
+              "nChunks": 18,
+              "thin": false
             },
             {
               "year": 2020,
-              "fractionPresent": 1.0,
-              "topkMean": 0.3498,
-              "nChunks": 1,
-              "thin": true
+              "fractionPresent": 0.9444,
+              "topkMean": 0.4814,
+              "nChunks": 18,
+              "thin": false
             },
             {
               "year": 2021,
-              "fractionPresent": 1.0,
-              "topkMean": 0.3498,
-              "nChunks": 1,
-              "thin": true
+              "fractionPresent": 0.9412,
+              "topkMean": 0.4814,
+              "nChunks": 17,
+              "thin": false
             },
             {
               "year": 2022,
@@ -223,29 +223,29 @@
             {
               "year": 2023,
               "fractionPresent": 1.0,
-              "topkMean": 0.3498,
-              "nChunks": 1,
+              "topkMean": 0.3453,
+              "nChunks": 3,
               "thin": true
             },
             {
               "year": 2024,
               "fractionPresent": 1.0,
-              "topkMean": 0.3498,
-              "nChunks": 1,
+              "topkMean": 0.3476,
+              "nChunks": 2,
               "thin": true
             },
             {
               "year": 2025,
-              "fractionPresent": 1.0,
-              "topkMean": 0.3498,
-              "nChunks": 1,
-              "thin": true
+              "fractionPresent": 0.8,
+              "topkMean": 0.3298,
+              "nChunks": 5,
+              "thin": false
             },
             {
               "year": 2026,
-              "fractionPresent": 0.5556,
-              "topkMean": 0.3587,
-              "nChunks": 9,
+              "fractionPresent": 0.5833,
+              "topkMean": 0.3782,
+              "nChunks": 12,
               "thin": false
             }
           ]
@@ -332,10 +332,45 @@
               "thin": true
             },
             {
+              "year": 2020,
+              "fractionPresent": 0.9444,
+              "topkMean": 0.3716,
+              "nChunks": 18,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "fractionPresent": 0.9375,
+              "topkMean": 0.3716,
+              "nChunks": 16,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 0.8421,
+              "topkMean": 0.4762,
+              "nChunks": 19,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 1.0,
+              "topkMean": 0.514,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 1.0,
+              "topkMean": 0.514,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
               "year": 2025,
               "fractionPresent": 1.0,
               "topkMean": 0.4256,
-              "nChunks": 8,
+              "nChunks": 12,
               "thin": false
             },
             {
@@ -1368,10 +1403,18 @@
     "hardcore": [
       {
         "term": "exceptional talent",
-        "first_year": 2017,
-        "last_year": 2017,
+        "first_year": 2016,
+        "last_year": 2021,
         "max_score": 0.4654,
         "example": "They recognize exceptional talent, and willingly move them throughout the organization.",
+        "company": "amazon"
+      },
+      {
+        "term": "raise the bar",
+        "first_year": 2017,
+        "last_year": 2018,
+        "max_score": 0.2809,
+        "example": "In addition to sponsoring and supporting programs and classes, the group partners with organizations like Northwest Center to recruit people of all abilities, and works with Amazon's Global Real Estat",
         "company": "amazon"
       },
       {
@@ -1412,13 +1455,26 @@
       "score": 0.4093
     },
     {
-      "id": "0a714f2e0794",
+      "id": "41d6f95d10c8",
       "stance": "raise_the_bar",
       "stanceLabel": "Raise the bar",
       "stanceNote": "Leadership-principles language — standards others may find unreasonable.",
       "company": "amazon",
       "displayName": "Amazon",
-      "year": 2017,
+      "year": 2021,
+      "source": "careers",
+      "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
+      "heading": "Insist on the Highest Standards",
+      "score": 0.4709
+    },
+    {
+      "id": "247b711e4290",
+      "stance": "raise_the_bar",
+      "stanceLabel": "Raise the bar",
+      "stanceNote": "Leadership-principles language — standards others may find unreasonable.",
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2018,
       "source": "careers",
       "text": "Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
       "heading": "Insist on the Highest Standards",

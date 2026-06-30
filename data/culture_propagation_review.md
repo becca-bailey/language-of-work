@@ -24,12 +24,12 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.479 Stripe    2024  Push back on managers when you sense they’re making hires who are merely “fine.” Hold an equally high bar for performanc
 - [ ] 0.479 Stripe    2025  Push back on managers when you sense they’re making hires who are merely “fine.” Hold an equally high bar for performanc
 - [ ] 0.477 Stripe    2020  We value managers who are (and remain) experts in their areas and are hands-on practitioners, while also focused on deve
+- [ ] 0.470 Amazon    2007  High Hiring Bar: When making a hiring decision we ask ourselves: "Will I admire this person?
 - [ ] 0.437 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
 - [ ] 0.421 Shopify   2026  This is why we're intentional about talent.
 - [ ] 0.420 Shopify   2025  We default to the most important work rather than adhering to prescriptive roles – and we hire the same way.
+- [ ] 0.411 Amazon    2020  Leaders raise the performance bar with every hire and promotion.
 - [ ] 0.411 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
-- [ ] 0.411 Amazon    2017  Leaders raise the performance bar with every hire and promotion.
-- [ ] 0.391 Snap      2026  We believe in hiring the most talented team members and creating an environment where everyone belongs
 
 ## Team, not a family
 - [✓] 0.802 Netflix   2021  We model ourselves on being a team, not a family.
@@ -67,11 +67,11 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.511 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [ ] 0.511 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [ ] 0.505 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
-- [ ] 0.442 Amazon    2019  They recognize exceptional talent, and willingly move them throughout the organization.
 - [ ] 0.442 Amazon    2017  They recognize exceptional talent, and willingly move them throughout the organization.
+- [ ] 0.442 Amazon    2019  They recognize exceptional talent, and willingly move them throughout the organization.
+- [ ] 0.442 Amazon    2020  They recognize exceptional talent, and willingly move them throughout the organization.
 - [ ] 0.432 Stripe    2024  The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be
 - [ ] 0.432 Stripe    2025  The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be
-- [ ] 0.431 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
 
 ## Adequate → severance
 - [✓] 0.858 Coinbase  2026  Unremarkable performance gets a generous severance package.
@@ -88,13 +88,13 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.388 Shopify   2024  If you prefer a prescriptive corporate structure and an in-person office environment, that’s not us.
 
 ## Raise the bar
-- [✓] 0.666 Amazon    2017  Leaders raise the performance bar with every hire and promotion.
 - [✓] 0.666 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
+- [✓] 0.666 Amazon    2021  Leaders raise the performance bar with every hire and promotion.
+- [✓] 0.666 Amazon    2016  Leaders raise the performance bar with every hire and promotion.
 - [✓] 0.652 Stripe    2020  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.652 Stripe    2019  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.652 Stripe    2021  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.642 Shopify   2026  We raise the floor, while we constantly redefine the ceiling.
-- [✓] 0.634 Amazon    2019  Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes.
 - [✓] 0.626 Brex      2024  We take our results personally, and we deliver at the highest standards, with integrity, despite the odds.
 - [✓] 0.626 Brex      2021  We take our results personally, and we deliver at the highest standards, with integrity, despite the odds.
 - [ ] 0.601 Netflix   2026  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
@@ -147,9 +147,9 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.781 Netflix   2024  We expect managers to practice context not control — giving their teams the context and clarity needed to make good deci
 - [✓] 0.781 Netflix   2025  We expect managers to practice context not control — giving their teams the context and clarity needed to make good deci
 - [✓] 0.781 Netflix   2026  We expect managers to practice context not control — giving their teams the context and clarity needed to make good deci
+- [ ] 0.522 Amazon    2020  Leaders create and communicate a bold direction that inspires results.
 - [ ] 0.522 Amazon    2019  Leaders create and communicate a bold direction that inspires results.
-- [ ] 0.522 Amazon    2017  Leaders create and communicate a bold direction that inspires results.
-- [ ] 0.500 Amazon    2019  Leaders develop leaders and take seriously their role in coaching others.
+- [ ] 0.522 Amazon    2021  Leaders create and communicate a bold direction that inspires results.
 - [ ] 0.484 Stripe    2024  Effective leaders embrace decision-making in cases of murky ownership, either making the call themselves or collaboratin
 - [ ] 0.484 Stripe    2025  Effective leaders embrace decision-making in cases of murky ownership, either making the call themselves or collaboratin
 - [ ] 0.467 Stripe    2025  They clearly communicate decisions and hold themselves and their teams accountable for results.

@@ -1,8 +1,43 @@
 {
+  "2007": {
+    "stanceProjectionTopkMean": 0.0409,
+    "stanceProjectionMax": 0.0439,
+    "stanceProjectionMin": 0.0379,
+    "stanceMaxQuote": {
+      "text": "Why Join Amazon? Benefits Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce. Since Jeff Bezos started Amazon.com in 1995, we have significantly expanded our product offerings, international sites, and worldwide network of fulfillment and customer service centers. Today, Amazon.com offers ev",
+      "heading": "",
+      "register": NaN,
+      "stanceProjection": 0.0439,
+      "score": 0.0439
+    },
+    "stanceMinQuote": {
+      "text": "Why Join Amazon? Benefits Help How to Apply FAQ We make decisions as a company, and as individuals, based on our core values. Customer Obsession: We start with the customer and work backwards. Innovation: If you don't listen to your customers you will fail. But if you only listen to your customers you will also fail. Bias for Action: We live in a time of unheralded revolution and insurmountable op",
+      "heading": "",
+      "register": NaN,
+      "stanceProjection": 0.0379,
+      "score": 0.0379
+    },
+    "topQuotes": [
+      {
+        "text": "Why Join Amazon? Benefits Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce. Since Jeff Bezos started Amazon.com in 1995, we have significantly expanded our product offerings, international sites, and worldwide network of fulfillment and customer service centers. Today, Amazon.com offers ev",
+        "heading": "",
+        "register": NaN,
+        "stanceProjection": 0.0439,
+        "score": 0.0439
+      },
+      {
+        "text": "Why Join Amazon? Benefits Help How to Apply FAQ We make decisions as a company, and as individuals, based on our core values. Customer Obsession: We start with the customer and work backwards. Innovation: If you don't listen to your customers you will fail. But if you only listen to your customers you will also fail. Bias for Action: We live in a time of unheralded revolution and insurmountable op",
+        "heading": "",
+        "register": NaN,
+        "stanceProjection": 0.0379,
+        "score": 0.0379
+      }
+    ]
+  },
   "2008": {
-    "stanceProjectionTopkMean": 0.0915,
+    "stanceProjectionTopkMean": 0.0568,
     "stanceProjectionMax": 0.0915,
-    "stanceProjectionMin": 0.0915,
+    "stanceProjectionMin": 0.022,
     "stanceMaxQuote": {
       "text": "At Amazon, we believe that every day is still Day One. A day to take a first step. A day to look forward to new challenges. And today is that day for you. It’s your day to be a part of something great. Your day to make your ideas come to life. And your day to join a company that redefines itself every day. That’s the energy and excitement behind Amazon.",
       "heading": "",
@@ -11,11 +46,11 @@
       "score": 0.0915
     },
     "stanceMinQuote": {
-      "text": "At Amazon, we believe that every day is still Day One. A day to take a first step. A day to look forward to new challenges. And today is that day for you. It’s your day to be a part of something great. Your day to make your ideas come to life. And your day to join a company that redefines itself every day. That’s the energy and excitement behind Amazon.",
+      "text": "Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce. Since Jeff Bezos started Amazon.com in 1995, we have significantly expanded our product offerings, international sites, and worldwide network of fulfillment and customer service centers. Today, Amazon.com offers everything from books and el",
       "heading": "",
-      "register": "absent",
-      "stanceProjection": 0.0915,
-      "score": 0.0915
+      "register": NaN,
+      "stanceProjection": 0.022,
+      "score": 0.022
     },
     "topQuotes": [
       {
@@ -24,11 +59,18 @@
         "register": "absent",
         "stanceProjection": 0.0915,
         "score": 0.0915
+      },
+      {
+        "text": "Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce. Since Jeff Bezos started Amazon.com in 1995, we have significantly expanded our product offerings, international sites, and worldwide network of fulfillment and customer service centers. Today, Amazon.com offers everything from books and el",
+        "heading": "",
+        "register": NaN,
+        "stanceProjection": 0.022,
+        "score": 0.022
       }
     ]
   },
   "2011": {
-    "stanceProjectionTopkMean": 0.0272,
+    "stanceProjectionTopkMean": 0.0264,
     "stanceProjectionMax": 0.0379,
     "stanceProjectionMin": 0.0148,
     "stanceMaxQuote": {
@@ -54,46 +96,11 @@
         "score": 0.0379
       },
       {
-        "text": "The All-New Kindle Family: from $79 Build your future with Amazon! Random forests, naďve Bayesian estimators, RESTful services, gossip protocols, eventual consistency, data sharding, anti-entropy, Byzantine quorum, erasure coding, vector clocks ... walk into certain Amazon meetings, and you may momentarily think you've stumbled into a computer science lecture.-- Jeff Bezos, 2010 Shareholder letter",
-        "heading": "",
-        "register": "absent",
-        "stanceProjection": 0.0289,
-        "score": 0.0289
-      },
-      {
         "text": "Random forests, naďve Bayesian estimators, RESTful services, gossip protocols, eventual consistency, data sharding, anti-entropy, Byzantine quorum, erasure coding, vector clocks ... walk into certain Amazon meetings, and you may momentarily think you've stumbled into a computer science lecture.-- Jeff Bezos, 2010 Shareholder letter. Amazon... a place where builders can build. We hire the world's b",
         "heading": "Build your future with Amazon!",
         "register": "absent",
         "stanceProjection": 0.0148,
         "score": 0.0148
-      }
-    ]
-  },
-  "2012": {
-    "stanceProjectionTopkMean": 0.0278,
-    "stanceProjectionMax": 0.0278,
-    "stanceProjectionMin": 0.0278,
-    "stanceMaxQuote": {
-      "text": "Build your future with Amazon! Random forests, naďve Bayesian estimators, RESTful services, gossip protocols, eventual consistency, data sharding, anti-entropy, Byzantine quorum, erasure coding, vector clocks ... walk into certain Amazon meetings, and you may momentarily think you've stumbled into a computer science lecture.-- Jeff Bezos, 2010 Shareholder letter. Amazon... a place where builders c",
-      "heading": "",
-      "register": "absent",
-      "stanceProjection": 0.0278,
-      "score": 0.0278
-    },
-    "stanceMinQuote": {
-      "text": "Build your future with Amazon! Random forests, naďve Bayesian estimators, RESTful services, gossip protocols, eventual consistency, data sharding, anti-entropy, Byzantine quorum, erasure coding, vector clocks ... walk into certain Amazon meetings, and you may momentarily think you've stumbled into a computer science lecture.-- Jeff Bezos, 2010 Shareholder letter. Amazon... a place where builders c",
-      "heading": "",
-      "register": "absent",
-      "stanceProjection": 0.0278,
-      "score": 0.0278
-    },
-    "topQuotes": [
-      {
-        "text": "Build your future with Amazon! Random forests, naďve Bayesian estimators, RESTful services, gossip protocols, eventual consistency, data sharding, anti-entropy, Byzantine quorum, erasure coding, vector clocks ... walk into certain Amazon meetings, and you may momentarily think you've stumbled into a computer science lecture.-- Jeff Bezos, 2010 Shareholder letter. Amazon... a place where builders c",
-        "heading": "",
-        "register": "absent",
-        "stanceProjection": 0.0278,
-        "score": 0.0278
       }
     ]
   },
@@ -133,13 +140,13 @@
     ]
   },
   "2014": {
-    "stanceProjectionTopkMean": 0.0616,
+    "stanceProjectionTopkMean": 0.0679,
     "stanceProjectionMax": 0.0803,
     "stanceProjectionMin": 0.0429,
     "stanceMaxQuote": {
-      "text": "There are many things to consider when deciding on your next employer. At Amazon, we offer employees the chance to work with great people on...",
-      "heading": "Benefits and Stock",
-      "register": "absent",
+      "text": "The news is out—Amazon is ranked #3 on the 2014 Woman Engineer Magazine Readers' Choice top 50 employers for woman engineers!",
+      "heading": "The News Is Out",
+      "register": NaN,
       "stanceProjection": 0.0803,
       "score": 0.0803
     },
@@ -151,6 +158,13 @@
       "score": 0.0429
     },
     "topQuotes": [
+      {
+        "text": "The news is out—Amazon is ranked #3 on the 2014 Woman Engineer Magazine Readers' Choice top 50 employers for woman engineers!",
+        "heading": "The News Is Out",
+        "register": NaN,
+        "stanceProjection": 0.0803,
+        "score": 0.0803
+      },
       {
         "text": "There are many things to consider when deciding on your next employer. At Amazon, we offer employees the chance to work with great people on...",
         "heading": "Benefits and Stock",
@@ -168,43 +182,71 @@
     ]
   },
   "2016": {
-    "stanceProjectionTopkMean": 0.0053,
-    "stanceProjectionMax": 0.0053,
-    "stanceProjectionMin": 0.0053,
-    "stanceMaxQuote": {
-      "text": "We're a company of pioneers. It's our job to make bold bets, and we get our energy from inventing on behalf of customers. Success is measured against the possible, not the probable. For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
-      "heading": "we pioneer",
-      "register": "absent",
-      "stanceProjection": 0.0053,
-      "score": 0.0053
-    },
-    "stanceMinQuote": {
-      "text": "We're a company of pioneers. It's our job to make bold bets, and we get our energy from inventing on behalf of customers. Success is measured against the possible, not the probable. For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
-      "heading": "we pioneer",
-      "register": "absent",
-      "stanceProjection": 0.0053,
-      "score": 0.0053
-    },
-    "topQuotes": [
-      {
-        "text": "We're a company of pioneers. It's our job to make bold bets, and we get our energy from inventing on behalf of customers. Success is measured against the possible, not the probable. For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
-        "heading": "we pioneer",
-        "register": "absent",
-        "stanceProjection": 0.0053,
-        "score": 0.0053
-      }
-    ]
-  },
-  "2017": {
     "stanceProjectionTopkMean": 0.0817,
     "stanceProjectionMax": 0.2724,
     "stanceProjectionMin": -0.0947,
     "stanceMaxQuote": {
       "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
       "heading": "Diversity at Amazon",
-      "register": "aspirational_vague",
+      "register": NaN,
       "stanceProjection": 0.2724,
       "score": 0.2724
+    },
+    "stanceMinQuote": {
+      "text": "Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
+      "heading": "Insist on the Highest Standards",
+      "register": NaN,
+      "stanceProjection": -0.0947,
+      "score": -0.0947
+    },
+    "topQuotes": [
+      {
+        "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
+        "heading": "Diversity at Amazon",
+        "register": NaN,
+        "stanceProjection": 0.2724,
+        "score": 0.2724
+      },
+      {
+        "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
+        "heading": "Hire and Develop The Best",
+        "register": NaN,
+        "stanceProjection": 0.0815,
+        "score": 0.0815
+      },
+      {
+        "text": "Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them.",
+        "heading": "Learn and Be Curious",
+        "register": NaN,
+        "stanceProjection": 0.0343,
+        "score": 0.0343
+      },
+      {
+        "text": "When Amazon.com launched in 1995, it was with the mission “to be Earth’s most customer-centric company, where customers can find and discover anything they might want to buy online, and endeavors to offer its customers the lowest possible prices.” This goal continues today, but Amazon’s customers are worldwide now, and have grown to include millions of Consumers, Sellers, Content Creators, and Dev",
+        "heading": "Earth's most customer-centric company",
+        "register": NaN,
+        "stanceProjection": 0.0138,
+        "score": 0.0138
+      },
+      {
+        "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here\". As we do new things, we accept that we may be misunderstood for long periods of time.",
+        "heading": "Invent and Simplify",
+        "register": NaN,
+        "stanceProjection": 0.0066,
+        "score": 0.0066
+      }
+    ]
+  },
+  "2017": {
+    "stanceProjectionTopkMean": 0.2541,
+    "stanceProjectionMax": 0.2948,
+    "stanceProjectionMin": -0.0947,
+    "stanceMaxQuote": {
+      "text": "Our Affinity Groups bring people together across businesses and geographies. They also provide critical inputs and insights about where the company should focus its diversity efforts. With executive and company sponsorship, our Affinity Groups play an important role in building internal networks for career development and in reaching out to communities outside the company.",
+      "heading": "Building Community",
+      "register": NaN,
+      "stanceProjection": 0.2948,
+      "score": 0.2948
     },
     "stanceMinQuote": {
       "text": "Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
@@ -215,6 +257,13 @@
     },
     "topQuotes": [
       {
+        "text": "Our Affinity Groups bring people together across businesses and geographies. They also provide critical inputs and insights about where the company should focus its diversity efforts. With executive and company sponsorship, our Affinity Groups play an important role in building internal networks for career development and in reaching out to communities outside the company.",
+        "heading": "Building Community",
+        "register": NaN,
+        "stanceProjection": 0.2948,
+        "score": 0.2948
+      },
+      {
         "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
         "heading": "Diversity at Amazon",
         "register": "aspirational_vague",
@@ -222,90 +271,125 @@
         "score": 0.2724
       },
       {
+        "text": "Amazon has hundreds of millions of customers who benefit from diversity of thought. We are a company of builders who bring varying backgrounds, ideas, and points of view to decisions and inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, disability, culture, education, as well as professional and l",
+        "heading": "Diversity of thought",
+        "register": NaN,
+        "stanceProjection": 0.2445,
+        "score": 0.2445
+      },
+      {
+        "text": "Asians@Amazon provides a network across Asian communities. The group provides a support structure for Asian employees and promotes diversity within Amazon. The group helps recruit, onboard, and connect Asian employees across geographies by sharing experiences and providing access to career development, networking, and community-building opportunities. They also host local community and recruiting ",
+        "heading": "Amazon",
+        "register": NaN,
+        "stanceProjection": 0.2373,
+        "score": 0.2373
+      },
+      {
+        "text": "Our Affinity Groups have extended their reach into our local communities. For example, the Black Employee Network (BEN) and Latinos@Amazon support Rainier Scholars, a non-profit dedicated to cultivating and supporting the academic potential of students of color, by hosting workplace receptions, attending academic enrichment program tours, and sending care packages to college level Rainier Scholars",
+        "heading": "Community outreach",
+        "register": NaN,
+        "stanceProjection": 0.2213,
+        "score": 0.2213
+      }
+    ]
+  },
+  "2018": {
+    "stanceProjectionTopkMean": 0.2541,
+    "stanceProjectionMax": 0.2948,
+    "stanceProjectionMin": -0.0947,
+    "stanceMaxQuote": {
+      "text": "Our Affinity Groups bring people together across businesses and geographies. They also provide critical inputs and insights about where the company should focus its diversity efforts. With executive and company sponsorship, our Affinity Groups play an important role in building internal networks for career development and in reaching out to communities outside the company.",
+      "heading": "Building Community",
+      "register": NaN,
+      "stanceProjection": 0.2948,
+      "score": 0.2948
+    },
+    "stanceMinQuote": {
+      "text": "Leaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
+      "heading": "Insist on the Highest Standards",
+      "register": NaN,
+      "stanceProjection": -0.0947,
+      "score": -0.0947
+    },
+    "topQuotes": [
+      {
+        "text": "Our Affinity Groups bring people together across businesses and geographies. They also provide critical inputs and insights about where the company should focus its diversity efforts. With executive and company sponsorship, our Affinity Groups play an important role in building internal networks for career development and in reaching out to communities outside the company.",
+        "heading": "Building Community",
+        "register": NaN,
+        "stanceProjection": 0.2948,
+        "score": 0.2948
+      },
+      {
+        "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
+        "heading": "Diversity at Amazon",
+        "register": NaN,
+        "stanceProjection": 0.2724,
+        "score": 0.2724
+      },
+      {
+        "text": "Amazon has hundreds of millions of customers who benefit from diversity of thought. We are a company of builders who bring varying backgrounds, ideas, and points of view to decisions and inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, disability, culture, education, as well as professional and l",
+        "heading": "Diversity of thought",
+        "register": NaN,
+        "stanceProjection": 0.2445,
+        "score": 0.2445
+      },
+      {
+        "text": "Asians@Amazon provides a network across Asian communities. The group provides a support structure for Asian employees and promotes diversity within Amazon. The group helps recruit, onboard, and connect Asian employees across geographies by sharing experiences and providing access to career development, networking, and community-building opportunities. They also host local community and recruiting ",
+        "heading": "Amazon",
+        "register": NaN,
+        "stanceProjection": 0.2373,
+        "score": 0.2373
+      },
+      {
+        "text": "Our Affinity Groups have extended their reach into our local communities. For example, the Black Employee Network (BEN) and Latinos@Amazon support Rainier Scholars, a non-profit dedicated to cultivating and supporting the academic potential of students of color, by hosting workplace receptions, attending academic enrichment program tours, and sending care packages to college level Rainier Scholars",
+        "heading": "Community outreach",
+        "register": NaN,
+        "stanceProjection": 0.2213,
+        "score": 0.2213
+      }
+    ]
+  },
+  "2019": {
+    "stanceProjectionTopkMean": 0.0833,
+    "stanceProjectionMax": 0.2724,
+    "stanceProjectionMin": -0.1008,
+    "stanceMaxQuote": {
+      "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
+      "heading": "Our pioneers",
+      "register": NaN,
+      "stanceProjection": 0.2724,
+      "score": 0.2724
+    },
+    "stanceMinQuote": {
+      "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
+      "heading": "Insist on the Highest Standards",
+      "register": NaN,
+      "stanceProjection": -0.1008,
+      "score": -0.1008
+    },
+    "topQuotes": [
+      {
+        "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
+        "heading": "Our pioneers",
+        "register": NaN,
+        "stanceProjection": 0.2724,
+        "score": 0.2724
+      },
+      {
         "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
         "heading": "Hire and Develop the Best",
-        "register": "absent",
+        "register": NaN,
         "stanceProjection": 0.0815,
         "score": 0.0815
       },
       {
         "text": "Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them.",
         "heading": "Learn and Be Curious",
-        "register": "absent",
+        "register": NaN,
         "stanceProjection": 0.0343,
         "score": 0.0343
       },
       {
-        "text": "When Amazon.com launched in 1995, it was with the mission “to be Earth’s most customer-centric company, where customers can find and discover anything they might want to buy online, and endeavors to offer its customers the lowest possible prices.” This goal continues today, but Amazon’s customers are worldwide now, and have grown to include millions of Consumers, Sellers, Content Creators, and Dev",
-        "heading": "Earth's most customer-centric company",
-        "register": "absent",
-        "stanceProjection": 0.0138,
-        "score": 0.0138
-      },
-      {
-        "text": "Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here\". As we do new things, we accept that we may be misunderstood for long periods of time.",
-        "heading": "Invent and Simplify",
-        "register": "absent",
-        "stanceProjection": 0.0066,
-        "score": 0.0066
-      }
-    ]
-  },
-  "2018": {
-    "stanceProjectionTopkMean": 0.018,
-    "stanceProjectionMax": 0.0308,
-    "stanceProjectionMin": 0.0053,
-    "stanceMaxQuote": {
-      "text": "Amazon introduced the first Kindle in 2007 - at that time, it offered 90,000 eBooks and sold out 5.5 hours after the announcement. Since then, we have expanded to create the best-selling e-reader family in the world. We have gone beyond Kindle with our powerhouse Fire tablets, built for work...",
-      "heading": "Amazon Devices",
-      "register": "absent",
-      "stanceProjection": 0.0308,
-      "score": 0.0308
-    },
-    "stanceMinQuote": {
-      "text": "We're a company of pioneers. It's our job to make bold bets, and we get our energy from inventing on behalf of customers. Success is measured against the possible, not the probable. For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
-      "heading": "we pioneer",
-      "register": "absent",
-      "stanceProjection": 0.0053,
-      "score": 0.0053
-    },
-    "topQuotes": [
-      {
-        "text": "Amazon introduced the first Kindle in 2007 - at that time, it offered 90,000 eBooks and sold out 5.5 hours after the announcement. Since then, we have expanded to create the best-selling e-reader family in the world. We have gone beyond Kindle with our powerhouse Fire tablets, built for work...",
-        "heading": "Amazon Devices",
-        "register": "absent",
-        "stanceProjection": 0.0308,
-        "score": 0.0308
-      },
-      {
-        "text": "We're a company of pioneers. It's our job to make bold bets, and we get our energy from inventing on behalf of customers. Success is measured against the possible, not the probable. For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
-        "heading": "we pioneer",
-        "register": "absent",
-        "stanceProjection": 0.0053,
-        "score": 0.0053
-      }
-    ]
-  },
-  "2019": {
-    "stanceProjectionTopkMean": 0.0099,
-    "stanceProjectionMax": 0.0145,
-    "stanceProjectionMin": 0.0053,
-    "stanceMaxQuote": {
-      "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
-      "heading": "Come build the future with us",
-      "register": "absent",
-      "stanceProjection": 0.0145,
-      "score": 0.0145
-    },
-    "stanceMinQuote": {
-      "text": "We're a company of pioneers. It's our job to make bold bets, and we get our energy from inventing on behalf of customers. Success is measured against the possible, not the probable. For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
-      "heading": "we pioneer",
-      "register": "absent",
-      "stanceProjection": 0.0053,
-      "score": 0.0053
-    },
-    "topQuotes": [
-      {
         "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
         "heading": "Come build the future with us",
         "register": "absent",
@@ -313,67 +397,123 @@
         "score": 0.0145
       },
       {
-        "text": "We're a company of pioneers. It's our job to make bold bets, and we get our energy from inventing on behalf of customers. Success is measured against the possible, not the probable. For today’s pioneers, that’s exactly why there’s no place on Earth they’d rather build than Amazon.",
-        "heading": "we pioneer",
-        "register": "absent",
-        "stanceProjection": 0.0053,
-        "score": 0.0053
+        "text": "When Amazon.com launched in 1995, it was with the mission “to be Earth’s most customer-centric company, where customers can find and discover anything they might want to buy online, and endeavors to offer its customers the lowest possible prices.” This goal continues today, but Amazon’s customers are worldwide now, and have grown to include millions of Consumers, Sellers, Content Creators, and Dev",
+        "heading": "Earth's most customer-centric company",
+        "register": NaN,
+        "stanceProjection": 0.0138,
+        "score": 0.0138
       }
     ]
   },
   "2020": {
-    "stanceProjectionTopkMean": 0.0145,
-    "stanceProjectionMax": 0.0145,
-    "stanceProjectionMin": 0.0145,
+    "stanceProjectionTopkMean": 0.0833,
+    "stanceProjectionMax": 0.2724,
+    "stanceProjectionMin": -0.1008,
     "stanceMaxQuote": {
-      "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
-      "heading": "Come build the future with us",
-      "register": "absent",
-      "stanceProjection": 0.0145,
-      "score": 0.0145
+      "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
+      "heading": "Our pioneers",
+      "register": NaN,
+      "stanceProjection": 0.2724,
+      "score": 0.2724
     },
     "stanceMinQuote": {
-      "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
-      "heading": "Come build the future with us",
-      "register": "absent",
-      "stanceProjection": 0.0145,
-      "score": 0.0145
+      "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
+      "heading": "Insist on the Highest Standards",
+      "register": NaN,
+      "stanceProjection": -0.1008,
+      "score": -0.1008
     },
     "topQuotes": [
+      {
+        "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
+        "heading": "Our pioneers",
+        "register": NaN,
+        "stanceProjection": 0.2724,
+        "score": 0.2724
+      },
+      {
+        "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
+        "heading": "Hire and Develop the Best",
+        "register": NaN,
+        "stanceProjection": 0.0815,
+        "score": 0.0815
+      },
+      {
+        "text": "Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them.",
+        "heading": "Learn and Be Curious",
+        "register": NaN,
+        "stanceProjection": 0.0343,
+        "score": 0.0343
+      },
       {
         "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
         "heading": "Come build the future with us",
         "register": "absent",
         "stanceProjection": 0.0145,
         "score": 0.0145
+      },
+      {
+        "text": "When Amazon.com launched in 1995, it was with the mission “to be Earth’s most customer-centric company, where customers can find and discover anything they might want to buy online, and endeavors to offer its customers the lowest possible prices.” This goal continues today, but Amazon’s customers are worldwide now, and have grown to include millions of Consumers, Sellers, Content Creators, and Dev",
+        "heading": "Earth's most customer-centric company",
+        "register": NaN,
+        "stanceProjection": 0.0138,
+        "score": 0.0138
       }
     ]
   },
   "2021": {
-    "stanceProjectionTopkMean": 0.0145,
-    "stanceProjectionMax": 0.0145,
-    "stanceProjectionMin": 0.0145,
+    "stanceProjectionTopkMean": 0.0833,
+    "stanceProjectionMax": 0.2724,
+    "stanceProjectionMin": -0.1008,
     "stanceMaxQuote": {
-      "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
-      "heading": "Come build the future with us",
-      "register": "absent",
-      "stanceProjection": 0.0145,
-      "score": 0.0145
+      "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
+      "heading": "Our pioneers",
+      "register": NaN,
+      "stanceProjection": 0.2724,
+      "score": 0.2724
     },
     "stanceMinQuote": {
-      "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
-      "heading": "Come build the future with us",
-      "register": "absent",
-      "stanceProjection": 0.0145,
-      "score": 0.0145
+      "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.",
+      "heading": "Insist on the Highest Standards",
+      "register": NaN,
+      "stanceProjection": -0.1008,
+      "score": -0.1008
     },
     "topQuotes": [
+      {
+        "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
+        "heading": "Our pioneers",
+        "register": NaN,
+        "stanceProjection": 0.2724,
+        "score": 0.2724
+      },
+      {
+        "text": "Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.",
+        "heading": "Hire and Develop the Best",
+        "register": NaN,
+        "stanceProjection": 0.0815,
+        "score": 0.0815
+      },
+      {
+        "text": "Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them.",
+        "heading": "Learn and Be Curious",
+        "register": NaN,
+        "stanceProjection": 0.0343,
+        "score": 0.0343
+      },
       {
         "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
         "heading": "Come build the future with us",
         "register": "absent",
         "stanceProjection": 0.0145,
         "score": 0.0145
+      },
+      {
+        "text": "When Amazon.com launched in 1995, it was with the mission “to be Earth’s most customer-centric company, where customers can find and discover anything they might want to buy online, and endeavors to offer its customers the lowest possible prices.” This goal continues today, but Amazon’s customers are worldwide now, and have grown to include millions of Consumers, Sellers, Content Creators, and Dev",
+        "heading": "Earth's most customer-centric company",
+        "register": NaN,
+        "stanceProjection": 0.0138,
+        "score": 0.0138
       }
     ]
   },
@@ -406,15 +546,15 @@
     ]
   },
   "2023": {
-    "stanceProjectionTopkMean": 0.0145,
-    "stanceProjectionMax": 0.0145,
+    "stanceProjectionTopkMean": 0.1088,
+    "stanceProjectionMax": 0.1598,
     "stanceProjectionMin": 0.0145,
     "stanceMaxQuote": {
-      "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
-      "heading": "Come build the future with us",
-      "register": "absent",
-      "stanceProjection": 0.0145,
-      "score": 0.0145
+      "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average starting pay of $19 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
+      "heading": "Our Workplace",
+      "register": NaN,
+      "stanceProjection": 0.1598,
+      "score": 0.1598
     },
     "stanceMinQuote": {
       "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
@@ -424,6 +564,20 @@
       "score": 0.0145
     },
     "topQuotes": [
+      {
+        "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average starting pay of $19 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
+        "heading": "Our Workplace",
+        "register": NaN,
+        "stanceProjection": 0.1598,
+        "score": 0.1598
+      },
+      {
+        "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average starting pay of $18 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
+        "heading": "Our Workplace",
+        "register": NaN,
+        "stanceProjection": 0.1521,
+        "score": 0.1521
+      },
       {
         "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
         "heading": "Come build the future with us",
@@ -434,15 +588,15 @@
     ]
   },
   "2024": {
-    "stanceProjectionTopkMean": 0.0145,
-    "stanceProjectionMax": 0.0145,
+    "stanceProjectionTopkMean": 0.0898,
+    "stanceProjectionMax": 0.1651,
     "stanceProjectionMin": 0.0145,
     "stanceMaxQuote": {
-      "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
-      "heading": "Come build the future with us",
-      "register": "absent",
-      "stanceProjection": 0.0145,
-      "score": 0.0145
+      "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average wage of over $20.50 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
+      "heading": "Our Workplace",
+      "register": NaN,
+      "stanceProjection": 0.1651,
+      "score": 0.1651
     },
     "stanceMinQuote": {
       "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
@@ -452,6 +606,13 @@
       "score": 0.0145
     },
     "topQuotes": [
+      {
+        "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average wage of over $20.50 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
+        "heading": "Our Workplace",
+        "register": NaN,
+        "stanceProjection": 0.1651,
+        "score": 0.1651
+      },
       {
         "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
         "heading": "Come build the future with us",
@@ -462,15 +623,15 @@
     ]
   },
   "2025": {
-    "stanceProjectionTopkMean": 0.0145,
-    "stanceProjectionMax": 0.0145,
+    "stanceProjectionTopkMean": 0.1452,
+    "stanceProjectionMax": 0.2432,
     "stanceProjectionMin": 0.0145,
     "stanceMaxQuote": {
-      "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
-      "heading": "Come build the future with us",
-      "register": "absent",
-      "stanceProjection": 0.0145,
-      "score": 0.0145
+      "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Read more Upskilling Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Read more Inclusive experiences and technology Inclusive experiences and technology We’re in this together—reaching across culture",
+      "heading": "",
+      "register": NaN,
+      "stanceProjection": 0.2432,
+      "score": 0.2432
     },
     "stanceMinQuote": {
       "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
@@ -481,6 +642,34 @@
     },
     "topQuotes": [
       {
+        "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Read more Upskilling Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Read more Inclusive experiences and technology Inclusive experiences and technology We’re in this together—reaching across culture",
+        "heading": "",
+        "register": NaN,
+        "stanceProjection": 0.2432,
+        "score": 0.2432
+      },
+      {
+        "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Upskilling Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Inclusive experiences and technology Inclusive experiences and technology We’re in this together—reaching across cultures—creating global te",
+        "heading": "",
+        "register": NaN,
+        "stanceProjection": 0.2186,
+        "score": 0.2186
+      },
+      {
+        "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Read more Employee Benefits Amazon is proud of our ability to create great jobs with great benefits for all employees. Read more Inclusive Experiences and Technology We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways. Read mo",
+        "heading": "",
+        "register": NaN,
+        "stanceProjection": 0.1738,
+        "score": 0.1738
+      },
+      {
+        "text": "Amazon is increasing the average total compensation package for fulfillment and transportation employees in the U.S. to over $29 per hour.",
+        "heading": "Amazon increases wages, adds new benefits for hourly US employees",
+        "register": NaN,
+        "stanceProjection": 0.0759,
+        "score": 0.0759
+      },
+      {
         "text": "Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.",
         "heading": "Come build the future with us",
         "register": "absent",
@@ -490,7 +679,7 @@
     ]
   },
   "2026": {
-    "stanceProjectionTopkMean": 0.1909,
+    "stanceProjectionTopkMean": 0.2317,
     "stanceProjectionMax": 0.4101,
     "stanceProjectionMin": -0.0214,
     "stanceMaxQuote": {
@@ -523,25 +712,25 @@
         "score": 0.2172
       },
       {
+        "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Inclusive experiences and technology We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and",
+        "heading": "",
+        "register": NaN,
+        "stanceProjection": 0.2004,
+        "score": 0.2004
+      },
+      {
+        "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees. Upskilling We are making two big investments to help make that happen: investing in employees and providing free skills training opportunities to the public. Together initiatives We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways. ",
+        "heading": "Working at Amazon",
+        "register": NaN,
+        "stanceProjection": 0.1905,
+        "score": 0.1905
+      },
+      {
         "text": "The annual ranking recognizes Amazon's investment in career growth, education access, and local communities—backed by a $2.5 billion skills training commitment.",
         "heading": "LinkedIn names Amazon a top US company where people want to work",
         "register": "absent",
         "stanceProjection": 0.1401,
         "score": 0.1401
-      },
-      {
-        "text": "Amazon has reduced workplace injury rates by 43% since 2019, reflecting our continued focus on safety excellence.",
-        "heading": "Amazon delivers another strong year of safety progress, making our workplaces even safer for our employees",
-        "register": "absent",
-        "stanceProjection": 0.1045,
-        "score": 0.1045
-      },
-      {
-        "text": "Every Amazonian, from warehouse floor to corporate HQ, shares a drive to impact the future, today. Our unmatched scale offers every employee endless opportunities to reimagine how customers shop, stream, eat, connect and live. United by our peculiar culture of curiosity, bold ownership and fearless initiative, we channel our customer obsession into making everyday impact—big and small.",
-        "heading": "Impact the future, today",
-        "register": "absent",
-        "stanceProjection": 0.0828,
-        "score": 0.0828
       }
     ]
   }

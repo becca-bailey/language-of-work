@@ -289,181 +289,213 @@
           "displayName": "Amazon",
           "years": [
             {
+              "year": 2007,
+              "zscore": -0.3604,
+              "topkMean": 0.0889,
+              "controlZscore": 1.1012,
+              "nChunks": 26,
+              "thin": false
+            },
+            {
               "year": 2008,
-              "zscore": 0.62,
+              "zscore": 0.5872,
               "topkMean": 0.1458,
-              "controlZscore": 0.9259,
+              "controlZscore": 0.773,
               "nChunks": 8,
               "thin": false
             },
             {
               "year": 2011,
-              "zscore": 1.1003,
+              "zscore": 1.069,
               "topkMean": 0.1747,
-              "controlZscore": -0.5461,
+              "controlZscore": -0.7158,
               "nChunks": 18,
               "thin": false
             },
             {
               "year": 2013,
-              "zscore": 1.4807,
+              "zscore": 1.4507,
               "topkMean": 0.1977,
-              "controlZscore": 1.6626,
+              "controlZscore": 1.5181,
               "nChunks": 24,
               "thin": false
             },
             {
               "year": 2014,
-              "zscore": -1.0349,
+              "zscore": -1.0729,
               "topkMean": 0.0461,
-              "controlZscore": -0.2386,
+              "controlZscore": -0.4048,
               "nChunks": 3,
               "thin": true
             },
             {
               "year": 2016,
-              "zscore": -0.4378,
-              "topkMean": 0.0821,
-              "controlZscore": -1.2496,
-              "nChunks": 3,
-              "thin": true
+              "zscore": 0.0079,
+              "topkMean": 0.111,
+              "controlZscore": 1.2544,
+              "nChunks": 45,
+              "thin": false
             },
             {
               "year": 2017,
-              "zscore": 0.0389,
-              "topkMean": 0.1108,
-              "controlZscore": 1.4019,
-              "nChunks": 42,
+              "zscore": 1.3091,
+              "topkMean": 0.1892,
+              "controlZscore": 1.449,
+              "nChunks": 131,
               "thin": false
             },
             {
               "year": 2018,
-              "zscore": -0.7547,
+              "zscore": -0.7918,
               "topkMean": 0.063,
-              "controlZscore": -0.4249,
+              "controlZscore": -0.5932,
               "nChunks": 6,
               "thin": false
             },
             {
               "year": 2019,
-              "zscore": -1.7034,
+              "zscore": -1.7436,
               "topkMean": 0.0058,
-              "controlZscore": -1.0337,
+              "controlZscore": -1.2089,
               "nChunks": 4,
               "thin": true
             },
             {
+              "year": 2020,
+              "zscore": -1.091,
+              "topkMean": 0.045,
+              "controlZscore": -1.1542,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2023,
+              "zscore": -0.7602,
+              "topkMean": 0.0649,
+              "controlZscore": -0.5502,
+              "nChunks": 11,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "zscore": 0.7378,
+              "topkMean": 0.1549,
+              "controlZscore": -0.8021,
+              "nChunks": 19,
+              "thin": false
+            },
+            {
               "year": 2026,
-              "zscore": 0.6908,
+              "zscore": 0.6583,
               "topkMean": 0.1501,
-              "controlZscore": -0.4974,
+              "controlZscore": -0.6666,
               "nChunks": 21,
               "thin": false
             }
           ],
           "worldChanging": [
             {
+              "year": 2007,
+              "zscore": -1.4771,
+              "topkMean": 0.0585,
+              "nChunks": 10,
+              "thin": false,
+              "control": 1.1012,
+              "quote": "Bias for Action: We live in a time of unheralded revolution and insurmountable opportunity--provided we make every minute count."
+            },
+            {
               "year": 2008,
-              "zscore": 1.3437,
+              "zscore": 0.5419,
               "topkMean": 0.1458,
               "nChunks": 6,
               "thin": false,
-              "control": 0.9259,
+              "control": 0.773,
               "quote": "It’s your day to be a part of something great."
             },
             {
               "year": 2011,
-              "zscore": 2.318,
+              "zscore": 1.1485,
               "topkMean": 0.1721,
               "nChunks": 6,
               "thin": false,
-              "control": -0.5461,
-              "quote": "We're making history and the good news is that we've only just begun."
-            },
-            {
-              "year": 2012,
-              "zscore": 0.9653,
-              "topkMean": 0.1356,
-              "nChunks": 3,
-              "thin": true,
-              "control": null,
+              "control": -0.7158,
               "quote": "We're making history and the good news is that we've only just begun."
             },
             {
               "year": 2013,
-              "zscore": 1.5492,
+              "zscore": 0.6699,
               "topkMean": 0.1513,
               "nChunks": 11,
               "thin": false,
-              "control": 1.6626,
+              "control": 1.5181,
               "quote": "Join us, and you’ll not only see the future, you’ll create it."
             },
             {
               "year": 2014,
-              "zscore": -1.7076,
+              "zscore": -1.3582,
               "topkMean": 0.0636,
               "nChunks": 2,
               "thin": true,
-              "control": -0.2386,
+              "control": -0.4048,
               "quote": "Play the amazon.jobs game, and guess what words really inspire us every day."
             },
             {
               "year": 2016,
-              "zscore": -0.7313,
-              "topkMean": 0.0899,
-              "nChunks": 1,
-              "thin": true,
-              "control": -1.2496,
-              "quote": "Success is measured against the possible, not the probable."
-            },
-            {
-              "year": 2017,
-              "zscore": 0.0521,
+              "zscore": -0.2624,
               "topkMean": 0.111,
               "nChunks": 36,
               "thin": false,
-              "control": 1.4019,
+              "control": 1.2544,
               "quote": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers."
             },
             {
+              "year": 2017,
+              "zscore": 1.5441,
+              "topkMean": 0.1892,
+              "nChunks": 137,
+              "thin": false,
+              "control": 1.449,
+              "quote": "The \"Black to the Future\" event brought together community members, developers, designers, data scientists, and local officials to imagine and build a more perfect future."
+            },
+            {
               "year": 2018,
-              "zscore": -0.7313,
-              "topkMean": 0.0899,
-              "nChunks": 1,
-              "thin": true,
-              "control": -0.4249,
-              "quote": "Success is measured against the possible, not the probable."
+              "zscore": 1.5441,
+              "topkMean": 0.1892,
+              "nChunks": 139,
+              "thin": false,
+              "control": -0.5932,
+              "quote": "The \"Black to the Future\" event brought together community members, developers, designers, data scientists, and local officials to imagine and build a more perfect future."
             },
             {
               "year": 2019,
-              "zscore": -0.5402,
-              "topkMean": 0.0951,
-              "nChunks": 3,
-              "thin": true,
-              "control": -1.0337,
-              "quote": "Our mission is to be Earth's most customer-centric company."
+              "zscore": -0.21,
+              "topkMean": 0.1133,
+              "nChunks": 37,
+              "thin": false,
+              "control": -1.2089,
+              "quote": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers."
             },
             {
               "year": 2020,
-              "zscore": -0.4447,
-              "topkMean": 0.0976,
-              "nChunks": 2,
-              "thin": true,
-              "control": null,
-              "quote": "Our mission is to be Earth's most customer-centric company."
+              "zscore": -0.215,
+              "topkMean": 0.1131,
+              "nChunks": 37,
+              "thin": false,
+              "control": -1.1542,
+              "quote": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers."
             },
             {
               "year": 2021,
-              "zscore": -0.4447,
-              "topkMean": 0.0976,
-              "nChunks": 2,
-              "thin": true,
+              "zscore": -0.215,
+              "topkMean": 0.1131,
+              "nChunks": 36,
+              "thin": false,
               "control": null,
-              "quote": "Our mission is to be Earth's most customer-centric company."
+              "quote": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers."
             },
             {
               "year": 2022,
-              "zscore": -0.4447,
+              "zscore": -0.5718,
               "topkMean": 0.0976,
               "nChunks": 2,
               "thin": true,
@@ -472,39 +504,39 @@
             },
             {
               "year": 2023,
-              "zscore": -0.4447,
-              "topkMean": 0.0976,
-              "nChunks": 2,
-              "thin": true,
-              "control": null,
+              "zscore": -1.0339,
+              "topkMean": 0.0776,
+              "nChunks": 8,
+              "thin": false,
+              "control": -0.5502,
               "quote": "Our mission is to be Earth's most customer-centric company."
             },
             {
               "year": 2024,
-              "zscore": -0.4447,
-              "topkMean": 0.0976,
-              "nChunks": 2,
-              "thin": true,
+              "zscore": -1.4881,
+              "topkMean": 0.058,
+              "nChunks": 6,
+              "thin": false,
               "control": null,
               "quote": "Our mission is to be Earth's most customer-centric company."
             },
             {
               "year": 2025,
-              "zscore": -0.4447,
-              "topkMean": 0.0976,
-              "nChunks": 2,
-              "thin": true,
-              "control": null,
-              "quote": "Our mission is to be Earth's most customer-centric company."
+              "zscore": 0.2604,
+              "topkMean": 0.1336,
+              "nChunks": 15,
+              "thin": false,
+              "control": -0.8021,
+              "quote": "Read more Inclusive Experiences and Technology We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways."
             },
             {
               "year": 2026,
-              "zscore": 0.1504,
-              "topkMean": 0.1137,
-              "nChunks": 12,
+              "zscore": 1.1226,
+              "topkMean": 0.1709,
+              "nChunks": 18,
               "thin": false,
-              "control": -0.4974,
-              "quote": "Every Amazonian, from warehouse floor to corporate HQ, shares a drive to impact the future, today."
+              "control": -0.6666,
+              "quote": "Together initiatives We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways."
             }
           ]
         },
@@ -2221,14 +2253,14 @@
       "company": "amazon",
       "displayName": "Amazon",
       "peakYear": 2013,
-      "peakZscore": 1.4807,
+      "peakZscore": 1.4507,
       "peakQuote": {
         "text": "The most radical and transformative of inventions are often those that empower others to unleash their creativity — to pursue their dreams.",
         "heading": "",
         "score": 0.2663
       },
       "latestYear": 2026,
-      "latestZscore": 0.6908,
+      "latestZscore": 0.6583,
       "latestQuote": {
         "text": "Together initiatives We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways.",
         "heading": "Working at Amazon",
@@ -2409,6 +2441,15 @@
       "zscore": 0.7323
     },
     {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2007,
+      "text": "Bias for Action: We live in a time of unheralded revolution and insurmountable opportunity--provided we make every minute count.",
+      "heading": "",
+      "score": 0.1938,
+      "zscore": -0.3604
+    },
+    {
       "company": "google",
       "displayName": "Google",
       "year": 2007,
@@ -2424,7 +2465,7 @@
       "text": "It’s your day to be a part of something great.",
       "heading": "",
       "score": 0.2083,
-      "zscore": 0.62
+      "zscore": 0.5872
     },
     {
       "company": "google",
@@ -2487,7 +2528,7 @@
       "text": "We're making history and the good news is that we've only just begun.",
       "heading": "Build your future with Amazon!",
       "score": 0.2306,
-      "zscore": 1.1003
+      "zscore": 1.069
     },
     {
       "company": "google",
@@ -2568,7 +2609,7 @@
       "text": "The most radical and transformative of inventions are often those that empower others to unleash their creativity — to pursue their dreams.",
       "heading": "",
       "score": 0.2663,
-      "zscore": 1.4807
+      "zscore": 1.4507
     },
     {
       "company": "coinbase",
@@ -2622,7 +2663,7 @@
       "text": "Play the amazon.jobs game, and guess what words really inspire us every day.",
       "heading": "Amazon.jobs-play the game!",
       "score": 0.0653,
-      "zscore": -1.0349
+      "zscore": -1.0729
     },
     {
       "company": "coinbase",
@@ -2736,10 +2777,10 @@
       "company": "amazon",
       "displayName": "Amazon",
       "year": 2016,
-      "text": "Success is measured against the possible, not the probable.",
-      "heading": "we pioneer",
-      "score": 0.0899,
-      "zscore": -0.4378
+      "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers.",
+      "heading": "Diversity at Amazon",
+      "score": 0.1255,
+      "zscore": 0.0079
     },
     {
       "company": "google",
@@ -2790,10 +2831,10 @@
       "company": "amazon",
       "displayName": "Amazon",
       "year": 2017,
-      "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers.",
-      "heading": "Diversity at Amazon",
-      "score": 0.1255,
-      "zscore": 0.0389
+      "text": "The \"Black to the Future\" event brought together community members, developers, designers, data scientists, and local officials to imagine and build a more perfect future.",
+      "heading": "Hacking a better future",
+      "score": 0.2613,
+      "zscore": 1.3091
     },
     {
       "company": "coinbase",
@@ -2865,7 +2906,7 @@
       "text": "Wir verstehen es als unsere Aufgabe, die Zukunft für unsere Kunden voranzutreiben, und daraus schöpfen wir unsere Energie.",
       "heading": "we pioneer",
       "score": 0.0878,
-      "zscore": -0.7547
+      "zscore": -0.7918
     },
     {
       "company": "coinbase",
@@ -2937,7 +2978,7 @@
       "text": "Our mission is to be Earth's most customer-centric company.",
       "heading": "Come build the future with us",
       "score": 0.1154,
-      "zscore": -1.7034
+      "zscore": -1.7436
     },
     {
       "company": "brex",
@@ -2992,6 +3033,15 @@
       "heading": "Live your best life",
       "score": 0.159,
       "zscore": -0.3675
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2020,
+      "text": "Lo que nos une como Amazonians en diferentes equipos de trabajo y geografías, es que todos nos esforzamos para satisfacer a nuestros clientes y hacer sus vidas más fáciles, un producto innovador, servicio y una idea a la vez.",
+      "heading": "Ven y construye el futuro con nosotros",
+      "score": 0.045,
+      "zscore": -1.091
     },
     {
       "company": "coinbase",
@@ -3129,6 +3179,15 @@
       "zscore": -0.0339
     },
     {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2023,
+      "text": "Learn more Amazon Fulfillment Center Tours We’ve paused in-person tours during the COVID-19 pandemic.",
+      "heading": "Our Workplace",
+      "score": 0.0841,
+      "zscore": -0.7602
+    },
+    {
       "company": "brex",
       "displayName": "Brex",
       "year": 2023,
@@ -3228,6 +3287,15 @@
       "zscore": 1.0749
     },
     {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2025,
+      "text": "Read more Inclusive Experiences and Technology We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways.",
+      "heading": "",
+      "score": 0.2065,
+      "zscore": 0.7378
+    },
+    {
       "company": "brex",
       "displayName": "Brex",
       "year": 2025,
@@ -3288,7 +3356,7 @@
       "text": "Together initiatives We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways.",
       "heading": "Working at Amazon",
       "score": 0.2439,
-      "zscore": 0.6908
+      "zscore": 0.6583
     },
     {
       "company": "brex",
