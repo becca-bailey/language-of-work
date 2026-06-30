@@ -3,91 +3,108 @@
 Open a sample across eras; confirm real careers content.
 
 ## 2012
-- [20120511082141 — https://stripe.com/jobs](https://web.archive.org/web/20120511082141/https://stripe.com/jobs)
-- [20120922003249 — https://stripe.com/jobs](https://web.archive.org/web/20120922003249/https://stripe.com/jobs)
-- [20121001061851 — https://stripe.com/jobs](https://web.archive.org/web/20121001061851/https://stripe.com/jobs)
 
 ## 2013
-- [20130115094219 — https://stripe.com/jobs](https://web.archive.org/web/20130115094219/https://stripe.com/jobs)
-- [20130423073338 — https://stripe.com/jobs](https://web.archive.org/web/20130423073338/https://stripe.com/jobs)
-- [20130818165750 — https://stripe.com/jobs](https://web.archive.org/web/20130818165750/https://stripe.com/jobs)
-- [20131021214711 — https://stripe.com/jobs](https://web.archive.org/web/20131021214711/https://stripe.com/jobs)
+- [20131126221205 — https://stripe.com/jobs](https://web.archive.org/web/20131126221205/https://stripe.com/jobs)
 
 ## 2014
-- [20140207082019 — https://stripe.com/jobs](https://web.archive.org/web/20140207082019/https://stripe.com/jobs)
-- [20140404163302 — https://stripe.com/jobs](https://web.archive.org/web/20140404163302/https://stripe.com/jobs)
-- [20140802060609 — https://stripe.com/jobs](https://web.archive.org/web/20140802060609/https://stripe.com/jobs)
-- [20141004124133 — https://stripe.com/jobs/](https://web.archive.org/web/20141004124133/https://stripe.com/jobs/)
+- [20140122053130 — https://stripe.com/jobs](https://web.archive.org/web/20140122053130/https://stripe.com/jobs)
+- [20140502222430 — https://stripe.com/jobs](https://web.archive.org/web/20140502222430/https://stripe.com/jobs)
+- [20140607012544 — https://stripe.com/jobs](https://web.archive.org/web/20140607012544/https://stripe.com/jobs)
+- [20141011132237 — https://stripe.com/jobs/assets/css/all.css](https://web.archive.org/web/20141011132237/https://stripe.com/jobs/assets/css/all.css)
 
 ## 2015
-- [20150204111214 — https://stripe.com/jobs/](https://web.archive.org/web/20150204111214/https://stripe.com/jobs/)
-- [20150312235413 — https://stripe.com/jobs/](https://web.archive.org/web/20150312235413/https://stripe.com/jobs/)
-- [20150804165327 — https://stripe.com/jobs/](https://web.archive.org/web/20150804165327/https://stripe.com/jobs/)
-- [20151012173908 — https://stripe.com/jobs/positions/compliance-operations/apply/](https://web.archive.org/web/20151012173908/https://stripe.com/jobs/positions/compliance-operations/apply/)
+- [20150123202826 — https://stripe.com/jobs/](https://web.archive.org/web/20150123202826/https://stripe.com/jobs/)
+- [20150602063103 — https://stripe.com/jobs/](https://web.archive.org/web/20150602063103/https://stripe.com/jobs/)
+- [20150602064108 — https://stripe.com/jobs/assets/css/all.css](https://web.archive.org/web/20150602064108/https://stripe.com/jobs/assets/css/all.css)
+- [20151015181615 — https://stripe.com/jobs/](https://web.archive.org/web/20151015181615/https://stripe.com/jobs/)
 
 ## 2016
-- [20160201005814 — https://stripe.com/jobs](https://web.archive.org/web/20160201005814/https://stripe.com/jobs)
-- [20160406050523 — https://stripe.com/jobs](https://web.archive.org/web/20160406050523/https://stripe.com/jobs)
-- [20160806020820 — https://stripe.com/jobs](https://web.archive.org/web/20160806020820/https://stripe.com/jobs)
-- [20161001041207 — https://stripe.com/jobs](https://web.archive.org/web/20161001041207/https://stripe.com/jobs)
+- [20160107091835 — https://stripe.com/jobs/](https://web.archive.org/web/20160107091835/https://stripe.com/jobs/)
+- [20160503042532 — https://stripe.com/jobs/positions/account-support-portland](https://web.archive.org/web/20160503042532/https://stripe.com/jobs/positions/account-support-portland)
+- [20160602030424 — https://stripe.com/jobs](https://web.archive.org/web/20160602030424/https://stripe.com/jobs)
+- [20160903022755 — https://stripe.com/jobs](https://web.archive.org/web/20160903022755/https://stripe.com/jobs)
 
 ## 2017
-- [20170201214611 — https://stripe.com/jobs](https://web.archive.org/web/20170201214611/https://stripe.com/jobs)
-- [20170403170505 — https://stripe.com/jobs](https://web.archive.org/web/20170403170505/https://stripe.com/jobs)
-- [20170802020024 — https://stripe.com/jobs](https://web.archive.org/web/20170802020024/https://stripe.com/jobs)
-- [20171003232138 — https://stripe.com/jobs](https://web.archive.org/web/20171003232138/https://stripe.com/jobs)
+- [20170210001615 — https://stripe.com/jobs/engineering-onsite.pdf](https://web.archive.org/web/20170210001615/https://stripe.com/jobs/engineering-onsite.pdf)
+- [20170601222830 — https://stripe.com/jobs](https://web.archive.org/web/20170601222830/https://stripe.com/jobs)
+- [20170608103315 — https://stripe.com/jobs/positions/infrastructure-engineer](https://web.archive.org/web/20170608103315/https://stripe.com/jobs/positions/infrastructure-engineer)
+- [20171024080828 — https://stripe.com/jobs/positions/it-endpoint-administrator](https://web.archive.org/web/20171024080828/https://stripe.com/jobs/positions/it-endpoint-administrator)
 
 ## 2018
-- [20180203122249 — https://stripe.com/jobs/positions/international-regulatory-lawyer-](https://web.archive.org/web/20180203122249/https://stripe.com/jobs/positions/international-regulatory-lawyer-)
-- [20180402225300 — https://stripe.com/jobs](https://web.archive.org/web/20180402225300/https://stripe.com/jobs)
-- [20180801034105 — https://stripe.com/jobs](https://web.archive.org/web/20180801034105/https://stripe.com/jobs)
-- [20181001001748 — https://stripe.com/jobs/positions/android-engineer](https://web.archive.org/web/20181001001748/https://stripe.com/jobs/positions/android-engineer)
+- [20180205160600 — https://stripe.com/jobs](https://web.archive.org/web/20180205160600/https://stripe.com/jobs)
+- [20180601225745 — https://stripe.com/jobs](https://web.archive.org/web/20180601225745/https://stripe.com/jobs)
+- [20180606124414 — https://stripe.com/jobs?ref=blog](https://web.archive.org/web/20180606124414/https://stripe.com/jobs?ref=blog)
+- [20181001064536 — https://stripe.com/jobs](https://web.archive.org/web/20181001064536/https://stripe.com/jobs)
 
 ## 2019
-- [20190201124332 — https://stripe.com/jobs?ref=blog](https://web.archive.org/web/20190201124332/https://stripe.com/jobs?ref=blog)
-- [20190401072701 — https://stripe.com/jobs/search?t=product-and-technical.developer-experience&q=Integration+Engineer](https://web.archive.org/web/20190401072701/https://stripe.com/jobs/search?t=product-and-technical.developer-experience&q=Integration+Engineer)
-- [20190803062901 — https://stripe.com/jobs/search](https://web.archive.org/web/20190803062901/https://stripe.com/jobs/search)
-- [20191006103011 — https://stripe.com/jobs/search](https://web.archive.org/web/20191006103011/https://stripe.com/jobs/search)
+- [20190201124354 — https://stripe.com/jobs](https://web.archive.org/web/20190201124354/https://stripe.com/jobs)
+- [20190605232552 — https://stripe.com/jobs/listing/Software-Engineer-User-Security/1235030](https://web.archive.org/web/20190605232552/https://stripe.com/jobs/listing/Software-Engineer-User-Security/1235030)
+- [20190625161258 — https://stripe.com/jobs](https://web.archive.org/web/20190625161258/https://stripe.com/jobs)
+- [20190719165508 — https://stripe.com/jobs/culture](https://web.archive.org/web/20190719165508/https://stripe.com/jobs/culture)
+- [20190821033933 — https://stripe.com/jobs/culture](https://web.archive.org/web/20190821033933/https://stripe.com/jobs/culture)
+- [20191017011814 — https://stripe.com/jobs/culture](https://web.archive.org/web/20191017011814/https://stripe.com/jobs/culture)
+- [20191020014226 — https://stripe.com/jobs](https://web.archive.org/web/20191020014226/https://stripe.com/jobs)
 
 ## 2020
-- [20200201065432 — https://stripe.com/jobs/listing/terminal-reader-android-engineer/1662891](https://web.archive.org/web/20200201065432/https://stripe.com/jobs/listing/terminal-reader-android-engineer/1662891)
-- [20200402151749 — https://stripe.com/jobs/search?t=engineering](https://web.archive.org/web/20200402151749/https://stripe.com/jobs/search?t=engineering)
-- [20200803071214 — https://stripe.com/jobs](https://web.archive.org/web/20200803071214/https://stripe.com/jobs)
-- [20201001040111 — https://stripe.com/jobs/university](https://web.archive.org/web/20201001040111/https://stripe.com/jobs/university)
+- [20200106211059 — https://stripe.com/jobs/culture](https://web.archive.org/web/20200106211059/https://stripe.com/jobs/culture)
+- [20200202015817 — https://stripe.com/jobs](https://web.archive.org/web/20200202015817/https://stripe.com/jobs)
+- [20200325143934 — https://stripe.com/jobs/culture](https://web.archive.org/web/20200325143934/https://stripe.com/jobs/culture)
+- [20200601220839 — https://stripe.com/jobs](https://web.archive.org/web/20200601220839/https://stripe.com/jobs)
+- [20200605072336 — https://stripe.com/jobs/life-at-stripe](https://web.archive.org/web/20200605072336/https://stripe.com/jobs/life-at-stripe)
+- [20201005155423 — https://stripe.com/jobs](https://web.archive.org/web/20201005155423/https://stripe.com/jobs)
+- [20201027210540 — https://stripe.com/jobs/culture](https://web.archive.org/web/20201027210540/https://stripe.com/jobs/culture)
 
 ## 2021
-- [20210201091419 — https://stripe.com/jobs/search?t=design%2Cengineering%2Cproduct-and-technical&l=berlin%2Cdublin%2Clondon%2Cstockholm](https://web.archive.org/web/20210201091419/https://stripe.com/jobs/search?t=design%2Cengineering%2Cproduct-and-technical&l=berlin%2Cdublin%2Clondon%2Cstockholm)
-- [20210401181948 — https://stripe.com/jobs/listing/technical-writer/2609296](https://web.archive.org/web/20210401181948/https://stripe.com/jobs/listing/technical-writer/2609296)
-- [20210801000413 — https://stripe.com/jobs/listing/product-manager-finance-systems/3237039](https://web.archive.org/web/20210801000413/https://stripe.com/jobs/listing/product-manager-finance-systems/3237039)
-- [20211001032853 — https://stripe.com/jobs/listing/regulatory-counsel-kr/3307048](https://web.archive.org/web/20211001032853/https://stripe.com/jobs/listing/regulatory-counsel-kr/3307048)
+- [20210203045924 — https://stripe.com/jobs](https://web.archive.org/web/20210203045924/https://stripe.com/jobs)
+- [20210225110313 — https://stripe.com/jobs/culture](https://web.archive.org/web/20210225110313/https://stripe.com/jobs/culture)
+- [20210601120627 — https://stripe.com/jobs/listing/dashboard-platform-staff-engineer/2398411](https://web.archive.org/web/20210601120627/https://stripe.com/jobs/listing/dashboard-platform-staff-engineer/2398411)
+- [20210602164907 — https://stripe.com/jobs](https://web.archive.org/web/20210602164907/https://stripe.com/jobs)
+- [20210616150610 — https://stripe.com/jobs/culture](https://web.archive.org/web/20210616150610/https://stripe.com/jobs/culture)
+- [20211006073125 — https://stripe.com/jobs](https://web.archive.org/web/20211006073125/https://stripe.com/jobs)
+- [20211014175752 — https://stripe.com/jobs/culture](https://web.archive.org/web/20211014175752/https://stripe.com/jobs/culture)
 
 ## 2022
-- [20220201201440 — https://stripe.com/jobs/listing/engineering-manager-documentation/3884209](https://web.archive.org/web/20220201201440/https://stripe.com/jobs/listing/engineering-manager-documentation/3884209)
-- [20220401071148 — https://stripe.com/jobs/search](https://web.archive.org/web/20220401071148/https://stripe.com/jobs/search)
-- [20220802021337 — https://stripe.com/jobs/listing/engineering-manager-payments-ui-platform/4448588](https://web.archive.org/web/20220802021337/https://stripe.com/jobs/listing/engineering-manager-payments-ui-platform/4448588)
-- [20221001215201 — https://stripe.com/jobs/listing/backend-engineer-growth-engineering/4559859](https://web.archive.org/web/20221001215201/https://stripe.com/jobs/listing/backend-engineer-growth-engineering/4559859)
+- [20220203172013 — https://stripe.com/jobs](https://web.archive.org/web/20220203172013/https://stripe.com/jobs)
+- [20220603013046 — https://stripe.com/jobs/listing/product-manager-emea-payments/3380191](https://web.archive.org/web/20220603013046/https://stripe.com/jobs/listing/product-manager-emea-payments/3380191)
+- [20220622070727 — https://stripe.com/jobs](https://web.archive.org/web/20220622070727/https://stripe.com/jobs)
+- [20220703154437 — https://stripe.com/jobs/culture](https://web.archive.org/web/20220703154437/https://stripe.com/jobs/culture)
+- [20220826224546 — https://stripe.com/jobs/culture](https://web.archive.org/web/20220826224546/https://stripe.com/jobs/culture)
+- [20221003162253 — https://stripe.com/jobs/culture](https://web.archive.org/web/20221003162253/https://stripe.com/jobs/culture)
+- [20221018193638 — https://stripe.com/jobs](https://web.archive.org/web/20221018193638/https://stripe.com/jobs)
 
 ## 2023
-- [20230201010928 — https://stripe.com/jobs/listing/machine-learning-engineer-fraud/4827067](https://web.archive.org/web/20230201010928/https://stripe.com/jobs/listing/machine-learning-engineer-fraud/4827067)
-- [20230401044210 — https://stripe.com/jobs/listing/associate-solutions-architect/4901735/apply](https://web.archive.org/web/20230401044210/https://stripe.com/jobs/listing/associate-solutions-architect/4901735/apply)
-- [20230801012110 — https://stripe.com/jobs/listing/internal-audit-data-analytics-lead/5122209](https://web.archive.org/web/20230801012110/https://stripe.com/jobs/listing/internal-audit-data-analytics-lead/5122209)
-- [20231001065028 — https://stripe.com/jobs/listing/financial-crimes-trainer/4900140](https://web.archive.org/web/20231001065028/https://stripe.com/jobs/listing/financial-crimes-trainer/4900140)
+- [20230213021146 — https://stripe.com/jobs](https://web.archive.org/web/20230213021146/https://stripe.com/jobs)
+- [20230507235209 — https://stripe.com/jobs](https://web.archive.org/web/20230507235209/https://stripe.com/jobs)
+- [20230601032413 — https://stripe.com/jobs/listing/product-pricing-strategy/4933030](https://web.archive.org/web/20230601032413/https://stripe.com/jobs/listing/product-pricing-strategy/4933030)
+- [20230805024839 — https://stripe.com/jobs/culture](https://web.archive.org/web/20230805024839/https://stripe.com/jobs/culture)
+- [20230923122018 — https://stripe.com/jobs/culture](https://web.archive.org/web/20230923122018/https://stripe.com/jobs/culture)
+- [20231021231528 — https://stripe.com/jobs](https://web.archive.org/web/20231021231528/https://stripe.com/jobs)
+- [20231209225815 — https://stripe.com/jobs/culture](https://web.archive.org/web/20231209225815/https://stripe.com/jobs/culture)
 
 ## 2024
-- [20240201061537 — https://stripe.com/jobs/listing/frontend-engineer-ui-platform-barcelona/5561337](https://web.archive.org/web/20240201061537/https://stripe.com/jobs/listing/frontend-engineer-ui-platform-barcelona/5561337)
-- [20240401180114 — https://stripe.com/jobs/listing/people-research-scientist/5615143](https://web.archive.org/web/20240401180114/https://stripe.com/jobs/listing/people-research-scientist/5615143)
-- [20240803021512 — https://stripe.com/jobs](https://web.archive.org/web/20240803021512/https://stripe.com/jobs)
-- [20241001013733 — https://stripe.com/jobs/listing/people-partner-product/5870693?ref=nodesk](https://web.archive.org/web/20241001013733/https://stripe.com/jobs/listing/people-partner-product/5870693?ref=nodesk)
+- [20240204093336 — https://stripe.com/jobs](https://web.archive.org/web/20240204093336/https://stripe.com/jobs)
+- [20240209010523 — https://stripe.com/jobs/culture](https://web.archive.org/web/20240209010523/https://stripe.com/jobs/culture)
+- [20240601054735 — https://stripe.com/jobs/listing/software-engineer-relational-databases/5959468](https://web.archive.org/web/20240601054735/https://stripe.com/jobs/listing/software-engineer-relational-databases/5959468)
+- [20240601221624 — https://stripe.com/jobs](https://web.archive.org/web/20240601221624/https://stripe.com/jobs)
+- [20240617170156 — https://stripe.com/jobs/culture](https://web.archive.org/web/20240617170156/https://stripe.com/jobs/culture)
+- [20240916110130 — https://stripe.com/jobs/culture](https://web.archive.org/web/20240916110130/https://stripe.com/jobs/culture)
+- [20241004095844 — https://stripe.com/jobs](https://web.archive.org/web/20241004095844/https://stripe.com/jobs)
 
 ## 2025
-- [20250201002236 — https://stripe.com/jobs/listing/marketing-campaigns-manager-enterprise-industry/6470382](https://web.archive.org/web/20250201002236/https://stripe.com/jobs/listing/marketing-campaigns-manager-enterprise-industry/6470382)
-- [20250401015037 — https://stripe.com/jobs/listing/engineering-manager-revenue-and-finance-automation/6689907](https://web.archive.org/web/20250401015037/https://stripe.com/jobs/listing/engineering-manager-revenue-and-finance-automation/6689907)
-- [20250801011441 — https://stripe.com/jobs/listing/sales-development-representative-french-speaking/7106660](https://web.archive.org/web/20250801011441/https://stripe.com/jobs/listing/sales-development-representative-french-speaking/7106660)
-- [20251001081803 — https://stripe.com/jobs](https://web.archive.org/web/20251001081803/https://stripe.com/jobs)
+- [20250209112435 — https://stripe.com/jobs](https://web.archive.org/web/20250209112435/https://stripe.com/jobs)
+- [20250209182513 — https://stripe.com/jobs/culture](https://web.archive.org/web/20250209182513/https://stripe.com/jobs/culture)
+- [20250601032034 — https://stripe.com/jobs/culture](https://web.archive.org/web/20250601032034/https://stripe.com/jobs/culture)
+- [20250602162446 — https://stripe.com/jobs/listing/sales-operations-analyst/6836544](https://web.archive.org/web/20250602162446/https://stripe.com/jobs/listing/sales-operations-analyst/6836544)
+- [20250614013048 — https://stripe.com/jobs](https://web.archive.org/web/20250614013048/https://stripe.com/jobs)
+- [20250909113544 — https://stripe.com/jobs/culture](https://web.archive.org/web/20250909113544/https://stripe.com/jobs/culture)
+- [20251002030945 — https://stripe.com/jobs/listing/ic-design-director-experiential/6907774](https://web.archive.org/web/20251002030945/https://stripe.com/jobs/listing/ic-design-director-experiential/6907774)
 
 ## 2026
-- [20260201034709 — https://stripe.com/jobs/search?skip=0](https://web.archive.org/web/20260201034709/https://stripe.com/jobs/search?skip=0)
-- [20260401132737 — https://stripe.com/jobs/listing/eu-market-development-climate/7722641](https://web.archive.org/web/20260401132737/https://stripe.com/jobs/listing/eu-market-development-climate/7722641)
-- [20260601015941 — https://stripe.com/jobs](https://web.archive.org/web/20260601015941/https://stripe.com/jobs)
-- [20260601030619 — https://stripe.com/jobs/listing/manager-sales-development/7337544](https://web.archive.org/web/20260601030619/https://stripe.com/jobs/listing/manager-sales-development/7337544)
+- [20260128055432 — https://stripe.com/jobs/culture](https://web.archive.org/web/20260128055432/https://stripe.com/jobs/culture)
+- [20260201052020 — https://stripe.com/jobs](https://web.archive.org/web/20260201052020/https://stripe.com/jobs)
+- [20260213232748 — https://stripe.com/jobs/culture](https://web.archive.org/web/20260213232748/https://stripe.com/jobs/culture)
+- [20260501221520 — https://stripe.com/jobs](https://web.archive.org/web/20260501221520/https://stripe.com/jobs)
+- [20260507081911 — https://stripe.com/jobs/culture](https://web.archive.org/web/20260507081911/https://stripe.com/jobs/culture)
+- [20260601183439 — https://stripe.com/jobs/listing/staff-product-designer-agentic-commerce/7688069](https://web.archive.org/web/20260601183439/https://stripe.com/jobs/listing/staff-product-designer-agentic-commerce/7688069)
 

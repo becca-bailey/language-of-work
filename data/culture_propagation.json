@@ -34,6 +34,15 @@
       "netflix": {
         "firstYearVerbatim": 2009,
         "nVerbatim": 4
+      },
+      "shopify": {
+        "firstYearConcept": 2026,
+        "nConcept": 1,
+        "yearsConcept": [
+          2026
+        ],
+        "example": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
+        "exampleScore": 0.668
       }
     },
     "keeper_test": {
@@ -108,7 +117,7 @@
       },
       "shopify": {
         "firstYearVerbatim": 2026,
-        "nVerbatim": 1
+        "nVerbatim": 2
       }
     },
     "adequate_severance": {
@@ -166,15 +175,18 @@
         "exampleScore": 0.642
       },
       "stripe": {
-        "firstYearConcept": 2020,
-        "nConcept": 1,
+        "firstYearConcept": 2019,
+        "nConcept": 4,
         "yearsConcept": [
-          2020
+          2019,
+          2020,
+          2021,
+          2022
         ],
         "example": "But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to sacrifice that for quantity of output.",
         "exampleScore": 0.652,
-        "firstYearVerbatim": 2020,
-        "nVerbatim": 1
+        "firstYearVerbatim": 2019,
+        "nVerbatim": 10
       },
       "brex": {
         "firstYearConcept": 2021,
@@ -222,14 +234,15 @@
       },
       "shopify": {
         "firstYearConcept": 2025,
-        "nConcept": 1,
+        "nConcept": 2,
         "yearsConcept": [
-          2025
+          2025,
+          2026
         ],
-        "example": "We hire the best people and match their expertise to our most exciting work.",
-        "exampleScore": 0.674,
-        "firstYearVerbatim": 2026,
-        "nVerbatim": 1
+        "example": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
+        "exampleScore": 0.764,
+        "firstYearVerbatim": 2014,
+        "nVerbatim": 4
       },
       "brex": {
         "firstYearVerbatim": 2024,

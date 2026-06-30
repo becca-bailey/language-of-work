@@ -84,7 +84,16 @@
         "label": "Talent density",
         "tier": "netflix_only",
         "originYear": 2009,
-        "adopters": []
+        "adopters": [
+          {
+            "company": "shopify",
+            "displayName": "Shopify",
+            "year": 2026,
+            "verbatim": false,
+            "example": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
+            "score": 0.668
+          }
+        ]
       },
       {
         "id": "team_not_family",
@@ -189,8 +198,8 @@
             "displayName": "Shopify",
             "year": 2025,
             "verbatim": true,
-            "example": "We hire the best people and match their expertise to our most exciting work.",
-            "score": 0.674
+            "example": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
+            "score": 0.764
           }
         ]
       },
@@ -211,7 +220,7 @@
           {
             "company": "stripe",
             "displayName": "Stripe",
-            "year": 2020,
+            "year": 2019,
             "verbatim": true,
             "example": "But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to sacrifice that for quantity of output.",
             "score": 0.652
@@ -237,10 +246,10 @@
     ]
   },
   "objectivity": {
-    "scanned": 1238,
-    "claim": 79,
+    "scanned": 1483,
+    "claim": 91,
     "metricCredible": 0,
-    "claimPct": 6.4,
+    "claimPct": 6.1,
     "smokingGun": "Netflix explicitly refuses to keep score: “We have no bell curves or rankings or quotas such as 'cut the bottom 10% every year'” — while demanding you be a “high performer” judged by a manager's gut (the keeper test).",
     "finding": "Pervasive objectivity rhetoric, no defined metric. The language borrows sports' objectivity without its scoreboard."
   },
