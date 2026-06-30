@@ -1,16 +1,17 @@
 ---
 title: Culture is downstream of power
-subtitle: The language that rises and falls with workers' leverage — and the part that never needed it.
+subtitle: The language that surges when workers have leverage — and gets cut once they don't.
 thesis: >-
-  Across 11 companies, the worker-oriented language (DEI) tracks worker bargaining power (the
-  quits rate) — it rises and recedes with leverage even after the decade's shared trend is
-  removed. Idealism tracks the same cycle too, more weakly. Performance, which serves
-  whoever can hire and fire, stays flat regardless. The culture that persists is the part that
-  benefits the people in power; the rest is rented.
+  Across 11 companies, DEI language crested in 2021, at the height of the Great Resignation,
+  when workers had the most leverage in a generation. It held for three years, then — once that
+  leverage had drained away and the 2024 election shifted the political winds — it was pulled
+  back hard. Idealism rode the same cycle, more weakly. Performance, which serves whoever can
+  hire and fire, never moved. The culture companies keep is the part that benefits the people
+  in power; the rest, it turns out, was rented.
 published: true
 study: careers
 order: 1
-teaser: "Worker-serving language (DEI) tracks worker power and collapses when it falls; the management-serving substrate (performance) never moves."
+teaser: "Worker-serving language (DEI) surged when workers had leverage and was cut once they lost it; the management-serving substrate (performance) never moves."
 ---
 
 import PowerChart from "@/components/viz/PowerChart.astro";
@@ -24,19 +25,23 @@ had the leverage to walk. It's not an exact science, but the patterns are there.
 
 <PowerChart />
 
-Netflix has always kept a high performance bar, but its idealism drops right before the quit
-rate does. Across all eleven companies the pattern is softer but holds. **DEI** — the
-worker-oriented language — rises and recedes with worker power even after you strip out the
-decade's shared upward trend; it's the one signal that genuinely responds to leverage rather
-than just riding the boom. **Idealism** climbs with the same boom and tracks the cycle too,
-though more weakly than DEI — its crest even lands on the 2021–22 worker-power peak, for all
-that workers were always a little cynical about billionaires promising to change the world. And
-**performance**, which serves whoever can hire and fire, stays flat near the top no matter
-what.
+The clearest signal is **DEI**. Worker-oriented language climbed through the late 2010s and
+crested in 2021 — the same year the quits rate hit a generational peak and workers had the most
+leverage to walk. It stayed elevated for three more years. Then, in 2025–26, after that
+leverage had drained back below pre-pandemic levels and the 2024 election turned the political
+winds, it was pulled back hard: Meta's DEI-register share went from saturated to zero, Amazon's
+halved. The language companies adopted when workers had power was unwound once they didn't.
 
-In 2026 you can't trust what a company says about itself. But you can trust the pattern of
-when it stops saying it. Cultural signaling doesn't give workers power — it reflects the power
-they already have.
+That retreat is the heart of it. The concessions weren't immediate — DEI stayed high for years
+after the quits rate began falling — but they were sticky, not permanent, and the moment
+leverage was gone and the politics gave cover, they snapped back. **Idealism** rode the same
+cycle more weakly; its crest also lands on the 2021–22 worker-power peak, for all that workers
+were always a little cynical about billionaires promising to change the world. **Performance**,
+which serves whoever can hire and fire, stays flat near the top no matter what.
+
+In 2026 you can't trust what a company says about itself. But you can trust the pattern of when
+it stops saying it: the worker-serving language is the part that gets cut when leverage is gone.
+Cultural signaling doesn't give workers power — it reflects the power they already have.
 
 ## How this was measured
 
@@ -44,14 +49,20 @@ Each line is an industry mean over the same eleven companies (2013–2026), ever
 all three axes — no per-metric subsetting. The quits rate is economy-wide, a proxy for tech
 bargaining power; read this as co-movement, not causation.
 
-DEI language is the most robust signal: it survives first-differencing (r ≈ +0.39) and
-leave-one-company-out (+0.63 to +0.77), and held steady when Meta's history was substantially
-re-expanded. Idealism is close behind. Once Google's 2018–2023 careers pages were recovered
-from the Wayback gap, its idealism crest fell squarely on the 2021–22 worker-power peak, and
-its first-differenced correlation rose to +0.29 — weaker and noisier than DEI, but genuine
-year-over-year co-movement, not the pure shared trend it first resembled. (Its raw r ≈ +0.70
-is inflated by the shared secular boom.) At six companies the aggregate was too noisy to read;
-it only firmed up at eleven, so treat it as suggestive, not decisive.
+DEI shows the strongest *raw* correlation with the quits rate (r ≈ +0.68) — but that nearly
+vanishes under first-differencing (r ≈ +0.06). I read that as a lagged relationship, not a null
+one: DEI peaked with worker power in 2021 but didn't retreat until 2025–26, so year over year it
+rarely moves in lockstep with the quits rate even though the overall shape — surge at the peak,
+collapse once leverage is gone — tracks it. The strong synchronous correlation I reported in an
+earlier draft turned out to be an artifact of incomplete data (one company's mid-decade DEI
+language was unclassified, counted as zero); with the full corpus it's the *shape*, not the
+tick-by-tick, that carries the signal.
+
+Idealism is the only axis whose co-movement partly survives differencing (r ≈ +0.29), and even
+that is weak — suggestive, not decisive, on thirteen year-pairs. Performance is flat raw and
+differenced. And one honest confound runs through all of it: the 2025–26 DEI retreat coincides
+with *both* fading worker leverage and a political backlash, and this data can't separate the
+two. What it can show is that the worker-serving language is the part that got cut.
 
 One axis is missing on purpose. Wellbeing — the balance-and-rest framing that's the clearest
 *worker concession* — lives in benefits copy, not mission statements, so this careers corpus
