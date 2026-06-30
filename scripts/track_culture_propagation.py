@@ -74,7 +74,9 @@ CONCEPTS: dict[str, dict] = {
             "A star performer is many times more valuable than an average employee.",
             "One exceptional employee outperforms several adequate ones.",
         ],
-        "regex": re.compile(r"many times more|times more (?:effective|valuable|productive)|10x", re.I),
+        # bare "10x" was too loose (matched "10x return", "10x learning
+        # environment"); require it to qualify a person to count as supremacy.
+        "regex": re.compile(r"many times more|times more (?:effective|valuable|productive)|10x\s+(?:engineer|performer|employee|developer|talent)", re.I),
     },
     "adequate_severance": {
         "label": "Adequate → severance",

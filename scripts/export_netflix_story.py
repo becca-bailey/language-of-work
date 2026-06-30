@@ -17,19 +17,30 @@ import pandas as pd
 from lowork.config import WEB_DATA_DIR, ROOT, company_dir
 from lowork.io import read_json, write_json
 
-# concept -> tier: lift (distinctive + propagated) / netflix_only (distinctive, stayed) /
-# generic (industry-wide, NOT Netflix-originated -> shown but not claimed as propagation)
-TIERS = {
-    "adequate_severance": "lift",
-    "keeper_test": "netflix_only",
-    "team_not_family": "netflix_only",
-    "high_performer_supremacy": "netflix_only",
-    "dream_team": "netflix_only",
-    "talent_density": "netflix_only",
-    "raise_the_bar": "generic",
-    "only_the_best": "generic",
-    "judged_by_outcomes": "generic",
+# Industry-wide concepts NOT originated by Netflix — shown but never claimed as propagation.
+GENERIC = {"raise_the_bar", "only_the_best", "judged_by_outcomes"}
+
+# Canonical Netflix 2009-deck phrasing per distinctive concept — the lineage origin quote.
+ORIGINS = {
+    "talent_density": "The Key: Increase Talent Density faster than Complexity Grows.",
+    "keeper_test": "Which of my people, if they told me they were leaving for a similar job at a peer company, would I fight hard to keep at Netflix?",
+    "team_not_family": "We're a team, not a family. We're like a pro sports team, not a kid's recreational team.",
+    "dream_team": "Our version of a great workplace is a dream team in pursuit of ambitious, common goals.",
+    "high_performer_supremacy": "In creative and inventive work, the best are 10x better than the average.",
+    "adequate_severance": "Adequate performance gets a generous severance package.",
+    "freedom_responsibility": "We seek to increase freedom and responsibility as we grow — we don't have rules.",
+    "context_not_control": "Lead with context, not control.",
+    "aligned_loosely_coupled": "Highly aligned, loosely coupled.",
+    "no_vacation_policy": "Our vacation policy is “take vacation.” We don't have rules about how many weeks.",
 }
+
+
+def tier_for(cid: str, adopters: list) -> str:
+    """generic = industry convergence (not Netflix's); otherwise a distinctive
+    Netflix concept — lift if it propagated to another company, else netflix_only."""
+    if cid in GENERIC:
+        return "generic"
+    return "lift" if adopters else "netflix_only"
 
 DECK_QUOTES = [
     {"label": "Talent density", "text": "The Key: Increase Talent Density faster than Complexity Grows."},
@@ -37,7 +48,6 @@ DECK_QUOTES = [
     {"label": "The keeper test", "text": "Which of my people, if they told me they were leaving for a similar job at a peer company, would I fight hard to keep at Netflix?"},
     {"label": "Fire the adequate", "text": "Adequate performance gets a generous severance package."},
     {"label": "Performance, undefined", "text": "You accomplish amazing amounts of important work… you focus on great results rather than on process."},
-    {"label": "Their own caveat", "text": "Pro Sports Team Metaphor is Good, but Imperfect."},
 ]
 
 # Per-concept objectivity matrix. claims/metric are grounded (the language does/doesn't);
@@ -161,36 +171,22 @@ def main() -> None:
             })
         adopters.sort(key=lambda a: a["year"])
         concepts.append({
-            "id": cid, "label": label, "tier": TIERS.get(cid, "generic"),
-            "originYear": netflix_year, "adopters": adopters,
+            "id": cid, "label": label, "tier": tier_for(cid, adopters),
+            "originYear": netflix_year, "originQuote": ORIGINS.get(cid),
+            "adopters": adopters,
         })
     # order: lift first, then netflix_only, then generic
     order = {"lift": 0, "netflix_only": 1, "generic": 2}
     concepts.sort(key=lambda c: (order.get(c["tier"], 3), c["label"]))
 
+    # Data only — editorial framing lives in the MDX. The story renders deck
+    # quotes (Act 1), the propagation lineage (centerpiece), and the objectivity
+    # audit (Act 3 punchline).
     out = {
         "story": "netflix-culture",
-        "title": "A Team, Not a Family",
-        "subtitle": "Netflix's 2009 culture deck, the model it spread, and the scoreboard that isn't there",
-        "thesis": ("Netflix authored the canonical language of the performance-filter "
-                   "culture. Its ethos spread across tech by convergence; its brutal "
-                   "formulations stayed on Netflix's own page — except Coinbase, which "
-                   "copied the severance line nearly verbatim. And the objectivity it all "
-                   "claims is rhetorical: 7% of culture copy invokes merit, 0% defines a "
-                   "metric."),
         "deckQuotes": DECK_QUOTES,
-        "propagation": {
-            "originYear": 2009,
-            "note": ("Concept-level semantic matching (threshold 0.62, hand-validated) + "
-                     "verbatim overlay. 'Generic' concepts (raise-the-bar is Amazon's; "
-                     "best-and-brightest predates everyone) are shown but NOT claimed as "
-                     "Netflix propagation."),
-            "concepts": concepts,
-        },
+        "propagation": {"originYear": 2009, "concepts": concepts},
         "objectivity": objectivity_audit(),
-        "objectivityMatrix": OBJECTIVITY_MATRIX,
-        "implicitExplicit": IMPLICIT_EXPLICIT,
-        "netflixEvolution": netflix_evolution(),
     }
     out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
