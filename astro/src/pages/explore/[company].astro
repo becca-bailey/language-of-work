@@ -1,0 +1,123 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import AxisExplorer from "@/components/AxisExplorer";
+import DeiExplorer from "@/components/DeiExplorer";
+import { loadAxis, loadDei, loadCompaniesManifest } from "@/lib/data";
+import { loadCultureFitCards } from "@/lib/stories";
+
+export async function getStaticPaths() {
+  // Every company we have any data on gets a page: the culture-fit cards are the
+  // widest set (one per company), unioned with the per-company-page manifest.
+  const cards = await loadCultureFitCards();
+  const manifest = await loadCompaniesManifest();
+  const ids = new Set<string>([...cards.map((c) => c.id), ...manifest.map((c) => c.id)]);
+  return [...ids].map((company) => ({ params: { company } }));
+}
+
+const { company } = Astro.params as { company: string };
+
+const [cards, manifest, altruism, control, dei] = await Promise.all([
+  loadCultureFitCards(),
+  loadCompaniesManifest(),
+  loadAxis(company, "altruism"),
+  loadAxis(company, "control"),
+  loadDei(company),
+]);
+
+const card = cards.find((c) => c.id === company) ?? null;
+const manifestEntry = manifest.find((c) => c.id === company) ?? null;
+const displayName =
+  card?.displayName ?? manifestEntry?.displayName ?? altruism?.displayName ?? dei?.displayName ?? company;
+
+if (!card && !altruism && !dei) return Astro.redirect("/404");
+
+// The most idealistic line on record — a concrete sample of how they pitch mission.
+const peakQuote = (() => {
+  if (!altruism || altruism.years.length === 0) return null;
+  const peak = altruism.years.reduce((best, y) => (y.zscore > best.zscore ? y : best));
+  const quote = peak.quotes?.[0];
+  return quote ? { year: peak.year, text: quote.text } : null;
+})();
+---
+
+<Layout title={`${displayName} — what their careers pages say`}>
+  <main class="mx-auto w-full max-w-3xl flex-1 px-6 py-12">
+    <a
+      href="/"
+      class="text-sm text-neutral-500 transition-colors hover:text-neutral-800 dark:hover:text-neutral-200"
+    >
+      &larr; all companies
+    </a>
+
+    <h1 class="mt-4 text-3xl font-semibold tracking-tight">{displayName}</h1>
+    <p class="mt-3 max-w-prose text-neutral-600 dark:text-neutral-400">
+      What {displayName}'s own careers pages — archived from the Wayback Machine — say about
+      working there, and how that language has shifted over time. A read for anyone weighing
+      whether to apply. This is how the company <em>describes</em> itself, not how it necessarily
+      behaves.
+    </p>
+
+    {card && (
+      <section class="mt-12">
+        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+          Who they're looking for
+        </h2>
+        <p class="mt-3 max-w-prose text-lg leading-relaxed">{card.summary}</p>
+        {card.quotes.length > 0 && (
+          <ul class="mt-5 space-y-3">
+            {card.quotes.map((q) => (
+              <li class="border-l-2 border-neutral-200 pl-4 text-neutral-700 dark:border-neutral-700 dark:text-neutral-300">
+                <span class="italic">“{q.text}”</span>
+                <span class="ml-2 text-xs text-neutral-400">{q.year}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+    )}
+
+    {altruism && (
+      <section class="mt-14">
+        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+          Mission &amp; idealism over time
+        </h2>
+        <p class="mt-3 max-w-prose text-sm text-neutral-500">
+          How much the careers copy leans on "change the world" mission language (product-capability
+          hype is stripped out). If purpose matters to you, the trend line shows whether it's rising
+          or fading.
+        </p>
+        {peakQuote && (
+          <p class="mt-4 max-w-prose border-l-2 border-neutral-200 pl-4 text-sm italic text-neutral-600 dark:border-neutral-700 dark:text-neutral-400">
+            Most idealistic line on record ({peakQuote.year}): “{peakQuote.text}”
+          </p>
+        )}
+        <div class="mt-6">
+          <AxisExplorer axis={altruism} control={control} client:only="react" />
+        </div>
+      </section>
+    )}
+
+    {dei && (
+      <section class="mt-14">
+        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+          Diversity &amp; inclusion language
+        </h2>
+        <p class="mt-3 max-w-prose text-sm text-neutral-500">
+          Whether the careers pages talk about workforce diversity and belonging, and whether that
+          language grew or was walked back. Near-zero means the topic is largely absent, not actively
+          opposed.
+        </p>
+        <div class="mt-6">
+          <DeiExplorer data={dei} client:only="react" />
+        </div>
+      </section>
+    )}
+
+    {!altruism && !dei && (
+      <p class="mt-10 max-w-prose text-sm text-neutral-500">
+        Detailed trajectory charts for {displayName} are still being generated. The summary above is
+        from the culture-fit study.
+      </p>
+    )}
+  </main>
+</Layout>

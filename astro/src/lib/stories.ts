@@ -30,3 +30,20 @@ export async function loadStory(slug: string): Promise<StoryData | null> {
     return null;
   }
 }
+
+export interface CultureFitQuote {
+  year: number;
+  text: string;
+}
+export interface CultureFitCard {
+  id: string;
+  displayName: string;
+  summary: string;
+  quotes: CultureFitQuote[];
+}
+
+/** Per-company "who belongs here" cards from the culture-fit study. */
+export async function loadCultureFitCards(): Promise<CultureFitCard[]> {
+  const story = (await loadStory("culture-fit")) as unknown as { cards?: CultureFitCard[] } | null;
+  return story?.cards ?? [];
+}
