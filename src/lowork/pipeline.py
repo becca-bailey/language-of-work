@@ -291,6 +291,46 @@ def fingerprint(stage: Stage, companies: list[str]) -> str:
     return h.hexdigest()[:16]
 
 
+# Stages whose output must cover every (analysis) chunk, not merely exist —
+# an incremental classifier whose file exists but skips new chunks is "dirty".
+# Maps stage -> (output filename, chunk set: "all" chunks or "analysis" only).
+_COVERAGE: dict[str, tuple[str, str]] = {
+    "classify_chunks": ("classifications.json", "all"),
+    "embed_chunks": ("embeddings.parquet", "analysis"),
+    "classify_dei_register": ("dei_registers.json", "analysis"),
+    "classify_dei_stance": ("dei_stances.json", "analysis"),
+}
+
+
+def _coverage_incomplete(stage_name: str, company: str) -> bool:
+    """True if a coverage-tracked stage's output misses some required chunk."""
+    spec = _COVERAGE.get(stage_name)
+    if spec is None:
+        return False
+    fname, which = spec
+    cdir = company_dir(company)
+    chunks_dir = cdir / "chunks"
+    if not chunks_dir.exists():
+        return False
+    chunks = load_all_chunks(chunks_dir)
+    if which == "all":
+        required = {c["chunk_id"] for c in chunks}
+    else:
+        cls_p = cdir / "classifications.json"
+        labels = read_json(cls_p) if cls_p.exists() else {}
+        required = {c["chunk_id"] for c in chunks
+                    if labels.get(c["chunk_id"]) in ANALYSIS_LABELS}
+    out = cdir / fname
+    if not out.exists():
+        return bool(required)
+    if fname.endswith(".parquet"):
+        import pandas as pd
+        covered = set(pd.read_parquet(out, columns=["chunk_id"])["chunk_id"])
+    else:
+        covered = set(read_json(out))
+    return not required.issubset(covered)
+
+
 def _outputs_present(stage: Stage, companies: list[str]) -> bool:
     targets = companies if stage.scope is Scope.GLOBAL else companies[:1]
     for co in targets or [None]:  # type: ignore[list-item]
@@ -360,6 +400,8 @@ def evaluate(cfg: Config, state: dict, only_companies: set[str] | None = None,
                     run_for.add(co); reasons.add(f"upstream {up[0]}")
                 elif not _outputs_present(stage, [co]):
                     run_for.add(co); reasons.add("output missing")
+                elif _coverage_incomplete(stage.name, co):
+                    run_for.add(co); reasons.add("incomplete coverage")
                 elif state.get(_state_key(stage, co)) != fingerprint(stage, [co]):
                     run_for.add(co); reasons.add("inputs changed")
             if run_for:
