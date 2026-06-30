@@ -145,7 +145,10 @@ def netflix_evolution() -> dict:
     }
 
 
-def main() -> None:
+def main(companies: list[str] | None = None) -> None:
+    global COMPANIES
+    if companies is not None:
+        COMPANIES = list(companies)
     prop = read_json(ROOT / "data" / "culture_propagation.json")
     timeline = prop["timeline"]
     labels = prop["concepts"]

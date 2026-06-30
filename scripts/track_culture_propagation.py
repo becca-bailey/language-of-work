@@ -178,7 +178,10 @@ def company_sentences(company: str) -> list[tuple[int, str]]:
     return out
 
 
-def main(threshold: float, review_top: int) -> None:
+def main(threshold: float, review_top: int, companies: list[str] | None = None) -> None:
+    global COMPANIES
+    if companies is not None:
+        COMPANIES = list(companies)
     store = EmbeddingStore()
     concept_vecs = {n: _norm(np.stack(store.embed(c["anchors"]))) for n, c in CONCEPTS.items()}
 

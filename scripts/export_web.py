@@ -27,11 +27,16 @@ def update_companies_manifest(company: str, axes: list[str]) -> None:
         manifest = {"companies": []}
 
     profile = CompanyProfile.load(company)
+    # Merge (don't replace): preserve axes added by other exporters (e.g. dei),
+    # so re-running altruism doesn't drop a company's dei axis from the manifest.
+    existing = next((c for c in manifest["companies"] if c["id"] == company), None)
+    axes_set = set(existing["axes"]) if existing else set()
+    axes_set.update(a for a in axes if a != "control")
+    axes_set.discard("control")
     entry = {
         "id": company,
         "displayName": profile.display_name,
-        # control is an overlay on other axes, not a standalone analysis
-        "axes": sorted(a for a in axes if a != "control"),
+        "axes": sorted(axes_set),
     }
     companies = [c for c in manifest["companies"] if c["id"] != company]
     companies.append(entry)

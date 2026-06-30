@@ -83,7 +83,10 @@ def _smooth(series: dict[int, float]) -> dict[int, float]:
     return out
 
 
-def main() -> None:
+def main(companies: list[str] | None = None) -> None:
+    global COMPANIES
+    if companies is not None:
+        COMPANIES = list(companies)
     pats = [(cid, label, dei, re.compile(p, re.I)) for cid, label, dei, p in CATEGORIES]
     mpats = [(cid, label, re.compile(p, re.I)) for cid, label, p in MATERIAL_DEI]
     total_by_year: dict[int, int] = defaultdict(int)

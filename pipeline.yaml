@@ -1,0 +1,23 @@
+# Pipeline orchestrator config — see src/lowork/pipeline.py and README.
+#
+# `companies` is the universe. Each story is either `true` (enabled, all
+# companies) or a mapping with an optional `companies` allow-list (a curated
+# subset). Adding a company here auto-includes it in every story EXCEPT those
+# with an explicit allow-list. Membership filters EXPORTS; per-company analysis
+# still runs for whatever any enabled story needs (union).
+
+companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, brex, snap]
+
+# Every company gets an individual page; the per-company exports run for all of
+# them. TODO(content): per-company page content/design is only finalized for
+# [google, amazon, meta, palantir, coinbase, netflix]; the rest get exported
+# data but still need their page content designed.
+
+stories:
+  altruism: true
+  performance: true
+  power: true            # cross-company correlation — keep the full set
+  benefits: true
+  culture-fit: true
+  dei: true              # to curate: replace `true` with {enabled: true, companies: [...]}
+  netflix-culture: true

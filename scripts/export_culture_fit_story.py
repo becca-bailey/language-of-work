@@ -105,7 +105,8 @@ CARDS = [
 ]
 
 
-def main() -> None:
+def main(companies: list[str] | None = None) -> None:
+    cards = CARDS if companies is None else [c for c in CARDS if c["id"] in set(companies)]
     out = {
         "story": "culture-fit",
         "title": "Who is a culture fit?",
@@ -121,12 +122,12 @@ def main() -> None:
             "people, not how they actually do. Summaries are interpretation; quotes are "
             "verbatim."
         ),
-        "cards": CARDS,
+        "cards": cards,
     }
     out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)
     write_json(out_dir / "culture-fit.json", out)
-    print(f"Wrote {out_dir / 'culture-fit.json'} ({len(CARDS)} companies)")
+    print(f"Wrote {out_dir / 'culture-fit.json'} ({len(cards)} companies)")
 
 
 if __name__ == "__main__":

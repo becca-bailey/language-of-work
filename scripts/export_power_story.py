@@ -145,7 +145,12 @@ def _event_year(date: str) -> float:
     return int(y) + ((int(m) - 1) / 12 if m else 0)
 
 
-def main() -> None:
+def main(companies: list[str] | None = None) -> None:
+    # The pipeline orchestrator passes the power story's effective company set;
+    # standalone CLI use keeps the default COHORT.
+    global COHORT
+    if companies is not None:
+        COHORT = list(companies)
     # Every metric is read from source parquet — power.json is self-contained and
     # does not depend on the dei/performance story JSONs being regenerated first.
     power = read_json(ROOT / "data" / "power_proxies.json")
