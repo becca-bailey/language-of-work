@@ -6,7 +6,21 @@
 # with an explicit allow-list. Membership filters EXPORTS; per-company analysis
 # still runs for whatever any enabled story needs (union).
 
-companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, brex, snap, hubspot]
+companies:
+  [
+    google,
+    amazon,
+    meta,
+    palantir,
+    coinbase,
+    netflix,
+    shopify,
+    stripe,
+    airbnb,
+    brex,
+    snap,
+    hubspot,
+  ]
 
 # Every company gets an individual page; the per-company exports run for all of
 # them. TODO(content): per-company page content/design is only finalized for
@@ -16,8 +30,24 @@ companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, 
 stories:
   altruism: true
   performance: true
-  power: true            # cross-company correlation — keep the full set
+  power:
+    enabled: true
+    companies:
+      [
+        google,
+        amazon,
+        meta,
+        palantir,
+        coinbase,
+        netflix,
+        shopify,
+        stripe,
+        airbnb,
+        brex,
+        snap,
+        hubspot,
+      ]
   benefits: true
-  dei: true              # to curate: replace `true` with {enabled: true, companies: [...]}
+  dei: true # to curate: replace `true` with {enabled: true, companies: [...]}
   netflix-culture: true
-  profiles: true         # per-company AI narrative on /explore/[company] (not a story export)
+  profiles: true # per-company AI narrative on /explore/[company] (not a story export)
