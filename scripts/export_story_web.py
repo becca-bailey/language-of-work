@@ -10,18 +10,11 @@ import re
 import pandas as pd
 
 from lowork.company import CompanyProfile
-from lowork.config import WEB_DATA_DIR, DATA_DIR, ROOT, TOP_K, company_dir
+from lowork.config import WEB_DATA_DIR, DATA_DIR, ROOT, TOP_K, company_dir, load_companies
 from lowork.dei import COUNTER_DEI_REGISTERS, DEI_REGISTERS
 from lowork.io import read_json, write_json
 
-STORY_COMPANIES = ["google", "amazon", "meta", "palantir", "coinbase", "netflix",
-                   "shopify", "stripe", "airbnb", "brex", "snap"]
-DEI_VIEW_EXCLUDED: set[str] = set()
-# Meta careers copy scores high on inclusion embeddings without workforce DEI rhetoric.
-ENVELOPE_EXCLUDED: set[str] = {"meta"}
-# Palantir's idealism language has a distinct civilizational-mission quality that
-# doesn't fit the standard idealism arc narrative; exclude until it has its own framing.
-ALTRUISM_EXCLUDED: set[str] = {"palantir"}
+STORY_COMPANIES = load_companies()
 INVESTOR_COVERAGE_START = 2020
 
 # Registers that signal active DEI language (pro-inclusion stance)
@@ -508,8 +501,6 @@ def _build_envelopes(companies: list[str]) -> list[dict]:
     """Per-company envelope series for fast client access."""
     envelopes: list[dict] = []
     for company in companies:
-        if company in ENVELOPE_EXCLUDED:
-            continue
         path = company_dir(company) / "dei_scores.parquet"
         if not path.exists():
             continue
@@ -803,7 +794,6 @@ def _altruism_split(company: str) -> tuple[list[dict], list[dict]] | None:
 
 
 def export_altruism(companies: list[str]) -> None:
-    companies = [c for c in companies if c not in ALTRUISM_EXCLUDED]
     company_series = []
     series_by_company: dict[str, list[dict]] = {}
     quotes_by_company: dict[str, dict] = {}
@@ -890,7 +880,7 @@ def export_altruism(companies: list[str]) -> None:
 
 
 def export_dei(companies: list[str]) -> None:
-    dei_companies = [c for c in companies if c not in DEI_VIEW_EXCLUDED]
+    dei_companies = companies
     sources: dict[str, dict] = {}
 
     # Careers: register-derived shares + envelope from dei_scores.parquet

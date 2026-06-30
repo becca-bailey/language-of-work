@@ -1,0 +1,34 @@
+{
+  "company": "snap",
+  "displayName": "Snap",
+  "headline": "Snap pitches itself as kind, creative, and purposeful — with DEI language that surged in 2020–21 and has since softened toward 'belonging.'",
+  "identity": "Snap has consistently valued kindness, creativity, and a human-progress mission across every year of careers copy, anchored by the recurring line 'We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.' DEI language, which was essentially absent in 2018–19, expanded sharply in 2020–21 — with explicit terms like 'unconscious bias training,' 'LGBTQ+,' and 'allyship' — but has since shifted register: by 2025–26 the framing moves away from structural process language toward 'belonging' and perspective-taking ('when we can see the world from other people's perspectives, we come to understand why DEI is so essential'). Altruism scores, which peaked in 2020 (z-score +1.13), fell to their lowest point in 2021 (z-score -0.94) and again in 2024 (z-score -1.96), suggesting the warmth-and-purpose tone is present but uneven.",
+  "fit": "You might be a good fit if you are someone who connects with values-first language — 'kind, smart, and creative' as a lived daily framework — and are comfortable in a culture that frames diversity through empathy and community rather than structural accountability, and who finds meaning in a camera-and-expression product mission.",
+  "sections": [
+    {
+      "heading": "Core Identity: Kind, Smart, Creative",
+      "body": "From 2018 onward, Snap's careers copy has returned to the same three-word value set — 'We are Kind. We are Creative. We are Smart.' — with remarkably little variation. The 2026 pages still invoke 'our values of kind, smart, and creative every day.' This consistency is the strongest signal in the data: whatever else changes, this framing does not.\n\nThe mission statement — 'reinventing the camera' as 'our greatest opportunity to improve the way people live and communicate' — also persists across the full date range, appearing in 2018 and again verbatim in 2026. Techno-optimism scores are modest overall (raw scores near zero in most years), suggesting the camera framing is more about human connection than technology boosterism."
+    },
+    {
+      "heading": "DEI: A Sharp Rise, Then a Reframe",
+      "body": "In 2018 and 2019, the DEI facet registers show all chunks coded 'absent' — no explicit diversity language appears. That changed dramatically in 2020, when inclusion scores jumped (z-score +1.08, raw mean 0.65) and the copy introduced a full DEI section with language like 'We take a broad view of diversity, ranging from race and gender, to LGBTQ+, disability, age, socio-economic status' and references to 'unconscious bias training' and 'allyship training.' The 2021 pages held that level (z-score +1.15).\n\nBy 2024, inclusion scores fell sharply (z-score -1.50), and the 2024 snapshot is notable for being captured primarily in Spanish — a thin data point that limits interpretation. In 2025–26, inclusion language rebounds to moderate levels but the register shifts: 'aspirational_vague' and 'belonging_culture' dominate, replacing the more specific demographic and process language of 2020–21. The 2026 copy introduces a new heading — 'Our commitment to belonging' — and the phrase 'We believe in hiring the most talented team members and creating an environment where everyone belongs,' which blends meritocracy and inclusion signals in a way the earlier copy did not.\n\nTerms like 'bias' and 'LGBTQ' appear only in 2020–21 and drop out thereafter; 'diversity,' 'disability,' and 'women' persist through 2026."
+    },
+    {
+      "heading": "Performance and Wellbeing: Quiet but Growing",
+      "body": "Performance language was below peer average in 2018 (z-score -0.33) and stayed near neutral through 2021, but spiked in 2025 (z-score +1.97), driven by new copy like 'We solve problems through action, make high-quality decisions, and think with a strategic mindset' and 'We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.' This suggests a more execution-oriented self-description emerged in the mid-2020s alongside the softer values language.\n\nWellbeing language was the lowest-scoring facet in 2018 (z-score -1.52) but has climbed steadily, reaching +0.76 in 2025 and +1.00 in 2026, with benefits copy ('paid parental leave, comprehensive medical coverage, emotional and mental health support programs') and ERG descriptions ('SnapParents supports all parents, guardians, and caregivers') becoming more prominent. The overall picture is a company whose careers copy has grown more multidimensional over time, layering performance expectations and wellbeing promises onto its original kindness-and-creativity core."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

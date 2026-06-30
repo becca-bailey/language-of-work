@@ -1,0 +1,34 @@
+{
+  "company": "amazon",
+  "displayName": "Amazon",
+  "headline": "Amazon's careers copy sells relentless invention and a high performance bar above almost everything else — consistently, across nearly two decades.",
+  "identity": "Amazon has consistently valued customer obsession, high-bar performance, invention, and meritocratic talent standards across every year of data from 2007 to the mid-2020s. DEI language is the notable exception: it was essentially absent through 2013, appeared in force by 2016–2018 with explicit demographic terms ('gender, race, age, national origin, sexual orientation, disability') and named employee groups (BEN, LGBTQ mentoring), but the specific demographic and structural-process registers largely dropped back out after 2018, with 'diversity' and 'women' persisting in the copy but framed instrumentally — 'diversity helps us build better teams that obsess over and better represent our global customer base' — rather than as standalone commitments.",
+  "fit": "You might be a good fit if you are someone who self-identifies as a builder, thrives under 'relentlessly high standards — many people may think these standards are unreasonably high,' and finds energy in the Day One framing of perpetual reinvention rather than in stability, work-life balance language, or explicit community belonging — none of which feature prominently in the copy at any point.",
+  "sections": [
+    {
+      "heading": "A Stable Core: Performance, Invention, and the High Bar",
+      "body": "From the earliest archived page in 2007 — 'High Hiring Bar: When making a hiring decision we ask ourselves: Will I admire this person? Is this person a superstar?' — through 2016's 'Leaders have relentlessly high standards — many people may think these standards are unreasonably high,' the performance axis scores among the highest of any facet and stays there. The meritocracy signal tracks closely: z-scores run positive in 2007 (+0.74), 2011 (+0.84), and spike to +1.45 in 2016, the year the Leadership Principles were laid out in full on the careers site.\n\nInvention language is equally durable. The 2011 copy calls Amazon 'a place where builders can build' and quotes Bezos on 'random forests, naïve Bayesian estimators, RESTful services.' By 2013 the page declares 'invention has become second nature at Amazon, and in my view the team's pace of innovation is even accelerating.' Techno-optimism z-scores are above +1.1 in 2007, 2011, and 2013, dipping only in the thin 2014 snapshot (just three chunks of content, flagged as thin in the data).\n\nWellbeing and altruism scores are consistently low or near zero across all years, suggesting the copy has never leaned on employee wellness, work-life balance, or social-good framing as recruiting hooks."
+    },
+    {
+      "heading": "DEI: A Surge, Then a Narrowing",
+      "body": "Before 2013, DEI registers are coded 'absent' in every chunk. The first named partnership appears in 2013 — a Lean In affiliation for women — but the register is still classified aspirational-vague at best. By 2016 the copy includes a dedicated 'Diversity at Amazon' section listing 'gender, race, age, national origin, sexual orientation, culture, education' as sources of diverse perspective, and the inclusion z-score jumps to +0.98. The 2017–2018 window adds the most specific language in the dataset: named affinity groups (BEN for Black employees, an LGBTQ mentoring group), and 'disability' appears explicitly.\n\nAfter 2018, those specific demographic terms largely disappear from the high-scoring chunks. The phrase that anchors later years — 'We track the representation of women and underrepresented communities because we know that diversity helps us build better teams' — frames diversity as a business input rather than a rights or belonging commitment. The structural-process and explicit-demographic registers score zero in most years; the dominant register across the full timeline is 'absent,' with aspirational-vague appearing only occasionally. Readers should treat the post-2018 DEI signal as moderate and instrumentally framed, not as evidence of a deep belonging culture in the copy."
+    },
+    {
+      "heading": "Tone and Trajectory: Day One Forever",
+      "body": "The emotional register of the copy has shifted subtly over time. The 2008 page is the warmest in the dataset — 'It's your day to be a part of something great. A day to take a first step. A day to look forward to new challenges' — with altruism and mission scores briefly elevated. By 2016 onward the tone is more operational: Leadership Principles are listed with behavioral definitions, and phrases like 'Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion' dominate.\n\nThe 'Day One' framing — introduced in 2008 and still present in later years — is the one constant emotional anchor. It signals perpetual urgency and the rejection of complacency rather than warmth or community. The 2014 data point is too thin (two to three chunks) to draw conclusions from and should be discounted. Overall, the careers copy has grown more detailed and principle-heavy over time without meaningfully softening its performance-first identity."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

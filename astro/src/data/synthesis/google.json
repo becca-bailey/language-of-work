@@ -1,0 +1,34 @@
+{
+  "company": "google",
+  "displayName": "Google",
+  "headline": "Google's careers copy pitches world-changing ambition, high-bar talent, and diversity — with DEI language that grew sharply after 2017 and altruism that has always run beneath the surface.",
+  "identity": "Google has consistently valued high performance, diverse talent, and a sense of civilizational purpose, with the careers copy leaning hardest on phrases like 'we hire great people,' 'outsized accomplishments,' and 'change the world' across nearly every year from 2005 onward. Inclusion language was present from the start but remained aspirational and vague through the early years; it became structurally explicit only after 2017, when terms like 'inclusion,' 'bias,' and 'equity' entered the copy and persisted through 2025. Altruism scores, by contrast, were notably low in 2008–2010 — years when the archived pages were thin and the copy stripped back to bare recruiting boilerplate — suggesting that the world-betterment framing is real but not unconditional.",
+  "fit": "You might be a good fit if you are someone who describes themselves as 'bright' and 'passionate,' comfortable with the expectation of 'outsized accomplishments,' and drawn to a workplace that frames its work as potentially transforming 'how people live their lives' — and who also wants explicit institutional language around equity, bias-challenging, and belonging, which the copy has emphasized consistently since 2017.",
+  "sections": [
+    {
+      "heading": "Performance and Talent: The Constant Core",
+      "body": "From 2005 through the most recent data, the highest-scoring sentences on the performance and meritocracy axes are nearly identical: 'we hire great people and encourage them to make their dreams a reality' and 'the sort of creativity that only comes about when talented people from diverse backgrounds approach problems from varying perspectives.' Performance z-scores peaked in 2007 (z = 1.71) and 2008 (z = 1.31), dipped in 2009–2010 when the archived pages were sparse, then recovered. The meritocracy axis follows the same pattern, peaking in 2007–2008 and remaining near or above peer average in most other years.\n\nThe 'Googlers have been Olympic athletes and Jeopardy champions; professional chefs and independent film makers' line, present as early as 2005, signals that the talent bar is framed as multidimensional rather than narrowly technical — though the copy never abandons the 'great people' shorthand. The 2010 tagline 'Do more. A lot more.' and its accompanying line 'When everyone in the company is reaching out, not up, good ideas can go a lot farther' briefly shifted the framing toward flat hierarchy and collective output, but that language did not persist."
+    },
+    {
+      "heading": "DEI Language: Vague Early, Structural Later",
+      "body": "The DEI facet shows a clear two-phase pattern. From 2005 to roughly 2016, the dominant register is 'aspirational_vague' — phrases like 'diverse backgrounds' and 'globally diverse workforce' appear, but explicit demographic categories, structural commitments, or named processes are absent. The term 'affirmative' appears only from 2012 to 2016 ('Google is proud to be an equal opportunity workplace and is an affirmative action employer'), then disappears from the data.\n\nAfter 2017, the lexicon shifts materially. 'Inclusion' enters and stays through 2025 (max score 0.69). 'Bias' appears from 2017 onward ('We also know challenging bias — inside and outside our walls — is the right thing to do'). 'Equity' is present from 2012 but reaches its most explicit form in later years: 'We will continue to build with and for underrepresented groups where structural and systemic barriers to belonging are the highest.' The inclusion axis z-score, which was negative in 2005 (z = -0.90), climbs and stabilizes above peer average in the later years visible in the data. The signal here is reasonably strong given the volume of chunks in those years."
+    },
+    {
+      "heading": "Altruism and Mission: Real but Intermittent",
+      "body": "The altruism and mission_rights axes both show the 'Can one conversation change the world?' and 'ideas that transform how people live their lives' framing as anchor copy from 2005 through at least 2007. Altruism z-scores are near zero or slightly negative in those years — meaning Google was roughly at peer average, not an outlier. The scores drop sharply in 2008–2010, but those years are flagged as thin (as few as 1–2 chunks), so the drop likely reflects sparse page captures rather than a deliberate rhetorical retreat.\n\nThe wellbeing axis tells a similar story: a genuine early emphasis on 'great jobs, but great lives' and 'collaboration, creativity, health, and happiness' that goes quiet in the sparse middle years and is harder to track in the truncated later data. Techno-optimism scores are modest throughout — Google's careers copy does not lean heavily on technology-as-salvation rhetoric; the mission framing is more about information access and human potential than engineering triumphalism."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

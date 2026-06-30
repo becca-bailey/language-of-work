@@ -156,6 +156,72 @@ export async function loadDei(company: string): Promise<DeiData | null> {
   }
 }
 
+export interface SynthesisSection {
+  heading: string;
+  body: string;
+}
+
+export interface SynthesisData {
+  company: string;
+  displayName?: string;
+  headline: string | null;
+  identity?: string | null;
+  fit?: string | null;
+  sections: SynthesisSection[];
+  model: string;
+  promptVersion: number;
+  facetsUsed: string[];
+  generatedAt: string;
+}
+
+export interface FingerprintAxis {
+  axis: string;
+  label: string;
+  zscore: number;
+  recentZscore: number;
+  recentYear: number;
+  nYears: number;
+}
+
+export interface FingerprintData {
+  company: string;
+  displayName?: string;
+  axes: FingerprintAxis[];
+}
+
+// Per-company values fingerprint: one summary z-score per axis (vs. peers),
+// written by scripts/export_web.py. Returns null when not yet generated.
+export async function loadFingerprint(
+  company: string
+): Promise<FingerprintData | null> {
+  try {
+    const raw = await fs.readFile(
+      path.join(DATA_DIR, "fingerprints", `${company}.json`),
+      "utf-8"
+    );
+    return JSON.parse(raw) as FingerprintData;
+  } catch {
+    return null;
+  }
+}
+
+// AI narrative precomputed by scripts/synthesize_company.py. Lives outside the
+// per-company export dir (synthesis/<company>.json) so it isn't part of its own
+// pipeline input set. Returns null when no narrative has been generated.
+export async function loadSynthesis(
+  company: string
+): Promise<SynthesisData | null> {
+  try {
+    const raw = await fs.readFile(
+      path.join(DATA_DIR, "synthesis", `${company}.json`),
+      "utf-8"
+    );
+    return JSON.parse(raw) as SynthesisData;
+  } catch {
+    return null;
+  }
+}
+
 export function compareableAxes(
   companies: CompanyManifestEntry[]
 ): string[] {

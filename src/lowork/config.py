@@ -61,3 +61,18 @@ def company_dir(company: str) -> Path:
     d = DATA_DIR / company
     d.mkdir(parents=True, exist_ok=True)
     return d
+
+
+PIPELINE_CONFIG = ROOT / "pipeline.yaml"
+
+
+def load_companies(path: Path = PIPELINE_CONFIG) -> list[str]:
+    """The company universe, read from pipeline.yaml.
+
+    Single source of truth for "which companies exist." The pipeline passes an
+    explicit company set to each stage; scripts use this only as the default for
+    standalone CLI runs, so adding a company means editing pipeline.yaml alone.
+    """
+    import yaml
+
+    return list(yaml.safe_load(path.read_text())["companies"])

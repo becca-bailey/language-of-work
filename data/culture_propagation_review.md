@@ -105,15 +105,15 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.718 Palantir  2026  You are not evaluated by distant executives — you are judged by outcomes.
 - [ ] 0.599 Netflix   2009  Hard Work – Not Relevant• We don’t measure people by how many hours they work or how much they are in the office• We do 
 - [ ] 0.560 Palantir  2026  We optimize for impact, not consensus.
+- [ ] 0.538 HubSpot   2024  That’s why, as our Culture Code states, we’ve always believed that results matter more than when or where they’re produc
+- [ ] 0.532 HubSpot   2025  Remote-first, trust-driven, and results-oriented - impact matters more than where you sit.
+- [ ] 0.532 HubSpot   2026  Remote-first, trust-driven, and results-oriented - impact matters more than where you sit.
 - [ ] 0.508 Netflix   2017  Of course, to be great, most of us have to put in considerable effort, but hard work is not how we measure effectiveness
 - [ ] 0.508 Netflix   2020  Of course, to be great, most of us have to put in considerable effort, but hard work and long hours is not how we measur
 - [ ] 0.491 Shopify   2024  We operate on low process and high trust, and trade on impact.
 - [ ] 0.491 Shopify   2023  We operate on low process and high trust, and trade on impact.
 - [ ] 0.487 Stripe    2021  We believe in performance management and feedback, but we’re not rigid in terms of a career paths and box checking.
 - [ ] 0.487 Stripe    2022  We believe in performance management and feedback, but we’re not rigid in terms of a career paths and box checking.
-- [ ] 0.487 Stripe    2020  We believe in performance management and feedback, but we’re not rigid in terms of a career paths and box checking.
-- [ ] 0.479 Shopify   2025  We default to the most important work rather than adhering to prescriptive roles – and we hire the same way.
-- [ ] 0.474 Airbnb    2015  Success is measured by pride, not credit.
 
 ## Only the best / A-players
 - [✓] 0.764 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
@@ -175,12 +175,12 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.746 Netflix   2017  Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.
 - [✓] 0.746 Netflix   2019  Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.
 - [✓] 0.746 Netflix   2018  Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.
+- [ ] 0.560 HubSpot   2025  We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life "fit" for us and the people
+- [ ] 0.560 HubSpot   2020  We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life "fit" for us and the people
+- [ ] 0.560 HubSpot   2024  We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life "fit" for us and the people
 - [ ] 0.501 Coinbase  2024  We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually.
 - [ ] 0.447 Shopify   2012  We don't have a dress code, you can start work late in the morning, and play video games whenever you need a break.
 - [ ] 0.434 Shopify   2014  We don’t believe in silly rules like working 9 to 5 every day.
 - [ ] 0.434 Shopify   2013  We don’t believe in silly rules like working 9 to 5 every day.
 - [ ] 0.393 Meta      2022  Our philosophy of everyday flexibility allows people and teams to determine patterns of work, collaboration, and connect
 - [ ] 0.386 Meta      2022  We know there’s no one-size-fits-all approach to flexibility that allows everyone to manage work and life, which is why 
-- [ ] 0.384 Stripe    2019  We don’t care about unnecessary face time and Stripes have a great deal of flexibility around when and where they work b
-- [ ] 0.384 Stripe    2021  We don’t care about unnecessary face time and Stripes have a great deal of flexibility around when and where they work b
-- [ ] 0.384 Stripe    2022  We don’t care about unnecessary face time and Stripes have a great deal of flexibility around when and where they work b

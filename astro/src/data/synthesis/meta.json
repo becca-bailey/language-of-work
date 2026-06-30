@@ -1,0 +1,34 @@
+{
+  "company": "meta",
+  "displayName": "Meta",
+  "headline": "Meta's careers copy centers on speed, scale, and world-changing impact — with DEI language that rose sharply in 2013 and has since faded back.",
+  "identity": "Meta has consistently valued high performance, civilizational-scale mission, and individual impact across its careers copy, with meritocracy framing ('move fast,' 'trailblazers, hackers and pioneers,' 'solve challenging problems') present from the earliest archived pages in 2009 through the most recent data. Altruism and mission language — 'Facebook was created to make the world more open and connected, not just to build a company' — has been a durable thread, though it dipped sharply in 2012 when the archived copy was thin and largely stripped of narrative. DEI-specific language spiked notably in 2013 ('we value diversity on an individual level,' 'be your authentic selves') but the register data shows it coded as 'absent' in nearly every year before and after, suggesting that peak did not persist.",
+  "fit": "You might be a good fit if you are energized by large-scale technical problems, comfortable with explicit speed pressure ('move fast and don't mess around'), and motivated by framing your work as a social movement rather than a job — the copy consistently reaches for people who want 'enormous impact' and are unbothered by the expectation that they will 'break things' in pursuit of it.",
+  "sections": [
+    {
+      "heading": "Speed and Performance: The Constant Core",
+      "body": "From 2009 onward, performance-oriented language has been the most stable signal in Meta's careers copy. The 2009 z-score for performance was +1.49, among the highest in the dataset, anchored by lines like 'We need help from people who like to move fast, tackle the big stuff, and have an immediate impact.' The 2013 copy made this explicit doctrine: 'We have a saying: Move fast and break things. The idea is that if you never break anything, you're probably not moving fast enough.' Performance scores dipped in 2011–2012, but those years also had very thin data (3–4 chunks), so the signal is weak rather than indicative of a real shift. By 2013 the z-score rebounded to +1.50, matching the 2009 peak.\n\nMeritocracy framing tracks closely with performance throughout. The copy consistently recruits for individual capability — 'trailblazers, hackers and pioneers' — rather than team fit or collaborative process. Autonomy appears as a selling point as early as 2011: 'why we emphasize freedom and autonomy inside the company.'"
+    },
+    {
+      "heading": "Mission Language: Durable but Variable in Intensity",
+      "body": "Altruism and mission-rights scores were positive in 2009 (+0.49 z-score for mission_rights) and climbed again in 2013 (+0.81), when the copy added explicit value statements: 'We believe that a more open world is a better world' and 'Facebook was created to make the world more open and connected, not just to build a company.' These framing lines appeared under headings like 'Build Social Value' and 'Be Open,' giving the mission language structural prominence.\n\nThe 2012 data is too sparse (2–3 chunks, flagged thin) to draw conclusions, but mission scores collapsed to a z-score of -2.25 that year — likely an artifact of thin coverage rather than a deliberate messaging change. Outside that gap, the civilizational-mission tone has been consistent, if not always at peak intensity."
+    },
+    {
+      "heading": "DEI Language: A 2013 Peak That Did Not Hold",
+      "body": "The inclusion z-score jumped to +1.01 in 2013 — the only year it was clearly positive — driven by copy that named diversity explicitly: 'At Facebook, we value diversity on an individual level,' 'dedicated to creating an environment where people can be their authentic selves,' and a direct mention of Equal Employment Opportunity and Affirmative Action status. The DEI register data codes every other year in the dataset as 'absent,' meaning the copy did not use explicit demographic, structural-process, or belonging-culture language in those years.\n\nBy 2015–2016, the inclusion score had retreated to roughly the 2009–2010 range, and the register remained 'absent.' This is a language observation only: the careers copy moved toward and then away from explicit DEI framing within roughly a two-year window around 2013. Whether later years (the data notes '+4 more' and '+11 more' entries not fully shown) reversed this trend cannot be confirmed from the data provided."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

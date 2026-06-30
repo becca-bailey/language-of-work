@@ -14,9 +14,6 @@ from lowork.io import read_json, write_json
 
 REGISTER_KEYS = [f"register_{r}" for r in DEI_REGISTERS]
 
-# Companies with DEI data on disk but excluded from the public DEI view
-DEI_VIEW_EXCLUDED: set[str] = set()
-
 
 def update_manifest(company: str) -> None:
     manifest_path = WEB_DATA_DIR / "companies.json"
@@ -29,10 +26,7 @@ def update_manifest(company: str) -> None:
     existing = next((c for c in manifest["companies"] if c["id"] == company), None)
     companies = [c for c in manifest["companies"] if c["id"] != company]
     axes = set(existing["axes"]) if existing else set()
-    if company not in DEI_VIEW_EXCLUDED:
-        axes.add("dei")
-    else:
-        axes.discard("dei")
+    axes.add("dei")
     axes.discard("control")
     companies.append({
         "id": company,

@@ -20,15 +20,14 @@ import pandas as pd
 
 from lowork.axes import project
 from lowork.company import CompanyProfile
-from lowork.config import WEB_DATA_DIR, AXES_DIR, ROOT, TOP_K, company_dir
+from lowork.config import WEB_DATA_DIR, AXES_DIR, ROOT, TOP_K, company_dir, load_companies
 from lowork.io import read_json, write_json
 
 STORIES = WEB_DATA_DIR / "stories"
 
 # ONE set for ALL THREE metrics (no per-metric subsets). Every company is scored on all
 # three axes. Basecamp/Twitter are documented cases elsewhere, not in this aggregate.
-COHORT = ["google", "amazon", "meta", "palantir", "coinbase", "netflix",
-          "shopify", "stripe", "airbnb", "brex", "snap"]
+COHORT = load_companies()
 
 # Normalize/display within the window of real multi-company coverage.
 START_YEAR = 2013

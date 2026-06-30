@@ -1,0 +1,34 @@
+{
+  "company": "airbnb",
+  "displayName": "Airbnb",
+  "headline": "Airbnb's careers copy centers on a civilizational belonging mission, collective entrepreneurship, and caring hospitality — with DEI language peaking around 2019–2023 then narrowing.",
+  "identity": "Airbnb has consistently valued mission-driven belonging, collective teamwork, and an entrepreneurial 'cereal entrepreneur' spirit across every year of its careers copy. The altruism and inclusion signals, which were already present in 2015 phrases like 'Create a global experience of belonging for anyone, anywhere,' surged sharply in 2019 with explicit diversity language ('welcomes candidates with backgrounds that are traditionally underrepresented in tech') and peaked through roughly 2023 — but the DEI term 'underrepresented' and 'diversity' both drop out of the data after 2023, and the inclusion z-score fell from a high of +1.17 in 2019 to thin or negative readings by 2020 and beyond, suggesting that register has wavered in recent years. Performance and mission-orientation have been the most stable threads throughout.",
+  "fit": "You might be a good fit if you are someone who genuinely internalizes a large social mission ('the world is counting on you'), can hold both warm hospitality ('caring, open, and encouraging to everyone we work with') and bold execution ('think scary big, get shit done') at the same time, and find meaning in collective rather than individual achievement.",
+  "sections": [
+    {
+      "heading": "The Belonging Mission: Constant but Evolving",
+      "body": "From 2015 onward, Airbnb's careers copy has anchored itself to a single civilizational idea: belonging. The 2015 pages open with 'Create a global experience of belonging for anyone, anywhere' and 'Serve others so they feel they belong.' That framing never disappears, but it shifts register over time.\n\nThrough 2016–2018 the copy is relatively sparse (several years show thin data with only 4–5 chunks) and the belonging language stays abstract and internal — focused on team culture rather than external diversity commitments. In 2019 a dedicated 'Include everyone' section appears with the line 'Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech,' and the inclusion z-score jumps to +1.17, its highest point in the dataset. The terms 'diversity' and 'underrepresented' persist through 2023 per the phrase-tracking data, then disappear. The altruism z-score follows a similar arc: near-zero in 2015, negative through 2016–2018, then a clear positive spike in 2019–2020 (+1.03) before the later years are truncated in the data.\n\nThe net read: belonging as a concept is permanent in this copy; belonging as an explicit DEI commitment was loudest 2019–2023 and appears to have softened since."
+    },
+    {
+      "heading": "Entrepreneurship, Performance, and the 'Cereal Entrepreneur'",
+      "body": "Alongside the mission language, Airbnb's copy has consistently asked candidates to be bold operators. The 'Be a Cereal Entrepreneur' value — named after the founders' early hustle selling cereal boxes — appears in every era, with phrasings like 'Think scary big. Volunteer for impossible situations. Get shit done' (2015) evolving into 'We're determined and creative in transforming our bold ambitions into reality' (2019).\n\nThe performance z-score is the highest single reading in the dataset in 2019 (+2.01), driven by copy that pairs ambition ('audacious, incredibly rewarding mission') with warmth ('caring, open, and encouraging'). This combination — high performance expectations wrapped in hospitality norms — is the most distinctive feature of Airbnb's self-description relative to peers.\n\nTechno-optimism scores are consistently low to negative across all years, which is notable for a tech company. The copy almost never invokes technology as a value in itself; the frame is human connection, not platform or product."
+    },
+    {
+      "heading": "Wellbeing and the 2020 Anomaly",
+      "body": "Wellbeing language is generally muted in Airbnb's careers copy — z-scores hover near zero or negative from 2015 through 2019. The one sharp exception is 2020, where the wellbeing z-score spikes to +2.56, the highest reading of any facet in any year. The copy that year is dominated by a single 'Live your best life' section: 'We want everyone to be healthy, travel often, get time to give back, and have the financial resources and support they need.' This is also a thin-data year (only 2 chunks), so the spike reflects a page that was stripped down to benefits messaging — likely during the pandemic period — rather than a sustained strategic shift. Readers should weight this year cautiously.\n\nOutside that anomaly, the careers copy does not lean heavily on employee wellbeing as a selling point. The dominant pitch is mission and culture, not perks or work-life balance."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

@@ -1,0 +1,34 @@
+{
+  "company": "hubspot",
+  "displayName": "HubSpot",
+  "headline": "HubSpot pitches itself as a culture-obsessed, mission-driven company where empathy, growth, and belonging are the recurring selling points.",
+  "identity": "HubSpot has consistently valued mission-driven purpose, belonging and culture transparency, employee growth, and empathy across its careers copy from 2013 through the early 2020s. The altruism and mission language was present from the start — 'transforming the way the world does marketing' (2013), 'a once in a lifetime company' (2015) — and has remained a backbone of the pitch. What has wavered is explicit DEI language: it was essentially absent through 2018, surged sharply in 2019 with detailed programmatic content ('53 Little Things You Can Do to Impact Diversity at Your Company'), then the data shows 'inclusion' persisting as a term through 2024 while more specific terms like 'bias,' 'underrepresented,' and 'accessibility' appear only in 2019, suggesting the peak specificity of DEI copy was concentrated in that single year.",
+  "fit": "You might be a good fit if you are someone who responds to culture as a product to be iterated on — HubSpot's copy literally frames its 'Culture Code' as software with bugs to fix — and who wants to be described as 'remarkable,' empathetic, and driven by a big mission rather than purely by technical craft or compensation.",
+  "sections": [
+    {
+      "heading": "Culture as the Core Pitch",
+      "body": "From the earliest archived pages, HubSpot's careers copy leads with culture rather than product or compensation. The 2013 copy opens with 'We don't do business-as-usual at HubSpot' and frames hiring as building a movement. By 2016, the copy had formalized this into named values — 'Respect,' 'Balance,' 'Growth' — with lines like 'we believe it's the ultimate sign of respect to empower employees to grow into entrepreneurs and leaders.'\n\nThe 2018 pages went furthest in making culture itself the subject, with a long piece titled 'How We Fixed a Critical Bug in HubSpot's Culture Code' that explicitly analogizes culture-building to software engineering: 'building culture is a lot like building a product.' This framing — culture as something you ship, test, and patch — is distinctive and recurs across multiple years. The HEART acronym (Humble, Empathetic, Adaptable, Remarkable, Transparent) is the artifact of that effort, with 'Empathy' replacing 'Effective' as a named value around 2018."
+    },
+    {
+      "heading": "DEI Language: A Sharp 2019 Spike, Then Narrowing",
+      "body": "DEI language was effectively absent from HubSpot's careers copy through 2017. The DEI register data shows 'absent' dominating chunk classifications in 2013–2017, with only occasional 'belonging_culture' framing (e.g., 'freedom and openness,' 'work-life balance'). The first explicit demographic signal appears in 2016 with a citation of a 'Best Workplace for Women' award, but no structural DEI content.\n\nIn 2019, the copy expanded dramatically — 109 chunks versus 43 in 2018 — and included a detailed listicle of 53 concrete D&I actions for employees, covering unconscious bias training, Textio job-description audits, ERG support, and interviewing on 'competencies and potential vs. strictly past experience.' Terms like 'bias,' 'underrepresented,' 'accessibility,' and 'biased' all appear exclusively in 2019. The term 'inclusion' persists through 2024, but the granular, process-oriented DEI content appears to have been a 2019 peak. The signal beyond 2019 is partially truncated in the data, so the post-2021 trajectory should be read cautiously."
+    },
+    {
+      "heading": "Growth, Autonomy, and What the Copy Asks of You",
+      "body": "Across all years, the careers copy consistently pairs mission language with an offer of autonomy and growth: 'We hire remarkable people like you and give you the responsibility and freedom you need' (2016); 'education reimbursement and a free books program to employee-led classes on everything from Photoshop to public speaking' (2016–2017). The performance axis scores are above peer average in 2013 and 2016, suggesting the copy does ask for high output — 'inspired to work as hard and smart as my peers' (2015) — but frames it as peer inspiration rather than pressure.\n\nWellbeing language was below peer average in 2013 and only crossed into positive territory by 2019, when work-life balance and inclusive team events entered the copy more explicitly. The perks pitch ('unlimited vacation, free books & beers, and a 24/7 snack wall') appears verbatim from 2014 through 2015 and then fades, suggesting the company moved away from perk-listing toward culture-narrative as its primary recruitment hook."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

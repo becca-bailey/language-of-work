@@ -1,0 +1,34 @@
+{
+  "company": "coinbase",
+  "displayName": "Coinbase",
+  "headline": "Coinbase pitches itself as a mission-driven builder culture chasing an open global financial system — with DEI language that briefly appeared and then faded.",
+  "identity": "Coinbase has consistently valued a builder identity, performance-oriented optimism, and a civilizational mission — framing itself from 2013 onward as 'a community of builders — engineers, designers, and entrepreneurs — who love what we do' pursuing 'an open financial system for the world.' The mission and performance language spiked notably in 2018 (mission_rights zscore +1.59, performance zscore +0.80) when the copy expanded to articulate values explicitly as 'transparent, joyful, curious, and fast-moving.' DEI-adjacent language, however, has not persisted: inclusion scores were near or below peer average through most years, the term 'belonging' appeared only in 2021–2022, and by the later years in the data the DEI register returned to predominantly 'absent,' suggesting that brief window did not take hold in the careers copy.",
+  "fit": "You might be a good fit if you are a self-described optimist who 'see[s] opportunity where others see roadblocks,' comfortable running through brick walls on your way to success, and genuinely motivated by the idea of building financial infrastructure for the world rather than by workplace culture or social-impact framing.",
+  "sections": [
+    {
+      "heading": "A Stable Builder Identity, 2013–2017",
+      "body": "From the earliest archived pages through 2017, the careers copy was thin and nearly static. The same lines recurred verbatim across five years: 'We're a community of builders — engineers, designers, and entrepreneurs — who love what we do' and 'Do you regularly run through brick walls on your way to success?' The altruism and DEI scores were below peer average throughout this period (altruism zscore –1.22 every year 2013–2017; DEI registers coded 'absent' in nearly every chunk). The copy was sparse enough that most years are flagged as thin data, so the signal is weak — but the consistency of the same boilerplate suggests the company was not investing heavily in employer-brand messaging.\n\nTechno-optimism scores were modestly positive in 2013–2014 (zscores +0.67 and +1.00), driven by explicit bitcoin enthusiasm — 'Are you passionate about digital currency?' and references to rapid transaction growth — then drifted back toward the peer mean by 2017."
+    },
+    {
+      "heading": "The 2018 Expansion: Mission, Values, and a Performance Spike",
+      "body": "In 2018 the careers pages expanded substantially (from 2–7 chunks to 9–11) and the language shifted. The copy introduced an explicit mission statement — 'To create an open financial system for the world' — and a values section describing the culture as 'transparent, joyful, curious, and fast-moving.' Mission-rights language jumped to its highest zscore in the dataset (+1.59 in 2018). Performance and meritocracy scores also rose (performance zscore +0.80, meritocracy +0.95), anchored by the line 'we are building a team of smart, creative, passionate optimists, the kind of people who see opportunity where others see roadblocks.'\n\nAltruism also turned positive for the first time in 2018 (zscore +1.07), with the copy framing the mission as 'the highest leverage way to bring about more economic freedom, innovation, efficiency, and equality of opportunity in the world.' This is the clearest inflection point in the data: the company moved from a bare-bones recruiting page to a fuller identity statement, though the identity remained mission-and-performance-centric rather than culture- or people-centric."
+    },
+    {
+      "heading": "DEI: A Narrow Window, 2021–2022",
+      "body": "The DEI data shows inclusion scores that were near or below peer average from 2013 through at least 2020, with all chunks coded 'absent' on explicit demographic or structural-process registers in most years. The phrase 'belonging' appears in the lexicon data only from 2021 to 2022 (max score 0.52, example: 'See our commitment to belonging >'), suggesting a brief, surface-level addition to the copy rather than a sustained reorientation. No 'explicit_demographic' or 'structural_process' register entries appear in any year shown, and meritocracy scores consistently outpace inclusion scores across the full timeline.\n\nWellbeing language was similarly muted throughout — zscores hovering near zero or slightly negative in most years — indicating the careers copy has not leaned on employee wellness or work-life balance as a recruiting pitch. The overall picture is a company whose self-description centers on mission and builder identity, with DEI and wellbeing framing playing a minor and apparently receding role."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

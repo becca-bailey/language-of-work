@@ -1185,6 +1185,110 @@
               "thin": false
             }
           ]
+        },
+        {
+          "id": "hubspot",
+          "displayName": "HubSpot",
+          "years": [
+            {
+              "year": 2013,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4902,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3768,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2015,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3905,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "fractionPresent": 0.6,
+              "topkMean": 0.3737,
+              "nChunks": 15,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 0.7778,
+              "topkMean": 0.3737,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3706,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "fractionPresent": 0.7143,
+              "topkMean": 0.3457,
+              "nChunks": 14,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "fractionPresent": 1.0,
+              "topkMean": 0.52,
+              "nChunks": 19,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "fractionPresent": 0.9091,
+              "topkMean": 0.49,
+              "nChunks": 22,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 1.0,
+              "topkMean": 0.52,
+              "nChunks": 18,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 1.0,
+              "topkMean": 0.52,
+              "nChunks": 17,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 1.0,
+              "topkMean": 0.52,
+              "nChunks": 25,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 0.9412,
+              "topkMean": 0.499,
+              "nChunks": 17,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 0.8571,
+              "topkMean": 0.4606,
+              "nChunks": 7,
+              "thin": false
+            }
+          ]
         }
       ]
     },
@@ -1564,17 +1668,17 @@
       "score": 0.5742
     },
     {
-      "id": "ae54c3b352d4",
+      "id": "595f62b6c648",
       "stance": "move_fast",
       "stanceLabel": "Move fast",
       "stanceNote": "Speed and scale as hiring pitch.",
-      "company": "meta",
-      "displayName": "Meta",
-      "year": 2011,
+      "company": "hubspot",
+      "displayName": "HubSpot",
+      "year": 2025,
       "source": "careers",
-      "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
-      "heading": "Build stuff that will get used. Fast.",
-      "score": 0.5046
+      "text": "We trust amazing people to do amazing things. At HubSpot, you have ownership over work that directly impacts the business. You can move fast, and learn even faster.",
+      "heading": "Everyone's empowered to work autonomously.",
+      "score": 0.5143
     },
     {
       "id": "91ad4a3482a4",

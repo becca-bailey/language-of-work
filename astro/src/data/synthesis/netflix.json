@@ -1,0 +1,34 @@
+{
+  "company": "netflix",
+  "displayName": "Netflix",
+  "headline": "Netflix careers copy sells a high-performance, freedom-first culture where candor and personal responsibility matter more than rules or process.",
+  "identity": "Netflix has consistently valued high performance, freedom and responsibility, candor, and excellence across every era of its careers copy, from the early 2010s tagline 'we value high performance, freedom and responsibility' through the 2017–2019 expanded culture pages. Inclusion language was added meaningfully in 2017 — with a dedicated 'Inclusion' section listing behaviors like 'you intervene if someone else is being marginalized' — but the DEI data shows all registered chunks coded 'absent' through 2014, and the explicit terms 'diversity' and 'inclusion' only appear from 2019 and 2020 onward respectively, suggesting this thread arrived late and its staying power beyond 2025 is not confirmed by the data provided. Wellbeing language, nearly absent before 2017, spiked sharply that year (zscore +1.58) with concrete policy language around unlimited vacation and parental leave, then remained elevated through 2018, though the trajectory after that is truncated in the data.",
+  "fit": "You might be a good fit if you are energized by the phrase 'people over process,' comfortable with radical candor, and motivated by working alongside what the copy calls 'consistently amazing, talented colleagues' — the careers pages explicitly warn that the model 'works best for people who highly value consistent excellence in their colleagues,' and they frame outside job interviews as healthy rather than disloyal.",
+  "sections": [
+    {
+      "heading": "A Culture Pitch That Has Barely Changed",
+      "body": "From at least 2011 through the most recent data, Netflix careers copy has recycled a tight cluster of phrases: 'high performance,' 'freedom and responsibility,' 'candid and transparent,' and 'seek excellence.' The 2011 pitch — 'we pay top of market to attract and keep the high performers every company wants' — is structurally identical to the 2017–2019 version, which adds more elaboration but not a different message.\n\nThe performance z-score has stayed above the peer mean every year with sufficient data (0.45 in 2013, 0.68 in 2017, and the pattern holds through 2018). Meritocracy scores follow the same arc. The copy is unusually consistent: this is not a company whose self-description has drifted with cultural fashion in its core identity claims."
+    },
+    {
+      "heading": "Inclusion: A Real Addition, but a Late and Narrow One",
+      "body": "Before 2017, the DEI data shows every chunk coded 'absent' for explicit inclusion or demographic language. In 2017 a dedicated 'Inclusion' heading appeared with behavioral specifics — 'you focus on talent and our values, rather than a person's similarity to yourself,' 'you recognize we all have biases, and work to grow past them' — and the inclusion z-score jumped to +0.81. The term 'diversity' first appears in 2019; 'inclusion' as a standalone term first appears in 2020.\n\nBy 2018 the inclusion z-score had already pulled back to +0.63, and the framing shifted toward belonging-through-culture language ('our culture has been instrumental to our success') rather than structural or demographic commitments. The data does not extend far enough to confirm whether the 2020 addition of 'inclusion' to the core values list ('integrity, excellence, respect, inclusion, and collaboration') represents a durable shift or a temporary peak."
+    },
+    {
+      "heading": "Freedom as a Benefits Philosophy",
+      "body": "The wellbeing signal is worth noting because it arrives through the freedom frame rather than a conventional perks frame. Before 2017 the wellbeing z-score was negative or near zero. In 2017 it jumped to +1.58, driven by specific policy language: 'our vacation policy is take vacation,' 'our parental leave policy is take care of your baby and yourself,' and leaders are described as modeling vacation-taking. These are presented not as benefits but as expressions of the same freedom-and-responsibility philosophy that runs through every other section.\n\nThe techno-optimism signal peaked in 2017 (z-score +1.35) with language framing streaming as 'the third revolution' in entertainment history, then moderated in 2018 (+0.92). This civilizational framing of the business appeared briefly and prominently, then receded — the copy seems to have pulled back from grand historical claims without abandoning the performance-and-freedom core."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

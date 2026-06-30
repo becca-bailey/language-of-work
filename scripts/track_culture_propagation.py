@@ -21,18 +21,22 @@ import re
 import numpy as np
 import pandas as pd
 
-from lowork.config import ROOT, company_dir
+from lowork.company import CompanyProfile
+from lowork.config import ROOT, company_dir, load_companies
 from lowork.embeddings import EmbeddingStore
 from lowork.io import write_json
 from lowork.sentences import split_sentences
 
-# Netflix is the origin; the rest are potential adopters (cohort + new adopters).
-COMPANIES = ["netflix", "google", "amazon", "meta", "palantir", "coinbase",
-             "shopify", "stripe", "airbnb", "brex", "snap"]
-DISPLAY = {"netflix": "Netflix", "google": "Google", "amazon": "Amazon",
-           "meta": "Meta", "palantir": "Palantir", "coinbase": "Coinbase",
-           "shopify": "Shopify", "stripe": "Stripe", "airbnb": "Airbnb",
-           "brex": "Brex", "snap": "Snap"}
+# Netflix is the origin; the rest (the rest of the universe) are potential
+# adopters. The universe and display names come from pipeline.yaml / each
+# company's profile — no company is hardcoded here.
+COMPANIES = load_companies()
+if "netflix" in COMPANIES:  # ensure the origin sorts first
+    COMPANIES = ["netflix"] + [c for c in COMPANIES if c != "netflix"]
+
+
+def _display(company: str) -> str:
+    return CompanyProfile.load(company).display_name
 
 CONCEPTS: dict[str, dict] = {
     "talent_density": {
@@ -218,10 +222,11 @@ def main(threshold: float, review_top: int, companies: list[str] | None = None) 
             for i in np.argsort(-sims)[:review_top]:
                 review_rows.append((name, company, years[i], round(float(sims[i]), 3), texts[i][:120]))
 
+    display_names = {c: _display(c) for c in COMPANIES}
     write_json(ROOT / "data" / "culture_propagation.json",
                {"threshold": threshold, "origin": "netflix",
                 "concepts": {n: CONCEPTS[n]["label"] for n in CONCEPTS},
-                "displayNames": DISPLAY, "timeline": timeline})
+                "displayNames": display_names, "timeline": timeline})
 
     # review file: sorted by score within concept, for hand validation
     lines = [f"# Culture-propagation match review (threshold={threshold})", "",
@@ -232,7 +237,7 @@ def main(threshold: float, review_top: int, companies: list[str] | None = None) 
         rows = sorted([r for r in review_rows if r[0] == name], key=lambda r: -r[3])[:12]
         for _, comp, yr, sc, txt in rows:
             mark = "✓" if sc >= threshold else " "
-            lines.append(f"- [{mark}] {sc:.3f} {DISPLAY[comp]:9s} {yr}  {txt}")
+            lines.append(f"- [{mark}] {sc:.3f} {display_names.get(comp, comp):9s} {yr}  {txt}")
         lines.append("")
     (ROOT / "data" / "culture_propagation_review.md").write_text("\n".join(lines))
 
@@ -240,7 +245,7 @@ def main(threshold: float, review_top: int, companies: list[str] | None = None) 
     print(f"threshold={threshold}")
     for name in CONCEPTS:
         adopters = sorted(
-            ((e.get("firstYearConcept"), DISPLAY[c]) for c, e in timeline[name].items()
+            ((e.get("firstYearConcept"), display_names.get(c, c)) for c, e in timeline[name].items()
              if e.get("firstYearConcept")),
         )
         if adopters:

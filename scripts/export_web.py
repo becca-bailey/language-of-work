@@ -17,6 +17,85 @@ from lowork.io import read_json, write_json
 
 LEVEL = "sentence"
 
+# Human labels for the per-company "values fingerprint" (one bar per axis). Only
+# axes present in a company's scores are shown; order here is the display order.
+AXIS_LABELS = {
+    "altruism": "Mission / idealism",
+    "performance": "Performance intensity",
+    "meritocracy": "Meritocracy",
+    "wellbeing": "Wellbeing & balance",
+    "inclusion": "Inclusion & belonging",
+    "techno_optimism": "Techno-optimism",
+    "mission_rights": "Civilizational mission",
+    "control": "Top-down control",
+}
+
+
+def _company_axis_level(company: str, axis: str) -> tuple[float | None, float | None, int, int]:
+    """This company's representative raw level on an axis: (allYearsMean,
+    recentMean, recentYear, nYears) over non-thin years (raw cosine, comparable
+    across companies). recentMean is the latest 3 years. None if no signal."""
+    path = WEB_DATA_DIR / company / f"{axis}.json"
+    if not path.exists():
+        return None, None, 0, 0
+    years = read_json(path).get("years", [])
+    usable = [y for y in years if not y.get("thin")] or years
+    if not usable:
+        return None, None, 0, 0
+    usable.sort(key=lambda y: y["year"])
+    vals = [y["rawTopkMean"] for y in usable]
+    recent = vals[-3:]
+    return (
+        sum(vals) / len(vals),
+        sum(recent) / len(recent),
+        usable[-1]["year"],
+        len(usable),
+    )
+
+
+def export_fingerprints(companies: list[str]) -> None:
+    """Per-company 'values fingerprint': each axis standardized ACROSS companies,
+    so a bar reads 'this company leans on X more/less than its peers'. Must run
+    over the whole cohort at once — a single company has no peer baseline."""
+    levels: dict[str, dict[str, tuple[float | None, float | None, int, int]]] = {}
+    for company in companies:
+        levels[company] = {a: _company_axis_level(company, a) for a in AXIS_LABELS}
+
+    # Per-axis cross-company mean/std of the all-years level → z-scores.
+    import statistics
+
+    stats: dict[str, tuple[float, float]] = {}
+    for axis in AXIS_LABELS:
+        present = [levels[c][axis][0] for c in companies if levels[c][axis][0] is not None]
+        if len(present) >= 2:
+            mean = statistics.fmean(present)
+            std = statistics.pstdev(present) or 1.0
+            stats[axis] = (mean, std)
+
+    for company in companies:
+        rows = []
+        for axis, label in AXIS_LABELS.items():
+            level, recent, recent_year, n_years = levels[company][axis]
+            if level is None or axis not in stats:
+                continue
+            mean, std = stats[axis]
+            rows.append({
+                "axis": axis,
+                "label": label,
+                "zscore": round((level - mean) / std, 4),
+                "recentZscore": round(((recent if recent is not None else level) - mean) / std, 4),
+                "recentYear": recent_year,
+                "nYears": n_years,
+            })
+        profile = CompanyProfile.load(company)
+        # Outside the per-company export dir (which is hashed as synthesis input)
+        # so writing it doesn't perpetually re-trigger synthesize_company.
+        write_json(
+            WEB_DATA_DIR / "fingerprints" / f"{company}.json",
+            {"company": company, "displayName": profile.display_name, "axes": rows},
+        )
+    print(f"Wrote fingerprints/ for {len(companies)} companies (cross-company z)")
+
 
 def update_companies_manifest(company: str, axes: list[str]) -> None:
     """Merge this company's export into astro/src/data/companies.json."""

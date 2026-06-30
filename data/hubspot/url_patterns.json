@@ -1,0 +1,14 @@
+{
+  "company": "hubspot",
+  "display_name": "HubSpot",
+  "comment": "Careers/culture pages, incl. the 'Culture Code' deck — an explicit Netflix-culture-deck disciple, for the propagation study.",
+  "hosts": ["hubspot.com", "www.hubspot.com", "network.hubspot.com"],
+  "patterns": [
+    {"url": "hubspot.com/careers", "match_type": "prefix", "era_hint": "2008-2026"},
+    {"url": "www.hubspot.com/careers", "match_type": "prefix", "era_hint": "2008-2026"},
+    {"url": "hubspot.com/jobs", "match_type": "prefix", "era_hint": "2008-2026"},
+    {"url": "www.hubspot.com/careers/culture", "match_type": "exact", "era_hint": "2013-2026"},
+    {"url": "hubspot.com/careers/culture", "match_type": "exact", "era_hint": "2013-2026"},
+    {"url": "network.hubspot.com/slides/the-hubspot-culture-code", "match_type": "exact", "era_hint": "2013-2020"}
+  ]
+}

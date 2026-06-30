@@ -1,0 +1,34 @@
+{
+  "company": "stripe",
+  "displayName": "Stripe",
+  "headline": "Stripe presents itself as a rigorous, mission-driven engineering company building global economic infrastructure — with intellectual curiosity and warmth as its defining cultural asks.",
+  "identity": "Stripe has consistently valued technical excellence, intellectual curiosity, and collegial warmth across its careers copy from 2012 through the mid-2020s, framing itself as an engineering company whose work carries civilizational weight — 'a drive to create a fairer, more economically interconnected world.' Inclusion and diversity language rose sharply from 2016 (zscore ~0.99) to a peak in 2017 (zscore ~1.60), with explicit commitments to broadening diversity 'because we think it's simply the right thing to do' and named employee groups for Black, LGBTQIA+, and Latinx Stripes appearing in 2020 — but the specific demographic and identity-group language appears to have been concentrated in 2019–2020 and is not clearly sustained at the same intensity afterward, suggesting that strand of the copy has wavered even as process-oriented bias language ('work-sample tests,' 'combat unconscious bias') persisted into 2025.",
+  "fit": "You might be a good fit if you are someone who 'can set their own direction, can debate without animosity, and care about what they create,' who wants to work on hard infrastructure problems at global scale, and who genuinely enjoys the company of colleagues — the copy consistently prizes people 'who make others want to be around them' as much as raw technical skill.",
+  "sections": [
+    {
+      "heading": "A Stable Core: Engineering, Craft, and Collegial Rigor",
+      "body": "From the earliest archived copy in 2012 — 'We're looking for engineers and designers who care deeply about quality of execution and who want to build technology that people love to use' — through the later years, Stripe's careers language has kept performance and craft at the center. The performance zscore fluctuates but stays positive or near-zero across most years, and the meritocracy signal is consistently present, with phrases like 'We like people who can set their own direction' appearing as early as 2013 and persisting.\n\nEqually durable is the social dimension. The copy has always asked for people who are warm and collegial — 'who make others want to be around them' — and by 2017 this was elaborated into 'warm, inclusive people who treat their colleagues exceptionally well' and 'committed to going out of their way to help other Stripes.' This is not generic culture-fit language; it is specific and repeated across many years, suggesting it reflects a genuine editorial priority."
+    },
+    {
+      "heading": "The Inclusion Arc: A Peak Around 2016–2020, Then Less Visible",
+      "body": "The inclusion zscore jumped from near-zero in 2015 to 0.99 in 2016 and 1.60 in 2017, coinciding with the addition of explicit language: 'We are committed to building an actively inclusive work environment that makes Stripe an excellent home for everyone — regardless of gender, sexual orientation, ethnicity, race, education, age, or other personal characteristics.' The word 'diversity' first appeared in 2016 and was present through 2019.\n\nThe most specific demographic language — named groups (Black Stripes, Rainbows/LGBTQIA, Latinx), explicit identity categories — appears only in 2020 in the data provided. The term 'bias' entered in 2019 and persisted through 2025, but in a process-oriented register ('work-sample tests,' 'dispensing with whiteboard programming,' 'de-emphasizing credentials') rather than a demographic one. The data beyond 2020 is truncated in what's shown, so the signal is incomplete — but the pattern suggests the copy shifted from aspirational-demographic framing toward structural-process framing after 2020."
+    },
+    {
+      "heading": "Mission Framing: From Payments Utility to Global Economic Infrastructure",
+      "body": "The altruism and mission_rights scores were below peer average in 2012–2013, when the copy was modest: 'We're making it easier for people to transact on the internet.' By 2017 the mission_rights zscore had climbed to 1.30 and the language had expanded considerably: 'Our users transcend geography, culture and language; what we share, collectively, is a drive to create a fairer, more economically interconnected world.'\n\nThis civilizational framing — Stripe as 'a missing pillar of core internet infrastructure' — became a consistent feature of the copy from 2017 onward and gives the recruiting pages a notably grander register than the early years. Techno-optimism scores, by contrast, are volatile and sometimes negative (notably in 2015–2016), suggesting Stripe's copy leans on economic and social mission language more than pure technology-enthusiasm rhetoric."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

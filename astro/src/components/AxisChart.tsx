@@ -50,6 +50,23 @@ function Chart({
     return scaleLinear({ domain: [min, max], range: [0, innerW] });
   }, [rows, innerW]);
 
+  // Year ticks at a "nice" interval (1/2/5/10 yrs) so labels never overlap:
+  // budget ~48px per label, then snap up to the next round step. Always anchor
+  // on multiples of the step and include the most recent year.
+  const tickValues = useMemo(() => {
+    const [min, max] = extent(rows, (d) => d.year) as [number, number];
+    if (min === undefined || max === undefined || min === max) return [min];
+    const maxTicks = Math.max(2, Math.floor(innerW / 48));
+    const span = max - min;
+    const steps = [1, 2, 5, 10, 20, 25, 50];
+    const step =
+      steps.find((s) => span / s <= maxTicks - 1) ?? steps[steps.length - 1];
+    const ticks: number[] = [];
+    for (let y = Math.ceil(min / step) * step; y <= max; y += step) ticks.push(y);
+    if (ticks[ticks.length - 1] !== max) ticks.push(max); // always show latest year
+    return ticks;
+  }, [rows, innerW]);
+
   const yScale = useMemo(() => {
     const values = rows.flatMap((d) =>
       [d.value, d.control].filter((v): v is number => v !== null)
@@ -141,7 +158,7 @@ function Chart({
             top={innerH}
             scale={xScale}
             tickFormat={(v) => String(v)}
-            numTicks={Math.min(rows.length, 12)}
+            tickValues={tickValues}
             tickLabelProps={{
               className: "fill-neutral-500 text-[11px]",
               textAnchor: "middle",

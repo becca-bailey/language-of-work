@@ -1,35 +1,72 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import AxisExplorer from "@/components/AxisExplorer";
+import TrajectoryChart from "@/components/TrajectoryChart";
 import DeiExplorer from "@/components/DeiExplorer";
-import { loadAxis, loadDei, loadCompaniesManifest } from "@/lib/data";
-import { loadCultureFitCards } from "@/lib/stories";
+import ValuesFingerprint from "@/components/ValuesFingerprint";
+import {
+  loadAxis,
+  loadDei,
+  loadCompaniesManifest,
+  loadSynthesis,
+  loadFingerprint,
+} from "@/lib/data";
+
+// Axes shown as trajectory small-multiples, in display order. `control` and
+// `dei` get their own richer explorers below, so they're handled separately.
+const TRAJECTORY_AXES: { axis: string; label: string }[] = [
+  { axis: "performance", label: "Performance intensity" },
+  { axis: "meritocracy", label: "Meritocracy" },
+  { axis: "wellbeing", label: "Wellbeing & balance" },
+  { axis: "inclusion", label: "Inclusion & belonging" },
+  { axis: "techno_optimism", label: "Techno-optimism" },
+  { axis: "mission_rights", label: "Civilizational mission" },
+];
 
 export async function getStaticPaths() {
-  // Every company we have any data on gets a page: the culture-fit cards are the
-  // widest set (one per company), unioned with the per-company-page manifest.
-  const cards = await loadCultureFitCards();
+  // Every company in the manifest (anything we have axis/dei data on) gets a page.
   const manifest = await loadCompaniesManifest();
-  const ids = new Set<string>([...cards.map((c) => c.id), ...manifest.map((c) => c.id)]);
-  return [...ids].map((company) => ({ params: { company } }));
+  return manifest.map((c) => ({ params: { company: c.id } }));
 }
 
 const { company } = Astro.params as { company: string };
 
-const [cards, manifest, altruism, control, dei] = await Promise.all([
-  loadCultureFitCards(),
-  loadCompaniesManifest(),
-  loadAxis(company, "altruism"),
-  loadAxis(company, "control"),
-  loadDei(company),
-]);
+const [manifest, altruism, control, dei, synthesis, fingerprint, trajectories] =
+  await Promise.all([
+    loadCompaniesManifest(),
+    loadAxis(company, "altruism"),
+    loadAxis(company, "control"),
+    loadDei(company),
+    loadSynthesis(company),
+    loadFingerprint(company),
+    Promise.all(TRAJECTORY_AXES.map((t) => loadAxis(company, t.axis))),
+  ]);
 
-const card = cards.find((c) => c.id === company) ?? null;
+// Pair each trajectory axis with its loaded data; keep only those with ≥2 points.
+const trajectoryPanels = TRAJECTORY_AXES.map((t, i) => ({
+  ...t,
+  data: trajectories[i],
+}))
+  .filter((p) => p.data && p.data.years.length >= 2)
+  .map((p) => ({
+    label: p.label,
+    rows: p.data!.years.map((y) => ({
+      year: y.year,
+      value: y.zscore,
+      control: null,
+      thin: y.thin,
+      nItems: y.nChunks,
+      kUsed: y.kUsed,
+    })),
+  }));
+
+const hasNarrative = synthesis && synthesis.sections.length > 0;
+
 const manifestEntry = manifest.find((c) => c.id === company) ?? null;
 const displayName =
-  card?.displayName ?? manifestEntry?.displayName ?? altruism?.displayName ?? dei?.displayName ?? company;
+  manifestEntry?.displayName ?? synthesis?.displayName ?? altruism?.displayName ?? dei?.displayName ?? company;
 
-if (!card && !altruism && !dei) return Astro.redirect("/404");
+if (!synthesis && !altruism && !dei) return Astro.redirect("/404");
 
 // The most idealistic line on record — a concrete sample of how they pitch mission.
 const peakQuote = (() => {
@@ -57,22 +94,41 @@ const peakQuote = (() => {
       behaves.
     </p>
 
-    {card && (
+    {(synthesis?.headline || synthesis?.identity) && (
+      <section class="mt-10">
+        {synthesis.headline && (
+          <p class="max-w-prose text-xl font-medium leading-relaxed">{synthesis.headline}</p>
+        )}
+        {synthesis.identity && (
+          <p class="mt-4 max-w-prose leading-relaxed text-neutral-700 dark:text-neutral-300">
+            {synthesis.identity}
+          </p>
+        )}
+      </section>
+    )}
+
+    {fingerprint && fingerprint.axes.length > 0 && (
+      <section class="mt-12">
+        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+          Values fingerprint
+        </h2>
+        <p class="mt-3 max-w-prose text-sm text-neutral-500">
+          Where {displayName}'s careers language leans heavier (or lighter) than its peers, across
+          every value we measure. Each bar is an average over all archived years — a one-glance
+          read of what the copy emphasizes.
+        </p>
+        <div class="mt-6">
+          <ValuesFingerprint axes={fingerprint.axes} client:visible />
+        </div>
+      </section>
+    )}
+
+    {synthesis?.fit && (
       <section class="mt-12">
         <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
           Who they're looking for
         </h2>
-        <p class="mt-3 max-w-prose text-lg leading-relaxed">{card.summary}</p>
-        {card.quotes.length > 0 && (
-          <ul class="mt-5 space-y-3">
-            {card.quotes.map((q) => (
-              <li class="border-l-2 border-neutral-200 pl-4 text-neutral-700 dark:border-neutral-700 dark:text-neutral-300">
-                <span class="italic">“{q.text}”</span>
-                <span class="ml-2 text-xs text-neutral-400">{q.year}</span>
-              </li>
-            ))}
-          </ul>
-        )}
+        <p class="mt-3 max-w-prose text-lg leading-relaxed">{synthesis.fit}</p>
       </section>
     )}
 
@@ -113,11 +169,60 @@ const peakQuote = (() => {
       </section>
     )}
 
-    {!altruism && !dei && (
+    {trajectoryPanels.length > 0 && (
+      <section class="mt-14">
+        <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+          Other values over time
+        </h2>
+        <p class="mt-3 max-w-prose text-sm text-neutral-500">
+          Each line tracks one value against {displayName}'s <em>own</em> history — z-scored within
+          the company, so it shows when its copy leaned harder or lighter on that value, not how it
+          ranks against peers. (For the peer comparison, see the fingerprint above.)
+        </p>
+        <div class="mt-6 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2">
+          {trajectoryPanels.map((p) => (
+            <div>
+              <h3 class="text-sm font-semibold text-neutral-800 dark:text-neutral-200">{p.label}</h3>
+              <TrajectoryChart rows={p.rows} label={p.label} client:visible />
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {!altruism && !dei && trajectoryPanels.length === 0 && (
       <p class="mt-10 max-w-prose text-sm text-neutral-500">
-        Detailed trajectory charts for {displayName} are still being generated. The summary above is
-        from the culture-fit study.
+        Detailed trajectory charts for {displayName} are still being generated.
       </p>
+    )}
+
+    {hasNarrative && synthesis.sections.length > 0 && (
+      <section class="mt-16 rounded-lg border border-neutral-200 bg-neutral-50 p-6 dark:border-neutral-800 dark:bg-neutral-900/40">
+        <div class="flex items-center gap-2">
+          <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+            The story so far
+          </h2>
+          <span class="rounded-full bg-neutral-200 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-neutral-500 dark:bg-neutral-800">
+            AI synthesis
+          </span>
+        </div>
+        <div class="mt-4 space-y-5">
+          {synthesis.sections.map((s) => (
+            <div>
+              <h3 class="text-sm font-semibold text-neutral-800 dark:text-neutral-200">{s.heading}</h3>
+              {s.body.split("\n\n").map((para) => (
+                <p class="mt-2 max-w-prose text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+                  {para}
+                </p>
+              ))}
+            </div>
+          ))}
+        </div>
+        <p class="mt-5 text-xs text-neutral-400">
+          Generated from the data on this page — a reading of the language, not a claim about the
+          company's behavior.
+        </p>
+      </section>
     )}
   </main>
 </Layout>

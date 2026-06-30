@@ -16,11 +16,10 @@ from __future__ import annotations
 import re
 from collections import defaultdict
 
-from lowork.config import WEB_DATA_DIR, ROOT, company_dir
+from lowork.config import WEB_DATA_DIR, ROOT, company_dir, load_companies
 from lowork.io import read_json, load_all_chunks, write_json
 
-COMPANIES = ["google", "amazon", "meta", "palantir", "coinbase", "netflix",
-             "shopify", "stripe", "airbnb", "brex", "snap"]
+COMPANIES = load_companies()
 SCAN_LABELS = {"job_listing", "benefits_perks"}
 START_YEAR = 2011
 

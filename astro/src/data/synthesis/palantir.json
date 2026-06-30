@@ -1,0 +1,34 @@
+{
+  "company": "palantir",
+  "displayName": "Palantir",
+  "headline": "Palantir pitches itself as a mission-driven engineering company built to solve civilization-scale problems — with elite standards and no DEI window-dressing.",
+  "identity": "Palantir has consistently valued mission-driven purpose, high-performance engineering culture, and a belief that data analysis can serve the common good — framing itself from 2010 onward around phrases like 'we are only hiring the best and the brightest' and 'we believe the best idea wins.' The altruism and mission-rights language peaked sharply in 2012–2015 ('we work for the common good,' 'passionate about making a difference with mission-driven organizations') but the careers copy shows no sustained DEI language at any point: the only explicit demographic term in the dataset is 'women,' appearing solely in 2013, and the DEI register is coded 'absent' or 'meritocracy' in nearly every year. By 2025–2026 the copy shifts toward an explicitly civilizational frame — 'We built Palantir to ensure the future of the West, not to tinker at the margins' — a register absent from earlier years.",
+  "fit": "You might be a good fit if you are someone who describes yourself as an engineer on a mission, comfortable with 'an uncompromising engineering mindset and an unwavering focus on executing in service of the mission,' and who is drawn to high-stakes, government-adjacent work rather than consumer tech — the copy has never reached for candidates motivated by workplace belonging or demographic representation.",
+  "sections": [
+    {
+      "heading": "Mission and Altruism: A Peak, Then a Pivot",
+      "body": "The careers copy's altruism signal was near zero in 2010–2011 (z-scores of –2.6), then climbed sharply through 2012–2015 as the pages filled with philanthropic framing: 'We're passionate about making a difference with mission-driven organizations,' 'we work for the common good,' and references to food-security hackathons and disaster-relief deployments. That register softened after 2015 and was replaced by a harder-edged mission framing. By the mid-2020s the copy introduces a civilizational-stakes vocabulary — 'ensure the future of the West' — that has no precedent in the earlier archive. The shift is from humanitarian uplift to geopolitical urgency.\n\nThe mission-rights axis follows a similar arc: a strong spike in 2012 (z-score +2.1) anchored by lines like 'Protecting civil liberties. Promoting open software,' then a return to moderate levels through 2017 before the later civilizational turn. Civil-liberties language was a genuine through-line in the 2010–2017 copy; whether it persists into the most recent years the truncated data does not fully confirm."
+    },
+    {
+      "heading": "Performance and Meritocracy: The Stable Core",
+      "body": "Across every year with sufficient data, performance and meritocracy language score at or above peer averages. The 2012 copy is the clearest statement: 'We're looking for smart, driven people,' 'we love to build things and solve hard problems, and we believe the best idea wins,' and 'a startup culture, strong work ethic, and rigorous hiring standards' — a phrase that recurs verbatim from 2010 through at least 2013. By 2017 the framing matures into 'each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.'\n\nThis is the most consistent signal in the dataset. Performance z-scores are positive in every well-populated year except 2013, when the careers page appears to have leaned heavily on event recaps rather than recruiting copy, producing anomalously low scores across nearly all axes that year — a data artifact worth noting rather than over-interpreting."
+    },
+    {
+      "heading": "DEI: Structurally Absent Throughout",
+      "body": "The DEI facet shows no year in which explicit demographic, structural-process, or belonging-culture registers dominate the copy. The meritocracy register appears consistently; explicit DEI language does not. The sole inclusion-lexicon term flagged across the entire archive is 'women,' present only in 2013 in the context of a scholarship announcement and a panel event — both framed as external community activities rather than internal hiring commitments. There is no 'belonging,' no 'equity,' no 'underrepresented' language anywhere in the dataset.\n\nFor a candidate who weighs DEI commitments heavily in choosing an employer, the careers copy offers no signal to rely on — not because the data is thin, but because the register is consistently and deliberately absent across more than a decade of pages."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

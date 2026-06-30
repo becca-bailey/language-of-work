@@ -1,0 +1,34 @@
+{
+  "company": "shopify",
+  "displayName": "Shopify",
+  "headline": "Shopify's careers copy pitches a high-performance commerce mission with persistent meritocracy language and a DEI arc that peaked around 2015 and never fully formalized.",
+  "identity": "Shopify has consistently valued performance, entrepreneurial mission, and individual ownership — the copy has long called for 'passionate, hard working, talented individuals that get things done' and framed the work as shaping 'how retail works all over the world.' Inclusion and diversity language entered meaningfully in 2015 ('Diversity of background and experience makes us all better'; 'We want the best, no matter where you come from') but never moved beyond aspirational-vague registers into structural or demographic commitments, and the DEI data shows no explicit-demographic or structural-process registers appearing consistently across years. Wellbeing language spiked in 2015 with concrete perks copy ('gym allowance, parental leave, childcare benefits, flexible work hours') but dropped sharply in 2016 when the archived pages thinned to almost nothing.",
+  "fit": "You might be a good fit if you are driven by craft and output — the copy repeatedly reaches for people who want to 'surpass their current skill set,' 'experiment, take risks, and push the envelope,' and own problems without a 'cemented career path or corporate ladder' to guide them.",
+  "sections": [
+    {
+      "heading": "Performance and Mission: The Stable Core",
+      "body": "From 2012 onward, performance-oriented language is the most consistent signal in the data. The 2012 careers page introduced the phrase 'We want passionate, hard working, talented individuals that get things done and always push themselves to get better,' and variants of that framing recur through the mid-2010s. The mission framing escalated in 2014 — 'To truly change the future of commerce, we need your help' and 'The opportunity to shape how retail works all over the world is in our hands' — and the techno-optimism scores peaked that year (z-score +1.13), with lines like 'we've already proven that we can move faster than anyone else.'\n\nThe meritocracy axis scores rose from below-peer levels in 2010–2011 to above-peer in 2012 and again in 2015, tracking the same performance-heavy copy. The framing is individual-centric: career growth is described as 'very much up to the individual and how he or she contributes to the company,' with no fixed ladder."
+    },
+    {
+      "heading": "DEI: An Aspirational Arc That Did Not Deepen",
+      "body": "The word 'diversity' first appears in 2015 and persists through 2026 per the phrase data, but the register classification tells a more cautious story. In 2015, two chunks were coded 'aspirational_vague' and one 'belonging_culture'; no year in the visible data shows 'explicit_demographic' or robust 'structural_process' registers. The highest-scoring DEI quote — 'The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together and it's why we actively seek the brightest minds in the world' — blends diversity language directly with meritocracy ('brightest minds'), which is consistent with the data showing inclusion and meritocracy scores moving in tandem rather than in tension.\n\nThe term 'black' appears only in 2021 and in a business-metrics context (Black Friday Cyber Monday), not a demographic one. 'Equity' appears in 2023–2024 but in a compensation context (RSUs and options). The overall picture is that DEI language is present but has not shifted into the more structural or demographic registers that would signal a deeper programmatic commitment in the copy."
+    },
+    {
+      "heading": "Wellbeing and Tone: A 2015 Peak, Then a Gap",
+      "body": "Wellbeing copy reached its clearest expression in 2015, with specific benefits enumerated: 'gym allowance, parental leave, childcare benefits, flexible work hours, and catered meals.' The wellbeing z-score that year was +1.38, the highest in the visible data. The 2016 data is flagged thin (only 2 chunks), and the scores drop sharply — wellbeing z-score fell to -2.87 — so it is hard to read 2016 as a meaningful signal rather than a data gap.\n\nThe early-era copy (2010–2012) had a distinct casual-startup tone: no dress code, video games as a break, 'relaxed, stress-free work environment.' That register largely disappeared by 2014–2015 as the copy shifted toward growth and mission language. The altruism scores were below peer average in 2010–2011 and only crossed into positive territory from 2012 onward, suggesting the copy's orientation was always more inward (individual growth, team excellence) than outward (social impact), even as the 'make commerce better' mission line appeared."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

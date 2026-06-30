@@ -60,6 +60,23 @@
         ]
       },
       {
+        "id": "no_vacation_policy",
+        "label": "No vacation policy / unlimited time off",
+        "tier": "lift",
+        "originYear": 2017,
+        "originQuote": "Our vacation policy is “take vacation.” We don't have rules about how many weeks.",
+        "adopters": [
+          {
+            "company": "hubspot",
+            "displayName": "HubSpot",
+            "year": 2015,
+            "verbatim": true,
+            "example": "",
+            "score": null
+          }
+        ]
+      },
+      {
         "id": "talent_density",
         "label": "Talent density",
         "tier": "lift",
@@ -114,14 +131,6 @@
         "tier": "netflix_only",
         "originYear": 2009,
         "originQuote": "Which of my people, if they told me they were leaving for a similar job at a peer company, would I fight hard to keep at Netflix?",
-        "adopters": []
-      },
-      {
-        "id": "no_vacation_policy",
-        "label": "No vacation policy / unlimited time off",
-        "tier": "netflix_only",
-        "originYear": 2017,
-        "originQuote": "Our vacation policy is “take vacation.” We don't have rules about how many weeks.",
         "adopters": []
       },
       {
@@ -250,10 +259,10 @@
     ]
   },
   "objectivity": {
-    "scanned": 1871,
-    "claim": 97,
+    "scanned": 2019,
+    "claim": 98,
     "metricCredible": 0,
-    "claimPct": 5.2,
+    "claimPct": 4.9,
     "smokingGun": "Netflix explicitly refuses to keep score: “We have no bell curves or rankings or quotas such as 'cut the bottom 10% every year'” — while demanding you be a “high performer” judged by a manager's gut (the keeper test).",
     "finding": "Pervasive objectivity rhetoric, no defined metric. The language borrows sports' objectivity without its scoreboard."
   }

@@ -17,17 +17,18 @@
     "no_vacation_policy": "No vacation policy / unlimited time off"
   },
   "displayNames": {
-    "netflix": "Netflix",
     "google": "Google",
     "amazon": "Amazon",
     "meta": "Meta",
     "palantir": "Palantir",
     "coinbase": "Coinbase",
+    "netflix": "Netflix",
     "shopify": "Shopify",
     "stripe": "Stripe",
     "airbnb": "Airbnb",
     "brex": "Brex",
-    "snap": "Snap"
+    "snap": "Snap",
+    "hubspot": "HubSpot"
   },
   "timeline": {
     "talent_density": {
@@ -117,6 +118,19 @@
       }
     },
     "adequate_severance": {
+      "coinbase": {
+        "firstYearConcept": 2024,
+        "nConcept": 3,
+        "yearsConcept": [
+          2024,
+          2025,
+          2026
+        ],
+        "example": "Unremarkable performance gets a generous severance package.",
+        "exampleScore": 0.858,
+        "firstYearVerbatim": 2024,
+        "nVerbatim": 3
+      },
       "netflix": {
         "firstYearConcept": 2009,
         "nConcept": 13,
@@ -133,19 +147,6 @@
         "exampleScore": 0.759,
         "firstYearVerbatim": 2009,
         "nVerbatim": 13
-      },
-      "coinbase": {
-        "firstYearConcept": 2024,
-        "nConcept": 3,
-        "yearsConcept": [
-          2024,
-          2025,
-          2026
-        ],
-        "example": "Unremarkable performance gets a generous severance package.",
-        "exampleScore": 0.858,
-        "firstYearVerbatim": 2024,
-        "nVerbatim": 3
       }
     },
     "raise_the_bar": {
@@ -254,6 +255,17 @@
       }
     },
     "freedom_responsibility": {
+      "meta": {
+        "firstYearConcept": 2016,
+        "nConcept": 3,
+        "yearsConcept": [
+          2016,
+          2017,
+          2018
+        ],
+        "example": "We don’t have rules, we have values that guide the way we work and the decisions we make.",
+        "exampleScore": 0.782
+      },
       "netflix": {
         "firstYearConcept": 2013,
         "nConcept": 3,
@@ -266,17 +278,6 @@
         "exampleScore": 0.667,
         "firstYearVerbatim": 2009,
         "nVerbatim": 16
-      },
-      "meta": {
-        "firstYearConcept": 2016,
-        "nConcept": 3,
-        "yearsConcept": [
-          2016,
-          2017,
-          2018
-        ],
-        "example": "We don’t have rules, we have values that guide the way we work and the decisions we make.",
-        "exampleScore": 0.782
       }
     },
     "context_not_control": {
@@ -330,6 +331,10 @@
         "exampleScore": 0.746,
         "firstYearVerbatim": 2009,
         "nVerbatim": 1
+      },
+      "hubspot": {
+        "firstYearVerbatim": 2015,
+        "nVerbatim": 5
       }
     }
   }

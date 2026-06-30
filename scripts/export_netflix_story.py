@@ -14,7 +14,7 @@ import re
 
 import pandas as pd
 
-from lowork.config import WEB_DATA_DIR, ROOT, company_dir
+from lowork.config import WEB_DATA_DIR, ROOT, company_dir, load_companies
 from lowork.io import read_json, write_json
 
 # Industry-wide concepts NOT originated by Netflix — shown but never claimed as propagation.
@@ -87,8 +87,7 @@ CLAIM = re.compile(
 METRIC = re.compile(
     r"measured by|we measure .{0,40}(?:by|using)|\bmetric|\bKPI|scorecard|quota|"
     r"rank(?:ing|ed)|percentile|rating scale|objectively measur|defined (?:metric|standard)", re.I)
-COMPANIES = ["netflix", "google", "amazon", "meta", "palantir", "coinbase",
-             "shopify", "stripe", "airbnb", "brex", "snap"]
+COMPANIES = load_companies()
 
 
 def objectivity_audit() -> dict:

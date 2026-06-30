@@ -34,6 +34,14 @@ SCRIPTS_DIR = ROOT / "scripts"
 
 GLOBAL_KEY = "*"  # state/company key for global stages
 
+# Axes scored for every company — the per-company "values fingerprint" on the
+# explore page reads the full set. `control` is the autonomy axis (used as a
+# semantic control for altruism); all have built vectors in axes/built/.
+FINGERPRINT_AXES = [
+    "altruism", "control", "performance", "meritocracy", "wellbeing",
+    "inclusion", "techno_optimism", "mission_rights",
+]
+
 
 class Scope(Enum):
     PER_COMPANY = "per_company"
@@ -102,7 +110,7 @@ STAGES: list[Stage] = [
           depends=("classify_chunks",)),
 
     # --- altruism ---
-    Stage("score_axes", lambda c: _call("score_axes", c, ["altruism", "control"]),
+    Stage("score_axes", lambda c: _call("score_axes", c, FINGERPRINT_AXES),
           Scope.PER_COMPANY, ("altruism",),
           inputs=("embeddings.parquet", "classifications.json"), outputs=("axis_scores.parquet",),
           depends=("embed_chunks",)),
@@ -158,6 +166,26 @@ STAGES: list[Stage] = [
           outputs=("repo:astro/src/data/{co}/dei.json", "repo:astro/src/data/companies.json"),
           depends=("score_dei",)),
 
+    # --- per-company AI narrative (reads the whole export dir generically) ---
+    # Hashing the entire {co} export dir means any facet added later flows into
+    # both the prompt and change-detection with no edit here; synthesis.yaml is
+    # hashed too so editing the prompt/model regenerates. Output lives OUTSIDE
+    # the hashed dir so it never sits in its own input set.
+    Stage("synthesize_company", lambda c: _call("synthesize_company", c),
+          Scope.PER_COMPANY, ("profiles",),
+          inputs=("repo:astro/src/data/{co}", "repo:synthesis.yaml"),
+          outputs=("repo:astro/src/data/synthesis/{co}.json",),
+          depends=("export_web", "export_dei_web")),
+
+    # --- cross-company values fingerprint (one bar per axis, vs. peers) ---
+    # Global: each axis is standardized across the whole cohort, so it must see
+    # every company's axis levels at once. Outputs live outside the hashed
+    # per-company dir so they don't perturb synthesize_company's inputs.
+    Stage("export_fingerprints", lambda comps: _call("export_fingerprints", comps),
+          Scope.GLOBAL, ("profiles",), inputs=("axis_scores.parquet",),
+          outputs=("repo:astro/src/data/fingerprints/{co}.json",),
+          depends=("export_web",)),
+
     # --- global trackers ---
     Stage("track_benefits", lambda comps: _call("track_benefits", comps), Scope.GLOBAL,
           ("benefits",), inputs=("chunks", "classifications.json"),
@@ -198,9 +226,6 @@ STAGES: list[Stage] = [
           inputs=("repo:data/culture_propagation.json", "embeddings.parquet"),
           outputs=("repo:astro/src/data/stories/netflix-culture.json",),
           depends=("track_culture_propagation",)),
-    Stage("export_culture_fit_story", lambda comps: _call("export_culture_fit_story", comps),
-          Scope.GLOBAL, ("culture-fit",),
-          outputs=("repo:astro/src/data/stories/culture-fit.json",)),
 ]
 
 STAGE_BY_NAME = {s.name: s for s in STAGES}
