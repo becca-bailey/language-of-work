@@ -157,12 +157,16 @@ def main(companies: list[str] | None = None) -> None:
     for cid, label in labels.items():
         comps = timeline.get(cid, {})
         adopters = []
+        echoes = []  # same-framework language below the borrowing bar (concept-level)
         netflix_year = None
         for co, e in comps.items():
             yr = e.get("firstYearConcept") or e.get("firstYearVerbatim")
             if co == "netflix":
                 netflix_year = e.get("firstYearConcept") or e.get("firstYearVerbatim")
                 continue
+            for ec in e.get("echoes", []):
+                echoes.append({"company": co, "displayName": disp[co], "year": ec["year"],
+                               "example": ec["text"], "score": ec["score"]})
             if yr is None:
                 continue
             adopters.append({
@@ -172,10 +176,20 @@ def main(companies: list[str] | None = None) -> None:
                 "score": e.get("exampleScore"),
             })
         adopters.sort(key=lambda a: a["year"])
+        # Echo band: one line per company (its strongest), UNCAPPED — the count is the
+        # signal. Breadth of adjacent language = how far the softened, deniable version of
+        # the idea diffused across the corpus. Kept distinct from the borrowed lifts above.
+        echoes.sort(key=lambda x: -x["score"])
+        seen_co, top_echoes = set(), []
+        for ec in echoes:
+            if ec["company"] in seen_co:
+                continue
+            seen_co.add(ec["company"])
+            top_echoes.append(ec)
         concepts.append({
             "id": cid, "label": label, "tier": tier_for(cid, adopters),
             "originYear": netflix_year, "originQuote": ORIGINS.get(cid),
-            "adopters": adopters,
+            "adopters": adopters, "echoes": top_echoes,
         })
     # order: lift first, then netflix_only, then generic
     order = {"lift": 0, "netflix_only": 1, "generic": 2}

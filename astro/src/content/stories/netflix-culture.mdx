@@ -13,7 +13,8 @@ teaser: "Netflix's 2009 culture deck, the model it spread (narrowly), and the sc
 ---
 
 import DeckQuotes from "@/components/viz/DeckQuotes.astro";
-import QuoteLineage from "@/components/viz/QuoteLineage.astro";
+import LineageStacked from "@/components/viz/LineageStacked.astro";
+import LineageTimeline from "@/components/viz/LineageTimeline.astro";
 
 In 2009, Netflix published a [125-slide deck](https://www.slideshare.net/slideshow/culture-2009/8469957) on how it ran its culture. Sheryl Sandberg called
 it the most important document ever to come out of Silicon Valley. It defined a
@@ -30,12 +31,40 @@ never left the building. But a few ideas did, and the lineage is legible: Coinba
 severance line almost word-for-word; Meta turned the "no rules" ethos into "we have values,
 not rules."
 
-<QuoteLineage />
+The first view sorts the deck's ideas by *how closely* anyone else's language matches. Each
+concept leads with Netflix's original line; where a company borrowed it above the validated
+threshold, that lift sits beside it, bold. Underneath, in lighter type, is the adjacent
+language — the softer echoes that gesture at the same idea without quoting it. The height of
+that stack is the volume of the ambient version; the faintness is how loosely it matches.
 
-The harsh mechanics — the keeper test, "a team, not a family," context-not-control — stayed
-Netflix's own. What spread wasn't the cruelty; it was the softer, deniable version. (Phrases
-like "raise the bar" and "only the best" show up everywhere, but those are industry
-convergence — Amazon's, not Netflix's — so I don't count them as propagation.)
+<LineageStacked />
+
+The pattern is stark. The harsh mechanics — the keeper test, "a team, not a family,"
+context-not-control — stayed Netflix's own, with almost nothing echoing them. What diffused
+widely was the *softer* material: "we don't have rules" and "dream team" language turns up
+across eight or nine companies, but mostly in the faint, generic register — "an amazing team,"
+"warm inclusive people." "Talent density" itself never traveled verbatim; Stripe's "talent
+radar" and Shopify being "intentional about talent" are as close as anyone comes. The sharp
+idea decays into ambient HR-boilerplate. (Phrases like "raise the bar" and "only the best" show
+up everywhere too, but those are industry convergence — Amazon's, not Netflix's — so I leave
+them out.)
+
+The second view asks a different question: *when* did each borrowing and echo first surface?
+Plotting them by year against a continuous snapshot record, the chronology guards against the
+obvious overclaim. Some adjacent language predates the 2009 deck entirely — Amazon was already
+writing about deciding "based on our core values" in 2007 — so this is convergence, not a clean
+chain of copying. The one unmistakable lift, Coinbase's severance line, lands late, in 2024.
+
+<LineageTimeline />
+
+And there's a bend in the timing worth naming. Reading the corpus as a whole — the full
+performance-language axis across all fourteen companies, not just these ten concepts — this
+language softened in 2023 and returned to its early-decade highs in 2024, holding there through
+2025. It's a modest swing, not a surge: 2024 recovers the ground of the 2021 peak rather than
+breaking new. But the shape is suggestive, because of *when* it lands — just after the 2022–23
+tech layoffs and the end of cheap money. Copy follows the market rather than leading it, and
+blunt performance-filter language becomes sayable again once the people it describes have less
+room to object.
 
 ## The scoreboard that isn't there
 

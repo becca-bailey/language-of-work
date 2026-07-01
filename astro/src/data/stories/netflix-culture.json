@@ -40,7 +40,8 @@
             "example": "Unremarkable performance gets a generous severance package.",
             "score": 0.858
           }
-        ]
+        ],
+        "echoes": []
       },
       {
         "id": "freedom_responsibility",
@@ -50,14 +51,6 @@
         "originQuote": "We seek to increase freedom and responsibility as we grow — we don't have rules.",
         "adopters": [
           {
-            "company": "github",
-            "displayName": "GitHub",
-            "year": 2011,
-            "verbatim": false,
-            "example": "We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating them accordingly.",
-            "score": 0.641
-          },
-          {
             "company": "meta",
             "displayName": "Meta",
             "year": 2016,
@@ -65,39 +58,70 @@
             "example": "We don’t have rules, we have values that guide the way we work and the decisions we make.",
             "score": 0.782
           }
-        ]
-      },
-      {
-        "id": "no_vacation_policy",
-        "label": "No vacation policy / unlimited time off",
-        "tier": "lift",
-        "originYear": 2017,
-        "originQuote": "Our vacation policy is “take vacation.” We don't have rules about how many weeks.",
-        "adopters": [
+        ],
+        "echoes": [
           {
-            "company": "hubspot",
-            "displayName": "HubSpot",
-            "year": 2015,
-            "verbatim": true,
-            "example": "",
-            "score": null
-          }
-        ]
-      },
-      {
-        "id": "talent_density",
-        "label": "Talent density",
-        "tier": "lift",
-        "originYear": 2009,
-        "originQuote": "The Key: Increase Talent Density faster than Complexity Grows.",
-        "adopters": [
+            "company": "github",
+            "displayName": "GitHub",
+            "year": 2011,
+            "example": "We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating them accordingly.",
+            "score": 0.641
+          },
+          {
+            "company": "amazon",
+            "displayName": "Amazon",
+            "year": 2007,
+            "example": "We make decisions as a company, and as individuals, based on our core values.",
+            "score": 0.621
+          },
           {
             "company": "shopify",
             "displayName": "Shopify",
+            "year": 2018,
+            "example": "We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.",
+            "score": 0.581
+          },
+          {
+            "company": "stripe",
+            "displayName": "Stripe",
+            "year": 2019,
+            "example": "We have a variegated team and our values as a company are not simply the union of our values as individuals.",
+            "score": 0.579
+          },
+          {
+            "company": "meta",
+            "displayName": "Meta",
+            "year": 2022,
+            "example": "It's a self-starter culture, we aren't told what to do to achieve results.",
+            "score": 0.546
+          },
+          {
+            "company": "snap",
+            "displayName": "Snap",
+            "year": 2022,
+            "example": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+            "score": 0.524
+          },
+          {
+            "company": "gitlab",
+            "displayName": "GitLab",
             "year": 2026,
-            "verbatim": false,
-            "example": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
-            "score": 0.668
+            "example": "We run our business on our own product, stay transparent in how we work, and create space for team members across the globe to show up as their full selves and do the best work of ",
+            "score": 0.514
+          },
+          {
+            "company": "google",
+            "displayName": "Google",
+            "year": 2014,
+            "example": "Our company culture encourages experimentation and the free flow of ideas.",
+            "score": 0.512
+          },
+          {
+            "company": "hubspot",
+            "displayName": "HubSpot",
+            "year": 2024,
+            "example": "Our culture is not tied to locations, it’s rooted in our values, our amazing people, and our mission of helping millions of organizations grow better.",
+            "score": 0.502
           }
         ]
       },
@@ -107,7 +131,16 @@
         "tier": "netflix_only",
         "originYear": 2009,
         "originQuote": "Lead with context, not control.",
-        "adopters": []
+        "adopters": [],
+        "echoes": [
+          {
+            "company": "amazon",
+            "displayName": "Amazon",
+            "year": 2016,
+            "example": "Leaders create and communicate a bold direction that inspires results.",
+            "score": 0.522
+          }
+        ]
       },
       {
         "id": "dream_team",
@@ -115,15 +148,82 @@
         "tier": "netflix_only",
         "originYear": 2017,
         "originQuote": "Our version of a great workplace is a dream team in pursuit of ambitious, common goals.",
-        "adopters": []
+        "adopters": [],
+        "echoes": [
+          {
+            "company": "shopify",
+            "displayName": "Shopify",
+            "year": 2010,
+            "example": "You'll be working in an amazing team with tons of benefits and perks.",
+            "score": 0.595
+          },
+          {
+            "company": "snap",
+            "displayName": "Snap",
+            "year": 2025,
+            "example": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
+            "score": 0.583
+          },
+          {
+            "company": "stripe",
+            "displayName": "Stripe",
+            "year": 2017,
+            "example": "We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.",
+            "score": 0.568
+          },
+          {
+            "company": "google",
+            "displayName": "Google",
+            "year": 2012,
+            "example": "We put great stock in our employees–energetic, passionate people from diverse backgrounds with creative approaches to work, play and life.",
+            "score": 0.558
+          },
+          {
+            "company": "coinbase",
+            "displayName": "Coinbase",
+            "year": 2018,
+            "example": "To achieve this, we are building a team of smart, creative, passionate optimists, the kind of people who see opportunity where others see roadblocks.",
+            "score": 0.554
+          },
+          {
+            "company": "hubspot",
+            "displayName": "HubSpot",
+            "year": 2020,
+            "example": "We're building a culture at HubSpot where amazing people (like you) can do their best work.",
+            "score": 0.548
+          },
+          {
+            "company": "airbnb",
+            "displayName": "Airbnb",
+            "year": 2015,
+            "example": "We build the best experience for our community - as a team.",
+            "score": 0.546
+          },
+          {
+            "company": "github",
+            "displayName": "GitHub",
+            "year": 2022,
+            "example": "We are dedicated to building a community and team that reflects the world we live in and pushes the boundaries of software innovation.",
+            "score": 0.513
+          }
+        ]
       },
       {
         "id": "high_performer_supremacy",
         "label": "High performer ≫ average",
         "tier": "netflix_only",
-        "originYear": 2024,
+        "originYear": 2009,
         "originQuote": "In creative and inventive work, the best are 10x better than the average.",
-        "adopters": []
+        "adopters": [],
+        "echoes": [
+          {
+            "company": "coinbase",
+            "displayName": "Coinbase",
+            "year": 2024,
+            "example": "Outperformance is met with outsized reward.",
+            "score": 0.503
+          }
+        ]
       },
       {
         "id": "aligned_loosely_coupled",
@@ -131,7 +231,8 @@
         "tier": "netflix_only",
         "originYear": 2009,
         "originQuote": "Highly aligned, loosely coupled.",
-        "adopters": []
+        "adopters": [],
+        "echoes": []
       },
       {
         "id": "keeper_test",
@@ -139,7 +240,56 @@
         "tier": "netflix_only",
         "originYear": 2009,
         "originQuote": "Which of my people, if they told me they were leaving for a similar job at a peer company, would I fight hard to keep at Netflix?",
-        "adopters": []
+        "adopters": [],
+        "echoes": []
+      },
+      {
+        "id": "no_vacation_policy",
+        "label": "No vacation policy / unlimited time off",
+        "tier": "netflix_only",
+        "originYear": 2017,
+        "originQuote": "Our vacation policy is “take vacation.” We don't have rules about how many weeks.",
+        "adopters": [],
+        "echoes": [
+          {
+            "company": "hubspot",
+            "displayName": "HubSpot",
+            "year": 2020,
+            "example": "We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
+            "score": 0.56
+          },
+          {
+            "company": "coinbase",
+            "displayName": "Coinbase",
+            "year": 2024,
+            "example": "We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually.",
+            "score": 0.501
+          }
+        ]
+      },
+      {
+        "id": "talent_density",
+        "label": "Talent density",
+        "tier": "netflix_only",
+        "originYear": 2009,
+        "originQuote": "The Key: Increase Talent Density faster than Complexity Grows.",
+        "adopters": [],
+        "echoes": [
+          {
+            "company": "shopify",
+            "displayName": "Shopify",
+            "year": 2026,
+            "example": "This is why we're intentional about talent.",
+            "score": 0.529
+          },
+          {
+            "company": "stripe",
+            "displayName": "Stripe",
+            "year": 2024,
+            "example": "The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be your biggest competitive advantage.",
+            "score": 0.516
+          }
+        ]
       },
       {
         "id": "team_not_family",
@@ -147,7 +297,16 @@
         "tier": "netflix_only",
         "originYear": 2009,
         "originQuote": "We're a team, not a family. We're like a pro sports team, not a kid's recreational team.",
-        "adopters": []
+        "adopters": [],
+        "echoes": [
+          {
+            "company": "coinbase",
+            "displayName": "Coinbase",
+            "year": 2024,
+            "example": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers.",
+            "score": 0.59
+          }
+        ]
       },
       {
         "id": "judged_by_outcomes",
@@ -161,8 +320,8 @@
             "displayName": "GitLab",
             "year": 2025,
             "verbatim": true,
-            "example": "",
-            "score": null
+            "example": "Contribute to a results-driven culture built on shared values.",
+            "score": 0.342
           },
           {
             "company": "palantir",
@@ -171,6 +330,29 @@
             "verbatim": true,
             "example": "You are not evaluated by distant executives — you are judged by outcomes.",
             "score": 0.718
+          }
+        ],
+        "echoes": [
+          {
+            "company": "gitlab",
+            "displayName": "GitLab",
+            "year": 2019,
+            "example": "Focused on results, not on long hours, so that you can have a life and don't burn out.",
+            "score": 0.589
+          },
+          {
+            "company": "palantir",
+            "displayName": "Palantir",
+            "year": 2026,
+            "example": "We optimize for impact, not consensus.",
+            "score": 0.56
+          },
+          {
+            "company": "hubspot",
+            "displayName": "HubSpot",
+            "year": 2024,
+            "example": "That’s why, as our Culture Code states, we’ve always believed that results matter more than when or where they’re produced.",
+            "score": 0.538
           }
         ]
       },
@@ -186,32 +368,68 @@
             "displayName": "Palantir",
             "year": 2010,
             "verbatim": true,
-            "example": "",
-            "score": null
+            "example": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs.",
+            "score": 0.608
           },
           {
-            "company": "amazon",
-            "displayName": "Amazon",
-            "year": 2011,
-            "verbatim": false,
-            "example": "We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience for our customers.",
-            "score": 0.628
+            "company": "shopify",
+            "displayName": "Shopify",
+            "year": 2014,
+            "verbatim": true,
+            "example": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
+            "score": 0.764
           },
           {
             "company": "coinbase",
             "displayName": "Coinbase",
             "year": 2024,
             "verbatim": true,
-            "example": "",
-            "score": null
+            "example": "To attract top talent around the world and embrace decentralization, all full-time employees can work remote.",
+            "score": 0.4
+          }
+        ],
+        "echoes": [
+          {
+            "company": "amazon",
+            "displayName": "Amazon",
+            "year": 2011,
+            "example": "We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience for our customers.",
+            "score": 0.628
+          },
+          {
+            "company": "meta",
+            "displayName": "Meta",
+            "year": 2013,
+            "example": "We hire trailblazers, hackers and pioneers.",
+            "score": 0.596
           },
           {
             "company": "shopify",
             "displayName": "Shopify",
-            "year": 2025,
-            "verbatim": true,
-            "example": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
-            "score": 0.764
+            "year": 2012,
+            "example": "You are the very best at what you do — and that’s why we want to hire you.",
+            "score": 0.576
+          },
+          {
+            "company": "palantir",
+            "displayName": "Palantir",
+            "year": 2012,
+            "example": "We're looking for smart, driven people.",
+            "score": 0.567
+          },
+          {
+            "company": "gitlab",
+            "displayName": "GitLab",
+            "year": 2018,
+            "example": "We hire all over the world so we can work with the best talent.",
+            "score": 0.562
+          },
+          {
+            "company": "stripe",
+            "displayName": "Stripe",
+            "year": 2019,
+            "example": "No matter how talented, we won’t hire jerks.",
+            "score": 0.552
           }
         ]
       },
@@ -235,8 +453,8 @@
             "displayName": "Google",
             "year": 2018,
             "verbatim": true,
-            "example": "",
-            "score": null
+            "example": "Set a high bar for Google and Googlers to operate in accordance with our values, our Code of Conduct, and the law.",
+            "score": 0.476
           },
           {
             "company": "stripe",
@@ -245,14 +463,43 @@
             "verbatim": true,
             "example": "But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to sacrifice that for quantity of output.",
             "score": 0.652
-          },
+          }
+        ],
+        "echoes": [
           {
             "company": "shopify",
             "displayName": "Shopify",
             "year": 2026,
-            "verbatim": false,
             "example": "We raise the floor, while we constantly redefine the ceiling.",
             "score": 0.642
+          },
+          {
+            "company": "amazon",
+            "displayName": "Amazon",
+            "year": 2019,
+            "example": "Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes.",
+            "score": 0.634
+          },
+          {
+            "company": "google",
+            "displayName": "Google",
+            "year": 2021,
+            "example": "And we will continue to hold ourselves accountable.",
+            "score": 0.583
+          },
+          {
+            "company": "stripe",
+            "displayName": "Stripe",
+            "year": 2020,
+            "example": "People with unrelentingly high standards who inspire others to do more and go further.",
+            "score": 0.582
+          },
+          {
+            "company": "meta",
+            "displayName": "Meta",
+            "year": 2023,
+            "example": "We push ourselves to ship things that are not just good, but also awe-inspiring.",
+            "score": 0.534
           }
         ]
       }

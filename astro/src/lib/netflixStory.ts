@@ -11,12 +11,21 @@ export interface NetflixAdopter {
   score: number | null;
 }
 
+export interface NetflixEcho {
+  company: string;
+  displayName: string;
+  year: number;
+  example: string;
+  score: number;
+}
+
 export interface NetflixConcept {
   id: string;
   label: string;
   tier: "lift" | "netflix_only" | "generic";
   originYear: number | null;
   adopters: NetflixAdopter[];
+  echoes?: NetflixEcho[];
 }
 
 export interface NetflixEvolutionRow {

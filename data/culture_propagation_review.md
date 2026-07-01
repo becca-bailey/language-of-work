@@ -1,21 +1,21 @@
-# Culture-propagation match review (threshold=0.62)
+# Culture-propagation match review (threshold=0.65)
 
 Top matches per concept across companies, by cosine similarity. Use this to
 tune the threshold: matches above it should genuinely express the concept.
 
 ## Talent density
-- [✓] 0.668 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
-- [ ] 0.616 Stripe    2020  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
-- [ ] 0.616 Stripe    2022  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
-- [ ] 0.616 Stripe    2019  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
-- [ ] 0.613 Netflix   2009  Increase Talent Density • Top of market compensation • Attract high-value people through freedom to make big impact • Be
-- [ ] 0.603 Netflix   2009  The Key: Increase Talent Density faster than Complexity Grows
-- [ ] 0.585 Netflix   2024  Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by p
-- [ ] 0.569 Shopify   2025  We hire the best people and match their expertise to our most exciting work.
-- [ ] 0.565 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [ ] 0.565 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [ ] 0.565 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [ ] 0.563 Amazon    2011  We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience 
+- [✓] 0.985 Netflix   2009  The Key: Increase Talent Density faster than Complexity Grows
+- [✓] 0.724 Netflix   2009  Increase Talent Density • Top of market compensation • Attract high-value people through freedom to make big impact • Be
+- [~] 0.647 Netflix   2009  Growth Also Often Shrinks Talent Density Complexity % High Performance Employees
+- [~] 0.627 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
+- [~] 0.565 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.565 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.565 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.529 Shopify   2026  This is why we're intentional about talent.
+- [~] 0.516 Stripe    2025  The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be
+- [~] 0.516 Stripe    2024  The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be
+- [~] 0.510 Stripe    2022  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
+- [ ] 0.499 Meta      2018  Our teams are small and nimble.
 
 ## Keeper test
 - [✓] 0.797 Netflix   2017  We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was
@@ -25,9 +25,9 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.479 Stripe    2025  Push back on managers when you sense they’re making hires who are merely “fine.” Hold an equally high bar for performanc
 - [ ] 0.477 Stripe    2020  We value managers who are (and remain) experts in their areas and are hands-on practitioners, while also focused on deve
 - [ ] 0.470 Amazon    2007  High Hiring Bar: When making a hiring decision we ask ourselves: "Will I admire this person?
-- [ ] 0.447 Google    2020  Google works hard to attract the best talent and once they are here, we want them to stay.
-- [ ] 0.447 Google    2021  Google works hard to attract the best talent and once they are here, we want them to stay.
 - [ ] 0.447 Google    2022  Google works hard to attract the best talent and once they are here, we want them to stay.
+- [ ] 0.447 Google    2021  Google works hard to attract the best talent and once they are here, we want them to stay.
+- [ ] 0.447 Google    2020  Google works hard to attract the best talent and once they are here, we want them to stay.
 - [ ] 0.437 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
 - [ ] 0.421 Shopify   2026  This is why we're intentional about talent.
 
@@ -35,9 +35,9 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.802 Netflix   2021  We model ourselves on being a team, not a family.
 - [✓] 0.802 Netflix   2022  We model ourselves on being a team, not a family.
 - [✓] 0.802 Netflix   2017  We model ourselves on being a team, not a family.
-- [ ] 0.590 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [ ] 0.590 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [ ] 0.590 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.590 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.590 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.590 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [ ] 0.471 Stripe    2020  We have a variegated team and our values as a company are not simply the union of our values as individuals.
 - [ ] 0.471 Stripe    2022  We have a variegated team and our values as a company are not simply the union of our values as individuals.
 - [ ] 0.471 Stripe    2019  We have a variegated team and our values as a company are not simply the union of our values as individuals.
@@ -49,29 +49,29 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.681 Netflix   2020  More specifically, we have great people working together as a dream team .
 - [✓] 0.681 Netflix   2021  More specifically, we have great people working together as a dream team .
 - [✓] 0.681 Netflix   2017  More specifically, we have great people working together as a dream team .
-- [ ] 0.595 Shopify   2010  You'll be working in an amazing team with tons of benefits and perks.
-- [ ] 0.595 Shopify   2011  You'll be working in an amazing team with tons of benefits and perks.
-- [ ] 0.583 Snap      2026  We believe in hiring the most talented team members and creating an environment where everyone belongs
-- [ ] 0.583 Snap      2025  We believe in hiring the most talented team members and creating an environment where everyone belongs
-- [ ] 0.579 Shopify   2017  The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together 
-- [ ] 0.568 Stripe    2019  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
-- [ ] 0.568 Stripe    2017  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
-- [ ] 0.568 Stripe    2018  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
-- [ ] 0.558 Google    2012  We put great stock in our employees–energetic, passionate people from diverse backgrounds with creative approaches to wo
+- [~] 0.595 Shopify   2010  You'll be working in an amazing team with tons of benefits and perks.
+- [~] 0.595 Shopify   2011  You'll be working in an amazing team with tons of benefits and perks.
+- [~] 0.583 Snap      2026  We believe in hiring the most talented team members and creating an environment where everyone belongs
+- [~] 0.583 Snap      2025  We believe in hiring the most talented team members and creating an environment where everyone belongs
+- [~] 0.579 Shopify   2017  The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together 
+- [~] 0.568 Stripe    2019  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
+- [~] 0.568 Stripe    2017  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
+- [~] 0.568 Stripe    2018  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
+- [~] 0.558 Google    2012  We put great stock in our employees–energetic, passionate people from diverse backgrounds with creative approaches to wo
 
 ## High performer ≫ average
-- [ ] 0.605 Netflix   2019  The unusual part is that we give adequate performers a generous severance package 2 so that we can find a star for that 
-- [ ] 0.600 Netflix   2024  Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by p
-- [ ] 0.600 Netflix   2026  Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by p
-- [ ] 0.511 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [ ] 0.511 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [ ] 0.511 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [ ] 0.505 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
-- [ ] 0.442 Amazon    2017  They recognize exceptional talent, and willingly move them throughout the organization.
-- [ ] 0.442 Amazon    2019  They recognize exceptional talent, and willingly move them throughout the organization.
-- [ ] 0.442 Amazon    2020  They recognize exceptional talent, and willingly move them throughout the organization.
-- [ ] 0.432 Stripe    2024  The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be
-- [ ] 0.432 Stripe    2025  The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be
+- [✓] 0.837 Netflix   2009  In creative/inventive work, the best are 10xbetter than the average, so huge premium on creating effective teams of the 
+- [✓] 0.695 Netflix   2026  Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by p
+- [✓] 0.695 Netflix   2025  Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by p
+- [~] 0.511 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.511 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.511 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.501 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
+- [~] 0.501 Amazon    2020  Leaders raise the performance bar with every hire and promotion.
+- [~] 0.501 Amazon    2021  Leaders raise the performance bar with every hire and promotion.
+- [ ] 0.436 Stripe    2021  That said, don’t confuse lack of top down direction with lack of interest from the top: high performers are recognized, 
+- [ ] 0.436 Stripe    2022  That said, don’t confuse lack of top down direction with lack of interest from the top: high performers are recognized, 
+- [ ] 0.436 Stripe    2020  That said, don’t confuse lack of top down direction with lack of interest from the top: high performers are recognized, 
 
 ## Adequate → severance
 - [✓] 0.858 Coinbase  2026  Unremarkable performance gets a generous severance package.
@@ -88,46 +88,46 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.391 Shopify   2026  If these principles match what drives you – not just where you work, but why you build – let's talk.
 
 ## Raise the bar
-- [✓] 0.666 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
 - [✓] 0.666 Amazon    2021  Leaders raise the performance bar with every hire and promotion.
 - [✓] 0.666 Amazon    2016  Leaders raise the performance bar with every hire and promotion.
+- [✓] 0.666 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
 - [✓] 0.652 Stripe    2020  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.652 Stripe    2019  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.652 Stripe    2021  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
-- [✓] 0.642 Shopify   2026  We raise the floor, while we constantly redefine the ceiling.
-- [ ] 0.601 Netflix   2026  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
-- [ ] 0.601 Netflix   2025  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
-- [ ] 0.601 Netflix   2024  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
-- [ ] 0.583 Google    2021  And we will continue to hold ourselves accountable.
-- [ ] 0.583 Google    2022  And we will continue to hold ourselves accountable.
+- [~] 0.642 Shopify   2026  We raise the floor, while we constantly redefine the ceiling.
+- [~] 0.601 Netflix   2026  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
+- [~] 0.601 Netflix   2025  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
+- [~] 0.601 Netflix   2024  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
+- [~] 0.583 Google    2021  And we will continue to hold ourselves accountable.
+- [~] 0.583 Google    2022  And we will continue to hold ourselves accountable.
 
 ## Judged by outcomes/results
 - [✓] 0.718 Palantir  2026  You are not evaluated by distant executives — you are judged by outcomes.
-- [ ] 0.599 Netflix   2009  Hard Work – Not Relevant• We don’t measure people by how many hours they work or how much they are in the office• We do 
-- [ ] 0.589 GitLab    2019  Focused on results, not on long hours, so that you can have a life and don't burn out.
-- [ ] 0.589 GitLab    2020  Focused on results, not on long hours, so that you can have a life and don't burn out.
-- [ ] 0.589 GitLab    2021  Focused on results, not on long hours, so that you can have a life and don't burn out.
-- [ ] 0.560 Palantir  2026  We optimize for impact, not consensus.
-- [ ] 0.538 HubSpot   2024  That’s why, as our Culture Code states, we’ve always believed that results matter more than when or where they’re produc
-- [ ] 0.532 HubSpot   2025  Remote-first, trust-driven, and results-oriented - impact matters more than where you sit.
-- [ ] 0.532 HubSpot   2026  Remote-first, trust-driven, and results-oriented - impact matters more than where you sit.
-- [ ] 0.508 Netflix   2017  Of course, to be great, most of us have to put in considerable effort, but hard work is not how we measure effectiveness
-- [ ] 0.508 Netflix   2020  Of course, to be great, most of us have to put in considerable effort, but hard work and long hours is not how we measur
+- [~] 0.599 Netflix   2009  Hard Work – Not Relevant• We don’t measure people by how many hours they work or how much they are in the office• We do 
+- [~] 0.589 GitLab    2019  Focused on results, not on long hours, so that you can have a life and don't burn out.
+- [~] 0.589 GitLab    2020  Focused on results, not on long hours, so that you can have a life and don't burn out.
+- [~] 0.589 GitLab    2021  Focused on results, not on long hours, so that you can have a life and don't burn out.
+- [~] 0.560 Palantir  2026  We optimize for impact, not consensus.
+- [~] 0.538 HubSpot   2024  That’s why, as our Culture Code states, we’ve always believed that results matter more than when or where they’re produc
+- [~] 0.532 HubSpot   2025  Remote-first, trust-driven, and results-oriented - impact matters more than where you sit.
+- [~] 0.532 HubSpot   2026  Remote-first, trust-driven, and results-oriented - impact matters more than where you sit.
+- [~] 0.508 Netflix   2017  Of course, to be great, most of us have to put in considerable effort, but hard work is not how we measure effectiveness
+- [~] 0.508 Netflix   2020  Of course, to be great, most of us have to put in considerable effort, but hard work and long hours is not how we measur
 - [ ] 0.491 Shopify   2024  We operate on low process and high trust, and trade on impact.
 
 ## Only the best / A-players
 - [✓] 0.764 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
 - [✓] 0.674 Shopify   2025  We hire the best people and match their expertise to our most exciting work.
-- [✓] 0.628 Amazon    2011  We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience 
-- [ ] 0.608 Palantir  2010  At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to m
-- [ ] 0.596 Meta      2014  We hire trailblazers, hackers and pioneers.
-- [ ] 0.596 Meta      2013  We hire trailblazers, hackers and pioneers.
-- [ ] 0.596 Meta      2015  We hire trailblazers, hackers and pioneers.
-- [ ] 0.594 Netflix   2017  Like many great companies, we strive to hire the best and we value integrity, excellence, respect, and collaboration.
-- [ ] 0.593 Netflix   2018  Like all great companies, we strive to hire the best and we value integrity, excellence, respect, and collaboration.
-- [ ] 0.590 Amazon    2011  We hire the world's brightest minds and offer them an environment in which they can invent and innovate to improve the e
-- [ ] 0.580 Netflix   2019  Like all great companies, we strive to hire the best and we value integrity, excellence, respect, inclusivity, and colla
-- [ ] 0.576 Shopify   2013  You are the very best at what you do — and that’s why we want to hire you.
+- [~] 0.628 Amazon    2011  We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience 
+- [~] 0.608 Palantir  2010  At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to m
+- [~] 0.596 Meta      2014  We hire trailblazers, hackers and pioneers.
+- [~] 0.596 Meta      2013  We hire trailblazers, hackers and pioneers.
+- [~] 0.596 Meta      2015  We hire trailblazers, hackers and pioneers.
+- [~] 0.594 Netflix   2017  Like many great companies, we strive to hire the best and we value integrity, excellence, respect, and collaboration.
+- [~] 0.593 Netflix   2018  Like all great companies, we strive to hire the best and we value integrity, excellence, respect, and collaboration.
+- [~] 0.590 Amazon    2011  We hire the world's brightest minds and offer them an environment in which they can invent and innovate to improve the e
+- [~] 0.580 Netflix   2019  Like all great companies, we strive to hire the best and we value integrity, excellence, respect, inclusivity, and colla
+- [~] 0.576 Shopify   2013  You are the very best at what you do — and that’s why we want to hire you.
 
 ## Freedom & responsibility / no rules
 - [✓] 0.782 Meta      2018  We don’t have rules, we have values that guide the way we work and the decisions we make.
@@ -136,20 +136,20 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.667 Netflix   2013  We don't focus on rules, processes or procedures.
 - [✓] 0.667 Netflix   2015  We don't focus on rules, processes or procedures.
 - [✓] 0.667 Netflix   2014  We don't focus on rules, processes or procedures.
-- [✓] 0.641 GitHub    2011  We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating th
-- [✓] 0.641 GitHub    2012  We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating th
-- [ ] 0.581 Shopify   2020  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
-- [ ] 0.581 Shopify   2018  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
-- [ ] 0.581 Shopify   2019  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
-- [ ] 0.579 Stripe    2020  We have a variegated team and our values as a company are not simply the union of our values as individuals.
+- [~] 0.641 GitHub    2011  We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating th
+- [~] 0.641 GitHub    2012  We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating th
+- [~] 0.621 Amazon    2007  We make decisions as a company, and as individuals, based on our core values.
+- [~] 0.581 Shopify   2020  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
+- [~] 0.581 Shopify   2018  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
+- [~] 0.581 Shopify   2019  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
 
 ## Context, not control
 - [✓] 0.781 Netflix   2024  We expect managers to practice context not control — giving their teams the context and clarity needed to make good deci
 - [✓] 0.781 Netflix   2025  We expect managers to practice context not control — giving their teams the context and clarity needed to make good deci
 - [✓] 0.781 Netflix   2026  We expect managers to practice context not control — giving their teams the context and clarity needed to make good deci
-- [ ] 0.522 Amazon    2020  Leaders create and communicate a bold direction that inspires results.
-- [ ] 0.522 Amazon    2019  Leaders create and communicate a bold direction that inspires results.
-- [ ] 0.522 Amazon    2021  Leaders create and communicate a bold direction that inspires results.
+- [~] 0.522 Amazon    2021  Leaders create and communicate a bold direction that inspires results.
+- [~] 0.522 Amazon    2017  Leaders create and communicate a bold direction that inspires results.
+- [~] 0.522 Amazon    2018  Leaders create and communicate a bold direction that inspires results.
 - [ ] 0.484 Stripe    2024  Effective leaders embrace decision-making in cases of murky ownership, either making the call themselves or collaboratin
 - [ ] 0.484 Stripe    2025  Effective leaders embrace decision-making in cases of murky ownership, either making the call themselves or collaboratin
 - [ ] 0.467 Stripe    2025  They clearly communicate decisions and hold themselves and their teams accountable for results.
@@ -175,10 +175,10 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.746 Netflix   2017  Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.
 - [✓] 0.746 Netflix   2019  Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.
 - [✓] 0.746 Netflix   2018  Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.
-- [ ] 0.560 HubSpot   2025  We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life "fit" for us and the people
-- [ ] 0.560 HubSpot   2020  We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life "fit" for us and the people
-- [ ] 0.560 HubSpot   2024  We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life "fit" for us and the people
-- [ ] 0.501 Coinbase  2024  We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually.
+- [~] 0.560 HubSpot   2025  We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life "fit" for us and the people
+- [~] 0.560 HubSpot   2020  We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life "fit" for us and the people
+- [~] 0.560 HubSpot   2024  We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life "fit" for us and the people
+- [~] 0.501 Coinbase  2024  We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually.
 - [ ] 0.447 Shopify   2012  We don't have a dress code, you can start work late in the morning, and play video games whenever you need a break.
 - [ ] 0.434 Shopify   2014  We don’t believe in silly rules like working 9 to 5 every day.
 - [ ] 0.434 Shopify   2013  We don’t believe in silly rules like working 9 to 5 every day.

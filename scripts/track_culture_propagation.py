@@ -41,10 +41,14 @@ def _display(company: str) -> str:
 CONCEPTS: dict[str, dict] = {
     "talent_density": {
         "label": "Talent density",
+        # Seed with Netflix's own canonical deck phrasing so the origin matches by
+        # construction; paraphrases fill in the semantic neighborhood. (Anchoring only
+        # on paraphrases left Netflix's own "Increase Talent Density" lines below 0.62.)
         "anchors": [
-            "We deliberately keep a dense team of only the highest performers.",
+            "The Key: Increase Talent Density faster than Complexity Grows.",
+            "Increase talent density — attract and concentrate high-value people.",
             "Our edge is talent density — a high concentration of star performers.",
-            "We concentrate top talent and keep the bar extremely high.",
+            "We deliberately keep a dense team of only the highest performers.",
         ],
         "regex": re.compile(r"talent density|density of talent|concentration of (?:top )?talent", re.I),
     },
@@ -74,9 +78,12 @@ CONCEPTS: dict[str, dict] = {
     },
     "high_performer_supremacy": {
         "label": "High performer ≫ average",
+        # Seed with Netflix's own phrasing (deck + current culture page); paraphrases
+        # alone left even Netflix's canonical line at 0.600, below 0.62.
         "anchors": [
+            "In creative and inventive work, the best are 10x better than the average.",
+            "A high performer in any role is many times more effective than the average employee.",
             "A star performer is many times more valuable than an average employee.",
-            "One exceptional employee outperforms several adequate ones.",
         ],
         # bare "10x" was too loose (matched "10x return", "10x learning
         # environment"); require it to qualify a person to count as supremacy.
@@ -145,13 +152,36 @@ CONCEPTS: dict[str, dict] = {
             "We have no vacation policy; take time off as you see fit.",
             "There is no formal vacation tracking — take the time you need.",
         ],
-        "regex": re.compile(r"no vacation policy|unlimited (?:vacation|pto|time off|paid time)", re.I),
+        # Netflix-distinctive phrasing only. "Unlimited vacation/PTO" is generic HR-speak
+        # (everyone uses it) — matching it mislabeled HubSpot as a near-verbatim Netflix lift.
+        "regex": re.compile(r"no vacation policy|take vacation|no (?:rules|forms).{0,25}(?:weeks|vacation)", re.I),
     },
 }
 
 
 def _norm(v: np.ndarray) -> np.ndarray:
     return v / (np.linalg.norm(v, axis=-1, keepdims=True) + 1e-9)
+
+
+# Careers-page nav menus carry no punctuation, so the sentence splitter can't break them
+# off and they glue onto the first real sentence ("Benefits Help How to Apply FAQ We make
+# decisions…"). Strip a *leading run* of menu labels — but only when ≥2 of them chain,
+# so a sentence that legitimately opens with "Help us…" or "Careers at…" is left alone.
+_NAV_LABELS = (
+    r"Benefits|Help|How to Apply|FAQ|Home|Careers?|Search|Menu|Log ?in|Sign ?in|Sign ?up|"
+    r"Apply(?: Now)?|Jobs|Openings|About(?: Us)?|Contact(?: Us)?|Blog|Press|Newsroom|News|"
+    r"Privacy|Terms|Cookies?|Locations?|Investors?|Overview|Students?|Programs?|Events?|Resources?"
+)
+_NAV_PREFIX = re.compile(rf"^(?:(?:{_NAV_LABELS})\b[\s|·•>\-–—/]*){{2,}}", re.I)
+
+
+def strip_nav(s: str) -> str:
+    m = _NAV_PREFIX.match(s)
+    if not m:
+        return s
+    rest = s[m.end():].lstrip()
+    # Only strip if a real sentence remains; otherwise the line was all nav — drop it.
+    return rest if len(rest.split()) >= 5 else ""
 
 
 def company_sentences(company: str) -> list[tuple[int, str]]:
@@ -163,6 +193,7 @@ def company_sentences(company: str) -> list[tuple[int, str]]:
     rows: list[tuple[int, str]] = []
     for _, r in mb.iterrows():
         for s in split_sentences(r["text"]):
+            s = strip_nav(s)
             if len(s.split()) >= 5:
                 rows.append((int(r["year"]), s))
     if company == "netflix":  # seed the 2009 deck as the origin
@@ -182,12 +213,14 @@ def company_sentences(company: str) -> list[tuple[int, str]]:
     return out
 
 
-def main(threshold: float, review_top: int, companies: list[str] | None = None) -> None:
+def main(threshold: float, echo_threshold: float, review_top: int,
+         companies: list[str] | None = None) -> None:
     global COMPANIES
     if companies is not None:
         COMPANIES = list(companies)
     store = EmbeddingStore()
     concept_vecs = {n: _norm(np.stack(store.embed(c["anchors"]))) for n, c in CONCEPTS.items()}
+    concept_names = list(CONCEPTS)
 
     timeline: dict[str, dict] = {n: {} for n in CONCEPTS}
     review_rows: list[tuple] = []
@@ -200,31 +233,78 @@ def main(threshold: float, review_top: int, companies: list[str] | None = None) 
         years = [y for y, _ in sents]
         texts = [s for _, s in sents]
         E = _norm(np.stack(store.embed(texts)))
-        for name, c in CONCEPTS.items():
-            sims = (E @ concept_vecs[name].T).max(axis=1)
-            matched = [(years[i], texts[i], float(sims[i])) for i in range(len(texts)) if sims[i] >= threshold]
-            verb = [(years[i], texts[i]) for i in range(len(texts)) if c["regex"].search(texts[i])]
-            entry: dict = {}
-            if matched:
-                best = max(matched, key=lambda x: x[2])
-                entry.update(
-                    firstYearConcept=min(y for y, _, _ in matched),
-                    nConcept=len(matched),
-                    yearsConcept=sorted({y for y, _, _ in matched}),
-                    example=best[1][:180],
-                    exampleScore=round(best[2], 3),
-                )
-            if verb:
-                entry.update(firstYearVerbatim=min(y for y, _ in verb), nVerbatim=len(verb))
+        sims_by = {n: (E @ concept_vecs[n].T).max(axis=1) for n in CONCEPTS}
+        for name in CONCEPTS:  # review: top matches per concept (regardless of cutoff)
+            for i in np.argsort(-sims_by[name])[:review_top]:
+                review_rows.append((name, company, years[i], round(float(sims_by[name][i]), 3), texts[i][:120]))
+
+        if company == "netflix":
+            # Origin detection stays per-concept: Netflix "expresses" a concept if any of
+            # its sentences clears the bar (or matches the verbatim regex). No dedup — the
+            # deck legitimately voices several concepts in one breath, and no echo band.
+            for name, c in CONCEPTS.items():
+                sims = sims_by[name]
+                matched = [(years[i], texts[i], float(sims[i])) for i in range(len(texts)) if sims[i] >= threshold]
+                verb = [(years[i], texts[i]) for i in range(len(texts)) if c["regex"].search(texts[i])]
+                entry: dict = {}
+                if matched:
+                    best = max(matched, key=lambda x: x[2])
+                    entry.update(firstYearConcept=min(y for y, _, _ in matched), nConcept=len(matched),
+                                 yearsConcept=sorted({y for y, _, _ in matched}),
+                                 example=best[1][:180], exampleScore=round(best[2], 3))
+                if verb:
+                    entry.update(firstYearVerbatim=min(y for y, _ in verb), nVerbatim=len(verb))
+                if entry:
+                    timeline[name][company] = entry
+            continue
+
+        # Adopters: attribute each sentence to a SINGLE concept so one line can't count as
+        # a borrowing under every concept it grazes. A verbatim regex hit is unambiguous
+        # and wins outright; otherwise the sentence goes to its highest-similarity concept.
+        # There it's a lift (>= threshold) or an echo (>= echo_threshold): same framework,
+        # not necessarily borrowed.
+        lifts: dict[str, list] = {n: [] for n in CONCEPTS}   # (i, score, verbatim)
+        echoes: dict[str, list] = {n: [] for n in CONCEPTS}  # (i, score)
+        for i in range(len(texts)):
+            hits = [n for n in CONCEPTS if CONCEPTS[n]["regex"].search(texts[i])]
+            if hits:
+                for n in hits:
+                    lifts[n].append((i, float(sims_by[n][i]), True))
+                continue
+            best_n = max(concept_names, key=lambda n: sims_by[n][i])
+            sc = float(sims_by[best_n][i])
+            if sc >= threshold:
+                lifts[best_n].append((i, sc, False))
+            elif sc >= echo_threshold:
+                echoes[best_n].append((i, sc))
+        for name in CONCEPTS:
+            entry = {}
+            L = lifts[name]
+            if L:
+                bi, bs, _ = max(L, key=lambda x: x[1])
+                entry.update(firstYearConcept=min(years[i] for i, _, _ in L), nConcept=len(L),
+                             yearsConcept=sorted({years[i] for i, _, _ in L}),
+                             example=texts[bi][:180], exampleScore=round(bs, 3))
+                vb = [i for i, _, v in L if v]
+                if vb:
+                    entry.update(firstYearVerbatim=min(years[i] for i in vb), nVerbatim=len(vb))
+            # Dedup echoes by text (the same line recurs across snapshot years), keeping
+            # the earliest year it appeared and its best score.
+            best_by_text: dict[str, tuple[int, float]] = {}
+            for i, sc in echoes[name]:
+                t = texts[i][:180]
+                yr, prev = best_by_text.get(t, (years[i], -1.0))
+                best_by_text[t] = (min(yr, years[i]), max(prev, sc))
+            Eh = sorted(best_by_text.items(), key=lambda kv: -kv[1][1])
+            if Eh:
+                entry["echoes"] = [{"year": yr, "text": t, "score": round(sc, 3)}
+                                   for t, (yr, sc) in Eh[:3]]
             if entry:
                 timeline[name][company] = entry
-            # review: top matches for threshold tuning (regardless of cutoff)
-            for i in np.argsort(-sims)[:review_top]:
-                review_rows.append((name, company, years[i], round(float(sims[i]), 3), texts[i][:120]))
 
     display_names = {c: _display(c) for c in COMPANIES}
     write_json(ROOT / "data" / "culture_propagation.json",
-               {"threshold": threshold, "origin": "netflix",
+               {"threshold": threshold, "echoThreshold": echo_threshold, "origin": "netflix",
                 "concepts": {n: CONCEPTS[n]["label"] for n in CONCEPTS},
                 "displayNames": display_names, "timeline": timeline})
 
@@ -236,7 +316,7 @@ def main(threshold: float, review_top: int, companies: list[str] | None = None) 
         lines.append(f"## {CONCEPTS[name]['label']}")
         rows = sorted([r for r in review_rows if r[0] == name], key=lambda r: -r[3])[:12]
         for _, comp, yr, sc, txt in rows:
-            mark = "✓" if sc >= threshold else " "
+            mark = "✓" if sc >= threshold else ("~" if sc >= echo_threshold else " ")
             lines.append(f"- [{mark}] {sc:.3f} {display_names.get(comp, comp):9s} {yr}  {txt}")
         lines.append("")
     (ROOT / "data" / "culture_propagation_review.md").write_text("\n".join(lines))
@@ -255,6 +335,8 @@ def main(threshold: float, review_top: int, companies: list[str] | None = None) 
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--threshold", type=float, default=0.62)  # hand-validated
+    p.add_argument("--threshold", type=float, default=0.65)  # hand-validated borrowing bar
+    p.add_argument("--echo-threshold", type=float, default=0.50)  # floor for same-framework echoes
     p.add_argument("--review-top", type=int, default=3)
-    main(p.parse_args().threshold, p.parse_args().review_top)
+    a = p.parse_args()
+    main(a.threshold, a.echo_threshold, a.review_top)
