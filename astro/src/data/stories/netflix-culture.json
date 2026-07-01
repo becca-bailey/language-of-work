@@ -50,6 +50,14 @@
         "originQuote": "We seek to increase freedom and responsibility as we grow — we don't have rules.",
         "adopters": [
           {
+            "company": "github",
+            "displayName": "GitHub",
+            "year": 2011,
+            "verbatim": false,
+            "example": "We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating them accordingly.",
+            "score": 0.641
+          },
+          {
             "company": "meta",
             "displayName": "Meta",
             "year": 2016,
@@ -149,6 +157,14 @@
         "originQuote": null,
         "adopters": [
           {
+            "company": "gitlab",
+            "displayName": "GitLab",
+            "year": 2025,
+            "verbatim": true,
+            "example": "",
+            "score": null
+          },
+          {
             "company": "palantir",
             "displayName": "Palantir",
             "year": 2026,
@@ -184,14 +200,6 @@
           {
             "company": "coinbase",
             "displayName": "Coinbase",
-            "year": 2024,
-            "verbatim": true,
-            "example": "",
-            "score": null
-          },
-          {
-            "company": "brex",
-            "displayName": "Brex",
             "year": 2024,
             "verbatim": true,
             "example": "",
@@ -239,14 +247,6 @@
             "score": 0.652
           },
           {
-            "company": "brex",
-            "displayName": "Brex",
-            "year": 2021,
-            "verbatim": true,
-            "example": "We take our results personally, and we deliver at the highest standards, with integrity, despite the odds.",
-            "score": 0.626
-          },
-          {
             "company": "shopify",
             "displayName": "Shopify",
             "year": 2026,
@@ -259,10 +259,10 @@
     ]
   },
   "objectivity": {
-    "scanned": 2019,
-    "claim": 98,
+    "scanned": 2191,
+    "claim": 102,
     "metricCredible": 0,
-    "claimPct": 4.9,
+    "claimPct": 4.7,
     "smokingGun": "Netflix explicitly refuses to keep score: “We have no bell curves or rankings or quotas such as 'cut the bottom 10% every year'” — while demanding you be a “high performer” judged by a manager's gut (the keeper test).",
     "finding": "Pervasive objectivity rhetoric, no defined metric. The language borrows sports' objectivity without its scoreboard."
   }

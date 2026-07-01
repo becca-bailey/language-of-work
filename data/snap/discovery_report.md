@@ -5,7 +5,7 @@ Use this during manual step M1 to confirm/extend `url_patterns.json`.
 
 | Pattern | signal | 05 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| careers.snap.com/ | 459w | 1 | 17 | 176 | 166 | 210 | 509 | 530 | 2998 | 15825 | 7226 |
+| careers.snap.com/ | 31345w | 1 | 17 | 176 | 166 | 210 | 509 | 530 | 2998 | 15825 | 7228 |
 | snap.com/jobs | — |  |  |  |  |  |  |  |  |  |  |
 
 ## Gaps to investigate

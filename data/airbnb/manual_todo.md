@@ -29,4 +29,4 @@ Wayback can't recover these server-side; capture them by hand.
 }
 ```
 
-Current mission_brand counts by year: {2015: 10, 2016: 9, 2017: 13, 2018: 7, 2019: 6, 2020: 7, 2021: 10, 2022: 6, 2023: 7, 2024: 3, 2025: 3}
+Current mission_brand counts by year: {2015: 10, 2016: 9, 2017: 14, 2018: 7, 2019: 12, 2020: 7, 2021: 10, 2022: 6, 2023: 7, 2024: 3, 2025: 3}

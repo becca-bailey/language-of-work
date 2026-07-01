@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2018,
-      "zscore": -1.3028,
+      "zscore": -1.2492,
       "rawTopkMean": -0.0119,
       "nChunks": 8,
       "kUsed": 5,
@@ -40,8 +40,44 @@
       ]
     },
     {
+      "year": 2019,
+      "zscore": -1.5776,
+      "rawTopkMean": -0.0197,
+      "nChunks": 6,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
+          "heading": "Bitmoji",
+          "score": 0.0562
+        },
+        {
+          "text": "Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
+          "heading": "Snapchat",
+          "score": -0.0084
+        },
+        {
+          "text": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
+          "heading": "Spectacles",
+          "score": -0.0154
+        },
+        {
+          "text": "We think deeply, question conventions, and strive to never stop learning.",
+          "heading": "We Are Smart",
+          "score": -0.0623
+        },
+        {
+          "text": "We listen from the heart, think empathetically, and help each other grow.",
+          "heading": "We Are Kind",
+          "score": -0.0687
+        }
+      ]
+    },
+    {
       "year": 2020,
-      "zscore": 1.0502,
+      "zscore": 0.932,
       "rawTopkMean": 0.0401,
       "nChunks": 26,
       "kUsed": 5,
@@ -77,13 +113,18 @@
     },
     {
       "year": 2021,
-      "zscore": -0.576,
-      "rawTopkMean": 0.0042,
-      "nChunks": 16,
+      "zscore": -0.159,
+      "rawTopkMean": 0.0141,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Bitmoji Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
+          "heading": "Our Brands",
+          "score": 0.0428
+        },
         {
           "text": "SnapVets builds community for military veterans, dependents, and those who continue to serve.",
           "heading": "SnapVets",
@@ -103,19 +144,76 @@
           "text": "They empower us to come together to celebrate a common cause, raise awareness, encourage advocacy, and refine our approach to recruiting.",
           "heading": "Diversity, Equity & Inclusion",
           "score": 0.0022
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "zscore": -0.1172,
+      "rawTopkMean": 0.0151,
+      "nChunks": 14,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "As stories are shared, others listen wholeheartedly.",
+          "heading": "Snap Council",
+          "score": 0.05
         },
         {
-          "text": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
-          "heading": "SnapNoir",
-          "score": -0.0068
+          "text": "Team members have the opportunity to speak without being interrupted, which ensures everyone has a chance to be heard.",
+          "heading": "Snap Council",
+          "score": 0.029
+        },
+        {
+          "text": "We want to help you give back, your way!",
+          "heading": "Giving Back",
+          "score": 0.0058
+        },
+        {
+          "text": "Council is the practice of people coming together to share stories, listen deeply, and speak from the heart.",
+          "heading": "Snap Council",
+          "score": 0.0017
+        },
+        {
+          "text": "In addition to our sponsored volunteer projects, Snap team members can also take paid time each month to volunteer at a charity of their choice that aligns with our three giving pillars.",
+          "heading": "Giving Back",
+          "score": -0.0111
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": 0.2651,
+      "rawTopkMean": 0.0242,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Lend them a hand through our internal Snap-a-Wish program!",
+          "heading": "Snap-a-Wish",
+          "score": 0.0447
+        },
+        {
+          "text": "Have a teammate going through a tough time?",
+          "heading": "Snap-a-Wish",
+          "score": 0.0248
+        },
+        {
+          "text": "We’ll work hard to make sure they get the support they need.",
+          "heading": "Snap-a-Wish",
+          "score": 0.003
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": -0.9785,
-      "rawTopkMean": -0.0047,
-      "nChunks": 9,
+      "zscore": -0.7082,
+      "rawTopkMean": 0.001,
+      "nChunks": 20,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -126,32 +224,32 @@
           "score": 0.0598
         },
         {
+          "text": "Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
+          "heading": "",
+          "score": -0.0084
+        },
+        {
           "text": "Los Spectacles son gafas de sol que captan el mundo tal como lo ves y te permiten compartir tu perspectiva con el resto del mundo de una forma totalmente nueva.",
           "heading": "",
           "score": -0.0105
         },
         {
+          "text": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
+          "heading": "",
+          "score": -0.0154
+        },
+        {
           "text": "Snapchat es un nuevo tipo de cámara usado por millones de personas cada día para mantenerse en contacto con amigos, expresarse, explorar el mundo, y tomar algunas fotos, también.",
           "heading": "",
           "score": -0.0205
-        },
-        {
-          "text": "Gestionamos con elegancia la ambigüedad, cultivamos la innovación y demostramos un insaciable deseo de aprender. ¿Listo para unirte al equipo de Snap?",
-          "heading": "",
-          "score": -0.0253
-        },
-        {
-          "text": "Trabajamos con valor, mostramos empatía e inculcamos confianza a través de la honestidad y la integridad.",
-          "heading": "",
-          "score": -0.0272
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 1.2764,
+      "zscore": 1.1417,
       "rawTopkMean": 0.0451,
-      "nChunks": 42,
+      "nChunks": 43,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -185,17 +283,27 @@
     },
     {
       "year": 2026,
-      "zscore": 0.5306,
-      "rawTopkMean": 0.0286,
-      "nChunks": 25,
+      "zscore": 1.4723,
+      "rawTopkMean": 0.053,
+      "nChunks": 41,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "A facilitator offers the group a prompt and everyone shares a story, one at a time, without interruption.",
+          "heading": "",
+          "score": 0.0864
+        },
+        {
           "text": "It's the easiest and fastest way to communicate the full range of human emotions with your friends without pressure to be popular, pretty, or perfect.",
           "heading": "",
           "score": 0.0802
+        },
+        {
+          "text": "It is a listening practice that invites participants to share their stories with each other as a way to connect with one another and create community.",
+          "heading": "",
+          "score": 0.0372
         },
         {
           "text": "SnapVets supports and empowers Snap's military veterans and their families.",
@@ -203,19 +311,9 @@
           "score": 0.0335
         },
         {
-          "text": "SnapAsia is a community for those from Asian countries and the Pacific Islands.",
+          "text": "If you are interested in learning more about Council at Snap please visit Dandelion.com and join our newsletter.",
           "heading": "",
-          "score": 0.0127
-        },
-        {
-          "text": "Snapchat is an app that empowers people to express themselves, live in the moment, learn about the world, and have fun together.",
-          "heading": "",
-          "score": 0.0089
-        },
-        {
-          "text": "SnapParents supports all parents, guardians, and caregivers at Snap.",
-          "heading": "",
-          "score": 0.0077
+          "score": 0.0276
         }
       ]
     }

@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2018,
-      "zscore": 0.2194,
+      "zscore": 0.1698,
       "rawTopkMean": 0.2166,
       "nChunks": 8,
       "kUsed": 5,
@@ -40,8 +40,44 @@
       ]
     },
     {
+      "year": 2019,
+      "zscore": -0.4897,
+      "rawTopkMean": 0.1912,
+      "nChunks": 6,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We listen from the heart, think empathetically, and help each other grow.",
+          "heading": "We Are Kind",
+          "score": 0.3175
+        },
+        {
+          "text": "We challenge the status quo to make things with a sense of purpose.",
+          "heading": "We Are Creative",
+          "score": 0.2585
+        },
+        {
+          "text": "We think deeply, question conventions, and strive to never stop learning.",
+          "heading": "We Are Smart",
+          "score": 0.2081
+        },
+        {
+          "text": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
+          "heading": "Spectacles",
+          "score": 0.1141
+        },
+        {
+          "text": "Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
+          "heading": "Snapchat",
+          "score": 0.058
+        }
+      ]
+    },
+    {
       "year": 2020,
-      "zscore": 0.0401,
+      "zscore": 0.042,
       "rawTopkMean": 0.2117,
       "nChunks": 26,
       "kUsed": 5,
@@ -77,9 +113,9 @@
     },
     {
       "year": 2021,
-      "zscore": -0.519,
-      "rawTopkMean": 0.1964,
-      "nChunks": 16,
+      "zscore": -0.2306,
+      "rawTopkMean": 0.2012,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -100,26 +136,98 @@
           "score": 0.198
         },
         {
+          "text": "We Are Kind We operate with courage, show empathy, and instill trust through honesty and integrity.",
+          "heading": "Our Brands",
+          "score": 0.1911
+        },
+        {
           "text": "Here, we want all team members to have a seat at the table and a voice that’s heard.",
           "heading": "Diversity, Equity & Inclusion",
           "score": 0.175
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "zscore": 0.8963,
+      "rawTopkMean": 0.2446,
+      "nChunks": 14,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We want to help you give back, your way!",
+          "heading": "Giving Back",
+          "score": 0.2794
         },
         {
-          "text": "We strongly believe that DEI is everyone’s job because it fuels creative excellence and innovation.",
-          "heading": "Diversity, Equity & Inclusion",
-          "score": 0.1668
+          "text": "At Snap, there are tons of opportunities to make a lasting impact — both at work and in the community!",
+          "heading": "Giving Back",
+          "score": 0.2593
+        },
+        {
+          "text": "Whether we’re renovating houses for new mothers or offering free coding classes to women in need, we’re always finding new ways to give back.",
+          "heading": "Giving Back",
+          "score": 0.2471
+        },
+        {
+          "text": "Our giving programs focus around three key pillars: empowering youth, education, and the arts.",
+          "heading": "Giving Back",
+          "score": 0.2245
+        },
+        {
+          "text": "Council is the practice of people coming together to share stories, listen deeply, and speak from the heart.",
+          "heading": "Snap Council",
+          "score": 0.2128
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": -2.438,
+      "rawTopkMean": 0.1162,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Lend them a hand through our internal Snap-a-Wish program!",
+          "heading": "Snap-a-Wish",
+          "score": 0.1574
+        },
+        {
+          "text": "Have a teammate going through a tough time?",
+          "heading": "Snap-a-Wish",
+          "score": 0.1079
+        },
+        {
+          "text": "We’ll work hard to make sure they get the support they need.",
+          "heading": "Snap-a-Wish",
+          "score": 0.0833
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": -1.7868,
-      "rawTopkMean": 0.1616,
-      "nChunks": 9,
+      "zscore": 0.1066,
+      "rawTopkMean": 0.2142,
+      "nChunks": 20,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
+          "heading": "Our public commitment to DEI",
+          "score": 0.2624
+        },
+        {
+          "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
+          "heading": "Grounded in Kindness",
+          "score": 0.231
+        },
         {
           "text": "Contribuimos al progreso humano dando a las personas el poder de expresarse, vivir el momento, conocer el mundo y divertirse juntas.",
           "heading": "",
@@ -131,27 +239,17 @@
           "score": 0.1768
         },
         {
-          "text": "Trabajamos con valor, mostramos empatía e inculcamos confianza a través de la honestidad y la integridad.",
+          "text": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
           "heading": "",
-          "score": 0.1619
-        },
-        {
-          "text": "Solucionamos problemas a través de la acción, tomamos decisiones de gran calidad y pensamos con una mentalidad estratégica.",
-          "heading": "",
-          "score": 0.1322
-        },
-        {
-          "text": "La realidad aumentada de Snap permite a creadores de todo el mundo revolucionar la forma en que creamos, exploramos y jugamos.",
-          "heading": "",
-          "score": 0.1083
+          "score": 0.1722
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 1.4672,
-      "rawTopkMean": 0.2509,
-      "nChunks": 42,
+      "zscore": 1.0925,
+      "rawTopkMean": 0.2522,
+      "nChunks": 43,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -162,40 +260,14 @@
           "score": 0.2772
         },
         {
-          "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
-          "heading": "Our public commitment to DEI",
-          "score": 0.2624
+          "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+          "heading": "",
+          "score": 0.2659
         },
         {
           "text": "We believe that when we can see the world from other people’s perspectives, we come to understand why DEI is so essential.",
           "heading": "",
           "score": 0.2561
-        },
-        {
-          "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
-          "heading": "Grounded in Kindness",
-          "score": 0.231
-        },
-        {
-          "text": "ERGs offer opportunities for team members to empower and support each other, promote empathy, celebrate the community and share resources.",
-          "heading": "",
-          "score": 0.2278
-        }
-      ]
-    },
-    {
-      "year": 2026,
-      "zscore": 0.5791,
-      "rawTopkMean": 0.2265,
-      "nChunks": 25,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
-          "heading": "",
-          "score": 0.2659
         },
         {
           "text": "We believe the camera presents the greatest opportunity to improve the way people live and communicate.",
@@ -206,16 +278,42 @@
           "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
           "heading": "Our commitment to belonging",
           "score": 0.2298
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "zscore": 0.8512,
+      "rawTopkMean": 0.2429,
+      "nChunks": 41,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+          "heading": "",
+          "score": 0.2659
+        },
+        {
+          "text": "Our mission is to contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+          "heading": "",
+          "score": 0.2461
+        },
+        {
+          "text": "It is a listening practice that invites participants to share their stories with each other as a way to connect with one another and create community.",
+          "heading": "",
+          "score": 0.2429
+        },
+        {
+          "text": "We believe the camera presents the greatest opportunity to improve the way people live and communicate.",
+          "heading": "",
+          "score": 0.2318
         },
         {
           "text": "ERGs offer opportunities for team members to empower and support each other, promote empathy, celebrate the community and share resources.",
           "heading": "",
           "score": 0.2278
-        },
-        {
-          "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms",
-          "heading": "Better Together",
-          "score": 0.1773
         }
       ]
     }

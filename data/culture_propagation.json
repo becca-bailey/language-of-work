@@ -26,9 +26,10 @@
     "shopify": "Shopify",
     "stripe": "Stripe",
     "airbnb": "Airbnb",
-    "brex": "Brex",
     "snap": "Snap",
-    "hubspot": "HubSpot"
+    "hubspot": "HubSpot",
+    "gitlab": "GitLab",
+    "github": "GitHub"
   },
   "timeline": {
     "talent_density": {
@@ -192,18 +193,6 @@
         "exampleScore": 0.652,
         "firstYearVerbatim": 2019,
         "nVerbatim": 10
-      },
-      "brex": {
-        "firstYearConcept": 2021,
-        "nConcept": 2,
-        "yearsConcept": [
-          2021,
-          2024
-        ],
-        "example": "We take our results personally, and we deliver at the highest standards, with integrity, despite the odds.",
-        "exampleScore": 0.626,
-        "firstYearVerbatim": 2025,
-        "nVerbatim": 2
       }
     },
     "judged_by_outcomes": {
@@ -217,6 +206,10 @@
         "exampleScore": 0.718,
         "firstYearVerbatim": 2026,
         "nVerbatim": 1
+      },
+      "gitlab": {
+        "firstYearVerbatim": 2025,
+        "nVerbatim": 2
       }
     },
     "only_the_best": {
@@ -248,10 +241,6 @@
         "exampleScore": 0.764,
         "firstYearVerbatim": 2014,
         "nVerbatim": 4
-      },
-      "brex": {
-        "firstYearVerbatim": 2024,
-        "nVerbatim": 1
       }
     },
     "freedom_responsibility": {
@@ -278,6 +267,16 @@
         "exampleScore": 0.667,
         "firstYearVerbatim": 2009,
         "nVerbatim": 16
+      },
+      "github": {
+        "firstYearConcept": 2011,
+        "nConcept": 2,
+        "yearsConcept": [
+          2011,
+          2012
+        ],
+        "example": "We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating them accordingly.",
+        "exampleScore": 0.641
       }
     },
     "context_not_control": {

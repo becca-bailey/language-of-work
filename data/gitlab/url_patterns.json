@@ -1,0 +1,12 @@
+{
+  "company": "gitlab",
+  "display_name": "GitLab",
+  "comment": "All-remote pioneer. Scoped to recruiting/culture copy comparable to peers: the jobs pages and the culture landing page. The huge handbook/values page is deliberately excluded (handbook-scale, not recruiting copy) — deferred as a future canon study.",
+  "hosts": ["about.gitlab.com", "gitlab.com"],
+  "patterns": [
+    {"url": "about.gitlab.com/jobs", "match_type": "exact", "era_hint": "2015-2026"},
+    {"url": "about.gitlab.com/jobs/", "match_type": "exact", "era_hint": "2015-2026"},
+    {"url": "about.gitlab.com/company/culture", "match_type": "exact", "era_hint": "2015-2026"},
+    {"url": "about.gitlab.com/company/culture/", "match_type": "exact", "era_hint": "2015-2026"}
+  ]
+}

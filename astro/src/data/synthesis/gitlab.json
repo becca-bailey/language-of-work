@@ -1,0 +1,34 @@
+{
+  "company": "gitlab",
+  "displayName": "GitLab",
+  "headline": "GitLab presents itself as a fully remote, high-autonomy workplace where transparency, iteration, and broad contribution define the culture.",
+  "identity": "GitLab has consistently valued all-remote flexibility, individual autonomy, and the principle that 'everyone can contribute' — phrases that appear from 2015 through the most recent data. Diversity, inclusion, and belonging language was absent before 2018, then expanded steadily through 2021 (adding 'belonging' in 2020 and 'equity' in 2021), but the explicit demographic markers — '#lgbtq' Slack channels, 'women' on interview panels — dropped out of the copy by 2022–2023, suggesting that strand has softened even as the broader 'Diversity, Inclusion, & Belonging' framing persists.",
+  "fit": "You might be a good fit if you are self-directed and comfortable working asynchronously across time zones, motivated by shipping 'the minimum viable change' quickly rather than polished work, and drawn to a culture that frames transparency and open-source contribution as core values rather than perks.",
+  "sections": [
+    {
+      "heading": "Remote-first identity: the one constant",
+      "body": "From the earliest archived copy (2015: 'You can work from anywhere') through 2021 ('In the future, companies who make digital products are going to be much more all-remote'), remote work is the single most persistent theme in GitLab's careers language. The framing shifted over time — early copy treated remote as a simple perk; by 2019–2021 it became a stated ideology, with the careers page quoting the CEO on why all-remote is 'the future of work' and dedicating sections to 'All-remote work' as a competitive advantage.\n\nThe autonomy pitch is tightly coupled to this: 'independence is both valued and required' (2015–2018), 'you don't need to ask permission before spending company money like it's your own' (2018–2019), and 'freedom to contribute when and where you do your best work' (2021). The copy consistently asks candidates to self-select for high independence rather than reassure them that structure exists."
+    },
+    {
+      "heading": "DEI language: a clear arc with a recent plateau",
+      "body": "Before 2018, DEI language was effectively absent — the register data shows all chunks coded 'absent' in 2015–2017. In 2018 a 'Join a diverse, global team' section appeared, citing inclusive interviewing, Transgender Medical Services listed publicly, and sponsorship of diversity-in-tech events. The inclusion z-score jumped from roughly –1.2 in 2016–2017 to +0.8 in 2018 and peaked near +0.95 in 2020.\n\nThe vocabulary expanded year by year: 'diversity' (first appears 2018), 'inclusion' (2019), 'belonging' (2020), 'equity' (2021). By 2021 the copy read 'Diversity, Inclusion, & Belonging is woven into our values and everything we do.' However, specific demographic markers — '#lgbtq' Slack channels last appear in 2020, 'women' on interview panels last appear in 2022 — have since dropped from the quoted copy, and 'equity' disappears after 2023. The overall inclusion z-score data (truncated at 2021 in the provided set) does not show further growth, suggesting the language has stabilized or pulled back from its peak specificity."
+    },
+    {
+      "heading": "Performance and iteration: a steady undercurrent",
+      "body": "Performance-oriented language has been present throughout, though it peaked in 2019 (z-score +1.17) before moderating. The recurring phrase 'a very productive, ambitious team, where independence and flexibility are both valued and required' runs from 2015 to at least 2018. By 2019 the copy introduced the 'iteration' value explicitly: team members 'are expected to quickly deliver the minimum viable change… instead of waiting to produce a polished, completed product.' The 2021 advantages list names 'Results: Fast growth, ambitious vision' first among its bullet points.\n\nWellbeing language followed a similar arc — near-zero in 2015–2016, rising sharply in 2019 (z-score +1.59) with concrete perks like flexible hours, no-commute framing, and travel awards, then settling to a moderate level. The copy does not dwell on work-life balance in soft terms; it frames flexibility as an enabler of output ('plan your day so you are there for other people and have time for personal interests'), keeping the performance orientation intact."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

@@ -2212,81 +2212,73 @@
           "years": [
             {
               "year": 2015,
-              "zscore": 1.2639,
+              "zscore": 1.1603,
               "topkMean": 0.1819,
-              "controlZscore": 2.0854,
+              "controlZscore": 1.8786,
               "nChunks": 20,
               "thin": false
             },
             {
               "year": 2016,
-              "zscore": -1.8793,
+              "zscore": -2.0459,
               "topkMean": -0.0068,
-              "controlZscore": 1.144,
+              "controlZscore": 1.0207,
               "nChunks": 5,
               "thin": false
             },
             {
               "year": 2017,
-              "zscore": -0.2569,
-              "topkMean": 0.0906,
-              "controlZscore": 0.7206,
-              "nChunks": 4,
-              "thin": true
-            },
-            {
-              "year": 2018,
-              "zscore": -1.0877,
-              "topkMean": 0.0407,
-              "controlZscore": 0.2559,
-              "nChunks": 4,
-              "thin": true
+              "zscore": -0.3397,
+              "topkMean": 0.0936,
+              "controlZscore": 1.0659,
+              "nChunks": 8,
+              "thin": false
             },
             {
               "year": 2019,
-              "zscore": 1.8172,
+              "zscore": 1.7247,
               "topkMean": 0.2152,
-              "controlZscore": -0.9296,
+              "controlZscore": -0.8692,
               "nChunks": 9,
               "thin": false
             },
             {
               "year": 2020,
-              "zscore": -0.3675,
+              "zscore": -0.5039,
               "topkMean": 0.084,
-              "controlZscore": -0.2634,
+              "controlZscore": -0.262,
               "nChunks": 2,
               "thin": true
             },
             {
               "year": 2021,
-              "zscore": -0.0015,
+              "zscore": -0.1305,
               "topkMean": 0.1059,
-              "controlZscore": -0.1167,
+              "controlZscore": -0.1284,
               "nChunks": 10,
               "thin": false
             },
             {
               "year": 2022,
-              "zscore": 0.142,
+              "zscore": 0.0159,
               "topkMean": 0.1146,
-              "controlZscore": -0.9593,
+              "controlZscore": -0.8963,
               "nChunks": 3,
               "thin": true
             },
             {
               "year": 2023,
-              "zscore": -0.0339,
+              "zscore": -0.1636,
               "topkMean": 0.104,
-              "controlZscore": -1.0543,
+              "controlZscore": -0.9829,
               "nChunks": 4,
               "thin": true
             },
             {
               "year": 2024,
-              "zscore": 0.4037,
+              "zscore": 0.2828,
               "topkMean": 0.1303,
-              "controlZscore": -0.8825,
+              "controlZscore": -0.8263,
               "nChunks": 5,
               "thin": false
             }
@@ -2298,7 +2290,7 @@
               "topkMean": 0.1819,
               "nChunks": 19,
               "thin": false,
-              "control": 2.0854,
+              "control": 1.8786,
               "quote": "Create a global experience of belonging for anyone, anywhere."
             },
             {
@@ -2307,16 +2299,16 @@
               "topkMean": 0.1283,
               "nChunks": 16,
               "thin": false,
-              "control": 1.144,
+              "control": 1.0207,
               "quote": "The world is counting on you."
             },
             {
               "year": 2017,
               "zscore": -0.9646,
               "topkMean": 0.1362,
-              "nChunks": 20,
+              "nChunks": 21,
               "thin": false,
-              "control": 0.7206,
+              "control": 1.0659,
               "quote": "The world is counting on you."
             },
             {
@@ -2325,16 +2317,16 @@
               "topkMean": 0.1362,
               "nChunks": 17,
               "thin": false,
-              "control": 0.2559,
+              "control": null,
               "quote": "The world is counting on you."
             },
             {
               "year": 2019,
               "zscore": 1.0264,
               "topkMean": 0.2152,
-              "nChunks": 11,
+              "nChunks": 22,
               "thin": false,
-              "control": -0.9296,
+              "control": -0.8692,
               "quote": "We’re united with our community to create a world where anyone can belong anywhere."
             },
             {
@@ -2343,7 +2335,7 @@
               "topkMean": 0.2152,
               "nChunks": 13,
               "thin": false,
-              "control": -0.2634,
+              "control": -0.262,
               "quote": "We’re united with our community to create a world where anyone can belong anywhere."
             },
             {
@@ -2352,7 +2344,7 @@
               "topkMean": 0.2152,
               "nChunks": 20,
               "thin": false,
-              "control": -0.1167,
+              "control": -0.1284,
               "quote": "We’re united with our community to create a world where anyone can belong anywhere."
             },
             {
@@ -2361,7 +2353,7 @@
               "topkMean": 0.2152,
               "nChunks": 11,
               "thin": false,
-              "control": -0.9593,
+              "control": -0.8963,
               "quote": "We’re united with our community to create a world where anyone can belong anywhere."
             },
             {
@@ -2370,7 +2362,7 @@
               "topkMean": 0.2152,
               "nChunks": 14,
               "thin": false,
-              "control": -1.0543,
+              "control": -0.9829,
               "quote": "We’re united with our community to create a world where anyone can belong anywhere."
             },
             {
@@ -2379,7 +2371,7 @@
               "topkMean": 0.1303,
               "nChunks": 5,
               "thin": false,
-              "control": -0.8825,
+              "control": -0.8263,
               "quote": "Join our global creative community, where passion and collaboration drive innovation to make products that impact the world."
             },
             {
@@ -2390,134 +2382,6 @@
               "thin": false,
               "control": null,
               "quote": "Join our global creative community, where passion and collaboration drive innovation to make products that impact the world."
-            }
-          ]
-        },
-        {
-          "id": "brex",
-          "displayName": "Brex",
-          "years": [
-            {
-              "year": 2019,
-              "zscore": -0.6331,
-              "topkMean": 0.0754,
-              "controlZscore": -1.3549,
-              "nChunks": 4,
-              "thin": true
-            },
-            {
-              "year": 2021,
-              "zscore": 1.4632,
-              "topkMean": 0.1656,
-              "controlZscore": 0.7313,
-              "nChunks": 29,
-              "thin": false
-            },
-            {
-              "year": 2023,
-              "zscore": -0.8441,
-              "topkMean": 0.0664,
-              "controlZscore": -1.0888,
-              "nChunks": 1,
-              "thin": true
-            },
-            {
-              "year": 2024,
-              "zscore": 1.3233,
-              "topkMean": 0.1596,
-              "controlZscore": 0.4202,
-              "nChunks": 18,
-              "thin": false
-            },
-            {
-              "year": 2025,
-              "zscore": -0.9169,
-              "topkMean": 0.0632,
-              "controlZscore": 1.4924,
-              "nChunks": 15,
-              "thin": false
-            },
-            {
-              "year": 2026,
-              "zscore": -0.3925,
-              "topkMean": 0.0858,
-              "controlZscore": -0.2001,
-              "nChunks": 12,
-              "thin": false
-            }
-          ],
-          "worldChanging": [
-            {
-              "year": 2019,
-              "zscore": 0.6295,
-              "topkMean": 0.1395,
-              "nChunks": 2,
-              "thin": true,
-              "control": -1.3549,
-              "quote": "We exist to reinvent and unify broken financial systems so people can prosper in unimaginable ways."
-            },
-            {
-              "year": 2020,
-              "zscore": 0.6295,
-              "topkMean": 0.1395,
-              "nChunks": 2,
-              "thin": true,
-              "control": null,
-              "quote": "We exist to reinvent and unify broken financial systems so people can prosper in unimaginable ways."
-            },
-            {
-              "year": 2021,
-              "zscore": 1.3275,
-              "topkMean": 0.1656,
-              "nChunks": 24,
-              "thin": false,
-              "control": 0.7313,
-              "quote": "The future will be great, and we want to get there fast."
-            },
-            {
-              "year": 2022,
-              "zscore": -1.3047,
-              "topkMean": 0.0672,
-              "nChunks": 3,
-              "thin": true,
-              "control": null,
-              "quote": "Having candid conversations about race helps us close gaps and create a cohesive culture where backgrounds and experiences are better understood and welcomed."
-            },
-            {
-              "year": 2023,
-              "zscore": -0.5503,
-              "topkMean": 0.0954,
-              "nChunks": 3,
-              "thin": true,
-              "control": -1.0888,
-              "quote": "Having candid conversations about race helps us close gaps and create a cohesive culture where backgrounds and experiences are better understood and welcomed."
-            },
-            {
-              "year": 2024,
-              "zscore": 1.1666,
-              "topkMean": 0.1596,
-              "nChunks": 15,
-              "thin": false,
-              "control": 0.4202,
-              "quote": "“Approach life with a curious mind — your potential isn't limited by the qualities you have today."
-            },
-            {
-              "year": 2025,
-              "zscore": -0.576,
-              "topkMean": 0.0944,
-              "nChunks": 8,
-              "thin": false,
-              "control": 1.4924,
-              "quote": "We don’t just attract future leaders, we launch them."
-            },
-            {
-              "year": 2026,
-              "zscore": -1.322,
-              "topkMean": 0.0665,
-              "nChunks": 6,
-              "thin": false,
-              "control": -0.2001,
-              "quote": "We’re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream."
             }
           ]
         },
@@ -2527,116 +2391,158 @@
           "years": [
             {
               "year": 2018,
-              "zscore": 0.5159,
+              "zscore": 0.3793,
               "topkMean": 0.1814,
-              "controlZscore": -1.3028,
+              "controlZscore": -1.2492,
               "nChunks": 8,
               "thin": false
             },
             {
+              "year": 2019,
+              "zscore": -0.5796,
+              "topkMean": 0.1406,
+              "controlZscore": -1.5776,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
               "year": 2020,
-              "zscore": 0.4559,
+              "zscore": 0.3385,
               "topkMean": 0.1797,
-              "controlZscore": 1.0502,
+              "controlZscore": 0.932,
               "nChunks": 26,
               "thin": false
             },
             {
               "year": 2021,
-              "zscore": -1.1694,
-              "topkMean": 0.1327,
-              "controlZscore": -0.576,
-              "nChunks": 16,
+              "zscore": -0.6238,
+              "topkMean": 0.1387,
+              "controlZscore": -0.159,
+              "nChunks": 22,
               "thin": false
             },
             {
+              "year": 2022,
+              "zscore": -0.4184,
+              "topkMean": 0.1475,
+              "controlZscore": -0.1172,
+              "nChunks": 14,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "zscore": -2.1042,
+              "topkMean": 0.0758,
+              "controlZscore": 0.2651,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
               "year": 2024,
-              "zscore": -1.5962,
-              "topkMean": 0.1204,
-              "controlZscore": -0.9785,
-              "nChunks": 9,
+              "zscore": 0.5333,
+              "topkMean": 0.188,
+              "controlZscore": -0.7082,
+              "nChunks": 20,
               "thin": false
             },
             {
               "year": 2025,
-              "zscore": 0.9255,
-              "topkMean": 0.1932,
-              "controlZscore": 1.2764,
-              "nChunks": 42,
+              "zscore": 1.0553,
+              "topkMean": 0.2102,
+              "controlZscore": 1.1417,
+              "nChunks": 43,
               "thin": false
             },
             {
               "year": 2026,
-              "zscore": 0.8683,
-              "topkMean": 0.1916,
-              "controlZscore": 0.5306,
-              "nChunks": 25,
+              "zscore": 1.4197,
+              "topkMean": 0.2256,
+              "controlZscore": 1.4723,
+              "nChunks": 41,
               "thin": false
             }
           ],
           "worldChanging": [
             {
               "year": 2018,
-              "zscore": 0.1982,
+              "zscore": -0.2566,
               "topkMean": 0.1813,
               "nChunks": 4,
               "thin": true,
-              "control": -1.3028,
+              "control": -1.2492,
               "quote": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together."
             },
             {
               "year": 2019,
-              "zscore": 0.4781,
-              "topkMean": 0.1933,
-              "nChunks": 4,
-              "thin": true,
-              "control": null,
+              "zscore": 0.4359,
+              "topkMean": 0.2073,
+              "nChunks": 7,
+              "thin": false,
+              "control": -1.5776,
               "quote": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together."
             },
             {
               "year": 2020,
-              "zscore": 1.1302,
+              "zscore": 0.8063,
               "topkMean": 0.2211,
               "nChunks": 30,
               "thin": false,
-              "control": 1.0502,
+              "control": 0.932,
               "quote": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together."
             },
             {
               "year": 2021,
-              "zscore": -0.9406,
-              "topkMean": 0.1327,
-              "nChunks": 16,
+              "zscore": -0.4881,
+              "topkMean": 0.1727,
+              "nChunks": 20,
               "thin": false,
-              "control": -0.576,
-              "quote": "They empower us to come together to celebrate a common cause, raise awareness, encourage advocacy, and refine our approach to recruiting."
+              "control": -0.159,
+              "quote": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together."
+            },
+            {
+              "year": 2022,
+              "zscore": -0.407,
+              "topkMean": 0.1757,
+              "nChunks": 18,
+              "thin": false,
+              "control": -0.1172,
+              "quote": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together."
+            },
+            {
+              "year": 2023,
+              "zscore": -2.142,
+              "topkMean": 0.1107,
+              "nChunks": 9,
+              "thin": false,
+              "control": 0.2651,
+              "quote": "Lend them a hand through our internal Snap-a-Wish program!"
             },
             {
               "year": 2024,
-              "zscore": -1.9601,
-              "topkMean": 0.0892,
-              "nChunks": 4,
-              "thin": true,
-              "control": -0.9785,
-              "quote": "Contribuimos al progreso humano dando a las personas el poder de expresarse, vivir el momento, conocer el mundo y divertirse juntas."
-            },
-            {
-              "year": 2025,
-              "zscore": 0.2925,
-              "topkMean": 0.1854,
-              "nChunks": 34,
+              "zscore": -0.358,
+              "topkMean": 0.1776,
+              "nChunks": 14,
               "thin": false,
-              "control": 1.2764,
+              "control": -0.7082,
               "quote": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment..."
             },
             {
-              "year": 2026,
-              "zscore": 0.8017,
-              "topkMean": 0.2071,
-              "nChunks": 23,
+              "year": 2025,
+              "zscore": 1.0166,
+              "topkMean": 0.229,
+              "nChunks": 37,
               "thin": false,
-              "control": 0.5306,
+              "control": 1.1417,
               "quote": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together."
+            },
+            {
+              "year": 2026,
+              "zscore": 1.3929,
+              "topkMean": 0.2431,
+              "nChunks": 39,
+              "thin": false,
+              "control": 1.4723,
+              "quote": "Our mission is to contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together."
             }
           ]
         },
@@ -2877,6 +2783,448 @@
               "quote": "Our mission is simple: help millions grow better."
             }
           ]
+        },
+        {
+          "id": "gitlab",
+          "displayName": "GitLab",
+          "years": [
+            {
+              "year": 2015,
+              "zscore": -1.2589,
+              "topkMean": 0.025,
+              "controlZscore": -0.5789,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "zscore": -0.7803,
+              "topkMean": 0.0438,
+              "controlZscore": -0.1885,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "zscore": -0.1824,
+              "topkMean": 0.0674,
+              "controlZscore": 0.4202,
+              "nChunks": 12,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "zscore": 0.473,
+              "topkMean": 0.0931,
+              "controlZscore": 1.0753,
+              "nChunks": 37,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "zscore": 0.0162,
+              "topkMean": 0.0752,
+              "controlZscore": 1.3621,
+              "nChunks": 21,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "zscore": 0.5421,
+              "topkMean": 0.0959,
+              "controlZscore": 0.8731,
+              "nChunks": 22,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "zscore": 0.7297,
+              "topkMean": 0.1032,
+              "controlZscore": 0.8682,
+              "nChunks": 34,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "zscore": -1.2936,
+              "topkMean": 0.0236,
+              "controlZscore": -1.1776,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "zscore": -0.4478,
+              "topkMean": 0.0569,
+              "controlZscore": -1.4194,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "zscore": 2.202,
+              "topkMean": 0.1612,
+              "controlZscore": -1.2344,
+              "nChunks": 13,
+              "thin": false
+            }
+          ],
+          "worldChanging": [
+            {
+              "year": 2015,
+              "zscore": -1.4426,
+              "topkMean": 0.0501,
+              "nChunks": 2,
+              "thin": true,
+              "control": -0.5789,
+              "quote": "We work all over the world and like to spend time on things that matter ."
+            },
+            {
+              "year": 2016,
+              "zscore": -1.2145,
+              "topkMean": 0.0601,
+              "nChunks": 3,
+              "thin": true,
+              "control": -0.1885,
+              "quote": "For more background please see our about page , our culture page , our handbook , and our hiring guidelines ."
+            },
+            {
+              "year": 2017,
+              "zscore": -1.2145,
+              "topkMean": 0.0601,
+              "nChunks": 3,
+              "thin": true,
+              "control": null,
+              "quote": "For more background please see our about page , our culture page , our handbook , and our hiring guidelines ."
+            },
+            {
+              "year": 2018,
+              "zscore": -0.9035,
+              "topkMean": 0.0736,
+              "nChunks": 11,
+              "thin": false,
+              "control": 0.4202,
+              "quote": "We sponsor events and organizations that focus on increasing diversity in tech (e.g."
+            },
+            {
+              "year": 2019,
+              "zscore": -0.3309,
+              "topkMean": 0.0986,
+              "nChunks": 38,
+              "thin": false,
+              "control": 1.0753,
+              "quote": "We sponsor events and organizations that focus on increasing diversity in tech (e.g."
+            },
+            {
+              "year": 2020,
+              "zscore": -0.1745,
+              "topkMean": 0.1054,
+              "nChunks": 47,
+              "thin": false,
+              "control": 1.3621,
+              "quote": "And we want to enable that trend ."
+            },
+            {
+              "year": 2021,
+              "zscore": -0.1745,
+              "topkMean": 0.1054,
+              "nChunks": 55,
+              "thin": false,
+              "control": 0.8731,
+              "quote": "And we want to enable that trend ."
+            },
+            {
+              "year": 2022,
+              "zscore": 1.2332,
+              "topkMean": 0.1668,
+              "nChunks": 67,
+              "thin": false,
+              "control": 0.8682,
+              "quote": "Our mission makes it clear that we believe in a world where everyone can contribute."
+            },
+            {
+              "year": 2023,
+              "zscore": 1.1208,
+              "topkMean": 0.1619,
+              "nChunks": 47,
+              "thin": false,
+              "control": -1.1776,
+              "quote": "Our mission makes it clear that we believe in a world where everyone can contribute."
+            },
+            {
+              "year": 2024,
+              "zscore": 1.0337,
+              "topkMean": 0.1581,
+              "nChunks": 11,
+              "thin": false,
+              "control": null,
+              "quote": "Our mission makes it clear that we believe in a world where everyone can contribute."
+            },
+            {
+              "year": 2025,
+              "zscore": 1.0337,
+              "topkMean": 0.1581,
+              "nChunks": 14,
+              "thin": false,
+              "control": -1.4194,
+              "quote": "Our mission makes it clear that we believe in a world where everyone can contribute."
+            },
+            {
+              "year": 2026,
+              "zscore": 1.0337,
+              "topkMean": 0.1581,
+              "nChunks": 16,
+              "thin": false,
+              "control": -1.2344,
+              "quote": "Our mission makes it clear that we believe in a world where everyone can contribute."
+            }
+          ]
+        },
+        {
+          "id": "github",
+          "displayName": "GitHub",
+          "years": [
+            {
+              "year": 2011,
+              "zscore": -1.3092,
+              "topkMean": 0.055,
+              "controlZscore": 0.6828,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2012,
+              "zscore": -1.3054,
+              "topkMean": 0.0552,
+              "controlZscore": 0.6809,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "zscore": -0.9972,
+              "topkMean": 0.0657,
+              "controlZscore": 1.3267,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "zscore": -0.3752,
+              "topkMean": 0.0868,
+              "controlZscore": -0.2839,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2015,
+              "zscore": -1.0655,
+              "topkMean": 0.0633,
+              "controlZscore": 1.1279,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "zscore": -0.4451,
+              "topkMean": 0.0844,
+              "controlZscore": 0.1267,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "zscore": 0.4908,
+              "topkMean": 0.1163,
+              "controlZscore": -0.9231,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "zscore": 1.7332,
+              "topkMean": 0.1586,
+              "controlZscore": -0.5918,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2020,
+              "zscore": 0.9746,
+              "topkMean": 0.1328,
+              "controlZscore": 0.4236,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2021,
+              "zscore": 0.978,
+              "topkMean": 0.1329,
+              "controlZscore": -1.0877,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2022,
+              "zscore": 0.8723,
+              "topkMean": 0.1293,
+              "controlZscore": 0.7215,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "zscore": 0.4487,
+              "topkMean": 0.1149,
+              "controlZscore": -2.2036,
+              "nChunks": 2,
+              "thin": true
+            }
+          ],
+          "worldChanging": [
+            {
+              "year": 2011,
+              "zscore": -0.9536,
+              "topkMean": 0.0342,
+              "nChunks": 4,
+              "thin": true,
+              "control": 0.6828,
+              "quote": "We focus on lowering the barriers of collaboration by building powerful features into our products that make it easier to contribute."
+            },
+            {
+              "year": 2012,
+              "zscore": -1.103,
+              "topkMean": 0.0225,
+              "nChunks": 5,
+              "thin": false,
+              "control": 0.6809,
+              "quote": "We focus on lowering the barriers of collaboration by building powerful features into our products that make it easier to contribute."
+            },
+            {
+              "year": 2013,
+              "zscore": -1.7009,
+              "topkMean": -0.0241,
+              "nChunks": 1,
+              "thin": true,
+              "control": 1.3267,
+              "quote": "Our contact form goes to real people and we'd love to hear from you."
+            },
+            {
+              "year": 2014,
+              "zscore": null,
+              "topkMean": null,
+              "nChunks": 0,
+              "thin": true,
+              "control": -0.2839
+            },
+            {
+              "year": 2015,
+              "zscore": null,
+              "topkMean": null,
+              "nChunks": 0,
+              "thin": true,
+              "control": 1.1279
+            },
+            {
+              "year": 2016,
+              "zscore": 0.4473,
+              "topkMean": 0.1435,
+              "nChunks": 5,
+              "thin": false,
+              "control": 0.1267,
+              "quote": "We’re supporting a community where more than 15 million people learn, share, and work together to build software."
+            },
+            {
+              "year": 2017,
+              "zscore": 0.5179,
+              "topkMean": 0.149,
+              "nChunks": 7,
+              "thin": false,
+              "control": -0.9231,
+              "quote": "We’re supporting a community where more than 19 million people learn, share, and work together to build software."
+            },
+            {
+              "year": 2018,
+              "zscore": 0.5045,
+              "topkMean": 0.1479,
+              "nChunks": 7,
+              "thin": false,
+              "control": -0.5918,
+              "quote": "We’re supporting a community where more than 27 million * people learn, share, and work together to build software."
+            },
+            {
+              "year": 2019,
+              "zscore": 0.39,
+              "topkMean": 0.139,
+              "nChunks": 6,
+              "thin": false,
+              "control": null,
+              "quote": "We’re supporting a community where more than 31 million * people learn, share, and work together to build software."
+            },
+            {
+              "year": 2020,
+              "zscore": 0.5033,
+              "topkMean": 0.1478,
+              "nChunks": 7,
+              "thin": false,
+              "control": 0.4236,
+              "quote": "We’re supporting a community where more than 40 million * people learn, share, and work together to build software."
+            },
+            {
+              "year": 2021,
+              "zscore": 0.8328,
+              "topkMean": 0.1735,
+              "nChunks": 10,
+              "thin": false,
+              "control": -1.0877,
+              "quote": "Help us build the home for all developers."
+            },
+            {
+              "year": 2022,
+              "zscore": 0.9659,
+              "topkMean": 0.1839,
+              "nChunks": 10,
+              "thin": false,
+              "control": 0.7215,
+              "quote": "Learn about how GitHub’s people, products, and platform are creating positive and lasting change around the world."
+            },
+            {
+              "year": 2023,
+              "zscore": 0.9659,
+              "topkMean": 0.1839,
+              "nChunks": 10,
+              "thin": false,
+              "control": null,
+              "quote": "Learn about how GitHub’s people, products, and platform are creating positive and lasting change around the world."
+            },
+            {
+              "year": 2024,
+              "zscore": 0.9659,
+              "topkMean": 0.1839,
+              "nChunks": 10,
+              "thin": false,
+              "control": null,
+              "quote": "Learn about how GitHub’s people, products, and platform are creating positive and lasting change around the world."
+            },
+            {
+              "year": 2025,
+              "zscore": 0.5871,
+              "topkMean": 0.1544,
+              "nChunks": 7,
+              "thin": false,
+              "control": -2.2036,
+              "quote": "Learn about how GitHub’s people, products, and platform are creating positive and lasting change around the world."
+            },
+            {
+              "year": 2026,
+              "zscore": 0.4787,
+              "topkMean": 0.1459,
+              "nChunks": 5,
+              "thin": false,
+              "control": null,
+              "quote": "Learn about how GitHub’s people, products, and platform are creating positive and lasting change around the world."
+            }
+          ]
         }
       ]
     }
@@ -3031,14 +3379,14 @@
       "company": "airbnb",
       "displayName": "Airbnb",
       "peakYear": 2019,
-      "peakZscore": 1.8172,
+      "peakZscore": 1.7247,
       "peakQuote": {
         "text": "We’re united with our community to create a world where anyone can belong anywhere.",
         "heading": "Champion the Mission",
         "score": 0.3043
       },
       "latestYear": 2024,
-      "latestZscore": 0.4037,
+      "latestZscore": 0.2828,
       "latestQuote": {
         "text": "Join our global creative community, where passion and collaboration drive innovation to make products that impact the world.",
         "heading": "Make an impact",
@@ -3046,39 +3394,21 @@
       }
     },
     {
-      "company": "brex",
-      "displayName": "Brex",
-      "peakYear": 2021,
-      "peakZscore": 1.4632,
-      "peakQuote": {
-        "text": "The future will be great, and we want to get there fast.",
-        "heading": "Impatient Optimism",
-        "score": 0.1965
-      },
-      "latestYear": 2026,
-      "latestZscore": -0.3925,
-      "latestQuote": {
-        "text": "We’re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream.",
-        "heading": "Canada",
-        "score": 0.1761
-      }
-    },
-    {
       "company": "snap",
       "displayName": "Snap",
-      "peakYear": 2025,
-      "peakZscore": 0.9255,
+      "peakYear": 2026,
+      "peakZscore": 1.4197,
       "peakQuote": {
-        "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
-        "heading": "Grounded in Kindness",
-        "score": 0.2538
+        "text": "Our mission is to contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+        "heading": "",
+        "score": 0.2816
       },
       "latestYear": 2026,
-      "latestZscore": 0.8683,
+      "latestZscore": 1.4197,
       "latestQuote": {
-        "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+        "text": "Our mission is to contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
         "heading": "",
-        "score": 0.2772
+        "score": 0.2816
       }
     },
     {
@@ -3097,6 +3427,42 @@
         "text": "From sabbaticals to a regional week of rest, well-being is built in.",
         "heading": "A company that cares.",
         "score": 0.0574
+      }
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "peakYear": 2026,
+      "peakZscore": 2.202,
+      "peakQuote": {
+        "text": "Our mission makes it clear that we believe in a world where everyone can contribute.",
+        "heading": "A place where anyone can thrive",
+        "score": 0.2928
+      },
+      "latestYear": 2026,
+      "latestZscore": 2.202,
+      "latestQuote": {
+        "text": "Our mission makes it clear that we believe in a world where everyone can contribute.",
+        "heading": "A place where anyone can thrive",
+        "score": 0.2928
+      }
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "peakYear": 2018,
+      "peakZscore": 1.7332,
+      "peakQuote": {
+        "text": "We’re supporting a community where more than 27 million * people learn, share, and work together to build software.",
+        "heading": "GitHub is how people build software",
+        "score": 0.1671
+      },
+      "latestYear": 2025,
+      "latestZscore": 0.4487,
+      "latestQuote": {
+        "text": "We are dedicated to building a community and team that reflects the world we live in and pushes the boundaries of software innovation.",
+        "heading": "Diversity, Inclusions & Belonging",
+        "score": 0.1613
       }
     }
   ],
@@ -3219,6 +3585,15 @@
       "zscore": 1.069
     },
     {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2011,
+      "text": "The tools we create help individuals and companies, public and private, to write better code, faster.",
+      "heading": "The Company",
+      "score": 0.0685,
+      "zscore": -1.3092
+    },
+    {
       "company": "google",
       "displayName": "Google",
       "year": 2011,
@@ -3262,6 +3637,15 @@
       "heading": "About Shopify",
       "score": 0.0453,
       "zscore": -2.1094
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2012,
+      "text": "The tools we create help individuals and companies, public and private, to write better code, faster.",
+      "heading": "The Company",
+      "score": 0.0685,
+      "zscore": -1.3054
     },
     {
       "company": "google",
@@ -3325,6 +3709,15 @@
       "heading": "Life At Coinbase",
       "score": 0.1719,
       "zscore": -1.4209
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2013,
+      "text": "Over three million people use GitHub to build amazing things together.",
+      "heading": "Build software better, together.",
+      "score": 0.1537,
+      "zscore": -0.9972
     },
     {
       "company": "google",
@@ -3399,6 +3792,15 @@
       "zscore": -1.0962
     },
     {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2014,
+      "text": "Over seven million people use GitHub to build amazing things together.",
+      "heading": "",
+      "score": 0.1556,
+      "zscore": -0.3752
+    },
+    {
       "company": "google",
       "displayName": "Google",
       "year": 2014,
@@ -3459,7 +3861,25 @@
       "text": "Create a global experience of belonging for anyone, anywhere.",
       "heading": "Champion the Mission",
       "score": 0.2874,
-      "zscore": 1.2639
+      "zscore": 1.1603
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2015,
+      "text": "With a community of more than 10 million people, developers can discover, use, and contribute to over 25 million projects using a powerful collaborative development workflow .",
+      "heading": "",
+      "score": 0.121,
+      "zscore": -1.0655
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "year": 2015,
+      "text": "We work all over the world and like to spend time on things that matter .",
+      "heading": "GitLab",
+      "score": 0.0835,
+      "zscore": -1.2589
     },
     {
       "company": "hubspot",
@@ -3513,7 +3933,7 @@
       "text": "Passionate. Committed. Optimistic. Puts the Airbnb community first. Takes ownership and delivers results. Perpetuates belonging.",
       "heading": "Champion the Mission",
       "score": 0.0753,
-      "zscore": -1.8793
+      "zscore": -2.0459
     },
     {
       "company": "amazon",
@@ -3523,6 +3943,24 @@
       "heading": "Diversity at Amazon",
       "score": 0.1255,
       "zscore": 0.0079
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2016,
+      "text": "Come help us make collaboration even better.",
+      "heading": "Jobs",
+      "score": 0.1477,
+      "zscore": -0.4451
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "year": 2016,
+      "text": "For more background please see our about page , our culture page , our handbook , and our hiring guidelines .",
+      "heading": "Why work for GitLab?",
+      "score": 0.0805,
+      "zscore": -0.7803
     },
     {
       "company": "google",
@@ -3576,7 +4014,7 @@
       "text": "Be bold and apply original thinking Imagine the ideal outcome Be resourceful to make the outcome a reality",
       "heading": "Be a Cereal Entrepreneur",
       "score": 0.1148,
-      "zscore": -0.2569
+      "zscore": -0.3397
     },
     {
       "company": "amazon",
@@ -3595,6 +4033,15 @@
       "heading": "Careers",
       "score": 0.1719,
       "zscore": -1.3159
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2017,
+      "text": "Developers from all around the world are building amazing things together.",
+      "heading": "Press",
+      "score": 0.1471,
+      "zscore": 0.4908
     },
     {
       "company": "google",
@@ -3651,15 +4098,6 @@
       "zscore": 1.0257
     },
     {
-      "company": "airbnb",
-      "displayName": "Airbnb",
-      "year": 2018,
-      "text": "We build the best experience for our community - as a team.",
-      "heading": "Create a world that inspires human connection",
-      "score": 0.1057,
-      "zscore": -1.0877
-    },
-    {
       "company": "amazon",
       "displayName": "Amazon",
       "year": 2018,
@@ -3676,6 +4114,24 @@
       "heading": "Working at Coinbase",
       "score": 0.2152,
       "zscore": 1.0195
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2018,
+      "text": "We’re supporting a community where more than 27 million * people learn, share, and work together to build software.",
+      "heading": "GitHub is how people build software",
+      "score": 0.1671,
+      "zscore": 1.7332
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "year": 2018,
+      "text": "We sponsor events and organizations that focus on increasing diversity in tech (e.g.",
+      "heading": "Join a diverse, global team",
+      "score": 0.1105,
+      "zscore": -0.1824
     },
     {
       "company": "google",
@@ -3738,7 +4194,7 @@
       "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
       "heading": "Who We Are",
       "score": 0.2772,
-      "zscore": 0.5159
+      "zscore": 0.3793
     },
     {
       "company": "stripe",
@@ -3756,7 +4212,7 @@
       "text": "We’re united with our community to create a world where anyone can belong anywhere.",
       "heading": "Champion the Mission",
       "score": 0.3043,
-      "zscore": 1.8172
+      "zscore": 1.7247
     },
     {
       "company": "amazon",
@@ -3768,15 +4224,6 @@
       "zscore": -1.7436
     },
     {
-      "company": "brex",
-      "displayName": "Brex",
-      "year": 2019,
-      "text": "We exist to reinvent and unify broken financial systems so people can prosper in unimaginable ways.",
-      "heading": "Dream big . In life and at work .",
-      "score": 0.2431,
-      "zscore": -0.6331
-    },
-    {
       "company": "coinbase",
       "displayName": "Coinbase",
       "year": 2019,
@@ -3784,6 +4231,15 @@
       "heading": "A nossa missão",
       "score": 0.1792,
       "zscore": 0.0441
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "year": 2019,
+      "text": "We learn from each other, challenge each other, and thank each other.",
+      "heading": "Everyone can contribute",
+      "score": 0.1082,
+      "zscore": 0.473
     },
     {
       "company": "google",
@@ -3831,6 +4287,15 @@
       "zscore": -0.9092
     },
     {
+      "company": "snap",
+      "displayName": "Snap",
+      "year": 2019,
+      "text": "We challenge the status quo to make things with a sense of purpose.",
+      "heading": "We Are Creative",
+      "score": 0.2468,
+      "zscore": -0.5796
+    },
+    {
       "company": "stripe",
       "displayName": "Stripe",
       "year": 2019,
@@ -3846,7 +4311,7 @@
       "text": "We want everyone to be healthy, travel often, get time to give back, and have the financial resources and support they need.",
       "heading": "Live your best life",
       "score": 0.159,
-      "zscore": -0.3675
+      "zscore": -0.5039
     },
     {
       "company": "amazon",
@@ -3865,6 +4330,24 @@
       "heading": "Praca w Coinbase",
       "score": 0.1712,
       "zscore": 0.7763
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2020,
+      "text": "Learn more about our commitment to diversity .",
+      "heading": "A diverse and inclusive workplace",
+      "score": 0.1494,
+      "zscore": 0.9746
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "year": 2020,
+      "text": "We sponsor events and organizations that focus on increasing diversity in tech (e.g.",
+      "heading": "Join a diverse, global team",
+      "score": 0.1105,
+      "zscore": 0.0162
     },
     {
       "company": "google",
@@ -3918,7 +4401,7 @@
       "text": "Their mission is to promote empathy, respect, and kindness for all people, regardless of ability level or mental health status.",
       "heading": "SnapAbility",
       "score": 0.2565,
-      "zscore": 0.4559
+      "zscore": 0.3385
     },
     {
       "company": "stripe",
@@ -3936,16 +4419,7 @@
       "text": "Engineering technologies that bring people together in the real world is both inspiring and daunting.",
       "heading": "Build extraordinary products",
       "score": 0.1892,
-      "zscore": -0.0015
-    },
-    {
-      "company": "brex",
-      "displayName": "Brex",
-      "year": 2021,
-      "text": "The future will be great, and we want to get there fast.",
-      "heading": "Impatient Optimism",
-      "score": 0.1965,
-      "zscore": 1.4632
+      "zscore": -0.1305
     },
     {
       "company": "coinbase",
@@ -3955,6 +4429,24 @@
       "heading": "Make crypto for everyone",
       "score": 0.1941,
       "zscore": 1.2679
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2021,
+      "text": "Help us build the home for all developers.",
+      "heading": "Careers →",
+      "score": 0.1939,
+      "zscore": 0.978
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "year": 2021,
+      "text": "I think it's going to be the future.",
+      "heading": "All-remote work",
+      "score": 0.1384,
+      "zscore": 0.5421
     },
     {
       "company": "google",
@@ -4017,7 +4509,7 @@
       "text": "They empower us to come together to celebrate a common cause, raise awareness, encourage advocacy, and refine our approach to recruiting.",
       "heading": "Diversity, Equity & Inclusion",
       "score": 0.2029,
-      "zscore": -1.1694
+      "zscore": -0.6238
     },
     {
       "company": "stripe",
@@ -4035,7 +4527,7 @@
       "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work.",
       "heading": "Include everyone",
       "score": 0.1696,
-      "zscore": 0.142
+      "zscore": 0.0159
     },
     {
       "company": "coinbase",
@@ -4045,6 +4537,24 @@
       "heading": "Lead the future of the cryptoeconomy. #LiveCrypto",
       "score": 0.1272,
       "zscore": 0.2017
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2022,
+      "text": "Learn about how GitHub’s people, products, and platform are creating positive and lasting change around the world.",
+      "heading": "Social Impact",
+      "score": 0.2233,
+      "zscore": 0.8723
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "year": 2022,
+      "text": "Make an impact at one of the world's largest all-remote companies.",
+      "heading": "Join the GitLab team",
+      "score": 0.1327,
+      "zscore": 0.7297
     },
     {
       "company": "google",
@@ -4101,6 +4611,15 @@
       "zscore": 0.7708
     },
     {
+      "company": "snap",
+      "displayName": "Snap",
+      "year": 2022,
+      "text": "Whether we’re renovating houses for new mothers or offering free coding classes to women in need, we’re always finding new ways to give back.",
+      "heading": "Giving Back",
+      "score": 0.1686,
+      "zscore": -0.4184
+    },
+    {
       "company": "stripe",
       "displayName": "Stripe",
       "year": 2022,
@@ -4116,7 +4635,7 @@
       "text": "We believe that embracing differences within Airbnb's teams is key to promoting innovation and accessibility in our global community.",
       "heading": "Belong at Airbnb",
       "score": 0.1479,
-      "zscore": -0.0339
+      "zscore": -0.1636
     },
     {
       "company": "amazon",
@@ -4128,15 +4647,6 @@
       "zscore": -0.7602
     },
     {
-      "company": "brex",
-      "displayName": "Brex",
-      "year": 2023,
-      "text": "Helping our customers reach their full potential starts with helping our team reach theirs.",
-      "heading": "We dream big, in life and at work",
-      "score": 0.0664,
-      "zscore": -0.8441
-    },
-    {
       "company": "coinbase",
       "displayName": "Coinbase",
       "year": 2023,
@@ -4144,6 +4654,15 @@
       "heading": "Build the future of finance",
       "score": 0.1351,
       "zscore": -0.3244
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "year": 2023,
+      "text": "Anniversary of our first ever summit in Amsterdam with 25 GitLab team-members.",
+      "heading": "October 10th, 2015",
+      "score": 0.035,
+      "zscore": -1.2936
     },
     {
       "company": "google",
@@ -4191,6 +4710,15 @@
       "zscore": 1.0552
     },
     {
+      "company": "snap",
+      "displayName": "Snap",
+      "year": 2023,
+      "text": "Lend them a hand through our internal Snap-a-Wish program!",
+      "heading": "Snap-a-Wish",
+      "score": 0.1482,
+      "zscore": -2.1042
+    },
+    {
       "company": "stripe",
       "displayName": "Stripe",
       "year": 2023,
@@ -4206,16 +4734,7 @@
       "text": "Join our global creative community, where passion and collaboration drive innovation to make products that impact the world.",
       "heading": "Make an impact",
       "score": 0.1717,
-      "zscore": 0.4037
-    },
-    {
-      "company": "brex",
-      "displayName": "Brex",
-      "year": 2024,
-      "text": "“Approach life with a curious mind — your potential isn't limited by the qualities you have today.",
-      "heading": "",
-      "score": 0.1989,
-      "zscore": 1.3233
+      "zscore": 0.2828
     },
     {
       "company": "coinbase",
@@ -4275,10 +4794,10 @@
       "company": "snap",
       "displayName": "Snap",
       "year": 2024,
-      "text": "Contribuimos al progreso humano dando a las personas el poder de expresarse, vivir el momento, conocer el mundo y divertirse juntas.",
-      "heading": "",
-      "score": 0.2068,
-      "zscore": -1.5962
+      "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
+      "heading": "Grounded in Kindness",
+      "score": 0.2538,
+      "zscore": 0.5333
     },
     {
       "company": "stripe",
@@ -4299,15 +4818,6 @@
       "zscore": 0.7378
     },
     {
-      "company": "brex",
-      "displayName": "Brex",
-      "year": 2025,
-      "text": "We don’t just attract future leaders, we launch them.",
-      "heading": "",
-      "score": 0.1474,
-      "zscore": -0.9169
-    },
-    {
       "company": "coinbase",
       "displayName": "Coinbase",
       "year": 2025,
@@ -4315,6 +4825,24 @@
       "heading": "Who we are",
       "score": 0.2079,
       "zscore": 1.5946
+    },
+    {
+      "company": "github",
+      "displayName": "GitHub",
+      "year": 2025,
+      "text": "We are dedicated to building a community and team that reflects the world we live in and pushes the boundaries of software innovation.",
+      "heading": "Diversity, Inclusions & Belonging",
+      "score": 0.1613,
+      "zscore": 0.4487
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "year": 2025,
+      "text": "Together, we're building the most comprehensive AI-powered DevSecOps platform.",
+      "heading": "Join GitLab",
+      "score": 0.1017,
+      "zscore": -0.4478
     },
     {
       "company": "google",
@@ -4365,10 +4893,10 @@
       "company": "snap",
       "displayName": "Snap",
       "year": 2025,
-      "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
-      "heading": "Grounded in Kindness",
-      "score": 0.2538,
-      "zscore": 0.9255
+      "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+      "heading": "",
+      "score": 0.2772,
+      "zscore": 1.0553
     },
     {
       "company": "amazon",
@@ -4380,15 +4908,6 @@
       "zscore": 0.6583
     },
     {
-      "company": "brex",
-      "displayName": "Brex",
-      "year": 2026,
-      "text": "We’re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream.",
-      "heading": "Canada",
-      "score": 0.1761,
-      "zscore": -0.3925
-    },
-    {
       "company": "coinbase",
       "displayName": "Coinbase",
       "year": 2026,
@@ -4396,6 +4915,15 @@
       "heading": "Welcome to Coinbase",
       "score": 0.0777,
       "zscore": -1.0171
+    },
+    {
+      "company": "gitlab",
+      "displayName": "GitLab",
+      "year": 2026,
+      "text": "Our mission makes it clear that we believe in a world where everyone can contribute.",
+      "heading": "A place where anyone can thrive",
+      "score": 0.2928,
+      "zscore": 2.202
     },
     {
       "company": "hubspot",
@@ -4446,10 +4974,10 @@
       "company": "snap",
       "displayName": "Snap",
       "year": 2026,
-      "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+      "text": "Our mission is to contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
       "heading": "",
-      "score": 0.2772,
-      "zscore": 0.8683
+      "score": 0.2816,
+      "zscore": 1.4197
     },
     {
       "company": "stripe",

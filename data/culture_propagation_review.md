@@ -41,9 +41,9 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.471 Stripe    2020  We have a variegated team and our values as a company are not simply the union of our values as individuals.
 - [ ] 0.471 Stripe    2022  We have a variegated team and our values as a company are not simply the union of our values as individuals.
 - [ ] 0.471 Stripe    2019  We have a variegated team and our values as a company are not simply the union of our values as individuals.
-- [ ] 0.451 Brex      2021  We optimize for Brex above any team or individual, we’re committed to each other’s success, and we work together to leve
 - [ ] 0.445 Meta      2023  We have a sense of responsibility for our collective success and to each other as teammates.
 - [ ] 0.445 Meta      2024  We have a sense of responsibility for our collective success and to each other as teammates.
+- [ ] 0.439 Google    2012  There is an emphasis on team achievements and pride in individual accomplishments that contribute to our overall success
 
 ## Dream team / stunning colleagues
 - [✓] 0.681 Netflix   2020  More specifically, we have great people working together as a dream team .
@@ -52,12 +52,12 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.595 Shopify   2010  You'll be working in an amazing team with tons of benefits and perks.
 - [ ] 0.595 Shopify   2011  You'll be working in an amazing team with tons of benefits and perks.
 - [ ] 0.583 Snap      2026  We believe in hiring the most talented team members and creating an environment where everyone belongs
+- [ ] 0.583 Snap      2025  We believe in hiring the most talented team members and creating an environment where everyone belongs
 - [ ] 0.579 Shopify   2017  The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together 
 - [ ] 0.568 Stripe    2019  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
 - [ ] 0.568 Stripe    2017  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
 - [ ] 0.568 Stripe    2018  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
 - [ ] 0.558 Google    2012  We put great stock in our employees–energetic, passionate people from diverse backgrounds with creative approaches to wo
-- [ ] 0.554 Coinbase  2020  To achieve this, we are building a team of smart, creative, passionate optimists, the kind of people who see opportunity
 
 ## High performer ≫ average
 - [ ] 0.605 Netflix   2019  The unusual part is that we give adequate performers a generous severance package 2 so that we can find a star for that 
@@ -95,15 +95,18 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.652 Stripe    2019  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.652 Stripe    2021  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.642 Shopify   2026  We raise the floor, while we constantly redefine the ceiling.
-- [✓] 0.626 Brex      2024  We take our results personally, and we deliver at the highest standards, with integrity, despite the odds.
-- [✓] 0.626 Brex      2021  We take our results personally, and we deliver at the highest standards, with integrity, despite the odds.
 - [ ] 0.601 Netflix   2026  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
 - [ ] 0.601 Netflix   2025  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
 - [ ] 0.601 Netflix   2024  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
+- [ ] 0.583 Google    2021  And we will continue to hold ourselves accountable.
+- [ ] 0.583 Google    2022  And we will continue to hold ourselves accountable.
 
 ## Judged by outcomes/results
 - [✓] 0.718 Palantir  2026  You are not evaluated by distant executives — you are judged by outcomes.
 - [ ] 0.599 Netflix   2009  Hard Work – Not Relevant• We don’t measure people by how many hours they work or how much they are in the office• We do 
+- [ ] 0.589 GitLab    2019  Focused on results, not on long hours, so that you can have a life and don't burn out.
+- [ ] 0.589 GitLab    2020  Focused on results, not on long hours, so that you can have a life and don't burn out.
+- [ ] 0.589 GitLab    2021  Focused on results, not on long hours, so that you can have a life and don't burn out.
 - [ ] 0.560 Palantir  2026  We optimize for impact, not consensus.
 - [ ] 0.538 HubSpot   2024  That’s why, as our Culture Code states, we’ve always believed that results matter more than when or where they’re produc
 - [ ] 0.532 HubSpot   2025  Remote-first, trust-driven, and results-oriented - impact matters more than where you sit.
@@ -111,9 +114,6 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.508 Netflix   2017  Of course, to be great, most of us have to put in considerable effort, but hard work is not how we measure effectiveness
 - [ ] 0.508 Netflix   2020  Of course, to be great, most of us have to put in considerable effort, but hard work and long hours is not how we measur
 - [ ] 0.491 Shopify   2024  We operate on low process and high trust, and trade on impact.
-- [ ] 0.491 Shopify   2023  We operate on low process and high trust, and trade on impact.
-- [ ] 0.487 Stripe    2021  We believe in performance management and feedback, but we’re not rigid in terms of a career paths and box checking.
-- [ ] 0.487 Stripe    2022  We believe in performance management and feedback, but we’re not rigid in terms of a career paths and box checking.
 
 ## Only the best / A-players
 - [✓] 0.764 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
@@ -126,8 +126,8 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.594 Netflix   2017  Like many great companies, we strive to hire the best and we value integrity, excellence, respect, and collaboration.
 - [ ] 0.593 Netflix   2018  Like all great companies, we strive to hire the best and we value integrity, excellence, respect, and collaboration.
 - [ ] 0.590 Amazon    2011  We hire the world's brightest minds and offer them an environment in which they can invent and innovate to improve the e
-- [ ] 0.583 Brex      2025  We hire people who dream big, who have grit, autonomy, and ambition.
 - [ ] 0.580 Netflix   2019  Like all great companies, we strive to hire the best and we value integrity, excellence, respect, inclusivity, and colla
+- [ ] 0.576 Shopify   2013  You are the very best at what you do — and that’s why we want to hire you.
 
 ## Freedom & responsibility / no rules
 - [✓] 0.782 Meta      2018  We don’t have rules, we have values that guide the way we work and the decisions we make.
@@ -136,12 +136,12 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.667 Netflix   2013  We don't focus on rules, processes or procedures.
 - [✓] 0.667 Netflix   2015  We don't focus on rules, processes or procedures.
 - [✓] 0.667 Netflix   2014  We don't focus on rules, processes or procedures.
+- [✓] 0.641 GitHub    2011  We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating th
+- [✓] 0.641 GitHub    2012  We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating th
 - [ ] 0.581 Shopify   2020  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
 - [ ] 0.581 Shopify   2018  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
 - [ ] 0.581 Shopify   2019  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
 - [ ] 0.579 Stripe    2020  We have a variegated team and our values as a company are not simply the union of our values as individuals.
-- [ ] 0.579 Stripe    2019  We have a variegated team and our values as a company are not simply the union of our values as individuals.
-- [ ] 0.579 Stripe    2022  We have a variegated team and our values as a company are not simply the union of our values as individuals.
 
 ## Context, not control
 - [✓] 0.781 Netflix   2024  We expect managers to practice context not control — giving their teams the context and clarity needed to make good deci
@@ -168,8 +168,8 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.449 Meta      2018  Our teams are small and nimble.
 - [ ] 0.449 Meta      2016  Our teams are small and nimble.
 - [ ] 0.445 Shopify   2026  Does it allow us to align with strategic partners?
-- [ ] 0.438 Brex      2026  Our teams span Software, Data, Security, and IT, and operate with high autonomy and deep collaboration.
 - [ ] 0.429 Shopify   2018  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
+- [ ] 0.429 Shopify   2020  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
 
 ## No vacation policy / unlimited time off
 - [✓] 0.746 Netflix   2017  Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.
@@ -182,5 +182,5 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.447 Shopify   2012  We don't have a dress code, you can start work late in the morning, and play video games whenever you need a break.
 - [ ] 0.434 Shopify   2014  We don’t believe in silly rules like working 9 to 5 every day.
 - [ ] 0.434 Shopify   2013  We don’t believe in silly rules like working 9 to 5 every day.
-- [ ] 0.393 Meta      2022  Our philosophy of everyday flexibility allows people and teams to determine patterns of work, collaboration, and connect
-- [ ] 0.386 Meta      2022  We know there’s no one-size-fits-all approach to flexibility that allows everyone to manage work and life, which is why 
+- [ ] 0.430 GitLab    2019  Have flexible work hours so you are there for other people and free to plan the day how you like.
+- [ ] 0.430 GitLab    2021  Have flexible work hours so you are there for other people and free to plan the day how you like.

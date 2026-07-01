@@ -257,13 +257,13 @@
     },
     {
       "year": 2017,
-      "inclusionTopkMean": 0.4624,
-      "inclusionMean": 0.3818,
-      "inclusionMax": 0.5166,
-      "inclusionFractionPresent": 0.9231,
-      "meritocracyTopkMean": 0.4607,
-      "meritocracyMean": 0.3929,
-      "nChunks": 13,
+      "inclusionTopkMean": 0.4887,
+      "inclusionMean": 0.3935,
+      "inclusionMax": 0.5456,
+      "inclusionFractionPresent": 0.9286,
+      "meritocracyTopkMean": 0.4836,
+      "meritocracyMean": 0.4032,
+      "nChunks": 14,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -273,10 +273,20 @@
         "belonging_culture": 0,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 13
+        "absent": 14
       },
-      "controlTopkMean": -0.008,
+      "controlTopkMean": 0.0101,
       "inclusionQuotes": [
+        {
+          "text": "We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.",
+          "heading": "Create a world that inspires human connection",
+          "register": "absent",
+          "inclusion": 0.5456,
+          "meritocracy": 0.5383,
+          "stanceDiff": 0.0073,
+          "salience": 0.5456,
+          "score": 0.5456
+        },
         {
           "text": "We build the best experience for our community - as a team.",
           "heading": "Create",
@@ -316,19 +326,19 @@
           "stanceDiff": 0.0063,
           "salience": 0.447,
           "score": 0.447
-        },
-        {
-          "text": "We're dedicated to constant learning. That's why we organize Fireside Chats, which bring in industry leaders to share their experiences and wisdom. From CEOs to musicians, these leaders always have something invaluable to teach us. The world is counting on you. It's all about knowing who you are. Ambassador Crumpton 24 years with the CIA & strategic international advisor If you don't do shit, you ",
-          "heading": "We Learn from the Best",
-          "register": "absent",
-          "inclusion": 0.4143,
-          "meritocracy": 0.4371,
-          "stanceDiff": -0.0228,
-          "salience": 0.4371,
-          "score": 0.4143
         }
       ],
       "meritocracyQuotes": [
+        {
+          "text": "We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.",
+          "heading": "Create a world that inspires human connection",
+          "register": "absent",
+          "inclusion": 0.5456,
+          "meritocracy": 0.5383,
+          "stanceDiff": 0.0073,
+          "salience": 0.5456,
+          "score": 0.5383
+        },
         {
           "text": "We build the best experience for our community - as a team.",
           "heading": "Create",
@@ -368,16 +378,6 @@
           "stanceDiff": -0.0228,
           "salience": 0.4371,
           "score": 0.4371
-        },
-        {
-          "text": "Thinks holistically. Rigorous about quality. Appreciates the details and prioritizes the right ones.",
-          "heading": "Every Frame Matters",
-          "register": "absent",
-          "inclusion": 0.3268,
-          "meritocracy": 0.4237,
-          "stanceDiff": -0.0969,
-          "salience": 0.4237,
-          "score": 0.4237
         }
       ]
     },
@@ -401,7 +401,7 @@
         "civilizational_mission": 0,
         "absent": 6
       },
-      "controlTopkMean": -0.0258,
+      "controlTopkMean": null,
       "inclusionQuotes": [
         {
           "text": "We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.",
@@ -509,23 +509,23 @@
     },
     {
       "year": 2019,
-      "inclusionTopkMean": 0.5762,
-      "inclusionMean": 0.5406,
+      "inclusionTopkMean": 0.5876,
+      "inclusionMean": 0.4861,
       "inclusionMax": 0.6378,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.5096,
-      "meritocracyMean": 0.4747,
-      "nChunks": 7,
+      "meritocracyTopkMean": 0.527,
+      "meritocracyMean": 0.4478,
+      "nChunks": 13,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 1,
+        "belonging_culture": 2,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 5
+        "absent": 10
       },
       "controlTopkMean": -0.0713,
       "inclusionQuotes": [
@@ -560,6 +560,16 @@
           "score": 0.5971
         },
         {
+          "text": "We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.",
+          "heading": "Create a world that inspires human connection",
+          "register": "absent",
+          "inclusion": 0.5456,
+          "meritocracy": 0.5383,
+          "stanceDiff": 0.0073,
+          "salience": 0.5456,
+          "score": 0.5456
+        },
+        {
           "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
           "heading": "Embrace the Adventure",
           "register": "absent",
@@ -568,16 +578,6 @@
           "stanceDiff": 0.0013,
           "salience": 0.5299,
           "score": 0.5299
-        },
-        {
-          "text": "There’s life at work and life outside of work. We want everyone to be healthy, travel often, get time to give back, and have the financial resources and support they need.",
-          "heading": "Live your best life",
-          "register": "absent",
-          "inclusion": 0.4888,
-          "meritocracy": 0.3772,
-          "stanceDiff": 0.1116,
-          "salience": 0.4888,
-          "score": 0.4888
         }
       ],
       "meritocracyQuotes": [
@@ -592,6 +592,16 @@
           "score": 0.6008
         },
         {
+          "text": "We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.",
+          "heading": "Create a world that inspires human connection",
+          "register": "absent",
+          "inclusion": 0.5456,
+          "meritocracy": 0.5383,
+          "stanceDiff": 0.0073,
+          "salience": 0.5456,
+          "score": 0.5383
+        },
+        {
           "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
           "heading": "Embrace the Adventure",
           "register": "absent",
@@ -602,6 +612,16 @@
           "score": 0.5286
         },
         {
+          "text": "No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.",
+          "heading": "Together at Airbnb",
+          "register": "absent",
+          "inclusion": 0.4757,
+          "meritocracy": 0.4913,
+          "stanceDiff": -0.0155,
+          "salience": 0.4913,
+          "score": 0.4913
+        },
+        {
           "text": "We’re determined and creative in transforming our bold ambitions into reality.",
           "heading": "Be a Cereal Entrepreneur",
           "register": "absent",
@@ -610,26 +630,6 @@
           "stanceDiff": -0.0311,
           "salience": 0.476,
           "score": 0.476
-        },
-        {
-          "text": "We’re united with our community to create a world where anyone can belong anywhere.",
-          "heading": "Champion the Mission",
-          "register": "absent",
-          "inclusion": 0.5971,
-          "meritocracy": 0.4717,
-          "stanceDiff": 0.1254,
-          "salience": 0.5971,
-          "score": 0.4717
-        },
-        {
-          "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about diversity and belonging",
-          "heading": "Include everyone",
-          "register": "aspirational_vague",
-          "inclusion": 0.6378,
-          "meritocracy": 0.4711,
-          "stanceDiff": 0.1666,
-          "salience": 0.6378,
-          "score": 0.4711
         }
       ]
     },
@@ -1545,6 +1545,12 @@
         "score": 0.3967
       },
       {
+        "id": "0c92d7ef420e",
+        "year": 2017,
+        "text": "We look inside and outside for inspiration and learning.",
+        "score": 0.3906
+      },
+      {
         "id": "64624442d912",
         "year": 2017,
         "text": "Be curious, ask for help, and demonstrate an ability to grow Own and learn from mistakes Bring joy and optimism to work",
@@ -1683,6 +1689,24 @@
         "score": 0.5245
       },
       {
+        "id": "2962c27b01af",
+        "year": 2019,
+        "text": "We build the best experience for our community - as a team.",
+        "score": 0.5166
+      },
+      {
+        "id": "cf5a79495b09",
+        "year": 2019,
+        "text": "Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.",
+        "score": 0.4605
+      },
+      {
+        "id": "139f8718b5f8",
+        "year": 2019,
+        "text": "Prioritize work that advances the mission and positively impacts the community Build with the long-term in mind Actively participate in the community and culture",
+        "score": 0.4585
+      },
+      {
         "id": "5dcd5698498d",
         "year": 2019,
         "text": "Guided by our four core values, we’ll meet these challenges creatively and with the support of our global community.",
@@ -1707,6 +1731,30 @@
         "score": 0.4229
       },
       {
+        "id": "8850e8c61ec5",
+        "year": 2019,
+        "text": "Care for others and make them feel like they belong Encourage others to participate to their fullest Listen, communicate openly and set clear expectations",
+        "score": 0.3993
+      },
+      {
+        "id": "0c92d7ef420e",
+        "year": 2019,
+        "text": "We look inside and outside for inspiration and learning.",
+        "score": 0.3906
+      },
+      {
+        "id": "64624442d912",
+        "year": 2019,
+        "text": "Be curious, ask for help, and demonstrate an ability to grow Own and learn from mistakes Bring joy and optimism to work",
+        "score": 0.389
+      },
+      {
+        "id": "3ad50f41088e",
+        "year": 2019,
+        "text": "It takes an entire team united behind something big.",
+        "score": 0.3415
+      },
+      {
         "id": "6e01cec8ff82",
         "year": 2019,
         "text": "Exciting challenges lie ahead—new regions, technologies, and businesses.",
@@ -1723,6 +1771,12 @@
         "year": 2019,
         "text": "There’s life at work and life outside of work.",
         "score": 0.3107
+      },
+      {
+        "id": "b1bec618bdac",
+        "year": 2019,
+        "text": "We make sure to enjoy it.",
+        "score": 0.3069
       },
       {
         "id": "b0ddd28b6c78",

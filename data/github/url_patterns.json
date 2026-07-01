@@ -1,0 +1,12 @@
+{
+  "company": "github",
+  "display_name": "GitHub",
+  "comment": "Careers/about pages; developer-first culture, remote-friendly. Pre-Avature careers lived on github.com/about/careers and github.com/careers.",
+  "hosts": ["github.com", "github.careers"],
+  "patterns": [
+    {"url": "github.com/about/careers", "match_type": "prefix", "era_hint": "2011-2026"},
+    {"url": "github.com/careers", "match_type": "prefix", "era_hint": "2011-2026"},
+    {"url": "github.com/about/culture", "match_type": "prefix", "era_hint": "2013-2026"},
+    {"url": "github.com/about", "match_type": "exact", "era_hint": "2011-2026"}
+  ]
+}

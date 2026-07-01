@@ -15,11 +15,6 @@ Wayback can't recover these server-side; capture them by hand.
 | done | year | url | wayback (pick a snapshot in-year) |
 | --- | --- | --- | --- |
 | [ ] | 2018 | careers.snap.com/ | https://web.archive.org/web/20180601000000*/careers.snap.com/ |
-| [ ] | 2019 | careers.snap.com/ | https://web.archive.org/web/20190601000000*/careers.snap.com/ |
-| [ ] | 2020 | careers.snap.com/ | https://web.archive.org/web/20200601000000*/careers.snap.com/ |
-| [ ] | 2022 | careers.snap.com/ | https://web.archive.org/web/20220601000000*/careers.snap.com/ |
-| [ ] | 2023 | careers.snap.com/ | https://web.archive.org/web/20230601000000*/careers.snap.com/ |
-| [ ] | 2024 | careers.snap.com/ | https://web.archive.org/web/20240601000000*/careers.snap.com/ |
 
 ## manual_manifest.json template
 ```json
@@ -35,4 +30,4 @@ Wayback can't recover these server-side; capture them by hand.
 }
 ```
 
-Current mission_brand counts by year: {2018: 2, 2019: 2, 2020: 2, 2021: 7, 2025: 7, 2026: 5}
+Current mission_brand counts by year: {2018: 2, 2019: 8, 2020: 10, 2021: 9, 2022: 10, 2023: 7, 2024: 5, 2025: 12, 2026: 9}

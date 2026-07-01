@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2018,
-      "zscore": 0.1982,
+      "zscore": -0.2566,
       "rawTopkMean": 0.1813,
       "nChunks": 4,
       "kUsed": 4,
@@ -37,11 +37,11 @@
     },
     {
       "year": 2019,
-      "zscore": 0.4781,
-      "rawTopkMean": 0.1933,
-      "nChunks": 4,
-      "kUsed": 4,
-      "thin": true,
+      "zscore": 0.4359,
+      "rawTopkMean": 0.2073,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "technoShare": 0.5,
       "quotes": [
@@ -49,6 +49,11 @@
           "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
           "heading": "Who We Are",
           "score": 0.2772
+        },
+        {
+          "text": "We challenge the status quo to make things with a sense of purpose.",
+          "heading": "We Are Creative",
+          "score": 0.2468
         },
         {
           "text": "We Are Kind We listen from the heart, think empathetically, and help each other grow.",
@@ -61,15 +66,15 @@
           "score": 0.1742
         },
         {
-          "text": "We Are Smart We think deeply, question conventions, and strive to never stop learning.",
-          "heading": "Our Brands",
-          "score": 0.1269
+          "text": "We think deeply, question conventions, and strive to never stop learning.",
+          "heading": "We Are Smart",
+          "score": 0.1432
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 1.1302,
+      "zscore": 0.8063,
       "rawTopkMean": 0.2211,
       "nChunks": 30,
       "kUsed": 5,
@@ -106,14 +111,19 @@
     },
     {
       "year": 2021,
-      "zscore": -0.9406,
-      "rawTopkMean": 0.1327,
-      "nChunks": 16,
+      "zscore": -0.4881,
+      "rawTopkMean": 0.1727,
+      "nChunks": 20,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.0,
+      "technoShare": 0.1667,
       "quotes": [
+        {
+          "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+          "heading": "Who We Are",
+          "score": 0.2772
+        },
         {
           "text": "They empower us to come together to celebrate a common cause, raise awareness, encourage advocacy, and refine our approach to recruiting.",
           "heading": "Diversity, Equity & Inclusion",
@@ -125,63 +135,100 @@
           "score": 0.1426
         },
         {
+          "text": "We Are Kind We operate with courage, show empathy, and instill trust through honesty and integrity.",
+          "heading": "Our Brands",
+          "score": 0.1333
+        },
+        {
           "text": "We take a broad view of diversity, which includes race, gender, LGBTQ+ status, disability, age, socio-economic status, parental and caregiver status, and more.",
           "heading": "Diversity, Equity & Inclusion",
           "score": 0.1075
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "zscore": -0.407,
+      "rawTopkMean": 0.1757,
+      "nChunks": 18,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "technoShare": 0.28,
+      "quotes": [
+        {
+          "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+          "heading": "Who We Are",
+          "score": 0.2772
         },
         {
-          "text": "​SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
-          "heading": "SnapFamilia",
-          "score": 0.1074
+          "text": "Whether we’re renovating houses for new mothers or offering free coding classes to women in need, we’re always finding new ways to give back.",
+          "heading": "Giving Back",
+          "score": 0.1686
+        },
+        {
+          "text": "We are a global company that is solving complex problems — so it’s essential that we invite every voice into the conversation and deepen our ability to listen to one another.",
+          "heading": "Snap Council",
+          "score": 0.1524
+        },
+        {
+          "text": "We want to help you give back, your way!",
+          "heading": "Giving Back",
+          "score": 0.1411
+        },
+        {
+          "text": "Our giving programs focus around three key pillars: empowering youth, education, and the arts.",
+          "heading": "Giving Back",
+          "score": 0.1393
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": -2.142,
+      "rawTopkMean": 0.1107,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "technoShare": 0.0,
+      "quotes": [
+        {
+          "text": "Lend them a hand through our internal Snap-a-Wish program!",
+          "heading": "Snap-a-Wish",
+          "score": 0.1482
+        },
+        {
+          "text": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+          "heading": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+          "score": 0.1141
         },
         {
           "text": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
-          "heading": "SnapNoir",
+          "heading": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
           "score": 0.1031
+        },
+        {
+          "text": "SnapVets builds community for military veterans, dependents, and those who continue to serve.",
+          "heading": "SnapVets builds community for military veterans, dependents, and those who continue to serve.",
+          "score": 0.0993
+        },
+        {
+          "text": "Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture.",
+          "heading": "Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture.",
+          "score": 0.089
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": -1.9601,
-      "rawTopkMean": 0.0892,
-      "nChunks": 4,
-      "kUsed": 4,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "technoShare": 0.5556,
-      "quotes": [
-        {
-          "text": "Contribuimos al progreso humano dando a las personas el poder de expresarse, vivir el momento, conocer el mundo y divertirse juntas.",
-          "heading": "",
-          "score": 0.2068
-        },
-        {
-          "text": "En Snap, creemos que reinventar la cámara constituye nuestra mayor oportunidad de mejorar cómo vive y se comunica la gente.",
-          "heading": "",
-          "score": 0.1668
-        },
-        {
-          "text": "Trabajamos con valor, mostramos empatía e inculcamos confianza a través de la honestidad y la integridad.",
-          "heading": "",
-          "score": 0.0122
-        },
-        {
-          "text": "Solucionamos problemas a través de la acción, tomamos decisiones de gran calidad y pensamos con una mentalidad estratégica.",
-          "heading": "",
-          "score": -0.0291
-        }
-      ]
-    },
-    {
-      "year": 2025,
-      "zscore": 0.2925,
-      "rawTopkMean": 0.1854,
-      "nChunks": 34,
+      "zscore": -0.358,
+      "rawTopkMean": 0.1776,
+      "nChunks": 14,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.1905,
+      "technoShare": 0.4167,
       "quotes": [
         {
           "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
@@ -189,9 +236,9 @@
           "score": 0.2538
         },
         {
-          "text": "We are then inspired to take action and become personally invested in creating meaningful change.",
+          "text": "Contribuimos al progreso humano dando a las personas el poder de expresarse, vivir el momento, conocer el mundo y divertirse juntas.",
           "heading": "",
-          "score": 0.2123
+          "score": 0.2068
         },
         {
           "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
@@ -199,26 +246,26 @@
           "score": 0.1703
         },
         {
-          "text": "We believe that when we can see the world from other people’s perspectives, we come to understand why DEI is so essential.",
+          "text": "En Snap, creemos que reinventar la cámara constituye nuestra mayor oportunidad de mejorar cómo vive y se comunica la gente.",
           "heading": "",
-          "score": 0.1498
+          "score": 0.1668
         },
         {
-          "text": "SnapFamilia empowers and celebrates the diversity of Hispanic and Latiné communities.",
+          "text": "Snapchat is an app that empowers people to express themselves, live in the moment, learn about the world, and have fun together.",
           "heading": "",
-          "score": 0.1407
+          "score": 0.0901
         }
       ]
     },
     {
-      "year": 2026,
-      "zscore": 0.8017,
-      "rawTopkMean": 0.2071,
-      "nChunks": 23,
+      "year": 2025,
+      "zscore": 1.0166,
+      "rawTopkMean": 0.229,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.1154,
+      "technoShare": 0.1778,
       "quotes": [
         {
           "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
@@ -236,14 +283,51 @@
           "score": 0.2316
         },
         {
-          "text": "SnapFamilia empowers and celebrates the diversity of Hispanic and Latiné communities.",
+          "text": "We are then inspired to take action and become personally invested in creating meaningful change.",
           "heading": "",
-          "score": 0.1407
+          "score": 0.2123
         },
         {
-          "text": "Read about our commitment to Belonging at Snap We believe in building innovative and inclusive products for our global community, finding the best talent anywhere, and cultivating an environment where everyone belongs.",
+          "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
+          "heading": "Our public commitment to DEI",
+          "score": 0.1703
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "zscore": 1.3929,
+      "rawTopkMean": 0.2431,
+      "nChunks": 39,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "technoShare": 0.1522,
+      "quotes": [
+        {
+          "text": "Our mission is to contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
           "heading": "",
-          "score": 0.1324
+          "score": 0.2816
+        },
+        {
+          "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+          "heading": "",
+          "score": 0.2772
+        },
+        {
+          "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
+          "heading": "Grounded in Kindness",
+          "score": 0.2538
+        },
+        {
+          "text": "We believe the camera presents the greatest opportunity to improve the way people live and communicate.",
+          "heading": "",
+          "score": 0.2316
+        },
+        {
+          "text": "As we continue advancing our objectives, we also recognize that there will always be new and greater opportunities for Snap to drive a positive impact.",
+          "heading": "",
+          "score": 0.1715
         }
       ]
     }

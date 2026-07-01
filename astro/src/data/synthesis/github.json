@@ -1,0 +1,34 @@
+{
+  "company": "github",
+  "displayName": "GitHub",
+  "headline": "GitHub presents itself as the home of collaborative software development — community-first, increasingly DEI-conscious, and consistently performance-oriented.",
+  "identity": "GitHub has consistently valued collaboration, personal responsibility, and community-scale impact across its careers copy, with phrases like 'lowering the barriers of collaboration' and 'code is about the people writing it' anchoring the earliest pages (2011–2012). DEI language was entirely absent through 2015, then appeared sharply in 2016 with explicit 'commitment to diversity and inclusion' and 'a diverse company is a strong company' framing, sustained through at least 2018. The early meritocracy signal — strongest in 2011–2012 (zscore +0.66) — dropped significantly by 2013–2015 (zscore around -1.5 to -1.7) and never fully recovered, suggesting that 'personal responsibility over management' framing gave way to more community- and inclusion-oriented language.",
+  "fit": "You might be a good fit if you are energized by large-scale developer communities, comfortable with a culture that frames itself around collaborative ownership rather than top-down management, and at ease in an environment that began explicitly signaling diversity and inclusion commitments from 2016 onward.",
+  "sections": [
+    {
+      "heading": "Early Identity: Autonomy and Craft (2011–2015)",
+      "body": "The 2011–2012 careers pages are the most distinctive in the dataset. The copy leads with 'a culture based on personal responsibility, rather than management, by hiring great people and treating them accordingly' — the highest-scoring meritocracy quote across all years (0.57). Collaboration is framed as a technical and social mission: 'lowering the barriers of collaboration' and 'code is about the people writing it.'\n\nFrom 2013 through 2015, the pages thin out considerably — some years have only one to three chunks of text — and the rich culture copy disappears, replaced by product-description boilerplate ('GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers'). Meritocracy, performance, and mission scores all fall to their lowest z-scores in this window (around -1.5 to -1.7). The signal here is weak due to sparse data, but the direction is clear: the careers voice went quiet."
+    },
+    {
+      "heading": "DEI Turn and Community Framing (2016–2018)",
+      "body": "In 2016 the copy expands again and shifts register. For the first time, DEI language appears — 'our commitment to diversity and inclusion' and 'a supportive, welcoming place for users and GitHubbers alike' — moving the inclusion score from near-zero to 0.43 (up from effectively absent). By 2017, a dedicated section heading reads 'A diverse and inclusive workplace,' with the explicit claim 'a diverse company is a strong company.'\n\nThe term 'diversity' first appears in 2016 and persists through 2024 in the data; 'inclusion' runs 2016–2021; 'equity' enters in 2019. The altruism score also rises into positive z-score territory from 2016 onward (around +0.45 to +0.52), driven by community-support language rather than charitable framing. The overall picture is a deliberate pivot from craft-and-autonomy to community-and-belonging."
+    },
+    {
+      "heading": "Stability and What Hasn't Changed",
+      "body": "Across all years with meaningful data, the collaboration theme is the most durable. Whether the tagline is 'Build software better, together' (2013), 'GitHub is how people build software' (2015–onward), or 'Come help us make collaboration even better' (2016–2018), the core pitch stays the same: this is a place where building together is the point.\n\nTechno-optimism scores are modestly positive throughout but never dominant — GitHub's copy doesn't lean heavily on 'changing the world' rhetoric. Wellbeing language is consistently low across all years, suggesting the careers pages have not historically emphasized work-life balance or employee wellness in explicit terms. Performance language is present but not outsized. The careers copy reads as craft- and community-focused rather than hustle- or mission-driven."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 2,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "mission_rights",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-06-30"
+}

@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2018,
-      "zscore": -0.839,
+      "zscore": -0.3432,
       "rawTopkMean": 0.3922,
       "nChunks": 8,
       "kUsed": 5,
@@ -40,8 +40,44 @@
       ]
     },
     {
+      "year": 2019,
+      "zscore": -1.3011,
+      "rawTopkMean": 0.3084,
+      "nChunks": 6,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We challenge the status quo to make things with a sense of purpose.",
+          "heading": "We Are Creative",
+          "score": 0.4671
+        },
+        {
+          "text": "We think deeply, question conventions, and strive to never stop learning.",
+          "heading": "We Are Smart",
+          "score": 0.4439
+        },
+        {
+          "text": "We listen from the heart, think empathetically, and help each other grow.",
+          "heading": "We Are Kind",
+          "score": 0.4346
+        },
+        {
+          "text": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
+          "heading": "Spectacles",
+          "score": 0.11
+        },
+        {
+          "text": "Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
+          "heading": "Bitmoji",
+          "score": 0.0865
+        }
+      ]
+    },
+    {
       "year": 2020,
-      "zscore": 0.9681,
+      "zscore": 0.8461,
       "rawTopkMean": 0.4963,
       "nChunks": 26,
       "kUsed": 5,
@@ -77,9 +113,9 @@
     },
     {
       "year": 2021,
-      "zscore": 1.1029,
-      "rawTopkMean": 0.504,
-      "nChunks": 16,
+      "zscore": 0.9671,
+      "rawTopkMean": 0.5068,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -105,53 +141,79 @@
           "score": 0.5033
         },
         {
-          "text": "It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc.",
-          "heading": "Diversity, Equity & Inclusion",
-          "score": 0.4673
+          "text": "We Are Smart We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+          "heading": "Our Brands",
+          "score": 0.4814
         }
       ]
     },
     {
-      "year": 2024,
-      "zscore": -1.6957,
-      "rawTopkMean": 0.3429,
-      "nChunks": 9,
+      "year": 2022,
+      "zscore": 0.4962,
+      "rawTopkMean": 0.4657,
+      "nChunks": 14,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Trabajamos con valor, mostramos empatía e inculcamos confianza a través de la honestidad y la integridad.",
-          "heading": "",
-          "score": 0.4098
+          "text": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+          "heading": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+          "score": 0.5034
         },
         {
-          "text": "Solucionamos problemas a través de la acción, tomamos decisiones de gran calidad y pensamos con una mentalidad estratégica.",
-          "heading": "",
-          "score": 0.3941
+          "text": "We are a global company that is solving complex problems — so it’s essential that we invite every voice into the conversation and deepen our ability to listen to one another.",
+          "heading": "Snap Council",
+          "score": 0.4877
         },
         {
-          "text": "Gestionamos con elegancia la ambigüedad, cultivamos la innovación y demostramos un insaciable deseo de aprender. ¿Listo para unirte al equipo de Snap?",
-          "heading": "",
-          "score": 0.393
+          "text": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+          "heading": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+          "score": 0.4809
         },
         {
-          "text": "Contribuimos al progreso humano dando a las personas el poder de expresarse, vivir el momento, conocer el mundo y divertirse juntas.",
-          "heading": "",
-          "score": 0.2872
+          "text": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+          "heading": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+          "score": 0.4628
         },
         {
-          "text": "En Snap, creemos que reinventar la cámara constituye nuestra mayor oportunidad de mejorar cómo vive y se comunica la gente.",
-          "heading": "",
-          "score": 0.2304
+          "text": "This fosters an inclusive work environment where people experience a sense of belonging.",
+          "heading": "Snap Council",
+          "score": 0.3934
         }
       ]
     },
     {
-      "year": 2025,
-      "zscore": 0.5142,
-      "rawTopkMean": 0.4701,
-      "nChunks": 42,
+      "year": 2023,
+      "zscore": -2.0138,
+      "rawTopkMean": 0.2461,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We’ll work hard to make sure they get the support they need.",
+          "heading": "Snap-a-Wish",
+          "score": 0.3588
+        },
+        {
+          "text": "Lend them a hand through our internal Snap-a-Wish program!",
+          "heading": "Snap-a-Wish",
+          "score": 0.2244
+        },
+        {
+          "text": "Have a teammate going through a tough time?",
+          "heading": "Snap-a-Wish",
+          "score": 0.155
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "zscore": 0.491,
+      "rawTopkMean": 0.4652,
+      "nChunks": 20,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -177,17 +239,17 @@
           "score": 0.4628
         },
         {
-          "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms بيان سناب الخاص بشأن تكافؤ فرص العمل نؤمن في سناب بأنه عند وجود فريق من الخلفيات والآراء المتنوعة التي تعمل معًا فإننا سنستطيع إنشاء منتجات مبتكرة تعمل على تحسين حياة الأشخاص وتواصلهم. تفخر سناب بكونها صاحب عمل يتبع مبدأ تكافؤ الفرص وملتزم بتوفير فرص العمل بغض النظر عن العرق أو العقيدة الدينية أو اللون أو الأصل القومي أو النسب أو الإعاقة الجسدية أو الإعاقة العقلية أو الحالة الطبية أو المعلومات الجينية أو الحالة الاجتماعية أو الجنس أو النوع أو الهوية الجنسية أو الميول الجنسي أو الحمل أو الولادة أو الرضاعة الطبيعية أو العمر أو التوجه الجنسي أو الحالة العسكرية أو المحاربين القدامى أو أي تصنيف محمي آخر، وذلك وفقًا للقوانين الفيدرالية والحكومية والمحلية المعمول بها. صاحب عمل يتبع مبدأ تكافؤ الفرص، بما في ذلك الإعاقة/المحاربين القدامى. إذا كانت لديك إعاقة أو احتياج خاص يتطلب تجهيزات، يُرجىء عدم الشعور بالخجل والاتصال بنا على accommodations-ext@snap.com . إذا تعذر عليك الوصول إلى أي جزء من عملية التقديم في سناب عبر الإنترنت، أخبرنا بذلك. يُرجى التواصل معنا من خلال accommodations-ext@snap.com أو 424-214-0409 . ملصقات تكافؤ فرص العمل هو القانون",
-          "heading": "Better Together",
-          "score": 0.4345
+          "text": "Trabajamos con valor, mostramos empatía e inculcamos confianza a través de la honestidad y la integridad.",
+          "heading": "",
+          "score": 0.4098
         }
       ]
     },
     {
-      "year": 2026,
-      "zscore": -0.0505,
-      "rawTopkMean": 0.4376,
-      "nChunks": 25,
+      "year": 2025,
+      "zscore": 0.9892,
+      "rawTopkMean": 0.5088,
+      "nChunks": 43,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -198,9 +260,45 @@
           "score": 0.6278
         },
         {
+          "text": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+          "heading": "",
+          "score": 0.5034
+        },
+        {
+          "text": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+          "heading": "",
+          "score": 0.4809
+        },
+        {
+          "text": "We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, innovation, and most of all fun.",
+          "heading": "",
+          "score": 0.469
+        },
+        {
+          "text": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+          "heading": "",
+          "score": 0.4628
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "zscore": -0.1315,
+      "rawTopkMean": 0.4107,
+      "nChunks": 41,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
           "text": "Hear from our leadership on what it's like to work at Snap, Inc. and how we live our values of kind, smart, and creative every day.",
           "heading": "",
           "score": 0.4313
+        },
+        {
+          "text": "This practice enables our teams to collaborate with greater creativity, speed, and compassion.",
+          "heading": "",
+          "score": 0.4178
         },
         {
           "text": "Read about our commitment to Belonging at Snap We believe in building innovative and inclusive products for our global community, finding the best talent anywhere, and cultivating an environment where everyone belongs.",
@@ -208,14 +306,14 @@
           "score": 0.4177
         },
         {
-          "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms",
-          "heading": "Better Together",
-          "score": 0.3643
+          "text": "Hear from team members across the globe about what they love most about working at Snap, why we stand out, and what word they’d use to capture our company culture.",
+          "heading": "",
+          "score": 0.4034
         },
         {
-          "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+          "text": "To honor another trip around the sun, we shined a spotlight on what makes Snap such a special place to be at — our kind, smart, and creative culture.",
           "heading": "",
-          "score": 0.347
+          "score": 0.3834
         }
       ]
     }

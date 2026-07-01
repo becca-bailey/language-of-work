@@ -25,10 +25,11 @@
 - **Play** — Life is what happens when you're busy working. We make sure to enjoy it.
 - **Create** — We build the best experience for our community - as a team.
 
-## 2017 (13 chunks)
+## 2017 (14 chunks)
 
 - **We Learn from the Best** — We're dedicated to constant learning. That's why we organize Fireside Chats, which bring in industry leaders to share their experiences and wisdom. From CEOs to musicians, these leaders always have something invaluable to teach us. The world is counting on you. It's all about knowing who you are. Ambassador Crumpton 24 years with the CIA & strategic international advisor If you don't do shit, you can't boo shit. Always be transparent in your company.
 - **Together at Airbnb** — No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.
+- **Create a world that inspires human connection** — We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.
 - **Be a Host** — Collaborative. Anticipates the needs of others. Prepared. Authentic. Listens. Advocates and eliminates interference for others. Considers the whole person. Humble.
 - **Champion the Mission** — Prioritize work that advances the mission and positively impacts the community Build with the long-term in mind Actively participate in the community and culture
 - **Be a Host** — Care for others and make them feel like they belong Encourage others to participate to their fullest Listen, communicate openly and set clear expectations
@@ -51,10 +52,16 @@
 - **Embrace the Adventure** — Be curious, ask for help, and demonstrate an ability to grow Own and learn from mistakes Bring joy and optimism to work
 - **Be a Cereal Entrepreneur** — Be bold and apply original thinking Imagine the ideal outcome Be resourceful to make the outcome a reality
 
-## 2019 (6 chunks)
+## 2019 (12 chunks)
 
 - **Create a world where anyone can belong anywhere** — It’s an audacious, incredibly rewarding mission that our increasingly diverse team is dedicated to achieving. Airbnb is built around the idea that everyone should be able to take the perfect trip, including where they stay, what they do, and who they meet. To that end, we empower millions of people around the world to use their spaces, passions, and talents to become entrepreneurs. Exciting challenges lie ahead—new regions, technologies, and businesses. Guided by our four core values, we’ll meet these challenges creatively and with the support of our global community. Join us!
 - **Include everyone** — A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about diversity and belonging
+- **Together at Airbnb** — No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.
+- **Create a world that inspires human connection** — We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.
+- **Champion the Mission** — Prioritize work that advances the mission and positively impacts the community Build with the long-term in mind Actively participate in the community and culture
+- **Be a Host** — Care for others and make them feel like they belong Encourage others to participate to their fullest Listen, communicate openly and set clear expectations
+- **Embrace the Adventure** — Be curious, ask for help, and demonstrate an ability to grow Own and learn from mistakes Bring joy and optimism to work
+- **Be a Cereal Entrepreneur** — Be bold and apply original thinking Imagine the ideal outcome Be resourceful to make the outcome a reality
 - **Champion the Mission** — We’re united with our community to create a world where anyone can belong anywhere.
 - **Embrace the Adventure** — We’re driven by curiosity, optimism, and the belief that every person can grow.
 - **Be a Cereal Entrepreneur** — We’re determined and creative in transforming our bold ambitions into reality.

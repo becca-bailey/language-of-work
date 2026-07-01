@@ -71,91 +71,151 @@
     },
     {
       "year": 2019,
-      "inclusionTopkMean": 0.2938,
-      "inclusionMean": 0.2938,
-      "inclusionMax": 0.2991,
-      "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.243,
-      "meritocracyMean": 0.243,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "inclusionTopkMean": 0.4285,
+      "inclusionMean": 0.3036,
+      "inclusionMax": 0.4989,
+      "inclusionFractionPresent": 0.6923,
+      "meritocracyTopkMean": 0.3802,
+      "meritocracyMean": 0.2482,
+      "nChunks": 13,
+      "kUsed": 5,
+      "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 0,
+        "belonging_culture": 2,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 2
+        "absent": 11
       },
-      "controlTopkMean": null,
+      "controlTopkMean": -0.0197,
       "inclusionQuotes": [
         {
-          "text": "At Snap, we believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate. We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
-          "heading": "Who We Are",
+          "text": "We challenge the status quo to make things with a sense of purpose.",
+          "heading": "We Are Creative",
           "register": "absent",
-          "inclusion": 0.2991,
-          "meritocracy": 0.2391,
-          "stanceDiff": 0.0599,
-          "salience": 0.2991,
-          "score": 0.2991
+          "inclusion": 0.4989,
+          "meritocracy": 0.4671,
+          "stanceDiff": 0.0318,
+          "salience": 0.4989,
+          "score": 0.4989
         },
         {
-          "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too. Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way. Bitmoji Bitmoji is the digital you — a living cartoon charact",
-          "heading": "Our Brands",
+          "text": "We listen from the heart, think empathetically, and help each other grow.",
+          "heading": "We Are Kind",
           "register": "absent",
-          "inclusion": 0.2885,
-          "meritocracy": 0.247,
-          "stanceDiff": 0.0415,
-          "salience": 0.2885,
-          "score": 0.2885
+          "inclusion": 0.4931,
+          "meritocracy": 0.4346,
+          "stanceDiff": 0.0586,
+          "salience": 0.4931,
+          "score": 0.4931
+        },
+        {
+          "text": "We think deeply, question conventions, and strive to never stop learning.",
+          "heading": "We Are Smart",
+          "register": "absent",
+          "inclusion": 0.4085,
+          "meritocracy": 0.4439,
+          "stanceDiff": -0.0354,
+          "salience": 0.4439,
+          "score": 0.4085
+        },
+        {
+          "text": "Generous time off and leave programs Emotional and mental health support programs and apps Speaker series, classes, and subscriptions to educational programs Social gatherings, team outings, and volunteering programs",
+          "heading": "Mind",
+          "register": "absent",
+          "inclusion": 0.401,
+          "meritocracy": 0.2456,
+          "stanceDiff": 0.1555,
+          "salience": 0.401,
+          "score": 0.401
+        },
+        {
+          "text": "Have a teammate going through a tough time? Lend them a hand through our internal Snap-a-Wish program! We’ll work hard to make sure they get the support they need.",
+          "heading": "Snap-a-Wish",
+          "register": "belonging_culture",
+          "inclusion": 0.3411,
+          "meritocracy": 0.2873,
+          "stanceDiff": 0.0538,
+          "salience": 0.3411,
+          "score": 0.3411
         }
       ],
       "meritocracyQuotes": [
         {
-          "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too. Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way. Bitmoji Bitmoji is the digital you — a living cartoon charact",
-          "heading": "Our Brands",
+          "text": "We challenge the status quo to make things with a sense of purpose.",
+          "heading": "We Are Creative",
           "register": "absent",
-          "inclusion": 0.2885,
-          "meritocracy": 0.247,
-          "stanceDiff": 0.0415,
-          "salience": 0.2885,
-          "score": 0.247
+          "inclusion": 0.4989,
+          "meritocracy": 0.4671,
+          "stanceDiff": 0.0318,
+          "salience": 0.4989,
+          "score": 0.4671
         },
         {
-          "text": "At Snap, we believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate. We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
-          "heading": "Who We Are",
+          "text": "We think deeply, question conventions, and strive to never stop learning.",
+          "heading": "We Are Smart",
           "register": "absent",
-          "inclusion": 0.2991,
-          "meritocracy": 0.2391,
-          "stanceDiff": 0.0599,
-          "salience": 0.2991,
-          "score": 0.2391
+          "inclusion": 0.4085,
+          "meritocracy": 0.4439,
+          "stanceDiff": -0.0354,
+          "salience": 0.4439,
+          "score": 0.4439
+        },
+        {
+          "text": "We listen from the heart, think empathetically, and help each other grow.",
+          "heading": "We Are Kind",
+          "register": "absent",
+          "inclusion": 0.4931,
+          "meritocracy": 0.4346,
+          "stanceDiff": 0.0586,
+          "salience": 0.4931,
+          "score": 0.4346
+        },
+        {
+          "text": "Have a teammate going through a tough time? Lend them a hand through our internal Snap-a-Wish program! We’ll work hard to make sure they get the support they need.",
+          "heading": "Snap-a-Wish",
+          "register": "belonging_culture",
+          "inclusion": 0.3411,
+          "meritocracy": 0.2873,
+          "stanceDiff": 0.0538,
+          "salience": 0.3411,
+          "score": 0.2873
+        },
+        {
+          "text": "Snap Inc. is its own community, so we’ve got your back! We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every Snap office has its own set of benefits built around its needs, but here’s a rundown of some of the programs you might find in your office:",
+          "heading": "We’re Here for You",
+          "register": "belonging_culture",
+          "inclusion": 0.33,
+          "meritocracy": 0.2681,
+          "stanceDiff": 0.062,
+          "salience": 0.33,
+          "score": 0.2681
         }
       ]
     },
     {
       "year": 2020,
-      "inclusionTopkMean": 0.4235,
-      "inclusionMean": 0.3495,
+      "inclusionTopkMean": 0.4339,
+      "inclusionMean": 0.3381,
       "inclusionMax": 0.576,
       "inclusionFractionPresent": 0.8,
-      "meritocracyTopkMean": 0.2934,
-      "meritocracyMean": 0.2537,
-      "nChunks": 10,
+      "meritocracyTopkMean": 0.3052,
+      "meritocracyMean": 0.2435,
+      "nChunks": 15,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 8,
-        "belonging_culture": 0,
+        "belonging_culture": 2,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 2
+        "absent": 5
       },
-      "controlTopkMean": null,
+      "controlTopkMean": 0.0401,
       "inclusionQuotes": [
         {
           "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community. We’re investing in new ways",
@@ -178,6 +238,16 @@
           "score": 0.4234
         },
         {
+          "text": "Generous time off and leave programs Emotional and mental health support programs and apps Speaker series, classes, and subscriptions to educational programs Social gatherings, team outings, and volunteering programs",
+          "heading": "Mind",
+          "register": "absent",
+          "inclusion": 0.401,
+          "meritocracy": 0.2456,
+          "stanceDiff": 0.1555,
+          "salience": 0.401,
+          "score": 0.401
+        },
+        {
           "text": "​SnapNoir​ is a forum for fostering cultural understanding, diversity, and professional development for people of the African diaspora — both at Snap and in the community.",
           "heading": "SnapNoir",
           "register": "aspirational_vague",
@@ -196,16 +266,6 @@
           "stanceDiff": 0.1408,
           "salience": 0.3708,
           "score": 0.3708
-        },
-        {
-          "text": "​¡Los Snaps! empowers, uplifts, and celebrates the unique diversity that makes up the Latino community — while creating education and integration opportunities within the community here at Snap.",
-          "heading": "¡Los​ Snaps!",
-          "register": "aspirational_vague",
-          "inclusion": 0.3491,
-          "meritocracy": 0.2493,
-          "stanceDiff": 0.0998,
-          "salience": 0.3491,
-          "score": 0.3491
         }
       ],
       "meritocracyQuotes": [
@@ -230,6 +290,16 @@
           "score": 0.3278
         },
         {
+          "text": "Have a teammate going through a tough time? Lend them a hand through our internal Snap-a-Wish program! We’ll work hard to make sure they get the support they need.",
+          "heading": "Snap-a-Wish",
+          "register": "belonging_culture",
+          "inclusion": 0.3411,
+          "meritocracy": 0.2873,
+          "stanceDiff": 0.0538,
+          "salience": 0.3411,
+          "score": 0.2873
+        },
+        {
           "text": "​SnapNoir​ is a forum for fostering cultural understanding, diversity, and professional development for people of the African diaspora — both at Snap and in the community.",
           "heading": "SnapNoir",
           "register": "aspirational_vague",
@@ -240,48 +310,38 @@
           "score": 0.2728
         },
         {
-          "text": "​¡Los Snaps! empowers, uplifts, and celebrates the unique diversity that makes up the Latino community — while creating education and integration opportunities within the community here at Snap.",
-          "heading": "¡Los​ Snaps!",
-          "register": "aspirational_vague",
-          "inclusion": 0.3491,
-          "meritocracy": 0.2493,
-          "stanceDiff": 0.0998,
-          "salience": 0.3491,
-          "score": 0.2493
-        },
-        {
-          "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too. Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way. Bitmoji Bitmoji is the digital you — a living cartoon charact",
-          "heading": "Our Brands",
-          "register": "absent",
-          "inclusion": 0.2885,
-          "meritocracy": 0.247,
-          "stanceDiff": 0.0415,
-          "salience": 0.2885,
-          "score": 0.247
+          "text": "Snap Inc. is its own community, so we’ve got your back! We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every Snap office has its own set of benefits built around its needs, but here’s a rundown of some of the programs you might find in your office:",
+          "heading": "We’re Here for You",
+          "register": "belonging_culture",
+          "inclusion": 0.33,
+          "meritocracy": 0.2681,
+          "stanceDiff": 0.062,
+          "salience": 0.33,
+          "score": 0.2681
         }
       ]
     },
     {
       "year": 2021,
       "inclusionTopkMean": 0.4632,
-      "inclusionMean": 0.407,
+      "inclusionMean": 0.3641,
       "inclusionMax": 0.5832,
-      "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.3054,
-      "meritocracyMean": 0.2843,
-      "nChunks": 8,
+      "inclusionFractionPresent": 0.9333,
+      "meritocracyTopkMean": 0.3086,
+      "meritocracyMean": 0.2615,
+      "nChunks": 15,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 7,
-        "belonging_culture": 0,
+        "belonging_culture": 2,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 1
+        "absent": 6
       },
-      "controlTopkMean": 0.0042,
+      "controlTopkMean": 0.0141,
       "inclusionQuotes": [
         {
           "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community. We’re investing in new ways",
@@ -346,6 +406,16 @@
           "score": 0.3762
         },
         {
+          "text": "At Snap, we do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every office has its own set of benefits built around its needs, but here’s a rundown of some of the offerings you might find in your home base:",
+          "heading": "We’re Here for You",
+          "register": "belonging_culture",
+          "inclusion": 0.3653,
+          "meritocracy": 0.3001,
+          "stanceDiff": 0.0653,
+          "salience": 0.3653,
+          "score": 0.3001
+        },
+        {
           "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
           "heading": "SnapAsia",
           "register": "aspirational_vague",
@@ -374,41 +444,399 @@
           "stanceDiff": 0.0782,
           "salience": 0.3659,
           "score": 0.2877
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "inclusionTopkMean": 0.4358,
+      "inclusionMean": 0.3156,
+      "inclusionMax": 0.474,
+      "inclusionFractionPresent": 0.7,
+      "meritocracyTopkMean": 0.4114,
+      "meritocracyMean": 0.2827,
+      "nChunks": 10,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 1,
+        "meritocracy": 0,
+        "civilizational_mission": 0,
+        "absent": 9
+      },
+      "controlTopkMean": 0.0151,
+      "inclusionQuotes": [
+        {
+          "text": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+          "heading": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+          "register": "absent",
+          "inclusion": 0.474,
+          "meritocracy": 0.4628,
+          "stanceDiff": 0.0112,
+          "salience": 0.474,
+          "score": 0.474
         },
         {
-          "text": "​Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture.",
-          "heading": "Kaleidoscope",
+          "text": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+          "heading": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+          "register": "absent",
+          "inclusion": 0.4578,
+          "meritocracy": 0.4809,
+          "stanceDiff": -0.0231,
+          "salience": 0.4809,
+          "score": 0.4578
+        },
+        {
+          "text": "Council is the practice of people coming together to share stories, listen deeply, and speak from the heart. Team members have the opportunity to speak without being interrupted, which ensures everyone has a chance to be heard. As stories are shared, others listen wholeheartedly. This fosters an inclusive work environment where people experience a sense of belonging. We are a global company that i",
+          "heading": "Snap Council",
+          "register": "belonging_culture",
+          "inclusion": 0.4516,
+          "meritocracy": 0.3496,
+          "stanceDiff": 0.102,
+          "salience": 0.4516,
+          "score": 0.4516
+        },
+        {
+          "text": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+          "heading": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+          "register": "absent",
+          "inclusion": 0.44,
+          "meritocracy": 0.5034,
+          "stanceDiff": -0.0633,
+          "salience": 0.5034,
+          "score": 0.44
+        },
+        {
+          "text": "At Snap, there are tons of opportunities to make a lasting impact — both at work and in the community! Our giving programs focus around three key pillars: empowering youth, education, and the arts. We volunteer thousands of hours every year through Snap CAMP (Community, Arts, and Mentorship Projects). Whether we’re renovating houses for new mothers or offering free coding classes to women in need,",
+          "heading": "Giving Back",
+          "register": "absent",
+          "inclusion": 0.3556,
+          "meritocracy": 0.2529,
+          "stanceDiff": 0.1027,
+          "salience": 0.3556,
+          "score": 0.3556
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+          "heading": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+          "register": "absent",
+          "inclusion": 0.44,
+          "meritocracy": 0.5034,
+          "stanceDiff": -0.0633,
+          "salience": 0.5034,
+          "score": 0.5034
+        },
+        {
+          "text": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+          "heading": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+          "register": "absent",
+          "inclusion": 0.4578,
+          "meritocracy": 0.4809,
+          "stanceDiff": -0.0231,
+          "salience": 0.4809,
+          "score": 0.4809
+        },
+        {
+          "text": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+          "heading": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+          "register": "absent",
+          "inclusion": 0.474,
+          "meritocracy": 0.4628,
+          "stanceDiff": 0.0112,
+          "salience": 0.474,
+          "score": 0.4628
+        },
+        {
+          "text": "Council is the practice of people coming together to share stories, listen deeply, and speak from the heart. Team members have the opportunity to speak without being interrupted, which ensures everyone has a chance to be heard. As stories are shared, others listen wholeheartedly. This fosters an inclusive work environment where people experience a sense of belonging. We are a global company that i",
+          "heading": "Snap Council",
+          "register": "belonging_culture",
+          "inclusion": 0.4516,
+          "meritocracy": 0.3496,
+          "stanceDiff": 0.102,
+          "salience": 0.4516,
+          "score": 0.3496
+        },
+        {
+          "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too. Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way. Bitmoji Bitmoji is the digital you — a living cartoon charact",
+          "heading": "Our Brands",
+          "register": "absent",
+          "inclusion": 0.295,
+          "meritocracy": 0.2602,
+          "stanceDiff": 0.0348,
+          "salience": 0.295,
+          "score": 0.2602
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "inclusionTopkMean": 0.4271,
+      "inclusionMean": 0.3736,
+      "inclusionMax": 0.4794,
+      "inclusionFractionPresent": 1.0,
+      "meritocracyTopkMean": 0.2937,
+      "meritocracyMean": 0.265,
+      "nChunks": 11,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 6,
+        "belonging_culture": 0,
+        "meritocracy": 0,
+        "civilizational_mission": 0,
+        "absent": 5
+      },
+      "controlTopkMean": 0.0242,
+      "inclusionQuotes": [
+        {
+          "text": "Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture.",
+          "heading": "Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture.",
           "register": "aspirational_vague",
-          "inclusion": 0.4814,
-          "meritocracy": 0.2841,
-          "stanceDiff": 0.1973,
-          "salience": 0.4814,
-          "score": 0.2841
+          "inclusion": 0.4794,
+          "meritocracy": 0.2851,
+          "stanceDiff": 0.1943,
+          "salience": 0.4794,
+          "score": 0.4794
+        },
+        {
+          "text": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
+          "heading": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
+          "register": "aspirational_vague",
+          "inclusion": 0.421,
+          "meritocracy": 0.2706,
+          "stanceDiff": 0.1504,
+          "salience": 0.421,
+          "score": 0.421
+        },
+        {
+          "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
+          "heading": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
+          "register": "aspirational_vague",
+          "inclusion": 0.4196,
+          "meritocracy": 0.2911,
+          "stanceDiff": 0.1285,
+          "salience": 0.4196,
+          "score": 0.4196
+        },
+        {
+          "text": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+          "heading": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+          "register": "aspirational_vague",
+          "inclusion": 0.4147,
+          "meritocracy": 0.3023,
+          "stanceDiff": 0.1124,
+          "salience": 0.4147,
+          "score": 0.4147
+        },
+        {
+          "text": "Generous time off and leave programs Emotional and mental health support programs and apps Speaker series, classes, and subscriptions to educational programs Social gatherings, team outings, and volunteering programs",
+          "heading": "Mind",
+          "register": "absent",
+          "inclusion": 0.401,
+          "meritocracy": 0.2456,
+          "stanceDiff": 0.1555,
+          "salience": 0.401,
+          "score": 0.401
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+          "heading": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+          "register": "aspirational_vague",
+          "inclusion": 0.4147,
+          "meritocracy": 0.3023,
+          "stanceDiff": 0.1124,
+          "salience": 0.4147,
+          "score": 0.3023
+        },
+        {
+          "text": "At Snap, we do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every office has its own set of benefits built around its needs, but here’s a rundown of some of the offerings you might find in your home base:",
+          "heading": "We’re Here for You",
+          "register": "absent",
+          "inclusion": 0.3653,
+          "meritocracy": 0.3001,
+          "stanceDiff": 0.0653,
+          "salience": 0.3653,
+          "score": 0.3001
+        },
+        {
+          "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
+          "heading": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
+          "register": "aspirational_vague",
+          "inclusion": 0.4196,
+          "meritocracy": 0.2911,
+          "stanceDiff": 0.1285,
+          "salience": 0.4196,
+          "score": 0.2911
+        },
+        {
+          "text": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
+          "heading": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
+          "register": "aspirational_vague",
+          "inclusion": 0.3659,
+          "meritocracy": 0.2877,
+          "stanceDiff": 0.0782,
+          "salience": 0.3659,
+          "score": 0.2877
+        },
+        {
+          "text": "Have a teammate going through a tough time? Lend them a hand through our internal Snap-a-Wish program! We’ll work hard to make sure they get the support they need.",
+          "heading": "Snap-a-Wish",
+          "register": "absent",
+          "inclusion": 0.3411,
+          "meritocracy": 0.2873,
+          "stanceDiff": 0.0538,
+          "salience": 0.3411,
+          "score": 0.2873
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "inclusionTopkMean": 0.4008,
+      "inclusionMean": 0.4008,
+      "inclusionMax": 0.567,
+      "inclusionFractionPresent": 1.0,
+      "meritocracyTopkMean": 0.3027,
+      "meritocracyMean": 0.3027,
+      "nChunks": 4,
+      "kUsed": 4,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
+        "meritocracy": 0,
+        "civilizational_mission": 0,
+        "absent": 3
+      },
+      "controlTopkMean": 0.001,
+      "inclusionQuotes": [
+        {
+          "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
+          "heading": "Our public commitment to DEI",
+          "register": "aspirational_vague",
+          "inclusion": 0.567,
+          "meritocracy": 0.4007,
+          "stanceDiff": 0.1663,
+          "salience": 0.567,
+          "score": 0.567
+        },
+        {
+          "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
+          "heading": "Grounded in Kindness",
+          "register": "absent",
+          "inclusion": 0.3973,
+          "meritocracy": 0.3068,
+          "stanceDiff": 0.0906,
+          "salience": 0.3973,
+          "score": 0.3973
+        },
+        {
+          "text": "Snap Inc. the parent company of Snapchat, is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, ",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.3382,
+          "meritocracy": 0.2704,
+          "stanceDiff": 0.0678,
+          "salience": 0.3382,
+          "score": 0.3382
+        },
+        {
+          "text": "Snap Inc. the parent company of Snapchat, is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, ",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.3006,
+          "meritocracy": 0.2328,
+          "stanceDiff": 0.0679,
+          "salience": 0.3006,
+          "score": 0.3006
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
+          "heading": "Our public commitment to DEI",
+          "register": "aspirational_vague",
+          "inclusion": 0.567,
+          "meritocracy": 0.4007,
+          "stanceDiff": 0.1663,
+          "salience": 0.567,
+          "score": 0.4007
+        },
+        {
+          "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
+          "heading": "Grounded in Kindness",
+          "register": "absent",
+          "inclusion": 0.3973,
+          "meritocracy": 0.3068,
+          "stanceDiff": 0.0906,
+          "salience": 0.3973,
+          "score": 0.3068
+        },
+        {
+          "text": "Snap Inc. the parent company of Snapchat, is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, ",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.3382,
+          "meritocracy": 0.2704,
+          "stanceDiff": 0.0678,
+          "salience": 0.3382,
+          "score": 0.2704
+        },
+        {
+          "text": "Snap Inc. the parent company of Snapchat, is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, ",
+          "heading": "",
+          "register": "absent",
+          "inclusion": 0.3006,
+          "meritocracy": 0.2328,
+          "stanceDiff": 0.0679,
+          "salience": 0.3006,
+          "score": 0.2328
         }
       ]
     },
     {
       "year": 2025,
-      "inclusionTopkMean": 0.4514,
-      "inclusionMean": 0.4346,
-      "inclusionMax": 0.567,
+      "inclusionTopkMean": 0.5197,
+      "inclusionMean": 0.4522,
+      "inclusionMax": 0.7007,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.3356,
-      "meritocracyMean": 0.3252,
-      "nChunks": 6,
+      "meritocracyTopkMean": 0.4051,
+      "meritocracyMean": 0.3529,
+      "nChunks": 8,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 2,
-        "belonging_culture": 1,
+        "belonging_culture": 2,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 3
+        "absent": 4
       },
-      "controlTopkMean": 0.038,
+      "controlTopkMean": 0.0451,
       "inclusionQuotes": [
+        {
+          "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
+          "heading": "Our commitment to belonging",
+          "register": "belonging_culture",
+          "inclusion": 0.7007,
+          "meritocracy": 0.6278,
+          "stanceDiff": 0.073,
+          "salience": 0.7007,
+          "score": 0.7007
+        },
         {
           "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
           "heading": "Our public commitment to DEI",
@@ -448,19 +876,19 @@
           "stanceDiff": 0.0906,
           "salience": 0.3973,
           "score": 0.3973
-        },
-        {
-          "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms",
-          "heading": "Better Together",
-          "register": "absent",
-          "inclusion": 0.3591,
-          "meritocracy": 0.3643,
-          "stanceDiff": -0.0052,
-          "salience": 0.3643,
-          "score": 0.3591
         }
       ],
       "meritocracyQuotes": [
+        {
+          "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
+          "heading": "Our commitment to belonging",
+          "register": "belonging_culture",
+          "inclusion": 0.7007,
+          "meritocracy": 0.6278,
+          "stanceDiff": 0.073,
+          "salience": 0.7007,
+          "score": 0.6278
+        },
         {
           "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
           "heading": "Our public commitment to DEI",
@@ -500,40 +928,30 @@
           "stanceDiff": 0.0906,
           "salience": 0.3973,
           "score": 0.3068
-        },
-        {
-          "text": "Read about our public commitment to diversity, equity, and inclusion in our 2024 Diversity Annual Report. We believe that when we can see the world from other people’s perspectives, we come to understand why DEI is so essential. We are then inspired to take action and become personally invested in creating meaningful change. Employee Resource Groups (ERGs) at Snap bring together a community of ind",
-          "heading": "",
-          "register": "aspirational_vague",
-          "inclusion": 0.4831,
-          "meritocracy": 0.2802,
-          "stanceDiff": 0.2029,
-          "salience": 0.4831,
-          "score": 0.2802
         }
       ]
     },
     {
       "year": 2026,
-      "inclusionTopkMean": 0.4464,
-      "inclusionMean": 0.4186,
+      "inclusionTopkMean": 0.4683,
+      "inclusionMean": 0.3801,
       "inclusionMax": 0.7007,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.3663,
-      "meritocracyMean": 0.3404,
-      "nChunks": 6,
+      "meritocracyTopkMean": 0.3855,
+      "meritocracyMean": 0.3003,
+      "nChunks": 11,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 3,
+        "aspirational_vague": 2,
+        "belonging_culture": 4,
         "meritocracy": 0,
         "civilizational_mission": 0,
-        "absent": 2
+        "absent": 5
       },
-      "controlTopkMean": 0.0286,
+      "controlTopkMean": 0.053,
       "inclusionQuotes": [
         {
           "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
@@ -556,6 +974,16 @@
           "score": 0.4684
         },
         {
+          "text": "We believe the camera presents the greatest opportunity to improve the way people live and communicate. Hear from our leadership on what it's like to work at Snap, Inc. and how we live our values of kind, smart, and creative every day. We celebrated 14 Years of Snap! To honor another trip around the sun, we shined a spotlight on what makes Snap such a special place to be at — our kind, smart, and ",
+          "heading": "",
+          "register": "belonging_culture",
+          "inclusion": 0.416,
+          "meritocracy": 0.3237,
+          "stanceDiff": 0.0924,
+          "salience": 0.416,
+          "score": 0.416
+        },
+        {
           "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
           "heading": "Grounded in Kindness",
           "register": "absent",
@@ -574,16 +1002,6 @@
           "stanceDiff": -0.0052,
           "salience": 0.3643,
           "score": 0.3591
-        },
-        {
-          "text": "Our Benefits : Snap Inc. is its own community, so we’ve got your back! We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Our benefits are built around your needs and include paid parental leave, comprehensive medical coverage, emotional and mental health support programs, and compensation packages that let you share in Snap’s l",
-          "heading": "Client Partner, SMC",
-          "register": "belonging_culture",
-          "inclusion": 0.3064,
-          "meritocracy": 0.2276,
-          "stanceDiff": 0.0787,
-          "salience": 0.3064,
-          "score": 0.3064
         }
       ],
       "meritocracyQuotes": [
@@ -608,6 +1026,16 @@
           "score": 0.3643
         },
         {
+          "text": "We believe the camera presents the greatest opportunity to improve the way people live and communicate. Hear from our leadership on what it's like to work at Snap, Inc. and how we live our values of kind, smart, and creative every day. We celebrated 14 Years of Snap! To honor another trip around the sun, we shined a spotlight on what makes Snap such a special place to be at — our kind, smart, and ",
+          "heading": "",
+          "register": "belonging_culture",
+          "inclusion": 0.416,
+          "meritocracy": 0.3237,
+          "stanceDiff": 0.0924,
+          "salience": 0.416,
+          "score": 0.3237
+        },
+        {
           "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
           "heading": "Grounded in Kindness",
           "register": "absent",
@@ -626,22 +1054,19 @@
           "stanceDiff": 0.1633,
           "salience": 0.4684,
           "score": 0.3052
-        },
-        {
-          "text": "Our Benefits : Snap Inc. is its own community, so we’ve got your back! We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Our benefits are built around your needs and include paid parental leave, comprehensive medical coverage, emotional and mental health support programs, and compensation packages that let you share in Snap’s l",
-          "heading": "Client Partner, SMC",
-          "register": "belonging_culture",
-          "inclusion": 0.3064,
-          "meritocracy": 0.2276,
-          "stanceDiff": 0.0787,
-          "salience": 0.3064,
-          "score": 0.2276
         }
       ]
     }
   ],
   "phrases": {
     "terms": [
+      {
+        "term": "disability",
+        "first_year": 2019,
+        "last_year": 2026,
+        "max_score": 0.674,
+        "example": "We take a broad view of diversity, ranging from race and gender, to LGBTQ+, disability, age, socio-economic status, parental status, cognitive diversity, regional diversity and more."
+      },
       {
         "term": "diversity",
         "first_year": 2020,
@@ -664,13 +1089,6 @@
         "example": "We take a broad view of diversity, ranging from race and gender, to LGBTQ+, disability, age, socio-economic status, parental status, cognitive diversity, regional diversity and more."
       },
       {
-        "term": "disability",
-        "first_year": 2020,
-        "last_year": 2026,
-        "max_score": 0.674,
-        "example": "We take a broad view of diversity, ranging from race and gender, to LGBTQ+, disability, age, socio-economic status, parental status, cognitive diversity, regional diversity and more."
-      },
-      {
         "term": "representation",
         "first_year": 2020,
         "last_year": 2020,
@@ -681,8 +1099,8 @@
         "term": "women",
         "first_year": 2020,
         "last_year": 2026,
-        "max_score": 0.4384,
-        "example": "SnapWomen brings together and empowers women at Snap."
+        "max_score": 0.4633,
+        "example": "Whether we’re renovating houses for new mothers or offering free coding classes to women in need, we’re always finding new ways to give back."
       },
       {
         "term": "inclusion",
@@ -695,15 +1113,22 @@
         "term": "hispanic",
         "first_year": 2021,
         "last_year": 2026,
-        "max_score": 0.4107,
-        "example": "​SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities."
+        "max_score": 0.4147,
+        "example": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities."
       },
       {
         "term": "latinx",
         "first_year": 2021,
-        "last_year": 2021,
-        "max_score": 0.4107,
-        "example": "​SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities."
+        "last_year": 2023,
+        "max_score": 0.4147,
+        "example": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities."
+      },
+      {
+        "term": "belonging",
+        "first_year": 2022,
+        "last_year": 2026,
+        "max_score": 0.6065,
+        "example": "This fosters an inclusive work environment where people experience a sense of belonging."
       },
       {
         "term": "equity",
@@ -713,11 +1138,11 @@
         "example": "Read about our public commitment to diversity, equity, and inclusion in our 2024 Diversity Annual Report."
       },
       {
-        "term": "belonging",
-        "first_year": 2025,
+        "term": "underrepresented",
+        "first_year": 2026,
         "last_year": 2026,
-        "max_score": 0.5434,
-        "example": "Read about our commitment to Belonging at Snap We believe in building innovative and inclusive products for our global community, finding the best talent anywhere, and cultivating an environment where"
+        "max_score": 0.4745,
+        "example": "We hosted an in office event to nurture creator and community growth, solidify our leadership position in AR, and increase our brand relevance in underrepresented markets."
       }
     ],
     "high_scoring_sentences": [
@@ -752,6 +1177,18 @@
         "score": 0.3557
       },
       {
+        "id": "a2974250eabe",
+        "year": 2019,
+        "text": "We challenge the status quo to make things with a sense of purpose.",
+        "score": 0.4989
+      },
+      {
+        "id": "d75a05626362",
+        "year": 2019,
+        "text": "We listen from the heart, think empathetically, and help each other grow.",
+        "score": 0.4931
+      },
+      {
         "id": "e33528b2fa10",
         "year": 2019,
         "text": "We Are Creative We challenge the status quo to make things with a sense of purpose.",
@@ -770,16 +1207,52 @@
         "score": 0.4336
       },
       {
+        "id": "f50016084494",
+        "year": 2019,
+        "text": "We think deeply, question conventions, and strive to never stop learning.",
+        "score": 0.4085
+      },
+      {
+        "id": "390962ef1a91",
+        "year": 2019,
+        "text": "Generous time off and leave programs Emotional and mental health support programs and apps Speaker series, classes, and subscriptions to educational programs Social gatherings, team outings, and volunteering programs",
+        "score": 0.401
+      },
+      {
+        "id": "2ce093e27eff",
+        "year": 2019,
+        "text": "We’ll work hard to make sure they get the support they need.",
+        "score": 0.3858
+      },
+      {
         "id": "cfc247d069c1",
         "year": 2019,
         "text": "We Are Smart We think deeply, question conventions, and strive to never stop learning.",
         "score": 0.3818
       },
       {
+        "id": "bdcbe54e9607",
+        "year": 2019,
+        "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms.",
+        "score": 0.3653
+      },
+      {
         "id": "162707369528",
         "year": 2019,
         "text": "At Snap, we believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate.",
         "score": 0.3557
+      },
+      {
+        "id": "2f31421c2927",
+        "year": 2019,
+        "text": "Paid maternity, paternity, and family caregiver leave Adoption, surrogacy, infertility, and fertility preservation benefits Backup child care coverage, caregiver assistance, and digital maternity care support Short-term disability, long-term disability, life insurance, and AD&D insurance",
+        "score": 0.3043
+      },
+      {
+        "id": "668ca5a25f55",
+        "year": 2019,
+        "text": "Every Snap office has its own set of benefits built around its needs, but here’s a rundown of some of the programs you might find in your office:",
+        "score": 0.3008
       },
       {
         "id": "2c4e3d961358",
@@ -872,10 +1345,22 @@
         "score": 0.4144
       },
       {
+        "id": "390962ef1a91",
+        "year": 2020,
+        "text": "Generous time off and leave programs Emotional and mental health support programs and apps Speaker series, classes, and subscriptions to educational programs Social gatherings, team outings, and volunteering programs",
+        "score": 0.401
+      },
+      {
         "id": "1c60307020c9",
         "year": 2020,
         "text": "​SnapNoir​ is a forum for fostering cultural understanding, diversity, and professional development for people of the African diaspora — both at Snap and in the community.",
         "score": 0.3981
+      },
+      {
+        "id": "2ce093e27eff",
+        "year": 2020,
+        "text": "We’ll work hard to make sure they get the support they need.",
+        "score": 0.3858
       },
       {
         "id": "cfc247d069c1",
@@ -920,6 +1405,12 @@
         "score": 0.3696
       },
       {
+        "id": "bdcbe54e9607",
+        "year": 2020,
+        "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms.",
+        "score": 0.3653
+      },
+      {
         "id": "162707369528",
         "year": 2020,
         "text": "At Snap, we believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate.",
@@ -936,6 +1427,18 @@
         "year": 2020,
         "text": "SnapVets empowers veteran professional development, community outreach, recruiting, and more!",
         "score": 0.3268
+      },
+      {
+        "id": "2f31421c2927",
+        "year": 2020,
+        "text": "Paid maternity, paternity, and family caregiver leave Adoption, surrogacy, infertility, and fertility preservation benefits Backup child care coverage, caregiver assistance, and digital maternity care support Short-term disability, long-term disability, life insurance, and AD&D insurance",
+        "score": 0.3043
+      },
+      {
+        "id": "668ca5a25f55",
+        "year": 2020,
+        "text": "Every Snap office has its own set of benefits built around its needs, but here’s a rundown of some of the programs you might find in your office:",
+        "score": 0.3008
       },
       {
         "id": "2c4e3d961358",
@@ -992,6 +1495,24 @@
         "score": 0.4763
       },
       {
+        "id": "1f3045f94a8e",
+        "year": 2021,
+        "text": "We Are Kind We operate with courage, show empathy, and instill trust through honesty and integrity.",
+        "score": 0.4682
+      },
+      {
+        "id": "5c61e209c129",
+        "year": 2021,
+        "text": "We Are Creative We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+        "score": 0.4581
+      },
+      {
+        "id": "c864ce97783c",
+        "year": 2021,
+        "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+        "score": 0.4336
+      },
+      {
         "id": "311f5e03227a",
         "year": 2021,
         "text": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
@@ -1016,10 +1537,46 @@
         "score": 0.4107
       },
       {
+        "id": "bcc1e3c1e6d2",
+        "year": 2021,
+        "text": "We Are Smart We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+        "score": 0.4091
+      },
+      {
+        "id": "390962ef1a91",
+        "year": 2021,
+        "text": "Generous time off and leave programs Emotional and mental health support programs and apps Speaker series, classes, and subscriptions to educational programs Social gatherings, team outings, and volunteering programs",
+        "score": 0.401
+      },
+      {
+        "id": "2ce093e27eff",
+        "year": 2021,
+        "text": "We’ll work hard to make sure they get the support they need.",
+        "score": 0.3858
+      },
+      {
         "id": "d664dccdc35b",
         "year": 2021,
         "text": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
         "score": 0.3659
+      },
+      {
+        "id": "1457356dec22",
+        "year": 2021,
+        "text": "At Snap, we do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms.",
+        "score": 0.3628
+      },
+      {
+        "id": "162707369528",
+        "year": 2021,
+        "text": "At Snap, we believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate.",
+        "score": 0.3557
+      },
+      {
+        "id": "2f31421c2927",
+        "year": 2021,
+        "text": "Paid maternity, paternity, and family caregiver leave Adoption, surrogacy, infertility, and fertility preservation benefits Backup child care coverage, caregiver assistance, and digital maternity care support Short-term disability, long-term disability, life insurance, and AD&D insurance",
+        "score": 0.3043
       },
       {
         "id": "c40ce8794426",
@@ -1028,16 +1585,214 @@
         "score": 0.3003
       },
       {
+        "id": "430eff40e130",
+        "year": 2022,
+        "text": "We are a global company that is solving complex problems — so it’s essential that we invite every voice into the conversation and deepen our ability to listen to one another.",
+        "score": 0.6859
+      },
+      {
+        "id": "dc24e575db02",
+        "year": 2022,
+        "text": "This fosters an inclusive work environment where people experience a sense of belonging.",
+        "score": 0.6065
+      },
+      {
+        "id": "dd913104d087",
+        "year": 2022,
+        "text": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+        "score": 0.474
+      },
+      {
+        "id": "1f3045f94a8e",
+        "year": 2022,
+        "text": "We Are Kind We operate with courage, show empathy, and instill trust through honesty and integrity.",
+        "score": 0.4682
+      },
+      {
+        "id": "a5104fdcef07",
+        "year": 2022,
+        "text": "Whether we’re renovating houses for new mothers or offering free coding classes to women in need, we’re always finding new ways to give back.",
+        "score": 0.4633
+      },
+      {
+        "id": "5c61e209c129",
+        "year": 2022,
+        "text": "We Are Creative We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+        "score": 0.4581
+      },
+      {
+        "id": "b62696326a12",
+        "year": 2022,
+        "text": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+        "score": 0.4578
+      },
+      {
+        "id": "b9db1931b48c",
+        "year": 2022,
+        "text": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+        "score": 0.44
+      },
+      {
+        "id": "ecb4f6287662",
+        "year": 2022,
+        "text": "At Snap, there are tons of opportunities to make a lasting impact — both at work and in the community!",
+        "score": 0.4385
+      },
+      {
+        "id": "c864ce97783c",
+        "year": 2022,
+        "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+        "score": 0.4336
+      },
+      {
+        "id": "bcc1e3c1e6d2",
+        "year": 2022,
+        "text": "We Are Smart We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+        "score": 0.4091
+      },
+      {
+        "id": "4d3ee84254ae",
+        "year": 2022,
+        "text": "Team members have the opportunity to speak without being interrupted, which ensures everyone has a chance to be heard.",
+        "score": 0.3965
+      },
+      {
+        "id": "162707369528",
+        "year": 2022,
+        "text": "At Snap, we believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate.",
+        "score": 0.3557
+      },
+      {
+        "id": "7c1a27ff03e0",
+        "year": 2022,
+        "text": "We want to help you give back, your way!",
+        "score": 0.35
+      },
+      {
+        "id": "a9bdc47892c7",
+        "year": 2022,
+        "text": "In addition to our sponsored volunteer projects, Snap team members can also take paid time each month to volunteer at a charity of their choice that aligns with our three giving pillars.",
+        "score": 0.3406
+      },
+      {
+        "id": "06171f085226",
+        "year": 2022,
+        "text": "Our giving programs focus around three key pillars: empowering youth, education, and the arts.",
+        "score": 0.333
+      },
+      {
+        "id": "d74f9e39bbc4",
+        "year": 2023,
+        "text": "Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture.",
+        "score": 0.4794
+      },
+      {
+        "id": "311f5e03227a",
+        "year": 2023,
+        "text": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
+        "score": 0.421
+      },
+      {
+        "id": "1085b55acfc7",
+        "year": 2023,
+        "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
+        "score": 0.4196
+      },
+      {
+        "id": "df00c4d0ac60",
+        "year": 2023,
+        "text": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+        "score": 0.4147
+      },
+      {
+        "id": "390962ef1a91",
+        "year": 2023,
+        "text": "Generous time off and leave programs Emotional and mental health support programs and apps Speaker series, classes, and subscriptions to educational programs Social gatherings, team outings, and volunteering programs",
+        "score": 0.401
+      },
+      {
+        "id": "2ce093e27eff",
+        "year": 2023,
+        "text": "We’ll work hard to make sure they get the support they need.",
+        "score": 0.3858
+      },
+      {
+        "id": "d664dccdc35b",
+        "year": 2023,
+        "text": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
+        "score": 0.3659
+      },
+      {
+        "id": "1457356dec22",
+        "year": 2023,
+        "text": "At Snap, we do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms.",
+        "score": 0.3628
+      },
+      {
+        "id": "6b158e25964d",
+        "year": 2023,
+        "text": "Compensation packages that let you share in Snap’s long-term success!",
+        "score": 0.3239
+      },
+      {
+        "id": "2f31421c2927",
+        "year": 2023,
+        "text": "Paid maternity, paternity, and family caregiver leave Adoption, surrogacy, infertility, and fertility preservation benefits Backup child care coverage, caregiver assistance, and digital maternity care support Short-term disability, long-term disability, life insurance, and AD&D insurance",
+        "score": 0.3043
+      },
+      {
+        "id": "3c5a8ad98fd0",
+        "year": 2024,
+        "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
+        "score": 0.567
+      },
+      {
+        "id": "34b88e9c22dd",
+        "year": 2024,
+        "text": "We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, innovation, and most of all fun.",
+        "score": 0.5601
+      },
+      {
+        "id": "dd913104d087",
+        "year": 2024,
+        "text": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+        "score": 0.474
+      },
+      {
+        "id": "e62ab1f8a1e4",
+        "year": 2024,
+        "text": "From our bright and open offices to our vibrant culture—we strive to make every day at Snap feel fresh and exciting.",
+        "score": 0.4725
+      },
+      {
+        "id": "b62696326a12",
+        "year": 2024,
+        "text": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+        "score": 0.4578
+      },
+      {
         "id": "2aa0277dbdea",
         "year": 2024,
         "text": "Trabajamos con valor, mostramos empatía e inculcamos confianza a través de la honestidad y la integridad.",
         "score": 0.4512
       },
       {
+        "id": "b9db1931b48c",
+        "year": 2024,
+        "text": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+        "score": 0.44
+      },
+      {
         "id": "c464ee166d65",
         "year": 2024,
         "text": "Gestionamos con elegancia la ambigüedad, cultivamos la innovación y demostramos un insaciable deseo de aprender. ¿Listo para unirte al equipo de Snap?",
         "score": 0.4183
+      },
+      {
+        "id": "716203be5ae8",
+        "year": 2024,
+        "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
+        "score": 0.3973
       },
       {
         "id": "4af3704f9cfd",
@@ -1050,6 +1805,12 @@
         "year": 2024,
         "text": "Solucionamos problemas a través de la acción, tomamos decisiones de gran calidad y pensamos con una mentalidad estratégica.",
         "score": 0.3395
+      },
+      {
+        "id": "71bbaf2d8f64",
+        "year": 2025,
+        "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
+        "score": 0.7007
       },
       {
         "id": "619b42633788",
@@ -1148,6 +1909,12 @@
         "score": 0.4346
       },
       {
+        "id": "c864ce97783c",
+        "year": 2025,
+        "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+        "score": 0.4336
+      },
+      {
         "id": "1db6e2556039",
         "year": 2025,
         "text": "Van onze lichte en open kantoren tot onze levendige cultuur – we streven ernaar om elke dag bij Snap fris en spannend te laten voelen.",
@@ -1200,6 +1967,12 @@
         "year": 2025,
         "text": "We are then inspired to take action and become personally invested in creating meaningful change.",
         "score": 0.3698
+      },
+      {
+        "id": "6a47e200c543",
+        "year": 2025,
+        "text": "Công việc & Cuộc sống, Cân bằng At Snap, we do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms.",
+        "score": 0.3682
       },
       {
         "id": "e47ab36e315f",
@@ -1280,16 +2053,64 @@
         "score": 0.5034
       },
       {
+        "id": "980db4410651",
+        "year": 2026,
+        "text": "This practice enables our teams to collaborate with greater creativity, speed, and compassion.",
+        "score": 0.4885
+      },
+      {
+        "id": "8baf87b4346b",
+        "year": 2026,
+        "text": "We hosted an in office event to nurture creator and community growth, solidify our leadership position in AR, and increase our brand relevance in underrepresented markets.",
+        "score": 0.4745
+      },
+      {
+        "id": "dd913104d087",
+        "year": 2026,
+        "text": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
+        "score": 0.474
+      },
+      {
+        "id": "b62696326a12",
+        "year": 2026,
+        "text": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
+        "score": 0.4578
+      },
+      {
+        "id": "b9db1931b48c",
+        "year": 2026,
+        "text": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
+        "score": 0.44
+      },
+      {
         "id": "1fee72e0e235",
         "year": 2026,
         "text": "SnapWomen brings together and empowers women at Snap.",
         "score": 0.4384
       },
       {
+        "id": "a2929105fe1b",
+        "year": 2026,
+        "text": "Hear from team members across the globe about what they love most about working at Snap, why we stand out, and what word they’d use to capture our company culture.",
+        "score": 0.4337
+      },
+      {
         "id": "c864ce97783c",
         "year": 2026,
         "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
         "score": 0.4336
+      },
+      {
+        "id": "bd2428bad23c",
+        "year": 2026,
+        "text": "As we continue advancing our objectives, we also recognize that there will always be new and greater opportunities for Snap to drive a positive impact.",
+        "score": 0.4189
+      },
+      {
+        "id": "336667e8797f",
+        "year": 2026,
+        "text": "To honor another trip around the sun, we shined a spotlight on what makes Snap such a special place to be at — our kind, smart, and creative culture.",
+        "score": 0.4177
       },
       {
         "id": "617331dd2427",
@@ -1322,16 +2143,34 @@
         "score": 0.3936
       },
       {
+        "id": "f4410ecf9e45",
+        "year": 2026,
+        "text": "Our mission is to contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+        "score": 0.3933
+      },
+      {
         "id": "307cf8934410",
         "year": 2026,
         "text": "SnapPride celebrates the diversity of gender identity, gender expression, and sexual orientation.",
         "score": 0.3895
       },
       {
+        "id": "cf5be22ac775",
+        "year": 2026,
+        "text": "Prioritizing listening in the workplace fosters more aligned and agile businesses.",
+        "score": 0.3858
+      },
+      {
         "id": "bdcbe54e9607",
         "year": 2026,
         "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms.",
         "score": 0.3653
+      },
+      {
+        "id": "1457356dec22",
+        "year": 2026,
+        "text": "At Snap, we do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms.",
+        "score": 0.3628
       },
       {
         "id": "d63d5a10bbc2",
@@ -1364,6 +2203,30 @@
         "score": 0.3236
       },
       {
+        "id": "6b93d2a05e72",
+        "year": 2026,
+        "text": "Hundreds of Snap inc. team members gathered in Los Angeles for Snap's inaugural Growth Day — and left with learnings and tools to take their careers to the next level.",
+        "score": 0.314
+      },
+      {
+        "id": "86a94d0eca24",
+        "year": 2026,
+        "text": "Our ERG SnapNoir, attended Afrotech in Austin, TX.",
+        "score": 0.3134
+      },
+      {
+        "id": "307b8331212c",
+        "year": 2026,
+        "text": "Council has been a part of Snap Inc’s DNA since the very beginning.",
+        "score": 0.3109
+      },
+      {
+        "id": "45894dc20bf3",
+        "year": 2026,
+        "text": "If you are interested in learning more about Council at Snap please visit Dandelion.com and join our newsletter.",
+        "score": 0.3064
+      },
+      {
         "id": "85dae432fb19",
         "year": 2026,
         "text": "SnapAbility supports a community of people who identify as, or are guardians for, a person with a disability across the spectrum of different mental and physical abilities, and neurodiversity.",
@@ -1372,6 +2235,13 @@
     ],
     "lexicons": {
       "inclusion": [
+        {
+          "term": "disability",
+          "first_year": 2019,
+          "last_year": 2026,
+          "max_score": 0.674,
+          "example": "We take a broad view of diversity, ranging from race and gender, to LGBTQ+, disability, age, socio-economic status, parental status, cognitive diversity, regional diversity and more."
+        },
         {
           "term": "diversity",
           "first_year": 2020,
@@ -1394,13 +2264,6 @@
           "example": "We take a broad view of diversity, ranging from race and gender, to LGBTQ+, disability, age, socio-economic status, parental status, cognitive diversity, regional diversity and more."
         },
         {
-          "term": "disability",
-          "first_year": 2020,
-          "last_year": 2026,
-          "max_score": 0.674,
-          "example": "We take a broad view of diversity, ranging from race and gender, to LGBTQ+, disability, age, socio-economic status, parental status, cognitive diversity, regional diversity and more."
-        },
-        {
           "term": "representation",
           "first_year": 2020,
           "last_year": 2020,
@@ -1411,8 +2274,8 @@
           "term": "women",
           "first_year": 2020,
           "last_year": 2026,
-          "max_score": 0.4384,
-          "example": "SnapWomen brings together and empowers women at Snap."
+          "max_score": 0.4633,
+          "example": "Whether we’re renovating houses for new mothers or offering free coding classes to women in need, we’re always finding new ways to give back."
         },
         {
           "term": "inclusion",
@@ -1425,15 +2288,22 @@
           "term": "hispanic",
           "first_year": 2021,
           "last_year": 2026,
-          "max_score": 0.4107,
-          "example": "​SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities."
+          "max_score": 0.4147,
+          "example": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities."
         },
         {
           "term": "latinx",
           "first_year": 2021,
-          "last_year": 2021,
-          "max_score": 0.4107,
-          "example": "​SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities."
+          "last_year": 2023,
+          "max_score": 0.4147,
+          "example": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities."
+        },
+        {
+          "term": "belonging",
+          "first_year": 2022,
+          "last_year": 2026,
+          "max_score": 0.6065,
+          "example": "This fosters an inclusive work environment where people experience a sense of belonging."
         },
         {
           "term": "equity",
@@ -1443,11 +2313,11 @@
           "example": "Read about our public commitment to diversity, equity, and inclusion in our 2024 Diversity Annual Report."
         },
         {
-          "term": "belonging",
-          "first_year": 2025,
+          "term": "underrepresented",
+          "first_year": 2026,
           "last_year": 2026,
-          "max_score": 0.5434,
-          "example": "Read about our commitment to Belonging at Snap We believe in building innovative and inclusive products for our global community, finding the best talent anywhere, and cultivating an environment where"
+          "max_score": 0.4745,
+          "example": "We hosted an in office event to nurture creator and community growth, solidify our leadership position in AR, and increase our brand relevance in underrepresented markets."
         }
       ],
       "civilizational": []

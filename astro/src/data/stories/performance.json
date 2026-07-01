@@ -1014,8 +1014,8 @@
             {
               "year": 2017,
               "fractionPresent": 1.0,
-              "topkMean": 0.4858,
-              "nChunks": 13,
+              "topkMean": 0.5074,
+              "nChunks": 14,
               "thin": false
             },
             {
@@ -1028,8 +1028,8 @@
             {
               "year": 2019,
               "fractionPresent": 1.0,
-              "topkMean": 0.4868,
-              "nChunks": 7,
+              "topkMean": 0.5466,
+              "nChunks": 13,
               "thin": false
             },
             {
@@ -1077,68 +1077,6 @@
           ]
         },
         {
-          "id": "brex",
-          "displayName": "Brex",
-          "years": [
-            {
-              "year": 2019,
-              "fractionPresent": 1.0,
-              "topkMean": 0.3147,
-              "nChunks": 2,
-              "thin": true
-            },
-            {
-              "year": 2020,
-              "fractionPresent": 0.6667,
-              "topkMean": 0.2941,
-              "nChunks": 3,
-              "thin": true
-            },
-            {
-              "year": 2021,
-              "fractionPresent": 0.9444,
-              "topkMean": 0.519,
-              "nChunks": 18,
-              "thin": false
-            },
-            {
-              "year": 2022,
-              "fractionPresent": 0.8333,
-              "topkMean": 0.3165,
-              "nChunks": 6,
-              "thin": false
-            },
-            {
-              "year": 2023,
-              "fractionPresent": 0.8571,
-              "topkMean": 0.3598,
-              "nChunks": 7,
-              "thin": false
-            },
-            {
-              "year": 2024,
-              "fractionPresent": 0.9545,
-              "topkMean": 0.522,
-              "nChunks": 22,
-              "thin": false
-            },
-            {
-              "year": 2025,
-              "fractionPresent": 0.9412,
-              "topkMean": 0.5093,
-              "nChunks": 17,
-              "thin": false
-            },
-            {
-              "year": 2026,
-              "fractionPresent": 1.0,
-              "topkMean": 0.4617,
-              "nChunks": 13,
-              "thin": false
-            }
-          ]
-        },
-        {
           "id": "snap",
           "displayName": "Snap",
           "years": [
@@ -1151,37 +1089,58 @@
             },
             {
               "year": 2019,
-              "fractionPresent": 1.0,
-              "topkMean": 0.2636,
-              "nChunks": 2,
-              "thin": true
+              "fractionPresent": 0.6154,
+              "topkMean": 0.3894,
+              "nChunks": 13,
+              "thin": false
             },
             {
               "year": 2020,
-              "fractionPresent": 1.0,
-              "topkMean": 0.2636,
-              "nChunks": 2,
-              "thin": true
+              "fractionPresent": 0.4667,
+              "topkMean": 0.2998,
+              "nChunks": 15,
+              "thin": false
             },
             {
               "year": 2021,
-              "fractionPresent": 0.375,
-              "topkMean": 0.2722,
-              "nChunks": 8,
+              "fractionPresent": 0.5333,
+              "topkMean": 0.3,
+              "nChunks": 15,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 0.7,
+              "topkMean": 0.4114,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 0.5455,
+              "topkMean": 0.294,
+              "nChunks": 11,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.8,
+              "topkMean": 0.2965,
+              "nChunks": 5,
               "thin": false
             },
             {
               "year": 2025,
-              "fractionPresent": 0.7778,
-              "topkMean": 0.3388,
-              "nChunks": 9,
+              "fractionPresent": 0.6875,
+              "topkMean": 0.3989,
+              "nChunks": 16,
               "thin": false
             },
             {
               "year": 2026,
-              "fractionPresent": 0.8333,
-              "topkMean": 0.3447,
-              "nChunks": 6,
+              "fractionPresent": 0.7273,
+              "topkMean": 0.3617,
+              "nChunks": 11,
               "thin": false
             }
           ]
@@ -1286,6 +1245,214 @@
               "fractionPresent": 0.8571,
               "topkMean": 0.4606,
               "nChunks": 7,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "gitlab",
+          "displayName": "GitLab",
+          "years": [
+            {
+              "year": 2015,
+              "fractionPresent": 1.0,
+              "topkMean": 0.381,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3475,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3475,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4062,
+              "nChunks": 6,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4682,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4669,
+              "nChunks": 12,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4762,
+              "nChunks": 13,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 0.9565,
+              "topkMean": 0.461,
+              "nChunks": 23,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 0.9524,
+              "topkMean": 0.4571,
+              "nChunks": 21,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3936,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4327,
+              "nChunks": 12,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4261,
+              "nChunks": 14,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "github",
+          "displayName": "GitHub",
+          "years": [
+            {
+              "year": 2011,
+              "fractionPresent": 1.0,
+              "topkMean": 0.267,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "fractionPresent": 0.5,
+              "topkMean": 0.2538,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2013,
+              "fractionPresent": 0.0,
+              "topkMean": 0.2414,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 0.0,
+              "topkMean": 0.217,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2015,
+              "fractionPresent": 0.0,
+              "topkMean": 0.2082,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "fractionPresent": 0.6667,
+              "topkMean": 0.3519,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 0.9231,
+              "topkMean": 0.4329,
+              "nChunks": 13,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 0.9375,
+              "topkMean": 0.4497,
+              "nChunks": 16,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "fractionPresent": 1.0,
+              "topkMean": 0.386,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "fractionPresent": 0.9333,
+              "topkMean": 0.4109,
+              "nChunks": 15,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "fractionPresent": 0.8333,
+              "topkMean": 0.4743,
+              "nChunks": 18,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 0.7333,
+              "topkMean": 0.4595,
+              "nChunks": 15,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 0.6471,
+              "topkMean": 0.4595,
+              "nChunks": 17,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.7143,
+              "topkMean": 0.4595,
+              "nChunks": 14,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4454,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3958,
+              "nChunks": 5,
               "thin": false
             }
           ]
@@ -1655,19 +1822,6 @@
       "score": 0.6036
     },
     {
-      "id": "c9130875317d",
-      "stance": "move_fast",
-      "stanceLabel": "Move fast",
-      "stanceNote": "Speed and scale as hiring pitch.",
-      "company": "brex",
-      "displayName": "Brex",
-      "year": 2025,
-      "source": "careers",
-      "text": "Move fast — and move on. We don’t just attract future leaders, we launch them.",
-      "heading": "",
-      "score": 0.5742
-    },
-    {
       "id": "595f62b6c648",
       "stance": "move_fast",
       "stanceLabel": "Move fast",
@@ -1679,6 +1833,19 @@
       "text": "We trust amazing people to do amazing things. At HubSpot, you have ownership over work that directly impacts the business. You can move fast, and learn even faster.",
       "heading": "Everyone's empowered to work autonomously.",
       "score": 0.5143
+    },
+    {
+      "id": "ae54c3b352d4",
+      "stance": "move_fast",
+      "stanceLabel": "Move fast",
+      "stanceNote": "Speed and scale as hiring pitch.",
+      "company": "meta",
+      "displayName": "Meta",
+      "year": 2011,
+      "source": "careers",
+      "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
+      "heading": "Build stuff that will get used. Fast.",
+      "score": 0.5046
     },
     {
       "id": "91ad4a3482a4",

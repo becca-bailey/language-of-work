@@ -17,9 +17,10 @@ companies:
     shopify,
     stripe,
     airbnb,
-    brex,
     snap,
     hubspot,
+    gitlab,
+    github,
   ]
 
 # Every company gets an individual page; the per-company exports run for all of
@@ -43,9 +44,10 @@ stories:
         shopify,
         stripe,
         airbnb,
-        brex,
         snap,
         hubspot,
+        gitlab,
+        github,
       ]
   benefits: true
   dei: true # to curate: replace `true` with {enabled: true, companies: [...]}
