@@ -7,6 +7,7 @@ import { scaleBand, scaleLinear } from "@visx/scale";
 import { Bar } from "@visx/shape";
 import { TooltipWithBounds, useTooltip } from "@visx/tooltip";
 import { localPoint } from "@visx/event";
+import { useThemeColors } from "@/lib/themeColors";
 import type { FingerprintAxis } from "@/lib/data";
 
 interface Props {
@@ -19,6 +20,7 @@ const ROW_H = 34;
 // Diverging bars centered at zero: positive = the careers copy leans on this
 // value MORE than peers, negative = less. Mean z-score across all years.
 function Chart({ axes, width }: Props & { width: number }) {
+  const theme = useThemeColors(); // positive (cool) vs negative (warm) valence
   const data = useMemo(
     () => [...axes].sort((a, b) => b.zscore - a.zscore),
     [axes]
@@ -82,7 +84,7 @@ function Chart({ axes, width }: Props & { width: number }) {
                   width={Math.max(w, 2)}
                   height={yScale.bandwidth()}
                   rx={3}
-                  fill={positive ? "#0ea5e9" : "#f59e0b"}
+                  fill={positive ? theme.role.info : theme.role.negative}
                   fillOpacity={0.85}
                   onMouseMove={(e) => {
                     const p = localPoint(e);

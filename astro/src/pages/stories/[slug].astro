@@ -31,7 +31,7 @@ const { Content } = await render(entry);
       </p>
     )}
     {entry.data.thesis && (
-      <p class="mt-4 max-w-prose border-l-2 border-indigo-400 pl-4 text-sm text-neutral-700 dark:text-neutral-300">
+      <p class="mt-4 max-w-prose border-l-2 border-info pl-4 text-sm text-neutral-700 dark:text-neutral-300">
         {entry.data.thesis}
       </p>
     )}
@@ -54,7 +54,7 @@ const { Content } = await render(entry);
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: color-mix(in srgb, currentColor 55%, transparent);
+    color: color-mix(in srgb, var(--origin) 80%, transparent);
   }
   .story-prose p {
     margin-top: 1rem;

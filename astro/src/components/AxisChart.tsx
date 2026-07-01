@@ -126,7 +126,7 @@ function Chart({
             curve={curveMonotoneX}
             strokeWidth={2}
             fill="none"
-            className="stroke-indigo-500"
+            className="stroke-info"
           />
 
           {valuePoints.map((d) => (
@@ -138,7 +138,7 @@ function Chart({
                   r={7}
                   fill="none"
                   strokeWidth={2}
-                  className="stroke-amber-500"
+                  className="stroke-warning"
                 />
               )}
               <circle
@@ -147,8 +147,8 @@ function Chart({
                 r={d.year === selectedYear ? 5 : 3}
                 className={
                   d.year === selectedYear
-                    ? "fill-indigo-600"
-                    : "fill-indigo-400 dark:fill-indigo-500"
+                    ? "fill-info"
+                    : "fill-info"
                 }
               />
             </g>
@@ -216,7 +216,7 @@ function Chart({
           <p className="font-semibold">
             {tooltipData.year}
             {tooltipData.thin && (
-              <span className="ml-2 font-normal text-amber-600 dark:text-amber-400">
+              <span className="ml-2 font-normal text-warning-text">
                 thin coverage
               </span>
             )}

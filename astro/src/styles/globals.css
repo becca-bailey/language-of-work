@@ -7,11 +7,62 @@
 @import "@fontsource/geist-sans/600.css";
 @import "@fontsource/geist-mono/400.css";
 
+/* ─────────────────────────────────────────────────────────────────────────
+   COLOR SYSTEM — single source of truth. Edit here to re-theme the whole app.
+
+   Layer A: raw palette (the ONLY place hex values live).
+   Layer B: semantic roles (what a color MEANS — reassign to re-theme).
+   Layer C: data-viz scales — cool colors are the default chart series,
+            warm colors are the "contrast" series; alert is reserved and kept
+            out of the default series so a data series never reads as an alert.
+
+   Consumers:
+   - Tailwind utilities (bg-info, text-alert, bg-chart-1, …) via @theme inline.
+   - visx charts read resolved hex at runtime — see src/lib/themeColors.ts.
+   - Derived shades use color-mix(), so no new hexes are ever introduced.
+   ───────────────────────────────────────────────────────────────────────── */
 :root {
   --font-geist-sans: "Geist Sans", Arial, Helvetica, sans-serif;
   --font-geist-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Layer A — raw palette ("Hot Dream") */
+  --palette-arcade: #5e1af4; /* Akihabara arcade */
+  --palette-slate-blue: #7669e9; /* Medium slate blue */
+  --palette-plasma: #d599fb; /* Plasma trail */
+  --palette-petunia: #f8bcca; /* Pale petunia */
+  --palette-peach: #ffbe98; /* Peach fuzz */
+  --palette-halt: #ff6230; /* Halt and catch fire */
+  --palette-slate: #9ca3af; /* neutral grey for control/muted */
+
+  /* Layer B — semantic roles */
+  --info: var(--palette-slate-blue);
+  --positive: var(--palette-arcade);
+  --negative: var(--palette-halt);
+  --alert: var(--palette-halt); /* reserved — never a chart series */
+  --accent: var(--palette-petunia);
+  --warning: var(--palette-peach);
+  --origin: var(--palette-arcade); /* primary brand — also headings */
+  --muted: var(--palette-slate); /* control lines, de-emphasized series */
+
+  /* Text-legible variants of the light roles: darkened for light-mode text, and
+     flipped back to the base (which reads fine on dark) in the dark override below.
+     Use for text/labels; the base roles are for fills, strokes, and backgrounds. */
+  --accent-text: color-mix(in srgb, var(--accent) 55%, black);
+  --warning-text: color-mix(in srgb, var(--warning) 55%, black);
+
+  /* Layer C — data-viz scales. chart-4/5 & contrast-3 are adjacent shades derived
+     from the palette so charts that need 5–8 distinct series stay legible. */
+  --chart-1: var(--palette-arcade);
+  --chart-2: var(--palette-slate-blue);
+  --chart-3: var(--palette-plasma);
+  --chart-4: var(--palette-petunia);
+  --chart-5: color-mix(in srgb, var(--palette-arcade) 62%, black); /* deep violet */
+  /* warm contrast (alert = halt kept out of the default series) */
+  --chart-contrast-1: var(--palette-halt);
+  --chart-contrast-2: var(--palette-peach);
+  --chart-contrast-3: color-mix(in srgb, var(--palette-slate-blue) 48%, white); /* periwinkle */
 }
 
 @theme inline {
@@ -19,12 +70,40 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* semantic roles → Tailwind utilities (bg-info, text-alert, …) */
+  --color-info: var(--info);
+  --color-positive: var(--positive);
+  --color-negative: var(--negative);
+  --color-alert: var(--alert);
+  --color-accent: var(--accent);
+  --color-warning: var(--warning);
+  --color-origin: var(--origin);
+  --color-muted: var(--muted);
+  --color-accent-text: var(--accent-text);
+  --color-warning-text: var(--warning-text);
+
+  /* chart scales → Tailwind utilities (bg-chart-1, …) */
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-chart-contrast-1: var(--chart-contrast-1);
+  --color-chart-contrast-2: var(--chart-contrast-2);
+  --color-chart-contrast-3: var(--chart-contrast-3);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    /* Lift the deep arcade purple so origin/positive/headings stay vivid on dark. */
+    --origin: #8b6dff;
+    --positive: #8b6dff;
+    /* On dark, the light roles read fine as text — use them directly. */
+    --accent-text: var(--accent);
+    --warning-text: var(--warning);
   }
 }
 
@@ -32,4 +111,11 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Headings use the origin/brand color (per the palette mapping). Explicit text-*
+   utilities on a heading still win, so components can opt out where needed. */
+h1,
+h2 {
+  color: var(--origin);
 }

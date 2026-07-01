@@ -10,17 +10,19 @@ import { curveMonotoneX } from "@visx/curve";
 import { TooltipWithBounds, useTooltip } from "@visx/tooltip";
 import { localPoint } from "@visx/event";
 import type { PowerStory, PowerMetric } from "@/lib/powerStory";
+import { useThemeColors } from "@/lib/themeColors";
 
 const X_MIN = 2013;
 const X_MAX = 2026;
 const MARGIN = { top: 18, right: 18, bottom: 26, left: 12 };
 const PANEL_H = 92;
 const PANEL_GAP = 14;
-const COLOR: Record<string, string> = {
-  optimism: "#6366f1",
-  workers: "#10b981",
-  management: "#ef4444",
-  wellbeing: "#14b8a6",
+// Cool default series for the framing metrics; management is the warm/negative pole.
+const COLOR_TOKEN: Record<string, string> = {
+  optimism: "--chart-1",
+  workers: "--chart-2",
+  management: "--negative",
+  wellbeing: "--chart-3",
 };
 
 type Tip =
@@ -36,6 +38,8 @@ function valueAt(metric: PowerMetric, company: string | null, year: number): num
 }
 
 function Chart({ data, width }: { data: PowerStory; width: number }) {
+  const theme = useThemeColors(); // resolve tokens to hex for SVG fill/stroke
+  const colorOf = (k: string) => theme.resolve(COLOR_TOKEN[k]);
   const [mode, setMode] = useState<"aggregate" | "company">("aggregate");
   const [hoverCo, setHoverCo] = useState<string | null>(null);
   const [pinnedCo, setPinnedCo] = useState<string | null>(null);
@@ -82,7 +86,7 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
                 onClick={() => setPinnedCo(pinnedCo === c.id ? null : c.id)}
                 className={`cursor-pointer rounded px-1.5 py-0.5 ${
                   pinnedCo === c.id
-                    ? "bg-indigo-600 text-white"
+                    ? "bg-info text-white"
                     : activeCo === c.id
                       ? "bg-neutral-800 text-white dark:bg-neutral-200 dark:text-neutral-900"
                       : "bg-neutral-100 dark:bg-neutral-800"
@@ -98,7 +102,7 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
       <svg width={width} height={totalH} role="img" aria-label="Culture language vs worker power">
         {metrics.map((m, i) => {
           const top = MARGIN.top + i * (PANEL_H + PANEL_GAP);
-          const color = COLOR[m.benefits];
+          const color = colorOf(m.benefits);
           return (
             <Group key={m.id} left={MARGIN.left} top={top}>
               <AreaClosed data={power} x={(d) => xScale(d.year)} y={(d) => yScale(d.norm)}
@@ -108,7 +112,7 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
               {/* events */}
               {events.map((e, j) => (
                 <line key={j} x1={xScale(e.year)} x2={xScale(e.year)} y1={0} y2={PANEL_H}
-                  strokeDasharray="3 3" className="stroke-amber-400/50" />
+                  strokeDasharray="3 3" className="stroke-warning/50" />
               ))}
 
               {/* lines */}
@@ -118,7 +122,7 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
                     return (
                       <LinePath key={c.id} data={c.series} x={(d) => xScale(d.year)}
                         y={(d) => yScale(d.norm)} curve={curveMonotoneX}
-                        stroke={hot ? color : "#9ca3af"} strokeWidth={hot ? 2.5 : 1}
+                        stroke={hot ? color : theme.role.muted} strokeWidth={hot ? 2.5 : 1}
                         strokeOpacity={hot ? 1 : activeCo ? 0.15 : 0.35} fill="none" />
                     );
                   })
@@ -189,7 +193,7 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
             <>
               <p className="font-semibold">{tooltipData.date}</p>
               <p className="mt-0.5 text-neutral-600 dark:text-neutral-300">{tooltipData.label}</p>
-              <p className="mt-0.5 text-[10px] uppercase tracking-wide text-amber-600">{tooltipData.ekind}</p>
+              <p className="mt-0.5 text-[10px] uppercase tracking-wide text-warning-text">{tooltipData.ekind}</p>
             </>
           ) : (
             <>
@@ -203,7 +207,7 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
               {metrics.map((m) => {
                 const v = valueAt(m, mode === "company" ? activeCo : null, tooltipData.year);
                 return (
-                  <p key={m.id} style={{ color: COLOR[m.benefits] }}>
+                  <p key={m.id} style={{ color: colorOf(m.benefits) }}>
                     {m.id}: {v === null ? "–" : v.toFixed(2)}
                   </p>
                 );

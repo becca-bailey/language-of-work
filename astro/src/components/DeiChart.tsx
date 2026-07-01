@@ -92,20 +92,20 @@ function Chart({
                 y1={0}
                 y2={innerH}
                 strokeDasharray="4 4"
-                className="stroke-amber-400/70"
+                className="stroke-warning/70"
               />
               <text
                 x={xScale(ev.year) + 3}
                 y={4}
                 textAnchor="start"
                 transform={`rotate(90, ${xScale(ev.year) + 3}, 4)`}
-                className="fill-amber-600 text-[9px] dark:fill-amber-400"
+                className="fill-warning text-[9px]"
               >
                 {ev.label}
               </text>
             </g>
           ))}
-          <LinePath data={inclusionPts} x={(d) => xScale(d.year)} y={(d) => yScale(d.inclusion as number)} curve={curveMonotoneX} strokeWidth={2} fill="none" className="stroke-emerald-600" />
+          <LinePath data={inclusionPts} x={(d) => xScale(d.year)} y={(d) => yScale(d.inclusion as number)} curve={curveMonotoneX} strokeWidth={2} fill="none" className="stroke-positive" />
           {inclusionPts.map((d) => (
             <g key={d.year}>
               {d.thin && (
@@ -115,7 +115,7 @@ function Chart({
                   r={7}
                   fill="none"
                   strokeWidth={2}
-                  className="stroke-amber-500"
+                  className="stroke-warning"
                 />
               )}
               <circle
@@ -124,8 +124,8 @@ function Chart({
                 r={d.year === selectedYear ? 5 : 3}
                 className={
                   d.year === selectedYear
-                    ? "fill-emerald-700"
-                    : "fill-emerald-500"
+                    ? "fill-positive"
+                    : "fill-positive"
                 }
               />
             </g>

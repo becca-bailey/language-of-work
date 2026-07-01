@@ -56,7 +56,7 @@ export default function AxisExplorer({ axis, control }: Props) {
         </p>
         <div className="flex items-center gap-4 text-xs text-neutral-500">
           <span className="flex items-center gap-1.5">
-            <span className="inline-block h-0.5 w-5 bg-indigo-500" />
+            <span className="inline-block h-0.5 w-5 bg-info" />
             {axis.axis}
           </span>
           <span className="flex items-center gap-1.5">
@@ -73,7 +73,7 @@ export default function AxisExplorer({ axis, control }: Props) {
             onClick={() => setSelectedYear(y.year)}
             className={`rounded-md px-2.5 py-1 font-mono text-xs transition-colors ${
               y.year === selectedYear
-                ? "bg-indigo-600 text-white"
+                ? "bg-info text-white"
                 : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-700"
             }`}
           >
@@ -91,7 +91,7 @@ export default function AxisExplorer({ axis, control }: Props) {
               top-{selected.kUsed}
             </span>
             {selected.thin && (
-              <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-800 dark:bg-amber-900/40 dark:text-amber-300">
+              <span className="rounded-full bg-warning/10 px-2 py-0.5 text-xs font-medium text-warning-text">
                 thin coverage
               </span>
             )}
@@ -104,7 +104,7 @@ export default function AxisExplorer({ axis, control }: Props) {
             {selected.quotes.map((q, i) => (
               <li
                 key={i}
-                className="border-l-2 border-indigo-300 pl-4 dark:border-indigo-700"
+                className="border-l-2 border-info pl-4"
               >
                 {q.heading && (
                   <p className="text-xs font-medium text-neutral-500">

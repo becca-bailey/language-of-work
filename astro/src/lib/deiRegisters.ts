@@ -12,14 +12,22 @@ export const DEI_REGISTER_ORDER = [
 
 export type DeiRegister = (typeof DEI_REGISTER_ORDER)[number];
 
-export const DEI_REGISTER_COLORS: Record<string, string> = {
-  explicit_demographic: "#059669",
-  structural_process: "#0d9488",
-  aspirational_vague: "#6366f1",
-  belonging_culture: "#8b5cf6",
-  meritocracy: "#f59e0b",
-  civilizational_mission: "#dc2626",
+// Register → color token (see styles/globals.css). Inclusion-oriented registers use the
+// cool default chart series; meritocracy / civilizational-mission use the warm "contrast"
+// series so the counter-registers read as the opposing pole. Resolve to hex in charts via
+// useThemeColors().resolve(); DEI_REGISTER_COLORS gives var() strings for CSS/style use.
+export const DEI_REGISTER_TOKEN: Record<string, string> = {
+  explicit_demographic: "--chart-1",
+  structural_process: "--chart-2",
+  aspirational_vague: "--chart-3", // lavender — ordered before the pink below
+  belonging_culture: "--chart-4", // pink
+  meritocracy: "--chart-contrast-1",
+  civilizational_mission: "--chart-contrast-2",
 };
+
+export const DEI_REGISTER_COLORS: Record<string, string> = Object.fromEntries(
+  Object.entries(DEI_REGISTER_TOKEN).map(([k, v]) => [k, `var(${v})`]),
+);
 
 export interface CompanyRegisterShare {
   company: string;

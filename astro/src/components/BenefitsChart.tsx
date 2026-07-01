@@ -14,17 +14,19 @@ function Spark({ cat, years, yMax }: { cat: BenefitsCategory; years: number[]; y
     return { ...s, x, y };
   });
   const path = pts.map((p, i) => `${i === 0 ? "M" : "L"}${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ");
-  const color = "#0ea5e9";
+  // Static (non-hydrated) SVG: apply the token via `style` (CSS vars don't resolve in
+  // SVG presentation attributes), so it re-themes with the palette.
+  const color = "var(--info)";
   const last = pts[pts.length - 1];
   return (
     <svg viewBox={`0 0 ${W} ${H}`} className="w-full" preserveAspectRatio="none" aria-hidden>
-      <path d={path} fill="none" stroke={color} strokeWidth={2} />
+      <path d={path} fill="none" style={{ stroke: color }} strokeWidth={2} />
       {pts.map((p) => (
-        <circle key={p.year} cx={p.x} cy={p.y} r={2} fill={color} fillOpacity={p.count ? 0.9 : 0.2}>
+        <circle key={p.year} cx={p.x} cy={p.y} r={2} style={{ fill: color }} fillOpacity={p.count ? 0.9 : 0.2}>
           <title>{`${p.year}: ${(p.share * 100).toFixed(0)}% of postings (${p.count} chunks)`}</title>
         </circle>
       ))}
-      {last && <circle cx={last.x} cy={last.y} r={3} fill={color} />}
+      {last && <circle cx={last.x} cy={last.y} r={3} style={{ fill: color }} />}
     </svg>
   );
 }

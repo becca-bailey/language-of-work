@@ -6,6 +6,8 @@ import { scaleBand, scaleLinear } from "@visx/scale";
 import { TooltipWithBounds, useTooltip } from "@visx/tooltip";
 import { localPoint } from "@visx/event";
 import { allYears, type StoryCompanySeries } from "@/lib/storyTypes";
+import { DEI_REGISTER_COLORS as COLORS, DEI_REGISTER_TOKEN } from "@/lib/deiRegisters";
+import { useThemeColors } from "@/lib/themeColors";
 
 /** Active (pro-inclusion) registers stack upward; counter registers stack downward. */
 const ACTIVE_REGISTERS = [
@@ -16,15 +18,6 @@ const ACTIVE_REGISTERS = [
 ] as const;
 
 const COUNTER_REGISTERS = ["meritocracy", "civilizational_mission"] as const;
-
-const COLORS: Record<string, string> = {
-  explicit_demographic: "#059669",
-  structural_process: "#0d9488",
-  aspirational_vague: "#6366f1",
-  belonging_culture: "#8b5cf6",
-  meritocracy: "#f59e0b",
-  civilizational_mission: "#dc2626",
-};
 
 const LABELS: Record<string, string> = {
   explicit_demographic: "explicit demographic",
@@ -92,6 +85,8 @@ function CompanyRow({
   width: number;
 }) {
   const byYear = useMemo(() => cellsFor(company), [company]);
+  const theme = useThemeColors(); // resolve register tokens to hex for SVG fill
+  const fillFor = (reg: string) => theme.resolve(DEI_REGISTER_TOKEN[reg]);
   const { showTooltip, hideTooltip, tooltipData, tooltipLeft, tooltipTop } = useTooltip<Tip>();
 
   const innerW = width - MARGIN.left - MARGIN.right;
@@ -147,14 +142,14 @@ function CompanyRow({
                 if (share <= 0) return null;
                 const h = upScale(share);
                 up -= h;
-                return <rect key={reg} x={x} y={up} width={w} height={h} fill={COLORS[reg]} />;
+                return <rect key={reg} x={x} y={up} width={w} height={h} fill={fillFor(reg)} />;
               });
               let down = baseline;
               const downBars = COUNTER_REGISTERS.map((reg) => {
                 const share = cell.counterShares[reg];
                 if (share <= 0) return null;
                 const h = downScale(share);
-                const bar = <rect key={reg} x={x} y={down} width={w} height={h} fill={COLORS[reg]} />;
+                const bar = <rect key={reg} x={x} y={down} width={w} height={h} fill={fillFor(reg)} />;
                 down += h;
                 return bar;
               });
@@ -219,10 +214,10 @@ function CompanyRow({
             <>
               <p className="mt-0.5 text-neutral-500">{tooltipData.cell.nChunks} chunks</p>
               {tooltipData.cell.inclusionQuote && (
-                <p className="mt-1 border-l-2 border-emerald-500 pl-2 italic text-neutral-600 dark:text-neutral-300">“{tooltipData.cell.inclusionQuote}”</p>
+                <p className="mt-1 border-l-2 border-positive pl-2 italic text-neutral-600 dark:text-neutral-300">“{tooltipData.cell.inclusionQuote}”</p>
               )}
               {tooltipData.cell.counterQuote && tooltipData.cell.counterQuote !== tooltipData.cell.inclusionQuote && (
-                <p className="mt-1 border-l-2 border-amber-500 pl-2 italic text-neutral-600 dark:text-neutral-300">“{tooltipData.cell.counterQuote}”</p>
+                <p className="mt-1 border-l-2 border-warning pl-2 italic text-neutral-600 dark:text-neutral-300">“{tooltipData.cell.counterQuote}”</p>
               )}
             </>
           )}

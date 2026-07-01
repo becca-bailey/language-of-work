@@ -8,6 +8,7 @@ import { scaleBand, scaleLinear } from "@visx/scale";
 import { Bar } from "@visx/shape";
 import { TooltipWithBounds, useTooltip } from "@visx/tooltip";
 import { localPoint } from "@visx/event";
+import { useThemeColors } from "@/lib/themeColors";
 
 export interface BarDatum {
   label: string;
@@ -24,6 +25,7 @@ const MARGIN = { top: 8, right: 40, bottom: 28, left: 180 };
 const ROW_H = 30;
 
 function Chart({ data, width }: Props & { width: number }) {
+  const theme = useThemeColors(); // alert (warm) for the keeper-test bar, info (cool) otherwise
   const height = MARGIN.top + MARGIN.bottom + data.length * ROW_H;
   const innerW = width - MARGIN.left - MARGIN.right;
   const innerH = data.length * ROW_H;
@@ -75,7 +77,7 @@ function Chart({ data, width }: Props & { width: number }) {
                   width={Math.max(w, d.value === 0 ? 0 : 2)}
                   height={yScale.bandwidth()}
                   rx={3}
-                  fill={d.isTest ? "#ef4444" : "#38bdf8"}
+                  fill={d.isTest ? theme.role.alert : theme.role.info}
                   fillOpacity={d.isTest ? 0.9 : 0.8}
                   onMouseMove={(e) => {
                     const p = localPoint(e);
@@ -90,7 +92,7 @@ function Chart({ data, width }: Props & { width: number }) {
                   dominantBaseline="middle"
                   className={`text-[12px] tabular-nums ${
                     d.isTest
-                      ? "fill-rose-600 font-semibold dark:fill-rose-400"
+                      ? "fill-alert font-semibold"
                       : "fill-neutral-500"
                   }`}
                 >

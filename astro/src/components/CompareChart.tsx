@@ -12,6 +12,7 @@ import { TooltipWithBounds, useTooltip } from "@visx/tooltip";
 import { extent } from "d3-array";
 import { localPoint } from "@visx/event";
 import type { TimelineEvent } from "@/lib/events";
+import { useThemeColors } from "@/lib/themeColors";
 
 export interface CompanySeries {
   company: string;
@@ -26,14 +27,6 @@ interface Props {
 }
 
 const MARGIN = { top: 16, right: 24, bottom: 36, left: 52 };
-const COLORS = [
-  "#6366f1",
-  "#f59e0b",
-  "#10b981",
-  "#ef4444",
-  "#8b5cf6",
-  "#06b6d4",
-];
 
 type TooltipRow = { year: number; company: string; displayName: string; zscore: number; thin: boolean };
 
@@ -70,13 +63,15 @@ function Chart({
     return scaleLinear({ domain: [min - pad, max + pad], range: [innerH, 0] });
   }, [allZ, innerH]);
 
+  // Cool default series first, then warm "contrast" series — up to 8 distinct companies.
+  const theme = useThemeColors();
   const colorScale = useMemo(
     () =>
       scaleOrdinal({
         domain: series.map((s) => s.company),
-        range: COLORS,
+        range: [...theme.chart, ...theme.chartContrast],
       }),
-    [series]
+    [series, theme]
   );
 
   const yearIndex = useMemo(() => {
@@ -141,14 +136,14 @@ function Chart({
                   y1={0}
                   y2={innerH}
                   strokeDasharray="4 4"
-                  className="stroke-amber-400/70"
+                  className="stroke-warning/70"
                 />
                 <text
                   x={xScale(ev.year) + 3}
                   y={4}
                   textAnchor="start"
                   transform={`rotate(90, ${xScale(ev.year) + 3}, 4)`}
-                  className="fill-amber-600 text-[9px] dark:fill-amber-400"
+                  className="fill-warning text-[9px]"
                 >
                   {ev.label}
                 </text>
@@ -178,7 +173,7 @@ function Chart({
                     r={7}
                     fill="none"
                     strokeWidth={2}
-                    className="stroke-amber-500"
+                    className="stroke-warning"
                   />
                 )}
                 <circle
@@ -263,7 +258,7 @@ function Chart({
           <p className="font-semibold">
             {tooltipData.displayName} · {tooltipData.year}
             {tooltipData.thin && (
-              <span className="ml-2 font-normal text-amber-600 dark:text-amber-400">
+              <span className="ml-2 font-normal text-warning-text">
                 thin coverage
               </span>
             )}

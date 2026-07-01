@@ -9,6 +9,7 @@ import { LinePath } from "@visx/shape";
 import { curveMonotoneX } from "@visx/curve";
 import { TooltipWithBounds, useTooltip } from "@visx/tooltip";
 import { localPoint } from "@visx/event";
+import { useThemeColors } from "@/lib/themeColors";
 
 // --- data shape (matches the worldChanging series in altruism.json) ---
 export interface AltruismPoint {
@@ -30,8 +31,8 @@ interface Props {
   metricLabel?: string;
 }
 
-const FOCUS = "#6366f1"; // indigo — the company in focus
-const CTRL = "#9ca3af"; // grey — the dotted control line
+const FOCUS_TOKEN = "--info"; // the company in focus
+const CTRL_TOKEN = "--muted"; // the dotted control line
 const MARGIN = { top: 22, right: 16, bottom: 28, left: 30 };
 const HEIGHT = 280;
 
@@ -61,6 +62,9 @@ function peakOf(pts: AltruismPoint[]): AltruismPoint | null {
 }
 
 function Chart({ companies, width, featured, metricLabel }: Props & { width: number }) {
+  const theme = useThemeColors(); // resolve tokens to hex for SVG stroke
+  const FOCUS = theme.resolve(FOCUS_TOKEN);
+  const CTRL = theme.resolve(CTRL_TOKEN);
   const initial = featured && companies.some((c) => c.id === featured) ? featured : companies[0]?.id;
   const [mode, setMode] = useState<Mode>("company");
   const [selected, setSelected] = useState<string>(initial);
@@ -112,7 +116,7 @@ function Chart({ companies, width, featured, metricLabel }: Props & { width: num
               <button
                 key={c.id}
                 onClick={() => setSelected(c.id)}
-                className={`rounded px-1.5 py-0.5 ${c.id === selected ? "bg-indigo-600 text-white" : "bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700"}`}
+                className={`rounded px-1.5 py-0.5 ${c.id === selected ? "bg-info text-white" : "bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700"}`}
               >
                 {c.displayName}
               </button>
@@ -137,7 +141,7 @@ function Chart({ companies, width, featured, metricLabel }: Props & { width: num
                 x={(d) => xScale(d.year)}
                 y={(d) => yScale(d.zscore ?? 0)}
                 curve={curveMonotoneX}
-                stroke="#9ca3af"
+                stroke={CTRL}
                 strokeWidth={1}
                 strokeOpacity={companyMode ? 0.18 : 0.3}
                 fill="none"
@@ -176,7 +180,7 @@ function Chart({ companies, width, featured, metricLabel }: Props & { width: num
                 />
               ))}
               {peak && (
-                <text x={xScale(peak.year)} y={yScale(peak.zscore ?? 0) - 8} textAnchor="middle" className="fill-indigo-600 text-[10px] font-medium dark:fill-indigo-300">
+                <text x={xScale(peak.year)} y={yScale(peak.zscore ?? 0) - 8} textAnchor="middle" className="fill-info text-[10px] font-medium">
                   peak ’{String(peak.year).slice(2)}
                 </text>
               )}
@@ -226,7 +230,7 @@ function Chart({ companies, width, featured, metricLabel }: Props & { width: num
         <TooltipWithBounds left={tooltipLeft} top={tooltipTop} unstyled applyPositionStyle className="pointer-events-none max-w-xs rounded-lg border border-neutral-200 bg-white px-3 py-2 text-xs shadow-md dark:border-neutral-700 dark:bg-neutral-900">
           <p className="font-semibold">{tooltipData.year} · {tooltipData.label}</p>
           <p className="mt-0.5 text-neutral-500">idealism: {tooltipData.z === null ? "–" : tooltipData.z.toFixed(2)}</p>
-          {tooltipData.quote && <p className="mt-1 border-l-2 border-indigo-400 pl-2 italic text-neutral-600 dark:text-neutral-300">“{tooltipData.quote}”</p>}
+          {tooltipData.quote && <p className="mt-1 border-l-2 border-info pl-2 italic text-neutral-600 dark:text-neutral-300">“{tooltipData.quote}”</p>}
         </TooltipWithBounds>
       )}
     </div>

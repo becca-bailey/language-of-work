@@ -9,12 +9,14 @@ import type { DeiData } from "@/lib/data";
 import {
   DEI_REGISTER_ORDER,
   DEI_REGISTER_COLORS,
+  DEI_REGISTER_TOKEN,
   registerSharesFromDei,
   type CompanyRegisterShare,
 } from "@/lib/deiRegisters";
+import { useThemeColors } from "@/lib/themeColors";
 
 const REGISTER_ORDER = DEI_REGISTER_ORDER;
-const COLORS = DEI_REGISTER_COLORS;
+const COLORS = DEI_REGISTER_COLORS; // var() strings — for CSS/style (legend swatches)
 
 const MARGIN = { top: 8, right: 8, bottom: 8, left: 88 };
 
@@ -43,9 +45,10 @@ function Chart({
     () => scaleLinear({ domain: [0, 1], range: [0, innerW] }),
     [innerW]
   );
+  const theme = useThemeColors(); // resolve tokens to hex for SVG fill attributes
   const colorScale = scaleOrdinal({
     domain: REGISTER_ORDER as unknown as string[],
-    range: REGISTER_ORDER.map((r) => COLORS[r]),
+    range: REGISTER_ORDER.map((r) => theme.resolve(DEI_REGISTER_TOKEN[r])),
   });
 
   return (
