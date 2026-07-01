@@ -24,7 +24,7 @@ GENERIC = {"raise_the_bar", "only_the_best", "judged_by_outcomes"}
 ORIGINS = {
     "talent_density": "The Key: Increase Talent Density faster than Complexity Grows.",
     "keeper_test": "Which of my people, if they told me they were leaving for a similar job at a peer company, would I fight hard to keep at Netflix?",
-    "team_not_family": "We're a team, not a family. We're like a pro sports team, not a kid's recreational team.",
+    "team_not_family": "We're a team, not a family. We're like a pro sports team, not a kid's recreational team. Netflix leaders hire, develop and cut smartly, so we have stars in every position.",
     "dream_team": "Our version of a great workplace is a dream team in pursuit of ambitious, common goals.",
     "high_performer_supremacy": "In creative and inventive work, the best are 10x better than the average.",
     "adequate_severance": "Adequate performance gets a generous severance package.",
@@ -44,7 +44,7 @@ def tier_for(cid: str, adopters: list) -> str:
 
 DECK_QUOTES = [
     {"label": "Talent density", "text": "The Key: Increase Talent Density faster than Complexity Grows."},
-    {"label": "Team, not a family", "text": "We're a team, not a family. We're like a pro sports team, not a kid's recreational team."},
+    {"label": "Team, not a family", "text": "We're a team, not a family. We're like a pro sports team, not a kid's recreational team. Netflix leaders hire, develop and cut smartly, so we have stars in every position."},
     {"label": "The keeper test", "text": "Which of my people, if they told me they were leaving for a similar job at a peer company, would I fight hard to keep at Netflix?"},
     {"label": "Fire the adequate", "text": "Adequate performance gets a generous severance package."},
     {"label": "Performance, undefined", "text": "You accomplish amazing amounts of important work… you focus on great results rather than on process."},
