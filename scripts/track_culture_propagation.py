@@ -4,9 +4,10 @@
 Concept-level (semantic) matching, not exact phrase: each concept has anchor
 sentences (canonical + paraphrases) which we embed; a company's culture sentence
 "expresses" the concept when its max cosine similarity to the anchors clears a
-tuned threshold. A verbatim regex runs alongside as a high-confidence overlay
-(concept-echo vs. verbatim-lift). The 2009 Netflix Culture deck is seeded as the
-origin point so Netflix shows as 2009.
+tuned threshold. A borrowing that also clears a higher "near-verbatim" band is
+flagged as a high-confidence lift (vs. a paraphrase between the two bars) — this
+is purely similarity-based, no phrase regex. The 2009 Netflix Culture deck is
+seeded as the origin point so Netflix shows as 2009.
 
 Writes data/culture_propagation.json (the adoption timeline) and
 data/culture_propagation_review.md (top matches per concept for threshold tuning /
@@ -50,7 +51,6 @@ CONCEPTS: dict[str, dict] = {
             "Our edge is talent density — a high concentration of star performers.",
             "We deliberately keep a dense team of only the highest performers.",
         ],
-        "regex": re.compile(r"talent density|density of talent|concentration of (?:top )?talent", re.I),
     },
     "keeper_test": {
         "label": "Keeper test",
@@ -58,7 +58,6 @@ CONCEPTS: dict[str, dict] = {
             "If this person told us they were leaving for a similar job, would we fight to keep them?",
             "We apply the keeper test: managers keep only the people they would fight to retain.",
         ],
-        "regex": re.compile(r"keeper test|fight (?:hard )?to keep", re.I),
     },
     "team_not_family": {
         "label": "Team, not a family",
@@ -66,7 +65,6 @@ CONCEPTS: dict[str, dict] = {
             "We are a high-performance team, not a family.",
             "We are like a professional sports team, not a recreational team.",
         ],
-        "regex": re.compile(r"not a family|sports team|pro(?:fessional)? team, not", re.I),
     },
     "dream_team": {
         "label": "Dream team / stunning colleagues",
@@ -74,7 +72,6 @@ CONCEPTS: dict[str, dict] = {
             "We build a dream team of exceptional, stunning colleagues.",
             "Your reward is working alongside stunningly talented teammates.",
         ],
-        "regex": re.compile(r"dream team|stunning colleagues|stunningly (?:talented|capable)", re.I),
     },
     "high_performer_supremacy": {
         "label": "High performer ≫ average",
@@ -85,9 +82,6 @@ CONCEPTS: dict[str, dict] = {
             "A high performer in any role is many times more effective than the average employee.",
             "A star performer is many times more valuable than an average employee.",
         ],
-        # bare "10x" was too loose (matched "10x return", "10x learning
-        # environment"); require it to qualify a person to count as supremacy.
-        "regex": re.compile(r"many times more|times more (?:effective|valuable|productive)|10x\s+(?:engineer|performer|employee|developer|talent)", re.I),
     },
     "adequate_severance": {
         "label": "Adequate → severance",
@@ -95,7 +89,6 @@ CONCEPTS: dict[str, dict] = {
             "Merely adequate performance earns a generous severance package.",
             "If your work is only solid, we part ways with a generous severance.",
         ],
-        "regex": re.compile(r"generous severance|adequate performance", re.I),
     },
     "raise_the_bar": {
         "label": "Raise the bar",
@@ -103,7 +96,6 @@ CONCEPTS: dict[str, dict] = {
             "We hold relentlessly high standards and keep raising the bar.",
             "Every new hire must raise the average and lift the whole team's bar.",
         ],
-        "regex": re.compile(r"raise[sd]? the bar|relentlessly high|high(?:er)? bar|unreasonably high", re.I),
     },
     "judged_by_outcomes": {
         "label": "Judged by outcomes/results",
@@ -111,7 +103,6 @@ CONCEPTS: dict[str, dict] = {
             "You are judged by your results and outcomes, not your effort or hours.",
             "We measure people by impact and results, not activity.",
         ],
-        "regex": re.compile(r"judged by (?:outcomes|results)|results?-driven|measured by (?:impact|results)", re.I),
     },
     "only_the_best": {
         "label": "Only the best / A-players",
@@ -119,7 +110,6 @@ CONCEPTS: dict[str, dict] = {
             "We hire only the best and the brightest — A-players, top talent.",
             "We recruit only elite, top-tier people and accept nothing less.",
         ],
-        "regex": re.compile(r"best and (?:the )?brightest|A[\s-]?players?|top talent|only the best", re.I),
     },
     "freedom_responsibility": {
         "label": "Freedom & responsibility / no rules",
@@ -128,7 +118,6 @@ CONCEPTS: dict[str, dict] = {
             "We run on freedom and responsibility, not rules and process.",
             "We have values, not rules — we trust people to act in the company's interest.",
         ],
-        "regex": re.compile(r"freedom and responsibility|don'?t have rules|values,? not rules|no rules,? (?:just|but|we|only)", re.I),
     },
     "context_not_control": {
         "label": "Context, not control",
@@ -136,7 +125,6 @@ CONCEPTS: dict[str, dict] = {
             "Leaders lead with context, not control.",
             "Managers set context and let teams make the decisions rather than controlling them.",
         ],
-        "regex": re.compile(r"context,? not control|lead(?:ing)? with context", re.I),
     },
     "aligned_loosely_coupled": {
         "label": "Highly aligned, loosely coupled",
@@ -144,7 +132,6 @@ CONCEPTS: dict[str, dict] = {
             "We stay highly aligned and loosely coupled.",
             "Teams are loosely coupled but highly aligned on strategy and goals.",
         ],
-        "regex": re.compile(r"highly aligned|loosely coupled", re.I),
     },
     "no_vacation_policy": {
         "label": "No vacation policy / unlimited time off",
@@ -152,9 +139,6 @@ CONCEPTS: dict[str, dict] = {
             "We have no vacation policy; take time off as you see fit.",
             "There is no formal vacation tracking — take the time you need.",
         ],
-        # Netflix-distinctive phrasing only. "Unlimited vacation/PTO" is generic HR-speak
-        # (everyone uses it) — matching it mislabeled HubSpot as a near-verbatim Netflix lift.
-        "regex": re.compile(r"no vacation policy|take vacation|no (?:rules|forms).{0,25}(?:weeks|vacation)", re.I),
     },
 }
 
@@ -213,8 +197,8 @@ def company_sentences(company: str) -> list[tuple[int, str]]:
     return out
 
 
-def main(threshold: float, echo_threshold: float, review_top: int,
-         companies: list[str] | None = None) -> None:
+def main(threshold: float, echo_threshold: float, verbatim_threshold: float,
+         review_top: int, companies: list[str] | None = None) -> None:
     global COMPANIES
     if companies is not None:
         COMPANIES = list(companies)
@@ -240,12 +224,12 @@ def main(threshold: float, echo_threshold: float, review_top: int,
 
         if company == "netflix":
             # Origin detection stays per-concept: Netflix "expresses" a concept if any of
-            # its sentences clears the bar (or matches the verbatim regex). No dedup — the
-            # deck legitimately voices several concepts in one breath, and no echo band.
-            for name, c in CONCEPTS.items():
+            # its sentences clears the bar. No dedup — the deck legitimately voices several
+            # concepts in one breath, and no echo band.
+            for name in CONCEPTS:
                 sims = sims_by[name]
                 matched = [(years[i], texts[i], float(sims[i])) for i in range(len(texts)) if sims[i] >= threshold]
-                verb = [(years[i], texts[i]) for i in range(len(texts)) if c["regex"].search(texts[i])]
+                verb = [(y, t) for y, t, sc in matched if sc >= verbatim_threshold]
                 entry: dict = {}
                 if matched:
                     best = max(matched, key=lambda x: x[2])
@@ -258,23 +242,18 @@ def main(threshold: float, echo_threshold: float, review_top: int,
                     timeline[name][company] = entry
             continue
 
-        # Adopters: attribute each sentence to a SINGLE concept so one line can't count as
-        # a borrowing under every concept it grazes. A verbatim regex hit is unambiguous
-        # and wins outright; otherwise the sentence goes to its highest-similarity concept.
-        # There it's a lift (>= threshold) or an echo (>= echo_threshold): same framework,
-        # not necessarily borrowed.
+        # Adopters: attribute each sentence to a SINGLE concept (its highest-similarity one)
+        # so one line can't count as a borrowing under every concept it grazes. There it's a
+        # lift (>= threshold) or an echo (>= echo_threshold): same framework, not necessarily
+        # borrowed. A lift that also clears the near-verbatim bar (>= verbatim_threshold) is
+        # flagged as a high-confidence, near-verbatim borrowing — purely on similarity.
         lifts: dict[str, list] = {n: [] for n in CONCEPTS}   # (i, score, verbatim)
         echoes: dict[str, list] = {n: [] for n in CONCEPTS}  # (i, score)
         for i in range(len(texts)):
-            hits = [n for n in CONCEPTS if CONCEPTS[n]["regex"].search(texts[i])]
-            if hits:
-                for n in hits:
-                    lifts[n].append((i, float(sims_by[n][i]), True))
-                continue
             best_n = max(concept_names, key=lambda n: sims_by[n][i])
             sc = float(sims_by[best_n][i])
             if sc >= threshold:
-                lifts[best_n].append((i, sc, False))
+                lifts[best_n].append((i, sc, sc >= verbatim_threshold))
             elif sc >= echo_threshold:
                 echoes[best_n].append((i, sc))
         for name in CONCEPTS:
@@ -304,7 +283,8 @@ def main(threshold: float, echo_threshold: float, review_top: int,
 
     display_names = {c: _display(c) for c in COMPANIES}
     write_json(ROOT / "data" / "culture_propagation.json",
-               {"threshold": threshold, "echoThreshold": echo_threshold, "origin": "netflix",
+               {"threshold": threshold, "echoThreshold": echo_threshold,
+                "verbatimThreshold": verbatim_threshold, "origin": "netflix",
                 "concepts": {n: CONCEPTS[n]["label"] for n in CONCEPTS},
                 "displayNames": display_names, "timeline": timeline})
 
@@ -316,7 +296,7 @@ def main(threshold: float, echo_threshold: float, review_top: int,
         lines.append(f"## {CONCEPTS[name]['label']}")
         rows = sorted([r for r in review_rows if r[0] == name], key=lambda r: -r[3])[:12]
         for _, comp, yr, sc, txt in rows:
-            mark = "✓" if sc >= threshold else ("~" if sc >= echo_threshold else " ")
+            mark = ("V" if sc >= verbatim_threshold else "✓") if sc >= threshold else ("~" if sc >= echo_threshold else " ")
             lines.append(f"- [{mark}] {sc:.3f} {display_names.get(comp, comp):9s} {yr}  {txt}")
         lines.append("")
     (ROOT / "data" / "culture_propagation_review.md").write_text("\n".join(lines))
@@ -335,8 +315,9 @@ def main(threshold: float, echo_threshold: float, review_top: int,
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--threshold", type=float, default=0.65)  # hand-validated borrowing bar
+    p.add_argument("--threshold", type=float, default=0.64)  # hand-validated borrowing bar
     p.add_argument("--echo-threshold", type=float, default=0.50)  # floor for same-framework echoes
+    p.add_argument("--verbatim-threshold", type=float, default=0.85)  # near-verbatim (high-confidence) bar
     p.add_argument("--review-top", type=int, default=3)
     a = p.parse_args()
-    main(a.threshold, a.echo_threshold, a.review_top)
+    main(a.threshold, a.echo_threshold, a.verbatim_threshold, a.review_top)

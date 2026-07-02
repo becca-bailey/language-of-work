@@ -1,6 +1,7 @@
 {
-  "threshold": 0.65,
+  "threshold": 0.64,
   "echoThreshold": 0.5,
+  "verbatimThreshold": 0.85,
   "origin": "netflix",
   "concepts": {
     "talent_density": "Talent density",
@@ -18,32 +19,33 @@
     "no_vacation_policy": "No vacation policy / unlimited time off"
   },
   "displayNames": {
-    "netflix": "Netflix",
     "google": "Google",
     "amazon": "Amazon",
     "meta": "Meta",
     "palantir": "Palantir",
     "coinbase": "Coinbase",
+    "netflix": "Netflix",
     "shopify": "Shopify",
     "stripe": "Stripe",
     "airbnb": "Airbnb",
     "snap": "Snap",
     "hubspot": "HubSpot",
     "gitlab": "GitLab",
-    "github": "GitHub"
+    "github": "GitHub",
+    "salesforce": "Salesforce"
   },
   "timeline": {
     "talent_density": {
       "netflix": {
         "firstYearConcept": 2009,
-        "nConcept": 2,
+        "nConcept": 3,
         "yearsConcept": [
           2009
         ],
         "example": "The Key: Increase Talent Density faster than Complexity Grows",
         "exampleScore": 0.985,
         "firstYearVerbatim": 2009,
-        "nVerbatim": 4
+        "nVerbatim": 1
       },
       "shopify": {
         "echoes": [
@@ -67,7 +69,7 @@
     "keeper_test": {
       "netflix": {
         "firstYearConcept": 2009,
-        "nConcept": 16,
+        "nConcept": 17,
         "yearsConcept": [
           2009,
           2017,
@@ -81,12 +83,19 @@
           2026
         ],
         "example": "We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try",
-        "exampleScore": 0.797,
-        "firstYearVerbatim": 2009,
-        "nVerbatim": 28
+        "exampleScore": 0.797
       }
     },
     "team_not_family": {
+      "coinbase": {
+        "echoes": [
+          {
+            "year": 2024,
+            "text": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers.",
+            "score": 0.59
+          }
+        ]
+      },
       "netflix": {
         "firstYearConcept": 2009,
         "nConcept": 10,
@@ -103,40 +112,19 @@
           2026
         ],
         "example": "We model ourselves on being a team, not a family.",
-        "exampleScore": 0.802,
-        "firstYearVerbatim": 2009,
-        "nVerbatim": 25
+        "exampleScore": 0.802
       },
-      "coinbase": {
+      "salesforce": {
         "echoes": [
           {
-            "year": 2024,
-            "text": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers.",
-            "score": 0.59
+            "year": 2025,
+            "text": "Our teams are high-performing, but never solo.",
+            "score": 0.559
           }
         ]
       }
     },
     "dream_team": {
-      "netflix": {
-        "firstYearConcept": 2017,
-        "nConcept": 9,
-        "yearsConcept": [
-          2017,
-          2018,
-          2019,
-          2020,
-          2021,
-          2022,
-          2024,
-          2025,
-          2026
-        ],
-        "example": "More specifically, we have great people working together as a dream team .",
-        "exampleScore": 0.681,
-        "firstYearVerbatim": 2009,
-        "nVerbatim": 126
-      },
       "google": {
         "echoes": [
           {
@@ -164,6 +152,23 @@
             "score": 0.526
           }
         ]
+      },
+      "netflix": {
+        "firstYearConcept": 2017,
+        "nConcept": 15,
+        "yearsConcept": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2024,
+          2025,
+          2026
+        ],
+        "example": "More specifically, we have great people working together as a dream team .",
+        "exampleScore": 0.681
       },
       "shopify": {
         "echoes": [
@@ -258,9 +263,37 @@
             "score": 0.513
           }
         ]
+      },
+      "salesforce": {
+        "echoes": [
+          {
+            "year": 2017,
+            "text": "We have the privilege of collaborating every day with talented, passionate teammates, and we genuinely enjoy each other's company.",
+            "score": 0.597
+          },
+          {
+            "year": 2016,
+            "text": "We work with talented, passionate people.",
+            "score": 0.593
+          },
+          {
+            "year": 2025,
+            "text": "Here, you’ll work with teammates who challenge you, support you, and genuinely want to see you succeed.",
+            "score": 0.54
+          }
+        ]
       }
     },
     "high_performer_supremacy": {
+      "coinbase": {
+        "echoes": [
+          {
+            "year": 2024,
+            "text": "Outperformance is met with outsized reward.",
+            "score": 0.503
+          }
+        ]
+      },
       "netflix": {
         "firstYearConcept": 2009,
         "nConcept": 4,
@@ -271,21 +304,23 @@
           2026
         ],
         "example": "In creative/inventive work, the best are 10xbetter than the average, so huge premium on creating effective teams of the best",
-        "exampleScore": 0.837,
-        "firstYearVerbatim": 2024,
-        "nVerbatim": 3
-      },
-      "coinbase": {
-        "echoes": [
-          {
-            "year": 2024,
-            "text": "Outperformance is met with outsized reward.",
-            "score": 0.503
-          }
-        ]
+        "exampleScore": 0.837
       }
     },
     "adequate_severance": {
+      "coinbase": {
+        "firstYearConcept": 2024,
+        "nConcept": 3,
+        "yearsConcept": [
+          2024,
+          2025,
+          2026
+        ],
+        "example": "Unremarkable performance gets a generous severance package.",
+        "exampleScore": 0.858,
+        "firstYearVerbatim": 2024,
+        "nVerbatim": 3
+      },
       "netflix": {
         "firstYearConcept": 2009,
         "nConcept": 13,
@@ -299,36 +334,11 @@
           2022
         ],
         "example": "Unlike many companies, we practice:adequate performance gets agenerous severance package",
-        "exampleScore": 0.759,
-        "firstYearVerbatim": 2009,
-        "nVerbatim": 13
-      },
-      "coinbase": {
-        "firstYearConcept": 2024,
-        "nConcept": 3,
-        "yearsConcept": [
-          2024,
-          2025,
-          2026
-        ],
-        "example": "Unremarkable performance gets a generous severance package.",
-        "exampleScore": 0.858,
-        "firstYearVerbatim": 2024,
-        "nVerbatim": 3
+        "exampleScore": 0.759
       }
     },
     "raise_the_bar": {
       "google": {
-        "firstYearConcept": 2018,
-        "nConcept": 2,
-        "yearsConcept": [
-          2018,
-          2019
-        ],
-        "example": "Set a high bar for Google and Googlers to operate in accordance with our values, our Code of Conduct, and the law.",
-        "exampleScore": 0.476,
-        "firstYearVerbatim": 2018,
-        "nVerbatim": 2,
         "echoes": [
           {
             "year": 2021,
@@ -344,7 +354,7 @@
       },
       "amazon": {
         "firstYearConcept": 2016,
-        "nConcept": 14,
+        "nConcept": 6,
         "yearsConcept": [
           2016,
           2017,
@@ -355,8 +365,6 @@
         ],
         "example": "Leaders raise the performance bar with every hire and promotion.",
         "exampleScore": 0.666,
-        "firstYearVerbatim": 2016,
-        "nVerbatim": 8,
         "echoes": [
           {
             "year": 2019,
@@ -367,6 +375,11 @@
             "year": 2016,
             "text": "Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes.",
             "score": 0.628
+          },
+          {
+            "year": 2019,
+            "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high.",
+            "score": 0.623
           }
         ]
       },
@@ -380,29 +393,25 @@
         ]
       },
       "shopify": {
-        "echoes": [
-          {
-            "year": 2026,
-            "text": "We raise the floor, while we constantly redefine the ceiling.",
-            "score": 0.642
-          }
-        ]
+        "firstYearConcept": 2026,
+        "nConcept": 1,
+        "yearsConcept": [
+          2026
+        ],
+        "example": "We raise the floor, while we constantly redefine the ceiling.",
+        "exampleScore": 0.642
       },
       "stripe": {
         "firstYearConcept": 2019,
-        "nConcept": 10,
+        "nConcept": 4,
         "yearsConcept": [
           2019,
           2020,
           2021,
-          2022,
-          2024,
-          2025
+          2022
         ],
         "example": "But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to sacrifice that for quantity of output.",
         "exampleScore": 0.652,
-        "firstYearVerbatim": 2019,
-        "nVerbatim": 10,
         "echoes": [
           {
             "year": 2020,
@@ -410,14 +419,28 @@
             "score": 0.582
           },
           {
+            "year": 2019,
+            "text": "However, we are a very competitive culture in the sense that, if you set a high bar, you’ll probably inspire someone working with you to try to push it higher.",
+            "score": 0.531
+          },
+          {
             "year": 2020,
             "text": "We are still honing how we operate as a company, and we expect all Stripes to be creative, operate outside of their job descriptions, and aim for targets that might seem a little t",
             "score": 0.503
+          }
+        ]
+      },
+      "salesforce": {
+        "echoes": [
+          {
+            "year": 2025,
+            "text": "Every year we share our progress, and we continue to aim higher.",
+            "score": 0.551
           },
           {
-            "year": 2023,
-            "text": "We value craftsmanship for its own sake, and are fervently committed to producing surprisingly great work.",
-            "score": 0.502
+            "year": 2026,
+            "text": "We strive to bring out the best in one another, deliver success to our customers, and inspire the entire industry through our actions.",
+            "score": 0.523
           }
         ]
       }
@@ -431,8 +454,6 @@
         ],
         "example": "You are not evaluated by distant executives — you are judged by outcomes.",
         "exampleScore": 0.718,
-        "firstYearVerbatim": 2026,
-        "nVerbatim": 1,
         "echoes": [
           {
             "year": 2026,
@@ -456,16 +477,6 @@
         ]
       },
       "gitlab": {
-        "firstYearConcept": 2025,
-        "nConcept": 2,
-        "yearsConcept": [
-          2025,
-          2026
-        ],
-        "example": "Contribute to a results-driven culture built on shared values.",
-        "exampleScore": 0.342,
-        "firstYearVerbatim": 2025,
-        "nVerbatim": 2,
         "echoes": [
           {
             "year": 2019,
@@ -515,16 +526,12 @@
         ]
       },
       "palantir": {
-        "firstYearConcept": 2010,
-        "nConcept": 1,
-        "yearsConcept": [
-          2010
-        ],
-        "example": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs.",
-        "exampleScore": 0.608,
-        "firstYearVerbatim": 2010,
-        "nVerbatim": 1,
         "echoes": [
+          {
+            "year": 2010,
+            "text": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs.",
+            "score": 0.608
+          },
           {
             "year": 2012,
             "text": "We're looking for smart, driven people.",
@@ -532,31 +539,15 @@
           }
         ]
       },
-      "coinbase": {
-        "firstYearConcept": 2024,
+      "shopify": {
+        "firstYearConcept": 2025,
         "nConcept": 2,
         "yearsConcept": [
-          2024,
-          2025
-        ],
-        "example": "To attract top talent around the world and embrace decentralization, all full-time employees can work remote.",
-        "exampleScore": 0.4,
-        "firstYearVerbatim": 2024,
-        "nVerbatim": 2
-      },
-      "shopify": {
-        "firstYearConcept": 2014,
-        "nConcept": 5,
-        "yearsConcept": [
-          2014,
-          2015,
           2025,
           2026
         ],
         "example": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
         "exampleScore": 0.764,
-        "firstYearVerbatim": 2014,
-        "nVerbatim": 4,
         "echoes": [
           {
             "year": 2012,
@@ -597,22 +588,28 @@
             "score": 0.562
           }
         ]
+      },
+      "salesforce": {
+        "echoes": [
+          {
+            "year": 2006,
+            "text": "What attracts top talent globally is our \"change the world\" mentality, coupled by the opportunity to excel in a sales-driven, competitive atmosphere surrounded inspiring, motivated",
+            "score": 0.551
+          },
+          {
+            "year": 2007,
+            "text": "What attracts top talent globally is our \"change-the-world\" mentality, coupled with the opportunity to excel in a sales-driven, competitive atmosphere surrounded by inspiring, moti",
+            "score": 0.548
+          },
+          {
+            "year": 2025,
+            "text": "Our teams are dedicated to hiring the trailblazers, innovators and creators of the world to accelerate our business and agent-first technology.",
+            "score": 0.531
+          }
+        ]
       }
     },
     "freedom_responsibility": {
-      "netflix": {
-        "firstYearConcept": 2013,
-        "nConcept": 3,
-        "yearsConcept": [
-          2013,
-          2014,
-          2015
-        ],
-        "example": "We don't focus on rules, processes or procedures.",
-        "exampleScore": 0.667,
-        "firstYearVerbatim": 2009,
-        "nVerbatim": 16
-      },
       "google": {
         "echoes": [
           {
@@ -658,6 +655,17 @@
             "score": 0.502
           }
         ]
+      },
+      "netflix": {
+        "firstYearConcept": 2013,
+        "nConcept": 3,
+        "yearsConcept": [
+          2013,
+          2014,
+          2015
+        ],
+        "example": "We don't focus on rules, processes or procedures.",
+        "exampleScore": 0.667
       },
       "shopify": {
         "echoes": [
@@ -730,16 +738,45 @@
         ]
       },
       "github": {
+        "firstYearConcept": 2011,
+        "nConcept": 2,
+        "yearsConcept": [
+          2011,
+          2012
+        ],
+        "example": "We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating them accordingly.",
+        "exampleScore": 0.641
+      },
+      "salesforce": {
         "echoes": [
           {
-            "year": 2011,
-            "text": "We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating them accordingly.",
-            "score": 0.641
+            "year": 2020,
+            "text": "Our values unite us: trust, customer success, innovation, and equality.",
+            "score": 0.556
+          },
+          {
+            "year": 2026,
+            "text": "Our core values guide everything we do as a company and as people.",
+            "score": 0.552
+          },
+          {
+            "year": 2025,
+            "text": "We are deeply committed to our values of trust, Customer Success, innovation, equality, and sustainability.",
+            "score": 0.551
           }
         ]
       }
     },
     "context_not_control": {
+      "amazon": {
+        "echoes": [
+          {
+            "year": 2016,
+            "text": "Leaders create and communicate a bold direction that inspires results.",
+            "score": 0.522
+          }
+        ]
+      },
       "netflix": {
         "firstYearConcept": 2009,
         "nConcept": 4,
@@ -750,37 +787,39 @@
           2026
         ],
         "example": "We expect managers to practice context not control — giving their teams the context and clarity needed to make good decisions instead of trying to control everything themselves.",
-        "exampleScore": 0.781,
-        "firstYearVerbatim": 2009,
-        "nVerbatim": 16
-      },
-      "amazon": {
-        "echoes": [
-          {
-            "year": 2016,
-            "text": "Leaders create and communicate a bold direction that inspires results.",
-            "score": 0.522
-          }
-        ]
+        "exampleScore": 0.781
       }
     },
     "aligned_loosely_coupled": {
       "netflix": {
         "firstYearConcept": 2009,
-        "nConcept": 5,
+        "nConcept": 11,
         "yearsConcept": [
           2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
           2024,
           2025,
           2026
         ],
         "example": "Highly Aligned, Loosely Coupled• Highly Aligned – Strategy and goals are clear, specific, broadly understood – Team interactions focused on strategy and goals, rather than tactics ",
-        "exampleScore": 0.802,
-        "firstYearVerbatim": 2009,
-        "nVerbatim": 21
+        "exampleScore": 0.802
       }
     },
     "no_vacation_policy": {
+      "coinbase": {
+        "echoes": [
+          {
+            "year": 2024,
+            "text": "We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually.",
+            "score": 0.501
+          }
+        ]
+      },
       "netflix": {
         "firstYearConcept": 2017,
         "nConcept": 3,
@@ -790,18 +829,7 @@
           2019
         ],
         "example": "Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.",
-        "exampleScore": 0.746,
-        "firstYearVerbatim": 2009,
-        "nVerbatim": 10
-      },
-      "coinbase": {
-        "echoes": [
-          {
-            "year": 2024,
-            "text": "We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually.",
-            "score": 0.501
-          }
-        ]
+        "exampleScore": 0.746
       },
       "hubspot": {
         "echoes": [

@@ -1,21 +1,21 @@
-# Culture-propagation match review (threshold=0.65)
+# Culture-propagation match review (threshold=0.64)
 
 Top matches per concept across companies, by cosine similarity. Use this to
 tune the threshold: matches above it should genuinely express the concept.
 
 ## Talent density
-- [✓] 0.985 Netflix   2009  The Key: Increase Talent Density faster than Complexity Grows
+- [V] 0.985 Netflix   2009  The Key: Increase Talent Density faster than Complexity Grows
 - [✓] 0.724 Netflix   2009  Increase Talent Density • Top of market compensation • Attract high-value people through freedom to make big impact • Be
-- [~] 0.647 Netflix   2009  Growth Also Often Shrinks Talent Density Complexity % High Performance Employees
+- [✓] 0.647 Netflix   2009  Growth Also Often Shrinks Talent Density Complexity % High Performance Employees
 - [~] 0.627 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
 - [~] 0.565 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.565 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.565 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.529 Shopify   2026  This is why we're intentional about talent.
+- [~] 0.519 Salesforce 2026  Our teams are high-performing, but never solo.
+- [~] 0.519 Salesforce 2025  Our teams are high-performing, but never solo.
 - [~] 0.516 Stripe    2025  The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be
 - [~] 0.516 Stripe    2024  The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be
-- [~] 0.510 Stripe    2022  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
-- [ ] 0.499 Meta      2018  Our teams are small and nimble.
 
 ## Keeper test
 - [✓] 0.797 Netflix   2017  We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was
@@ -38,26 +38,26 @@ tune the threshold: matches above it should genuinely express the concept.
 - [~] 0.590 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.590 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.590 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.559 Salesforce 2025  Our teams are high-performing, but never solo.
+- [~] 0.559 Salesforce 2026  Our teams are high-performing, but never solo.
 - [ ] 0.471 Stripe    2020  We have a variegated team and our values as a company are not simply the union of our values as individuals.
 - [ ] 0.471 Stripe    2022  We have a variegated team and our values as a company are not simply the union of our values as individuals.
 - [ ] 0.471 Stripe    2019  We have a variegated team and our values as a company are not simply the union of our values as individuals.
 - [ ] 0.445 Meta      2023  We have a sense of responsibility for our collective success and to each other as teammates.
-- [ ] 0.445 Meta      2024  We have a sense of responsibility for our collective success and to each other as teammates.
-- [ ] 0.439 Google    2012  There is an emphasis on team achievements and pride in individual accomplishments that contribute to our overall success
 
 ## Dream team / stunning colleagues
 - [✓] 0.681 Netflix   2020  More specifically, we have great people working together as a dream team .
 - [✓] 0.681 Netflix   2021  More specifically, we have great people working together as a dream team .
 - [✓] 0.681 Netflix   2017  More specifically, we have great people working together as a dream team .
+- [~] 0.597 Salesforce 2017  We have the privilege of collaborating every day with talented, passionate teammates, and we genuinely enjoy each other'
+- [~] 0.597 Salesforce 2018  We have the privilege of collaborating every day with talented, passionate teammates, and we genuinely enjoy each other'
 - [~] 0.595 Shopify   2010  You'll be working in an amazing team with tons of benefits and perks.
 - [~] 0.595 Shopify   2011  You'll be working in an amazing team with tons of benefits and perks.
+- [~] 0.593 Salesforce 2017  We work with talented, passionate people.
 - [~] 0.583 Snap      2026  We believe in hiring the most talented team members and creating an environment where everyone belongs
 - [~] 0.583 Snap      2025  We believe in hiring the most talented team members and creating an environment where everyone belongs
 - [~] 0.579 Shopify   2017  The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together 
 - [~] 0.568 Stripe    2019  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
-- [~] 0.568 Stripe    2017  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
-- [~] 0.568 Stripe    2018  We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.
-- [~] 0.558 Google    2012  We put great stock in our employees–energetic, passionate people from diverse backgrounds with creative approaches to wo
 
 ## High performer ≫ average
 - [✓] 0.837 Netflix   2009  In creative/inventive work, the best are 10xbetter than the average, so huge premium on creating effective teams of the 
@@ -74,9 +74,9 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.436 Stripe    2020  That said, don’t confuse lack of top down direction with lack of interest from the top: high performers are recognized, 
 
 ## Adequate → severance
-- [✓] 0.858 Coinbase  2026  Unremarkable performance gets a generous severance package.
-- [✓] 0.858 Coinbase  2024  Unremarkable performance gets a generous severance package.
-- [✓] 0.858 Coinbase  2025  Unremarkable performance gets a generous severance package.
+- [V] 0.858 Coinbase  2026  Unremarkable performance gets a generous severance package.
+- [V] 0.858 Coinbase  2024  Unremarkable performance gets a generous severance package.
+- [V] 0.858 Coinbase  2025  Unremarkable performance gets a generous severance package.
 - [✓] 0.759 Netflix   2009  Unlike many companies, we practice:adequate performance gets agenerous severance package
 - [✓] 0.745 Netflix   2017  Sustained “B” performance, despite an “A” for effort, gets a respectful generous severance package.
 - [✓] 0.712 Netflix   2019  Sustained “B” performance, despite an “A” for effort, gets a respectful severance package.
@@ -94,7 +94,7 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.652 Stripe    2020  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.652 Stripe    2019  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.652 Stripe    2021  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
-- [~] 0.642 Shopify   2026  We raise the floor, while we constantly redefine the ceiling.
+- [✓] 0.642 Shopify   2026  We raise the floor, while we constantly redefine the ceiling.
 - [~] 0.601 Netflix   2026  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
 - [~] 0.601 Netflix   2025  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
 - [~] 0.601 Netflix   2024  We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence an
@@ -136,8 +136,8 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.667 Netflix   2013  We don't focus on rules, processes or procedures.
 - [✓] 0.667 Netflix   2015  We don't focus on rules, processes or procedures.
 - [✓] 0.667 Netflix   2014  We don't focus on rules, processes or procedures.
-- [~] 0.641 GitHub    2011  We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating th
-- [~] 0.641 GitHub    2012  We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating th
+- [✓] 0.641 GitHub    2011  We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating th
+- [✓] 0.641 GitHub    2012  We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating th
 - [~] 0.621 Amazon    2007  We make decisions as a company, and as individuals, based on our core values.
 - [~] 0.581 Shopify   2020  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
 - [~] 0.581 Shopify   2018  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
@@ -161,6 +161,8 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.802 Netflix   2009  Highly Aligned, Loosely Coupled• Highly Aligned – Strategy and goals are clear, specific, broadly understood – Team inte
 - [✓] 0.709 Netflix   2024  This highly aligned and loosely coupled approach gives teams the freedom to move quickly and operate independently, whil
 - [✓] 0.709 Netflix   2025  This highly aligned and loosely coupled approach gives teams the freedom to move quickly and operate independently, whil
+- [ ] 0.479 Salesforce 2025  Our teams are high-performing, but never solo.
+- [ ] 0.479 Salesforce 2026  Our teams are high-performing, but never solo.
 - [ ] 0.473 Stripe    2022  We’re moving quickly, changing regularly, and aren’t very prescriptive in most things.
 - [ ] 0.473 Stripe    2021  We’re moving quickly, changing regularly, and aren’t very prescriptive in most things.
 - [ ] 0.473 Stripe    2020  We’re moving quickly, changing regularly, and aren’t very prescriptive in most things.
@@ -168,8 +170,6 @@ tune the threshold: matches above it should genuinely express the concept.
 - [ ] 0.449 Meta      2018  Our teams are small and nimble.
 - [ ] 0.449 Meta      2016  Our teams are small and nimble.
 - [ ] 0.445 Shopify   2026  Does it allow us to align with strategic partners?
-- [ ] 0.429 Shopify   2018  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
-- [ ] 0.429 Shopify   2020  We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.
 
 ## No vacation policy / unlimited time off
 - [✓] 0.746 Netflix   2017  Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.

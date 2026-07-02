@@ -51,6 +51,14 @@
         "originQuote": "We seek to increase freedom and responsibility as we grow — we don't have rules.",
         "adopters": [
           {
+            "company": "github",
+            "displayName": "GitHub",
+            "year": 2011,
+            "verbatim": false,
+            "example": "We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating them accordingly.",
+            "score": 0.641
+          },
+          {
             "company": "meta",
             "displayName": "Meta",
             "year": 2016,
@@ -60,13 +68,6 @@
           }
         ],
         "echoes": [
-          {
-            "company": "github",
-            "displayName": "GitHub",
-            "year": 2011,
-            "example": "We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating them accordingly.",
-            "score": 0.641
-          },
           {
             "company": "amazon",
             "displayName": "Amazon",
@@ -87,6 +88,13 @@
             "year": 2019,
             "example": "We have a variegated team and our values as a company are not simply the union of our values as individuals.",
             "score": 0.579
+          },
+          {
+            "company": "salesforce",
+            "displayName": "Salesforce",
+            "year": 2020,
+            "example": "Our values unite us: trust, customer success, innovation, and equality.",
+            "score": 0.556
           },
           {
             "company": "meta",
@@ -150,6 +158,13 @@
         "originQuote": "Our version of a great workplace is a dream team in pursuit of ambitious, common goals.",
         "adopters": [],
         "echoes": [
+          {
+            "company": "salesforce",
+            "displayName": "Salesforce",
+            "year": 2017,
+            "example": "We have the privilege of collaborating every day with talented, passionate teammates, and we genuinely enjoy each other's company.",
+            "score": 0.597
+          },
           {
             "company": "shopify",
             "displayName": "Shopify",
@@ -305,6 +320,13 @@
             "year": 2024,
             "example": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers.",
             "score": 0.59
+          },
+          {
+            "company": "salesforce",
+            "displayName": "Salesforce",
+            "year": 2025,
+            "example": "Our teams are high-performing, but never solo.",
+            "score": 0.559
           }
         ]
       },
@@ -316,18 +338,10 @@
         "originQuote": null,
         "adopters": [
           {
-            "company": "gitlab",
-            "displayName": "GitLab",
-            "year": 2025,
-            "verbatim": true,
-            "example": "Contribute to a results-driven culture built on shared values.",
-            "score": 0.342
-          },
-          {
             "company": "palantir",
             "displayName": "Palantir",
             "year": 2026,
-            "verbatim": true,
+            "verbatim": false,
             "example": "You are not evaluated by distant executives — you are judged by outcomes.",
             "score": 0.718
           }
@@ -364,28 +378,12 @@
         "originQuote": null,
         "adopters": [
           {
-            "company": "palantir",
-            "displayName": "Palantir",
-            "year": 2010,
-            "verbatim": true,
-            "example": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs.",
-            "score": 0.608
-          },
-          {
             "company": "shopify",
             "displayName": "Shopify",
-            "year": 2014,
-            "verbatim": true,
+            "year": 2025,
+            "verbatim": false,
             "example": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
             "score": 0.764
-          },
-          {
-            "company": "coinbase",
-            "displayName": "Coinbase",
-            "year": 2024,
-            "verbatim": true,
-            "example": "To attract top talent around the world and embrace decentralization, all full-time employees can work remote.",
-            "score": 0.4
           }
         ],
         "echoes": [
@@ -395,6 +393,13 @@
             "year": 2011,
             "example": "We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience for our customers.",
             "score": 0.628
+          },
+          {
+            "company": "palantir",
+            "displayName": "Palantir",
+            "year": 2010,
+            "example": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs.",
+            "score": 0.608
           },
           {
             "company": "meta",
@@ -411,13 +416,6 @@
             "score": 0.576
           },
           {
-            "company": "palantir",
-            "displayName": "Palantir",
-            "year": 2012,
-            "example": "We're looking for smart, driven people.",
-            "score": 0.567
-          },
-          {
             "company": "gitlab",
             "displayName": "GitLab",
             "year": 2018,
@@ -430,6 +428,13 @@
             "year": 2019,
             "example": "No matter how talented, we won’t hire jerks.",
             "score": 0.552
+          },
+          {
+            "company": "salesforce",
+            "displayName": "Salesforce",
+            "year": 2006,
+            "example": "What attracts top talent globally is our \"change the world\" mentality, coupled by the opportunity to excel in a sales-driven, competitive atmosphere surrounded inspiring, motivated",
+            "score": 0.551
           }
         ]
       },
@@ -444,35 +449,28 @@
             "company": "amazon",
             "displayName": "Amazon",
             "year": 2016,
-            "verbatim": true,
+            "verbatim": false,
             "example": "Leaders raise the performance bar with every hire and promotion.",
             "score": 0.666
-          },
-          {
-            "company": "google",
-            "displayName": "Google",
-            "year": 2018,
-            "verbatim": true,
-            "example": "Set a high bar for Google and Googlers to operate in accordance with our values, our Code of Conduct, and the law.",
-            "score": 0.476
           },
           {
             "company": "stripe",
             "displayName": "Stripe",
             "year": 2019,
-            "verbatim": true,
+            "verbatim": false,
             "example": "But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to sacrifice that for quantity of output.",
             "score": 0.652
-          }
-        ],
-        "echoes": [
+          },
           {
             "company": "shopify",
             "displayName": "Shopify",
             "year": 2026,
+            "verbatim": false,
             "example": "We raise the floor, while we constantly redefine the ceiling.",
             "score": 0.642
-          },
+          }
+        ],
+        "echoes": [
           {
             "company": "amazon",
             "displayName": "Amazon",
@@ -495,6 +493,13 @@
             "score": 0.582
           },
           {
+            "company": "salesforce",
+            "displayName": "Salesforce",
+            "year": 2025,
+            "example": "Every year we share our progress, and we continue to aim higher.",
+            "score": 0.551
+          },
+          {
             "company": "meta",
             "displayName": "Meta",
             "year": 2023,
@@ -506,10 +511,10 @@
     ]
   },
   "objectivity": {
-    "scanned": 2191,
-    "claim": 102,
+    "scanned": 2571,
+    "claim": 119,
     "metricCredible": 0,
-    "claimPct": 4.7,
+    "claimPct": 4.6,
     "smokingGun": "Netflix explicitly refuses to keep score: “We have no bell curves or rankings or quotas such as 'cut the bottom 10% every year'” — while demanding you be a “high performer” judged by a manager's gut (the keeper test).",
     "finding": "Pervasive objectivity rhetoric, no defined metric. The language borrows sports' objectivity without its scoreboard."
   }
