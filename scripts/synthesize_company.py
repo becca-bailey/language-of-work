@@ -32,23 +32,27 @@ SYNTHESIS_DIR = WEB_DATA_DIR / "synthesis"
 SKIP_FACETS = {"control", "fingerprint"}
 
 # Generic size bounds so the prompt stays bounded as facets grow: cap long
-# arrays (years of quotes, phrase lists) and truncate very long strings. We do
-# not know future facet schemas, so trim by shape, not by key name.
-MAX_LIST = 6
-MAX_STR = 600
+# arrays (e.g. phrase dumps that can run to 1000+ entries) and truncate very
+# long strings. Trimming is mostly by shape, but the per-year trajectory is the
+# spine of every narrative, so lists under NO_TRUNC_KEYS are never dropped —
+# capping `years` was silently hiding most of a company's history from the model.
+MAX_LIST = 20
+MAX_STR = 1400
+NO_TRUNC_KEYS = {"years"}
 
 
-def _trim(obj):
+def _trim(obj, key: str | None = None):
     """Recursively cap list lengths and string sizes to keep the prompt bounded."""
     if isinstance(obj, str):
         return obj if len(obj) <= MAX_STR else obj[:MAX_STR] + "…"
     if isinstance(obj, list):
-        trimmed = [_trim(x) for x in obj[:MAX_LIST]]
-        if len(obj) > MAX_LIST:
-            trimmed.append(f"…(+{len(obj) - MAX_LIST} more)")
+        cap = len(obj) if key in NO_TRUNC_KEYS else MAX_LIST
+        trimmed = [_trim(x) for x in obj[:cap]]
+        if len(obj) > cap:
+            trimmed.append(f"…(+{len(obj) - cap} more)")
         return trimmed
     if isinstance(obj, dict):
-        return {k: _trim(v) for k, v in obj.items()}
+        return {k: _trim(v, k) for k, v in obj.items()}
     return obj
 
 
