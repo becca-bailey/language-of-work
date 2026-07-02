@@ -11,7 +11,8 @@ import pandas as pd
 
 from lowork.company import CompanyProfile
 from lowork.config import WEB_DATA_DIR, DATA_DIR, ROOT, TOP_K, company_dir, load_companies
-from lowork.dei import COUNTER_DEI_REGISTERS, DEI_REGISTERS
+from lowork.dei import DEI_REGISTERS
+from lowork.dei_stance import COUNTER_DEI_STANCES
 from lowork.io import read_json, write_json
 
 STORY_COMPANIES = load_companies()
@@ -446,6 +447,10 @@ def _dei_careers_year_rows(
         n = int(r.n_chunks)
         registers = {reg: int(getattr(r, f"register_{reg}", 0)) for reg in DEI_REGISTERS}
         active = sum(registers[reg] for reg in ACTIVE_DEI_REGISTERS)
+        # Counter-programming counts come from the STANCE axis (registers are the
+        # pro-inclusion scale only). Exported under the legacy keys the charts
+        # already render: meritocracy ≙ mission_focus_apolitical.
+        counter = {s: int(getattr(r, f"stance_{s}", 0)) for s in COUNTER_DEI_STANCES}
 
         env = (evidence or {}).get("envelope", {}).get(str(year), {})
         sr = stance_by_year.get(year)
@@ -453,13 +458,9 @@ def _dei_careers_year_rows(
         row = {
             "year": year,
             "activeShare": round(active / n, 4) if n else 0.0,
-            "meritocracyShare": round(registers["meritocracy"] / n, 4) if n else 0.0,
-            "civilizationalShare": round(registers["civilizational_mission"] / n, 4) if n else 0.0,
-            "counterShare": round(
-                sum(registers[reg] for reg in COUNTER_DEI_REGISTERS) / n, 4
-            )
-            if n
-            else 0.0,
+            "meritocracyShare": round(counter["mission_focus_apolitical"] / n, 4) if n else 0.0,
+            "civilizationalShare": round(counter["civilizational_mission"] / n, 4) if n else 0.0,
+            "counterShare": round(sum(counter.values()) / n, 4) if n else 0.0,
             "netScore": round(
                 float(r.inclusion_topk_mean) - float(r.meritocracy_topk_mean), 4
             ),
@@ -469,7 +470,13 @@ def _dei_careers_year_rows(
                 float(getattr(r, "salience_topk_mean", env.get("salienceTopkMean", 0))), 4
             ),
             "textChurn": round(float(getattr(r, "text_churn", env.get("textChurn", 0))), 4),
-            "registers": registers,
+            # Charts index the counter bars by the legacy register keys; the counts
+            # are stance-sourced (meritocracy key carries mission_focus_apolitical).
+            "registers": {
+                **registers,
+                "meritocracy": counter["mission_focus_apolitical"],
+                "civilizational_mission": counter["civilizational_mission"],
+            },
             "nChunks": n,
             "thin": n < TOP_K,
         }

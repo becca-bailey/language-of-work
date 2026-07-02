@@ -3,19 +3,21 @@
 from __future__ import annotations
 
 import json
-import re
+import time
 
 from anthropic import Anthropic
 
 from .config import REGISTER_MODEL
 
+# Registers are purely the PRO-INCLUSION intensity scale (+ absent). Opposition /
+# counter-programming (meritocracy-as-contrast, civilizational framing) is a STANCE,
+# owned by dei_stance.py — it was removed from this taxonomy because a single-label
+# classifier mixing the two dimensions had to drop one whenever a chunk carried both.
 DEI_REGISTERS = [
     "explicit_demographic",
     "structural_process",
     "aspirational_vague",
     "belonging_culture",
-    "meritocracy",
-    "civilizational_mission",
     "absent",
 ]
 
@@ -27,22 +29,9 @@ ACTIVE_DEI_REGISTERS = [
     "belonging_culture",
 ]
 
-# Counter-programming registers (stance opposite to workforce DEI adoption)
-COUNTER_DEI_REGISTERS = ["meritocracy", "civilizational_mission"]
+SYSTEM_PROMPT = """You classify text chunks from archived company careers pages by DEI register — a scale of PRO-INCLUSION employer rhetoric.
 
-CIVILIZATIONAL_PATTERN = re.compile(
-    r"\b(?:"
-    r"future of the west|the west'?s most important|western (?:tech )?institutions|"
-    r"warfighters?|battlefield|build with consequence|tinker at the margins|"
-    r"technological republic|most important institutions|"
-    r"empower the world'?s most important institutions"
-    r")\b",
-    re.I,
-)
-
-SYSTEM_PROMPT = """You classify text chunks from archived company careers pages by DEI register.
-
-These chunks come from careers/mission pages. Measure what the company says about inclusion AS AN EMPLOYER — who it hires, promotes, and retains — not social impact, product mission, or customer demographics.
+These chunks come from careers/mission pages. Measure what the company says about inclusion AS AN EMPLOYER — who it hires, promotes, and retains — not social impact, product mission, or customer demographics. This axis measures only the PRESENCE and KIND of pro-inclusion language; opposition or counter-programming (meritocracy-vs-identity framing, apolitical or civilizational employer branding) is measured on a separate stance axis and is NOT a register — such chunks are `absent` here unless they also carry pro-inclusion language.
 
 Assign exactly one register to each chunk:
 
@@ -50,28 +39,21 @@ Assign exactly one register to each chunk:
 - structural_process: describes systems and processes designed to reduce bias in employment — "We use structured interviews to reduce bias in hiring." / "We audit our pay practices annually for equity."
 - aspirational_vague: GENERIC inclusion/diversity language that does NOT name a specific demographic group — "diverse perspectives," "varying backgrounds," "an inclusive workplace," broad pride or partnerships without naming who. If a specific group is named in a workforce context, prefer explicit_demographic.
 - belonging_culture: worker experience of inclusion stated generically, WITHOUT naming a specific group — "Bring your whole self to work." / "Everyone feels they belong here."
-- meritocracy: explicitly frames hiring or advancement as purely performance-based IN CONTRAST to identity or background — language that crowds out demographic inclusion. Includes explicit anti-DEI positioning: rejecting identity-based hiring, DEI programs, or "politics" in hiring. "We hire on merit, not identity politics." / "We evaluate everyone on the same criteria regardless of where they come from." Generic "hire the best" or "brightest minds" alone is NOT meritocracy.
-- civilizational_mission: employer brand framed around civilizational, geopolitical, or institutional mission rather than workforce inclusion — "future of the West," Western institutions, battlefield/consequence, serving the West's most important institutions. Distinct from generic product mission: this is an explicit civilizational hiring/identity pitch, often counter-programming DEI-era employer branding. Palantir-style "We built Palantir to ensure the future of the West" belongs here, NOT absent.
-- absent: no workforce DEI-relevant language — generic mission/innovation copy, customer impact, product features, standard recruiting boilerplate without civilizational employer framing.
+- absent: no pro-inclusion employer language — generic mission/innovation copy, customer impact, product features, standard recruiting boilerplate. ALSO includes anti-DEI or counter-programming framing ("we hire on merit, not identity politics", civilizational/geopolitical employer branding like "the future of the West") — that is a stance, not a register, and is classified elsewhere.
 
 Tie-breakers:
 1. If a chunk mixes registers, choose the DOMINANT one.
 2. Naming a specific demographic group in a workforce/employer context IS enough for explicit_demographic — a numeric target is not required. ERGs, spotlights, and support statements for a named group → explicit_demographic.
 3. Generic "diversity" / "inclusion" / "varying backgrounds" that names NO specific group → aspirational_vague, not explicit_demographic.
-4. Demographics purely in CUSTOMER, patient, or societal-impact context (not the company's own workforce) → absent unless civilizational employer framing dominates.
-5. "Hire the best" / engineering excellence WITHOUT civilizational framing → absent or meritocracy only if explicit contrast with identity/DEI.
+4. Demographics purely in CUSTOMER, patient, or societal-impact context (not the company's own workforce) → absent.
+5. "Hire the best" / engineering excellence / merit-vs-identity contrast / civilizational framing → absent (measured on the stance axis, not here).
 6. EEO/legal boilerplate alone → absent unless substantive DEI commitments beyond compliance.
 
 Calibration examples (trust these over surface keywords):
 
-→ civilizational_mission (NOT absent):
+→ absent (counter-programming is a STANCE, not a register):
 "We built Palantir to ensure the future of the West, not to tinker at the margins."
-"Palantirians deliver mission-critical outcomes for the West's most important institutions."
-"If you want to empower the world's most important institutions, you belong here."
-
-→ meritocracy:
 "We hire on merit, not identity politics — we don't run DEI programs or set demographic hiring targets."
-"You are judged by outcomes. Your work will speak for itself." (when clearly about evaluation/hiring bar)
 
 → explicit_demographic (names a specific group in a workforce context — target NOT required):
 "We are proud to partner with Lean In, offering women encouragement and support to achieve their goals."
@@ -83,7 +65,7 @@ Calibration examples (trust these over surface keywords):
 "We celebrate diverse perspectives and varying backgrounds."
 "We're building an inclusive workplace where everyone can do their best work."
 
-→ absent (NOT civilizational_mission — generic mission):
+→ absent (generic mission):
 "We solve hard problems with data." / "We build software that helps organizations make better decisions."
 
 Respond with a JSON array, one object per chunk, in input order:
@@ -93,40 +75,14 @@ Use only the registers above. Respond with the JSON array only."""
 BATCH_SIZE = 12
 
 
-def is_civilizational_mission(text: str) -> bool:
-    return bool(CIVILIZATIONAL_PATTERN.search(text))
-
-
 def heuristic_register(text: str) -> str:
-    """Keyword fallback for offline bootstrap — not for production scoring."""
+    """Keyword fallback for offline bootstrap — not for production scoring.
+
+    Counter-programming (civilizational framing, merit-vs-identity) is a STANCE
+    (see dei_stance.py) — on the register axis it reads as absent, which the
+    keyword flow below produces naturally (no inclusion vocabulary).
+    """
     t = text.lower()
-
-    if is_civilizational_mission(text):
-        return "civilizational_mission"
-
-    if any(
-        w in t
-        for w in (
-            "judged by outcomes",
-            "work will speak for itself",
-            "uncompromising engineering",
-            "best and the brightest",
-            "rigorous hiring standards",
-        )
-    ):
-        return "meritocracy"
-
-    if any(
-        w in t
-        for w in (
-            "social or political activism",
-            "refuge from division",
-            "unrelated to our mission while at work",
-            "don't engage in social",
-            "do not engage in social",
-        )
-    ):
-        return "meritocracy"
 
     if not any(
         w in t
@@ -140,9 +96,16 @@ def heuristic_register(text: str) -> str:
             "bias",
             "merit",
             "whole self",
-            "women in tech",
             "girl geek",
-            "scholarship for women",
+            # named demographic groups count on their own (softened
+            # explicit_demographic rule) — the gate must let them through
+            "black",
+            "latinx",
+            "hispanic",
+            "lgbtq",
+            "veteran",
+            "disabilit",
+            "women",
         )
     ):
         return "absent"
@@ -169,39 +132,87 @@ def heuristic_register(text: str) -> str:
             "merit, not",
         )
     ):
-        return "meritocracy"
+        return "absent"  # merit-vs-identity contrast is a stance, not a register
     if any(w in t for w in ("whole self", "bring your", "culture of", "feel welcome")):
         return "belonging_culture"
     return "aspirational_vague"
 
 
+def _parse_batch_text(text: str, results: dict[str, str]) -> None:
+    text = text.strip()
+    if text.startswith("```"):
+        text = text.strip("`").removeprefix("json").strip()
+    for item in json.loads(text):
+        reg = item["register"]
+        if reg not in DEI_REGISTERS:
+            reg = "absent"
+        results[item["id"]] = reg
+
+
+def _request_params(batch: list[dict], model: str) -> dict:
+    payload = [{"id": c["chunk_id"], "heading": c["heading"], "text": c["text"]} for c in batch]
+    return {
+        "model": model,
+        "max_tokens": 3000,
+        # A 7-way label doesn't need reasoning tokens; Sonnet-5 runs adaptive
+        # thinking by default when the field is omitted, which bills thinking
+        # on every call — disable explicitly to keep cost down.
+        "thinking": {"type": "disabled"},
+        # Shared prompt prefix: cache-eligible when it clears the model minimum.
+        "system": [{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}],
+        "messages": [{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
+    }
+
+
+# Below this many chunks the polling overhead of the Batches API isn't worth it.
+SYNC_THRESHOLD = 50
+
+
 def classify_registers(chunks: list[dict], model: str = REGISTER_MODEL) -> dict[str, str]:
-    """Classify chunks -> {chunk_id: register}. Batched, temperature 0."""
+    """Classify chunks -> {chunk_id: register}.
+
+    Large runs go through the Message Batches API (50% price, async, poll to
+    completion); small runs stay synchronous.
+    """
     client = Anthropic()
     results: dict[str, str] = {}
+    groups = [chunks[i : i + BATCH_SIZE] for i in range(0, len(chunks), BATCH_SIZE)]
 
-    for i in range(0, len(chunks), BATCH_SIZE):
-        batch = chunks[i : i + BATCH_SIZE]
-        payload = [
-            {"id": c["chunk_id"], "heading": c["heading"], "text": c["text"]} for c in batch
+    if len(chunks) <= SYNC_THRESHOLD:
+        done = 0
+        for batch in groups:
+            resp = client.messages.create(**_request_params(batch, model))
+            text = next((b.text for b in resp.content if getattr(b, "type", None) == "text"), "")
+            _parse_batch_text(text, results)
+            done += len(batch)
+            print(f"  classified {done}/{len(chunks)}")
+        return results
+
+    # Batches API: half price; most batches finish well within the hour.
+    mb = client.messages.batches.create(
+        requests=[
+            {"custom_id": f"grp-{gi}", "params": _request_params(batch, model)}
+            for gi, batch in enumerate(groups)
         ]
-        resp = client.messages.create(
-            model=model,
-            max_tokens=8000,  # headroom for Sonnet-5 thinking tokens + the JSON output
-            system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
-        )
-        # Sonnet-5 can emit a leading thinking block; take the first text block.
-        text = next((b.text for b in resp.content if getattr(b, "type", None) == "text"), "").strip()
-        if text.startswith("```"):
-            text = text.strip("`").removeprefix("json").strip()
-        for item in json.loads(text):
-            reg = item["register"]
-            if reg not in DEI_REGISTERS:
-                reg = "absent"
-            results[item["id"]] = reg
-        print(f"  classified {min(i + BATCH_SIZE, len(chunks))}/{len(chunks)}")
+    )
+    print(f"  batch {mb.id}: {len(groups)} requests ({len(chunks)} chunks), polling...")
+    while True:
+        mb = client.messages.batches.retrieve(mb.id)
+        if mb.processing_status == "ended":
+            break
+        time.sleep(20)
 
+    errors = 0
+    for result in client.messages.batches.results(mb.id):
+        if result.result.type == "succeeded":
+            msg = result.result.message
+            text = next((b.text for b in msg.content if getattr(b, "type", None) == "text"), "")
+            _parse_batch_text(text, results)
+        else:
+            errors += 1
+            print(f"  batch item {result.custom_id}: {result.result.type}")
+    if errors:
+        print(f"  WARNING: {errors} batch item(s) failed; {len(results)}/{len(chunks)} classified")
     return results
 
 

@@ -48,7 +48,11 @@ def main(company: str) -> None:
 
     years = []
     for r in yearly.itertuples():
+        # Registers are the pro-inclusion scale; the two counter keys the charts
+        # render are stance-sourced (meritocracy key ≙ mission_focus_apolitical).
         registers = {reg: int(getattr(r, f"register_{reg}")) for reg in DEI_REGISTERS}
+        registers["meritocracy"] = int(getattr(r, "stance_mission_focus_apolitical", 0))
+        registers["civilizational_mission"] = int(getattr(r, "stance_civilizational_mission", 0))
         years.append({
             "year": int(r.year),
             "inclusionTopkMean": round(float(r.inclusion_topk_mean), 4),

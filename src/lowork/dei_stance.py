@@ -3,11 +3,29 @@
 from __future__ import annotations
 
 import json
+import re
 
 from anthropic import Anthropic
 
 from .config import CLASSIFIER_MODEL
-from .dei import is_civilizational_mission
+
+# Offline-bootstrap keyword net for the civilizational stance. Known weakness:
+# these are largely Palantir catchphrases, so the heuristic under-detects other
+# companies' civilizational framing — production classification is the LLM below;
+# this regex exists only for --heuristic bootstrap runs.
+CIVILIZATIONAL_PATTERN = re.compile(
+    r"\b(?:"
+    r"future of the west|the west'?s most important|western (?:tech )?institutions|"
+    r"warfighters?|battlefield|build with consequence|tinker at the margins|"
+    r"technological republic|most important institutions|"
+    r"empower the world'?s most important institutions"
+    r")\b",
+    re.I,
+)
+
+
+def is_civilizational_mission(text: str) -> bool:
+    return bool(CIVILIZATIONAL_PATTERN.search(text))
 
 DEI_STANCES = [
     "affirming_dei",
@@ -16,6 +34,12 @@ DEI_STANCES = [
     "performance_elite",
     "civilizational_mission",
 ]
+
+# Counter-programming stances: positions opposite to workforce-DEI employer branding.
+# This is the stance-axis successor to the retired COUNTER_DEI_REGISTERS — opposition is
+# a stance, not a register. performance_elite is deliberately excluded (evaluation
+# intensity, not a position on DEI).
+COUNTER_DEI_STANCES = ["mission_focus_apolitical", "civilizational_mission"]
 
 SYSTEM_PROMPT = """You classify text chunks from archived company careers pages by DEI stance.
 

@@ -16,7 +16,8 @@ import pandas as pd
 from lowork.axes import project, topk_mean
 from lowork.chunking import dedup_chunks
 from lowork.config import AXES_DIR, TOP_K, company_dir
-from lowork.dei import COUNTER_DEI_REGISTERS, DEI_REGISTERS
+from lowork.dei import DEI_REGISTERS
+from lowork.dei_stance import COUNTER_DEI_STANCES, DEI_STANCES
 from lowork.io import read_json, write_json
 from lowork.text_filter import is_english
 
@@ -56,6 +57,8 @@ def main(company: str) -> None:
     df = pd.read_parquet(cdir / "embeddings.parquet")
     mission = df[df["label"].isin(ANALYSIS_LABELS)].copy()
     registers = read_json(cdir / "dei_registers.json")
+    stances_path = cdir / "dei_stances.json"
+    stances = read_json(stances_path) if stances_path.exists() else {}
 
     inc_vec = load_pole_vector("inclusion")
     mer_vec = load_pole_vector("meritocracy")
@@ -65,6 +68,7 @@ def main(company: str) -> None:
     mission["stance_diff"] = mission["inclusion"] - mission["meritocracy"]
     mission["salience"] = mission[["inclusion", "meritocracy"]].max(axis=1)
     mission["register"] = mission["chunk_id"].map(registers)
+    mission["stance"] = mission["chunk_id"].map(stances)
 
     # Control overlay from Project 1 sentence-level scores if available
     control_by_year: dict[int, float] = {}
@@ -109,12 +113,14 @@ def main(company: str) -> None:
         mer_mean, mer_k, mer_idx = topk_mean(mer_scores, TOP_K)
         sal_mean, sal_k, _ = topk_mean(sal_scores, TOP_K)
 
-        counter_mask = group["register"].isin(COUNTER_DEI_REGISTERS)
+        # Counter-programming comes from the STANCE axis — registers are the
+        # pro-inclusion scale only (see lowork.dei / lowork.dei_stance).
+        counter_mask = group["stance"].isin(COUNTER_DEI_STANCES)
         max_idx = int(group["stance_diff"].idxmax())
         min_idx = int(group["stance_diff"].idxmin())
 
         counter_quote = None
-        civ = group[group["register"] == "civilizational_mission"]
+        civ = group[group["stance"] == "civilizational_mission"]
         if not civ.empty:
             counter_quote = _quote_row(civ.loc[civ["salience"].idxmax()], "stance_diff")
         elif counter_mask.any():
@@ -129,6 +135,8 @@ def main(company: str) -> None:
 
         reg_counts = Counter(group["register"].dropna())
         reg_dict = {r: int(reg_counts.get(r, 0)) for r in DEI_REGISTERS}
+        stance_counts = Counter(group["stance"].dropna())
+        stance_dict = {s: int(stance_counts.get(s, 0)) for s in DEI_STANCES}
 
         rows.append({
             "year": year,
@@ -152,6 +160,7 @@ def main(company: str) -> None:
             "salience_k_used": sal_k,
             "control_raw_topk_mean": control_by_year.get(year),
             **{f"register_{r}": reg_dict[r] for r in DEI_REGISTERS},
+            **{f"stance_{s}": stance_dict[s] for s in DEI_STANCES},
         })
 
         evidence["inclusion"][str(year)] = [

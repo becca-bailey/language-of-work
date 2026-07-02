@@ -18,13 +18,14 @@ from lowork.io import load_all_chunks, read_json, write_json
 
 ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
 
+# Registers are the pro-inclusion scale only (counter-programming lives on this
+# stance axis) — so `absent` is a weak hint: it covers both true neutral and
+# counter-programming chunks.
 REGISTER_TO_STANCE_HINT = {
     "explicit_demographic": "affirming_dei",
     "structural_process": "affirming_dei",
     "aspirational_vague": "affirming_dei",
     "belonging_culture": "affirming_dei",
-    "meritocracy": "mission_focus_apolitical",
-    "civilizational_mission": "civilizational_mission",
     "absent": "neutral",
 }
 
