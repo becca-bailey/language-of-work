@@ -1,0 +1,1610 @@
+{
+  "story": "wellbeing",
+  "metric": "zscore",
+  "sources": {
+    "careers": {
+      "coverageStart": 2005,
+      "companies": [
+        {
+          "id": "google",
+          "displayName": "Google",
+          "years": [
+            {
+              "year": 2005,
+              "zscore": -0.4949,
+              "topkMean": 0.0678,
+              "controlZscore": 0.9168,
+              "nChunks": 18,
+              "thin": false,
+              "quote": "It can also produce ideas that transform how people live their lives."
+            },
+            {
+              "year": 2007,
+              "zscore": 0.0367,
+              "topkMean": 0.1022,
+              "controlZscore": 1.0616,
+              "nChunks": 30,
+              "thin": false,
+              "quote": "From our flexible, project-based approach to corporate structure to our innovative perks and benefits, we do everything we can to make sure our employees not only have great jobs, but great lives."
+            },
+            {
+              "year": 2008,
+              "zscore": -1.5079,
+              "topkMean": 0.0023,
+              "controlZscore": -0.5753,
+              "nChunks": 1,
+              "thin": true,
+              "quote": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality."
+            },
+            {
+              "year": 2009,
+              "zscore": -0.756,
+              "topkMean": 0.0509,
+              "controlZscore": -1.8925,
+              "nChunks": 4,
+              "thin": true,
+              "quote": "Googlers relish the freedom to create the next generation of web technologies in an environment designed to foster collaboration, creativity, health, and happiness."
+            },
+            {
+              "year": 2010,
+              "zscore": -1.6186,
+              "topkMean": -0.0048,
+              "controlZscore": -1.927,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "When everyone in the company is reaching out, not up, good ideas can go a lot farther."
+            },
+            {
+              "year": 2011,
+              "zscore": -1.5794,
+              "topkMean": -0.0023,
+              "controlZscore": -1.3587,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "At Google, innovation and creativity keeps our projects changing and improving."
+            },
+            {
+              "year": 2012,
+              "zscore": 0.1398,
+              "topkMean": 0.1089,
+              "controlZscore": 1.1577,
+              "nChunks": 137,
+              "thin": false,
+              "quote": "Above all, it means making our products work better so that people can spend time on the stuff they’re good at—like enjoying time with family, camping in the wilderness, painting a picture or throwing a party."
+            },
+            {
+              "year": 2013,
+              "zscore": -0.7274,
+              "topkMean": 0.0528,
+              "controlZscore": -0.3234,
+              "nChunks": 6,
+              "thin": false,
+              "quote": "Google is proud to be an equal opportunity workplace and is an affirmative action employer."
+            },
+            {
+              "year": 2014,
+              "zscore": 0.0535,
+              "topkMean": 0.1033,
+              "controlZscore": -0.0235,
+              "nChunks": 51,
+              "thin": false,
+              "quote": "We want people to feel good about using Google products."
+            },
+            {
+              "year": 2016,
+              "zscore": -0.3399,
+              "topkMean": 0.0778,
+              "controlZscore": -0.8344,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "We value giving back to the community just as much as we value the products we create."
+            },
+            {
+              "year": 2017,
+              "zscore": -0.1199,
+              "topkMean": 0.0921,
+              "controlZscore": -0.0733,
+              "nChunks": 19,
+              "thin": false,
+              "quote": "We’re ensuring Google continues to be a fair and inclusive place to work for everyone."
+            },
+            {
+              "year": 2018,
+              "zscore": 1.4965,
+              "topkMean": 0.1966,
+              "controlZscore": 0.8085,
+              "nChunks": 140,
+              "thin": false,
+              "quote": "In addition, all new parents benefit from a 2-week gradual return policy (ramping back to work part-time at full-time salary)."
+            },
+            {
+              "year": 2019,
+              "zscore": 0.6652,
+              "topkMean": 0.1428,
+              "controlZscore": 1.0356,
+              "nChunks": 274,
+              "thin": false,
+              "quote": "Greyglers Greyglers advocate for the needs of employees and users as they age."
+            },
+            {
+              "year": 2020,
+              "zscore": 0.4271,
+              "topkMean": 0.1274,
+              "controlZscore": 0.0219,
+              "nChunks": 31,
+              "thin": false,
+              "quote": "We aim to create a workplace that celebrates the diversity of our employees, customers, and users."
+            },
+            {
+              "year": 2021,
+              "zscore": 0.4954,
+              "topkMean": 0.1319,
+              "controlZscore": 1.0711,
+              "nChunks": 94,
+              "thin": false,
+              "quote": "COVID-19 strained well-being and burdened caregivers, many of whom are women."
+            },
+            {
+              "year": 2022,
+              "zscore": 1.4524,
+              "topkMean": 0.1937,
+              "controlZscore": 1.0144,
+              "nChunks": 112,
+              "thin": false,
+              "quote": "We’ve created internal policies to alleviate stressors that tend to disproportionately impact women."
+            },
+            {
+              "year": 2023,
+              "zscore": 1.0713,
+              "topkMean": 0.1691,
+              "controlZscore": -0.1444,
+              "nChunks": 25,
+              "thin": false,
+              "quote": "We are working to ensure that all Googlers have access to the health resources they need."
+            },
+            {
+              "year": 2024,
+              "zscore": -0.5495,
+              "topkMean": 0.0643,
+              "controlZscore": -0.8299,
+              "nChunks": 6,
+              "thin": false,
+              "quote": "We’re working to develop artificial intelligence responsibly."
+            },
+            {
+              "year": 2025,
+              "zscore": 1.8557,
+              "topkMean": 0.2198,
+              "controlZscore": 0.895,
+              "nChunks": 102,
+              "thin": false,
+              "quote": "We’ve created internal policies to alleviate stressors that tend to disproportionately impact women."
+            }
+          ]
+        },
+        {
+          "id": "amazon",
+          "displayName": "Amazon",
+          "years": [
+            {
+              "year": 2007,
+              "zscore": 0.5272,
+              "topkMean": 0.0663,
+              "controlZscore": 1.1012,
+              "nChunks": 26,
+              "thin": false,
+              "quote": "You can also visit our investor relations and PR sites to review our last annual report and read recent announcements about partnerships and product launches."
+            },
+            {
+              "year": 2008,
+              "zscore": -0.4096,
+              "topkMean": 0.0131,
+              "controlZscore": 0.773,
+              "nChunks": 8,
+              "thin": false,
+              "quote": "Your day to make your ideas come to life."
+            },
+            {
+              "year": 2011,
+              "zscore": -0.67,
+              "topkMean": -0.0017,
+              "controlZscore": -0.7158,
+              "nChunks": 18,
+              "thin": false,
+              "quote": "Every day across the world we develop the ideas, the services and the products that make life easier for tens of millions of customers, and good things happen faster."
+            },
+            {
+              "year": 2013,
+              "zscore": 0.3828,
+              "topkMean": 0.0581,
+              "controlZscore": 1.5181,
+              "nChunks": 24,
+              "thin": false,
+              "quote": "Thank you for your suggestions, and look for the launch of the new site sometime in Fall 2013!"
+            },
+            {
+              "year": 2014,
+              "zscore": -0.8243,
+              "topkMean": -0.0105,
+              "controlZscore": -0.4048,
+              "nChunks": 3,
+              "thin": true,
+              "quote": "The news is out—Amazon is ranked #3 on the 2014 Woman Engineer Magazine Readers' Choice top 50 employers for woman engineers!"
+            },
+            {
+              "year": 2016,
+              "zscore": -0.1198,
+              "topkMean": 0.0296,
+              "controlZscore": 1.2544,
+              "nChunks": 45,
+              "thin": false,
+              "quote": "Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience."
+            },
+            {
+              "year": 2017,
+              "zscore": 1.2105,
+              "topkMean": 0.1051,
+              "controlZscore": 1.449,
+              "nChunks": 131,
+              "thin": false,
+              "quote": "Employees connected through small group discussions and workshops on topics ranging from job-specific career paths to work-life integration."
+            },
+            {
+              "year": 2018,
+              "zscore": -1.1046,
+              "topkMean": -0.0264,
+              "controlZscore": -0.5932,
+              "nChunks": 6,
+              "thin": false,
+              "quote": "Since then, we have expanded to create the best-selling e-reader family in the world."
+            },
+            {
+              "year": 2019,
+              "zscore": -1.56,
+              "topkMean": -0.0522,
+              "controlZscore": -1.2089,
+              "nChunks": 4,
+              "thin": true,
+              "quote": "This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time."
+            },
+            {
+              "year": 2020,
+              "zscore": -1.1827,
+              "topkMean": -0.0308,
+              "controlZscore": -1.1542,
+              "nChunks": 1,
+              "thin": true,
+              "quote": "Lo que nos une como Amazonians en diferentes equipos de trabajo y geografías, es que todos nos esforzamos para satisfacer a nuestros clientes y hacer sus vidas más fáciles, un producto innovador, servicio y una idea a la vez."
+            },
+            {
+              "year": 2023,
+              "zscore": 1.0538,
+              "topkMean": 0.0962,
+              "controlZscore": -0.5502,
+              "nChunks": 11,
+              "thin": false,
+              "quote": "Learn more Employee Growth and Opportunities We invest in the success of our employees and help them grow their skills and careers."
+            },
+            {
+              "year": 2025,
+              "zscore": 1.3244,
+              "topkMean": 0.1116,
+              "controlZscore": -0.8021,
+              "nChunks": 19,
+              "thin": false,
+              "quote": "Read more Employee Benefits Amazon is proud of our ability to create great jobs with great benefits for all employees."
+            },
+            {
+              "year": 2026,
+              "zscore": 1.3721,
+              "topkMean": 0.1143,
+              "controlZscore": -0.6666,
+              "nChunks": 21,
+              "thin": false,
+              "quote": "We’re proud to create great jobs with industry-leading benefits, including things like health care on day one for regular full-time employees."
+            }
+          ]
+        },
+        {
+          "id": "meta",
+          "displayName": "Meta",
+          "years": [
+            {
+              "year": 2009,
+              "zscore": -0.6319,
+              "topkMean": 0.0115,
+              "controlZscore": -0.2508,
+              "nChunks": 14,
+              "thin": false,
+              "quote": "We're making it possible for many millions of people on Facebook to broaden their horizons, deepen their friendships, share good times, and solve problems together."
+            },
+            {
+              "year": 2010,
+              "zscore": -0.3812,
+              "topkMean": 0.0279,
+              "controlZscore": -0.7412,
+              "nChunks": 7,
+              "thin": false,
+              "quote": "Facebook offers a ton of great benefits and perks to make sure your life is as satisfying as your work."
+            },
+            {
+              "year": 2011,
+              "zscore": 0.1345,
+              "topkMean": 0.0616,
+              "controlZscore": -1.5278,
+              "nChunks": 4,
+              "thin": true,
+              "quote": "Hear from our leadership team about why we emphasize freedom and autonomy inside the company and how we build new technology for people."
+            },
+            {
+              "year": 2012,
+              "zscore": -1.3378,
+              "topkMean": -0.0347,
+              "controlZscore": -1.796,
+              "nChunks": 3,
+              "thin": true,
+              "quote": "At our Menlo Park headquarters, we also offer free breakfast, lunch and dinner at our Cafe."
+            },
+            {
+              "year": 2013,
+              "zscore": 0.5103,
+              "topkMean": 0.0862,
+              "controlZscore": 0.7977,
+              "nChunks": 21,
+              "thin": false,
+              "quote": "Learn more about diversity at Facebook."
+            },
+            {
+              "year": 2014,
+              "zscore": -1.4287,
+              "topkMean": -0.0406,
+              "controlZscore": 0.0472,
+              "nChunks": 4,
+              "thin": true,
+              "quote": "Working at Facebook means doing what you love."
+            },
+            {
+              "year": 2015,
+              "zscore": -1.4092,
+              "topkMean": -0.0393,
+              "controlZscore": 0.0289,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "Facebook #1: Highest Rated Companies for Internships (Glassdoo..."
+            },
+            {
+              "year": 2016,
+              "zscore": 1.6477,
+              "topkMean": 0.1606,
+              "controlZscore": 0.797,
+              "nChunks": 29,
+              "thin": false,
+              "quote": "We strive to be a great place to work for people with families."
+            },
+            {
+              "year": 2017,
+              "zscore": -0.5442,
+              "topkMean": 0.0172,
+              "controlZscore": -0.7001,
+              "nChunks": 9,
+              "thin": false,
+              "quote": "From engineers to designers and marketers, we empower the people who work at Facebook to make an impact."
+            },
+            {
+              "year": 2018,
+              "zscore": -1.3082,
+              "topkMean": -0.0327,
+              "controlZscore": -1.3415,
+              "nChunks": 5,
+              "thin": false,
+              "quote": "Connecting people, building community and bringing the world closer together happens in real time."
+            },
+            {
+              "year": 2019,
+              "zscore": 0.2396,
+              "topkMean": 0.0685,
+              "controlZscore": 1.8259,
+              "nChunks": 17,
+              "thin": false,
+              "quote": "We make sure you have the resources and care for you to thrive."
+            },
+            {
+              "year": 2020,
+              "zscore": 1.3344,
+              "topkMean": 0.1401,
+              "controlZscore": 0.6475,
+              "nChunks": 46,
+              "thin": false,
+              "quote": "We’re committed to building a workforce that’s as diverse as the communities we serve, and strive to provide the best possible care and resources to help all of our employees thrive—at work, in their personal life and across every life stage."
+            },
+            {
+              "year": 2021,
+              "zscore": 0.6057,
+              "topkMean": 0.0924,
+              "controlZscore": -0.3362,
+              "nChunks": 11,
+              "thin": false,
+              "quote": "We’re committed to building a workforce that’s as diverse as the communities we serve, and strive to provide the best possible care and resources to help all of our employees thrive—at work, in their personal life and across every life stage."
+            },
+            {
+              "year": 2022,
+              "zscore": 1.7937,
+              "topkMean": 0.1701,
+              "controlZscore": 1.7254,
+              "nChunks": 35,
+              "thin": false,
+              "quote": "We know there’s no one-size-fits-all approach to flexibility that allows everyone to manage work and life, which is why we provide multiple flexible work options to help employees do their best work."
+            },
+            {
+              "year": 2023,
+              "zscore": 0.2764,
+              "topkMean": 0.0709,
+              "controlZscore": 0.6214,
+              "nChunks": 23,
+              "thin": false,
+              "quote": "Let’s build the future of work that we want, with an in-person focus designed to support a strong, valuable experience for our people who have chosen to work from the office, and a thoughtful and intentional approach to where we invest in remote work."
+            },
+            {
+              "year": 2025,
+              "zscore": 0.3352,
+              "topkMean": 0.0748,
+              "controlZscore": 0.0193,
+              "nChunks": 27,
+              "thin": false,
+              "quote": "Inclusion strengthens our workplace — and our world At Meta, we’re committed to building an environment where everyone has a voice and feels valued."
+            },
+            {
+              "year": 2026,
+              "zscore": 0.1639,
+              "topkMean": 0.0636,
+              "controlZscore": 0.1835,
+              "nChunks": 21,
+              "thin": false,
+              "quote": "Take photos and videos, listen to music, chat with friends, even livestream on social media."
+            }
+          ]
+        },
+        {
+          "id": "palantir",
+          "displayName": "Palantir",
+          "years": [
+            {
+              "year": 2010,
+              "zscore": 0.3128,
+              "topkMean": 0.0408,
+              "controlZscore": 1.2984,
+              "nChunks": 31,
+              "thin": false,
+              "quote": "Palantir was built by technologists serious about protecting privacy and civil liberties."
+            },
+            {
+              "year": 2011,
+              "zscore": -0.4267,
+              "topkMean": 0.0119,
+              "controlZscore": -1.2782,
+              "nChunks": 10,
+              "thin": false,
+              "quote": "We support many kinds of data including structured, unstructured, relational, temporal, and geospatial."
+            },
+            {
+              "year": 2012,
+              "zscore": 0.7496,
+              "topkMean": 0.0578,
+              "controlZscore": 0.8225,
+              "nChunks": 27,
+              "thin": false,
+              "quote": "From food to games to special events, life at Palantir is designed to energize and inspire."
+            },
+            {
+              "year": 2013,
+              "zscore": 0.2329,
+              "topkMean": 0.0376,
+              "controlZscore": 0.7425,
+              "nChunks": 19,
+              "thin": false,
+              "quote": "Congratulations to the winners of this year’s Palantir Scholarship for Women in Technology!"
+            },
+            {
+              "year": 2015,
+              "zscore": 0.8838,
+              "topkMean": 0.0631,
+              "controlZscore": 0.27,
+              "nChunks": 9,
+              "thin": false,
+              "quote": "With a combination of perks, benefits, social activities, and learning opportunities, we invest every day in our most important asset: our people."
+            },
+            {
+              "year": 2017,
+              "zscore": 0.9489,
+              "topkMean": 0.0656,
+              "controlZscore": 0.008,
+              "nChunks": 29,
+              "thin": false,
+              "quote": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future."
+            },
+            {
+              "year": 2018,
+              "zscore": 0.6502,
+              "topkMean": 0.0539,
+              "controlZscore": -1.8407,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life."
+            },
+            {
+              "year": 2021,
+              "zscore": -0.6326,
+              "topkMean": 0.0038,
+              "controlZscore": -0.4574,
+              "nChunks": 10,
+              "thin": false,
+              "quote": "At Palantir, we work for the common good—within our organization and with other organizations around the world."
+            },
+            {
+              "year": 2022,
+              "zscore": 1.1548,
+              "topkMean": 0.0737,
+              "controlZscore": 1.187,
+              "nChunks": 29,
+              "thin": false,
+              "quote": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future."
+            },
+            {
+              "year": 2023,
+              "zscore": -0.0225,
+              "topkMean": 0.0277,
+              "controlZscore": -0.0802,
+              "nChunks": 3,
+              "thin": true,
+              "quote": "Where you take the next step in your career matters."
+            },
+            {
+              "year": 2024,
+              "zscore": -0.1891,
+              "topkMean": 0.0212,
+              "controlZscore": -1.0118,
+              "nChunks": 3,
+              "thin": true,
+              "quote": "Palantir technology powers mission-critical, real-world decisions across industries, helping operators to prevent wildfires, distribute vaccines, staff nurses, improve road safety, and more."
+            },
+            {
+              "year": 2025,
+              "zscore": -2.704,
+              "topkMean": -0.0771,
+              "controlZscore": -0.899,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "Palantirians deliver mission-critical outcomes for the West's most important institutions."
+            },
+            {
+              "year": 2026,
+              "zscore": -0.9581,
+              "topkMean": -0.0089,
+              "controlZscore": 1.2389,
+              "nChunks": 16,
+              "thin": false,
+              "quote": "Your work will speak for itself."
+            }
+          ]
+        },
+        {
+          "id": "coinbase",
+          "displayName": "Coinbase",
+          "years": [
+            {
+              "year": 2013,
+              "zscore": -0.9618,
+              "topkMean": -0.0515,
+              "controlZscore": -0.7105,
+              "nChunks": 9,
+              "thin": false,
+              "quote": "If so, you've found the right place."
+            },
+            {
+              "year": 2014,
+              "zscore": -0.2934,
+              "topkMean": -0.0131,
+              "controlZscore": -0.156,
+              "nChunks": 11,
+              "thin": false,
+              "quote": "This includes the buying and selling of Bitcoin, secure storage of Bitcoin in the cloud, and a suite of merchant tools."
+            },
+            {
+              "year": 2017,
+              "zscore": -0.4605,
+              "topkMean": -0.0227,
+              "controlZscore": -0.1298,
+              "nChunks": 7,
+              "thin": false,
+              "quote": "This includes the buying and selling of digital currency, secure storage in the cloud, and a suite of merchant tools."
+            },
+            {
+              "year": 2018,
+              "zscore": -0.046,
+              "topkMean": 0.0012,
+              "controlZscore": 0.192,
+              "nChunks": 9,
+              "thin": false,
+              "quote": "Our values are a large part of why Coinbase is a great place to work, and why we’ve been successful."
+            },
+            {
+              "year": 2019,
+              "zscore": -0.2319,
+              "topkMean": -0.0095,
+              "controlZscore": -0.2286,
+              "nChunks": 9,
+              "thin": false,
+              "quote": "Se se identifica com isto, consulte as nossas funções abertas ."
+            },
+            {
+              "year": 2020,
+              "zscore": -0.0181,
+              "topkMean": 0.0028,
+              "controlZscore": 1.1351,
+              "nChunks": 23,
+              "thin": false,
+              "quote": "Bu ifadeler sizin için de geçerliyse açık pozisyonlarımıza göz atın ."
+            },
+            {
+              "year": 2021,
+              "zscore": -0.1991,
+              "topkMean": -0.0076,
+              "controlZscore": -0.2107,
+              "nChunks": 15,
+              "thin": false,
+              "quote": "Our values are much more than words to us (and we have the emojis to prove it) — they’re what makes Coinbase a great place to work."
+            },
+            {
+              "year": 2022,
+              "zscore": -0.7737,
+              "topkMean": -0.0407,
+              "controlZscore": -1.0685,
+              "nChunks": 1,
+              "thin": true,
+              "quote": "We’re the world’s most trusted way to join the crypto revolution, serving more than 89 million accounts in more than 100 countries."
+            },
+            {
+              "year": 2023,
+              "zscore": -0.6795,
+              "topkMean": -0.0353,
+              "controlZscore": -1.5409,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "Coinbase is increasing economic freedom in the world by making crypto trusted and easy to use."
+            },
+            {
+              "year": 2024,
+              "zscore": 2.7963,
+              "topkMean": 0.1647,
+              "controlZscore": 2.2649,
+              "nChunks": 20,
+              "thin": false,
+              "quote": "We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually."
+            },
+            {
+              "year": 2025,
+              "zscore": 1.278,
+              "topkMean": 0.0773,
+              "controlZscore": 1.0277,
+              "nChunks": 16,
+              "thin": false,
+              "quote": "We believe flexibility boosts productivity, while in-person collaboration drives innovation."
+            },
+            {
+              "year": 2026,
+              "zscore": -0.41,
+              "topkMean": -0.0198,
+              "controlZscore": -0.5748,
+              "nChunks": 1,
+              "thin": true,
+              "quote": "Our cultural tenets describe how we treat each other and operate day-to-day, so everyone understands how we interact and get work done in service of our mission."
+            }
+          ]
+        },
+        {
+          "id": "netflix",
+          "displayName": "Netflix",
+          "years": [
+            {
+              "year": 2005,
+              "zscore": -0.9673,
+              "topkMean": 0.0082,
+              "controlZscore": -1.156,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "The #1 Online DVD Rental Service with more than 3,000,000 members!"
+            },
+            {
+              "year": 2011,
+              "zscore": -0.1373,
+              "topkMean": 0.0618,
+              "controlZscore": -1.8827,
+              "nChunks": 1,
+              "thin": true,
+              "quote": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough that you can make a difference, but big enough that we can transform an industry When you say where you work, your friends will remark \"oh, I love Netflix!\""
+            },
+            {
+              "year": 2013,
+              "zscore": -1.4444,
+              "topkMean": -0.0227,
+              "controlZscore": -0.8818,
+              "nChunks": 8,
+              "thin": false,
+              "quote": "Work with talented colleagues on hard problems that affect millions of customers."
+            },
+            {
+              "year": 2014,
+              "zscore": -0.9224,
+              "topkMean": 0.0111,
+              "controlZscore": -0.3785,
+              "nChunks": 9,
+              "thin": false,
+              "quote": "It is the policy of Netflix to provide equal employment opportunities to all employees and employment applicants."
+            },
+            {
+              "year": 2017,
+              "zscore": 1.5821,
+              "topkMean": 0.173,
+              "controlZscore": 1.1434,
+              "nChunks": 130,
+              "thin": false,
+              "quote": "Our parental leave policy is: “take care of your baby and yourself.” New parents are encouraged to take whatever time they feel is right in the first year, which they generally aren’t sure of until a few months after the baby arrives."
+            },
+            {
+              "year": 2018,
+              "zscore": 1.4023,
+              "topkMean": 0.1614,
+              "controlZscore": 0.5407,
+              "nChunks": 55,
+              "thin": false,
+              "quote": "Our parental leave policy is: “take care of your baby and yourself.” New parents are encouraged to take the time they feel is right and to ease back in as they want."
+            },
+            {
+              "year": 2019,
+              "zscore": 0.2424,
+              "topkMean": 0.0864,
+              "controlZscore": 0.8977,
+              "nChunks": 62,
+              "thin": false,
+              "quote": "Most people understand the benefits of wearing clothes at work."
+            },
+            {
+              "year": 2020,
+              "zscore": 1.4371,
+              "topkMean": 0.1636,
+              "controlZscore": 1.3568,
+              "nChunks": 116,
+              "thin": false,
+              "quote": "Our leaders make sure they set good examples by taking vacations, often coming back with fresh ideas, and encourage the rest of the team to do the same."
+            },
+            {
+              "year": 2021,
+              "zscore": -0.5149,
+              "topkMean": 0.0374,
+              "controlZscore": -0.1604,
+              "nChunks": 8,
+              "thin": false,
+              "quote": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us"
+            },
+            {
+              "year": 2022,
+              "zscore": -0.9685,
+              "topkMean": 0.0081,
+              "controlZscore": -0.7938,
+              "nChunks": 1,
+              "thin": true,
+              "quote": "Netflix has more than 220 million active members who perform a variety of actions throughout each session, ranging from renaming a profile to watchi..."
+            },
+            {
+              "year": 2024,
+              "zscore": 0.5127,
+              "topkMean": 0.1039,
+              "controlZscore": 1.122,
+              "nChunks": 98,
+              "thin": false,
+              "quote": "Many people will be happier at companies that are more stable or take fewer risks."
+            },
+            {
+              "year": 2026,
+              "zscore": -0.2217,
+              "topkMean": 0.0564,
+              "controlZscore": 0.1925,
+              "nChunks": 35,
+              "thin": false,
+              "quote": "This creates a better experience for our members, employees, creators and partners, which in turn propels our long term growth and success."
+            }
+          ]
+        },
+        {
+          "id": "shopify",
+          "displayName": "Shopify",
+          "years": [
+            {
+              "year": 2010,
+              "zscore": 0.0742,
+              "topkMean": 0.0509,
+              "controlZscore": -0.391,
+              "nChunks": 9,
+              "thin": false,
+              "quote": "Shopify has a relaxed, stress-free work environment so you can produce your best work here."
+            },
+            {
+              "year": 2011,
+              "zscore": -0.3538,
+              "topkMean": 0.0253,
+              "controlZscore": -1.3963,
+              "nChunks": 6,
+              "thin": false,
+              "quote": "You'll be working in an amazing team with tons of benefits and perks."
+            },
+            {
+              "year": 2012,
+              "zscore": 0.8462,
+              "topkMean": 0.0973,
+              "controlZscore": -0.1484,
+              "nChunks": 30,
+              "thin": false,
+              "quote": "We don't have a dress code, you can start work late in the morning, and play video games whenever you need a break."
+            },
+            {
+              "year": 2014,
+              "zscore": -0.0791,
+              "topkMean": 0.0418,
+              "controlZscore": 0.6823,
+              "nChunks": 27,
+              "thin": false,
+              "quote": "Every three months at Shopify, everyone takes a break from their day to day work for something we call Hack Days."
+            },
+            {
+              "year": 2015,
+              "zscore": 1.376,
+              "topkMean": 0.129,
+              "controlZscore": 0.3446,
+              "nChunks": 31,
+              "thin": false,
+              "quote": "We’ll help you maintain a healthy balance with a gym allowance, parental leave, childcare benefits, flexible work hours, and catered meals to give you more time for the things you care about most."
+            },
+            {
+              "year": 2016,
+              "zscore": -2.8673,
+              "topkMean": -0.1255,
+              "controlZscore": -1.9009,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "We need a big team to bring our ideas to life."
+            },
+            {
+              "year": 2017,
+              "zscore": 0.6738,
+              "topkMean": 0.0869,
+              "controlZscore": 0.3547,
+              "nChunks": 22,
+              "thin": false,
+              "quote": "It's easy to love coming to work every day when you're given flexibility, autonomy, and the ability to have a meaningful impact while honing your craft."
+            },
+            {
+              "year": 2018,
+              "zscore": -0.3023,
+              "topkMean": 0.0284,
+              "controlZscore": 1.1071,
+              "nChunks": 23,
+              "thin": false,
+              "quote": "It takes time and effort to get to know a company – to be sure it’s the kind of place where you can make an impact, somewhere you want to invest your talent and energy, and do your life’s work."
+            },
+            {
+              "year": 2019,
+              "zscore": -1.0255,
+              "topkMean": -0.015,
+              "controlZscore": 1.0331,
+              "nChunks": 10,
+              "thin": false,
+              "quote": "It takes time and effort to get to know a company – to be sure it’s the kind of place where you can make an impact, somewhere you want to invest your talent and energy, and do your life’s work."
+            },
+            {
+              "year": 2020,
+              "zscore": 0.09,
+              "topkMean": 0.0519,
+              "controlZscore": -1.1712,
+              "nChunks": 16,
+              "thin": false,
+              "quote": "Remote work opportunities with Shopify make it possible to be part of a growing tech company, without relocating."
+            },
+            {
+              "year": 2021,
+              "zscore": 0.4159,
+              "topkMean": 0.0714,
+              "controlZscore": -0.6574,
+              "nChunks": 27,
+              "thin": false,
+              "quote": "Shopify is where I can ask, 'how am I making the world a better place?'"
+            },
+            {
+              "year": 2022,
+              "zscore": -0.0128,
+              "topkMean": 0.0457,
+              "controlZscore": -1.2514,
+              "nChunks": 16,
+              "thin": false,
+              "quote": "It’s meaningful work that impacts peoples' lives and contributes billions to worldwide economic activity."
+            },
+            {
+              "year": 2023,
+              "zscore": 1.0612,
+              "topkMean": 0.1101,
+              "controlZscore": 1.0201,
+              "nChunks": 61,
+              "thin": false,
+              "quote": "You do your daily work wherever you work best."
+            },
+            {
+              "year": 2024,
+              "zscore": -0.0064,
+              "topkMean": 0.0461,
+              "controlZscore": 0.3154,
+              "nChunks": 28,
+              "thin": false,
+              "quote": "While we respect everyone’s right to political debate and engage in personal activism on their own time, we stick to the time-honored principle of leaving politics out of the workplace and off our internal communications systems."
+            },
+            {
+              "year": 2025,
+              "zscore": -0.9751,
+              "topkMean": -0.012,
+              "controlZscore": 0.4689,
+              "nChunks": 16,
+              "thin": false,
+              "quote": "The ripple effect of this is far-reaching."
+            },
+            {
+              "year": 2026,
+              "zscore": 1.0849,
+              "topkMean": 0.1116,
+              "controlZscore": 1.5903,
+              "nChunks": 362,
+              "thin": false,
+              "quote": "With good people, you don't have to make these tradeoffs."
+            }
+          ]
+        },
+        {
+          "id": "stripe",
+          "displayName": "Stripe",
+          "years": [
+            {
+              "year": 2012,
+              "zscore": -0.4242,
+              "topkMean": 0.0385,
+              "controlZscore": -0.2774,
+              "nChunks": 11,
+              "thin": false,
+              "quote": "You enjoy working with a team, and you're also happy working on your own."
+            },
+            {
+              "year": 2013,
+              "zscore": -2.3741,
+              "topkMean": -0.0617,
+              "controlZscore": -1.1082,
+              "nChunks": 1,
+              "thin": true,
+              "quote": "We’re looking for people who care deeply about quality of execution and who want to build technology that people love to use."
+            },
+            {
+              "year": 2014,
+              "zscore": 1.0276,
+              "topkMean": 0.1131,
+              "controlZscore": -0.2105,
+              "nChunks": 37,
+              "thin": false,
+              "quote": "We want to build a work environment where people are happy, productive, and interact well."
+            },
+            {
+              "year": 2015,
+              "zscore": -0.5743,
+              "topkMean": 0.0308,
+              "controlZscore": -0.6045,
+              "nChunks": 6,
+              "thin": false,
+              "quote": "We want to build a work environment where people are happy, productive, and interact well."
+            },
+            {
+              "year": 2016,
+              "zscore": 0.4351,
+              "topkMean": 0.0826,
+              "controlZscore": -0.7994,
+              "nChunks": 8,
+              "thin": false,
+              "quote": "We want to build a work environment where people are happy, productive, and interact well."
+            },
+            {
+              "year": 2017,
+              "zscore": 0.8388,
+              "topkMean": 0.1034,
+              "controlZscore": 0.0587,
+              "nChunks": 36,
+              "thin": false,
+              "quote": "We want to build a work environment where people are happy, productive, and interact well."
+            },
+            {
+              "year": 2018,
+              "zscore": 0.3749,
+              "topkMean": 0.0795,
+              "controlZscore": -0.5015,
+              "nChunks": 19,
+              "thin": false,
+              "quote": "We want to build a work environment where people are happy, productive, and interact well."
+            },
+            {
+              "year": 2019,
+              "zscore": 0.889,
+              "topkMean": 0.1059,
+              "controlZscore": 1.664,
+              "nChunks": 187,
+              "thin": false,
+              "quote": "Your colleagues won’t work to undermine you as they might in a winner-takes-all environment."
+            },
+            {
+              "year": 2020,
+              "zscore": 1.128,
+              "topkMean": 0.1182,
+              "controlZscore": 1.5681,
+              "nChunks": 108,
+              "thin": false,
+              "quote": "Parents has taken an active role in developing Stripe’s parental leave tools , which provide resources to managers and expectant parents."
+            },
+            {
+              "year": 2021,
+              "zscore": -0.1793,
+              "topkMean": 0.0511,
+              "controlZscore": -1.7608,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "We offer competitive and comprehensive benefits, though lots of companies can offer you those."
+            },
+            {
+              "year": 2022,
+              "zscore": 1.1206,
+              "topkMean": 0.1178,
+              "controlZscore": 0.3974,
+              "nChunks": 51,
+              "thin": false,
+              "quote": "We also need to balance an intense work environment against the need to support fulfilling and sustainable careers."
+            },
+            {
+              "year": 2023,
+              "zscore": -0.2365,
+              "topkMean": 0.0481,
+              "controlZscore": 0.258,
+              "nChunks": 32,
+              "thin": false,
+              "quote": "So Le Monde can expand its digital offering globally , not reinvent subscription billing."
+            },
+            {
+              "year": 2024,
+              "zscore": -1.4041,
+              "topkMean": -0.0119,
+              "controlZscore": 1.6511,
+              "nChunks": 15,
+              "thin": false,
+              "quote": "Be deeply informed about what’s happening across Stripe, and create your team’s plans in reference to the broader work."
+            },
+            {
+              "year": 2026,
+              "zscore": -0.6215,
+              "topkMean": 0.0283,
+              "controlZscore": -0.335,
+              "nChunks": 21,
+              "thin": false,
+              "quote": "Well-crafted work indicates care for the user, and beautiful work indicates care for the world."
+            }
+          ]
+        },
+        {
+          "id": "airbnb",
+          "displayName": "Airbnb",
+          "years": [
+            {
+              "year": 2015,
+              "zscore": -0.5288,
+              "topkMean": 0.0313,
+              "controlZscore": 1.8786,
+              "nChunks": 20,
+              "thin": false,
+              "quote": "Life is what happens when you're busy working."
+            },
+            {
+              "year": 2016,
+              "zscore": -1.1281,
+              "topkMean": -0.0089,
+              "controlZscore": 1.0207,
+              "nChunks": 5,
+              "thin": false,
+              "quote": "Advocates and eliminates interference for others."
+            },
+            {
+              "year": 2017,
+              "zscore": -0.5274,
+              "topkMean": 0.0314,
+              "controlZscore": 1.0659,
+              "nChunks": 8,
+              "thin": false,
+              "quote": "Life is what happens when you're busy working."
+            },
+            {
+              "year": 2019,
+              "zscore": -0.6756,
+              "topkMean": 0.0214,
+              "controlZscore": -0.8692,
+              "nChunks": 9,
+              "thin": false,
+              "quote": "Airbnb is built around the idea that everyone should be able to take the perfect trip, including where they stay, what they do, and who they meet."
+            },
+            {
+              "year": 2020,
+              "zscore": 2.4933,
+              "topkMean": 0.234,
+              "controlZscore": -0.262,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "There’s life at work and life outside of work."
+            },
+            {
+              "year": 2021,
+              "zscore": -0.2653,
+              "topkMean": 0.049,
+              "controlZscore": -0.1284,
+              "nChunks": 10,
+              "thin": false,
+              "quote": "As one of the leaders in the home sharing industry, Airbnb works with partners across many fields to actively promote the sustainable development of this emerging industry and achieve win-win results for everyone."
+            },
+            {
+              "year": 2022,
+              "zscore": 0.6472,
+              "topkMean": 0.1102,
+              "controlZscore": -0.8963,
+              "nChunks": 3,
+              "thin": true,
+              "quote": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work."
+            },
+            {
+              "year": 2023,
+              "zscore": 0.0516,
+              "topkMean": 0.0702,
+              "controlZscore": -0.9829,
+              "nChunks": 4,
+              "thin": true,
+              "quote": "We seek to host employees who express a diversity of cultures, interests, thinking, and identities."
+            },
+            {
+              "year": 2024,
+              "zscore": -0.0668,
+              "topkMean": 0.0623,
+              "controlZscore": -0.8263,
+              "nChunks": 5,
+              "thin": false,
+              "quote": "Creating connection and belonging in the world begins with a workplace where you're both welcomed and empowered to be your authentic self, so you can deliver your best work."
+            }
+          ]
+        },
+        {
+          "id": "snap",
+          "displayName": "Snap",
+          "years": [
+            {
+              "year": 2018,
+              "zscore": -0.7327,
+              "topkMean": 0.0513,
+              "controlZscore": -1.2492,
+              "nChunks": 8,
+              "thin": false,
+              "quote": "Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way."
+            },
+            {
+              "year": 2019,
+              "zscore": -1.58,
+              "topkMean": 0.0129,
+              "controlZscore": -1.5776,
+              "nChunks": 6,
+              "thin": false,
+              "quote": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way."
+            },
+            {
+              "year": 2020,
+              "zscore": 0.5277,
+              "topkMean": 0.1084,
+              "controlZscore": 0.932,
+              "nChunks": 26,
+              "thin": false,
+              "quote": "A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community."
+            },
+            {
+              "year": 2021,
+              "zscore": 0.7679,
+              "topkMean": 0.1193,
+              "controlZscore": -0.159,
+              "nChunks": 22,
+              "thin": false,
+              "quote": "A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community."
+            },
+            {
+              "year": 2022,
+              "zscore": 1.0126,
+              "topkMean": 0.1304,
+              "controlZscore": -0.1172,
+              "nChunks": 14,
+              "thin": false,
+              "quote": "This fosters an inclusive work environment where people experience a sense of belonging."
+            },
+            {
+              "year": 2023,
+              "zscore": -1.5081,
+              "topkMean": 0.0161,
+              "controlZscore": 0.2651,
+              "nChunks": 3,
+              "thin": true,
+              "quote": "Lend them a hand through our internal Snap-a-Wish program!"
+            },
+            {
+              "year": 2024,
+              "zscore": -0.3196,
+              "topkMean": 0.07,
+              "controlZscore": -0.7082,
+              "nChunks": 20,
+              "thin": false,
+              "quote": "Contribuimos al progreso humano dando a las personas el poder de expresarse, vivir el momento, conocer el mundo y divertirse juntas."
+            },
+            {
+              "year": 2025,
+              "zscore": 0.8207,
+              "topkMean": 0.1217,
+              "controlZscore": 1.1417,
+              "nChunks": 43,
+              "thin": false,
+              "quote": "SnapParents supports all parents, guardians, and caregivers at Snap."
+            },
+            {
+              "year": 2026,
+              "zscore": 1.0115,
+              "topkMean": 0.1303,
+              "controlZscore": 1.4723,
+              "nChunks": 41,
+              "thin": false,
+              "quote": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms"
+            }
+          ]
+        },
+        {
+          "id": "hubspot",
+          "displayName": "HubSpot",
+          "years": [
+            {
+              "year": 2013,
+              "zscore": -1.9269,
+              "topkMean": -0.0918,
+              "controlZscore": -1.0667,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "We don't do business-as-usual at HubSpot, and that definitely extends to our approach to recruiting, staffing, training and development."
+            },
+            {
+              "year": 2014,
+              "zscore": -0.6315,
+              "topkMean": 0.0353,
+              "controlZscore": -1.3288,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "But the good kind of surprise, like a birthday party."
+            },
+            {
+              "year": 2015,
+              "zscore": -0.3748,
+              "topkMean": 0.0605,
+              "controlZscore": -0.9722,
+              "nChunks": 8,
+              "thin": false,
+              "quote": "Health Insurance, 401k, tuition reimbursement, and then some."
+            },
+            {
+              "year": 2016,
+              "zscore": 0.0467,
+              "topkMean": 0.1019,
+              "controlZscore": -0.2726,
+              "nChunks": 35,
+              "thin": false,
+              "quote": "A 100 Best Workplace for Women and Best Workplace in Tech by Fortune.com"
+            },
+            {
+              "year": 2018,
+              "zscore": -0.1719,
+              "topkMean": 0.0804,
+              "controlZscore": 0.9061,
+              "nChunks": 43,
+              "thin": false,
+              "quote": "(I think Flora on our Sales Engineering team put it best in her Wiki comment, “People are more likely to bring their authentic selves to work if they know their co-workers are accepting and empathetic ."
+            },
+            {
+              "year": 2019,
+              "zscore": 0.743,
+              "topkMean": 0.1703,
+              "controlZscore": 2.3666,
+              "nChunks": 109,
+              "thin": false,
+              "quote": "It’s a great reminder to enjoy life, to take time off from work, travel, spend time with family."
+            },
+            {
+              "year": 2020,
+              "zscore": 0.6123,
+              "topkMean": 0.1574,
+              "controlZscore": 1.2817,
+              "nChunks": 68,
+              "thin": false,
+              "quote": "Employees are whole people, with families, hobbies, and lives outside of work."
+            },
+            {
+              "year": 2021,
+              "zscore": 0.6182,
+              "topkMean": 0.158,
+              "controlZscore": 0.0342,
+              "nChunks": 34,
+              "thin": false,
+              "quote": "Voted “One of the 2019 Best Workplaces for Parents” by Great Place to Work®."
+            },
+            {
+              "year": 2022,
+              "zscore": -0.6301,
+              "topkMean": 0.0355,
+              "controlZscore": -0.3425,
+              "nChunks": 9,
+              "thin": false,
+              "quote": "Employees can choose to work from one of our global offices below, fully remotely, or a mix of the two."
+            },
+            {
+              "year": 2023,
+              "zscore": -0.4782,
+              "topkMean": 0.0504,
+              "controlZscore": -0.2658,
+              "nChunks": 3,
+              "thin": true,
+              "quote": "We are committed to providing reasonable accommodations throughout the application and interview process."
+            },
+            {
+              "year": 2024,
+              "zscore": 0.8367,
+              "topkMean": 0.1795,
+              "controlZscore": -0.2574,
+              "nChunks": 36,
+              "thin": false,
+              "quote": "It can create more opportunities for people to build work around their lives, and not the other way around."
+            },
+            {
+              "year": 2025,
+              "zscore": -0.9282,
+              "topkMean": 0.0062,
+              "controlZscore": 0.5724,
+              "nChunks": 10,
+              "thin": false,
+              "quote": "Discover how we’re using AI to enhance human connection in talent acquisition, transforming the candidate journey and elevating recruiter roles to strategic partners at HubSpot."
+            },
+            {
+              "year": 2026,
+              "zscore": 2.2846,
+              "topkMean": 0.3216,
+              "controlZscore": -0.655,
+              "nChunks": 1,
+              "thin": true,
+              "quote": "From sabbaticals to a regional week of rest, well-being is built in."
+            }
+          ]
+        },
+        {
+          "id": "gitlab",
+          "displayName": "GitLab",
+          "years": [
+            {
+              "year": 2015,
+              "zscore": -0.7215,
+              "topkMean": 0.0502,
+              "controlZscore": -0.5789,
+              "nChunks": 7,
+              "thin": false,
+              "quote": "You can work from anywhere and are welcome in our San Francisco office."
+            },
+            {
+              "year": 2016,
+              "zscore": -0.9143,
+              "topkMean": 0.0386,
+              "controlZscore": -0.1885,
+              "nChunks": 8,
+              "thin": false,
+              "quote": "We are a remote only company and you can work from wherever you want."
+            },
+            {
+              "year": 2018,
+              "zscore": 0.1873,
+              "topkMean": 0.1052,
+              "controlZscore": 0.4202,
+              "nChunks": 12,
+              "thin": false,
+              "quote": "We have inclusive benefits and list our US Transgender Medical Services and Parental Leave publicly so candidates don't have to ask about them during interviews."
+            },
+            {
+              "year": 2019,
+              "zscore": 1.5871,
+              "topkMean": 0.19,
+              "controlZscore": 1.0753,
+              "nChunks": 37,
+              "thin": false,
+              "quote": "Have flexible work hours so you are there for other people and free to plan the day how you like."
+            },
+            {
+              "year": 2020,
+              "zscore": 0.4588,
+              "topkMean": 0.1217,
+              "controlZscore": 1.3621,
+              "nChunks": 21,
+              "thin": false,
+              "quote": "We have inclusive benefits and list our US Transgender Medical Services and Parental Leave publicly so candidates don't have to ask about them during interviews."
+            },
+            {
+              "year": 2021,
+              "zscore": 0.7939,
+              "topkMean": 0.142,
+              "controlZscore": 0.8731,
+              "nChunks": 22,
+              "thin": false,
+              "quote": "Whether you're an adventurer looking to travel the world while still pursuing your career, a parent or caregiver who wants a job that allows you to spend more time with family, or somewhere in between, you'll have the freedom to contribute when and where you do your best work."
+            },
+            {
+              "year": 2022,
+              "zscore": 1.3074,
+              "topkMean": 0.1731,
+              "controlZscore": 0.8682,
+              "nChunks": 34,
+              "thin": false,
+              "quote": "GitLab’s asynchronous working style allows for greater flexibility Flexibility to live where you want as long as we have an entity in that location Prioritize work-life balance in the way that works best for you"
+            },
+            {
+              "year": 2023,
+              "zscore": -1.5813,
+              "topkMean": -0.0018,
+              "controlZscore": -1.1776,
+              "nChunks": 6,
+              "thin": false,
+              "quote": "You can explore the handbook to learn more about how we run the company, you can even make a merge request to suggest changes ."
+            },
+            {
+              "year": 2025,
+              "zscore": -1.0141,
+              "topkMean": 0.0325,
+              "controlZscore": -1.4194,
+              "nChunks": 6,
+              "thin": false,
+              "quote": "Our CREDIT values guide all that we do Our values work as a system that prioritizes quality results Always Work-in-progress, our values evolve as we grow and people suggest changes We offer benefits to manage your health, wealth, and well-being regardless of location Flexibility in schedule to be there for life's important moments GitLab's asynchronous working style allows for greater flexibility Flexibility to live where you want as long as we have an entity in that location Prioritize work-life balance in the way that works best for you GitLab is the most comprehensive DevSecOps platform , a single application for the entire DevSecOps lifecycle Organizations use GitLab to deliver better software faster We run our company (and our handbook) on GitLab Learn in-demand skills with access to platforms like LinkedIn Learning and Level Up Diversity, Inclusion, & Belonging is woven into our values and everything we do GitLab is home to many dedicated Team Member Resource Groups GitLab is a global, multi-cultural organization with team members all over the world"
+            },
+            {
+              "year": 2026,
+              "zscore": -0.1032,
+              "topkMean": 0.0877,
+              "controlZscore": -1.2344,
+              "nChunks": 13,
+              "thin": false,
+              "quote": "GitLab's asynchronous and synchronous working style allows for greater flexibility Prioritize work-life balance in the way that works best for you"
+            }
+          ]
+        },
+        {
+          "id": "github",
+          "displayName": "GitHub",
+          "years": [
+            {
+              "year": 2011,
+              "zscore": -0.4123,
+              "topkMean": 0.0337,
+              "controlZscore": 0.6828,
+              "nChunks": 7,
+              "thin": false,
+              "quote": "GitHub is headquartered in San Francisco with team members working remotely from all around the world."
+            },
+            {
+              "year": 2012,
+              "zscore": -0.4167,
+              "topkMean": 0.0336,
+              "controlZscore": 0.6809,
+              "nChunks": 7,
+              "thin": false,
+              "quote": "GitHub is headquartered in San Francisco with team members working remotely from all around the world."
+            },
+            {
+              "year": 2013,
+              "zscore": -0.0413,
+              "topkMean": 0.0418,
+              "controlZscore": 1.3267,
+              "nChunks": 6,
+              "thin": false,
+              "quote": "Over three million people use GitHub to build amazing things together."
+            },
+            {
+              "year": 2014,
+              "zscore": -0.2126,
+              "topkMean": 0.038,
+              "controlZscore": -0.2839,
+              "nChunks": 4,
+              "thin": true,
+              "quote": "GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers."
+            },
+            {
+              "year": 2015,
+              "zscore": 0.0136,
+              "topkMean": 0.043,
+              "controlZscore": 1.1279,
+              "nChunks": 3,
+              "thin": true,
+              "quote": "Whether using GitHub.com or your own instance of GitHub Enterprise , you can integrate GitHub with third party tools , from project management to continuous deployment, to build software in the way that works best for you."
+            },
+            {
+              "year": 2016,
+              "zscore": -0.0826,
+              "topkMean": 0.0409,
+              "controlZscore": 0.1267,
+              "nChunks": 5,
+              "thin": false,
+              "quote": "Whether using GitHub.com or your own instance of GitHub Enterprise , you can integrate GitHub with third party tools , from project management to continuous deployment, to build software in the way that works best for you."
+            },
+            {
+              "year": 2017,
+              "zscore": 0.7943,
+              "topkMean": 0.0601,
+              "controlZscore": -0.9231,
+              "nChunks": 5,
+              "thin": false,
+              "quote": "At GitHub, we think that a diverse company is a strong company, and we work hard to foster a supportive and welcoming workplace."
+            },
+            {
+              "year": 2018,
+              "zscore": 0.9268,
+              "topkMean": 0.0631,
+              "controlZscore": -0.5918,
+              "nChunks": 3,
+              "thin": true,
+              "quote": "We’re supporting a community where more than 27 million * people learn, share, and work together to build software."
+            },
+            {
+              "year": 2020,
+              "zscore": 1.9018,
+              "topkMean": 0.0845,
+              "controlZscore": 0.4236,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "At GitHub, we think that a diverse company is a strong company, and we work hard to foster a supportive and welcoming workplace."
+            },
+            {
+              "year": 2021,
+              "zscore": -2.2623,
+              "topkMean": -0.007,
+              "controlZscore": -1.0877,
+              "nChunks": 4,
+              "thin": true,
+              "quote": "Do the best work of your career and join in our mission to accelerate human progress by connecting communities all over the world through software collaboration."
+            },
+            {
+              "year": 2022,
+              "zscore": 0.7191,
+              "topkMean": 0.0585,
+              "controlZscore": 0.7215,
+              "nChunks": 6,
+              "thin": false,
+              "quote": "Learn about how GitHub’s people, products, and platform are creating positive and lasting change around the world."
+            },
+            {
+              "year": 2025,
+              "zscore": -0.9278,
+              "topkMean": 0.0223,
+              "controlZscore": -2.2036,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "We’re focused on fighting for developer rights by shaping the policies that promote their interests and the future of software."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

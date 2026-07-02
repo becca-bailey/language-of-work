@@ -1,6 +1,7 @@
 {
   "name": "altruism",
   "model": "text-embedding-3-large",
+  "single_pole": false,
   "pole_a": {
     "label": "idealism",
     "sentences": [
@@ -12,19 +13,6 @@
       "We're building something bigger than ourselves—a legacy of meaningful progress.",
       "Come help us pursue breakthroughs that will benefit generations to come.",
       "Join us in our quest to unlock technology's potential for human flourishing."
-    ]
-  },
-  "pole_b": {
-    "label": "commercial_pragmatism",
-    "sentences": [
-      "You'll work alongside teams who measure success in customer acquisition, retention, and sustainable growth.",
-      "We prioritize features based on commercial value and ship solutions that move the bottom line.",
-      "We invest in innovation that creates competitive advantage and generates measurable returns.",
-      "Join us if you want your work to directly contribute to revenue growth and market expansion.",
-      "Our technical strategy is shaped by competitive positioning and customer willingness to pay.",
-      "Our product roadmap reflects what the market demands, and we pivot quickly when customer feedback requires it.",
-      "We build technology that solves real problems for paying customers.",
-      "You'll collaborate with colleagues who understand that great technology must also make financial sense."
     ]
   },
   "vector": [
@@ -3100,5 +3088,18 @@
     -0.02532593160867691,
     -0.019021399319171906,
     -0.012386277318000793
-  ]
+  ],
+  "pole_b": {
+    "label": "commercial_pragmatism",
+    "sentences": [
+      "You'll work alongside teams who measure success in customer acquisition, retention, and sustainable growth.",
+      "We prioritize features based on commercial value and ship solutions that move the bottom line.",
+      "We invest in innovation that creates competitive advantage and generates measurable returns.",
+      "Join us if you want your work to directly contribute to revenue growth and market expansion.",
+      "Our technical strategy is shaped by competitive positioning and customer willingness to pay.",
+      "Our product roadmap reflects what the market demands, and we pivot quickly when customer feedback requires it.",
+      "We build technology that solves real problems for paying customers.",
+      "You'll collaborate with colleagues who understand that great technology must also make financial sense."
+    ]
+  }
 }

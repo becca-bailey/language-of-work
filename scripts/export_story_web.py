@@ -879,6 +879,66 @@ def export_altruism(companies: list[str]) -> None:
     print(f"Wrote {out_dir / 'altruism.json'}")
 
 
+def export_wellbeing(companies: list[str]) -> None:
+    """Cross-company wellbeing (balance <-> intensity/sacrifice) year series.
+
+    Story dataset only — no MDX story page consumes this yet; it is exported so
+    the wellbeing counterforce is a first-class story axis alongside altruism/
+    performance/dei when the story is written.
+    """
+    company_series = []
+    for company in companies:
+        scores_path = company_dir(company) / "axis_scores.parquet"
+        if not scores_path.exists():
+            continue
+        scores = pd.read_parquet(scores_path)
+        wb = scores[
+            (scores["axis"] == "wellbeing") & (scores["level"] == "sentence")
+        ].sort_values("year")
+        if wb.empty:
+            continue
+        control = scores[
+            (scores["axis"] == "control") & (scores["level"] == "sentence")
+        ]
+        years = _altruism_year_rows(wb, control)
+
+        quotes_path = company_dir(company) / "evidence_quotes.json"
+        evidence = read_json(quotes_path) if quotes_path.exists() else {}
+        wb_quotes = evidence.get("wellbeing", {}).get("sentence", {})
+        for row in years:
+            best = _best_quote(wb_quotes.get(str(row["year"])))
+            if best:
+                row["quote"] = best["text"]
+
+        profile = CompanyProfile.load(company)
+        company_series.append({
+            "id": company,
+            "displayName": profile.display_name,
+            "years": years,
+        })
+
+    if not company_series:
+        print("No wellbeing data to export")
+        return
+
+    out = {
+        "story": "wellbeing",
+        "metric": "zscore",
+        "sources": {
+            "careers": {
+                "coverageStart": min(
+                    y["year"] for c in company_series for y in c["years"]
+                ),
+                "companies": company_series,
+            },
+        },
+    }
+    out_dir = WEB_DATA_DIR / "stories"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    write_json(out_dir / "wellbeing.json", out)
+    print(f"Wrote {out_dir / 'wellbeing.json'}")
+
+
 def export_dei(companies: list[str]) -> None:
     dei_companies = companies
     sources: dict[str, dict] = {}
@@ -933,13 +993,15 @@ def main(story: str, companies: list[str]) -> None:
         export_dei(companies)
     if story in ("altruism", "all"):
         export_altruism(companies)
+    if story in ("wellbeing", "all"):
+        export_wellbeing(companies)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--story",
-        choices=["performance", "dei", "altruism", "all"],
+        choices=["performance", "dei", "altruism", "wellbeing", "all"],
         default="all",
     )
     parser.add_argument("--companies", default=",".join(STORY_COMPANIES))

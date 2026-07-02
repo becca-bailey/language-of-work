@@ -13,6 +13,13 @@ import { useThemeColors } from "@/lib/themeColors";
 const REGISTER_ORDER = DEI_REGISTER_ORDER;
 const COLORS = DEI_REGISTER_COLORS; // var() strings — for CSS/style (legend swatches)
 
+// Same direction convention as the DEI story's StoryRegisterChart: inclusion
+// registers stack above zero, counter-registers below, so a year of
+// meritocracy/civilizational counter-programming doesn't read as "lots of DEI".
+const COUNTER_REGISTERS = new Set<string>(["meritocracy", "civilizational_mission"]);
+const ACTIVE_ORDER = REGISTER_ORDER.filter((r) => !COUNTER_REGISTERS.has(r));
+const COUNTER_ORDER = REGISTER_ORDER.filter((r) => COUNTER_REGISTERS.has(r));
+
 const MARGIN = { top: 8, right: 8, bottom: 36, left: 40 };
 
 function Chart({ years, width, height }: { years: DeiYearScore[]; width: number; height: number }) {
@@ -24,13 +31,22 @@ function Chart({ years, width, height }: { years: DeiYearScore[]; width: number;
     () => scaleBand({ domain: yearLabels, range: [0, innerW], padding: 0.2 }),
     [yearLabels, innerW]
   );
-  const maxTotal = Math.max(
+  const maxActive = Math.max(
     ...years.map((y) =>
-      REGISTER_ORDER.reduce((sum, reg) => sum + (y.registers[reg] ?? 0), 0)
+      ACTIVE_ORDER.reduce((sum, reg) => sum + (y.registers[reg] ?? 0), 0)
     ),
     1
   );
-  const yScale = useMemo(() => scaleLinear({ domain: [0, maxTotal], range: [innerH, 0] }), [maxTotal, innerH]);
+  const maxCounter = Math.max(
+    ...years.map((y) =>
+      COUNTER_ORDER.reduce((sum, reg) => sum + (y.registers[reg] ?? 0), 0)
+    ),
+    0
+  );
+  const yScale = useMemo(
+    () => scaleLinear({ domain: [-maxCounter, maxActive], range: [innerH, 0] }),
+    [maxActive, maxCounter, innerH]
+  );
   const theme = useThemeColors(); // resolve tokens to hex for SVG fill attributes
   const colorScale = scaleOrdinal({
     domain: REGISTER_ORDER as unknown as string[],
@@ -43,13 +59,21 @@ function Chart({ years, width, height }: { years: DeiYearScore[]; width: number;
         {years.map((y) => {
           const x = xScale(String(y.year)) ?? 0;
           const barW = xScale.bandwidth();
-          let cumulative = 0;
+          let up = 0;
+          let down = 0;
           return REGISTER_ORDER.map((reg) => {
             const count = y.registers[reg] ?? 0;
             if (!count) return null;
-            const yTop = yScale(cumulative + count);
-            const yBottom = yScale(cumulative);
-            cumulative += count;
+            let yTop: number, yBottom: number;
+            if (COUNTER_REGISTERS.has(reg)) {
+              yTop = yScale(-down);
+              yBottom = yScale(-(down + count));
+              down += count;
+            } else {
+              yTop = yScale(up + count);
+              yBottom = yScale(up);
+              up += count;
+            }
             return (
               <Bar
                 key={`${y.year}-${reg}`}
@@ -62,6 +86,7 @@ function Chart({ years, width, height }: { years: DeiYearScore[]; width: number;
             );
           });
         })}
+        <line x1={0} x2={innerW} y1={yScale(0)} y2={yScale(0)} className="stroke-neutral-300 dark:stroke-neutral-700" />
         <AxisBottom top={innerH} scale={xScale} tickLabelProps={{ className: "fill-neutral-500 text-[10px]", textAnchor: "middle" }} />
         <AxisLeft scale={yScale} numTicks={4} tickLabelProps={{ className: "fill-neutral-500 text-[10px]", textAnchor: "end", dx: -4 }} />
       </Group>

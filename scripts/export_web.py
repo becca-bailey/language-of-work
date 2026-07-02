@@ -26,8 +26,6 @@ AXIS_LABELS = {
     "wellbeing": "Wellbeing & balance",
     "inclusion": "Inclusion & belonging",
     "techno_optimism": "Techno-optimism",
-    "mission_rights": "Civilizational mission",
-    "control": "Top-down control",
 }
 
 
@@ -65,12 +63,19 @@ def export_fingerprints(companies: list[str]) -> None:
     import statistics
 
     stats: dict[str, tuple[float, float]] = {}
+    # Rank among peers (1 = highest level). With ~13 companies the z-scores are
+    # fragile (one outlier moves everyone), so ranks are exported alongside as
+    # the honest "relative position in a small cohort" reading.
+    ranks: dict[str, dict[str, int]] = {}
     for axis in AXIS_LABELS:
-        present = [levels[c][axis][0] for c in companies if levels[c][axis][0] is not None]
+        present = [(c, levels[c][axis][0]) for c in companies if levels[c][axis][0] is not None]
         if len(present) >= 2:
-            mean = statistics.fmean(present)
-            std = statistics.pstdev(present) or 1.0
+            vals = [v for _, v in present]
+            mean = statistics.fmean(vals)
+            std = statistics.pstdev(vals) or 1.0
             stats[axis] = (mean, std)
+            ordered = sorted(present, key=lambda cv: cv[1], reverse=True)
+            ranks[axis] = {c: i + 1 for i, (c, _) in enumerate(ordered)}
 
     for company in companies:
         rows = []
@@ -86,6 +91,8 @@ def export_fingerprints(companies: list[str]) -> None:
                 "recentZscore": round(((recent if recent is not None else level) - mean) / std, 4),
                 "recentYear": recent_year,
                 "nYears": n_years,
+                "rank": ranks[axis][company],
+                "nCompanies": len(ranks[axis]),
             })
         profile = CompanyProfile.load(company)
         # Outside the per-company export dir (which is hashed as synthesis input)

@@ -5,6 +5,10 @@ Axis vector = mean(pole A embeddings) - mean(pole B embeddings), normalized.
 Writes axes/built/<name>.json (sentences + vector + model version — versioned,
 reproducible). Circularity flags (axis sentences too close to corpus chunks)
 go to axes/built/circularity_flags.json for human adjudication (M5).
+
+By default the circularity check sweeps EVERY company in pipeline.yaml — a
+pole sentence lifted from any measured firm's copy is a leak (the dei_stance
+Palantir leak survived a google-only check). Pass --company to restrict.
 """
 
 from __future__ import annotations
@@ -12,38 +16,48 @@ from __future__ import annotations
 import argparse
 
 import pandas as pd
+import yaml
 
 from lowork.axes import AxisDef, build_axis, circularity_check
-from lowork.config import AXES_DIR, EMBEDDING_MODEL, company_dir
+from lowork.config import AXES_DIR, EMBEDDING_MODEL, ROOT, company_dir
 from lowork.embeddings import EmbeddingStore
 from lowork.io import load_all_chunks, write_json
 
 
-def main(axis_names: list[str], company: str) -> None:
-    store = EmbeddingStore()
-    built_dir = AXES_DIR / "built"
-    built_dir.mkdir(exist_ok=True)
-
-    # Circularity corpus: the chunks the axes will actually score, so leakage of
-    # those chunks' wording into a pole is what we want to catch. DEI used the
-    # classified mission_brand subset; Project 3 has no classification step, so
-    # fall back to the firm/canon chunks (register=="firm") — the subset H3/H4/H5
-    # score the canon hypotheses on. circularity_check embeds these cache-first.
-    corpus_texts: list[str] = []
+def _corpus_texts(company: str) -> list[str]:
+    """Circularity corpus for one company: the chunks the axes will actually
+    score, so leakage of those chunks' wording into a pole is what we want to
+    catch. Prefer the classified mission_brand subset; fall back to firm/canon
+    chunks (register=="firm"). circularity_check embeds these cache-first."""
     emb_path = company_dir(company) / "embeddings.parquet"
     if emb_path.exists():
         df = pd.read_parquet(emb_path)
         if "label" in df.columns and (df["label"] == "mission_brand").any():
-            corpus_texts = df[df["label"] == "mission_brand"]["text"].tolist()
-        elif "register" in df.columns:
-            corpus_texts = df[df["register"] == "firm"]["text"].tolist()
-    else:
-        chunks = load_all_chunks(company_dir(company) / "chunks")
-        corpus_texts = [c["text"] for c in chunks if c.get("register") == "firm"]
+            return df[df["label"] == "mission_brand"]["text"].tolist()
+        if "register" in df.columns:
+            return df[df["register"] == "firm"]["text"].tolist()
+        return []
+    chunks_dir = company_dir(company) / "chunks"
+    if chunks_dir.exists():
+        chunks = load_all_chunks(chunks_dir)
+        return [c["text"] for c in chunks if c.get("register") == "firm"]
+    return []
 
-    if corpus_texts:
-        print(f"Circularity corpus: {len(corpus_texts)} firm/canon chunks from '{company}'")
-    else:
+
+def _universe() -> list[str]:
+    return yaml.safe_load((ROOT / "pipeline.yaml").read_text())["companies"]
+
+
+def main(axis_names: list[str], companies: list[str]) -> None:
+    store = EmbeddingStore()
+    built_dir = AXES_DIR / "built"
+    built_dir.mkdir(exist_ok=True)
+
+    corpora = {co: _corpus_texts(co) for co in companies}
+    corpora = {co: texts for co, texts in corpora.items() if texts}
+    for co, texts in corpora.items():
+        print(f"Circularity corpus: {len(texts)} firm/canon chunks from '{co}'")
+    if not corpora:
         print("WARNING: no circularity corpus found — skipping circularity check")
 
     all_flags = []
@@ -65,14 +79,15 @@ def main(axis_names: list[str], company: str) -> None:
         else:
             print(f"Built axis '{name}' ({axis.pole_a_label} <-> {axis.pole_b_label})")
 
-        if corpus_texts:
-            flags = circularity_check(store, axis, corpus_texts)
-            all_flags.extend(flags)
+        for co, texts in corpora.items():
+            flags = circularity_check(store, axis, texts)
             for f in flags:
-                print(f"  CIRCULARITY FLAG [{f['pole']}]: \"{f['sentence']}\" "
+                f["company"] = co
+                print(f"  CIRCULARITY FLAG [{co}/{f['pole']}]: \"{f['sentence']}\" "
                       f"(cosine {f['max_cosine']}, verbatim={f['verbatim_ngram_overlap']})")
+            all_flags.extend(flags)
 
-    if corpus_texts:
+    if corpora:
         write_json(built_dir / "circularity_flags.json", all_flags)
         print(f"\n{len(all_flags)} circularity flags -> {built_dir / 'circularity_flags.json'}")
         if all_flags:
@@ -81,8 +96,9 @@ def main(axis_names: list[str], company: str) -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    # TODO: Remove specific defaults, require arguments
     parser.add_argument("axes", nargs="*", default=["altruism", "control"])
-    parser.add_argument("--company", default="google")
+    parser.add_argument("--company", default=None,
+                        help="restrict circularity check to one company "
+                             "(default: sweep every company in pipeline.yaml)")
     args = parser.parse_args()
-    main(args.axes, args.company)
+    main(args.axes, [args.company] if args.company else _universe())

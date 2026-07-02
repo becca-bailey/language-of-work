@@ -1,6 +1,7 @@
 {
   "name": "control",
   "model": "text-embedding-3-large",
+  "single_pole": false,
   "pole_a": {
     "label": "application_logistics",
     "sentences": [
@@ -12,18 +13,6 @@
       "We coordinate all scheduling through a single point of contact to eliminate confusion.",
       "Our mobile-friendly application takes less than ten minutes to complete for most positions.",
       "We offer flexible interview formats including video calls for those unable to visit in person."
-    ]
-  },
-  "pole_b": {
-    "label": "office_facts",
-    "sentences": [
-      "Our headquarters spans 150,000 square feet across three buildings in the historic Warehouse District.",
-      "We maintain satellite offices in Boston, Seattle, and Denver to support our distributed workforce.",
-      "We're located just two blocks from the Central Station metro stop, making your commute effortless.",
-      "We're situated in the tech corridor with easy access to highways, public transit, and bike paths.",
-      "Our workspace features floor-to-ceiling windows, an open-plan design, and breakout zones on every level.",
-      "Our offices include dedicated quiet rooms, standing desks, and ergonomic seating throughout all work areas.",
-      "Our main office relocated to this location in 2021 to better accommodate our growing team."
     ]
   },
   "vector": [
@@ -3099,5 +3088,17 @@
     0.021067466586828232,
     0.018157489597797394,
     0.02314821444451809
-  ]
+  ],
+  "pole_b": {
+    "label": "office_facts",
+    "sentences": [
+      "Our headquarters spans 150,000 square feet across three buildings in the historic Warehouse District.",
+      "We maintain satellite offices in Boston, Seattle, and Denver to support our distributed workforce.",
+      "We're located just two blocks from the Central Station metro stop, making your commute effortless.",
+      "We're situated in the tech corridor with easy access to highways, public transit, and bike paths.",
+      "Our workspace features floor-to-ceiling windows, an open-plan design, and breakout zones on every level.",
+      "Our offices include dedicated quiet rooms, standing desks, and ergonomic seating throughout all work areas.",
+      "Our main office relocated to this location in 2021 to better accommodate our growing team."
+    ]
+  }
 }

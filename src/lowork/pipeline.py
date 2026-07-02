@@ -39,8 +39,15 @@ GLOBAL_KEY = "*"  # state/company key for global stages
 # semantic control for altruism); all have built vectors in axes/built/.
 FINGERPRINT_AXES = [
     "altruism", "control", "performance", "meritocracy", "wellbeing",
-    "inclusion", "techno_optimism", "mission_rights",
+    "inclusion", "techno_optimism",
 ]
+
+
+def _axis_inputs(*names: str) -> tuple[str, ...]:
+    """Built axis vectors as stage inputs, so editing/rebuilding an axis marks
+    its scorers stale (previously a rebuilt vector could silently coexist with
+    scores computed from the old one)."""
+    return tuple(f"repo:axes/built/{n}.json" for n in names)
 
 
 class Scope(Enum):
@@ -111,12 +118,14 @@ STAGES: list[Stage] = [
 
     # --- altruism ---
     Stage("score_axes", lambda c: _call("score_axes", c, FINGERPRINT_AXES),
-          Scope.PER_COMPANY, ("altruism",),
-          inputs=("embeddings.parquet", "classifications.json"), outputs=("axis_scores.parquet",),
+          Scope.PER_COMPANY, ("altruism", "wellbeing"),
+          inputs=("embeddings.parquet", "classifications.json", *_axis_inputs(*FINGERPRINT_AXES)),
+          outputs=("axis_scores.parquet",),
           depends=("embed_chunks",)),
     Stage("score_altruism_split", lambda c: _call("score_altruism_split", c),
           Scope.PER_COMPANY, ("altruism", "power"),
-          inputs=("embeddings.parquet", "classifications.json"),
+          inputs=("embeddings.parquet", "classifications.json",
+                  *_axis_inputs("altruism", "techno_optimism")),
           outputs=("altruism_split.parquet",), depends=("embed_chunks",)),
 
     # --- dei (registers feed both dei and power; stance/phrases are dei-only) ---
@@ -132,11 +141,13 @@ STAGES: list[Stage] = [
           inputs=("chunks", "classifications.json", "dei_registers.json"),
           outputs=("dei_stances.json",), depends=("classify_dei_register",)),
     Stage("score_dei", lambda c: _call("score_dei", c), Scope.PER_COMPANY, ("dei", "power"),
-          inputs=("embeddings.parquet", "classifications.json", "dei_registers.json"),
+          inputs=("embeddings.parquet", "classifications.json", "dei_registers.json",
+                  *_axis_inputs("inclusion", "meritocracy")),
           outputs=("dei_scores.parquet", "dei_evidence.json"),
           depends=("embed_chunks", "classify_dei_register")),
     Stage("score_dei_stance", lambda c: _call("score_dei_stance", c), Scope.PER_COMPANY, ("dei",),
-          inputs=("embeddings.parquet", "dei_registers.json", "dei_stances.json"),
+          inputs=("embeddings.parquet", "dei_registers.json", "dei_stances.json",
+                  *_axis_inputs("dei_stance")),
           outputs=("dei_stance_scores.parquet", "dei_stance_evidence.json"),
           depends=("embed_chunks", "classify_dei_stance")),
     Stage("track_dei_phrases", lambda c: _call("track_dei_phrases", c),
@@ -147,7 +158,7 @@ STAGES: list[Stage] = [
     # --- performance ---
     Stage("score_performance", lambda c: _call("score_performance", c),
           Scope.PER_COMPANY, ("performance", "power"),
-          inputs=("embeddings.parquet", "classifications.json"),
+          inputs=("embeddings.parquet", "classifications.json", *_axis_inputs("performance")),
           outputs=("performance_scores.parquet", "performance_evidence.json"),
           depends=("embed_chunks",)),
     Stage("track_performance_phrases", lambda c: _call("track_performance_phrases", c),
@@ -207,6 +218,13 @@ STAGES: list[Stage] = [
           inputs=("dei_scores.parquet", "dei_stance_scores.parquet", "dei_phrases.json"),
           outputs=("repo:astro/src/data/stories/dei.json",),
           depends=("score_dei", "score_dei_stance", "track_dei_phrases")),
+    # Wellbeing is a story axis (dataset exported cross-company) but has no MDX
+    # story page yet; scoring rides on score_axes via FINGERPRINT_AXES.
+    Stage("export_story_wellbeing", lambda comps: _call("export_story_web", "wellbeing", comps),
+          Scope.GLOBAL, ("wellbeing",),
+          inputs=("axis_scores.parquet",),
+          outputs=("repo:astro/src/data/stories/wellbeing.json",),
+          depends=("score_axes",)),
     Stage("export_story_performance",
           lambda comps: _call("export_story_web", "performance", comps), Scope.GLOBAL,
           ("performance",), inputs=("performance_scores.parquet", "performance_phrases.json"),

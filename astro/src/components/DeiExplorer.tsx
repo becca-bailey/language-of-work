@@ -14,8 +14,12 @@ export default function DeiExplorer({ data }: { data: DeiData }) {
   return (
     <div className="space-y-10">
       <div>
-        <h2 className="text-sm font-medium uppercase tracking-wide text-neutral-500">Inclusion intensity</h2>
-        <p className="mt-1 text-xs text-neutral-500">Raw cosine to inclusion pole — near-zero means absent. Amber rings = thin coverage.</p>
+        <h2 className="text-sm font-medium uppercase tracking-wide text-neutral-500">Inclusion &amp; belonging</h2>
+        <p className="mt-1 text-xs text-neutral-500">
+          How strongly each year&rsquo;s copy matches inclusion language — the same axis
+          as the fingerprint&rsquo;s &ldquo;Inclusion &amp; belonging&rdquo; bar, unstandardized.
+          Raw cosine to the inclusion pole; near-zero means absent. Amber rings = thin coverage.
+        </p>
         <div className="mt-4">
           <DeiChart rows={rows} selectedYear={selectedYear} onSelectYear={setSelectedYear} />
         </div>
@@ -24,7 +28,9 @@ export default function DeiExplorer({ data }: { data: DeiData }) {
       <div>
         <h2 className="text-sm font-medium uppercase tracking-wide text-neutral-500">Register breakdown</h2>
         <p className="mt-1 text-xs text-neutral-500">
-          What kind of DEI language, not just how much. Chunks with no DEI
+          What kind of DEI language, not just how much. Inclusion registers stack
+          above the line; meritocracy / civilizational-mission counter-registers
+          hang below (same convention as the DEI story). Chunks with no DEI
           language are omitted — an empty year means the pages said nothing.
         </p>
         <div className="mt-4">
