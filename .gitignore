@@ -8,6 +8,11 @@ __pycache__/
 # The snapshots.json manifest IS committed.
 data/*/raw_html/
 
+# Manually captured HTML: the cleaned manual_html/*.html files ARE committed
+# (small, non-reproducible source record). The _raw/ pre-clean backups that
+# clean_manual_html.py writes are large and not needed to reproduce anything.
+data/*/manual_html/**/_raw/
+
 # Derived artifacts are reproducible from raw HTML + cached embeddings
 data/*/chunks/
 data/*/embeddings.parquet
