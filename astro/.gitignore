@@ -1,5 +1,7 @@
 # build output
 dist/
+# generated static JSON API mirror (source of truth is src/data/)
+public/data/
 # generated types
 .astro/
 # dependencies

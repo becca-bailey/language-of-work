@@ -13,3 +13,13 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+# The build mirrors src/data/**/*.json into public/data/ (see astro/scripts/
+# build-data-api.mjs), served at /data/**. Expose it as a public, cacheable,
+# CORS-enabled static JSON API so other sites (e.g. the personal website) can
+# fetch the same source of truth. Start at /data/index.json (has schemaVersion).
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300"

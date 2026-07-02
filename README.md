@@ -20,6 +20,22 @@ uv sync
 cp .env.example .env   # then fill in OPENAI_API_KEY and ANTHROPIC_API_KEY
 ```
 
+### Embedding cache
+
+`data/embedding_cache/` is a SQLite store of every embedding we've ever computed,
+keyed by `sha256(text)`. It's a pipeline-time artifact — the deployed site never
+reads it — and it's too large for git, so it lives in Cloudflare R2 instead of the
+repo. Re-embedding from scratch costs real OpenAI money, so:
+
+```bash
+./scripts/cache_sync.sh pull   # on a fresh clone, restore the cache from R2
+./scripts/cache_sync.sh push   # after any run that embeds new text, back it up
+```
+
+Requires an rclone remote named `cloudflare` pointing at the `language-of-work`
+R2 bucket. With no cache present the pipeline still works — it just re-embeds
+(and re-pays) on first run.
+
 ## Pipeline
 
 **Everyday path.** After manually fetching new data (`fetch_snapshots.py
@@ -62,9 +78,8 @@ MANUAL GATE require human review before continuing.
 | 13 | `uv run scripts/score_axes.py` | Project, top-k aggregate, z-score, dedup analysis |
 | 14 | `uv run scripts/validate.py` | 2014 check, LLM tournament, perturbation test |
 | 15 | — | MANUAL (M6): review `data/google/validation_report.md` |
-| 16 | `uv run scripts/make_chart.py` | Plotly validation chart |
-| 17 | `uv run scripts/export_web.py` | Export per-company JSON for the Astro frontend |
-| 18 | `cd astro && npm run dev` | Visualization at `/explore/altruism/google` or `/explore/altruism/compare` |
+| 16 | `uv run scripts/export_web.py` | Export per-company JSON for the Astro frontend |
+| 17 | `cd astro && npm run dev` | Visualization at `/explore/altruism/google` or `/explore/altruism/compare` |
 
 Pass `--company <name>` on every script (defaults to `google`). After exporting
 two or more companies, the home page links to side-by-side comparison views.

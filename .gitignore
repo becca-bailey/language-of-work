@@ -15,6 +15,11 @@ data/*/embedding_cache/
 data/*/axis_scores.parquet
 data/*/altruism_split.parquet
 
+# Global embedding cache: pipeline-time only, never read by the deployed site.
+# Too large for git (headed for GitHub's 100MB/file limit); backed up to R2
+# instead (see README). Both the legacy parquet and the SQLite store are ignored.
+data/embedding_cache/
+
 # Personal, machine-specific Claude Code settings (absolute paths)
 .claude/settings.local.json
 # Agent worktrees (transient, isolated copies of the repo)
