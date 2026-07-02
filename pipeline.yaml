@@ -31,24 +31,7 @@ companies:
 stories:
   altruism: true
   performance: true
-  power:
-    enabled: true
-    companies:
-      [
-        google,
-        amazon,
-        meta,
-        palantir,
-        coinbase,
-        netflix,
-        shopify,
-        stripe,
-        airbnb,
-        snap,
-        hubspot,
-        gitlab,
-        github,
-      ]
+  power: true
   benefits: true
   dei: true # to curate: replace `true` with {enabled: true, companies: [...]}
   netflix-culture: true
