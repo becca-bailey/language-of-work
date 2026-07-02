@@ -1,0 +1,14 @@
+{
+  "company": "basecamp",
+  "display_name": "Basecamp",
+  "comment": "Careers/about pages for Basecamp and its former name 37signals. A deliberate anti-intensity 'calm company' (Rework, 'It Doesn't Have to Be Crazy at Work') — a useful counterpoint to the Netflix performance-culture lineage. Seed patterns; refine after `discover`.",
+  "hosts": ["basecamp.com", "www.basecamp.com", "37signals.com", "www.37signals.com"],
+  "comment_patterns": "Refined after discover: kept the three content-bearing patterns. Dropped 37signals.com/careers and basecamp.com/careers (0 captures) and basecamp.com/jobs (1 thin capture) — Basecamp moved culture/hiring copy to /about after the 2014 rebrand; jobs live under the 37signals era. Adjacent culture pages added via link expansion (M8): /handbook (the employee handbook incl. benefits-and-perks) and /guides (how-we-communicate, how-we-make-decisions).",
+  "patterns": [
+    {"url": "37signals.com/jobs", "match_type": "prefix", "era_hint": "2005-2014"},
+    {"url": "37signals.com/about", "match_type": "prefix", "era_hint": "2009-2014"},
+    {"url": "basecamp.com/about", "match_type": "prefix", "era_hint": "2014-2026"},
+    {"url": "basecamp.com/handbook", "match_type": "prefix", "era_hint": "2019-2026"},
+    {"url": "basecamp.com/guides", "match_type": "prefix", "era_hint": "2018-2026"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "company": "salesforce",
+  "display_name": "Salesforce",
+  "comment": "Careers/company pages. Salesforce leans heavily on 'Ohana' family culture, V2MOM, and equality/DEI language — rich for the DEI and altruism axes. Seed patterns; refine after `discover`.",
+  "hosts": ["salesforce.com", "www.salesforce.com", "careers.salesforce.com"],
+  "comment_patterns": "Refined after discover (no timeline gaps): /company/careers is the rich spine (2005-2023, 1043w); careers.salesforce.com is the 2023+ subdomain era (huge counts); bare /careers adds the 2012 era. Dropped www duplicates (CDX normalizes www) and /company/about-us/careers (0 captures). Adjacent values/culture pages added via link expansion (M8): /company/our-values, /company/careers/culture, /company/culture.jsp (2006), /company/about-us, and /company/equality (Ohana/equality DEI page, added explicitly — not a discovered link).",
+  "patterns": [
+    {"url": "salesforce.com/company/careers", "match_type": "prefix", "era_hint": "2005-2023"},
+    {"url": "salesforce.com/careers", "match_type": "prefix", "era_hint": "2008-2016"},
+    {"url": "careers.salesforce.com", "match_type": "prefix", "era_hint": "2023-2026"},
+    {"url": "salesforce.com/company/our-values", "match_type": "prefix", "era_hint": "2020-2026"},
+    {"url": "salesforce.com/company/careers/culture", "match_type": "prefix", "era_hint": "2016-2023"},
+    {"url": "salesforce.com/company/culture.jsp", "match_type": "prefix", "era_hint": "2006-2012"},
+    {"url": "salesforce.com/company/about-us", "match_type": "prefix", "era_hint": "2018-2026"},
+    {"url": "salesforce.com/company/equality", "match_type": "prefix", "era_hint": "2016-2026"}
+  ]
+}

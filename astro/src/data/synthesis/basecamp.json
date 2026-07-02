@@ -1,0 +1,33 @@
+{
+  "company": "basecamp",
+  "displayName": "Basecamp",
+  "headline": "Basecamp presents itself as a calm, opinionated, small-team shop that prizes craft, simplicity, and longevity over growth and hustle.",
+  "identity": "Basecamp has consistently valued simplicity and craft, treating people right, long-term commitment to customers, and calm deliberate work across every year of careers copy from 2009 to 2026. The one quality that wavered is diversity and inclusion language: it peaked sharply in 2017 — with an explicit passage stating 'diversity has deeper value beyond monetary' and the highest inclusion z-score in the dataset (1.49) — then receded, and by 2022 the copy shifted toward a meritocracy framing ('We don't place independent value on where you come from… where you went to school'), with explicit DEI register terms absent in every year except that 2017 spike.",
+  "fit": "You might be a good fit if you are a self-directed 'Manager of One' who values focused, asynchronous, low-interruption work, describes yourself as 'an eager learner, a conscientious worker, and a thoughtful, kind, supportive human,' and cares more about craft and longevity than career ladders or hustle culture.",
+  "sections": [
+    {
+      "heading": "A stable core identity, 2009–2026",
+      "body": "The careers copy has carried the same mission statement — 'Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning' — nearly verbatim from 2014 through at least 2021. The altruism z-score was deeply negative in 2009–2010 (–1.9 and –2.3) but climbed steadily to a peak of +1.5 in 2021, suggesting the copy grew more expansive about purpose over time without abandoning its original product-focused framing.\n\nThe performance axis tells a similar story of consistency with one notable spike: 2017 and 2022 both scored above +1.6 and +2.1 respectively, driven by language like 'An eclectic crew united by intellectual curiosity and a passion for doing great work' and 'We run the gamut in geography, lifestyle, and interest, but we're all here to do exceptional work.' The wellbeing axis rose meaningfully from 2019 onward, anchored by the company's public argument against always-on chat culture — 'Give people long uninterrupted stretches to get work done' — which became a recurring theme through 2024."
+    },
+    {
+      "heading": "The DEI arc: a 2017 peak, then a meritocracy pivot",
+      "body": "The inclusion z-score hit its highest point in 2017 (+1.49) and 2022 (+1.87), but the underlying language shifted between those two peaks. In 2017, the copy contained the only explicit use of the word 'diversity' in the entire dataset, framed as intrinsically valuable beyond business returns. By 2022, the highest-scoring inclusion passage had become a meritocracy statement: 'We don't place independent value on where you come from, where you live, where you worked before, where you went to school, if you graduated or dropped out.' The DEI register classification confirms this: zero chunks were coded 'explicit_demographic' or 'structural_process' in any year; 2017 had one 'aspirational_vague' chunk; 2022 introduced the first 'meritocracy' register chunk, which persisted through 2026.\n\nBy 2025–2026, both the inclusion and meritocracy z-scores dropped to their lowest levels in the dataset (–1.6 and –2.0 respectively), and the copy shifted toward operational handbook content — onboarding, decision-making frameworks, device policies — with little identity-signaling language of either kind. Candidates who weight explicit DEI commitments heavily will find thin signal here."
+    },
+    {
+      "heading": "Calm work and autonomy as the durable differentiator",
+      "body": "From 2017 onward, the careers copy consistently emphasized what the company calls a 'calm' environment: fewer meetings, asynchronous-first communication, 40-hour weeks treated as a ceiling rather than a floor, and the 'Manager of One' concept — employees expected to set their own direction without close supervision. The wellbeing z-score rose from –1.1 in 2009 to a peak of +1.4 in 2021, driven by passages like 'Set expectations that it's OK to be unavailable' and 'Give people long uninterrupted stretches to get work done.'\n\nThis framing has been stable enough to appear in nearly every year's top-scoring quotes. The company also consistently positions itself as a long-haul operation — 'We'll be here until the end of the Internet,' 'This is our life's work' — which distinguishes its self-description from growth-stage or exit-oriented tech employers. The techno-optimism axis was low and variable throughout, confirming the copy does not lean on AI, scale, or disruption narratives."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 3,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-07-02"
+}

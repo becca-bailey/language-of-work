@@ -16,7 +16,7 @@ from __future__ import annotations
 
 import hashlib
 import importlib.util
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 from typing import Callable
@@ -203,7 +203,7 @@ STAGES: list[Stage] = [
           outputs=("repo:data/benefits_trends.md", "repo:astro/src/data/stories/benefits.json"),
           depends=("classify_chunks",)),
     Stage("track_culture_propagation",
-          lambda comps: _call("track_culture_propagation", 0.62, 3, comps), Scope.GLOBAL,
+          lambda comps: _call("track_culture_propagation", 0.64, 0.50, 0.85, 3, comps), Scope.GLOBAL,
           ("netflix-culture",), inputs=("embeddings.parquet", "classifications.json"),
           outputs=("repo:data/culture_propagation.json",), depends=("embed_chunks",)),
 

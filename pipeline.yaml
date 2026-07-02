@@ -21,6 +21,9 @@ companies:
     hubspot,
     gitlab,
     github,
+    basecamp,
+    salesforce,
+    starbucks,
   ]
 
 # Every company gets an individual page; the per-company exports run for all of
@@ -35,5 +38,10 @@ stories:
   power: true
   benefits: true
   dei: true # to curate: replace `true` with {enabled: true, companies: [...]}
-  netflix-culture: true
+  # Performance-culture lineage cohort: excludes basecamp (the anti-intensity
+  # counterpoint) and starbucks (out-of-sector retail) so they don't dilute the
+  # propagation echoes or the objectivity scan. Salesforce kept in.
+  netflix-culture:
+    enabled: true
+    companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, snap, hubspot, gitlab, github, salesforce]
   profiles: true # per-company AI narrative on /explore/[company] (not a story export)

@@ -54,7 +54,6 @@ def write_label_review(
     path.write_text("\n".join(lines) + "\n")
     print(f"Wrote {path} ({sum(len(v) for v in by_year.values())} chunks)")
 
-# TODO: Either make this more generic to work with all types of chunks, or change this file to specify that it is only altruism
 def write_mission_review(cdir, chunks: list[dict], labels: dict[str, str]) -> None:
     write_label_review(
         cdir, chunks, labels, "mission_brand",

@@ -17,6 +17,29 @@ from lowork.io import read_json, write_json, write_jsonl
 
 THIN_WORDS = 150  # snapshots under this extracted-word count get flagged
 
+# Non-prose captures slip in via broad prefix patterns (a book/report PDF, fonts,
+# images, robots.txt). They aren't careers-page language, and PDFs in particular
+# have no DOM structure so their whole text collapses into one giant chunk that
+# overflows the downstream classifier. Skip by mimetype and by URL extension —
+# Wayback sometimes mislabels a binary as text/html, so we check both.
+_NON_PROSE_MIME_PREFIXES = ("image/", "font/", "audio/", "video/")
+_NON_PROSE_MIMES = {
+    "application/pdf", "application/octet-stream", "application/javascript",
+    "application/x-javascript", "text/plain", "text/xml", "text/css",
+}
+_NON_PROSE_EXTS = (
+    ".pdf", ".xml", ".jpg", ".jpeg", ".png", ".gif", ".ico", ".svg", ".webp",
+    ".woff", ".woff2", ".ttf", ".css", ".js", ".txt", ".zip", ".doc", ".docx",
+)
+
+
+def _is_prose_capture(cap: dict) -> bool:
+    mt = (cap.get("mimetype") or "").lower()
+    if mt in _NON_PROSE_MIMES or mt.startswith(_NON_PROSE_MIME_PREFIXES):
+        return False
+    url = cap["original"].split("?")[0].split("#")[0].lower()
+    return not url.endswith(_NON_PROSE_EXTS)
+
 
 def main(company: str) -> None:
     cdir = company_dir(company)
@@ -26,6 +49,10 @@ def main(company: str) -> None:
 
     for cap in manifest["captures"]:
         if "html_file" not in cap:
+            continue
+        if not _is_prose_capture(cap):
+            cap["skipped_nonprose"] = True
+            print(f"{cap['timestamp']} {cap['original']}: skipped (non-prose {cap.get('mimetype', '?')})")
             continue
         html = (raw_dir / cap["html_file"]).read_bytes()
         chunks = chunk_html(html, source_url=cap["original"], timestamp=cap["timestamp"])

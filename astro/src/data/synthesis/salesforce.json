@@ -1,0 +1,33 @@
+{
+  "company": "salesforce",
+  "displayName": "Salesforce",
+  "headline": "Salesforce presents itself as a values-led enterprise where equality, altruism, and innovation are inseparable from doing business.",
+  "identity": "Salesforce has consistently valued altruism and social responsibility, equality and inclusion, and innovation across nearly two decades of careers copy. The 1%-model philanthropy framing anchored the earliest pages (2006–2010), equality language surged sharply from 2016 onward and has remained the dominant register through 2026, and innovation rhetoric has been a steady undercurrent throughout. The one quality that has wavered is techno-optimism: after peaking in 2006–2007 and again in 2017, it dropped to its lowest recorded scores in 2018–2019 and 2022, recovering only in 2025 with the arrival of AI/Agentforce messaging — suggesting the copy's relationship with technology enthusiasm is cyclical rather than constant.",
+  "fit": "You might be a good fit if you are someone who wants work to carry moral weight — the copy consistently reaches for people who are 'well-rounded, hard-working, and compassionate,' who see 'business as the greatest platform for change,' and who are comfortable with a culture that frames equality not as a program but as 'our culture' and a core operating value alongside trust and customer success.",
+  "sections": [
+    {
+      "heading": "From Philanthropy to Equality: How the Mission Language Shifted",
+      "body": "From 2006 through roughly 2012, the careers copy led with the 1-1-1 model — 'giving 1% each of our time, equity, and profit' — and the idea that corporate citizenship 'sets us apart in the type of talent we attract.' The altruism z-score was negative (below peers) in those years, suggesting the language was present but not yet dominant relative to the market.\n\nThe pivot came in 2016, when 'Equality for all' appeared as a named section heading and the altruism z-score crossed into positive territory (0.42) for the first time. By 2017–2018, the copy was declaring 'Our higher purpose is to drive the Age of Equality' and framing inequality as 'an issue that every company must address.' Altruism scores climbed steadily, reaching their highest recorded level in 2025 (z-score 1.65), now anchored to climate and planet language alongside equality — 'We believe in being better people for the planet and creating a better planet for all people.'\n\nThe DEI facet shows a parallel arc: explicit demographic language (women, Black, Latinx, LGBTQ+, disability) entered the copy in 2014–2019 in sequence, and structural-process registers (pay equity audits, 2030 representation goals, an Office of Equality) appeared from 2016 onward. By 2026, the copy frames equality as procedural as well as aspirational: 'We enable high performance through fair, objective, and consistent talent processes, regardless of identity.'"
+    },
+    {
+      "heading": "Innovation and Performance: Present but Subordinate",
+      "body": "Performance and innovation language has been consistent but rarely the loudest voice in the copy. The performance z-score was above peers in 2006–2007 ('sales-driven, competitive atmosphere,' 'career-defining results') and again in 2016–2017, then dipped below peers in 2018–2019 and 2022 before recovering in 2025 ('purpose-driven high performers, lifelong learners, and innovators shaping what's next in AI').\n\nTechno-optimism followed a similar but more volatile path. It was high in 2006–2007 (cloud revolution framing), recovered in 2012 and 2017 (Einstein AI, 'world's #1 CRM'), then fell sharply in 2018–2019 and hit its lowest point in 2022 (z-score –2.15), when the copy was almost entirely equality-focused with little product or technology narrative. The 2025 rebound is the strongest since 2007, driven by Agentforce and AI framing: 'From agents and machine learning to cloud computing and IoT, you'll work on the latest technologies shaping the future of business.'\n\nThe implication for candidates: innovation is positioned as a means to equality and customer success, not as an end in itself. The copy rarely celebrates technical achievement without tying it to social purpose."
+    },
+    {
+      "heading": "Wellbeing and Belonging: Steady, with a 2025 Spike",
+      "body": "Wellbeing language has been present since the earliest pages (gym memberships, 'Aloha Fridays,' work/life balance) but hovered near the peer average for most of the period. It spiked in 2017 (z-score 2.01) with an explicit 'Wellbeing' value pillar — 'When our people are healthy and happy, they do their very best work' — then receded. The 2025 data shows the highest wellbeing score in the dataset (z-score 2.33), with copy emphasizing mental health, work-life balance, parenting support, and the explicit claim that an employee 'grew my career without burning out.'\n\nThe inclusion score (a separate measure of how prominently inclusive-workplace language appears) tracks closely with the DEI arc: low in 2011–2013, rising from 2015, peaking in 2017 and 2020, and remaining elevated through 2025–2026. The 'belonging' term itself only entered the copy in 2025, suggesting a vocabulary shift toward the softer belonging-culture register alongside the structural equality commitments that have been present since 2016.\n\nOne note of caution: the 2019 data is thin (only 4 chunks), and several years in the 2008–2010 range appear to carry forward identical text, so scores for those years should be read as stable rather than independently confirmed."
+    }
+  ],
+  "model": "claude-sonnet-4-6",
+  "promptVersion": 3,
+  "facetsUsed": [
+    "altruism",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "performance",
+    "techno_optimism",
+    "wellbeing"
+  ],
+  "generatedAt": "2026-07-02"
+}

@@ -3225,6 +3225,959 @@
               "quote": "Learn about how GitHub’s people, products, and platform are creating positive and lasting change around the world."
             }
           ]
+        },
+        {
+          "id": "basecamp",
+          "displayName": "Basecamp",
+          "years": [
+            {
+              "year": 2009,
+              "zscore": -1.2091,
+              "topkMean": 0.0471,
+              "controlZscore": -0.1831,
+              "nChunks": 28,
+              "thin": false
+            },
+            {
+              "year": 2010,
+              "zscore": -1.7765,
+              "topkMean": 0.0294,
+              "controlZscore": -2.0202,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "zscore": 0.0269,
+              "topkMean": 0.0858,
+              "controlZscore": -1.3598,
+              "nChunks": 19,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "zscore": 0.8573,
+              "topkMean": 0.1117,
+              "controlZscore": -0.6827,
+              "nChunks": 37,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "zscore": 0.6016,
+              "topkMean": 0.1037,
+              "controlZscore": -0.6634,
+              "nChunks": 20,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "zscore": -0.8292,
+              "topkMean": 0.059,
+              "controlZscore": -1.0394,
+              "nChunks": 33,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "zscore": 0.2457,
+              "topkMean": 0.0926,
+              "controlZscore": 1.1643,
+              "nChunks": 106,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "zscore": 0.8832,
+              "topkMean": 0.1125,
+              "controlZscore": 0.9141,
+              "nChunks": 213,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "zscore": 2.0759,
+              "topkMean": 0.1498,
+              "controlZscore": 0.8761,
+              "nChunks": 159,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "zscore": 0.4709,
+              "topkMean": 0.0996,
+              "controlZscore": 0.71,
+              "nChunks": 113,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "zscore": 0.6052,
+              "topkMean": 0.1038,
+              "controlZscore": 0.8385,
+              "nChunks": 115,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "zscore": -1.2317,
+              "topkMean": 0.0464,
+              "controlZscore": 0.9266,
+              "nChunks": 99,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "zscore": -0.1563,
+              "topkMean": 0.08,
+              "controlZscore": 0.9269,
+              "nChunks": 70,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "zscore": -0.5638,
+              "topkMean": 0.0673,
+              "controlZscore": -0.4078,
+              "nChunks": 36,
+              "thin": false
+            }
+          ],
+          "worldChanging": [
+            {
+              "year": 2009,
+              "zscore": -1.9164,
+              "topkMean": 0.0471,
+              "nChunks": 10,
+              "thin": false,
+              "control": -0.1831,
+              "quote": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done."
+            },
+            {
+              "year": 2010,
+              "zscore": -2.2509,
+              "topkMean": 0.037,
+              "nChunks": 9,
+              "thin": false,
+              "control": -2.0202,
+              "quote": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done."
+            },
+            {
+              "year": 2014,
+              "zscore": -0.6413,
+              "topkMean": 0.0858,
+              "nChunks": 16,
+              "thin": false,
+              "control": -1.3598,
+              "quote": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning."
+            },
+            {
+              "year": 2015,
+              "zscore": -0.6413,
+              "topkMean": 0.0858,
+              "nChunks": 16,
+              "thin": false,
+              "control": null,
+              "quote": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning."
+            },
+            {
+              "year": 2016,
+              "zscore": 0.3117,
+              "topkMean": 0.1146,
+              "nChunks": 25,
+              "thin": false,
+              "control": -0.6827,
+              "quote": "They remind us where we’ve been, how we got here, and point to where we’re going."
+            },
+            {
+              "year": 2017,
+              "zscore": 0.2395,
+              "topkMean": 0.1124,
+              "nChunks": 33,
+              "thin": false,
+              "control": -0.6634,
+              "quote": "There are few better ways to expand your horizons and grow as a person than to put yourself in the company of others with different backgrounds, experiences and identities."
+            },
+            {
+              "year": 2018,
+              "zscore": -0.5255,
+              "topkMean": 0.0893,
+              "nChunks": 32,
+              "thin": false,
+              "control": -1.0394,
+              "quote": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning."
+            },
+            {
+              "year": 2019,
+              "zscore": -0.001,
+              "topkMean": 0.1052,
+              "nChunks": 127,
+              "thin": false,
+              "control": 1.1643,
+              "quote": "Having a chat room where you can just say good morning, let people know you’re out for lunch, and generally just feel part of something is a powerful counter to cabin fever."
+            },
+            {
+              "year": 2020,
+              "zscore": 0.4798,
+              "topkMean": 0.1197,
+              "nChunks": 175,
+              "thin": false,
+              "control": 0.9141,
+              "quote": "We now have a shared truth."
+            },
+            {
+              "year": 2021,
+              "zscore": 1.4786,
+              "topkMean": 0.15,
+              "nChunks": 266,
+              "thin": false,
+              "control": 0.8761,
+              "quote": "This is our life’s work — we’re in this for the long haul."
+            },
+            {
+              "year": 2022,
+              "zscore": 1.0189,
+              "topkMean": 0.136,
+              "nChunks": 216,
+              "thin": false,
+              "control": 0.71,
+              "quote": "For more than two decades, we’ve been proving that you don’t have to be a big company to have a big impact."
+            },
+            {
+              "year": 2023,
+              "zscore": 0.7356,
+              "topkMean": 0.1275,
+              "nChunks": 255,
+              "thin": false,
+              "control": 0.8385,
+              "quote": "We now have a shared truth."
+            },
+            {
+              "year": 2024,
+              "zscore": 0.6162,
+              "topkMean": 0.1239,
+              "nChunks": 269,
+              "thin": false,
+              "control": 0.9266,
+              "quote": "We now have a shared truth."
+            },
+            {
+              "year": 2025,
+              "zscore": 0.4224,
+              "topkMean": 0.118,
+              "nChunks": 183,
+              "thin": false,
+              "control": 0.9269,
+              "quote": "We now have a shared truth."
+            },
+            {
+              "year": 2026,
+              "zscore": 0.6737,
+              "topkMean": 0.1256,
+              "nChunks": 178,
+              "thin": false,
+              "control": -0.4078,
+              "quote": "We now have a shared truth."
+            }
+          ]
+        },
+        {
+          "id": "salesforce",
+          "displayName": "Salesforce",
+          "years": [
+            {
+              "year": 2006,
+              "zscore": -0.9176,
+              "topkMean": 0.0947,
+              "controlZscore": 0.9089,
+              "nChunks": 41,
+              "thin": false
+            },
+            {
+              "year": 2007,
+              "zscore": -0.8929,
+              "topkMean": 0.0965,
+              "controlZscore": 0.2537,
+              "nChunks": 31,
+              "thin": false
+            },
+            {
+              "year": 2011,
+              "zscore": -1.8,
+              "topkMean": 0.032,
+              "controlZscore": -0.4893,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2012,
+              "zscore": -1.0496,
+              "topkMean": 0.0854,
+              "controlZscore": -0.0015,
+              "nChunks": 22,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "zscore": -1.1969,
+              "topkMean": 0.0749,
+              "controlZscore": -0.5488,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "zscore": -0.1937,
+              "topkMean": 0.1462,
+              "controlZscore": -0.5089,
+              "nChunks": 28,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "zscore": -0.6927,
+              "topkMean": 0.1107,
+              "controlZscore": 0.7362,
+              "nChunks": 30,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "zscore": 0.5735,
+              "topkMean": 0.2007,
+              "controlZscore": 0.5025,
+              "nChunks": 44,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "zscore": 1.0365,
+              "topkMean": 0.2336,
+              "controlZscore": 0.9884,
+              "nChunks": 91,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "zscore": 1.0965,
+              "topkMean": 0.2379,
+              "controlZscore": -0.9793,
+              "nChunks": 15,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "zscore": -1.0164,
+              "topkMean": 0.0877,
+              "controlZscore": -1.6345,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2020,
+              "zscore": 0.9822,
+              "topkMean": 0.2298,
+              "controlZscore": 0.0263,
+              "nChunks": 30,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "zscore": 0.4025,
+              "topkMean": 0.1886,
+              "controlZscore": -1.6536,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "zscore": 0.4515,
+              "topkMean": 0.1921,
+              "controlZscore": -0.852,
+              "nChunks": 14,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "zscore": 0.6669,
+              "topkMean": 0.2074,
+              "controlZscore": 0.3753,
+              "nChunks": 33,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "zscore": 1.7241,
+              "topkMean": 0.2825,
+              "controlZscore": 2.4796,
+              "nChunks": 180,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "zscore": 0.8261,
+              "topkMean": 0.2187,
+              "controlZscore": 0.3969,
+              "nChunks": 28,
+              "thin": false
+            }
+          ],
+          "worldChanging": [
+            {
+              "year": 2006,
+              "zscore": -1.1351,
+              "topkMean": 0.085,
+              "nChunks": 16,
+              "thin": false,
+              "control": 0.9089,
+              "quote": "With our innovative 1% model , we're integrating our business and our community (worldwide) by giving 1% each of our time, equity and profit."
+            },
+            {
+              "year": 2007,
+              "zscore": -0.7934,
+              "topkMean": 0.1104,
+              "nChunks": 20,
+              "thin": false,
+              "control": 0.2537,
+              "quote": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities."
+            },
+            {
+              "year": 2008,
+              "zscore": -1.1191,
+              "topkMean": 0.0862,
+              "nChunks": 9,
+              "thin": false,
+              "control": null,
+              "quote": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities."
+            },
+            {
+              "year": 2009,
+              "zscore": -1.1191,
+              "topkMean": 0.0862,
+              "nChunks": 9,
+              "thin": false,
+              "control": null,
+              "quote": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities."
+            },
+            {
+              "year": 2010,
+              "zscore": -1.1191,
+              "topkMean": 0.0862,
+              "nChunks": 9,
+              "thin": false,
+              "control": null,
+              "quote": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities."
+            },
+            {
+              "year": 2011,
+              "zscore": -1.5618,
+              "topkMean": 0.0532,
+              "nChunks": 2,
+              "thin": true,
+              "control": -0.4893,
+              "quote": "Salesforce.com and our global team of employees are transforming the way companies are run and careers are made."
+            },
+            {
+              "year": 2012,
+              "zscore": -1.2313,
+              "topkMean": 0.0778,
+              "nChunks": 8,
+              "thin": false,
+              "control": -0.0015,
+              "quote": "We’re transforming the way companies are run and careers are made."
+            },
+            {
+              "year": 2013,
+              "zscore": -0.7869,
+              "topkMean": 0.1109,
+              "nChunks": 2,
+              "thin": true,
+              "control": -0.5488,
+              "quote": "We’re transforming the way companies are run and careers are made."
+            },
+            {
+              "year": 2014,
+              "zscore": -0.3135,
+              "topkMean": 0.1462,
+              "nChunks": 28,
+              "thin": false,
+              "control": -0.5089,
+              "quote": "We leverage their skills, creativity, and experience to address issues our community faces, like high drop-out rates and a wide digital divide.” - Sebastian A., LatinoForce Founding Member"
+            },
+            {
+              "year": 2015,
+              "zscore": -0.2673,
+              "topkMean": 0.1496,
+              "nChunks": 49,
+              "thin": false,
+              "control": 0.7362,
+              "quote": "We leverage their skills, creativity, and experience to address issues our community faces, like high drop-out rates and a wide digital divide.” - Sebastian A., LatinoForce Founding Member"
+            },
+            {
+              "year": 2016,
+              "zscore": 0.418,
+              "topkMean": 0.2007,
+              "nChunks": 58,
+              "thin": false,
+              "control": 0.5025,
+              "quote": "Together, with our whole Ohana made up of our employees, customers, partners and communities, we are working to improve the state of the world."
+            },
+            {
+              "year": 2017,
+              "zscore": 0.8799,
+              "topkMean": 0.2352,
+              "nChunks": 114,
+              "thin": false,
+              "control": 0.9884,
+              "quote": "“Our higher purpose is to drive the Age of Equality.”"
+            },
+            {
+              "year": 2018,
+              "zscore": 0.9813,
+              "topkMean": 0.2427,
+              "nChunks": 62,
+              "thin": false,
+              "control": -0.9793,
+              "quote": "We believe that businesses can be powerful platforms for social change and that our higher purpose is to drive Equality for all."
+            },
+            {
+              "year": 2019,
+              "zscore": 0.9167,
+              "topkMean": 0.2379,
+              "nChunks": 22,
+              "thin": false,
+              "control": -1.6345,
+              "quote": "We believe that businesses can be powerful platforms for social change and that our higher purpose is to drive Equality for all."
+            },
+            {
+              "year": 2020,
+              "zscore": 0.7605,
+              "topkMean": 0.2262,
+              "nChunks": 28,
+              "thin": false,
+              "control": 0.0263,
+              "quote": "We believe that businesses can be powerful platforms for social change and that it is our responsibility to further Equality for all."
+            },
+            {
+              "year": 2021,
+              "zscore": -0.042,
+              "topkMean": 0.1664,
+              "nChunks": 6,
+              "thin": false,
+              "control": null,
+              "quote": "We believe that businesses can be powerful platforms for social change and that it is our responsibility to further Equality for All."
+            },
+            {
+              "year": 2022,
+              "zscore": 0.2549,
+              "topkMean": 0.1886,
+              "nChunks": 8,
+              "thin": false,
+              "control": -1.6536,
+              "quote": "We believe that businesses can be powerful platforms for social change, and that it is our responsibility to further equality for all."
+            },
+            {
+              "year": 2023,
+              "zscore": 1.0073,
+              "topkMean": 0.2446,
+              "nChunks": 15,
+              "thin": false,
+              "control": -0.852,
+              "quote": "We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality."
+            },
+            {
+              "year": 2024,
+              "zscore": 1.2284,
+              "topkMean": 0.2611,
+              "nChunks": 48,
+              "thin": false,
+              "control": 0.3753,
+              "quote": "We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality."
+            },
+            {
+              "year": 2025,
+              "zscore": 1.6508,
+              "topkMean": 0.2926,
+              "nChunks": 173,
+              "thin": false,
+              "control": 2.4796,
+              "quote": "We believe in being better people for the planet and creating a better planet for all people."
+            },
+            {
+              "year": 2026,
+              "zscore": 1.3909,
+              "topkMean": 0.2732,
+              "nChunks": 105,
+              "thin": false,
+              "control": 0.3969,
+              "quote": "We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality."
+            }
+          ]
+        },
+        {
+          "id": "starbucks",
+          "displayName": "Starbucks",
+          "years": [
+            {
+              "year": 2005,
+              "zscore": -0.8307,
+              "topkMean": 0.1333,
+              "controlZscore": -0.0426,
+              "nChunks": 26,
+              "thin": false
+            },
+            {
+              "year": 2006,
+              "zscore": -0.111,
+              "topkMean": 0.1793,
+              "controlZscore": 3.0691,
+              "nChunks": 41,
+              "thin": false
+            },
+            {
+              "year": 2007,
+              "zscore": -0.5417,
+              "topkMean": 0.1518,
+              "controlZscore": 0.7992,
+              "nChunks": 35,
+              "thin": false
+            },
+            {
+              "year": 2008,
+              "zscore": -1.1326,
+              "topkMean": 0.1141,
+              "controlZscore": -0.1048,
+              "nChunks": 15,
+              "thin": false
+            },
+            {
+              "year": 2010,
+              "zscore": 0.8672,
+              "topkMean": 0.2418,
+              "controlZscore": 0.677,
+              "nChunks": 79,
+              "thin": false
+            },
+            {
+              "year": 2011,
+              "zscore": -1.3121,
+              "topkMean": 0.1026,
+              "controlZscore": -0.254,
+              "nChunks": 15,
+              "thin": false
+            },
+            {
+              "year": 2012,
+              "zscore": 1.2685,
+              "topkMean": 0.2674,
+              "controlZscore": -0.6031,
+              "nChunks": 51,
+              "thin": false
+            },
+            {
+              "year": 2013,
+              "zscore": 0.7538,
+              "topkMean": 0.2346,
+              "controlZscore": 0.0083,
+              "nChunks": 76,
+              "thin": false
+            },
+            {
+              "year": 2014,
+              "zscore": 1.3074,
+              "topkMean": 0.2699,
+              "controlZscore": 0.785,
+              "nChunks": 44,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "zscore": 0.8575,
+              "topkMean": 0.2412,
+              "controlZscore": 0.543,
+              "nChunks": 213,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "zscore": 0.4503,
+              "topkMean": 0.2152,
+              "controlZscore": 0.0237,
+              "nChunks": 39,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "zscore": 0.3341,
+              "topkMean": 0.2078,
+              "controlZscore": -0.205,
+              "nChunks": 16,
+              "thin": false
+            },
+            {
+              "year": 2018,
+              "zscore": 0.5792,
+              "topkMean": 0.2234,
+              "controlZscore": -0.0792,
+              "nChunks": 89,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "zscore": -1.5693,
+              "topkMean": 0.0862,
+              "controlZscore": -1.1164,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "zscore": -1.4809,
+              "topkMean": 0.0918,
+              "controlZscore": -1.7862,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "zscore": 0.4504,
+              "topkMean": 0.2152,
+              "controlZscore": -0.6153,
+              "nChunks": 33,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "zscore": 1.2609,
+              "topkMean": 0.267,
+              "controlZscore": -0.3453,
+              "nChunks": 166,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "zscore": 0.4965,
+              "topkMean": 0.2181,
+              "controlZscore": 1.1543,
+              "nChunks": 196,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "zscore": 0.6938,
+              "topkMean": 0.2307,
+              "controlZscore": 0.1583,
+              "nChunks": 92,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "zscore": -0.4432,
+              "topkMean": 0.1581,
+              "controlZscore": -0.4604,
+              "nChunks": 32,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "zscore": -1.8982,
+              "topkMean": 0.0652,
+              "controlZscore": -1.6057,
+              "nChunks": 4,
+              "thin": true
+            }
+          ],
+          "worldChanging": [
+            {
+              "year": 2005,
+              "zscore": -1.7821,
+              "topkMean": 0.1333,
+              "nChunks": 24,
+              "thin": false,
+              "control": -0.0426,
+              "quote": "The Foundation is dedicated to creating hope, discovery, and opportunity in communities where Starbucks lives and works."
+            },
+            {
+              "year": 2006,
+              "zscore": -0.8214,
+              "topkMean": 0.1793,
+              "nChunks": 39,
+              "thin": false,
+              "control": 3.0691,
+              "quote": "Embrace diversity and build bridges of understanding among youth of diverse ethnic, racial and socio-economic backgrounds."
+            },
+            {
+              "year": 2007,
+              "zscore": -1.3963,
+              "topkMean": 0.1518,
+              "nChunks": 34,
+              "thin": false,
+              "control": 0.7992,
+              "quote": "\"The greatest challenge facing public education is not what we teach, but rather, how we inspire."
+            },
+            {
+              "year": 2008,
+              "zscore": -2.185,
+              "topkMean": 0.1141,
+              "nChunks": 15,
+              "thin": false,
+              "control": -0.1048,
+              "quote": "Preparing our preschoolers All children should have equal access to literacy and social skill development activities, regardless of their socioeconomic or parental conditions."
+            },
+            {
+              "year": 2010,
+              "zscore": 0.4843,
+              "topkMean": 0.2418,
+              "nChunks": 87,
+              "thin": false,
+              "control": 0.677,
+              "quote": "We can all pitch in to help better our world."
+            },
+            {
+              "year": 2011,
+              "zscore": -0.3349,
+              "topkMean": 0.2026,
+              "nChunks": 45,
+              "thin": false,
+              "control": -0.254,
+              "quote": "As good neighbors we get involved with local efforts to bring people together and create positive change whenever we can."
+            },
+            {
+              "year": 2012,
+              "zscore": 1.0199,
+              "topkMean": 0.2674,
+              "nChunks": 52,
+              "thin": false,
+              "control": -0.6031,
+              "quote": "We are dedicated to encouraging young people to drive positive change in their communities."
+            },
+            {
+              "year": 2013,
+              "zscore": 0.3329,
+              "topkMean": 0.2346,
+              "nChunks": 88,
+              "thin": false,
+              "control": 0.0083,
+              "quote": "Join us in making communities brighter, one neighborhood at a time."
+            },
+            {
+              "year": 2014,
+              "zscore": 1.2137,
+              "topkMean": 0.2767,
+              "nChunks": 75,
+              "thin": false,
+              "control": 0.785,
+              "quote": "We believe we can all become a part of something bigger and inspire positive change in the world around us."
+            },
+            {
+              "year": 2015,
+              "zscore": 0.7013,
+              "topkMean": 0.2522,
+              "nChunks": 228,
+              "thin": false,
+              "control": 0.543,
+              "quote": "Join us in our journey to inspire and nurture the human spirit."
+            },
+            {
+              "year": 2016,
+              "zscore": 0.1975,
+              "topkMean": 0.2281,
+              "nChunks": 42,
+              "thin": false,
+              "control": 0.0237,
+              "quote": "Join us in our journey to inspire and nurture the human spirit."
+            },
+            {
+              "year": 2017,
+              "zscore": 1.3362,
+              "topkMean": 0.2826,
+              "nChunks": 43,
+              "thin": false,
+              "control": -0.205,
+              "quote": "We believe we can all become a part of something bigger and inspire positive change in the world around us."
+            },
+            {
+              "year": 2018,
+              "zscore": 0.3425,
+              "topkMean": 0.235,
+              "nChunks": 101,
+              "thin": false,
+              "control": -0.0792,
+              "quote": "Join us in our journey to inspire and nurture the human spirit."
+            },
+            {
+              "year": 2019,
+              "zscore": 0.4112,
+              "topkMean": 0.2383,
+              "nChunks": 69,
+              "thin": false,
+              "control": -1.1164,
+              "quote": "Join us in our journey to inspire and nurture the human spirit."
+            },
+            {
+              "year": 2020,
+              "zscore": 0.0999,
+              "topkMean": 0.2234,
+              "nChunks": 48,
+              "thin": false,
+              "control": -1.7862,
+              "quote": "Join us in our journey to inspire and nurture the human spirit."
+            },
+            {
+              "year": 2021,
+              "zscore": 0.2592,
+              "topkMean": 0.231,
+              "nChunks": 40,
+              "thin": false,
+              "control": -0.6153,
+              "quote": "It is our vision that we will help inspire our partners, customers, suppliers and neighbors to create positive change."
+            },
+            {
+              "year": 2022,
+              "zscore": 1.0097,
+              "topkMean": 0.267,
+              "nChunks": 168,
+              "thin": false,
+              "control": -0.3453,
+              "quote": "We’ll make a difference in this world."
+            },
+            {
+              "year": 2023,
+              "zscore": 0.5527,
+              "topkMean": 0.2451,
+              "nChunks": 212,
+              "thin": false,
+              "control": 1.1543,
+              "quote": "We’re on a journey to create environments where everyone is welcome and feels a sense of belonging."
+            },
+            {
+              "year": 2024,
+              "zscore": 0.5416,
+              "topkMean": 0.2446,
+              "nChunks": 110,
+              "thin": false,
+              "control": 0.1583,
+              "quote": "Join us as we raise awareness, foster inclusive spaces and celebrate the achievements that have helped shape our shared history, culture and future."
+            },
+            {
+              "year": 2025,
+              "zscore": -0.2197,
+              "topkMean": 0.2081,
+              "nChunks": 58,
+              "thin": false,
+              "control": -0.4604,
+              "quote": "We’re investing in the well-being of those we connect with, working hard toward a better future."
+            },
+            {
+              "year": 2026,
+              "zscore": -1.7631,
+              "topkMean": 0.1342,
+              "nChunks": 24,
+              "thin": false,
+              "control": -1.6057,
+              "quote": "Starbucks mission to inspire and nurture the human spirit extends well beyond our customers, partners and cafes."
+            }
+          ]
         }
       ]
     }
@@ -3464,6 +4417,60 @@
         "heading": "Diversity, Inclusions & Belonging",
         "score": 0.1613
       }
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "peakYear": 2021,
+      "peakZscore": 2.0759,
+      "peakQuote": {
+        "text": "This is our life’s work — we’re in this for the long haul.",
+        "heading": "It’s a promise to our customers",
+        "score": 0.176
+      },
+      "latestYear": 2026,
+      "latestZscore": -0.5638,
+      "latestQuote": {
+        "text": "Hopefully it also offers a small peek at our culture.",
+        "heading": "The 37signals Employee Handbook",
+        "score": 0.1366
+      }
+    },
+    {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "peakYear": 2025,
+      "peakZscore": 1.7241,
+      "peakQuote": {
+        "text": "We believe in being better people for the planet and creating a better planet for all people.",
+        "heading": "Earthforce",
+        "score": 0.3467
+      },
+      "latestYear": 2026,
+      "latestZscore": 0.8261,
+      "latestQuote": {
+        "text": "We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality.",
+        "heading": "Equality for all.",
+        "score": 0.2967
+      }
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "peakYear": 2014,
+      "peakZscore": 1.3074,
+      "peakQuote": {
+        "text": "We believe we can all become a part of something bigger and inspire positive change in the world around us.",
+        "heading": "Connect To Something Bigger",
+        "score": 0.426
+      },
+      "latestYear": 2026,
+      "latestZscore": -1.8982,
+      "latestQuote": {
+        "text": "Helping people thrive helps ensure the long-term sustainability of the premium products we provide.",
+        "heading": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
+        "score": 0.1322
+      }
     }
   ],
   "yearQuotes": [
@@ -3486,6 +4493,33 @@
       "zscore": -0.9434
     },
     {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2005,
+      "text": "The Foundation is dedicated to creating hope, discovery, and opportunity in communities where Starbucks lives and works.",
+      "heading": "",
+      "score": 0.2199,
+      "zscore": -0.8307
+    },
+    {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2006,
+      "text": "With our innovative 1% model , we're integrating our business and our community (worldwide) by giving 1% each of our time, equity and profit.",
+      "heading": "",
+      "score": 0.1174,
+      "zscore": -0.9176
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2006,
+      "text": "Embrace diversity and build bridges of understanding among youth of diverse ethnic, racial and socio-economic backgrounds.",
+      "heading": "",
+      "score": 0.2255,
+      "zscore": -0.111
+    },
+    {
       "company": "amazon",
       "displayName": "Amazon",
       "year": 2007,
@@ -3502,6 +4536,24 @@
       "heading": "",
       "score": 0.251,
       "zscore": 0.1563
+    },
+    {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2007,
+      "text": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities.",
+      "heading": "What Makes Salesforce.com Different as an Employer?",
+      "score": 0.1223,
+      "zscore": -0.8929
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2007,
+      "text": "\"The greatest challenge facing public education is not what we teach, but rather, how we inspire.",
+      "heading": "",
+      "score": 0.1655,
+      "zscore": -0.5417
     },
     {
       "company": "amazon",
@@ -3522,6 +4574,24 @@
       "zscore": -1.3057
     },
     {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2008,
+      "text": "Preparing our preschoolers All children should have equal access to literacy and social skill development activities, regardless of their socioeconomic or parental conditions.",
+      "heading": "",
+      "score": 0.1352,
+      "zscore": -1.1326
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2009,
+      "text": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done.",
+      "heading": "We make it easier to get work done",
+      "score": 0.0823,
+      "zscore": -1.2091
+    },
+    {
       "company": "google",
       "displayName": "Google",
       "year": 2009,
@@ -3538,6 +4608,15 @@
       "heading": "Build stuff that will get used. Fast.",
       "score": 0.261,
       "zscore": 0.4255
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2010,
+      "text": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done.",
+      "heading": "We make it easier to get work done",
+      "score": 0.0823,
+      "zscore": -1.7765
     },
     {
       "company": "google",
@@ -3574,6 +4653,15 @@
       "heading": "Come in, we're hiring!",
       "score": 0.0155,
       "zscore": -1.8391
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2010,
+      "text": "We can all pitch in to help better our world.",
+      "heading": "How You Can Help",
+      "score": 0.3035,
+      "zscore": 0.8672
     },
     {
       "company": "amazon",
@@ -3630,6 +4718,15 @@
       "zscore": -1.4753
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2011,
+      "text": "Salesforce.com and our global team of employees are transforming the way companies are run and careers are made.",
+      "heading": "Best technology, best employees, best work of your career.",
+      "score": 0.0898,
+      "zscore": -1.8
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2011,
@@ -3637,6 +4734,15 @@
       "heading": "About Shopify",
       "score": 0.0453,
       "zscore": -2.1094
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2011,
+      "text": "See what we accomplished last year and what we hope to do going forward.",
+      "heading": "Being a Responsible Company",
+      "score": 0.1324,
+      "zscore": -1.3121
     },
     {
       "company": "github",
@@ -3675,6 +4781,15 @@
       "zscore": 1.07
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2012,
+      "text": "We’re transforming the way companies are run and careers are made.",
+      "heading": "Find your #dreamjob here",
+      "score": 0.1592,
+      "zscore": -1.0496
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2012,
@@ -3682,6 +4797,15 @@
       "heading": "Our Culture",
       "score": 0.1489,
       "zscore": -0.0096
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2012,
+      "text": "We are dedicated to encouraging young people to drive positive change in their communities.",
+      "heading": "Youth Engagement",
+      "score": 0.2984,
+      "zscore": 1.2685
     },
     {
       "company": "stripe",
@@ -3765,6 +4889,24 @@
       "zscore": 0.0481
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2013,
+      "text": "We’re transforming the way companies are run and careers are made.",
+      "heading": "Find your #dreamjob here",
+      "score": 0.1592,
+      "zscore": -1.1969
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2013,
+      "text": "Join us in making communities brighter, one neighborhood at a time.",
+      "heading": "Give back to your community.",
+      "score": 0.2901,
+      "zscore": 0.7538
+    },
+    {
       "company": "stripe",
       "displayName": "Stripe",
       "year": 2013,
@@ -3781,6 +4923,15 @@
       "heading": "Amazon.jobs-play the game!",
       "score": 0.0653,
       "zscore": -1.0729
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2014,
+      "text": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning.",
+      "heading": "Giving a damn.",
+      "score": 0.1078,
+      "zscore": 0.0269
     },
     {
       "company": "coinbase",
@@ -3837,6 +4988,15 @@
       "zscore": -0.2252
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2014,
+      "text": "We leverage their skills, creativity, and experience to address issues our community faces, like high drop-out rates and a wide digital divide.” - Sebastian A., LatinoForce Founding Member",
+      "heading": "LatinoForce",
+      "score": 0.1716,
+      "zscore": -0.1937
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2014,
@@ -3844,6 +5004,15 @@
       "heading": "Our Mission",
       "score": 0.176,
       "zscore": -0.1838
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2014,
+      "text": "We believe we can all become a part of something bigger and inspire positive change in the world around us.",
+      "heading": "Connect To Something Bigger",
+      "score": 0.426,
+      "zscore": 1.3074
     },
     {
       "company": "stripe",
@@ -3909,6 +5078,15 @@
       "zscore": 0.3668
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2015,
+      "text": "BOLD stands for Building Opportunities for Leadership & Diversity, and members of this group come together to support community programs like Black Girls Code and Year Up , and to volunteer, network, and celebrate success.",
+      "heading": "BoldForce",
+      "score": 0.131,
+      "zscore": -0.6927
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2015,
@@ -3916,6 +5094,15 @@
       "heading": "Our Mission",
       "score": 0.176,
       "zscore": 0.4741
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2015,
+      "text": "We believe this is the beginning of the end of AIDS.",
+      "heading": "Together, we're making a difference.",
+      "score": 0.2664,
+      "zscore": 0.8575
     },
     {
       "company": "stripe",
@@ -3943,6 +5130,15 @@
       "heading": "Diversity at Amazon",
       "score": 0.1255,
       "zscore": 0.0079
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2016,
+      "text": "They remind us where we’ve been, how we got here, and point to where we’re going.",
+      "heading": "Until the End of the Internet",
+      "score": 0.1337,
+      "zscore": 0.8573
     },
     {
       "company": "github",
@@ -3990,6 +5186,15 @@
       "zscore": 1.8227
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2016,
+      "text": "Together, with our whole Ohana made up of our employees, customers, partners and communities, we are working to improve the state of the world.",
+      "heading": "#SalesforceOhana",
+      "score": 0.2337,
+      "zscore": 0.5735
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2016,
@@ -3997,6 +5202,15 @@
       "heading": "Shopifolk",
       "score": 0.0734,
       "zscore": -0.5847
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2016,
+      "text": "Join us in our journey to inspire and nurture the human spirit.",
+      "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+      "score": 0.2764,
+      "zscore": 0.4503
     },
     {
       "company": "stripe",
@@ -4024,6 +5238,15 @@
       "heading": "Hacking a better future",
       "score": 0.2613,
       "zscore": 1.3091
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2017,
+      "text": "There are few better ways to expand your horizons and grow as a person than to put yourself in the company of others with different backgrounds, experiences and identities.",
+      "heading": "Who you are",
+      "score": 0.1531,
+      "zscore": 0.6016
     },
     {
       "company": "coinbase",
@@ -4080,6 +5303,15 @@
       "zscore": 1.0423
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2017,
+      "text": "“Our higher purpose is to drive the Age of Equality.”",
+      "heading": "Salesforce Welcomes All",
+      "score": 0.2809,
+      "zscore": 1.0365
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2017,
@@ -4087,6 +5319,15 @@
       "heading": "#LifeAtShopify",
       "score": 0.241,
       "zscore": 0.664
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2017,
+      "text": "So it is our vision that together we will elevate our partners, customers, suppliers and neighbors to create positive change.",
+      "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
+      "score": 0.2434,
+      "zscore": 0.3341
     },
     {
       "company": "stripe",
@@ -4105,6 +5346,15 @@
       "heading": "we pioneer",
       "score": 0.0878,
       "zscore": -0.7918
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2018,
+      "text": "We all love sharing what we learn, too.",
+      "heading": "Meet the team.",
+      "score": 0.0789,
+      "zscore": -0.8292
     },
     {
       "company": "coinbase",
@@ -4179,6 +5429,15 @@
       "zscore": 1.7429
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2018,
+      "text": "We believe that businesses can be powerful platforms for social change and that our higher purpose is to drive Equality for all.",
+      "heading": "Together, we can reach Equality for all.",
+      "score": 0.2657,
+      "zscore": 1.0965
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2018,
@@ -4195,6 +5454,15 @@
       "heading": "Who We Are",
       "score": 0.2772,
       "zscore": 0.3793
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2018,
+      "text": "Join us in our journey to inspire and nurture the human spirit.",
+      "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+      "score": 0.2764,
+      "zscore": 0.5792
     },
     {
       "company": "stripe",
@@ -4222,6 +5490,15 @@
       "heading": "Come build the future with us",
       "score": 0.1154,
       "zscore": -1.7436
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2019,
+      "text": "Having a chat room where you can just say good morning, let people know you’re out for lunch, and generally just feel part of something is a powerful counter to cabin fever.",
+      "heading": "4. A sense of belonging.",
+      "score": 0.1178,
+      "zscore": 0.2457
     },
     {
       "company": "coinbase",
@@ -4278,6 +5555,15 @@
       "zscore": 0.2908
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2019,
+      "text": "“ Inequality, in all its forms — gender, LGBTQ, racial, disability, or otherwise — is an issue that every company must address for their own benefit and to create a better world.",
+      "heading": "We are committed to Equality for all.",
+      "score": 0.1575,
+      "zscore": -1.0164
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2019,
@@ -4294,6 +5580,15 @@
       "heading": "We Are Creative",
       "score": 0.2468,
       "zscore": -0.5796
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2019,
+      "text": "Being present, connecting with transparency, dignity and respect.",
+      "heading": "Expect more than coffee.",
+      "score": 0.1276,
+      "zscore": -1.5693
     },
     {
       "company": "stripe",
@@ -4321,6 +5616,15 @@
       "heading": "Ven y construye el futuro con nosotros",
       "score": 0.045,
       "zscore": -1.091
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2020,
+      "text": "We now have a shared truth.",
+      "heading": "Whenever relevant: Announcements",
+      "score": 0.1549,
+      "zscore": 0.8832
     },
     {
       "company": "coinbase",
@@ -4386,6 +5690,15 @@
       "zscore": 1.351
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2020,
+      "text": "We believe that businesses can be powerful platforms for social change and that it is our responsibility to further Equality for all.",
+      "heading": "Building a Workplace That Reflects Society",
+      "score": 0.2405,
+      "zscore": 0.9822
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2020,
@@ -4404,6 +5717,15 @@
       "zscore": 0.3385
     },
     {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2020,
+      "text": "That’s why we believe we have a responsibility to advocate both internal and public policies that support the health of our business, our partners (employees) and the communities we serve.",
+      "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
+      "score": 0.1103,
+      "zscore": -1.4809
+    },
+    {
       "company": "stripe",
       "displayName": "Stripe",
       "year": 2020,
@@ -4420,6 +5742,15 @@
       "heading": "Build extraordinary products",
       "score": 0.1892,
       "zscore": -0.1305
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2021,
+      "text": "This is our life’s work — we’re in this for the long haul.",
+      "heading": "It’s a promise to our customers",
+      "score": 0.176,
+      "zscore": 2.0759
     },
     {
       "company": "coinbase",
@@ -4512,6 +5843,15 @@
       "zscore": -0.6238
     },
     {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2021,
+      "text": "We’re investing in the well-being of those we connect with, working hard toward a better future.",
+      "heading": "<strong>PUTTING PEOPLE FIRST</strong>",
+      "score": 0.2435,
+      "zscore": 0.4504
+    },
+    {
       "company": "stripe",
       "displayName": "Stripe",
       "year": 2021,
@@ -4528,6 +5868,15 @@
       "heading": "Include everyone",
       "score": 0.1696,
       "zscore": 0.0159
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2022,
+      "text": "This is where we summarize and celebrate the work that’s been done.",
+      "heading": "Communication",
+      "score": 0.108,
+      "zscore": 0.4709
     },
     {
       "company": "coinbase",
@@ -4602,6 +5951,15 @@
       "zscore": 0.6845
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2022,
+      "text": "We believe that businesses can be powerful platforms for social change, and that it is our responsibility to further equality for all.",
+      "heading": "Building a Workplace That Reflects Society",
+      "score": 0.252,
+      "zscore": 0.4025
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2022,
@@ -4618,6 +5976,15 @@
       "heading": "Giving Back",
       "score": 0.1686,
       "zscore": -0.4184
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2022,
+      "text": "We’ll make a difference in this world.",
+      "heading": "",
+      "score": 0.3115,
+      "zscore": 1.2609
     },
     {
       "company": "stripe",
@@ -4645,6 +6012,15 @@
       "heading": "Our Workplace",
       "score": 0.0841,
       "zscore": -0.7602
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2023,
+      "text": "It’s been an incredible ride so far, and we have so many people to thank.",
+      "heading": "Where we came from.",
+      "score": 0.1189,
+      "zscore": 0.6052
     },
     {
       "company": "coinbase",
@@ -4701,6 +6077,15 @@
       "zscore": -0.8494
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2023,
+      "text": "We help solve some of the world’s biggest challenges by creating the connections that help businesses, people, communities, and our planet thrive.",
+      "heading": "Sparking change with innovation.",
+      "score": 0.2379,
+      "zscore": 0.4515
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2023,
@@ -4719,6 +6104,15 @@
       "zscore": -2.1042
     },
     {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2023,
+      "text": "Throughout our 51-year history we’ve been dedicated to our mission: With every cup, with every conversation, with every community – we nurture the limitless possibilities of human connection.",
+      "heading": "Our Partners",
+      "score": 0.2322,
+      "zscore": 0.4965
+    },
+    {
       "company": "stripe",
       "displayName": "Stripe",
       "year": 2023,
@@ -4735,6 +6129,15 @@
       "heading": "Make an impact",
       "score": 0.1717,
       "zscore": 0.2828
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2024,
+      "text": "There’s always more work to be done, always more initiatives to kick off, and always more improvement to be had.",
+      "heading": "With managers of one",
+      "score": 0.0567,
+      "zscore": -1.2317
     },
     {
       "company": "coinbase",
@@ -4782,6 +6185,15 @@
       "zscore": -0.0621
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2024,
+      "text": "Join us in creating a better future of work that’s more connected, inclusive and flexible.",
+      "heading": "Slack",
+      "score": 0.2853,
+      "zscore": 0.6669
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2024,
@@ -4800,6 +6212,15 @@
       "zscore": 0.5333
     },
     {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2024,
+      "text": "Join us as we raise awareness, foster inclusive spaces and celebrate the achievements that have helped shape our shared history, culture and future.",
+      "heading": "Disability Pride Month",
+      "score": 0.2676,
+      "zscore": 0.6938
+    },
+    {
       "company": "stripe",
       "displayName": "Stripe",
       "year": 2024,
@@ -4816,6 +6237,15 @@
       "heading": "",
       "score": 0.2065,
       "zscore": 0.7378
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2025,
+      "text": "If we remove the immediate impact, how do we think we’ll feel about this decision a year from now?",
+      "heading": "Rules of thumb, and general philosophy",
+      "score": 0.0921,
+      "zscore": -0.1563
     },
     {
       "company": "coinbase",
@@ -4881,6 +6311,15 @@
       "zscore": -1.8482
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2025,
+      "text": "We believe in being better people for the planet and creating a better planet for all people.",
+      "heading": "Earthforce",
+      "score": 0.3467,
+      "zscore": 1.7241
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2025,
@@ -4899,6 +6338,15 @@
       "zscore": 1.0553
     },
     {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2025,
+      "text": "Communities Uplifting our communities every day At Starbucks, we believe it is our responsibility to contribute positively to the communities we serve.",
+      "heading": "2024 GLOBAL IMPACT REPORT",
+      "score": 0.1922,
+      "zscore": -0.4432
+    },
+    {
       "company": "amazon",
       "displayName": "Amazon",
       "year": 2026,
@@ -4906,6 +6354,15 @@
       "heading": "Working at Amazon",
       "score": 0.2439,
       "zscore": 0.6583
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2026,
+      "text": "Hopefully it also offers a small peek at our culture.",
+      "heading": "The 37signals Employee Handbook",
+      "score": 0.1366,
+      "zscore": -0.5638
     },
     {
       "company": "coinbase",
@@ -4962,6 +6419,15 @@
       "zscore": -0.155
     },
     {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2026,
+      "text": "We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality.",
+      "heading": "Equality for all.",
+      "score": 0.2967,
+      "zscore": 0.8261
+    },
+    {
       "company": "shopify",
       "displayName": "Shopify",
       "year": 2026,
@@ -4978,6 +6444,15 @@
       "heading": "",
       "score": 0.2816,
       "zscore": 1.4197
+    },
+    {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2026,
+      "text": "Helping people thrive helps ensure the long-term sustainability of the premium products we provide.",
+      "heading": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
+      "score": 0.1322,
+      "zscore": -1.8982
     },
     {
       "company": "stripe",

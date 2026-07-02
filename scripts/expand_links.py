@@ -78,7 +78,14 @@ def cmd_discover(company: str, cap_per_page: int) -> None:
                 continue
             # use earliest parent timestamp as anchor
             parent = min(parents, key=lambda p: p["parent_timestamp"])
-            cap = nearest_capture(client, url, parent["parent_timestamp"])
+            try:
+                cap = nearest_capture(client, url, parent["parent_timestamp"])
+            except (httpx.TransportError, RuntimeError) as err:
+                # transient CDX/network failure (e.g. Wayback throttling): record
+                # and keep going so a single blip doesn't discard the whole run.
+                entries.append({"url": url, "status": "cdx_error", "parents": parents, "error": str(err)})
+                print(f"  cdx error: {url} ({err})")
+                continue
             if cap is None:
                 entries.append({"url": url, "status": "no_cdx", "parents": parents})
                 print(f"  no CDX: {url}")
