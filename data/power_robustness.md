@@ -12,9 +12,8 @@ First differences over n=13 consecutive-year pairs. Per-company correlations are
 
 ## Reading
 
-- **DEI** survives detrending — genuine year-over-year co-movement with the power cycle, not just the secular boom.
-- **Idealism** largely collapses under differencing: most of its raw correlation is shared trend. Demonstrates 'both ride the same boom' rather than asserting it.
-- **Performance** flat raw and differenced — serves management, needs no worker leverage.
+- **Idealism and DEI** both partially survive detrending — some genuine year-over-year co-movement with the power cycle beyond the secular boom, though weak on this many year-pairs. Their ordering is not stable across universe changes (DEI led at N=11, idealism at N=13); don't rank them.
+- **Performance** raw correlation is all shared trend (collapses under differencing) — serves management, needs no worker leverage.
 - **Wellbeing** weak either way; under-measured (thin benefits corpus).
 - **No single company is load-bearing** for idealism or DEI (leave-one-out stays positive) — resolves the earlier N=6→11 fragility.
 
