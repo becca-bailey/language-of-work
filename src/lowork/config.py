@@ -23,6 +23,9 @@ WEB_DATA_DIR = ROOT / "astro" / "src" / "data"
 EMBEDDING_MODEL = "text-embedding-3-large"
 EMBEDDING_DIMENSIONS = 3072
 CLASSIFIER_MODEL = "claude-haiku-4-5-20251001"
+# DEI register classification is a nuanced 7-way call (workforce-vs-customer demographics,
+# ERG-vs-commitment, meritocracy-as-contrast) where Haiku misses subtlety — use Sonnet.
+REGISTER_MODEL = "claude-sonnet-5"
 JUDGE_MODEL = "claude-sonnet-4-5-20250929"
 
 # Chunking targets

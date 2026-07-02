@@ -7,7 +7,7 @@ import re
 
 from anthropic import Anthropic
 
-from .config import CLASSIFIER_MODEL
+from .config import REGISTER_MODEL
 
 DEI_REGISTERS = [
     "explicit_demographic",
@@ -46,19 +46,19 @@ These chunks come from careers/mission pages. Measure what the company says abou
 
 Assign exactly one register to each chunk:
 
-- explicit_demographic: company-owned workforce commitments that name groups AND include accountability — representation targets, hiring goals, measurable gaps the company is closing. "We are committed to increasing Black and Latinx representation in leadership to 30% by 2025."
+- explicit_demographic: names one or more specific demographic groups (by race/ethnicity, gender, LGBTQ+, veteran status, disability, age, etc.) in the context of the company's own workforce, hiring, culture, or employee community — whether or not a numeric target is attached. Covers hard commitments ("increasing Black and Latinx representation in leadership to 30% by 2025"), employee resource groups for named groups (BLACKHub, Outforce, women's networks), spotlights, and support statements ("Salesforce stands with the Black community"). The distinguishing feature is a NAMED group in a workforce context, not the presence of a metric.
 - structural_process: describes systems and processes designed to reduce bias in employment — "We use structured interviews to reduce bias in hiring." / "We audit our pay practices annually for equity."
-- aspirational_vague: inclusion values, partnerships, or pride without binding specifics — generic diversity/inclusion claims, lists of "diverse perspectives" without targets, external partnerships (Lean In, ERG spotlights), encouragement without company accountability.
-- belonging_culture: focuses on worker experience of inclusion at the company — "Bring your whole self to work." / "You'll find people here who look like you and think differently than you."
+- aspirational_vague: GENERIC inclusion/diversity language that does NOT name a specific demographic group — "diverse perspectives," "varying backgrounds," "an inclusive workplace," broad pride or partnerships without naming who. If a specific group is named in a workforce context, prefer explicit_demographic.
+- belonging_culture: worker experience of inclusion stated generically, WITHOUT naming a specific group — "Bring your whole self to work." / "Everyone feels they belong here."
 - meritocracy: explicitly frames hiring or advancement as purely performance-based IN CONTRAST to identity or background — language that crowds out demographic inclusion. Includes explicit anti-DEI positioning: rejecting identity-based hiring, DEI programs, or "politics" in hiring. "We hire on merit, not identity politics." / "We evaluate everyone on the same criteria regardless of where they come from." Generic "hire the best" or "brightest minds" alone is NOT meritocracy.
 - civilizational_mission: employer brand framed around civilizational, geopolitical, or institutional mission rather than workforce inclusion — "future of the West," Western institutions, battlefield/consequence, serving the West's most important institutions. Distinct from generic product mission: this is an explicit civilizational hiring/identity pitch, often counter-programming DEI-era employer branding. Palantir-style "We built Palantir to ensure the future of the West" belongs here, NOT absent.
 - absent: no workforce DEI-relevant language — generic mission/innovation copy, customer impact, product features, standard recruiting boilerplate without civilizational employer framing.
 
 Tie-breakers:
 1. If a chunk mixes registers, choose the DOMINANT one.
-2. Naming a demographic is NOT enough for explicit_demographic — require workforce accountability (targets, programs, commitments). Partnerships, spotlights, and encouragement → aspirational_vague.
-3. Generic "diversity" / "inclusion" / "varying backgrounds" without targets → aspirational_vague, not explicit_demographic.
-4. Demographics in CUSTOMER, patient, or societal-impact context → absent unless civilizational employer framing dominates.
+2. Naming a specific demographic group in a workforce/employer context IS enough for explicit_demographic — a numeric target is not required. ERGs, spotlights, and support statements for a named group → explicit_demographic.
+3. Generic "diversity" / "inclusion" / "varying backgrounds" that names NO specific group → aspirational_vague, not explicit_demographic.
+4. Demographics purely in CUSTOMER, patient, or societal-impact context (not the company's own workforce) → absent unless civilizational employer framing dominates.
 5. "Hire the best" / engineering excellence WITHOUT civilizational framing → absent or meritocracy only if explicit contrast with identity/DEI.
 6. EEO/legal boilerplate alone → absent unless substantive DEI commitments beyond compliance.
 
@@ -73,9 +73,15 @@ Calibration examples (trust these over surface keywords):
 "We hire on merit, not identity politics — we don't run DEI programs or set demographic hiring targets."
 "You are judged by outcomes. Your work will speak for itself." (when clearly about evaluation/hiring bar)
 
-→ aspirational_vague (NOT explicit_demographic):
-"We are proud to partner with Lean In, committed to offering women encouragement and support to achieve their goals."
+→ explicit_demographic (names a specific group in a workforce context — target NOT required):
+"We are proud to partner with Lean In, offering women encouragement and support to achieve their goals."
 "Palantir Scholarship for Women in Technology" / Girl Geek Dinner spotlights.
+"BLACKHub is our community of Black employees." / "Outforce, our LGBTQ+ employee resource group."
+"Salesforce stands with the Black community against racism."
+
+→ aspirational_vague (generic inclusion, NO specific group named):
+"We celebrate diverse perspectives and varying backgrounds."
+"We're building an inclusive workplace where everyone can do their best work."
 
 → absent (NOT civilizational_mission — generic mission):
 "We solve hard problems with data." / "We build software that helps organizations make better decisions."
@@ -84,7 +90,7 @@ Respond with a JSON array, one object per chunk, in input order:
 [{"id": "<chunk id>", "register": "<register>"}]
 Use only the registers above. Respond with the JSON array only."""
 
-BATCH_SIZE = 25
+BATCH_SIZE = 12
 
 
 def is_civilizational_mission(text: str) -> bool:
@@ -141,15 +147,12 @@ def heuristic_register(text: str) -> str:
     ):
         return "absent"
 
+    # Naming a specific demographic group in a workforce context is enough (no target
+    # required) — matches the softened explicit_demographic rule in SYSTEM_PROMPT.
     if any(w in t for w in ("black", "latinx", "hispanic", "lgbtq", "veteran", "disabilit")):
-        if any(w in t for w in ("representation", "target", "percent", "%", "workforce data", "increase")):
-            return "explicit_demographic"
-        return "aspirational_vague"
+        return "explicit_demographic"
     if "women" in t and not any(w in t for w in ("breast cancer", "mammograph", "patient", "screening")):
-        if any(w in t for w in ("lean in", "partner", "encouragement", "support to achieve", "scholarship", "girl geek")):
-            return "aspirational_vague"
-        if any(w in t for w in ("representation", "target", "percent", "%")):
-            return "explicit_demographic"
+        return "explicit_demographic"
     if any(w in t for w in ("audit", "structured interview", "pay gap", "promotion process", "bias training")):
         return "structural_process"
     if any(
@@ -172,7 +175,7 @@ def heuristic_register(text: str) -> str:
     return "aspirational_vague"
 
 
-def classify_registers(chunks: list[dict], model: str = CLASSIFIER_MODEL) -> dict[str, str]:
+def classify_registers(chunks: list[dict], model: str = REGISTER_MODEL) -> dict[str, str]:
     """Classify chunks -> {chunk_id: register}. Batched, temperature 0."""
     client = Anthropic()
     results: dict[str, str] = {}
@@ -184,12 +187,12 @@ def classify_registers(chunks: list[dict], model: str = CLASSIFIER_MODEL) -> dic
         ]
         resp = client.messages.create(
             model=model,
-            max_tokens=2000,
-            temperature=0,
+            max_tokens=8000,  # headroom for Sonnet-5 thinking tokens + the JSON output
             system=SYSTEM_PROMPT,
             messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
         )
-        text = resp.content[0].text.strip()
+        # Sonnet-5 can emit a leading thinking block; take the first text block.
+        text = next((b.text for b in resp.content if getattr(b, "type", None) == "text"), "").strip()
         if text.startswith("```"):
             text = text.strip("`").removeprefix("json").strip()
         for item in json.loads(text):
