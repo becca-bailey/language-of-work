@@ -4,10 +4,10 @@
 Reads every per-company facet JSON under astro/src/data/<company>/, hands the
 collected data to a pinned model, and writes a short structured narrative to
 astro/src/data/synthesis/<company>.json. The prompt, model, and version live in
-synthesis.yaml (repo root) so the narrative is reconfigurable without code edits.
+prompts/synthesis.yaml so the narrative is reconfigurable without code edits.
 
 This is a pipeline stage (see src/lowork/pipeline.py): change-detection is the
-fingerprint engine's job — it hashes the company's export dir and synthesis.yaml
+fingerprint engine's job — it hashes the company's export dir and the prompt config
 and only re-runs this when one of them changes. Nothing here is fetched per page
 load.
 """
@@ -25,7 +25,7 @@ from lowork.company import CompanyProfile
 from lowork.config import ROOT, WEB_DATA_DIR
 from lowork.io import read_json, write_json
 
-CONFIG_PATH = ROOT / "synthesis.yaml"
+CONFIG_PATH = ROOT / "prompts" / "synthesis.yaml"
 SYNTHESIS_DIR = WEB_DATA_DIR / "synthesis"
 
 # Facets that are scaffolding/controls rather than substantive signal.

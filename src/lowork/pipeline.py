@@ -168,12 +168,12 @@ STAGES: list[Stage] = [
 
     # --- per-company AI narrative (reads the whole export dir generically) ---
     # Hashing the entire {co} export dir means any facet added later flows into
-    # both the prompt and change-detection with no edit here; synthesis.yaml is
+    # both the prompt and change-detection with no edit here; the prompt config is
     # hashed too so editing the prompt/model regenerates. Output lives OUTSIDE
     # the hashed dir so it never sits in its own input set.
     Stage("synthesize_company", lambda c: _call("synthesize_company", c),
           Scope.PER_COMPANY, ("profiles",),
-          inputs=("repo:astro/src/data/{co}", "repo:synthesis.yaml"),
+          inputs=("repo:astro/src/data/{co}", "repo:prompts/synthesis.yaml"),
           outputs=("repo:astro/src/data/synthesis/{co}.json",),
           depends=("export_web", "export_dei_web")),
 

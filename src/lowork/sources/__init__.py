@@ -1,7 +1,6 @@
 """Project 3 source layer: one single-purpose fetcher per source type.
 
-Design principle (see docs/values-as-ip-plan.md §2): fetch diverges, downstream
-converges. Each source module casts as wide as its source allows and yields a
+Design principle: fetch diverges, downstream converges. Each source module casts as wide as its source allows and yields a
 common `SourceRecord`; everything after (chunk -> classify -> embed -> score) is
 the shared pipeline and never learns where the text came from.
 

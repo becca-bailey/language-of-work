@@ -2,8 +2,8 @@
 
 Analyzing how companies describe themselves as employers over time, using
 archived careers pages from the Wayback Machine and embedding-based semantic
-axes. See [docs/the-language-of-work-plan.md](docs/the-language-of-work-plan.md)
-for the full project plan and methodology.
+axes. See [docs/counterforces-thesis.md](docs/counterforces-thesis.md) for the
+guiding thesis, and the pipeline table below for the methodology.
 
 **Project 1: Careers Page Archaeology** — measures how ~11 tech companies'
 careers-page language shifts over time across several embedding-based semantic
