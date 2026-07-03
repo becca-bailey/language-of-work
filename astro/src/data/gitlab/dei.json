@@ -19,9 +19,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0148,
       "inclusionQuotes": [
@@ -85,9 +85,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0008,
       "inclusionQuotes": [
@@ -151,9 +151,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
@@ -213,20 +213,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 3,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 5,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.021,
       "inclusionQuotes": [
         {
           "text": "The GitLab team consists of hundreds of team members and many furry friends across dozens of countries. Joining GitLab means becoming a part of a multi-cultural organization that values diversity. We have dedicated Slack channels for topics like #women and #lgbtq, and we're encouraged to create channels for any topic. We hire all over the world so we can work with the best talent. We sponsor event",
           "heading": "Join a diverse, global team",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5403,
           "meritocracy": 0.3855,
           "stanceDiff": 0.1548,
@@ -236,7 +236,7 @@
         {
           "text": "A culture of results, not hours spent: Flexible hours let us schedule our days so that we do our best work without missing out on life's important moments. Kind, motivated people: We're caring and quick to give C R E D I T to each other. Transparent and open source: Most of our work is open source and in collaboration with the wider community.",
           "heading": "A culture of empathy and productivity.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4959,
           "meritocracy": 0.5262,
           "stanceDiff": -0.0303,
@@ -246,7 +246,7 @@
         {
           "text": "Fully distributed: We're a fully remote and completely distributed team, so we can work wherever we're happiest. Buy what you need to be at your best: You don't need to ask permission before spending company money like it's your own - whether it's for a standing desk, a co-working space, or continuing education. Work asynchronously: Night owls rejoice! We're dedicated to working asynchronously, so",
           "heading": "Do your best work from anywhere.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4672,
           "meritocracy": 0.4462,
           "stanceDiff": 0.021,
@@ -266,7 +266,7 @@
         {
           "text": "GitLab Summits: Our annual retreats help us build friendships in places like Mexico, Greece, and South Africa. Visit co-workers: Travel awards help us visit team members near and far. Coffee Chats: We build personal connections every day with virtual coffee chats.",
           "heading": "Build connections around the world.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3364,
           "meritocracy": 0.2711,
           "stanceDiff": 0.0654,
@@ -278,7 +278,7 @@
         {
           "text": "A culture of results, not hours spent: Flexible hours let us schedule our days so that we do our best work without missing out on life's important moments. Kind, motivated people: We're caring and quick to give C R E D I T to each other. Transparent and open source: Most of our work is open source and in collaboration with the wider community.",
           "heading": "A culture of empathy and productivity.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4959,
           "meritocracy": 0.5262,
           "stanceDiff": -0.0303,
@@ -288,7 +288,7 @@
         {
           "text": "Fully distributed: We're a fully remote and completely distributed team, so we can work wherever we're happiest. Buy what you need to be at your best: You don't need to ask permission before spending company money like it's your own - whether it's for a standing desk, a co-working space, or continuing education. Work asynchronously: Night owls rejoice! We're dedicated to working asynchronously, so",
           "heading": "Do your best work from anywhere.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4672,
           "meritocracy": 0.4462,
           "stanceDiff": 0.021,
@@ -298,7 +298,7 @@
         {
           "text": "The GitLab team consists of hundreds of team members and many furry friends across dozens of countries. Joining GitLab means becoming a part of a multi-cultural organization that values diversity. We have dedicated Slack channels for topics like #women and #lgbtq, and we're encouraged to create channels for any topic. We hire all over the world so we can work with the best talent. We sponsor event",
           "heading": "Join a diverse, global team",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5403,
           "meritocracy": 0.3855,
           "stanceDiff": 0.1548,
@@ -318,7 +318,7 @@
         {
           "text": "GitLab Summits: Our annual retreats help us build friendships in places like Mexico, Greece, and South Africa. Visit co-workers: Travel awards help us visit team members near and far. Coffee Chats: We build personal connections every day with virtual coffee chats.",
           "heading": "Build connections around the world.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3364,
           "meritocracy": 0.2711,
           "stanceDiff": 0.0654,
@@ -339,20 +339,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 2,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 6,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0445,
       "inclusionQuotes": [
         {
           "text": "The GitLab team consists of hundreds of team members and many furry friends across dozens of countries. Joining GitLab means becoming a part of a multi-cultural organization that values diversity and inclusion. We have dedicated Slack channels for topics like #women and #lgbtq, and we're encouraged to create channels for any topic. We hire all over the world so we can work with the best talent. We",
           "heading": "Join a diverse, global team",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5458,
           "meritocracy": 0.3902,
           "stanceDiff": 0.1556,
@@ -362,7 +362,7 @@
         {
           "text": "The GitLab team consists of hundreds of team members and many furry friends across dozens of countries. Joining GitLab means becoming a part of a multi-cultural organization that values diversity. We have dedicated Slack channels for topics like #women and #lgbtq, and we're encouraged to create channels for any topic. We hire all over the world so we can work with the best talent. We sponsor event",
           "heading": "Join a diverse, global team",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5403,
           "meritocracy": 0.3855,
           "stanceDiff": 0.1548,
@@ -372,7 +372,7 @@
         {
           "text": "A culture of results, not hours spent: Flexible hours let us schedule our days so that we do our best work without missing out on life's important moments. Kind, motivated people: We're caring and quick to give C R E D I T to each other. Transparent and open source: Most of our work is open source and in collaboration with the wider community.",
           "heading": "A culture of empathy and productivity.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4959,
           "meritocracy": 0.5262,
           "stanceDiff": -0.0303,
@@ -382,7 +382,7 @@
         {
           "text": "Fully distributed: We're a fully remote and completely distributed team, so we can work wherever we're happiest. Buy what you need to be at your best: You don't need to ask permission before spending company money like it's your own - whether it's for a standing desk, a co-working space, or continuing education. Work asynchronously: Night owls rejoice! We're dedicated to working asynchronously, so",
           "heading": "Do your best work from anywhere.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4672,
           "meritocracy": 0.4462,
           "stanceDiff": 0.021,
@@ -392,7 +392,7 @@
         {
           "text": "Our size and our mission (that everyone can contribute) mean that our team members can — and are expected to — make an impact across the company. Because we all use our product internally, you don't have to be a developer to learn to collaborate in the GitLab tool. From your very first week, no matter your role, you'll gain the technical skills needed to access, question, and contribute to project",
           "heading": "Everyone can contribute",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4657,
           "meritocracy": 0.4441,
           "stanceDiff": 0.0216,
@@ -404,7 +404,7 @@
         {
           "text": "A culture of results, not hours spent: Flexible hours let us schedule our days so that we do our best work without missing out on life's important moments. Kind, motivated people: We're caring and quick to give C R E D I T to each other. Transparent and open source: Most of our work is open source and in collaboration with the wider community.",
           "heading": "A culture of empathy and productivity.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4959,
           "meritocracy": 0.5262,
           "stanceDiff": -0.0303,
@@ -414,7 +414,7 @@
         {
           "text": "Fully distributed: We're a fully remote and completely distributed team, so we can work wherever we're happiest. Buy what you need to be at your best: You don't need to ask permission before spending company money like it's your own - whether it's for a standing desk, a co-working space, or continuing education. Work asynchronously: Night owls rejoice! We're dedicated to working asynchronously, so",
           "heading": "Do your best work from anywhere.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4672,
           "meritocracy": 0.4462,
           "stanceDiff": 0.021,
@@ -424,7 +424,7 @@
         {
           "text": "Our size and our mission (that everyone can contribute) mean that our team members can — and are expected to — make an impact across the company. Because we all use our product internally, you don't have to be a developer to learn to collaborate in the GitLab tool. From your very first week, no matter your role, you'll gain the technical skills needed to access, question, and contribute to project",
           "heading": "Everyone can contribute",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4657,
           "meritocracy": 0.4441,
           "stanceDiff": 0.0216,
@@ -444,7 +444,7 @@
         {
           "text": "At GitLab, our value of iteration has a unique impact on the way we operate and get things done. Working this way means our team members are expected to quickly deliver the minimum viable change in their work instead of waiting to produce a polished, completed product. While this can be a challenging practice to adopt at first, it's liberating to be able to make mistakes, get feedback quickly, and",
           "heading": "Freedom to iterate",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4091,
           "meritocracy": 0.3941,
           "stanceDiff": 0.0151,
@@ -465,20 +465,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 8,
+        "aspirational_vague": 3,
+        "belonging_culture": 0,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 3
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0547,
       "inclusionQuotes": [
         {
           "text": "The GitLab team consists of hundreds of team members and many furry friends across dozens of countries. Joining GitLab means becoming a part of a multi-cultural organization that values diversity, inclusion and belonging. We have dedicated Slack channels for topics like #women and #lgbtq, and we're encouraged to create channels for any topic. We hire all over the world so we can work with the best",
           "heading": "Join a diverse, global team",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5365,
           "meritocracy": 0.3843,
           "stanceDiff": 0.1523,
@@ -488,7 +488,7 @@
         {
           "text": "A culture of results, not hours spent: Flexible hours let us schedule our days so that we do our best work without missing out on life's important moments. Kind, motivated people: We're caring and quick to give C R E D I T to each other. Transparent and open source: Most of our work is open source and in collaboration with the wider community.",
           "heading": "A culture of empathy and productivity.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4959,
           "meritocracy": 0.5262,
           "stanceDiff": -0.0303,
@@ -498,7 +498,7 @@
         {
           "text": "Fully distributed: We're a fully remote and completely distributed team, so we can work wherever we're happiest. Buy what you need to be at your best: You don't need to ask permission before spending company money like it's your own - whether it's for a standing desk, a co-working space, or continuing education. Work asynchronously: Night owls rejoice! We're dedicated to working asynchronously, so",
           "heading": "Do your best work from anywhere.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4672,
           "meritocracy": 0.4462,
           "stanceDiff": 0.021,
@@ -508,7 +508,7 @@
         {
           "text": "Our size and our mission (that everyone can contribute) mean that our team members can — and are expected to — make an impact across the company. Because we all use our product internally, you don't have to be a developer to learn to collaborate in the GitLab tool. From your very first week, no matter your role, you'll gain the technical skills needed to access, question, and contribute to project",
           "heading": "Everyone can contribute",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4641,
           "meritocracy": 0.4426,
           "stanceDiff": 0.0215,
@@ -530,7 +530,7 @@
         {
           "text": "A culture of results, not hours spent: Flexible hours let us schedule our days so that we do our best work without missing out on life's important moments. Kind, motivated people: We're caring and quick to give C R E D I T to each other. Transparent and open source: Most of our work is open source and in collaboration with the wider community.",
           "heading": "A culture of empathy and productivity.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4959,
           "meritocracy": 0.5262,
           "stanceDiff": -0.0303,
@@ -540,7 +540,7 @@
         {
           "text": "Fully distributed: We're a fully remote and completely distributed team, so we can work wherever we're happiest. Buy what you need to be at your best: You don't need to ask permission before spending company money like it's your own - whether it's for a standing desk, a co-working space, or continuing education. Work asynchronously: Night owls rejoice! We're dedicated to working asynchronously, so",
           "heading": "Do your best work from anywhere.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4672,
           "meritocracy": 0.4462,
           "stanceDiff": 0.021,
@@ -550,7 +550,7 @@
         {
           "text": "Our size and our mission (that everyone can contribute) mean that our team members can — and are expected to — make an impact across the company. Because we all use our product internally, you don't have to be a developer to learn to collaborate in the GitLab tool. From your very first week, no matter your role, you'll gain the technical skills needed to access, question, and contribute to project",
           "heading": "Everyone can contribute",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4641,
           "meritocracy": 0.4426,
           "stanceDiff": 0.0215,
@@ -560,7 +560,7 @@
         {
           "text": "At GitLab, our value of iteration has a unique impact on the way we operate and get things done. Working this way means our team members are expected to quickly deliver the minimum viable change in their work instead of waiting to produce a polished, completed product. While this can be a challenging practice to adopt at first, it's liberating to be able to make mistakes, get feedback quickly, and",
           "heading": "Freedom to iterate",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4091,
           "meritocracy": 0.3941,
           "stanceDiff": 0.0151,
@@ -591,13 +591,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 2,
-        "belonging_culture": 10,
+        "belonging_culture": 1,
+        "absent": 9,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 1
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0372,
       "inclusionQuotes": [
@@ -614,7 +614,7 @@
         {
           "text": "The GitLab team consists of more than 1,200 team members and many furry friends across dozens of countries. Joining GitLab means becoming a part of a multi-cultural organization that values diversity, inclusion, and belonging. We have dedicated team member resource groups (GitLab Pride, GitLab Women, GitLab Minorities in Tech, and more) and welcome interest in creating new ones. We hire all over t",
           "heading": "Join a diverse, global team",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5113,
           "meritocracy": 0.3676,
           "stanceDiff": 0.1437,
@@ -624,7 +624,7 @@
         {
           "text": "A culture of results, not hours spent: Flexible hours let us schedule our days so that we do our best work without missing out on life's important moments. Kind, motivated people: We're caring and quick to give C R E D I T to each other. Transparent and open source: Most of our work is open source and in collaboration with the wider community.",
           "heading": "A culture of empathy and productivity.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4959,
           "meritocracy": 0.5262,
           "stanceDiff": -0.0303,
@@ -634,7 +634,7 @@
         {
           "text": "Fully distributed: We're a fully remote and completely distributed team, so we can work wherever we're happiest. Buy what you need to be at your best: You don't need to ask permission before spending company money like it's your own - whether it's for a standing desk, a co-working space, or continuing education. Work asynchronously: Night owls rejoice! We're dedicated to working asynchronously, so",
           "heading": "Do your best work from anywhere.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4672,
           "meritocracy": 0.4462,
           "stanceDiff": 0.021,
@@ -644,7 +644,7 @@
         {
           "text": "Our size and our mission (that everyone can contribute) mean that our team members can — and are expected to — make an impact across the company. Because we all use our product internally, you don't have to be a developer to learn to collaborate in the GitLab tool. From your very first week, no matter your role, you'll gain the technical skills needed to access, question, and contribute to project",
           "heading": "Everyone can contribute",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4641,
           "meritocracy": 0.4426,
           "stanceDiff": 0.0215,
@@ -656,7 +656,7 @@
         {
           "text": "A culture of results, not hours spent: Flexible hours let us schedule our days so that we do our best work without missing out on life's important moments. Kind, motivated people: We're caring and quick to give C R E D I T to each other. Transparent and open source: Most of our work is open source and in collaboration with the wider community.",
           "heading": "A culture of empathy and productivity.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4959,
           "meritocracy": 0.5262,
           "stanceDiff": -0.0303,
@@ -676,7 +676,7 @@
         {
           "text": "Fully distributed: We're a fully remote and completely distributed team, so we can work wherever we're happiest. Buy what you need to be at your best: You don't need to ask permission before spending company money like it's your own - whether it's for a standing desk, a co-working space, or continuing education. Work asynchronously: Night owls rejoice! We're dedicated to working asynchronously, so",
           "heading": "Do your best work from anywhere.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4672,
           "meritocracy": 0.4462,
           "stanceDiff": 0.021,
@@ -686,7 +686,7 @@
         {
           "text": "Our size and our mission (that everyone can contribute) mean that our team members can — and are expected to — make an impact across the company. Because we all use our product internally, you don't have to be a developer to learn to collaborate in the GitLab tool. From your very first week, no matter your role, you'll gain the technical skills needed to access, question, and contribute to project",
           "heading": "Everyone can contribute",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4641,
           "meritocracy": 0.4426,
           "stanceDiff": 0.0215,
@@ -696,7 +696,7 @@
         {
           "text": "At GitLab, our value of iteration has a unique impact on the way we operate and get things done. Working this way means our team members are expected to quickly deliver the minimum viable change in their work instead of waiting to produce a polished, completed product. While this can be a challenging practice to adopt at first, it's liberating to be able to make mistakes, get feedback quickly, and",
           "heading": "Freedom to iterate",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4091,
           "meritocracy": 0.3941,
           "stanceDiff": 0.0151,
@@ -717,13 +717,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 4,
-        "belonging_culture": 9,
+        "belonging_culture": 3,
+        "absent": 15,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 10
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0371,
       "inclusionQuotes": [
@@ -760,7 +760,7 @@
         {
           "text": "The GitLab team consists of more than 1,400 team members and many furry friends across dozens of countries. Joining GitLab means becoming a part of a multi-cultural organization that values diversity, inclusion, and belonging. We have dedicated team member resource groups (GitLab Pride, GitLab Women, GitLab Minorities in Tech, and more) and welcome interest in creating new ones. We hire all over t",
           "heading": "Join a diverse, global team",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.514,
           "meritocracy": 0.3693,
           "stanceDiff": 0.1447,
@@ -822,7 +822,7 @@
         {
           "text": "Our size and our mission (that everyone can contribute) mean that our team members can — and are expected to — make an impact across the company. Because we all use our product internally, you don't have to be a developer to learn to collaborate in the GitLab tool. From your very first week, no matter your role, you'll gain the technical skills needed to access, question, and contribute to project",
           "heading": "Everyone can contribute",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4641,
           "meritocracy": 0.4426,
           "stanceDiff": 0.0215,
@@ -845,11 +845,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 4,
+        "aspirational_vague": 3,
+        "belonging_culture": 3,
+        "absent": 15,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 15
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0362,
       "inclusionQuotes": [
@@ -971,11 +971,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 2,
+        "aspirational_vague": 2,
+        "belonging_culture": 1,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
@@ -992,7 +992,7 @@
         {
           "text": "At GitLab, being a great place to work means building a workplace where everyone can contribute and anyone can thrive. We aim to uphold that ideal in every country where we employ GitLab team members.",
           "heading": "2021-2024",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5606,
           "meritocracy": 0.4858,
           "stanceDiff": 0.0748,
@@ -1034,7 +1034,7 @@
         {
           "text": "At GitLab, being a great place to work means building a workplace where everyone can contribute and anyone can thrive. We aim to uphold that ideal in every country where we employ GitLab team members.",
           "heading": "2021-2024",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5606,
           "meritocracy": 0.4858,
           "stanceDiff": 0.0748,
@@ -1097,11 +1097,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 3,
+        "aspirational_vague": 5,
+        "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0448,
       "inclusionQuotes": [
@@ -1128,7 +1128,7 @@
         {
           "text": "At GitLab, being a great place to work means building a workplace where everyone can contribute and anyone can thrive. We aim to uphold that ideal in every country where we employ GitLab team members.",
           "heading": "Great Place to Work Certified",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5606,
           "meritocracy": 0.4858,
           "stanceDiff": 0.0748,
@@ -1148,7 +1148,7 @@
         {
           "text": "As an all-remote company, GitLab takes a handbook first approach. You can explore the handbook to learn more about how we run the company, you can even make a merge request to suggest changes . Our CREDIT values guide all that we do Our values work as a system that prioritizes quality results Always Work-in-progress, our values evolve as we grow and people suggest changes We offer benefits to mana",
           "heading": "Explore the Handbook",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4786,
           "meritocracy": 0.4226,
           "stanceDiff": 0.056,
@@ -1160,7 +1160,7 @@
         {
           "text": "At GitLab, being a great place to work means building a workplace where everyone can contribute and anyone can thrive. We aim to uphold that ideal in every country where we employ GitLab team members.",
           "heading": "Great Place to Work Certified",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5606,
           "meritocracy": 0.4858,
           "stanceDiff": 0.0748,
@@ -1190,7 +1190,7 @@
         {
           "text": "As an all-remote company, GitLab takes a handbook first approach. You can explore the handbook to learn more about how we run the company, you can even make a merge request to suggest changes . Our CREDIT values guide all that we do Our values work as a system that prioritizes quality results Always Work-in-progress, our values evolve as we grow and people suggest changes We offer benefits to mana",
           "heading": "Explore the Handbook",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4786,
           "meritocracy": 0.4226,
           "stanceDiff": 0.056,
@@ -1223,11 +1223,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 2,
+        "aspirational_vague": 1,
+        "belonging_culture": 3,
+        "absent": 10,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 10
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0382,
       "inclusionQuotes": [
@@ -1244,7 +1244,7 @@
         {
           "text": "At GitLab, being a great place to work means building a workplace where everyone can contribute and anyone can thrive. We aim to uphold that ideal in every country where we employ GitLab team members.",
           "heading": "Great Place to Work certified",
-          "register": "aspirational_vague",
+          "register": "belonging_culture",
           "inclusion": 0.5606,
           "meritocracy": 0.4858,
           "stanceDiff": 0.0748,
@@ -1286,7 +1286,7 @@
         {
           "text": "At GitLab, being a great place to work means building a workplace where everyone can contribute and anyone can thrive. We aim to uphold that ideal in every country where we employ GitLab team members.",
           "heading": "Great Place to Work certified",
-          "register": "aspirational_vague",
+          "register": "belonging_culture",
           "inclusion": 0.5606,
           "meritocracy": 0.4858,
           "stanceDiff": 0.0748,

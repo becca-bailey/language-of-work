@@ -281,129 +281,99 @@ def export_performance(companies: list[str]) -> None:
     print(f"Wrote {out_dir / 'performance.json'}")
 
 
-DEI_STANCES: list[dict] = [
+# Highlight categories are defined by the LLM-assigned register/stance labels
+# (dei_chunk_labels.json, written by score_dei) — no phrase regexes. A chunk
+# qualifies for a category when its label matches; ranking within a category is
+# by salience (max inclusion/meritocracy cosine).
+DEI_HIGHLIGHT_CATEGORIES: list[dict] = [
     {
         "id": "explicit_inclusion",
         "label": "Explicit inclusion",
-        "note": "Demographic or structural DEI commitments on careers pages.",
-        "pattern": re.compile(
-            r"\b(diversity|inclusion|belonging|equity|underrepresented|"
-            r"representation|accessibility)\b",
-            re.I,
-        ),
+        "note": "Named-group or bias-process commitments on careers pages (explicit_demographic / structural_process registers).",
+        "match": lambda reg, stance: reg in ("explicit_demographic", "structural_process"),
+    },
+    {
+        "id": "belonging",
+        "label": "Belonging language",
+        "note": "Worker-experience framing of inclusion — no named groups, no commitments (belonging_culture register).",
+        "match": lambda reg, stance: reg == "belonging_culture",
     },
     {
         "id": "apolitical",
         "label": "Apolitical workplace",
-        "note": "Coinbase-style refusal of workplace activism unrelated to mission.",
-        "pattern": re.compile(
-            r"political activism|refuge from division|apolitical|"
-            r"unrelated to our mission while at work",
-            re.I,
-        ),
+        "note": "Refusal of workplace activism unrelated to mission (mission_focus_apolitical stance) — Coinbase's memo, Basecamp's calm-company policy.",
+        "match": lambda reg, stance: stance == "mission_focus_apolitical",
     },
     {
-        "id": "not_a_family",
-        "label": "Not a family",
-        "note": "Netflix culture memo — sports team over kinship.",
-        "pattern": re.compile(
-            r"not a family|professional sports team|stunning colleagues",
-            re.I,
-        ),
-    },
-    {
-        "id": "meritocracy",
-        "label": "Meritocracy rhetoric",
-        "note": "Best-idea-wins and merit framing (including anti-DEI counter-programming).",
-        "pattern": re.compile(
-            r"meritocracy|best idea wins|best person|A players|top talent",
-            re.I,
-        ),
+        "id": "performance_elite",
+        "label": "Performance over kinship",
+        "note": "Outcomes-bar framing — sports team over family, stunning colleagues (performance_elite stance).",
+        "match": lambda reg, stance: stance == "performance_elite",
     },
     {
         "id": "civilizational_mission",
         "label": "Civilizational mission",
-        "note": "West/institutions framing as employer identity — counter-branding to DEI-era copy.",
-        "pattern": re.compile(
-            r"future of the West|West's most important|mission-critical outcomes|"
-            r"judged by outcomes|uncompromising engineering|build with consequence",
-            re.I,
-        ),
+        "note": "West/institutions framing as employer identity — counter-branding to DEI-era copy (civilizational_mission stance).",
+        "match": lambda reg, stance: stance == "civilizational_mission",
     },
 ]
+
+MAX_HIGHLIGHTS_PER_CATEGORY = 4
 
 
 def _curate_dei_highlights(companies: list[str]) -> list[dict]:
     profiles = {c: CompanyProfile.load(c).display_name for c in companies}
-    candidates: list[dict] = []
+    by_category: dict[str, list[dict]] = {cat["id"]: [] for cat in DEI_HIGHLIGHT_CATEGORIES}
 
     for company in companies:
-        for source, fname in (("careers", "dei_evidence.json"), ("investor", "dei_investor_evidence.json")):
-            path = company_dir(company) / fname
-            if not path.exists():
-                continue
-            evidence = read_json(path)
-            quote_sets = (
-                [("inclusion", evidence.get("inclusion", evidence))]
-                if source == "investor"
-                else [("inclusion", evidence.get("inclusion", {})), ("meritocracy", evidence.get("meritocracy", {}))]
-            )
-            for _axis, by_year in quote_sets:
-                if not isinstance(by_year, dict):
-                    continue
-                for year_str, quotes in by_year.items():
-                    year = int(year_str)
-                    for q in quotes:
-                        text = q.get("text", "")
-                        for stance in DEI_STANCES:
-                            if source == "investor" and stance["id"] in (
-                                "not_a_family",
-                                "apolitical",
-                            ):
-                                continue
-                            if not stance["pattern"].search(text):
-                                continue
-                            score = float(q.get("score", 0))
-                            candidates.append({
-                                "id": _highlight_id(company, year, text),
-                                "stance": stance["id"],
-                                "stanceLabel": stance["label"],
-                                "stanceNote": stance["note"],
-                                "company": company,
-                                "displayName": profiles[company],
-                                "year": year,
-                                "source": source,
-                                "text": text,
-                                "heading": q.get("heading", ""),
-                                "score": round(score, 4),
-                            })
-
-    seen_text: set[str] = set()
-    unique: list[dict] = []
-    for c in sorted(candidates, key=lambda x: (-x["score"], -x["year"])):
-        key = c["text"][:100]
-        if key in seen_text:
+        path = company_dir(company) / "dei_chunk_labels.json"
+        if not path.exists():
             continue
-        seen_text.add(key)
-        unique.append(c)
+        for cid, c in read_json(path).items():
+            reg, stance = c.get("register"), c.get("stance")
+            for cat in DEI_HIGHLIGHT_CATEGORIES:
+                if not cat["match"](reg, stance):
+                    continue
+                by_category[cat["id"]].append({
+                    "id": _highlight_id(company, c["year"], c["text"]),
+                    "stance": cat["id"],
+                    "stanceLabel": cat["label"],
+                    "stanceNote": cat["note"],
+                    "company": company,
+                    "displayName": profiles[company],
+                    "year": int(c["year"]),
+                    "source": "careers",
+                    "text": c["text"],
+                    "heading": c.get("heading", ""),
+                    "score": float(c.get("salience", 0)),
+                })
 
     highlights: list[dict] = []
-    stance_order = [s["id"] for s in DEI_STANCES]
-    for stance_id in stance_order:
-        items = [c for c in unique if c["stance"] == stance_id]
-        picked: list[dict] = []
-        for company in companies:
-            company_items = [c for c in items if c["company"] == company]
-            if company_items:
-                picked.append(max(company_items, key=lambda x: x["score"]))
-        picked_ids = {p["id"] for p in picked}
+    for cat in DEI_HIGHLIGHT_CATEGORIES:
+        items = sorted(by_category[cat["id"]], key=lambda x: (-x["score"], -x["year"]))
+        # Dedup near-identical copy (same text recurs across snapshot years).
+        seen_text: set[str] = set()
+        unique = []
         for c in items:
-            if len(picked) >= 3:
-                break
-            if c["id"] not in picked_ids:
+            key = c["text"][:100]
+            if key not in seen_text:
+                seen_text.add(key)
+                unique.append(c)
+        # Breadth first: best quote per company, then best remaining.
+        picked: list[dict] = []
+        seen_companies: set[str] = set()
+        for c in unique:
+            if c["company"] not in seen_companies:
                 picked.append(c)
-                picked_ids.add(c["id"])
-        highlights.extend(sorted(picked, key=lambda x: (-x["score"], x["year"]))[:3])
+                seen_companies.add(c["company"])
+        for c in unique:
+            if len(picked) >= MAX_HIGHLIGHTS_PER_CATEGORY:
+                break
+            if c not in picked:
+                picked.append(c)
+        highlights.extend(
+            sorted(picked[:MAX_HIGHLIGHTS_PER_CATEGORY], key=lambda x: (-x["score"], x["year"]))
+        )
 
     return highlights
 
@@ -421,6 +391,7 @@ def _clean_quote(q: dict | None) -> dict | None:
         "text": q.get("text", ""),
         "heading": q.get("heading", ""),
         "register": q.get("register"),
+        "stance": q.get("stance"),
         "stanceDiff": q.get("stanceDiff"),
         "inclusion": q.get("inclusion"),
         "meritocracy": q.get("meritocracy"),
@@ -492,6 +463,8 @@ def _dei_careers_year_rows(
                 row["stanceMinQuote"] = _clean_quote(env.get("stanceMinQuote"))
         if env.get("stanceCounterQuote"):
             row["stanceCounterQuote"] = _clean_quote(env.get("stanceCounterQuote"))
+        if env.get("inclusionQuote"):
+            row["inclusionQuote"] = _clean_quote(env.get("inclusionQuote"))
         if sr is not None:
             row["bipolarTopkMean"] = round(float(sr.stance_projection_topk_mean), 4)
             bipolar_max = _optional_metric(sr.stance_projection_max)

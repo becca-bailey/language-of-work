@@ -15,20 +15,20 @@
       "kUsed": 1,
       "thin": true,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 0,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 1
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0376,
       "inclusionQuotes": [
         {
           "text": "Read it here Our Corporate Social Responsibility Annual Report 2004 is available online. Read it here Our most recent Social Responsibility Newsletter is available online. Stay up to date Sign up for our Corporate Social Responsibility quarterly email newsletter and keep abreast of the latest CSR news from Starbucks. It’s the way we do business Contributing positively to our communities and enviro",
           "heading": "",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.3326,
           "meritocracy": 0.2419,
           "stanceDiff": 0.0906,
@@ -40,7 +40,7 @@
         {
           "text": "Read it here Our Corporate Social Responsibility Annual Report 2004 is available online. Read it here Our most recent Social Responsibility Newsletter is available online. Stay up to date Sign up for our Corporate Social Responsibility quarterly email newsletter and keep abreast of the latest CSR news from Starbucks. It’s the way we do business Contributing positively to our communities and enviro",
           "heading": "",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.3326,
           "meritocracy": 0.2419,
           "stanceDiff": 0.0906,
@@ -61,20 +61,20 @@
       "kUsed": 3,
       "thin": true,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 3
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.1796,
       "inclusionQuotes": [
         {
           "text": "It’s the way we do business Contributing positively to our communities and environment is so important to Starbucks that it’s a guiding principle of our mission statement . We jointly fulfill this commitment with partners (employees), at all levels of the company, by getting involved together to help build stronger communities and conserve natural resources. In our communities Starbucks has many c",
           "heading": "",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.3522,
           "meritocracy": 0.2592,
           "stanceDiff": 0.093,
@@ -106,7 +106,7 @@
         {
           "text": "It’s the way we do business Contributing positively to our communities and environment is so important to Starbucks that it’s a guiding principle of our mission statement . We jointly fulfill this commitment with partners (employees), at all levels of the company, by getting involved together to help build stronger communities and conserve natural resources. In our communities Starbucks has many c",
           "heading": "",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.3522,
           "meritocracy": 0.2592,
           "stanceDiff": 0.093,
@@ -151,9 +151,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 3,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 3
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.076,
       "inclusionQuotes": [
@@ -237,9 +237,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0347,
       "inclusionQuotes": [
@@ -299,20 +299,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 3,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
+        "absent": 27,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 26
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0704,
       "inclusionQuotes": [
         {
           "text": "We’re committed to upholding a culture where diversity is valued and respected. So it’s only natural that as a guiding principle, diversity is integral to everything we do. We encourage diversity in our suppliers by actively seeking out women- and minority-owned businesses to do business with. Our company-wide diversity strategy focuses on four areas: partners, customers, suppliers and communities",
           "heading": "Aside from extraordinary coffee, Starbucks has made a business out of human connections, community involvement and the celebration of cultures.",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.572,
           "meritocracy": 0.4069,
           "stanceDiff": 0.1651,
@@ -322,7 +322,7 @@
         {
           "text": "By actively seeking out women- and minority-owned businesses to purchase from, we help build prosperity and community in diverse neighborhoods. We believe our Supplier Diversity Program has been a great success and we’re happy to report the amount of business we do with Diverse Suppliers grows every year.",
           "heading": "Our commitment to diversity reaches beyond Starbucks to the extended network of suppliers we work with.",
-          "register": "aspirational_vague",
+          "register": "absent",
           "inclusion": 0.5063,
           "meritocracy": 0.3234,
           "stanceDiff": 0.1829,
@@ -332,7 +332,7 @@
         {
           "text": "In addition to our buying practices, we support diversity through various community outreach projects sponsored by the National Minority Supplier Development Council. In collaboration with other forward-thinking organizations, we’ve developed a model Supplier Diversity Training Program for our buyers that we’re proud to offer to the community at large.",
           "heading": "Reaching Out to the Community",
-          "register": "aspirational_vague",
+          "register": "absent",
           "inclusion": 0.4407,
           "meritocracy": 0.2875,
           "stanceDiff": 0.1532,
@@ -352,7 +352,7 @@
         {
           "text": "So ever since we opened our first store in 1971, we dedicated ourselves to earning the trust and respect of our customers, partners and neighbors. How? By being responsible and doing things that are good for the planet and each other. As good neighbors we get involved with local efforts to bring people together and create positive change whenever we can. Community Service Youth (STARBUCKS) RED Sta",
           "heading": "We've always believed that businesses can - and should - have a positive impact on the communities they serve.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3921,
           "meritocracy": 0.3234,
           "stanceDiff": 0.0686,
@@ -364,7 +364,7 @@
         {
           "text": "We’re committed to upholding a culture where diversity is valued and respected. So it’s only natural that as a guiding principle, diversity is integral to everything we do. We encourage diversity in our suppliers by actively seeking out women- and minority-owned businesses to do business with. Our company-wide diversity strategy focuses on four areas: partners, customers, suppliers and communities",
           "heading": "Aside from extraordinary coffee, Starbucks has made a business out of human connections, community involvement and the celebration of cultures.",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.572,
           "meritocracy": 0.4069,
           "stanceDiff": 0.1651,
@@ -384,7 +384,7 @@
         {
           "text": "So ever since we opened our first store in 1971, we dedicated ourselves to earning the trust and respect of our customers, partners and neighbors. How? By being responsible and doing things that are good for the planet and each other. As good neighbors we get involved with local efforts to bring people together and create positive change whenever we can. Community Service Youth (STARBUCKS) RED Sta",
           "heading": "We've always believed that businesses can - and should - have a positive impact on the communities they serve.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3921,
           "meritocracy": 0.3234,
           "stanceDiff": 0.0686,
@@ -394,7 +394,7 @@
         {
           "text": "By actively seeking out women- and minority-owned businesses to purchase from, we help build prosperity and community in diverse neighborhoods. We believe our Supplier Diversity Program has been a great success and we’re happy to report the amount of business we do with Diverse Suppliers grows every year.",
           "heading": "Our commitment to diversity reaches beyond Starbucks to the extended network of suppliers we work with.",
-          "register": "aspirational_vague",
+          "register": "absent",
           "inclusion": 0.5063,
           "meritocracy": 0.3234,
           "stanceDiff": 0.1829,
@@ -427,11 +427,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 2,
         "belonging_culture": 0,
+        "absent": 18,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 19
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0279,
       "inclusionQuotes": [
@@ -458,7 +458,7 @@
         {
           "text": "So ever since we opened our first store in 1971, we dedicated ourselves to earning the trust and respect of our customers, partners and neighbors. How? By being responsible and doing things that are good for the planet and each other. As good neighbors we get involved with local efforts to bring people together and create positive change whenever we can. Community Service Youth (STARBUCKS) RED Sta",
           "heading": "We've always believed that businesses can - and should - have a positive impact on the communities they serve.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3921,
           "meritocracy": 0.3234,
           "stanceDiff": 0.0686,
@@ -520,7 +520,7 @@
         {
           "text": "So ever since we opened our first store in 1971, we dedicated ourselves to earning the trust and respect of our customers, partners and neighbors. How? By being responsible and doing things that are good for the planet and each other. As good neighbors we get involved with local efforts to bring people together and create positive change whenever we can. Community Service Youth (STARBUCKS) RED Sta",
           "heading": "We've always believed that businesses can - and should - have a positive impact on the communities they serve.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3921,
           "meritocracy": 0.3234,
           "stanceDiff": 0.0686,
@@ -553,11 +553,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
+        "absent": 12,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 11
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.012,
       "inclusionQuotes": [
@@ -584,7 +584,7 @@
         {
           "text": "By actively seeking out women- and minority-owned businesses to purchase from, we help build prosperous communities in diverse neighborhoods. We believe our Supplier Diversity Program has been a great success, and we’re happy to report that the amount of business we conduct with diverse suppliers grows every year. In addition to our buying practices, we support supplier diversity through various c",
           "heading": "Our commitment to diversity reaches beyond Starbucks to include the vast network of suppliers we work with.",
-          "register": "aspirational_vague",
+          "register": "absent",
           "inclusion": 0.4477,
           "meritocracy": 0.2931,
           "stanceDiff": 0.1546,
@@ -646,7 +646,7 @@
         {
           "text": "By actively seeking out women- and minority-owned businesses to purchase from, we help build prosperous communities in diverse neighborhoods. We believe our Supplier Diversity Program has been a great success, and we’re happy to report that the amount of business we conduct with diverse suppliers grows every year. In addition to our buying practices, we support supplier diversity through various c",
           "heading": "Our commitment to diversity reaches beyond Starbucks to include the vast network of suppliers we work with.",
-          "register": "aspirational_vague",
+          "register": "absent",
           "inclusion": 0.4477,
           "meritocracy": 0.2931,
           "stanceDiff": 0.1546,
@@ -679,11 +679,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 3,
+        "aspirational_vague": 7,
         "belonging_culture": 2,
+        "absent": 6,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 10
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0399,
       "inclusionQuotes": [
@@ -720,7 +720,7 @@
         {
           "text": "By actively seeking diverse-owned businesses to purchase from, we help build prosperous communities. We believe our Supplier Diversity Program has been a great success, and we’re happy to report that the amount of business we conduct with diverse suppliers grows every year. Learn more about our Supplier Diversity Program .",
           "heading": "Supplier Diversity Program",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.4825,
           "meritocracy": 0.305,
           "stanceDiff": 0.1775,
@@ -730,7 +730,7 @@
         {
           "text": "By actively seeking diverse-owned businesses to purchase from, we help build prosperous communities. We believe our Supplier Diversity Program has been a great success, and we’re happy to report that the amount of business we conduct with diverse suppliers grows every year. In addition to our buying practices, we support supplier diversity outreach projects sponsored by various organizations inclu",
           "heading": "Our commitment to diversity reaches beyond us to the suppliers we work with.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.4477,
           "meritocracy": 0.2794,
           "stanceDiff": 0.1684,
@@ -782,7 +782,7 @@
         {
           "text": "So ever since we opened our first store in 1971, we dedicated ourselves to striking a balance between profitability and social conscience. We continue to believe that the ultimate way to scale the power of brand is to share the good we do so that Starbucks and everyone we touch – can endure and thrive. Community When it comes to the neighborhoods, cities and countries where we operate, Starbucks i",
           "heading": "We've always believed that businesses can - and should - have a positive impact on the communities they serve.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.432,
           "meritocracy": 0.3399,
           "stanceDiff": 0.0922,
@@ -805,11 +805,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 3,
+        "aspirational_vague": 5,
         "belonging_culture": 0,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 10
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0753,
       "inclusionQuotes": [
@@ -856,7 +856,7 @@
         {
           "text": "By actively seeking diverse-owned businesses to purchase from, we help build prosperous communities. We believe our Supplier Diversity Program has been a great success, and we’re happy to report that the amount of business we conduct with diverse suppliers grows every year. In addition to our buying practices, we support supplier diversity outreach projects sponsored by various organizations inclu",
           "heading": "Our commitment to diversity reaches beyond us to the suppliers we work with.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.4435,
           "meritocracy": 0.2781,
           "stanceDiff": 0.1654,
@@ -929,13 +929,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 5,
-        "structural_process": 5,
-        "aspirational_vague": 3,
-        "belonging_culture": 1,
+        "explicit_demographic": 7,
+        "structural_process": 0,
+        "aspirational_vague": 6,
+        "belonging_culture": 0,
+        "absent": 25,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 24
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0643,
       "inclusionQuotes": [
@@ -952,7 +952,7 @@
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it also drives ou",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5886,
           "meritocracy": 0.4214,
           "stanceDiff": 0.1672,
@@ -982,7 +982,7 @@
         {
           "text": "At Starbucks, we strive to create a culture that values and respect diversity and inclusion. We expect to be a leader in diversity and inclusion, from our partners in the field to our senior leadership teams. To help make our goals become reality, we have integrated diversity and inclusion into the core of our leadership competencies. We expect that all leaders within Starbucks practice behaviors ",
           "heading": "What We’re Doing Now",
-          "register": "structural_process",
+          "register": "aspirational_vague",
           "inclusion": 0.5363,
           "meritocracy": 0.3472,
           "stanceDiff": 0.1891,
@@ -994,7 +994,7 @@
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it also drives ou",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5886,
           "meritocracy": 0.4214,
           "stanceDiff": 0.1672,
@@ -1034,7 +1034,7 @@
         {
           "text": "At Starbucks, we strive to create a culture that values and respect diversity and inclusion. We expect to be a leader in diversity and inclusion, from our partners in the field to our senior leadership teams. To help make our goals become reality, we have integrated diversity and inclusion into the core of our leadership competencies. We expect that all leaders within Starbucks practice behaviors ",
           "heading": "What We’re Doing Now",
-          "register": "structural_process",
+          "register": "aspirational_vague",
           "inclusion": 0.5363,
           "meritocracy": 0.3472,
           "stanceDiff": 0.1891,
@@ -1055,20 +1055,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
-        "structural_process": 2,
-        "aspirational_vague": 0,
-        "belonging_culture": 1,
+        "explicit_demographic": 3,
+        "structural_process": 0,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
+        "absent": 6,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0406,
       "inclusionQuotes": [
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5887,
           "meritocracy": 0.4206,
           "stanceDiff": 0.1681,
@@ -1078,7 +1078,7 @@
         {
           "text": "As we have grown to now more than 23,000 stores in over 70 countries, so too has our commitment to create global social impact in neighborhoods around the world. So it is our vision that together we will elevate our partners, customers, suppliers and neighbors to create positive change. To be innovators, leaders and contributors to an inclusive society and a healthy environment so that Starbucks a",
           "heading": "We have always believed Starbucks can – and should — have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3772,
           "meritocracy": 0.3059,
           "stanceDiff": 0.0712,
@@ -1098,7 +1098,7 @@
         {
           "text": "Working at Starbucks Inspire and nurture the human spirit. Military & Spouses - Serve With Us Whether you’re a veteran preparing to transition out of the service, a reservist, or a military spouse, we have a place for you at Starbucks. Starbucks College Achievement Plan Every eligible U.S. Starbucks partner (employee) working part or full-time receives 100 percent tuition coverage for all four yea",
           "heading": "Already a partner ?",
-          "register": "structural_process",
+          "register": "explicit_demographic",
           "inclusion": 0.3179,
           "meritocracy": 0.2833,
           "stanceDiff": 0.0346,
@@ -1120,7 +1120,7 @@
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5887,
           "meritocracy": 0.4206,
           "stanceDiff": 0.1681,
@@ -1140,7 +1140,7 @@
         {
           "text": "As we have grown to now more than 23,000 stores in over 70 countries, so too has our commitment to create global social impact in neighborhoods around the world. So it is our vision that together we will elevate our partners, customers, suppliers and neighbors to create positive change. To be innovators, leaders and contributors to an inclusive society and a healthy environment so that Starbucks a",
           "heading": "We have always believed Starbucks can – and should — have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3772,
           "meritocracy": 0.3059,
           "stanceDiff": 0.0712,
@@ -1150,7 +1150,7 @@
         {
           "text": "Working at Starbucks Inspire and nurture the human spirit. Military & Spouses - Serve With Us Whether you’re a veteran preparing to transition out of the service, a reservist, or a military spouse, we have a place for you at Starbucks. Starbucks College Achievement Plan Every eligible U.S. Starbucks partner (employee) working part or full-time receives 100 percent tuition coverage for all four yea",
           "heading": "Already a partner ?",
-          "register": "structural_process",
+          "register": "explicit_demographic",
           "inclusion": 0.3179,
           "meritocracy": 0.2833,
           "stanceDiff": 0.0346,
@@ -1160,7 +1160,7 @@
         {
           "text": "We know more than 70% of our U.S. partners (employees) are students or aspiring students. We want to help. Supporting our partners’ ambitions is the very best investment Starbucks can make. College Achievement Plan In a first of its kind collaboration with Arizona State University, we’re offering all part- and full-time benefits eligible U.S. partners full tuition coverage for every year of colleg",
           "heading": "If earning a degree is one of your dreams, we can help you get there.",
-          "register": "structural_process",
+          "register": "explicit_demographic",
           "inclusion": 0.3062,
           "meritocracy": 0.2727,
           "stanceDiff": 0.0335,
@@ -1181,20 +1181,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
-        "structural_process": 2,
+        "explicit_demographic": 2,
+        "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 1,
+        "belonging_culture": 0,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0302,
       "inclusionQuotes": [
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5887,
           "meritocracy": 0.4206,
           "stanceDiff": 0.1681,
@@ -1204,7 +1204,7 @@
         {
           "text": "As we have grown to now more than 25,000 stores in over 75 countries, so too has our commitment to create global social impact. So it is our vision that together we will elevate our partners, customers, suppliers and neighbors to create positive change. To be innovators, leaders and contributors to an inclusive society and a healthy environment so that Starbucks and everyone we touch can endure an",
           "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3943,
           "meritocracy": 0.3194,
           "stanceDiff": 0.0748,
@@ -1234,7 +1234,7 @@
         {
           "text": "Being a Starbucks partner means having the opportunity to be something more than an employee (#tobeapartner). Gigantic possibilities lie ahead—to grow as a person, in your career and in your community. To live the Starbucks mission and to be a leader. It’s the opportunity to become your personal best. To be connected to something bigger. To be meaningful to the world. And to be recognized for all ",
           "heading": "To Be A Partner",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3252,
           "meritocracy": 0.2846,
           "stanceDiff": 0.0406,
@@ -1246,7 +1246,7 @@
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5887,
           "meritocracy": 0.4206,
           "stanceDiff": 0.1681,
@@ -1256,7 +1256,7 @@
         {
           "text": "As we have grown to now more than 25,000 stores in over 75 countries, so too has our commitment to create global social impact. So it is our vision that together we will elevate our partners, customers, suppliers and neighbors to create positive change. To be innovators, leaders and contributors to an inclusive society and a healthy environment so that Starbucks and everyone we touch can endure an",
           "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3943,
           "meritocracy": 0.3194,
           "stanceDiff": 0.0748,
@@ -1286,7 +1286,7 @@
         {
           "text": "Being a Starbucks partner means having the opportunity to be something more than an employee (#tobeapartner). Gigantic possibilities lie ahead—to grow as a person, in your career and in your community. To live the Starbucks mission and to be a leader. It’s the opportunity to become your personal best. To be connected to something bigger. To be meaningful to the world. And to be recognized for all ",
           "heading": "To Be A Partner",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3252,
           "meritocracy": 0.2846,
           "stanceDiff": 0.0406,
@@ -1307,20 +1307,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 5,
         "structural_process": 0,
-        "aspirational_vague": 4,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
+        "absent": 19,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 21
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0359,
       "inclusionQuotes": [
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5887,
           "meritocracy": 0.4206,
           "stanceDiff": 0.1681,
@@ -1330,7 +1330,7 @@
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5782,
           "meritocracy": 0.4028,
           "stanceDiff": 0.1754,
@@ -1350,7 +1350,7 @@
         {
           "text": "Join a company with values you can be proud of. We aspire to conduct our business in ways that will continue to earn your trust, redefining the role and responsibility of a for-profit global company. Hiring veterans, ethical sourcing, and minimizing our environmental footprint are just a few ways that we strive to make a bigger impact.",
           "heading": "Culture and Values",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.5135,
           "meritocracy": 0.4078,
           "stanceDiff": 0.1056,
@@ -1360,7 +1360,7 @@
         {
           "text": "From our earliest days, diversity and inclusion have been at the heart of how we do business, and we have worked to create an inclusive environment across Starbucks, including through: Eight diverse Partner Networks, representing the broad spectrum of our partner backgrounds Recognition by prominent diversity organizations of our work on diversity and inclusion. Starbucks was selected as the 2014 ",
           "heading": "Our Culture of Inclusion",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4856,
           "meritocracy": 0.3229,
           "stanceDiff": 0.1627,
@@ -1372,7 +1372,7 @@
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5887,
           "meritocracy": 0.4206,
           "stanceDiff": 0.1681,
@@ -1392,7 +1392,7 @@
         {
           "text": "Join a company with values you can be proud of. We aspire to conduct our business in ways that will continue to earn your trust, redefining the role and responsibility of a for-profit global company. Hiring veterans, ethical sourcing, and minimizing our environmental footprint are just a few ways that we strive to make a bigger impact.",
           "heading": "Culture and Values",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.5135,
           "meritocracy": 0.4078,
           "stanceDiff": 0.1056,
@@ -1402,7 +1402,7 @@
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5782,
           "meritocracy": 0.4028,
           "stanceDiff": 0.1754,
@@ -1412,7 +1412,7 @@
         {
           "text": "From our earliest days, diversity and inclusion have been at the heart of how we do business, and we have worked to create an inclusive environment across Starbucks, including through: Eight diverse Partner Networks, representing the broad spectrum of our partner backgrounds Recognition by prominent diversity organizations of our work on diversity and inclusion. Starbucks was selected as the 2014 ",
           "heading": "Our Culture of Inclusion",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4856,
           "meritocracy": 0.3229,
           "stanceDiff": 0.1627,
@@ -1433,20 +1433,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
-        "structural_process": 1,
-        "aspirational_vague": 1,
-        "belonging_culture": 2,
+        "explicit_demographic": 3,
+        "structural_process": 0,
+        "aspirational_vague": 2,
+        "belonging_culture": 1,
+        "absent": 11,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 13
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0114,
       "inclusionQuotes": [
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5782,
           "meritocracy": 0.4028,
           "stanceDiff": 0.1754,
@@ -1466,7 +1466,7 @@
         {
           "text": "Join a company with values you can be proud of. We aspire to conduct our business in ways that will continue to earn your trust, redefining the role and responsibility of a for-profit global company. Hiring veterans, ethical sourcing, and minimizing our environmental footprint are just a few ways that we strive to make a bigger impact.",
           "heading": "Culture and Values",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.5135,
           "meritocracy": 0.4078,
           "stanceDiff": 0.1056,
@@ -1486,7 +1486,7 @@
         {
           "text": "From our earliest days, diversity and inclusion have been at the heart of how we do business, and we have worked to create an inclusive environment across Starbucks, including through: Eight diverse Partner Networks, representing the broad spectrum of our partner backgrounds Recognition by prominent diversity organizations of our work on diversity and inclusion. Starbucks was selected as the 2014 ",
           "heading": "Our Culture of Inclusion",
-          "register": "structural_process",
+          "register": "explicit_demographic",
           "inclusion": 0.4856,
           "meritocracy": 0.3229,
           "stanceDiff": 0.1627,
@@ -1518,7 +1518,7 @@
         {
           "text": "Join a company with values you can be proud of. We aspire to conduct our business in ways that will continue to earn your trust, redefining the role and responsibility of a for-profit global company. Hiring veterans, ethical sourcing, and minimizing our environmental footprint are just a few ways that we strive to make a bigger impact.",
           "heading": "Culture and Values",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.5135,
           "meritocracy": 0.4078,
           "stanceDiff": 0.1056,
@@ -1528,7 +1528,7 @@
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5782,
           "meritocracy": 0.4028,
           "stanceDiff": 0.1754,
@@ -1559,20 +1559,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 3,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 2,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
+        "absent": 10,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 10
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.042,
       "inclusionQuotes": [
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5782,
           "meritocracy": 0.4028,
           "stanceDiff": 0.1754,
@@ -1592,7 +1592,7 @@
         {
           "text": "Join a company with values you can be proud of. We aspire to conduct our business in ways that will continue to earn your trust, redefining the role and responsibility of a for-profit global company. Hiring veterans, ethical sourcing, and minimizing our environmental footprint are just a few ways that we strive to make a bigger impact.",
           "heading": "Culture and Values",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.5135,
           "meritocracy": 0.4078,
           "stanceDiff": 0.1056,
@@ -1602,7 +1602,7 @@
         {
           "text": "From our earliest days, diversity and inclusion have been at the heart of how we do business, and we have worked to create an inclusive environment across Starbucks, including through: Eight diverse Partner Networks, representing the broad spectrum of our partner backgrounds Recognition by prominent diversity organizations of our work on diversity and inclusion. Starbucks was selected as the 2014 ",
           "heading": "Our Culture of Inclusion",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4856,
           "meritocracy": 0.3229,
           "stanceDiff": 0.1627,
@@ -1634,7 +1634,7 @@
         {
           "text": "Join a company with values you can be proud of. We aspire to conduct our business in ways that will continue to earn your trust, redefining the role and responsibility of a for-profit global company. Hiring veterans, ethical sourcing, and minimizing our environmental footprint are just a few ways that we strive to make a bigger impact.",
           "heading": "Culture and Values",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.5135,
           "meritocracy": 0.4078,
           "stanceDiff": 0.1056,
@@ -1644,7 +1644,7 @@
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5782,
           "meritocracy": 0.4028,
           "stanceDiff": 0.1754,
@@ -1654,7 +1654,7 @@
         {
           "text": "From our earliest days, diversity and inclusion have been at the heart of how we do business, and we have worked to create an inclusive environment across Starbucks, including through: Eight diverse Partner Networks, representing the broad spectrum of our partner backgrounds Recognition by prominent diversity organizations of our work on diversity and inclusion. Starbucks was selected as the 2014 ",
           "heading": "Our Culture of Inclusion",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4856,
           "meritocracy": 0.3229,
           "stanceDiff": 0.1627,
@@ -1685,13 +1685,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 1,
+        "explicit_demographic": 2,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 1,
+        "aspirational_vague": 3,
+        "belonging_culture": 0,
+        "absent": 14,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 15
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0114,
       "inclusionQuotes": [
@@ -1718,7 +1718,7 @@
         {
           "text": "Join a company with values you can be proud of. We aspire to conduct our business in ways that will continue to earn your trust, redefining the role and responsibility of a for-profit global company. Hiring veterans, ethical sourcing, and minimizing our environmental footprint are just a few ways that we strive to make a bigger impact.",
           "heading": "Culture and Values",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.5135,
           "meritocracy": 0.4078,
           "stanceDiff": 0.1056,
@@ -1780,7 +1780,7 @@
         {
           "text": "Join a company with values you can be proud of. We aspire to conduct our business in ways that will continue to earn your trust, redefining the role and responsibility of a for-profit global company. Hiring veterans, ethical sourcing, and minimizing our environmental footprint are just a few ways that we strive to make a bigger impact.",
           "heading": "Culture and Values",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.5135,
           "meritocracy": 0.4078,
           "stanceDiff": 0.1056,
@@ -1811,13 +1811,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 3,
-        "structural_process": 2,
-        "aspirational_vague": 14,
-        "belonging_culture": 4,
+        "explicit_demographic": 22,
+        "structural_process": 0,
+        "aspirational_vague": 2,
+        "belonging_culture": 3,
+        "absent": 33,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 37
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0237,
       "inclusionQuotes": [
@@ -1844,7 +1844,7 @@
         {
           "text": "We value and support the Pride community, customers, partners and allies alike. No matter your identity, no matter your background, we’re better together.",
           "heading": "Starbucks Celebrates Pride Month",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5977,
           "meritocracy": 0.502,
           "stanceDiff": 0.0958,
@@ -1896,7 +1896,7 @@
         {
           "text": "We value and support the Pride community, customers, partners and allies alike. No matter your identity, no matter your background, we’re better together.",
           "heading": "Starbucks Celebrates Pride Month",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5977,
           "meritocracy": 0.502,
           "stanceDiff": 0.0958,
@@ -1937,20 +1937,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 11,
-        "structural_process": 14,
-        "aspirational_vague": 28,
-        "belonging_culture": 11,
+        "explicit_demographic": 42,
+        "structural_process": 1,
+        "aspirational_vague": 18,
+        "belonging_culture": 3,
+        "absent": 51,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 51
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0922,
       "inclusionQuotes": [
         {
           "text": "Our commitment to equal opportunity means cultivating an environment where differences are embraced and building a culture that fosters a sense of belonging.",
           "heading": "Inclusion &amp; Diversity",
-          "register": "aspirational_vague",
+          "register": "belonging_culture",
           "inclusion": 0.7256,
           "meritocracy": 0.4903,
           "stanceDiff": 0.2353,
@@ -1980,7 +1980,7 @@
         {
           "text": "We believe we have a responsibility to help create opportunity, advance equity and encourage economic growth in every community we serve.",
           "heading": "",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.558,
           "meritocracy": 0.4018,
           "stanceDiff": 0.1562,
@@ -2022,7 +2022,7 @@
         {
           "text": "Our commitment to equal opportunity means cultivating an environment where differences are embraced and building a culture that fosters a sense of belonging.",
           "heading": "Inclusion &amp; Diversity",
-          "register": "aspirational_vague",
+          "register": "belonging_culture",
           "inclusion": 0.7256,
           "meritocracy": 0.4903,
           "stanceDiff": 0.2353,
@@ -2063,13 +2063,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 4,
-        "structural_process": 4,
-        "aspirational_vague": 3,
-        "belonging_culture": 2,
+        "explicit_demographic": 10,
+        "structural_process": 0,
+        "aspirational_vague": 6,
+        "belonging_culture": 0,
+        "absent": 30,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 33
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0467,
       "inclusionQuotes": [
@@ -2168,7 +2168,7 @@
         {
           "text": "Join a company with values you can be proud of. We aspire to conduct our business in ways that will continue to earn your trust, redefining the role and responsibility of a for-profit global company. Hiring veterans, ethical sourcing, and minimizing our environmental footprint are just a few ways that we strive to make a bigger impact.",
           "heading": "Culture and Values",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.5135,
           "meritocracy": 0.4078,
           "stanceDiff": 0.1056,
@@ -2189,20 +2189,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 0,
+        "aspirational_vague": 3,
+        "belonging_culture": 1,
+        "absent": 26,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 29
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0185,
       "inclusionQuotes": [
         {
           "text": "Our commitment to equal opportunity means cultivating an environment where differences are embraced and building a culture that fosters a sense of belonging.",
           "heading": "Inclusion &amp; Diversity",
-          "register": "aspirational_vague",
+          "register": "belonging_culture",
           "inclusion": 0.7256,
           "meritocracy": 0.4903,
           "stanceDiff": 0.2353,
@@ -2264,7 +2264,7 @@
         {
           "text": "Our commitment to equal opportunity means cultivating an environment where differences are embraced and building a culture that fosters a sense of belonging.",
           "heading": "Inclusion &amp; Diversity",
-          "register": "aspirational_vague",
+          "register": "belonging_culture",
           "inclusion": 0.7256,
           "meritocracy": 0.4903,
           "stanceDiff": 0.2353,
@@ -2319,9 +2319,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 22,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 22
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0338,
       "inclusionQuotes": [

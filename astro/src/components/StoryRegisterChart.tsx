@@ -5,7 +5,7 @@ import { ParentSize } from "@visx/responsive";
 import { scaleBand, scaleLinear } from "@visx/scale";
 import { TooltipWithBounds, useTooltip } from "@visx/tooltip";
 import { localPoint } from "@visx/event";
-import { allYears, type StoryCompanySeries } from "@/lib/storyTypes";
+import { allYears, type StoryCompanySeries, type StoryEnvelopeQuote } from "@/lib/storyTypes";
 import { DEI_REGISTER_COLORS as COLORS, DEI_REGISTER_TOKEN } from "@/lib/deiRegisters";
 import { useThemeColors } from "@/lib/themeColors";
 
@@ -42,8 +42,8 @@ interface YearCell {
   nChunks: number;
   shares: Record<string, number>;
   counterShares: Record<string, number>;
-  inclusionQuote?: string;
-  counterQuote?: string;
+  inclusionQuote?: StoryEnvelopeQuote | null;
+  counterQuote?: StoryEnvelopeQuote | null;
 }
 
 function cellsFor(company: StoryCompanySeries): Map<number, YearCell> {
@@ -64,14 +64,193 @@ function cellsFor(company: StoryCompanySeries): Map<number, YearCell> {
       nChunks: y.nChunks,
       shares,
       counterShares,
-      inclusionQuote: y.stanceMaxQuote?.text,
-      counterQuote: y.stanceMinQuote?.text,
+      // Label-aware quotes: the most salient active-register chunk (falling back
+      // to the embedding argmax for pre-relabel data), and the stance-labeled
+      // counter chunk — no counter quote at all when none was labeled that year.
+      inclusionQuote: y.inclusionQuote ?? y.stanceMaxQuote,
+      counterQuote: y.stanceCounterQuote,
     });
   }
   return cells;
 }
 
 type Tip = { cell: YearCell | null; year: number };
+
+/** Border color for a tooltip quote — same hue as its register/stance in the legend. */
+function quoteColor(q: StoryEnvelopeQuote, fillFor: (reg: string) => string): string | undefined {
+  if (q.stance === "civilizational_mission") return fillFor("civilizational_mission");
+  if (q.stance === "mission_focus_apolitical") return fillFor("meritocracy");
+  if (q.register && (ACTIVE_REGISTERS as readonly string[]).includes(q.register)) return fillFor(q.register);
+  return undefined;
+}
+
+// ---------------------------------------------------------------------------
+// Data-driven narrative grouping. No company is hard-coded: each company's
+// trajectory statistics decide its group, so new companies self-sort and the
+// grouping tracks the data. Thresholds are the only editorial choice.
+// ---------------------------------------------------------------------------
+const PEAK_THRESHOLD = 0.25; // active share that counts as "really said it"
+const RETREAT_RATIO = 0.5; // recent share below half of peak = retraction
+const COUNTER_THRESHOLD = 0.05; // recent counter share that counts as counter-programming
+
+interface Trajectory {
+  peak: number;
+  peakYear: number | null;
+  recent: number; // mean active share, last 2 captured years
+  recentCounter: number; // max counter share, last 3 captured years
+}
+
+function trajectoryFor(company: StoryCompanySeries): Trajectory {
+  const cells = [...cellsFor(company).values()]
+    .filter((c) => c.captured)
+    .sort((a, b) => a.year - b.year);
+  let peak = 0;
+  let peakYear: number | null = null;
+  for (const c of cells) {
+    const active = Object.values(c.shares).reduce((a, b) => a + b, 0);
+    if (active > peak) {
+      peak = active;
+      peakYear = c.year;
+    }
+  }
+  const last2 = cells.slice(-2);
+  const recent = last2.length
+    ? last2.reduce((s, c) => s + Object.values(c.shares).reduce((a, b) => a + b, 0), 0) / last2.length
+    : 0;
+  const recentCounter = Math.max(
+    0,
+    ...cells.slice(-3).map((c) => Object.values(c.counterShares).reduce((a, b) => a + b, 0))
+  );
+  return { peak, peakYear, recent, recentCounter };
+}
+
+interface Group {
+  id: string;
+  title: string;
+  note: string;
+  companies: StoryCompanySeries[];
+}
+
+function groupCompanies(companies: StoryCompanySeries[]): Group[] {
+  const t = new Map(companies.map((c) => [c.id, trajectoryFor(c)]));
+  const groups: Group[] = [
+    {
+      id: "counter",
+      title: "Counter-programmers",
+      note: "Meaningful counter-programming (apolitical / civilizational framing) in recent years.",
+      companies: [],
+    },
+    {
+      id: "retracted",
+      title: "Adopted, then retracted",
+      note: `Active DEI share peaked above ${Math.round(PEAK_THRESHOLD * 100)}% and has since fallen to less than half its peak.`,
+      companies: [],
+    },
+    {
+      id: "steady",
+      title: "Steady voices",
+      note: "Substantial DEI language without a collapse.",
+      companies: [],
+    },
+    {
+      id: "quiet",
+      title: "Quiet throughout",
+      note: `Active DEI share never crossed ${Math.round(PEAK_THRESHOLD * 100)}%.`,
+      companies: [],
+    },
+  ];
+  for (const c of companies) {
+    const s = t.get(c.id)!;
+    if (s.recentCounter >= COUNTER_THRESHOLD) groups[0].companies.push(c);
+    else if (s.peak >= PEAK_THRESHOLD && s.recent <= s.peak * RETREAT_RATIO) groups[1].companies.push(c);
+    else if (s.peak >= PEAK_THRESHOLD) groups[2].companies.push(c);
+    else groups[3].companies.push(c);
+  }
+  const by = (fn: (s: Trajectory) => number) => (a: StoryCompanySeries, b: StoryCompanySeries) =>
+    fn(t.get(b.id)!) - fn(t.get(a.id)!);
+  groups[0].companies.sort(by((s) => s.recentCounter));
+  groups[1].companies.sort(by((s) => s.peak - s.recent)); // biggest retreat first
+  groups[2].companies.sort(by((s) => s.peak));
+  groups[3].companies.sort(by((s) => s.peak));
+  return groups.filter((g) => g.companies.length > 0);
+}
+
+/** Aggregate anchor: mean active share across companies captured each year. */
+function AggregateLine({ companies, years, width }: { companies: StoryCompanySeries[]; years: number[]; width: number }) {
+  const H = 84;
+  const M = { top: 8, right: 44, bottom: 18, left: MARGIN.left };
+  const innerW = width - M.left - M.right;
+  const innerH = H - M.top - M.bottom;
+  const points = useMemo(() => {
+    const cellsByCompany = companies.map((c) => cellsFor(c));
+    return years
+      .map((year, i) => {
+        const shares: number[] = [];
+        for (const cells of cellsByCompany) {
+          const cell = cells.get(year);
+          if (cell?.captured) shares.push(Object.values(cell.shares).reduce((a, b) => a + b, 0));
+        }
+        if (shares.length < 3) return null; // too few captures to mean anything
+        return { i, year, mean: shares.reduce((a, b) => a + b, 0) / shares.length };
+      })
+      .filter((p): p is { i: number; year: number; mean: number } => p !== null);
+  }, [companies, years]);
+
+  if (innerW <= 0 || points.length < 2) return null;
+  const maxMean = Math.max(0.15, ...points.map((p) => p.mean));
+  const x = (i: number) => (i / Math.max(years.length - 1, 1)) * innerW;
+  const y = (m: number) => innerH - (m / maxMean) * (innerH - 8);
+  const path = points.map((p, idx) => `${idx === 0 ? "M" : "L"}${x(p.i).toFixed(1)},${y(p.mean).toFixed(1)}`).join(" ");
+  const peak = points.reduce((a, b) => (b.mean > a.mean ? b : a));
+  const last = points[points.length - 1];
+  const pct = (m: number) => `${Math.round(m * 100)}%`;
+
+  return (
+    <div>
+      <p className="text-[11px] font-medium text-neutral-600 dark:text-neutral-400">
+        All companies — mean active-DEI share of careers-page language
+      </p>
+      <svg width={width} height={H} role="img" aria-label="Mean active DEI share across all companies by year">
+        <g transform={`translate(${M.left},${M.top})`}>
+          <line x1={0} x2={innerW} y1={innerH} y2={innerH} className="stroke-neutral-200 dark:stroke-neutral-800" />
+          <path d={path} fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="stroke-neutral-500 dark:stroke-neutral-400" />
+          {/* peak annotation */}
+          <circle cx={x(peak.i)} cy={y(peak.mean)} r={3} className="fill-neutral-500 stroke-white dark:fill-neutral-400 dark:stroke-neutral-950" strokeWidth={2} />
+          <text
+            x={x(peak.i)}
+            y={y(peak.mean) - 7}
+            textAnchor={x(peak.i) < 24 ? "start" : x(peak.i) > innerW - 24 ? "end" : "middle"}
+            className="fill-neutral-500 text-[10px] font-medium dark:fill-neutral-400"
+          >
+            {pct(peak.mean)} · {peak.year}
+          </text>
+          {/* endpoint marker + value */}
+          {last.i !== peak.i && (
+            <>
+              <circle cx={x(last.i)} cy={y(last.mean)} r={3} className="fill-neutral-500 stroke-white dark:fill-neutral-400 dark:stroke-neutral-950" strokeWidth={2} />
+              <text x={x(last.i) + 8} y={y(last.mean) + 3} className="fill-neutral-500 text-[10px] font-medium dark:fill-neutral-400">
+                {pct(last.mean)}
+              </text>
+            </>
+          )}
+          {points
+            .filter((p) => p.year % 5 === 0 || p.i === 0)
+            .map((p) => (
+              <text
+                key={p.year}
+                x={x(p.i)}
+                y={innerH + 13}
+                textAnchor={p.i === 0 ? "start" : "middle"}
+                className="fill-neutral-400 text-[9px]"
+              >
+                {p.year}
+              </text>
+            ))}
+        </g>
+      </svg>
+    </div>
+  );
+}
 
 function CompanyRow({
   company,
@@ -214,11 +393,22 @@ function CompanyRow({
             <>
               <p className="mt-0.5 text-neutral-500">{tooltipData.cell.nChunks} chunks</p>
               {tooltipData.cell.inclusionQuote && (
-                <p className="mt-1 border-l-2 border-positive pl-2 italic text-neutral-600 dark:text-neutral-300">“{tooltipData.cell.inclusionQuote}”</p>
+                <p
+                  className="mt-1 border-l-2 border-neutral-300 pl-2 italic text-neutral-600 dark:border-neutral-600 dark:text-neutral-300"
+                  style={{ borderColor: quoteColor(tooltipData.cell.inclusionQuote, fillFor) }}
+                >
+                  “{tooltipData.cell.inclusionQuote.text}”
+                </p>
               )}
-              {tooltipData.cell.counterQuote && tooltipData.cell.counterQuote !== tooltipData.cell.inclusionQuote && (
-                <p className="mt-1 border-l-2 border-warning pl-2 italic text-neutral-600 dark:text-neutral-300">“{tooltipData.cell.counterQuote}”</p>
-              )}
+              {tooltipData.cell.counterQuote &&
+                tooltipData.cell.counterQuote.text !== tooltipData.cell.inclusionQuote?.text && (
+                  <p
+                    className="mt-1 border-l-2 border-neutral-300 pl-2 italic text-neutral-600 dark:border-neutral-600 dark:text-neutral-300"
+                    style={{ borderColor: quoteColor(tooltipData.cell.counterQuote, fillFor) }}
+                  >
+                    “{tooltipData.cell.counterQuote.text}”
+                  </p>
+                )}
             </>
           )}
         </TooltipWithBounds>
@@ -242,24 +432,39 @@ export default function StoryRegisterChart({ companies }: Props) {
     return Math.min(max, 1);
   }, [withRegisters]);
 
+  const groups = useMemo(() => groupCompanies(withRegisters), [withRegisters]);
+
   if (!withRegisters.length) return null;
 
   return (
     <div className="space-y-1">
-      {withRegisters.map((c) => (
-        <div key={c.id}>
-          <p className="text-[11px] font-medium text-neutral-600 dark:text-neutral-400">{c.displayName}</p>
-          <ParentSize>{({ width }) => (width > 0 ? <CompanyRow company={c} years={years} maxShare={maxShare} width={width} /> : null)}</ParentSize>
+      <ParentSize>
+        {({ width }) => (width > 0 ? <AggregateLine companies={withRegisters} years={years} width={width} /> : null)}
+      </ParentSize>
+      {groups.map((g) => (
+        <div key={g.id} className="pt-4">
+          <h3 className="text-sm font-medium text-info">{g.title}</h3>
+          <p className="mb-2 mt-0.5 text-xs text-neutral-500">{g.note}</p>
+          <div className="space-y-1">
+            {g.companies.map((c) => (
+              <div key={c.id}>
+                <p className="text-[11px] font-medium text-neutral-600 dark:text-neutral-400">{c.displayName}</p>
+                <ParentSize>
+                  {({ width }) => (width > 0 ? <CompanyRow company={c} years={years} maxShare={maxShare} width={width} /> : null)}
+                </ParentSize>
+              </div>
+            ))}
+          </div>
+          <div className="mt-2 flex flex-wrap gap-3 text-[10px] text-neutral-500">
+            {[...ACTIVE_REGISTERS, ...COUNTER_REGISTERS].map((reg) => (
+              <span key={reg} className="flex items-center gap-1">
+                <span className="inline-block h-2 w-2 rounded-sm" style={{ backgroundColor: COLORS[reg] }} />
+                {LABELS[reg]}
+              </span>
+            ))}
+          </div>
         </div>
       ))}
-      <div className="mt-3 flex flex-wrap gap-3 text-[10px] text-neutral-500">
-        {[...ACTIVE_REGISTERS, ...COUNTER_REGISTERS].map((reg) => (
-          <span key={reg} className="flex items-center gap-1">
-            <span className="inline-block h-2 w-2 rounded-sm" style={{ backgroundColor: COLORS[reg] }} />
-            {LABELS[reg]}
-          </span>
-        ))}
-      </div>
       <p className="mt-1 max-w-prose text-xs text-neutral-500">
         Bars above the line = share of chunks in an active DEI register; below the line =
         counter-programming (meritocracy or civilizational-mission framing). A{" "}

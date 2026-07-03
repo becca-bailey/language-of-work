@@ -19,9 +19,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0623,
       "inclusionQuotes": [
@@ -85,9 +85,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0439,
       "inclusionQuotes": [
@@ -151,9 +151,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0396,
       "inclusionQuotes": [
@@ -213,20 +213,20 @@
       "kUsed": 2,
       "thin": true,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 1,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0857,
       "inclusionQuotes": [
         {
           "text": "Amazon is proud to be a platform partner with Lean In, a non-profit organization committed to offering women the encouragement and support to achieve their goals. Visit Lean In's partner page to see Amazon's Partner Profile, including stories of Amazonians who have successfully \"Leaned In\" to their careers with us. Invent the future with Amazon Invention comes in many forms and at many scales. The",
           "heading": "",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.3981,
           "meritocracy": 0.3176,
           "stanceDiff": 0.0805,
@@ -248,7 +248,7 @@
         {
           "text": "Amazon is proud to be a platform partner with Lean In, a non-profit organization committed to offering women the encouragement and support to achieve their goals. Visit Lean In's partner page to see Amazon's Partner Profile, including stories of Amazonians who have successfully \"Leaned In\" to their careers with us. Invent the future with Amazon Invention comes in many forms and at many scales. The",
           "heading": "",
-          "register": "absent",
+          "register": "explicit_demographic",
           "inclusion": 0.3981,
           "meritocracy": 0.3176,
           "stanceDiff": 0.0805,
@@ -279,13 +279,13 @@
       "kUsed": 3,
       "thin": true,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0222,
       "inclusionQuotes": [
@@ -312,7 +312,7 @@
         {
           "text": "The news is out—Amazon is ranked #3 on the 2014 Woman Engineer Magazine Readers' Choice top 50 employers for woman engineers!",
           "heading": "The News Is Out",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.2777,
           "meritocracy": 0.2201,
           "stanceDiff": 0.0576,
@@ -344,7 +344,7 @@
         {
           "text": "The news is out—Amazon is ranked #3 on the 2014 Woman Engineer Magazine Readers' Choice top 50 employers for woman engineers!",
           "heading": "The News Is Out",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.2777,
           "meritocracy": 0.2201,
           "stanceDiff": 0.0576,
@@ -367,11 +367,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 2,
         "belonging_culture": 0,
+        "absent": 15,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 16
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0709,
       "inclusionQuotes": [
@@ -491,13 +491,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
-        "structural_process": 2,
-        "aspirational_vague": 25,
+        "explicit_demographic": 26,
+        "structural_process": 0,
+        "aspirational_vague": 4,
         "belonging_culture": 0,
+        "absent": 17,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 20
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0818,
       "inclusionQuotes": [
@@ -514,7 +514,7 @@
         {
           "text": "Amazon has hundreds of millions of customers who benefit from diversity of thought. We are a company of builders who bring varying backgrounds, ideas, and points of view to decisions and inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, disability, culture, education, as well as professional and l",
           "heading": "Diversity of thought",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5979,
           "meritocracy": 0.4312,
           "stanceDiff": 0.1668,
@@ -544,7 +544,7 @@
         {
           "text": "Our Affinity Groups have extended their reach into our local communities. For example, the Black Employee Network (BEN) and Latinos@Amazon support Rainier Scholars, a non-profit dedicated to cultivating and supporting the academic potential of students of color, by hosting workplace receptions, attending academic enrichment program tours, and sending care packages to college level Rainier Scholars",
           "heading": "Community outreach",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4535,
           "meritocracy": 0.2881,
           "stanceDiff": 0.1654,
@@ -586,7 +586,7 @@
         {
           "text": "Amazon has hundreds of millions of customers who benefit from diversity of thought. We are a company of builders who bring varying backgrounds, ideas, and points of view to decisions and inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, disability, culture, education, as well as professional and l",
           "heading": "Diversity of thought",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5979,
           "meritocracy": 0.4312,
           "stanceDiff": 0.1668,
@@ -617,13 +617,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 2,
-        "structural_process": 3,
-        "aspirational_vague": 20,
-        "belonging_culture": 3,
+        "explicit_demographic": 25,
+        "structural_process": 0,
+        "aspirational_vague": 6,
+        "belonging_culture": 0,
+        "absent": 18,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 21
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0328,
       "inclusionQuotes": [
@@ -670,7 +670,7 @@
         {
           "text": "Our Affinity Groups have extended their reach into our local communities. For example, the Black Employee Network (BEN) and Latinos@Amazon support Rainier Scholars, a non-profit dedicated to cultivating and supporting the academic potential of students of color, by hosting workplace receptions, attending academic enrichment program tours, and sending care packages to college level Rainier Scholars",
           "heading": "Community outreach",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4535,
           "meritocracy": 0.2881,
           "stanceDiff": 0.1654,
@@ -743,20 +743,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 0,
+        "absent": 16,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 17
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0673,
       "inclusionQuotes": [
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Our pioneers",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -808,7 +808,7 @@
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Our pioneers",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -871,11 +871,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 2,
         "belonging_culture": 0,
+        "absent": 15,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 16
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0642,
       "inclusionQuotes": [
@@ -922,7 +922,7 @@
         {
           "text": "Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.",
           "heading": "Are Right, A Lot",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3458,
           "meritocracy": 0.3586,
           "stanceDiff": -0.0128,
@@ -995,20 +995,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 0,
+        "absent": 15,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 16
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Our pioneers",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -1048,7 +1048,7 @@
         {
           "text": "Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.",
           "heading": "Are Right, A Lot",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3458,
           "meritocracy": 0.3586,
           "stanceDiff": -0.0128,
@@ -1060,7 +1060,7 @@
         {
           "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
           "heading": "Our pioneers",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.6929,
           "meritocracy": 0.5276,
           "stanceDiff": 0.1653,
@@ -1125,9 +1125,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 1,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 1
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
@@ -1171,9 +1171,9 @@
         "structural_process": 0,
         "aspirational_vague": 2,
         "belonging_culture": 0,
+        "absent": 1,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 1
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0304,
       "inclusionQuotes": [
@@ -1257,9 +1257,9 @@
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 0,
+        "absent": 1,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 1
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
@@ -1323,9 +1323,9 @@
         "structural_process": 0,
         "aspirational_vague": 3,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0445,
       "inclusionQuotes": [
@@ -1449,9 +1449,9 @@
         "structural_process": 0,
         "aspirational_vague": 3,
         "belonging_culture": 0,
+        "absent": 9,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 9
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0369,
       "inclusionQuotes": [

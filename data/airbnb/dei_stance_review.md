@@ -1,45 +1,43 @@
 # DEI stance by year
 
 ## 2015
-- affirming_dei: 2
-- neutral: 8
+- neutral: 10
 
 ## 2016
-- affirming_dei: 2
-- neutral: 7
+- neutral: 9
 
 ## 2017
-- affirming_dei: 4
-- neutral: 10
+- affirming_dei: 1
+- neutral: 13
 
 ## 2018
 - affirming_dei: 1
 - neutral: 6
 
 ## 2019
-- affirming_dei: 4
-- neutral: 9
+- affirming_dei: 2
+- neutral: 11
 
 ## 2020
-- affirming_dei: 2
-- neutral: 5
+- affirming_dei: 1
+- neutral: 6
 
 ## 2021
-- affirming_dei: 2
-- neutral: 8
+- affirming_dei: 1
+- neutral: 9
 
 ## 2022
-- affirming_dei: 2
-- neutral: 5
+- affirming_dei: 1
+- neutral: 6
 
 ## 2023
-- affirming_dei: 3
-- neutral: 5
+- affirming_dei: 2
+- neutral: 6
 
 ## 2024
-- affirming_dei: 2
-- neutral: 2
+- affirming_dei: 1
+- neutral: 3
 
 ## 2025
-- affirming_dei: 2
-- neutral: 2
+- affirming_dei: 1
+- neutral: 3

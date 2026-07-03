@@ -1,17 +1,21 @@
 # DEI stance by year
 
 ## 2010
-- neutral: 5
+- neutral: 3
+- performance_elite: 2
 
 ## 2011
-- neutral: 2
+- neutral: 1
+- performance_elite: 1
 
 ## 2012
-- neutral: 5
+- neutral: 3
+- performance_elite: 2
 
 ## 2013
-- affirming_dei: 2
-- neutral: 9
+- affirming_dei: 3
+- neutral: 7
+- performance_elite: 1
 
 ## 2014
 - neutral: 1
@@ -23,51 +27,48 @@
 - neutral: 6
 
 ## 2017
-- neutral: 5
-- performance_elite: 1
-- civilizational_mission: 1
+- neutral: 7
 
 ## 2018
-- neutral: 7
+- neutral: 8
 - performance_elite: 1
-- civilizational_mission: 1
 
 ## 2019
-- neutral: 7
-- performance_elite: 1
-- civilizational_mission: 1
-
-## 2020
-- neutral: 7
-- performance_elite: 1
-- civilizational_mission: 1
-
-## 2021
-- neutral: 15
-- performance_elite: 1
-- civilizational_mission: 1
-
-## 2022
-- neutral: 26
-- performance_elite: 1
-- civilizational_mission: 1
-
-## 2023
-- neutral: 22
-- performance_elite: 1
-- civilizational_mission: 1
-
-## 2024
-- neutral: 21
+- neutral: 6
 - performance_elite: 1
 - civilizational_mission: 2
 
-## 2025
-- neutral: 18
+## 2020
+- neutral: 6
+- performance_elite: 1
+- civilizational_mission: 2
+
+## 2021
+- neutral: 12
 - performance_elite: 1
 - civilizational_mission: 4
 
-## 2026
-- neutral: 23
-- performance_elite: 2
+## 2022
+- neutral: 22
+- performance_elite: 1
+- civilizational_mission: 5
+
+## 2023
+- neutral: 20
+- performance_elite: 1
 - civilizational_mission: 3
+
+## 2024
+- neutral: 18
+- performance_elite: 1
+- civilizational_mission: 5
+
+## 2025
+- neutral: 16
+- performance_elite: 1
+- civilizational_mission: 6
+
+## 2026
+- neutral: 19
+- performance_elite: 5
+- civilizational_mission: 4

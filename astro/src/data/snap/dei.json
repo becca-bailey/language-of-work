@@ -19,9 +19,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0119,
       "inclusionQuotes": [
@@ -84,10 +84,10 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 2,
+        "belonging_culture": 0,
+        "absent": 13,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 11
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0197,
       "inclusionQuotes": [
@@ -134,7 +134,7 @@
         {
           "text": "Have a teammate going through a tough time? Lend them a hand through our internal Snap-a-Wish program! We’ll work hard to make sure they get the support they need.",
           "heading": "Snap-a-Wish",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3411,
           "meritocracy": 0.2873,
           "stanceDiff": 0.0538,
@@ -176,7 +176,7 @@
         {
           "text": "Have a teammate going through a tough time? Lend them a hand through our internal Snap-a-Wish program! We’ll work hard to make sure they get the support they need.",
           "heading": "Snap-a-Wish",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3411,
           "meritocracy": 0.2873,
           "stanceDiff": 0.0538,
@@ -186,7 +186,7 @@
         {
           "text": "Snap Inc. is its own community, so we’ve got your back! We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every Snap office has its own set of benefits built around its needs, but here’s a rundown of some of the programs you might find in your office:",
           "heading": "We’re Here for You",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.33,
           "meritocracy": 0.2681,
           "stanceDiff": 0.062,
@@ -207,20 +207,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 8,
         "structural_process": 0,
-        "aspirational_vague": 8,
-        "belonging_culture": 2,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 5
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0401,
       "inclusionQuotes": [
         {
           "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community. We’re investing in new ways",
           "heading": "Diversity, Equity & Inclusion",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.576,
           "meritocracy": 0.37,
           "stanceDiff": 0.206,
@@ -230,7 +230,7 @@
         {
           "text": "​SnapAbility is a community for team members who identify as persons with disabilities, and it includes the many allies, guardians, and advocates who support them — both at Snap and beyond. Their mission is to promote empathy, respect, and kindness for all people, regardless of ability level or mental health status. By fostering open conversations around these topics, partnering with organizations",
           "heading": "SnapAbility",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4234,
           "meritocracy": 0.3278,
           "stanceDiff": 0.0956,
@@ -250,7 +250,7 @@
         {
           "text": "​SnapNoir​ is a forum for fostering cultural understanding, diversity, and professional development for people of the African diaspora — both at Snap and in the community.",
           "heading": "SnapNoir",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.3981,
           "meritocracy": 0.2728,
           "stanceDiff": 0.1253,
@@ -260,7 +260,7 @@
         {
           "text": "Lady Chillahs supports, empowers, and advances women at Snap through workshops, outreach to women in need, and bringing the Snap family together to explore issues facing women today.",
           "heading": "Lady Chillahs",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.3708,
           "meritocracy": 0.2299,
           "stanceDiff": 0.1408,
@@ -272,7 +272,7 @@
         {
           "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community. We’re investing in new ways",
           "heading": "Diversity, Equity & Inclusion",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.576,
           "meritocracy": 0.37,
           "stanceDiff": 0.206,
@@ -282,7 +282,7 @@
         {
           "text": "​SnapAbility is a community for team members who identify as persons with disabilities, and it includes the many allies, guardians, and advocates who support them — both at Snap and beyond. Their mission is to promote empathy, respect, and kindness for all people, regardless of ability level or mental health status. By fostering open conversations around these topics, partnering with organizations",
           "heading": "SnapAbility",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4234,
           "meritocracy": 0.3278,
           "stanceDiff": 0.0956,
@@ -292,7 +292,7 @@
         {
           "text": "Have a teammate going through a tough time? Lend them a hand through our internal Snap-a-Wish program! We’ll work hard to make sure they get the support they need.",
           "heading": "Snap-a-Wish",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3411,
           "meritocracy": 0.2873,
           "stanceDiff": 0.0538,
@@ -302,7 +302,7 @@
         {
           "text": "​SnapNoir​ is a forum for fostering cultural understanding, diversity, and professional development for people of the African diaspora — both at Snap and in the community.",
           "heading": "SnapNoir",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.3981,
           "meritocracy": 0.2728,
           "stanceDiff": 0.1253,
@@ -312,7 +312,7 @@
         {
           "text": "Snap Inc. is its own community, so we’ve got your back! We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every Snap office has its own set of benefits built around its needs, but here’s a rundown of some of the programs you might find in your office:",
           "heading": "We’re Here for You",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.33,
           "meritocracy": 0.2681,
           "stanceDiff": 0.062,
@@ -333,20 +333,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 6,
         "structural_process": 0,
-        "aspirational_vague": 7,
-        "belonging_culture": 2,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 6
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0141,
       "inclusionQuotes": [
         {
           "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community. We’re investing in new ways",
           "heading": "Diversity, Equity & Inclusion",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5832,
           "meritocracy": 0.3762,
           "stanceDiff": 0.207,
@@ -366,7 +366,7 @@
         {
           "text": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
           "heading": "SnapNoir",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.421,
           "meritocracy": 0.2706,
           "stanceDiff": 0.1504,
@@ -376,7 +376,7 @@
         {
           "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
           "heading": "SnapAsia",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4196,
           "meritocracy": 0.2911,
           "stanceDiff": 0.1285,
@@ -386,7 +386,7 @@
         {
           "text": "​SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
           "heading": "SnapFamilia",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4107,
           "meritocracy": 0.2879,
           "stanceDiff": 0.1227,
@@ -398,7 +398,7 @@
         {
           "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community. We’re investing in new ways",
           "heading": "Diversity, Equity & Inclusion",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5832,
           "meritocracy": 0.3762,
           "stanceDiff": 0.207,
@@ -408,7 +408,7 @@
         {
           "text": "At Snap, we do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every office has its own set of benefits built around its needs, but here’s a rundown of some of the offerings you might find in your home base:",
           "heading": "We’re Here for You",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3653,
           "meritocracy": 0.3001,
           "stanceDiff": 0.0653,
@@ -418,7 +418,7 @@
         {
           "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
           "heading": "SnapAsia",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4196,
           "meritocracy": 0.2911,
           "stanceDiff": 0.1285,
@@ -428,7 +428,7 @@
         {
           "text": "​SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
           "heading": "SnapFamilia",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4107,
           "meritocracy": 0.2879,
           "stanceDiff": 0.1227,
@@ -438,7 +438,7 @@
         {
           "text": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
           "heading": "SnapAbility",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.3659,
           "meritocracy": 0.2877,
           "stanceDiff": 0.0782,
@@ -463,9 +463,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 1,
+        "absent": 9,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 9
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0151,
       "inclusionQuotes": [
@@ -585,13 +585,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 5,
         "structural_process": 0,
-        "aspirational_vague": 6,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
+        "absent": 5,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 5
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0242,
       "inclusionQuotes": [
@@ -608,7 +608,7 @@
         {
           "text": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
           "heading": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.421,
           "meritocracy": 0.2706,
           "stanceDiff": 0.1504,
@@ -618,7 +618,7 @@
         {
           "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
           "heading": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4196,
           "meritocracy": 0.2911,
           "stanceDiff": 0.1285,
@@ -628,7 +628,7 @@
         {
           "text": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
           "heading": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4147,
           "meritocracy": 0.3023,
           "stanceDiff": 0.1124,
@@ -650,7 +650,7 @@
         {
           "text": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
           "heading": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4147,
           "meritocracy": 0.3023,
           "stanceDiff": 0.1124,
@@ -670,7 +670,7 @@
         {
           "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
           "heading": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4196,
           "meritocracy": 0.2911,
           "stanceDiff": 0.1285,
@@ -680,7 +680,7 @@
         {
           "text": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
           "heading": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.3659,
           "meritocracy": 0.2877,
           "stanceDiff": 0.0782,
@@ -713,11 +713,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 3,
         "belonging_culture": 0,
+        "absent": 1,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 3
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.001,
       "inclusionQuotes": [
@@ -744,7 +744,7 @@
         {
           "text": "Snap Inc. the parent company of Snapchat, is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, ",
           "heading": "",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3382,
           "meritocracy": 0.2704,
           "stanceDiff": 0.0678,
@@ -754,7 +754,7 @@
         {
           "text": "Snap Inc. the parent company of Snapchat, is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, ",
           "heading": "",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3006,
           "meritocracy": 0.2328,
           "stanceDiff": 0.0679,
@@ -786,7 +786,7 @@
         {
           "text": "Snap Inc. the parent company of Snapchat, is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, ",
           "heading": "",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3382,
           "meritocracy": 0.2704,
           "stanceDiff": 0.0678,
@@ -796,7 +796,7 @@
         {
           "text": "Snap Inc. the parent company of Snapchat, is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, ",
           "heading": "",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.3006,
           "meritocracy": 0.2328,
           "stanceDiff": 0.0679,
@@ -817,13 +817,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 2,
-        "belonging_culture": 2,
+        "belonging_culture": 1,
+        "absent": 4,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 4
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0451,
       "inclusionQuotes": [
@@ -850,7 +850,7 @@
         {
           "text": "Read about our public commitment to diversity, equity, and inclusion in our 2024 Diversity Annual Report. We believe that when we can see the world from other people’s perspectives, we come to understand why DEI is so essential. We are then inspired to take action and become personally invested in creating meaningful change. Employee Resource Groups (ERGs) at Snap bring together a community of ind",
           "heading": "",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4831,
           "meritocracy": 0.2802,
           "stanceDiff": 0.2029,
@@ -943,13 +943,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 2,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 4,
+        "aspirational_vague": 0,
+        "belonging_culture": 1,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 5
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.053,
       "inclusionQuotes": [
@@ -966,7 +966,7 @@
         {
           "text": "Read about our commitment to Belonging at Snap We believe in building innovative and inclusive products for our global community, finding the best talent anywhere, and cultivating an environment where everyone belongs. Employee Resource Groups (ERGs) at Snap bring together a community of individuals who share similar aspect(s) of their identities, creating engaging and safe spaces for identifying ",
           "heading": "",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4684,
           "meritocracy": 0.3052,
           "stanceDiff": 0.1633,
@@ -976,7 +976,7 @@
         {
           "text": "We believe the camera presents the greatest opportunity to improve the way people live and communicate. Hear from our leadership on what it's like to work at Snap, Inc. and how we live our values of kind, smart, and creative every day. We celebrated 14 Years of Snap! To honor another trip around the sun, we shined a spotlight on what makes Snap such a special place to be at — our kind, smart, and ",
           "heading": "",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.416,
           "meritocracy": 0.3237,
           "stanceDiff": 0.0924,
@@ -996,7 +996,7 @@
         {
           "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms",
           "heading": "Better Together",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3591,
           "meritocracy": 0.3643,
           "stanceDiff": -0.0052,
@@ -1018,7 +1018,7 @@
         {
           "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms",
           "heading": "Better Together",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3591,
           "meritocracy": 0.3643,
           "stanceDiff": -0.0052,
@@ -1028,7 +1028,7 @@
         {
           "text": "We believe the camera presents the greatest opportunity to improve the way people live and communicate. Hear from our leadership on what it's like to work at Snap, Inc. and how we live our values of kind, smart, and creative every day. We celebrated 14 Years of Snap! To honor another trip around the sun, we shined a spotlight on what makes Snap such a special place to be at — our kind, smart, and ",
           "heading": "",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.416,
           "meritocracy": 0.3237,
           "stanceDiff": 0.0924,
@@ -1048,7 +1048,7 @@
         {
           "text": "Read about our commitment to Belonging at Snap We believe in building innovative and inclusive products for our global community, finding the best talent anywhere, and cultivating an environment where everyone belongs. Employee Resource Groups (ERGs) at Snap bring together a community of individuals who share similar aspect(s) of their identities, creating engaging and safe spaces for identifying ",
           "heading": "",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4684,
           "meritocracy": 0.3052,
           "stanceDiff": 0.1633,

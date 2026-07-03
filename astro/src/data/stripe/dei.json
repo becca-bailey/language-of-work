@@ -19,9 +19,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 3,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 3
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0126,
       "inclusionQuotes": [
@@ -105,9 +105,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0281,
       "inclusionQuotes": [
@@ -171,9 +171,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0159,
       "inclusionQuotes": [
@@ -297,9 +297,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 4,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 4
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0034,
       "inclusionQuotes": [
@@ -403,9 +403,9 @@
         "structural_process": 0,
         "aspirational_vague": 2,
         "belonging_culture": 0,
+        "absent": 5,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 5
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.013,
       "inclusionQuotes": [
@@ -529,9 +529,9 @@
         "structural_process": 0,
         "aspirational_vague": 2,
         "belonging_culture": 1,
+        "absent": 3,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 3
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0291,
       "inclusionQuotes": [
@@ -655,9 +655,9 @@
         "structural_process": 0,
         "aspirational_vague": 2,
         "belonging_culture": 1,
+        "absent": 4,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 4
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0016,
       "inclusionQuotes": [
@@ -779,11 +779,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 1,
-        "aspirational_vague": 3,
+        "aspirational_vague": 7,
         "belonging_culture": 3,
-        "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 31
+        "absent": 27,
+        "meritocracy": 1,
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.1077,
       "inclusionQuotes": [
@@ -800,7 +800,7 @@
         {
           "text": "We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well. The kind of people who are committed to going out of their way to help other Stripes in the short-term and pushing them to improve over the long-term (by helping them to get better at what they do). We’re a highly cross-functional organization and view that as part of the fun: we design our space ",
           "heading": "What’s it like to work at Stripe?",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5991,
           "meritocracy": 0.5434,
           "stanceDiff": 0.0557,
@@ -820,7 +820,7 @@
         {
           "text": "Through the tools that we build, we want to push the world to create better products and services. We try to take a broad view of what our work adds up to and believe in taking seriously the full long-term consequences of what we create. We won’t just climb the profit gradient. While we’re opinionated in determining what to build, we strive for neutrality in deciding who gets access to the results",
           "heading": "The Stripe service",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5146,
           "meritocracy": 0.465,
           "stanceDiff": 0.0496,
@@ -852,7 +852,7 @@
         {
           "text": "We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well. The kind of people who are committed to going out of their way to help other Stripes in the short-term and pushing them to improve over the long-term (by helping them to get better at what they do). We’re a highly cross-functional organization and view that as part of the fun: we design our space ",
           "heading": "What’s it like to work at Stripe?",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5991,
           "meritocracy": 0.5434,
           "stanceDiff": 0.0557,
@@ -903,13 +903,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 2,
         "structural_process": 1,
-        "aspirational_vague": 5,
-        "belonging_culture": 2,
-        "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 45
+        "aspirational_vague": 6,
+        "belonging_culture": 0,
+        "absent": 44,
+        "meritocracy": 1,
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.103,
       "inclusionQuotes": [
@@ -926,7 +926,7 @@
         {
           "text": "By the standards of the rest of the world, we overtrust. We’re okay with that. We treat each other with the same humility that we bring to our business. Many companies have a “no asshole” rule. We think that bar is far too low. We want to work in a company of deeply good people who treat their colleagues exceptionally well. No matter how talented, we won’t hire jerks. There’s a delicate balance be",
           "heading": "Trust and amplify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5363,
           "meritocracy": 0.608,
           "stanceDiff": -0.0717,
@@ -936,7 +936,7 @@
         {
           "text": "Through the tools that we build, we want to push the world to create better products and services. We try to take a broad view of what our work adds up to and believe in taking seriously the full long-term consequences of what we create. We won’t just climb the profit gradient. While we’re opinionated in determining what to build, we strive for neutrality in deciding who gets access to the results",
           "heading": "The Stripe service",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5146,
           "meritocracy": 0.465,
           "stanceDiff": 0.0496,
@@ -968,7 +968,7 @@
         {
           "text": "By the standards of the rest of the world, we overtrust. We’re okay with that. We treat each other with the same humility that we bring to our business. Many companies have a “no asshole” rule. We think that bar is far too low. We want to work in a company of deeply good people who treat their colleagues exceptionally well. No matter how talented, we won’t hire jerks. There’s a delicate balance be",
           "heading": "Trust and amplify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5363,
           "meritocracy": 0.608,
           "stanceDiff": -0.0717,
@@ -1031,18 +1031,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 1,
-        "aspirational_vague": 1,
-        "belonging_culture": 2,
-        "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 27
+        "aspirational_vague": 2,
+        "belonging_culture": 1,
+        "absent": 27,
+        "meritocracy": 1,
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0601,
       "inclusionQuotes": [
         {
           "text": "By the standards of the rest of the world, we overtrust. We’re okay with that. We treat each other with the same humility that we bring to our business. Many companies have a “no asshole” rule. We think that bar is far too low. We want to work in a company of deeply good people who treat their colleagues exceptionally well. No matter how talented, we won’t hire jerks. There’s a delicate balance be",
           "heading": "Trust and amplify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5363,
           "meritocracy": 0.608,
           "stanceDiff": -0.0717,
@@ -1094,7 +1094,7 @@
         {
           "text": "By the standards of the rest of the world, we overtrust. We’re okay with that. We treat each other with the same humility that we bring to our business. Many companies have a “no asshole” rule. We think that bar is far too low. We want to work in a company of deeply good people who treat their colleagues exceptionally well. No matter how talented, we won’t hire jerks. There’s a delicate balance be",
           "heading": "Trust and amplify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5363,
           "meritocracy": 0.608,
           "stanceDiff": -0.0717,
@@ -1156,12 +1156,12 @@
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
-        "structural_process": 3,
-        "aspirational_vague": 2,
-        "belonging_culture": 3,
-        "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 42
+        "structural_process": 1,
+        "aspirational_vague": 5,
+        "belonging_culture": 2,
+        "absent": 42,
+        "meritocracy": 1,
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0457,
       "inclusionQuotes": [
@@ -1188,7 +1188,7 @@
         {
           "text": "Through the tools that we build, we want to push the world to create better products and services. We try to take a broad view of what our work adds up to and believe in taking seriously the full long-term consequences of what we create. We won’t just climb the profit gradient. While we’re opinionated in determining what to build, we strive for neutrality in deciding who gets access to the results",
           "heading": "The Stripe service",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5146,
           "meritocracy": 0.465,
           "stanceDiff": 0.0496,
@@ -1283,11 +1283,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 2,
+        "aspirational_vague": 2,
+        "belonging_culture": 0,
+        "absent": 22,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 21
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0388,
       "inclusionQuotes": [
@@ -1334,7 +1334,7 @@
         {
           "text": "Curious. We lead with a genuine interest in people, ideas, and the unknown. We work hard to understand other points of view, and prefer investigating to being right. Resilient. Startups are tumultuous places and the audacity of our goals will mean occasional failure. We view setbacks as opportunities to sharpen our skills. Humble. Stripes are humble, not arrogant or complacent, and create an inclu",
           "heading": "Who we are",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4574,
           "meritocracy": 0.4547,
           "stanceDiff": 0.0027,
@@ -1386,7 +1386,7 @@
         {
           "text": "Curious. We lead with a genuine interest in people, ideas, and the unknown. We work hard to understand other points of view, and prefer investigating to being right. Resilient. Startups are tumultuous places and the audacity of our goals will mean occasional failure. We view setbacks as opportunities to sharpen our skills. Humble. Stripes are humble, not arrogant or complacent, and create an inclu",
           "heading": "Who we are",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4574,
           "meritocracy": 0.4547,
           "stanceDiff": 0.0027,
@@ -1408,12 +1408,12 @@
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
-        "structural_process": 1,
+        "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 3,
-        "meritocracy": 1,
-        "civilizational_mission": 0,
-        "absent": 22
+        "belonging_culture": 1,
+        "absent": 26,
+        "meritocracy": 0,
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.1071,
       "inclusionQuotes": [
@@ -1536,10 +1536,10 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 3,
+        "belonging_culture": 1,
+        "absent": 25,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 23
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
@@ -1662,10 +1662,10 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 1,
+        "belonging_culture": 0,
+        "absent": 22,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 21
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0098,
       "inclusionQuotes": [

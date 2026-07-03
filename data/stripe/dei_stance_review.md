@@ -21,48 +21,45 @@
 - neutral: 4
 
 ## 2018
-- affirming_dei: 3
-- neutral: 4
+- affirming_dei: 2
+- neutral: 5
 
 ## 2019
-- affirming_dei: 5
-- neutral: 30
-- mission_focus_apolitical: 1
+- affirming_dei: 2
+- neutral: 34
 - performance_elite: 2
 
 ## 2020
-- affirming_dei: 7
-- neutral: 36
-- mission_focus_apolitical: 1
-- performance_elite: 9
-
-## 2021
-- affirming_dei: 1
-- neutral: 22
+- affirming_dei: 5
+- neutral: 40
 - mission_focus_apolitical: 1
 - performance_elite: 7
 
-## 2022
-- affirming_dei: 1
-- neutral: 39
+## 2021
+- neutral: 22
 - mission_focus_apolitical: 1
-- performance_elite: 9
+- performance_elite: 8
+
+## 2022
+- neutral: 43
+- mission_focus_apolitical: 1
+- performance_elite: 6
 
 ## 2023
-- affirming_dei: 2
-- neutral: 19
+- affirming_dei: 1
+- neutral: 20
 - performance_elite: 3
 
 ## 2024
 - affirming_dei: 2
-- neutral: 22
-- performance_elite: 4
+- neutral: 25
+- performance_elite: 1
 
 ## 2025
-- affirming_dei: 2
-- neutral: 24
+- affirming_dei: 1
+- neutral: 25
 - performance_elite: 1
 
 ## 2026
-- neutral: 19
-- performance_elite: 4
+- neutral: 22
+- performance_elite: 1

@@ -45,7 +45,7 @@ Tie-breakers:
 1. If a chunk mixes registers, choose the DOMINANT one.
 2. Naming a specific demographic group in a workforce/employer context IS enough for explicit_demographic — a numeric target is not required. ERGs, spotlights, and support statements for a named group → explicit_demographic.
 3. Generic "diversity" / "inclusion" / "varying backgrounds" that names NO specific group → aspirational_vague, not explicit_demographic.
-4. Demographics purely in CUSTOMER, patient, or societal-impact context (not the company's own workforce) → absent.
+4. Demographics purely in CUSTOMER, patient, or societal-impact context (not the company's own workforce) → absent. This includes CSR / philanthropy / community content: foundation grants, community volunteering, youth or education programs, supplier and producer sustainability. Words like "underserved," "diverse backgrounds," or even named groups describing program BENEFICIARIES or the surrounding community are NOT employer inclusion language.
 5. "Hire the best" / engineering excellence / merit-vs-identity contrast / civilizational framing → absent (measured on the stance axis, not here).
 6. EEO/legal boilerplate alone → absent unless substantive DEI commitments beyond compliance.
 
@@ -67,6 +67,14 @@ Calibration examples (trust these over surface keywords):
 
 → absent (generic mission):
 "We solve hard problems with data." / "We build software that helps organizations make better decisions."
+
+→ absent (CSR / philanthropy / community — about beneficiaries, not the workforce):
+"Contributing positively to our communities and environment is a guiding principle of our mission. We encourage and reward volunteerism and participation in organizations that are important to our partners."
+"Our Foundation funds programs for underserved youth that embrace diversity and build bridges of understanding among youth of diverse ethnic, racial and socio-economic backgrounds."
+"We have a strong commitment to coffee producers, their families and communities."
+
+→ aspirational_vague, NOT explicit_demographic (generic diversity of thought, no group named):
+"The sort of creativity that only comes about when talented people from diverse backgrounds approach problems from varying perspectives."
 
 Respond with a JSON array, one object per chunk, in input order:
 [{"id": "<chunk id>", "register": "<register>"}]

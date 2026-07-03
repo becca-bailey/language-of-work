@@ -27,9 +27,9 @@
 - neutral: 4
 
 ## 2025
-- affirming_dei: 8
-- neutral: 8
+- affirming_dei: 7
+- neutral: 9
 
 ## 2026
-- affirming_dei: 3
-- neutral: 8
+- affirming_dei: 2
+- neutral: 9

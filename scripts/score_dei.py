@@ -16,7 +16,7 @@ import pandas as pd
 from lowork.axes import project, topk_mean
 from lowork.chunking import dedup_chunks
 from lowork.config import AXES_DIR, TOP_K, company_dir
-from lowork.dei import DEI_REGISTERS
+from lowork.dei import ACTIVE_DEI_REGISTERS, DEI_REGISTERS
 from lowork.dei_stance import COUNTER_DEI_STANCES, DEI_STANCES
 from lowork.io import read_json, write_json
 from lowork.text_filter import is_english
@@ -35,6 +35,7 @@ def _quote_row(row: pd.Series, score_col: str) -> dict:
         "text": str(row["text"])[:400],
         "heading": row.get("heading", ""),
         "register": row.get("register"),
+        "stance": row.get("stance"),
         "inclusion": round(float(row["inclusion"]), 4),
         "meritocracy": round(float(row["meritocracy"]), 4),
         "stanceDiff": round(float(row["stance_diff"]), 4),
@@ -83,6 +84,9 @@ def main(company: str) -> None:
     rows = []
     evidence: dict[str, dict] = {"inclusion": {}, "meritocracy": {}, "envelope": {}}
     prior_texts: set[str] | None = None
+    # Per-chunk labels for the story highlight curation: every deduped analysis
+    # chunk that carries a DEI signal on either axis (register or stance).
+    chunk_labels: dict[str, dict] = {}
 
     for year, raw_group in mission.groupby("year"):
         year = int(year)
@@ -119,6 +123,14 @@ def main(company: str) -> None:
         max_idx = int(group["stance_diff"].idxmax())
         min_idx = int(group["stance_diff"].idxmin())
 
+        # Label-aware inclusion quote for the chart tooltip: the most salient
+        # chunk in an ACTIVE register that year. Falls back to the embedding
+        # argmax (stanceMaxQuote) when no chunk carries an active register.
+        inclusion_quote = None
+        active_sub = group[group["register"].isin(ACTIVE_DEI_REGISTERS)]
+        if not active_sub.empty:
+            inclusion_quote = _quote_row(active_sub.loc[active_sub["salience"].idxmax()], "stance_diff")
+
         counter_quote = None
         civ = group[group["stance"] == "civilizational_mission"]
         if not civ.empty:
@@ -132,6 +144,19 @@ def main(company: str) -> None:
         current_texts = set(group["text"].tolist())
         churn = _text_churn(current_texts, prior_texts)
         prior_texts = current_texts
+
+        for row in group.itertuples():
+            reg = getattr(row, "register", None)
+            stance = getattr(row, "stance", None)
+            if (reg and reg != "absent") or (stance and stance != "neutral"):
+                chunk_labels[str(row.chunk_id)] = {
+                    "year": year,
+                    "text": str(row.text)[:400],
+                    "heading": getattr(row, "heading", "") or "",
+                    "register": reg,
+                    "stance": stance,
+                    "salience": round(float(row.salience), 4),
+                }
 
         reg_counts = Counter(group["register"].dropna())
         reg_dict = {r: int(reg_counts.get(r, 0)) for r in DEI_REGISTERS}
@@ -178,11 +203,13 @@ def main(company: str) -> None:
             "stanceMaxQuote": _quote_row(group.loc[max_idx], "stance_diff"),
             "stanceMinQuote": _quote_row(group.loc[min_idx], "stance_diff"),
             "stanceCounterQuote": counter_quote,
+            "inclusionQuote": inclusion_quote,
         }
 
     out_df = pd.DataFrame(rows).sort_values("year")
     out_df.to_parquet(cdir / "dei_scores.parquet", index=False)
     write_json(cdir / "dei_evidence.json", evidence)
+    write_json(cdir / "dei_chunk_labels.json", chunk_labels)
     print(f"Wrote {cdir / 'dei_scores.parquet'} ({len(out_df)} years)")
 
 

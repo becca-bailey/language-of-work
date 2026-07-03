@@ -18,10 +18,10 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 1,
+        "belonging_culture": 0,
+        "absent": 16,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 15
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0157,
       "inclusionQuotes": [
@@ -48,7 +48,7 @@
         {
           "text": "We pair innovation and passion with cutting loose and having fun: racing around on RipStiks; playing Bughouse chess, a hand of poker, or a game of Risk; rocking out in our music room; and embarking on all-night coding binges for new features and ideas. Our language team rewrites the site in Pirate English, just for kicks. (Why upload photos when you can \"hoist a portrait\"?) There's also an Ultimat",
           "heading": "How We Roll",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4042,
           "meritocracy": 0.3649,
           "stanceDiff": 0.0392,
@@ -90,7 +90,7 @@
         {
           "text": "We pair innovation and passion with cutting loose and having fun: racing around on RipStiks; playing Bughouse chess, a hand of poker, or a game of Risk; rocking out in our music room; and embarking on all-night coding binges for new features and ideas. Our language team rewrites the site in Pirate English, just for kicks. (Why upload photos when you can \"hoist a portrait\"?) There's also an Ultimat",
           "heading": "How We Roll",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4042,
           "meritocracy": 0.3649,
           "stanceDiff": 0.0392,
@@ -145,9 +145,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 18,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 18
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0369,
       "inclusionQuotes": [
@@ -271,9 +271,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 18,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 18
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0711,
       "inclusionQuotes": [
@@ -397,9 +397,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 1,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 1
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0827,
       "inclusionQuotes": [
@@ -443,9 +443,9 @@
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0299,
       "inclusionQuotes": [
@@ -569,9 +569,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0027,
       "inclusionQuotes": [
@@ -695,9 +695,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 8
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0035,
       "inclusionQuotes": [
@@ -817,13 +817,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 3,
+        "belonging_culture": 1,
+        "absent": 18,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 17
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0298,
       "inclusionQuotes": [
@@ -840,7 +840,7 @@
         {
           "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
           "heading": "Be yourself",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.6221,
           "meritocracy": 0.5276,
           "stanceDiff": 0.0945,
@@ -882,7 +882,7 @@
         {
           "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
           "heading": "Be yourself",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.6221,
           "meritocracy": 0.5276,
           "stanceDiff": 0.0945,
@@ -943,20 +943,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 1,
+        "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0352,
       "inclusionQuotes": [
         {
           "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
           "heading": "Be yourself",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.6221,
           "meritocracy": 0.5276,
           "stanceDiff": 0.0945,
@@ -1008,7 +1008,7 @@
         {
           "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
           "heading": "Be yourself",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.6221,
           "meritocracy": 0.5276,
           "stanceDiff": 0.0945,
@@ -1071,18 +1071,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
-        "belonging_culture": 1,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
+        "absent": 6,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 6
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.063,
       "inclusionQuotes": [
         {
           "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
           "heading": "Be yourself",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.6221,
           "meritocracy": 0.5276,
           "stanceDiff": 0.0945,
@@ -1134,7 +1134,7 @@
         {
           "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
           "heading": "Be yourself",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.6221,
           "meritocracy": 0.5276,
           "stanceDiff": 0.0945,
@@ -1195,20 +1195,20 @@
       "kUsed": 3,
       "thin": true,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 2,
         "structural_process": 0,
-        "aspirational_vague": 2,
+        "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 1,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 1
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0745,
       "inclusionQuotes": [
         {
           "text": "Jumpstart your career – and do important work. An internship program for students from underrepresented communities. Move Fast. Be Bold. Be Yourself. Diversity is a must-have for Facebook, not an option. Veterans play a key role in helping us achieve our mission. Learn about our hiring process and what to expect. We make sure you have the resources and care for you to thrive. You have questions? W",
           "heading": "",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4295,
           "meritocracy": 0.336,
           "stanceDiff": 0.0935,
@@ -1218,7 +1218,7 @@
         {
           "text": "Jumpstart your career – and do important work. An internship program for students from underrepresented communities. Move Fast. Be Bold. Be Yourself. Diversity is a must-have for Facebook, not an option. Veterans play a key role in helping us achieve our mission. Learn about our hiring process and what to expect. We make sure you have the resources and care for you to thrive. You have questions? W",
           "heading": "",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4267,
           "meritocracy": 0.3193,
           "stanceDiff": 0.1074,
@@ -1240,7 +1240,7 @@
         {
           "text": "Jumpstart your career – and do important work. An internship program for students from underrepresented communities. Move Fast. Be Bold. Be Yourself. Diversity is a must-have for Facebook, not an option. Veterans play a key role in helping us achieve our mission. Learn about our hiring process and what to expect. We make sure you have the resources and care for you to thrive. You have questions? W",
           "heading": "",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4295,
           "meritocracy": 0.336,
           "stanceDiff": 0.0935,
@@ -1250,7 +1250,7 @@
         {
           "text": "Jumpstart your career – and do important work. An internship program for students from underrepresented communities. Move Fast. Be Bold. Be Yourself. Diversity is a must-have for Facebook, not an option. Veterans play a key role in helping us achieve our mission. Learn about our hiring process and what to expect. We make sure you have the resources and care for you to thrive. You have questions? W",
           "heading": "",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4267,
           "meritocracy": 0.3193,
           "stanceDiff": 0.1074,
@@ -1281,13 +1281,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 12,
         "structural_process": 0,
-        "aspirational_vague": 12,
-        "belonging_culture": 1,
+        "aspirational_vague": 2,
+        "belonging_culture": 2,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 5
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0233,
       "inclusionQuotes": [
@@ -1314,7 +1314,7 @@
         {
           "text": "We welcome employees from all faiths and spiritual groups to practice and celebrate their beliefs. We believe that enabling an open dialog to foster understanding of different belief systems creates an environment that is truly open and inclusive.",
           "heading": "Interfaith@",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5628,
           "meritocracy": 0.4327,
           "stanceDiff": 0.1302,
@@ -1334,7 +1334,7 @@
         {
           "text": "We are committed to connecting and building a community of women who feel open and connected to each other. We empower women through professional development opportunities and engage with men as equal partners in advancing gender diversity and inclusion. We celebrate the unique contributions of women to Facebook.",
           "heading": "Women@",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5524,
           "meritocracy": 0.3448,
           "stanceDiff": 0.2076,
@@ -1356,7 +1356,7 @@
         {
           "text": "We welcome employees from all faiths and spiritual groups to practice and celebrate their beliefs. We believe that enabling an open dialog to foster understanding of different belief systems creates an environment that is truly open and inclusive.",
           "heading": "Interfaith@",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5628,
           "meritocracy": 0.4327,
           "stanceDiff": 0.1302,
@@ -1386,7 +1386,7 @@
         {
           "text": "We focus on creating an open culture for all LGBTQ employees at Facebook. From partnering with community organizations, to celebrating in Pride parades around the world, we're committed to building community and bringing the world closer together. We're proud to have earned a 100% rating on the Human Rights Campaign Corporate Equality Index report.",
           "heading": "Pride@",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5208,
           "meritocracy": 0.3697,
           "stanceDiff": 0.1511,
@@ -1407,13 +1407,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
-        "structural_process": 1,
-        "aspirational_vague": 10,
-        "belonging_culture": 2,
+        "explicit_demographic": 9,
+        "structural_process": 0,
+        "aspirational_vague": 4,
+        "belonging_culture": 1,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 3
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0194,
       "inclusionQuotes": [
@@ -1440,7 +1440,7 @@
         {
           "text": "We welcome employees from all faiths and spiritual groups to practice and celebrate their beliefs. We believe that enabling an open dialog to foster understanding of different belief systems creates an environment that is truly open and inclusive.",
           "heading": "Interfaith@",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5628,
           "meritocracy": 0.4327,
           "stanceDiff": 0.1302,
@@ -1460,7 +1460,7 @@
         {
           "text": "We are committed to connecting and building a community of women who feel open and connected to each other. We empower women through professional development opportunities and engage with men as equal partners in advancing gender diversity and inclusion. We celebrate the unique contributions of women to Facebook.",
           "heading": "Women@",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5524,
           "meritocracy": 0.3448,
           "stanceDiff": 0.2076,
@@ -1482,7 +1482,7 @@
         {
           "text": "We welcome employees from all faiths and spiritual groups to practice and celebrate their beliefs. We believe that enabling an open dialog to foster understanding of different belief systems creates an environment that is truly open and inclusive.",
           "heading": "Interfaith@",
-          "register": "belonging_culture",
+          "register": "explicit_demographic",
           "inclusion": 0.5628,
           "meritocracy": 0.4327,
           "stanceDiff": 0.1302,
@@ -1512,7 +1512,7 @@
         {
           "text": "We focus on creating an open culture for all LGBTQ employees at Facebook. From partnering with community organizations, to celebrating in Pride parades around the world, we're committed to building community and bringing the world closer together. We're proud to have earned a 100% rating on the Human Rights Campaign Corporate Equality Index report.",
           "heading": "Pride@",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5208,
           "meritocracy": 0.3697,
           "stanceDiff": 0.1511,
@@ -1534,12 +1534,12 @@
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
-        "structural_process": 1,
-        "aspirational_vague": 3,
+        "structural_process": 0,
+        "aspirational_vague": 6,
         "belonging_culture": 2,
+        "absent": 11,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 13
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0701,
       "inclusionQuotes": [
@@ -1586,7 +1586,7 @@
         {
           "text": "Facebook provides a variety of programs to help people who work here find community, tackle bias, and participate in building an inclusive workspace so we can all do the best work of our careers.",
           "heading": "Career Development",
-          "register": "structural_process",
+          "register": "aspirational_vague",
           "inclusion": 0.5435,
           "meritocracy": 0.3563,
           "stanceDiff": 0.1872,
@@ -1661,11 +1661,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
-        "belonging_culture": 2,
+        "aspirational_vague": 1,
+        "belonging_culture": 1,
+        "absent": 0,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 0
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0222,
       "inclusionQuotes": [
@@ -1682,7 +1682,7 @@
         {
           "text": "Build the future of how people connect. At Meta, everything we do is about helping people feel connected and closer. It’s in our technologies, our mission and how we collaborate. Working collectively and valuing each person for the differences we bring allows us all to do more. The pace is fast and the challenges are enormous, but this is how we thrive. These six values guide how we work, each and",
           "heading": "Create Career Profile",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4886,
           "meritocracy": 0.4183,
           "stanceDiff": 0.0703,
@@ -1704,7 +1704,7 @@
         {
           "text": "Build the future of how people connect. At Meta, everything we do is about helping people feel connected and closer. It’s in our technologies, our mission and how we collaborate. Working collectively and valuing each person for the differences we bring allows us all to do more. The pace is fast and the challenges are enormous, but this is how we thrive. These six values guide how we work, each and",
           "heading": "Create Career Profile",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4886,
           "meritocracy": 0.4183,
           "stanceDiff": 0.0703,
@@ -1727,11 +1727,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
-        "belonging_culture": 2,
+        "aspirational_vague": 1,
+        "belonging_culture": 1,
+        "absent": 0,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 0
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
@@ -1748,7 +1748,7 @@
         {
           "text": "Build the future of how people connect. At Meta, everything we do is about helping people feel connected and closer. It’s in our technologies, our mission and how we collaborate. Working collectively and valuing each person for the differences we bring allows us all to do more. The pace is fast and the challenges are enormous, but this is how we thrive. These six values guide how we work, each and",
           "heading": "",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4886,
           "meritocracy": 0.4183,
           "stanceDiff": 0.0703,
@@ -1770,7 +1770,7 @@
         {
           "text": "Build the future of how people connect. At Meta, everything we do is about helping people feel connected and closer. It’s in our technologies, our mission and how we collaborate. Working collectively and valuing each person for the differences we bring allows us all to do more. The pace is fast and the challenges are enormous, but this is how we thrive. These six values guide how we work, each and",
           "heading": "",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4886,
           "meritocracy": 0.4183,
           "stanceDiff": 0.0703,
@@ -1795,9 +1795,9 @@
         "structural_process": 0,
         "aspirational_vague": 3,
         "belonging_culture": 0,
+        "absent": 9,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 9
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0039,
       "inclusionQuotes": [
@@ -1921,9 +1921,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 11,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 11
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0032,
       "inclusionQuotes": [

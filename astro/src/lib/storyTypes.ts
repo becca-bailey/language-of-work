@@ -4,6 +4,7 @@ export interface StoryEnvelopeQuote {
   text: string;
   heading?: string;
   register?: string | null;
+  stance?: string | null;
   stanceDiff?: number;
   inclusion?: number;
   meritocracy?: number;
@@ -67,6 +68,8 @@ export interface StoryYearPoint {
   stanceMaxQuote?: StoryEnvelopeQuote | null;
   stanceMinQuote?: StoryEnvelopeQuote | null;
   stanceCounterQuote?: StoryEnvelopeQuote | null;
+  /** Most salient chunk in an active DEI register that year (label-aware tooltip quote). */
+  inclusionQuote?: StoryEnvelopeQuote | null;
   /** Bipolar DEI stance axis projection. */
   bipolarTopkMean?: number;
   bipolarMax?: number;

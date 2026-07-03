@@ -19,9 +19,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0069,
       "inclusionQuotes": [
@@ -145,9 +145,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0518,
       "inclusionQuotes": [
@@ -271,9 +271,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 11,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 11
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0211,
       "inclusionQuotes": [
@@ -397,9 +397,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
@@ -463,9 +463,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 9,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 9
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0696,
       "inclusionQuotes": [
@@ -585,13 +585,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
-        "structural_process": 1,
-        "aspirational_vague": 2,
-        "belonging_culture": 1,
+        "explicit_demographic": 1,
+        "structural_process": 0,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 6
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0498,
       "inclusionQuotes": [
@@ -608,7 +608,7 @@
         {
           "text": "We want a team that’s ready to do their best work, and excited to learn and grow with us – no matter what age.",
           "heading": "18 to 62",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5581,
           "meritocracy": 0.6015,
           "stanceDiff": -0.0434,
@@ -618,7 +618,7 @@
         {
           "text": "We’re proud to help our team grow their families with childcare benefits and flexible work hours.",
           "heading": "39 babies",
-          "register": "structural_process",
+          "register": "absent",
           "inclusion": 0.544,
           "meritocracy": 0.381,
           "stanceDiff": 0.1631,
@@ -628,7 +628,7 @@
         {
           "text": "We care about growing great people Your personal growth is important to us, and we’ll give you everything you need to make it happen: learning budgets, mentorship opportunities, one-on-one coaching, skill development workshops, you name it. We encourage you to experiment, take risks, and pursue the things you care about. And if you make a mistake? That's ok – learn from it, and share your experien",
           "heading": "Life at Shopify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5035,
           "meritocracy": 0.4555,
           "stanceDiff": 0.048,
@@ -660,7 +660,7 @@
         {
           "text": "We want a team that’s ready to do their best work, and excited to learn and grow with us – no matter what age.",
           "heading": "18 to 62",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5581,
           "meritocracy": 0.6015,
           "stanceDiff": -0.0434,
@@ -670,7 +670,7 @@
         {
           "text": "We care about growing great people Your personal growth is important to us, and we’ll give you everything you need to make it happen: learning budgets, mentorship opportunities, one-on-one coaching, skill development workshops, you name it. We encourage you to experiment, take risks, and pursue the things you care about. And if you make a mistake? That's ok – learn from it, and share your experien",
           "heading": "Life at Shopify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5035,
           "meritocracy": 0.4555,
           "stanceDiff": 0.048,
@@ -711,13 +711,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
-        "structural_process": 1,
-        "aspirational_vague": 2,
-        "belonging_culture": 2,
+        "explicit_demographic": 1,
+        "structural_process": 0,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 4
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0813,
       "inclusionQuotes": [
@@ -734,7 +734,7 @@
         {
           "text": "We want a team that’s ready to do their best work, and excited to learn and grow with us – no matter what age.",
           "heading": "18 to 62",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5581,
           "meritocracy": 0.6015,
           "stanceDiff": -0.0434,
@@ -744,7 +744,7 @@
         {
           "text": "We’re proud to help our team grow their families with childcare benefits and flexible work hours.",
           "heading": "39 babies",
-          "register": "structural_process",
+          "register": "absent",
           "inclusion": 0.544,
           "meritocracy": 0.381,
           "stanceDiff": 0.1631,
@@ -754,7 +754,7 @@
         {
           "text": "We care about growing great people Your personal growth is important to us, and we’ll give you everything you need to make it happen: learning budgets, mentorship opportunities, one-on-one coaching, skill development workshops, you name it. We encourage you to experiment, take risks, and pursue the things you care about. And if you make a mistake? That’s ok – learn from it, and share your experien",
           "heading": "Life at Shopify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5087,
           "meritocracy": 0.461,
           "stanceDiff": 0.0477,
@@ -764,7 +764,7 @@
         {
           "text": "We care about growing great people Your personal growth is important to us, and we’ll give you everything you need to make it happen: learning budgets, mentorship opportunities, one-on-one coaching, skill development workshops, you name it. We encourage you to experiment, take risks, and pursue the things you care about. And if you make a mistake? That's ok – learn from it, and share your experien",
           "heading": "Life at Shopify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5035,
           "meritocracy": 0.4555,
           "stanceDiff": 0.048,
@@ -786,7 +786,7 @@
         {
           "text": "We want a team that’s ready to do their best work, and excited to learn and grow with us – no matter what age.",
           "heading": "18 to 62",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.5581,
           "meritocracy": 0.6015,
           "stanceDiff": -0.0434,
@@ -796,7 +796,7 @@
         {
           "text": "We care about growing great people Your personal growth is important to us, and we’ll give you everything you need to make it happen: learning budgets, mentorship opportunities, one-on-one coaching, skill development workshops, you name it. We encourage you to experiment, take risks, and pursue the things you care about. And if you make a mistake? That’s ok – learn from it, and share your experien",
           "heading": "Life at Shopify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5087,
           "meritocracy": 0.461,
           "stanceDiff": 0.0477,
@@ -806,7 +806,7 @@
         {
           "text": "We care about growing great people Your personal growth is important to us, and we’ll give you everything you need to make it happen: learning budgets, mentorship opportunities, one-on-one coaching, skill development workshops, you name it. We encourage you to experiment, take risks, and pursue the things you care about. And if you make a mistake? That's ok – learn from it, and share your experien",
           "heading": "Life at Shopify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5035,
           "meritocracy": 0.4555,
           "stanceDiff": 0.048,
@@ -840,17 +840,17 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 2,
+        "belonging_culture": 1,
+        "absent": 5,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 4
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0504,
       "inclusionQuotes": [
         {
           "text": "We care about growing great people Your personal growth is important to us, and we’ll give you everything you need to make it happen: learning budgets, mentorship opportunities, one-on-one coaching, skill development workshops, you name it. We encourage you to experiment, take risks, and pursue the things you care about. And if you make a mistake? That’s ok – learn from it, and share your experien",
           "heading": "Life at Shopify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5087,
           "meritocracy": 0.461,
           "stanceDiff": 0.0477,
@@ -912,7 +912,7 @@
         {
           "text": "We care about growing great people Your personal growth is important to us, and we’ll give you everything you need to make it happen: learning budgets, mentorship opportunities, one-on-one coaching, skill development workshops, you name it. We encourage you to experiment, take risks, and pursue the things you care about. And if you make a mistake? That’s ok – learn from it, and share your experien",
           "heading": "Life at Shopify",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5087,
           "meritocracy": 0.461,
           "stanceDiff": 0.0477,
@@ -967,9 +967,9 @@
         "structural_process": 0,
         "aspirational_vague": 2,
         "belonging_culture": 0,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 8
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0944,
       "inclusionQuotes": [
@@ -1093,9 +1093,9 @@
         "structural_process": 0,
         "aspirational_vague": 2,
         "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.09,
       "inclusionQuotes": [
@@ -1217,11 +1217,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 1,
+        "aspirational_vague": 2,
+        "belonging_culture": 0,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 8
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0387,
       "inclusionQuotes": [
@@ -1320,7 +1320,7 @@
         {
           "text": "We’re astrophysicists, high school dropouts, salsa dancers, and business owners. The path to Shopify is never a straight line, but the common thread is our ability to thrive on change, operate with trust, and celebrate the diverse perspectives of our people in all that we do. This is Shopify.",
           "heading": "Our team spirit looks a lot like entrepreneurial spirit",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4184,
           "meritocracy": 0.4166,
           "stanceDiff": 0.0018,
@@ -1343,18 +1343,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
-        "belonging_culture": 3,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
+        "absent": 12,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 10
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0087,
       "inclusionQuotes": [
         {
           "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been.",
           "heading": "Our team spirit looks like entrepreneurial spirit",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4724,
           "meritocracy": 0.4584,
           "stanceDiff": 0.0139,
@@ -1394,7 +1394,7 @@
         {
           "text": "We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been. As technologists, we are fortunate to have such highly sought-after skills. Shopify is where I can ask, 'how am I making the world a better place?'",
           "heading": "Our team spirit looks like entrepreneurial spirit",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4476,
           "meritocracy": 0.4071,
           "stanceDiff": 0.0405,
@@ -1406,7 +1406,7 @@
         {
           "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been.",
           "heading": "Our team spirit looks like entrepreneurial spirit",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4724,
           "meritocracy": 0.4584,
           "stanceDiff": 0.0139,
@@ -1436,7 +1436,7 @@
         {
           "text": "We’re astrophysicists, high school dropouts, salsa dancers, and business owners. The path to Shopify is never a straight line, but the common thread is our ability to thrive on change, operate with trust, and celebrate the diverse perspectives of our people in all that we do. This is Shopify.",
           "heading": "Our team spirit looks a lot like entrepreneurial spirit",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4184,
           "meritocracy": 0.4166,
           "stanceDiff": 0.0018,
@@ -1446,7 +1446,7 @@
         {
           "text": "We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been. As technologists, we are fortunate to have such highly sought-after skills. Shopify is where I can ask, 'how am I making the world a better place?'",
           "heading": "Our team spirit looks like entrepreneurial spirit",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4476,
           "meritocracy": 0.4071,
           "stanceDiff": 0.0405,
@@ -1470,17 +1470,17 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 3,
+        "belonging_culture": 0,
+        "absent": 15,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 12
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0433,
       "inclusionQuotes": [
         {
           "text": "Committed to a better way of working The world is changing and we’re changing with it. Digital by design is about building new ways of connecting, collaborating, and building relationships. We’ve always been a company that looks at the world a little differently. It’s how we’ve attracted some of the world’s most curious, creative, and thoughtful humans, united around a belief that commerce can be ",
           "heading": "Committed to a better way of working",
-          "register": "aspirational_vague",
+          "register": "absent",
           "inclusion": 0.4848,
           "meritocracy": 0.3731,
           "stanceDiff": 0.1117,
@@ -1490,7 +1490,7 @@
         {
           "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been.",
           "heading": "Who we are",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4724,
           "meritocracy": 0.4584,
           "stanceDiff": 0.0139,
@@ -1500,7 +1500,7 @@
         {
           "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been. As technologists, we are fortunate to have such highly sought-after skills. Shopify is where I can ask, 'how am I making the world a better place?'",
           "heading": "Who we are",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4614,
           "meritocracy": 0.4347,
           "stanceDiff": 0.0268,
@@ -1510,7 +1510,7 @@
         {
           "text": "The mental, emotional, and physical well being of our people is paramount. That’s why our Digital by Design environment enables you to take time to recharge in the ways that make sense for you. We don’t prescribe solutions. We create space and opportunity for people to make the choices that are best for their unique circumstances.",
           "heading": "It starts with you",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4572,
           "meritocracy": 0.3938,
           "stanceDiff": 0.0634,
@@ -1532,7 +1532,7 @@
         {
           "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been.",
           "heading": "Who we are",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.4724,
           "meritocracy": 0.4584,
           "stanceDiff": 0.0139,
@@ -1542,7 +1542,7 @@
         {
           "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been. As technologists, we are fortunate to have such highly sought-after skills. Shopify is where I can ask, 'how am I making the world a better place?'",
           "heading": "Who we are",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4614,
           "meritocracy": 0.4347,
           "stanceDiff": 0.0268,
@@ -1562,7 +1562,7 @@
         {
           "text": "The mental, emotional, and physical well being of our people is paramount. That’s why our Digital by Design environment enables you to take time to recharge in the ways that make sense for you. We don’t prescribe solutions. We create space and opportunity for people to make the choices that are best for their unique circumstances.",
           "heading": "It starts with you",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4572,
           "meritocracy": 0.3938,
           "stanceDiff": 0.0634,
@@ -1597,9 +1597,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "meritocracy": 2,
-        "civilizational_mission": 0,
-        "absent": 18
+        "absent": 20,
+        "meritocracy": 1,
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0893,
       "inclusionQuotes": [
@@ -1616,7 +1616,7 @@
         {
           "text": "This is not zero-sum work. Our product enables entrepreneurship to create new value for the world and unlocks unlimited personal growth for the people who build it. We all get shit done, ship fast, and learn. We operate on low process and high trust, and trade on impact. You have to care deeply about what you’re doing, and commit to continuously developing your craft, to keep pace here. That means",
           "heading": "# Things you should know",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4996,
           "meritocracy": 0.538,
           "stanceDiff": -0.0383,
@@ -1626,7 +1626,7 @@
         {
           "text": "This is not zero-sum work. Our product enables entrepreneurship to create new value for the world and unlocks unlimited personal growth for the people who build it. We all get shit done, ship fast, and learn. We operate on low process and high trust, and trade on impact. You have to care deeply about what you’re doing, and commit to continuously developing your craft, to keep pace here. That means",
           "heading": "# Things you should know",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4984,
           "meritocracy": 0.5552,
           "stanceDiff": -0.0568,
@@ -1658,7 +1658,7 @@
         {
           "text": "This is not zero-sum work. Our product enables entrepreneurship to create new value for the world and unlocks unlimited personal growth for the people who build it. We all get shit done, ship fast, and learn. We operate on low process and high trust, and trade on impact. You have to care deeply about what you’re doing, and commit to continuously developing your craft, to keep pace here. That means",
           "heading": "# Things you should know",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4984,
           "meritocracy": 0.5552,
           "stanceDiff": -0.0568,
@@ -1688,7 +1688,7 @@
         {
           "text": "This is not zero-sum work. Our product enables entrepreneurship to create new value for the world and unlocks unlimited personal growth for the people who build it. We all get shit done, ship fast, and learn. We operate on low process and high trust, and trade on impact. You have to care deeply about what you’re doing, and commit to continuously developing your craft, to keep pace here. That means",
           "heading": "# Things you should know",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4996,
           "meritocracy": 0.538,
           "stanceDiff": -0.0383,
@@ -1721,11 +1721,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
-        "meritocracy": 6,
-        "civilizational_mission": 0,
-        "absent": 12
+        "absent": 17,
+        "meritocracy": 3,
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0481,
       "inclusionQuotes": [
@@ -1742,7 +1742,7 @@
         {
           "text": "This is not zero-sum work. Our product enables entrepreneurship to create new value for the world and unlocks unlimited personal growth for the people who build it. We all get shit done, ship fast, and learn. We operate on low process and high trust, and trade on impact. You have to care deeply about what you’re doing, and commit to continuously developing your craft, to keep pace here. That means",
           "heading": "# Things you should know",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4984,
           "meritocracy": 0.5552,
           "stanceDiff": -0.0568,
@@ -1752,7 +1752,7 @@
         {
           "text": "Joining our team means working with the most driven crafters who pursue mastery. But growth isn’t just an opportunity, it’s an expectation. With resources to help you, you’ll be pushing yourself out of your comfort zone. Shopify is a platform company singularly focused on creating a world with more entrepreneurs, which we believe causes positive societal effects. While we respect everyone’s right ",
           "heading": "Constant learning, constant discomfort",
-          "register": "meritocracy",
+          "register": "aspirational_vague",
           "inclusion": 0.4837,
           "meritocracy": 0.416,
           "stanceDiff": 0.0677,
@@ -1784,7 +1784,7 @@
         {
           "text": "This is not zero-sum work. Our product enables entrepreneurship to create new value for the world and unlocks unlimited personal growth for the people who build it. We all get shit done, ship fast, and learn. We operate on low process and high trust, and trade on impact. You have to care deeply about what you’re doing, and commit to continuously developing your craft, to keep pace here. That means",
           "heading": "# Things you should know",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4984,
           "meritocracy": 0.5552,
           "stanceDiff": -0.0568,
@@ -1804,7 +1804,7 @@
         {
           "text": "From astrophysicists to Reddit influencers, pro gamers to Olympic athletes, founders and entrepreneurs to Shopify merchants, Shopify has a history of hiring people with alternative proof of achieving something difficult. This is what that means to us:",
           "heading": "Being extraordinary",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4307,
           "meritocracy": 0.5057,
           "stanceDiff": -0.075,
@@ -1814,7 +1814,7 @@
         {
           "text": "Shopify is a company of world-class crafters. We reject the status quo. We experiment, observe, and iterate — at high speeds with high rates of improvement — to make entrepreneurship a glorious thing. Moving fast to Get Shit Done requires resilience to uncertainty. Growth isn’t just an opportunity here, it’s an expectation. If you prefer a prescriptive corporate structure and an in-person office e",
           "heading": "# Not everyone can do this",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4187,
           "meritocracy": 0.4639,
           "stanceDiff": -0.0452,
@@ -1849,16 +1849,16 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "meritocracy": 2,
-        "civilizational_mission": 0,
-        "absent": 6
+        "absent": 8,
+        "meritocracy": 1,
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0571,
       "inclusionQuotes": [
         {
           "text": "We get why other companies want you to apply to a specific job — it's their org chart. Makes sense, for them. Shopify? We default to the most important work rather than adhering to prescriptive roles – and we hire the same way. We hire the best people and match their expertise to our most exciting work.",
           "heading": "Find your Quest",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.5004,
           "meritocracy": 0.5459,
           "stanceDiff": -0.0455,
@@ -1898,7 +1898,7 @@
         {
           "text": "Shopify is a company of world-class crafters. We reject the status quo. We experiment, observe, and iterate — at high speeds with high rates of improvement — to make entrepreneurship a glorious thing. Moving fast to Get Shit Done requires resilience to uncertainty. Growth isn’t just an opportunity here, it’s an expectation. If you prefer a prescriptive corporate structure and an in-person office e",
           "heading": "# Not everyone can do this",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4127,
           "meritocracy": 0.4608,
           "stanceDiff": -0.0481,
@@ -1910,7 +1910,7 @@
         {
           "text": "We get why other companies want you to apply to a specific job — it's their org chart. Makes sense, for them. Shopify? We default to the most important work rather than adhering to prescriptive roles – and we hire the same way. We hire the best people and match their expertise to our most exciting work.",
           "heading": "Find your Quest",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.5004,
           "meritocracy": 0.5459,
           "stanceDiff": -0.0455,
@@ -1920,7 +1920,7 @@
         {
           "text": "Shopify is a company of world-class crafters. We reject the status quo. We experiment, observe, and iterate — at high speeds with high rates of improvement — to make entrepreneurship a glorious thing. Moving fast to Get Shit Done requires resilience to uncertainty. Growth isn’t just an opportunity here, it’s an expectation. If you prefer a prescriptive corporate structure and an in-person office e",
           "heading": "# Not everyone can do this",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4127,
           "meritocracy": 0.4608,
           "stanceDiff": -0.0481,
@@ -1975,9 +1975,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "meritocracy": 2,
-        "civilizational_mission": 0,
-        "absent": 42
+        "absent": 44,
+        "meritocracy": 0,
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.1226,
       "inclusionQuotes": [
@@ -2036,7 +2036,7 @@
         {
           "text": "There is an artistry to finding the best trade-offs. These are all spectrums. They're not binary. Experiments benefit from sacrificing some quality in favor of time, and infrastructure projects are likely to double down on quality even if it takes longer. With good people, you don't have to make these tradeoffs. Exceptional teams can find creative ways to deliver both speed and quality, regardless",
           "heading": "3. Is it infrastructure, a feature, or an experiment?",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.3936,
           "meritocracy": 0.4852,
           "stanceDiff": -0.0916,
@@ -2046,7 +2046,7 @@
         {
           "text": "Shopify is a company of world-class crafters. We reject the status quo. We experiment, observe, and iterate — at high speeds with high rates of improvement — to make entrepreneurship a glorious thing. Moving fast to Get Shit Done requires resilience to uncertainty. Growth isn’t just an opportunity here, it’s an expectation. If you prefer a prescriptive corporate structure and an in-person office e",
           "heading": "# Not everyone can do this",
-          "register": "meritocracy",
+          "register": "absent",
           "inclusion": 0.4127,
           "meritocracy": 0.4608,
           "stanceDiff": -0.0481,

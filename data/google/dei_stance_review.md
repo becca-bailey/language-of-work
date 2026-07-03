@@ -1,78 +1,81 @@
 # DEI stance by year
 
 ## 2005
-- affirming_dei: 3
-- neutral: 2
+- affirming_dei: 1
+- neutral: 4
 
 ## 2006
 - affirming_dei: 1
 - neutral: 1
 
 ## 2007
-- affirming_dei: 1
-- neutral: 4
+- affirming_dei: 2
+- neutral: 3
 
 ## 2008
 - neutral: 2
 
 ## 2009
-- neutral: 1
+- affirming_dei: 1
 
 ## 2010
-- neutral: 2
+- affirming_dei: 1
+- neutral: 1
 
 ## 2011
 - neutral: 1
 
 ## 2012
-- neutral: 33
+- affirming_dei: 1
+- neutral: 32
 
 ## 2013
-- neutral: 2
+- affirming_dei: 1
+- neutral: 1
 
 ## 2014
-- affirming_dei: 1
-- neutral: 34
+- affirming_dei: 5
+- neutral: 30
 
 ## 2015
-- affirming_dei: 1
-- neutral: 26
+- affirming_dei: 4
+- neutral: 23
 
 ## 2016
-- affirming_dei: 2
-- neutral: 20
+- affirming_dei: 3
+- neutral: 19
 
 ## 2017
-- affirming_dei: 2
-- neutral: 12
+- affirming_dei: 4
+- neutral: 10
 
 ## 2018
-- affirming_dei: 19
-- neutral: 12
+- affirming_dei: 20
+- neutral: 11
 
 ## 2019
-- affirming_dei: 54
-- neutral: 7
+- affirming_dei: 51
+- neutral: 10
 
 ## 2020
-- affirming_dei: 42
-- neutral: 8
+- affirming_dei: 34
+- neutral: 16
 
 ## 2021
 - affirming_dei: 15
 
 ## 2022
-- affirming_dei: 32
-- neutral: 3
+- affirming_dei: 20
+- neutral: 15
 
 ## 2023
-- affirming_dei: 21
-- neutral: 6
+- affirming_dei: 13
+- neutral: 14
 
 ## 2024
-- affirming_dei: 20
-- neutral: 5
+- affirming_dei: 11
+- neutral: 14
 
 ## 2025
-- affirming_dei: 31
-- neutral: 15
+- affirming_dei: 15
+- neutral: 31

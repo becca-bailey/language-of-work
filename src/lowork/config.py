@@ -23,9 +23,11 @@ WEB_DATA_DIR = ROOT / "astro" / "src" / "data"
 EMBEDDING_MODEL = "text-embedding-3-large"
 EMBEDDING_DIMENSIONS = 3072
 CLASSIFIER_MODEL = "claude-haiku-4-5-20251001"
-# DEI register classification is a nuanced 7-way call (workforce-vs-customer demographics,
-# ERG-vs-commitment, meritocracy-as-contrast) where Haiku misses subtlety — use Sonnet.
-REGISTER_MODEL = "claude-sonnet-5"
+# DEI register classification is a nuanced call (workforce-vs-customer demographics,
+# ERG-vs-commitment, CSR-vs-workplace). Haiku needed Sonnet before the prompt carried
+# calibration examples; with them it validates at 0.96 vs Sonnet's 0.92 on the
+# hand-labeled sample (2026-07), so it's the default for cost and speed.
+REGISTER_MODEL = "claude-haiku-4-5-20251001"
 JUDGE_MODEL = "claude-sonnet-4-5-20250929"
 
 # Chunking targets

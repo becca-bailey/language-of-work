@@ -19,9 +19,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 1,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 1
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0694,
       "inclusionQuotes": [
@@ -64,17 +64,17 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 1,
+        "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 1
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0865,
       "inclusionQuotes": [
         {
           "text": "There's a freedom and openness to working at HubSpot that takes a lot of people by surprise. But the good kind of surprise, like a birthday party.",
           "heading": "Culture",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3691,
           "meritocracy": 0.3726,
           "stanceDiff": -0.0035,
@@ -96,7 +96,7 @@
         {
           "text": "There's a freedom and openness to working at HubSpot that takes a lot of people by surprise. But the good kind of surprise, like a birthday party.",
           "heading": "Culture",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3691,
           "meritocracy": 0.3726,
           "stanceDiff": -0.0035,
@@ -130,17 +130,17 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 2,
+        "belonging_culture": 0,
+        "absent": 3,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 1
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0632,
       "inclusionQuotes": [
         {
           "text": "There's a freedom and openness to working at HubSpot that takes a lot of people by surprise. But the good kind of surprise, like a birthday party.",
           "heading": "Culture",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3691,
           "meritocracy": 0.3726,
           "stanceDiff": -0.0035,
@@ -150,7 +150,7 @@
         {
           "text": "All global movements start with great people and bold ideas. At HubSpot, we set out with a big mission to transform the way people work and grow through the power of inbound. We're building a once and a lifetime company and we want you to be apart of it. \"I love working at HubSpot because I'm inspired to work as hard and smart as my peers. The people I work with aren't coworkers, they're friends.\"",
           "heading": "Join an amazing team of HubSpotters",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3678,
           "meritocracy": 0.3459,
           "stanceDiff": 0.0219,
@@ -172,7 +172,7 @@
         {
           "text": "There's a freedom and openness to working at HubSpot that takes a lot of people by surprise. But the good kind of surprise, like a birthday party.",
           "heading": "Culture",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3691,
           "meritocracy": 0.3726,
           "stanceDiff": -0.0035,
@@ -182,7 +182,7 @@
         {
           "text": "All global movements start with great people and bold ideas. At HubSpot, we set out with a big mission to transform the way people work and grow through the power of inbound. We're building a once and a lifetime company and we want you to be apart of it. \"I love working at HubSpot because I'm inspired to work as hard and smart as my peers. The people I work with aren't coworkers, they're friends.\"",
           "heading": "Join an amazing team of HubSpotters",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3678,
           "meritocracy": 0.3459,
           "stanceDiff": 0.0219,
@@ -213,20 +213,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 2,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 14,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 12
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0175,
       "inclusionQuotes": [
         {
           "text": "At HubSpot, our founders set out to change how companies market and sell to match how modern consumers shop and buy. Customers deserve respect, in the form of less interruption, more relevance. Our software helps businesses earn the attention of their customers instead of just renting it. Similarly, we believe it’s the ultimate sign of respect to empower employees to grow into entrepreneurs and le",
           "heading": "Respect",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4059,
           "meritocracy": 0.3844,
           "stanceDiff": 0.0215,
@@ -236,7 +236,7 @@
         {
           "text": "A 100 Best Workplace for Women and Best Workplace in Tech by Fortune.com",
           "heading": "Award-Winning Workplace",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4017,
           "meritocracy": 0.2699,
           "stanceDiff": 0.1318,
@@ -266,7 +266,7 @@
         {
           "text": "There’s more to life than work. As a HubSpotter, you’re encouraged and supported in finding a healthy personal and professional life balance. In our offices, you’ll have access to many perks and free activities to help you enjoy your work and bond with your team members. We allow employees to work flexible hours that suit them and their families, and to work remotely when necessary. Beyond the nat",
           "heading": "Balance",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3215,
           "meritocracy": 0.2756,
           "stanceDiff": 0.0459,
@@ -278,7 +278,7 @@
         {
           "text": "At HubSpot, our founders set out to change how companies market and sell to match how modern consumers shop and buy. Customers deserve respect, in the form of less interruption, more relevance. Our software helps businesses earn the attention of their customers instead of just renting it. Similarly, we believe it’s the ultimate sign of respect to empower employees to grow into entrepreneurs and le",
           "heading": "Respect",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4059,
           "meritocracy": 0.3844,
           "stanceDiff": 0.0215,
@@ -308,7 +308,7 @@
         {
           "text": "There’s more to life than work. As a HubSpotter, you’re encouraged and supported in finding a healthy personal and professional life balance. In our offices, you’ll have access to many perks and free activities to help you enjoy your work and bond with your team members. We allow employees to work flexible hours that suit them and their families, and to work remotely when necessary. Beyond the nat",
           "heading": "Balance",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3215,
           "meritocracy": 0.2756,
           "stanceDiff": 0.0459,
@@ -339,20 +339,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 3,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 5
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
         {
           "text": "At HubSpot, our founders set out to change how companies market and sell to match how modern consumers shop and buy. Customers deserve respect, in the form of less interruption, more relevance. Our software helps businesses earn the attention of their customers instead of just renting it. Similarly, we believe it’s the ultimate sign of respect to empower employees to grow into entrepreneurs and le",
           "heading": "Respect",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4059,
           "meritocracy": 0.3844,
           "stanceDiff": 0.0215,
@@ -362,7 +362,7 @@
         {
           "text": "A 100 Best Workplace for Women and Best Workplace in Tech by Fortune.com",
           "heading": "Award-Winning Workplace",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.4017,
           "meritocracy": 0.2699,
           "stanceDiff": 0.1318,
@@ -372,7 +372,7 @@
         {
           "text": "As an employee of HubSpot, you’re more than just a person who works here. You’ll play an important role in building our company, in Japan and beyond. You’ll be joining a team of people who work together to accomplish a big vision over a long tenure at HubSpot. Our employees consistently rate HubSpot as one of the best places to work, resulting in numerous awards for our positive workplace and cult",
           "heading": "What makes HubSpot the right employer for you?",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3905,
           "meritocracy": 0.3688,
           "stanceDiff": 0.0217,
@@ -392,7 +392,7 @@
         {
           "text": "There’s more to life than work. As a HubSpotter, you’re encouraged and supported in finding a healthy personal and professional life balance. In our offices, you’ll have access to many perks and free activities to help you enjoy your work and bond with your team members. We allow employees to work flexible hours that suit them and their families, and to work remotely when necessary. Beyond the nat",
           "heading": "Balance",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3215,
           "meritocracy": 0.2756,
           "stanceDiff": 0.0459,
@@ -404,7 +404,7 @@
         {
           "text": "At HubSpot, our founders set out to change how companies market and sell to match how modern consumers shop and buy. Customers deserve respect, in the form of less interruption, more relevance. Our software helps businesses earn the attention of their customers instead of just renting it. Similarly, we believe it’s the ultimate sign of respect to empower employees to grow into entrepreneurs and le",
           "heading": "Respect",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4059,
           "meritocracy": 0.3844,
           "stanceDiff": 0.0215,
@@ -414,7 +414,7 @@
         {
           "text": "As an employee of HubSpot, you’re more than just a person who works here. You’ll play an important role in building our company, in Japan and beyond. You’ll be joining a team of people who work together to accomplish a big vision over a long tenure at HubSpot. Our employees consistently rate HubSpot as one of the best places to work, resulting in numerous awards for our positive workplace and cult",
           "heading": "What makes HubSpot the right employer for you?",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3905,
           "meritocracy": 0.3688,
           "stanceDiff": 0.0217,
@@ -434,7 +434,7 @@
         {
           "text": "There’s more to life than work. As a HubSpotter, you’re encouraged and supported in finding a healthy personal and professional life balance. In our offices, you’ll have access to many perks and free activities to help you enjoy your work and bond with your team members. We allow employees to work flexible hours that suit them and their families, and to work remotely when necessary. Beyond the nat",
           "heading": "Balance",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.3215,
           "meritocracy": 0.2756,
           "stanceDiff": 0.0459,
@@ -466,12 +466,12 @@
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
-        "structural_process": 1,
+        "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 3,
+        "belonging_culture": 2,
+        "absent": 6,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 4
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0596,
       "inclusionQuotes": [
@@ -498,7 +498,7 @@
         {
           "text": "The first rule of company culture used to be that you didn’t talk about it. Culture should just happen. Talking about your company’s DNA might taint it. Or worse, ruin it. But that’s changed. Today, everybody talks about culture. In fact, the first rule of Culture Club is that you do talk about culture. Culture has gone mainstream, in a good way. The more we talk about culture, the more we can thi",
           "heading": "How We Fixed a Critical Bug in HubSpot's Culture Code",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4184,
           "meritocracy": 0.3778,
           "stanceDiff": 0.0406,
@@ -508,7 +508,7 @@
         {
           "text": "But, as many MBAs will tell you, the most valuable takeaway from business school is the networking. That's why, when designing the reboot of the Fellows program, we wanted to facilitate the same networking opportunities for HubSpotters. We were intentional in choosing participants who represented a wide cross-section of departments and global offices (Cambridge, Dublin, Sydney, and Singapore). Thi",
           "heading": "How Employees Can Get an MBA at the Office",
-          "register": "structural_process",
+          "register": "absent",
           "inclusion": 0.3861,
           "meritocracy": 0.3548,
           "stanceDiff": 0.0313,
@@ -540,7 +540,7 @@
         {
           "text": "The first rule of company culture used to be that you didn’t talk about it. Culture should just happen. Talking about your company’s DNA might taint it. Or worse, ruin it. But that’s changed. Today, everybody talks about culture. In fact, the first rule of Culture Club is that you do talk about culture. Culture has gone mainstream, in a good way. The more we talk about culture, the more we can thi",
           "heading": "How We Fixed a Critical Bug in HubSpot's Culture Code",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.4184,
           "meritocracy": 0.3778,
           "stanceDiff": 0.0406,
@@ -560,7 +560,7 @@
         {
           "text": "But, as many MBAs will tell you, the most valuable takeaway from business school is the networking. That's why, when designing the reboot of the Fellows program, we wanted to facilitate the same networking opportunities for HubSpotters. We were intentional in choosing participants who represented a wide cross-section of departments and global offices (Cambridge, Dublin, Sydney, and Singapore). Thi",
           "heading": "How Employees Can Get an MBA at the Office",
-          "register": "structural_process",
+          "register": "absent",
           "inclusion": 0.3861,
           "meritocracy": 0.3548,
           "stanceDiff": 0.0313,
@@ -591,20 +591,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
-        "structural_process": 5,
-        "aspirational_vague": 4,
-        "belonging_culture": 3,
+        "explicit_demographic": 1,
+        "structural_process": 2,
+        "aspirational_vague": 3,
+        "belonging_culture": 5,
+        "absent": 3,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.1551,
       "inclusionQuotes": [
         {
           "text": "32. Add another suggestion to this list! 33. Network and keep tabs on standout people. Connect on LinkedIn, check in from time to time, and keep them warm for recruiting down the line. 34. Go to affinity group events -- both internal and external. Share your learnings with your colleagues. 35. Watch Google’s Unconscious Bias training video. 36. Interview based on competencies and potential vs. str",
           "heading": "53 Little Things You Can Do to Impact Diversity at Your Company",
-          "register": "aspirational_vague",
+          "register": "structural_process",
           "inclusion": 0.5095,
           "meritocracy": 0.3187,
           "stanceDiff": 0.1908,
@@ -624,7 +624,7 @@
         {
           "text": "11. Take this test to understand your implicit bias . 12. Prompt someone who’s reticent to share their thoughts. Managers, ask how people who are not being heard how they’d prefer to contribute (written, verbal, etc.), and what barriers stand in their way. 13. Ask your peers in another office what is happening in their office/country. 14. Create an anonymous survey for your team, and ask how they ",
           "heading": "53 Little Things You Can Do to Impact Diversity at Your Company",
-          "register": "aspirational_vague",
+          "register": "structural_process",
           "inclusion": 0.5017,
           "meritocracy": 0.299,
           "stanceDiff": 0.2027,
@@ -634,7 +634,7 @@
         {
           "text": "52. Accept that you may not have all of the answers, and that’s okay. I’d love to make this list longer. If you’re doing something at your company that’s not listed here, please comment below or tweet us @hubspot . Special thanks to Winston Tuggle, Melissa Obleada, People Of Color at HubSpot (POCaH), and Katie Burke for their ideas and help with this post.",
           "heading": "53 Little Things You Can Do to Impact Diversity at Your Company",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.405,
           "meritocracy": 0.3298,
           "stanceDiff": 0.0752,
@@ -644,7 +644,7 @@
         {
           "text": "In her seminal work, Lean In , well-known Silicon Valley mom, Sheryl Sandberg , recounts being extremely pregnant and having to waddle-run across the entire length of a Google parking lot one morning due to a lack of “pregnancy parking.” The thought of such a policy, says Sandberg, “had never occurred to me. The other pregnant women must have suffered in silence, not wanting to ask for special tre",
           "heading": "Working Moms: The Difference Between Inclusivity and \"Special Treatment\"",
-          "register": "structural_process",
+          "register": "belonging_culture",
           "inclusion": 0.3865,
           "meritocracy": 0.2807,
           "stanceDiff": 0.1059,
@@ -676,7 +676,7 @@
         {
           "text": "52. Accept that you may not have all of the answers, and that’s okay. I’d love to make this list longer. If you’re doing something at your company that’s not listed here, please comment below or tweet us @hubspot . Special thanks to Winston Tuggle, Melissa Obleada, People Of Color at HubSpot (POCaH), and Katie Burke for their ideas and help with this post.",
           "heading": "53 Little Things You Can Do to Impact Diversity at Your Company",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.405,
           "meritocracy": 0.3298,
           "stanceDiff": 0.0752,
@@ -686,7 +686,7 @@
         {
           "text": "32. Add another suggestion to this list! 33. Network and keep tabs on standout people. Connect on LinkedIn, check in from time to time, and keep them warm for recruiting down the line. 34. Go to affinity group events -- both internal and external. Share your learnings with your colleagues. 35. Watch Google’s Unconscious Bias training video. 36. Interview based on competencies and potential vs. str",
           "heading": "53 Little Things You Can Do to Impact Diversity at Your Company",
-          "register": "aspirational_vague",
+          "register": "structural_process",
           "inclusion": 0.5095,
           "meritocracy": 0.3187,
           "stanceDiff": 0.1908,
@@ -696,7 +696,7 @@
         {
           "text": "To become a great leader, I believe you first need to be a great learner. I’ve been very lucky to have been surrounded by some great teachers in my career, but it took me some time to appreciate what “surrounded” really meant. In the beginning of my career, I only looked upwards for help, advice and lessons. I assumed that my seniors would be the best source of knowledge, but have since realised t",
           "heading": "6 Things I've Learnt About Being a Middle Aged Millennial",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.361,
           "meritocracy": 0.3187,
           "stanceDiff": 0.0424,
@@ -719,11 +719,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 3,
+        "aspirational_vague": 2,
+        "belonging_culture": 1,
+        "absent": 16,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 15
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0841,
       "inclusionQuotes": [
@@ -750,7 +750,7 @@
         {
           "text": "Everyone from the C-suite to interns share information, knowledge, and ideas. Being radically transparent helps us all think like founders, and stay focused on solving for our customers.",
           "heading": "There's no inner circle.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5185,
           "meritocracy": 0.4954,
           "stanceDiff": 0.0231,
@@ -802,7 +802,7 @@
         {
           "text": "Everyone from the C-suite to interns share information, knowledge, and ideas. Being radically transparent helps us all think like founders, and stay focused on solving for our customers.",
           "heading": "There's no inner circle.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5185,
           "meritocracy": 0.4954,
           "stanceDiff": 0.0231,
@@ -822,7 +822,7 @@
         {
           "text": "We're building a culture at HubSpot where amazing people (like you) can do their best work. If you're ready to grow your career and help millions of organizations grow better, you've come to the right place.",
           "heading": "Let's grow together.",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.4783,
           "meritocracy": 0.4684,
           "stanceDiff": 0.0099,
@@ -843,13 +843,13 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 2,
+        "explicit_demographic": 8,
         "structural_process": 0,
-        "aspirational_vague": 7,
-        "belonging_culture": 3,
+        "aspirational_vague": 6,
+        "belonging_culture": 1,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 10
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0026,
       "inclusionQuotes": [
@@ -896,7 +896,7 @@
         {
           "text": "Building an inclusive environment is a team effort. Our programs, employee-led resource groups, and events are open to all. Here are just a few we think you'll love.",
           "heading": "We grow better together.",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.6419,
           "meritocracy": 0.4426,
           "stanceDiff": 0.1992,
@@ -971,11 +971,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 2,
+        "aspirational_vague": 2,
+        "belonging_culture": 0,
+        "absent": 16,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 15
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.022,
       "inclusionQuotes": [
@@ -1002,7 +1002,7 @@
         {
           "text": "However you identify or whatever your path here, please apply if you see a position that makes your heart skip a beat. Come join us and help us build a global company where we're all proud to belong.",
           "heading": "All Open Positions",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5808,
           "meritocracy": 0.5081,
           "stanceDiff": 0.0727,
@@ -1022,7 +1022,7 @@
         {
           "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
           "heading": "Employees are treated like people, not line items.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5053,
           "meritocracy": 0.466,
           "stanceDiff": 0.0393,
@@ -1044,7 +1044,7 @@
         {
           "text": "However you identify or whatever your path here, please apply if you see a position that makes your heart skip a beat. Come join us and help us build a global company where we're all proud to belong.",
           "heading": "All Open Positions",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5808,
           "meritocracy": 0.5081,
           "stanceDiff": 0.0727,
@@ -1098,10 +1098,10 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 1,
+        "belonging_culture": 0,
+        "absent": 16,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 15
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.017,
       "inclusionQuotes": [
@@ -1138,7 +1138,7 @@
         {
           "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
           "heading": "Employees are treated like people, not line items.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5053,
           "meritocracy": 0.466,
           "stanceDiff": 0.0393,
@@ -1200,7 +1200,7 @@
         {
           "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
           "heading": "Employees are treated like people, not line items.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5053,
           "meritocracy": 0.466,
           "stanceDiff": 0.0393,
@@ -1222,12 +1222,12 @@
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
-        "structural_process": 2,
-        "aspirational_vague": 4,
-        "belonging_culture": 2,
+        "structural_process": 1,
+        "aspirational_vague": 6,
+        "belonging_culture": 0,
+        "absent": 18,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 17
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0165,
       "inclusionQuotes": [
@@ -1274,7 +1274,7 @@
         {
           "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
           "heading": "Employees are treated like people, not line items.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5053,
           "meritocracy": 0.466,
           "stanceDiff": 0.0393,
@@ -1326,7 +1326,7 @@
         {
           "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
           "heading": "Employees are treated like people, not line items.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5053,
           "meritocracy": 0.466,
           "stanceDiff": 0.0393,
@@ -1350,10 +1350,10 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 1,
+        "belonging_culture": 0,
+        "absent": 16,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 15
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0378,
       "inclusionQuotes": [
@@ -1380,7 +1380,7 @@
         {
           "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
           "heading": "Employees are treated like people, not line items.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5053,
           "meritocracy": 0.466,
           "stanceDiff": 0.0393,
@@ -1452,7 +1452,7 @@
         {
           "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
           "heading": "Employees are treated like people, not line items.",
-          "register": "belonging_culture",
+          "register": "absent",
           "inclusion": 0.5053,
           "meritocracy": 0.466,
           "stanceDiff": 0.0393,
@@ -1477,9 +1477,9 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 7
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0425,
       "inclusionQuotes": [

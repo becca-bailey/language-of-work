@@ -1,8 +1,7 @@
 # DEI stance by year
 
 ## 2007
-- neutral: 1
-- performance_elite: 1
+- neutral: 2
 
 ## 2008
 - neutral: 2
@@ -11,7 +10,8 @@
 - neutral: 2
 
 ## 2013
-- neutral: 2
+- affirming_dei: 1
+- neutral: 1
 
 ## 2014
 - affirming_dei: 1
@@ -19,31 +19,31 @@
 
 ## 2016
 - affirming_dei: 1
-- neutral: 3
-- performance_elite: 13
+- neutral: 15
+- performance_elite: 1
 
 ## 2017
-- affirming_dei: 27
-- neutral: 20
+- affirming_dei: 21
+- neutral: 26
 
 ## 2018
-- affirming_dei: 29
-- neutral: 16
-- performance_elite: 6
+- affirming_dei: 20
+- neutral: 31
 
 ## 2019
 - affirming_dei: 1
-- neutral: 13
-- performance_elite: 4
+- neutral: 16
+- performance_elite: 1
 
 ## 2020
 - affirming_dei: 1
-- neutral: 13
-- performance_elite: 4
+- neutral: 16
+- performance_elite: 1
 
 ## 2021
 - affirming_dei: 1
-- neutral: 16
+- neutral: 15
+- performance_elite: 1
 
 ## 2022
 - neutral: 1

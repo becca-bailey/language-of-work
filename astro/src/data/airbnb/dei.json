@@ -18,10 +18,10 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 0,
+        "belonging_culture": 2,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 10
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0443,
       "inclusionQuotes": [
@@ -48,7 +48,7 @@
         {
           "text": "Create a global experience of belonging for anyone, anywhere. Those who work for, in, or around Airbnb agree to champion the mission by living it.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.4531,
           "meritocracy": 0.4058,
           "stanceDiff": 0.0473,
@@ -58,7 +58,7 @@
         {
           "text": "Serve others so they feel they belong. We stretch our empathy until our guests feel 100% appreciated. Everyone is a guest.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.4215,
           "meritocracy": 0.4148,
           "stanceDiff": 0.0068,
@@ -120,7 +120,7 @@
         {
           "text": "Serve others so they feel they belong. We stretch our empathy until our guests feel 100% appreciated. Everyone is a guest.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.4215,
           "meritocracy": 0.4148,
           "stanceDiff": 0.0068,
@@ -143,11 +143,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
+        "absent": 8,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 9
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0082,
       "inclusionQuotes": [
@@ -174,7 +174,7 @@
         {
           "text": "Passionate. Committed. Optimistic. Puts the Airbnb community first. Takes ownership and delivers results. Perpetuates belonging.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.447,
           "meritocracy": 0.4407,
           "stanceDiff": 0.0063,
@@ -226,7 +226,7 @@
         {
           "text": "Passionate. Committed. Optimistic. Puts the Airbnb community first. Takes ownership and delivers results. Perpetuates belonging.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.447,
           "meritocracy": 0.4407,
           "stanceDiff": 0.0063,
@@ -270,10 +270,10 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 0,
+        "belonging_culture": 2,
+        "absent": 12,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 14
+        "civilizational_mission": 0
       },
       "controlTopkMean": 0.0101,
       "inclusionQuotes": [
@@ -320,7 +320,7 @@
         {
           "text": "Passionate. Committed. Optimistic. Puts the Airbnb community first. Takes ownership and delivers results. Perpetuates belonging.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.447,
           "meritocracy": 0.4407,
           "stanceDiff": 0.0063,
@@ -362,7 +362,7 @@
         {
           "text": "Passionate. Committed. Optimistic. Puts the Airbnb community first. Takes ownership and delivers results. Perpetuates belonging.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.447,
           "meritocracy": 0.4407,
           "stanceDiff": 0.0063,
@@ -396,10 +396,10 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 1,
+        "belonging_culture": 2,
+        "absent": 5,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 6
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
@@ -416,7 +416,7 @@
         {
           "text": "No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.",
           "heading": "Together at Airbnb",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.4757,
           "meritocracy": 0.4913,
           "stanceDiff": -0.0155,
@@ -468,7 +468,7 @@
         {
           "text": "No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.",
           "heading": "Together at Airbnb",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.4757,
           "meritocracy": 0.4913,
           "stanceDiff": -0.0155,
@@ -521,11 +521,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 4,
         "belonging_culture": 2,
+        "absent": 7,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 10
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0713,
       "inclusionQuotes": [
@@ -552,7 +552,7 @@
         {
           "text": "We’re united with our community to create a world where anyone can belong anywhere.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5971,
           "meritocracy": 0.4717,
           "stanceDiff": 0.1254,
@@ -572,7 +572,7 @@
         {
           "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
           "heading": "Embrace the Adventure",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5299,
           "meritocracy": 0.5286,
           "stanceDiff": 0.0013,
@@ -604,7 +604,7 @@
         {
           "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
           "heading": "Embrace the Adventure",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5299,
           "meritocracy": 0.5286,
           "stanceDiff": 0.0013,
@@ -645,20 +645,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 0,
+        "aspirational_vague": 3,
+        "belonging_culture": 1,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 6
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0457,
       "inclusionQuotes": [
         {
           "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about diversity and belonging",
           "heading": "Include everyone",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.6378,
           "meritocracy": 0.4711,
           "stanceDiff": 0.1666,
@@ -668,7 +668,7 @@
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.6275,
           "meritocracy": 0.6008,
           "stanceDiff": 0.0267,
@@ -678,7 +678,7 @@
         {
           "text": "We’re united with our community to create a world where anyone can belong anywhere.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5971,
           "meritocracy": 0.4717,
           "stanceDiff": 0.1254,
@@ -688,7 +688,7 @@
         {
           "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
           "heading": "Embrace the Adventure",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5299,
           "meritocracy": 0.5286,
           "stanceDiff": 0.0013,
@@ -710,7 +710,7 @@
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.6275,
           "meritocracy": 0.6008,
           "stanceDiff": 0.0267,
@@ -720,7 +720,7 @@
         {
           "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
           "heading": "Embrace the Adventure",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5299,
           "meritocracy": 0.5286,
           "stanceDiff": 0.0013,
@@ -740,7 +740,7 @@
         {
           "text": "We’re united with our community to create a world where anyone can belong anywhere.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5971,
           "meritocracy": 0.4717,
           "stanceDiff": 0.1254,
@@ -750,7 +750,7 @@
         {
           "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about diversity and belonging",
           "heading": "Include everyone",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.6378,
           "meritocracy": 0.4711,
           "stanceDiff": 0.1666,
@@ -773,11 +773,11 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 0,
+        "aspirational_vague": 3,
+        "belonging_culture": 1,
+        "absent": 6,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 8
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0401,
       "inclusionQuotes": [
@@ -794,7 +794,7 @@
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.6275,
           "meritocracy": 0.6008,
           "stanceDiff": 0.0267,
@@ -804,7 +804,7 @@
         {
           "text": "We’re united with our community to create a world where anyone can belong anywhere.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5971,
           "meritocracy": 0.4717,
           "stanceDiff": 0.1254,
@@ -836,7 +836,7 @@
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.6275,
           "meritocracy": 0.6008,
           "stanceDiff": 0.0267,
@@ -866,7 +866,7 @@
         {
           "text": "We’re united with our community to create a world where anyone can belong anywhere.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5971,
           "meritocracy": 0.4717,
           "stanceDiff": 0.1254,
@@ -899,18 +899,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 0,
+        "aspirational_vague": 3,
+        "belonging_culture": 1,
+        "absent": 3,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 5
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0724,
       "inclusionQuotes": [
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.6275,
           "meritocracy": 0.6008,
           "stanceDiff": 0.0267,
@@ -930,7 +930,7 @@
         {
           "text": "We’re united with our community to create a world where anyone can belong anywhere.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5971,
           "meritocracy": 0.4717,
           "stanceDiff": 0.1254,
@@ -962,7 +962,7 @@
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "belonging_culture",
           "inclusion": 0.6275,
           "meritocracy": 0.6008,
           "stanceDiff": 0.0267,
@@ -1002,7 +1002,7 @@
         {
           "text": "We’re united with our community to create a world where anyone can belong anywhere.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5971,
           "meritocracy": 0.4717,
           "stanceDiff": 0.1254,
@@ -1023,20 +1023,20 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 1,
+        "aspirational_vague": 4,
+        "belonging_culture": 0,
+        "absent": 3,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 5
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0761,
       "inclusionQuotes": [
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.6275,
           "meritocracy": 0.6008,
           "stanceDiff": 0.0267,
@@ -1046,7 +1046,7 @@
         {
           "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about what makes Airbnb, Airbnb",
           "heading": "Include everyone",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.6081,
           "meritocracy": 0.4782,
           "stanceDiff": 0.1299,
@@ -1056,7 +1056,7 @@
         {
           "text": "We’re united with our community to create a world where anyone can belong anywhere.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5971,
           "meritocracy": 0.4717,
           "stanceDiff": 0.1254,
@@ -1066,7 +1066,7 @@
         {
           "text": "We believe that embracing differences within Airbnb's teams is key to promoting innovation and accessibility in our global community. We seek to host employees who express a diversity of cultures, interests, thinking, and identities. Just like each listing is unique, so is each person, and we work to build a culture where everyone can belong and thrive. \"Every day at Airbnb, I get to work with the",
           "heading": "Belong at Airbnb",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5527,
           "meritocracy": 0.4584,
           "stanceDiff": 0.0943,
@@ -1088,7 +1088,7 @@
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.6275,
           "meritocracy": 0.6008,
           "stanceDiff": 0.0267,
@@ -1108,7 +1108,7 @@
         {
           "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about what makes Airbnb, Airbnb",
           "heading": "Include everyone",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "inclusion": 0.6081,
           "meritocracy": 0.4782,
           "stanceDiff": 0.1299,
@@ -1128,7 +1128,7 @@
         {
           "text": "We’re united with our community to create a world where anyone can belong anywhere.",
           "heading": "Champion the Mission",
-          "register": "absent",
+          "register": "aspirational_vague",
           "inclusion": 0.5971,
           "meritocracy": 0.4717,
           "stanceDiff": 0.1254,
@@ -1151,18 +1151,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 1,
+        "aspirational_vague": 2,
+        "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": -0.0695,
       "inclusionQuotes": [
         {
           "text": "Creating connection and belonging in the world begins with a workplace where you're both welcomed and empowered to be your authentic self, so you can deliver your best work. We’re committed to ensuring Airbnb is a place where people of all backgrounds, identities, and experiences can thrive.",
           "heading": "We welcome you",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5473,
           "meritocracy": 0.4085,
           "stanceDiff": 0.1387,
@@ -1214,7 +1214,7 @@
         {
           "text": "Creating connection and belonging in the world begins with a workplace where you're both welcomed and empowered to be your authentic self, so you can deliver your best work. We’re committed to ensuring Airbnb is a place where people of all backgrounds, identities, and experiences can thrive.",
           "heading": "We welcome you",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5473,
           "meritocracy": 0.4085,
           "stanceDiff": 0.1387,
@@ -1257,18 +1257,18 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 1,
+        "aspirational_vague": 2,
+        "belonging_culture": 0,
+        "absent": 2,
         "meritocracy": 0,
-        "civilizational_mission": 0,
-        "absent": 2
+        "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
         {
           "text": "Creating connection and belonging in the world begins with a workplace where you're both welcomed and empowered to be your authentic self, so you can deliver your best work. We’re committed to ensuring Airbnb is a place where people of all backgrounds, identities, and experiences can thrive.",
           "heading": "We welcome you",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5473,
           "meritocracy": 0.4085,
           "stanceDiff": 0.1387,
@@ -1320,7 +1320,7 @@
         {
           "text": "Creating connection and belonging in the world begins with a workplace where you're both welcomed and empowered to be your authentic self, so you can deliver your best work. We’re committed to ensuring Airbnb is a place where people of all backgrounds, identities, and experiences can thrive.",
           "heading": "We welcome you",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "inclusion": 0.5473,
           "meritocracy": 0.4085,
           "stanceDiff": 0.1387,
