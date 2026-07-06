@@ -79,6 +79,11 @@ locus — WHO absorbs the adaptation cost when disruption hits:
 - structural: the organization changes its own staffing/scheduling/policy so the individual doesn't absorb it. Hard rules: company-wide shutdown = structural; minimum-enforced PTO = structural; backup childcare = structural.
 - ambiguous: genuinely unclear or mixed; do not force it.
 
+remote_flexibility locus is decided by PHRASING, because remote work cuts both ways (it restructures the company but also shifts overhead — internet, workspace — onto the worker):
+- structural when framed as the company's operating model: "distributed", "fully remote", "remote-first", "work from anywhere", "asynchronous"/"async by design", "we work from home".
+- individual when framed as personal autonomy or onus on the worker: "work whenever you work best", "flexible hours", "flexibility in your schedule", "flexibility to be there for life's moments".
+- ambiguous when it is a bare mention ("remote available", "hybrid") with neither framing.
+
 specificity — the falsifiability gradient:
 - enumerated_number: names a concrete number ("16 weeks", "5 days", "$2,000 stipend")
 - named_no_number: a named benefit with no number ("generous parental leave", "sabbatical program")
