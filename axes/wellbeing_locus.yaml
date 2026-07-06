@@ -1,0 +1,39 @@
+# Wellbeing locus axis: individual-locus <-> structural-locus wellbeing rhetoric.
+#
+# Same topic neighborhood as the `wellbeing` axis (care language), opposite dimension:
+# not "how much care" but *where the burden of wellbeing sits*. pole_a = the employee
+# is handed the tools and told to manage their own wellbeing (resilience, self-care, a
+# stipend, an app, "your journey"). pole_b = the organization changes its own staffing,
+# scheduling, coverage, and policy so recovery does not depend on individual willpower.
+#
+# This axis carries the substitution hypothesis (H2): as leverage returns, care rhetoric
+# individualizes. Structural rhetoric may be nearly absent in the corpus; its rarity is
+# itself a finding, so track absolute pole_b volume alongside the signed score.
+#
+# Circularity discipline: pole_b is authored in generic-concept phrasing, NOT lifted from
+# any measured firm. "company-wide closure" was rejected as near-verbatim GitLab
+# family-and-friends-day copy (GitLab is in the universe). build_axes sweeps every company
+# in pipeline.yaml; adjudicate any flag before scoring.
+name: wellbeing_locus
+pole_a:
+  label: individual_locus
+  sentences:
+    - "We give you the tools and resources to manage your own stress and build resilience."
+    - "Your wellbeing journey is personal, and we help you take charge of it."
+    - "Use our meditation and mindfulness app to look after your own mental health."
+    - "We encourage everyone to set their own boundaries and practice self-care."
+    - "Our wellness stipend lets you invest in whatever keeps you healthy."
+    - "We offer coaching and counseling so you can work on your own wellbeing."
+    - "It's up to you to unplug and recharge; we trust you to manage your energy."
+    - "We empower each person to prioritize their health however works best for them."
+pole_b:
+  label: structural_locus
+  sentences:
+    - "We adjust staffing levels so no one has to carry work while they are off."
+    - "The organization absorbs peaks in workload rather than pushing them onto individuals."
+    - "We build coverage into every team so people can step away without returning to a backlog."
+    - "Rest is protected by how we schedule and resource the work, not left to each person to defend."
+    - "We set organization-wide limits on workload so recovery does not depend on personal willpower."
+    - "When demand spikes, we hire and redistribute rather than ask people to stretch."
+    - "Time away is planned into how we operate, so the burden never falls on the individual."
+    - "We change our processes and policies so wellbeing is a property of the system, not a personal task."

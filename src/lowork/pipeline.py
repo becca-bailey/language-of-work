@@ -39,7 +39,7 @@ GLOBAL_KEY = "*"  # state/company key for global stages
 # semantic control for altruism); all have built vectors in axes/built/.
 FINGERPRINT_AXES = [
     "altruism", "control", "performance", "meritocracy", "wellbeing",
-    "inclusion", "techno_optimism",
+    "inclusion", "techno_optimism", "wellbeing_locus",
 ]
 
 
