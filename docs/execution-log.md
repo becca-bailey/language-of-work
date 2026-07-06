@@ -109,6 +109,16 @@ Timestamped gate decisions for [wellbeing-execution-plan.md](wellbeing-execution
 - **Benefits extraction — RUNNING** (bg `be2qsxu1i`). Full corpus, no `--limit`, frozen codebook, Sonnet (the model α=0.90 validated). 15 companies (netflix excluded per Phase 0), ~1458 benefits-bearing chunks, ~145 batches. Overwrites the pilot jsonls so all companies are consistent under the frozen codebook. Within-year chunk dedup was considered but barely helps (1458→1432 — chunks genuinely differ); the duplicate-*item* problem is cross-year and handled at the Phase 4 counting stage, not by dropping chunks.
 - Next after it lands: per-company sanity pass + human-in-the-loop review, then Phase 4 analysis.
 
+## 2026-07-06 — H1 coverage-controlled + JOLTS leverage overlay (fork resolved: lead with rhetoric)
+
+`scripts/analyze_h1_leverage.py` → `data/wellbeing_h1_leverage.txt`. Agreed plan: strengthen the dense rhetoric findings, use benefits as illustrative texture only, do NOT pull in job listings (adds cross-company comparability confounds).
+
+- **Care–DEI co-movement survives coverage control.** The pooled r=0.88 was inflated by coverage drift; the robust WITHIN-company version is median **r=+0.53, 95% CI [+0.27, +0.70], 15/16 companies positive** (only hubspot −0.13). The concession bundle (care + DEI rhetoric moving together) is real and broad, not a pooling artifact.
+- **The concession bundle tracks worker leverage (JOLTS quits).** care vs quits r≈+0.64 (lag0), +0.71 (rhetoric leads quits by 1yr); DEI vs quits +0.54 / +0.75. Both strongest at lag −1 (talk leads the quits surge). BUT: pre-2020 care was flat while quits rose 2015-19, so the correlation is really a **2020–2024 spike-and-recede phenomenon**, and the 2020 onset is **COVID-confounded** (pandemic wellbeing talk ≠ pure labor-market response). The cleaner evidence is the RECEDE: quits fell 2022→2024 (2.76→2.07) and care rhetoric fell with it (+0.054→+0.030). The concession deflated as leverage fell.
+- **Verdict / fork resolved:** the rhetoric story is solid enough to LEAD with — coverage-controlled co-movement + a leverage-linked spike-and-recede. No need for the HN job-listings investment (user also declined it on comparability grounds). Benefits stay illustrative texture (GitLab close-up; fertility-as-expensive-signal; care-benefits secular build).
+- **Step 3 (instrument hygiene):** standardize — KEYWORD prevalence for trajectories (dense, full-corpus), LLM extraction for locus/specificity only (validated but sparse). The crude benefits dedup is demoted with the index and not worth fixing now. Logged, not silently dropped.
+- **Open caveats for write-up:** quits is total-nonfarm not information-sector (plan wanted sector-specific); ~10 year-points; 2020 COVID confound on the spike onset.
+
 ## 2026-07-06 — Phase 4(b) rigorous H2 test: NOT a null, but UNDERPOWERED on substance
 
 Built `scripts/analyze_wellbeing.py` (power-table-first, per advisor). Report: `data/wellbeing_analysis_phase4b.txt`. This overturns the earlier hasty "H2 not supported" read.
