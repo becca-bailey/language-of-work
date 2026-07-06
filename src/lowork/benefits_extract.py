@@ -84,6 +84,11 @@ remote_flexibility locus is decided by PHRASING, because remote work cuts both w
 - individual when framed as personal autonomy or onus on the worker: "work whenever you work best", "flexible hours", "flexibility in your schedule", "flexibility to be there for life's moments".
 - ambiguous when it is a bare mention ("remote available", "hybrid") with neither framing.
 
+parental_leave locus follows the same guarantee logic as PTO (paid+defined is the mirror of unlimited PTO — a guaranteed entitlement the org absorbs):
+- structural when the leave is paid, job-protected, or enumerated in weeks/months ("16 weeks paid parental leave", "up to 4 months paid").
+- ambiguous when named but with no pay or duration stated ("generous parental leave", "parental leave programs").
+- individual only when the leave is explicitly unpaid or merely "available" with the burden left to the worker.
+
 specificity — the falsifiability gradient:
 - enumerated_number: names a concrete number ("16 weeks", "5 days", "$2,000 stipend")
 - named_no_number: a named benefit with no number ("generous parental leave", "sabbatical program")
