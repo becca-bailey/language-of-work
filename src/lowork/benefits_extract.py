@@ -53,7 +53,9 @@ You are given a batch of text chunks. For EACH distinct well-being item a chunk 
 OUT OF SCOPE — do NOT emit records for these; skip them entirely:
 - Compensation and equity: salary, bonus, commission, equity, stock/options/RSUs, "paid in crypto", ownership.
 - Retirement and financial: 401(k)/pension/retirement match, financial-planning perks, insurance of any kind (health, dental, vision, life, disability).
-- Anything that is not a well-being benefit (office snacks-as-recruiting, generic "great culture").
+- Learning and development: tuition reimbursement, degree programs, professional development, LinkedIn Learning / skills platforms. (A mixed discretionary stipend that merely lists "continuing education" among options — e.g. "buy what you need: desk, co-working, or education" — is still a wellness/equipment perk, not a learning benefit.)
+- Food/beverage/snack amenities: free coffee, snacks, catered lunches, "all the beverages you can drink". (Meals targeted at a life event — e.g. meals for new parents — are caregiver_support, not a trivial amenity.)
+- Anything else that is not a well-being benefit (generic "great culture").
 These are handled as a separate confound category, not here. `other` is reserved for a GENUINE well-being benefit that fits no leaf category — never use it as a dumping ground for compensation.
 
 For each item assign:

@@ -32,7 +32,7 @@ id,company,year,category,verbatim,hand_locus,hand_specificity,notes
 30,gitlab,2018,remote_flexibility,"Fully distributed: We're a fully remote and completely distributed team, so we can work wherever we're happiest.",structural,named_no_number,
 31,gitlab,2018,remote_flexibility,"Work asynchronously: Night owls rejoice! We're dedicated to working asynchronously, so we can contribute from anywhere at anytime.",structural,named_no_number,
 32,gitlab,2018,wellness_perk,"Buy what you need to be at your best: You don't need to ask permission before spending company money like it's your own - whether it's for a standing desk, a co-working space, or continuing education.",individual,named_no_number,
-33,gitlab,2022,other,Learn in-demand skills with access to platforms like LinkedIn Learning and GitLab Learn,individual,named_no_number,
+33,gitlab,2022,other,Learn in-demand skills with access to platforms like LinkedIn Learning and GitLab Learn,exclude,named_no_number,learning/dev — out of scope
 34,gitlab,2022,remote_flexibility,Flexibility in schedule to be there for life's important moments,individual,named_no_number,
 35,gitlab,2023,remote_flexibility,Flexibility in schedule to be there for life's important moments,individual,named_no_number,
 36,gitlab,2024,remote_flexibility,Flexibility in schedule to be there for life's important moments,individual,named_no_number,
@@ -84,7 +84,7 @@ id,company,year,category,verbatim,hand_locus,hand_specificity,notes
 82,salesforce,2012,wellness_perk,on-site free yoga,individual,named_no_number,
 83,starbucks,2013,caregiver_support,Referral and support resources for child and eldercare,structural,generic,
 84,starbucks,2013,other,more than 50 partner clubs and networks that help our partners share interests and find work/life balance,individual,generic,
-85,starbucks,2013,wellness_perk,all the handcrafted beverages you can drink,individual,generic,
+85,starbucks,2013,wellness_perk,all the handcrafted beverages you can drink,exclude,generic,food/beverage amenity — out of scope
 86,starbucks,2014,other,other time-off programs,ambiguous,generic,
 87,starbucks,2014,sabbatical,career sabbaticals,structural,named_no_number,
 88,starbucks,2015,other,full tuition reimbursement,exclude,named_no_number,

@@ -68,8 +68,12 @@ def main() -> int:
         resp = client.messages.create(
             model=JUDGE_MODEL, max_tokens=3000, temperature=0,
             system=RELABEL_SYSTEM
-            + "\n\nAn item that is NOT a well-being benefit (compensation, equity, "
-              "insurance, retirement) gets locus 'exclude'. Call the label_items tool once.",
+            + "\n\nAn item that is NOT a well-being benefit gets locus 'exclude': "
+              "compensation/equity/insurance/retirement; learning & development "
+              "(tuition, professional development, skills platforms); and food/beverage "
+              "amenities (free coffee, snacks, catered meals). Meals for a life event "
+              "(e.g. new parents) are caregiver_support, not excluded. "
+              "Call the label_items tool once.",
             tools=[TOOL], tool_choice={"type": "tool", "name": "label_items"},
             messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
         )
