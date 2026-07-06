@@ -109,6 +109,17 @@ Timestamped gate decisions for [wellbeing-execution-plan.md](wellbeing-execution
 - **Benefits extraction — RUNNING** (bg `be2qsxu1i`). Full corpus, no `--limit`, frozen codebook, Sonnet (the model α=0.90 validated). 15 companies (netflix excluded per Phase 0), ~1458 benefits-bearing chunks, ~145 batches. Overwrites the pilot jsonls so all companies are consistent under the frozen codebook. Within-year chunk dedup was considered but barely helps (1458→1432 — chunks genuinely differ); the duplicate-*item* problem is cross-year and handled at the Phase 4 counting stage, not by dropping chunks.
 - Next after it lands: per-company sanity pass + human-in-the-loop review, then Phase 4 analysis.
 
+## 2026-07-06 — Phase 4(b) rigorous H2 test: NOT a null, but UNDERPOWERED on substance
+
+Built `scripts/analyze_wellbeing.py` (power-table-first, per advisor). Report: `data/wellbeing_analysis_phase4b.txt`. This overturns the earlier hasty "H2 not supported" read.
+
+- **1. Power table:** only **8/15 companies** have ≥3 deduped benefit items on both sides of 2022; most cells are 2–5 items. Per-company benefits tests are dead — stated, not run.
+- **2. Aggregate index + bootstrap CI (balanced 8-co panel):** pre **0.571 [0.468, 0.675]**, post **0.500 [0.390, 0.610]**. **CIs overlap heavily; post-CI contains the pre point estimate → FAIL-TO-REJECT, not a confirmed null.** The benefits-composition index is simply too sparse to adjudicate H2. Without-remote sensitivity (5 co): same story, wider CIs. **The individualization index cannot be the robust headline the plan assumed.**
+- **3. Positive control (care/H1 axis):** pooled care series peaks cleanly at **2020 (+0.077, ~3.7× baseline)** — the signal is real and trajectory-detectable. Caveat: PELT (rbf, pen=1.0) flagged 2017, not 2020 — **the changepoint config is not yet calibrated**; trajectory/peak works, PELT needs tuning before any changepoint-dated claim (Phase 5 robustness item).
+- **4. H2 on the DENSE instrument (rhetoric locus axis, 15 co):** within-company z mean **pre +0.016 → post +0.296** (toward individual), **10/15 companies more individual post-2022**, Wilcoxon **p=0.229**. So: **directionally consistent with H2, suggestive, but not significant at n=15.** This is the powered instrument and it says "suggestive individualization drift," NOT "null."
+
+**VERDICT:** H2 is neither confirmed nor refuted. Benefits substance = underpowered (can't tell). Rhetoric locus = suggestive-but-inconclusive individualization drift. H1 care-rhetoric spike-and-recede = the one robust finding. The honest framing is "can't confirm substitution from the substance; the rhetoric hints at it," NOT "no substitution." Deferred (logged): Kaplan-Meier, per-company benefits changepoints, Fisher on tiny cells. **Next: PELT calibration; then the spine conversation with this evidence in hand.**
+
 ## 2026-07-06 — Parental-leave arc exploration (findings)
 
 Traced GitLab's paid parental leave across the pre-2023 handbook (blobless clone). Findings:
