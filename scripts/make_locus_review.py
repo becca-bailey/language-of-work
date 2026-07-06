@@ -36,12 +36,36 @@ def load_items(companies: list[str]) -> list[dict]:
     return rows
 
 
+def carry_forward_labels(rows: list[dict]) -> int:
+    """Preserve any hand labels already entered in the existing review CSV so
+    regenerating the sheet (to add companies) never wipes prior coding. Match on
+    (company, category, verbatim) — stable across regenerations, unlike row id."""
+    existing = DATA_DIR / "wellbeing_locus_review.csv"
+    if not existing.exists():
+        return 0
+    coded: dict[tuple, dict] = {}
+    for r in csv.DictReader(existing.open()):
+        if r.get("hand_locus") or r.get("hand_specificity"):
+            coded[(r["company"], r["category"], r["verbatim"])] = r
+    carried = 0
+    for r in rows:
+        prior = coded.get((r["company"], r["category"], r["verbatim"]))
+        if prior:
+            r["_hand_locus"] = prior.get("hand_locus", "")
+            r["_hand_specificity"] = prior.get("hand_specificity", "")
+            r["_notes"] = prior.get("notes", "")
+            carried += 1
+    return carried
+
+
 def write_csv(rows: list[dict]) -> None:
     with open(DATA_DIR / "wellbeing_locus_review.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(HEADER)
         for i, r in enumerate(rows):
-            w.writerow([i, r["company"], r["year"], r["category"], r["verbatim"], "", "", ""])
+            w.writerow([i, r["company"], r["year"], r["category"], r["verbatim"],
+                        r.get("_hand_locus", ""), r.get("_hand_specificity", ""),
+                        r.get("_notes", "")])
     with open(DATA_DIR / "wellbeing_locus_review_model.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["id", "model_locus", "model_specificity"])
@@ -58,7 +82,9 @@ def write_xlsx(rows: list[dict]) -> None:
     ws.title = "locus_review"
     ws.append(HEADER)
     for i, r in enumerate(rows):
-        ws.append([i, r["company"], r["year"], r["category"], r["verbatim"], "", "", ""])
+        ws.append([i, r["company"], r["year"], r["category"], r["verbatim"],
+                   r.get("_hand_locus", ""), r.get("_hand_specificity", ""),
+                   r.get("_notes", "")])
 
     n = len(rows) + 1  # last data row (header is row 1)
     dv_locus = DataValidation(
@@ -88,8 +114,11 @@ def main() -> int:
     args = ap.parse_args()
 
     rows = load_items(args.companies)
+    rows.sort(key=lambda r: (r["company"], r.get("year", 0), r["category"]))
+    carried = carry_forward_labels(rows)
     write_csv(rows)
     write_xlsx(rows)
+    print(f"carried forward {carried} existing hand labels")
     print(f"wrote {len(rows)} items:")
     print("  blind sheet:  data/wellbeing_locus_review.csv + .xlsx (dropdowns on F/G)")
     print("  model labels: data/wellbeing_locus_review_model.csv (held for the alpha join)")
