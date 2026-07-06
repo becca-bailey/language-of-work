@@ -48,7 +48,13 @@ BATCH_SIZE = 10  # chunks per call; each may yield several items
 
 SYSTEM_PROMPT = """You extract enumerated employee well-being BENEFITS from archived company careers/benefits pages.
 
-You are given a batch of text chunks. For EACH distinct well-being or benefit item a chunk names, emit one record. A single chunk usually yields several items; a chunk that names no benefit yields none. Only extract concrete benefits/perks/policies about the company's own employees — not product copy, not recruiting fluff, not customer or community programs.
+You are given a batch of text chunks. For EACH distinct well-being item a chunk names, emit one record. A single chunk usually yields several items; a chunk that names no well-being item yields none. Only extract concrete well-being benefits/perks/policies about the company's own employees — not product copy, not recruiting fluff, not customer or community programs.
+
+OUT OF SCOPE — do NOT emit records for these; skip them entirely:
+- Compensation and equity: salary, bonus, commission, equity, stock/options/RSUs, "paid in crypto", ownership.
+- Retirement and financial: 401(k)/pension/retirement match, financial-planning perks, insurance of any kind (health, dental, vision, life, disability).
+- Anything that is not a well-being benefit (office snacks-as-recruiting, generic "great culture").
+These are handled as a separate confound category, not here. `other` is reserved for a GENUINE well-being benefit that fits no leaf category — never use it as a dumping ground for compensation.
 
 For each item assign:
 
