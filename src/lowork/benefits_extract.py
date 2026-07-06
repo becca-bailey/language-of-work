@@ -76,7 +76,7 @@ category (choose the most specific that fits):
 
 locus — WHO absorbs the adaptation cost when disruption hits:
 - individual: the burden/decision sits with the employee. Hard rules: unlimited PTO = individual (no coverage guarantee, decision burden on the worker); EAP = individual; therapy stipend = individual; wellness app/stipend = individual.
-- structural: the organization changes its own staffing/scheduling/policy so the individual doesn't absorb it. Hard rules: company-wide shutdown = structural; minimum-enforced PTO = structural; backup childcare = structural.
+- structural: the organization changes its own staffing/scheduling/policy so the individual doesn't absorb it. Hard rules: company-wide shutdown = structural; minimum-enforced PTO = structural; backup childcare = structural; sabbatical = structural (extended leave the company absorbs, like paid parental leave).
 - ambiguous: genuinely unclear or mixed; do not force it.
 
 remote_flexibility locus is decided by PHRASING, because remote work cuts both ways (it restructures the company but also shifts overhead — internet, workspace — onto the worker):
@@ -88,6 +88,8 @@ parental_leave locus follows the same guarantee logic as PTO (paid+defined is th
 - structural when the leave is paid, job-protected, or enumerated in weeks/months ("16 weeks paid parental leave", "up to 4 months paid").
 - ambiguous when named but with no pay or duration stated ("generous parental leave", "parental leave programs").
 - individual only when the leave is explicitly unpaid or merely "available" with the burden left to the worker.
+
+work/life-balance framing = individual. When a benefit is presented as helping the employee achieve work/life balance ("balance", "work/life", "be there for life's important moments", "fit work around your life"), that individualizes it — balance is framed as the worker's to manage — so code individual. This governs flexibility and perk items. It does NOT override the explicit structural categories above (paid/enumerated parental leave, minimum-enforced PTO, company-wide shutdown, backup childcare, sabbatical), which stay structural even when "balance" is mentioned.
 
 specificity — the falsifiability gradient:
 - enumerated_number: names a concrete number ("16 weeks", "5 days", "$2,000 stipend")
