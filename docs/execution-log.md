@@ -103,6 +103,12 @@ Timestamped gate decisions for [wellbeing-execution-plan.md](wellbeing-execution
 - **Open question before committing:** does the 16-week figure have a *change arc* (e.g. 12→16 weeks, or any restriction)? That requires tracing the policy across its historical paths (pre-2023 `total-rewards/benefits/...` + toolkit + current leave-types.md), same 5-hop stitch method as F&F. A benefit that never changed is a weaker story than one that expanded or was cut.
 - **STATUS: awaiting Becca** — confirm parental leave vs caregiver support as the spine, then mine the full policy arc (trace the weeks over time + expansion/restriction events + rationale). F&F flow data (`wellbeing_flow.jsonl`) retained as pipeline-validation evidence, not story material.
 
+## 2026-07-06 — Phase 3 scale extraction (started)
+
+- **Rhetoric axes — DONE.** Ran `score_axes` with the full FINGERPRINT set (incl. `wellbeing_locus`) across all 16 companies → `data/<co>/axis_scores.parquet` (gitignored, regenerable). Both wellbeing axes (care↔intensity + individual↔structural locus) now scored corpus-wide. Sanity: wellbeing_locus means are small-positive (slightly individual-leaning careers copy), plausible. NB: `score_axes` positional axes must be passed as separate words — zsh does not word-split unquoted `$VAR` (bit me once).
+- **Benefits extraction — RUNNING** (bg `be2qsxu1i`). Full corpus, no `--limit`, frozen codebook, Sonnet (the model α=0.90 validated). 15 companies (netflix excluded per Phase 0), ~1458 benefits-bearing chunks, ~145 batches. Overwrites the pilot jsonls so all companies are consistent under the frozen codebook. Within-year chunk dedup was considered but barely helps (1458→1432 — chunks genuinely differ); the duplicate-*item* problem is cross-year and handled at the Phase 4 counting stage, not by dropping chunks.
+- Next after it lands: per-company sanity pass + human-in-the-loop review, then Phase 4 analysis.
+
 ## 2026-07-06 — Parental-leave arc exploration (findings)
 
 Traced GitLab's paid parental leave across the pre-2023 handbook (blobless clone). Findings:
