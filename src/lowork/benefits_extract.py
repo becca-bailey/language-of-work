@@ -59,7 +59,7 @@ These are handled as a separate confound category, not here. `other` is reserved
 For each item assign:
 
 category (choose the most specific that fits):
-- pto_accrued: paid time off that accrues by tenure / a fixed number of days
+- pto_accrued: paid time off that accrues by tenure / a fixed number of days (NOT volunteer/VTO time — paid time to volunteer is `other`, not pto_accrued)
 - pto_unlimited: "unlimited" / "flexible" / "take what you need" vacation with no fixed allotment
 - pto_minimum_enforced: a MANDATORY minimum vacation the company requires people to take
 - parental_leave: maternity / paternity / adoption / bonding leave
@@ -75,7 +75,7 @@ category (choose the most specific that fits):
 - other: a clear well-being benefit that fits none of the above
 
 locus — WHO absorbs the adaptation cost when disruption hits:
-- individual: the burden/decision sits with the employee. Hard rules: unlimited PTO = individual (no coverage guarantee, decision burden on the worker); EAP = individual; therapy stipend = individual; wellness app/stipend = individual.
+- individual: the burden/decision sits with the employee. Hard rules: unlimited PTO = individual (no coverage guarantee, decision burden on the worker); accrued PTO = individual (a defined number of days, but still discretionary — no coverage guarantee, the burden to actually take it against workload is on the worker, same as unlimited PTO); EAP = individual; therapy stipend = individual; wellness app/stipend = individual.
 - structural: the organization changes its own staffing/scheduling/policy so the individual doesn't absorb it. Hard rules: company-wide shutdown = structural; minimum-enforced PTO = structural; backup childcare = structural; sabbatical = structural (extended leave the company absorbs, like paid parental leave).
 - ambiguous: genuinely unclear or mixed; do not force it.
 
