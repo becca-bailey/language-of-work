@@ -962,10 +962,10 @@ def _wb_company_trajectories(companies) -> list[dict]:
 
 def _wb_axes2020(companies) -> list[dict]:
     """Each axis's 2020 value as a within-axis z-score — which axes spiked."""
+    # "control" is deliberately excluded here — it belongs only to the altruism chart.
     axes = [("wellbeing", "Care"), ("inclusion", "DEI / inclusion"),
             ("altruism", "Altruism"), ("performance", "Performance"),
-            ("meritocracy", "Meritocracy"), ("control", "Control"),
-            ("techno_optimism", "Techno-optimism")]
+            ("meritocracy", "Meritocracy"), ("techno_optimism", "Techno-optimism")]
     out = []
     for axis, label in axes:
         z = _zscore_series(_wb_pooled_axis(companies, axis))
