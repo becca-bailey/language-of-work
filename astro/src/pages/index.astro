@@ -14,6 +14,24 @@ const companies = (await loadCompaniesManifest())
 const essays = (
   await getCollection("essays", (e) => isVisible(e.data.published))
 ).sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+// Companion writing, published on Substack.
+const relatedWriting = [
+  {
+    title: "The Death of Changing the World",
+    href: "https://open.substack.com/pub/beccabailey/p/the-death-of-changing-the-world",
+  },
+  {
+    title: "A Team, Not a Family",
+    href: "https://open.substack.com/pub/beccabailey/p/a-team-not-a-family",
+  },
+  {
+    title: "Millennials Were Supposed to Fix Work",
+    href: "https://beccabailey.substack.com/p/bb503447-8aa3-4e59-af99-bb62c57f8a02",
+  },
+];
+
+const sourceUrl = "https://github.com/becca-bailey/language-of-work";
 ---
 
 <Layout>
@@ -24,11 +42,27 @@ const essays = (
     <h1 class="mt-2 text-3xl font-semibold tracking-tight">
       How companies talk about work
     </h1>
-    <p class="mt-4 max-w-prose text-neutral-600 dark:text-neutral-400">
-      A set of studies measuring the language companies use about themselves —
-      as employers, as missions, as cultures — and how it shifts over time,
-      tracked as movement along embedding-based semantic axes.
-    </p>
+    <div class="mt-4 max-w-prose space-y-4 text-neutral-600 dark:text-neutral-400">
+      <p>
+        Careers pages are corporate self-presentation at its most deliberate —
+        every word chosen to attract workers. This is a computational study of
+        two decades of them (more than a dozen tech companies, 2005–2026,
+        reconstructed from the Wayback Machine), read as a longitudinal record:
+        what the language does over time, when it shifts, and why. Movement is
+        tracked as position along embedding-based semantic axes.
+      </p>
+      <p>
+        The thread running through the studies is a <strong
+          class="font-medium text-neutral-800 dark:text-neutral-200"
+          >counterforces</strong
+        > idea: a workplace culture stays good not because leadership cares about
+        it, but while something specific holds ordinary decay back — mostly, workers
+        having somewhere else to go. When that leverage erodes, the language of values
+        lingers as liturgy while the practice underneath reverts. The 2010s bet that
+        a new generation would permanently fix work wasn't wrong so much as rented:
+        the gains tracked the labor market, and receded the moment it inverted.
+      </p>
+    </div>
 
     {
       groups.map(({study, stories}) => (
@@ -62,6 +96,30 @@ const essays = (
         </section>
       ))
     }
+
+    <section class="mt-12">
+      <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+        How it's built
+      </h2>
+      <div class="mt-2 max-w-prose space-y-3 text-sm text-neutral-500 dark:text-neutral-400">
+        <p>
+          A shared pipeline chunks archived pages, uses an LLM to classify them
+          into registers, and scores them on embedding-based contrast axes —
+          each paired with a neutral control and a circularity check, so the
+          measure is stance rather than mere topical proximity. Structured
+          extraction pulls benefits into taxonomies validated against
+          hand-coded samples (Krippendorff's α ≈ 0.9).
+        </p>
+        <p>
+          Every claim is stress-tested with coverage-controlled statistics, and
+          where the data can't carry a claim, the story says so rather than
+          reaching — the honest nulls matter as much as the findings. Published
+          as interactive data stories built with Astro, React, and visx; the
+          pipeline is Python (embeddings, LLM APIs, pandas/scipy) over a
+          content-hash DAG.
+        </p>
+      </div>
+    </section>
 
     {
       companies.length > 0 && (
@@ -119,5 +177,50 @@ const essays = (
         </section>
       )
     }
+
+    <section class="mt-12">
+      <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+        Related writing
+      </h2>
+      <p class="mt-2 max-w-prose text-sm text-neutral-500 dark:text-neutral-400">
+        Companion essays on Substack, and the source behind the studies.
+      </p>
+      <ul class="mt-4 space-y-2">
+        {
+          relatedWriting.map((piece) => (
+            <li>
+              <a
+                href={piece.href}
+                target="_blank"
+                rel="noopener"
+                class="group flex items-baseline justify-between gap-4 text-sm text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
+              >
+                <span class="font-medium underline decoration-neutral-300 underline-offset-4 dark:decoration-neutral-700">
+                  {piece.title}
+                </span>
+                <span class="text-neutral-400 transition-transform group-hover:translate-x-0.5">
+                  &#8599;
+                </span>
+              </a>
+            </li>
+          ))
+        }
+        <li>
+          <a
+            href={sourceUrl}
+            target="_blank"
+            rel="noopener"
+            class="group flex items-baseline justify-between gap-4 text-sm text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
+          >
+            <span class="font-medium underline decoration-neutral-300 underline-offset-4 dark:decoration-neutral-700">
+              Source on GitHub
+            </span>
+            <span class="text-neutral-400 transition-transform group-hover:translate-x-0.5">
+              &#8599;
+            </span>
+          </a>
+        </li>
+      </ul>
+    </section>
   </main>
 </Layout>
