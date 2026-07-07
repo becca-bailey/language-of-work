@@ -109,6 +109,15 @@ Timestamped gate decisions for [wellbeing-execution-plan.md](wellbeing-execution
 - **Benefits extraction — RUNNING** (bg `be2qsxu1i`). Full corpus, no `--limit`, frozen codebook, Sonnet (the model α=0.90 validated). 15 companies (netflix excluded per Phase 0), ~1458 benefits-bearing chunks, ~145 batches. Overwrites the pilot jsonls so all companies are consistent under the frozen codebook. Within-year chunk dedup was considered but barely helps (1458→1432 — chunks genuinely differ); the duplicate-*item* problem is cross-year and handled at the Phase 4 counting stage, not by dropping chunks.
 - Next after it lands: per-company sanity pass + human-in-the-loop review, then Phase 4 analysis.
 
+## TODO (deferred) — language filter on scoring/extraction
+
+**Finding (2026-07-06):** `careers.snap.com` serves locale-localized content at the same URLs, so a handful of Snap's 2024–2025 Wayback captures came back non-English (Vietnamese; also `lang=nl-NL`/`lang=es` params seen). Scope: Snap only confirmed so far — 2024 (2/8 chunks) and 2025 (8/19) non-English; all other Snap years and the rest of the corpus check English via `is_english`. Impact: Snap's 2024–25 axis scores are mildly contaminated (non-English chunks embedded + scored against English-worded poles). The wellbeing story's benefit-example tooltips already filter with `is_english`, so the published quotes are clean.
+
+**To do later:**
+1. Scope corpus-wide — check every company for localized/non-English chunks (global careers sites often localize), not just Snap.
+2. Add an `is_english` filter before embedding/scoring (and extraction), so localized captures can't contaminate any company's scores. One clean corpus-wide fix.
+3. Treat Snap single-company signals (fertility tail, therapy-stipend) with extra skepticism until done — some recent Snap captures are localized noise.
+
 ## 2026-07-06 — Phase 6: wellbeing story page built ("The Care That Survived")
 
 Built `astro/src/content/stories/wellbeing.mdx` (published, in the wellbeing slot) with four interactive visx charts, following the dataviz skill (palette validated with the script, not eyeballed; no dual-axis; emphasis form). Supersedes the old `benefits` story (still present as `published:false` draft — retain or delete is Becca's call).
