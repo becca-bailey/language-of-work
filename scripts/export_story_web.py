@@ -1039,6 +1039,64 @@ def _wb_locus_examples(companies) -> dict:
     return {"mentalHealth": strip(mh), "caregiving": strip(fam)}
 
 
+_WB_MATERIAL_DEI = [
+    ("family_building", "Fertility & family-building",
+     r"fertilit|\bIVF\b|egg freez|surrogacy|family planning|family[- ]building|"
+     r"carrot fertility|adoption (?:assist|reimburse|benefit|support|leave)|adoptive"),
+    ("family_leave", "Parental & family leave",
+     r"parental leave|maternity leave|paternity leave|family leave|bonding leave|"
+     r"paid family|parental bonding"),
+    ("caregiving", "Caregiving & childcare",
+     r"caregiv|backup (?:care|child ?care)|child ?care|elder care|dependent care"),
+    ("lactation", "Lactation support", r"lactation|nursing (?:room|mother|parent)|milk stork"),
+    ("identity", "Identity-positive coverage",
+     r"domestic partner|gender[- ]affirming|trans(?:gender)?[- ]inclusive|"
+     r"same[- ]sex (?:partner|spouse|coverage)"),
+]
+
+
+def _wb_material_dei(companies) -> dict:
+    """Per-year mentions of each DEI-adjacent ("material DEI") benefit type — a stacked
+    view of the family-/identity-positive benefit mix over time. Counts mentions (a chunk
+    naming two types counts in both), 3-yr smoothed, English chunks only."""
+    from lowork.text_filter import is_english
+    pats = [(cid, label, re.compile(p, re.I)) for cid, label, p in _WB_MATERIAL_DEI]
+    counts = {cid: defaultdict(int) for cid, *_ in _WB_MATERIAL_DEI}
+    for co in companies:
+        cp = company_dir(co) / "classifications.json"
+        chunks_dir = company_dir(co) / "chunks"
+        if not cp.exists() or not chunks_dir.exists():
+            continue
+        labs = read_json(cp)
+        for path in sorted(chunks_dir.glob("*.jsonl")):
+            for line in path.read_text().splitlines():
+                if not line.strip():
+                    continue
+                c = json.loads(line)
+                if labs.get(c["chunk_id"]) not in _WB_BEN_LABELS or not is_english(c["text"]):
+                    continue
+                y = c.get("year")
+                if y is None or not (2013 <= y <= 2026):
+                    continue
+                for cid, _lbl, pat in pats:
+                    if pat.search(c["text"]):
+                        counts[cid][y] += 1
+    years = sorted({y for cid in counts for y in counts[cid]})
+
+    def smooth(series):
+        return [round(sum(series[max(0, i - 1):i + 2]) / len(series[max(0, i - 1):i + 2]), 2)
+                for i in range(len(series))]
+
+    return {
+        "years": years,
+        "components": [
+            {"id": cid, "label": label,
+             "values": smooth([counts[cid].get(y, 0) for y in years])}
+            for cid, label, _ in _WB_MATERIAL_DEI
+        ],
+    }
+
+
 def _wb_flow() -> dict:
     """GitLab Family & Friends Day timeline: commits/year + the annotated events."""
     p = DATA_DIR / "gitlab" / "wellbeing_flow.jsonl"
@@ -1119,6 +1177,7 @@ def export_wellbeing(companies: list[str]) -> None:
         "companyTrajectories": _wb_company_trajectories(companies),
         "axes2020": _wb_axes2020(companies),
         "locusDivergence": _wb_locus_divergence(companies),
+        "materialDEI": _wb_material_dei(companies),
         "flow": _wb_flow(),
     }
     out_dir = WEB_DATA_DIR / "stories"

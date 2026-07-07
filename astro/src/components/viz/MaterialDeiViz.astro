@@ -1,0 +1,9 @@
+---
+import MaterialDeiChart from "@/components/MaterialDeiChart";
+import { loadStory } from "@/lib/stories";
+const data = (await loadStory("wellbeing")) as any;
+const md = data?.materialDEI ?? null;
+---
+{md && md.components?.length > 0 && (
+  <div class="my-6"><MaterialDeiChart data={md} client:only="react" /></div>
+)}
