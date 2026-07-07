@@ -28,8 +28,8 @@ interface Row {
 }
 
 const MARGIN = { top: 12, right: 16, bottom: 30, left: 36 };
-// validated categorical set (arcade, slate-blue, halt, green, amber) — CVD all-pairs dE 15.4
-const COLORS = ["#5e1af4", "#7669e9", "#ff6230", "#1baf7a", "#eda100"];
+// validated categorical set (7 bands) — CVD all-pairs worst dE 12.9
+const COLORS = ["#5e1af4", "#2a78d6", "#1baf7a", "#eda100", "#ff6230", "#e34948", "#e87ba4"];
 const bisectYear = bisector<Row, number>((d) => d.year).center;
 
 function Chart({ data, width, height }: { data: MaterialDeiData; width: number; height: number }) {

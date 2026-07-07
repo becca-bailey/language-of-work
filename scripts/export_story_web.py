@@ -1039,29 +1039,36 @@ def _wb_locus_examples(companies) -> dict:
     return {"mentalHealth": strip(mh), "caregiving": strip(fam)}
 
 
-_WB_MATERIAL_DEI = [
+# "Whole-life" benefits — support for life outside work (life events + caregiving
+# relationships), as distinct from individual self-care/therapy. Regexes kept roughly
+# disjoint so a chunk isn't double-counted across neighbouring bands.
+_WB_WHOLE_LIFE = [
     ("family_building", "Fertility & family-building",
      r"fertilit|\bIVF\b|egg freez|surrogacy|family planning|family[- ]building|"
      r"carrot fertility|adoption (?:assist|reimburse|benefit|support|leave)|adoptive"),
     ("family_leave", "Parental & family leave",
      r"parental leave|maternity leave|paternity leave|family leave|bonding leave|"
      r"paid family|parental bonding"),
-    ("caregiving", "Caregiving & childcare",
-     r"caregiv|backup (?:care|child ?care)|child ?care|elder care|dependent care"),
+    ("childcare", "Childcare & backup care",
+     r"child ?care|backup (?:care|child ?care)|\bnanny\b|au pair|day ?care"),
+    ("elder", "Elder & dependent care",
+     r"elder ?care|dependent care|aging (?:parent|relative)|\bcaregiv"),
     ("lactation", "Lactation support", r"lactation|nursing (?:room|mother|parent)|milk stork"),
     ("identity", "Identity-positive coverage",
      r"domestic partner|gender[- ]affirming|trans(?:gender)?[- ]inclusive|"
      r"same[- ]sex (?:partner|spouse|coverage)"),
+    ("bereavement", "Bereavement leave",
+     r"bereavement|compassionate leave|\bgrief\b|loss of a (?:loved one|family member)"),
 ]
 
 
 def _wb_material_dei(companies) -> dict:
-    """Per-year mentions of each DEI-adjacent ("material DEI") benefit type — a stacked
-    view of the family-/identity-positive benefit mix over time. Counts mentions (a chunk
-    naming two types counts in both), 3-yr smoothed, English chunks only."""
+    """Per-year mentions of each whole-life benefit type — a stacked view of the
+    life-outside-work benefit mix over time. Counts mentions (a chunk naming two types
+    counts in both), 3-yr smoothed, English chunks only."""
     from lowork.text_filter import is_english
-    pats = [(cid, label, re.compile(p, re.I)) for cid, label, p in _WB_MATERIAL_DEI]
-    counts = {cid: defaultdict(int) for cid, *_ in _WB_MATERIAL_DEI}
+    pats = [(cid, label, re.compile(p, re.I)) for cid, label, p in _WB_WHOLE_LIFE]
+    counts = {cid: defaultdict(int) for cid, *_ in _WB_WHOLE_LIFE}
     for co in companies:
         cp = company_dir(co) / "classifications.json"
         chunks_dir = company_dir(co) / "chunks"
@@ -1092,7 +1099,7 @@ def _wb_material_dei(companies) -> dict:
         "components": [
             {"id": cid, "label": label,
              "values": smooth([counts[cid].get(y, 0) for y in years])}
-            for cid, label, _ in _WB_MATERIAL_DEI
+            for cid, label, _ in _WB_WHOLE_LIFE
         ],
     }
 
