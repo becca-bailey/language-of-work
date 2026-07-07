@@ -1,0 +1,9 @@
+---
+import AxisSpikeChart from "@/components/AxisSpikeChart";
+import { loadStory } from "@/lib/stories";
+const data = (await loadStory("wellbeing")) as any;
+const rows = data?.axes2020 ?? [];
+---
+{rows.length > 0 && (
+  <div class="my-6"><AxisSpikeChart rows={rows} client:only="react" /></div>
+)}

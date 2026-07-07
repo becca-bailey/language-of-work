@@ -109,6 +109,15 @@ Timestamped gate decisions for [wellbeing-execution-plan.md](wellbeing-execution
 - **Benefits extraction — RUNNING** (bg `be2qsxu1i`). Full corpus, no `--limit`, frozen codebook, Sonnet (the model α=0.90 validated). 15 companies (netflix excluded per Phase 0), ~1458 benefits-bearing chunks, ~145 batches. Overwrites the pilot jsonls so all companies are consistent under the frozen codebook. Within-year chunk dedup was considered but barely helps (1458→1432 — chunks genuinely differ); the duplicate-*item* problem is cross-year and handled at the Phase 4 counting stage, not by dropping chunks.
 - Next after it lands: per-company sanity pass + human-in-the-loop review, then Phase 4 analysis.
 
+## 2026-07-06 — Phase 6: wellbeing story page built ("The Care That Survived")
+
+Built `astro/src/content/stories/wellbeing.mdx` (published, in the wellbeing slot) with four interactive visx charts, following the dataviz skill (palette validated with the script, not eyeballed; no dual-axis; emphasis form). Supersedes the old `benefits` story (still present as `published:false` draft — retain or delete is Becca's call).
+
+- **Data:** extended `export_story_web.py` `export_wellbeing()` with four datasets → `stories/wellbeing.json`: `concession` (care/DEI z + JOLTS quits), `axes2020` (per-axis 2020 z — Care +2.2, DEI +1.8 top), `locusDivergence` (mental-health vs family/caregiving keyword prevalence), `flow` (F&F commit density + 5 annotated events).
+- **Charts** (`astro/src/components/*.tsx` + `viz/*.astro`, visx islands, `useThemeColors`, `client:only`): `ConcessionChart` (care+DEI+quits, z-scored to one axis), `AxisSpikeChart` (emphasis bars — concession axes colored, rest gray), `LocusDivergenceChart` (the centerpiece — mental-health=individual/halt-orange vs caregiving=structural/arcade-purple, CVD ΔE 137, direct-labeled), `FlowTimeline` (tiered event annotations).
+- **Verified:** prod build clean (23 pages, wellbeing built); headless-Chrome render check = 31 SVGs, 0 console errors, both light and dark (body bg rgb(10,10,10)). Screenshot reviewed — all four charts render with correct shapes; timeline label crowding fixed with per-event vertical tiers.
+- **Palette:** care=arcade `#5e1af4`, DEI=slate-blue `#7669e9` (CVD 33 ✓), quits=muted dashed reference; locus split arcade-purple(system) vs halt-orange(self). Contrast WARNs resolved via mandatory direct labels.
+
 ## 2026-07-06 — H1 coverage-controlled + JOLTS leverage overlay (fork resolved: lead with rhetoric)
 
 `scripts/analyze_h1_leverage.py` → `data/wellbeing_h1_leverage.txt`. Agreed plan: strengthen the dense rhetoric findings, use benefits as illustrative texture only, do NOT pull in job listings (adds cross-company comparability confounds).

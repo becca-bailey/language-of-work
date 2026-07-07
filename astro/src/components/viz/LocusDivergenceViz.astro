@@ -1,0 +1,9 @@
+---
+import LocusDivergenceChart from "@/components/LocusDivergenceChart";
+import { loadStory } from "@/lib/stories";
+const data = (await loadStory("wellbeing")) as any;
+const rows = data?.locusDivergence ?? [];
+---
+{rows.length > 0 && (
+  <div class="my-6"><LocusDivergenceChart rows={rows} client:only="react" /></div>
+)}

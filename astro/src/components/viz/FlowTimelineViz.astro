@@ -1,0 +1,9 @@
+---
+import FlowTimeline from "@/components/FlowTimeline";
+import { loadStory } from "@/lib/stories";
+const data = (await loadStory("wellbeing")) as any;
+const flow = data?.flow ?? null;
+---
+{flow && flow.byYear?.length > 0 && (
+  <div class="my-6"><FlowTimeline data={flow} client:only="react" /></div>
+)}

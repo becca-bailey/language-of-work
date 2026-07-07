@@ -5,8 +5,11 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import json
 import re
+from collections import defaultdict
 
+import numpy as np
 import pandas as pd
 
 from lowork.company import CompanyProfile
@@ -859,6 +862,116 @@ def export_altruism(companies: list[str]) -> None:
     print(f"Wrote {out_dir / 'altruism.json'}")
 
 
+# ── Well-being story datasets (H1 concession + locus divergence + GitLab flow) ──
+
+_WB_BEN_LABELS = {"benefits_perks", "job_listing"}
+_WB_MH = re.compile(r"mental health|well[- ]?being|wellness|therapy|counsel|meditation|"
+                    r"headspace|\bEAP\b|burnout", re.I)
+_WB_FAM = re.compile(r"parental leave|maternity|paternity|childcare|child care|adoption|"
+                     r"family leave|caregiv|nursing (?:room|mother)|baby bonding|fertilit", re.I)
+
+
+def _wb_pooled_axis(companies, axis, lo=2013, hi=2026):
+    """Balanced pooled annual mean of a raw axis score across companies."""
+    per_year = defaultdict(list)
+    for co in companies:
+        p = company_dir(co) / "axis_scores.parquet"
+        if not p.exists():
+            continue
+        df = pd.read_parquet(p)
+        d = df[(df["axis"] == axis) & (df["level"] == "chunk")]
+        for _, r in d.iterrows():
+            if lo <= r["year"] <= hi:
+                per_year[int(r["year"])].append(float(r["raw_topk_mean"]))
+    return {y: float(np.mean(v)) for y, v in per_year.items() if len(v) >= 4}
+
+
+def _zscore_series(series: dict) -> dict:
+    vals = np.array(list(series.values()))
+    m, s = vals.mean(), vals.std() or 1.0
+    return {y: (v - m) / s for y, v in series.items()}
+
+
+def _wb_concession(companies) -> list[dict]:
+    """care & DEI rhetoric (z-scored pooled) + JOLTS quits, per year — for the overlay."""
+    care = _zscore_series(_wb_pooled_axis(companies, "wellbeing"))
+    dei = _zscore_series(_wb_pooled_axis(companies, "inclusion"))
+    quits = {q["year"]: q["quitsRate"]
+             for q in read_json(DATA_DIR / "power_proxies.json")["quits"]}
+    years = sorted(set(care) & set(dei))
+    return [{"year": y, "careZ": round(care[y], 3), "deiZ": round(dei[y], 3),
+             "quits": quits.get(y)} for y in years if 2015 <= y <= 2026]
+
+
+def _wb_axes2020(companies) -> list[dict]:
+    """Each axis's 2020 value as a within-axis z-score — which axes spiked."""
+    axes = [("wellbeing", "Care"), ("inclusion", "DEI / inclusion"),
+            ("altruism", "Altruism"), ("performance", "Performance"),
+            ("meritocracy", "Meritocracy"), ("control", "Control"),
+            ("techno_optimism", "Techno-optimism")]
+    out = []
+    for axis, label in axes:
+        z = _zscore_series(_wb_pooled_axis(companies, axis))
+        if 2020 in z:
+            out.append({"axis": axis, "label": label, "z2020": round(z[2020], 2),
+                        "concession": axis in ("wellbeing", "inclusion")})
+    return sorted(out, key=lambda r: -r["z2020"])
+
+
+def _wb_locus_divergence(companies) -> list[dict]:
+    """Keyword prevalence of mental-health (individual-locus) vs family/caregiving
+    (structural-locus) benefits per year — share of benefit chunks. The centerpiece."""
+    mh_num, fam_num, den = defaultdict(int), defaultdict(int), defaultdict(int)
+    for co in companies:
+        cp = company_dir(co) / "classifications.json"
+        chunks_dir = company_dir(co) / "chunks"
+        if not cp.exists() or not chunks_dir.exists():
+            continue
+        labs = read_json(cp)
+        for path in sorted(chunks_dir.glob("*.jsonl")):
+            for line in path.read_text().splitlines():
+                if not line.strip():
+                    continue
+                c = json.loads(line)
+                if labs.get(c["chunk_id"]) not in _WB_BEN_LABELS:
+                    continue
+                y = c.get("year")
+                if y is None:
+                    continue
+                den[y] += 1
+                if _WB_MH.search(c["text"]):
+                    mh_num[y] += 1
+                if _WB_FAM.search(c["text"]):
+                    fam_num[y] += 1
+    return [{"year": y,
+             "mentalHealth": round(mh_num[y] / den[y], 3),
+             "caregiving": round(fam_num[y] / den[y], 3),
+             "nChunks": den[y]}
+            for y in sorted(den) if den[y] >= 3 and 2013 <= y <= 2026]
+
+
+def _wb_flow() -> dict:
+    """GitLab Family & Friends Day timeline: commits/year + the annotated events."""
+    p = DATA_DIR / "gitlab" / "wellbeing_flow.jsonl"
+    if not p.exists():
+        return {}
+    rows = [json.loads(l) for l in p.read_text().splitlines() if l.strip()]
+    by_year = defaultdict(int)
+    for r in rows:
+        by_year[int(r["date"][:4])] += 1
+    events = [
+        {"date": "2020-04", "label": "Created as pandemic relief", "kind": "add"},
+        {"date": "2020-10", "label": "Formalized to monthly cadence", "kind": "expand"},
+        {"date": "2021-04", "label": "Renamed “Pandemic Support Day” for six days, then reverted",
+         "kind": "reframe"},
+        {"date": "2022-07", "label": "Coverage requirements added — some must stay back",
+         "kind": "restrict"},
+        {"date": "2023-08", "label": "Migrated to the handbook repo", "kind": "reframe"},
+    ]
+    return {"byYear": [{"year": y, "commits": by_year[y]} for y in sorted(by_year)],
+            "events": events}
+
+
 def export_wellbeing(companies: list[str]) -> None:
     """Cross-company wellbeing (balance <-> intensity/sacrifice) year series.
 
@@ -912,6 +1025,11 @@ def export_wellbeing(companies: list[str]) -> None:
                 "companies": company_series,
             },
         },
+        # Story-page datasets (H1 concession bundle + locus divergence + GitLab flow).
+        "concession": _wb_concession(companies),
+        "axes2020": _wb_axes2020(companies),
+        "locusDivergence": _wb_locus_divergence(companies),
+        "flow": _wb_flow(),
     }
     out_dir = WEB_DATA_DIR / "stories"
     out_dir.mkdir(parents=True, exist_ok=True)

@@ -2092,5 +2092,268 @@
         }
       ]
     }
+  },
+  "concession": [
+    {
+      "year": 2015,
+      "careZ": -0.558,
+      "deiZ": 0.104,
+      "quits": 1.967
+    },
+    {
+      "year": 2016,
+      "careZ": -0.426,
+      "deiZ": 0.097,
+      "quits": 2.083
+    },
+    {
+      "year": 2017,
+      "careZ": -0.364,
+      "deiZ": 0.208,
+      "quits": 2.158
+    },
+    {
+      "year": 2018,
+      "careZ": -0.557,
+      "deiZ": -0.228,
+      "quits": 2.258
+    },
+    {
+      "year": 2019,
+      "careZ": -0.554,
+      "deiZ": -0.063,
+      "quits": 2.317
+    },
+    {
+      "year": 2020,
+      "careZ": 2.182,
+      "deiZ": 1.803,
+      "quits": 2.083
+    },
+    {
+      "year": 2021,
+      "careZ": 0.812,
+      "deiZ": 1.137,
+      "quits": 2.708
+    },
+    {
+      "year": 2022,
+      "careZ": 0.996,
+      "deiZ": 0.449,
+      "quits": 2.758
+    },
+    {
+      "year": 2023,
+      "careZ": 0.43,
+      "deiZ": 0.39,
+      "quits": 2.367
+    },
+    {
+      "year": 2024,
+      "careZ": -0.072,
+      "deiZ": 0.014,
+      "quits": 2.067
+    },
+    {
+      "year": 2025,
+      "careZ": 0.483,
+      "deiZ": 0.953,
+      "quits": 2.017
+    },
+    {
+      "year": 2026,
+      "careZ": 0.74,
+      "deiZ": -1.488,
+      "quits": 1.95
+    }
+  ],
+  "axes2020": [
+    {
+      "axis": "wellbeing",
+      "label": "Care",
+      "z2020": 2.18,
+      "concession": true
+    },
+    {
+      "axis": "inclusion",
+      "label": "DEI / inclusion",
+      "z2020": 1.8,
+      "concession": true
+    },
+    {
+      "axis": "meritocracy",
+      "label": "Meritocracy",
+      "z2020": 1.2,
+      "concession": false
+    },
+    {
+      "axis": "control",
+      "label": "Control",
+      "z2020": 0.51,
+      "concession": false
+    },
+    {
+      "axis": "altruism",
+      "label": "Altruism",
+      "z2020": 0.36,
+      "concession": false
+    },
+    {
+      "axis": "performance",
+      "label": "Performance",
+      "z2020": 0.26,
+      "concession": false
+    },
+    {
+      "axis": "techno_optimism",
+      "label": "Techno-optimism",
+      "z2020": -1.66,
+      "concession": false
+    }
+  ],
+  "locusDivergence": [
+    {
+      "year": 2013,
+      "mentalHealth": 0.021,
+      "caregiving": 0.053,
+      "nChunks": 94
+    },
+    {
+      "year": 2014,
+      "mentalHealth": 0.017,
+      "caregiving": 0.033,
+      "nChunks": 180
+    },
+    {
+      "year": 2015,
+      "mentalHealth": 0.026,
+      "caregiving": 0.013,
+      "nChunks": 78
+    },
+    {
+      "year": 2016,
+      "mentalHealth": 0.048,
+      "caregiving": 0.06,
+      "nChunks": 83
+    },
+    {
+      "year": 2017,
+      "mentalHealth": 0.033,
+      "caregiving": 0.098,
+      "nChunks": 61
+    },
+    {
+      "year": 2018,
+      "mentalHealth": 0.04,
+      "caregiving": 0.093,
+      "nChunks": 75
+    },
+    {
+      "year": 2019,
+      "mentalHealth": 0.042,
+      "caregiving": 0.125,
+      "nChunks": 72
+    },
+    {
+      "year": 2020,
+      "mentalHealth": 0.068,
+      "caregiving": 0.085,
+      "nChunks": 59
+    },
+    {
+      "year": 2021,
+      "mentalHealth": 0.068,
+      "caregiving": 0.034,
+      "nChunks": 88
+    },
+    {
+      "year": 2022,
+      "mentalHealth": 0.056,
+      "caregiving": 0.028,
+      "nChunks": 107
+    },
+    {
+      "year": 2023,
+      "mentalHealth": 0.066,
+      "caregiving": 0.022,
+      "nChunks": 91
+    },
+    {
+      "year": 2024,
+      "mentalHealth": 0.074,
+      "caregiving": 0.012,
+      "nChunks": 81
+    },
+    {
+      "year": 2025,
+      "mentalHealth": 0.102,
+      "caregiving": 0.023,
+      "nChunks": 128
+    },
+    {
+      "year": 2026,
+      "mentalHealth": 0.106,
+      "caregiving": 0.064,
+      "nChunks": 94
+    }
+  ],
+  "flow": {
+    "byYear": [
+      {
+        "year": 2020,
+        "commits": 24
+      },
+      {
+        "year": 2021,
+        "commits": 62
+      },
+      {
+        "year": 2022,
+        "commits": 42
+      },
+      {
+        "year": 2023,
+        "commits": 12
+      },
+      {
+        "year": 2024,
+        "commits": 7
+      },
+      {
+        "year": 2025,
+        "commits": 10
+      },
+      {
+        "year": 2026,
+        "commits": 3
+      }
+    ],
+    "events": [
+      {
+        "date": "2020-04",
+        "label": "Created as pandemic relief",
+        "kind": "add"
+      },
+      {
+        "date": "2020-10",
+        "label": "Formalized to monthly cadence",
+        "kind": "expand"
+      },
+      {
+        "date": "2021-04",
+        "label": "Renamed “Pandemic Support Day” for six days, then reverted",
+        "kind": "reframe"
+      },
+      {
+        "date": "2022-07",
+        "label": "Coverage requirements added — some must stay back",
+        "kind": "restrict"
+      },
+      {
+        "date": "2023-08",
+        "label": "Migrated to the handbook repo",
+        "kind": "reframe"
+      }
+    ]
   }
 }
