@@ -99,6 +99,7 @@ function Chart({ data, width, height }: { data: MaterialDeiData; width: number; 
             tickLabelProps={{ className: "fill-neutral-500 text-[11px]", textAnchor: "middle" }}
             stroke="currentColor" tickStroke="currentColor" axisClassName="text-neutral-400 dark:text-neutral-600" />
           <AxisLeft scale={yScale} numTicks={4}
+            tickFormat={(v) => `${Math.round(Number(v) * 100)}%`}
             tickLabelProps={{ className: "fill-neutral-500 text-[11px]", textAnchor: "end", dx: -4 }}
             stroke="currentColor" tickStroke="currentColor" axisClassName="text-neutral-400 dark:text-neutral-600" />
           <rect width={innerW} height={innerH} fill="transparent"
@@ -117,7 +118,7 @@ function Chart({ data, width, height }: { data: MaterialDeiData; width: number; 
                   <span className="inline-block h-2 w-2 rounded-sm" style={{ background: b.color }} />
                   {b.label}
                 </dt>
-                <dd className="font-mono">{b.v.toFixed(1)}</dd>
+                <dd className="font-mono">{(b.v * 100).toFixed(1)}%</dd>
               </div>
             ))}
           </dl>

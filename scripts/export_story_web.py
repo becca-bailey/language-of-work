@@ -1063,12 +1063,15 @@ _WB_WHOLE_LIFE = [
 
 
 def _wb_material_dei(companies) -> dict:
-    """Per-year mentions of each whole-life benefit type — a stacked view of the
-    life-outside-work benefit mix over time. Counts mentions (a chunk naming two types
-    counts in both), 3-yr smoothed, English chunks only."""
+    """Per-year PREVALENCE of each whole-life benefit type — share of benefit-bearing
+    chunks that mention it — as a stacked view of the life-outside-work benefit mix over
+    time. Normalized (not raw counts) so year-to-year swings in how much benefit content
+    was archived, or which companies appear, don't drive the shape. 3-yr smoothed, English
+    chunks only. Multi-label: a chunk naming two types counts toward both shares."""
     from lowork.text_filter import is_english
     pats = [(cid, label, re.compile(p, re.I)) for cid, label, p in _WB_WHOLE_LIFE]
     counts = {cid: defaultdict(int) for cid, *_ in _WB_WHOLE_LIFE}
+    den = defaultdict(int)  # benefit-bearing chunks per year (the denominator)
     for co in companies:
         cp = company_dir(co) / "classifications.json"
         chunks_dir = company_dir(co) / "chunks"
@@ -1085,20 +1088,22 @@ def _wb_material_dei(companies) -> dict:
                 y = c.get("year")
                 if y is None or not (2013 <= y <= 2026):
                     continue
+                den[y] += 1
                 for cid, _lbl, pat in pats:
                     if pat.search(c["text"]):
                         counts[cid][y] += 1
-    years = sorted({y for cid in counts for y in counts[cid]})
+    years = sorted(y for y in den if den[y] >= 5)  # drop thin-coverage years
 
     def smooth(series):
-        return [round(sum(series[max(0, i - 1):i + 2]) / len(series[max(0, i - 1):i + 2]), 2)
+        return [round(sum(series[max(0, i - 1):i + 2]) / len(series[max(0, i - 1):i + 2]), 4)
                 for i in range(len(series))]
 
     return {
         "years": years,
+        "normalized": True,
         "components": [
             {"id": cid, "label": label,
-             "values": smooth([counts[cid].get(y, 0) for y in years])}
+             "values": smooth([counts[cid].get(y, 0) / den[y] for y in years])}
             for cid, label, _ in _WB_WHOLE_LIFE
         ],
     }
