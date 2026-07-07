@@ -1,0 +1,9 @@
+---
+import CompanyConcessionExplorer from "@/components/CompanyConcessionExplorer";
+import { loadStory } from "@/lib/stories";
+const data = (await loadStory("wellbeing")) as any;
+const companies = data?.companyTrajectories ?? [];
+---
+{companies.length > 0 && (
+  <CompanyConcessionExplorer companies={companies} client:only="react" />
+)}

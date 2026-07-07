@@ -892,15 +892,72 @@ def _zscore_series(series: dict) -> dict:
     return {y: (v - m) / s for y, v in series.items()}
 
 
+def _wb_year_quote(companies, axis, min_words=6) -> dict:
+    """Per year, the highest-scoring sentence for an axis across all companies (with
+    company attribution) — a concrete example of the year's care/DEI talk for tooltips.
+    Filters short/navigation fragments so a real sentence surfaces."""
+    best: dict[int, dict] = {}
+    for co in companies:
+        p = company_dir(co) / "evidence_quotes.json"
+        if not p.exists():
+            continue
+        ev = read_json(p).get(axis, {}).get("sentence", {})
+        name = CompanyProfile.load(co).display_name
+        for yr, items in ev.items():
+            for it in items or []:
+                text = str(it.get("text", "")).strip()
+                if len(text.split()) < min_words or "quick links" in text.lower():
+                    continue
+                y = int(yr)
+                if y not in best or it.get("score", 0) > best[y]["score"]:
+                    best[y] = {"text": text[:220], "company": name, "score": it.get("score", 0)}
+                break  # items are score-sorted; first valid one is the year's top
+    return best
+
+
 def _wb_concession(companies) -> list[dict]:
-    """care & DEI rhetoric (z-scored pooled) + JOLTS quits, per year — for the overlay."""
+    """care & DEI rhetoric (z-scored pooled) + JOLTS quits, per year — for the overlay.
+    Each year also carries a representative care-talk and DEI-talk quote (for tooltips)."""
     care = _zscore_series(_wb_pooled_axis(companies, "wellbeing"))
     dei = _zscore_series(_wb_pooled_axis(companies, "inclusion"))
     quits = {q["year"]: q["quitsRate"]
              for q in read_json(DATA_DIR / "power_proxies.json")["quits"]}
+    care_q = _wb_year_quote(companies, "wellbeing")
+    dei_q = _wb_year_quote(companies, "inclusion")
     years = sorted(set(care) & set(dei))
     return [{"year": y, "careZ": round(care[y], 3), "deiZ": round(dei[y], 3),
-             "quits": quits.get(y)} for y in years if 2015 <= y <= 2026]
+             "quits": quits.get(y),
+             "careQuote": care_q.get(y), "deiQuote": dei_q.get(y)}
+            for y in years if 2015 <= y <= 2026]
+
+
+def _wb_company_trajectories(companies) -> list[dict]:
+    """Per-company care & DEI rhetoric trajectories (each z-scored within the company so
+    the two sit on one axis) — the concession bundle seen one firm at a time. Sorted by
+    care-DEI correlation so the strongest adherents lead the selector."""
+    from scipy import stats as _stats
+    rows = []
+    for co in companies:
+        p = company_dir(co) / "axis_scores.parquet"
+        if not p.exists():
+            continue
+        df = pd.read_parquet(p)
+
+        def yr_map(axis):
+            d = df[(df["axis"] == axis) & (df["level"] == "chunk")]
+            return {int(r["year"]): float(r["raw_topk_mean"]) for _, r in d.iterrows()}
+
+        care, dei = _zscore_series(yr_map("wellbeing")), _zscore_series(yr_map("inclusion"))
+        yrs = sorted(y for y in set(care) & set(dei) if 2013 <= y <= 2026)
+        if len(yrs) < 6:
+            continue
+        r, _ = _stats.pearsonr([care[y] for y in yrs], [dei[y] for y in yrs])
+        rows.append({
+            "id": co, "displayName": CompanyProfile.load(co).display_name,
+            "r": round(float(r), 2),
+            "years": [{"year": y, "careZ": round(care[y], 3), "deiZ": round(dei[y], 3)} for y in yrs],
+        })
+    return sorted(rows, key=lambda x: -x["r"])
 
 
 def _wb_axes2020(companies) -> list[dict]:
@@ -943,11 +1000,43 @@ def _wb_locus_divergence(companies) -> list[dict]:
                     mh_num[y] += 1
                 if _WB_FAM.search(c["text"]):
                     fam_num[y] += 1
+    ex = _wb_locus_examples(companies)
     return [{"year": y,
              "mentalHealth": round(mh_num[y] / den[y], 3),
              "caregiving": round(fam_num[y] / den[y], 3),
-             "nChunks": den[y]}
+             "nChunks": den[y],
+             "mhExample": ex["mentalHealth"].get(y),
+             "famExample": ex["caregiving"].get(y)}
             for y in sorted(den) if den[y] >= 3 and 2013 <= y <= 2026]
+
+
+def _wb_locus_examples(companies) -> dict:
+    """Per-year representative benefit verbatims for the two locus poles (English only,
+    preferring the more specific/enumerated statement) — for the divergence-chart tooltip."""
+    from lowork.text_filter import is_english
+    mh: dict[int, dict] = {}
+    fam: dict[int, dict] = {}
+    has_num = re.compile(r"\d")
+    for co in companies:
+        p = company_dir(co) / "wellbeing_benefits.jsonl"
+        if not p.exists():
+            continue
+        name = CompanyProfile.load(co).display_name
+        for line in p.open():
+            r = json.loads(line)
+            text = r["verbatim"].strip()
+            if not is_english(text) or len(text.split()) < 3:
+                continue
+            y = r["year"]
+            cand = {"text": text[:150], "company": name, "num": bool(has_num.search(text))}
+            if r["category"].startswith("mental_health"):
+                if y not in mh or (cand["num"] and not mh[y]["num"]):
+                    mh[y] = cand
+            elif r["category"] in ("caregiver_support", "parental_leave"):
+                if y not in fam or (cand["num"] and not fam[y]["num"]):
+                    fam[y] = cand
+    strip = lambda d: {y: {"text": v["text"], "company": v["company"]} for y, v in d.items()}
+    return {"mentalHealth": strip(mh), "caregiving": strip(fam)}
 
 
 def _wb_flow() -> dict:
@@ -1027,6 +1116,7 @@ def export_wellbeing(companies: list[str]) -> None:
         },
         # Story-page datasets (H1 concession bundle + locus divergence + GitLab flow).
         "concession": _wb_concession(companies),
+        "companyTrajectories": _wb_company_trajectories(companies),
         "axes2020": _wb_axes2020(companies),
         "locusDivergence": _wb_locus_divergence(companies),
         "flow": _wb_flow(),

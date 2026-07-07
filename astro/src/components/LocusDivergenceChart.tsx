@@ -13,11 +13,17 @@ import { bisector, extent } from "d3-array";
 import { localPoint } from "@visx/event";
 import { useThemeColors } from "@/lib/themeColors";
 
+interface Example {
+  text: string;
+  company: string;
+}
 export interface LocusRow {
   year: number;
   mentalHealth: number; // individual-locus care
   caregiving: number; // structural-locus care
   nChunks: number;
+  mhExample?: Example | null;
+  famExample?: Example | null;
 }
 
 const MARGIN = { top: 16, right: 120, bottom: 36, left: 48 };
@@ -165,6 +171,22 @@ function Chart({ rows, width, height }: { rows: LocusRow[]; width: number; heigh
               <dd>{(tooltipData.caregiving * 100).toFixed(0)}%</dd>
             </div>
           </dl>
+          {(tooltipData.mhExample || tooltipData.famExample) && (
+            <div className="mt-2 max-w-72 space-y-1.5 border-t border-neutral-200 pt-2 dark:border-neutral-700">
+              {tooltipData.mhExample && (
+                <p className="text-[11px] leading-snug">
+                  <span style={{ color: color("--chart-contrast-1") }}>“{tooltipData.mhExample.text}”</span>
+                  <span className="text-neutral-400"> — {tooltipData.mhExample.company}</span>
+                </p>
+              )}
+              {tooltipData.famExample && (
+                <p className="text-[11px] leading-snug">
+                  <span style={{ color: color("--chart-1") }}>“{tooltipData.famExample.text}”</span>
+                  <span className="text-neutral-400"> — {tooltipData.famExample.company}</span>
+                </p>
+              )}
+            </div>
+          )}
         </TooltipWithBounds>
       )}
     </div>

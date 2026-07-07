@@ -54,8 +54,8 @@ function Chart({ rows, width, height }: { rows: AxisSpikeRow[]; width: number; h
                 fontWeight={r.concession ? 600 : 400}>
                 {r.label}
               </text>
-              <text x={xScale(r.z2020) + (r.z2020 >= 0 ? 6 : -6)} y={bw / 2} dominantBaseline="middle"
-                textAnchor={r.z2020 >= 0 ? "start" : "end"} fontSize={11} className="fill-neutral-500 tabular-nums">
+              <text x={r.z2020 >= 0 ? xScale(r.z2020) + 6 : zero + 6} y={bw / 2} dominantBaseline="middle"
+                textAnchor="start" fontSize={11} className="fill-neutral-500 tabular-nums">
                 {r.z2020 > 0 ? "+" : ""}{r.z2020.toFixed(1)}
               </text>
             </Group>

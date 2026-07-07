@@ -13,12 +13,18 @@ import { bisector, extent } from "d3-array";
 import { localPoint } from "@visx/event";
 import { useThemeColors } from "@/lib/themeColors";
 
+interface Quote {
+  text: string;
+  company: string;
+}
 export interface ConcessionRow {
   year: number;
   careZ: number;
   deiZ: number;
   quits: number | null;
   quitsZ?: number;
+  careQuote?: Quote | null;
+  deiQuote?: Quote | null;
 }
 
 const MARGIN = { top: 16, right: 96, bottom: 36, left: 44 };
@@ -134,6 +140,22 @@ function Chart({ rows, width, height }: { rows: ConcessionRow[]; width: number; 
               <div className="flex justify-between gap-4"><dt>quits</dt><dd>{tooltipData.quits.toFixed(1)}%</dd></div>
             )}
           </dl>
+          {(tooltipData.careQuote || tooltipData.deiQuote) && (
+            <div className="mt-2 max-w-72 space-y-1.5 border-t border-neutral-200 pt-2 dark:border-neutral-700">
+              {tooltipData.careQuote && (
+                <p className="text-[11px] leading-snug">
+                  <span style={{ color: color("--chart-1") }}>“{tooltipData.careQuote.text}”</span>
+                  <span className="text-neutral-400"> — {tooltipData.careQuote.company}</span>
+                </p>
+              )}
+              {tooltipData.deiQuote && (
+                <p className="text-[11px] leading-snug">
+                  <span style={{ color: color("--chart-2") }}>“{tooltipData.deiQuote.text}”</span>
+                  <span className="text-neutral-400"> — {tooltipData.deiQuote.company}</span>
+                </p>
+              )}
+            </div>
+          )}
         </TooltipWithBounds>
       )}
     </div>
