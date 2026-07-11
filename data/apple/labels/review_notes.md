@@ -1,0 +1,53 @@
+# First-pass label review — apple
+
+LLM first pass (independent of the pinned classifier). Spot-check priority:
+48 low-confidence rows below; the other 42 were unambiguous.
+
+- `1dd36c4331be108e` [2023] **mission_brand** — Research and development (R&D) teams are the fastest growing at Apple. R&D is also an area where diversity con
+- `1cd72b0f711f0748` [2015] **process_logistics** — You’ll train and work in your home office, using the iMac we provide for your role as an At Home Advisor.
+- `aa2151590e746da9` [2023] **mission_brand** — Open global leadership roles 2 filled by women 55% Open U.S. leadership roles filled by candidates from URCs 3
+- `3ee942fee7763b3d` [2023] **job_listing** — See full role description Vulnerability Researcher Share Vulnerability Researcher Share this role. Close Role 
+- `0f0dbe345f041996` [2022] **job_listing** — Add to Favorites CN-Store Leader Removed from favorites Add a favorite Close To view your favorites, sign in w
+- `871918e88257dba1` [2011] **benefits_perks** — As an Apple At-Home Advisor, enjoy a hands-on relationship with the great technology you’ll be supporting. To 
+- `ff7269cf7558b7f5` [2022] **benefits_perks** — Apple has a firm and long‑standing commitment to pay equity. Globally, employees of all genders earn the same 
+- `d47a400b000bf651` [2011] **job_listing** — I’m great at translating technology into a language people can understand. Our customers never stop telling me
+- `c5cb5833cbde3c30` [2015] **job_listing** — Working toward your master’s or doctoral degree? Put your knowledge and experience into practice by working on
+- `d281c7c18267b0b3` [2015] **process_logistics** — Yes. Training typically lasts five to seven weeks, and the content is delivered through a virtual, online prog
+- `d08af42cc251dba6` [2021] **benefits_perks** — We started with pilot programs for team members from underrepresented communities in the U.S. and the U.K. We 
+- `8e3df5a934690ec6` [2022] **mission_brand** — In collaboration with the Thurgood Marshall College Fund, Apple offers internship opportunities to students ac
+- `741ac3ca397deaf6` [2007] **job_listing** — Did you just graduate from college or graduate school? Are you about to graduate? Start your career at Apple.
+- `9864a2e5afc387ea` [2022] **job_listing** — See full role description Software Engineering Manager-HomePod Share Software Engineering Manager-HomePod Shar
+- `d70b961bac47c923` [2022] **mission_brand** — All of our hiring managers and recruiters are trained in inclusive hiring practices. These mandatory trainings
+- `08e690e296cce342` [2026] **mission_brand** — Our New Silicon Initiative (NSI) is working with educational institutions around the U.S. including Historical
+- `e75307a71e299a7e` [2015] **employee_story** — Being a Campus Rep has given me the opportunity to go beyond learning in a classroom. The most rewarding aspec
+- `e758190ba41800c7` [2022] **benefits_perks** — Employees have access to Apple University, which fosters understanding, conversation, and critical thinking ab
+- `008432cdf89d5999` [2023] **mission_brand** — We incorporate our Apple values — including inclusion and diversity — and key community initiatives into our e
+- `a749db58958ea189` [2024] **benefits_perks** — Pay equity is embedded in Apple’s approach to compensation. Since 2017, Apple has achieved and maintained gend
+- `b2d8ba4a2c6e97d8` [2023] **mission_brand** — Performance reviews involve more than results — they look at how people perform their jobs. They encompass how
+- `801bfa574224cd35` [2026] **job_listing** — Sales - Account Manager Sales and Business Development Nov 20, 2025 Location Makati City Actions See full role
+- `e98400d5f3d6496f` [2019] **employee_story** — Through their experiences and backgrounds, they bring leadership, technical skills, and a spirit of collaborat
+- `f4dac318efa9be30` [2013] **job_listing** — Come to Cocoa Camp - a week-long training session at Apple's headquarters in Cupertino, California - and enhan
+- `d8fb764506d61d57` [2015] **mission_brand** — The people who provide goods and services to our company are extremely important to us. Our Supplier Employee 
+- `e1d3ff80b13783cb` [2023] **mission_brand** — We’re addressing systemic racism by expanding opportunities for communities of color globally.
+- `cc83c55c7d7891e5` [2019] **job_listing** — See full role description TH-Creative View All Locations TH-Creative Close Share TH-Creative Share this role. 
+- `8261faea70cc7753` [2026] **navigation_junk** — Accessibility Our built-in accessibility features are designed to work the way you do. Learn more Education We
+- `e11d9db5561a31a0` [2011] **benefits_perks** — As an Apple At-Home Advisor, you’ll receive coveted perks that you can enjoy without ever leaving home. These 
+- `884d57854afae8f0` [2025] **job_listing** — Add to Favorites iOS Engineer, Shazam Removed from favorites Add a favorite Close To view your favorites, sign
+- `1dd712a869ac9e04` [2019] **job_listing** — Add to Favorites CH-Apple Store Leader Program Removed from favorites To view your favorites, sign in with you
+- `eafe51e8e6f7a9e2` [2016] **benefits_perks** — As an AppleCare College Advisor, you’ll receive a robust benefits package, including product discounts and pai
+- `b97ad624329dc927` [2024] **employee_story** — SignTime has already made a difference in how the team connects — both with each other and with customers. “Af
+- `22ae007adb180524` [2023] **job_listing** — Across the globe, our Apple Store team members are committed to caring for each other and customers as well as
+- `ca08f60315b1cdc4` [2021] **benefits_perks** — Apple University offers original classes and seminars across a range of topics, developed and led by experts. 
+- `f944ba1b555cdf82` [2022] **job_listing** — Sr. Build and Release Engineering Project Manager Software and Services Jul 28, 2022 Add to Favorites Sr. Buil
+- `bfc0e09f349b5c69` [2020] **job_listing** — Add to Favorites JP-Genius Removed from favorites To view your favorites, sign in with your Apple ID. Sign In 
+- `027fe1fd2827975b` [2018] **employee_story** — Through their experiences and backgrounds, they bring leadership, technical skills, and a spirit of collaborat
+- `fe127903bf892f48` [2024] **mission_brand** — Our commitment to becoming carbon neutral by 2030 drives everything we do.
+- `d60d50f01daf9b2e` [2022] **job_listing** — Across the globe, our Apple Store team members are building strong connections to the communities they serve. 
+- `cc77943946d73389` [2022] **mission_brand** — Equitable, inclusive experiences for all employees begin with equipping our leaders with the resources they ne
+- `d0742e6de6d223ab` [2025] **mission_brand** — Our New Silicon Initiative (NSI) is working with Historically Black Colleges and Universities (HBCUs) to help 
+- `923479e23adbc40c` [2022] **benefits_perks** — Resources that matter. Because you do. It feels like we’re not just coworkers. We’re really like Apple family 
+- `83f115ca3bcbab98` [2024] **job_listing** — See full role description Touch Sensing Module Design Engineer Share Touch Sensing Module Design Engineer Shar
+- `fe4ff2849c202e14` [2018] **mission_brand** — The population of employees whose race or ethnicity was undeclared decreased from 6 percent in 2015 to less th
+- `8567d5a009a8c71f` [2025] **job_listing** — See full role description Sr. Android Engineer-Apple Music Share Sr. Android Engineer-Apple Music Share this r
+- `e1f68baf3e1a13b8` [2025] **mission_brand** — Our workforce is more diverse than ever. And there is more work to do.
+- `1d37083010ddf4e4` [2025] **mission_brand** — Even after they’ve completed the program, these creatives will continue to be supported through mentorship, ré

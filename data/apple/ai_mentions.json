@@ -1,0 +1,822 @@
+{
+  "company": "apple",
+  "content_labels": [
+    "benefits_perks",
+    "employee_story",
+    "job_listing",
+    "mission_brand",
+    "process_logistics"
+  ],
+  "years": [
+    {
+      "year": 2005,
+      "total_chunks": 1,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2006,
+      "total_chunks": 10,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2007,
+      "total_chunks": 16,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 13,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2008,
+      "total_chunks": 6,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2009,
+      "total_chunks": 22,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 16,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2010,
+      "total_chunks": 12,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2011,
+      "total_chunks": 42,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 30,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2012,
+      "total_chunks": 15,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 12,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2013,
+      "total_chunks": 39,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 28,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2014,
+      "total_chunks": 22,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 10,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2015,
+      "total_chunks": 49,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 18,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2016,
+      "total_chunks": 11,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2017,
+      "total_chunks": 23,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 19,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2018,
+      "total_chunks": 38,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 15,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 14,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2019,
+      "total_chunks": 35,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 13,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 12,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2020,
+      "total_chunks": 52,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 28,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2021,
+      "total_chunks": 105,
+      "ai_chunks": 9,
+      "prevalence": 0.0857,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 6,
+          "ai_chunks": 1,
+          "mentions": 2
+        },
+        "employee_story": {
+          "chunks": 16,
+          "ai_chunks": 2,
+          "mentions": 4
+        },
+        "job_listing": {
+          "chunks": 34,
+          "ai_chunks": 5,
+          "mentions": 14
+        },
+        "mission_brand": {
+          "chunks": 48,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 9,
+        "AI": 7,
+        "ML": 2,
+        "deep learning": 2,
+        "artificial intelligence": 1
+      },
+      "examples": [
+        {
+          "label": "employee_story",
+          "chunk_id": "27af0c112da64d78",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "text": "T‑Ray has been at Apple for 10 years and spent that time learning new skills and exploring different career paths. Starting in Retail and now working in AI/ML, T‑Ray has spent time in many areas of Apple through the Career Experience (CE) program, which brings people from Retail, AppleCare, and othe"
+        },
+        {
+          "label": "benefits_perks",
+          "chunk_id": "9fa618803f95804c",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "text": "If you are a Colorado resident, this is for you: At Apple, we see the whole you. We carefully consider a wide range of compensation factors, including your background and experience. These considerations can cause your compensation to vary. AI/ML - Analytics Engineer, Siri Data starts at a minimum a"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "fdaf44d7b13c4f48",
+          "terms": [
+            "AI",
+            "artificial intelligence",
+            "deep learning",
+            "machine learning"
+          ],
+          "text": "Machine learning and AI continue to grow in importance for virtually every Apple product and service, so your contributions in these fields can make an impact on many groups here. You’ll help develop algorithms that solve some of the most complex AI problems, integrating your work into powerful neur"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total_chunks": 137,
+      "ai_chunks": 8,
+      "prevalence": 0.0584,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 17,
+          "ai_chunks": 2,
+          "mentions": 4
+        },
+        "job_listing": {
+          "chunks": 35,
+          "ai_chunks": 5,
+          "mentions": 30
+        },
+        "mission_brand": {
+          "chunks": 79,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 14,
+        "ML": 14,
+        "machine learning": 7
+      },
+      "examples": [
+        {
+          "label": "employee_story",
+          "chunk_id": "59ed818aa2cfe3cb",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "text": "T‑Ray has been at Apple for 10 years and spent that time learning new skills and exploring different career paths. Starting in Retail and now working in AI/ML, T‑Ray has spent time in many areas of Apple through the Career Experience (CE) program, which brings people from Retail, AppleCare, and othe"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "09f28ed36aec93d3",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "text": "See full role description AI/ML - Sr Engineering Program Manager, Release Management Share AI/ML - Sr Engineering Program Manager, Release Management Share this role. Close Role Number: 200406610 Weekly Hours: 40 Hours Imagine what you could do here. Transform the way people find their favorite movi"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "37ddfd70f5aa747d",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "text": "See full role description Frontend/UI Software Engineer- Apple Cloud Share Frontend/UI Software Engineer- Apple Cloud Share this role. Close Role Number: 200377479 Weekly Hours: 40 Hours The iCloud Web team is looking for a frontend software engineer to join and build high quality, beautiful, and in"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total_chunks": 105,
+      "ai_chunks": 3,
+      "prevalence": 0.0286,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 10,
+          "ai_chunks": 2,
+          "mentions": 4
+        },
+        "job_listing": {
+          "chunks": 18,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 71,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 2,
+        "AI": 2,
+        "ML": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "327ff5ad503b24c1",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives be"
+        },
+        {
+          "label": "employee_story",
+          "chunk_id": "9342288840ccaafb",
+          "terms": [
+            "AI",
+            "machine learning"
+          ],
+          "text": "The values we share at Apple inspire the work we share with everyone. They’re also why we’re committed to leaving the world better than we found it. Each of us contributes to that effort in our own way, bringing a passion for what we do best and what we believe matters most. Explore our people’s sto"
+        },
+        {
+          "label": "employee_story",
+          "chunk_id": "5444fa99f2fbd1c3",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "text": "Yuli is a longtime champion of inclusion and diversity in engineering at Apple. Her role as chief of staff for AI/ML in APAC provides her with opportunities to create a more inclusive environment for the many engineering teams she works with throughout the Asia-Pacific region. I want people to feel "
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total_chunks": 60,
+      "ai_chunks": 1,
+      "prevalence": 0.0167,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 19,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 38,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "97fd2e10a56f0a90",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives be"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total_chunks": 92,
+      "ai_chunks": 4,
+      "prevalence": 0.0435,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 10,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 27,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 43,
+          "ai_chunks": 3,
+          "mentions": 3
+        },
+        "process_logistics": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 4
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "d899ab87f9077b6b",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives be"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "ad91a05d604dde40",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Add to Favorites Data Infrastructure Engineer, Shazam (Fixed Term Contract - 12 months) Removed from favorites Add a favorite Close To view your favorites, sign in with your Apple Account. Sign In Don’t have an Apple Account? Create one now Forgot your Apple Account or password? Share Data Infrastru"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "93572daded1949b1",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives be"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total_chunks": 18,
+      "ai_chunks": 1,
+      "prevalence": 0.0556,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 14,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "91e59e6bb0e20f0a",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives be"
+        }
+      ]
+    }
+  ]
+}

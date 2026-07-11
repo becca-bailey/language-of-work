@@ -24,6 +24,9 @@ companies:
     basecamp,
     salesforce,
     starbucks,
+    uber,
+    apple,
+    nvidia,
   ]
 
 # Every company gets an individual page; the per-company exports run for all of
@@ -33,6 +36,7 @@ companies:
 
 stories:
   altruism: true
+  ai: true # story axis: mention tracker + tool<->mandate framing; no story page yet
   performance: true
   wellbeing: true # story axis: dataset exported, no story page written yet
   power: true

@@ -1,0 +1,31 @@
+{
+  "n": 70,
+  "accuracy": 0.986,
+  "confusion": {
+    "mission_brand": {
+      "mission_brand": 26
+    },
+    "process_logistics": {
+      "mission_brand": 1
+    },
+    "legal_boilerplate": {
+      "legal_boilerplate": 35
+    },
+    "employee_story": {
+      "employee_story": 3
+    },
+    "job_listing": {
+      "job_listing": 4
+    },
+    "navigation_junk": {
+      "navigation_junk": 1
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "7117135e40767377",
+      "hand_label": "process_logistics",
+      "predicted": "mission_brand"
+    }
+  ]
+}

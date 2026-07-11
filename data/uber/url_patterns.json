@@ -1,0 +1,12 @@
+{
+  "company": "uber",
+  "display_name": "Uber",
+  "comment": "Careers pages. The canonical hustle-culture case with a documented values rewrite: the 'always be hustlin''-era cultural values were publicly replaced under Khosrowshahi in late 2017 after the Fowler post (verify exact dates against captures). Founded 2009 (UberCab 2010); expect thin pre-2012. Key case for the craft/iteration axis.",
+  "hosts": ["uber.com", "www.uber.com"],
+  "comment_patterns": "Refined after discover (2026-07-10): careers.uber.com had 0 CDX captures and was dropped. CONTAMINATION GUARD: uber.com predates Uber-the-company (2007 captures of /about are the prior domain owner) — all patterns carry min_year 2010, enforced by fetch. Probes: /careers 64w@2014 content, 0w@2026 (recent SPA era may need server-rendered siblings); /jobs 91w@2011 content; /about 556w@2007 (pre-Uber, excluded by min_year) and 287w@2019 content.",
+  "patterns": [
+    {"url": "uber.com/careers", "match_type": "prefix", "era_hint": "2012-2026", "min_year": 2010},
+    {"url": "uber.com/jobs", "match_type": "prefix", "era_hint": "2010-2016", "min_year": 2010},
+    {"url": "uber.com/about", "match_type": "prefix", "era_hint": "2014-2026", "min_year": 2010}
+  ]
+}

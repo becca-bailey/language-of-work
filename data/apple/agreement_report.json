@@ -1,0 +1,85 @@
+{
+  "n": 90,
+  "accuracy": 0.889,
+  "confusion": {
+    "mission_brand": {
+      "mission_brand": 23,
+      "benefits_perks": 1,
+      "legal_boilerplate": 1
+    },
+    "job_listing": {
+      "job_listing": 32,
+      "employee_story": 1,
+      "mission_brand": 2,
+      "process_logistics": 1
+    },
+    "navigation_junk": {
+      "job_listing": 1,
+      "navigation_junk": 2
+    },
+    "benefits_perks": {
+      "benefits_perks": 8,
+      "mission_brand": 1
+    },
+    "employee_story": {
+      "employee_story": 10,
+      "mission_brand": 1
+    },
+    "process_logistics": {
+      "process_logistics": 5,
+      "job_listing": 1
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "0f0dbe345f041996",
+      "hand_label": "navigation_junk",
+      "predicted": "job_listing"
+    },
+    {
+      "chunk_id": "d47a400b000bf651",
+      "hand_label": "job_listing",
+      "predicted": "employee_story"
+    },
+    {
+      "chunk_id": "d08af42cc251dba6",
+      "hand_label": "benefits_perks",
+      "predicted": "mission_brand"
+    },
+    {
+      "chunk_id": "741ac3ca397deaf6",
+      "hand_label": "process_logistics",
+      "predicted": "job_listing"
+    },
+    {
+      "chunk_id": "008432cdf89d5999",
+      "hand_label": "mission_brand",
+      "predicted": "benefits_perks"
+    },
+    {
+      "chunk_id": "b97ad624329dc927",
+      "hand_label": "employee_story",
+      "predicted": "mission_brand"
+    },
+    {
+      "chunk_id": "22ae007adb180524",
+      "hand_label": "job_listing",
+      "predicted": "mission_brand"
+    },
+    {
+      "chunk_id": "d60d50f01daf9b2e",
+      "hand_label": "job_listing",
+      "predicted": "mission_brand"
+    },
+    {
+      "chunk_id": "fe4ff2849c202e14",
+      "hand_label": "mission_brand",
+      "predicted": "legal_boilerplate"
+    },
+    {
+      "chunk_id": "c1ea8d79fae2eeb4",
+      "hand_label": "job_listing",
+      "predicted": "process_logistics"
+    }
+  ]
+}

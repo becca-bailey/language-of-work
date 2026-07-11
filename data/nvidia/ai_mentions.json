@@ -1,0 +1,456 @@
+{
+  "company": "nvidia",
+  "content_labels": [
+    "benefits_perks",
+    "employee_story",
+    "job_listing",
+    "mission_brand",
+    "process_logistics"
+  ],
+  "years": [
+    {
+      "year": 2006,
+      "total_chunks": 3,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2007,
+      "total_chunks": 4,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2008,
+      "total_chunks": 3,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2009,
+      "total_chunks": 2,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2010,
+      "total_chunks": 4,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2011,
+      "total_chunks": 4,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2012,
+      "total_chunks": 2,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2013,
+      "total_chunks": 2,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2014,
+      "total_chunks": 3,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2015,
+      "total_chunks": 3,
+      "ai_chunks": 1,
+      "prevalence": 0.3333,
+      "thin": true,
+      "labels": {
+        "employee_story": {
+          "chunks": 2,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "deep learning": 1
+      },
+      "examples": [
+        {
+          "label": "employee_story",
+          "chunk_id": "627c1a31fa1c3370",
+          "terms": [
+            "deep learning"
+          ],
+          "text": "I get to work on the biggest events that NVIDIA hosts – like CES, in Las Vegas, and Computex, in Taipei – where we're able to show off our products and vision to thousands of visitors each day. It's always a scramble, but we usually knock it out of the park, thanks to a global events team that's the"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "total_chunks": 3,
+      "ai_chunks": 1,
+      "prevalence": 0.3333,
+      "thin": true,
+      "labels": {
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 1,
+          "mentions": 3
+        }
+      },
+      "terms": {
+        "deep learning": 3
+      },
+      "examples": [
+        {
+          "label": "employee_story",
+          "chunk_id": "bea81287e0cc4a8b",
+          "terms": [
+            "deep learning"
+          ],
+          "text": "Coming here as an intern more than a decade ago, I got a chance to work in departments throughout the company. It exposed to me to a range of disciplines pretty quickly. I realized that product engineering is my real love, and that's what I'm doing now. It brings me great joy to know I'm making a re"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "total_chunks": 2,
+      "ai_chunks": 1,
+      "prevalence": 0.5,
+      "thin": true,
+      "labels": {
+        "employee_story": {
+          "chunks": 2,
+          "ai_chunks": 1,
+          "mentions": 3
+        }
+      },
+      "terms": {
+        "deep learning": 3
+      },
+      "examples": [
+        {
+          "label": "employee_story",
+          "chunk_id": "4820beb75aba9d7a",
+          "terms": [
+            "deep learning"
+          ],
+          "text": "Coming here as an intern more than a decade ago, I got a chance to work in departments throughout the company. It exposed to me to a range of disciplines pretty quickly. I realized that product engineering is my real love, and that's what I'm doing now. It brings me great joy to know I'm making a re"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total_chunks": 3,
+      "ai_chunks": 1,
+      "prevalence": 0.3333,
+      "thin": true,
+      "labels": {
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 1,
+          "mentions": 3
+        }
+      },
+      "terms": {
+        "deep learning": 3
+      },
+      "examples": [
+        {
+          "label": "employee_story",
+          "chunk_id": "ac33bca5a5e2679b",
+          "terms": [
+            "deep learning"
+          ],
+          "text": "Coming here as an intern more than a decade ago, I got a chance to work in departments throughout the company. It exposed to me to a range of disciplines pretty quickly. I realized that product engineering is my real love, and that's what I'm doing now. It brings me great joy to know I'm making a re"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total_chunks": 13,
+      "ai_chunks": 8,
+      "prevalence": 0.6154,
+      "thin": false,
+      "labels": {
+        "mission_brand": {
+          "chunks": 13,
+          "ai_chunks": 8,
+          "mentions": 17
+        }
+      },
+      "terms": {
+        "AI": 14,
+        "deep learning": 2,
+        "artificial intelligence": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "2bffd006fa092fdf",
+          "terms": [
+            "AI"
+          ],
+          "text": "In 2006, the creation of our CUDA programming model and Tesla ® GPU platform brought parallel processing to general-purpose computing. A powerful new approach to computing was born. Now, the paths of high performance computing and AI innovation are converging. From the world’s largest supercomputers"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "3f381f01f5b54910",
+          "terms": [
+            "AI",
+            "deep learning"
+          ],
+          "text": "Building amazing AI applications begins with training neural networks. NVIDIA DGX-2 is the world’s most powerful tool for AI training, uniting 16 GPUs to deliver 2 petaflops of training performance. With the extreme IO performance of Mellanox InfiniBand networking, DGX-2 systems can quickly scale to"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "edc707f372c79876",
+          "terms": [
+            "AI",
+            "deep learning"
+          ],
+          "text": "In 2012, GPU-accelerated AlexNet ushered in the era of superhuman image recognition. Since then, we’ve used deep learning to teach AI how to observe and identify images and sounds, to understand their condition, and to infer what may come next. With the latest breakthroughs in natural language under"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total_chunks": 9,
+      "ai_chunks": 6,
+      "prevalence": 0.6667,
+      "thin": false,
+      "labels": {
+        "mission_brand": {
+          "chunks": 9,
+          "ai_chunks": 6,
+          "mentions": 14
+        }
+      },
+      "terms": {
+        "AI": 11,
+        "generative ai": 2,
+        "deep learning": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "0d3f9321f2c5e0c5",
+          "terms": [
+            "AI",
+            "generative ai"
+          ],
+          "text": "Generative AI and digitalization are reshaping the $3 trillion automotive industry, from design and engineering to manufacturing, autonomous driving, and customer experience. NVIDIA is at the epicenter of this industrial transformation."
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "c2006a73547aab9a",
+          "terms": [
+            "AI",
+            "deep learning",
+            "generative ai"
+          ],
+          "text": "Accelerated computing and AI have fully arrived. The acceleration of deep learning ignited the Big Bang of AI. Now, generative AI is a new computing platform, like the PC, internet, and mobile-cloud."
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "03119f22aeee3984",
+          "terms": [
+            "AI"
+          ],
+          "text": "NVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Our work in AI and digital twins is transforming the world's largest industries and profoundly impacting society."
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total_chunks": 15,
+      "ai_chunks": 2,
+      "prevalence": 0.1333,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 3,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 12,
+          "ai_chunks": 1,
+          "mentions": 1
+        }
+      },
+      "terms": {
+        "AI": 2
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "df33db385412d226",
+          "terms": [
+            "AI"
+          ],
+          "text": "We tap into diverse student organizations at more than 25 university campuses, including Minority Serving Institutions, Historically Black Colleges and Universities (HBCUs), and Hispanic-Serving Institutions (HSIs). We also work with Black in AI, Black Tech Nation, Color Stack, the National GEM Cons"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "d16f291643c0d7de",
+          "terms": [
+            "AI"
+          ],
+          "text": "Join our hardware team for the opportunity to have real impact in a dynamic, technology-focused company. Our product lines range from consumer graphics to self-driving cars to the growing field of AI. We’ve built an exceptional team of people from around the globe whose mission is to push the fronti"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total_chunks": 6,
+      "ai_chunks": 1,
+      "prevalence": 0.1667,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 3,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 1
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "6364bd07cebebc58",
+          "terms": [
+            "AI"
+          ],
+          "text": "Join our hardware team for the opportunity to have real impact in a dynamic, technology-focused company. Our product lines range from consumer graphics to self-driving cars to the growing field of AI. We’ve built an exceptional team of people from around the globe whose mission is to push the fronti"
+        }
+      ]
+    }
+  ]
+}

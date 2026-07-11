@@ -1,0 +1,18 @@
+{
+  "company": "apple",
+  "display_name": "Apple",
+  "comment": "Careers pages. The canonical craft employer — key case for the craft/iteration axis, with real 2005-era depth. Expect the modern jobs.apple.com to be an SPA shell in recent years; per the Google/Amazon lesson, probe for server-rendered siblings (apple.com/diversity, apple.com/careers subpaths) before any manual capture. Seed patterns; refine after `discover`.",
+  "hosts": ["apple.com", "www.apple.com", "jobs.apple.com"],
+  "comment_patterns": "Refined after discover (2026-07-10): the apple.com/jobs ROOT probed as shell (0w at 2005/2016/2026 samples) but the 45k-capture prefix pool includes content-bearing /jobs/us/ subpages — split into a narrower /jobs/us pattern so the shell flag on the root doesn't skip the real content (same crowding lesson as Meta facebook-life). jobs.apple.com: 0w@2005, 193w@2022, 2434w@2026 — recent era usable. apple.com/diversity rich (827w@2014, 4628w@2021). apple.com/careers modest (261w@2021).",
+  "comment_language": "English-only guard (2026-07-10): apple.com/careers/<cc>/ and jobs.apple.com/<cc-cc>/ serve localized copy under the same hosts (first fetch pulled ~100 Italian/German/Danish chunks). exclude_url drops locale subpaths, keeping us/en-us. Residual stragglers are caught at M4 mission review.",
+  "patterns": [
+    {"url": "apple.com/jobs/us", "match_type": "prefix", "era_hint": "2005-2018"},
+    {"url": "apple.com/jobs", "match_type": "prefix", "era_hint": "2005-2018",
+     "exclude_url": "apple\\.com/jobs/(?!us(/|$))[a-z]{2}(-[a-z]{2,3})?(/|$)"},
+    {"url": "jobs.apple.com", "match_type": "prefix", "era_hint": "2018-2026",
+     "exclude_url": "jobs\\.apple\\.com/(?!en-us(/|$))[a-z]{2}-[a-z]{2,3}(/|$)"},
+    {"url": "apple.com/careers", "match_type": "prefix", "era_hint": "2010-2026",
+     "exclude_url": "apple\\.com/careers/(?!us(/|$))[a-z]{2}(-[a-z]{2,3})?(/|$)"},
+    {"url": "apple.com/diversity", "match_type": "prefix", "era_hint": "2014-2026"}
+  ]
+}
