@@ -249,6 +249,12 @@ STAGES: list[Stage] = [
           inputs=("ai_mentions.json", "ai_language_scores.parquet"),
           outputs=("repo:astro/src/data/stories/ai.json",),
           depends=("track_ai_mentions", "score_ai_language")),
+    # Craft-vs-AI combined story (does craft language trade off against AI talk?).
+    Stage("export_story_craft_ai", lambda comps: _call("export_craft_ai_story", comps),
+          Scope.GLOBAL, ("ai",),
+          inputs=("axis_scores.parquet", "ai_mentions.json", *_axis_inputs("craft")),
+          outputs=("repo:astro/src/data/stories/craft-ai.json",),
+          depends=("score_axes", "track_ai_mentions")),
     Stage("export_story_performance",
           lambda comps: _call("export_story_web", "performance", comps), Scope.GLOBAL,
           ("performance",), inputs=("performance_scores.parquet", "performance_phrases.json"),

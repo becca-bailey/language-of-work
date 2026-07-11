@@ -1,0 +1,9 @@
+---
+import CraftAiScatter from "@/components/CraftAiScatter";
+import { loadStory } from "@/lib/stories";
+const data = (await loadStory("craft-ai")) as any;
+const points = data?.scatter ?? [];
+---
+{points.length > 0 && (
+  <div class="my-6"><CraftAiScatter points={points} client:only="react" /></div>
+)}

@@ -1,0 +1,89 @@
+---
+title: The Craft Holdouts
+subtitle: The companies that talk most about craft are the quietest about AI — and the AI-loudest never talk craft. Whether that's a trade-off is too early to say.
+thesis: There is no measurable trade-off between craft language and AI language yet — three years of AI signal can't carry one. But the extremes have already sorted themselves; the craft pole of the industry is nearly AI-silent, and every AI-loud employer sits in the middle of the craft axis.
+published: false
+study: careers
+order: 7
+teaser: "Craft talk and AI talk haven't collided yet — but the craft-iest employers are the AI-quietest, and no AI-loud company talks craft."
+---
+
+import CraftAiScatterViz from "@/components/viz/CraftAiScatterViz.astro";
+import CraftAiTrajectoriesViz from "@/components/viz/CraftAiTrajectoriesViz.astro";
+
+I built two new instruments this month and pointed them at the same nineteen companies. The
+first is a **craft axis**: an embedding contrast between craft language ("we take the time
+to get the details right") and iteration language ("we release small changes continuously
+and let real usage tell us what to fix") — both positive self-presentations, measuring
+which attractor a careers page sits nearer. The second is an **AI mention tracker**: the
+share of a company's careers-page text that mentions AI at all, which sat under 2% for two
+decades and then jumped to 12–13% in 2025–26.
+
+The question I actually wanted to ask: do they move in opposite directions? When a company
+starts talking about AI, does it stop talking about craft?
+
+**The honest answer is that the data can't say yet — and what it can say points somewhere
+more specific.** Across nineteen companies, the correlation between the change in craft
+language and the change in AI language is indistinguishable from zero (Spearman ρ = +0.09,
+p = .72), and so is the correlation between the two levels (ρ = −0.11, p = .66). That's
+not surprising: AI language has existed on careers pages for barely three years, and
+nineteen companies is a small panel. A trade-off, if there is one, needs more time to show
+up in motion.
+
+But it may already show up in *position*.
+
+<CraftAiScatterViz />
+
+Look at the corners. The upper region — companies whose recent careers copy mentions AI in
+a fifth to a quarter of everything they publish — is Salesforce, Google, and (on a thin
+sample) Meta. None of them is craft-coded; all three sit in the middle of the craft axis.
+And the right edge — the companies whose language sits hardest on the craft pole — is
+Apple and Starbucks, and both are nearly AI-silent: Apple mentions AI in about 3.5% of its
+recent chunks against an industry average of 12–13%, and Starbucks in none at all. Apple
+is the sharpest case, because its silence is not a coverage artifact — its corpus is the
+best-shaped in the whole project, continuous from 2005, over a hundred chunks a year
+recently. The company that talks most about taking time, polish, and durability simply
+does not talk about AI to job candidates.
+
+One reading is that this is the trade-off, visible in levels before it's visible in
+trends: craft identity and AI enthusiasm are two different employer brands, and companies
+have already chosen one. But the data offers a live counterexample to any strong version
+of that claim, and it deserves equal billing.
+
+<CraftAiTrajectoriesViz />
+
+A note on the mismatched units in this chart: craft is plotted as a within-company
+z-score because its raw value is a cosine projection whose absolute scale means nothing —
+what's interpretable is whether a year is unusually craft-y *for that company*. AI stays
+a raw share because it has what a proportion should have — a true zero and readable units
+("13% of chunks") — and because z-scoring a signal that was ~0 for fifteen years would
+turn any single mention into a spike. The scatter above makes the opposite choice, using
+raw craft levels, since comparing *across* companies is exactly what within-company
+z-scores erase. The question this chart asks — do the two lines move in opposite
+directions? — is directional, and direction doesn't care about units.
+
+**Salesforce's craft language went *up* while its AI language exploded** — from roughly
++0.05 to +0.08 on the craft axis across the same three years its AI share went from ~1% to
+25%. Whatever Salesforce is doing, it is not swapping one vocabulary for the other; it's
+running both. The dashboard also holds two odd cases worth watching rather than
+interpreting. Basecamp — the company I added to this corpus specifically as the
+anti-hustle, craft-coded counterpoint — drifted *off* the craft pole in 2024–26 (from
++0.037 to +0.009) while mentioning AI exactly zero times in 163 chunks. And GitHub and
+GitLab, the only two companies whose careers language sits on the *iteration* pole, are
+also nearly AI-silent — GitHub, the company that ships Copilot, does not mention AI in a
+single captured careers chunk from 2024–26. Careers pages are clearly not a mirror of
+product strategy; they're a separate register with its own inertia.
+
+Three caveats travel with every chart here. Meta's recent AI share (over half of captured
+chunks) rests on a thin corpus — all but a handful of its captured 2026 chunks mention AI,
+but "a handful" is the operative phrase. Nvidia's apparent trajectory is unusable in the
+middle: 2019 and 2021–23 are coverage holes in the archive, and the hole sits exactly on
+the deep-learning boom. And Uber's post-2020 years are similarly unmeasurable until
+manual capture fills them.
+
+What would settle the question: two or three more years of careers pages, the archive
+holes filled for Nvidia and Uber, and the tool-versus-mandate framing axis — which today
+finds even Salesforce's dense AI copy balanced between "AI as something we give you" and
+"AI as something we expect of you." If the mandate era everyone can feel in memos ever
+reaches the careers page, this is where it should first become visible — and the craft
+holdouts are the companies to watch when it does.

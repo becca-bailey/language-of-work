@@ -1,0 +1,9 @@
+---
+import CraftAiTrajectories from "@/components/CraftAiTrajectories";
+import { loadStory } from "@/lib/stories";
+const data = (await loadStory("craft-ai")) as any;
+const pairs = data?.pairs ?? [];
+---
+{pairs.length > 0 && (
+  <div class="my-6"><CraftAiTrajectories pairs={pairs} client:only="react" /></div>
+)}
