@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "astro-dev",
+      "runtimeExecutable": "/Users/becca/.nvm/versions/node/v22.14.0/bin/npm",
+      "runtimeArgs": ["--prefix", "astro", "run", "dev", "--", "--port", "4399"],
+      "port": 4399,
+      "autoPort": false
+    }
+  ]
+}
