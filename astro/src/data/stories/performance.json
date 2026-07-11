@@ -215,9 +215,9 @@
             },
             {
               "year": 2018,
-              "fractionPresent": 0.6078,
+              "fractionPresent": 0.6,
               "topkMean": 0.4871,
-              "nChunks": 51,
+              "nChunks": 50,
               "thin": false
             },
             {
@@ -229,9 +229,9 @@
             },
             {
               "year": 2020,
-              "fractionPresent": 0.9444,
+              "fractionPresent": 0.9412,
               "topkMean": 0.4814,
-              "nChunks": 18,
+              "nChunks": 17,
               "thin": false
             },
             {
@@ -583,16 +583,16 @@
             },
             {
               "year": 2019,
-              "fractionPresent": 0.8571,
-              "topkMean": 0.4313,
-              "nChunks": 7,
+              "fractionPresent": 0.8,
+              "topkMean": 0.365,
+              "nChunks": 5,
               "thin": false
             },
             {
               "year": 2020,
               "fractionPresent": 1.0,
-              "topkMean": 0.4472,
-              "nChunks": 15,
+              "topkMean": 0.4403,
+              "nChunks": 7,
               "thin": false
             },
             {
@@ -1090,7 +1090,7 @@
             {
               "year": 2018,
               "fractionPresent": 1.0,
-              "topkMean": 0.258,
+              "topkMean": 0.2636,
               "nChunks": 2,
               "thin": true
             },
@@ -1110,9 +1110,9 @@
             },
             {
               "year": 2021,
-              "fractionPresent": 0.5333,
-              "topkMean": 0.3,
-              "nChunks": 15,
+              "fractionPresent": 0.4615,
+              "topkMean": 0.2995,
+              "nChunks": 13,
               "thin": false
             },
             {
@@ -1131,16 +1131,16 @@
             },
             {
               "year": 2024,
-              "fractionPresent": 0.8,
-              "topkMean": 0.2965,
-              "nChunks": 5,
-              "thin": false
+              "fractionPresent": 1.0,
+              "topkMean": 0.3088,
+              "nChunks": 4,
+              "thin": true
             },
             {
               "year": 2025,
-              "fractionPresent": 0.6875,
-              "topkMean": 0.3989,
-              "nChunks": 16,
+              "fractionPresent": 0.875,
+              "topkMean": 0.3811,
+              "nChunks": 8,
               "thin": false
             },
             {
@@ -1880,6 +1880,332 @@
               "thin": false
             }
           ]
+        },
+        {
+          "id": "uber",
+          "displayName": "Uber",
+          "years": [
+            {
+              "year": 2011,
+              "fractionPresent": 1.0,
+              "topkMean": 0.5576,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "fractionPresent": 1.0,
+              "topkMean": 0.5468,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2013,
+              "fractionPresent": 0.0,
+              "topkMean": 0.2195,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 0.8,
+              "topkMean": 0.4122,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "fractionPresent": 0.75,
+              "topkMean": 0.4102,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2016,
+              "fractionPresent": 0.8889,
+              "topkMean": 0.5191,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4151,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 0.92,
+              "topkMean": 0.4869,
+              "nChunks": 25,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "fractionPresent": 0.92,
+              "topkMean": 0.405,
+              "nChunks": 25,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.0476,
+              "topkMean": 0.218,
+              "nChunks": 21,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "apple",
+          "displayName": "Apple",
+          "years": [
+            {
+              "year": 2007,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3448,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2008,
+              "fractionPresent": 1.0,
+              "topkMean": 0.2981,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2009,
+              "fractionPresent": 1.0,
+              "topkMean": 0.42,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2010,
+              "fractionPresent": 1.0,
+              "topkMean": 0.2877,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "fractionPresent": 0.5,
+              "topkMean": 0.2549,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4473,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2013,
+              "fractionPresent": 0.75,
+              "topkMean": 0.3016,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 0.625,
+              "topkMean": 0.3886,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2015,
+              "fractionPresent": 0.7273,
+              "topkMean": 0.4187,
+              "nChunks": 22,
+              "thin": false
+            },
+            {
+              "year": 2016,
+              "fractionPresent": 0.6667,
+              "topkMean": 0.3467,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2017,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3713,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2018,
+              "fractionPresent": 0.8571,
+              "topkMean": 0.3991,
+              "nChunks": 14,
+              "thin": false
+            },
+            {
+              "year": 2019,
+              "fractionPresent": 0.75,
+              "topkMean": 0.415,
+              "nChunks": 12,
+              "thin": false
+            },
+            {
+              "year": 2020,
+              "fractionPresent": 0.8333,
+              "topkMean": 0.4381,
+              "nChunks": 12,
+              "thin": false
+            },
+            {
+              "year": 2021,
+              "fractionPresent": 0.8148,
+              "topkMean": 0.4717,
+              "nChunks": 54,
+              "thin": false
+            },
+            {
+              "year": 2022,
+              "fractionPresent": 0.8171,
+              "topkMean": 0.4612,
+              "nChunks": 82,
+              "thin": false
+            },
+            {
+              "year": 2023,
+              "fractionPresent": 0.8267,
+              "topkMean": 0.4534,
+              "nChunks": 75,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.8421,
+              "topkMean": 0.4455,
+              "nChunks": 38,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 0.7736,
+              "topkMean": 0.4448,
+              "nChunks": 53,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 0.7333,
+              "topkMean": 0.3945,
+              "nChunks": 15,
+              "thin": false
+            }
+          ]
+        },
+        {
+          "id": "nvidia",
+          "displayName": "NVIDIA",
+          "years": [
+            {
+              "year": 2006,
+              "fractionPresent": 1.0,
+              "topkMean": 0.316,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2007,
+              "fractionPresent": 1.0,
+              "topkMean": 0.319,
+              "nChunks": 4,
+              "thin": true
+            },
+            {
+              "year": 2008,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3228,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2009,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3248,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2010,
+              "fractionPresent": 1.0,
+              "topkMean": 0.2916,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2011,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3092,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2012,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3256,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2013,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3169,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2014,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3673,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2015,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4342,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2020,
+              "fractionPresent": 0.0,
+              "topkMean": 0.2126,
+              "nChunks": 13,
+              "thin": false
+            },
+            {
+              "year": 2024,
+              "fractionPresent": 0.4444,
+              "topkMean": 0.2992,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "fractionPresent": 0.9167,
+              "topkMean": 0.4643,
+              "nChunks": 12,
+              "thin": false
+            },
+            {
+              "year": 2026,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4353,
+              "nChunks": 3,
+              "thin": true
+            }
+          ]
         }
       ]
     },
@@ -2187,6 +2513,14 @@
         "max_score": 0.4025,
         "example": "This entails engaging with, and listening to, their ideas and feedback while continuing to raise the bar by offering competitive pay and the best benefits package in the industry.",
         "company": "starbucks"
+      },
+      {
+        "term": "high performance",
+        "first_year": 2020,
+        "last_year": 2024,
+        "max_score": 0.2493,
+        "example": "Now, the paths of high performance computing and AI innovation are converging.",
+        "company": "nvidia"
       }
     ],
     "work_hard_play_hard": [
@@ -2280,6 +2614,19 @@
       "score": 0.6036
     },
     {
+      "id": "9273f0382301",
+      "stance": "move_fast",
+      "stanceLabel": "Move fast",
+      "stanceNote": "Speed and scale as hiring pitch.",
+      "company": "uber",
+      "displayName": "Uber",
+      "year": 2016,
+      "source": "careers",
+      "text": "We move fast to do things that have never been done. Because you have to take risks if you want to build the next big idea.",
+      "heading": "Take bold steps",
+      "score": 0.5792
+    },
+    {
       "id": "595f62b6c648",
       "stance": "move_fast",
       "stanceLabel": "Move fast",
@@ -2291,19 +2638,6 @@
       "text": "We trust amazing people to do amazing things. At HubSpot, you have ownership over work that directly impacts the business. You can move fast, and learn even faster.",
       "heading": "Everyone's empowered to work autonomously.",
       "score": 0.5143
-    },
-    {
-      "id": "ae54c3b352d4",
-      "stance": "move_fast",
-      "stanceLabel": "Move fast",
-      "stanceNote": "Speed and scale as hiring pitch.",
-      "company": "meta",
-      "displayName": "Meta",
-      "year": 2011,
-      "source": "careers",
-      "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
-      "heading": "Build stuff that will get used. Fast.",
-      "score": 0.5046
     },
     {
       "id": "91ad4a3482a4",

@@ -1,0 +1,251 @@
+{
+  "company": "snap",
+  "content_labels": [
+    "benefits_perks",
+    "employee_story",
+    "job_listing",
+    "mission_brand",
+    "process_logistics"
+  ],
+  "years": [
+    {
+      "year": 2018,
+      "total_chunks": 2,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2019,
+      "total_chunks": 13,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2020,
+      "total_chunks": 15,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 10,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2021,
+      "total_chunks": 13,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2022,
+      "total_chunks": 10,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "mission_brand": {
+          "chunks": 10,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2023,
+      "total_chunks": 12,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2024,
+      "total_chunks": 5,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2025,
+      "total_chunks": 9,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2026,
+      "total_chunks": 17,
+      "ai_chunks": 4,
+      "prevalence": 0.2353,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 5,
+          "ai_chunks": 3,
+          "mentions": 29
+        },
+        "mission_brand": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 1,
+          "mentions": 4
+        }
+      },
+      "terms": {
+        "machine learning": 11,
+        "AI": 8,
+        "ML": 7,
+        "generative ai": 4,
+        "LLMs": 1,
+        "large language models": 1,
+        "deep learning": 1
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "92021bce456de0c9",
+          "terms": [
+            "AI",
+            "ML",
+            "generative ai",
+            "machine learning"
+          ],
+          "text": "As a Machine Learning Engineer on the Platform Engineering team you’ll build models that provide timely, accurate, high quality and actionable data for decision making that forms the backbone of Snap's external reporting, experimentation, and ML/Ranking. Snap’s AI platform (aka Bento) powers many la"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "da8ac541851a51c9",
+          "terms": [
+            "LLMs",
+            "large language models",
+            "machine learning"
+          ],
+          "text": "As a Machine Learning Engineer on the Content team you’ll work on developing features for highly visible short form video recommendation models that power the creativity and connection at the core of our platform like Stories and Spotlight. You’ll focus on enhancing user experience, driving innovati"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "3b0a995f988de433",
+          "terms": [
+            "ML",
+            "deep learning",
+            "machine learning"
+          ],
+          "text": "Build the future with cutting-edge technology and make an impact on millions of users worldwide As a Machine Learning Engineer at Snap you’ll drive Snapchat’s dynamic experience through the full lifecycle of advanced state-of-the-art models - from data preprocessing, feature engineering, and model t"
+        }
+      ]
+    }
+  ]
+}

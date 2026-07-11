@@ -1,0 +1,472 @@
+{
+  "company": "amazon",
+  "displayName": "Amazon",
+  "axis": "ai",
+  "caveat": "Framing projections have ~4 years of real signal by construction; per-company timing is not comparable until corpus gaps are filled.",
+  "years": [
+    {
+      "year": 2007,
+      "totalChunks": 4,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2008,
+      "totalChunks": 2,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2011,
+      "totalChunks": 2,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2013,
+      "totalChunks": 3,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2014,
+      "totalChunks": 15,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2016,
+      "totalChunks": 38,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 11,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2017,
+      "totalChunks": 72,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 12,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 44,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2018,
+      "totalChunks": 71,
+      "aiChunks": 2,
+      "prevalence": 0.0282,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 13,
+          "ai_chunks": 2,
+          "mentions": 3
+        },
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 44,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 3
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0227,
+          "nChunks": 2,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.0227,
+          "nChunks": 2,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "b7db49ddfc8d49ac",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.0259,
+          "text": "For more than 15 years, Chao has been conducting speech recognition and natural language processing research in academia and industry focused on creating systems that can engage with humans more naturally. Chao, who joined the Alexa Machine Learning team less than two years ago to focus on multimodal machine learning technologies, is still amazed at just how well Alexa interacts with customers. “S"
+        },
+        {
+          "chunk_id": "e3ebebcda24dd306",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.0195,
+          "text": "Catherine joined Amazon shortly before Echo was launched in 2014. She has been a part of Alexa’s growth, seeing it transform from an unknown product into a successful service. Catherine’s team has been responsible for enabling Alexa on Fire TV and Fire tablets, as well as expanding the sorts of things you can ask Alexa about. \"Being able to contribute directly to Alexa’s success is very rewarding,"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "totalChunks": 31,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 10,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 18,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2020,
+      "totalChunks": 24,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2021,
+      "totalChunks": 22,
+      "aiChunks": 1,
+      "prevalence": 0.0455,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 5,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0285,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.0285,
+          "nChunks": 1,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "ed30bd3cf207b340",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.0285,
+          "text": "Devin came to Seattle from Columbus, Ohio soon after graduating college. Having a background in hard sciences and finance gives him a diverse perspective and allows him to focus on delivering customer obsessed solutions. Shortly after joining Amazon, Devin was able to contribute to several high-impact computer vision projects with his team. Devin is now working on streamlining the process to train"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "totalChunks": 2,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2023,
+      "totalChunks": 11,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2024,
+      "totalChunks": 10,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2025,
+      "totalChunks": 5,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2026,
+      "totalChunks": 21,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    }
+  ]
+}

@@ -8,9 +8,9 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.724 Netflix   2009  Increase Talent Density • Top of market compensation • Attract high-value people through freedom to make big impact • Be
 - [✓] 0.647 Netflix   2009  Growth Also Often Shrinks Talent Density Complexity % High Performance Employees
 - [~] 0.627 Shopify   2026  We don't settle for adequate – we deliberately seek out and hire only the best of the best.
-- [~] 0.565 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [~] 0.565 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.565 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.565 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.565 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.529 Shopify   2026  This is why we're intentional about talent.
 - [~] 0.519 Salesforce 2026  Our teams are high-performing, but never solo.
 - [~] 0.519 Salesforce 2025  Our teams are high-performing, but never solo.
@@ -36,8 +36,8 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.802 Netflix   2022  We model ourselves on being a team, not a family.
 - [✓] 0.802 Netflix   2017  We model ourselves on being a team, not a family.
 - [~] 0.590 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [~] 0.590 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.590 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.590 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.559 Salesforce 2025  Our teams are high-performing, but never solo.
 - [~] 0.559 Salesforce 2026  Our teams are high-performing, but never solo.
 - [ ] 0.471 Stripe    2020  We have a variegated team and our values as a company are not simply the union of our values as individuals.
@@ -63,20 +63,20 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.837 Netflix   2009  In creative/inventive work, the best are 10xbetter than the average, so huge premium on creating effective teams of the 
 - [✓] 0.695 Netflix   2026  Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by p
 - [✓] 0.695 Netflix   2025  Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by p
-- [~] 0.511 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [~] 0.511 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.511 Coinbase  2026  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
-- [~] 0.501 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
+- [~] 0.511 Coinbase  2025  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
+- [~] 0.511 Coinbase  2024  We have high expectations for performance and delivering results, and thrive as a team of individual star performers.
 - [~] 0.501 Amazon    2020  Leaders raise the performance bar with every hire and promotion.
-- [~] 0.501 Amazon    2021  Leaders raise the performance bar with every hire and promotion.
+- [~] 0.501 Amazon    2017  Leaders raise the performance bar with every hire and promotion.
+- [~] 0.501 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
 - [ ] 0.436 Stripe    2021  That said, don’t confuse lack of top down direction with lack of interest from the top: high performers are recognized, 
 - [ ] 0.436 Stripe    2022  That said, don’t confuse lack of top down direction with lack of interest from the top: high performers are recognized, 
 - [ ] 0.436 Stripe    2020  That said, don’t confuse lack of top down direction with lack of interest from the top: high performers are recognized, 
 
 ## Adequate → severance
+- [V] 0.858 Coinbase  2025  Unremarkable performance gets a generous severance package.
 - [V] 0.858 Coinbase  2026  Unremarkable performance gets a generous severance package.
 - [V] 0.858 Coinbase  2024  Unremarkable performance gets a generous severance package.
-- [V] 0.858 Coinbase  2025  Unremarkable performance gets a generous severance package.
 - [✓] 0.759 Netflix   2009  Unlike many companies, we practice:adequate performance gets agenerous severance package
 - [✓] 0.745 Netflix   2017  Sustained “B” performance, despite an “A” for effort, gets a respectful generous severance package.
 - [✓] 0.712 Netflix   2019  Sustained “B” performance, despite an “A” for effort, gets a respectful severance package.
@@ -89,8 +89,8 @@ tune the threshold: matches above it should genuinely express the concept.
 
 ## Raise the bar
 - [✓] 0.666 Amazon    2021  Leaders raise the performance bar with every hire and promotion.
-- [✓] 0.666 Amazon    2016  Leaders raise the performance bar with every hire and promotion.
-- [✓] 0.666 Amazon    2019  Leaders raise the performance bar with every hire and promotion.
+- [✓] 0.666 Amazon    2020  Leaders raise the performance bar with every hire and promotion.
+- [✓] 0.666 Amazon    2017  Leaders raise the performance bar with every hire and promotion.
 - [✓] 0.652 Stripe    2020  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.652 Stripe    2019  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
 - [✓] 0.652 Stripe    2021  But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to 
@@ -147,9 +147,9 @@ tune the threshold: matches above it should genuinely express the concept.
 - [✓] 0.781 Netflix   2024  We expect managers to practice context not control — giving their teams the context and clarity needed to make good deci
 - [✓] 0.781 Netflix   2025  We expect managers to practice context not control — giving their teams the context and clarity needed to make good deci
 - [✓] 0.781 Netflix   2026  We expect managers to practice context not control — giving their teams the context and clarity needed to make good deci
-- [~] 0.522 Amazon    2021  Leaders create and communicate a bold direction that inspires results.
-- [~] 0.522 Amazon    2017  Leaders create and communicate a bold direction that inspires results.
+- [~] 0.522 Amazon    2020  Leaders create and communicate a bold direction that inspires results.
 - [~] 0.522 Amazon    2018  Leaders create and communicate a bold direction that inspires results.
+- [~] 0.522 Amazon    2019  Leaders create and communicate a bold direction that inspires results.
 - [ ] 0.484 Stripe    2024  Effective leaders embrace decision-making in cases of murky ownership, either making the call themselves or collaboratin
 - [ ] 0.484 Stripe    2025  Effective leaders embrace decision-making in cases of murky ownership, either making the call themselves or collaboratin
 - [ ] 0.467 Stripe    2025  They clearly communicate decisions and hold themselves and their teams accountable for results.

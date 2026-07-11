@@ -1,33 +1,36 @@
 {
   "company": "github",
   "displayName": "GitHub",
-  "headline": "GitHub pitches itself as the collaborative home for all developers, with a mission-driven, inclusive tone that has grown steadily since 2016.",
-  "identity": "GitHub has consistently valued collaboration, community-building, and developer empowerment across its careers copy, with diversity and inclusion language added as a durable third pillar from 2016 onward. The altruism and inclusion scores climbed from below-peer levels in 2011–2015 to well above average by 2021–2024, anchored by phrases like 'accelerate human progress by connecting communities all over the world through software collaboration.' The one quality that has wavered is wellbeing: after peaking in 2020 (zscore +1.90), it dropped sharply in 2021 (zscore -2.26) as the copy shifted toward mission and scale language, and has not fully recovered.",
-  "fit": "You might be a good fit if you are a developer-minded person who wants to work on infrastructure used by tens of millions of people, values autonomy and flexible work, and is comfortable with a workplace that frames its purpose in broad civilizational terms — 'build the home for all developers' — rather than narrow product goals.",
+  "headline": "GitHub positions itself as a platform for global developer collaboration, emphasizing community, diversity, and developer empowerment.",
+  "identity": "GitHub has consistently valued collaboration, community building, and diversity & inclusion across its careers messaging. The company's language around altruism and inclusion strengthened markedly from 2016 onward—altruism zscore rose from 0.45 in 2016 to a peak of 0.97 in 2022–2023, while inclusion language climbed from -0.70 in 2016 to 0.57 in 2022. However, craft-focused language (technical excellence, code quality) has wavered significantly: it scored 1.30 in 2017, then fell to -0.18 in 2018 and has remained subdued since, suggesting a shift away from emphasizing technical mastery toward social mission.",
+  "fit": "You might be a good fit if you value working on a platform that serves a global developer community and care about diversity, inclusion, and social impact. The language consistently reaches for people who want to 'accelerate human progress' and 'build the home for all developers'—suggesting GitHub seeks mission-driven engineers who see code as a collaborative, inclusive endeavor rather than a purely technical craft.",
   "sections": [
     {
-      "heading": "From scrappy tool to global mission (2011–2021)",
-      "body": "The earliest careers copy (2011–2012) is sparse and practical: 'Code is about the people writing it' and 'a culture based on personal responsibility, rather than management.' Altruism and inclusion scores were below peer average, and DEI language was entirely absent — all chunks coded 'absent' through 2015.\n\nThe shift begins in 2016, when the page added 'We're working hard to build a supportive, welcoming place for users and GitHubbers alike' and a direct link to a diversity-and-inclusion commitment. By 2017 the copy introduced a dedicated 'A diverse and inclusive workplace' section with the line 'a diverse company is a strong company,' and inclusion scores jumped from a zscore of -0.70 (2016) to +0.74 (2017).\n\nBy 2021 the framing had escalated to 'Do the best work of your career and join in our mission to accelerate human progress by connecting communities all over the world through software collaboration.' Altruism scores hit their highest recorded level (zscore +0.83) that year, and the community count cited on the page had grown from 15 million (2016) to 50 million."
+      "heading": "The Rise of Mission and Altruism (2016–2023)",
+      "body": "GitHub's careers copy underwent a marked shift starting in 2016. Before that year, the site rarely mentioned diversity or inclusion; from 2011–2015, altruism scores were negative (ranging from -1.70 to -0.66 zscore). In 2016, the language pivoted sharply: \"We're working hard to build a supportive, welcoming place for users and GitHubbers alike\" and \"Learn more about our commitment to diversity and inclusion\" appeared for the first time. By 2017–2018, these themes solidified, with explicit language like \"At GitHub, we think that a diverse company is a strong company, and we work hard to foster a supportive and welcoming workplace.\" Altruism peaked in 2022–2023 (zscore 0.97), when the site introduced \"Social Impact\" and \"Diversity, Inclusions & Belonging\" sections, framing GitHub's mission as creating \"positive and lasting change around the world.\" This trajectory reflects a deliberate rebranding from a technical platform to a social mission-driven employer."
     },
     {
-      "heading": "DEI language: steady but always aspirational-vague",
-      "body": "The DEI data shows a consistent pattern: every year from 2016 onward registers at least one 'aspirational_vague' chunk, but zero chunks ever coded as 'explicit_demographic' or 'structural_process.' The copy commits to diversity in principle ('we think that a diverse company is a strong company') without specifying targets or processes. The term 'inclusion' appeared from 2016 through 2021; by 2022 the heading shifted to 'Diversity, Inclusions & Belonging' with the line 'dedicated to building a community and team that reflects the world we live in,' which has remained stable through 2025–2026.\n\nThe inclusion zscore peaked in 2020 (+1.74) and has since settled to a moderate positive range (+0.57 in 2022, +1.28 in 2025), suggesting the language has stabilized rather than retreated."
+      "heading": "Craft Language Fades; Inclusion Becomes Central (2017–Present)",
+      "body": "Paradoxically, as altruism rose, the language celebrating technical craft and code quality declined. In 2011–2012, GitHub emphasized \"personal responsibility,\" \"hiring great people,\" and \"write better code, faster\"—scoring 0.44 on craft. By 2017, craft peaked at 1.30 zscore, but then collapsed: 2018 dropped to -0.01, and 2020–2021 remained negative. Meanwhile, inclusion language climbed steadily from 2016 onward, reaching 0.57 zscore by 2022. The shift is visible in quoted language: early years featured \"Code is about the people writing it\" and \"personal responsibility\"; by 2021–2022, the dominant framing was \"We are dedicated to building a community and team that reflects the world we live in and pushes the boundaries of software innovation.\" This suggests GitHub moved from positioning itself as a meritocratic platform for technical excellence to one centered on belonging and representation."
     },
     {
-      "heading": "Autonomy and wellbeing: prominent then quietly dropped",
-      "body": "From 2017 through 2020, the careers pages explicitly promoted flexible work and work-life balance: 'Build amazing things with autonomy, self-direction, and a healthy work-life balance. We offer flexible work schedules for all of our employees and unlimited PTO.' Wellbeing scores rose from near-zero in 2011–2016 to a peak zscore of +1.90 in 2020.\n\nIn 2021 that language largely disappeared from the sampled chunks, replaced by mission and scale copy, and the wellbeing zscore collapsed to -2.26 — the lowest recorded value across all years. By 2022 some wellbeing-adjacent language returned ('Set your own work schedule and make use of a flexible PTO plan'), and the score recovered to +0.72. The 2025 data shows it back below average (-0.93). The signal here is thin in some years (2–4 chunks), so the 2021 drop may partly reflect which pages were captured, but the direction is consistent with the copy's pivot toward mission language."
+      "heading": "Stability in DEI Framing, Slight Recent Softening",
+      "body": "GitHub's DEI language has remained remarkably consistent since 2016, with inclusion and meritocracy scores holding steady in the 0.40–0.55 range through 2024. The company uses aspirational but vague language—\"diverse company is a strong company,\" \"commitment to diversity and inclusion\"—rather than structural or explicit demographic commitments. However, 2025 shows a subtle shift: inclusion language remains high (0.50 mean), but the corpus shrinks and policy/developer rights language gains prominence (\"fighting for developer rights\"). This may signal a pivot from internal DEI messaging toward external advocacy, though the data is thin for 2025–2026."
     }
   ],
-  "model": "claude-sonnet-4-6",
+  "model": "claude-haiku-4-5-20251001",
   "promptVersion": 3,
   "facetsUsed": [
+    "ai",
     "altruism",
+    "craft",
     "dei",
     "inclusion",
     "meritocracy",
     "performance",
     "techno_optimism",
-    "wellbeing"
+    "wellbeing",
+    "wellbeing_locus"
   ],
-  "generatedAt": "2026-07-02"
+  "generatedAt": "2026-07-10"
 }

@@ -1,0 +1,644 @@
+{
+  "company": "stripe",
+  "content_labels": [
+    "benefits_perks",
+    "employee_story",
+    "job_listing",
+    "mission_brand",
+    "process_logistics"
+  ],
+  "years": [
+    {
+      "year": 2012,
+      "total_chunks": 40,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 19,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 18,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2013,
+      "total_chunks": 101,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 71,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 28,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2014,
+      "total_chunks": 171,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 132,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 32,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2015,
+      "total_chunks": 13,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2016,
+      "total_chunks": 27,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2017,
+      "total_chunks": 20,
+      "ai_chunks": 1,
+      "prevalence": 0.05,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "5558eb76288f3e09",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Stripe is helping the internet fulfill its potential as a platform for economic progress by building software tools that accelerate global economic access and technological development. Stripe makes it easy to start, run and scale an internet business from anywhere in the world. Stripe is, at its he"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total_chunks": 21,
+      "ai_chunks": 1,
+      "prevalence": 0.0476,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 10,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "519b38f0bb183067",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Stripe is helping the internet fulfill its potential as a platform for economic progress by building software tools that accelerate global economic access and technological development. Stripe makes it easy to start, run and scale an internet business from anywhere in the world. Stripe is, at its he"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total_chunks": 46,
+      "ai_chunks": 2,
+      "prevalence": 0.0435,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 5,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 35,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 2
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "47f53901a1e61f77",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Stripe is helping the internet fulfill its potential as a platform for economic progress by building software tools that accelerate global economic access and technological development. Stripe makes it easy to start, run and scale an internet business from anywhere in the world. Stripe is, at its he"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "a34c707f0386c8c6",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Applications The Applications group builds products that enable people to successfully run their businesses end-to-end on Stripe. See Openings Foundation The Foundation group strives to increase Stripe's operational efficiency by providing platforms which reduce accidental complexity for both those "
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total_chunks": 64,
+      "ai_chunks": 1,
+      "prevalence": 0.0156,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 45,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "d3d14f0fd44f8316",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Stripe makes it easy to start, run and scale an internet business from anywhere in the world. Stripe is, at its heart, an engineering company. To provide a missing pillar of core internet infrastructure, we hire people from various backgrounds with broad technical skills. Stripes take on some of the"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total_chunks": 52,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 18,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 30,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2022,
+      "total_chunks": 74,
+      "ai_chunks": 3,
+      "prevalence": 0.0405,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 18,
+          "ai_chunks": 3,
+          "mentions": 4
+        },
+        "mission_brand": {
+          "chunks": 48,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "ML": 2,
+        "machine learning": 2
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "23a1dad3e9035148",
+          "terms": [
+            "ML",
+            "machine learning"
+          ],
+          "text": "Our Growth team is on a mission to acquire, convert and grow millions of merchants globally across Stripe’s full suite of financial products. We are a cross functional team of engineers, scientists, marketers, designers and product managers that deliver the insights, algorithms, internal systems and"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "ebdef1efba7140dc",
+          "terms": [
+            "ML"
+          ],
+          "text": "Partner closely with other engineers and scientists to build highly scalable, ML driven system(s), help run experiments, and surface insights across all points of customer interactions. Design, build, and maintain business-critical services and APIs Scope, design, and lead technical projects, laying"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "b83e8cf631d9e29c",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Experience with machine learning, recommender systems, product-led growth, and/or lifecycle marketing"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total_chunks": 47,
+      "ai_chunks": 4,
+      "prevalence": 0.0851,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 18,
+          "ai_chunks": 4,
+          "mentions": 6
+        },
+        "mission_brand": {
+          "chunks": 21,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 3,
+        "ML": 3
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "35c85bacf3075a86",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "This is a unique opportunity to join a growing Data Analytics team within audit and work both on providing data driven insights across the IA lifecycle and provide independent assessment of models at Stripe. Our DA Lead will drive the effective use of data analytics techniques to support audits acro"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "626f1dc84807f087",
+          "terms": [
+            "ML",
+            "machine learning"
+          ],
+          "text": "Stripe builds the economic infrastructure for the internet. Building trust between banks, businesses & customers is a key ingredient for Stripe to be successful. Unfortunately, fraudsters & bad actors erode that trust. The Fraud Intelligence team builds backend and machine learning (ML) systems to r"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "58634dc62102a5eb",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Expertise with SQL query, schema and ETL design, and data pipeline development/maintenance (e.g. Airflow). Familiarity with scripting/programming for data mining and modeling (R, Python) and ETL development (Python). Experience with and intermediate knowledge of machine learning techniques. Experien"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total_chunks": 49,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 23,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2025,
+      "total_chunks": 54,
+      "ai_chunks": 1,
+      "prevalence": 0.0185,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 22,
+          "ai_chunks": 1,
+          "mentions": 2
+        },
+        "mission_brand": {
+          "chunks": 22,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 1,
+        "GPT": 1
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "96a16b8d8dc0abe8",
+          "terms": [
+            "AI",
+            "GPT"
+          ],
+          "text": "Have 8+ years of relevant design and art direction experience for technical and product-driven companies Have a strong strategic acumen for building brand experiences in a fast paced, global facing environment Can design across a wide range of surface areas (Digital, Physical, Communication, Motion,"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total_chunks": 42,
+      "ai_chunks": 2,
+      "prevalence": 0.0476,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 15,
+          "ai_chunks": 2,
+          "mentions": 9
+        },
+        "mission_brand": {
+          "chunks": 20,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "agentic": 6,
+        "AI": 2,
+        "LLMs": 1
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "bcfd267f07044ea3",
+          "terms": [
+            "AI",
+            "agentic"
+          ],
+          "text": "The Product Design team is made up of several groups that define, create, and deliver all user-facing aspects of Stripe’s brand and product. Product Designers are strategic partners to Engineering and Product Management within their product area. In close collaboration with product teams, they shape"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "1dc7bfb772d472c7",
+          "terms": [
+            "AI",
+            "LLMs",
+            "agentic"
+          ],
+          "text": "You’ll lead design for Agentic Commerce. You’ll work alongside a small group of Product Managers and Engineers to shape our strategy and build a variety of transformative products—for merchants, agents, and for consumers. You’ll reimagine the consumer checkout experience with agentic commerce capabi"
+        }
+      ]
+    }
+  ]
+}

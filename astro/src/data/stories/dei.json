@@ -5139,7 +5139,7 @@
                 "structural_process": 0,
                 "aspirational_vague": 3,
                 "belonging_culture": 1,
-                "absent": 5,
+                "absent": 6,
                 "meritocracy": 0,
                 "civilizational_mission": 0
               },
@@ -5347,10 +5347,10 @@
                 "heading": "Our Brands",
                 "register": "absent",
                 "stance": "neutral",
-                "stanceDiff": 0.0416,
-                "inclusion": 0.2745,
-                "meritocracy": 0.2329,
-                "salience": 0.2745,
+                "stanceDiff": 0.0415,
+                "inclusion": 0.2885,
+                "meritocracy": 0.247,
+                "salience": 0.2885,
                 "stanceProjection": null
               }
             },
@@ -5433,11 +5433,11 @@
                 "structural_process": 0,
                 "aspirational_vague": 1,
                 "belonging_culture": 0,
-                "absent": 8,
+                "absent": 6,
                 "meritocracy": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 15,
+              "nChunks": 13,
               "thin": false,
               "stanceMaxQuote": {
                 "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community. We’re investing in new ways",
@@ -5451,14 +5451,14 @@
                 "stanceProjection": null
               },
               "stanceMinQuote": {
-                "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too. Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way. Bitmoji Bitmoji is the digital you — a living cartoon charact",
-                "heading": "Our Brands",
-                "register": "absent",
-                "stance": "neutral",
-                "stanceDiff": 0.0348,
-                "inclusion": 0.295,
-                "meritocracy": 0.2602,
-                "salience": 0.295,
+                "text": "SnapVets builds community for military veterans, dependents, and those who continue to serve.",
+                "heading": "SnapVets",
+                "register": "explicit_demographic",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.0466,
+                "inclusion": 0.2738,
+                "meritocracy": 0.2272,
+                "salience": 0.2738,
                 "stanceProjection": null
               }
             },
@@ -7581,7 +7581,7 @@
                 "structural_process": 0,
                 "aspirational_vague": 1,
                 "belonging_culture": 1,
-                "absent": 50,
+                "absent": 51,
                 "meritocracy": 1,
                 "civilizational_mission": 0
               },
@@ -8889,7 +8889,7 @@
                 "structural_process": 0,
                 "aspirational_vague": 1,
                 "belonging_culture": 0,
-                "absent": 8,
+                "absent": 9,
                 "meritocracy": 0,
                 "civilizational_mission": 0
               },
@@ -9243,11 +9243,1626 @@
               }
             }
           ]
+        },
+        {
+          "id": "uber",
+          "displayName": "Uber",
+          "years": [
+            {
+              "year": 2011,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 2,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 2,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "We're looking for extremely talented people to help us bring the transportation industry into the 21st century. Your contributions will not just move bits, but move actual people. Are you up for the challenge?",
+                "heading": "Are you Uber?",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0074,
+                "inclusion": 0.4218,
+                "meritocracy": 0.4292,
+                "salience": 0.4292,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "We are looking for folks who are awesome enough to help us take on that challenge. We are a group that is excited to get our hands dirty and sweat the details to take Uber to the next level. When hiring we want people who work hard because they enjoy what they do and who thrive on new challenges. Uber is young and our next few hires will drive our direction and determine our success. The bottom li",
+                "heading": "Uber has big ambitions to re-engineer the transportation industry with elegant mobile applications & our game changing logistics platform.",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0344,
+                "inclusion": 0.4343,
+                "meritocracy": 0.4687,
+                "salience": 0.4687,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2012,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "We're looking for extremely talented people to help us bring the transportation industry into the 21st century. Your contributions will not just move bits, but move actual people. Are you up for the challenge?",
+                "heading": "Are you Uber?",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0074,
+                "inclusion": 0.4218,
+                "meritocracy": 0.4292,
+                "salience": 0.4292,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "We're looking for extremely talented people to help us bring the transportation industry into the 21st century. Your contributions will not just move bits, but move actual people. Are you up for the challenge?",
+                "heading": "Are you Uber?",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0074,
+                "inclusion": 0.4218,
+                "meritocracy": 0.4292,
+                "salience": 0.4292,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2013,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Uber is evolving the way the world moves. By seamlessly connecting riders to drivers through our apps, we make cities more accessible, opening up more possibilities for riders and more business for drivers. From our founding in 2009 to our launches in over 35 cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
+                "heading": "The Company",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0395,
+                "inclusion": 0.2153,
+                "meritocracy": 0.1758,
+                "salience": 0.2153,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Uber is evolving the way the world moves. By seamlessly connecting riders to drivers through our apps, we make cities more accessible, opening up more possibilities for riders and more business for drivers. From our founding in 2009 to our launches in over 35 cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
+                "heading": "The Company",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0395,
+                "inclusion": 0.2153,
+                "meritocracy": 0.1758,
+                "salience": 0.2153,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2014,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 5,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 5,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We have access to an amazing list of advisors and investors that we actively engage COMPENSATION: Full-time salary negotiable based on experience, and equity compensation plan.",
+                "heading": "General Manager - Bangkok",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0476,
+                "inclusion": 0.4076,
+                "meritocracy": 0.3599,
+                "salience": 0.4076,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "At Uber, the best idea always wins. We empower our teams to find creative solutions to difficult problems.",
+                "heading": "Bold Ideas",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0951,
+                "inclusion": 0.4711,
+                "meritocracy": 0.5662,
+                "salience": 0.5662,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2015,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 4,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 4,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Uber is evolving the way the world moves. By seamlessly connecting riders to drivers through our apps, we make cities more accessible, opening up more possibilities for riders and more business for drivers. From our founding in 2009 to our launches in hundreds of cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
+                "heading": "The Company",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0385,
+                "inclusion": 0.2164,
+                "meritocracy": 0.1779,
+                "salience": 0.2164,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "At Uber, the best idea always wins. We empower our teams to find creative solutions to difficult problems.",
+                "heading": "Bold Ideas",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0951,
+                "inclusion": 0.4711,
+                "meritocracy": 0.5662,
+                "salience": 0.5662,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2016,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 1,
+                "belonging_culture": 0,
+                "absent": 8,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 9,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "Help improve local economies, make roads safer, and bring opportunities to millions of women and men around the world.",
+                "heading": "Shape the world you want",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0987,
+                "inclusion": 0.3173,
+                "meritocracy": 0.2186,
+                "salience": 0.3173,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "At Uber, the best idea always wins. We empower our teams to find creative solutions to difficult problems.",
+                "heading": "Bold Ideas",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0951,
+                "inclusion": 0.4711,
+                "meritocracy": 0.5662,
+                "salience": 0.5662,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2017,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 2,
+                "belonging_culture": 0,
+                "absent": 1,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 3,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "We enjoy working on hard problems together because the hardest challenges are often the most rewarding. Help improve local economies, make roads safer, and bring opportunities to millions of people around the world. We want to create a workplace that is inclusive and reflects the diversity of the cities we serve. Take a look at our latest diversity report.",
+                "heading": "Welcoming for everyone",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.1388,
+                "inclusion": 0.5572,
+                "meritocracy": 0.4184,
+                "salience": 0.5572,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "There’s room at Uber for every talent—and talent from everywhere.",
+                "heading": "Our teams",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": -0.0118,
+                "inclusion": 0.5194,
+                "meritocracy": 0.5312,
+                "salience": 0.5312,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2018,
+              "registers": {
+                "explicit_demographic": 9,
+                "structural_process": 4,
+                "aspirational_vague": 6,
+                "belonging_culture": 3,
+                "absent": 3,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 25,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We want to create a workplace that is inclusive and reflects the diversity of the cities we serve. Take a look at our latest diversity report.",
+                "heading": "Welcoming for everyone",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.2638,
+                "inclusion": 0.6552,
+                "meritocracy": 0.3914,
+                "salience": 0.6552,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "We enjoy working on hard problems together because the hardest challenges are often the most rewarding.",
+                "heading": "Creative problem-solving",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0343,
+                "inclusion": 0.4188,
+                "meritocracy": 0.4531,
+                "salience": 0.4531,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2019,
+              "registers": {
+                "explicit_demographic": 9,
+                "structural_process": 2,
+                "aspirational_vague": 7,
+                "belonging_culture": 2,
+                "absent": 5,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 25,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We’ve hired more Black and women senior leaders across the company, as you can see below. In addition, 23% of our Board of Directors are women. We’re encouraged by the commitment shared by our CEO and the rest of the executive leadership team, even though we’re not yet where we need to be:",
+                "heading": "Leadership",
+                "register": "explicit_demographic",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.228,
+                "inclusion": 0.5871,
+                "meritocracy": 0.3592,
+                "salience": 0.5871,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Good things happen when people can move, whether across town or towards their dreams. Opportunities appear, open up, become reality. What started as a way to tap a button to get a ride has led to billions of moments of human connection as people around the world go all kinds of places in all kinds of ways with the help of our technology.",
+                "heading": "We ignite opportunity by setting the world in motion",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0088,
+                "inclusion": 0.3207,
+                "meritocracy": 0.312,
+                "salience": 0.3207,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2024,
+              "registers": {
+                "explicit_demographic": 1,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 20,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 21,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "Additionally, we partnered with the Communication Service for the Deaf, the largest deaf-led nonprofit in the United States, to expand opportunities for deaf men and women. We’ve also worked with members of the deaf community, including the National Association of the Deaf and Telecommunications for the Deaf and Hard of Hearing (TDI), to design and implement a series of fully optional product capa",
+                "heading": "Product features for deaf or hard of hearing drivers",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.1251,
+                "inclusion": 0.3404,
+                "meritocracy": 0.2153,
+                "salience": 0.3404,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Riders with disabilities, or individuals who frequently accompany riders with disabilities on trips, can request a waiver of wait time fees for their accounts by submitting a certification .",
+                "heading": "Wait time fee waivers",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0018,
+                "inclusion": 0.1242,
+                "meritocracy": 0.1224,
+                "salience": 0.1242,
+                "stanceProjection": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "apple",
+          "displayName": "Apple",
+          "years": [
+            {
+              "year": 2007,
+              "registers": {
+                "explicit_demographic": 1,
+                "structural_process": 0,
+                "aspirational_vague": 1,
+                "belonging_culture": 0,
+                "absent": 0,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 2,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Apple celebrates diverse experiences and backgrounds. By introducing new and innovative people to the company, we incorporate their different perspectives and skills and achieve our goal of making the best products on the market. Our diversity partners share our passion for excellence, and they provide resources and recruitment opportunities to help us find new talent and grow our business.",
+                "heading": "Commitment to diversity",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.1621,
+                "inclusion": 0.5859,
+                "meritocracy": 0.4238,
+                "salience": 0.5859,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Apple's commitment to diversity provides an environment where each individual can thrive and be rewarded on the basis of contribution. Apple is supportive and accepting of everyone in our diverse community, including employees, temporary workers, independent contractors, clients, and vendors. We have chapters for the following employee groups that you may join if you so choose.",
+                "heading": "Employee Groups",
+                "register": "explicit_demographic",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.1542,
+                "inclusion": 0.5323,
+                "meritocracy": 0.3781,
+                "salience": 0.5323,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2008,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 1,
+                "belonging_culture": 0,
+                "absent": 0,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Apple celebrates diverse experiences and backgrounds. By introducing new and innovative people to the company, we incorporate their different perspectives and skills and achieve our goal of making the best products on the market. At Apple, diversity network associations offer employees an opportunity to engage in professional support and networking activities that promote diversity. Partners provi",
+                "heading": "Commitment to diversity",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.1821,
+                "inclusion": 0.5435,
+                "meritocracy": 0.3614,
+                "salience": 0.5435,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Apple celebrates diverse experiences and backgrounds. By introducing new and innovative people to the company, we incorporate their different perspectives and skills and achieve our goal of making the best products on the market. At Apple, diversity network associations offer employees an opportunity to engage in professional support and networking activities that promote diversity. Partners provi",
+                "heading": "Commitment to diversity",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.1821,
+                "inclusion": 0.5435,
+                "meritocracy": 0.3614,
+                "salience": 0.5435,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2009,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 2,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 2,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "With business booming at retail locations from SoHo to Tokyo, Apple is growing fast. How about you? Are you ready to grow with us?",
+                "heading": "Apple Store",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0481,
+                "inclusion": 0.3149,
+                "meritocracy": 0.2668,
+                "salience": 0.3149,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Work behind the scenes—where we design, engineer, and launch every Mac, iPod, iPhone, and Apple software title. And do all the other stuff that makes that possible. A lot of big companies are about endless meetings. Massive bureaucracy. Executive parking spaces. And suits. We don't see what any of that has to do with great work. So we don't bother. This isn't your cushy corporate nine-to-fiver. Fo",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0031,
+                "inclusion": 0.4133,
+                "meritocracy": 0.4164,
+                "salience": 0.4164,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2010,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 2,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 2,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "As a full-time Apple employee, you’ll be entitled to all the perks that come with working for America’s coolest company. These include fantastic benefits, employee discounts, and the opportunity to contribute meaningfully to people’s lives. What else? You’ll start to build a career with an amazing company. There’s no commute, so you’ll save on gas. You’ll reduce your carbon footprint by working fr",
+                "heading": "And Now for the Good Stuff",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0525,
+                "inclusion": 0.281,
+                "meritocracy": 0.2284,
+                "salience": 0.281,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Apple jobs come in all stripes. Whether you’re a developer, industrial designer, or retail expert, there’s an opportunity here for you. Be part of something big We are committed to diversity. Apple is an Equal Employment Opportunity and Affirmative Action Employer. Apple participates in the E-Verify program in certain locations as required by law. Download more information . Shop the Apple Online ",
+                "heading": "",
+                "register": "absent",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.0481,
+                "inclusion": 0.3329,
+                "meritocracy": 0.2848,
+                "salience": 0.3329,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2011,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 4,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 4,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "As an Apple At-Home Advisor, enjoy a hands-on relationship with the great technology you’ll be supporting. To make your job easier, we’ll provide you with an iMac to use while you’re working from home. Plus, we’ll hook you up with a great benefits package, competitive pay, and an employee discount on Apple products. Take care of our customers, and we’ll take care of you. We are committed to divers",
+                "heading": "Give the love. Get the love.",
+                "register": "absent",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.0678,
+                "inclusion": 0.2994,
+                "meritocracy": 0.2315,
+                "salience": 0.2994,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "We’re always adding new stores and expanding into new countries. Which means there’s a good chance you can live and work in a city you love. Learn more Customers aren’t the only ones who get to discover new things at the Apple Retail Store. Every location provides regular training, which counts as work time, to keep you up to date on the latest Apple and third-party products. You can also get trai",
+                "heading": "New stores, new opportunities:",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0081,
+                "inclusion": 0.3167,
+                "meritocracy": 0.3085,
+                "salience": 0.3167,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2012,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 2,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 2,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Apple is one of the most innovative companies in the global marketplace — and one of the fastest growing. We’re always looking for smart, engaging, supportive, and dynamic people who love Apple and our products.",
+                "heading": "Share your passion for Apple.",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0088,
+                "inclusion": 0.3487,
+                "meritocracy": 0.3399,
+                "salience": 0.3487,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "A job at Apple is unlike any other you’ve had. You’ll be challenged. You’ll be inspired. And you’ll be proud. Because whatever your job is here, you’ll be part of something big. Every piece of packaging. Every swipe of the finger. Every “How can I help you?” Everything. And it doesn’t matter just some of the time. It matters all of the time. That’s how we do things at Apple. The result is some of ",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0166,
+                "inclusion": 0.4411,
+                "meritocracy": 0.4577,
+                "salience": 0.4577,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2013,
+              "registers": {
+                "explicit_demographic": 1,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 3,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 4,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Customers aren’t the only ones who get to discover new things at the Apple Retail Store. Every location provides regular training, which counts as work time, to keep you up to date on the latest Apple and third-party products. You can also get training to help you move ahead as a Genius, Creative, or Manager — or to transition to one of those tracks from your current position. We are committed to ",
+                "heading": "Keep learning, keep growing.",
+                "register": "absent",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.059,
+                "inclusion": 0.3271,
+                "meritocracy": 0.268,
+                "salience": 0.3271,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Apple is one of the most innovative companies in the global marketplace — and one of the fastest growing. We’re always looking for smart, engaging, supportive, and dynamic people who love Apple and our products.",
+                "heading": "Share your passion for Apple.",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0088,
+                "inclusion": 0.3487,
+                "meritocracy": 0.3399,
+                "salience": 0.3487,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2014,
+              "registers": {
+                "explicit_demographic": 2,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 6,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 8,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "At Apple, our 98,000 employees share a passion for products that change people’s lives, and from the very earliest days we have known that diversity is critical to our success. We believe deeply that inclusion inspires innovation. Our definition of diversity goes far beyond the traditional categories of race, gender, and ethnicity. It includes personal qualities that usually go unmeasured, like se",
+                "heading": "A Message from Tim Cook.",
+                "register": "explicit_demographic",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.1864,
+                "inclusion": 0.6029,
+                "meritocracy": 0.4165,
+                "salience": 0.6029,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "A job at Apple is unlike any other you’ve had. You’ll be challenged. You’ll be inspired. And you’ll be proud. Because whatever your job is here, you’ll be part of something big. Every piece of packaging. Every swipe of the finger. Every “How can I help you?” Everything. And it doesn’t matter just some of the time. It matters all of the time. That’s how we do things at Apple. The result is some of ",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0166,
+                "inclusion": 0.4411,
+                "meritocracy": 0.4577,
+                "salience": 0.4577,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2015,
+              "registers": {
+                "explicit_demographic": 6,
+                "structural_process": 0,
+                "aspirational_vague": 4,
+                "belonging_culture": 1,
+                "absent": 11,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 22,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "Our commitment to diversity is part of everything we do. We foster an environment that allows all employees to contribute, grow, and push their talents to achieve incredible things. It’s why we work with suppliers who share our values. And why we continue to launch initiatives that will lead to a stronger, more representative workforce.",
+                "heading": "Diversity makes us stronger every day.",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.2201,
+                "inclusion": 0.7174,
+                "meritocracy": 0.4973,
+                "salience": 0.7174,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "We’re perfectionists. Idealists. Inventors. Forever tinkering with products and processes, always on the lookout for better. Whether you work at one of our global offices, offsite, or even at home, a job at Apple will be demanding. But it also rewards bright, original thinking and hard work. And none of us here would have it any other way.",
+                "heading": "It’s what we do together that sets us apart.",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0129,
+                "inclusion": 0.4053,
+                "meritocracy": 0.4181,
+                "salience": 0.4181,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2016,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 1,
+                "belonging_culture": 0,
+                "absent": 2,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 3,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "As an AppleCare College Advisor, you’ll receive a robust benefits package, including product discounts and paid time away. You may even qualify for tuition reimbursement. We also have all kinds of resources to promote your career development. And that’s helpful, because the kind of work you’ll do in the future at Apple may not even be invented yet.",
+                "heading": "Being part of Apple isn’t the only benefit.",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0536,
+                "inclusion": 0.2528,
+                "meritocracy": 0.1992,
+                "salience": 0.2528,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Apple is a place where students can thrive. We have opportunities that can help you take your ideas and your passion to the next level. Develop skills and get hands-on experience working with some of the best minds in the business.",
+                "heading": "Get experience. And have an experience.",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0119,
+                "inclusion": 0.3625,
+                "meritocracy": 0.3507,
+                "salience": 0.3625,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2017,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 2,
+                "belonging_culture": 0,
+                "absent": 1,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 3,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "The people here at Apple don’t just create products — they create the kind of wonder that’s revolutionized entire industries. It’s the diversity of those people and their ideas that inspires the innovation that runs through everything we do, from amazing technology to industry-leading environmental efforts. Join Apple, and help us leave the world better than we found it. Where do you see yourself ",
+                "heading": "Do your life’s best work here now. With the whole world watching.",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.0373,
+                "inclusion": 0.4577,
+                "meritocracy": 0.4204,
+                "salience": 0.4577,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Apple Store employees are unique individuals whose varied talents and experiences bring value to the way they connect people with Apple. So whether you’re analytical or creative, tech savvy or a people person, the Apple Store provides an ideal opportunity to challenge yourself.",
+                "heading": "Work where extraordinary happens.",
+                "register": "aspirational_vague",
+                "stance": "neutral",
+                "stanceDiff": 0.0105,
+                "inclusion": 0.3141,
+                "meritocracy": 0.3036,
+                "salience": 0.3141,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2018,
+              "registers": {
+                "explicit_demographic": 5,
+                "structural_process": 3,
+                "aspirational_vague": 4,
+                "belonging_culture": 0,
+                "absent": 2,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 14,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We make thoughtful and inclusive decisions and seek out certified diverse suppliers. And we’re expanding our network to include more businesses owned by women, minorities, Veterans, people with disabilities, and LGBTQ individuals.",
+                "heading": "Our commitment to diversity extends to our suppliers.",
+                "register": "explicit_demographic",
+                "stance": "neutral",
+                "stanceDiff": 0.1841,
+                "inclusion": 0.6083,
+                "meritocracy": 0.4241,
+                "salience": 0.6083,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Humanity is plural, not singular. The best way the world works is everybody in. Nobody out.",
+                "heading": "Inclusion & Diversity",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": -0.0061,
+                "inclusion": 0.3734,
+                "meritocracy": 0.3795,
+                "salience": 0.3795,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2019,
+              "registers": {
+                "explicit_demographic": 5,
+                "structural_process": 1,
+                "aspirational_vague": 2,
+                "belonging_culture": 1,
+                "absent": 3,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 12,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We make thoughtful and inclusive decisions and seek out certified diverse suppliers. And we’re expanding our network to include more businesses owned by women, minorities, Veterans, people with disabilities, and LGBTQ individuals.",
+                "heading": "Our commitment to diversity extends to our suppliers.",
+                "register": "explicit_demographic",
+                "stance": "neutral",
+                "stanceDiff": 0.1841,
+                "inclusion": 0.6083,
+                "meritocracy": 0.4241,
+                "salience": 0.6083,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Humanity is plural, not singular. The best way the world works is everybody in. Nobody out.",
+                "heading": "Inclusion & Diversity",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": -0.0061,
+                "inclusion": 0.3734,
+                "meritocracy": 0.3795,
+                "salience": 0.3795,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2020,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 4,
+                "belonging_culture": 0,
+                "absent": 8,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 12,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "Our customers are all over the world, so it’s by design that Apple employees are all over the world, too. And we know our ability to continue creating the world’s most innovative products depends on people who represent the variety of the human experience and who inspire us with great thinking. Because the wider the perspectives, the bigger the ideas. It takes a diverse team of talented individual",
+                "heading": "Join a worldwide company that reflects the whole wide world.",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.0828,
+                "inclusion": 0.5017,
+                "meritocracy": 0.4189,
+                "salience": 0.5017,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Everyone here is an innovator, or an innovator-to-be. That’s how we create the kinds of products and experiences that few ever imagine. For example, engineers here developed frameworks that have transformed the speed and accuracy of medical research. Others figured out how people in wheelchairs can track their activity with Apple Watch to promote their fitness. Our retail teams revolutionized the ",
+                "heading": "Come work where sentences start with “What if…?”",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0232,
+                "inclusion": 0.409,
+                "meritocracy": 0.4322,
+                "salience": 0.4322,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2021,
+              "registers": {
+                "explicit_demographic": 11,
+                "structural_process": 8,
+                "aspirational_vague": 11,
+                "belonging_culture": 4,
+                "absent": 20,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 54,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We’re building more diverse interview panels and candidate slates to ensure that diversity is reflected at every stage of the hiring process.",
+                "heading": "Inclusive hiring standards and processes.",
+                "register": "structural_process",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.2443,
+                "inclusion": 0.7196,
+                "meritocracy": 0.4752,
+                "salience": 0.7196,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Everyone here is an innovator, or an innovator-to-be. That’s how we create the kinds of products and experiences that few ever imagine. For example, engineers here developed frameworks that have transformed the speed and accuracy of medical research. Others figured out how people in wheelchairs can track their activity with Apple Watch to promote their fitness. Our retail teams revolutionized the ",
+                "heading": "Come work where sentences start with “What if…?”",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0143,
+                "inclusion": 0.4174,
+                "meritocracy": 0.4317,
+                "salience": 0.4317,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2022,
+              "registers": {
+                "explicit_demographic": 22,
+                "structural_process": 16,
+                "aspirational_vague": 15,
+                "belonging_culture": 7,
+                "absent": 21,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 81,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We’re building more diverse interview panels and candidate slates to ensure that diversity is reflected at every stage of the hiring process.",
+                "heading": "Inclusive hiring standards and processes.",
+                "register": "structural_process",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.2443,
+                "inclusion": 0.7196,
+                "meritocracy": 0.4752,
+                "salience": 0.7196,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Resources that matter. Because you do. It feels like we’re not just coworkers. We’re really like Apple family here.",
+                "heading": "Apple Benefits",
+                "register": "belonging_culture",
+                "stance": "neutral",
+                "stanceDiff": 0.0116,
+                "inclusion": 0.4678,
+                "meritocracy": 0.4562,
+                "salience": 0.4678,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2023,
+              "registers": {
+                "explicit_demographic": 26,
+                "structural_process": 13,
+                "aspirational_vague": 8,
+                "belonging_culture": 6,
+                "absent": 22,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 75,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level. Because belonging takes all of us.",
+                "heading": "We belong. Together.",
+                "register": "belonging_culture",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.2364,
+                "inclusion": 0.7513,
+                "meritocracy": 0.5149,
+                "salience": 0.7513,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "The Career Experience (CE) program gives Retail and AppleCare team members around the world opportunities to grow and contribute their talents to other teams across the company, from engineering to marketing and beyond. As valued members of these teams, CE participants develop new skill sets and work on a variety of projects.",
+                "heading": "The Career Experience program for Retail and AppleCare team members.",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0295,
+                "inclusion": 0.2844,
+                "meritocracy": 0.2549,
+                "salience": 0.2844,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2024,
+              "registers": {
+                "explicit_demographic": 9,
+                "structural_process": 2,
+                "aspirational_vague": 6,
+                "belonging_culture": 2,
+                "absent": 19,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 38,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level. Because belonging takes all of us.",
+                "heading": "We belong. Together.",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.2364,
+                "inclusion": 0.7513,
+                "meritocracy": 0.5149,
+                "salience": 0.7513,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "When experts make the decisions, they decide to innovate. Innovation is led by those who know their stuff, whether it’s the first job of their life or the latest project in a career decades in the making. At Apple, innovation depends not only on brilliant individuals, but also on a community of specialists, each focused on what we can do instead of what’s been done. We foster this culture by givin",
+                "heading": "Innovation",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0349,
+                "inclusion": 0.4348,
+                "meritocracy": 0.4697,
+                "salience": 0.4697,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2025,
+              "registers": {
+                "explicit_demographic": 15,
+                "structural_process": 2,
+                "aspirational_vague": 5,
+                "belonging_culture": 5,
+                "absent": 26,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 53,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level. Because belonging takes all of us.",
+                "heading": "We belong. Together.",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.2364,
+                "inclusion": 0.7513,
+                "meritocracy": 0.5149,
+                "salience": 0.7513,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "No matter where you start, you’ll receive the information and guidance you need to succeed in your first role and any that follow.",
+                "heading": "Training",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.063,
+                "inclusion": 0.3248,
+                "meritocracy": 0.3878,
+                "salience": 0.3878,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2026,
+              "registers": {
+                "explicit_demographic": 5,
+                "structural_process": 1,
+                "aspirational_vague": 3,
+                "belonging_culture": 2,
+                "absent": 4,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 15,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "For years, Apple employees all over the world have found community through our Diversity Network Associations (DNAs). These volunteer-led groups, which are open to all employees, are rooted in the celebration of global communities across Apple. They help foster a sense of belonging through respectful and inclusive engagements for all team members. “ When we’ve spoken to people about the culture of",
+                "heading": "We help create community for our employees.",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.1586,
+                "inclusion": 0.4954,
+                "meritocracy": 0.3368,
+                "salience": 0.4954,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "At 50 years, it’s only natural to look back. But Apple has always looked forward, building tools and delivering experiences that enrich people’s lives. As we celebrate how far we’ve come, we’re inspired by where we’ll go — together.",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0499,
+                "inclusion": 0.3158,
+                "meritocracy": 0.2659,
+                "salience": 0.3158,
+                "stanceProjection": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "nvidia",
+          "displayName": "NVIDIA",
+          "years": [
+            {
+              "year": 2006,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 3,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 3,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0347,
+                "inclusion": 0.298,
+                "meritocracy": 0.2633,
+                "salience": 0.298,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0255,
+                "inclusion": 0.3087,
+                "meritocracy": 0.2832,
+                "salience": 0.3087,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2007,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 4,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 4,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0336,
+                "inclusion": 0.3055,
+                "meritocracy": 0.272,
+                "salience": 0.3055,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0264,
+                "inclusion": 0.2986,
+                "meritocracy": 0.2722,
+                "salience": 0.2986,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2008,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 3,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 3,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0328,
+                "inclusion": 0.3123,
+                "meritocracy": 0.2795,
+                "salience": 0.3123,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0244,
+                "inclusion": 0.3103,
+                "meritocracy": 0.2859,
+                "salience": 0.3103,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2009,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0222,
+                "inclusion": 0.3079,
+                "meritocracy": 0.2857,
+                "salience": 0.3079,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0222,
+                "inclusion": 0.3079,
+                "meritocracy": 0.2857,
+                "salience": 0.3079,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2010,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Technologies 3D Surround CUDA GPUDirect Hybrid SLI Optimus PhysX PowerMizer PureVideo HD SLI DirectCompute MXM OpenCL Windows 7 Adobe Flash 10.1 As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently delive",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.02,
+                "inclusion": 0.2662,
+                "meritocracy": 0.2461,
+                "salience": 0.2662,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Technologies 3D Surround CUDA GPUDirect Hybrid SLI Optimus PhysX PowerMizer PureVideo HD SLI DirectCompute MXM OpenCL Windows 7 Adobe Flash 10.1 As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently delive",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.02,
+                "inclusion": 0.2662,
+                "meritocracy": 0.2461,
+                "salience": 0.2662,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2011,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Technologies 3D Surround Adobe Flash 10.1 CUDA DirectCompute GPUDirect Hybrid SLI MXM OpenCL Optimus PhysX PowerMizer PureVideo HD SLI Windows 7 Communities 3DVision Live GeForce.com GTC SLI Zone CUDA Zone Developer Zone NVIDIA Blog GPU Venture Zone PartnerForce Research As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the wo",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0253,
+                "inclusion": 0.2852,
+                "meritocracy": 0.2599,
+                "salience": 0.2852,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Technologies 3D Surround Adobe Flash 10.1 CUDA DirectCompute GPUDirect Hybrid SLI MXM OpenCL Optimus PhysX PowerMizer PureVideo HD SLI Windows 7 Communities 3DVision Live GeForce.com GTC SLI Zone CUDA Zone Developer Zone NVIDIA Blog GPU Venture Zone PartnerForce Research As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the wo",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0253,
+                "inclusion": 0.2852,
+                "meritocracy": 0.2599,
+                "salience": 0.2852,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2012,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 2,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 2,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Communities GeForce.com TegraZone.com 3DVision Live CUDA Zone Developer Zone NVIDIA Blog Forums GPU Venture Zone PartnerForce Research As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality,",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0375,
+                "inclusion": 0.3269,
+                "meritocracy": 0.2894,
+                "salience": 0.3269,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0244,
+                "inclusion": 0.2942,
+                "meritocracy": 0.2698,
+                "salience": 0.2942,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2013,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 2,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 2,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "NVIDIA is a world leader in visual computing. Our technologies are transforming a world of displays into a world of interactive discovery for everyone from gamers and scientists, to consumers and enterprises. We invest in our people, our technologies, and our research and development efforts to deliver the highest quality products to customers across the globe. NVIDIA's culture inspires our team o",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0235,
+                "inclusion": 0.2849,
+                "meritocracy": 0.2614,
+                "salience": 0.2849,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0204,
+                "inclusion": 0.3138,
+                "meritocracy": 0.2934,
+                "salience": 0.3138,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2014,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 2,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 2,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Each employee can make a difference – help us invent the future.",
+                "heading": "Careers",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0641,
+                "inclusion": 0.5084,
+                "meritocracy": 0.4444,
+                "salience": 0.5084,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "NVIDIA is a world leader in visual computing. Our technologies are transforming a world of displays into a world of interactive discovery for everyone from gamers and scientists, to consumers and enterprises. We invest in our people, our technologies, and our research and development efforts to deliver the highest quality products to customers across the globe. NVIDIA's culture inspires our team o",
+                "heading": "",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0241,
+                "inclusion": 0.2802,
+                "meritocracy": 0.2561,
+                "salience": 0.2802,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2015,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "Each employee can make a difference – help us invent the future.",
+                "heading": "Careers",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0641,
+                "inclusion": 0.5084,
+                "meritocracy": 0.4444,
+                "salience": 0.5084,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Each employee can make a difference – help us invent the future.",
+                "heading": "Careers",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0641,
+                "inclusion": 0.5084,
+                "meritocracy": 0.4444,
+                "salience": 0.5084,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2020,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 13,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 13,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "Our invention of the GPU in 1999 made real-time programmable shading possible, giving artists an infinite palette for expression. In 2018, the introduction of the Turing architecture and NVIDIA RTX ™ ray-tracing technology fulfilled another vision of computer scientists, paving the way to new levels of art and realism in real-time graphics. We’ve led the field of visual computing for decades.",
+                "heading": "NVIDIA REINVENTS MODERN COMPUTER GRAPHICS",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0539,
+                "inclusion": 0.1846,
+                "meritocracy": 0.1307,
+                "salience": 0.1846,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Accelerated computing is the way forward for the world’s most powerful computers. More than 600 applications support CUDA today, including the top 15 in HPC. NVIDIA powers U.S.-based Summit, the world’s fastest supercomputer, as well as the fastest systems in Europe and Japan. More than 130 supercomputers on the TOP500 list are accelerated by NVIDIA, including five of the top 10.",
+                "heading": "POWERING THE WORLD’S FASTEST SUPERCOMPUTERS",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": -0.0189,
+                "inclusion": 0.1132,
+                "meritocracy": 0.1321,
+                "salience": 0.1321,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2024,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 9,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 9,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "Generative AI and digitalization are reshaping the $3 trillion automotive industry, from design and engineering to manufacturing, autonomous driving, and customer experience. NVIDIA is at the epicenter of this industrial transformation.",
+                "heading": "Driving Automotive Growth",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0634,
+                "inclusion": 0.1833,
+                "meritocracy": 0.12,
+                "salience": 0.1833,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "Accelerated computing and AI have fully arrived. The acceleration of deep learning ignited the Big Bang of AI. Now, generative AI is a new computing platform, like the PC, internet, and mobile-cloud.",
+                "heading": "The iPhone Moment for AI",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0221,
+                "inclusion": 0.1566,
+                "meritocracy": 0.1345,
+                "salience": 0.1566,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2025,
+              "registers": {
+                "explicit_demographic": 5,
+                "structural_process": 0,
+                "aspirational_vague": 3,
+                "belonging_culture": 1,
+                "absent": 3,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 12,
+              "thin": false,
+              "stanceMaxQuote": {
+                "text": "We’re focused on increasing our hiring of women and underrepresented communities in technology, tracking our success, and adjusting to ensure a diverse, representative workforce. We’ve achieved pay parity for the past several years and are committed to continuing this practice. But progress goes beyond pay parity. It includes an ongoing commitment to ensuring that we’re equitable in how we develop",
+                "heading": "Our Commitment to Progress",
+                "register": "explicit_demographic",
+                "stance": "affirming_dei",
+                "stanceDiff": 0.2301,
+                "inclusion": 0.6841,
+                "meritocracy": 0.454,
+                "salience": 0.6841,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "You’ll solve some of the world’s hardest problems and discover never-before-seen ways to improve the quality of life for people everywhere. From healthcare to robots. Self-driving cars to blockbuster movies. And a growing list of new opportunities every single day. Watch this video for a glimpse at why NVIDIA is like no place you've ever worked.",
+                "heading": "Follow Your Passion. Lead a Movement.",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0323,
+                "inclusion": 0.2917,
+                "meritocracy": 0.2594,
+                "salience": 0.2917,
+                "stanceProjection": null
+              }
+            },
+            {
+              "year": 2026,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 1,
+                "absent": 2,
+                "meritocracy": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 3,
+              "thin": true,
+              "stanceMaxQuote": {
+                "text": "The breakthroughs we’re making at NVIDIA are impacting businesses everywhere, helping them work faster, better, and smarter. Join our team. Make an impact.",
+                "heading": "Help Us Transform Entire Industries",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0454,
+                "inclusion": 0.3939,
+                "meritocracy": 0.3486,
+                "salience": 0.3939,
+                "stanceProjection": null
+              },
+              "stanceMinQuote": {
+                "text": "You’ll solve some of the world’s hardest problems and discover never-before-seen ways to improve the quality of life for people everywhere. From healthcare to robots. Self-driving cars to blockbuster movies. And a growing list of new opportunities every single day. Watch this video for a glimpse at why NVIDIA is like no place you've ever worked.",
+                "heading": "Follow Your Passion. Lead a Movement.",
+                "register": "absent",
+                "stance": "neutral",
+                "stanceDiff": 0.0323,
+                "inclusion": 0.2917,
+                "meritocracy": 0.2594,
+                "salience": 0.2917,
+                "stanceProjection": null
+              }
+            }
+          ]
         }
       ]
     }
   },
   "highlights": [
+    {
+      "id": "b55a4ef3abd1",
+      "stance": "explicit_inclusion",
+      "stanceLabel": "Explicit inclusion",
+      "stanceNote": "Named-group or bias-process commitments on careers pages (explicit_demographic / structural_process registers).",
+      "company": "apple",
+      "displayName": "Apple",
+      "year": 2023,
+      "source": "careers",
+      "text": "We’re committed to increasing the number of managers from underrepresented communities, because differences in our backgrounds, our identities, and the way we think ultimately make our teams stronger and more innovative.",
+      "heading": "Representation in leadership matters.",
+      "score": 0.7513
+    },
     {
       "id": "4b39ce789db8",
       "stance": "explicit_inclusion",
@@ -9260,6 +10875,19 @@
       "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers. Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, education, as well as professional and life experience. We are working to develop leaders and shape future talent pools to help us meet the needs of o",
       "heading": "Our pioneers",
       "score": 0.6929
+    },
+    {
+      "id": "fbf8f8b9d658",
+      "stance": "explicit_inclusion",
+      "stanceLabel": "Explicit inclusion",
+      "stanceNote": "Named-group or bias-process commitments on careers pages (explicit_demographic / structural_process registers).",
+      "company": "nvidia",
+      "displayName": "NVIDIA",
+      "year": 2025,
+      "source": "careers",
+      "text": "We’re focused on increasing our hiring of women and underrepresented communities in technology, tracking our success, and adjusting to ensure a diverse, representative workforce. We’ve achieved pay parity for the past several years and are committed to continuing this practice. But progress goes beyond pay parity. It includes an ongoing commitment to ensuring that we’re equitable in how we develop",
+      "heading": "Our Commitment to Progress",
+      "score": 0.6841
     },
     {
       "id": "4bd86703dc6f",
@@ -9275,30 +10903,17 @@
       "score": 0.6787
     },
     {
-      "id": "162f2538a98c",
-      "stance": "explicit_inclusion",
-      "stanceLabel": "Explicit inclusion",
-      "stanceNote": "Named-group or bias-process commitments on careers pages (explicit_demographic / structural_process registers).",
-      "company": "stripe",
-      "displayName": "Stripe",
-      "year": 2016,
+      "id": "900a8080e115",
+      "stance": "belonging",
+      "stanceLabel": "Belonging language",
+      "stanceNote": "Worker-experience framing of inclusion — no named groups, no commitments (belonging_culture register).",
+      "company": "apple",
+      "displayName": "Apple",
+      "year": 2023,
       "source": "careers",
-      "text": "We want to build a work environment where people are happy, productive, and interact well. Personal interaction in particular is something we emphasize a lot. We work hard to find people who make others want to be around them. We know we're doing a good job of hiring so long as we see people continuing to join simply to work with those who are already here. We're quite transparent internally. This",
-      "heading": "How we work",
-      "score": 0.6577
-    },
-    {
-      "id": "b98d89836edc",
-      "stance": "explicit_inclusion",
-      "stanceLabel": "Explicit inclusion",
-      "stanceNote": "Named-group or bias-process commitments on careers pages (explicit_demographic / structural_process registers).",
-      "company": "google",
-      "displayName": "Google",
-      "year": 2022,
-      "source": "careers",
-      "text": "Hiring changes drove our best year yet for women in tech globally and Black+ and Latinx+ people in the U.S. A world of belonging includes care for our planet. That’s why we’re committed to making every day more sustainable.",
-      "heading": "Explore more of our belonging work",
-      "score": 0.6448
+      "text": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level. Because belonging takes all of us.",
+      "heading": "We belong. Together.",
+      "score": 0.7513
     },
     {
       "id": "81bf790fdff9",
@@ -9338,19 +10953,6 @@
       "text": "Be your authentic self. We're dedicated to creating a workplace where everyone belongs. Hear more from the people who work here.",
       "heading": "Authentic Self",
       "score": 0.6688
-    },
-    {
-      "id": "b73034666525",
-      "stance": "belonging",
-      "stanceLabel": "Belonging language",
-      "stanceNote": "Worker-experience framing of inclusion — no named groups, no commitments (belonging_culture register).",
-      "company": "hubspot",
-      "displayName": "HubSpot",
-      "year": 2021,
-      "source": "careers",
-      "text": "We’re building a company future generations can be proud of. A company where everyone is welcome. A company where you can be yourself. Come build it with us.",
-      "heading": "You are welcome.",
-      "score": 0.6556
     },
     {
       "id": "358965d86f72",

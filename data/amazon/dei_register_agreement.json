@@ -1,10 +1,9 @@
 {
   "n": 26,
-  "accuracy": 0.923,
+  "accuracy": 0.962,
   "confusion": {
     "absent": {
-      "absent": 23,
-      "aspirational_vague": 1
+      "absent": 24
     },
     "explicit_demographic": {
       "explicit_demographic": 1,
@@ -15,11 +14,6 @@
     {
       "chunk_id": "129ebf1f7738b858",
       "hand_label": "explicit_demographic",
-      "predicted": "aspirational_vague"
-    },
-    {
-      "chunk_id": "d4f24443479e6c7f",
-      "hand_label": "absent",
       "predicted": "aspirational_vague"
     }
   ]

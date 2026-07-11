@@ -1,0 +1,558 @@
+{
+  "company": "palantir",
+  "displayName": "Palantir",
+  "axis": "ai",
+  "caveat": "Framing projections have ~4 years of real signal by construction; per-company timing is not comparable until corpus gaps are filled.",
+  "years": [
+    {
+      "year": 2010,
+      "totalChunks": 5,
+      "aiChunks": 1,
+      "prevalence": 0.2,
+      "thin": false,
+      "labels": {
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 1,
+          "mentions": 1
+        }
+      },
+      "terms": {
+        "artificial intelligence": 1
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": 0.0669,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": 0.0669,
+          "nChunks": 1,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "da753c57bb594c59",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "artificial intelligence"
+          ],
+          "projection": 0.0669,
+          "text": "Palantir places all the analytical power and technical prowess of the world’s best software engineers at your fingertips. Palantir shifts the paradigm away from both the etching technologies that merely let you map out what you already know and the quasi stand-alone field of artificial intelligence, that while useful for some types of analysis, has limits when it comes to making sense out of massi"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "totalChunks": 2,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2012,
+      "totalChunks": 5,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2013,
+      "totalChunks": 12,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "mission_brand": {
+          "chunks": 11,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2014,
+      "totalChunks": 2,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2015,
+      "totalChunks": 10,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2016,
+      "totalChunks": 10,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2017,
+      "totalChunks": 7,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "mission_brand": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2018,
+      "totalChunks": 13,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2019,
+      "totalChunks": 13,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2020,
+      "totalChunks": 13,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2021,
+      "totalChunks": 26,
+      "aiChunks": 1,
+      "prevalence": 0.0385,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "ML": 1
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0313,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.0313,
+          "nChunks": 1,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "73c09d0b58ca58ea",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "ML"
+          ],
+          "projection": -0.0313,
+          "text": "Bruno de F. Melo e Souza, Head of Data Platform and ML, Grupo Globo"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "totalChunks": 53,
+      "aiChunks": 1,
+      "prevalence": 0.0189,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 28,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 21,
+          "ai_chunks": 1,
+          "mentions": 2
+        }
+      },
+      "terms": {
+        "AI": 1,
+        "ML": 1
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0048,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "group": "other",
+          "meanProjection": -0.0048,
+          "nChunks": 1,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "fb6852fcfb679f6b",
+          "label": "process_logistics",
+          "group": "other",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "projection": -0.0048,
+          "text": "Please specify the trainings areas you are interested in: Data Analysis/Data Science; Data Engineering; Application Development; Platform Administration; Intel Analysis; Mission Planning; AI/ML."
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "totalChunks": 31,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 24,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2024,
+      "totalChunks": 35,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 24,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2025,
+      "totalChunks": 31,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 23,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2026,
+      "totalChunks": 36,
+      "aiChunks": 2,
+      "prevalence": 0.0556,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 8,
+          "ai_chunks": 2,
+          "mentions": 2
+        },
+        "mission_brand": {
+          "chunks": 28,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 2
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0208,
+          "nChunks": 2,
+          "thin": true
+        },
+        {
+          "group": "hire",
+          "meanProjection": -0.0208,
+          "nChunks": 2,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "e2f73e8f5b6bca87",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.0463,
+          "text": "Your job is to ensure the solutions we build actually work. In a world of demo-ware and big promises, a Delta delivers tangible outcomes. A Delta’s work includes, but is not limited to: ensuring we are building the correct solution based on partner mission, delivering scalable data infrastructure, and designing AI systems that work in practice (not just theory), while expanding Palantir’s core pla"
+        },
+        {
+          "chunk_id": "e240401b6ef1523e",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI"
+          ],
+          "projection": 0.0047,
+          "text": "Your mission is to own the holistic actions we need to take to help our partners win; including, but not limited to: identifying the true problem limiting our partner's mission, decomposing that problem into its component workflows, aligning stakeholders from the CIO to the nurse, solving backwards from a user’s workflow, building the technical software and/or AI solution, and ultimately moving We"
+        }
+      ]
+    }
+  ]
+}

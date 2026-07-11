@@ -1,0 +1,559 @@
+{
+  "company": "hubspot",
+  "displayName": "HubSpot",
+  "axis": "ai",
+  "caveat": "Framing projections have ~4 years of real signal by construction; per-company timing is not comparable until corpus gaps are filled.",
+  "years": [
+    {
+      "year": 2013,
+      "totalChunks": 4,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2014,
+      "totalChunks": 11,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2015,
+      "totalChunks": 11,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2016,
+      "totalChunks": 27,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2017,
+      "totalChunks": 13,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2018,
+      "totalChunks": 34,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 18,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2019,
+      "totalChunks": 39,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 10,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2020,
+      "totalChunks": 33,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 19,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2021,
+      "totalChunks": 66,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 30,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 20,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2022,
+      "totalChunks": 28,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 18,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2023,
+      "totalChunks": 33,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 15,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2024,
+      "totalChunks": 48,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 22,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2025,
+      "totalChunks": 28,
+      "aiChunks": 5,
+      "prevalence": 0.1786,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 14,
+          "ai_chunks": 2,
+          "mentions": 2
+        },
+        "process_logistics": {
+          "chunks": 11,
+          "ai_chunks": 3,
+          "mentions": 10
+        }
+      },
+      "terms": {
+        "AI": 12
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": 0.0319,
+          "nChunks": 5,
+          "thin": false
+        },
+        {
+          "group": "other",
+          "meanProjection": 0.0212,
+          "nChunks": 3,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": 0.0479,
+          "nChunks": 2,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "605e10e11400c5a2",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "AI"
+          ],
+          "projection": 0.074,
+          "text": "Work hands-on with AI, test bold ideas, and sharpen your skills in real time."
+        },
+        {
+          "chunk_id": "97c300f51b9ffced",
+          "label": "process_logistics",
+          "group": "other",
+          "terms": [
+            "AI"
+          ],
+          "projection": 0.0373,
+          "text": "✅ AI supports our process, but people make the decisions. We will never use AI to make a hiring decision. ✅ We use AI to help, not to hide. When AI is used to support scheduling or screen resumes, it’s always reviewed by a recruiter—and we regularly check for fairness, bias, and accuracy."
+        },
+        {
+          "chunk_id": "0cd67ff3355d808e",
+          "label": "process_logistics",
+          "group": "other",
+          "terms": [
+            "AI"
+          ],
+          "projection": 0.0313,
+          "text": "We love and use AI every day at HubSpot, but we deploy it where it makes sense. We use AI to remove friction from the process so our recruiters can focus on what really matters: meaningful conversations with candidates. Our goal is to enhance the human experience, not automate it. Because the AI landscape is changing fast, we’re committed to learning, evolving, and staying transparent along the wa"
+        },
+        {
+          "chunk_id": "a9abe4e9add3ec90",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "AI"
+          ],
+          "projection": 0.0218,
+          "text": "Discover how we’re using AI to enhance human connection in talent acquisition, transforming the candidate journey and elevating recruiter roles to strategic partners at HubSpot."
+        },
+        {
+          "chunk_id": "6428dfc751dd697b",
+          "label": "process_logistics",
+          "group": "other",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.005,
+          "text": "✅ Do use AI to prep, polish, or research—it’s a smart way to show up feeling confident. ❌ Don’t use AI to misrepresent your work, fabricate answers, or submit anything that isn’t truly yours. ✨ We want to meet the real you. Not the AI-generated version. Why? Because we’re not just hiring for skills—we’re hiring for growth, curiosity, and how you solve problems. And that only comes through when you"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "totalChunks": 9,
+      "aiChunks": 1,
+      "prevalence": 0.1111,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 6,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 1
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": 0.074,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": 0.074,
+          "nChunks": 1,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "09a417ee9caf316c",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "AI"
+          ],
+          "projection": 0.074,
+          "text": "Work hands-on with AI, test bold ideas, and sharpen your skills in real time."
+        }
+      ]
+    }
+  ]
+}

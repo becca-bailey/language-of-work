@@ -12,7 +12,7 @@
 
 ## 2021
 - affirming_dei: 7
-- neutral: 8
+- neutral: 6
 
 ## 2022
 - affirming_dei: 1
@@ -24,11 +24,11 @@
 
 ## 2024
 - affirming_dei: 1
-- neutral: 4
+- neutral: 3
 
 ## 2025
-- affirming_dei: 7
-- neutral: 9
+- affirming_dei: 3
+- neutral: 5
 
 ## 2026
 - affirming_dei: 2

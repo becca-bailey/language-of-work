@@ -1,0 +1,2153 @@
+{
+  "story": "ai",
+  "pooled": [
+    {
+      "year": 2005,
+      "aiChunks": 1,
+      "totalChunks": 19,
+      "prevalence": 0.0526
+    },
+    {
+      "year": 2006,
+      "aiChunks": 0,
+      "totalChunks": 24,
+      "prevalence": 0.0
+    },
+    {
+      "year": 2007,
+      "aiChunks": 0,
+      "totalChunks": 54,
+      "prevalence": 0.0
+    },
+    {
+      "year": 2008,
+      "aiChunks": 0,
+      "totalChunks": 39,
+      "prevalence": 0.0
+    },
+    {
+      "year": 2009,
+      "aiChunks": 0,
+      "totalChunks": 79,
+      "prevalence": 0.0
+    },
+    {
+      "year": 2010,
+      "aiChunks": 1,
+      "totalChunks": 127,
+      "prevalence": 0.0079
+    },
+    {
+      "year": 2011,
+      "aiChunks": 0,
+      "totalChunks": 153,
+      "prevalence": 0.0
+    },
+    {
+      "year": 2012,
+      "aiChunks": 1,
+      "totalChunks": 171,
+      "prevalence": 0.0058
+    },
+    {
+      "year": 2013,
+      "aiChunks": 0,
+      "totalChunks": 239,
+      "prevalence": 0.0
+    },
+    {
+      "year": 2014,
+      "aiChunks": 1,
+      "totalChunks": 366,
+      "prevalence": 0.0027
+    },
+    {
+      "year": 2015,
+      "aiChunks": 2,
+      "totalChunks": 281,
+      "prevalence": 0.0071
+    },
+    {
+      "year": 2016,
+      "aiChunks": 2,
+      "totalChunks": 305,
+      "prevalence": 0.0066
+    },
+    {
+      "year": 2017,
+      "aiChunks": 4,
+      "totalChunks": 371,
+      "prevalence": 0.0108
+    },
+    {
+      "year": 2018,
+      "aiChunks": 5,
+      "totalChunks": 420,
+      "prevalence": 0.0119
+    },
+    {
+      "year": 2019,
+      "aiChunks": 8,
+      "totalChunks": 496,
+      "prevalence": 0.0161
+    },
+    {
+      "year": 2020,
+      "aiChunks": 14,
+      "totalChunks": 485,
+      "prevalence": 0.0289
+    },
+    {
+      "year": 2021,
+      "aiChunks": 15,
+      "totalChunks": 571,
+      "prevalence": 0.0263
+    },
+    {
+      "year": 2022,
+      "aiChunks": 18,
+      "totalChunks": 693,
+      "prevalence": 0.026
+    },
+    {
+      "year": 2023,
+      "aiChunks": 13,
+      "totalChunks": 720,
+      "prevalence": 0.0181
+    },
+    {
+      "year": 2024,
+      "aiChunks": 22,
+      "totalChunks": 541,
+      "prevalence": 0.0407
+    },
+    {
+      "year": 2025,
+      "aiChunks": 78,
+      "totalChunks": 636,
+      "prevalence": 0.1226
+    },
+    {
+      "year": 2026,
+      "aiChunks": 59,
+      "totalChunks": 425,
+      "prevalence": 0.1388
+    }
+  ],
+  "talkVsHire": {
+    "hire": {
+      "aiChunks": 66,
+      "totalChunks": 1357,
+      "prevalence": 0.0486
+    },
+    "other": {
+      "aiChunks": 23,
+      "totalChunks": 1289,
+      "prevalence": 0.0178
+    },
+    "talk": {
+      "aiChunks": 155,
+      "totalChunks": 4569,
+      "prevalence": 0.0339
+    }
+  },
+  "companies": [
+    {
+      "id": "airbnb",
+      "years": [
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.125,
+          "aiChunks": 2,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "years": [
+        {
+          "year": 2007,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2008,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0282,
+          "aiChunks": 2,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0455,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "years": [
+        {
+          "year": 2005,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2006,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2007,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2008,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2009,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2010,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0857,
+          "aiChunks": 9,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0584,
+          "aiChunks": 8,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0286,
+          "aiChunks": 3,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0167,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0435,
+          "aiChunks": 4,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0556,
+          "aiChunks": 1,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "basecamp",
+      "years": [
+        {
+          "year": 2009,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2010,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "coinbase",
+      "years": [
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "years": [
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "gitlab",
+      "years": [
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.125,
+          "aiChunks": 2,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.25,
+          "aiChunks": 4,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "years": [
+        {
+          "year": 2005,
+          "prevalence": 0.1,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2006,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2007,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2008,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2009,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2010,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0208,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0263,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0323,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0233,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0417,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0238,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0658,
+          "aiChunks": 5,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0794,
+          "aiChunks": 5,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.04,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0444,
+          "aiChunks": 2,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0857,
+          "aiChunks": 3,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.2121,
+          "aiChunks": 7,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.2381,
+          "aiChunks": 15,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "years": [
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.1786,
+          "aiChunks": 5,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.1111,
+          "aiChunks": 1,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "years": [
+        {
+          "year": 2009,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2010,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0476,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0833,
+          "aiChunks": 2,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.4444,
+          "aiChunks": 8,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 1.0,
+          "aiChunks": 11,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "years": [
+        {
+          "year": 2005,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2006,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2007,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2008,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2010,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "years": [
+        {
+          "year": 2006,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2007,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2008,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2009,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2010,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.3333,
+          "aiChunks": 1,
+          "thin": true
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.3333,
+          "aiChunks": 1,
+          "thin": true
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.5,
+          "aiChunks": 1,
+          "thin": true
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.3333,
+          "aiChunks": 1,
+          "thin": true
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.6154,
+          "aiChunks": 8,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.6667,
+          "aiChunks": 6,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.1333,
+          "aiChunks": 2,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.1667,
+          "aiChunks": 1,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "years": [
+        {
+          "year": 2010,
+          "prevalence": 0.2,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0385,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0189,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0556,
+          "aiChunks": 2,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "years": [
+        {
+          "year": 2005,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2006,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2007,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2008,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2009,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2010,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0135,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0385,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.1509,
+          "aiChunks": 8,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.2752,
+          "aiChunks": 41,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.2768,
+          "aiChunks": 31,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "years": [
+        {
+          "year": 2010,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.05,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0541,
+          "aiChunks": 2,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0196,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0385,
+          "aiChunks": 2,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "snap",
+      "years": [
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.2353,
+          "aiChunks": 4,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "starbucks",
+      "years": [
+        {
+          "year": 2005,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2006,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2007,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2008,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2009,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2010,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0043,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "years": [
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.05,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0476,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0435,
+          "aiChunks": 2,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0156,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0405,
+          "aiChunks": 3,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0851,
+          "aiChunks": 4,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0185,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0476,
+          "aiChunks": 2,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "years": [
+        {
+          "year": 2011,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2012,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2018,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        }
+      ]
+    }
+  ]
+}

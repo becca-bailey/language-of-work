@@ -19,10 +19,10 @@
 - neutral: 6
 
 ## 2019
-- neutral: 7
+- neutral: 5
 
 ## 2020
-- neutral: 15
+- neutral: 7
 
 ## 2021
 - neutral: 11

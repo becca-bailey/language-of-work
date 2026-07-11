@@ -1,0 +1,44 @@
+{
+  "company": "apple",
+  "displayName": "Apple",
+  "headline": "Apple emphasizes craft, altruism, and inclusion; DEI language surged 2014–2022, then stabilized at elevated levels.",
+  "identity": "Apple has consistently valued craft (excellence in execution), altruism (leaving the world better), and inclusion (diversity as innovation driver) across its careers messaging. Craft remained steady throughout; altruism rose sharply from 2014 onward, peaking in 2021–2026. Inclusion language accelerated dramatically from 2014 (0.66 zscore) through 2022 (1.35 zscore), then moderated slightly but remained well above pre-2014 baseline. Meritocracy framing—the idea that talent and contribution matter most—has wavered: strong in 2012–2015 and 2020–2022, but weaker in 2013, 2016–2017, and 2024–2026, suggesting Apple's emphasis has shifted from pure merit-based messaging toward structural inclusion initiatives.",
+  "fit": "You might be a good fit if you value precision, attention to detail, and working on products that matter to millions. You should also be comfortable in a culture that explicitly names diversity and inclusion as business imperatives—not afterthoughts—and that frames your work as part of a larger mission to 'leave the world better than we found it.' If you thrive on belonging and community alongside individual excellence, Apple's language suggests you'll find resonance here.",
+  "sections": [
+    {
+      "heading": "The Rise of Altruism and Mission (2014–Present)",
+      "body": "From 2007 to 2013, Apple's careers copy focused narrowly on product excellence and diversity as a hiring principle. Starting in 2014, Tim Cook's message introduced a broader moral frame: 'We know that each generation has a responsibility to build upon the gains of the past.' Altruism scores jumped from –0.35 zscore (2017) to +0.71 (2014), then climbed steadily to +0.91 (2025). By 2021, the language had woven education, environmental responsibility, and racial equity into the fabric of what it means to work at Apple. Phrases like 'leaving the world better than we found it' and 'improving lives' became standard. This shift reflects a deliberate repositioning: Apple is no longer just a place to build great products; it is a place to do good.\n\nNotably, this altruism language has remained stable and high since 2021, suggesting it is now core to Apple's employer brand rather than a temporary emphasis."
+    },
+    {
+      "heading": "Inclusion Language Accelerates, Then Plateaus (2014–2026)",
+      "body": "Inclusion messaging was sparse before 2014 (0.41 zscore in 2007). It spiked in 2014 (1.08 zscore) when Apple began explicitly naming diversity as 'critical to our success' and 'inspiring innovation.' The language grew more granular: by 2018–2019, Apple was citing specific hiring data ('half of our new hires in the United States were from historically underrepresented groups') and structural commitments ('pay equity in every country where we operate'). The peak came in 2021–2022 (1.46 and 1.35 zscore respectively), when the careers copy introduced 'belonging,' 'underrepresented communities,' and 'systemic barriers.' By 2023–2026, inclusion scores moderated slightly (0.89–1.03 zscore) but remained well above historical baseline, indicating the language has been normalized rather than abandoned.\n\nThe shift from 2014 onward also moved from aspirational ('we celebrate diversity') to structural ('we build diverse interview panels,' 'we track pay equity annually'). This suggests Apple moved from signaling values to describing processes."
+    },
+    {
+      "heading": "Meritocracy Framing: Wavering Emphasis",
+      "body": "Meritocracy—the framing that talent and contribution determine success—was strongest in 2012 (0.73 zscore), 2014–2015 (0.93–0.89), and 2020–2022 (0.94–1.07). It weakened notably in 2013 (–2.78 zscore), 2016–2017 (–0.79 to –0.91), and again in 2024–2026 (–0.64 to –0.60). The pattern suggests Apple's messaging has de-emphasized pure meritocracy in favor of structural inclusion language. Where 2012 copy said 'we always look to fill it with the best,' 2021–2022 copy said 'we're building more diverse interview panels and candidate slates to ensure that diversity is reflected at every stage.' The shift is subtle but significant: from 'best person wins' to 'we design systems to surface talent from all backgrounds.' This reflects a broader industry move away from colorblind meritocracy toward equity-conscious hiring."
+    },
+    {
+      "heading": "Craft and Performance: Steady Anchors",
+      "body": "Throughout the entire period, Apple's language has consistently emphasized craft—getting details right, excellence in execution, and the pride of making great products. Craft scores ranged from –0.45 to +1.22 zscore, with no sustained decline. Similarly, performance language (about doing demanding work, solving hard problems, collaborating across teams) remained stable. These themes appear in nearly every year's top quotes: 'We have a shared obsession with getting every last detail right' (2009), 'The result is some of the best-loved products in the world' (2012), 'We foster this culture by giving experts the room to take bold yet informed risks' (2024). This consistency suggests that craft and excellence are non-negotiable parts of Apple's identity, regardless of how DEI messaging has evolved."
+    },
+    {
+      "heading": "AI and Techno-Optimism: Emerging but Modest",
+      "body": "AI language appeared only in 2021 (8.6% of chunks), then declined to 1.7% by 2024 and 4.4% by 2025. When present, it frames AI/ML as a growth area ('machine learning and silicon specialists') and a domain where diversity lags ('R&D is also an area where, across the tech industry, diversity continues to lag'). Techno-optimism (the belief that technology solves problems) was weak throughout, peaking in 2021–2022 (1.73 and 1.11 zscore) when Apple highlighted LiDAR, medical research frameworks, and camera engineering. By 2024–2026, techno-optimism had faded (–0.50 to 0.88 zscore), suggesting Apple's careers messaging has moved away from 'technology will fix this' toward 'we need diverse teams to build responsibly.' This aligns with the rise of altruism and inclusion language."
+    }
+  ],
+  "model": "claude-haiku-4-5-20251001",
+  "promptVersion": 3,
+  "facetsUsed": [
+    "ai",
+    "altruism",
+    "craft",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "performance",
+    "techno_optimism",
+    "wellbeing",
+    "wellbeing_locus"
+  ],
+  "generatedAt": "2026-07-10"
+}

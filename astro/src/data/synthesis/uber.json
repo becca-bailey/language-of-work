@@ -1,0 +1,36 @@
+{
+  "company": "uber",
+  "displayName": "Uber",
+  "headline": "Uber has consistently valued ambition, impact, and inclusion—but DEI language peaked in 2018–19 and has since shifted toward accessibility.",
+  "identity": "Uber has consistently valued ambition, impact, and inclusion, with careers copy emphasizing the chance to move people and cities at scale. Altruism language rose sharply from 2016 onward (zscore 0.67 in 2016, peaking at 1.51 in 2018–19), driven by explicit commitments to diversity, equity, and belonging. However, DEI language—particularly around women, underrepresented populations, and systemic inclusion—peaked in 2018–2019 and has largely receded by 2024, replaced by narrower focus on disability accessibility and product features rather than workplace culture.",
+  "fit": "You might be a good fit if you are ambitious, willing to work hard on difficult problems, and drawn to the idea of building something at global scale. The 2011–2017 copy reached for people who thrive on challenge and impact; by 2018–2019, Uber explicitly sought those committed to diversity and belonging. By 2024, the language has shifted: if you care about accessibility and inclusive product design, you'll find resonance; if you're looking for a company still leaning hard on DEI as a core workplace value, the signal is weaker.",
+  "sections": [
+    {
+      "heading": "The Rise and Retreat of DEI Language (2016–2024)",
+      "body": "From 2011 to 2015, Uber's careers copy made almost no mention of diversity, equity, or inclusion. Starting in 2016, altruism language began climbing (zscore 0.67), with phrases like \"help improve local economies\" and \"bring opportunities to millions.\" By 2017, inclusion language appeared explicitly: \"We want to create a workplace that is inclusive and reflects the diversity of the cities we serve.\"\n\nThe peak came in 2018–2019. Inclusion scores hit 0.6343 (zscore 1.51 in 2018) and 0.6283 (zscore 1.48 in 2019). The copy named specific commitments: \"We have the audacious goal of being the most inclusive workplace in the world,\" \"pay equity for all employees,\" structured interviews to mitigate bias, and partnerships with organizations like Girls Who Code and Code.org. Explicit demographic language appeared—women, underrepresented populations, LGBTQ+, disability—alongside structural process language (diversity sourcing teams, interview moderators, bias training).\n\nBy 2024, inclusion scores fell to 0.3193 (zscore -0.74), and meritocracy scores dropped to 0.2365 (zscore -1.24). The careers copy no longer emphasizes workplace diversity or belonging. Instead, it focuses on accessibility features: wheelchair-accessible vehicles, deaf driver partnerships, service animal policies, and assistive technology. The shift is from \"we are building an inclusive culture\" to \"our product serves people with disabilities.\""
+    },
+    {
+      "heading": "Altruism and Impact: Sustained but Reframed",
+      "body": "Altruism language has remained relatively strong across the period, but its character has changed. From 2014 to 2017, it centered on economic opportunity and global reach: \"bring people and their cities closer,\" \"make cities more accessible,\" \"energize local economies.\" By 2018–2019, it broadened to include social justice: \"stand up for what's right,\" support for the Equality Act, LGBTQ+ advocacy, and commitment to being \"the most inclusive workplace in the world.\"\n\nIn 2024, altruism language persists but narrows again—now focused on accessibility for people with disabilities. Quotes emphasize how Uber's technology \"has transformed mobility for many people with disabilities\" and how the company partners with deaf-led nonprofits. The underlying message remains one of expanding opportunity, but the audience and framing have shifted from systemic workplace inclusion to product accessibility and economic participation for specific disability communities."
+    },
+    {
+      "heading": "Performance and Craft: Consistent Emphasis on Talent and Execution",
+      "body": "Throughout the period, Uber's copy has consistently emphasized performance and craft—the idea that talent matters and execution is paramount. Early language (2011–2014) leaned on meritocracy: \"the best idea always wins,\" \"people who work hard because they enjoy what they do,\" \"extremely talented people.\" This remained stable through 2016–2017 (zscore 0.08 and -0.10 respectively).\n\nPerformance language peaked in 2018 (zscore 0.98), with phrases like \"we know that ambition requires unwavering intention and commitment from everyone at Uber\" and \"world-class collective of problem-solvers.\" By 2024, performance scores fell (zscore -1.51), but the underlying emphasis on talent and execution has not disappeared—it has simply become less prominent in the careers narrative, crowded out by accessibility and product-focused messaging."
+    }
+  ],
+  "model": "claude-haiku-4-5-20251001",
+  "promptVersion": 3,
+  "facetsUsed": [
+    "ai",
+    "altruism",
+    "craft",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "performance",
+    "techno_optimism",
+    "wellbeing",
+    "wellbeing_locus"
+  ],
+  "generatedAt": "2026-07-10"
+}

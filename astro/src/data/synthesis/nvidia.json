@@ -1,0 +1,36 @@
+{
+  "company": "nvidia",
+  "displayName": "NVIDIA",
+  "headline": "NVIDIA positions itself as an AI-first, mission-driven company where technical excellence and solving world problems define the culture.",
+  "identity": "NVIDIA has consistently valued technical craft, performance-driven culture, and—increasingly since 2020—AI innovation and diversity. The company's language around craft and performance remained stable from 2006 through 2014, then shifted sharply in 2020 toward AI and away from craft-focused messaging (craft zscore fell from +0.68 in 2014 to -1.20 in 2020). DEI language was nearly absent until 2025, when it surged dramatically: explicit demographic mentions and structural commitments to women and underrepresented communities in tech appeared for the first time, with inclusion scores jumping from 0.18 in 2020 to 0.62 in 2025.",
+  "fit": "You might be a good fit if you are a technically skilled engineer or scientist who is energized by working on large-scale AI and computing problems, values being part of a mission-driven organization, and appreciate a culture that emphasizes meritocracy and individual contribution. As of 2025, NVIDIA's language also reaches for people who value diversity, inclusion, and belonging—phrases like 'everyone has a voice' and 'everyone belongs' now anchor the careers narrative.",
+  "sections": [
+    {
+      "heading": "The AI Pivot: 2015–2020",
+      "body": "NVIDIA's careers copy remained largely silent on AI until 2015, when 'deep learning' appeared in a single employee story (prevalence 0.33). By 2020, AI language exploded: 61% of mission/brand chunks mentioned AI, with 14 instances of the term 'AI' alone. The company reframed itself around accelerated computing for AI training, inference, and edge deployment. Simultaneously, the language shifted away from craft—the craft zscore dropped from +0.68 in 2014 to -1.20 in 2020, suggesting the careers copy moved from celebrating engineering excellence to celebrating AI breakthroughs and industry transformation.\n\nBy 2024, AI remained central (67% prevalence), but the tone had matured: 'generative AI' entered the vocabulary, and the company positioned itself as 'the engine of AI' and builder of 'AI factories.' The language balanced technical capability with societal impact—healthcare, autonomous vehicles, and digital twins featured prominently."
+    },
+    {
+      "heading": "Diversity and Inclusion: Absent Until 2025",
+      "body": "From 2006 through 2024, NVIDIA's careers pages contained no explicit demographic language, no structural process commitments, and no belonging-culture framing. The DEI facet shows zero registers for 'explicit_demographic,' 'structural_process,' or 'aspirational_vague' across all years through 2024. Inclusion and meritocracy scores hovered near baseline (0.30 and 0.27 respectively in 2006–2014).\n\nIn 2025, this changed abruptly. Five explicit demographic mentions appeared—women, underrepresented communities, Black communities, Hispanic-serving institutions, and HBCUs. The company introduced the 'CARE Allyship Program,' pay parity claims, and language about 'building a just, decent, and inclusive company.' Inclusion scores jumped to 0.62, meritocracy to 0.50. The shift was substantial enough that 2025 stands as a clear inflection point in how NVIDIA describes itself to job seekers."
+    },
+    {
+      "heading": "Altruism and Purpose: Steady Rise Since 2014",
+      "body": "Altruism language—framing work as solving world problems and improving lives—was minimal through 2013 (zscore -0.75). In 2014, the phrase 'Each employee can make a difference – help us invent the future' appeared, lifting the zscore to -0.09. By 2015, it spiked to +1.91 (rawTopkMean 0.22), driven by that single high-scoring quote.\n\nThe signal weakened in 2020 and 2024 (zscore +0.42 and +0.42 respectively), but 2025 brought a resurgence: 'You'll solve some of the world's hardest problems and discover never-before-seen ways to improve the quality of life for people everywhere' became a headline. Wellbeing language also surged in 2025 (zscore +2.02), with explicit mentions of employee support, family care, neurodiversity programs, and mentorship—suggesting NVIDIA is now reaching for candidates who value both mission and personal support."
+    }
+  ],
+  "model": "claude-haiku-4-5-20251001",
+  "promptVersion": 3,
+  "facetsUsed": [
+    "ai",
+    "altruism",
+    "craft",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "performance",
+    "techno_optimism",
+    "wellbeing",
+    "wellbeing_locus"
+  ],
+  "generatedAt": "2026-07-10"
+}

@@ -1,33 +1,36 @@
 {
   "company": "gitlab",
   "displayName": "GitLab",
-  "headline": "GitLab presents itself as a fully remote, transparency-first company where 'everyone can contribute' — and has leaned harder on inclusion and belonging since 2018.",
-  "identity": "GitLab has consistently valued all-remote work, transparency, and the mission that 'everyone can contribute' across every year of its careers copy. Inclusion and belonging language grew steadily from 2018 (first explicit DEI section) through 2022, when altruism and inclusion z-scores peaked above peer averages; however, the 2023 careers page shrank dramatically in content — inclusion, meritocracy, performance, and wellbeing z-scores all fell sharply negative that year — suggesting a significant reduction in copy depth, not just a rhetorical shift. By 2025–2026 the page rebuilt, with 'Inclusion & Belonging' reframed and AI-era product language ('AI-powered DevSecOps platform') added for the first time.",
-  "fit": "You might be a good fit if you are comfortable working asynchronously across time zones, motivated by broad ownership ('team members can — and are expected to — make an impact across the company'), and at ease with a handbook-first culture where processes are public and iterable.",
+  "headline": "All-remote DevSecOps platform company emphasizing contribution, inclusion, and distributed work.",
+  "identity": "GitLab has consistently valued remote work, inclusive culture, and the principle that everyone can contribute. Altruism language strengthened markedly from 2018 to 2022 (zscore rising from -0.90 to +1.23), then stabilized at elevated levels through 2026. However, craft language—once a moderate strength in 2022—collapsed sharply in 2023 (zscore -2.61) and has not recovered, suggesting a shift away from emphasizing work quality and culture-building in favor of mission and product messaging.",
+  "fit": "You might be a good fit if you value autonomy, asynchronous work, and the ability to contribute meaningfully regardless of role or location. GitLab's language reaches hardest for people who want flexibility, transparency, and a sense of belonging in a global, distributed team—and who are energized by the idea that 'everyone can contribute.'",
   "sections": [
     {
-      "heading": "The all-remote identity: consistent and central",
-      "body": "From the earliest archived copy (2015: 'You can work from anywhere') through 2026 ('GitLab's asynchronous and synchronous working style allows for greater flexibility'), remote work is the single most stable thread. The framing evolved from a simple perk into an ideological stance: by 2021 the copy quoted the CEO calling all-remote 'the future of work' and described GitLab as 'one of the world's largest all-remote companies, prolific inventor of remote best practices.' Wellbeing language, which tracks closely with remote flexibility, peaked in 2022 (z-score +1.31) with personal testimonials — 'Remote work made repatriation, a non-linear working day, and a dog possible' — before falling back in 2023 and recovering modestly by 2025–2026.\n\nThe CREDIT values acronym (Collaboration, Results, Efficiency, Diversity, Iteration, Transparency) appears explicitly from 2022 onward and anchors the copy's claim that culture is documented and open to change: 'Always Work-in-progress, our values evolve as we grow and people suggest changes.'"
+      "heading": "The Rise and Plateau of Inclusion Language",
+      "body": "GitLab's careers copy has leaned increasingly on inclusion and belonging since 2018. Inclusion scores rose from -1.19 (2015) to +0.91 (2021), then stabilized around +0.33–+1.11 through 2026. The language shifted from vague mentions of \"diversity\" (2018) to explicit references to \"Team Member Resource Groups\" (Pride, Women, Minorities in Tech) by 2021, and by 2025–2026 emphasized \"creating inclusive environments\" and \"spaces where everyone belongs.\" The DEI facet shows explicit demographic language peaked in 2018–2019, then gave way to more aspirational and belonging-focused framing by 2022 onward. This suggests a maturation from surface-level diversity signaling to deeper cultural belonging rhetoric, though the actual prevalence of DEI language has remained steady rather than growing."
     },
     {
-      "heading": "DEI language: a clear arc with a 2023 dip",
-      "body": "DEI-related copy was absent in 2015–2017 (all chunks scored in the 'absent' register). It appeared in 2018 with a dedicated 'Join a diverse, global team' section naming #women and #lgbtq Slack channels and listing transgender medical benefits publicly. The vocabulary expanded year by year: 'diversity' (2018), 'inclusion' (2019), 'belonging' (2020), 'equity' (2021–2023). The inclusion z-score reached its highest point in 2020–2021 (around +0.91 to +0.95).\n\nIn 2023 the careers page shrank to only six content chunks — versus 34 in 2022 — and the inclusion z-score collapsed to -1.97, the lowest in the dataset. Explicit demographic references (mentions of women, LGBTQ) disappeared after 2022. By 2025 the section was relabeled 'Inclusion & Belonging' with new language ('We create spaces where everyone belongs'), and the inclusion z-score recovered to -0.17. The 2026 page sits at +1.11, back above the peer average. The register shifted from explicit-demographic toward aspirational-vague across this period."
+      "heading": "The Craft Collapse and Product Pivot",
+      "body": "From 2015–2022, GitLab's copy emphasized culture, values, and the quality of work life—craft language scored +0.21 to +1.34. But in 2023, craft language plummeted to -2.61 (zscore), driven by a dramatic reduction in mission_brand and employee_story chunks. The 2023 careers page shifted toward product facts and company history rather than cultural narrative. By 2025–2026, craft recovered slightly (+0.29 in 2026) but remains below pre-2023 levels. This coincides with a pivot in mission language: by 2025–2026, GitLab began foregrounding AI—\"the most comprehensive AI-powered DevSecOps platform\" and references to \"the AI era\" and \"agentic era.\" The careers copy now emphasizes what GitLab builds and ships, not how it feels to work there."
     },
     {
-      "heading": "Performance and ambition: present but not dominant",
-      "body": "Performance-oriented language has been present throughout but never the loudest signal. Early copy (2015–2016) called GitLab 'a very productive, ambitious team, where independence is both valued and required.' By 2019 the framing shifted to collective impact: 'team members can — and are expected to — make an impact across the company.' The performance z-score peaked in 2019 (+1.17) and again in 2026 (+0.83), with a notable trough in 2023 (-2.57) consistent with the thin-page problem that year.\n\nTechno-optimism scores are volatile and generally low, with one spike in 2021 (+1.45) driven by explicit claims that all-remote is 'the future of work.' By 2025 that framing was replaced by AI product language ('building the most comprehensive AI-powered DevSecOps platform'), though the techno-optimism z-score for 2025 is actually the lowest in the dataset (-2.12), suggesting the AI copy did not score as technologically visionary by the measure used. The 2026 page recovers to +0.83 with language like 'ship software at the speed of imagination' and 'the agentic era.'"
+      "heading": "AI and the Agentic Turn (2025–2026)",
+      "body": "AI language was entirely absent from 2014–2024. In 2025, it appeared in 2 of 16 chunks (12.5% prevalence); by 2026, it jumped to 4 of 16 chunks (25%). The 2026 mission statement reframes GitLab as \"the trusted enterprise platform for software creation in the AI era\" and references \"the pace the agentic era demands.\" Notably, the AI framing is paired with a humanistic qualifier: \"guided by humans\" and \"at machine scale, guided by humans.\" The company also explicitly addresses AI in hiring: \"Using AI in the interview process\" with \"ethical guidelines\" and transparency. This suggests GitLab is repositioning itself as an AI-era platform company while attempting to maintain its human-centered, inclusive identity."
     }
   ],
-  "model": "claude-sonnet-4-6",
+  "model": "claude-haiku-4-5-20251001",
   "promptVersion": 3,
   "facetsUsed": [
+    "ai",
     "altruism",
+    "craft",
     "dei",
     "inclusion",
     "meritocracy",
     "performance",
     "techno_optimism",
-    "wellbeing"
+    "wellbeing",
+    "wellbeing_locus"
   ],
-  "generatedAt": "2026-07-02"
+  "generatedAt": "2026-07-10"
 }

@@ -17,11 +17,11 @@
         "heading": "Our Brands",
         "register": "absent",
         "stance": "neutral",
-        "inclusion": 0.2745,
-        "meritocracy": 0.2329,
-        "stanceDiff": 0.0416,
-        "salience": 0.2745,
-        "score": 0.2745
+        "inclusion": 0.2885,
+        "meritocracy": 0.247,
+        "stanceDiff": 0.0415,
+        "salience": 0.2885,
+        "score": 0.2885
       }
     ],
     "2019": [
@@ -473,6 +473,17 @@
   "meritocracy": {
     "2018": [
       {
+        "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too. Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way. Bitmoji Bitmoji is the digital you — a living cartoon charact",
+        "heading": "Our Brands",
+        "register": "absent",
+        "stance": "neutral",
+        "inclusion": 0.2885,
+        "meritocracy": 0.247,
+        "stanceDiff": 0.0415,
+        "salience": 0.2885,
+        "score": 0.247
+      },
+      {
         "text": "At Snap, we believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate. We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
         "heading": "Who We Are",
         "register": "absent",
@@ -482,17 +493,6 @@
         "stanceDiff": 0.0599,
         "salience": 0.2991,
         "score": 0.2391
-      },
-      {
-        "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too. Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way. Bitmoji Bitmoji is the digital you — a living cartoon charact",
-        "heading": "Our Brands",
-        "register": "absent",
-        "stance": "neutral",
-        "inclusion": 0.2745,
-        "meritocracy": 0.2329,
-        "stanceDiff": 0.0416,
-        "salience": 0.2745,
-        "score": 0.2329
       }
     ],
     "2019": [
@@ -944,9 +944,9 @@
   "envelope": {
     "2018": {
       "stanceMax": 0.0599,
-      "stanceMin": 0.0416,
-      "stanceMean": 0.0508,
-      "salienceTopkMean": 0.2868,
+      "stanceMin": 0.0415,
+      "stanceMean": 0.0507,
+      "salienceTopkMean": 0.2938,
       "textChurn": 1.0,
       "stanceMaxQuote": {
         "text": "At Snap, we believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate. We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
@@ -964,11 +964,11 @@
         "heading": "Our Brands",
         "register": "absent",
         "stance": "neutral",
-        "inclusion": 0.2745,
-        "meritocracy": 0.2329,
-        "stanceDiff": 0.0416,
-        "salience": 0.2745,
-        "score": 0.0416
+        "inclusion": 0.2885,
+        "meritocracy": 0.247,
+        "stanceDiff": 0.0415,
+        "salience": 0.2885,
+        "score": 0.0415
       },
       "stanceCounterQuote": null,
       "inclusionQuote": null
@@ -978,7 +978,7 @@
       "stanceMin": -0.0354,
       "stanceMean": 0.0555,
       "salienceTopkMean": 0.4356,
-      "textChurn": 0.9231,
+      "textChurn": 0.8462,
       "stanceMaxQuote": {
         "text": "Generous time off and leave programs Emotional and mental health support programs and apps Speaker series, classes, and subscriptions to educational programs Social gatherings, team outings, and volunteering programs",
         "heading": "Mind",
@@ -1047,10 +1047,10 @@
     },
     "2021": {
       "stanceMax": 0.207,
-      "stanceMin": 0.0348,
-      "stanceMean": 0.1026,
+      "stanceMin": 0.0466,
+      "stanceMean": 0.1111,
       "salienceTopkMean": 0.4632,
-      "textChurn": 0.6667,
+      "textChurn": 0.6923,
       "stanceMaxQuote": {
         "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community. We’re investing in new ways",
         "heading": "Diversity, Equity & Inclusion",
@@ -1063,15 +1063,15 @@
         "score": 0.207
       },
       "stanceMinQuote": {
-        "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too. Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way. Bitmoji Bitmoji is the digital you — a living cartoon charact",
-        "heading": "Our Brands",
-        "register": "absent",
-        "stance": "neutral",
-        "inclusion": 0.295,
-        "meritocracy": 0.2602,
-        "stanceDiff": 0.0348,
-        "salience": 0.295,
-        "score": 0.0348
+        "text": "SnapVets builds community for military veterans, dependents, and those who continue to serve.",
+        "heading": "SnapVets",
+        "register": "explicit_demographic",
+        "stance": "affirming_dei",
+        "inclusion": 0.2738,
+        "meritocracy": 0.2272,
+        "stanceDiff": 0.0466,
+        "salience": 0.2738,
+        "score": 0.0466
       },
       "stanceCounterQuote": null,
       "inclusionQuote": {
@@ -1091,7 +1091,7 @@
       "stanceMin": -0.0633,
       "stanceMean": 0.0329,
       "salienceTopkMean": 0.4531,
-      "textChurn": 0.8,
+      "textChurn": 1.0,
       "stanceMaxQuote": {
         "text": "At Snap, there are tons of opportunities to make a lasting impact — both at work and in the community! Our giving programs focus around three key pillars: empowering youth, education, and the arts. We volunteer thousands of hours every year through Snap CAMP (Community, Arts, and Mentorship Projects). Whether we’re renovating houses for new mothers or offering free coding classes to women in need,",
         "heading": "Giving Back",

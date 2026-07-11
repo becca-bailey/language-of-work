@@ -1,36 +1,36 @@
 {
   "company": "airbnb",
   "displayName": "Airbnb",
-  "headline": "Airbnb's careers copy centers on belonging and mission-driven community, with explicit DEI language peaking around 2019–2023 before pulling back.",
-  "identity": "Airbnb has consistently valued belonging, community mission, entrepreneurial boldness, and collective teamwork — phrases like 'create a world where anyone can belong anywhere' and 'champion the mission' appear across nearly every year from 2015 onward. The altruism signal, which was above-peer from 2019 through 2023 (zscore ~1.03), dropped sharply in 2024 to below-peer levels (zscore ~-1.11), and the explicit DEI vocabulary — 'underrepresented,' 'diversity,' 'accessibility' — which entered the copy in 2019 and peaked in 2023, is absent from the 2024–2025 pages. The entrepreneurial and performance-oriented language that was prominent in 2015 ('Think scary big. Volunteer for impossible situations. Get shit done.') also faded after 2019.",
-  "fit": "You might be a good fit if you are motivated by a civilizational-scale hospitality mission, comfortable with belonging-first culture framing, and drawn to collaborative rather than individual-hero narratives — the copy consistently rewards people who 'put the Airbnb community first' and are 'caring, open, and encouraging to everyone.'",
+  "headline": "Mission-driven platform company emphasizing belonging, community, and creative entrepreneurship with sustained altruistic framing.",
+  "identity": "Airbnb has consistently valued altruism, inclusion, and a sense of belonging—framing work around a civilizational mission to \"create a world where anyone can belong anywhere.\" These themes have persisted across the decade with remarkable stability. However, the careers copy's emphasis on craft and technical excellence wavered sharply: craft language peaked in 2015 (zscore 1.83), collapsed by 2021 (zscore -1.48), and has not recovered. DEI language, sparse before 2019, surged from 2019–2023 (inclusion scores 0.58–0.60), then softened in 2024–2025 (0.43), suggesting a retreat from explicit diversity framing.",
+  "fit": "You might be a good fit if you are drawn to mission-driven work centered on human connection and belonging, value collaboration and empathy over individual achievement, and are comfortable with a company that has de-emphasized technical craft in favor of cultural and community narratives. If you prioritize explicit DEI commitments, note that language peaked in 2023 and has since declined.",
   "sections": [
     {
-      "heading": "Belonging as the Core Thread",
-      "body": "The word 'belonging' appears in Airbnb's careers copy every year from 2015 through 2025 — the only term in the data with that full span. In 2015 the framing was outward-facing and aspirational: 'Create a global experience of belonging for anyone, anywhere.' By 2019 it had become a two-sided promise, linking the external mission to the internal workplace: 'A world where anyone can belong anywhere starts with a workplace where you feel welcome.' That dual framing held through 2023.\n\nThe 2024–2025 pages retain belonging language but in a noticeably thinner form — only four or five content chunks versus 13–22 in peak years, and the heading shifts from 'Champion the Mission' to 'We welcome you.' The mission-level grandiosity recedes; what remains is a workplace-level inclusion pledge without the civilizational scaffolding.",
-      "body_note": null
+      "heading": "The Persistent Mission: Belonging as Core Identity",
+      "body": "From 2015 onward, Airbnb's careers copy has anchored itself in a single, repeating mission: creating belonging. The phrase \"anyone can belong anywhere\" appears in top-scoring quotes across 2019–2025. Altruism scores remained elevated and stable from 2019 through 2023 (zscore 1.03, rawTopkMean 0.215), with quotes like \"We're united with our community to create a world where anyone can belong anywhere\" and \"We empower millions of people around the world to use their spaces, passions, and talents to become entrepreneurs.\" This framing is not technical or performance-focused; it is aspirational and communal. Even as other language shifted, this core remained.\n\nIn 2024–2025, altruism language softened (zscore -1.11, rawTopkMean 0.13), moving away from the audacious mission rhetoric toward softer phrasing: \"Make an impact,\" \"We welcome you,\" and \"people of all backgrounds, identities, and experiences can thrive.\" The shift is subtle but real—less about a grand civilizational project, more about workplace inclusion."
     },
     {
-      "heading": "DEI Language: Rise and Retreat",
-      "body": "Explicit diversity-and-inclusion vocabulary was absent from the careers copy through 2018. It entered in 2019 with a dedicated 'Include everyone' section naming 'candidates with backgrounds that are traditionally underrepresented in tech.' The inclusion zscore jumped from -0.22 in 2017 to +1.03 in 2019 and reached its highest point in 2023 (zscore +1.62), when a 'Belong at Airbnb' section stated: 'We seek to host employees who express a diversity of cultures, interests, thinking, and identities' and 'We believe that embracing differences within Airbnb's teams is key to promoting innovation and accessibility.'\n\nBy 2024 the dedicated DEI section is gone. The terms 'underrepresented,' 'diversity' (in the demographic sense), and 'accessibility' do not appear in the 2024–2025 quotes. The inclusion zscore falls to +0.25 and the DEI data flags the 2024 year as thin (only four chunks). The register shifts from 'explicit_demographic' back to 'aspirational_vague.' This is a meaningful change in language, though the data cannot say why it occurred.",
-      "body_note": null
+      "heading": "The Rise and Fall of DEI Language",
+      "body": "Diversity, equity, and inclusion language was nearly absent before 2019. In 2019, explicit DEI framing emerged with phrases like \"Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech\" and \"Include everyone\" sections. From 2019 to 2023, inclusion scores climbed and held steady (0.58–0.60 topkMean), with terms like \"diversity,\" \"underrepresented,\" and \"accessibility\" appearing regularly. The 2023 careers page even introduced \"explicit_demographic\" register language, marking a peak in specificity.\n\nBy 2024, this momentum reversed. Inclusion topkMean dropped to 0.43, and explicit demographic language disappeared. The 2024–2025 copy retreats to vaguer aspirational phrasing: \"people of all backgrounds, identities, and experiences can thrive\" rather than naming underrepresentation or structural barriers. This is not a return to pre-2019 silence, but a clear softening of the DEI commitment that had been central to 2019–2023 messaging."
     },
     {
-      "heading": "Entrepreneurial Energy vs. Collaborative Warmth",
-      "body": "Early Airbnb careers copy (2015) leaned hard on startup-style urgency: 'Think scary big. Volunteer for impossible situations. Get shit done.' The performance zscore in 2015 was +1.23, above peers. That voice softened considerably after 2016, replaced by warmer, more relational language — 'We're caring, open, and encouraging to everyone we work with' (2019, performance zscore +1.83, but driven by collaborative rather than individual-hustle phrasing).\n\nBy 2020–2021 the performance signal dropped below peers (zscores -1.13 and -1.01), and the 2020 page was dominated by employee-benefit copy ('There's life at work and life outside of work. We want everyone to be healthy, travel often'). The 2024 page pivots to 'Make an impact' and 'Work alongside industry-leading talent,' which reads as a partial return to output-oriented framing, though the data for 2024–2025 is thin enough that the signal is weak. Techno-optimism scores are consistently low or negative throughout, confirming that Airbnb's copy has never leaned on technology-as-savior rhetoric — the emphasis is human connection, not engineering prowess.",
-      "body_note": null
+      "heading": "Craft and Technical Excellence: A Collapsed Signal",
+      "body": "In 2015, Airbnb's careers language emphasized craft and attention to detail—\"Appreciates the details and prioritizes the right ones,\" \"Every Frame Matters,\" \"Distills a problem to its essence.\" Craft zscore was 1.83, the highest in the dataset. By 2019, craft had already weakened (zscore -0.75). By 2021, it collapsed to -1.48, and has remained depressed through 2024 (zscore -0.36).\n\nThis shift reflects a broader move away from technical and execution-focused language. In 2021, the only AI mentions appeared in job listings for machine learning and NLP roles (\"Building NLP models to detect spam,\" \"5+ years industry experience developing machine learning models at scale\"), but these were isolated and never became part of the broader mission narrative. The careers copy instead pivoted to belonging, community, and culture—language that is human-centered rather than craft-centered. By 2024, even performance language (zscore -0.32) had softened, replaced by collaboration and impact framing."
     }
   ],
-  "model": "claude-sonnet-4-6",
+  "model": "claude-haiku-4-5-20251001",
   "promptVersion": 3,
   "facetsUsed": [
+    "ai",
     "altruism",
+    "craft",
     "dei",
     "inclusion",
     "meritocracy",
     "performance",
     "techno_optimism",
-    "wellbeing"
+    "wellbeing",
+    "wellbeing_locus"
   ],
-  "generatedAt": "2026-07-02"
+  "generatedAt": "2026-07-10"
 }

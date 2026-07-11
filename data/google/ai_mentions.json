@@ -1,0 +1,834 @@
+{
+  "company": "google",
+  "content_labels": [
+    "benefits_perks",
+    "employee_story",
+    "job_listing",
+    "mission_brand",
+    "process_logistics"
+  ],
+  "years": [
+    {
+      "year": 2005,
+      "total_chunks": 10,
+      "ai_chunks": 1,
+      "prevalence": 0.1,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "744c9f2d4cd83cfc",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Home About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Google Engineering Summer Internship Google, a leading developer of advanced search technology, is pleased to announce our Engineering Internship Program for Summer 2005 . We're seeking ex"
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "total_chunks": 2,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2007,
+      "total_chunks": 5,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2008,
+      "total_chunks": 2,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2009,
+      "total_chunks": 1,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2010,
+      "total_chunks": 2,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2011,
+      "total_chunks": 16,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 15,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2012,
+      "total_chunks": 48,
+      "ai_chunks": 1,
+      "prevalence": 0.0208,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 14,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 33,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "431b6291dcba3374",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Google has two Research and Development offices in the Seattle area located in the Kirkland and Fremont neighborhoods. The Fremont office is also home to a sales office. Google Seattle/Kirkland has dozens of projects in areas like ads, search, systems, and web and desktop applications. Some of the a"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "total_chunks": 4,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2014,
+      "total_chunks": 38,
+      "ai_chunks": 1,
+      "prevalence": 0.0263,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 34,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "deep learning": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "f2e0eee92862a785",
+          "terms": [
+            "deep learning"
+          ],
+          "text": "Google researchers teamed up with Stanford University computer scientists to build a \"deep learning\" neural ..."
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "total_chunks": 31,
+      "ai_chunks": 1,
+      "prevalence": 0.0323,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 26,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "deep learning": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "4a2f4eab7409e995",
+          "terms": [
+            "deep learning"
+          ],
+          "text": "Google researchers teamed up with Stanford University computer scientists to build a \"deep learning\" neural ..."
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "total_chunks": 43,
+      "ai_chunks": 1,
+      "prevalence": 0.0233,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 12,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "job_listing": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 15,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "deep learning": 1
+      },
+      "examples": [
+        {
+          "label": "employee_story",
+          "chunk_id": "800b446f7022a003",
+          "terms": [
+            "deep learning"
+          ],
+          "text": "Google researchers teamed up with Stanford University computer scientists to build a \"deep learning\" neural ..."
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "total_chunks": 24,
+      "ai_chunks": 1,
+      "prevalence": 0.0417,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 5,
+          "ai_chunks": 1,
+          "mentions": 2
+        }
+      },
+      "terms": {
+        "artificial intelligence": 1,
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "process_logistics",
+          "chunk_id": "fc4670e28b4e898b",
+          "terms": [
+            "artificial intelligence",
+            "machine learning"
+          ],
+          "text": "Take an “Introduction to CS” course Focus on basic coding instructions. Online resources: Introduction to Computer Science, Udacity Learn to code in (at least) one object-oriented programming language (C++, Java®, Python®) Learn how to catch bugs, create tests, and break your software. Online resour"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "total_chunks": 42,
+      "ai_chunks": 1,
+      "prevalence": 0.0238,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 11,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 20,
+          "ai_chunks": 1,
+          "mentions": 2
+        },
+        "process_logistics": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 2
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "c080adbc3e7c9a6f",
+          "terms": [
+            "AI"
+          ],
+          "text": "Google launched a Supplier Diversity Program in late 2014, and since then we’ve spent over $1B 9 with minority-, women-, Veteran-, disabled- and LGBTQ-owned businesses. These businesses help Google run day-to-day, supplying everything from hardware to food, marketing services to technology, and much"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "total_chunks": 76,
+      "ai_chunks": 5,
+      "prevalence": 0.0658,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 54,
+          "ai_chunks": 5,
+          "mentions": 9
+        },
+        "process_logistics": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 4,
+        "artificial intelligence": 3,
+        "ML": 1,
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "7d199e9e4f958e32",
+          "terms": [
+            "ML",
+            "machine learning"
+          ],
+          "text": "Bringing product inclusion to life Senior Vice President Hiroshi Lockheimer leads the team responsible for some of Google’s largest platforms used by billions of people every day—including Android, Chrome, Google Play, and Photos. Hiroshi’s team has started to build Product Inclusion guidelines into"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "11ecb192db2cd881",
+          "terms": [
+            "artificial intelligence"
+          ],
+          "text": "Google Assistant Google Assistant is an artificial intelligence-enabled voice search interface. Launched in 2016, it’s now available on more than one billion devices in nearly 30 languages and 80 countries. “The exciting thing about working on the Assistant is that it’s a brave new world; we have th"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "81f3f04bff5dc9f8",
+          "terms": [
+            "artificial intelligence"
+          ],
+          "text": "The tech industry cannot meaningfully increase the diversity of its workforce simply by hiring each other’s talent. That’s what often happens, but it doesn’t grow the pool of underrepresented talent. That’s why we continue to make long-term investments in education, so that we increase pathways to t"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total_chunks": 63,
+      "ai_chunks": 5,
+      "prevalence": 0.0794,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 42,
+          "ai_chunks": 5,
+          "mentions": 8
+        },
+        "process_logistics": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 3,
+        "artificial intelligence": 3,
+        "ML": 1,
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "9292fa9ad3e7ac28",
+          "terms": [
+            "AI"
+          ],
+          "text": "As Google continues to grow, we have a responsibility to scale our diversity, equity, and inclusion initiatives to increase pathways to tech in the communities we call home. Here’s how we’re approaching that work. We are building a robust, diverse talent pool to support our industry’s growth. By pro"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "d47a79ae79702217",
+          "terms": [
+            "ML",
+            "machine learning"
+          ],
+          "text": "Bringing product inclusion to life Senior Vice President Hiroshi Lockheimer leads the team responsible for some of Google’s largest platforms used by billions of people every day—including Android, Chrome, Google Play, and Photos. Hiroshi’s team has started to build Product Inclusion guidelines into"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "c1e4f5d7714e26ae",
+          "terms": [
+            "artificial intelligence"
+          ],
+          "text": "Google Assistant Google Assistant is an artificial intelligence-enabled voice search interface. Launched in 2016, it’s now available on more than one billion devices in nearly 30 languages and 80 countries. “The exciting thing about working on the Assistant is that it’s a brave new world; we have th"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "total_chunks": 25,
+      "ai_chunks": 1,
+      "prevalence": 0.04,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 15,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "process_logistics": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "15d3a52e1a55e63f",
+          "terms": [
+            "AI"
+          ],
+          "text": "As Google continues to grow, we have a responsibility to scale our diversity, equity, and inclusion initiatives to increase pathways to tech in the communities we call home. Here’s how we’re approaching that work. We are building a robust, diverse talent pool to support our industry’s growth. By pro"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total_chunks": 45,
+      "ai_chunks": 2,
+      "prevalence": 0.0444,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 34,
+          "ai_chunks": 2,
+          "mentions": 2
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1,
+        "artificial intelligence": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "16f2a221c1e2645d",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Nearly all forms of online violence disproportionately affect vulnerable groups like women and others who are marginalized due to their gender. As part of its mission to address threats to open societies, Jigsaw (a team within Google) is working toward globally scalable solutions to the issue of onl"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "e3c516099753be4e",
+          "terms": [
+            "artificial intelligence"
+          ],
+          "text": "Suicide disproportionately affects LGBTQ+ youth. To support youth in crisis, The Trevor Project offers free, confidential, 24/7 crisis services via phone, chat, and text. Since 2019, Google.org has provided the Trevor Project with $2.7 million in funding and 20,000 hours of pro bono support from alm"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total_chunks": 35,
+      "ai_chunks": 3,
+      "prevalence": 0.0857,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "job_listing": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 27,
+          "ai_chunks": 2,
+          "mentions": 2
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 1,
+        "machine learning": 1,
+        "artificial intelligence": 1
+      },
+      "examples": [
+        {
+          "label": "employee_story",
+          "chunk_id": "b147a25adc26212a",
+          "terms": [
+            "AI"
+          ],
+          "text": "Unmute Mute Play audio and video Play video (audio currently muted) Pause Tulsee Doshi (she/her) Head of Product - Responsible AI, Google Read the transcript (Opens in a Dialog Window) Close dialog window “I am a young woman of color in tech. I’m also a dancer. I’m also, you know, a daughter of immi"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "c469dda3c7911c8d",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Nearly all forms of online violence disproportionately affect vulnerable groups like women and others who are marginalized due to their gender. As part of its mission to address threats to open societies, Jigsaw (a team within Google) is working toward globally scalable solutions to the issue of onl"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "a2a8a1064cbd1107",
+          "terms": [
+            "artificial intelligence"
+          ],
+          "text": "Suicide disproportionately affects LGBTQ+ youth. To support youth in crisis, The Trevor Project offers free, confidential, 24/7 crisis services via phone, chat, and text. Since 2019, Google.org has provided the Trevor Project with $2.7 million in funding and 20,000 hours of pro bono support from alm"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total_chunks": 33,
+      "ai_chunks": 7,
+      "prevalence": 0.2121,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 2,
+          "mentions": 5
+        },
+        "job_listing": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 23,
+          "ai_chunks": 3,
+          "mentions": 4
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 2,
+          "mentions": 4
+        }
+      },
+      "terms": {
+        "AI": 6,
+        "artificial intelligence": 4,
+        "machine learning": 3
+      },
+      "examples": [
+        {
+          "label": "employee_story",
+          "chunk_id": "ea633e245b53ac21",
+          "terms": [
+            "AI"
+          ],
+          "text": "Unmute Mute Play audio and video Play video (audio currently muted) Pause Tulsee Doshi (she/her) Head of Product - Responsible AI, Google Read the transcript (Opens in a Dialog Window) Close dialog window “I am a young woman of color in tech. I’m also a dancer. I’m also, you know, a daughter of immi"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "a93b3d048ba137ce",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Nearly all forms of online violence disproportionately affect vulnerable groups like women and others who are marginalized due to their gender. As part of its mission to address threats to open societies, Jigsaw (a team within Google) is working toward globally scalable solutions to the issue of onl"
+        },
+        {
+          "label": "employee_story",
+          "chunk_id": "d5bb6c50598fac64",
+          "terms": [
+            "AI"
+          ],
+          "text": "We are at a pivotal moment for AI and society – to get it right we must ensure that everyone’s voices are part of shaping how we approach AI and that everyone has the opportunity to share in the benefits. Link copied to clipboard JAMES MANYIKA (HE/HIM) SVP, RESEARCH, TECHNOLOGY AND SOCIETY, GOOGLE W"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total_chunks": 63,
+      "ai_chunks": 15,
+      "prevalence": 0.2381,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 6,
+          "ai_chunks": 3,
+          "mentions": 6
+        },
+        "job_listing": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 46,
+          "ai_chunks": 11,
+          "mentions": 21
+        },
+        "process_logistics": {
+          "chunks": 5,
+          "ai_chunks": 1,
+          "mentions": 2
+        }
+      },
+      "terms": {
+        "AI": 19,
+        "machine learning": 5,
+        "artificial intelligence": 4,
+        "generative ai": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "88fad3df553068f8",
+          "terms": [
+            "AI",
+            "machine learning"
+          ],
+          "text": "We're committed to creating tools that make it easier for everyone to accomplish important everyday tasks - like having conversations, getting work done, and enjoying entertainment. Here are some examples across Android and Pixel: Guided Frame , a Pixel accessibility feature that helps people with b"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "5b773f44239232de",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "We’re committed to making sure people with disabilities can use Android and Pixel phones as easily and effectively as possible. Working together with the disability community, we’ve added accessibility features like: Conversation mode for Pixel phones, which uses on-device machine learning to help a"
+        },
+        {
+          "label": "employee_story",
+          "chunk_id": "d1944d6fc0978a05",
+          "terms": [
+            "AI"
+          ],
+          "text": "Unmute Mute Play audio and video Play video (audio currently muted) Pause SATORU ARAO (HE/HIM) PRODUCT SUPPORT MANAGER Tokyo, Japan Read the transcript (Opens in a Dialog Window) Close dialog window “Even though our office is in Tokyo, we have so many people from so many different countries, so many"
+        }
+      ]
+    }
+  ]
+}

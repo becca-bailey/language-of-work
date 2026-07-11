@@ -28,7 +28,7 @@
 
 ## 2018
 - affirming_dei: 20
-- neutral: 31
+- neutral: 30
 
 ## 2019
 - affirming_dei: 1
@@ -37,7 +37,7 @@
 
 ## 2020
 - affirming_dei: 1
-- neutral: 16
+- neutral: 15
 - performance_elite: 1
 
 ## 2021
