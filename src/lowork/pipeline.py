@@ -39,7 +39,7 @@ GLOBAL_KEY = "*"  # state/company key for global stages
 # semantic control for altruism); all have built vectors in axes/built/.
 FINGERPRINT_AXES = [
     "altruism", "control", "performance", "meritocracy", "wellbeing",
-    "inclusion", "techno_optimism", "wellbeing_locus",
+    "inclusion", "techno_optimism", "wellbeing_locus", "craft",
 ]
 
 
@@ -166,6 +166,19 @@ STAGES: list[Stage] = [
           inputs=("embeddings.parquet", "classifications.json"),
           outputs=("performance_phrases.json",), depends=("embed_chunks",)),
 
+    # --- ai (mention tracker is pure regex; the framing axis scores only
+    # gated chunks and embeds them itself cache-first, so neither needs
+    # embeddings.parquet) ---
+    Stage("track_ai_mentions", lambda c: _call("track_ai_mentions", c),
+          Scope.PER_COMPANY, ("ai",),
+          inputs=("chunks", "classifications.json"), outputs=("ai_mentions.json",),
+          depends=("classify_chunks",)),
+    Stage("score_ai_language", lambda c: _call("score_ai_language", c),
+          Scope.PER_COMPANY, ("ai",),
+          inputs=("chunks", "classifications.json", *_axis_inputs("ai_tool_mandate")),
+          outputs=("ai_language_scores.parquet", "ai_evidence.json"),
+          depends=("classify_chunks",)),
+
     # --- per-company web exports ---
     Stage("export_web", lambda c: _call("export_web", c), Scope.PER_COMPANY, ("altruism",),
           inputs=("axis_scores.parquet", "altruism_split.parquet"),
@@ -176,6 +189,10 @@ STAGES: list[Stage] = [
           inputs=("dei_scores.parquet",),
           outputs=("repo:astro/src/data/{co}/dei.json", "repo:astro/src/data/companies.json"),
           depends=("score_dei",)),
+    Stage("export_ai_web", lambda c: _call("export_ai_web", c), Scope.PER_COMPANY, ("ai",),
+          inputs=("ai_mentions.json", "ai_language_scores.parquet"),
+          outputs=("repo:astro/src/data/{co}/ai.json",),
+          depends=("track_ai_mentions", "score_ai_language")),
 
     # --- per-company AI narrative (reads the whole export dir generically) ---
     # Hashing the entire {co} export dir means any facet added later flows into
@@ -225,6 +242,13 @@ STAGES: list[Stage] = [
           inputs=("axis_scores.parquet",),
           outputs=("repo:astro/src/data/stories/wellbeing.json",),
           depends=("score_axes",)),
+    # AI is a story axis like wellbeing (dataset exported cross-company, no MDX
+    # story page yet).
+    Stage("export_story_ai", lambda comps: _call("export_ai_web", None, True),
+          Scope.GLOBAL, ("ai",),
+          inputs=("ai_mentions.json", "ai_language_scores.parquet"),
+          outputs=("repo:astro/src/data/stories/ai.json",),
+          depends=("track_ai_mentions", "score_ai_language")),
     Stage("export_story_performance",
           lambda comps: _call("export_story_web", "performance", comps), Scope.GLOBAL,
           ("performance",), inputs=("performance_scores.parquet", "performance_phrases.json"),

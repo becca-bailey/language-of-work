@@ -1,0 +1,46 @@
+# Craft axis: craft/quality <-> iteration/shipping rhetoric.
+#
+# Not "do we value quality" (nobody says no) but which virtue the copy leads with:
+# pole_a = the artifact is the point — detail, durability, patience, standards.
+# pole_b = the learning loop is the point — release early, let usage correct course,
+# roughness reframed as method. Both poles are positive self-presentations; the axis
+# measures which attractor the language sits nearer.
+#
+# SEPARATION DISCIPLINE (vs the `performance` axis): pole_b is deliberately written
+# WITHOUT intensity vocabulary — no "hustle", "move fast", "crush it", "winning",
+# "hardcore". Tempo-as-method is not intensity-as-culture; a calm company can ship
+# continuously. validate.py runs a craft-vs-performance correlation check; if |r| is
+# high the axis is re-measuring intensity and must be redesigned (fallback:
+# single-pole craft presence, like performance.yaml).
+#
+# Circularity discipline: no verbatim "move fast and break things" or "done is better
+# than perfect" (both literal Facebook wall posters; Meta is in the universe), no
+# "bias for action" (Amazon LP), no "launch and iterate" (Google-coded). build_axes
+# sweeps every company in pipeline.yaml; adjudicate any flag before scoring.
+#
+# Anchors for M6 review: Basecamp -> craft pole, early-2010s Meta -> iteration pole,
+# Stripe -> mid/high craft (Stripe is high-craft AND high-intensity; if Stripe scores
+# LOW craft, the axis is broken).
+name: craft
+pole_a:
+  label: craft
+  sentences:
+    - "We take the time to get the details right, even when no one would notice."
+    - "We build things meant to still work beautifully in ten years."
+    - "Every part of the product reflects the care of the person who made it."
+    - "We'd rather do fewer things at an exceptional standard than many things adequately."
+    - "Quality is never traded away to hit a date."
+    - "Polish is a form of respect for the user, so we sweat the details."
+    - "Durability matters here: we design and build for the long run."
+    - "Craftsmanship guides everything we make, from the first sketch to the final release."
+pole_b:
+  label: iteration
+  sentences:
+    - "We release small changes continuously and let real usage tell us what to fix."
+    - "A shipped experiment teaches us more than a month of planning."
+    - "Our first version is never our best version — that's by design."
+    - "We treat every launch as a draft we will keep improving."
+    - "We'd rather put something rough in front of users today than something polished next quarter."
+    - "Learning quickly matters more to us than getting it right the first time."
+    - "We iterate in public, shipping improvements every week instead of saving them for a big release."
+    - "Perfect is a moving target, so we optimize for feedback loops instead."

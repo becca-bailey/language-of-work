@@ -26,6 +26,7 @@ AXIS_LABELS = {
     "wellbeing": "Wellbeing & balance",
     "inclusion": "Inclusion & belonging",
     "techno_optimism": "Techno-optimism",
+    "craft": "Craft vs iteration",
 }
 
 

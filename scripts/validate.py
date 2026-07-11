@@ -167,6 +167,41 @@ def perturbation_check(company: str) -> dict:
             "mean_spearman": round(sum(rhos) / len(rhos), 3), "robust": min(rhos) >= 0.8}
 
 
+AXIS_SEPARATION_PAIRS = [("craft", "performance")]
+
+
+def axis_separation_check(company: str) -> list[dict]:
+    """Verify paired axes measure distinct concepts, not the same one twice.
+
+    Year-aggregated topk means co-move with composition (values talk waxes and
+    wanes together across a page's life), so this operates below aggregation:
+    cosine between the built axis vectors, and Pearson over per-chunk
+    projections. High chunk-level r in a single company can still be topical
+    (e.g. Basecamp's work-philosophy chunks score up on every work-culture
+    axis); the vector cosine is the concept-level verdict.
+    """
+    df = pd.read_parquet(company_dir(company) / "embeddings.parquet")
+    mission = df[df["label"] == "mission_brand"]
+    embeddings = np.stack(mission["embedding"].tolist())
+    out = []
+    for a, b in AXIS_SEPARATION_PAIRS:
+        paths = [AXES_DIR / "built" / f"{n}.json" for n in (a, b)]
+        if not all(p.exists() for p in paths):
+            continue
+        va, vb = (np.asarray(read_json(p)["vector"]) for p in paths)
+        cos = float(va @ vb)
+        r, p_val = pearsonr(project(embeddings, va), project(embeddings, vb))
+        out.append({
+            "axes": [a, b],
+            "vector_cosine": round(cos, 3),
+            "chunk_r": round(float(r), 3),
+            "chunk_p": round(float(p_val), 3),
+            "n_chunks": len(mission),
+            "separated": bool(abs(cos) < 0.5 and abs(r) < 0.6),
+        })
+    return out
+
+
 def _peak_line(gt: dict) -> str:
     peak = gt["altruism_peak_year"]
     if gt.get("expected_peak") is not None:
@@ -215,8 +250,18 @@ def write_report(cdir, results: dict, profile: CompanyProfile) -> None:
         f"({'PASS' if pert['robust'] else 'FRAGILE'})",
         f"- Mean: {pert['mean_spearman']}", "",
     ]
+    sep = results.get("axis_separation", [])
+    if sep:
+        lines += ["## 4. Axis separation", ""]
+        for s in sep:
+            verdict = "PASS" if s["separated"] else "OVERLAP: INVESTIGATE"
+            lines.append(
+                f"- {s['axes'][0]} vs {s['axes'][1]}: vector cosine {s['vector_cosine']}, "
+                f"chunk-level r={s['chunk_r']} (n={s['n_chunks']}) — {verdict}"
+            )
+        lines.append("")
     if profile.validation and profile.validation.notes:
-        lines += ["## 4. Data expansion notes", ""]
+        lines += ["## 5. Data expansion notes", ""]
         lines += [f"- {note}" for note in profile.validation.notes]
         lines += ["", "Disagreements are case studies, not silent overrides.", ""]
     else:
@@ -252,6 +297,11 @@ def main(company: str, n_pairs: int, seed: int, skip_tournament: bool) -> None:
     print("Perturbation check...")
     results["perturbation"] = perturbation_check(company)
     print(f"Min Spearman: {results['perturbation']['min_spearman']}")
+
+    results["axis_separation"] = axis_separation_check(company)
+    for s in results["axis_separation"]:
+        print(f"Axis separation {s['axes']}: cosine {s['vector_cosine']}, "
+              f"chunk r={s['chunk_r']} -> {'PASS' if s['separated'] else 'OVERLAP'}")
 
     write_json(cdir / "validation.json", results)
     write_report(cdir, results, profile)

@@ -1,0 +1,47 @@
+# AI framing axis: AI-as-tool <-> AI-as-mandate rhetoric.
+#
+# Scored ONLY on AI-mentioning chunks (regex gate in score_ai_language.py), NOT in
+# FINGERPRINT_AXES — over the whole corpus it would be noise, since pre-2022 chunks
+# barely mention AI at all. By construction this axis has roughly four years of
+# real signal (2022+); exports carry thin-flags and the caveat travels with the data.
+#
+# pole_a = AI as a capability handed to the worker: assistance, choice, augmentation,
+# the worker keeps the judgment. pole_b = AI as a condition of employment: fluency as
+# baseline, AI-before-headcount, workflows and evaluation rebuilt around it. The
+# counterforces reading: pole_b is management-side language rising exactly as
+# worker-side language (care, DEI, idealism) recedes.
+#
+# Vocabulary discipline: no "craft"/"quality" words here (that's the craft axis), and
+# both poles stay pole-pure — tool sentences don't mention replacement, mandate
+# sentences don't reassure. Tool-pole sentences are WORKER-directed ("you'll have",
+# "your workflow"), never product-building voice ("we build AI systems that...") —
+# we-make-AI-products copy (Nvidia, Salesforce) should sit neutral, not score as
+# tool framing. Most LLM-generated candidates failed this test; curated 2026-07-10.
+#
+# Circularity discipline: no verbatim lifts from the Shopify 2025 memo ("demonstrate
+# why they cannot get what they want done using AI") — Shopify is in the universe.
+# Same for Salesforce "digital labor"/Agentforce phrasing. build_axes sweeps every
+# company in pipeline.yaml; adjudicate any flag before scoring.
+name: ai_tool_mandate
+pole_a:
+  label: ai_as_tool
+  sentences:
+    - "AI handles the repetitive parts of the job here, freeing your attention for decisions that need a human."
+    - "We equip every team with AI assistants that amplify what they can build."
+    - "AI here is a collaborator in your toolkit, with you making the calls."
+    - "Our AI tools handle the busywork so you have more time for the interesting parts of the job."
+    - "We give you access to the best AI models and let you decide how they fit your workflow."
+    - "We deploy AI to augment the capabilities of every team member."
+    - "You decide when and how AI supports your work; the judgment stays yours."
+    - "Think of AI as a power tool we provide — training included, usage up to you."
+pole_b:
+  label: ai_as_mandate
+  sentences:
+    - "Fluency with AI tools is a baseline expectation for every role here."
+    - "Before we open a new position, we ask whether AI can deliver the outcome instead."
+    - "Using AI effectively is part of how performance is evaluated in every function."
+    - "We expect every employee to make AI their default way of getting work done."
+    - "We are an AI-first company, and every role is expected to work that way from day one."
+    - "Asking for more headcount means first showing that AI couldn't do the job."
+    - "We hire people who treat AI as the first tool they reach for, every time."
+    - "Every workflow is expected to be rebuilt around AI, and every role is measured against that standard."
