@@ -12,6 +12,7 @@ import argparse
 from collections import defaultdict
 
 from lowork.chunking import chunk_html, coverage_stats, dedup_chunks
+from lowork.langgate import is_english
 from lowork.config import company_dir
 from lowork.io import read_json, write_json, write_jsonl
 
@@ -66,11 +67,17 @@ def main(company: str) -> None:
 
     chunks_dir = cdir / "chunks"
     total = 0
+    non_english_total = 0
     for year, chunks in sorted(by_year.items()):
-        unique = dedup_chunks(chunks)
+        kept = [c for c in chunks if is_english(c["text"])]
+        non_english = len(chunks) - len(kept)
+        non_english_total += non_english
+        unique = dedup_chunks(kept)
         total += write_jsonl(chunks_dir / f"{year}.jsonl", unique)
-        dropped = len(chunks) - len(unique)
+        dropped = len(kept) - len(unique)
         note = f" ({dropped} near-dups dropped)" if dropped else ""
+        if non_english:
+            note += f" ({non_english} non-English dropped)"
         print(f"{year}: {len(unique)} unique chunks{note}")
 
     write_json(cdir / "snapshots.json", manifest)

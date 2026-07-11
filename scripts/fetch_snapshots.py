@@ -11,6 +11,7 @@ Subcommands:
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from collections import Counter
 
@@ -196,12 +197,38 @@ def cmd_fetch(company: str, per_year: int) -> None:
         # Select per-pattern-per-year so content-bearing subpaths each get their
         # own quota instead of being crowded out by the high-volume root page.
         # Dedup by digest across patterns so identical content isn't re-fetched.
+        # Optional per-pattern min_year/max_year bound the selection window —
+        # for domains whose early captures predate the company (e.g. uber.com
+        # before Uber acquired it), era_hint alone is documentation. Optional
+        # exclude_url regex drops captures by URL — for locale subpaths under a
+        # shared host (e.g. apple.com/careers/de/), which CDX prefix matching
+        # cannot express as an include-list.
+        bounds = {
+            p["url"]: (p.get("min_year"), p.get("max_year"))
+            for p in cfg["patterns"]
+        }
+        excludes = {
+            p["url"]: re.compile(p["exclude_url"])
+            for p in cfg["patterns"] if p.get("exclude_url")
+        }
         seen_digests: set[str] = set()
         selected: dict[int, list[Capture]] = {}
         for url, caps in results.items():
             if signals.get(url, {}).get("shell"):
                 print(f"  skip shell pattern {url}")
                 continue
+            lo, hi = bounds.get(url, (None, None))
+            if lo or hi:
+                before = len(caps)
+                caps = [c for c in caps
+                        if (lo is None or c.year >= lo) and (hi is None or c.year <= hi)]
+                if len(caps) != before:
+                    print(f"  {url}: year bounds dropped {before - len(caps)} captures")
+            if url in excludes:
+                before = len(caps)
+                caps = [c for c in caps if not excludes[url].search(c.original)]
+                if len(caps) != before:
+                    print(f"  {url}: exclude_url dropped {before - len(caps)} captures")
             unique, _ = dedup_by_digest(caps)
             unique = [c for c in unique if c.digest not in seen_digests]
             for year, chosen in select_per_year(unique, per_year=per_year).items():

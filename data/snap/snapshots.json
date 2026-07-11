@@ -17,7 +17,8 @@
         "trafilatura_words": 0,
         "dom_to_trafilatura_ratio": null
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/robots.txt",
@@ -35,7 +36,8 @@
         "trafilatura_words": 161,
         "dom_to_trafilatura_ratio": 1.07
       },
-      "thin": false
+      "thin": false,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/",
@@ -71,25 +73,8 @@
         "trafilatura_words": 161,
         "dom_to_trafilatura_ratio": 1.07
       },
-      "thin": false
-    },
-    {
-      "urlkey": "com,snap,careers)/static/assets/scripts/analytics.js",
-      "timestamp": "20181002230117",
-      "original": "https://careers.snap.com/static/assets/scripts/analytics.js",
-      "mimetype": "application/javascript",
-      "statuscode": "200",
-      "digest": "LMZASV2M32THL4AABCINCLJP6E4XROTY",
-      "length": 1120,
-      "html_file": "20181002230117_8f5839a9550c.html",
-      "source": "pattern_fetch",
-      "coverage": {
-        "chunk_count": 0,
-        "dom_words": 0,
-        "trafilatura_words": 0,
-        "dom_to_trafilatura_ratio": null
-      },
-      "thin": true
+      "thin": false,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/robots.txt",
@@ -107,7 +92,8 @@
         "trafilatura_words": 161,
         "dom_to_trafilatura_ratio": 1.07
       },
-      "thin": false
+      "thin": false,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/static/assets/icons/play-icon.svg",
@@ -125,7 +111,8 @@
         "trafilatura_words": 0,
         "dom_to_trafilatura_ratio": null
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/",
@@ -161,7 +148,8 @@
         "trafilatura_words": 153,
         "dom_to_trafilatura_ratio": 2.14
       },
-      "thin": false
+      "thin": false,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/robots.txt",
@@ -179,7 +167,8 @@
         "trafilatura_words": 153,
         "dom_to_trafilatura_ratio": 2.14
       },
-      "thin": false
+      "thin": false,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/",
@@ -215,7 +204,8 @@
         "trafilatura_words": 0,
         "dom_to_trafilatura_ratio": null
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/static/assets/images/snap-a-wish.jpg",
@@ -233,7 +223,8 @@
         "trafilatura_words": 0,
         "dom_to_trafilatura_ratio": null
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/diversity",
@@ -288,42 +279,6 @@
         "dom_to_trafilatura_ratio": 0.47
       },
       "thin": true
-    },
-    {
-      "urlkey": "com,snap,careers)/static/js/app.bundle.js",
-      "timestamp": "20211008083802",
-      "original": "https://careers.snap.com/static/js/app.bundle.js",
-      "mimetype": "application/javascript",
-      "statuscode": "200",
-      "digest": "S6VZENIWQW3HUD6N33LAGV4QG5OZJQKD",
-      "length": 134826,
-      "html_file": "20211008083802_658c986acbff.html",
-      "source": "pattern_fetch",
-      "coverage": {
-        "chunk_count": 0,
-        "dom_words": 0,
-        "trafilatura_words": 0,
-        "dom_to_trafilatura_ratio": null
-      },
-      "thin": true
-    },
-    {
-      "urlkey": "com,snap,careers)/static/js/app.bundle.js",
-      "timestamp": "20220202032521",
-      "original": "https://careers.snap.com/static/js/app.bundle.js",
-      "mimetype": "application/javascript",
-      "statuscode": "200",
-      "digest": "JTWQY6HDAFE6E7HHW2ISBOJNNHJYKEVQ",
-      "length": 487319,
-      "html_file": "20220202032521_658c986acbff.html",
-      "source": "pattern_fetch",
-      "coverage": {
-        "chunk_count": 1,
-        "dom_words": 898,
-        "trafilatura_words": 0,
-        "dom_to_trafilatura_ratio": null
-      },
-      "thin": false
     },
     {
       "urlkey": "com,snap,careers)/",
@@ -506,24 +461,6 @@
       "thin": true
     },
     {
-      "urlkey": "com,snap,careers)/mwp/main-l2ulwhbs.js",
-      "timestamp": "20241001003546",
-      "original": "https://careers.snap.com/mwp/main-L2ULWHBS.js",
-      "mimetype": "application/javascript",
-      "statuscode": "200",
-      "digest": "VSSQDO7I2QQVMGCKS6XWP5KPQEPAONHG",
-      "length": 730108,
-      "html_file": "20241001003546_6e37a3ee6029.html",
-      "source": "pattern_fetch",
-      "coverage": {
-        "chunk_count": 0,
-        "dom_words": 0,
-        "trafilatura_words": 0,
-        "dom_to_trafilatura_ratio": null
-      },
-      "thin": true
-    },
-    {
       "urlkey": "com,snap,careers)/diversity",
       "timestamp": "20250201152931",
       "original": "https://careers.snap.com/diversity",
@@ -556,24 +493,6 @@
         "dom_words": 520,
         "trafilatura_words": 451,
         "dom_to_trafilatura_ratio": 1.15
-      },
-      "thin": false
-    },
-    {
-      "urlkey": "com,snap,careers)/?lang=nl-nl&utm_campaign=universal_navigation&utm_content=footer_item_link&utm_medium=referral&utm_source=creators_snapchat_com",
-      "timestamp": "20250802193413",
-      "original": "https://careers.snap.com/?utm_source=creators_snapchat_com&utm_medium=referral&utm_campaign=universal_navigation&utm_content=footer_item_link&lang=nl-NL",
-      "mimetype": "text/html",
-      "statuscode": "200",
-      "digest": "IRKXGLWV7NFOS62RUAFBJMJPYRYNU62X",
-      "length": 41737,
-      "html_file": "20250802193413_c2f6a2c6f01e.html",
-      "source": "pattern_fetch",
-      "coverage": {
-        "chunk_count": 6,
-        "dom_words": 530,
-        "trafilatura_words": 449,
-        "dom_to_trafilatura_ratio": 1.18
       },
       "thin": false
     },
@@ -629,7 +548,8 @@
         "trafilatura_words": 0,
         "dom_to_trafilatura_ratio": null
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/",
@@ -683,7 +603,8 @@
         "trafilatura_words": 161,
         "dom_to_trafilatura_ratio": 1.07
       },
-      "thin": false
+      "thin": false,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/diversity",
@@ -719,7 +640,8 @@
         "trafilatura_words": 1633,
         "dom_to_trafilatura_ratio": 0.0
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/",
@@ -758,42 +680,6 @@
       "thin": true
     },
     {
-      "urlkey": "com,snap,careers)/es?lang=es&utm_campaign=universal_navigation&utm_content=footer_item_link&utm_medium=referral&utm_source=forbusiness_snapchat_com",
-      "timestamp": "20240604074034",
-      "original": "https://careers.snap.com/es?utm_source=forbusiness_snapchat_com&utm_medium=referral&utm_campaign=universal_navigation&utm_content=footer_item_link&lang=es",
-      "mimetype": "text/html",
-      "statuscode": "200",
-      "digest": "3CQFBJ62RX6O4LEHXATPJKLNUUGNPLBD",
-      "length": 32738,
-      "html_file": "20240604074034_b30aa4aaf7df.html",
-      "source": "pattern_fetch",
-      "coverage": {
-        "chunk_count": 2,
-        "dom_words": 387,
-        "trafilatura_words": 186,
-        "dom_to_trafilatura_ratio": 2.08
-      },
-      "thin": false
-    },
-    {
-      "urlkey": "com,snap,careers)/?lang=ar&utm_campaign=universal_navigation&utm_content=footer_item_link&utm_medium=referral&utm_source=creators_snapchat_com",
-      "timestamp": "20250602191825",
-      "original": "https://careers.snap.com/?utm_source=creators_snapchat_com&utm_medium=referral&utm_campaign=universal_navigation&utm_content=footer_item_link&lang=ar",
-      "mimetype": "text/html",
-      "statuscode": "200",
-      "digest": "MUMVVUR53J5KKKFUSJS4VUOMVL3TAKEL",
-      "length": 42239,
-      "html_file": "20250602191825_77b4380c6472.html",
-      "source": "pattern_fetch",
-      "coverage": {
-        "chunk_count": 6,
-        "dom_words": 484,
-        "trafilatura_words": 409,
-        "dom_to_trafilatura_ratio": 1.18
-      },
-      "thin": false
-    },
-    {
       "urlkey": "com,snap,careers)/static/assets/images/smart.jpg",
       "timestamp": "20181002232704",
       "original": "https://careers.snap.com/static/assets/images/smart.jpg",
@@ -809,25 +695,8 @@
         "trafilatura_words": 0,
         "dom_to_trafilatura_ratio": null
       },
-      "thin": true
-    },
-    {
-      "urlkey": "com,snap,careers)/static/js/app.dll.libs.js",
-      "timestamp": "20181003000233",
-      "original": "https://careers.snap.com/static/js/app.dll.libs.js",
-      "mimetype": "application/javascript",
-      "statuscode": "200",
-      "digest": "VBJC6OWEVFCH5FHPJTYT5WCL6TSQLKQM",
-      "length": 76414,
-      "html_file": "20181003000233_cf179e75abbb.html",
-      "source": "pattern_fetch",
-      "coverage": {
-        "chunk_count": 0,
-        "dom_words": 0,
-        "trafilatura_words": 0,
-        "dom_to_trafilatura_ratio": null
-      },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/static/assets/images/creative.jpg",
@@ -845,7 +714,8 @@
         "trafilatura_words": 0,
         "dom_to_trafilatura_ratio": null
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/static/assets/images/img-header.jpg",
@@ -863,7 +733,8 @@
         "trafilatura_words": 0,
         "dom_to_trafilatura_ratio": null
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/robots.txt",
@@ -881,7 +752,8 @@
         "trafilatura_words": 161,
         "dom_to_trafilatura_ratio": 1.07
       },
-      "thin": false
+      "thin": false,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/static/assets/images/404_chillah.png",
@@ -899,7 +771,8 @@
         "trafilatura_words": 0,
         "dom_to_trafilatura_ratio": null
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/",
@@ -953,7 +826,8 @@
         "trafilatura_words": 153,
         "dom_to_trafilatura_ratio": 2.14
       },
-      "thin": false
+      "thin": false,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/?utm_campaign=snap%20eng&utm_medium=cta&utm_source=post",
@@ -992,24 +866,6 @@
       "thin": false
     },
     {
-      "urlkey": "com,snap,careers)/static/js/app.bundle.js",
-      "timestamp": "20201113005227",
-      "original": "https://careers.snap.com/static/js/app.bundle.js",
-      "mimetype": "application/javascript",
-      "statuscode": "200",
-      "digest": "UHOPLBFN66GLWYRFGHNFR5SH2VIP77MC",
-      "length": 137959,
-      "html_file": "20201113005227_658c986acbff.html",
-      "source": "pattern_fetch",
-      "coverage": {
-        "chunk_count": 0,
-        "dom_words": 0,
-        "trafilatura_words": 0,
-        "dom_to_trafilatura_ratio": null
-      },
-      "thin": true
-    },
-    {
       "urlkey": "com,snap,careers)/robots.txt",
       "timestamp": "20210102005244",
       "original": "https://careers.snap.com/robots.txt",
@@ -1025,7 +881,8 @@
         "trafilatura_words": 153,
         "dom_to_trafilatura_ratio": 2.17
       },
-      "thin": false
+      "thin": false,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/robots.txt",
@@ -1043,7 +900,8 @@
         "trafilatura_words": 153,
         "dom_to_trafilatura_ratio": 2.17
       },
-      "thin": false
+      "thin": false,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/static/assets/videos/snap-family/snap-family.jpg",
@@ -1061,7 +919,8 @@
         "trafilatura_words": 4865,
         "dom_to_trafilatura_ratio": 0.0
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/diversity",
@@ -1151,7 +1010,8 @@
         "trafilatura_words": 0,
         "dom_to_trafilatura_ratio": null
       },
-      "thin": true
+      "thin": true,
+      "skipped_nonprose": true
     },
     {
       "urlkey": "com,snap,careers)/",
@@ -1312,24 +1172,6 @@
         "dom_words": 452,
         "trafilatura_words": 92,
         "dom_to_trafilatura_ratio": 4.91
-      },
-      "thin": false
-    },
-    {
-      "urlkey": "com,snap,careers)/benefits?lang=vi-vn",
-      "timestamp": "20250501000232",
-      "original": "https://careers.snap.com/benefits?lang=vi-VN",
-      "mimetype": "text/html",
-      "statuscode": "200",
-      "digest": "FQGDO3LMPW56AGOTPBORU7U6GLRA72WC",
-      "length": 44372,
-      "html_file": "20250501000232_e112eae10e64.html",
-      "source": "pattern_fetch",
-      "coverage": {
-        "chunk_count": 2,
-        "dom_words": 303,
-        "trafilatura_words": 353,
-        "dom_to_trafilatura_ratio": 0.86
       },
       "thin": false
     },

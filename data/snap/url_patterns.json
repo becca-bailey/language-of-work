@@ -3,9 +3,11 @@
   "display_name": "Snap",
   "comment": "Careers pages for the Netflix performance-culture propagation study.",
   "hosts": ["careers.snap.com", "snap.com", "www.snap.com"],
+  "comment_language": "English-only guard (2026-07-10): careers.snap.com serves locales as BOTH query params (?lang=vi-VN, also buried after utm params) and path segments (/es); .js bundles also slipped in as captures. exclude_url drops all three; 10 matching captures were surgically removed from snapshots.json the same day (manual_html captures untouched).",
   "patterns": [
     {"url": "careers.snap.com/", "match_type": "exact", "era_hint": "2018-2026"},
     {"url": "snap.com/jobs", "match_type": "exact", "era_hint": "2016-2020"},
-    {"url": "careers.snap.com/", "match_type": "prefix", "era_hint": "2018-2026"}
+    {"url": "careers.snap.com/", "match_type": "prefix", "era_hint": "2018-2026",
+     "exclude_url": "([?&]lang=(?!en))|(careers\\.snap\\.com/(?!en([/?]|$))[a-z]{2}(-[A-Z]{2})?([/?]|$))|(\\.js(\\?|$))"}
   ]
 }
