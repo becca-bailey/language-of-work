@@ -10,7 +10,10 @@
 # collected for a company as JSON, and must work from what is present rather
 # than any named axis. New facets flow in automatically.
 
-model: claude-sonnet-4-6
+# Downgraded from claude-sonnet-4-6 (2026-07-10): synthesis is the most
+# expensive stage and the narrative is an experimental feature — Haiku is the
+# cost-appropriate tier. Watch the malformed-JSON retry rate on the first run.
+model: claude-haiku-4-5-20251001
 version: 3
 
 # Hard cap on generated length (tokens). Narrative is short by design.
