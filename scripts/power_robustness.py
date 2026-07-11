@@ -108,10 +108,17 @@ def main() -> None:
               "- **Idealism and DEI** both partially survive detrending — some genuine "
               "year-over-year co-movement with the power cycle beyond the secular boom, though "
               "weak on this many year-pairs. Their ordering is not stable across universe "
-              "changes (DEI led at N=11, idealism at N=13); don't rank them.",
-              "- **Performance** raw correlation is all shared trend (collapses under "
-              "differencing) — serves management, needs no worker leverage.",
-              "- **Wellbeing** weak either way; under-measured (thin benefits corpus).",
+              "changes (DEI led at N=11, idealism at N=13, DEI again at N=19); don't rank them.",
+              "- **Performance** was all shared trend through N=16 (r_diff ≈ +0.05) but picks "
+              "up some differenced co-movement at N=19 — what still separates it is amplitude "
+              "(relative swing 3–6× smaller than the counterforces) and a coin-flip per-company "
+              "split. Never surged, never cut: no concession there to revoke.",
+              "- **Wellbeing** tracks the 2020 emergency, not the leverage cycle: raw r rides "
+              "the pandemic spike but r_diff goes negative (quits fell in 2020 while care "
+              "spiked). Included in the story as the contrast case, not a counterforce.",
+              "- **Locus of care** drifts individual-ward into a 2022 peak and holds through "
+              "2025; 2026 ticks back toward structural (one year — watch it). Companion "
+              "measure for the wellbeing panel.",
               "- **No single company is load-bearing** for idealism or DEI (leave-one-out stays "
               "positive) — resolves the earlier N=6→11 fragility.",
               "",

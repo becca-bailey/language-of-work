@@ -1,32 +1,35 @@
 #!/usr/bin/env python
-"""Assemble the keystone "Culture is downstream of power" story (N=11, consistent set).
+"""Assemble the keystone "Culture is downstream of power" story (one consistent set).
 
-Joins the worker-power curve (FRED quits, data/power_proxies.json) with three language
-trajectories — idealism (cleaned altruism), DEI (active register share), performance
-(presence) — each an industry mean over the SAME 11 companies, plus per-company series so
-the chart can toggle aggregate ↔ per-company.
+Joins the worker-power curve (FRED quits, data/power_proxies.json) with four language
+trajectories — idealism (cleaned altruism), DEI (active register share), wellbeing
+(care axis, chunk-level top-k from axis_scores.parquet), performance (presence) — each
+an industry mean over the SAME companies, plus per-company series so the chart can
+toggle aggregate ↔ per-company. A fifth exported series, wellbeing_locus (individual ↔
+structural care), carries the "the care that survived was worker-absorbed" panel.
 
 Reframe (per the user): idealism is an industry-optimism barometer, not a worker
 concession — it co-moves with worker power because both ride the same boom. DEI is the
 worker-oriented (conditional) intervention; performance is the management-serving constant.
+Wellbeing is the contrast case: it spikes with the 2020 emergency (not the 2021-22
+leverage peak), deflates afterward without ever being cut the way DEI was, and what
+shifts instead is the locus — the surviving care drifts onto the individual worker.
 
 Writes astro/src/data/stories/power.json.
 """
 
 from __future__ import annotations
 
-import numpy as np
 import pandas as pd
 
-from lowork.axes import project
 from lowork.company import CompanyProfile
-from lowork.config import WEB_DATA_DIR, AXES_DIR, ROOT, TOP_K, company_dir, load_companies
+from lowork.config import WEB_DATA_DIR, ROOT, company_dir, load_companies
 from lowork.io import read_json, write_json
 
 STORIES = WEB_DATA_DIR / "stories"
 
-# ONE set for ALL THREE metrics (no per-metric subsets). Every company is scored on all
-# three axes. Basecamp/Twitter are documented cases elsewhere, not in this aggregate.
+# ONE set for ALL metrics (no per-metric subsets). Every company is scored on
+# every axis. Basecamp/Twitter are documented cases elsewhere, not in this aggregate.
 COHORT = load_companies()
 
 # Normalize/display within the window of real multi-company coverage.
@@ -46,28 +49,22 @@ def _idealism_per_company() -> dict[str, dict[int, float]]:
     return out
 
 
-def _wellbeing_per_company() -> dict[str, dict[int, float]]:
-    """Wellbeing projection (balance↔sacrifice) per company, scored over BOTH mission_brand
-    AND benefits_perks chunks — benefits copy is where wellbeing actually lives (81% of it),
-    so restricting to mission_brand undercounted it badly. Top-k chunk projection per year."""
-    vec = np.asarray(read_json(AXES_DIR / "built" / "wellbeing.json")["vector"], dtype=np.float32)
+def _axis_per_company(axis: str) -> dict[str, dict[int, float]]:
+    """Chunk-level raw top-k axis projection per company-year, read straight from
+    axis_scores.parquet (score_axes over FINGERPRINT_AXES) — the same series the
+    wellbeing story pools, so the power panel and the wellbeing page tell one
+    story from one source. Supersedes the old ad-hoc embeddings projection."""
     out: dict[str, dict[int, float]] = {}
     for c in COHORT:
-        p = company_dir(c) / "embeddings.parquet"
+        p = company_dir(c) / "axis_scores.parquet"
         if not p.exists():
             continue
         df = pd.read_parquet(p)
-        sub = df[df["label"].isin(["mission_brand", "benefits_perks"])]
-        if sub.empty:
-            continue
-        proj = project(np.stack(sub["embedding"].tolist()).astype(np.float32), vec)
-        sub = sub.assign(_w=proj)
-        d = {}
-        for y, g in sub.groupby("year"):
-            top = sorted(g["_w"].tolist(), reverse=True)[:TOP_K]
-            d[int(y)] = sum(top) / len(top)
-        if d:
-            out[c] = d
+        sub = df[(df["axis"] == axis) & (df["level"] == "chunk")]
+        series = {int(r.year): float(r.raw_topk_mean)
+                  for r in sub.itertuples() if pd.notna(r.raw_topk_mean)}
+        if series:
+            out[c] = series
     return out
 
 
@@ -163,12 +160,22 @@ def main(companies: list[str] | None = None) -> None:
             "dei", "DEI language — worker-oriented (conditional)", "workers",
             "surged ~2021, rolled back from 2023",
             _dei_active_share()),
-        # Wellbeing demoted — under-measured on careers copy (it lives in benefits
-        # text); revisit with the benefits story. Not shown as a power panel.
+        _metric_block(
+            "wellbeing", "Care / wellbeing — tracks the emergency, not the leverage",
+            "wellbeing", "spiked in 2020, deflated after — never cut the way DEI was",
+            _axis_per_company("wellbeing")),
         _metric_block(
             "performance", "Performance / intensity — management-serving (constant)",
             "management", "needs no leverage to survive — the constant substrate",
             _performance_per_company()),
+        # Locus of care (individual ↔ structural): + = worker-absorbed (therapy
+        # apps, resilience), − = organization-absorbed (staffing, coverage).
+        # Exported last so the chart can treat it as a companion panel rather
+        # than a fourth counterforce line.
+        _metric_block(
+            "wellbeing_locus", "Locus of care — individual (+) vs structural (−)",
+            "wellbeing", "the care that endured shifted onto the individual worker",
+            _axis_per_company("wellbeing_locus")),
     ]
 
     pseries = [p for p in power["quits"] if p["year"] >= START_YEAR]
