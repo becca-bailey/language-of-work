@@ -11,13 +11,13 @@ import argparse
 
 import pandas as pd
 
-from lowork.config import CANON_ANALYSIS_LABELS, EMBEDDING_MODEL, company_dir
+from lowork.config import EMBEDDING_MODEL, company_dir
 from lowork.embeddings import EmbeddingStore
 from lowork.io import load_all_chunks, read_json
 
-# DEI (Project 2) analysis corpus; Project 3 uses CANON_ANALYSIS_LABELS from config.
+# DEI (Project 2) analysis corpus
 DEI_ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
-LABEL_SETS = {"dei": DEI_ANALYSIS_LABELS, "canon": set(CANON_ANALYSIS_LABELS)}
+LABEL_SETS = {"dei": DEI_ANALYSIS_LABELS}
 
 
 def main(company: str, label_set: str) -> None:
@@ -59,6 +59,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--company", default="google")
     parser.add_argument("--labels", choices=list(LABEL_SETS), default="dei",
-                        help="dei = mission_brand+benefits_perks (P2); canon = canon+on_topic (P3)")
+                        help="dei = mission_brand+benefits_perks (P2)")
     args = parser.parse_args()
     main(args.company, args.labels)

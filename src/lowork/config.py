@@ -50,18 +50,6 @@ CHUNK_LABELS = [
     "navigation_junk",
 ]
 
-# Project 3 (values-as-IP) content filter. Register is already tagged at fetch
-# (firm/worker/press/legal) and the axes do the measurement, so this set is
-# small: isolate the canon subset (H3/H5 operate on canon, not all firm text)
-# and drop junk. CANON_ANALYSIS_LABELS = what gets embedded/scored.
-CANON_LABELS = [
-    "canon",      # codified mission/values/Creed/"Way"/manifesto, firm voice
-    "on_topic",   # substantive relevant content that isn't canon
-    "junk",       # nav, code, off-topic tangents, fragments
-]
-CANON_ANALYSIS_LABELS = {"canon", "on_topic"}
-
-
 def company_dir(company: str) -> Path:
     d = DATA_DIR / company
     d.mkdir(parents=True, exist_ok=True)
