@@ -104,7 +104,8 @@ def main(company: str, validate_only: bool) -> None:
     if hand_labels:
         report = agreement_report(predictions, hand_labels)
         write_json(cdir / "agreement_report.json", report)
-        print(f"\nAgreement: {report['accuracy']} on {report['n']} hand-labeled chunks")
+        print(f"\nAgreement: {report['accuracy']} on {report['n']} hand-labeled chunks"
+              f" (Krippendorff alpha: {report['krippendorff_alpha']})")
         if report["accuracy"] is not None and report["accuracy"] < 0.9:
             print("Below 0.90 — iterate the prompt in src/lowork/classify.py and re-run")
         for d in report["disagreements"]:

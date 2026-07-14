@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 
+import krippendorff
 from anthropic import Anthropic
 
 from .config import CHUNK_LABELS, CLASSIFIER_MODEL
@@ -67,10 +68,11 @@ def classify_chunks(chunks: list[dict], model: str = CLASSIFIER_MODEL) -> dict[s
 
 
 def agreement_report(predictions: dict[str, str], hand_labels: dict[str, str]) -> dict:
-    """Compare classifier output against hand labels; returns accuracy + confusion."""
+    """Compare classifier output against hand labels; returns accuracy, alpha + confusion."""
     common = [cid for cid in hand_labels if cid in predictions]
     if not common:
-        return {"n": 0, "accuracy": None, "confusion": {}, "disagreements": []}
+        return {"n": 0, "accuracy": None, "krippendorff_alpha": None,
+                "confusion": {}, "disagreements": []}
 
     correct = 0
     confusion: dict[str, dict[str, int]] = {}
@@ -84,9 +86,23 @@ def agreement_report(predictions: dict[str, str], hand_labels: dict[str, str]) -
         else:
             disagreements.append({"chunk_id": cid, "hand_label": truth, "predicted": pred})
 
+    labels = sorted({*hand_labels.values(), *predictions.values()})
+    idx = {lab: i for i, lab in enumerate(labels)}
+    reliability = [
+        [idx[hand_labels[cid]] for cid in common],
+        [idx[predictions[cid]] for cid in common],
+    ]
+    try:
+        alpha = round(float(krippendorff.alpha(
+            reliability_data=reliability, level_of_measurement="nominal")), 3)
+    except ValueError:
+        # e.g. every pair identical on a single label — alpha is undefined
+        alpha = None
+
     return {
         "n": len(common),
         "accuracy": round(correct / len(common), 3),
+        "krippendorff_alpha": alpha,
         "confusion": confusion,
         "disagreements": disagreements,
     }

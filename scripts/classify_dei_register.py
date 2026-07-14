@@ -123,7 +123,8 @@ def main(company: str, validate_only: bool, heuristic: bool, reclassify_all: boo
     if hand_labels:
         report = agreement_report(predictions, hand_labels)
         write_json(cdir / "dei_register_agreement.json", report)
-        print(f"\nAgreement: {report['accuracy']} on {report['n']} hand-labeled chunks")
+        print(f"\nAgreement: {report['accuracy']} on {report['n']} hand-labeled chunks"
+              f" (Krippendorff alpha: {report['krippendorff_alpha']})")
         for d in report.get("disagreements", [])[:10]:
             print(f"  {d['chunk_id']}: hand={d['hand_label']} pred={d['predicted']}")
 

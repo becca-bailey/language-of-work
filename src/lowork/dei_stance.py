@@ -157,27 +157,3 @@ def classify_stances(chunks: list[dict], model: str = CLASSIFIER_MODEL) -> dict[
     return results
 
 
-def agreement_report(predictions: dict[str, str], hand_labels: dict[str, str]) -> dict:
-    """Compare stance output against hand labels."""
-    common = [cid for cid in hand_labels if cid in predictions]
-    if not common:
-        return {"n": 0, "accuracy": None, "confusion": {}, "disagreements": []}
-
-    correct = 0
-    confusion: dict[str, dict[str, int]] = {}
-    disagreements = []
-    for cid in common:
-        truth, pred = hand_labels[cid], predictions[cid]
-        confusion.setdefault(truth, {}).setdefault(pred, 0)
-        confusion[truth][pred] += 1
-        if truth == pred:
-            correct += 1
-        else:
-            disagreements.append({"chunk_id": cid, "hand_label": truth, "predicted": pred})
-
-    return {
-        "n": len(common),
-        "accuracy": round(correct / len(common), 3),
-        "confusion": confusion,
-        "disagreements": disagreements,
-    }
