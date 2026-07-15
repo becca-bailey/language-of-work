@@ -78,8 +78,11 @@ def load_patterns(company: str) -> dict:
 def query_all_patterns(client: httpx.Client, patterns: list[dict]) -> dict[str, list[Capture]]:
     results: dict[str, list[Capture]] = {}
     for pat in patterns:
-        print(f"CDX query: {pat['url']} ({pat['match_type']})")
-        caps = cdx_query(client, pat["url"], match_type=pat["match_type"])
+        # Optional per-pattern "from_year" widens the window past the 2005
+        # default (e.g. Google's 1999-2004 jobs pages).
+        from_ts = str(pat.get("from_year", 2005))
+        print(f"CDX query: {pat['url']} ({pat['match_type']}, from {from_ts})")
+        caps = cdx_query(client, pat["url"], match_type=pat["match_type"], from_ts=from_ts)
         print(f"  {len(caps)} captures")
         results[pat["url"]] = caps
     return results
