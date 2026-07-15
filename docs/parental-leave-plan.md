@@ -108,9 +108,16 @@ oral history, interviews) for drift between versions — noting she is
 currently promoting the memoir, which is context for why the story is being
 retold now, and how. Also verify the actual policy timeline:
 pre-2007 policy, the 2007 18-weeks expansion, the Bock attrition data.
-External research report in progress (deep-research run, 2026-07-15) covers
-this plus era benchmarks and the counter-register examples; lands at
-`docs/research/parental-leave-history.md`.
+External research report: `docs/research/parental-leave-history.md`
+(deep-research run 2026-07-15, cut short before synthesis; hand-synthesized
+from 68 verified results). Key Phase-0 outcomes already in hand: the "mama"
+is almost certainly Susan Wojcicki (joined 1999 four months pregnant, first
+Google maternity leave, no policy existed, her request became the 12-week
+policy); the Threads quotes are unverified in any indexed source and the
+anecdote appears new with the memoir promotion; Google's 2007 12→18-week
+expansion and the (self-reported) 50% attrition drop are well corroborated.
+Remaining: consult the memoir and full *Valley of Genius* text; second pass
+on the 1990s–2000s fairness discourse (see report §5).
 
 **Phase 0.5 — Pre-2005 Google archaeology.** The corpus's 2005 start was the
 pipeline's window, not Wayback's: `cdx_query` defaulted `from_ts="2005"`, so
