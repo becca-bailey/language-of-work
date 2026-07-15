@@ -56,6 +56,15 @@ meritocracy-vs-DEI). This plan turns the anecdote into a study.
   vs 2w/100%. shopify 2010: 30 working days (maternity) vs 15 days
   (parental). amazon 2017: 10w maternity + 6w parental. basecamp 2022: 16w
   primary vs 6w secondary caregiver.
+- **Jurisdiction confound (Shopify).** Shopify is Canadian: paid maternity
+  leave there is a government EI benefit (~15 weeks at ~55% pay, plus
+  shareable parental benefits; ~a year job-protected under Ontario law —
+  verify exact figures). Its careers-page numbers ("30 working days" 2010;
+  "17 weeks at 85% take-home" 2012, matching Ontario's 17-week statutory
+  pregnancy-leave window) are almost certainly **top-ups over the state
+  baseline**, not total leave — while US pages enumerate the total because
+  the US paid baseline is zero. Raw weeks are not comparable across
+  jurisdictions.
 - **`track_benefits.py` family_caregiving prevalence** (keyword,
   `data/benefits_trends.md`): first 2011, peak 2019 (10 chunks), **zero in
   2024**, small 2026 recovery. Matches the concession arc's deflation.
@@ -94,10 +103,12 @@ this plus era benchmarks and the counter-register examples; lands at
 `docs/research/parental-leave-history.md`.
 
 **Phase 1 — Dedicated extraction pass.** Extend the wellbeing benefits
-taxonomy for parental-leave rows with three fields: `beneficiary`
+taxonomy for parental-leave rows with four fields: `beneficiary`
 (birthing/maternity | partner/paternity | neutral/all-parents |
 primary-caregiver | secondary-caregiver | adoption), `weeks` (number|null),
-`pay_pct` (number|null). Re-run extraction over `benefits_perks` +
+`pay_pct` (number|null), and `baseline` (total | topup | unknown — see the
+jurisdiction confound; company HQ country becomes a per-company field, and
+non-US companies default to `unknown` until the page text settles it). Re-run extraction over `benefits_perks` +
 `job_listing` chunks for all 19 companies (adds netflix/uber/apple/nvidia if
 their corpus supports it; netflix likely stays empty — say so rather than
 patch). Reuse the wellbeing validation pattern: hand-code a sample before
