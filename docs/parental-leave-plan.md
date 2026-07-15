@@ -112,7 +112,18 @@ External research report in progress (deep-research run, 2026-07-15) covers
 this plus era benchmarks and the counter-register examples; lands at
 `docs/research/parental-leave-history.md`.
 
-**Phase 1 — Dedicated extraction pass.** Extend the wellbeing benefits
+**Phase 0.5 — Pre-2005 Google archaeology.** The corpus's 2005 start was the
+pipeline's window, not Wayback's: `cdx_query` defaulted `from_ts="2005"`, so
+1998–2004 was never queried. Wayback demonstrably holds a 1999 Google jobs
+page (17 openings, "the only Chef job with stock options" — covered in press).
+`fetch_snapshots.py` now honors a per-pattern `from_year`, and the Google
+profile adds `google.com/jobs.html` (1999-era) plus widened windows on the
+`/jobs/` patterns. Run `discover --company google`, review the new report,
+then fetch. If any 1999–2004 page enumerates leave, it becomes the earliest
+contemporaneous policy record — potentially *inside* the Cairns tenure, which
+would upgrade the "handoff baseline" framing to direct overlap. Benefits may
+also live on sub-pages (e.g. benefits.html under /jobs/) — check the CDX
+prefix results during M1 review rather than guessing URLs now. Extend the wellbeing benefits
 taxonomy for parental-leave rows with four fields: `beneficiary`
 (birthing/maternity | partner/paternity | neutral/all-parents |
 primary-caregiver | secondary-caregiver | adoption), `weeks` (number|null),

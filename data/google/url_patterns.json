@@ -13,14 +13,22 @@
   ],
   "patterns": [
     {
+      "url": "google.com/jobs.html",
+      "match_type": "exact",
+      "from_year": 1998,
+      "era_hint": "1999-2004 (pre-2005 archaeology; 1999 page documented in press)"
+    },
+    {
       "url": "google.com/jobs/",
       "match_type": "exact",
-      "era_hint": "2005-2007"
+      "from_year": 1998,
+      "era_hint": "2005-2007 (from_year widened for pre-2005 archaeology)"
     },
     {
       "url": "google.com/jobs/index.html",
       "match_type": "exact",
-      "era_hint": "2005-2007"
+      "from_year": 1998,
+      "era_hint": "2005-2007 (from_year widened for pre-2005 archaeology)"
     },
     {
       "url": "google.com/intl/en/jobs/",
