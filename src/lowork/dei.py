@@ -36,19 +36,21 @@ These chunks come from careers/mission pages. Measure what the company says abou
 
 Assign exactly one register to each chunk:
 
-- explicit_demographic: names one or more specific demographic groups (by race/ethnicity, gender, LGBTQ+, veteran status, disability, age, etc.) in the context of the company's own workforce, hiring, culture, or employee community — whether or not a numeric target is attached. Covers hard commitments ("increasing Black and Latinx representation in leadership to 30% by 2025"), employee resource groups for named groups (BLACKHub, Outforce, women's networks), spotlights, and support statements ("Salesforce stands with the Black community"). The distinguishing feature is a NAMED group in a workforce context, not the presence of a metric.
-- structural_process: describes systems and processes designed to reduce bias in employment — "We use structured interviews to reduce bias in hiring." / "We audit our pay practices annually for equity."
+- explicit_demographic: names one or more specific demographic groups (by race/ethnicity, gender, LGBTQ+, veteran status, disability, age, etc.) as the SUBJECT of affinity, celebration, support, or aspiration in the company's own workforce — employee resource groups (BLACKHub, Outforce, women's networks), spotlights, support statements ("Salesforce stands with the Black community"), and representation targets or callouts ("increasing Black and Latinx representation in leadership to 30% by 2025" — a stated goal is a callout, not a mechanism). The distinguishing feature is a NAMED group as the object of rhetoric, not the presence of a metric.
+- structural_process: describes a CONCRETE, OPERATING mechanism for reducing bias or enforcing accountability in employment — structured interviews, pay-equity audits ("we audit our pay practices annually"), mandatory inclusive-hiring training, published workforce-diversity measurement and reporting, compensation tied to inclusion outcomes. The mechanism wins even when a demographic group is named as its object ("achieved and maintained gender pay equity" → structural_process). Commitments or initiatives WITHOUT a described mechanism ("initiatives to break down systemic barriers") are aspirational_vague, not structural_process.
 - aspirational_vague: GENERIC inclusion/diversity language that does NOT name a specific demographic group — "diverse perspectives," "varying backgrounds," "an inclusive workplace," broad pride or partnerships without naming who. If a specific group is named in a workforce context, prefer explicit_demographic.
 - belonging_culture: worker experience of inclusion stated generically, WITHOUT naming a specific group — "Bring your whole self to work." / "Everyone feels they belong here."
 - absent: no pro-inclusion employer language — generic mission/innovation copy, customer impact, product features, standard recruiting boilerplate. ALSO includes anti-DEI or counter-programming framing ("we hire on merit, not identity politics", civilizational/geopolitical employer branding like "the future of the West") — that is a stance, not a register, and is classified elsewhere.
 
 Tie-breakers:
 1. If a chunk mixes registers, choose the DOMINANT one.
-2. Naming a specific demographic group in a workforce/employer context IS enough for explicit_demographic — a numeric target is not required. ERGs, spotlights, and support statements for a named group → explicit_demographic.
-3. Generic "diversity" / "inclusion" / "varying backgrounds" that names NO specific group → aspirational_vague, not explicit_demographic.
+2. STRUCTURE BEATS NAMING: if the substance of the chunk is an operating mechanism (audit, mandatory training, measurement/reporting system, comp linkage), it is structural_process even if a demographic group is named as the mechanism's object. Naming a group is enough for explicit_demographic only when the group is the subject of affinity/support/target rhetoric (ERGs, spotlights, support statements, representation callouts) rather than a mechanism.
+3. Generic "diversity" / "inclusion" / "varying backgrounds" that names NO specific group → aspirational_vague, not explicit_demographic. Measurement/accountability machinery that names no group ("we publish an annual diversity report and share representation data with senior leaders") → structural_process, not aspirational_vague.
 4. Demographics purely in CUSTOMER, patient, or societal-impact context (not the company's own workforce) → absent. This includes CSR / philanthropy / community content: foundation grants, community volunteering, youth or education programs, supplier and producer sustainability. Words like "underserved," "diverse backgrounds," or even named groups describing program BENEFICIARIES or the surrounding community are NOT employer inclusion language.
 5. "Hire the best" / engineering excellence / merit-vs-identity contrast / civilizational framing → absent (measured on the stance axis, not here).
 6. EEO/legal boilerplate alone → absent unless substantive DEI commitments beyond compliance.
+7. belonging_culture requires a described worker EXPERIENCE of inclusion ("bring your whole self to work", "everyone feels they belong here", "a place for every kind of brilliant"). Belonging/representation stated as a company goal, program, or brand identity ("we're building belonging through...", "a team that reflects the world") → aspirational_vague. Belonging language about remote-work logistics, culture-doc meta-commentary, or navigation stubs → absent.
+8. Enumerating demographic CATEGORIES without naming a group ("...including gender, race, age, national origin, sexual orientation, culture, education") → aspirational_vague — it is the "diversity of all kinds" move. But a named employee COMMUNITY is explicit_demographic even for a non-protected group (a Parents and Families ERG counts, like any ERG). Employee spotlights, displayed workplace awards, and page headlines naming a group ("A great workplace for women", "100 Best Workplace for Women") → explicit_demographic even when the surrounding body copy is generic.
 
 Calibration examples (trust these over surface keywords):
 
@@ -61,6 +63,19 @@ Calibration examples (trust these over surface keywords):
 "Palantir Scholarship for Women in Technology" / Girl Geek Dinner spotlights.
 "BLACKHub is our community of Black employees." / "Outforce, our LGBTQ+ employee resource group."
 "Salesforce stands with the Black community against racism."
+
+→ structural_process (an operating mechanism — even when a group is named as its object):
+"Since 2017, Apple has achieved and maintained gender pay equity. In the United States, we have also achieved pay equity with respect to race and ethnicity."
+"All of our hiring managers and recruiters are trained in inclusive hiring practices. These mandatory trainings help eliminate inherent biases."
+"We publish this report. We share departmental representation data with our most senior leaders to provide insight into hiring, progression, and retention."
+"100% of executives have compensation tied to the building of inclusive and diverse teams."
+
+→ explicit_demographic, NOT structural_process (a target/callout is rhetoric, not a mechanism):
+"Increasing Black and Latinx representation in leadership to 30% by 2025."
+
+→ aspirational_vague, NOT structural_process (commitment language without a described mechanism):
+"We have several ongoing and upcoming initiatives to help break down systemic barriers and bias."
+"The work that we're doing is structural, and when you stand in the work you get closer to the root cause."
 
 → aspirational_vague (generic inclusion, NO specific group named):
 "We celebrate diverse perspectives and varying backgrounds."
@@ -76,6 +91,15 @@ Calibration examples (trust these over surface keywords):
 
 → aspirational_vague, NOT explicit_demographic (generic diversity of thought, no group named):
 "The sort of creativity that only comes about when talented people from diverse backgrounds approach problems from varying perspectives."
+"Our diverse perspectives come from many sources including gender, race, age, national origin, sexual orientation, culture, and education." (categories enumerated, no group named)
+
+→ aspirational_vague, NOT belonging_culture (belonging as goal/brand, not described experience):
+"We're building belonging through: a more inclusive workplace, co-creation in our products, unlocking opportunity in society."
+"We are dedicated to building a community and team that reflects the world we live in."
+
+→ explicit_demographic (spotlights, awards, and group-titled pages are deliberate signaling):
+"Googler Shaun Aukland gained international attention when he asked his boyfriend..." (employee spotlight)
+"A 100 Best Workplace for Women and Best Workplace in Tech by Fortune."
 
 Respond with a JSON array, one object per chunk, in input order:
 [{"id": "<chunk id>", "register": "<register>"}]
