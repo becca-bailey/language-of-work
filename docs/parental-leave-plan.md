@@ -46,6 +46,14 @@ meritocracy-vs-DEI). This plan turns the anecdote into a study.
   careers page was far more modest. (External check: Google's documented 2007
   expansion to 18 weeks at full pay and the Laszlo Bock attrition rationale —
   verify via research report.)
+- **Tenure/corpus overlap is exactly one year.** Cairns was at Google
+  1999–2005 (confirmed 2026-07-15); Google corpus coverage starts 2005. The
+  2005 snapshot is therefore the handoff baseline — the codified outcome of
+  the debate she describes, photographed as she left, two years before the
+  18-week expansion. The corpus documents the post-Cairns era; her account
+  (the Threads posts, her memoir *Employee Number Four*, the *Valley of
+  Genius* oral history) covers 1999–2004 and is testimony, not archive. The
+  story must not imply the corpus witnessed the internal argument.
 - **The terminology arc is visible end to end.** salesforce 2008 "Paid
   Maternity/Paternity Programs" → snap 2019 "maternity, paternity, and family
   caregiver leave" → github 2017–24 "five months of paid family leave to all
@@ -95,8 +103,10 @@ meritocracy-vs-DEI). This plan turns the anecdote into a study.
 
 **Phase 0 — Verify the anchor anecdote.** The Threads post is a 2026 memory
 of a ~2000 event. Archive the post itself; check it against Cairns's earlier
-tellings (Adam Fisher's *Valley of Genius* oral history and interviews —
-verify) for drift between versions. Also verify the actual policy timeline:
+tellings (her memoir *Employee Number Four*, Adam Fisher's *Valley of Genius*
+oral history, interviews) for drift between versions — noting she is
+currently promoting the memoir, which is context for why the story is being
+retold now, and how. Also verify the actual policy timeline:
 pre-2007 policy, the 2007 18-weeks expansion, the Bock attrition data.
 External research report in progress (deep-research run, 2026-07-15) covers
 this plus era benchmarks and the counter-register examples; lands at
