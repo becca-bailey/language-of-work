@@ -38,6 +38,20 @@ adversarial pass (unlike the main report).
   **15 weeks** — Fast Company called it "the highest-profile maternity leave
   since Marissa Mayer," and coverage framed it explicitly against Mayer's
   back-in-days norm. Her leave-taking was itself a deliberate public act.
+- **How much leave she actually took — the disclosure asymmetry.** The record
+  gives exactly **one** concrete personal duration: **15 weeks with her fifth
+  (youngest) child, 2014** (Fortune 2024; 2014 coverage). For the first four
+  she explicitly *declined* to specify: "I've already had four maternity
+  leaves, and I've taken different amounts of time off with my four kids,
+  depending upon both my personal and work [life]" (2014-era coverage of the
+  fifth leave — pin exact byline before quoting). Even her *first* leave's
+  length is never stated; what's stated is that it *became* the 12-week
+  policy, not that she took 12. **On-thesis:** the sole leave she gave a
+  number to was the most rhetorically useful one — a sitting CEO's 15 weeks,
+  disclosed as advocacy against the Mayer norm. Private durations stayed
+  private; the strategic one got a number and a magazine profile. Numbers
+  surface when they serve the case — the mirror image of Google's careers
+  page, where the number *vanishes* into "generous."
 - **2016–17:** continued advocacy — CNN (Nov 2016) "wants parents to take
   more time off"; CNN (May 2017) calling on the Trump administration to
   enact federal paid parental leave.
