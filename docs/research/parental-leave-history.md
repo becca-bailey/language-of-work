@@ -199,7 +199,38 @@ record. Remaining work: read the memoir; check the "mommy track" debate
 (Felice Schwartz, HBR 1989) for executive voices; full *Valley of Genius*
 text.
 
-## 6. Source index (verified-load-bearing)
+## 6. Most recent leave numbers per corpus company (compiled 2026-07-16)
+
+From `data/<co>/wellbeing_benefits.jsonl` (careers-page extractions). "Latest
+mention" = most recent parental-leave row of any specificity; "last
+enumerated" = most recent row with actual numbers. External 2022 figures are
+from the verified Forbes/Fortune table (§3). Chunks are gitignored, so this
+reflects the extraction layer only — absence may be a coverage gap, not a
+policy gap (airbnb has 3 extraction rows total; palantir 9).
+
+| Company | Latest corpus mention | Last enumerated (corpus) | External (verified) |
+|---|---|---|---|
+| snap | 2026 | **2026: up to 28 wks parental** — the corpus's largest current number | — |
+| github | 2024 | **2024: five months paid family leave, all new parents** (every year 2017–24) | — |
+| basecamp | 2022 | **2022: 16 wks primary / 6 wks secondary @100%** | — |
+| salesforce | 2026 ("inclusive family leave") | never enumerated in corpus (2008 already vague) | 26 wks (2022) |
+| google | 2020 ("generous parental leave policies") | 2005: 12 wks @75% + 2 wks partner | 24 wks birth / 18 all (2022) |
+| meta | 2022 (vague) | 2011: up to 4 months | ~17 wks (2022) |
+| amazon | 2018 | 2018: 10 wks maternity + 6 wks parental (+4 pre-partum, 8 flex ramp-back) | 20 wks (2022) |
+| shopify | 2018 (vague) | 2014: 17 wks @85% maternity + 3 wks @100% parental | — (CA top-up caveat, plan) |
+| stripe | 2020 ("parental leave") | never enumerated | — |
+| hubspot, gitlab, palantir, coinbase, airbnb, starbucks | no parental rows extracted | — | — |
+| netflix, uber, apple, nvidia | no extraction run (netflix: zero benefits pages) | — | Netflix: up to 1 yr (2015→2022 per press) |
+
+Pattern worth noting: the two companies still enumerating in the 2020s
+corpus (snap 28 wks, github 5 months) are the exceptions; the giants whose
+policies are *best* by external record (google 24, salesforce 26) say the
+least on their own careers pages — numbers live in press releases, adjectives
+live in recruiting copy. (Snap 2025 artifact: the extraction caught a
+Vietnamese-language row, "Nghỉ thai sản có lương" = paid maternity leave —
+localization leaking into the capture.)
+
+## 7. Source index (verified-load-bearing)
 
 - Wojcicki, "Paid Maternity Leave Is Good for Business," WSJ 2014-12-16
   (reprint: time.com/3637962; PDF: dcpaidfamilyleave.org)
