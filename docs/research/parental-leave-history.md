@@ -160,13 +160,30 @@ Second pass (2026-07-16) added:
   after Wojcicki's leave. This is the strongest era-context anchor for the
   story's counter-register thread.
 - **Revealed preference beats quotes: the #LeadersforLeave campaign
-  (2018–19)** asked 100+ Silicon Valley VCs and founders over six months to
+  (2018–19)** — organized by a Founders for Change member (the Fortune op-ed
+  author is a Houseparty founder; exact byline to pin down) with the
+  advocacy group PL+US (Paid Leave for the US) advising — asked 100+ Silicon
+  Valley VCs and founders (seed through post-Series C) over six months to
   publicly pledge ≥12 weeks paid maternity leave. **Six signed. All six were
-  women founders** (Lever, Shippo, The Riveter, Winnie, The Wing, Binti)
-  (Fortune, 2019-03-19). Executives rarely argue against leave on the
-  record — they just decline to commit. The near-total absence of on-record
-  Cairns-style statements plus this non-participation is the honest shape of
-  the counter-register: private resentment, public silence.
+  women founders**: Sarah Nahm (Lever), Laura Behrens Wu (Shippo), Amy
+  Nelson (The Riveter), Sara Mauskopf (Winnie), Audrey Gelman (The Wing),
+  Felicia Curcuru (Binti) (Fortune, 2019-03-19). **The ~95+ decliners were
+  never named** — and their reported patterns were agreement-in-principle
+  followed by retreat: enthusiasm, then "not ready yet," then private
+  commitments to revisit, but no public pledge. Declining was
+  consequence-free because it was anonymous. Executives rarely argue against
+  leave on the record — they just decline to commit.
+- **The 2022 control case: theSkimm's #ShowUsYourLeave.** Three years later,
+  at peak worker leverage, a *weaker* ask (disclose your policy, no pledge
+  floor) went viral: 300+ companies by Feb 2022, ~500 by May (Pinterest,
+  Bank of America, Hilton, Nestlé, Amex, Etsy, GM, Goldman, Pfizer, Snap,
+  Zoom), yielding a public database of 480+ policies (Fortune 2022-03-23;
+  theSkimm press). Same genre of ask, 6 takers in 2019 vs ~500 in 2022 —
+  the difference wasn't moral progress, it was the labor market. The
+  campaign's window (Feb–Jun 2022) sits exactly at the leverage peak/turn,
+  making it a clean counterforce marker for the overlay table. (Corpus
+  echo: Snap disclosed in 2022; by 2026 its careers page enumerates "up to
+  28 weeks.")
 - **Laszlo Bock, on childless employees complaining about parental
   benefits:** feeling it unfair "demonstrates a lack of patience, a lack of
   empathy and a sense of entitlement" — the counter-counter-register from
