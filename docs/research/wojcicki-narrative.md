@@ -16,10 +16,14 @@ adversarial pass (unlike the main report).
   months pregnant**, at a ~15-person, revenue-less, almost-all-male company.
   Her line: "Joining Google when I was four months pregnant was a bit of a
   leap." She says the founders assured her of their support.
-- **The ask:** "I'm going to take a little time off... Nobody had ever done
-  it before at the company" (CBS interview). No policy existed. Her
+- **The ask:** "Hey Larry, hey Sergey, I'm going to take a little time off…
+  Nobody had ever done it before at the company." **Source: CNNMoney,
+  2016-11-02** ("YouTube chief Susan Wojcicki wants parents to take more time
+  off"), reported from Fortune's Most Powerful Women Summit — i.e. a **2016
+  retelling of the 1999 moment**, memory not record. No policy existed. Her
   **personal request became the institutionalized 12-week policy** — her
-  framing, repeated across tellings.
+  framing, repeated across tellings (the 12-week claim is the one that
+  matches the 2005 archive).
 - **Late 1999:** first child; first Google maternity leave.
 - **The milestone mapping:** she associated each of her five children with a
   corporate milestone — #1 with Google itself, #2 with AdSense ("we created
@@ -83,9 +87,13 @@ about the discourse, not a judgment about either account's truth.
 
 - WSJ op-ed 2014-12-16 (reprint: time.com/3637962; PDF at
   dcpaidfamilyleave.org)
+- **CNNMoney 2016-11-02** ("YouTube chief Susan Wojcicki wants parents to
+  take more time off") — source of the "Hey Larry, hey Sergey" quote, from
+  the Fortune Most Powerful Women Summit
 - CBS News interviews (cbsnews.com: "youtube-ceo-susan-wojcicki-google-
   maternity-leave-making-profit-advice"; CBS SF "calls for paid maternity
-  leave across america")
+  leave across america") — the "12 weeks" / "nobody had done it" framing in
+  a separate telling
 - Fortune 2024-08-12 (retrospective; "driving force" of the 2007 change;
   15-week leave; Mayer contrast)
 - Fast Company 2014 ("highest-profile maternity leave since Marissa Mayer",
