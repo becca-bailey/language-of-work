@@ -24,16 +24,19 @@ time.com/3637962); CBS News interview; Fortune retrospective (2024-08-12).
 Verified high-confidence, though "first to take maternity leave" rests on her
 own testimony (uncontested, plausible for a ~16-person company).
 
-**The Threads-post language is unverified.** No indexed source contains the
-"dangerous precedent" / "favoritism" quotes or the half-year-plus-cash-gifts
-account. Cairns is on record in *Valley of Genius* (Fisher, 2018) about early
-Google HR matters — but the retrievable passages concern her warning that
-Sergey Brin's involvement with employees was "a sexual harassment claim
-waiting to happen," **not** maternity leave. As of this run, the maternity
-anecdote appears to be *new with the 2026 Threads posts / memoir promotion*
-(*Employee Number Four*, S&S). Phase 0 action: the memoir and the full Fisher
-book must be consulted directly; treat the Threads version as a first telling
-until an earlier one is found.
+**The Threads-post language is unverified — expectedly.** The post went up
+2026-07-16 (same day as this research) with little notice, so its absence
+from the index is not evidence of anything. What matters: no *earlier*
+indexed telling of the maternity anecdote exists either. Cairns is on record
+in *Valley of Genius* (Fisher, 2018) about early Google HR matters — but the
+retrievable passages concern her warning that Sergey Brin's involvement with
+employees was "a sexual harassment claim waiting to happen," **not**
+maternity leave. The anecdote appears to be *new with the memoir*
+(*Employee Number Four*, S&S — note the publisher describes it as a
+**satirical memoir**, which matters for how literally its policy details
+should be read). Phase 0 action: the memoir and the full Fisher book must be
+consulted directly; treat the Threads version as a first telling until an
+earlier one is found.
 
 **Tension worth noting in the story:** Cairns describes founders proposing
 "a mere half-year off," but the policy that actually got codified (and that
@@ -143,12 +146,41 @@ What the run documented before stopping:
   modeling near-zero leave — a norm-setting counter-signal rather than a
   fairness argument.
 
-**Not yet found:** any 1990s–2000s on-record executive statement making the
-Cairns-style argument explicitly. Her account may be distinctive precisely
-because that view usually stayed private — which, if it holds up, is itself
-a finding for the story. Remaining work: targeted pass on 1990s–2000s
-business press ("mommy track" debate, Burkett's *The Baby Boon* (2000),
-early Silicon Valley benefits coverage), plus the memoir itself.
+Second pass (2026-07-16) added:
+
+- **The Cairns sentiment was a documented national movement at the exact
+  moment of the Wojcicki pregnancy.** Elinor Burkett's *The Baby Boon: How
+  Family-Friendly America Cheats the Childless* (2000) framed family
+  benefits as "the most massive redistribution of wealth since the War on
+  Poverty... from nonparents... to parents" and chronicled "a simmering
+  backlash against perks for parents"; the child-free organization No
+  Kidding! grew from 2 to 47 chapters in the five years to 2000 (Salon,
+  2000-07-31, "The anti-child revolt"). Cairns's 1999–2000 resentment wasn't
+  idiosyncratic — it was in the air, with a manifesto published the year
+  after Wojcicki's leave. This is the strongest era-context anchor for the
+  story's counter-register thread.
+- **Revealed preference beats quotes: the #LeadersforLeave campaign
+  (2018–19)** asked 100+ Silicon Valley VCs and founders over six months to
+  publicly pledge ≥12 weeks paid maternity leave. **Six signed. All six were
+  women founders** (Lever, Shippo, The Riveter, Winnie, The Wing, Binti)
+  (Fortune, 2019-03-19). Executives rarely argue against leave on the
+  record — they just decline to commit. The near-total absence of on-record
+  Cairns-style statements plus this non-participation is the honest shape of
+  the counter-register: private resentment, public silence.
+- **Laszlo Bock, on childless employees complaining about parental
+  benefits:** feeling it unfair "demonstrates a lack of patience, a lack of
+  empathy and a sense of entitlement" — the counter-counter-register from
+  the executive who ran Google's People Ops (retrieved via search; pin the
+  original interview citation before quoting in the story).
+- **Practice vs. language, 2024:** a discrimination lawsuit accuses Google
+  of laying off employees *while on parental leave* (ABC7/HR Grapevine, Dec
+  2024) — the modern gap between the "generous" register and conduct,
+  on-theme for the counterforces thesis.
+
+**Still not found:** any 1990s–2000s *executive* making the argument on the
+record. Remaining work: read the memoir; check the "mommy track" debate
+(Felice Schwartz, HBR 1989) for executive voices; full *Valley of Genius*
+text.
 
 ## 6. Source index (verified-load-bearing)
 
