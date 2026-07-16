@@ -159,6 +159,16 @@ Second pass (2026-07-16) added:
   idiosyncratic — it was in the air, with a manifesto published the year
   after Wojcicki's leave. This is the strongest era-context anchor for the
   story's counter-register thread.
+  **Provenance caution:** the "redistribution of wealth" line is Burkett's
+  own thesis — it comes from the publisher's jacket/description copy (S&S,
+  Amazon), not an independent characterization. It is reproduced in
+  contemporaneous reviews (Salon 2000-04-06 "Nonparent trap?" and 2000-07-31;
+  Wilson Quarterly; American Prospect 2001 "Caring for Crib Lizards"), but
+  those quote her — they don't corroborate the claim. Use it only as evidence
+  that the *argument was prominent in 2000*, never that family benefits
+  *were* a wealth transfer (her opinion; contested — see the *J. Bus. Ethics*
+  response "Lessons from The Baby Boon"). Keep the framing "a prominent 2000
+  polemic argued X."
 - **Revealed preference beats quotes: the #LeadersforLeave campaign
   (2018–19)** — organized by a Founders for Change member (the Fortune op-ed
   author is a Houseparty founder; exact byline to pin down) with the
