@@ -117,7 +117,11 @@ policy); the Threads quotes are unverified in any indexed source and the
 anecdote appears new with the memoir promotion; Google's 2007 12→18-week
 expansion and the (self-reported) 50% attrition drop are well corroborated.
 Remaining: consult the memoir and full *Valley of Genius* text; second pass
-on the 1990s–2000s fairness discourse (see report §5).
+on the 1990s–2000s fairness discourse (see report §5). The second witness's
+account is assembled in `docs/research/wojcicki-narrative.md` — Phase 0 is
+now a **two-witness drift analysis** (Cairns 2026 vs Wojcicki 2014–17 vs the
+2005 snapshot), not a fact-check of Cairns alone. Key archival catch: the
+2005 policy's 75%-pay detail appears in *neither* telling.
 
 **Phase 0.5 — Pre-2005 Google archaeology.** The corpus's 2005 start was the
 pipeline's window, not Wayback's: `cdx_query` defaulted `from_ts="2005"`, so
