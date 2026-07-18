@@ -17,9 +17,10 @@ import argparse
 import csv
 import json
 
+from lowork.benefits_extract import LOCUS_REVIEW_VALUES
 from lowork.config import DATA_DIR, company_dir
 
-LOCUS_VALUES = ["individual", "structural", "ambiguous", "exclude"]
+LOCUS_VALUES = LOCUS_REVIEW_VALUES
 SPEC_VALUES = ["enumerated_number", "named_no_number", "generic", "exclude"]
 HEADER = ["id", "company", "year", "category", "verbatim",
           "hand_locus", "hand_specificity", "notes"]

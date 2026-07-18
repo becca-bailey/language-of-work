@@ -27,12 +27,11 @@ from collections import defaultdict
 
 import pandas as pd
 
-from lowork.config import DATA_DIR, company_dir
+from lowork.config import ANALYSIS_LABELS, DATA_DIR, company_dir
 from lowork.dei import DEI_REGISTERS
 from lowork.io import load_all_chunks, read_json
 
 COMPANIES = ["google", "amazon", "meta", "palantir"]
-ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
 
 
 def stratify_by_register(per_register: int, seed: int) -> None:

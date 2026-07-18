@@ -18,10 +18,9 @@ import argparse
 from collections import Counter
 
 from lowork.benefits_extract import extract_benefits
-from lowork.config import JUDGE_MODEL, company_dir, load_companies
+from lowork.config import BENEFITS_LABELS, JUDGE_MODEL, company_dir, load_companies
 from lowork.io import load_all_chunks, read_json, write_jsonl
 
-BENEFITS_LABELS = {"benefits_perks", "job_listing"}
 
 
 def benefits_chunks(company: str, limit: int | None) -> list[dict]:

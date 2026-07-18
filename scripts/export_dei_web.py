@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Export DEI scores for the Next.js frontend."""
+"""Export DEI scores for the Astro frontend."""
 
 from __future__ import annotations
 
@@ -8,34 +8,21 @@ import argparse
 import pandas as pd
 
 from lowork.company import CompanyProfile
-from lowork.config import WEB_DATA_DIR, ROOT, TOP_K, company_dir
+from lowork.config import WEB_DATA_DIR, TOP_K, company_dir
 from lowork.dei import DEI_REGISTERS
 from lowork.io import read_json, write_json
+
+try:  # works whether `scripts` is a package (CLI) or on sys.path (pipeline _call)
+    from scripts.export_web import update_companies_manifest
+except ModuleNotFoundError:
+    from export_web import update_companies_manifest
 
 REGISTER_KEYS = [f"register_{r}" for r in DEI_REGISTERS]
 
 
 def update_manifest(company: str) -> None:
-    manifest_path = WEB_DATA_DIR / "companies.json"
-    if manifest_path.exists():
-        manifest = read_json(manifest_path)
-    else:
-        manifest = {"companies": []}
-
-    profile = CompanyProfile.load(company)
-    existing = next((c for c in manifest["companies"] if c["id"] == company), None)
-    companies = [c for c in manifest["companies"] if c["id"] != company]
-    axes = set(existing["axes"]) if existing else set()
-    axes.add("dei")
-    axes.discard("control")
-    companies.append({
-        "id": company,
-        "displayName": profile.display_name,
-        "axes": sorted(axes),
-    })
-    companies.sort(key=lambda c: c["displayName"])
-    write_json(manifest_path, {"companies": companies})
-    print(f"Updated {manifest_path}")
+    update_companies_manifest(company, ["dei"])
+    print(f"Updated {WEB_DATA_DIR / 'companies.json'}")
 
 
 def main(company: str) -> None:

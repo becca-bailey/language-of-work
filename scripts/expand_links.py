@@ -21,7 +21,7 @@ from lowork.company import CompanyProfile
 from lowork.config import company_dir
 from lowork.io import read_json, write_json
 from lowork.links import harvest_from_manifest
-from lowork.wayback import Capture, cdx_query, fetch_capture, html_path
+from lowork.wayback import Capture, cdx_query, fetch_capture
 
 
 def nearest_capture(client: httpx.Client, url: str, target_ts: str) -> Capture | None:

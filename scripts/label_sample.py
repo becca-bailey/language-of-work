@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Step 3a: emit a chunk sample for hand-labeling (manual step M3).
+"""Emit a chunk sample for hand-labeling (manual step M3).
 
 Writes data/<company>/labels/sample.csv with an empty `label` column.
 Fill it in with one of: mission_brand, job_listing, benefits_perks,

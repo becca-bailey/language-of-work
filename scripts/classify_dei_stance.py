@@ -10,13 +10,11 @@ from __future__ import annotations
 import argparse
 from collections import Counter
 
-import pandas as pd
 
-from lowork.config import company_dir
+from lowork.config import ANALYSIS_LABELS, company_dir
 from lowork.dei_stance import DEI_STANCES, classify_stances, heuristic_stance
 from lowork.io import load_all_chunks, read_json, write_json
 
-ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
 
 # Registers are the pro-inclusion scale only (counter-programming lives on this
 # stance axis) — so `absent` is a weak hint: it covers both true neutral and

@@ -8,6 +8,26 @@ from pathlib import Path
 from typing import Iterable, Iterator
 
 
+def load_hand_labels(path: Path, column: str, *, missing_ok: bool = True):
+    """Hand-label CSV -> DataFrame of rows where `column` is filled (stripped).
+
+    missing_ok=True returns an empty frame when the CSV doesn't exist (labeling
+    is optional at classify time); missing_ok=False fails loud (agreement
+    reports need the sample to exist).
+    """
+    import pandas as pd
+
+    path = Path(path)
+    if not path.exists():
+        if missing_ok:
+            return pd.DataFrame(columns=[column])
+        raise SystemExit(f"{path} not found — run the sampler for this task first")
+    df = pd.read_csv(path, dtype={column: "string"}).dropna(subset=[column])
+    df = df[df[column].str.strip() != ""].copy()
+    df[column] = df[column].str.strip()
+    return df
+
+
 def read_jsonl(path: Path) -> Iterator[dict]:
     with path.open() as f:
         for line in f:

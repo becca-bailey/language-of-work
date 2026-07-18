@@ -160,20 +160,6 @@ def select_per_year(captures: list[Capture], per_year: int = 4) -> dict[int, lis
     return selected
 
 
-def representative_capture(captures: list[Capture]) -> Capture | None:
-    """Pick one capture to probe a pattern's content signal.
-
-    Uses the median-timestamp capture, not the most recent: era-limited paths
-    (e.g. facebook.com/careers/ that died at the SPA migration) often have a
-    dead redirect/shell as their latest capture while the path was content-rich
-    mid-life. The median samples the path in its prime.
-    """
-    if not captures:
-        return None
-    ordered = sorted(captures, key=lambda c: c.timestamp)
-    return ordered[len(ordered) // 2]
-
-
 def fetch_raw_text(client: httpx.Client, cap: Capture) -> str | None:
     """Fetch a capture's original bytes as decoded text, without writing to disk.
 

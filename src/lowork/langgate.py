@@ -11,6 +11,10 @@ everything. This gate drops a chunk only on strong evidence:
 
 Ties and low-signal text (job-title lists, terse English) stay IN — false
 drops are worse than the odd straggler, which the M4 mission review catches.
+
+NOTE: `text_filter.is_english` is a DIFFERENT, deliberate implementation
+(ascii-ratio + langdetect) used at scoring time; this one gates extraction.
+Same name, different tradeoffs — don't swap one for the other.
 """
 
 from __future__ import annotations

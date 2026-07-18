@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Step 4b/6: build axis vectors from curated YAML + run the circularity check.
+"""Build axis vectors from curated YAML + run the circularity check.
 
 Axis vector = mean(pole A embeddings) - mean(pole B embeddings), normalized.
 Writes axes/built/<name>.json (sentences + vector + model version — versioned,

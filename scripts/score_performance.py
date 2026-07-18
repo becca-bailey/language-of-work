@@ -12,18 +12,12 @@ import argparse
 import numpy as np
 import pandas as pd
 
-from lowork.axes import project, topk_mean
-from lowork.config import AXES_DIR, TOP_K, company_dir
-from lowork.io import read_json, write_json
+from lowork.axes import load_built_vector, project, topk_mean
+from lowork.config import ANALYSIS_LABELS, TOP_K, company_dir
+from lowork.io import write_json
 
 PRESENCE_THRESHOLD = 0.25
-ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
 INVESTOR_LABEL = "investor_filing"
-
-
-def load_pole_vector(name: str) -> np.ndarray:
-    built = read_json(AXES_DIR / "built" / f"{name}.json")
-    return np.asarray(built["vector"], dtype=np.float32)
 
 
 def score_corpus(
@@ -66,7 +60,7 @@ def score_corpus(
 
 def main(company: str) -> None:
     cdir = company_dir(company)
-    perf_vec = load_pole_vector("performance")
+    perf_vec = load_built_vector("performance")
     all_rows: list[dict] = []
     all_evidence: dict[str, dict] = {"careers": {}, "investor": {}}
 

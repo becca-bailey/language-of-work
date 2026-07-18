@@ -9,7 +9,14 @@ from pathlib import Path
 import numpy as np
 import yaml
 
+from .config import AXES_DIR
 from .embeddings import EmbeddingStore
+from .io import read_json
+
+
+def load_built_vector(name: str) -> np.ndarray:
+    """Load a built axis/pole vector from axes/built/<name>.json."""
+    return np.asarray(read_json(AXES_DIR / "built" / f"{name}.json")["vector"], dtype=np.float32)
 
 
 @dataclass

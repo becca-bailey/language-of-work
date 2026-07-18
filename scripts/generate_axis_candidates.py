@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Step 4a: generate candidate axis sentences for hand-curation (manual step M5).
+"""Generate candidate axis sentences for hand-curation (manual step M5).
 
 For each pole of each axis YAML, asks the judge-class LLM for 15-20 candidate
 sentences in careers-page voice. Output goes to axes/candidates/<axis>.md for

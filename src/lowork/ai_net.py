@@ -28,7 +28,3 @@ def find_ai_terms(text: str) -> list[str]:
     terms = [m.group(0) for m in AI_ACRONYM_PATTERN.finditer(text)]
     terms += [m.group(0).lower().replace("-", " ") for m in AI_PHRASE_PATTERN.finditer(text)]
     return terms
-
-
-def has_ai_mention(text: str) -> bool:
-    return bool(AI_ACRONYM_PATTERN.search(text) or AI_PHRASE_PATTERN.search(text))

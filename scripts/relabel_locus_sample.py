@@ -18,7 +18,7 @@ import json
 
 from anthropic import Anthropic
 
-from lowork.benefits_extract import CATEGORIES, LOCI, SPECIFICITIES, SYSTEM_PROMPT
+from lowork.benefits_extract import LOCI, SPECIFICITIES, SYSTEM_PROMPT
 from lowork.config import DATA_DIR, JUDGE_MODEL
 
 # Reuse the exact codebook rules from the extractor prompt, but reframe the task as

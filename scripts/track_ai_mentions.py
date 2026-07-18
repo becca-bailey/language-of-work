@@ -15,14 +15,9 @@ import argparse
 from collections import Counter, defaultdict
 
 from lowork.ai_net import find_ai_terms
-from lowork.config import company_dir
+from lowork.config import CONTENT_LABELS, company_dir
 from lowork.io import load_all_chunks, read_json, write_json
 
-# Labels whose chunks carry real prose; chrome and legal text would inflate
-# denominators without carrying company voice.
-CONTENT_LABELS = {
-    "mission_brand", "employee_story", "job_listing", "benefits_perks", "process_logistics",
-}
 THIN_CHUNKS = 5  # fewer content chunks than this in a year -> thin flag
 MAX_EXAMPLES_PER_YEAR = 3
 

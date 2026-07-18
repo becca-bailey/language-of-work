@@ -14,7 +14,6 @@ load_dotenv()
 ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "data"
 AXES_DIR = ROOT / "axes"
-DOCS_DIR = ROOT / "docs"
 # Web-facing JSON the export scripts emit and the Astro site reads at build
 # time. Lives inside the Astro project so the whole site deploys from `astro/`.
 WEB_DATA_DIR = ROOT / "astro" / "src" / "data"
@@ -29,6 +28,17 @@ CLASSIFIER_MODEL = "claude-haiku-4-5-20251001"
 # hand-labeled sample (2026-07), so it's the default for cost and speed.
 REGISTER_MODEL = "claude-haiku-4-5-20251001"
 JUDGE_MODEL = "claude-sonnet-4-5-20250929"
+
+# Chunk-label gates shared across scripts. ANALYSIS_LABELS is the corpus every
+# axis/DEI/performance analysis runs on. CONTENT_LABELS is the wider prose gate
+# for the AI trackers (job_listing included for the talk-vs-hire contrast).
+# BENEFITS_LABELS is the benefits-enumeration scan set. These are distinct
+# gates by design — never merge them.
+ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
+CONTENT_LABELS = {
+    "mission_brand", "employee_story", "job_listing", "benefits_perks", "process_logistics",
+}
+BENEFITS_LABELS = {"benefits_perks", "job_listing"}
 
 # Chunking targets
 CHUNK_MIN_WORDS = 50

@@ -25,7 +25,7 @@ import pandas as pd
 
 from lowork.classify import agreement_report
 from lowork.config import DATA_DIR
-from lowork.io import read_json, write_json
+from lowork.io import load_hand_labels as _hand_label_rows, read_json, write_json
 
 TASKS = {
     "register": {
@@ -44,14 +44,12 @@ TASKS = {
 
 
 def load_hand_labels(sample: str, column: str) -> pd.DataFrame:
-    path = DATA_DIR / "dei_labels" / sample
-    if not path.exists():
-        raise SystemExit(f"{path} not found — run the sampler for this task first")
-    df = pd.read_csv(path, dtype={column: "string"}).dropna(subset=[column])
-    df = df[df[column].str.strip() != ""]
-    df[column] = df[column].str.strip()
+    df = _hand_label_rows(DATA_DIR / "dei_labels" / sample, column, missing_ok=False)
     if df.empty:
-        raise SystemExit(f"No hand labels in {path} yet — fill in the `{column}` column")
+        raise SystemExit(
+            f"No hand labels in {DATA_DIR / 'dei_labels' / sample} yet — "
+            f"fill in the `{column}` column"
+        )
     return df
 
 

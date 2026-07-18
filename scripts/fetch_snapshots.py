@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Step 1: query the Wayback CDX API and download raw careers-page HTML.
+"""Query the Wayback CDX API and download raw careers-page HTML.
 
 Subcommands:
   discover  CDX capture counts per pattern/year -> data/<company>/discovery_report.md

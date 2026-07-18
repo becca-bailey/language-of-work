@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Export multi-company story JSON for the Next.js story pages."""
+"""Export multi-company story JSON for the Astro story pages."""
 
 from __future__ import annotations
 
@@ -13,21 +13,14 @@ import numpy as np
 import pandas as pd
 
 from lowork.company import CompanyProfile
-from lowork.config import WEB_DATA_DIR, DATA_DIR, ROOT, TOP_K, company_dir, load_companies
-from lowork.dei import DEI_REGISTERS
+from lowork.config import BENEFITS_LABELS, WEB_DATA_DIR, DATA_DIR, TOP_K, company_dir, load_companies
+from lowork.dei import ACTIVE_DEI_REGISTERS, DEI_REGISTERS
 from lowork.dei_stance import COUNTER_DEI_STANCES
 from lowork.io import read_json, write_json
 
 STORY_COMPANIES = load_companies()
 INVESTOR_COVERAGE_START = 2020
 
-# Registers that signal active DEI language (pro-inclusion stance)
-ACTIVE_DEI_REGISTERS = [
-    "explicit_demographic",
-    "structural_process",
-    "aspirational_vague",
-    "belonging_culture",
-]
 
 
 def _year_rows(df: pd.DataFrame, fraction_col: str, mean_col: str) -> list[dict]:
@@ -864,7 +857,7 @@ def export_altruism(companies: list[str]) -> None:
 
 # ── Well-being story datasets (H1 concession + locus divergence + GitLab flow) ──
 
-_WB_BEN_LABELS = {"benefits_perks", "job_listing"}
+_WB_BEN_LABELS = BENEFITS_LABELS
 _WB_MH = re.compile(r"mental health|well[- ]?being|wellness|therapy|counsel|meditation|"
                     r"headspace|\bEAP\b|burnout", re.I)
 _WB_FAM = re.compile(r"parental leave|maternity|paternity|childcare|child care|adoption|"

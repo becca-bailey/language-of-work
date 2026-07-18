@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Step 3b: classify all chunks with pinned Haiku; report agreement vs hand labels.
+"""Classify all chunks with pinned Haiku; report agreement vs hand labels.
 
 Workflow: first run with --validate-only to check agreement on the hand-labeled
 sample (M3). Iterate the prompt in src/lowork/classify.py until accuracy ~0.90,
@@ -13,21 +13,16 @@ from __future__ import annotations
 
 import argparse
 
-import pandas as pd
 
 from lowork.classify import agreement_report, classify_chunks
 from lowork.config import company_dir
-from lowork.io import load_all_chunks, read_json, write_json
+from lowork.io import load_all_chunks, load_hand_labels as _hand_label_rows, read_json, write_json
 from lowork.relabel import apply_relabel_heuristics
 
 
 def load_hand_labels(cdir) -> dict[str, str]:
-    path = cdir / "labels" / "sample.csv"
-    if not path.exists():
-        return {}
-    df = pd.read_csv(path, dtype={"label": "string"}).dropna(subset=["label"])
-    df = df[df["label"].str.strip() != ""]
-    return dict(zip(df["chunk_id"], df["label"].str.strip()))
+    df = _hand_label_rows(cdir / "labels" / "sample.csv", "label")
+    return dict(zip(df["chunk_id"], df["label"]))
 
 
 def write_label_review(

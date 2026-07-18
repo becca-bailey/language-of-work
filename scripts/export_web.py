@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Step 9b: export sentence-level pipeline output for the Next.js frontend.
+"""Export altruism-story pipeline output + cross-company fingerprints for the Astro frontend.
 
 Writes astro/src/data/<company>/<axis>.json — one year series per axis,
 sentence-level only (the default analysis granularity).
@@ -12,7 +12,7 @@ import argparse
 import pandas as pd
 
 from lowork.company import CompanyProfile
-from lowork.config import WEB_DATA_DIR, ROOT, TOP_K, company_dir
+from lowork.config import WEB_DATA_DIR, TOP_K, company_dir
 from lowork.io import read_json, write_json
 
 LEVEL = "sentence"

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Step 7: project mission chunks/sentences onto axes, aggregate per year, z-score.
+"""Project mission chunks/sentences onto axes, aggregate per year, z-score.
 
 - Chunk level (default): signed projection of each mission_brand chunk
 - Sentence level: split mission chunks into sentences, project each, top-k
@@ -17,11 +17,11 @@ import hashlib
 import numpy as np
 import pandas as pd
 
-from lowork.axes import near_duplicates, project, topk_mean, zscore
+from lowork.axes import load_built_vector, near_duplicates, project, topk_mean, zscore
 from lowork.chunking import dedup_chunks
-from lowork.config import AXES_DIR, EMBEDDING_MODEL, NEAR_DUP_COSINE, TOP_K, company_dir
+from lowork.config import EMBEDDING_MODEL, NEAR_DUP_COSINE, TOP_K, company_dir
 from lowork.embeddings import EmbeddingStore
-from lowork.io import read_json, write_json
+from lowork.io import write_json
 from lowork.sentences import split_sentences
 
 
@@ -46,8 +46,7 @@ def score_chunk_level(mission: pd.DataFrame, axis_names: list[str]) -> tuple[pd.
     quotes: dict[str, dict[str, dict]] = {}  # axis -> level -> year -> quotes
 
     for name in axis_names:
-        built = read_json(AXES_DIR / "built" / f"{name}.json")
-        axis_vec = np.asarray(built["vector"], dtype=np.float32)
+        axis_vec = load_built_vector(name)
         scores = project(embeddings, axis_vec)
         mission = mission.copy()
         mission[f"score_{name}"] = scores
@@ -58,7 +57,7 @@ def score_chunk_level(mission: pd.DataFrame, axis_names: list[str]) -> tuple[pd.
             mean, k_used, top_idx = topk_mean(group[f"score_{name}"].to_numpy(), TOP_K)
             top_chunks = group.iloc[top_idx]
             quotes[name]["chunk"][str(year)] = [
-                {"text": r["text"], "heading": r["heading"],
+                {"text": str(r["text"])[:400], "heading": r["heading"],
                  "score": round(float(r[f"score_{name}"]), 4)}
                 for _, r in top_chunks.iterrows()
             ]
@@ -107,8 +106,7 @@ def score_sentence_level(mission: pd.DataFrame, axis_names: list[str]) -> tuple[
     rows = []
     quotes: dict[str, dict[str, dict]] = {}
     for name in axis_names:
-        built = read_json(AXES_DIR / "built" / f"{name}.json")
-        axis_vec = np.asarray(built["vector"], dtype=np.float32)
+        axis_vec = load_built_vector(name)
         scores = project(np.stack(sent_df["embedding"].tolist()), axis_vec)
         sent_df[f"score_{name}"] = scores
 
@@ -118,7 +116,7 @@ def score_sentence_level(mission: pd.DataFrame, axis_names: list[str]) -> tuple[
             mean, k_used, top_idx = topk_mean(group[f"score_{name}"].to_numpy(), TOP_K)
             top = group.iloc[top_idx]
             quotes[name]["sentence"][str(year)] = [
-                {"text": r["text"], "heading": r["heading"],
+                {"text": str(r["text"])[:400], "heading": r["heading"],
                  "score": round(float(r[f"score_{name}"]), 4)}
                 for _, r in top.iterrows()
             ]
@@ -144,9 +142,9 @@ def main(
     df = pd.read_parquet(cdir / "embeddings.parquet")
     mission = df[df["label"] == "mission_brand"]
     # Optional register/subtype filters (default off, so DEI-study companies are
-    # unchanged). Project 3 uses these to score one consistent register — e.g. the
-    # Menlo canon (firm, excluding subtype=blog) so the timeline reflects changing
-    # idealism, not a changing voice.
+    # unchanged). Case-study corpora use these to score one consistent register —
+    # e.g. the Automattic canon (firm, excluding subtype=blog) so the timeline
+    # reflects changing idealism, not a changing voice.
     if register is not None and "register" in mission.columns:
         mission = mission[mission["register"] == register]
     if exclude_subtype is not None and "subtype" in mission.columns:

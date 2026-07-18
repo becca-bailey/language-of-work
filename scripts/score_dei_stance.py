@@ -11,18 +11,12 @@ import argparse
 import numpy as np
 import pandas as pd
 
-from lowork.axes import project, topk_mean
+from lowork.axes import load_built_vector, project, topk_mean
 from lowork.chunking import dedup_chunks
-from lowork.config import AXES_DIR, TOP_K, company_dir
+from lowork.config import ANALYSIS_LABELS, TOP_K, company_dir
 from lowork.io import read_json, write_json
 from lowork.text_filter import is_english
 
-ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
-
-
-def load_axis_vector(name: str) -> np.ndarray:
-    built = read_json(AXES_DIR / "built" / f"{name}.json")
-    return np.asarray(built["vector"], dtype=np.float32)
 
 
 def _quote_row(row: pd.Series) -> dict:
@@ -40,7 +34,7 @@ def main(company: str) -> None:
     df = pd.read_parquet(cdir / "embeddings.parquet")
     mission = df[df["label"].isin(ANALYSIS_LABELS)].copy()
     registers = read_json(cdir / "dei_registers.json")
-    stance_vec = load_axis_vector("dei_stance")
+    stance_vec = load_built_vector("dei_stance")
 
     embeddings = np.stack(mission["embedding"].tolist())
     mission["dei_stance"] = project(embeddings, stance_vec)

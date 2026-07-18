@@ -23,6 +23,7 @@ from __future__ import annotations
 import pandas as pd
 
 from lowork.company import CompanyProfile
+from lowork.dei import ACTIVE_DEI_REGISTERS as _ACTIVE_DEI
 from lowork.config import WEB_DATA_DIR, ROOT, company_dir, load_companies
 from lowork.io import read_json, write_json
 
@@ -79,7 +80,6 @@ def _per_company_from_story(companies: list[dict], field: str) -> dict[str, dict
 
 
 # Active (pro-inclusion) DEI registers — must match StoryRegisterChart.
-_ACTIVE_DEI = ("explicit_demographic", "structural_process", "aspirational_vague", "belonging_culture")
 
 
 def _dei_active_share() -> dict[str, dict[int, float]]:

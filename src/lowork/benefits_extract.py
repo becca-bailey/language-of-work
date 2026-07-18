@@ -42,6 +42,8 @@ CATEGORIES = [
     "other",
 ]
 LOCI = ["individual", "structural", "ambiguous"]
+# Hand-review sheets add "exclude" (item shouldn't have been extracted at all).
+LOCUS_REVIEW_VALUES = [*LOCI, "exclude"]
 SPECIFICITIES = ["enumerated_number", "named_no_number", "generic"]
 
 BATCH_SIZE = 10  # chunks per call; each may yield several items

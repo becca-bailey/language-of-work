@@ -23,10 +23,9 @@ from typing import Callable
 
 import yaml
 
-from .config import ROOT, WEB_DATA_DIR, company_dir
+from .config import ANALYSIS_LABELS, ROOT, WEB_DATA_DIR, company_dir
 from .io import load_all_chunks, read_json, write_json
 
-ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
 
 CONFIG_PATH = ROOT / "pipeline.yaml"
 STATE_PATH = ROOT / "data" / ".pipeline_state.json"
@@ -235,15 +234,15 @@ STAGES: list[Stage] = [
           inputs=("dei_scores.parquet", "dei_stance_scores.parquet", "dei_phrases.json"),
           outputs=("repo:astro/src/data/stories/dei.json",),
           depends=("score_dei", "score_dei_stance", "track_dei_phrases")),
-    # Wellbeing is a story axis (dataset exported cross-company) but has no MDX
-    # story page yet; scoring rides on score_axes via FINGERPRINT_AXES.
+    # Wellbeing is a story axis (dataset exported cross-company; read by
+    # wellbeing.mdx); scoring rides on score_axes via FINGERPRINT_AXES.
     Stage("export_story_wellbeing", lambda comps: _call("export_story_web", "wellbeing", comps),
           Scope.GLOBAL, ("wellbeing",),
           inputs=("axis_scores.parquet",),
           outputs=("repo:astro/src/data/stories/wellbeing.json",),
           depends=("score_axes",)),
-    # AI is a story axis like wellbeing (dataset exported cross-company, no MDX
-    # story page yet).
+    # AI is a story axis like wellbeing (dataset exported cross-company;
+    # surfaced via the craft-ai story page).
     Stage("export_story_ai", lambda comps: _call("export_ai_web", None, True),
           Scope.GLOBAL, ("ai",),
           inputs=("ai_mentions.json", "ai_language_scores.parquet"),

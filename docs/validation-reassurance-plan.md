@@ -3,7 +3,7 @@
 Follow-on to the validation overhaul (see [labeling-todo.md](labeling-todo.md)).
 That workstream measures classifier agreement; this one closes the remaining
 "we think it's right" gaps in categorization that no α number covers. **Do not
-start until the hand-labeling backlog is done** (170 chunk rows + 100 stance
+start until the hand-labeling backlog is done** (160 chunk rows + 100 stance
 rows) — Phase 0 consumes its outputs.
 
 Each step is **command → artifact → gate → branch**. Gate reads are recorded in
@@ -20,7 +20,7 @@ except the tournament parameterization in Phase 1.
 ## Phase 0 — Close out the labeling gates (prerequisite, already specified)
 
 1. `python scripts/report_chunk_agreement.py` → `data/chunk_label_agreement.json`.
-   **Gate:** overall α and per-company α for the 14 newly-labeled companies
+   **Gate:** overall α and per-company α for the 13 newly-labeled companies
    (Google especially — largest corpus, previously unvalidated).
    **Branch:** if a company's α is materially below the pooled 0.882, treat it
    as a per-company prompt/corpus problem (inspect its disagreements before any
@@ -37,7 +37,7 @@ except the tournament parameterization in Phase 1.
 
 ## Phase 1 — Extend the LLM tournament beyond altruism (the only code phase)
 
-The pairwise-tournament cross-check in [validate.py](../scripts/validate.py)
+The pairwise-tournament cross-check in [validate_altruism_axes.py](../scripts/validate_altruism_axes.py)
 (`tournament`, `embedding_vs_llm`, `early_year_agreement`) hardcodes
 `"altruism"`. `quotes_text()` already takes an axis parameter and
 `evidence_quotes.json` already contains quotes for **all nine scored axes**, so
@@ -45,7 +45,7 @@ this is parameter-threading, not new machinery.
 
 Build:
 
-- Add an `AXIS_TOURNAMENTS` table to validate.py: `{axis: question_text}`.
+- Add an `AXIS_TOURNAMENTS` table to validate_altruism_axes.py: `{axis: question_text}`.
   Each axis needs its own `TOURNAMENT_QUESTION` phrasing (the judge question
   must name the concept without leaking the axis's pole phrases — same
   circularity discipline as axis construction). Start with:

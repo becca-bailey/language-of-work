@@ -15,24 +15,19 @@ from __future__ import annotations
 
 import argparse
 
-import pandas as pd
 
-from lowork.config import company_dir
-from lowork.dei import DEI_REGISTERS, agreement_report, classify_registers, heuristic_register
-from lowork.io import load_all_chunks, read_json, write_json
+from lowork.config import ANALYSIS_LABELS, company_dir
+from lowork.classify import agreement_report
+from lowork.dei import DEI_REGISTERS, classify_registers, heuristic_register
+from lowork.io import load_all_chunks, load_hand_labels as _hand_label_rows, read_json, write_json
 
-ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
 
 
 def load_hand_labels() -> dict[str, str]:
     from lowork.config import DATA_DIR
 
-    path = DATA_DIR / "dei_labels" / "sample.csv"
-    if not path.exists():
-        return {}
-    df = pd.read_csv(path, dtype={"register": "string"}).dropna(subset=["register"])
-    df = df[df["register"].str.strip() != ""]
-    return dict(zip(df["chunk_id"], df["register"].str.strip()))
+    df = _hand_label_rows(DATA_DIR / "dei_labels" / "sample.csv", "register")
+    return dict(zip(df["chunk_id"], df["register"]))
 
 
 def apply_overrides(cdir, predictions: dict[str, str]) -> dict[str, str]:

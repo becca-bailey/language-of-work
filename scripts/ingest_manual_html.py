@@ -19,7 +19,6 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-from pathlib import Path
 
 from lowork.config import company_dir
 from lowork.io import read_json, write_json

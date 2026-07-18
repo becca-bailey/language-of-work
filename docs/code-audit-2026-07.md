@@ -1,8 +1,17 @@
 # Code audit — quality, repetition, naming, dead code (2026-07-17)
 
-Findings only; nothing here has been changed. Three sweeps (duplication, naming
-accuracy, unused code) plus git housekeeping, consolidated and ranked. Items
-marked ✓ were independently re-verified, not just reported.
+Three sweeps (duplication, naming accuracy, unused code) plus git housekeeping,
+consolidated and ranked. Items marked ✓ were independently re-verified, not
+just reported.
+
+**Status 2026-07-17 (same day):** sections 1–3 applied in full, §4 items 1–8
+applied, plus the validate.py rename (to `validate_altruism_axes.py`) and full
+Menlo corpus/reference removal. Note: score_axes.py turned out to be the real
+untruncated quote producer (the ~8 scorer copies attribution below was partly
+wrong) — fixed there too, so evidence_quotes.json text will cap at 400 chars
+on the next score run. Still open: §5 larger refactors, the `"dei"` label-set
+key rename in embed_chunks/pipeline, and the export_ai_web manifest question
+(checked: astro derives axes from data files, so not a live bug).
 
 ---
 
@@ -34,7 +43,7 @@ that were meant to be the same.
 
 ## 2. Fix soon — actively misleading names/docs
 
-1. ✓ **`validate.py` name collision.** [scripts/validate.py](../scripts/validate.py)
+1. ✓ **`validate.py` name collision.** [scripts/validate_altruism_axes.py](../scripts/validate_altruism_axes.py)
    docstring says "Step 8: validation", but it is not a DAG stage at all — and
    `scripts/pipeline.py validate` is a *different* tool (config/coverage
    assertions in `src/lowork/pipeline.py::validate`). A newcomer running
@@ -83,7 +92,7 @@ reference; date = last touch):
 | `scripts/explore_sources.py` | 2026-06-24 | Menlo explorer (story removed 06-29) |
 | `scripts/fetch_filings.py` | 2026-06-10 | zero references anywhere |
 | `scripts/track_netflix_evolution.py` | 2026-06-26 | superseded by track_culture_propagation |
-| `scripts/validate_dei.py` | 2026-06-10 | superseded by validate.py + report_dei_agreement |
+| `scripts/validate_dei.py` | 2026-06-10 | superseded by validate_altruism_axes.py + report_dei_agreement |
 
 **Dead symbols:** `lowork/ai_net.py::has_ai_mention` (live one is
 `find_ai_terms`); `lowork/wayback.py::representative_capture`; ✓

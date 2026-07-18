@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Step 2: extract and chunk archived HTML; log per-snapshot coverage.
+"""Extract and chunk archived HTML; log per-snapshot coverage.
 
 Reads data/<company>/snapshots.json + raw_html/, writes chunks/{year}.jsonl
 and coverage stats back into the manifest. Thin snapshots get flagged, not

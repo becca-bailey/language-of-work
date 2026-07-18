@@ -22,17 +22,14 @@ import hashlib
 import numpy as np
 import pandas as pd
 
-from lowork.axes import project, topk_mean, zscore
-from lowork.config import AXES_DIR, EMBEDDING_MODEL, TOP_K, company_dir
+from lowork.axes import load_built_vector, project, topk_mean, zscore
+from lowork.config import EMBEDDING_MODEL, TOP_K, company_dir
 from lowork.embeddings import EmbeddingStore
-from lowork.io import read_json, write_json
+from lowork.io import write_json
 from lowork.sentences import split_sentences
 
 TECHNO_THRESHOLD = 0.0  # techno projection > 0 = product-hype, not world-betterment
 
-
-def load_vec(name: str) -> np.ndarray:
-    return np.asarray(read_json(AXES_DIR / "built" / f"{name}.json")["vector"], dtype=np.float32)
 
 
 def sentence_frame(company: str) -> pd.DataFrame:
@@ -49,8 +46,8 @@ def sentence_frame(company: str) -> pd.DataFrame:
                          "heading": r.get("heading", ""), "text": sent})
     sdf = pd.DataFrame(rows).drop_duplicates(subset=["year", "text"]).reset_index(drop=True)
     embs = store.embed(sdf["text"].tolist())
-    sdf["alt"] = project(np.stack(embs), load_vec("altruism"))
-    sdf["techno"] = project(np.stack(embs), load_vec("techno_optimism"))
+    sdf["alt"] = project(np.stack(embs), load_built_vector("altruism"))
+    sdf["techno"] = project(np.stack(embs), load_built_vector("techno_optimism"))
     sdf["model"] = EMBEDDING_MODEL
     return sdf
 
@@ -82,12 +79,12 @@ def main(company: str) -> None:
         if len(w_idx):
             top = world.iloc[w_idx]
             quotes["worldChanging"][str(int(year))] = [
-                {"text": r["text"], "heading": r["heading"], "score": round(float(r["alt"]), 4)}
+                {"text": str(r["text"])[:400], "heading": r["heading"], "score": round(float(r["alt"]), 4)}
                 for _, r in top.iterrows()]
         if len(t_idx):
             top = techno.iloc[t_idx]
             quotes["technoOptimism"][str(int(year))] = [
-                {"text": r["text"], "heading": r["heading"], "score": round(float(r["techno"]), 4)}
+                {"text": str(r["text"])[:400], "heading": r["heading"], "score": round(float(r["techno"]), 4)}
                 for _, r in top.iterrows()]
 
     out = pd.DataFrame(rows).sort_values("year")

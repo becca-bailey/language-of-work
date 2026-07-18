@@ -23,14 +23,11 @@ import numpy as np
 import pandas as pd
 
 from lowork.ai_net import find_ai_terms
-from lowork.axes import project
-from lowork.config import AXES_DIR, company_dir
+from lowork.axes import load_built_vector, project
+from lowork.config import CONTENT_LABELS, company_dir
 from lowork.embeddings import EmbeddingStore
 from lowork.io import load_all_chunks, read_json, write_json
 
-CONTENT_LABELS = {
-    "mission_brand", "employee_story", "job_listing", "benefits_perks", "process_logistics",
-}
 # talk = company-voice copy about itself; hire = role/team-attached copy.
 REGISTER_GROUPS = {
     "mission_brand": "talk", "employee_story": "talk",
@@ -45,8 +42,7 @@ def main(company: str) -> None:
     cdir = company_dir(company)
     chunks = load_all_chunks(cdir / "chunks")
     classifications = read_json(cdir / "classifications.json")
-    built = read_json(AXES_DIR / "built" / "ai_tool_mandate.json")
-    axis_vec = np.asarray(built["vector"], dtype=np.float32)
+    axis_vec = load_built_vector("ai_tool_mandate")
 
     seen: set[tuple[int, str]] = set()
     gated: list[dict] = []

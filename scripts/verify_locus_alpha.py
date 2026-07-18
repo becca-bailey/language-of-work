@@ -18,11 +18,12 @@ from collections import Counter, defaultdict
 
 import krippendorff
 
+from lowork.benefits_extract import LOCUS_REVIEW_VALUES
 from lowork.config import DATA_DIR
 
 HARD_CATEGORIES = {"remote_flexibility", "parental_leave", "pto_accrued",
                    "pto_unlimited", "sabbatical", "other"}
-LABELS = ["individual", "structural", "ambiguous", "exclude"]
+LABELS = LOCUS_REVIEW_VALUES
 
 
 def load_pairs():

@@ -16,11 +16,11 @@ from __future__ import annotations
 import re
 from collections import defaultdict
 
-from lowork.config import WEB_DATA_DIR, ROOT, company_dir, load_companies
+from lowork.config import BENEFITS_LABELS, WEB_DATA_DIR, ROOT, company_dir, load_companies
 from lowork.io import read_json, load_all_chunks, write_json
 
 COMPANIES = load_companies()
-SCAN_LABELS = {"job_listing", "benefits_perks"}
+SCAN_LABELS = BENEFITS_LABELS
 START_YEAR = 2011
 
 # (id, label, deiSignal, pattern)
@@ -28,7 +28,7 @@ CATEGORIES = [
     ("health", "Health insurance", False,
      r"health(?:care)?|medical|dental|vision|\binsurance\b"),
     ("mental_health", "Mental health / wellness", False,
-     r"mental health|well[- ]?being|wellness|therapy|counsel|meditation|headspace|\bEAP\b"),
+     r"mental health|well[- ]?being|wellness|therapy|counsel|meditation|headspace|\bEAP\b|burnout"),
     ("fitness", "Fitness", False,
      r"\bgym\b|fitness|peloton|wellness stipend"),
     ("family_caregiving", "Family / caregiving", False,

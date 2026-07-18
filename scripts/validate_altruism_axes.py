@@ -1,5 +1,11 @@
 #!/usr/bin/env python
-"""Step 8: validation — ground truth, LLM cross-check, axis robustness.
+"""Axis validation — ground truth, LLM cross-check, axis robustness.
+
+Altruism-only for now: the ground-truth peak check, LLM pairwise tournament,
+and perturbation test all run on the altruism axis (axis_separation_check is
+the exception — it compares axis pairs, currently craft vs performance).
+Not a pipeline stage; run manually per company. Distinct from
+`pipeline.py validate`, which asserts config/coverage invariants.
 
 Writes data/<company>/validation_report.md + validation.json (M6 review gate).
 """

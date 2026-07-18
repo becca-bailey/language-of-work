@@ -1,4 +1,9 @@
-"""Lightweight text filters for scoring pipelines."""
+"""Lightweight text filters for scoring pipelines.
+
+NOTE: `langgate.is_english` is a DIFFERENT, deliberate implementation
+(stopword-vote, no external deps) that gates chunk extraction; this one
+filters at scoring time. Same name, different tradeoffs — don't swap.
+"""
 
 from __future__ import annotations
 

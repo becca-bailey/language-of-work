@@ -7,15 +7,13 @@ import argparse
 import hashlib
 import re
 
-import numpy as np
 import pandas as pd
 
-from lowork.axes import project
-from lowork.config import AXES_DIR, company_dir
-from lowork.io import read_json, write_json
+from lowork.axes import load_built_vector, project
+from lowork.config import ANALYSIS_LABELS, company_dir
+from lowork.io import write_json
 from lowork.sentences import split_sentences
 
-ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
 SCORE_THRESHOLD = 0.30
 
 INCLUSION_TERM_PATTERN = re.compile(
@@ -32,11 +30,6 @@ CIVILIZATIONAL_PATTERNS: list[tuple[str, re.Pattern]] = [
     ("civilization", re.compile(r"\bcivilization(?:al)?\b", re.I)),
     ("warfighter", re.compile(r"\bwarfighters?\b", re.I)),
 ]
-
-
-def load_pole_vector(name: str) -> np.ndarray:
-    built = read_json(AXES_DIR / "built" / f"{name}.json")
-    return np.asarray(built["vector"], dtype=np.float32)
 
 
 def track_terms(
@@ -71,7 +64,7 @@ def main(company: str) -> None:
     cdir = company_dir(company)
     df = pd.read_parquet(cdir / "embeddings.parquet")
     mission = df[df["label"].isin(ANALYSIS_LABELS)]
-    inc_vec = load_pole_vector("inclusion")
+    inc_vec = load_built_vector("inclusion")
     store = EmbeddingStore()
 
     inclusion_terms: dict[str, dict] = {}

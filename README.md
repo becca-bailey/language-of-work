@@ -5,13 +5,14 @@ archived careers pages from the Wayback Machine and embedding-based semantic
 axes. See [docs/counterforces-thesis.md](docs/counterforces-thesis.md) for the
 guiding thesis, and the pipeline table below for the methodology.
 
-**Project 1: Careers Page Archaeology** — measures how ~11 tech companies'
-careers-page language shifts over time across several embedding-based semantic
-axes (idealism ↔ commercial pragmatism, DEI register, performance intensity),
-each with a neutral control axis. The findings are written up as data-driven
-stories (`astro/src/content/stories/`): altruism, dei, performance, power,
-benefits, culture-fit, and the Netflix culture study. New companies are added by
-dropping in a per-company profile — no new scripts.
+**Project 1: Careers Page Archaeology** — measures how 19 companies'
+careers-page language shifts over time across ten embedding-based semantic
+axes (idealism ↔ commercial pragmatism, DEI register, performance intensity,
+craft, wellbeing, and more), with a neutral control axis as a semantic control
+for altruism. The findings are written up as data-driven stories
+(`astro/src/content/stories/`): altruism, craft-ai, dei, power, wellbeing, and
+the Netflix culture study. New companies are added by dropping in a per-company
+profile — no new scripts.
 
 ## Setup
 
@@ -76,15 +77,15 @@ MANUAL GATE require human review before continuing.
 | 11 | `uv run scripts/embed_chunks.py` | Cache-first embeddings for analysis chunks |
 | 12 | `uv run scripts/build_axes.py` | Build axis vectors + circularity check |
 | 13 | `uv run scripts/score_axes.py` | Project, top-k aggregate, z-score, dedup analysis |
-| 14 | `uv run scripts/validate.py` | 2014 check, LLM tournament, perturbation test |
+| 14 | `uv run scripts/validate_altruism_axes.py` | 2014 check, LLM tournament, perturbation test |
 | 15 | — | MANUAL (M6): review `data/google/validation_report.md` |
 | 16 | `uv run scripts/export_web.py` | Export per-company JSON for the Astro frontend |
 | 17 | `cd astro && npm run dev` | Visualization at `/explore/altruism/google` or `/explore/altruism/compare` |
 
 Pass `--company <name>` on every script (defaults to `google`). After exporting
 two or more companies, the home page links to side-by-side comparison views.
-(The DEI / performance / power / benefits / culture-fit / netflix-culture stories
-have their own scorers and exporters; the orchestrator above runs the full set.)
+(The DEI / craft-ai / power / wellbeing / netflix-culture stories have their
+own scorers and exporters; the orchestrator above runs the full set.)
 
 ## Adding a new company
 
@@ -112,8 +113,8 @@ Workflow:
 4. **Export** — `uv run scripts/export_web.py --company <name>` updates
    `astro/src/data/companies.json` for the comparison view
 
-Per-company profiles for the full cohort (Google, Amazon, Meta, Palantir,
-Coinbase, Netflix, Shopify, Stripe, Airbnb, Brex, Snap) live under `data/<name>/`.
+Per-company profiles for the full cohort (the `companies:` list in
+`pipeline.yaml` — 19 companies as of 2026-07) live under `data/<name>/`.
 
 ## Layout
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Step 5: embed analysis chunks (mission_brand + benefits_perks) cache-first.
+"""Embed analysis chunks (mission_brand + benefits_perks) cache-first.
 
 Writes data/<company>/embeddings.parquet with the pinned model recorded on
 every row. The embedding cache guarantees no text is ever embedded twice.
@@ -11,13 +11,12 @@ import argparse
 
 import pandas as pd
 
-from lowork.config import EMBEDDING_MODEL, company_dir
+from lowork.config import ANALYSIS_LABELS, EMBEDDING_MODEL, company_dir
 from lowork.embeddings import EmbeddingStore
 from lowork.io import load_all_chunks, read_json
 
 # DEI (Project 2) analysis corpus
-DEI_ANALYSIS_LABELS = {"mission_brand", "benefits_perks"}
-LABEL_SETS = {"dei": DEI_ANALYSIS_LABELS}
+LABEL_SETS = {"dei": ANALYSIS_LABELS}
 
 
 def main(company: str, label_set: str) -> None:

@@ -29,10 +29,9 @@ from __future__ import annotations
 
 import pandas as pd
 
-from lowork.config import DATA_DIR, company_dir, load_companies
+from lowork.config import BENEFITS_LABELS, DATA_DIR, company_dir, load_companies
 from lowork.io import load_all_chunks, read_json
 
-BENEFITS_LABELS = {"benefits_perks", "job_listing"}
 WORD_FLOOR = 20          # a page below this yielded no real content
 PIVOT_YEAR = 2022        # substitution hypothesis boundary
 MIN_YEARS = 4            # >=4 distinct observed years
