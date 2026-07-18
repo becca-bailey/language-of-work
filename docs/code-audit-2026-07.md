@@ -166,8 +166,9 @@ Ordered by blast radius:
 
 - `fetch_power_proxies.py` — alive (feeds export_power_story stage).
 - `score_axes.py` `register`/`exclude_subtype` params — dead for the current
-  corpus but the manual escape hatch for the dormant Menlo/Automattic study;
-  keep while that study is dormant-not-deleted.
+  corpus but the manual escape hatch for any single-register case-study corpus
+  (the Menlo and Automattic studies that used them are now deleted); keep as a
+  generic mechanism.
 - `relabel.py::apply_relabel_heuristics` — alive only via relabel_locus_sample
   (docs-referenced); dies if that script goes.
 - Wellbeing/analysis one-off scripts (analyze_wellbeing, verify_locus_alpha,

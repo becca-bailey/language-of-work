@@ -15,8 +15,8 @@ re-running a source after a fix cleans out its old chunks (empty year files are
 deleted, not orphaned).
 
 Usage:
-  uv run scripts/fetch_case.py --case automattic --sources hn,books,reddit
-  uv run scripts/fetch_case.py --case automattic --sources hn,books
+  uv run scripts/fetch_case.py --case <case> --sources hn,books,reddit
+  uv run scripts/fetch_case.py --case <case> --sources hn,books
 """
 
 from __future__ import annotations

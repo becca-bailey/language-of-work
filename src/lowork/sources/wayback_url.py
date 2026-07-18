@@ -1,6 +1,6 @@
 """Longitudinal canon (firm register) via the Wayback **Availability API**.
 
-The canon — the Automattic Creed / about pages — is the spine of the case
+The canon — a firm's creed / about pages — is the spine of a case
 study: the drift analysis measures how much it changes (or doesn't) over time. This resolves
 *known* canon URLs (cfg["canon_urls"]) to their nearest archived snapshot per
 target year, then fetches the original bytes (id_ flag) and runs them through the

@@ -1,6 +1,6 @@
 # What holds a work culture in place — the counterforces thesis
 
-The project's spine. Automattic and the DEI/altruism/performance cohort are all
+The project's spine. The DEI/altruism/performance cohort are all
 instances of one claim:
 
 > A workplace culture does not stay good because leaders care about it. It stays good
@@ -94,8 +94,6 @@ interpretive layer.
 ## Where each case sits
 - **Cohort (Google/Amazon/Meta/…):** the rented gains — idealism/DEI rose and reverted
   with worker power.
-- **Automattic:** weaponization — codified values turned outward (mark enforcement) once
-  the asset was defensible.
 - **Netflix:** the *winning* model when the counterforce is gone. The 2009 deck's
   performance-filter culture ("a team, not a family," keeper test, fire-the-adequate) is
   precisely what leaders can adopt once a slack labor market removes workers' ability to

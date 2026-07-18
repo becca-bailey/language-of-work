@@ -143,7 +143,7 @@ def main(
     mission = df[df["label"] == "mission_brand"]
     # Optional register/subtype filters (default off, so DEI-study companies are
     # unchanged). Case-study corpora use these to score one consistent register —
-    # e.g. the Automattic canon (firm, excluding subtype=blog) so the timeline
+    # e.g. a firm's canon (firm register, excluding subtype=blog) so the timeline
     # reflects changing idealism, not a changing voice.
     if register is not None and "register" in mission.columns:
         mission = mission[mission["register"] == register]
