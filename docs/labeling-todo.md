@@ -3,7 +3,7 @@
 Status of the hand-labeling workstream at pause. Each CSV's last column is the
 label to fill in (blank = not yet labeled).
 
-## Remaining: chunk label samples (170 rows across 14 companies)
+## Remaining: chunk label samples (160 rows across 13 companies)
 
 - [ ] `data/amazon/labels/sample.csv` — 0/10
 - [ ] `data/basecamp/labels/sample.csv` — 0/10
@@ -11,7 +11,6 @@ label to fill in (blank = not yet labeled).
 - [ ] `data/github/labels/sample.csv` — 0/10
 - [ ] `data/gitlab/labels/sample.csv` — 0/10
 - [ ] `data/google/labels/sample.csv` — 0/30
-- [ ] `data/menlo/labels/sample.csv` — 0/10
 - [ ] `data/meta/labels/sample.csv` — 0/10
 - [ ] `data/netflix/labels/sample.csv` — 0/10
 - [ ] `data/palantir/labels/sample.csv` — 0/10

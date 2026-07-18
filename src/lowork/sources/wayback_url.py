@@ -1,7 +1,7 @@
 """Longitudinal canon (firm register) via the Wayback **Availability API**.
 
-The canon — the Automattic Creed, the Menlo Way / about pages — is the spine of
-the study: H3/H5 measure how much it drifts (or doesn't) over time. This resolves
+The canon — the Automattic Creed / about pages — is the spine of the case
+study: the drift analysis measures how much it changes (or doesn't) over time. This resolves
 *known* canon URLs (cfg["canon_urls"]) to their nearest archived snapshot per
 target year, then fetches the original bytes (id_ flag) and runs them through the
 same `chunk_html` the rest of the pipeline uses, so canon text converges into the
@@ -11,7 +11,7 @@ Per-URL, cheap, retried — the resilient path (plan §0): the CDX domain sweep 
 out from this environment (290–485 s), while the Availability API answers per-URL
 in ~0.1 s. Snapshots are deduped by resolved timestamp, so target years that map to
 the same archived capture (nothing newer exists yet) collapse to one record set —
-which is itself the "canon unchanged across these years" signal H3 wants.
+which is itself the "canon unchanged across these years" signal the drift analysis wants.
 """
 
 from __future__ import annotations

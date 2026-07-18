@@ -1,6 +1,6 @@
 # What holds a work culture in place — the counterforces thesis
 
-The project's spine. Menlo, Automattic, and the DEI/altruism/performance cohort are all
+The project's spine. Automattic and the DEI/altruism/performance cohort are all
 instances of one claim:
 
 > A workplace culture does not stay good because leaders care about it. It stays good
@@ -48,7 +48,7 @@ When workers couldn't walk, the language reverted.
 **The bet's error:** that *intentions + programs* (DEI metrics, committees, culture work,
 "happiness" as a value, codified Ways) could *lock in* good culture. They couldn't —
 they were downstream of labor-market power, not a substitute for it. We built the
-**symptom** (programs, statements, "the Menlo Way") instead of the **cause** (durable
+**symptom** (programs, statements, codified Ways) instead of the **cause** (durable
 worker power). When the market turned, the programs were cut first.
 
 ---
@@ -61,9 +61,9 @@ By **durable counterforces**, not intentions:
    force workers control directly).
 2. **Competition for talent and reputation** — when leaving is easy and reputation is
    visible.
-3. **Owner/founder stake insulated from growth pressure** — Menlo (private, founder-led,
-   small, not chasing hypergrowth) *kept* its culture because no counterforce was eroding
-   — but for the same reason had no force to *export* it. Boutique, not a movement.
+3. **Owner/founder stake insulated from growth pressure** — a private, founder-led firm
+   not chasing hypergrowth can *keep* its culture because no counterforce is eroding it
+   — but for the same reason has no force to *export* it. Boutique, not a movement.
 4. **Regulation** — the floor when the others fail.
 
 Good culture is a *structural* outcome, not a moral one.
@@ -96,19 +96,14 @@ interpretive layer.
   with worker power.
 - **Automattic:** weaponization — codified values turned outward (mark enforcement) once
   the asset was defensible.
-- **Menlo:** the boutique exception — durable, flat idealism (every era mildly positive,
-  never collapsing), kept internally because insulated, but never propagated (no named
-  adopters; impact measured in tour visitors and book reach). Caring + broadcasting,
-  absent a counterforce, changes one workplace, not an industry.
 - **Netflix:** the *winning* model when the counterforce is gone. The 2009 deck's
   performance-filter culture ("a team, not a family," keeper test, fire-the-adequate) is
   precisely what leaders can adopt once a slack labor market removes workers' ability to
   push back — "we can cut you" presumes you can't easily walk. Its *canonical language*
   spread (narrowly verbatim to Coinbase; broadly by convergence), while the audit shows
   the objectivity it claims is rhetorical, not measured (7% claim merit, 0% define a
-  metric; Netflix even refuses rankings). Menlo is the model that couldn't export
-  goodness; Netflix is the model that *did* export the filter — the two poles of what
-  "codified culture" does once the holding force erodes. See
+  metric; Netflix even refuses rankings). Netflix is the model that *did* export the
+  filter — what "codified culture" does once the holding force erodes. See
   [netflix-culture-outline.md](netflix-culture-outline.md).
 
 ## Performance-culture as the counterforce-erosion endgame

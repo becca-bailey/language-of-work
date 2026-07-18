@@ -16,7 +16,7 @@ deleted, not orphaned).
 
 Usage:
   uv run scripts/fetch_case.py --case automattic --sources hn,books,reddit
-  uv run scripts/fetch_case.py --case menlo --sources hn,books
+  uv run scripts/fetch_case.py --case automattic --sources hn,books
 """
 
 from __future__ import annotations
@@ -148,7 +148,7 @@ def fetch_case(case: str, sources: list[str], client: httpx.Client) -> dict:
             "Worker-register text (hn/reddit) is community discussion-about (subtype=community), "
             "not verified first-person testimony — weight downstream, never a point estimate.",
             "Firm register spans book metadata (codification dates), longitudinal canon snapshots "
-            "(wayback), and the live present-day canon (live); tag the canon subset before H3/H5.",
+            "(wayback), and the live present-day canon (live); tag the canon subset before drift analysis.",
             "Counts/spans reflect the full on-disk corpus (merge-by-source), not just this run.",
             "Undated records (no resolvable year) are dropped from the timeline; see undated_dropped.",
         ],

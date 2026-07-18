@@ -1,7 +1,7 @@
 """Present-day canon (firm register) via live-site fetch + Trafilatura.
 
-Captures the canon as it exists *now* — the current Creed / Menlo Way / about
-pages — as the latest point on the canon timeline, complementing the archived
+Captures the canon as it exists *now* — the current Creed / about pages — as
+the latest point on the canon timeline, complementing the archived
 snapshots from `wayback_url`. Trafilatura strips nav/boilerplate to main content;
 the cleaned text is split into paragraph-sized chunks so the granularity is
 comparable to the DOM chunks the rest of the pipeline produces.

@@ -1,6 +1,6 @@
 # The objectivity audit — borrowed scoreboard, no score
 
-The thesis's measurable spine (mirrors Menlo's `impact_audit.md`). The sports/performance
+The thesis's measurable spine. The sports/performance
 metaphor _sounds_ objective ("high performers," "judged by outcomes," "raise the bar").
 Does anyone actually **define how performance is measured**? Scanned across all 11
 companies' careers/culture mission_brand text (cohort + adopters).

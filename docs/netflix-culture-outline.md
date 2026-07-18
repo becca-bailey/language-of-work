@@ -1,7 +1,6 @@
 # Netflix performance-culture — case-study outline
 
-The model that propagated (companion + inverse to the Menlo study, where a humane model
-*didn't*). Centers the 2009 Netflix Culture deck — which Sheryl Sandberg called the most
+The model that propagated. Centers the 2009 Netflix Culture deck — which Sheryl Sandberg called the most
 important document to come out of Silicon Valley — and the thesis that its sports/
 performance metaphor launders subjective judgment into false objectivity, and into that
 gap bias enters.
