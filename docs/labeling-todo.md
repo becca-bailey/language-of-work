@@ -1,23 +1,23 @@
-# Labeling TODO — paused 2026-07-15
+# Labeling TODO — updated 2026-07-18 (paused 2026-07-15)
 
-Status of the hand-labeling workstream at pause. Each CSV's last column is the
+Status of the hand-labeling workstream. Each CSV's last column is the
 label to fill in (blank = not yet labeled).
 
-## Remaining: chunk label samples (160 rows across 13 companies)
+## Remaining: chunk label samples (10 of 150 rows left across 1 company)
 
-- [ ] `data/amazon/labels/sample.csv` — 0/10
-- [ ] `data/basecamp/labels/sample.csv` — 0/10
-- [ ] `data/coinbase/labels/sample.csv` — 0/10
-- [ ] `data/github/labels/sample.csv` — 0/10
-- [ ] `data/gitlab/labels/sample.csv` — 0/10
-- [ ] `data/google/labels/sample.csv` — 0/30
-- [ ] `data/meta/labels/sample.csv` — 0/10
-- [ ] `data/netflix/labels/sample.csv` — 0/10
-- [ ] `data/palantir/labels/sample.csv` — 0/10
-- [ ] `data/salesforce/labels/sample.csv` — 0/10
-- [ ] `data/shopify/labels/sample.csv` — 0/10
-- [ ] `data/starbucks/labels/sample.csv` — 0/10
-- [ ] `data/stripe/labels/sample.csv` — 0/10
+- [x] `data/palantir/labels/sample.csv` — 10/10
+- [x] `data/amazon/labels/sample.csv` — 10/10
+- [x] `data/basecamp/labels/sample.csv` — 10/10
+- [x] `data/coinbase/labels/sample.csv` — 10/10
+- [x] `data/github/labels/sample.csv` — 10/10
+- [x] `data/gitlab/labels/sample.csv` — 10/10
+- [x] `data/google/labels/sample.csv` — 30/30
+- [x] `data/meta/labels/sample.csv` — 10/10
+- [x] `data/netflix/labels/sample.csv` — 10/10
+- [x] `data/salesforce/labels/sample.csv` — 10/10
+- [x] `data/shopify/labels/sample.csv` — 10/10
+- [x] `data/starbucks/labels/sample.csv` — 10/10
+- [x] `data/stripe/labels/sample.csv` — 10/10
 
 ## Remaining: stance sample (100 rows)
 
@@ -27,7 +27,6 @@ label to fill in (blank = not yet labeled).
 
 - `data/airbnb/labels/sample.csv` — 10/10
 - `data/apple/labels/sample.csv` — 90/90
-- `data/automattic/labels/canon_sample.csv` — 120/120
 - `data/brex/labels/sample.csv` — 10/10
 - `data/hubspot/labels/sample.csv` — 10/10
 - `data/nvidia/labels/sample.csv` — 90/90
