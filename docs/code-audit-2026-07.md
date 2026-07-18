@@ -13,6 +13,16 @@ on the next score run. Still open: §5 larger refactors, the `"dei"` label-set
 key rename in embed_chunks/pipeline, and the export_ai_web manifest question
 (checked: astro derives axes from data files, so not a live bug).
 
+**Post-audit note (Becca, 2026-07-17):** the DEI envelope *chart* no longer
+exists in the frontend. Consequences to fold into a future cleanup pass:
+`export_story_web._build_envelopes` (L476) is defined but never called, and
+`StoryCompanyEnvelope` / the optional `envelopes` field in
+`astro/src/lib/storyTypes.ts` are vestigial. The envelope computation itself
+is NOT dead — per-chunk inclusion−meritocracy extrema still feed the register
+chart's tooltip quotes (`stanceMaxQuote`/`stanceMinQuote`), so keep
+`_dei_careers_year_rows`; only the uncalled series builder and the orphaned
+types are removable.
+
 ---
 
 ## 1. Fix soon — duplicates that have ALREADY drifted (behavioral differences)
