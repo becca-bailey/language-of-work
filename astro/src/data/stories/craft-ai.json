@@ -28,134 +28,169 @@
       "displayName": "Google",
       "craftSeries": [
         {
-          "year": 2005,
-          "zscore": -0.8434,
-          "raw": -0.0166,
+          "year": 1999,
+          "zscore": -1.8934,
+          "raw": -0.0587,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "year": 2000,
+          "zscore": 1.0123,
+          "raw": 0.0562,
+          "nChunks": 5,
+          "thin": false
+        },
+        {
+          "year": 2002,
+          "zscore": 1.1077,
+          "raw": 0.06,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "year": 2003,
+          "zscore": -0.6698,
+          "raw": -0.0103,
+          "nChunks": 3,
+          "thin": true
+        },
+        {
+          "year": 2004,
+          "zscore": -0.3341,
+          "raw": 0.003,
           "nChunks": 4,
           "thin": true
         },
         {
+          "year": 2005,
+          "zscore": -0.4689,
+          "raw": -0.0024,
+          "nChunks": 5,
+          "thin": false
+        },
+        {
           "year": 2007,
-          "zscore": -0.3359,
+          "zscore": -0.3288,
           "raw": 0.0032,
           "nChunks": 5,
           "thin": false
         },
         {
           "year": 2008,
-          "zscore": -0.638,
-          "raw": -0.0086,
-          "nChunks": 1,
-          "thin": true
+          "zscore": -0.242,
+          "raw": 0.0066,
+          "nChunks": 6,
+          "thin": false
         },
         {
           "year": 2009,
-          "zscore": -0.3592,
+          "zscore": -0.3517,
           "raw": 0.0023,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2010,
-          "zscore": -2.3059,
+          "zscore": -2.2676,
           "raw": -0.0736,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2011,
-          "zscore": -1.6384,
+          "zscore": -1.6107,
           "raw": -0.0476,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2012,
-          "zscore": 0.9214,
+          "zscore": 0.9086,
           "raw": 0.0521,
-          "nChunks": 31,
+          "nChunks": 30,
           "thin": false
         },
         {
           "year": 2013,
-          "zscore": 0.7687,
+          "zscore": 0.7583,
           "raw": 0.0462,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2014,
-          "zscore": 0.7688,
+          "zscore": 0.7584,
           "raw": 0.0462,
           "nChunks": 30,
           "thin": false
         },
         {
           "year": 2016,
-          "zscore": 1.9589,
+          "zscore": 1.9296,
           "raw": 0.0925,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2017,
-          "zscore": -0.6472,
+          "zscore": -0.6352,
           "raw": -0.009,
           "nChunks": 7,
           "thin": false
         },
         {
           "year": 2018,
-          "zscore": -0.2921,
+          "zscore": -0.2857,
           "raw": 0.0049,
           "nChunks": 18,
           "thin": false
         },
         {
           "year": 2019,
-          "zscore": 0.3318,
+          "zscore": 0.3283,
           "raw": 0.0292,
           "nChunks": 36,
           "thin": false
         },
         {
           "year": 2020,
-          "zscore": -0.2016,
+          "zscore": -0.1966,
           "raw": 0.0084,
           "nChunks": 7,
           "thin": false
         },
         {
           "year": 2021,
-          "zscore": -0.2618,
+          "zscore": -0.2559,
           "raw": 0.0061,
           "nChunks": 10,
           "thin": false
         },
         {
           "year": 2022,
-          "zscore": 0.8957,
+          "zscore": 0.8833,
           "raw": 0.0511,
           "nChunks": 23,
           "thin": false
         },
         {
           "year": 2023,
-          "zscore": 0.5743,
+          "zscore": 0.567,
           "raw": 0.0386,
           "nChunks": 8,
           "thin": false
         },
         {
           "year": 2024,
-          "zscore": -0.0775,
+          "zscore": -0.0745,
           "raw": 0.0132,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2025,
-          "zscore": 1.3815,
+          "zscore": 1.3614,
           "raw": 0.07,
           "nChunks": 27,
           "thin": false
@@ -163,8 +198,44 @@
       ],
       "aiSeries": [
         {
+          "year": 1999,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2000,
+          "prevalence": 0.011,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2001,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2002,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2003,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2004,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
           "year": 2005,
-          "prevalence": 0.1,
+          "prevalence": 0.0833,
           "aiChunks": 1,
           "thin": false
         },
@@ -184,7 +255,7 @@
           "year": 2008,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2009,
@@ -4154,9 +4225,45 @@
   ],
   "pooled": [
     {
+      "year": 1999,
+      "craftMean": -0.0587,
+      "aiPrevalence": 0.0,
+      "nCompanies": 1
+    },
+    {
+      "year": 2000,
+      "craftMean": 0.0562,
+      "aiPrevalence": 0.011,
+      "nCompanies": 1
+    },
+    {
+      "year": 2001,
+      "craftMean": null,
+      "aiPrevalence": 0.0,
+      "nCompanies": 0
+    },
+    {
+      "year": 2002,
+      "craftMean": 0.06,
+      "aiPrevalence": 0.0,
+      "nCompanies": 1
+    },
+    {
+      "year": 2003,
+      "craftMean": -0.0103,
+      "aiPrevalence": 0.0,
+      "nCompanies": 1
+    },
+    {
+      "year": 2004,
+      "craftMean": 0.003,
+      "aiPrevalence": 0.0,
+      "nCompanies": 1
+    },
+    {
       "year": 2005,
-      "craftMean": 0.0025,
-      "aiPrevalence": 0.0526,
+      "craftMean": 0.0072,
+      "aiPrevalence": 0.0476,
       "nCompanies": 3
     },
     {
@@ -4173,7 +4280,7 @@
     },
     {
       "year": 2008,
-      "craftMean": -0.0013,
+      "craftMean": 0.0018,
       "aiPrevalence": 0.0,
       "nCompanies": 5
     },

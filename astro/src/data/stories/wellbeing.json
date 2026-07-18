@@ -3,179 +3,224 @@
   "metric": "zscore",
   "sources": {
     "careers": {
-      "coverageStart": 2005,
+      "coverageStart": 1999,
       "companies": [
         {
           "id": "google",
           "displayName": "Google",
           "years": [
             {
+              "year": 1999,
+              "zscore": -2.1969,
+              "topkMean": -0.0465,
+              "controlZscore": -1.0001,
+              "nChunks": 2,
+              "thin": true,
+              "quote": "Google is the leading designer of next-generation search engine technology."
+            },
+            {
+              "year": 2000,
+              "zscore": -0.1969,
+              "topkMean": 0.0834,
+              "controlZscore": 0.4518,
+              "nChunks": 21,
+              "thin": false,
+              "quote": "Millions of people will use and appreciate your software."
+            },
+            {
+              "year": 2002,
+              "zscore": -1.2833,
+              "topkMean": 0.0128,
+              "controlZscore": -0.675,
+              "nChunks": 3,
+              "thin": true,
+              "quote": "Read Me Openings Culture Benefits Inside View Snapshots of Google Quality search."
+            },
+            {
+              "year": 2003,
+              "zscore": -0.097,
+              "topkMean": 0.0899,
+              "controlZscore": 0.021,
+              "nChunks": 16,
+              "thin": false,
+              "quote": "Great culture and amazing perks such as massage therapy and all the snacks you can eat. 4."
+            },
+            {
+              "year": 2004,
+              "zscore": 0.6116,
+              "topkMean": 0.1359,
+              "controlZscore": 0.196,
+              "nChunks": 31,
+              "thin": false,
+              "quote": "Google offers a variety of benefits, including a choice of medical programs, company-matched 401(k), stock options, maternity and paternity leave, and much more. 6."
+            },
+            {
               "year": 2005,
-              "zscore": -0.4949,
-              "topkMean": 0.0678,
-              "controlZscore": 0.9168,
-              "nChunks": 18,
+              "zscore": -0.3803,
+              "topkMean": 0.0715,
+              "controlZscore": 0.9936,
+              "nChunks": 29,
               "thin": false,
               "quote": "It can also produce ideas that transform how people live their lives."
             },
             {
               "year": 2007,
-              "zscore": 0.0367,
+              "zscore": 0.0931,
               "topkMean": 0.1022,
-              "controlZscore": 1.0616,
+              "controlZscore": 1.1511,
               "nChunks": 30,
               "thin": false,
               "quote": "From our flexible, project-based approach to corporate structure to our innovative perks and benefits, we do everything we can to make sure our employees not only have great jobs, but great lives."
             },
             {
               "year": 2008,
-              "zscore": -1.5079,
-              "topkMean": 0.0023,
-              "controlZscore": -0.5753,
-              "nChunks": 1,
-              "thin": true,
-              "quote": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality."
+              "zscore": 0.5864,
+              "topkMean": 0.1342,
+              "controlZscore": 0.4512,
+              "nChunks": 35,
+              "thin": false,
+              "quote": "Google offers a variety of benefits, including a choice of medical programs, company-matched 401(k), stock options, maternity and paternity leave, and much more."
             },
             {
               "year": 2009,
-              "zscore": -0.756,
+              "zscore": -0.696,
               "topkMean": 0.0509,
-              "controlZscore": -1.8925,
+              "controlZscore": -2.0631,
               "nChunks": 4,
               "thin": true,
               "quote": "Googlers relish the freedom to create the next generation of web technologies in an environment designed to foster collaboration, creativity, health, and happiness."
             },
             {
               "year": 2010,
-              "zscore": -1.6186,
+              "zscore": -1.5548,
               "topkMean": -0.0048,
-              "controlZscore": -1.927,
+              "controlZscore": -2.1007,
               "nChunks": 2,
               "thin": true,
               "quote": "When everyone in the company is reaching out, not up, good ideas can go a lot farther."
             },
             {
               "year": 2011,
-              "zscore": -1.5794,
+              "zscore": -1.5158,
               "topkMean": -0.0023,
-              "controlZscore": -1.3587,
+              "controlZscore": -1.4823,
               "nChunks": 2,
               "thin": true,
               "quote": "At Google, innovation and creativity keeps our projects changing and improving."
             },
             {
               "year": 2012,
-              "zscore": 0.1398,
+              "zscore": 0.1958,
               "topkMean": 0.1089,
-              "controlZscore": 1.1577,
-              "nChunks": 137,
+              "controlZscore": 1.2557,
+              "nChunks": 130,
               "thin": false,
               "quote": "Above all, it means making our products work better so that people can spend time on the stuff they’re good at—like enjoying time with family, camping in the wilderness, painting a picture or throwing a party."
             },
             {
               "year": 2013,
-              "zscore": -0.7274,
+              "zscore": -0.6676,
               "topkMean": 0.0528,
-              "controlZscore": -0.3234,
+              "controlZscore": -0.3558,
               "nChunks": 6,
               "thin": false,
               "quote": "Google is proud to be an equal opportunity workplace and is an affirmative action employer."
             },
             {
               "year": 2014,
-              "zscore": 0.0535,
+              "zscore": 0.1099,
               "topkMean": 0.1033,
-              "controlZscore": -0.0235,
+              "controlZscore": -0.0295,
               "nChunks": 51,
               "thin": false,
               "quote": "We want people to feel good about using Google products."
             },
             {
               "year": 2016,
-              "zscore": -0.3399,
+              "zscore": -0.2818,
               "topkMean": 0.0778,
-              "controlZscore": -0.8344,
+              "controlZscore": -0.9118,
               "nChunks": 2,
               "thin": true,
               "quote": "We value giving back to the community just as much as we value the products we create."
             },
             {
               "year": 2017,
-              "zscore": -0.1199,
+              "zscore": -0.0628,
               "topkMean": 0.0921,
-              "controlZscore": -0.0733,
+              "controlZscore": -0.0836,
               "nChunks": 19,
               "thin": false,
               "quote": "We’re ensuring Google continues to be a fair and inclusive place to work for everyone."
             },
             {
               "year": 2018,
-              "zscore": 1.4965,
+              "zscore": 1.5465,
               "topkMean": 0.1966,
-              "controlZscore": 0.8085,
+              "controlZscore": 0.8757,
               "nChunks": 140,
               "thin": false,
               "quote": "In addition, all new parents benefit from a 2-week gradual return policy (ramping back to work part-time at full-time salary)."
             },
             {
               "year": 2019,
-              "zscore": 0.6652,
+              "zscore": 0.7189,
               "topkMean": 0.1428,
-              "controlZscore": 1.0356,
+              "controlZscore": 1.1229,
               "nChunks": 274,
               "thin": false,
               "quote": "Greyglers Greyglers advocate for the needs of employees and users as they age."
             },
             {
               "year": 2020,
-              "zscore": 0.4271,
+              "zscore": 0.4818,
               "topkMean": 0.1274,
-              "controlZscore": 0.0219,
+              "controlZscore": 0.0199,
               "nChunks": 31,
               "thin": false,
               "quote": "We aim to create a workplace that celebrates the diversity of our employees, customers, and users."
             },
             {
               "year": 2021,
-              "zscore": 0.4954,
+              "zscore": 0.5498,
               "topkMean": 0.1319,
-              "controlZscore": 1.0711,
+              "controlZscore": 1.1615,
               "nChunks": 94,
               "thin": false,
               "quote": "COVID-19 strained well-being and burdened caregivers, many of whom are women."
             },
             {
               "year": 2022,
-              "zscore": 1.4524,
+              "zscore": 1.5026,
               "topkMean": 0.1937,
-              "controlZscore": 1.0144,
+              "controlZscore": 1.0998,
               "nChunks": 112,
               "thin": false,
               "quote": "We’ve created internal policies to alleviate stressors that tend to disproportionately impact women."
             },
             {
               "year": 2023,
-              "zscore": 1.0713,
+              "zscore": 1.1231,
               "topkMean": 0.1691,
-              "controlZscore": -0.1444,
+              "controlZscore": -0.1611,
               "nChunks": 25,
               "thin": false,
               "quote": "We are working to ensure that all Googlers have access to the health resources they need."
             },
             {
               "year": 2024,
-              "zscore": -0.5495,
+              "zscore": -0.4905,
               "topkMean": 0.0643,
-              "controlZscore": -0.8299,
+              "controlZscore": -0.9069,
               "nChunks": 6,
               "thin": false,
               "quote": "We’re working to develop artificial intelligence responsibly."
             },
             {
               "year": 2025,
-              "zscore": 1.8557,
+              "zscore": 1.9041,
               "topkMean": 0.2198,
-              "controlZscore": 0.895,
+              "controlZscore": 0.9699,
               "nChunks": 102,
               "thin": false,
               "quote": "We’ve created internal policies to alleviate stressors that tend to disproportionately impact women."
@@ -3348,63 +3393,63 @@
       "years": [
         {
           "year": 2013,
-          "careZ": -0.168,
-          "deiZ": -0.277
+          "careZ": 0.018,
+          "deiZ": 0.039
         },
         {
           "year": 2014,
-          "careZ": 0.431,
-          "deiZ": -0.007
+          "careZ": 0.598,
+          "deiZ": 0.297
         },
         {
           "year": 2016,
-          "careZ": 0.742,
-          "deiZ": -0.785
+          "careZ": 0.898,
+          "deiZ": -0.447
         },
         {
           "year": 2017,
-          "careZ": -0.019,
-          "deiZ": 1.071
+          "careZ": 0.162,
+          "deiZ": 1.327
         },
         {
           "year": 2018,
-          "careZ": 0.718,
-          "deiZ": 1.05
+          "careZ": 0.876,
+          "deiZ": 1.307
         },
         {
           "year": 2019,
-          "careZ": 0.846,
-          "deiZ": 1.227
+          "careZ": 1.0,
+          "deiZ": 1.476
         },
         {
           "year": 2020,
-          "careZ": 0.428,
-          "deiZ": 1.353
+          "careZ": 0.595,
+          "deiZ": 1.597
         },
         {
           "year": 2021,
-          "careZ": 0.13,
-          "deiZ": 1.127
+          "careZ": 0.307,
+          "deiZ": 1.381
         },
         {
           "year": 2022,
-          "careZ": 1.673,
-          "deiZ": 0.909
+          "careZ": 1.799,
+          "deiZ": 1.173
         },
         {
           "year": 2023,
-          "careZ": 1.348,
-          "deiZ": 0.628
+          "careZ": 1.484,
+          "deiZ": 0.904
         },
         {
           "year": 2024,
-          "careZ": -0.051,
-          "deiZ": -1.596
+          "careZ": 0.132,
+          "deiZ": -1.222
         },
         {
           "year": 2025,
-          "careZ": 1.554,
-          "deiZ": 0.79
+          "careZ": 1.684,
+          "deiZ": 1.058
         }
       ]
     },

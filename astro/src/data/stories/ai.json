@@ -2,27 +2,63 @@
   "story": "ai",
   "pooled": [
     {
+      "year": 1999,
+      "aiChunks": 0,
+      "totalChunks": 22,
+      "prevalence": 0.0
+    },
+    {
+      "year": 2000,
+      "aiChunks": 1,
+      "totalChunks": 91,
+      "prevalence": 0.011
+    },
+    {
+      "year": 2001,
+      "aiChunks": 0,
+      "totalChunks": 6,
+      "prevalence": 0.0
+    },
+    {
+      "year": 2002,
+      "aiChunks": 0,
+      "totalChunks": 8,
+      "prevalence": 0.0
+    },
+    {
+      "year": 2003,
+      "aiChunks": 0,
+      "totalChunks": 7,
+      "prevalence": 0.0
+    },
+    {
+      "year": 2004,
+      "aiChunks": 0,
+      "totalChunks": 11,
+      "prevalence": 0.0
+    },
+    {
       "year": 2005,
       "aiChunks": 1,
-      "totalChunks": 19,
-      "prevalence": 0.0526
+      "totalChunks": 21,
+      "prevalence": 0.0476
     },
     {
       "year": 2006,
       "aiChunks": 0,
-      "totalChunks": 24,
+      "totalChunks": 26,
       "prevalence": 0.0
     },
     {
       "year": 2007,
       "aiChunks": 0,
-      "totalChunks": 54,
+      "totalChunks": 56,
       "prevalence": 0.0
     },
     {
       "year": 2008,
       "aiChunks": 0,
-      "totalChunks": 39,
+      "totalChunks": 50,
       "prevalence": 0.0
     },
     {
@@ -136,19 +172,19 @@
   ],
   "talkVsHire": {
     "hire": {
-      "aiChunks": 66,
-      "totalChunks": 1357,
-      "prevalence": 0.0486
+      "aiChunks": 67,
+      "totalChunks": 1456,
+      "prevalence": 0.046
     },
     "other": {
       "aiChunks": 23,
-      "totalChunks": 1289,
-      "prevalence": 0.0178
+      "totalChunks": 1323,
+      "prevalence": 0.0174
     },
     "talk": {
       "aiChunks": 155,
-      "totalChunks": 4569,
-      "prevalence": 0.0339
+      "totalChunks": 4598,
+      "prevalence": 0.0337
     }
   },
   "companies": [
@@ -857,8 +893,44 @@
       "id": "google",
       "years": [
         {
+          "year": 1999,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2000,
+          "prevalence": 0.011,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2001,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2002,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2003,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2004,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
           "year": 2005,
-          "prevalence": 0.1,
+          "prevalence": 0.0833,
           "aiChunks": 1,
           "thin": false
         },
@@ -878,7 +950,7 @@
           "year": 2008,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2009,

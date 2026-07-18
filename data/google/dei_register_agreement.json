@@ -1,32 +1,69 @@
 {
-  "n": 44,
-  "accuracy": 0.955,
-  "krippendorff_alpha": 0.878,
+  "n": 62,
+  "accuracy": 0.871,
+  "krippendorff_alpha": 0.79,
   "confusion": {
     "absent": {
       "absent": 34,
-      "explicit_demographic": 1
-    },
-    "belonging_culture": {
-      "belonging_culture": 1,
+      "explicit_demographic": 1,
       "aspirational_vague": 1
     },
+    "belonging_culture": {
+      "aspirational_vague": 1,
+      "belonging_culture": 1
+    },
     "aspirational_vague": {
-      "aspirational_vague": 3
+      "aspirational_vague": 5,
+      "explicit_demographic": 2,
+      "structural_process": 2
     },
     "explicit_demographic": {
-      "explicit_demographic": 4
+      "explicit_demographic": 12
+    },
+    "structural_process": {
+      "structural_process": 2,
+      "explicit_demographic": 1
     }
   },
   "disagreements": [
     {
-      "chunk_id": "aa9596878df0131d",
+      "chunk_id": "a5c2412a3c1b9800",
       "hand_label": "belonging_culture",
       "predicted": "aspirational_vague"
     },
     {
-      "chunk_id": "f2f926f47cca9987",
+      "chunk_id": "db0ff87c6a8dd89f",
       "hand_label": "absent",
+      "predicted": "explicit_demographic"
+    },
+    {
+      "chunk_id": "5551918065a0f77c",
+      "hand_label": "aspirational_vague",
+      "predicted": "explicit_demographic"
+    },
+    {
+      "chunk_id": "23413d78c57db2f2",
+      "hand_label": "aspirational_vague",
+      "predicted": "explicit_demographic"
+    },
+    {
+      "chunk_id": "b46c02e78bc7f0b9",
+      "hand_label": "aspirational_vague",
+      "predicted": "structural_process"
+    },
+    {
+      "chunk_id": "e602a4ed3fd11e11",
+      "hand_label": "absent",
+      "predicted": "aspirational_vague"
+    },
+    {
+      "chunk_id": "a1e1dfa8120edb83",
+      "hand_label": "aspirational_vague",
+      "predicted": "structural_process"
+    },
+    {
+      "chunk_id": "37793972a0a86222",
+      "hand_label": "structural_process",
       "predicted": "explicit_demographic"
     }
   ]

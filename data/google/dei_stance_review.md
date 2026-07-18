@@ -1,19 +1,38 @@
 # DEI stance by year
 
+## 1999
+- neutral: 2
+
+## 2000
+- neutral: 8
+
+## 2001
+- neutral: 2
+
+## 2002
+- neutral: 3
+
+## 2003
+- neutral: 5
+
+## 2004
+- affirming_dei: 1
+- neutral: 8
+
 ## 2005
 - affirming_dei: 1
-- neutral: 4
+- neutral: 6
 
 ## 2006
 - affirming_dei: 1
-- neutral: 1
+- neutral: 3
 
 ## 2007
 - affirming_dei: 2
-- neutral: 3
+- neutral: 5
 
 ## 2008
-- neutral: 2
+- neutral: 13
 
 ## 2009
 - affirming_dei: 1

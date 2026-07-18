@@ -135,6 +135,30 @@ their corpus supports it; netflix likely stays empty — say so rather than
 patch). Reuse the wellbeing validation pattern: hand-code a sample before
 trusting the pass.
 
+**Phase 0.5 results (run 2026-07-15).** Discover + fetch + pipeline ingest
+complete: 94 new Google captures (1999–2008), corpus now starts October 1999.
+The CDX prefix probe surfaced dedicated sub-pages the exact patterns missed;
+`google.com/jobs/benefits.html` (captures 2000-07 → 2008), `nonca_benefits.html`
+(2004), `culture.html`, `balance.html`, `reasons.html`, `working.html` were
+added to `url_patterns.json` and fetched. Key findings from the raw pages
+(chunks now in `data/google/chunks/1999.jsonl`–`2008.jsonl`):
+
+- **July 2000 benefits page enumerates no leave at all** — health/stock/
+  vacation/401(k)/disability only, while the debate Cairns describes was
+  happening. Absent through the Oct 2002 capture.
+- **First contemporaneous leave enumeration: Feb 2003** (between captures
+  2002-10-02 and 2003-02-01): "Maternity leave: twelve weeks off paid at 75%
+  of your salary, plus $50 a day to spend on Waiters On Wheels for the first
+  two weeks"; "Paternity leave: two weeks off paid at 100%." This is *inside*
+  the Cairns tenure — upgrades the 2005 "handoff baseline" to direct overlap
+  (the 2005 snapshot merely repeats the 2003 policy).
+- **De-gendering starts 2003→2004**: "Paternity leave" is relabeled "Parental
+  Leave (for non-primary caregivers)" by the 2004-04 capture, which also adds
+  the disability-inclusion caveat ("this time includes disability leave"),
+  a 60-day eligibility gate, and a $5,000 adoption-assistance benefit.
+- **`nonca_benefits.html` (2004) shows the same 12w/75% + 2w/100% terms for
+  non-California offices** — useful against the jurisdiction confound.
+
 **Phase 2 — External timeline layer (annotation, not causation).** Era
 benchmark table: FMLA 1993 (12w unpaid, the legal floor), California Paid
 Family Leave 2004, Google 2007 (18w paid), the 2015 arms race (Netflix

@@ -4,10 +4,165 @@
   "axis": "wellbeing_locus",
   "years": [
     {
+      "year": 1999,
+      "zscore": -1.3345,
+      "rawTopkMean": -0.0633,
+      "nChunks": 2,
+      "kUsed": 2,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Google is the leading designer of next-generation search engine technology.",
+          "heading": "Jobs @ Google",
+          "score": -0.0434
+        },
+        {
+          "text": "We are rapidly hiring talented people to bring the latest and greatest technology to the web.",
+          "heading": "Jobs @ Google",
+          "score": -0.0832
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "zscore": 0.3219,
+      "rawTopkMean": 0.0511,
+      "nChunks": 21,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Your ideas can make a difference.",
+          "heading": "Reasons to work at Google!",
+          "score": 0.124
+        },
+        {
+          "text": "Millions use Google - your ideas will make a difference.",
+          "heading": "Join Our Team!",
+          "score": 0.0552
+        },
+        {
+          "text": "Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "score": 0.0457
+        },
+        {
+          "text": "Millions of people will use and appreciate your software.",
+          "heading": "Reasons to work at Google!",
+          "score": 0.0204
+        },
+        {
+          "text": "Start up environment with excellent benefits .",
+          "heading": "Join Our Team!",
+          "score": 0.0105
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "zscore": -0.505,
+      "rawTopkMean": -0.006,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "score": 0.0457
+        },
+        {
+          "text": "Read Me Openings Culture Benefits Inside View Snapshots of Google Quality search.",
+          "heading": "",
+          "score": -0.0264
+        },
+        {
+          "text": "Home All About Google We're Hiring!",
+          "heading": "",
+          "score": -0.0372
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "zscore": -0.1254,
+      "rawTopkMean": 0.0202,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Millions use Google - your ideas will make a difference.",
+          "heading": "",
+          "score": 0.0552
+        },
+        {
+          "text": "Here's a glimpse into a typical day in the life. ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "score": 0.048
+        },
+        {
+          "text": "Great culture and amazing perks such as massage therapy and all the snacks you can eat. 4.",
+          "heading": "",
+          "score": 0.0034
+        },
+        {
+          "text": "Backed by the two premier VCs . 5.",
+          "heading": "",
+          "score": -0.0013
+        },
+        {
+          "text": "Start up environment with excellent benefits . 7.",
+          "heading": "",
+          "score": -0.004
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "zscore": 0.5825,
+      "rawTopkMean": 0.0691,
+      "nChunks": 31,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Your creative ideas matter here and are worth exploring.",
+          "heading": "",
+          "score": 0.1458
+        },
+        {
+          "text": "In fact we have them every day: healthy, yummy, and made with love.",
+          "heading": "",
+          "score": 0.0631
+        },
+        {
+          "text": "You'll have the opportunity to develop innovative new products that millions of people will find useful. 10.",
+          "heading": "",
+          "score": 0.0609
+        },
+        {
+          "text": "Appreciation is the best motivation , so we've created a fun and inspiring workspace you'll be glad to be a part of, including on-site doctor and dentist; massage and yoga; professional development opportunities; on-site day care; shoreline running trails; and plenty of snacks to get you through the day. 4.",
+          "heading": "",
+          "score": 0.0509
+        },
+        {
+          "text": "With more than 82 million visitors every month, Google has become an essential part of everyday life—like a good friend—connecting people with the information they need to live great lives. 2.",
+          "heading": "",
+          "score": 0.0252
+        }
+      ]
+    },
+    {
       "year": 2005,
-      "zscore": 0.2464,
+      "zscore": 0.2248,
       "rawTopkMean": 0.0444,
-      "nChunks": 18,
+      "nChunks": 29,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -41,7 +196,7 @@
     },
     {
       "year": 2007,
-      "zscore": 0.9977,
+      "zscore": 1.0436,
       "rawTopkMean": 0.101,
       "nChunks": 30,
       "kUsed": 5,
@@ -77,23 +232,43 @@
     },
     {
       "year": 2008,
-      "zscore": -1.0923,
-      "rawTopkMean": -0.0563,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "zscore": 0.6554,
+      "rawTopkMean": 0.0742,
+      "nChunks": 35,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality.",
-          "heading": "Search openings",
-          "score": -0.0563
+          "text": "Your creative ideas matter here and are worth exploring.",
+          "heading": "Top 10 Reasons to Work at Google",
+          "score": 0.1458
+        },
+        {
+          "text": "You’ll have the opportunity to develop innovative new products that millions of people will find useful.",
+          "heading": "Top 10 Reasons to Work at Google",
+          "score": 0.0689
+        },
+        {
+          "text": "In fact we have them every day: healthy, yummy, and made with love.",
+          "heading": "Top 10 Reasons to Work at Google",
+          "score": 0.0631
+        },
+        {
+          "text": "Appreciation is the best motivation , so we’ve created a fun and inspiring workspace you’ll be glad to be a part of, including on-site doctor and dentist; massage and yoga; professional development opportunities; on-site day care; shoreline running trails; and plenty of snacks to get you through the day.",
+          "heading": "Top 10 Reasons to Work at Google",
+          "score": 0.0567
+        },
+        {
+          "text": "With millions of visitors every month, Google has become an essential part of everyday life - like a good friend - connecting people with the information they need to live great lives.",
+          "heading": "Top 10 Reasons to Work at Google",
+          "score": 0.0365
         }
       ]
     },
     {
       "year": 2009,
-      "zscore": -1.1449,
+      "zscore": -1.2912,
       "rawTopkMean": -0.0603,
       "nChunks": 4,
       "kUsed": 4,
@@ -124,7 +299,7 @@
     },
     {
       "year": 2010,
-      "zscore": -2.5023,
+      "zscore": -2.7705,
       "rawTopkMean": -0.1624,
       "nChunks": 2,
       "kUsed": 2,
@@ -145,7 +320,7 @@
     },
     {
       "year": 2011,
-      "zscore": -1.5092,
+      "zscore": -1.6883,
       "rawTopkMean": -0.0877,
       "nChunks": 2,
       "kUsed": 2,
@@ -166,9 +341,9 @@
     },
     {
       "year": 2012,
-      "zscore": 0.9251,
+      "zscore": 0.9645,
       "rawTopkMean": 0.0955,
-      "nChunks": 137,
+      "nChunks": 130,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -202,7 +377,7 @@
     },
     {
       "year": 2013,
-      "zscore": -0.1088,
+      "zscore": -0.1621,
       "rawTopkMean": 0.0177,
       "nChunks": 6,
       "kUsed": 5,
@@ -238,7 +413,7 @@
     },
     {
       "year": 2014,
-      "zscore": 0.5296,
+      "zscore": 0.5335,
       "rawTopkMean": 0.0658,
       "nChunks": 51,
       "kUsed": 5,
@@ -274,7 +449,7 @@
     },
     {
       "year": 2016,
-      "zscore": -1.0698,
+      "zscore": -1.2094,
       "rawTopkMean": -0.0546,
       "nChunks": 2,
       "kUsed": 2,
@@ -295,7 +470,7 @@
     },
     {
       "year": 2017,
-      "zscore": -0.1319,
+      "zscore": -0.1874,
       "rawTopkMean": 0.016,
       "nChunks": 19,
       "kUsed": 5,
@@ -331,7 +506,7 @@
     },
     {
       "year": 2018,
-      "zscore": 0.4698,
+      "zscore": 0.4683,
       "rawTopkMean": 0.0613,
       "nChunks": 140,
       "kUsed": 5,
@@ -367,7 +542,7 @@
     },
     {
       "year": 2019,
-      "zscore": 0.8463,
+      "zscore": 0.8787,
       "rawTopkMean": 0.0896,
       "nChunks": 274,
       "kUsed": 5,
@@ -403,7 +578,7 @@
     },
     {
       "year": 2020,
-      "zscore": 0.3438,
+      "zscore": 0.331,
       "rawTopkMean": 0.0518,
       "nChunks": 31,
       "kUsed": 5,
@@ -439,7 +614,7 @@
     },
     {
       "year": 2021,
-      "zscore": 1.0746,
+      "zscore": 1.1274,
       "rawTopkMean": 0.1068,
       "nChunks": 94,
       "kUsed": 5,
@@ -475,7 +650,7 @@
     },
     {
       "year": 2022,
-      "zscore": 1.2292,
+      "zscore": 1.2959,
       "rawTopkMean": 0.1184,
       "nChunks": 112,
       "kUsed": 5,
@@ -511,7 +686,7 @@
     },
     {
       "year": 2023,
-      "zscore": 0.3223,
+      "zscore": 0.3075,
       "rawTopkMean": 0.0502,
       "nChunks": 25,
       "kUsed": 5,
@@ -547,7 +722,7 @@
     },
     {
       "year": 2024,
-      "zscore": -0.2607,
+      "zscore": -0.3277,
       "rawTopkMean": 0.0063,
       "nChunks": 6,
       "kUsed": 5,
@@ -583,7 +758,7 @@
     },
     {
       "year": 2025,
-      "zscore": 0.8352,
+      "zscore": 0.8665,
       "rawTopkMean": 0.0888,
       "nChunks": 102,
       "kUsed": 5,

@@ -5,39 +5,81 @@
   "metricLabel": "Share of chunks with performance language",
   "sources": {
     "careers": {
-      "coverageStart": 2005,
+      "coverageStart": 1999,
       "companies": [
         {
           "id": "google",
           "displayName": "Google",
           "years": [
             {
-              "year": 2005,
+              "year": 1999,
+              "fractionPresent": 1.0,
+              "topkMean": 0.4537,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2000,
+              "fractionPresent": 0.75,
+              "topkMean": 0.4366,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2001,
+              "fractionPresent": 0.5,
+              "topkMean": 0.2974,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2002,
+              "fractionPresent": 0.3333,
+              "topkMean": 0.2822,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2003,
               "fractionPresent": 0.8,
-              "topkMean": 0.3445,
+              "topkMean": 0.3197,
               "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2004,
+              "fractionPresent": 0.7778,
+              "topkMean": 0.3601,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
+              "year": 2005,
+              "fractionPresent": 0.8571,
+              "topkMean": 0.3704,
+              "nChunks": 7,
               "thin": false
             },
             {
               "year": 2006,
               "fractionPresent": 1.0,
-              "topkMean": 0.3713,
-              "nChunks": 2,
+              "topkMean": 0.3545,
+              "nChunks": 4,
               "thin": true
             },
             {
               "year": 2007,
               "fractionPresent": 1.0,
-              "topkMean": 0.3755,
-              "nChunks": 5,
+              "topkMean": 0.3761,
+              "nChunks": 7,
               "thin": false
             },
             {
               "year": 2008,
-              "fractionPresent": 1.0,
-              "topkMean": 0.4594,
-              "nChunks": 2,
-              "thin": true
+              "fractionPresent": 0.6154,
+              "topkMean": 0.4438,
+              "nChunks": 13,
+              "thin": false
             },
             {
               "year": 2009,

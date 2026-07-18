@@ -4,20 +4,660 @@
   "axis": "dei",
   "years": [
     {
-      "year": 2005,
-      "inclusionTopkMean": 0.3326,
-      "inclusionMean": 0.3326,
-      "inclusionMax": 0.3784,
+      "year": 1999,
+      "inclusionTopkMean": 0.4074,
+      "inclusionMean": 0.4074,
+      "inclusionMax": 0.486,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.309,
-      "meritocracyMean": 0.309,
+      "meritocracyTopkMean": 0.3969,
+      "meritocracyMean": 0.3969,
+      "nChunks": 2,
+      "kUsed": 2,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 2,
+        "meritocracy": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": -0.0494,
+      "inclusionQuotes": [
+        {
+          "text": "Intelligent, fun, talented, hard-working, high-energy teammates In the center of the Silicon Valley An exciting place to work! Your ideas can make a difference Millions of people will use and appreciate your software Google seeks to hire only the best, and conducts business following the spirit and the intent of the equal opportunity laws. This means we base employment decisions exclusively on our",
+          "heading": "Reasons to work at Google!",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.486,
+          "meritocracy": 0.4881,
+          "stanceDiff": -0.002,
+          "salience": 0.4881,
+          "score": 0.486
+        },
+        {
+          "text": "Looking for a start-up adventure? Google is the leading designer of next-generation search engine technology. We are rapidly hiring talented people to bring the latest and greatest technology to the web.",
+          "heading": "Jobs @ Google",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3287,
+          "meritocracy": 0.3058,
+          "stanceDiff": 0.0229,
+          "salience": 0.3287,
+          "score": 0.3287
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "Intelligent, fun, talented, hard-working, high-energy teammates In the center of the Silicon Valley An exciting place to work! Your ideas can make a difference Millions of people will use and appreciate your software Google seeks to hire only the best, and conducts business following the spirit and the intent of the equal opportunity laws. This means we base employment decisions exclusively on our",
+          "heading": "Reasons to work at Google!",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.486,
+          "meritocracy": 0.4881,
+          "stanceDiff": -0.002,
+          "salience": 0.4881,
+          "score": 0.4881
+        },
+        {
+          "text": "Looking for a start-up adventure? Google is the leading designer of next-generation search engine technology. We are rapidly hiring talented people to bring the latest and greatest technology to the web.",
+          "heading": "Jobs @ Google",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3287,
+          "meritocracy": 0.3058,
+          "stanceDiff": 0.0229,
+          "salience": 0.3287,
+          "score": 0.3058
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "inclusionTopkMean": 0.4004,
+      "inclusionMean": 0.3486,
+      "inclusionMax": 0.4705,
+      "inclusionFractionPresent": 0.75,
+      "meritocracyTopkMean": 0.3853,
+      "meritocracyMean": 0.3222,
+      "nChunks": 8,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 8,
+        "meritocracy": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": 0.0309,
+      "inclusionQuotes": [
+        {
+          "text": "Intelligent, fun, talented, hard working, high energy teammates. In the center of the Silicon Valley. An exciting place to work! Your ideas can make a difference. Millions of people will use and appreciate your software. Google seeks to hire only the best, and conducts business following the spirit and the intent of the equal opportunity laws. This means we base employment decisions exclusively on",
+          "heading": "Reasons to work at Google!",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4705,
+          "meritocracy": 0.4792,
+          "stanceDiff": -0.0086,
+          "salience": 0.4792,
+          "score": 0.4705
+        },
+        {
+          "text": "Quality search. Quality people. Quality work environment. Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "Snapshots of Google",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4175,
+          "meritocracy": 0.4188,
+          "stanceDiff": -0.0014,
+          "salience": 0.4188,
+          "score": 0.4175
+        },
+        {
+          "text": "Looking for a start-up adventure? Google is the leading designer of next generation search engine technology. We are rapidly hiring talented people to bring the latest and greatest technology to the web. All positions listed are based in the San Francisco Bay Area unless otherwise noted. Engineering Engineering Managers Software Engineers Software Test Engineers HCI Engineer Senior Technical Write",
+          "heading": "Join Our Team!",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3911,
+          "meritocracy": 0.3719,
+          "stanceDiff": 0.0192,
+          "salience": 0.3911,
+          "score": 0.3911
+        },
+        {
+          "text": "Home All About Google Press Center Press Room In the News Press Releases Awards Press Images Corporate Info Overview Executive Team Fact Sheet Investor Info Our Partners Address We're Hiring! Openings Culture Benefits Snapshots of Google Quality search. Quality people. Quality work environment. Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3677,
+          "meritocracy": 0.3377,
+          "stanceDiff": 0.03,
+          "salience": 0.3677,
+          "score": 0.3677
+        },
+        {
+          "text": "Join the Google Team! Looking for a start-up adventure? Google is the leading designer of next generation search engine technology. We are rapidly hiring talented people to bring the latest and greatest technology to the web. Opportunities (San Francisco Bay Area-Mountain View) Reasons to work at Google! Hot technology. Cool technology. Intelligent, fun, talented, hard working, high energy teammat",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3551,
+          "meritocracy": 0.319,
+          "stanceDiff": 0.0361,
+          "salience": 0.3551,
+          "score": 0.3551
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "Intelligent, fun, talented, hard working, high energy teammates. In the center of the Silicon Valley. An exciting place to work! Your ideas can make a difference. Millions of people will use and appreciate your software. Google seeks to hire only the best, and conducts business following the spirit and the intent of the equal opportunity laws. This means we base employment decisions exclusively on",
+          "heading": "Reasons to work at Google!",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4705,
+          "meritocracy": 0.4792,
+          "stanceDiff": -0.0086,
+          "salience": 0.4792,
+          "score": 0.4792
+        },
+        {
+          "text": "Quality search. Quality people. Quality work environment. Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "Snapshots of Google",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4175,
+          "meritocracy": 0.4188,
+          "stanceDiff": -0.0014,
+          "salience": 0.4188,
+          "score": 0.4188
+        },
+        {
+          "text": "Looking for a start-up adventure? Google is the leading designer of next generation search engine technology. We are rapidly hiring talented people to bring the latest and greatest technology to the web. All positions listed are based in the San Francisco Bay Area unless otherwise noted. Engineering Engineering Managers Software Engineers Software Test Engineers HCI Engineer Senior Technical Write",
+          "heading": "Join Our Team!",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3911,
+          "meritocracy": 0.3719,
+          "stanceDiff": 0.0192,
+          "salience": 0.3911,
+          "score": 0.3719
+        },
+        {
+          "text": "Home All About Google Press Center Press Room In the News Press Releases Awards Press Images Corporate Info Overview Executive Team Fact Sheet Investor Info Our Partners Address We're Hiring! Openings Culture Benefits Snapshots of Google Quality search. Quality people. Quality work environment. Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3677,
+          "meritocracy": 0.3377,
+          "stanceDiff": 0.03,
+          "salience": 0.3677,
+          "score": 0.3377
+        },
+        {
+          "text": "Join the Google Team! Looking for a start-up adventure? Google is the leading designer of next generation search engine technology. We are rapidly hiring talented people to bring the latest and greatest technology to the web. Opportunities (San Francisco Bay Area-Mountain View) Reasons to work at Google! Hot technology. Cool technology. Intelligent, fun, talented, hard working, high energy teammat",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3551,
+          "meritocracy": 0.319,
+          "stanceDiff": 0.0361,
+          "salience": 0.3551,
+          "score": 0.319
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "inclusionTopkMean": 0.3053,
+      "inclusionMean": 0.3053,
+      "inclusionMax": 0.3677,
+      "inclusionFractionPresent": 0.5,
+      "meritocracyTopkMean": 0.2644,
+      "meritocracyMean": 0.2644,
+      "nChunks": 2,
+      "kUsed": 2,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 2,
+        "meritocracy": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": null,
+      "inclusionQuotes": [
+        {
+          "text": "Home All About Google Press Center Press Room In the News Press Releases Awards Press Images Corporate Info Overview Executive Team Fact Sheet Investor Info Our Partners Address We're Hiring! Openings Culture Benefits Snapshots of Google Quality search. Quality people. Quality work environment. Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3677,
+          "meritocracy": 0.3377,
+          "stanceDiff": 0.03,
+          "salience": 0.3677,
+          "score": 0.3677
+        },
+        {
+          "text": "Home All About Google Press Center Press Room In the News Press Releases Awards Press Images Corporate Info Overview Executive Team Fact Sheet Investor Info Our Partners Address We're Hiring! Openings Culture Benefits Health Care Google's benefit package includes Benefits Alliance medical insurance which allows you to enroll in one of the plans listed below. HMO health care premiums are 100% paid ",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2429,
+          "meritocracy": 0.1911,
+          "stanceDiff": 0.0518,
+          "salience": 0.2429,
+          "score": 0.2429
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "Home All About Google Press Center Press Room In the News Press Releases Awards Press Images Corporate Info Overview Executive Team Fact Sheet Investor Info Our Partners Address We're Hiring! Openings Culture Benefits Snapshots of Google Quality search. Quality people. Quality work environment. Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3677,
+          "meritocracy": 0.3377,
+          "stanceDiff": 0.03,
+          "salience": 0.3677,
+          "score": 0.3377
+        },
+        {
+          "text": "Home All About Google Press Center Press Room In the News Press Releases Awards Press Images Corporate Info Overview Executive Team Fact Sheet Investor Info Our Partners Address We're Hiring! Openings Culture Benefits Health Care Google's benefit package includes Benefits Alliance medical insurance which allows you to enroll in one of the plans listed below. HMO health care premiums are 100% paid ",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2429,
+          "meritocracy": 0.1911,
+          "stanceDiff": 0.0518,
+          "salience": 0.2429,
+          "score": 0.1911
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "inclusionTopkMean": 0.2953,
+      "inclusionMean": 0.2953,
+      "inclusionMax": 0.4145,
+      "inclusionFractionPresent": 0.3333,
+      "meritocracyTopkMean": 0.2477,
+      "meritocracyMean": 0.2477,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 3,
+        "meritocracy": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": -0.0314,
+      "inclusionQuotes": [
+        {
+          "text": "Home All About Google We're Hiring! Read Me Openings Culture Benefits Inside View Snapshots of Google Quality search. Quality people. Quality work environment. Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4145,
+          "meritocracy": 0.3821,
+          "stanceDiff": 0.0324,
+          "salience": 0.4145,
+          "score": 0.4145
+        },
+        {
+          "text": "Home All About Google We're Hiring! Read Me Openings Culture Benefits Inside View Health Care Google's benefit package includes Benefits Alliance medical insurance which allows you to enroll in one of the plans listed below. HMO health care premiums are 100% paid for employee. Same sex domestic partner coverage is available. Most benefits are effective on your date of hire. Medical Insurance: • Bl",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2362,
+          "meritocracy": 0.1819,
+          "stanceDiff": 0.0543,
+          "salience": 0.2362,
+          "score": 0.2362
+        },
+        {
+          "text": "Home All About Google We're Hiring! Read Me Openings Culture Benefits Health Care Google's benefit package includes Benefits Alliance medical insurance which allows you to enroll in one of the plans listed below. HMO health care premiums are 100% paid for employee. Same sex domestic partner coverage is available. Most benefits are effect VSP (one exam and lenses per year). • Dental Insurance: - De",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2353,
+          "meritocracy": 0.1791,
+          "stanceDiff": 0.0562,
+          "salience": 0.2353,
+          "score": 0.2353
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "Home All About Google We're Hiring! Read Me Openings Culture Benefits Inside View Snapshots of Google Quality search. Quality people. Quality work environment. Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4145,
+          "meritocracy": 0.3821,
+          "stanceDiff": 0.0324,
+          "salience": 0.4145,
+          "score": 0.3821
+        },
+        {
+          "text": "Home All About Google We're Hiring! Read Me Openings Culture Benefits Inside View Health Care Google's benefit package includes Benefits Alliance medical insurance which allows you to enroll in one of the plans listed below. HMO health care premiums are 100% paid for employee. Same sex domestic partner coverage is available. Most benefits are effective on your date of hire. Medical Insurance: • Bl",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2362,
+          "meritocracy": 0.1819,
+          "stanceDiff": 0.0543,
+          "salience": 0.2362,
+          "score": 0.1819
+        },
+        {
+          "text": "Home All About Google We're Hiring! Read Me Openings Culture Benefits Health Care Google's benefit package includes Benefits Alliance medical insurance which allows you to enroll in one of the plans listed below. HMO health care premiums are 100% paid for employee. Same sex domestic partner coverage is available. Most benefits are effect VSP (one exam and lenses per year). • Dental Insurance: - De",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2353,
+          "meritocracy": 0.1791,
+          "stanceDiff": 0.0562,
+          "salience": 0.2353,
+          "score": 0.1791
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "inclusionTopkMean": 0.3054,
+      "inclusionMean": 0.3054,
+      "inclusionMax": 0.361,
+      "inclusionFractionPresent": 0.8,
+      "meritocracyTopkMean": 0.2644,
+      "meritocracyMean": 0.2644,
       "nChunks": 5,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 5,
+        "meritocracy": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": 0.0071,
+      "inclusionQuotes": [
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance What can you expect at Google? Here's a glimpse into a typical day in the life. ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.361,
+          "meritocracy": 0.3137,
+          "stanceDiff": 0.0472,
+          "salience": 0.361,
+          "score": 0.361
+        },
+        {
+          "text": "Looking for an adventure? Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service . In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace. While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work en",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3237,
+          "meritocracy": 0.2922,
+          "stanceDiff": 0.0315,
+          "salience": 0.3237,
+          "score": 0.3237
+        },
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Top Ten Reasons to Work at Google 1. Hot award-winning technology. 2. Intelligent, fun, high energy teammates. 3. Great culture and amazing perks such as massage therapy and all the snacks you can eat. 4. Backed by the two premier VCs . 5. Free gourmet lunches served daily. 6. Start ",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3208,
+          "meritocracy": 0.2995,
+          "stanceDiff": 0.0213,
+          "salience": 0.3208,
+          "score": 0.3208
+        },
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Heads up Corporate Sponsored Childcare Google participates in a corporate membership with Heads Up allowing employees to have significant priority on their waiting list, just after those families with siblings already in the program. Heads Up! has 3 centers in California -- Palo Alto",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2739,
+          "meritocracy": 0.2215,
+          "stanceDiff": 0.0525,
+          "salience": 0.2739,
+          "score": 0.2739
+        },
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Google Benefits Health Care Google's benefit package includes Benefits Alliance medical insurance which allows you to enroll in one of the plans listed below. HMO health care premiums are 100% paid for employee. Same sex domestic partner coverage is available. Most benefits are effec",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2477,
+          "meritocracy": 0.1951,
+          "stanceDiff": 0.0527,
+          "salience": 0.2477,
+          "score": 0.2477
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance What can you expect at Google? Here's a glimpse into a typical day in the life. ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.361,
+          "meritocracy": 0.3137,
+          "stanceDiff": 0.0472,
+          "salience": 0.361,
+          "score": 0.3137
+        },
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Top Ten Reasons to Work at Google 1. Hot award-winning technology. 2. Intelligent, fun, high energy teammates. 3. Great culture and amazing perks such as massage therapy and all the snacks you can eat. 4. Backed by the two premier VCs . 5. Free gourmet lunches served daily. 6. Start ",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3208,
+          "meritocracy": 0.2995,
+          "stanceDiff": 0.0213,
+          "salience": 0.3208,
+          "score": 0.2995
+        },
+        {
+          "text": "Looking for an adventure? Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service . In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace. While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work en",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3237,
+          "meritocracy": 0.2922,
+          "stanceDiff": 0.0315,
+          "salience": 0.3237,
+          "score": 0.2922
+        },
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Heads up Corporate Sponsored Childcare Google participates in a corporate membership with Heads Up allowing employees to have significant priority on their waiting list, just after those families with siblings already in the program. Heads Up! has 3 centers in California -- Palo Alto",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2739,
+          "meritocracy": 0.2215,
+          "stanceDiff": 0.0525,
+          "salience": 0.2739,
+          "score": 0.2215
+        },
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Google Benefits Health Care Google's benefit package includes Benefits Alliance medical insurance which allows you to enroll in one of the plans listed below. HMO health care premiums are 100% paid for employee. Same sex domestic partner coverage is available. Most benefits are effec",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2477,
+          "meritocracy": 0.1951,
+          "stanceDiff": 0.0527,
+          "salience": 0.2477,
+          "score": 0.1951
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "inclusionTopkMean": 0.3356,
+      "inclusionMean": 0.3017,
+      "inclusionMax": 0.3407,
+      "inclusionFractionPresent": 0.7778,
+      "meritocracyTopkMean": 0.2956,
+      "meritocracyMean": 0.2562,
+      "nChunks": 9,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 2,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 8,
+        "meritocracy": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": 0.0167,
+      "inclusionQuotes": [
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Top 10 Reasons to Work at Google 1. Lend a helping hand. With more than 82 million visitors every month, Google has become an essential part of everyday life—like a good friend—connecting people with the information they need to live great lives. 2. Life is beautiful. Being a part of",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3407,
+          "meritocracy": 0.3056,
+          "stanceDiff": 0.0351,
+          "salience": 0.3407,
+          "score": 0.3407
+        },
+        {
+          "text": "Looking for an adventure? Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service . In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace. While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work en",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.338,
+          "meritocracy": 0.297,
+          "stanceDiff": 0.0411,
+          "salience": 0.338,
+          "score": 0.338
+        },
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance What can you expect at Google? Here's a glimpse into a typical day in the life.",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3374,
+          "meritocracy": 0.2903,
+          "stanceDiff": 0.0471,
+          "salience": 0.3374,
+          "score": 0.3374
+        },
+        {
+          "text": "Looking for an adventure? Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service . In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace. While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work en",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3309,
+          "meritocracy": 0.2882,
+          "stanceDiff": 0.0427,
+          "salience": 0.3309,
+          "score": 0.3309
+        },
+        {
+          "text": "Looking for an adventure? Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service . In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace. While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work en",
+          "heading": "",
+          "register": "explicit_demographic",
+          "stance": "affirming_dei",
+          "inclusion": 0.3309,
+          "meritocracy": 0.297,
+          "stanceDiff": 0.0338,
+          "salience": 0.3309,
+          "score": 0.3309
+        }
+      ],
+      "meritocracyQuotes": [
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Top 10 Reasons to Work at Google 1. Lend a helping hand. With more than 82 million visitors every month, Google has become an essential part of everyday life—like a good friend—connecting people with the information they need to live great lives. 2. Life is beautiful. Being a part of",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3407,
+          "meritocracy": 0.3056,
+          "stanceDiff": 0.0351,
+          "salience": 0.3407,
+          "score": 0.3056
+        },
+        {
+          "text": "Looking for an adventure? Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service . In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace. While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work en",
+          "heading": "",
+          "register": "explicit_demographic",
+          "stance": "affirming_dei",
+          "inclusion": 0.3309,
+          "meritocracy": 0.297,
+          "stanceDiff": 0.0338,
+          "salience": 0.3309,
+          "score": 0.297
+        },
+        {
+          "text": "Looking for an adventure? Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service . In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace. While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work en",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.338,
+          "meritocracy": 0.297,
+          "stanceDiff": 0.0411,
+          "salience": 0.338,
+          "score": 0.297
+        },
+        {
+          "text": "Home All About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance What can you expect at Google? Here's a glimpse into a typical day in the life.",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3374,
+          "meritocracy": 0.2903,
+          "stanceDiff": 0.0471,
+          "salience": 0.3374,
+          "score": 0.2903
+        },
+        {
+          "text": "Looking for an adventure? Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service . In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace. While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work en",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3309,
+          "meritocracy": 0.2882,
+          "stanceDiff": 0.0427,
+          "salience": 0.3309,
+          "score": 0.2882
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "inclusionTopkMean": 0.3446,
+      "inclusionMean": 0.3227,
+      "inclusionMax": 0.3784,
+      "inclusionFractionPresent": 1.0,
+      "meritocracyTopkMean": 0.3257,
+      "meritocracyMean": 0.2988,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 1,
+        "structural_process": 0,
+        "aspirational_vague": 4,
         "belonging_culture": 0,
         "absent": 2,
         "meritocracy": 0,
@@ -70,15 +710,15 @@
           "score": 0.3303
         },
         {
-          "text": "Home About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Google California Benefits Google Non-CA Benefits Review our benefits for Non-California employees . Health Care Google's benefit package includes Benefits Alliance medical insurance which allows you to enroll in one of the plans listed below. HMO health care premiums are 100% paid for e",
+          "text": "Top 10 Reasons to Work at Google 1. Lend a helping hand. With millions of visitors every month, Google has become an essential part of everyday life—like a good friend—connecting people with the information they need to live great lives. 2. Life is beautiful. Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. 3. Appreciation is the bes",
           "heading": "",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "neutral",
-          "inclusion": 0.2503,
-          "meritocracy": 0.1964,
-          "stanceDiff": 0.0539,
-          "salience": 0.2503,
-          "score": 0.2503
+          "inclusion": 0.3102,
+          "meritocracy": 0.2797,
+          "stanceDiff": 0.0305,
+          "salience": 0.3102,
+          "score": 0.3102
         }
       ],
       "meritocracyQuotes": [
@@ -127,33 +767,33 @@
           "score": 0.2937
         },
         {
-          "text": "Home About Google We're Hiring! Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Google California Benefits Google Non-CA Benefits Review our benefits for Non-California employees . Health Care Google's benefit package includes Benefits Alliance medical insurance which allows you to enroll in one of the plans listed below. HMO health care premiums are 100% paid for e",
+          "text": "Top 10 Reasons to Work at Google 1. Lend a helping hand. With millions of visitors every month, Google has become an essential part of everyday life—like a good friend—connecting people with the information they need to live great lives. 2. Life is beautiful. Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. 3. Appreciation is the bes",
           "heading": "",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "neutral",
-          "inclusion": 0.2503,
-          "meritocracy": 0.1964,
-          "stanceDiff": 0.0539,
-          "salience": 0.2503,
-          "score": 0.1964
+          "inclusion": 0.3102,
+          "meritocracy": 0.2797,
+          "stanceDiff": 0.0305,
+          "salience": 0.3102,
+          "score": 0.2797
         }
       ]
     },
     {
       "year": 2006,
-      "inclusionTopkMean": 0.3615,
-      "inclusionMean": 0.3615,
+      "inclusionTopkMean": 0.3298,
+      "inclusionMean": 0.3298,
       "inclusionMax": 0.3784,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.3605,
-      "meritocracyMean": 0.3605,
-      "nChunks": 2,
-      "kUsed": 2,
+      "meritocracyTopkMean": 0.3168,
+      "meritocracyMean": 0.3168,
+      "nChunks": 4,
+      "kUsed": 4,
       "thin": true,
       "registers": {
         "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 3,
         "belonging_culture": 0,
         "absent": 0,
         "meritocracy": 0,
@@ -182,6 +822,28 @@
           "stanceDiff": 0.0078,
           "salience": 0.3447,
           "score": 0.3447
+        },
+        {
+          "text": "Top 10 Reasons to Work at Google 1. Lend a helping hand. With millions of visitors every month, Google has become an essential part of everyday life—like a good friend—connecting people with the information they need to live great lives. 2. Life is beautiful. Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. 3. Appreciation is the bes",
+          "heading": "",
+          "register": "aspirational_vague",
+          "stance": "neutral",
+          "inclusion": 0.3102,
+          "meritocracy": 0.2797,
+          "stanceDiff": 0.0305,
+          "salience": 0.3102,
+          "score": 0.3102
+        },
+        {
+          "text": "Working at Google Working at Google means tackling the toughest problems in computer science and developing innovative products that make a positive difference in tens of millions of lives every day. You won't find any bored engineers here. What you will find are fun, friendly colleagues, an incredibly supportive environment that values life as much it does work, and the opportunity to test the li",
+          "heading": "",
+          "register": "aspirational_vague",
+          "stance": "neutral",
+          "inclusion": 0.2859,
+          "meritocracy": 0.2666,
+          "stanceDiff": 0.0193,
+          "salience": 0.2859,
+          "score": 0.2859
         }
       ],
       "meritocracyQuotes": [
@@ -206,26 +868,48 @@
           "stanceDiff": 0.0078,
           "salience": 0.3447,
           "score": 0.3369
+        },
+        {
+          "text": "Top 10 Reasons to Work at Google 1. Lend a helping hand. With millions of visitors every month, Google has become an essential part of everyday life—like a good friend—connecting people with the information they need to live great lives. 2. Life is beautiful. Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. 3. Appreciation is the bes",
+          "heading": "",
+          "register": "aspirational_vague",
+          "stance": "neutral",
+          "inclusion": 0.3102,
+          "meritocracy": 0.2797,
+          "stanceDiff": 0.0305,
+          "salience": 0.3102,
+          "score": 0.2797
+        },
+        {
+          "text": "Working at Google Working at Google means tackling the toughest problems in computer science and developing innovative products that make a positive difference in tens of millions of lives every day. You won't find any bored engineers here. What you will find are fun, friendly colleagues, an incredibly supportive environment that values life as much it does work, and the opportunity to test the li",
+          "heading": "",
+          "register": "aspirational_vague",
+          "stance": "neutral",
+          "inclusion": 0.2859,
+          "meritocracy": 0.2666,
+          "stanceDiff": 0.0193,
+          "salience": 0.2859,
+          "score": 0.2666
         }
       ]
     },
     {
       "year": 2007,
       "inclusionTopkMean": 0.361,
-      "inclusionMean": 0.361,
+      "inclusionMean": 0.3443,
       "inclusionMax": 0.3695,
       "inclusionFractionPresent": 1.0,
       "meritocracyTopkMean": 0.3477,
-      "meritocracyMean": 0.3477,
-      "nChunks": 5,
+      "meritocracyMean": 0.3273,
+      "nChunks": 7,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 2,
+        "aspirational_vague": 3,
         "belonging_culture": 0,
-        "absent": 2,
+        "absent": 3,
         "meritocracy": 0,
         "civilizational_mission": 0
       },
@@ -347,25 +1031,25 @@
     },
     {
       "year": 2008,
-      "inclusionTopkMean": 0.4448,
-      "inclusionMean": 0.4448,
+      "inclusionTopkMean": 0.4353,
+      "inclusionMean": 0.3388,
       "inclusionMax": 0.5249,
-      "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4231,
-      "meritocracyMean": 0.4231,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "inclusionFractionPresent": 0.6923,
+      "meritocracyTopkMean": 0.4147,
+      "meritocracyMean": 0.2964,
+      "nChunks": 13,
+      "kUsed": 5,
+      "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 2,
         "belonging_culture": 0,
-        "absent": 2,
+        "absent": 11,
         "meritocracy": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": -0.0289,
+      "controlTopkMean": 0.0309,
       "inclusionQuotes": [
         {
           "text": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality.",
@@ -379,15 +1063,48 @@
           "score": 0.5249
         },
         {
-          "text": "Chances are you have a good idea of where you want to go in life. At Google, we've designed a culture that helps you get there. From our flexible, project-based approach to corporate structure to our innovative perks and benefits, we do everything we can to make sure our employees not only have great jobs, but great lives. Into being challenged? Into having fun? Want to change the world? If the an",
-          "heading": "Let's work together.",
+          "text": "Google is not a conventional company, and we don’t intend to become one. True, we share attributes with the world’s most successful organizations – a focus on innovation and smart business practices comes to mind – but even as we continue to grow, we’re committed to retaining a small-company feel. At Google, we know that every employee has something important to say, and that every employee is int",
+          "heading": "Life at Google",
           "register": "absent",
           "stance": "neutral",
-          "inclusion": 0.3647,
-          "meritocracy": 0.3215,
-          "stanceDiff": 0.0432,
-          "salience": 0.3647,
-          "score": 0.3647
+          "inclusion": 0.4265,
+          "meritocracy": 0.3958,
+          "stanceDiff": 0.0307,
+          "salience": 0.4265,
+          "score": 0.4265
+        },
+        {
+          "text": "Boldly go where no one has gone before. There are hundreds of challenges yet to solve. Your creative ideas matter here and are worth exploring. You’ll have the opportunity to develop innovative new products that millions of people will find useful. There is such a thing as a free lunch after all. In fact we have them every day: healthy, yummy, and made with love.",
+          "heading": "Top 10 Reasons to Work at Google",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4166,
+          "meritocracy": 0.3923,
+          "stanceDiff": 0.0243,
+          "salience": 0.4166,
+          "score": 0.4166
+        },
+        {
+          "text": "Google is not a conventional company, and we don't intend to become one. True, we share attributes with the world's most successful organizations – a focus on innovation and smart business practices comes to mind – but even as we continue to grow, we're committed to retaining a small-company feel. At Google, we know that every employee has something important to say, and that every employee is int",
+          "heading": "Life at Google",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4111,
+          "meritocracy": 0.4061,
+          "stanceDiff": 0.005,
+          "salience": 0.4111,
+          "score": 0.4111
+        },
+        {
+          "text": "Lend a helping hand. With millions of visitors every month, Google has become an essential part of everyday life - like a good friend - connecting people with the information they need to live great lives. Life is beautiful. Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. Appreciation is the best motivation , so we’ve created a fun ",
+          "heading": "Top 10 Reasons to Work at Google",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3972,
+          "meritocracy": 0.3457,
+          "stanceDiff": 0.0516,
+          "salience": 0.3972,
+          "score": 0.3972
         }
       ],
       "meritocracyQuotes": [
@@ -403,15 +1120,48 @@
           "score": 0.5247
         },
         {
-          "text": "Chances are you have a good idea of where you want to go in life. At Google, we've designed a culture that helps you get there. From our flexible, project-based approach to corporate structure to our innovative perks and benefits, we do everything we can to make sure our employees not only have great jobs, but great lives. Into being challenged? Into having fun? Want to change the world? If the an",
-          "heading": "Let's work together.",
+          "text": "Google is not a conventional company, and we don't intend to become one. True, we share attributes with the world's most successful organizations – a focus on innovation and smart business practices comes to mind – but even as we continue to grow, we're committed to retaining a small-company feel. At Google, we know that every employee has something important to say, and that every employee is int",
+          "heading": "Life at Google",
           "register": "absent",
           "stance": "neutral",
-          "inclusion": 0.3647,
-          "meritocracy": 0.3215,
-          "stanceDiff": 0.0432,
-          "salience": 0.3647,
-          "score": 0.3215
+          "inclusion": 0.4111,
+          "meritocracy": 0.4061,
+          "stanceDiff": 0.005,
+          "salience": 0.4111,
+          "score": 0.4061
+        },
+        {
+          "text": "Google is not a conventional company, and we don’t intend to become one. True, we share attributes with the world’s most successful organizations – a focus on innovation and smart business practices comes to mind – but even as we continue to grow, we’re committed to retaining a small-company feel. At Google, we know that every employee has something important to say, and that every employee is int",
+          "heading": "Life at Google",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4265,
+          "meritocracy": 0.3958,
+          "stanceDiff": 0.0307,
+          "salience": 0.4265,
+          "score": 0.3958
+        },
+        {
+          "text": "Boldly go where no one has gone before. There are hundreds of challenges yet to solve. Your creative ideas matter here and are worth exploring. You’ll have the opportunity to develop innovative new products that millions of people will find useful. There is such a thing as a free lunch after all. In fact we have them every day: healthy, yummy, and made with love.",
+          "heading": "Top 10 Reasons to Work at Google",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4166,
+          "meritocracy": 0.3923,
+          "stanceDiff": 0.0243,
+          "salience": 0.4166,
+          "score": 0.3923
+        },
+        {
+          "text": "Give the proper tools to a group of people that want to make a difference, and they will. Google's founders often state that the company is not serious about anything but search. They built a company around the idea that work should be challenging and the challenge should be fun. To that end, Google's culture is unlike any in corporate America, and it's not because of the whimsical lava lamps and ",
+          "heading": "Benefits",
+          "register": "aspirational_vague",
+          "stance": "neutral",
+          "inclusion": 0.368,
+          "meritocracy": 0.3545,
+          "stanceDiff": 0.0136,
+          "salience": 0.368,
+          "score": 0.3545
         }
       ]
     },
@@ -2424,21 +3174,21 @@
     "terms": [
       {
         "term": "disability",
-        "first_year": 2005,
+        "first_year": 2000,
         "last_year": 2025,
         "max_score": 0.7529,
         "example": "We endeavor to build products that work for everyone by including perspectives from backgrounds that vary by race, ethnicity, social background, religion, gender, age, disability, sexual orientation, "
       },
       {
         "term": "diversity",
-        "first_year": 2007,
+        "first_year": 2005,
         "last_year": 2025,
         "max_score": 0.7469,
         "example": "We aim to create a workplace that celebrates the diversity of our employees, customers, and users."
       },
       {
         "term": "equity",
-        "first_year": 2012,
+        "first_year": 2008,
         "last_year": 2025,
         "max_score": 0.6735,
         "example": "We will continue to build with and for underrepresented groups where structural and systemic barriers to belonging are the highest, as well as co-create solutions to address racial equity, gender equi"
@@ -2565,16 +3315,472 @@
     ],
     "high_scoring_sentences": [
       {
+        "id": "f793f849669e",
+        "year": 1999,
+        "text": "We encourage excellence at all levels in our organization, and are not influenced by race, color, gender, sexual orientation, age, handicap, religion, or any other factor irrelevant to doing a great job.",
+        "score": 0.6641
+      },
+      {
+        "id": "6870cf694490",
+        "year": 1999,
+        "text": "This means we base employment decisions exclusively on our current business needs and the given merit of a candidate.",
+        "score": 0.4765
+      },
+      {
+        "id": "1c85fb43add5",
+        "year": 1999,
+        "text": "We are rapidly hiring talented people to bring the latest and greatest technology to the web.",
+        "score": 0.4717
+      },
+      {
+        "id": "eb55dfc2f627",
+        "year": 1999,
+        "text": "Your ideas can make a difference Millions of people will use and appreciate your software Google seeks to hire only the best, and conducts business following the spirit and the intent of the equal opportunity laws.",
+        "score": 0.4589
+      },
+      {
+        "id": "358aff429c90",
+        "year": 1999,
+        "text": "Intelligent, fun, talented, hard-working, high-energy teammates In the center of the Silicon Valley An exciting place to work!",
+        "score": 0.4091
+      },
+      {
+        "id": "f793f849669e",
+        "year": 2000,
+        "text": "We encourage excellence at all levels in our organization, and are not influenced by race, color, gender, sexual orientation, age, handicap, religion, or any other factor irrelevant to doing a great job.",
+        "score": 0.6641
+      },
+      {
+        "id": "4769422f41f8",
+        "year": 2000,
+        "text": "Google seeks to hire only the best, and conducts business following the spirit and the intent of the equal opportunity laws.",
+        "score": 0.4771
+      },
+      {
+        "id": "6870cf694490",
+        "year": 2000,
+        "text": "This means we base employment decisions exclusively on our current business needs and the given merit of a candidate.",
+        "score": 0.4765
+      },
+      {
+        "id": "1c85fb43add5",
+        "year": 2000,
+        "text": "We are rapidly hiring talented people to bring the latest and greatest technology to the web.",
+        "score": 0.4717
+      },
+      {
+        "id": "af086615aaa1",
+        "year": 2000,
+        "text": "Intelligent, fun, talented, hard working, high energy teammates.",
+        "score": 0.3814
+      },
+      {
+        "id": "7adede64d7d7",
+        "year": 2000,
+        "text": "Openings Culture Benefits Snapshots of Google Quality search.",
+        "score": 0.3642
+      },
+      {
+        "id": "0998cc25bbde",
+        "year": 2000,
+        "text": "All positions listed are based in the San Francisco Bay Area unless otherwise noted.",
+        "score": 0.3553
+      },
+      {
+        "id": "a69347ba10de",
+        "year": 2000,
+        "text": "Opportunities (San Francisco Bay Area-Mountain View) Reasons to work at Google!",
+        "score": 0.3418
+      },
+      {
+        "id": "f715f35f11ca",
+        "year": 2000,
+        "text": "Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+        "score": 0.3404
+      },
+      {
+        "id": "4ca4522eef44",
+        "year": 2000,
+        "text": "Your ideas can make a difference.",
+        "score": 0.3386
+      },
+      {
+        "id": "766b050ec9fd",
+        "year": 2000,
+        "text": "Great culture and amazing perks - massage therapy, roller hockey, game room, gym, and all the snacks you can eat.",
+        "score": 0.3279
+      },
+      {
+        "id": "b8039451974e",
+        "year": 2000,
+        "text": "Past company outings have included all-staff ski and canoe trips.",
+        "score": 0.324
+      },
+      {
+        "id": "17c673d26fc2",
+        "year": 2000,
+        "text": "Activities: - All Googlers are invited to participate in weekly roller hockey games, bike rides, and walks in the wildlife preserve next door.",
+        "score": 0.3142
+      },
+      {
+        "id": "20d2956fe9f7",
+        "year": 2000,
+        "text": "Home All About Google Press Center Press Room In the News Press Releases Awards Press Images Corporate Info Overview Executive Team Fact Sheet Investor Info Our Partners Address We're Hiring!",
+        "score": 0.3036
+      },
+      {
+        "id": "672add0fab81",
+        "year": 2000,
+        "text": "Engineering Engineering Managers Software Engineers Software Test Engineers HCI Engineer Senior Technical Writer Application Engineer Web Application Developer Operations Operations Director/Vice President Network Operations Lead/Manager Senior System Administrators/Network Specialists Operations Senior Network Engineer Sales Advertising Inside Sales Advertising Account Executives Regional Advertising Sales Managers Sales Engineer Senior Licensing Manager Business Development Int'l.",
+        "score": 0.3011
+      },
+      {
+        "id": "7adede64d7d7",
+        "year": 2001,
+        "text": "Openings Culture Benefits Snapshots of Google Quality search.",
+        "score": 0.3642
+      },
+      {
+        "id": "f715f35f11ca",
+        "year": 2001,
+        "text": "Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+        "score": 0.3404
+      },
+      {
+        "id": "b8039451974e",
+        "year": 2001,
+        "text": "Past company outings have included all-staff ski and canoe trips.",
+        "score": 0.324
+      },
+      {
+        "id": "17c673d26fc2",
+        "year": 2001,
+        "text": "Activities: - All Googlers are invited to participate in weekly roller hockey games, bike rides, and walks in the wildlife preserve next door.",
+        "score": 0.3142
+      },
+      {
+        "id": "20d2956fe9f7",
+        "year": 2001,
+        "text": "Home All About Google Press Center Press Room In the News Press Releases Awards Press Images Corporate Info Overview Executive Team Fact Sheet Investor Info Our Partners Address We're Hiring!",
+        "score": 0.3036
+      },
+      {
+        "id": "add19d2de575",
+        "year": 2002,
+        "text": "Home All About Google We're Hiring!",
+        "score": 0.4
+      },
+      {
+        "id": "55da71548cab",
+        "year": 2002,
+        "text": "Read Me Openings Culture Benefits Inside View Snapshots of Google Quality search.",
+        "score": 0.3677
+      },
+      {
+        "id": "f715f35f11ca",
+        "year": 2002,
+        "text": "Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+        "score": 0.3404
+      },
+      {
+        "id": "b8039451974e",
+        "year": 2002,
+        "text": "Past company outings have included all-staff ski and canoe trips.",
+        "score": 0.324
+      },
+      {
+        "id": "17c673d26fc2",
+        "year": 2002,
+        "text": "Activities: - All Googlers are invited to participate in weekly roller hockey games, bike rides, and walks in the wildlife preserve next door.",
+        "score": 0.3142
+      },
+      {
+        "id": "5891a0420a02",
+        "year": 2002,
+        "text": "Stock Program Employees' recommended number of shares are stated in a formal offer letter and vest over a 4-year period.",
+        "score": 0.3018
+      },
+      {
+        "id": "bdcb505f36a5",
+        "year": 2002,
+        "text": "Activities: • All Googlers are invited to participate in weekly roller hockey games, bike rides, and walks in the wildlife preserve next door.",
+        "score": 0.3018
+      },
+      {
+        "id": "add19d2de575",
+        "year": 2003,
+        "text": "Home All About Google We're Hiring!",
+        "score": 0.4
+      },
+      {
+        "id": "09a3175b8974",
+        "year": 2003,
+        "text": "Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Top Ten Reasons to Work at Google 1.",
+        "score": 0.3644
+      },
+      {
+        "id": "58949a7c5895",
+        "year": 2003,
+        "text": "While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work environment .",
+        "score": 0.3641
+      },
+      {
+        "id": "9d23c6f3f404",
+        "year": 2003,
+        "text": "Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance What can you expect at Google?",
+        "score": 0.3505
+      },
+      {
+        "id": "a0e5ea36300e",
+        "year": 2003,
+        "text": "Intelligent, fun, high energy teammates. 3.",
+        "score": 0.3465
+      },
+      {
+        "id": "f2e80a6717f9",
+        "year": 2003,
+        "text": "Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Heads up Corporate Sponsored Childcare Google participates in a corporate membership with Heads Up allowing employees to have significant priority on their waiting list, just after those families with siblings already in the program.",
+        "score": 0.3409
+      },
+      {
+        "id": "ad276c140eef",
+        "year": 2003,
+        "text": "Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service .",
+        "score": 0.3294
+      },
+      {
+        "id": "9b5b32e56cef",
+        "year": 2003,
+        "text": "Spacious, colorful, fun work environment. 9.",
+        "score": 0.311
+      },
+      {
+        "id": "421787255bdb",
+        "year": 2003,
+        "text": "In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace.",
+        "score": 0.3095
+      },
+      {
+        "id": "2a131aa9f98b",
+        "year": 2003,
+        "text": "Great culture and amazing perks such as massage therapy and all the snacks you can eat. 4.",
+        "score": 0.3095
+      },
+      {
+        "id": "bdcb505f36a5",
+        "year": 2003,
+        "text": "Activities: • All Googlers are invited to participate in weekly roller hockey games, bike rides, and walks in the wildlife preserve next door.",
+        "score": 0.3018
+      },
+      {
+        "id": "8f04606e7778",
+        "year": 2004,
+        "text": "We love our employees, and we want them to know it.",
+        "score": 0.4894
+      },
+      {
+        "id": "9fa79ef0acf7",
+        "year": 2004,
+        "text": "As such we think, act, and work globally—just our little contribution to making the world a better place. 9.",
+        "score": 0.4747
+      },
+      {
+        "id": "5fcf476ba7f3",
+        "year": 2004,
+        "text": "No matter what their backgrounds Googlers make for interesting cube mates. 8.",
+        "score": 0.438
+      },
+      {
+        "id": "36ac8d943578",
+        "year": 2004,
+        "text": "We see endless opportunity to create even more relevant, more useful, and faster products for our users.",
+        "score": 0.415
+      },
+      {
+        "id": "0a018ff9941c",
+        "year": 2004,
+        "text": "Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. 3.",
+        "score": 0.4037
+      },
+      {
+        "id": "add19d2de575",
+        "year": 2004,
+        "text": "Home All About Google We're Hiring!",
+        "score": 0.4
+      },
+      {
+        "id": "236289ae86f0",
+        "year": 2004,
+        "text": "Appreciation is the best motivation , so we've created a fun and inspiring workspace you'll be glad to be a part of, including on-site doctor and dentist; massage and yoga; professional development opportunities; on-site day care; shoreline running trails; and plenty of snacks to get you through the day. 4.",
+        "score": 0.3985
+      },
+      {
+        "id": "10fc2592ee84",
+        "year": 2004,
+        "text": "Your creative ideas matter here and are worth exploring.",
+        "score": 0.3835
+      },
+      {
+        "id": "3d52933ae6b0",
+        "year": 2004,
+        "text": "Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Top 10 Reasons to Work at Google 1.",
+        "score": 0.3735
+      },
+      {
+        "id": "9d23c6f3f404",
+        "year": 2004,
+        "text": "Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance What can you expect at Google?",
+        "score": 0.3505
+      },
+      {
+        "id": "b52f16d2477c",
+        "year": 2004,
+        "text": "Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Google California Benefits Google Non-CA Benefits Review our benefits for Non-California employees .",
+        "score": 0.3493
+      },
+      {
+        "id": "76184b6cc371",
+        "year": 2004,
+        "text": "Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Google Non-California Benefits Google CA Benefits Review our benefits for California employees .",
+        "score": 0.3479
+      },
+      {
+        "id": "a716cf0d1047",
+        "year": 2004,
+        "text": "Main All Openings Intern Opportunities Top 10 Reasons Culture Benefits Inside View Work/Life Balance Balancing Work and Life Heads Up Corporate Sponsored Childcare Google participates in a corporate membership with Heads Up allowing employees to have significant priority on their waiting list, just after those families with siblings already in the program.",
+        "score": 0.3466
+      },
+      {
+        "id": "98ed5c7e4c4e",
+        "year": 2004,
+        "text": "Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Balancing Work and Life Concern Free services for all Googlers for help with personal issues, assistance with childcare providers, answers to legal questions, advice about money, services for an older relative, and guidance with career.",
+        "score": 0.3434
+      },
+      {
+        "id": "6f312d235bb0",
+        "year": 2004,
+        "text": "We are hiring engineers for Google New York , Google Santa Monica , Google India ( Bangalore and Hyderabad ), Google Europe (Zurich) and Google Japan",
+        "score": 0.3381
+      },
+      {
+        "id": "25cb4a05dd1a",
+        "year": 2004,
+        "text": "People in every country and every language use our products.",
+        "score": 0.3328
+      },
+      {
+        "id": "6a824df268be",
+        "year": 2004,
+        "text": "Uniting the world, one user at a time.",
+        "score": 0.3294
+      },
+      {
+        "id": "ad276c140eef",
+        "year": 2004,
+        "text": "Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service .",
+        "score": 0.3294
+      },
+      {
+        "id": "a2b200364ea6",
+        "year": 2004,
+        "text": "Googlers range from former neurosurgeons, CEOs, and U.S. puzzle champions to alligator wrestlers and ex-marines.",
+        "score": 0.3253
+      },
+      {
+        "id": "d358e8a2b311",
+        "year": 2004,
+        "text": "While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work environment . • View all department openings • Intern Opportunities • Top 10 reasons to work at Google • Culture and Benefits • An inside view of Google • Balancing work & life • Read me !",
+        "score": 0.325
+      },
+      {
+        "id": "37b9e7c924d2",
+        "year": 2004,
+        "text": "While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work environment . • View all department openings • Intern Opportunities • Top 10 reasons to work at Google • Culture • Benefits • An inside view of Google • Balancing work & life • Read me !",
+        "score": 0.3242
+      },
+      {
+        "id": "6837dc022c0e",
+        "year": 2004,
+        "text": "While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work environment . • View all department openings • Top 10 reasons to work at Google • Culture and Benefits • An inside view of Google • Balancing work & life • Read me !",
+        "score": 0.3208
+      },
+      {
+        "id": "421787255bdb",
+        "year": 2004,
+        "text": "In doing so, we have developed strong revenue streams enabling us to attain profitability in a competitive marketplace.",
+        "score": 0.3095
+      },
+      {
         "id": "f1bc6d87c837",
         "year": 2005,
         "text": "We believe in hard work, a fun atmosphere, and the sort of creativity that only comes about when talented people from diverse backgrounds approach problems from varying perspectives.",
         "score": 0.6641
       },
       {
+        "id": "4363c89a6c7a",
+        "year": 2005,
+        "text": "We value talent and intelligence, group spirit and diversity, creativity and idealism.",
+        "score": 0.5783
+      },
+      {
         "id": "c3341900fdcb",
         "year": 2005,
         "text": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality.",
         "score": 0.5249
+      },
+      {
+        "id": "8f04606e7778",
+        "year": 2005,
+        "text": "We love our employees, and we want them to know it.",
+        "score": 0.4894
+      },
+      {
+        "id": "40a3baa0911f",
+        "year": 2005,
+        "text": "We're looking for people with world-class skills who thrive in small, focused teams and high-energy environments, believe in the ability of technology to change the world, and are as passionate about their lives as they are about their work.",
+        "score": 0.475
+      },
+      {
+        "id": "9fa79ef0acf7",
+        "year": 2005,
+        "text": "As such we think, act, and work globally—just our little contribution to making the world a better place. 9.",
+        "score": 0.4747
+      },
+      {
+        "id": "5fcf476ba7f3",
+        "year": 2005,
+        "text": "No matter what their backgrounds Googlers make for interesting cube mates. 8.",
+        "score": 0.438
+      },
+      {
+        "id": "5c05b2f42a20",
+        "year": 2005,
+        "text": "What you will find are fun, friendly colleagues, an incredibly supportive environment that values life as much it does work, and the opportunity to test the limits of your intellectual abilities.",
+        "score": 0.4276
+      },
+      {
+        "id": "36ac8d943578",
+        "year": 2005,
+        "text": "We see endless opportunity to create even more relevant, more useful, and faster products for our users.",
+        "score": 0.415
+      },
+      {
+        "id": "0a018ff9941c",
+        "year": 2005,
+        "text": "Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. 3.",
+        "score": 0.4037
+      },
+      {
+        "id": "236289ae86f0",
+        "year": 2005,
+        "text": "Appreciation is the best motivation , so we've created a fun and inspiring workspace you'll be glad to be a part of, including on-site doctor and dentist; massage and yoga; professional development opportunities; on-site day care; shoreline running trails; and plenty of snacks to get you through the day. 4.",
+        "score": 0.3985
+      },
+      {
+        "id": "10fc2592ee84",
+        "year": 2005,
+        "text": "Your creative ideas matter here and are worth exploring.",
+        "score": 0.3835
       },
       {
         "id": "fea654fd8235",
@@ -2589,16 +3795,40 @@
         "score": 0.355
       },
       {
+        "id": "2a042eedb276",
+        "year": 2005,
+        "text": "It's very satisfying to work on a product that you love.\" - Lauren (Software Engineer ) Meet Some Googlers",
+        "score": 0.3513
+      },
+      {
         "id": "b52f16d2477c",
         "year": 2005,
         "text": "Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Google California Benefits Google Non-CA Benefits Review our benefits for Non-California employees .",
         "score": 0.3493
       },
       {
+        "id": "0769e93a362c",
+        "year": 2005,
+        "text": "Top 10 Reasons to Work at Google 1.",
+        "score": 0.3415
+      },
+      {
         "id": "ede053b929c8",
         "year": 2005,
         "text": "We are hiring engineers for Google New York , Google Santa Monica , Google Kirkland , Google India ( Bangalore and Hyderabad ), Google Europe (Zurich) and Google Japan",
         "score": 0.3415
+      },
+      {
+        "id": "25cb4a05dd1a",
+        "year": 2005,
+        "text": "People in every country and every language use our products.",
+        "score": 0.3328
+      },
+      {
+        "id": "6a824df268be",
+        "year": 2005,
+        "text": "Uniting the world, one user at a time.",
+        "score": 0.3294
       },
       {
         "id": "ad276c140eef",
@@ -2611,6 +3841,12 @@
         "year": 2005,
         "text": "Please do not forward resumes to our jobs alias, Google employees or any other company location.",
         "score": 0.3235
+      },
+      {
+        "id": "5fe7dcb27c4c",
+        "year": 2005,
+        "text": "Googlers range from former neurosurgeons, CEOs, and U.S. puzzle champions to alligator wrestlers and former-Marines.",
+        "score": 0.3162
       },
       {
         "id": "3931a3884a4f",
@@ -2649,10 +3885,70 @@
         "score": 0.6641
       },
       {
+        "id": "4363c89a6c7a",
+        "year": 2006,
+        "text": "We value talent and intelligence, group spirit and diversity, creativity and idealism.",
+        "score": 0.5783
+      },
+      {
         "id": "c3341900fdcb",
         "year": 2006,
         "text": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality.",
         "score": 0.5249
+      },
+      {
+        "id": "8f04606e7778",
+        "year": 2006,
+        "text": "We love our employees, and we want them to know it.",
+        "score": 0.4894
+      },
+      {
+        "id": "40a3baa0911f",
+        "year": 2006,
+        "text": "We're looking for people with world-class skills who thrive in small, focused teams and high-energy environments, believe in the ability of technology to change the world, and are as passionate about their lives as they are about their work.",
+        "score": 0.475
+      },
+      {
+        "id": "9fa79ef0acf7",
+        "year": 2006,
+        "text": "As such we think, act, and work globally—just our little contribution to making the world a better place. 9.",
+        "score": 0.4747
+      },
+      {
+        "id": "5fcf476ba7f3",
+        "year": 2006,
+        "text": "No matter what their backgrounds Googlers make for interesting cube mates. 8.",
+        "score": 0.438
+      },
+      {
+        "id": "5c05b2f42a20",
+        "year": 2006,
+        "text": "What you will find are fun, friendly colleagues, an incredibly supportive environment that values life as much it does work, and the opportunity to test the limits of your intellectual abilities.",
+        "score": 0.4276
+      },
+      {
+        "id": "36ac8d943578",
+        "year": 2006,
+        "text": "We see endless opportunity to create even more relevant, more useful, and faster products for our users.",
+        "score": 0.415
+      },
+      {
+        "id": "0a018ff9941c",
+        "year": 2006,
+        "text": "Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. 3.",
+        "score": 0.4037
+      },
+      {
+        "id": "236289ae86f0",
+        "year": 2006,
+        "text": "Appreciation is the best motivation , so we've created a fun and inspiring workspace you'll be glad to be a part of, including on-site doctor and dentist; massage and yoga; professional development opportunities; on-site day care; shoreline running trails; and plenty of snacks to get you through the day. 4.",
+        "score": 0.3985
+      },
+      {
+        "id": "10fc2592ee84",
+        "year": 2006,
+        "text": "Your creative ideas matter here and are worth exploring.",
+        "score": 0.3835
       },
       {
         "id": "fea654fd8235",
@@ -2661,16 +3957,46 @@
         "score": 0.3562
       },
       {
+        "id": "2a042eedb276",
+        "year": 2006,
+        "text": "It's very satisfying to work on a product that you love.\" - Lauren (Software Engineer ) Meet Some Googlers",
+        "score": 0.3513
+      },
+      {
+        "id": "0769e93a362c",
+        "year": 2006,
+        "text": "Top 10 Reasons to Work at Google 1.",
+        "score": 0.3415
+      },
+      {
         "id": "b079ac132692",
         "year": 2006,
         "text": "Our most valuable resource is our people: energetic, innovative thinkers who care equally about doing great work and developing a culture that's great for all our employees. • What's it like to work at Google? • Benefits of working at Google • The engineer's life at Google and what we do . • Information for students What's going on at Google? • Google announces partnership with Teach for America. • Google Anita Borg Scholarship accepting US and Europe applications until January 2007. • Google selected by U.S. undergraduate and MBA students as an ideal employer in 2006 Universum Survey . • Google Ireland recognized among Best Companies to Work For . • Check our Google Blog or subscribe to the Google Friends newsletter .",
         "score": 0.3328
       },
       {
+        "id": "25cb4a05dd1a",
+        "year": 2006,
+        "text": "People in every country and every language use our products.",
+        "score": 0.3328
+      },
+      {
+        "id": "6a824df268be",
+        "year": 2006,
+        "text": "Uniting the world, one user at a time.",
+        "score": 0.3294
+      },
+      {
         "id": "ca8f0cbdb2a0",
         "year": 2006,
         "text": "Please do not forward resumes to our jobs alias, Google employees or any other company location.",
         "score": 0.3235
+      },
+      {
+        "id": "5fe7dcb27c4c",
+        "year": 2006,
+        "text": "Googlers range from former neurosurgeons, CEOs, and U.S. puzzle champions to alligator wrestlers and former-Marines.",
+        "score": 0.3162
       },
       {
         "id": "1cb82d23dcea",
@@ -2689,6 +4015,12 @@
         "year": 2007,
         "text": "We believe in hard work, a fun atmosphere, and the sort of creativity that only comes about when talented people from diverse backgrounds approach problems from varying perspectives.",
         "score": 0.6641
+      },
+      {
+        "id": "4363c89a6c7a",
+        "year": 2007,
+        "text": "We value talent and intelligence, group spirit and diversity, creativity and idealism.",
+        "score": 0.5783
       },
       {
         "id": "3b4f1f370060",
@@ -2715,6 +4047,24 @@
         "score": 0.507
       },
       {
+        "id": "8f04606e7778",
+        "year": 2007,
+        "text": "We love our employees, and we want them to know it.",
+        "score": 0.4894
+      },
+      {
+        "id": "40a3baa0911f",
+        "year": 2007,
+        "text": "We're looking for people with world-class skills who thrive in small, focused teams and high-energy environments, believe in the ability of technology to change the world, and are as passionate about their lives as they are about their work.",
+        "score": 0.475
+      },
+      {
+        "id": "9fa79ef0acf7",
+        "year": 2007,
+        "text": "As such we think, act, and work globally—just our little contribution to making the world a better place. 9.",
+        "score": 0.4747
+      },
+      {
         "id": "3a752876c0d2",
         "year": 2007,
         "text": "At Google, we've designed a culture that helps you get there.",
@@ -2733,10 +4083,46 @@
         "score": 0.4513
       },
       {
+        "id": "5fcf476ba7f3",
+        "year": 2007,
+        "text": "No matter what their backgrounds Googlers make for interesting cube mates. 8.",
+        "score": 0.438
+      },
+      {
+        "id": "5c05b2f42a20",
+        "year": 2007,
+        "text": "What you will find are fun, friendly colleagues, an incredibly supportive environment that values life as much it does work, and the opportunity to test the limits of your intellectual abilities.",
+        "score": 0.4276
+      },
+      {
+        "id": "36ac8d943578",
+        "year": 2007,
+        "text": "We see endless opportunity to create even more relevant, more useful, and faster products for our users.",
+        "score": 0.415
+      },
+      {
+        "id": "0a018ff9941c",
+        "year": 2007,
+        "text": "Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. 3.",
+        "score": 0.4037
+      },
+      {
         "id": "2c6a22826042",
         "year": 2007,
         "text": "We work hard here, and play here, and dream here.",
         "score": 0.401
+      },
+      {
+        "id": "236289ae86f0",
+        "year": 2007,
+        "text": "Appreciation is the best motivation , so we've created a fun and inspiring workspace you'll be glad to be a part of, including on-site doctor and dentist; massage and yoga; professional development opportunities; on-site day care; shoreline running trails; and plenty of snacks to get you through the day. 4.",
+        "score": 0.3985
+      },
+      {
+        "id": "10fc2592ee84",
+        "year": 2007,
+        "text": "Your creative ideas matter here and are worth exploring.",
+        "score": 0.3835
       },
       {
         "id": "ead24acd9d61",
@@ -2757,16 +4143,46 @@
         "score": 0.3538
       },
       {
+        "id": "2a042eedb276",
+        "year": 2007,
+        "text": "It's very satisfying to work on a product that you love.\" - Lauren (Software Engineer ) Meet Some Googlers",
+        "score": 0.3513
+      },
+      {
+        "id": "0769e93a362c",
+        "year": 2007,
+        "text": "Top 10 Reasons to Work at Google 1.",
+        "score": 0.3415
+      },
+      {
+        "id": "25cb4a05dd1a",
+        "year": 2007,
+        "text": "People in every country and every language use our products.",
+        "score": 0.3328
+      },
+      {
         "id": "ea27a848451c",
         "year": 2007,
         "text": "Our most valuable resource is our people: energetic, innovative thinkers who care equally about doing great work and developing a culture that's great for all our employees. • What's it like to work at Google? • Benefits of working at Google • The engineer's life at Google and what we do . • Information for students What's going on at Google? • Google recognized by Fortune Magazine among 100 Best Companies to Work For • Google announces partnership with Teach for America. • Google Anita Borg Scholarship accepting US and Europe applications until January 2007. • Google selected by U.S. undergraduate and MBA students as an ideal employer in 2006 Universum Survey . • Google Ireland recognized among Best Companies to Work For . • Check our Google Blog or subscribe to the Google Friends newsletter .",
         "score": 0.332
       },
       {
+        "id": "6a824df268be",
+        "year": 2007,
+        "text": "Uniting the world, one user at a time.",
+        "score": 0.3294
+      },
+      {
         "id": "ca8f0cbdb2a0",
         "year": 2007,
         "text": "Please do not forward resumes to our jobs alias, Google employees or any other company location.",
         "score": 0.3235
+      },
+      {
+        "id": "5fe7dcb27c4c",
+        "year": 2007,
+        "text": "Googlers range from former neurosurgeons, CEOs, and U.S. puzzle champions to alligator wrestlers and former-Marines.",
+        "score": 0.3162
       },
       {
         "id": "1cb82d23dcea",
@@ -2787,6 +4203,24 @@
         "score": 0.3083
       },
       {
+        "id": "4b12a533cb09",
+        "year": 2008,
+        "text": "At Google, we know that every employee has something important to say, and that every employee is integral to our success.",
+        "score": 0.5732
+      },
+      {
+        "id": "98f157484f30",
+        "year": 2008,
+        "text": "We realize and celebrate that our employees have diverse needs, and that this diversity requires flexible and individually directed support.",
+        "score": 0.5601
+      },
+      {
+        "id": "7c9338a3067d",
+        "year": 2008,
+        "text": "Our most valuable resource is our people: energetic, innovative thinkers who care equally about doing great work and developing a culture that's great for all our employees.",
+        "score": 0.5308
+      },
+      {
         "id": "3b4f1f370060",
         "year": 2008,
         "text": "From our flexible, project-based approach to corporate structure to our innovative perks and benefits, we do everything we can to make sure our employees not only have great jobs, but great lives.",
@@ -2799,10 +4233,214 @@
         "score": 0.5249
       },
       {
+        "id": "8f04606e7778",
+        "year": 2008,
+        "text": "We love our employees, and we want them to know it.",
+        "score": 0.4894
+      },
+      {
+        "id": "5a5ff092627f",
+        "year": 2008,
+        "text": "As such we think, act, and work globally - just our little contribution to making the world a better place.",
+        "score": 0.4722
+      },
+      {
         "id": "3a752876c0d2",
         "year": 2008,
         "text": "At Google, we've designed a culture that helps you get there.",
         "score": 0.4655
+      },
+      {
+        "id": "20b1c6b728c3",
+        "year": 2008,
+        "text": "True, we share attributes with the world’s most successful organizations – a focus on innovation and smart business practices comes to mind – but even as we continue to grow, we’re committed to retaining a small-company feel.",
+        "score": 0.4648
+      },
+      {
+        "id": "120884ec82a1",
+        "year": 2008,
+        "text": "We want Googlers to get involved – and the company is right behind you.",
+        "score": 0.4607
+      },
+      {
+        "id": "1bfd8780fc42",
+        "year": 2008,
+        "text": "True, we share attributes with the world's most successful organizations – a focus on innovation and smart business practices comes to mind – but even as we continue to grow, we're committed to retaining a small-company feel.",
+        "score": 0.4564
+      },
+      {
+        "id": "715d8c142956",
+        "year": 2008,
+        "text": "\"The goal is to strip away everything that gets in our employees' way.",
+        "score": 0.4547
+      },
+      {
+        "id": "cbee50c112b4",
+        "year": 2008,
+        "text": "No matter what their backgrounds Googlers make for interesting cube mates.",
+        "score": 0.4472
+      },
+      {
+        "id": "97985c2b66b7",
+        "year": 2008,
+        "text": "We’re always on the look-out for new Googlers.",
+        "score": 0.4368
+      },
+      {
+        "id": "8f82861a80df",
+        "year": 2008,
+        "text": "Being a part of something that matters and working on products in which you can believe is remarkably fulfilling.",
+        "score": 0.4347
+      },
+      {
+        "id": "5405087e7976",
+        "year": 2008,
+        "text": "We're always on the look-out for new Googlers.",
+        "score": 0.4341
+      },
+      {
+        "id": "36ac8d943578",
+        "year": 2008,
+        "text": "We see endless opportunity to create even more relevant, more useful, and faster products for our users.",
+        "score": 0.415
+      },
+      {
+        "id": "5e189581d26f",
+        "year": 2008,
+        "text": "They built a company around the idea that work should be challenging and the challenge should be fun.",
+        "score": 0.4108
+      },
+      {
+        "id": "283662070530",
+        "year": 2008,
+        "text": "Appreciation is the best motivation , so we’ve created a fun and inspiring workspace you’ll be glad to be a part of, including on-site doctor and dentist; massage and yoga; professional development opportunities; on-site day care; shoreline running trails; and plenty of snacks to get you through the day.",
+        "score": 0.4104
+      },
+      {
+        "id": "6e413af03ece",
+        "year": 2008,
+        "text": "So we make it easy for them to do both.\" Eric Schmidt, CEO Google Philosophy: We strive to be innovative and unique in all services we provide both to customers and employees, including our benefits and perks offerings.",
+        "score": 0.3945
+      },
+      {
+        "id": "8780c12dffe2",
+        "year": 2008,
+        "text": "Our best employees have been hired through referrals.",
+        "score": 0.3922
+      },
+      {
+        "id": "10fc2592ee84",
+        "year": 2008,
+        "text": "Your creative ideas matter here and are worth exploring.",
+        "score": 0.3835
+      },
+      {
+        "id": "6fbb1f13055e",
+        "year": 2008,
+        "text": "We provide individually-tailored compensation packages that can be comprised of competitive salary, bonus, and equity components, along with the opportunity to earn further financial bonuses and rewards.",
+        "score": 0.3757
+      },
+      {
+        "id": "104ba84e9463",
+        "year": 2008,
+        "text": "Googlers thrive in small, focused teams and high-energy environments, believe in the ability of technology to change the world, and are as passionate about their lives as they are about their work.",
+        "score": 0.3716
+      },
+      {
+        "id": "e786ba21dcb6",
+        "year": 2008,
+        "text": "In the same way Google puts users first when it comes to online services, Google puts employees first when it comes to daily life in its offices.",
+        "score": 0.3701
+      },
+      {
+        "id": "9f64fe623623",
+        "year": 2008,
+        "text": "Employee Referral Program Good people know other good people.",
+        "score": 0.364
+      },
+      {
+        "id": "d1a1a4e444e4",
+        "year": 2008,
+        "text": "Google is not a conventional company, and we don’t intend to become one.",
+        "score": 0.3528
+      },
+      {
+        "id": "0bf787911cd0",
+        "year": 2008,
+        "text": "Google is not a conventional company, and we don't intend to become one.",
+        "score": 0.3515
+      },
+      {
+        "id": "013a3b816cbe",
+        "year": 2008,
+        "text": "We provide a standard package of fringe benefits, but on top of that are first-class dining facilities, gyms, laundry rooms, massage rooms, haircuts, carwashes, dry cleaning, commuting buses - just about anything a hardworking employee engineer might want.",
+        "score": 0.3464
+      },
+      {
+        "id": "d4b50994fe69",
+        "year": 2008,
+        "text": "Our priority is to offer a customizable program that can be tailored to the specific needs of each individual, whether they enjoy ice climbing in Alaska, want to retire by age 40, or plan to adopt 3 children. • Health and wellness • Retirement and savings • Time away • Benefits...beyond the basics • Benefits...way beyond the basics • Videos",
+        "score": 0.3444
+      },
+      {
+        "id": "d7e9b6806333",
+        "year": 2008,
+        "text": "Google has offices around the globe, from Bangalore to Zurich, but regardless of where we are, we nurture an invigorating, positive environment by hiring talented, local people who share our commitment to creating search perfection and want to have a great time doing it.",
+        "score": 0.3428
+      },
+      {
+        "id": "b1515c3e8009",
+        "year": 2008,
+        "text": "Bolstering employee contributions to worthy causes with matching gifts doesn't just mean helping hundreds of organizations, both locally and globally; it’s also a tangible expression.",
+        "score": 0.3341
+      },
+      {
+        "id": "25cb4a05dd1a",
+        "year": 2008,
+        "text": "People in every country and every language use our products.",
+        "score": 0.3328
+      },
+      {
+        "id": "6a824df268be",
+        "year": 2008,
+        "text": "Uniting the world, one user at a time.",
+        "score": 0.3294
+      },
+      {
+        "id": "e77034dc61e2",
+        "year": 2008,
+        "text": "We offer a variety of investment options to choose from, through Vanguard, our 401(k) Plan Administrator.",
+        "score": 0.3242
+      },
+      {
+        "id": "b48ec4c87deb",
+        "year": 2008,
+        "text": "Tuition Reimbursement We’ll help you pursue further education that’s relevant to what you do.",
+        "score": 0.3207
+      },
+      {
+        "id": "5fe7dcb27c4c",
+        "year": 2008,
+        "text": "Googlers range from former neurosurgeons, CEOs, and U.S. puzzle champions to alligator wrestlers and former-Marines.",
+        "score": 0.3162
+      },
+      {
+        "id": "7812890af751",
+        "year": 2008,
+        "text": "Adoption Assistance Google assists our employees by offering financial assistance in the adoption of a child.",
+        "score": 0.3026
+      },
+      {
+        "id": "6fae694f3ab8",
+        "year": 2008,
+        "text": "You’ll have the opportunity to develop innovative new products that millions of people will find useful.",
+        "score": 0.3019
+      },
+      {
+        "id": "df166191779b",
+        "year": 2008,
+        "text": "Other Great Benefits Ski trip, company movie day, summer picnic, Halloween & holiday party, health fair, quarterly group offsites, credit union, sauna, roller hockey, outdoor volleyball court, discounts for products and local attractions.",
+        "score": 0.3004
       },
       {
         "id": "e3c132f742d4",
@@ -11611,21 +13249,21 @@
       "inclusion": [
         {
           "term": "disability",
-          "first_year": 2005,
+          "first_year": 2000,
           "last_year": 2025,
           "max_score": 0.7529,
           "example": "We endeavor to build products that work for everyone by including perspectives from backgrounds that vary by race, ethnicity, social background, religion, gender, age, disability, sexual orientation, "
         },
         {
           "term": "diversity",
-          "first_year": 2007,
+          "first_year": 2005,
           "last_year": 2025,
           "max_score": 0.7469,
           "example": "We aim to create a workplace that celebrates the diversity of our employees, customers, and users."
         },
         {
           "term": "equity",
-          "first_year": 2012,
+          "first_year": 2008,
           "last_year": 2025,
           "max_score": 0.6735,
           "example": "We will continue to build with and for underrepresented groups where structural and systemic barriers to belonging are the highest, as well as co-create solutions to address racial equity, gender equi"

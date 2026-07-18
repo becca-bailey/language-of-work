@@ -9,10 +9,177 @@
   ],
   "years": [
     {
-      "year": 2005,
-      "total_chunks": 10,
+      "year": 1999,
+      "total_chunks": 22,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 20,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2000,
+      "total_chunks": 91,
       "ai_chunks": 1,
-      "prevalence": 0.1,
+      "prevalence": 0.011,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 66,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "64737740f34eff5f",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Google Research is looking for experienced researchers to join our team. We seek motivated and enthusiastic colleagues with a strong research background, good programming skills, and a demonstrated ability to generate new ideas and innovate. Experience with web search, information retrieval, machine"
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "total_chunks": 6,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2002,
+      "total_chunks": 8,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2003,
+      "total_chunks": 7,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2004,
+      "total_chunks": 11,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2005,
+      "total_chunks": 12,
+      "ai_chunks": 1,
+      "prevalence": 0.0833,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -26,7 +193,7 @@
           "mentions": 1
         },
         "mission_brand": {
-          "chunks": 4,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -52,13 +219,13 @@
     },
     {
       "year": 2006,
-      "total_chunks": 2,
+      "total_chunks": 4,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": true,
       "labels": {
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -68,13 +235,13 @@
     },
     {
       "year": 2007,
-      "total_chunks": 5,
+      "total_chunks": 7,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 5,
+          "chunks": 7,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -84,13 +251,18 @@
     },
     {
       "year": 2008,
-      "total_chunks": 2,
+      "total_chunks": 13,
       "ai_chunks": 0,
       "prevalence": 0.0,
-      "thin": true,
+      "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 7,
           "ai_chunks": 0,
           "mentions": 0
         }

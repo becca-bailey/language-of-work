@@ -5,10 +5,198 @@
   "caveat": "Framing projections have ~4 years of real signal by construction; per-company timing is not comparable until corpus gaps are filled.",
   "years": [
     {
-      "year": 2005,
-      "totalChunks": 10,
+      "year": 1999,
+      "totalChunks": 22,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 20,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2000,
+      "totalChunks": 91,
       "aiChunks": 1,
-      "prevalence": 0.1,
+      "prevalence": 0.011,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 66,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.1067,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "group": "hire",
+          "meanProjection": -0.1067,
+          "nChunks": 1,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "64737740f34eff5f",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.1067,
+          "text": "Google Research is looking for experienced researchers to join our team. We seek motivated and enthusiastic colleagues with a strong research background, good programming skills, and a demonstrated ability to generate new ideas and innovate. Experience with web search, information retrieval, machine learning, and system design is a definite plus. As a member of our research team you will invent an"
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "totalChunks": 6,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2002,
+      "totalChunks": 8,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2003,
+      "totalChunks": 7,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2004,
+      "totalChunks": 11,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2005,
+      "totalChunks": 12,
+      "aiChunks": 1,
+      "prevalence": 0.0833,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -22,7 +210,7 @@
           "mentions": 1
         },
         "mission_brand": {
-          "chunks": 4,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -64,13 +252,13 @@
     },
     {
       "year": 2006,
-      "totalChunks": 2,
+      "totalChunks": 4,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": true,
       "labels": {
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -81,13 +269,13 @@
     },
     {
       "year": 2007,
-      "totalChunks": 5,
+      "totalChunks": 7,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 5,
+          "chunks": 7,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -98,13 +286,18 @@
     },
     {
       "year": 2008,
-      "totalChunks": 2,
+      "totalChunks": 13,
       "aiChunks": 0,
       "prevalence": 0.0,
-      "thin": true,
+      "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 7,
           "ai_chunks": 0,
           "mentions": 0
         }

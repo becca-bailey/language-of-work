@@ -4,10 +4,165 @@
   "axis": "performance",
   "years": [
     {
+      "year": 1999,
+      "zscore": -0.4544,
+      "rawTopkMean": 0.4005,
+      "nChunks": 2,
+      "kUsed": 2,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We are rapidly hiring talented people to bring the latest and greatest technology to the web.",
+          "heading": "Jobs @ Google",
+          "score": 0.551
+        },
+        {
+          "text": "Google is the leading designer of next-generation search engine technology.",
+          "heading": "Jobs @ Google",
+          "score": 0.25
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "zscore": 0.9914,
+      "rawTopkMean": 0.5031,
+      "nChunks": 21,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Intelligent, fun, talented, hard working, high energy teammates.",
+          "heading": "",
+          "score": 0.5673
+        },
+        {
+          "text": "We are rapidly hiring talented people to bring the latest and greatest technology to the web.",
+          "heading": "",
+          "score": 0.551
+        },
+        {
+          "text": "We encourage excellence at all levels in our organization, and are not influenced by race, color, gender, sexual orientation, age, handicap, religion, or any other factor irrelevant to doing a great job.",
+          "heading": "",
+          "score": 0.5374
+        },
+        {
+          "text": "This means we base employment decisions exclusively on our current business needs and the given merit of a candidate.",
+          "heading": "",
+          "score": 0.4693
+        },
+        {
+          "text": "Great culture and amazing perks - massage therapy, roller hockey, game room, gym, and all the snacks you can eat.",
+          "heading": "Join Our Team!",
+          "score": 0.3906
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "zscore": -1.1393,
+      "rawTopkMean": 0.3519,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Home All About Google We're Hiring!",
+          "heading": "",
+          "score": 0.3802
+        },
+        {
+          "text": "Read Me Openings Culture Benefits Inside View Snapshots of Google Quality search.",
+          "heading": "",
+          "score": 0.3411
+        },
+        {
+          "text": "Here's a glimpse into Google... ••• YOU can be part of this experience! •••",
+          "heading": "",
+          "score": 0.3343
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "zscore": -0.5143,
+      "rawTopkMean": 0.3962,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Intelligent, fun, high energy teammates. 3.",
+          "heading": "",
+          "score": 0.485
+        },
+        {
+          "text": "While developing services to be used by millions of people daily, you'll enjoy challenging projects and a unique work environment .",
+          "heading": "",
+          "score": 0.4191
+        },
+        {
+          "text": "Home All About Google We're Hiring!",
+          "heading": "",
+          "score": 0.3802
+        },
+        {
+          "text": "Great culture and amazing perks such as massage therapy and all the snacks you can eat. 4.",
+          "heading": "",
+          "score": 0.3497
+        },
+        {
+          "text": "Main All Openings Top 10 Reasons Culture Benefits Inside View Work/Life Balance Top Ten Reasons to Work at Google 1.",
+          "heading": "",
+          "score": 0.3473
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "zscore": -0.2592,
+      "rawTopkMean": 0.4143,
+      "nChunks": 31,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We love our employees, and we want them to know it.",
+          "heading": "",
+          "score": 0.4348
+        },
+        {
+          "text": "We see endless opportunity to create even more relevant, more useful, and faster products for our users.",
+          "heading": "",
+          "score": 0.4141
+        },
+        {
+          "text": "As such we think, act, and work globally—just our little contribution to making the world a better place. 9.",
+          "heading": "",
+          "score": 0.4113
+        },
+        {
+          "text": "Appreciation is the best motivation , so we've created a fun and inspiring workspace you'll be glad to be a part of, including on-site doctor and dentist; massage and yoga; professional development opportunities; on-site day care; shoreline running trails; and plenty of snacks to get you through the day. 4.",
+          "heading": "",
+          "score": 0.4084
+        },
+        {
+          "text": "Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. 3.",
+          "heading": "",
+          "score": 0.4032
+        }
+      ]
+    },
+    {
       "year": 2005,
-      "zscore": 0.3957,
-      "rawTopkMean": 0.4604,
-      "nChunks": 18,
+      "zscore": 1.9092,
+      "rawTopkMean": 0.5683,
+      "nChunks": 29,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -18,30 +173,30 @@
           "score": 0.6588
         },
         {
+          "text": "We're looking for people with world-class skills who thrive in small, focused teams and high-energy environments, believe in the ability of technology to change the world, and are as passionate about their lives as they are about their work.",
+          "heading": "",
+          "score": 0.6271
+        },
+        {
+          "text": "We value talent and intelligence, group spirit and diversity, creativity and idealism.",
+          "heading": "",
+          "score": 0.5293
+        },
+        {
           "text": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality.",
           "heading": "",
           "score": 0.5241
         },
         {
-          "text": "And whether you work at our headquarters in Mountain View, California, or in any of our offices around the world, we think you'll find Google a place where you can aspire to outsized accomplishments.",
+          "text": "What you will find are fun, friendly colleagues, an incredibly supportive environment that values life as much it does work, and the opportunity to test the limits of your intellectual abilities.",
           "heading": "",
-          "score": 0.3764
-        },
-        {
-          "text": "And whether you work at our headquarters in Mountain View, California, or in any of our locations around the world, we think you'll find Google a place where you can aspire to outsized accomplishments.",
-          "heading": "",
-          "score": 0.3758
-        },
-        {
-          "text": "Googlers have been Olympic athletes and Jeopardy champions; professional chefs and independent film makers.",
-          "heading": "",
-          "score": 0.3667
+          "score": 0.5022
         }
       ]
     },
     {
       "year": 2007,
-      "zscore": 1.7122,
+      "zscore": 1.6759,
       "rawTopkMean": 0.5517,
       "nChunks": 30,
       "kUsed": 5,
@@ -77,23 +232,43 @@
     },
     {
       "year": 2008,
-      "zscore": 1.3145,
-      "rawTopkMean": 0.5241,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "zscore": 1.279,
+      "rawTopkMean": 0.5236,
+      "nChunks": 35,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Our most valuable resource is our people: energetic, innovative thinkers who care equally about doing great work and developing a culture that's great for all our employees.",
+          "heading": "See what you're missing",
+          "score": 0.5768
+        },
         {
           "text": "At Google, our strategy is simple: we hire great people and encourage them to make their dreams a reality.",
           "heading": "Search openings",
           "score": 0.5241
+        },
+        {
+          "text": "Googlers thrive in small, focused teams and high-energy environments, believe in the ability of technology to change the world, and are as passionate about their lives as they are about their work.",
+          "heading": "Life at Google",
+          "score": 0.5084
+        },
+        {
+          "text": "True, we share attributes with the world’s most successful organizations – a focus on innovation and smart business practices comes to mind – but even as we continue to grow, we’re committed to retaining a small-company feel.",
+          "heading": "Life at Google",
+          "score": 0.5081
+        },
+        {
+          "text": "True, we share attributes with the world's most successful organizations – a focus on innovation and smart business practices comes to mind – but even as we continue to grow, we're committed to retaining a small-company feel.",
+          "heading": "Life at Google",
+          "score": 0.5003
         }
       ]
     },
     {
       "year": 2009,
-      "zscore": -0.4967,
+      "zscore": -0.4836,
       "rawTopkMean": 0.3984,
       "nChunks": 4,
       "kUsed": 4,
@@ -124,7 +299,7 @@
     },
     {
       "year": 2010,
-      "zscore": -0.964,
+      "zscore": -0.9404,
       "rawTopkMean": 0.366,
       "nChunks": 2,
       "kUsed": 2,
@@ -145,7 +320,7 @@
     },
     {
       "year": 2011,
-      "zscore": 0.3933,
+      "zscore": 0.3865,
       "rawTopkMean": 0.4602,
       "nChunks": 2,
       "kUsed": 2,
@@ -166,9 +341,9 @@
     },
     {
       "year": 2012,
-      "zscore": 1.4121,
-      "rawTopkMean": 0.5309,
-      "nChunks": 137,
+      "zscore": 1.2082,
+      "rawTopkMean": 0.5185,
+      "nChunks": 130,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -179,16 +354,6 @@
           "score": 0.6324
         },
         {
-          "text": "Googlers thrive in small, focused teams and high-energy environments, believe in the ability of technology to change the world, and are as passionate about their lives as they are about their work.",
-          "heading": "Why work at Google?",
-          "score": 0.5084
-        },
-        {
-          "text": "True, we share attributes with the world’s most successful organizations – a focus on innovation and smart business practices comes to mind – but even as we continue to grow, we’re committed to retaining a small-company feel.",
-          "heading": "Why work at Google?",
-          "score": 0.5081
-        },
-        {
           "text": "We believe that great, creative things are more likely to happen with the right company culture–and that doesn’t just mean lava lamps and rubber balls.",
           "heading": "Ten things we know to be true",
           "score": 0.508
@@ -197,12 +362,22 @@
           "text": "Building great products depends on great people.",
           "heading": "The people behind Google",
           "score": 0.4976
+        },
+        {
+          "text": "There is an emphasis on team achievements and pride in individual accomplishments that contribute to our overall success.",
+          "heading": "Ten things we know to be true",
+          "score": 0.4831
+        },
+        {
+          "text": "We see being great at something as a starting point, not an endpoint.",
+          "heading": "Ten things we know to be true",
+          "score": 0.4716
         }
       ]
     },
     {
       "year": 2013,
-      "zscore": -1.2705,
+      "zscore": -1.2401,
       "rawTopkMean": 0.3447,
       "nChunks": 6,
       "kUsed": 5,
@@ -238,7 +413,7 @@
     },
     {
       "year": 2014,
-      "zscore": 0.4172,
+      "zscore": 0.4099,
       "rawTopkMean": 0.4619,
       "nChunks": 51,
       "kUsed": 5,
@@ -274,7 +449,7 @@
     },
     {
       "year": 2016,
-      "zscore": -1.2978,
+      "zscore": -1.2668,
       "rawTopkMean": 0.3428,
       "nChunks": 2,
       "kUsed": 2,
@@ -295,7 +470,7 @@
     },
     {
       "year": 2017,
-      "zscore": -0.0361,
+      "zscore": -0.0333,
       "rawTopkMean": 0.4304,
       "nChunks": 19,
       "kUsed": 5,
@@ -331,7 +506,7 @@
     },
     {
       "year": 2018,
-      "zscore": 0.6117,
+      "zscore": 0.6,
       "rawTopkMean": 0.4753,
       "nChunks": 140,
       "kUsed": 5,
@@ -367,7 +542,7 @@
     },
     {
       "year": 2019,
-      "zscore": 0.3617,
+      "zscore": 0.3556,
       "rawTopkMean": 0.458,
       "nChunks": 274,
       "kUsed": 5,
@@ -396,14 +571,14 @@
         },
         {
           "text": "We aim to create a workplace that celebrates the diversity of our employees, customers, and users.",
-          "heading": "Making progress on diversity, equity, and inclusion",
+          "heading": "Our accelerated approach to diversity and inclusion",
           "score": 0.4425
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.581,
+      "zscore": 0.57,
       "rawTopkMean": 0.4732,
       "nChunks": 31,
       "kUsed": 5,
@@ -439,7 +614,7 @@
     },
     {
       "year": 2021,
-      "zscore": 0.0639,
+      "zscore": 0.0644,
       "rawTopkMean": 0.4373,
       "nChunks": 94,
       "kUsed": 5,
@@ -475,7 +650,7 @@
     },
     {
       "year": 2022,
-      "zscore": -0.0192,
+      "zscore": -0.0168,
       "rawTopkMean": 0.4316,
       "nChunks": 112,
       "kUsed": 5,
@@ -511,7 +686,7 @@
     },
     {
       "year": 2023,
-      "zscore": -0.5639,
+      "zscore": -0.5493,
       "rawTopkMean": 0.3937,
       "nChunks": 25,
       "kUsed": 5,
@@ -547,7 +722,7 @@
     },
     {
       "year": 2024,
-      "zscore": -2.491,
+      "zscore": -2.4333,
       "rawTopkMean": 0.26,
       "nChunks": 6,
       "kUsed": 5,
@@ -583,7 +758,7 @@
     },
     {
       "year": 2025,
-      "zscore": -0.124,
+      "zscore": -0.1192,
       "rawTopkMean": 0.4243,
       "nChunks": 102,
       "kUsed": 5,
