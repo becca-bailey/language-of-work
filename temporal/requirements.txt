@@ -1,0 +1,5 @@
+# Drift-monitor tutorial deps. Fake mode needs only these two.
+# Real mode additionally needs the parent `lowork` package (install with
+# `uv sync` at the repo root) plus its OpenAI key — see README.
+temporalio>=1.7
+httpx>=0.27

@@ -1,0 +1,16 @@
+# Optional: a Temporal server via Docker, if you don't want the CLI dev server.
+#
+# The simplest path is actually the Temporal CLI (no Docker):
+#   brew install temporal            # or see https://docs.temporal.io/cli
+#   temporal server start-dev        # UI at http://localhost:8233
+#
+# This compose file is the Docker alternative — a single-container dev server
+# (in-memory; state is wiped on restart, which is fine for a tutorial). Bring it
+# up with `docker compose up`, UI at http://localhost:8080.
+services:
+  temporal:
+    image: temporalio/admin-tools:latest
+    command: ["temporal", "server", "start-dev", "--ip", "0.0.0.0", "--ui-port", "8080"]
+    ports:
+      - "7233:7233" # gRPC — worker.py / starter.py connect here
+      - "8080:8080" # Web UI
