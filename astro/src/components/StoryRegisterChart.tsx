@@ -17,14 +17,14 @@ const ACTIVE_REGISTERS = [
   "belonging_culture",
 ] as const;
 
-const COUNTER_REGISTERS = ["meritocracy", "civilizational_mission"] as const;
+const COUNTER_REGISTERS = ["mission_focus_apolitical", "civilizational_mission"] as const;
 
 const LABELS: Record<string, string> = {
   explicit_demographic: "explicit demographic",
   structural_process: "structural process",
   aspirational_vague: "aspirational vague",
   belonging_culture: "belonging culture",
-  meritocracy: "meritocracy / anti-DEI",
+  mission_focus_apolitical: "apolitical / anti-DEI",
   civilizational_mission: "civilizational mission",
 };
 
@@ -64,11 +64,10 @@ function cellsFor(company: StoryCompanySeries): Map<number, YearCell> {
       nChunks: y.nChunks,
       shares,
       counterShares,
-      // Label-aware quotes: the most salient active-register chunk (falling back
-      // to the embedding argmax for pre-relabel data), and the stance-labeled
-      // counter chunk — no counter quote at all when none was labeled that year.
-      inclusionQuote: y.inclusionQuote ?? y.stanceMaxQuote,
-      counterQuote: y.stanceCounterQuote,
+      // Label-aware quotes: the most salient active-register chunk and the
+      // stance-labeled counter chunk — no counter quote when none was labeled.
+      inclusionQuote: y.inclusionQuote,
+      counterQuote: y.counterQuote,
     });
   }
   return cells;
@@ -79,7 +78,7 @@ type Tip = { cell: YearCell | null; year: number };
 /** Border color for a tooltip quote — same hue as its register/stance in the legend. */
 function quoteColor(q: StoryEnvelopeQuote, fillFor: (reg: string) => string): string | undefined {
   if (q.stance === "civilizational_mission") return fillFor("civilizational_mission");
-  if (q.stance === "mission_focus_apolitical") return fillFor("meritocracy");
+  if (q.stance === "mission_focus_apolitical") return fillFor("mission_focus_apolitical");
   if (q.register && (ACTIVE_REGISTERS as readonly string[]).includes(q.register)) return fillFor(q.register);
   return undefined;
 }
@@ -467,7 +466,7 @@ export default function StoryRegisterChart({ companies }: Props) {
       ))}
       <p className="mt-1 max-w-prose text-xs text-neutral-500">
         Bars above the line = share of chunks in an active DEI register; below the line =
-        counter-programming (meritocracy or civilizational-mission framing). A{" "}
+        counter-programming (apolitical / anti-DEI or civilizational-mission framing). A{" "}
         <span className="text-neutral-400">solid baseline tick</span> means the page was archived
         but said nothing about DEI; a <span className="text-neutral-400">dashed open tick</span>{" "}
         means no page was archived that year. Hover any year for the language.

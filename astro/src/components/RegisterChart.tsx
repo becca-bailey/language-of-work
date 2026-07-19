@@ -14,9 +14,9 @@ const REGISTER_ORDER = DEI_REGISTER_ORDER;
 const COLORS = DEI_REGISTER_COLORS; // var() strings — for CSS/style (legend swatches)
 
 // Same direction convention as the DEI story's StoryRegisterChart: inclusion
-// registers stack above zero, counter-registers below, so a year of
-// meritocracy/civilizational counter-programming doesn't read as "lots of DEI".
-const COUNTER_REGISTERS = new Set<string>(["meritocracy", "civilizational_mission"]);
+// registers stack above zero, counter-stances below, so a year of
+// apolitical/civilizational counter-programming doesn't read as "lots of DEI".
+const COUNTER_REGISTERS = new Set<string>(["mission_focus_apolitical", "civilizational_mission"]);
 const ACTIVE_ORDER = REGISTER_ORDER.filter((r) => !COUNTER_REGISTERS.has(r));
 const COUNTER_ORDER = REGISTER_ORDER.filter((r) => COUNTER_REGISTERS.has(r));
 

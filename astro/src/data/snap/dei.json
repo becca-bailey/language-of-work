@@ -9,8 +9,6 @@
       "inclusionMean": 0.2938,
       "inclusionMax": 0.2991,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.243,
-      "meritocracyMean": 0.243,
       "nChunks": 2,
       "kUsed": 2,
       "thin": true,
@@ -20,7 +18,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 2,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0119,
@@ -31,9 +29,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.2991,
-          "meritocracy": 0.2391,
-          "stanceDiff": 0.0599,
-          "salience": 0.2991,
           "score": 0.2991
         },
         {
@@ -42,34 +37,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.2885,
-          "meritocracy": 0.247,
-          "stanceDiff": 0.0415,
-          "salience": 0.2885,
           "score": 0.2885
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too. Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way. Bitmoji Bitmoji is the digital you — a living cartoon charact",
-          "heading": "Our Brands",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.2885,
-          "meritocracy": 0.247,
-          "stanceDiff": 0.0415,
-          "salience": 0.2885,
-          "score": 0.247
-        },
-        {
-          "text": "At Snap, we believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate. We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
-          "heading": "Who We Are",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.2991,
-          "meritocracy": 0.2391,
-          "stanceDiff": 0.0599,
-          "salience": 0.2991,
-          "score": 0.2391
         }
       ]
     },
@@ -79,8 +47,6 @@
       "inclusionMean": 0.3036,
       "inclusionMax": 0.4989,
       "inclusionFractionPresent": 0.6923,
-      "meritocracyTopkMean": 0.3802,
-      "meritocracyMean": 0.2482,
       "nChunks": 13,
       "kUsed": 5,
       "thin": false,
@@ -90,7 +56,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 13,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0197,
@@ -101,9 +67,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4989,
-          "meritocracy": 0.4671,
-          "stanceDiff": 0.0318,
-          "salience": 0.4989,
           "score": 0.4989
         },
         {
@@ -112,9 +75,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4931,
-          "meritocracy": 0.4346,
-          "stanceDiff": 0.0586,
-          "salience": 0.4931,
           "score": 0.4931
         },
         {
@@ -123,9 +83,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4085,
-          "meritocracy": 0.4439,
-          "stanceDiff": -0.0354,
-          "salience": 0.4439,
           "score": 0.4085
         },
         {
@@ -134,9 +91,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.401,
-          "meritocracy": 0.2456,
-          "stanceDiff": 0.1555,
-          "salience": 0.401,
           "score": 0.401
         },
         {
@@ -145,67 +99,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3411,
-          "meritocracy": 0.2873,
-          "stanceDiff": 0.0538,
-          "salience": 0.3411,
           "score": 0.3411
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We challenge the status quo to make things with a sense of purpose.",
-          "heading": "We Are Creative",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4989,
-          "meritocracy": 0.4671,
-          "stanceDiff": 0.0318,
-          "salience": 0.4989,
-          "score": 0.4671
-        },
-        {
-          "text": "We think deeply, question conventions, and strive to never stop learning.",
-          "heading": "We Are Smart",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4085,
-          "meritocracy": 0.4439,
-          "stanceDiff": -0.0354,
-          "salience": 0.4439,
-          "score": 0.4439
-        },
-        {
-          "text": "We listen from the heart, think empathetically, and help each other grow.",
-          "heading": "We Are Kind",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4931,
-          "meritocracy": 0.4346,
-          "stanceDiff": 0.0586,
-          "salience": 0.4931,
-          "score": 0.4346
-        },
-        {
-          "text": "Have a teammate going through a tough time? Lend them a hand through our internal Snap-a-Wish program! We’ll work hard to make sure they get the support they need.",
-          "heading": "Snap-a-Wish",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3411,
-          "meritocracy": 0.2873,
-          "stanceDiff": 0.0538,
-          "salience": 0.3411,
-          "score": 0.2873
-        },
-        {
-          "text": "Snap Inc. is its own community, so we’ve got your back! We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every Snap office has its own set of benefits built around its needs, but here’s a rundown of some of the programs you might find in your office:",
-          "heading": "We’re Here for You",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.33,
-          "meritocracy": 0.2681,
-          "stanceDiff": 0.062,
-          "salience": 0.33,
-          "score": 0.2681
         }
       ]
     },
@@ -215,8 +109,6 @@
       "inclusionMean": 0.3381,
       "inclusionMax": 0.576,
       "inclusionFractionPresent": 0.8,
-      "meritocracyTopkMean": 0.3052,
-      "meritocracyMean": 0.2435,
       "nChunks": 15,
       "kUsed": 5,
       "thin": false,
@@ -226,7 +118,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 7,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0401,
@@ -237,9 +129,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.576,
-          "meritocracy": 0.37,
-          "stanceDiff": 0.206,
-          "salience": 0.576,
           "score": 0.576
         },
         {
@@ -248,9 +137,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.4234,
-          "meritocracy": 0.3278,
-          "stanceDiff": 0.0956,
-          "salience": 0.4234,
           "score": 0.4234
         },
         {
@@ -259,9 +145,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.401,
-          "meritocracy": 0.2456,
-          "stanceDiff": 0.1555,
-          "salience": 0.401,
           "score": 0.401
         },
         {
@@ -270,9 +153,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.3981,
-          "meritocracy": 0.2728,
-          "stanceDiff": 0.1253,
-          "salience": 0.3981,
           "score": 0.3981
         },
         {
@@ -281,67 +161,7 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.3708,
-          "meritocracy": 0.2299,
-          "stanceDiff": 0.1408,
-          "salience": 0.3708,
           "score": 0.3708
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community. We’re investing in new ways",
-          "heading": "Diversity, Equity & Inclusion",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.576,
-          "meritocracy": 0.37,
-          "stanceDiff": 0.206,
-          "salience": 0.576,
-          "score": 0.37
-        },
-        {
-          "text": "​SnapAbility is a community for team members who identify as persons with disabilities, and it includes the many allies, guardians, and advocates who support them — both at Snap and beyond. Their mission is to promote empathy, respect, and kindness for all people, regardless of ability level or mental health status. By fostering open conversations around these topics, partnering with organizations",
-          "heading": "SnapAbility",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.4234,
-          "meritocracy": 0.3278,
-          "stanceDiff": 0.0956,
-          "salience": 0.4234,
-          "score": 0.3278
-        },
-        {
-          "text": "Have a teammate going through a tough time? Lend them a hand through our internal Snap-a-Wish program! We’ll work hard to make sure they get the support they need.",
-          "heading": "Snap-a-Wish",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3411,
-          "meritocracy": 0.2873,
-          "stanceDiff": 0.0538,
-          "salience": 0.3411,
-          "score": 0.2873
-        },
-        {
-          "text": "​SnapNoir​ is a forum for fostering cultural understanding, diversity, and professional development for people of the African diaspora — both at Snap and in the community.",
-          "heading": "SnapNoir",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.3981,
-          "meritocracy": 0.2728,
-          "stanceDiff": 0.1253,
-          "salience": 0.3981,
-          "score": 0.2728
-        },
-        {
-          "text": "Snap Inc. is its own community, so we’ve got your back! We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every Snap office has its own set of benefits built around its needs, but here’s a rundown of some of the programs you might find in your office:",
-          "heading": "We’re Here for You",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.33,
-          "meritocracy": 0.2681,
-          "stanceDiff": 0.062,
-          "salience": 0.33,
-          "score": 0.2681
         }
       ]
     },
@@ -351,8 +171,6 @@
       "inclusionMean": 0.3744,
       "inclusionMax": 0.5832,
       "inclusionFractionPresent": 0.9231,
-      "meritocracyTopkMean": 0.3086,
-      "meritocracyMean": 0.2633,
       "nChunks": 13,
       "kUsed": 5,
       "thin": false,
@@ -362,7 +180,7 @@
         "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 6,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0042,
@@ -373,9 +191,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.5832,
-          "meritocracy": 0.3762,
-          "stanceDiff": 0.207,
-          "salience": 0.5832,
           "score": 0.5832
         },
         {
@@ -384,9 +199,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.4814,
-          "meritocracy": 0.2841,
-          "stanceDiff": 0.1973,
-          "salience": 0.4814,
           "score": 0.4814
         },
         {
@@ -395,9 +207,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.421,
-          "meritocracy": 0.2706,
-          "stanceDiff": 0.1504,
-          "salience": 0.421,
           "score": 0.421
         },
         {
@@ -406,9 +215,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.4196,
-          "meritocracy": 0.2911,
-          "stanceDiff": 0.1285,
-          "salience": 0.4196,
           "score": 0.4196
         },
         {
@@ -417,67 +223,7 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.4107,
-          "meritocracy": 0.2879,
-          "stanceDiff": 0.1227,
-          "salience": 0.4107,
           "score": 0.4107
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work, be themselves, and build innovative products that serve our community. We’re investing in new ways",
-          "heading": "Diversity, Equity & Inclusion",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.5832,
-          "meritocracy": 0.3762,
-          "stanceDiff": 0.207,
-          "salience": 0.5832,
-          "score": 0.3762
-        },
-        {
-          "text": "At Snap, we do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every office has its own set of benefits built around its needs, but here’s a rundown of some of the offerings you might find in your home base:",
-          "heading": "We’re Here for You",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3653,
-          "meritocracy": 0.3001,
-          "stanceDiff": 0.0653,
-          "salience": 0.3653,
-          "score": 0.3001
-        },
-        {
-          "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
-          "heading": "SnapAsia",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.4196,
-          "meritocracy": 0.2911,
-          "stanceDiff": 0.1285,
-          "salience": 0.4196,
-          "score": 0.2911
-        },
-        {
-          "text": "​SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
-          "heading": "SnapFamilia",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.4107,
-          "meritocracy": 0.2879,
-          "stanceDiff": 0.1227,
-          "salience": 0.4107,
-          "score": 0.2879
-        },
-        {
-          "text": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
-          "heading": "SnapAbility",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.3659,
-          "meritocracy": 0.2877,
-          "stanceDiff": 0.0782,
-          "salience": 0.3659,
-          "score": 0.2877
         }
       ]
     },
@@ -487,8 +233,6 @@
       "inclusionMean": 0.3156,
       "inclusionMax": 0.474,
       "inclusionFractionPresent": 0.7,
-      "meritocracyTopkMean": 0.4114,
-      "meritocracyMean": 0.2827,
       "nChunks": 10,
       "kUsed": 5,
       "thin": false,
@@ -498,7 +242,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 1,
         "absent": 9,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0259,
@@ -509,9 +253,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.474,
-          "meritocracy": 0.4628,
-          "stanceDiff": 0.0112,
-          "salience": 0.474,
           "score": 0.474
         },
         {
@@ -520,9 +261,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4578,
-          "meritocracy": 0.4809,
-          "stanceDiff": -0.0231,
-          "salience": 0.4809,
           "score": 0.4578
         },
         {
@@ -531,9 +269,6 @@
           "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.4516,
-          "meritocracy": 0.3496,
-          "stanceDiff": 0.102,
-          "salience": 0.4516,
           "score": 0.4516
         },
         {
@@ -542,9 +277,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.44,
-          "meritocracy": 0.5034,
-          "stanceDiff": -0.0633,
-          "salience": 0.5034,
           "score": 0.44
         },
         {
@@ -553,67 +285,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3556,
-          "meritocracy": 0.2529,
-          "stanceDiff": 0.1027,
-          "salience": 0.3556,
           "score": 0.3556
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
-          "heading": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.44,
-          "meritocracy": 0.5034,
-          "stanceDiff": -0.0633,
-          "salience": 0.5034,
-          "score": 0.5034
-        },
-        {
-          "text": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
-          "heading": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4578,
-          "meritocracy": 0.4809,
-          "stanceDiff": -0.0231,
-          "salience": 0.4809,
-          "score": 0.4809
-        },
-        {
-          "text": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
-          "heading": "We operate with courage, show empathy, and instill trust through honesty and integrity.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.474,
-          "meritocracy": 0.4628,
-          "stanceDiff": 0.0112,
-          "salience": 0.474,
-          "score": 0.4628
-        },
-        {
-          "text": "Council is the practice of people coming together to share stories, listen deeply, and speak from the heart. Team members have the opportunity to speak without being interrupted, which ensures everyone has a chance to be heard. As stories are shared, others listen wholeheartedly. This fosters an inclusive work environment where people experience a sense of belonging. We are a global company that i",
-          "heading": "Snap Council",
-          "register": "belonging_culture",
-          "stance": "affirming_dei",
-          "inclusion": 0.4516,
-          "meritocracy": 0.3496,
-          "stanceDiff": 0.102,
-          "salience": 0.4516,
-          "score": 0.3496
-        },
-        {
-          "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too. Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way. Bitmoji Bitmoji is the digital you — a living cartoon charact",
-          "heading": "Our Brands",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.295,
-          "meritocracy": 0.2602,
-          "stanceDiff": 0.0348,
-          "salience": 0.295,
-          "score": 0.2602
         }
       ]
     },
@@ -623,8 +295,6 @@
       "inclusionMean": 0.3736,
       "inclusionMax": 0.4794,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.2937,
-      "meritocracyMean": 0.265,
       "nChunks": 11,
       "kUsed": 5,
       "thin": false,
@@ -634,7 +304,7 @@
         "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 5,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0242,
@@ -645,9 +315,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.4794,
-          "meritocracy": 0.2851,
-          "stanceDiff": 0.1943,
-          "salience": 0.4794,
           "score": 0.4794
         },
         {
@@ -656,9 +323,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.421,
-          "meritocracy": 0.2706,
-          "stanceDiff": 0.1504,
-          "salience": 0.421,
           "score": 0.421
         },
         {
@@ -667,9 +331,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.4196,
-          "meritocracy": 0.2911,
-          "stanceDiff": 0.1285,
-          "salience": 0.4196,
           "score": 0.4196
         },
         {
@@ -678,9 +339,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.4147,
-          "meritocracy": 0.3023,
-          "stanceDiff": 0.1124,
-          "salience": 0.4147,
           "score": 0.4147
         },
         {
@@ -689,67 +347,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.401,
-          "meritocracy": 0.2456,
-          "stanceDiff": 0.1555,
-          "salience": 0.401,
           "score": 0.401
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
-          "heading": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.4147,
-          "meritocracy": 0.3023,
-          "stanceDiff": 0.1124,
-          "salience": 0.4147,
-          "score": 0.3023
-        },
-        {
-          "text": "At Snap, we do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms. Every office has its own set of benefits built around its needs, but here’s a rundown of some of the offerings you might find in your home base:",
-          "heading": "We’re Here for You",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3653,
-          "meritocracy": 0.3001,
-          "stanceDiff": 0.0653,
-          "salience": 0.3653,
-          "score": 0.3001
-        },
-        {
-          "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
-          "heading": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.4196,
-          "meritocracy": 0.2911,
-          "stanceDiff": 0.1285,
-          "salience": 0.4196,
-          "score": 0.2911
-        },
-        {
-          "text": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
-          "heading": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.3659,
-          "meritocracy": 0.2877,
-          "stanceDiff": 0.0782,
-          "salience": 0.3659,
-          "score": 0.2877
-        },
-        {
-          "text": "Have a teammate going through a tough time? Lend them a hand through our internal Snap-a-Wish program! We’ll work hard to make sure they get the support they need.",
-          "heading": "Snap-a-Wish",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3411,
-          "meritocracy": 0.2873,
-          "stanceDiff": 0.0538,
-          "salience": 0.3411,
-          "score": 0.2873
         }
       ]
     },
@@ -759,8 +357,6 @@
       "inclusionMean": 0.4008,
       "inclusionMax": 0.567,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.3027,
-      "meritocracyMean": 0.3027,
       "nChunks": 4,
       "kUsed": 4,
       "thin": true,
@@ -770,7 +366,7 @@
         "aspirational_vague": 3,
         "belonging_culture": 0,
         "absent": 1,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0247,
@@ -781,9 +377,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.567,
-          "meritocracy": 0.4007,
-          "stanceDiff": 0.1663,
-          "salience": 0.567,
           "score": 0.567
         },
         {
@@ -792,9 +385,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3973,
-          "meritocracy": 0.3068,
-          "stanceDiff": 0.0906,
-          "salience": 0.3973,
           "score": 0.3973
         },
         {
@@ -803,9 +393,6 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.3382,
-          "meritocracy": 0.2704,
-          "stanceDiff": 0.0678,
-          "salience": 0.3382,
           "score": 0.3382
         },
         {
@@ -814,56 +401,7 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.3006,
-          "meritocracy": 0.2328,
-          "stanceDiff": 0.0679,
-          "salience": 0.3006,
           "score": 0.3006
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
-          "heading": "Our public commitment to DEI",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.567,
-          "meritocracy": 0.4007,
-          "stanceDiff": 0.1663,
-          "salience": 0.567,
-          "score": 0.4007
-        },
-        {
-          "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
-          "heading": "Grounded in Kindness",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3973,
-          "meritocracy": 0.3068,
-          "stanceDiff": 0.0906,
-          "salience": 0.3973,
-          "score": 0.3068
-        },
-        {
-          "text": "Snap Inc. the parent company of Snapchat, is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, ",
-          "heading": "",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.3382,
-          "meritocracy": 0.2704,
-          "stanceDiff": 0.0678,
-          "salience": 0.3382,
-          "score": 0.2704
-        },
-        {
-          "text": "Snap Inc. the parent company of Snapchat, is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, ",
-          "heading": "",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.3006,
-          "meritocracy": 0.2328,
-          "stanceDiff": 0.0679,
-          "salience": 0.3006,
-          "score": 0.2328
         }
       ]
     },
@@ -873,8 +411,6 @@
       "inclusionMean": 0.4522,
       "inclusionMax": 0.7007,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4051,
-      "meritocracyMean": 0.3529,
       "nChunks": 8,
       "kUsed": 5,
       "thin": false,
@@ -884,7 +420,7 @@
         "aspirational_vague": 2,
         "belonging_culture": 1,
         "absent": 4,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0379,
@@ -895,9 +431,6 @@
           "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.7007,
-          "meritocracy": 0.6278,
-          "stanceDiff": 0.073,
-          "salience": 0.7007,
           "score": 0.7007
         },
         {
@@ -906,9 +439,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.567,
-          "meritocracy": 0.4007,
-          "stanceDiff": 0.1663,
-          "salience": 0.567,
           "score": 0.567
         },
         {
@@ -917,9 +447,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.4831,
-          "meritocracy": 0.2802,
-          "stanceDiff": 0.2029,
-          "salience": 0.4831,
           "score": 0.4831
         },
         {
@@ -928,9 +455,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4505,
-          "meritocracy": 0.3261,
-          "stanceDiff": 0.1244,
-          "salience": 0.4505,
           "score": 0.4505
         },
         {
@@ -939,67 +463,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3973,
-          "meritocracy": 0.3068,
-          "stanceDiff": 0.0906,
-          "salience": 0.3973,
           "score": 0.3973
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
-          "heading": "Our commitment to belonging",
-          "register": "belonging_culture",
-          "stance": "affirming_dei",
-          "inclusion": 0.7007,
-          "meritocracy": 0.6278,
-          "stanceDiff": 0.073,
-          "salience": 0.7007,
-          "score": 0.6278
-        },
-        {
-          "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
-          "heading": "Our public commitment to DEI",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.567,
-          "meritocracy": 0.4007,
-          "stanceDiff": 0.1663,
-          "salience": 0.567,
-          "score": 0.4007
-        },
-        {
-          "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms",
-          "heading": "Better Together",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3591,
-          "meritocracy": 0.3643,
-          "stanceDiff": -0.0052,
-          "salience": 0.3643,
-          "score": 0.3643
-        },
-        {
-          "text": "We’re honored to be included in Built In’s Best Places to Work list! Learn more about what it’s like to work at Snap.",
-          "heading": "Built in Award 2025",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4505,
-          "meritocracy": 0.3261,
-          "stanceDiff": 0.1244,
-          "salience": 0.4505,
-          "score": 0.3261
-        },
-        {
-          "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
-          "heading": "Grounded in Kindness",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3973,
-          "meritocracy": 0.3068,
-          "stanceDiff": 0.0906,
-          "salience": 0.3973,
-          "score": 0.3068
         }
       ]
     },
@@ -1009,8 +473,6 @@
       "inclusionMean": 0.3801,
       "inclusionMax": 0.7007,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.3855,
-      "meritocracyMean": 0.3003,
       "nChunks": 11,
       "kUsed": 5,
       "thin": false,
@@ -1020,7 +482,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 1,
         "absent": 9,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.053,
@@ -1031,9 +493,6 @@
           "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.7007,
-          "meritocracy": 0.6278,
-          "stanceDiff": 0.073,
-          "salience": 0.7007,
           "score": 0.7007
         },
         {
@@ -1042,9 +501,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.4684,
-          "meritocracy": 0.3052,
-          "stanceDiff": 0.1633,
-          "salience": 0.4684,
           "score": 0.4684
         },
         {
@@ -1053,9 +509,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.416,
-          "meritocracy": 0.3237,
-          "stanceDiff": 0.0924,
-          "salience": 0.416,
           "score": 0.416
         },
         {
@@ -1064,9 +517,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3973,
-          "meritocracy": 0.3068,
-          "stanceDiff": 0.0906,
-          "salience": 0.3973,
           "score": 0.3973
         },
         {
@@ -1075,67 +525,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3591,
-          "meritocracy": 0.3643,
-          "stanceDiff": -0.0052,
-          "salience": 0.3643,
           "score": 0.3591
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
-          "heading": "Our commitment to belonging",
-          "register": "belonging_culture",
-          "stance": "affirming_dei",
-          "inclusion": 0.7007,
-          "meritocracy": 0.6278,
-          "stanceDiff": 0.073,
-          "salience": 0.7007,
-          "score": 0.6278
-        },
-        {
-          "text": "We do our best to make sure you and your loved ones have everything you need to be happy and healthy, on your own terms",
-          "heading": "Better Together",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3591,
-          "meritocracy": 0.3643,
-          "stanceDiff": -0.0052,
-          "salience": 0.3643,
-          "score": 0.3643
-        },
-        {
-          "text": "We believe the camera presents the greatest opportunity to improve the way people live and communicate. Hear from our leadership on what it's like to work at Snap, Inc. and how we live our values of kind, smart, and creative every day. We celebrated 14 Years of Snap! To honor another trip around the sun, we shined a spotlight on what makes Snap such a special place to be at — our kind, smart, and ",
-          "heading": "",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.416,
-          "meritocracy": 0.3237,
-          "stanceDiff": 0.0924,
-          "salience": 0.416,
-          "score": 0.3237
-        },
-        {
-          "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
-          "heading": "Grounded in Kindness",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3973,
-          "meritocracy": 0.3068,
-          "stanceDiff": 0.0906,
-          "salience": 0.3973,
-          "score": 0.3068
-        },
-        {
-          "text": "Read about our commitment to Belonging at Snap We believe in building innovative and inclusive products for our global community, finding the best talent anywhere, and cultivating an environment where everyone belongs. Employee Resource Groups (ERGs) at Snap bring together a community of individuals who share similar aspect(s) of their identities, creating engaging and safe spaces for identifying ",
-          "heading": "",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.4684,
-          "meritocracy": 0.3052,
-          "stanceDiff": 0.1633,
-          "salience": 0.4684,
-          "score": 0.3052
         }
       ]
     }

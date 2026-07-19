@@ -36,9 +36,9 @@ def main(company: str) -> None:
     years = []
     for r in yearly.itertuples():
         # Registers are the pro-inclusion scale; the two counter keys the charts
-        # render are stance-sourced (meritocracy key ≙ mission_focus_apolitical).
+        # render are stance-sourced (see lowork.dei_stance.COUNTER_DEI_STANCES).
         registers = {reg: int(getattr(r, f"register_{reg}")) for reg in DEI_REGISTERS}
-        registers["meritocracy"] = int(getattr(r, "stance_mission_focus_apolitical", 0))
+        registers["mission_focus_apolitical"] = int(getattr(r, "stance_mission_focus_apolitical", 0))
         registers["civilizational_mission"] = int(getattr(r, "stance_civilizational_mission", 0))
         years.append({
             "year": int(r.year),
@@ -46,8 +46,6 @@ def main(company: str) -> None:
             "inclusionMean": round(float(r.inclusion_mean), 4),
             "inclusionMax": round(float(r.inclusion_max), 4),
             "inclusionFractionPresent": round(float(r.inclusion_fraction_present), 4),
-            "meritocracyTopkMean": round(float(r.meritocracy_topk_mean), 4),
-            "meritocracyMean": round(float(r.meritocracy_mean), 4),
             "nChunks": int(r.n_chunks),
             "kUsed": int(r.inclusion_k_used),
             "thin": int(r.n_chunks) < TOP_K,
@@ -58,7 +56,6 @@ def main(company: str) -> None:
                 else None
             ),
             "inclusionQuotes": evidence.get("inclusion", {}).get(str(int(r.year)), []),
-            "meritocracyQuotes": evidence.get("meritocracy", {}).get(str(int(r.year)), []),
         })
 
     out_dir = WEB_DATA_DIR / company

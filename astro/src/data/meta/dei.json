@@ -9,8 +9,6 @@
       "inclusionMean": 0.2897,
       "inclusionMax": 0.4535,
       "inclusionFractionPresent": 0.625,
-      "meritocracyTopkMean": 0.3599,
-      "meritocracyMean": 0.2415,
       "nChunks": 16,
       "kUsed": 5,
       "thin": false,
@@ -20,7 +18,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 16,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0157,
@@ -31,9 +29,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4535,
-          "meritocracy": 0.4564,
-          "stanceDiff": -0.0029,
-          "salience": 0.4564,
           "score": 0.4535
         },
         {
@@ -42,9 +37,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4172,
-          "meritocracy": 0.3225,
-          "stanceDiff": 0.0947,
-          "salience": 0.4172,
           "score": 0.4172
         },
         {
@@ -53,9 +45,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4042,
-          "meritocracy": 0.3649,
-          "stanceDiff": 0.0392,
-          "salience": 0.4042,
           "score": 0.4042
         },
         {
@@ -64,9 +53,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3884,
-          "meritocracy": 0.3165,
-          "stanceDiff": 0.072,
-          "salience": 0.3884,
           "score": 0.3884
         },
         {
@@ -75,67 +61,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3786,
-          "meritocracy": 0.3391,
-          "stanceDiff": 0.0395,
-          "salience": 0.3786,
           "score": 0.3786
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes. We need help from people who like to move fast, tackle the big stuff, and have an immediate impact. Sound like you?",
-          "heading": "Hello. Facebook is hiring.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4535,
-          "meritocracy": 0.4564,
-          "stanceDiff": -0.0029,
-          "salience": 0.4564,
-          "score": 0.4564
-        },
-        {
-          "text": "We pair innovation and passion with cutting loose and having fun: racing around on RipStiks; playing Bughouse chess, a hand of poker, or a game of Risk; rocking out in our music room; and embarking on all-night coding binges for new features and ideas. Our language team rewrites the site in Pirate English, just for kicks. (Why upload photos when you can \"hoist a portrait\"?) There's also an Ultimat",
-          "heading": "How We Roll",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4042,
-          "meritocracy": 0.3649,
-          "stanceDiff": 0.0392,
-          "salience": 0.4042,
-          "score": 0.3649
-        },
-        {
-          "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around. The web is shifting from a vast encyclopedia of information to a social environment that reflects our real identities, and the relationships and information we care about. Facebook is at the forefront of that change. We're leading a social movement by bu",
-          "heading": "Build stuff that will get used. Fast.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3786,
-          "meritocracy": 0.3391,
-          "stanceDiff": 0.0395,
-          "salience": 0.3786,
-          "score": 0.3391
-        },
-        {
-          "text": "We know that passion and commitment has to be paired with rest and balance. We offer 21 days of paid vacation to make sure you take a break once in a while.",
-          "heading": "Paid Time Off (PTO)",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4172,
-          "meritocracy": 0.3225,
-          "stanceDiff": 0.0947,
-          "salience": 0.4172,
-          "score": 0.3225
-        },
-        {
-          "text": "We're making it possible for many millions of people on Facebook to broaden their horizons, deepen their friendships, share good times, and solve problems together. We've just begun to realize the full potential of what Facebook can contribute, and we're deeply committed to making the most of those opportunities. As you see the impact of your own work - and what your colleagues are accomplishing -",
-          "heading": "Believe in Your Work",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3884,
-          "meritocracy": 0.3165,
-          "stanceDiff": 0.072,
-          "salience": 0.3884,
-          "score": 0.3165
         }
       ]
     },
@@ -145,8 +71,6 @@
       "inclusionMean": 0.2854,
       "inclusionMax": 0.4535,
       "inclusionFractionPresent": 0.6111,
-      "meritocracyTopkMean": 0.3738,
-      "meritocracyMean": 0.2468,
       "nChunks": 18,
       "kUsed": 5,
       "thin": false,
@@ -156,7 +80,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 18,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0369,
@@ -167,9 +91,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4535,
-          "meritocracy": 0.4564,
-          "stanceDiff": -0.0029,
-          "salience": 0.4564,
           "score": 0.4535
         },
         {
@@ -178,9 +99,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4172,
-          "meritocracy": 0.3225,
-          "stanceDiff": 0.0947,
-          "salience": 0.4172,
           "score": 0.4172
         },
         {
@@ -189,9 +107,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.401,
-          "meritocracy": 0.4397,
-          "stanceDiff": -0.0388,
-          "salience": 0.4397,
           "score": 0.401
         },
         {
@@ -200,9 +115,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4007,
-          "meritocracy": 0.3347,
-          "stanceDiff": 0.066,
-          "salience": 0.4007,
           "score": 0.4007
         },
         {
@@ -211,67 +123,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3405,
-          "meritocracy": 0.3156,
-          "stanceDiff": 0.0249,
-          "salience": 0.3405,
           "score": 0.3405
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes. We need help from people who like to move fast, tackle the big stuff, and have an immediate impact. Sound like you?",
-          "heading": "Hello. Facebook is hiring.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4535,
-          "meritocracy": 0.4564,
-          "stanceDiff": -0.0029,
-          "salience": 0.4564,
-          "score": 0.4564
-        },
-        {
-          "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
-          "heading": "Build stuff that will get used. Fast.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.401,
-          "meritocracy": 0.4397,
-          "stanceDiff": -0.0388,
-          "salience": 0.4397,
-          "score": 0.4397
-        },
-        {
-          "text": "The web is shifting from a vast encyclopedia of information to a social environment that reflects our real identities, and the relationships and information we care about. Facebook is at the forefront of that change. We're leading a social movement by building ground-breaking technology that gives people the power to share and makes the world more open and connected. As we grow quickly in every wa",
-          "heading": "Believe in your work",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4007,
-          "meritocracy": 0.3347,
-          "stanceDiff": 0.066,
-          "salience": 0.4007,
-          "score": 0.3347
-        },
-        {
-          "text": "We know that passion and commitment has to be paired with rest and balance. We offer 21 days of paid vacation to make sure you take a break once in a while.",
-          "heading": "Paid Time Off (PTO)",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4172,
-          "meritocracy": 0.3225,
-          "stanceDiff": 0.0947,
-          "salience": 0.4172,
-          "score": 0.3225
-        },
-        {
-          "text": "Almost every week, we bring in someone from outside Facebook to talk about their experience and what they're passionate about. We like to bring in people who we know will give us something to think about. Recent guests have included Gloria Steinem, Arianna Huffington, Craig Newmark, and Marc Andreessen.",
-          "heading": "Internal Speakers Series",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3405,
-          "meritocracy": 0.3156,
-          "stanceDiff": 0.0249,
-          "salience": 0.3405,
-          "score": 0.3156
         }
       ]
     },
@@ -281,8 +133,6 @@
       "inclusionMean": 0.3087,
       "inclusionMax": 0.4736,
       "inclusionFractionPresent": 0.7222,
-      "meritocracyTopkMean": 0.3746,
-      "meritocracyMean": 0.2585,
       "nChunks": 18,
       "kUsed": 5,
       "thin": false,
@@ -292,7 +142,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 18,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0711,
@@ -303,9 +153,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4736,
-          "meritocracy": 0.3832,
-          "stanceDiff": 0.0904,
-          "salience": 0.4736,
           "score": 0.4736
         },
         {
@@ -314,9 +161,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4451,
-          "meritocracy": 0.3929,
-          "stanceDiff": 0.0522,
-          "salience": 0.4451,
           "score": 0.4451
         },
         {
@@ -325,9 +169,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4172,
-          "meritocracy": 0.3225,
-          "stanceDiff": 0.0947,
-          "salience": 0.4172,
           "score": 0.4172
         },
         {
@@ -336,9 +177,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.401,
-          "meritocracy": 0.4397,
-          "stanceDiff": -0.0388,
-          "salience": 0.4397,
           "score": 0.401
         },
         {
@@ -347,67 +185,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4007,
-          "meritocracy": 0.3347,
-          "stanceDiff": 0.066,
-          "salience": 0.4007,
           "score": 0.4007
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
-          "heading": "Build stuff that will get used. Fast.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.401,
-          "meritocracy": 0.4397,
-          "stanceDiff": -0.0388,
-          "salience": 0.4397,
-          "score": 0.4397
-        },
-        {
-          "text": "All of us working at Facebook have a common goal: Helping you connect and share with the people you care about. Hear from our leadership team about why we emphasize freedom and autonomy inside the company and how we build new technology for people. Make an impact. Work at Facebook Rebuilding the Web Around People",
-          "heading": "Make an impact. Work at Facebook",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4451,
-          "meritocracy": 0.3929,
-          "stanceDiff": 0.0522,
-          "salience": 0.4451,
-          "score": 0.3929
-        },
-        {
-          "text": "Our employees build and create technology that fundamentally changes how hundreds of millions of people around the world connect and share. Come work with us.",
-          "heading": "Hello. Facebook is hiring.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4736,
-          "meritocracy": 0.3832,
-          "stanceDiff": 0.0904,
-          "salience": 0.4736,
-          "score": 0.3832
-        },
-        {
-          "text": "The web is shifting from a vast encyclopedia of information to a social environment that reflects our real identities, and the relationships and information we care about. Facebook is at the forefront of that change. We're leading a social movement by building ground-breaking technology that gives people the power to share and makes the world more open and connected. As we grow quickly in every wa",
-          "heading": "Believe in your work",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4007,
-          "meritocracy": 0.3347,
-          "stanceDiff": 0.066,
-          "salience": 0.4007,
-          "score": 0.3347
-        },
-        {
-          "text": "We know that passion and commitment has to be paired with rest and balance. We offer 21 days of paid vacation to make sure you take a break once in a while.",
-          "heading": "Paid Time Off (PTO)",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4172,
-          "meritocracy": 0.3225,
-          "stanceDiff": 0.0947,
-          "salience": 0.4172,
-          "score": 0.3225
         }
       ]
     },
@@ -417,8 +195,6 @@
       "inclusionMean": 0.3485,
       "inclusionMax": 0.3485,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.3057,
-      "meritocracyMean": 0.3057,
       "nChunks": 1,
       "kUsed": 1,
       "thin": true,
@@ -428,7 +204,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 1,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0827,
@@ -439,23 +215,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3485,
-          "meritocracy": 0.3057,
-          "stanceDiff": 0.0428,
-          "salience": 0.3485,
           "score": 0.3485
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Innovate and make friends. No matter what part of Facebook you join, you'll be building something big and new. We welcome pioneers. In fact, we insist on them. Learn more about our culture. Work well. At our Menlo Park headquarters, we also offer free breakfast, lunch and dinner at our Cafe. Learn more about our benefits.",
-          "heading": "",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3485,
-          "meritocracy": 0.3057,
-          "stanceDiff": 0.0428,
-          "salience": 0.3485,
-          "score": 0.3057
         }
       ]
     },
@@ -465,8 +225,6 @@
       "inclusionMean": 0.4212,
       "inclusionMax": 0.5678,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4037,
-      "meritocracyMean": 0.3876,
       "nChunks": 8,
       "kUsed": 5,
       "thin": false,
@@ -476,7 +234,7 @@
         "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 7,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0299,
@@ -487,9 +245,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.5678,
-          "meritocracy": 0.3838,
-          "stanceDiff": 0.184,
-          "salience": 0.5678,
           "score": 0.5678
         },
         {
@@ -498,9 +253,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.475,
-          "meritocracy": 0.4074,
-          "stanceDiff": 0.0677,
-          "salience": 0.475,
           "score": 0.475
         },
         {
@@ -509,9 +261,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4736,
-          "meritocracy": 0.441,
-          "stanceDiff": 0.0326,
-          "salience": 0.4736,
           "score": 0.4736
         },
         {
@@ -520,9 +269,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.401,
-          "meritocracy": 0.3859,
-          "stanceDiff": 0.0151,
-          "salience": 0.401,
           "score": 0.401
         },
         {
@@ -531,67 +277,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3956,
-          "meritocracy": 0.3131,
-          "stanceDiff": 0.0825,
-          "salience": 0.3956,
           "score": 0.3956
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Hear from our team about what we hold important and how we get things done. Make an Impact. Work at Facebook.",
-          "heading": "What’s it really like to work at Facebook?",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4736,
-          "meritocracy": 0.441,
-          "stanceDiff": 0.0326,
-          "salience": 0.4736,
-          "score": 0.441
-        },
-        {
-          "text": "We believe that a more open world is a better world. The same goes for our company. Informed people make better decisions and have a greater impact, which is why we work hard to make sure everyone at Facebook has access to as much information about the company as possible.",
-          "heading": "Be Open",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.475,
-          "meritocracy": 0.4074,
-          "stanceDiff": 0.0677,
-          "salience": 0.475,
-          "score": 0.4074
-        },
-        {
-          "text": "To have the biggest impact, we need to focus on solving the most important problems. It sounds simple, but most companies do this poorly and waste a lot of time. We expect everyone at Facebook to be good at finding the biggest problems to work on.",
-          "heading": "Focus on Impact",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3404,
-          "meritocracy": 0.3961,
-          "stanceDiff": -0.0557,
-          "salience": 0.3961,
-          "score": 0.3961
-        },
-        {
-          "text": "We have a saying: “Move fast and break things.” The idea is that if you never break anything, you’re probably not moving fast enough. At Facebook, we’re less afraid of making mistakes than we are of losing opportunities.",
-          "heading": "Move Fast",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3501,
-          "meritocracy": 0.3882,
-          "stanceDiff": -0.0381,
-          "salience": 0.3882,
-          "score": 0.3882
-        },
-        {
-          "text": "Working at Facebook means doing what you love. We hire trailblazers, hackers and pioneers. We want people who can solve challenging problems, make a real impact and build something big. You should join us.",
-          "heading": "We’re making the world more open and connected. Want to help?",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.401,
-          "meritocracy": 0.3859,
-          "stanceDiff": 0.0151,
-          "salience": 0.401,
-          "score": 0.3859
         }
       ]
     },
@@ -601,8 +287,6 @@
       "inclusionMean": 0.3909,
       "inclusionMax": 0.475,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4036,
-      "meritocracyMean": 0.3762,
       "nChunks": 7,
       "kUsed": 5,
       "thin": false,
@@ -612,7 +296,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 7,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0027,
@@ -623,9 +307,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.475,
-          "meritocracy": 0.4074,
-          "stanceDiff": 0.0677,
-          "salience": 0.475,
           "score": 0.475
         },
         {
@@ -634,9 +315,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4736,
-          "meritocracy": 0.441,
-          "stanceDiff": 0.0326,
-          "salience": 0.4736,
           "score": 0.4736
         },
         {
@@ -645,9 +323,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3956,
-          "meritocracy": 0.3131,
-          "stanceDiff": 0.0825,
-          "salience": 0.3956,
           "score": 0.3956
         },
         {
@@ -656,9 +331,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.366,
-          "meritocracy": 0.3854,
-          "stanceDiff": -0.0194,
-          "salience": 0.3854,
           "score": 0.366
         },
         {
@@ -667,67 +339,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3501,
-          "meritocracy": 0.3882,
-          "stanceDiff": -0.0381,
-          "salience": 0.3882,
           "score": 0.3501
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Hear from our team about what we hold important and how we get things done. Make an Impact. Work at Facebook.",
-          "heading": "What’s it really like to work at Facebook?",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4736,
-          "meritocracy": 0.441,
-          "stanceDiff": 0.0326,
-          "salience": 0.4736,
-          "score": 0.441
-        },
-        {
-          "text": "We believe that a more open world is a better world. The same goes for our company. Informed people make better decisions and have a greater impact, which is why we work hard to make sure everyone at Facebook has access to as much information about the company as possible.",
-          "heading": "Be Open",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.475,
-          "meritocracy": 0.4074,
-          "stanceDiff": 0.0677,
-          "salience": 0.475,
-          "score": 0.4074
-        },
-        {
-          "text": "To have the biggest impact, we need to focus on solving the most important problems. It sounds simple, but most companies do this poorly and waste a lot of time. We expect everyone at Facebook to be good at finding the biggest problems to work on.",
-          "heading": "Focus on Impact",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3404,
-          "meritocracy": 0.3961,
-          "stanceDiff": -0.0557,
-          "salience": 0.3961,
-          "score": 0.3961
-        },
-        {
-          "text": "We have a saying: “Move fast and break things.” The idea is that if you never break anything, you’re probably not moving fast enough. At Facebook, we’re less afraid of making mistakes than we are of losing opportunities.",
-          "heading": "Move Fast",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3501,
-          "meritocracy": 0.3882,
-          "stanceDiff": -0.0381,
-          "salience": 0.3882,
-          "score": 0.3882
-        },
-        {
-          "text": "We have another saying: “The riskiest thing is to take no risks.” In a world that’s changing so quickly, you’re guaranteed to fail if you don’t take any risks. We encourage everyone to make bold decisions, even if that means being wrong some of the time.",
-          "heading": "Be Bold",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.366,
-          "meritocracy": 0.3854,
-          "stanceDiff": -0.0194,
-          "salience": 0.3854,
-          "score": 0.3854
         }
       ]
     },
@@ -737,8 +349,6 @@
       "inclusionMean": 0.4052,
       "inclusionMax": 0.4832,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4088,
-      "meritocracyMean": 0.391,
       "nChunks": 8,
       "kUsed": 5,
       "thin": false,
@@ -748,7 +358,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 8,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0035,
@@ -759,9 +369,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4832,
-          "meritocracy": 0.4662,
-          "stanceDiff": 0.017,
-          "salience": 0.4832,
           "score": 0.4832
         },
         {
@@ -770,9 +377,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.475,
-          "meritocracy": 0.4074,
-          "stanceDiff": 0.0677,
-          "salience": 0.475,
           "score": 0.475
         },
         {
@@ -781,9 +385,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4305,
-          "meritocracy": 0.3858,
-          "stanceDiff": 0.0447,
-          "salience": 0.4305,
           "score": 0.4305
         },
         {
@@ -792,9 +393,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.401,
-          "meritocracy": 0.3859,
-          "stanceDiff": 0.0151,
-          "salience": 0.401,
           "score": 0.401
         },
         {
@@ -803,67 +401,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3956,
-          "meritocracy": 0.3131,
-          "stanceDiff": 0.0825,
-          "salience": 0.3956,
           "score": 0.3956
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Hear from our team about what we hold important and how we get things done. Facebook #1: Highest Rated Companies for Internships (Glassdoo...",
-          "heading": "What’s it really like to work at Facebook?",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4832,
-          "meritocracy": 0.4662,
-          "stanceDiff": 0.017,
-          "salience": 0.4832,
-          "score": 0.4662
-        },
-        {
-          "text": "We believe that a more open world is a better world. The same goes for our company. Informed people make better decisions and have a greater impact, which is why we work hard to make sure everyone at Facebook has access to as much information about the company as possible.",
-          "heading": "Be Open",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.475,
-          "meritocracy": 0.4074,
-          "stanceDiff": 0.0677,
-          "salience": 0.475,
-          "score": 0.4074
-        },
-        {
-          "text": "To have the biggest impact, we need to focus on solving the most important problems. It sounds simple, but most companies do this poorly and waste a lot of time. We expect everyone at Facebook to be good at finding the biggest problems to work on.",
-          "heading": "Focus on Impact",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3404,
-          "meritocracy": 0.3961,
-          "stanceDiff": -0.0557,
-          "salience": 0.3961,
-          "score": 0.3961
-        },
-        {
-          "text": "We have a saying: “Move fast and break things.” The idea is that if you never break anything, you’re probably not moving fast enough. At Facebook, we’re less afraid of making mistakes than we are of losing opportunities.",
-          "heading": "Move Fast",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3501,
-          "meritocracy": 0.3882,
-          "stanceDiff": -0.0381,
-          "salience": 0.3882,
-          "score": 0.3882
-        },
-        {
-          "text": "Working at Facebook means doing what you love. We hire trailblazers, hackers and pioneers. We want people who can solve challenging problems, make a real impact and build something big. You should join us.",
-          "heading": "We’re making the world more open and connected. Want to help?",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.401,
-          "meritocracy": 0.3859,
-          "stanceDiff": 0.0151,
-          "salience": 0.401,
-          "score": 0.3859
         }
       ]
     },
@@ -873,8 +411,6 @@
       "inclusionMean": 0.3849,
       "inclusionMax": 0.6688,
       "inclusionFractionPresent": 0.9048,
-      "meritocracyTopkMean": 0.4712,
-      "meritocracyMean": 0.3138,
       "nChunks": 21,
       "kUsed": 5,
       "thin": false,
@@ -884,7 +420,7 @@
         "aspirational_vague": 1,
         "belonging_culture": 1,
         "absent": 18,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0298,
@@ -895,9 +431,6 @@
           "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.6688,
-          "meritocracy": 0.5102,
-          "stanceDiff": 0.1586,
-          "salience": 0.6688,
           "score": 0.6688
         },
         {
@@ -906,9 +439,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6221,
-          "meritocracy": 0.5276,
-          "stanceDiff": 0.0945,
-          "salience": 0.6221,
           "score": 0.6221
         },
         {
@@ -917,9 +447,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5333,
-          "meritocracy": 0.5115,
-          "stanceDiff": 0.0218,
-          "salience": 0.5333,
           "score": 0.5333
         },
         {
@@ -928,9 +455,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.483,
-          "meritocracy": 0.3681,
-          "stanceDiff": 0.1149,
-          "salience": 0.483,
           "score": 0.483
         },
         {
@@ -939,67 +463,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4664,
-          "meritocracy": 0.3809,
-          "stanceDiff": 0.0855,
-          "salience": 0.4664,
           "score": 0.4664
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
-          "heading": "Be yourself",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6221,
-          "meritocracy": 0.5276,
-          "stanceDiff": 0.0945,
-          "salience": 0.6221,
-          "score": 0.5276
-        },
-        {
-          "text": "Hear from our team about what we hold important and how we get things done. Connecting the world takes every one of us",
-          "heading": "What’s it like to work at Facebook?",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5333,
-          "meritocracy": 0.5115,
-          "stanceDiff": 0.0218,
-          "salience": 0.5333,
-          "score": 0.5115
-        },
-        {
-          "text": "Be your authentic self. We're dedicated to creating a workplace where everyone belongs. Hear more from the people who work here.",
-          "heading": "Authentic Self",
-          "register": "belonging_culture",
-          "stance": "affirming_dei",
-          "inclusion": 0.6688,
-          "meritocracy": 0.5102,
-          "stanceDiff": 0.1586,
-          "salience": 0.6688,
-          "score": 0.5102
-        },
-        {
-          "text": "We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make an impact. When you’re in charge of making a difference, there’s no limit to what you can do.",
-          "heading": "Be bold",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4509,
-          "meritocracy": 0.4054,
-          "stanceDiff": 0.0455,
-          "salience": 0.4509,
-          "score": 0.4054
-        },
-        {
-          "text": "Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.",
-          "heading": "Move fast",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4413,
-          "meritocracy": 0.4013,
-          "stanceDiff": 0.04,
-          "salience": 0.4413,
-          "score": 0.4013
         }
       ]
     },
@@ -1009,8 +473,6 @@
       "inclusionMean": 0.428,
       "inclusionMax": 0.6221,
       "inclusionFractionPresent": 0.8889,
-      "meritocracyTopkMean": 0.4486,
-      "meritocracyMean": 0.3682,
       "nChunks": 9,
       "kUsed": 5,
       "thin": false,
@@ -1020,7 +482,7 @@
         "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 7,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0352,
@@ -1031,9 +493,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6221,
-          "meritocracy": 0.5276,
-          "stanceDiff": 0.0945,
-          "salience": 0.6221,
           "score": 0.6221
         },
         {
@@ -1042,9 +501,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5333,
-          "meritocracy": 0.5115,
-          "stanceDiff": 0.0218,
-          "salience": 0.5333,
           "score": 0.5333
         },
         {
@@ -1053,9 +509,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4664,
-          "meritocracy": 0.3809,
-          "stanceDiff": 0.0855,
-          "salience": 0.4664,
           "score": 0.4664
         },
         {
@@ -1064,9 +517,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4509,
-          "meritocracy": 0.4054,
-          "stanceDiff": 0.0455,
-          "salience": 0.4509,
           "score": 0.4509
         },
         {
@@ -1075,67 +525,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4413,
-          "meritocracy": 0.4013,
-          "stanceDiff": 0.04,
-          "salience": 0.4413,
           "score": 0.4413
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
-          "heading": "Be yourself",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6221,
-          "meritocracy": 0.5276,
-          "stanceDiff": 0.0945,
-          "salience": 0.6221,
-          "score": 0.5276
-        },
-        {
-          "text": "Hear from our team about what we hold important and how we get things done. Connecting the world takes every one of us",
-          "heading": "What’s it like to work at Facebook?",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5333,
-          "meritocracy": 0.5115,
-          "stanceDiff": 0.0218,
-          "salience": 0.5333,
-          "score": 0.5115
-        },
-        {
-          "text": "We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make an impact. When you’re in charge of making a difference, there’s no limit to what you can do.",
-          "heading": "Be bold",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4509,
-          "meritocracy": 0.4054,
-          "stanceDiff": 0.0455,
-          "salience": 0.4509,
-          "score": 0.4054
-        },
-        {
-          "text": "Connecting the world happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.",
-          "heading": "Move fast",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4413,
-          "meritocracy": 0.4013,
-          "stanceDiff": 0.04,
-          "salience": 0.4413,
-          "score": 0.4013
-        },
-        {
-          "text": "We don’t have rules, we have values that guide the way we work and the decisions we make. View Facebook's 5 Core Values.",
-          "heading": "Facebook’s Values",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3825,
-          "meritocracy": 0.397,
-          "stanceDiff": -0.0145,
-          "salience": 0.397,
-          "score": 0.397
         }
       ]
     },
@@ -1145,8 +535,6 @@
       "inclusionMean": 0.4722,
       "inclusionMax": 0.6221,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.444,
-      "meritocracyMean": 0.422,
       "nChunks": 7,
       "kUsed": 5,
       "thin": false,
@@ -1156,7 +544,7 @@
         "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 6,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.063,
@@ -1167,9 +555,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6221,
-          "meritocracy": 0.5276,
-          "stanceDiff": 0.0945,
-          "salience": 0.6221,
           "score": 0.6221
         },
         {
@@ -1178,9 +563,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5333,
-          "meritocracy": 0.5115,
-          "stanceDiff": 0.0218,
-          "salience": 0.5333,
           "score": 0.5333
         },
         {
@@ -1189,9 +571,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4509,
-          "meritocracy": 0.4054,
-          "stanceDiff": 0.0455,
-          "salience": 0.4509,
           "score": 0.4509
         },
         {
@@ -1200,9 +579,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4498,
-          "meritocracy": 0.3678,
-          "stanceDiff": 0.082,
-          "salience": 0.4498,
           "score": 0.4498
         },
         {
@@ -1211,67 +587,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4357,
-          "meritocracy": 0.3784,
-          "stanceDiff": 0.0574,
-          "salience": 0.4357,
           "score": 0.4357
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Be unique. Be authentic. However you prefer to say it, we really mean it. Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
-          "heading": "Be yourself",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6221,
-          "meritocracy": 0.5276,
-          "stanceDiff": 0.0945,
-          "salience": 0.6221,
-          "score": 0.5276
-        },
-        {
-          "text": "Hear from our team about what we hold important and how we get things done. Connecting the world takes every one of us",
-          "heading": "What’s it like to work at Facebook?",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5333,
-          "meritocracy": 0.5115,
-          "stanceDiff": 0.0218,
-          "salience": 0.5333,
-          "score": 0.5115
-        },
-        {
-          "text": "We’re determined to build a better, more connected world for everyone. From engineers to designers and marketers, we empower the people who work at Facebook to make an impact. When you’re in charge of making a difference, there’s no limit to what you can do.",
-          "heading": "Be bold",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4509,
-          "meritocracy": 0.4054,
-          "stanceDiff": 0.0455,
-          "salience": 0.4509,
-          "score": 0.4054
-        },
-        {
-          "text": "We don’t have rules, we have values that guide the way we work and the decisions we make. View Facebook's 5 Core Values.",
-          "heading": "Facebook’s Values",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3825,
-          "meritocracy": 0.397,
-          "stanceDiff": -0.0145,
-          "salience": 0.397,
-          "score": 0.397
-        },
-        {
-          "text": "Connecting the world takes every one of us Move fast Connecting people, building community and bringing the world closer together happens in real time. Our teams are small and nimble. We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale. Be bold We’re determined to build a better, more connected world for everyone. From engineers to designers and market",
-          "heading": "What’s it like to work at Facebook?",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4357,
-          "meritocracy": 0.3784,
-          "stanceDiff": 0.0574,
-          "salience": 0.4357,
-          "score": 0.3784
         }
       ]
     },
@@ -1281,8 +597,6 @@
       "inclusionMean": 0.3783,
       "inclusionMax": 0.4295,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.2905,
-      "meritocracyMean": 0.2905,
       "nChunks": 3,
       "kUsed": 3,
       "thin": true,
@@ -1292,7 +606,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 1,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0745,
@@ -1303,9 +617,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.4295,
-          "meritocracy": 0.336,
-          "stanceDiff": 0.0935,
-          "salience": 0.4295,
           "score": 0.4295
         },
         {
@@ -1314,9 +625,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.4267,
-          "meritocracy": 0.3193,
-          "stanceDiff": 0.1074,
-          "salience": 0.4267,
           "score": 0.4267
         },
         {
@@ -1325,45 +633,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.2787,
-          "meritocracy": 0.2163,
-          "stanceDiff": 0.0624,
-          "salience": 0.2787,
           "score": 0.2787
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Jumpstart your career – and do important work. An internship program for students from underrepresented communities. Move Fast. Be Bold. Be Yourself. Diversity is a must-have for Facebook, not an option. Veterans play a key role in helping us achieve our mission. Learn about our hiring process and what to expect. We make sure you have the resources and care for you to thrive. You have questions? W",
-          "heading": "",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.4295,
-          "meritocracy": 0.336,
-          "stanceDiff": 0.0935,
-          "salience": 0.4295,
-          "score": 0.336
-        },
-        {
-          "text": "Jumpstart your career – and do important work. An internship program for students from underrepresented communities. Move Fast. Be Bold. Be Yourself. Diversity is a must-have for Facebook, not an option. Veterans play a key role in helping us achieve our mission. Learn about our hiring process and what to expect. We make sure you have the resources and care for you to thrive. You have questions? W",
-          "heading": "",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.4267,
-          "meritocracy": 0.3193,
-          "stanceDiff": 0.1074,
-          "salience": 0.4267,
-          "score": 0.3193
-        },
-        {
-          "text": "So far, we've connected more than 2 billion people — which means we still have more than 5 billion to go. The scale and complexity of our work are unprecedented, and the work we do makes a real difference in the lives of people around the world. Over time, we’ve expanded the Facebook family to include Instagram, WhatsApp, Messenger, Augmented & Virtual Reality, and Facebook Connectivity — but when",
-          "heading": "Build Social Value",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.2787,
-          "meritocracy": 0.2163,
-          "stanceDiff": 0.0624,
-          "salience": 0.2787,
-          "score": 0.2163
         }
       ]
     },
@@ -1373,8 +643,6 @@
       "inclusionMean": 0.4757,
       "inclusionMax": 0.6666,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4217,
-      "meritocracyMean": 0.3312,
       "nChunks": 18,
       "kUsed": 5,
       "thin": false,
@@ -1384,7 +652,7 @@
         "aspirational_vague": 3,
         "belonging_culture": 1,
         "absent": 2,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0233,
@@ -1395,9 +663,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6666,
-          "meritocracy": 0.4687,
-          "stanceDiff": 0.1979,
-          "salience": 0.6666,
           "score": 0.6666
         },
         {
@@ -1406,9 +671,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.5999,
-          "meritocracy": 0.4261,
-          "stanceDiff": 0.1738,
-          "salience": 0.5999,
           "score": 0.5999
         },
         {
@@ -1417,9 +679,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.5628,
-          "meritocracy": 0.4327,
-          "stanceDiff": 0.1302,
-          "salience": 0.5628,
           "score": 0.5628
         },
         {
@@ -1428,9 +687,6 @@
           "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.5554,
-          "meritocracy": 0.4114,
-          "stanceDiff": 0.144,
-          "salience": 0.5554,
           "score": 0.5554
         },
         {
@@ -1439,67 +695,7 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.5524,
-          "meritocracy": 0.3448,
-          "stanceDiff": 0.2076,
-          "salience": 0.5524,
           "score": 0.5524
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We are dedicated to building a team that reflects the diversity of the people, all around the globe, who use Facebook's products and services.",
-          "heading": "Increasing Representation",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6666,
-          "meritocracy": 0.4687,
-          "stanceDiff": 0.1979,
-          "salience": 0.6666,
-          "score": 0.4687
-        },
-        {
-          "text": "We welcome employees from all faiths and spiritual groups to practice and celebrate their beliefs. We believe that enabling an open dialog to foster understanding of different belief systems creates an environment that is truly open and inclusive.",
-          "heading": "Interfaith@",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.5628,
-          "meritocracy": 0.4327,
-          "stanceDiff": 0.1302,
-          "salience": 0.5628,
-          "score": 0.4327
-        },
-        {
-          "text": "Frankly, I think [diversity is] our problem to figure out. I think that responsibility rests on us and our companies in the industry to make sure that we get to that. And there's so much research that shows that you need diverse teams to do the best work. So it's important that we do better on diversity, not only because it's the right thing to do for the country and for the people, but because th",
-          "heading": "Diversity @ Facebook",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.5999,
-          "meritocracy": 0.4261,
-          "stanceDiff": 0.1738,
-          "salience": 0.5999,
-          "score": 0.4261
-        },
-        {
-          "text": "We provide opportunities for people here to connect with likeminded peers and focus on creating spaces where people feel safe voicing concerns and suggesting solutions.",
-          "heading": "Community and Belonging",
-          "register": "belonging_culture",
-          "stance": "affirming_dei",
-          "inclusion": 0.5554,
-          "meritocracy": 0.4114,
-          "stanceDiff": 0.144,
-          "salience": 0.5554,
-          "score": 0.4114
-        },
-        {
-          "text": "We focus on creating an open culture for all LGBTQ employees at Facebook. From partnering with community organizations, to celebrating in Pride parades around the world, we're committed to building community and bringing the world closer together. We're proud to have earned a 100% rating on the Human Rights Campaign Corporate Equality Index report.",
-          "heading": "Pride@",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.5208,
-          "meritocracy": 0.3697,
-          "stanceDiff": 0.1511,
-          "salience": 0.5208,
-          "score": 0.3697
         }
       ]
     },
@@ -1509,8 +705,6 @@
       "inclusionMean": 0.4863,
       "inclusionMax": 0.6666,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4217,
-      "meritocracyMean": 0.3377,
       "nChunks": 16,
       "kUsed": 5,
       "thin": false,
@@ -1520,7 +714,7 @@
         "aspirational_vague": 2,
         "belonging_culture": 2,
         "absent": 2,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0194,
@@ -1531,9 +725,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6666,
-          "meritocracy": 0.4687,
-          "stanceDiff": 0.1979,
-          "salience": 0.6666,
           "score": 0.6666
         },
         {
@@ -1542,9 +733,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.5986,
-          "meritocracy": 0.4258,
-          "stanceDiff": 0.1728,
-          "salience": 0.5986,
           "score": 0.5986
         },
         {
@@ -1553,9 +741,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.5628,
-          "meritocracy": 0.4327,
-          "stanceDiff": 0.1302,
-          "salience": 0.5628,
           "score": 0.5628
         },
         {
@@ -1564,9 +749,6 @@
           "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.5554,
-          "meritocracy": 0.4114,
-          "stanceDiff": 0.144,
-          "salience": 0.5554,
           "score": 0.5554
         },
         {
@@ -1575,67 +757,7 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.5524,
-          "meritocracy": 0.3448,
-          "stanceDiff": 0.2076,
-          "salience": 0.5524,
           "score": 0.5524
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We are dedicated to building a team that reflects the diversity of the people, all around the globe, who use Facebook's products and services.",
-          "heading": "Increasing Representation",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6666,
-          "meritocracy": 0.4687,
-          "stanceDiff": 0.1979,
-          "salience": 0.6666,
-          "score": 0.4687
-        },
-        {
-          "text": "We welcome employees from all faiths and spiritual groups to practice and celebrate their beliefs. We believe that enabling an open dialog to foster understanding of different belief systems creates an environment that is truly open and inclusive.",
-          "heading": "Interfaith@",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.5628,
-          "meritocracy": 0.4327,
-          "stanceDiff": 0.1302,
-          "salience": 0.5628,
-          "score": 0.4327
-        },
-        {
-          "text": "Frankly, I think [diversity is] our problem to figure out. I think that responsibility rests on us and our companies in the industry to make sure that we get to that. And there's so much research that shows that you need diverse teams to do the best work. So it's important that we do better on diversity, not only because it's the right thing to do for the country and for the people, but because th",
-          "heading": "Diversity @ Facebook",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.5986,
-          "meritocracy": 0.4258,
-          "stanceDiff": 0.1728,
-          "salience": 0.5986,
-          "score": 0.4258
-        },
-        {
-          "text": "We provide opportunities for people here to connect with likeminded peers and focus on creating spaces where people feel safe voicing concerns and suggesting solutions.",
-          "heading": "Community and Belonging",
-          "register": "belonging_culture",
-          "stance": "affirming_dei",
-          "inclusion": 0.5554,
-          "meritocracy": 0.4114,
-          "stanceDiff": 0.144,
-          "salience": 0.5554,
-          "score": 0.4114
-        },
-        {
-          "text": "We focus on creating an open culture for all LGBTQ employees at Facebook. From partnering with community organizations, to celebrating in Pride parades around the world, we're committed to building community and bringing the world closer together. We're proud to have earned a 100% rating on the Human Rights Campaign Corporate Equality Index report.",
-          "heading": "Pride@",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.5208,
-          "meritocracy": 0.3697,
-          "stanceDiff": 0.1511,
-          "salience": 0.5208,
-          "score": 0.3697
         }
       ]
     },
@@ -1645,8 +767,6 @@
       "inclusionMean": 0.447,
       "inclusionMax": 0.6666,
       "inclusionFractionPresent": 0.9474,
-      "meritocracyTopkMean": 0.4481,
-      "meritocracyMean": 0.3535,
       "nChunks": 19,
       "kUsed": 5,
       "thin": false,
@@ -1656,7 +776,7 @@
         "aspirational_vague": 6,
         "belonging_culture": 2,
         "absent": 11,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0701,
@@ -1667,9 +787,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6666,
-          "meritocracy": 0.4687,
-          "stanceDiff": 0.1979,
-          "salience": 0.6666,
           "score": 0.6666
         },
         {
@@ -1678,9 +795,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.5986,
-          "meritocracy": 0.4258,
-          "stanceDiff": 0.1728,
-          "salience": 0.5986,
           "score": 0.5986
         },
         {
@@ -1689,9 +803,6 @@
           "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.5554,
-          "meritocracy": 0.4114,
-          "stanceDiff": 0.144,
-          "salience": 0.5554,
           "score": 0.5554
         },
         {
@@ -1700,9 +811,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5535,
-          "meritocracy": 0.498,
-          "stanceDiff": 0.0555,
-          "salience": 0.5535,
           "score": 0.5535
         },
         {
@@ -1711,67 +819,7 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.5435,
-          "meritocracy": 0.3563,
-          "stanceDiff": 0.1872,
-          "salience": 0.5435,
           "score": 0.5435
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We work on things we’re incredibly passionate about, that align with our values and purpose, and that have a positive impact on the world. It's who we are. It's why we build. You can bring your values to do work that matters—not just to you, but to the world.",
-          "heading": "The work we do impacts the world, and the future.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5535,
-          "meritocracy": 0.498,
-          "stanceDiff": 0.0555,
-          "salience": 0.5535,
-          "score": 0.498
-        },
-        {
-          "text": "We are dedicated to building a team that reflects the diversity of the people, all around the globe, who use Facebook's products and services.",
-          "heading": "Increasing Representation",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6666,
-          "meritocracy": 0.4687,
-          "stanceDiff": 0.1979,
-          "salience": 0.6666,
-          "score": 0.4687
-        },
-        {
-          "text": "We believe that it’s better to move fast and make mistakes than to move slowly and miss opportunities. Doing so enables us to build more things and learn faster.",
-          "heading": "Move Fast",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4069,
-          "meritocracy": 0.4283,
-          "stanceDiff": -0.0215,
-          "salience": 0.4283,
-          "score": 0.4283
-        },
-        {
-          "text": "Frankly, I think [diversity is] our problem to figure out. I think that responsibility rests on us and our companies in the industry to make sure that we get to that. And there's so much research that shows that you need diverse teams to do the best work. So it's important that we do better on diversity, not only because it's the right thing to do for the country and for the people, but because th",
-          "heading": "Diversity @ Facebook",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.5986,
-          "meritocracy": 0.4258,
-          "stanceDiff": 0.1728,
-          "salience": 0.5986,
-          "score": 0.4258
-        },
-        {
-          "text": "At Facebook, we’re trying to bring the world closer together — not just grow our business. Our people focus on creating real value for the world — every day and in everything they do. It's a self-starter culture, we aren't told what to do to achieve results. Morin O., Head of Luxury for Instagram Don't change, be your authentic self. This is really refreshing. We know there’s no one-size-fits-all ",
-          "heading": "Build Social Value",
-          "register": "absent",
-          "stance": "affirming_dei",
-          "inclusion": 0.4896,
-          "meritocracy": 0.4197,
-          "stanceDiff": 0.0699,
-          "salience": 0.4896,
-          "score": 0.4197
         }
       ]
     },
@@ -1781,8 +829,6 @@
       "inclusionMean": 0.5267,
       "inclusionMax": 0.5648,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4734,
-      "meritocracyMean": 0.4734,
       "nChunks": 2,
       "kUsed": 2,
       "thin": true,
@@ -1792,7 +838,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 2,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0222,
@@ -1803,9 +849,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5648,
-          "meritocracy": 0.5285,
-          "stanceDiff": 0.0364,
-          "salience": 0.5648,
           "score": 0.5648
         },
         {
@@ -1814,34 +857,7 @@
           "register": "absent",
           "stance": "affirming_dei",
           "inclusion": 0.4886,
-          "meritocracy": 0.4183,
-          "stanceDiff": 0.0703,
-          "salience": 0.4886,
           "score": 0.4886
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We create a culture where we are straightforward and willing to have hard conversations with each other. At the same time, we are also respectful and when we share feedback, we recognize that many of the world’s leading experts work here. We are stewards of our company and our mission. We have a sense of responsibility for our collective success and to each other as teammates. It’s about taking ca",
-          "heading": "Create Career Profile",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5648,
-          "meritocracy": 0.5285,
-          "stanceDiff": 0.0364,
-          "salience": 0.5648,
-          "score": 0.5285
-        },
-        {
-          "text": "Build the future of how people connect. At Meta, everything we do is about helping people feel connected and closer. It’s in our technologies, our mission and how we collaborate. Working collectively and valuing each person for the differences we bring allows us all to do more. The pace is fast and the challenges are enormous, but this is how we thrive. These six values guide how we work, each and",
-          "heading": "Create Career Profile",
-          "register": "absent",
-          "stance": "affirming_dei",
-          "inclusion": 0.4886,
-          "meritocracy": 0.4183,
-          "stanceDiff": 0.0703,
-          "salience": 0.4886,
-          "score": 0.4183
         }
       ]
     },
@@ -1851,8 +867,6 @@
       "inclusionMean": 0.5267,
       "inclusionMax": 0.5648,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4734,
-      "meritocracyMean": 0.4734,
       "nChunks": 2,
       "kUsed": 2,
       "thin": true,
@@ -1862,7 +876,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 2,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": null,
@@ -1873,9 +887,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5648,
-          "meritocracy": 0.5285,
-          "stanceDiff": 0.0364,
-          "salience": 0.5648,
           "score": 0.5648
         },
         {
@@ -1884,34 +895,7 @@
           "register": "absent",
           "stance": "affirming_dei",
           "inclusion": 0.4886,
-          "meritocracy": 0.4183,
-          "stanceDiff": 0.0703,
-          "salience": 0.4886,
           "score": 0.4886
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We create a culture where we are straightforward and willing to have hard conversations with each other. At the same time, we are also respectful and when we share feedback, we recognize that many of the world’s leading experts work here. We are stewards of our company and our mission. We have a sense of responsibility for our collective success and to each other as teammates. It’s about taking ca",
-          "heading": "Créer un profil de carrière",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5648,
-          "meritocracy": 0.5285,
-          "stanceDiff": 0.0364,
-          "salience": 0.5648,
-          "score": 0.5285
-        },
-        {
-          "text": "Build the future of how people connect. At Meta, everything we do is about helping people feel connected and closer. It’s in our technologies, our mission and how we collaborate. Working collectively and valuing each person for the differences we bring allows us all to do more. The pace is fast and the challenges are enormous, but this is how we thrive. These six values guide how we work, each and",
-          "heading": "",
-          "register": "absent",
-          "stance": "affirming_dei",
-          "inclusion": 0.4886,
-          "meritocracy": 0.4183,
-          "stanceDiff": 0.0703,
-          "salience": 0.4886,
-          "score": 0.4183
         }
       ]
     },
@@ -1921,8 +905,6 @@
       "inclusionMean": 0.4564,
       "inclusionMax": 0.6348,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4021,
-      "meritocracyMean": 0.3529,
       "nChunks": 12,
       "kUsed": 5,
       "thin": false,
@@ -1932,7 +914,7 @@
         "aspirational_vague": 3,
         "belonging_culture": 0,
         "absent": 9,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0039,
@@ -1943,9 +925,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6348,
-          "meritocracy": 0.4513,
-          "stanceDiff": 0.1835,
-          "salience": 0.6348,
           "score": 0.6348
         },
         {
@@ -1954,9 +933,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.539,
-          "meritocracy": 0.4031,
-          "stanceDiff": 0.1359,
-          "salience": 0.539,
           "score": 0.539
         },
         {
@@ -1965,9 +941,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5118,
-          "meritocracy": 0.3761,
-          "stanceDiff": 0.1357,
-          "salience": 0.5118,
           "score": 0.5118
         },
         {
@@ -1976,9 +949,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5052,
-          "meritocracy": 0.387,
-          "stanceDiff": 0.1182,
-          "salience": 0.5052,
           "score": 0.5052
         },
         {
@@ -1987,67 +957,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.464,
-          "meritocracy": 0.3456,
-          "stanceDiff": 0.1183,
-          "salience": 0.464,
           "score": 0.464
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Inclusion strengthens our workplace — and our world At Meta, we’re committed to building an environment where everyone has a voice and feels valued. Bringing people from diverse backgrounds and experiences together allows us to create technologies that break down language barriers, collaborate to make better business decisions and connect communities around the world.",
-          "heading": "",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6348,
-          "meritocracy": 0.4513,
-          "stanceDiff": 0.1835,
-          "salience": 0.6348,
-          "score": 0.4513
-        },
-        {
-          "text": "Participants from all backgrounds have access to a wide range of programs and initiatives designed to foster career development, personal growth and inclusion.",
-          "heading": "We offer programs to support equal opportunity",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.539,
-          "meritocracy": 0.4031,
-          "stanceDiff": 0.1359,
-          "salience": 0.539,
-          "score": 0.4031
-        },
-        {
-          "text": "Come work alongside passionate individuals who are excited to learn and love what they do.",
-          "heading": "Collaborate and connect to drive new ideas",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4486,
-          "meritocracy": 0.3933,
-          "stanceDiff": 0.0554,
-          "salience": 0.4486,
-          "score": 0.3933
-        },
-        {
-          "text": "Every day, we redefine and build a future that’s more open, accessible, and focused on human connection.",
-          "heading": "Join us in connecting the world.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5052,
-          "meritocracy": 0.387,
-          "stanceDiff": 0.1182,
-          "salience": 0.5052,
-          "score": 0.387
-        },
-        {
-          "text": "Every day, we redefine and build a future that’s more open, accessible, and focused on human connection. Explore our featured roles and join our mission to build the future of human connection.",
-          "heading": "Join us in connecting the world.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5118,
-          "meritocracy": 0.3761,
-          "stanceDiff": 0.1357,
-          "salience": 0.5118,
-          "score": 0.3761
         }
       ]
     },
@@ -2057,8 +967,6 @@
       "inclusionMean": 0.1625,
       "inclusionMax": 0.2172,
       "inclusionFractionPresent": 0.0,
-      "meritocracyTopkMean": 0.1461,
-      "meritocracyMean": 0.1244,
       "nChunks": 11,
       "kUsed": 5,
       "thin": false,
@@ -2068,7 +976,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 11,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0032,
@@ -2079,9 +987,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.2172,
-          "meritocracy": 0.1682,
-          "stanceDiff": 0.049,
-          "salience": 0.2172,
           "score": 0.2172
         },
         {
@@ -2090,9 +995,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.2058,
-          "meritocracy": 0.1676,
-          "stanceDiff": 0.0382,
-          "salience": 0.2058,
           "score": 0.2058
         },
         {
@@ -2101,9 +1003,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.1784,
-          "meritocracy": 0.1274,
-          "stanceDiff": 0.051,
-          "salience": 0.1784,
           "score": 0.1784
         },
         {
@@ -2112,9 +1011,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.1749,
-          "meritocracy": 0.1403,
-          "stanceDiff": 0.0346,
-          "salience": 0.1749,
           "score": 0.1749
         },
         {
@@ -2123,67 +1019,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.1696,
-          "meritocracy": 0.1272,
-          "stanceDiff": 0.0424,
-          "salience": 0.1696,
           "score": 0.1696
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Our first AR glasses prototype — something we’ve been working on for nearly a decade — has arrived. Wireless, with a wide FOV display and weighing less than 100 grams, these were exciting to unveil at Meta Connect 2024. Our continued testing will help us improve upon consumer AR glasses in the coming years. This versatile tool lets individuals and businesses without coding experience build customi",
-          "heading": "We build awesome things",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.2172,
-          "meritocracy": 0.1682,
-          "stanceDiff": 0.049,
-          "salience": 0.2172,
-          "score": 0.1682
-        },
-        {
-          "text": "We’ve integrated our state-of-the-art open source language model with Meta AI, our intelligent assistant, for enhanced scalability and performance. Meta Llama significantly elevates various capabilities, such as code generation, reasoning and content translation. We’ve integrated our state-of-the-art open source language model with Meta AI, our intelligent assistant, for enhanced scalability and p",
-          "heading": "We build awesome things",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.2058,
-          "meritocracy": 0.1676,
-          "stanceDiff": 0.0382,
-          "salience": 0.2058,
-          "score": 0.1676
-        },
-        {
-          "text": "We’ve integrated our state-of-the-art open source language model with Meta AI, our intelligent assistant, for enhanced scalability and performance. Meta Llama significantly elevates various capabilities, such as code generation, reasoning and content translation. We’ve integrated our state-of-the-art open source language model with Meta AI, our intelligent assistant, for enhanced scalability and p",
-          "heading": "We build awesome things",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.1749,
-          "meritocracy": 0.1403,
-          "stanceDiff": 0.0346,
-          "salience": 0.1749,
-          "score": 0.1403
-        },
-        {
-          "text": "Our next-generation Ray-Ban Meta glasses let you interact with AI wherever you go — hands-free. Take photos and videos, listen to music, chat with friends, even livestream on social media. They’re comfortable and stylish, with exceptional visual and sound quality. Our first AR glasses prototype — something we’ve been working on for nearly a decade — has arrived. Wireless, with a wide FOV display a",
-          "heading": "We build awesome things",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.1784,
-          "meritocracy": 0.1274,
-          "stanceDiff": 0.051,
-          "salience": 0.1784,
-          "score": 0.1274
-        },
-        {
-          "text": "From Oakley Meta Vanguard to Oakley Meta HTSN, this is the next evolution of AI glasses. Oakley and Meta have joined forces to bring AI glasses to sports and everyday lifestyles, combining Oakley's eye-catching style with Meta's innovative wearable and AI technology. Built for life on the field, trail, or track, with everyday use cases, Oakley Meta is here to evolve sport and enhance performance. ",
-          "heading": "We build awesome things",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.1696,
-          "meritocracy": 0.1272,
-          "stanceDiff": 0.0424,
-          "salience": 0.1696,
-          "score": 0.1272
         }
       ]
     }

@@ -3,8 +3,17 @@
 Follow-on to the validation overhaul (see [labeling-todo.md](labeling-todo.md)).
 That workstream measures classifier agreement; this one closes the remaining
 "we think it's right" gaps in categorization that no α number covers. **Do not
-start until the hand-labeling backlog is done** (160 chunk rows + 100 stance
-rows) — Phase 0 consumes its outputs.
+start until the hand-labeling backlog is done** — Phase 0 consumes its outputs.
+Status 2026-07-18: chunk labels done (blind pooled α 0.759 7-way / 0.805 on the
+analysis view); stance rows remain (AI first-pass labels added for Becca to
+verify — see the anchoring caveat in labeling-todo.md).
+
+Instrument change 2026-07-18: the bipolar `dei_stance` embedding axis and the
+inclusion−meritocracy `stance_diff` were **retired** (output was unconsumed;
+merit-intensity is not a DEI position — Becca's ruling). Direction claims now
+rest solely on the stance classifier, so the Phase 0 stance gate below is the
+only validation the DEI story's direction claims depend on; no dei_stance
+tournament is needed in Phase 1.
 
 Each step is **command → artifact → gate → branch**. Gate reads are recorded in
 [execution-log.md](execution-log.md) with timestamp, artifact path, and

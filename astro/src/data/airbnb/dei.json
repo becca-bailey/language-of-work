@@ -9,8 +9,6 @@
       "inclusionMean": 0.3887,
       "inclusionMax": 0.5166,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4635,
-      "meritocracyMean": 0.4222,
       "nChunks": 10,
       "kUsed": 5,
       "thin": false,
@@ -20,7 +18,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 2,
         "absent": 8,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0443,
@@ -31,9 +29,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5166,
-          "meritocracy": 0.5108,
-          "stanceDiff": 0.0058,
-          "salience": 0.5166,
           "score": 0.5166
         },
         {
@@ -42,9 +37,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4757,
-          "meritocracy": 0.4913,
-          "stanceDiff": -0.0155,
-          "salience": 0.4913,
           "score": 0.4757
         },
         {
@@ -53,9 +45,6 @@
           "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.4531,
-          "meritocracy": 0.4058,
-          "stanceDiff": 0.0473,
-          "salience": 0.4531,
           "score": 0.4531
         },
         {
@@ -64,9 +53,6 @@
           "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.4215,
-          "meritocracy": 0.4148,
-          "stanceDiff": 0.0068,
-          "salience": 0.4215,
           "score": 0.4215
         },
         {
@@ -75,67 +61,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4143,
-          "meritocracy": 0.4371,
-          "stanceDiff": -0.0228,
-          "salience": 0.4371,
           "score": 0.4143
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We build the best experience for our community - as a team.",
-          "heading": "Create",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5166,
-          "meritocracy": 0.5108,
-          "stanceDiff": 0.0058,
-          "salience": 0.5166,
-          "score": 0.5108
-        },
-        {
-          "text": "No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.",
-          "heading": "Together at Airbnb",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4757,
-          "meritocracy": 0.4913,
-          "stanceDiff": -0.0155,
-          "salience": 0.4913,
-          "score": 0.4913
-        },
-        {
-          "text": "Think holistically. Execute with obsession to detail. Success is measured by pride, not credit.",
-          "heading": "Every Frame Matters",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3497,
-          "meritocracy": 0.4638,
-          "stanceDiff": -0.1141,
-          "salience": 0.4638,
-          "score": 0.4638
-        },
-        {
-          "text": "We're dedicated to constant learning. That's why we organize Fireside Chats, which bring in industry leaders to share their experiences and wisdom. From CEOs to musicians, these leaders always have something invaluable to teach us. The world is counting on you. It's all about knowing who you are. Ambassador Crumpton 24 years with the CIA & strategic international advisor If you don't do shit, you ",
-          "heading": "We Learn from the Best",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4143,
-          "meritocracy": 0.4371,
-          "stanceDiff": -0.0228,
-          "salience": 0.4371,
-          "score": 0.4371
-        },
-        {
-          "text": "Serve others so they feel they belong. We stretch our empathy until our guests feel 100% appreciated. Everyone is a guest.",
-          "heading": "Be a Host",
-          "register": "belonging_culture",
-          "stance": "neutral",
-          "inclusion": 0.4215,
-          "meritocracy": 0.4148,
-          "stanceDiff": 0.0068,
-          "salience": 0.4215,
-          "score": 0.4148
         }
       ]
     },
@@ -145,8 +71,6 @@
       "inclusionMean": 0.3834,
       "inclusionMax": 0.5166,
       "inclusionFractionPresent": 0.8889,
-      "meritocracyTopkMean": 0.4607,
-      "meritocracyMean": 0.4042,
       "nChunks": 9,
       "kUsed": 5,
       "thin": false,
@@ -156,7 +80,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 9,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0082,
@@ -167,9 +91,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5166,
-          "meritocracy": 0.5108,
-          "stanceDiff": 0.0058,
-          "salience": 0.5166,
           "score": 0.5166
         },
         {
@@ -178,9 +99,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4757,
-          "meritocracy": 0.4913,
-          "stanceDiff": -0.0155,
-          "salience": 0.4913,
           "score": 0.4757
         },
         {
@@ -189,9 +107,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.447,
-          "meritocracy": 0.4407,
-          "stanceDiff": 0.0063,
-          "salience": 0.447,
           "score": 0.447
         },
         {
@@ -200,9 +115,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4143,
-          "meritocracy": 0.4371,
-          "stanceDiff": -0.0228,
-          "salience": 0.4371,
           "score": 0.4143
         },
         {
@@ -211,67 +123,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3527,
-          "meritocracy": 0.3211,
-          "stanceDiff": 0.0315,
-          "salience": 0.3527,
           "score": 0.3527
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We build the best experience for our community - as a team.",
-          "heading": "Create",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5166,
-          "meritocracy": 0.5108,
-          "stanceDiff": 0.0058,
-          "salience": 0.5166,
-          "score": 0.5108
-        },
-        {
-          "text": "No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.",
-          "heading": "Together at Airbnb",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4757,
-          "meritocracy": 0.4913,
-          "stanceDiff": -0.0155,
-          "salience": 0.4913,
-          "score": 0.4913
-        },
-        {
-          "text": "Passionate. Committed. Optimistic. Puts the Airbnb community first. Takes ownership and delivers results. Perpetuates belonging.",
-          "heading": "Champion the Mission",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.447,
-          "meritocracy": 0.4407,
-          "stanceDiff": 0.0063,
-          "salience": 0.447,
-          "score": 0.4407
-        },
-        {
-          "text": "We're dedicated to constant learning. That's why we organize Fireside Chats, which bring in industry leaders to share their experiences and wisdom. From CEOs to musicians, these leaders always have something invaluable to teach us. The world is counting on you. It's all about knowing who you are. Ambassador Crumpton 24 years with the CIA & strategic international advisor If you don't do shit, you ",
-          "heading": "We Learn from the Best",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4143,
-          "meritocracy": 0.4371,
-          "stanceDiff": -0.0228,
-          "salience": 0.4371,
-          "score": 0.4371
-        },
-        {
-          "text": "Thinks holistically. Rigorous about quality. Appreciates the details and prioritizes the right ones.",
-          "heading": "Every Frame Matters",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3268,
-          "meritocracy": 0.4237,
-          "stanceDiff": -0.0969,
-          "salience": 0.4237,
-          "score": 0.4237
         }
       ]
     },
@@ -281,8 +133,6 @@
       "inclusionMean": 0.3935,
       "inclusionMax": 0.5456,
       "inclusionFractionPresent": 0.9286,
-      "meritocracyTopkMean": 0.4836,
-      "meritocracyMean": 0.4032,
       "nChunks": 14,
       "kUsed": 5,
       "thin": false,
@@ -292,7 +142,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 2,
         "absent": 12,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0101,
@@ -303,9 +153,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5456,
-          "meritocracy": 0.5383,
-          "stanceDiff": 0.0073,
-          "salience": 0.5456,
           "score": 0.5456
         },
         {
@@ -314,9 +161,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5166,
-          "meritocracy": 0.5108,
-          "stanceDiff": 0.0058,
-          "salience": 0.5166,
           "score": 0.5166
         },
         {
@@ -325,9 +169,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4757,
-          "meritocracy": 0.4913,
-          "stanceDiff": -0.0155,
-          "salience": 0.4913,
           "score": 0.4757
         },
         {
@@ -336,9 +177,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4585,
-          "meritocracy": 0.4137,
-          "stanceDiff": 0.0448,
-          "salience": 0.4585,
           "score": 0.4585
         },
         {
@@ -347,67 +185,7 @@
           "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.447,
-          "meritocracy": 0.4407,
-          "stanceDiff": 0.0063,
-          "salience": 0.447,
           "score": 0.447
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.",
-          "heading": "Create a world that inspires human connection",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5456,
-          "meritocracy": 0.5383,
-          "stanceDiff": 0.0073,
-          "salience": 0.5456,
-          "score": 0.5383
-        },
-        {
-          "text": "We build the best experience for our community - as a team.",
-          "heading": "Create",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5166,
-          "meritocracy": 0.5108,
-          "stanceDiff": 0.0058,
-          "salience": 0.5166,
-          "score": 0.5108
-        },
-        {
-          "text": "No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.",
-          "heading": "Together at Airbnb",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4757,
-          "meritocracy": 0.4913,
-          "stanceDiff": -0.0155,
-          "salience": 0.4913,
-          "score": 0.4913
-        },
-        {
-          "text": "Passionate. Committed. Optimistic. Puts the Airbnb community first. Takes ownership and delivers results. Perpetuates belonging.",
-          "heading": "Champion the Mission",
-          "register": "belonging_culture",
-          "stance": "neutral",
-          "inclusion": 0.447,
-          "meritocracy": 0.4407,
-          "stanceDiff": 0.0063,
-          "salience": 0.447,
-          "score": 0.4407
-        },
-        {
-          "text": "We're dedicated to constant learning. That's why we organize Fireside Chats, which bring in industry leaders to share their experiences and wisdom. From CEOs to musicians, these leaders always have something invaluable to teach us. The world is counting on you. It's all about knowing who you are. Ambassador Crumpton 24 years with the CIA & strategic international advisor If you don't do shit, you ",
-          "heading": "We Learn from the Best",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4143,
-          "meritocracy": 0.4371,
-          "stanceDiff": -0.0228,
-          "salience": 0.4371,
-          "score": 0.4371
         }
       ]
     },
@@ -417,8 +195,6 @@
       "inclusionMean": 0.4213,
       "inclusionMax": 0.5456,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4505,
-      "meritocracyMean": 0.4194,
       "nChunks": 7,
       "kUsed": 5,
       "thin": false,
@@ -428,7 +204,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 1,
         "absent": 6,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": null,
@@ -439,9 +215,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5456,
-          "meritocracy": 0.5383,
-          "stanceDiff": 0.0073,
-          "salience": 0.5456,
           "score": 0.5456
         },
         {
@@ -450,9 +223,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4757,
-          "meritocracy": 0.4913,
-          "stanceDiff": -0.0155,
-          "salience": 0.4913,
           "score": 0.4757
         },
         {
@@ -461,9 +231,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4585,
-          "meritocracy": 0.4137,
-          "stanceDiff": 0.0448,
-          "salience": 0.4585,
           "score": 0.4585
         },
         {
@@ -472,9 +239,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4143,
-          "meritocracy": 0.4371,
-          "stanceDiff": -0.0228,
-          "salience": 0.4371,
           "score": 0.4143
         },
         {
@@ -483,67 +247,7 @@
           "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.3993,
-          "meritocracy": 0.36,
-          "stanceDiff": 0.0393,
-          "salience": 0.3993,
           "score": 0.3993
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.",
-          "heading": "Create a world that inspires human connection",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5456,
-          "meritocracy": 0.5383,
-          "stanceDiff": 0.0073,
-          "salience": 0.5456,
-          "score": 0.5383
-        },
-        {
-          "text": "No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.",
-          "heading": "Together at Airbnb",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4757,
-          "meritocracy": 0.4913,
-          "stanceDiff": -0.0155,
-          "salience": 0.4913,
-          "score": 0.4913
-        },
-        {
-          "text": "We're dedicated to constant learning. That's why we organize Fireside Chats, which bring in industry leaders to share their experiences and wisdom. From CEOs to musicians, these leaders always have something invaluable to teach us. The world is counting on you. It's all about knowing who you are. Ambassador Crumpton 24 years with the CIA & strategic international advisor If you don't do shit, you ",
-          "heading": "We Learn from the Best",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4143,
-          "meritocracy": 0.4371,
-          "stanceDiff": -0.0228,
-          "salience": 0.4371,
-          "score": 0.4371
-        },
-        {
-          "text": "Prioritize work that advances the mission and positively impacts the community Build with the long-term in mind Actively participate in the community and culture",
-          "heading": "Champion the Mission",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4585,
-          "meritocracy": 0.4137,
-          "stanceDiff": 0.0448,
-          "salience": 0.4585,
-          "score": 0.4137
-        },
-        {
-          "text": "Be curious, ask for help, and demonstrate an ability to grow Own and learn from mistakes Bring joy and optimism to work",
-          "heading": "Embrace the Adventure",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.389,
-          "meritocracy": 0.372,
-          "stanceDiff": 0.017,
-          "salience": 0.389,
-          "score": 0.372
         }
       ]
     },
@@ -553,8 +257,6 @@
       "inclusionMean": 0.4861,
       "inclusionMax": 0.6378,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.527,
-      "meritocracyMean": 0.4478,
       "nChunks": 13,
       "kUsed": 5,
       "thin": false,
@@ -564,7 +266,7 @@
         "aspirational_vague": 3,
         "belonging_culture": 1,
         "absent": 9,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0713,
@@ -575,9 +277,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6378,
-          "meritocracy": 0.4711,
-          "stanceDiff": 0.1666,
-          "salience": 0.6378,
           "score": 0.6378
         },
         {
@@ -586,9 +285,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.6275,
-          "meritocracy": 0.6008,
-          "stanceDiff": 0.0267,
-          "salience": 0.6275,
           "score": 0.6275
         },
         {
@@ -597,9 +293,6 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.5971,
-          "meritocracy": 0.4717,
-          "stanceDiff": 0.1254,
-          "salience": 0.5971,
           "score": 0.5971
         },
         {
@@ -608,9 +301,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5456,
-          "meritocracy": 0.5383,
-          "stanceDiff": 0.0073,
-          "salience": 0.5456,
           "score": 0.5456
         },
         {
@@ -619,67 +309,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5299,
-          "meritocracy": 0.5286,
-          "stanceDiff": 0.0013,
-          "salience": 0.5299,
           "score": 0.5299
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We're caring, open, and encouraging to everyone we work with.",
-          "heading": "Be a Host",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.6275,
-          "meritocracy": 0.6008,
-          "stanceDiff": 0.0267,
-          "salience": 0.6275,
-          "score": 0.6008
-        },
-        {
-          "text": "We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.",
-          "heading": "Create a world that inspires human connection",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5456,
-          "meritocracy": 0.5383,
-          "stanceDiff": 0.0073,
-          "salience": 0.5456,
-          "score": 0.5383
-        },
-        {
-          "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
-          "heading": "Embrace the Adventure",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5299,
-          "meritocracy": 0.5286,
-          "stanceDiff": 0.0013,
-          "salience": 0.5299,
-          "score": 0.5286
-        },
-        {
-          "text": "No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.",
-          "heading": "Together at Airbnb",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4757,
-          "meritocracy": 0.4913,
-          "stanceDiff": -0.0155,
-          "salience": 0.4913,
-          "score": 0.4913
-        },
-        {
-          "text": "We’re determined and creative in transforming our bold ambitions into reality.",
-          "heading": "Be a Cereal Entrepreneur",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4448,
-          "meritocracy": 0.476,
-          "stanceDiff": -0.0311,
-          "salience": 0.476,
-          "score": 0.476
         }
       ]
     },
@@ -689,8 +319,6 @@
       "inclusionMean": 0.5406,
       "inclusionMax": 0.6378,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.5096,
-      "meritocracyMean": 0.4747,
       "nChunks": 7,
       "kUsed": 5,
       "thin": false,
@@ -700,7 +328,7 @@
         "aspirational_vague": 3,
         "belonging_culture": 0,
         "absent": 4,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0457,
@@ -711,9 +339,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6378,
-          "meritocracy": 0.4711,
-          "stanceDiff": 0.1666,
-          "salience": 0.6378,
           "score": 0.6378
         },
         {
@@ -722,9 +347,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.6275,
-          "meritocracy": 0.6008,
-          "stanceDiff": 0.0267,
-          "salience": 0.6275,
           "score": 0.6275
         },
         {
@@ -733,9 +355,6 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.5971,
-          "meritocracy": 0.4717,
-          "stanceDiff": 0.1254,
-          "salience": 0.5971,
           "score": 0.5971
         },
         {
@@ -744,9 +363,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5299,
-          "meritocracy": 0.5286,
-          "stanceDiff": 0.0013,
-          "salience": 0.5299,
           "score": 0.5299
         },
         {
@@ -755,67 +371,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4888,
-          "meritocracy": 0.3772,
-          "stanceDiff": 0.1116,
-          "salience": 0.4888,
           "score": 0.4888
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We're caring, open, and encouraging to everyone we work with.",
-          "heading": "Be a Host",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.6275,
-          "meritocracy": 0.6008,
-          "stanceDiff": 0.0267,
-          "salience": 0.6275,
-          "score": 0.6008
-        },
-        {
-          "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
-          "heading": "Embrace the Adventure",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5299,
-          "meritocracy": 0.5286,
-          "stanceDiff": 0.0013,
-          "salience": 0.5299,
-          "score": 0.5286
-        },
-        {
-          "text": "We’re determined and creative in transforming our bold ambitions into reality.",
-          "heading": "Be a Cereal Entrepreneur",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4448,
-          "meritocracy": 0.476,
-          "stanceDiff": -0.0311,
-          "salience": 0.476,
-          "score": 0.476
-        },
-        {
-          "text": "We’re united with our community to create a world where anyone can belong anywhere.",
-          "heading": "Champion the Mission",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.5971,
-          "meritocracy": 0.4717,
-          "stanceDiff": 0.1254,
-          "salience": 0.5971,
-          "score": 0.4717
-        },
-        {
-          "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about diversity and belonging",
-          "heading": "Include everyone",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6378,
-          "meritocracy": 0.4711,
-          "stanceDiff": 0.1666,
-          "salience": 0.6378,
-          "score": 0.4711
         }
       ]
     },
@@ -825,8 +381,6 @@
       "inclusionMean": 0.4665,
       "inclusionMax": 0.6378,
       "inclusionFractionPresent": 0.9,
-      "meritocracyTopkMean": 0.5096,
-      "meritocracyMean": 0.404,
       "nChunks": 10,
       "kUsed": 5,
       "thin": false,
@@ -836,7 +390,7 @@
         "aspirational_vague": 3,
         "belonging_culture": 1,
         "absent": 6,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0401,
@@ -847,9 +401,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6378,
-          "meritocracy": 0.4711,
-          "stanceDiff": 0.1666,
-          "salience": 0.6378,
           "score": 0.6378
         },
         {
@@ -858,9 +409,6 @@
           "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.6275,
-          "meritocracy": 0.6008,
-          "stanceDiff": 0.0267,
-          "salience": 0.6275,
           "score": 0.6275
         },
         {
@@ -869,9 +417,6 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.5971,
-          "meritocracy": 0.4717,
-          "stanceDiff": 0.1254,
-          "salience": 0.5971,
           "score": 0.5971
         },
         {
@@ -880,9 +425,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5299,
-          "meritocracy": 0.5286,
-          "stanceDiff": 0.0013,
-          "salience": 0.5299,
           "score": 0.5299
         },
         {
@@ -891,67 +433,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4888,
-          "meritocracy": 0.3772,
-          "stanceDiff": 0.1116,
-          "salience": 0.4888,
           "score": 0.4888
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We're caring, open, and encouraging to everyone we work with.",
-          "heading": "Be a Host",
-          "register": "belonging_culture",
-          "stance": "neutral",
-          "inclusion": 0.6275,
-          "meritocracy": 0.6008,
-          "stanceDiff": 0.0267,
-          "salience": 0.6275,
-          "score": 0.6008
-        },
-        {
-          "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
-          "heading": "Embrace the Adventure",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5299,
-          "meritocracy": 0.5286,
-          "stanceDiff": 0.0013,
-          "salience": 0.5299,
-          "score": 0.5286
-        },
-        {
-          "text": "We’re determined and creative in transforming our bold ambitions into reality.",
-          "heading": "Be a Cereal Entrepreneur",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4448,
-          "meritocracy": 0.476,
-          "stanceDiff": -0.0311,
-          "salience": 0.476,
-          "score": 0.476
-        },
-        {
-          "text": "We’re united with our community to create a world where anyone can belong anywhere.",
-          "heading": "Champion the Mission",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.5971,
-          "meritocracy": 0.4717,
-          "stanceDiff": 0.1254,
-          "salience": 0.5971,
-          "score": 0.4717
-        },
-        {
-          "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about diversity and belonging",
-          "heading": "Include everyone",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6378,
-          "meritocracy": 0.4711,
-          "stanceDiff": 0.1666,
-          "salience": 0.6378,
-          "score": 0.4711
         }
       ]
     },
@@ -961,8 +443,6 @@
       "inclusionMean": 0.5363,
       "inclusionMax": 0.6275,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.511,
-      "meritocracyMean": 0.4757,
       "nChunks": 7,
       "kUsed": 5,
       "thin": false,
@@ -972,7 +452,7 @@
         "aspirational_vague": 3,
         "belonging_culture": 1,
         "absent": 3,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0724,
@@ -983,9 +463,6 @@
           "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.6275,
-          "meritocracy": 0.6008,
-          "stanceDiff": 0.0267,
-          "salience": 0.6275,
           "score": 0.6275
         },
         {
@@ -994,9 +471,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6081,
-          "meritocracy": 0.4782,
-          "stanceDiff": 0.1299,
-          "salience": 0.6081,
           "score": 0.6081
         },
         {
@@ -1005,9 +479,6 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.5971,
-          "meritocracy": 0.4717,
-          "stanceDiff": 0.1254,
-          "salience": 0.5971,
           "score": 0.5971
         },
         {
@@ -1016,9 +487,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5299,
-          "meritocracy": 0.5286,
-          "stanceDiff": 0.0013,
-          "salience": 0.5299,
           "score": 0.5299
         },
         {
@@ -1027,67 +495,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4888,
-          "meritocracy": 0.3772,
-          "stanceDiff": 0.1116,
-          "salience": 0.4888,
           "score": 0.4888
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We're caring, open, and encouraging to everyone we work with.",
-          "heading": "Be a Host",
-          "register": "belonging_culture",
-          "stance": "neutral",
-          "inclusion": 0.6275,
-          "meritocracy": 0.6008,
-          "stanceDiff": 0.0267,
-          "salience": 0.6275,
-          "score": 0.6008
-        },
-        {
-          "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
-          "heading": "Embrace the Adventure",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5299,
-          "meritocracy": 0.5286,
-          "stanceDiff": 0.0013,
-          "salience": 0.5299,
-          "score": 0.5286
-        },
-        {
-          "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about what makes Airbnb, Airbnb",
-          "heading": "Include everyone",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6081,
-          "meritocracy": 0.4782,
-          "stanceDiff": 0.1299,
-          "salience": 0.6081,
-          "score": 0.4782
-        },
-        {
-          "text": "We’re determined and creative in transforming our bold ambitions into reality.",
-          "heading": "Be a Cereal Entrepreneur",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4448,
-          "meritocracy": 0.476,
-          "stanceDiff": -0.0311,
-          "salience": 0.476,
-          "score": 0.476
-        },
-        {
-          "text": "We’re united with our community to create a world where anyone can belong anywhere.",
-          "heading": "Champion the Mission",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.5971,
-          "meritocracy": 0.4717,
-          "stanceDiff": 0.1254,
-          "salience": 0.5971,
-          "score": 0.4717
         }
       ]
     },
@@ -1097,8 +505,6 @@
       "inclusionMean": 0.5384,
       "inclusionMax": 0.6275,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.511,
-      "meritocracyMean": 0.4735,
       "nChunks": 8,
       "kUsed": 5,
       "thin": false,
@@ -1108,7 +514,7 @@
         "aspirational_vague": 3,
         "belonging_culture": 1,
         "absent": 3,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0761,
@@ -1119,9 +525,6 @@
           "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.6275,
-          "meritocracy": 0.6008,
-          "stanceDiff": 0.0267,
-          "salience": 0.6275,
           "score": 0.6275
         },
         {
@@ -1130,9 +533,6 @@
           "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.6081,
-          "meritocracy": 0.4782,
-          "stanceDiff": 0.1299,
-          "salience": 0.6081,
           "score": 0.6081
         },
         {
@@ -1141,9 +541,6 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.5971,
-          "meritocracy": 0.4717,
-          "stanceDiff": 0.1254,
-          "salience": 0.5971,
           "score": 0.5971
         },
         {
@@ -1152,9 +549,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.5527,
-          "meritocracy": 0.4584,
-          "stanceDiff": 0.0943,
-          "salience": 0.5527,
           "score": 0.5527
         },
         {
@@ -1163,67 +557,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5299,
-          "meritocracy": 0.5286,
-          "stanceDiff": 0.0013,
-          "salience": 0.5299,
           "score": 0.5299
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We're caring, open, and encouraging to everyone we work with.",
-          "heading": "Be a Host",
-          "register": "belonging_culture",
-          "stance": "neutral",
-          "inclusion": 0.6275,
-          "meritocracy": 0.6008,
-          "stanceDiff": 0.0267,
-          "salience": 0.6275,
-          "score": 0.6008
-        },
-        {
-          "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
-          "heading": "Embrace the Adventure",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5299,
-          "meritocracy": 0.5286,
-          "stanceDiff": 0.0013,
-          "salience": 0.5299,
-          "score": 0.5286
-        },
-        {
-          "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about what makes Airbnb, Airbnb",
-          "heading": "Include everyone",
-          "register": "explicit_demographic",
-          "stance": "affirming_dei",
-          "inclusion": 0.6081,
-          "meritocracy": 0.4782,
-          "stanceDiff": 0.1299,
-          "salience": 0.6081,
-          "score": 0.4782
-        },
-        {
-          "text": "We’re determined and creative in transforming our bold ambitions into reality.",
-          "heading": "Be a Cereal Entrepreneur",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4448,
-          "meritocracy": 0.476,
-          "stanceDiff": -0.0311,
-          "salience": 0.476,
-          "score": 0.476
-        },
-        {
-          "text": "We’re united with our community to create a world where anyone can belong anywhere.",
-          "heading": "Champion the Mission",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.5971,
-          "meritocracy": 0.4717,
-          "stanceDiff": 0.1254,
-          "salience": 0.5971,
-          "score": 0.4717
         }
       ]
     },
@@ -1233,8 +567,6 @@
       "inclusionMean": 0.4301,
       "inclusionMax": 0.5473,
       "inclusionFractionPresent": 0.75,
-      "meritocracyTopkMean": 0.3688,
-      "meritocracyMean": 0.3688,
       "nChunks": 4,
       "kUsed": 4,
       "thin": true,
@@ -1244,7 +576,7 @@
         "aspirational_vague": 2,
         "belonging_culture": 0,
         "absent": 2,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0695,
@@ -1255,9 +587,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.5473,
-          "meritocracy": 0.4085,
-          "stanceDiff": 0.1387,
-          "salience": 0.5473,
           "score": 0.5473
         },
         {
@@ -1266,9 +595,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5061,
-          "meritocracy": 0.482,
-          "stanceDiff": 0.0241,
-          "salience": 0.5061,
           "score": 0.5061
         },
         {
@@ -1277,9 +603,6 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.4698,
-          "meritocracy": 0.3842,
-          "stanceDiff": 0.0856,
-          "salience": 0.4698,
           "score": 0.4698
         },
         {
@@ -1288,56 +611,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.1973,
-          "meritocracy": 0.2005,
-          "stanceDiff": -0.0033,
-          "salience": 0.2005,
           "score": 0.1973
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We know there is no one-size-fits-all approach to work. That’s why we give our employees the flexibility to live and work anywhere in the world where regulations allow—while still providing them with opportunities to connect in person.",
-          "heading": "Live and Work Anywhere",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5061,
-          "meritocracy": 0.482,
-          "stanceDiff": 0.0241,
-          "salience": 0.5061,
-          "score": 0.482
-        },
-        {
-          "text": "Creating connection and belonging in the world begins with a workplace where you're both welcomed and empowered to be your authentic self, so you can deliver your best work. We’re committed to ensuring Airbnb is a place where people of all backgrounds, identities, and experiences can thrive.",
-          "heading": "We welcome you",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.5473,
-          "meritocracy": 0.4085,
-          "stanceDiff": 0.1387,
-          "salience": 0.5473,
-          "score": 0.4085
-        },
-        {
-          "text": "Join our global creative community, where passion and collaboration drive innovation to make products that impact the world. Work alongside industry-leading talent and be part of our vibrant network, encompassing people from all walks of life.",
-          "heading": "Make an impact",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.4698,
-          "meritocracy": 0.3842,
-          "stanceDiff": 0.0856,
-          "salience": 0.4698,
-          "score": 0.3842
-        },
-        {
-          "text": "From our first three guests in 2007, Airbnb has welcomed 1.5 billion arrivals, all thanks to our 5 million Hosts.",
-          "heading": "Work at one of the most creative places on Earth",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.1973,
-          "meritocracy": 0.2005,
-          "stanceDiff": -0.0033,
-          "salience": 0.2005,
-          "score": 0.2005
         }
       ]
     },
@@ -1347,8 +621,6 @@
       "inclusionMean": 0.4301,
       "inclusionMax": 0.5473,
       "inclusionFractionPresent": 0.75,
-      "meritocracyTopkMean": 0.3688,
-      "meritocracyMean": 0.3688,
       "nChunks": 4,
       "kUsed": 4,
       "thin": true,
@@ -1358,7 +630,7 @@
         "aspirational_vague": 2,
         "belonging_culture": 0,
         "absent": 2,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": null,
@@ -1369,9 +641,6 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.5473,
-          "meritocracy": 0.4085,
-          "stanceDiff": 0.1387,
-          "salience": 0.5473,
           "score": 0.5473
         },
         {
@@ -1380,9 +649,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5061,
-          "meritocracy": 0.482,
-          "stanceDiff": 0.0241,
-          "salience": 0.5061,
           "score": 0.5061
         },
         {
@@ -1391,9 +657,6 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.4698,
-          "meritocracy": 0.3842,
-          "stanceDiff": 0.0856,
-          "salience": 0.4698,
           "score": 0.4698
         },
         {
@@ -1402,56 +665,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.1973,
-          "meritocracy": 0.2005,
-          "stanceDiff": -0.0033,
-          "salience": 0.2005,
           "score": 0.1973
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We know there is no one-size-fits-all approach to work. That’s why we give our employees the flexibility to live and work anywhere in the world where regulations allow—while still providing them with opportunities to connect in person.",
-          "heading": "Live and Work Anywhere",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5061,
-          "meritocracy": 0.482,
-          "stanceDiff": 0.0241,
-          "salience": 0.5061,
-          "score": 0.482
-        },
-        {
-          "text": "Creating connection and belonging in the world begins with a workplace where you're both welcomed and empowered to be your authentic self, so you can deliver your best work. We’re committed to ensuring Airbnb is a place where people of all backgrounds, identities, and experiences can thrive.",
-          "heading": "We welcome you",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.5473,
-          "meritocracy": 0.4085,
-          "stanceDiff": 0.1387,
-          "salience": 0.5473,
-          "score": 0.4085
-        },
-        {
-          "text": "Join our global creative community, where passion and collaboration drive innovation to make products that impact the world. Work alongside industry-leading talent and be part of our vibrant network, encompassing people from all walks of life.",
-          "heading": "Make an impact",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.4698,
-          "meritocracy": 0.3842,
-          "stanceDiff": 0.0856,
-          "salience": 0.4698,
-          "score": 0.3842
-        },
-        {
-          "text": "From our first three guests in 2007, Airbnb has welcomed 1.5 billion arrivals, all thanks to our 5 million Hosts.",
-          "heading": "Work at one of the most creative places on Earth",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.1973,
-          "meritocracy": 0.2005,
-          "stanceDiff": -0.0033,
-          "salience": 0.2005,
-          "score": 0.2005
         }
       ]
     }

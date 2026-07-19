@@ -9,8 +9,6 @@
       "inclusionMean": 0.0968,
       "inclusionMax": 0.0997,
       "inclusionFractionPresent": 0.0,
-      "meritocracyTopkMean": 0.1269,
-      "meritocracyMean": 0.1269,
       "nChunks": 2,
       "kUsed": 2,
       "thin": true,
@@ -20,7 +18,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 2,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0443,
@@ -31,9 +29,6 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.0997,
-          "meritocracy": 0.1292,
-          "stanceDiff": -0.0295,
-          "salience": 0.1292,
           "score": 0.0997
         },
         {
@@ -42,34 +37,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.094,
-          "meritocracy": 0.1245,
-          "stanceDiff": -0.0305,
-          "salience": 0.1245,
           "score": 0.094
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "The #1 Online DVD Rental Service with over 2,000,000 members!",
-          "heading": "",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.0997,
-          "meritocracy": 0.1292,
-          "stanceDiff": -0.0295,
-          "salience": 0.1292,
-          "score": 0.1292
-        },
-        {
-          "text": "The #1 Online DVD Rental Service with more than 3,000,000 members!",
-          "heading": "",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.094,
-          "meritocracy": 0.1245,
-          "stanceDiff": -0.0305,
-          "salience": 0.1245,
-          "score": 0.1245
         }
       ]
     },
@@ -79,8 +47,6 @@
       "inclusionMean": 0.4221,
       "inclusionMax": 0.4221,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4385,
-      "meritocracyMean": 0.4385,
       "nChunks": 1,
       "kUsed": 1,
       "thin": true,
@@ -90,7 +56,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 1,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": null,
@@ -99,25 +65,9 @@
           "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
           "heading": "",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4221,
-          "meritocracy": 0.4385,
-          "stanceDiff": -0.0163,
-          "salience": 0.4385,
           "score": 0.4221
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
-          "heading": "",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4221,
-          "meritocracy": 0.4385,
-          "stanceDiff": -0.0163,
-          "salience": 0.4385,
-          "score": 0.4385
         }
       ]
     },
@@ -127,8 +77,6 @@
       "inclusionMean": 0.4219,
       "inclusionMax": 0.4219,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4373,
-      "meritocracyMean": 0.4373,
       "nChunks": 1,
       "kUsed": 1,
       "thin": true,
@@ -138,7 +86,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 1,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0882,
@@ -147,25 +95,9 @@
           "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
           "heading": "Netflix Business Opportunity",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4219,
-          "meritocracy": 0.4373,
-          "stanceDiff": -0.0154,
-          "salience": 0.4373,
           "score": 0.4219
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
-          "heading": "Netflix Business Opportunity",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4219,
-          "meritocracy": 0.4373,
-          "stanceDiff": -0.0154,
-          "salience": 0.4373,
-          "score": 0.4373
         }
       ]
     },
@@ -175,8 +107,6 @@
       "inclusionMean": 0.4219,
       "inclusionMax": 0.4219,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.4373,
-      "meritocracyMean": 0.4373,
       "nChunks": 1,
       "kUsed": 1,
       "thin": true,
@@ -186,7 +116,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 1,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": null,
@@ -195,25 +125,9 @@
           "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
           "heading": "Netflix Business Opportunity",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4219,
-          "meritocracy": 0.4373,
-          "stanceDiff": -0.0154,
-          "salience": 0.4373,
           "score": 0.4219
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
-          "heading": "Netflix Business Opportunity",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4219,
-          "meritocracy": 0.4373,
-          "stanceDiff": -0.0154,
-          "salience": 0.4373,
-          "score": 0.4373
         }
       ]
     },
@@ -223,8 +137,6 @@
       "inclusionMean": 0.377,
       "inclusionMax": 0.377,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.3901,
-      "meritocracyMean": 0.3901,
       "nChunks": 1,
       "kUsed": 1,
       "thin": true,
@@ -234,7 +146,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 1,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0277,
@@ -243,25 +155,9 @@
           "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here. Work with talented colleagues on hard problems that affect millions of customers. Who we are At Netflix we value high performance, freedom and responsibility. We don't focus on rules, processes or procedures. We are candid and transparent and seek excellence in all that we do. Wh",
           "heading": "Join our team",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.377,
-          "meritocracy": 0.3901,
-          "stanceDiff": -0.0132,
-          "salience": 0.3901,
           "score": 0.377
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here. Work with talented colleagues on hard problems that affect millions of customers. Who we are At Netflix we value high performance, freedom and responsibility. We don't focus on rules, processes or procedures. We are candid and transparent and seek excellence in all that we do. Wh",
-          "heading": "Join our team",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.377,
-          "meritocracy": 0.3901,
-          "stanceDiff": -0.0132,
-          "salience": 0.3901,
-          "score": 0.3901
         }
       ]
     },
@@ -271,8 +167,6 @@
       "inclusionMean": 0.3806,
       "inclusionMax": 0.3892,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.3899,
-      "meritocracyMean": 0.3899,
       "nChunks": 3,
       "kUsed": 3,
       "thin": true,
@@ -282,7 +176,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 3,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0027,
@@ -291,69 +185,25 @@
           "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here. Work with talented colleagues on hard problems that affect millions of customers. Who we are At Netflix we value high performance, freedom and responsibility. We don't focus on rules, processes or procedures. We are candid and transparent and seek excellence in everything that we",
           "heading": "Netflix Culture",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.3892,
-          "meritocracy": 0.3867,
-          "stanceDiff": 0.0025,
-          "salience": 0.3892,
           "score": 0.3892
         },
         {
           "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here. Work with talented colleagues on hard problems that affect millions of customers. Who we are At Netflix we value high performance, freedom and responsibility. We don't focus on rules, processes or procedures. We are candid and transparent and seek excellence in all that we do. Wh",
           "heading": "Join our team",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.377,
-          "meritocracy": 0.3901,
-          "stanceDiff": -0.0132,
-          "salience": 0.3901,
           "score": 0.377
         },
         {
           "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here. Work with talented colleagues on hard problems that affect millions of customers. Who we are At Netflix we value high performance, freedom and responsibility. We don't focus on rules, processes or procedures. We are candid and transparent and seek excellence in everything that we",
           "heading": "Join our team",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.3757,
-          "meritocracy": 0.3928,
-          "stanceDiff": -0.0172,
-          "salience": 0.3928,
           "score": 0.3757
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here. Work with talented colleagues on hard problems that affect millions of customers. Who we are At Netflix we value high performance, freedom and responsibility. We don't focus on rules, processes or procedures. We are candid and transparent and seek excellence in everything that we",
-          "heading": "Join our team",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.3757,
-          "meritocracy": 0.3928,
-          "stanceDiff": -0.0172,
-          "salience": 0.3928,
-          "score": 0.3928
-        },
-        {
-          "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here. Work with talented colleagues on hard problems that affect millions of customers. Who we are At Netflix we value high performance, freedom and responsibility. We don't focus on rules, processes or procedures. We are candid and transparent and seek excellence in all that we do. Wh",
-          "heading": "Join our team",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.377,
-          "meritocracy": 0.3901,
-          "stanceDiff": -0.0132,
-          "salience": 0.3901,
-          "score": 0.3901
-        },
-        {
-          "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here. Work with talented colleagues on hard problems that affect millions of customers. Who we are At Netflix we value high performance, freedom and responsibility. We don't focus on rules, processes or procedures. We are candid and transparent and seek excellence in everything that we",
-          "heading": "Netflix Culture",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.3892,
-          "meritocracy": 0.3867,
-          "stanceDiff": 0.0025,
-          "salience": 0.3892,
-          "score": 0.3867
         }
       ]
     },
@@ -363,8 +213,6 @@
       "inclusionMean": 0.3892,
       "inclusionMax": 0.3892,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.3867,
-      "meritocracyMean": 0.3867,
       "nChunks": 1,
       "kUsed": 1,
       "thin": true,
@@ -374,7 +222,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 1,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": null,
@@ -383,25 +231,9 @@
           "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here. Work with talented colleagues on hard problems that affect millions of customers. Who we are At Netflix we value high performance, freedom and responsibility. We don't focus on rules, processes or procedures. We are candid and transparent and seek excellence in everything that we",
           "heading": "Netflix Culture",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.3892,
-          "meritocracy": 0.3867,
-          "stanceDiff": 0.0025,
-          "salience": 0.3892,
           "score": 0.3892
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here. Work with talented colleagues on hard problems that affect millions of customers. Who we are At Netflix we value high performance, freedom and responsibility. We don't focus on rules, processes or procedures. We are candid and transparent and seek excellence in everything that we",
-          "heading": "Netflix Culture",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.3892,
-          "meritocracy": 0.3867,
-          "stanceDiff": 0.0025,
-          "salience": 0.3892,
-          "score": 0.3867
         }
       ]
     },
@@ -411,8 +243,6 @@
       "inclusionMean": 0.4041,
       "inclusionMax": 0.6327,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.5028,
-      "meritocracyMean": 0.4222,
       "nChunks": 30,
       "kUsed": 5,
       "thin": false,
@@ -422,7 +252,7 @@
         "aspirational_vague": 2,
         "belonging_culture": 0,
         "absent": 28,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0946,
@@ -433,111 +263,39 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6327,
-          "meritocracy": 0.5246,
-          "stanceDiff": 0.1081,
-          "salience": 0.6327,
           "score": 0.6327
         },
         {
           "text": "New employees often comment in the first few months that they are surprised how accurate our culture description is to the actual culture they experience. Around the world, we live and create our culture together. In fact, hundreds of global employees contributed to this document. We do not seek to preserve our culture — we seek to improve it. Every person who joins us helps to shape and evolve th",
           "heading": "Seeking Excellence",
           "register": "aspirational_vague",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.5279,
-          "meritocracy": 0.4554,
-          "stanceDiff": 0.0724,
-          "salience": 0.5279,
           "score": 0.5279
         },
         {
           "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
           "heading": "Dream Team",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4991,
-          "meritocracy": 0.5535,
-          "stanceDiff": -0.0544,
-          "salience": 0.5535,
           "score": 0.4991
         },
         {
           "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “ You question actions inconsistent with our values .” We want everyone to help each other live the values and hold each other responsible for b",
           "heading": "Impact",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4777,
-          "meritocracy": 0.4965,
-          "stanceDiff": -0.0188,
-          "salience": 0.4965,
           "score": 0.4777
         },
         {
           "text": "As we wrote in the beginning, what is unique and special about Netflix is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people",
           "heading": "Summary",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.453,
-          "meritocracy": 0.4759,
-          "stanceDiff": -0.0229,
-          "salience": 0.4759,
           "score": 0.453
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
-          "heading": "Dream Team",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4991,
-          "meritocracy": 0.5535,
-          "stanceDiff": -0.0544,
-          "salience": 0.5535,
-          "score": 0.5535
-        },
-        {
-          "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past",
-          "heading": "Inclusion",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6327,
-          "meritocracy": 0.5246,
-          "stanceDiff": 0.1081,
-          "salience": 0.6327,
-          "score": 0.5246
-        },
-        {
-          "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “ You question actions inconsistent with our values .” We want everyone to help each other live the values and hold each other responsible for b",
-          "heading": "Impact",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4777,
-          "meritocracy": 0.4965,
-          "stanceDiff": -0.0188,
-          "salience": 0.4965,
-          "score": 0.4965
-        },
-        {
-          "text": "As we wrote in the beginning, what is unique and special about Netflix is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people",
-          "heading": "Summary",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.453,
-          "meritocracy": 0.4759,
-          "stanceDiff": -0.0229,
-          "salience": 0.4759,
-          "score": 0.4759
-        },
-        {
-          "text": "Being on a dream team is not right for everyone, and that is OK. Many people value job security very highly, and would prefer to work at the many companies whose orientation is more about stability, seniority, and working around inconsistent employee effectiveness. Our model works best for people who highly value consistent excellence in their colleagues. To help us attract and retain stunning col",
-          "heading": "Dream Team",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4511,
-          "meritocracy": 0.4633,
-          "stanceDiff": -0.0122,
-          "salience": 0.4633,
-          "score": 0.4633
         }
       ]
     },
@@ -547,8 +305,6 @@
       "inclusionMean": 0.4008,
       "inclusionMax": 0.6327,
       "inclusionFractionPresent": 0.9688,
-      "meritocracyTopkMean": 0.5169,
-      "meritocracyMean": 0.4186,
       "nChunks": 32,
       "kUsed": 5,
       "thin": false,
@@ -558,7 +314,7 @@
         "aspirational_vague": 2,
         "belonging_culture": 0,
         "absent": 30,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0582,
@@ -569,20 +325,14 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6327,
-          "meritocracy": 0.5246,
-          "stanceDiff": 0.1081,
-          "salience": 0.6327,
           "score": 0.6327
         },
         {
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
           "score": 0.528
         },
         {
@@ -591,89 +341,23 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.5117,
-          "meritocracy": 0.438,
-          "stanceDiff": 0.0737,
-          "salience": 0.5117,
           "score": 0.5117
         },
         {
           "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
           "heading": "Dream Team",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4991,
-          "meritocracy": 0.5535,
-          "stanceDiff": -0.0544,
-          "salience": 0.5535,
           "score": 0.4991
         },
         {
           "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “You question actions inconsistent with our values.” We want everyone to help each other live the values and hold each other responsible for bei",
           "heading": "Impact",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.478,
-          "meritocracy": 0.4964,
-          "stanceDiff": -0.0183,
-          "salience": 0.4964,
           "score": 0.478
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
-          "heading": "Dream Team",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4991,
-          "meritocracy": 0.5535,
-          "stanceDiff": -0.0544,
-          "salience": 0.5535,
-          "score": 0.5535
-        },
-        {
-          "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
-          "heading": "Freedom and Responsibility",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
-          "score": 0.5403
-        },
-        {
-          "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past",
-          "heading": "Inclusion",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6327,
-          "meritocracy": 0.5246,
-          "stanceDiff": 0.1081,
-          "salience": 0.6327,
-          "score": 0.5246
-        },
-        {
-          "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “You question actions inconsistent with our values.” We want everyone to help each other live the values and hold each other responsible for bei",
-          "heading": "Impact",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.478,
-          "meritocracy": 0.4964,
-          "stanceDiff": -0.0183,
-          "salience": 0.4964,
-          "score": 0.4964
-        },
-        {
-          "text": "As we wrote in the beginning, what is special about Netflix is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people",
-          "heading": "Summary",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4395,
-          "meritocracy": 0.4696,
-          "stanceDiff": -0.0301,
-          "salience": 0.4696,
-          "score": 0.4696
         }
       ]
     },
@@ -683,8 +367,6 @@
       "inclusionMean": 0.389,
       "inclusionMax": 0.6327,
       "inclusionFractionPresent": 0.9429,
-      "meritocracyTopkMean": 0.5164,
-      "meritocracyMean": 0.4043,
       "nChunks": 35,
       "kUsed": 5,
       "thin": false,
@@ -694,7 +376,7 @@
         "aspirational_vague": 5,
         "belonging_culture": 0,
         "absent": 30,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0797,
@@ -705,20 +387,14 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6327,
-          "meritocracy": 0.5246,
-          "stanceDiff": 0.1081,
-          "salience": 0.6327,
           "score": 0.6327
         },
         {
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
           "score": 0.528
         },
         {
@@ -727,89 +403,23 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.5117,
-          "meritocracy": 0.438,
-          "stanceDiff": 0.0737,
-          "salience": 0.5117,
           "score": 0.5117
         },
         {
           "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
           "heading": "Dream Team",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.5012,
-          "meritocracy": 0.5561,
-          "stanceDiff": -0.0549,
-          "salience": 0.5561,
           "score": 0.5012
         },
         {
           "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “You question actions inconsistent with our values.” We want everyone to help each other live the values and hold each other responsible for bei",
           "heading": "Impact",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4761,
-          "meritocracy": 0.4912,
-          "stanceDiff": -0.0151,
-          "salience": 0.4912,
           "score": 0.4761
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
-          "heading": "Dream Team",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.5012,
-          "meritocracy": 0.5561,
-          "stanceDiff": -0.0549,
-          "salience": 0.5561,
-          "score": 0.5561
-        },
-        {
-          "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
-          "heading": "Freedom and Responsibility",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
-          "score": 0.5403
-        },
-        {
-          "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past",
-          "heading": "Inclusion",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6327,
-          "meritocracy": 0.5246,
-          "stanceDiff": 0.1081,
-          "salience": 0.6327,
-          "score": 0.5246
-        },
-        {
-          "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “You question actions inconsistent with our values.” We want everyone to help each other live the values and hold each other responsible for bei",
-          "heading": "Impact",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4761,
-          "meritocracy": 0.4912,
-          "stanceDiff": -0.0151,
-          "salience": 0.4912,
-          "score": 0.4912
-        },
-        {
-          "text": "As we wrote in the beginning, what is special about Netflix is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people",
-          "heading": "Summary",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4395,
-          "meritocracy": 0.4696,
-          "stanceDiff": -0.0301,
-          "salience": 0.4696,
-          "score": 0.4696
         }
       ]
     },
@@ -819,8 +429,6 @@
       "inclusionMean": 0.3967,
       "inclusionMax": 0.5919,
       "inclusionFractionPresent": 0.9697,
-      "meritocracyTopkMean": 0.5042,
-      "meritocracyMean": 0.4126,
       "nChunks": 33,
       "kUsed": 5,
       "thin": false,
@@ -830,7 +438,7 @@
         "aspirational_vague": 4,
         "belonging_culture": 0,
         "absent": 29,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.1074,
@@ -841,20 +449,14 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.5919,
-          "meritocracy": 0.4716,
-          "stanceDiff": 0.1203,
-          "salience": 0.5919,
           "score": 0.5919
         },
         {
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
           "score": 0.528
         },
         {
@@ -863,89 +465,23 @@
           "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.5136,
-          "meritocracy": 0.4422,
-          "stanceDiff": 0.0714,
-          "salience": 0.5136,
           "score": 0.5136
         },
         {
           "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
           "heading": "Dream Team",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.5012,
-          "meritocracy": 0.5561,
-          "stanceDiff": -0.0549,
-          "salience": 0.5561,
           "score": 0.5012
         },
         {
           "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “ You question actions inconsistent with our values. ” We want everyone to help each other live the values and hold each other responsible for b",
           "heading": "Impact",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4667,
-          "meritocracy": 0.4835,
-          "stanceDiff": -0.0169,
-          "salience": 0.4835,
           "score": 0.4667
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
-          "heading": "Dream Team",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.5012,
-          "meritocracy": 0.5561,
-          "stanceDiff": -0.0549,
-          "salience": 0.5561,
-          "score": 0.5561
-        },
-        {
-          "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
-          "heading": "Freedom and Responsibility",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
-          "score": 0.5403
-        },
-        {
-          "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “ You question actions inconsistent with our values. ” We want everyone to help each other live the values and hold each other responsible for b",
-          "heading": "Impact",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4667,
-          "meritocracy": 0.4835,
-          "stanceDiff": -0.0169,
-          "salience": 0.4835,
-          "score": 0.4835
-        },
-        {
-          "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized",
-          "heading": "Inclusion",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.5919,
-          "meritocracy": 0.4716,
-          "stanceDiff": 0.1203,
-          "salience": 0.5919,
-          "score": 0.4716
-        },
-        {
-          "text": "As we wrote in the beginning, what is special about Netflix is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people",
-          "heading": "Summary",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4395,
-          "meritocracy": 0.4696,
-          "stanceDiff": -0.0301,
-          "salience": 0.4696,
-          "score": 0.4696
         }
       ]
     },
@@ -955,8 +491,6 @@
       "inclusionMean": 0.3967,
       "inclusionMax": 0.6042,
       "inclusionFractionPresent": 0.9697,
-      "meritocracyTopkMean": 0.506,
-      "meritocracyMean": 0.4133,
       "nChunks": 33,
       "kUsed": 5,
       "thin": false,
@@ -966,7 +500,7 @@
         "aspirational_vague": 4,
         "belonging_culture": 0,
         "absent": 29,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0158,
@@ -977,111 +511,39 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6042,
-          "meritocracy": 0.4804,
-          "stanceDiff": 0.1238,
-          "salience": 0.6042,
           "score": 0.6042
         },
         {
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
           "score": 0.528
         },
         {
           "text": "New employees often comment in their first few months that they are surprised at how accurate this culture description is to the actual culture they experience. Around the world, we live and create our culture together. In fact, hundreds of our global employees contributed to this document. We do not seek to preserve our culture — we seek to improve it. Every person who joins us helps to shape and",
           "heading": "Seeking Excellence",
           "register": "aspirational_vague",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.5136,
-          "meritocracy": 0.4422,
-          "stanceDiff": 0.0714,
-          "salience": 0.5136,
           "score": 0.5136
         },
         {
           "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
           "heading": "Dream Team",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.5012,
-          "meritocracy": 0.5561,
-          "stanceDiff": -0.0549,
-          "salience": 0.5561,
           "score": 0.5012
         },
         {
           "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “ You question actions inconsistent with our values. ” We want everyone to help each other live the values and hold each other responsible for b",
           "heading": "Impact",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4667,
-          "meritocracy": 0.4835,
-          "stanceDiff": -0.0169,
-          "salience": 0.4835,
           "score": 0.4667
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
-          "heading": "Dream Team",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.5012,
-          "meritocracy": 0.5561,
-          "stanceDiff": -0.0549,
-          "salience": 0.5561,
-          "score": 0.5561
-        },
-        {
-          "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
-          "heading": "Freedom and Responsibility",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
-          "score": 0.5403
-        },
-        {
-          "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “ You question actions inconsistent with our values. ” We want everyone to help each other live the values and hold each other responsible for b",
-          "heading": "Impact",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4667,
-          "meritocracy": 0.4835,
-          "stanceDiff": -0.0169,
-          "salience": 0.4835,
-          "score": 0.4835
-        },
-        {
-          "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us",
-          "heading": "Inclusion",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6042,
-          "meritocracy": 0.4804,
-          "stanceDiff": 0.1238,
-          "salience": 0.6042,
-          "score": 0.4804
-        },
-        {
-          "text": "As we wrote in the beginning, what is special about Netflix is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people",
-          "heading": "Summary",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4395,
-          "meritocracy": 0.4696,
-          "stanceDiff": -0.0301,
-          "salience": 0.4696,
-          "score": 0.4696
         }
       ]
     },
@@ -1091,8 +553,6 @@
       "inclusionMean": 0.3879,
       "inclusionMax": 0.6042,
       "inclusionFractionPresent": 0.9412,
-      "meritocracyTopkMean": 0.506,
-      "meritocracyMean": 0.4039,
       "nChunks": 34,
       "kUsed": 5,
       "thin": false,
@@ -1102,7 +562,7 @@
         "aspirational_vague": 4,
         "belonging_culture": 0,
         "absent": 30,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0224,
@@ -1113,111 +573,39 @@
           "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.6042,
-          "meritocracy": 0.4804,
-          "stanceDiff": 0.1238,
-          "salience": 0.6042,
           "score": 0.6042
         },
         {
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
           "score": 0.528
         },
         {
           "text": "New employees often comment in their first few months that they are surprised at how accurate this culture description is to the actual culture they experience. Around the world, we live and create our culture together. In fact, hundreds of our global employees contributed to this document. We do not seek to preserve our culture — we seek to improve it. Every person who joins us helps to shape and",
           "heading": "Seeking Excellence",
           "register": "aspirational_vague",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.5136,
-          "meritocracy": 0.4422,
-          "stanceDiff": 0.0714,
-          "salience": 0.5136,
           "score": 0.5136
         },
         {
           "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
           "heading": "Dream Team",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.5012,
-          "meritocracy": 0.5561,
-          "stanceDiff": -0.0549,
-          "salience": 0.5561,
           "score": 0.5012
         },
         {
           "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “ You question actions inconsistent with our values. ” We want everyone to help each other live the values and hold each other responsible for b",
           "heading": "Impact",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4667,
-          "meritocracy": 0.4835,
-          "stanceDiff": -0.0169,
-          "salience": 0.4835,
           "score": 0.4667
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
-          "heading": "Dream Team",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.5012,
-          "meritocracy": 0.5561,
-          "stanceDiff": -0.0549,
-          "salience": 0.5561,
-          "score": 0.5561
-        },
-        {
-          "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
-          "heading": "Freedom and Responsibility",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
-          "score": 0.5403
-        },
-        {
-          "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “ You question actions inconsistent with our values. ” We want everyone to help each other live the values and hold each other responsible for b",
-          "heading": "Impact",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4667,
-          "meritocracy": 0.4835,
-          "stanceDiff": -0.0169,
-          "salience": 0.4835,
-          "score": 0.4835
-        },
-        {
-          "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us",
-          "heading": "Inclusion",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.6042,
-          "meritocracy": 0.4804,
-          "stanceDiff": 0.1238,
-          "salience": 0.6042,
-          "score": 0.4804
-        },
-        {
-          "text": "As we wrote in the beginning, what is special about Netflix is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people",
-          "heading": "Summary",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4395,
-          "meritocracy": 0.4696,
-          "stanceDiff": -0.0301,
-          "salience": 0.4696,
-          "score": 0.4696
         }
       ]
     },
@@ -1227,8 +615,6 @@
       "inclusionMean": 0.3774,
       "inclusionMax": 0.528,
       "inclusionFractionPresent": 0.5,
-      "meritocracyTopkMean": 0.366,
-      "meritocracyMean": 0.366,
       "nChunks": 2,
       "kUsed": 2,
       "thin": true,
@@ -1238,7 +624,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 2,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": null,
@@ -1247,11 +633,8 @@
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
           "score": 0.528
         },
         {
@@ -1260,34 +643,7 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.2269,
-          "meritocracy": 0.1917,
-          "stanceDiff": 0.0352,
-          "salience": 0.2269,
           "score": 0.2269
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
-          "heading": "Freedom and Responsibility",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
-          "score": 0.5403
-        },
-        {
-          "text": "Our first original series debuted in 2013. Over the following decades, Streaming TV will replace linear, and we hope to keep leading by offering an amazing entertainment experience.",
-          "heading": "Streaming entertainment. Global original content. Product personalization. ",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.2269,
-          "meritocracy": 0.1917,
-          "stanceDiff": 0.0352,
-          "salience": 0.2269,
-          "score": 0.1917
         }
       ]
     },
@@ -1297,8 +653,6 @@
       "inclusionMean": 0.4255,
       "inclusionMax": 0.528,
       "inclusionFractionPresent": 0.9167,
-      "meritocracyTopkMean": 0.5251,
-      "meritocracyMean": 0.4345,
       "nChunks": 12,
       "kUsed": 5,
       "thin": false,
@@ -1308,7 +662,7 @@
         "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 11,
-        "meritocracy": 0,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0933,
@@ -1317,33 +671,24 @@
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
           "score": 0.528
         },
         {
           "text": "We believe that what makes a fantastic workplace isn’t a great office or free meals and massages — although we have some nice perks. It’s the people. Imagine working alongside stunning colleagues who are great at what they do, and even better at working together. It’s why we model ourselves on a professional sports team, not a family. Families are about unconditional love. They can also be dysfunc",
           "heading": "THE DREAM TEAM",
           "register": "aspirational_vague",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.515,
-          "meritocracy": 0.5126,
-          "stanceDiff": 0.0023,
-          "salience": 0.515,
           "score": 0.515
         },
         {
           "text": "Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by performance — not seniority, tenure or unconditional loyalty. It’s also why we focus on maintaining a high performance culture . To recruit and retain stunning colleagues, we pay personal top of market for the role and location — a judgment about what that person could make in a s",
           "heading": "THE DREAM TEAM",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.5145,
-          "meritocracy": 0.5793,
-          "stanceDiff": -0.0647,
-          "salience": 0.5793,
           "score": 0.5145
         },
         {
@@ -1352,78 +697,15 @@
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.5095,
-          "meritocracy": 0.426,
-          "stanceDiff": 0.0835,
-          "salience": 0.5095,
           "score": 0.5095
         },
         {
           "text": "Curiosity — you learn rapidly and eagerly; you are as interested in other people’s ideas as your own; you’re humble about what you don’t yet know. Resilience — you quickly adapt to changing circumstances; you make tough decisions without agonizing or long delay; you embrace a hard challenge. It’s easy to talk about values and harder to live them. We work hard to keep each other accountable for uph",
           "heading": "THE DREAM TEAM",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4965,
-          "meritocracy": 0.5202,
-          "stanceDiff": -0.0238,
-          "salience": 0.5202,
           "score": 0.4965
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by performance — not seniority, tenure or unconditional loyalty. It’s also why we focus on maintaining a high performance culture . To recruit and retain stunning colleagues, we pay personal top of market for the role and location — a judgment about what that person could make in a s",
-          "heading": "THE DREAM TEAM",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.5145,
-          "meritocracy": 0.5793,
-          "stanceDiff": -0.0647,
-          "salience": 0.5793,
-          "score": 0.5793
-        },
-        {
-          "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
-          "heading": "Freedom and Responsibility",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.528,
-          "meritocracy": 0.5403,
-          "stanceDiff": -0.0123,
-          "salience": 0.5403,
-          "score": 0.5403
-        },
-        {
-          "text": "Curiosity — you learn rapidly and eagerly; you are as interested in other people’s ideas as your own; you’re humble about what you don’t yet know. Resilience — you quickly adapt to changing circumstances; you make tough decisions without agonizing or long delay; you embrace a hard challenge. It’s easy to talk about values and harder to live them. We work hard to keep each other accountable for uph",
-          "heading": "THE DREAM TEAM",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4965,
-          "meritocracy": 0.5202,
-          "stanceDiff": -0.0238,
-          "salience": 0.5202,
-          "score": 0.5202
-        },
-        {
-          "text": "We believe that what makes a fantastic workplace isn’t a great office or free meals and massages — although we have some nice perks. It’s the people. Imagine working alongside stunning colleagues who are great at what they do, and even better at working together. It’s why we model ourselves on a professional sports team, not a family. Families are about unconditional love. They can also be dysfunc",
-          "heading": "THE DREAM TEAM",
-          "register": "aspirational_vague",
-          "stance": "performance_elite",
-          "inclusion": 0.515,
-          "meritocracy": 0.5126,
-          "stanceDiff": 0.0023,
-          "salience": 0.515,
-          "score": 0.5126
-        },
-        {
-          "text": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles: The Dream Team : We aim only to have ",
-          "heading": "Netflix Culture — The Best Work of Our Lives",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4261,
-          "meritocracy": 0.4729,
-          "stanceDiff": -0.0468,
-          "salience": 0.4729,
-          "score": 0.4729
         }
       ]
     },
@@ -1433,8 +715,6 @@
       "inclusionMean": 0.4351,
       "inclusionMax": 0.515,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.5094,
-      "meritocracyMean": 0.4483,
       "nChunks": 10,
       "kUsed": 5,
       "thin": false,
@@ -1444,7 +724,7 @@
         "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 9,
-        "meritocracy": 1,
+        "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
       "controlTopkMean": null,
@@ -1453,22 +733,16 @@
           "text": "We believe that what makes a fantastic workplace isn’t a great office or free meals and massages — although we have some nice perks. It’s the people. Imagine working alongside stunning colleagues who are great at what they do, and even better at working together. It’s why we model ourselves on a professional sports team, not a family. Families are about unconditional love. They can also be dysfunc",
           "heading": "THE DREAM TEAM",
           "register": "aspirational_vague",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.515,
-          "meritocracy": 0.5126,
-          "stanceDiff": 0.0023,
-          "salience": 0.515,
           "score": 0.515
         },
         {
           "text": "Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by performance — not seniority, tenure or unconditional loyalty. It’s also why we focus on maintaining a high performance culture . To recruit and retain stunning colleagues, we pay personal top of market for the role and location — a judgment about what that person could make in a s",
           "heading": "THE DREAM TEAM",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.5145,
-          "meritocracy": 0.5793,
-          "stanceDiff": -0.0647,
-          "salience": 0.5793,
           "score": 0.5145
         },
         {
@@ -1477,89 +751,23 @@
           "register": "absent",
           "stance": "mission_focus_apolitical",
           "inclusion": 0.5095,
-          "meritocracy": 0.426,
-          "stanceDiff": 0.0835,
-          "salience": 0.5095,
           "score": 0.5095
         },
         {
           "text": "Curiosity — you learn rapidly and eagerly; you are as interested in other people’s ideas as your own; you’re humble about what you don’t yet know. Resilience — you quickly adapt to changing circumstances; you make tough decisions without agonizing or long delay; you embrace a hard challenge. It’s easy to talk about values and harder to live them. We work hard to keep each other accountable for uph",
           "heading": "THE DREAM TEAM",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4965,
-          "meritocracy": 0.5202,
-          "stanceDiff": -0.0238,
-          "salience": 0.5202,
           "score": 0.4965
         },
         {
           "text": "We avoid decision-making by committee, which tends to slow companies down and undermine accountability. For every significant decision, we identify an informed captain who’s responsible for making a judgment call on the right way ahead. Then different teams, each led by their own informed captain, implement the decision. This highly aligned and loosely coupled approach gives teams the freedom to m",
           "heading": "PEOPLE OVER PROCESS",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4412,
-          "meritocracy": 0.4619,
-          "stanceDiff": -0.0207,
-          "salience": 0.4619,
           "score": 0.4412
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by performance — not seniority, tenure or unconditional loyalty. It’s also why we focus on maintaining a high performance culture . To recruit and retain stunning colleagues, we pay personal top of market for the role and location — a judgment about what that person could make in a s",
-          "heading": "THE DREAM TEAM",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.5145,
-          "meritocracy": 0.5793,
-          "stanceDiff": -0.0647,
-          "salience": 0.5793,
-          "score": 0.5793
-        },
-        {
-          "text": "Curiosity — you learn rapidly and eagerly; you are as interested in other people’s ideas as your own; you’re humble about what you don’t yet know. Resilience — you quickly adapt to changing circumstances; you make tough decisions without agonizing or long delay; you embrace a hard challenge. It’s easy to talk about values and harder to live them. We work hard to keep each other accountable for uph",
-          "heading": "THE DREAM TEAM",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4965,
-          "meritocracy": 0.5202,
-          "stanceDiff": -0.0238,
-          "salience": 0.5202,
-          "score": 0.5202
-        },
-        {
-          "text": "We believe that what makes a fantastic workplace isn’t a great office or free meals and massages — although we have some nice perks. It’s the people. Imagine working alongside stunning colleagues who are great at what they do, and even better at working together. It’s why we model ourselves on a professional sports team, not a family. Families are about unconditional love. They can also be dysfunc",
-          "heading": "THE DREAM TEAM",
-          "register": "aspirational_vague",
-          "stance": "performance_elite",
-          "inclusion": 0.515,
-          "meritocracy": 0.5126,
-          "stanceDiff": 0.0023,
-          "salience": 0.515,
-          "score": 0.5126
-        },
-        {
-          "text": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles: The Dream Team : We aim only to have ",
-          "heading": "Netflix Culture — The Best Work of Our Lives",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4261,
-          "meritocracy": 0.4729,
-          "stanceDiff": -0.0468,
-          "salience": 0.4729,
-          "score": 0.4729
-        },
-        {
-          "text": "We avoid decision-making by committee, which tends to slow companies down and undermine accountability. For every significant decision, we identify an informed captain who’s responsible for making a judgment call on the right way ahead. Then different teams, each led by their own informed captain, implement the decision. This highly aligned and loosely coupled approach gives teams the freedom to m",
-          "heading": "PEOPLE OVER PROCESS",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4412,
-          "meritocracy": 0.4619,
-          "stanceDiff": -0.0207,
-          "salience": 0.4619,
-          "score": 0.4619
         }
       ]
     },
@@ -1569,8 +777,6 @@
       "inclusionMean": 0.4513,
       "inclusionMax": 0.5343,
       "inclusionFractionPresent": 1.0,
-      "meritocracyTopkMean": 0.5023,
-      "meritocracyMean": 0.4583,
       "nChunks": 9,
       "kUsed": 5,
       "thin": false,
@@ -1580,7 +786,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 9,
-        "meritocracy": 1,
+        "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0371,
@@ -1591,111 +797,39 @@
           "register": "absent",
           "stance": "mission_focus_apolitical",
           "inclusion": 0.5343,
-          "meritocracy": 0.4624,
-          "stanceDiff": 0.0719,
-          "salience": 0.5343,
           "score": 0.5343
         },
         {
           "text": "Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by performance — not seniority, tenure or unconditional loyalty. It’s also why we focus on maintaining a high performance culture . To recruit and retain stunning colleagues, we pay personal top of market for the role and location — a judgment about what that person could make in a s",
           "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.517,
-          "meritocracy": 0.582,
-          "stanceDiff": -0.0651,
-          "salience": 0.582,
           "score": 0.517
         },
         {
           "text": "It’s easy to talk about values and harder to live them. We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence and honesty go hand in hand. It’s why we invest in strong professional relationships that build trust and help people assume good intent. This, in turn, enables us to practice extraordinary candor — ensuring constructive feedb",
           "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.5036,
-          "meritocracy": 0.4997,
-          "stanceDiff": 0.0039,
-          "salience": 0.5036,
           "score": 0.5036
         },
         {
           "text": "It’s also why we constantly seek to improve our culture, not preserve it. Every new employee helps shape how we work — finding new ways to accomplish more together. This creates a better experience for our members, employees, creators and partners, which in turn propels our long term growth and success. It’s how we entertain the world and build a wildly successful business. As he has since our fir",
           "heading": "Artistic Expression",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4801,
-          "meritocracy": 0.4412,
-          "stanceDiff": 0.0389,
-          "salience": 0.4801,
           "score": 0.4801
         },
         {
           "text": "While we don’t always live up to these principles, most people who join Netflix are pleasantly surprised by how great their colleagues are and the way we empower people at every level. As our business grows and evolves, our culture (and this document) will, too. What won’t change is our focus on excellence, and our determination to ensure that Netflix remains a place where great people can do the ",
           "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
           "register": "absent",
-          "stance": "performance_elite",
+          "stance": "neutral",
           "inclusion": 0.4667,
-          "meritocracy": 0.5054,
-          "stanceDiff": -0.0387,
-          "salience": 0.5054,
           "score": 0.4667
-        }
-      ],
-      "meritocracyQuotes": [
-        {
-          "text": "Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by performance — not seniority, tenure or unconditional loyalty. It’s also why we focus on maintaining a high performance culture . To recruit and retain stunning colleagues, we pay personal top of market for the role and location — a judgment about what that person could make in a s",
-          "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.517,
-          "meritocracy": 0.582,
-          "stanceDiff": -0.0651,
-          "salience": 0.582,
-          "score": 0.582
-        },
-        {
-          "text": "While we don’t always live up to these principles, most people who join Netflix are pleasantly surprised by how great their colleagues are and the way we empower people at every level. As our business grows and evolves, our culture (and this document) will, too. What won’t change is our focus on excellence, and our determination to ensure that Netflix remains a place where great people can do the ",
-          "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4667,
-          "meritocracy": 0.5054,
-          "stanceDiff": -0.0387,
-          "salience": 0.5054,
-          "score": 0.5054
-        },
-        {
-          "text": "It’s easy to talk about values and harder to live them. We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence and honesty go hand in hand. It’s why we invest in strong professional relationships that build trust and help people assume good intent. This, in turn, enables us to practice extraordinary candor — ensuring constructive feedb",
-          "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.5036,
-          "meritocracy": 0.4997,
-          "stanceDiff": 0.0039,
-          "salience": 0.5036,
-          "score": 0.4997
-        },
-        {
-          "text": "Representation matters. Our members come from many different backgrounds and cultures, and they want to see a wide variety of stories and people on screen. This diversity is wonderful and it can create real tension since we all have such different views about what’s acceptable — and what’s harmful — on TV. While every show, film or game is different, we approach them with the same set of principle",
-          "heading": "Artistic Expression",
-          "register": "absent",
-          "stance": "mission_focus_apolitical",
-          "inclusion": 0.5343,
-          "meritocracy": 0.4624,
-          "stanceDiff": 0.0719,
-          "salience": 0.5343,
-          "score": 0.4624
-        },
-        {
-          "text": "We avoid decision-making by committee, which tends to slow companies down and undermine accountability. For every significant decision, we identify an informed captain who’s responsible for making a judgment call on the right way ahead. Then different teams, each led by their own informed captain, implement the decision. This highly aligned and loosely coupled approach gives teams the freedom to m",
-          "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
-          "register": "absent",
-          "stance": "performance_elite",
-          "inclusion": 0.4412,
-          "meritocracy": 0.4619,
-          "stanceDiff": -0.0207,
-          "salience": 0.4619,
-          "score": 0.4619
         }
       ]
     }

@@ -14,7 +14,7 @@ import pandas as pd
 
 from lowork.company import CompanyProfile
 from lowork.config import BENEFITS_LABELS, WEB_DATA_DIR, DATA_DIR, TOP_K, company_dir, load_companies
-from lowork.dei import ACTIVE_DEI_REGISTERS, DEI_REGISTERS
+from lowork.dei import DEI_REGISTERS
 from lowork.dei_stance import COUNTER_DEI_STANCES
 from lowork.io import read_json, write_json
 
@@ -301,15 +301,9 @@ DEI_HIGHLIGHT_CATEGORIES: list[dict] = [
         "match": lambda reg, stance: stance == "mission_focus_apolitical",
     },
     {
-        "id": "performance_elite",
-        "label": "Performance over kinship",
-        "note": "Outcomes-bar framing — sports team over family, stunning colleagues (performance_elite stance).",
-        "match": lambda reg, stance: stance == "performance_elite",
-    },
-    {
         "id": "civilizational_mission",
         "label": "Civilizational mission",
-        "note": "West/institutions framing as employer identity — counter-branding to DEI-era copy (civilizational_mission stance).",
+        "note": "Explicit West / Western-civilization framing as employer identity — counter-branding to DEI-era copy (civilizational_mission stance).",
         "match": lambda reg, stance: stance == "civilizational_mission",
     },
 ]
@@ -374,12 +368,6 @@ def _curate_dei_highlights(companies: list[str]) -> list[dict]:
     return highlights
 
 
-def _optional_metric(val) -> float | None:
-    if val is None or pd.isna(val):
-        return None
-    return round(float(val), 4)
-
-
 def _clean_quote(q: dict | None) -> dict | None:
     if not q:
         return None
@@ -388,258 +376,40 @@ def _clean_quote(q: dict | None) -> dict | None:
         "heading": q.get("heading", ""),
         "register": q.get("register"),
         "stance": q.get("stance"),
-        "stanceDiff": q.get("stanceDiff"),
         "inclusion": q.get("inclusion"),
-        "meritocracy": q.get("meritocracy"),
-        "salience": q.get("salience"),
-        "stanceProjection": q.get("stanceProjection"),
+        "score": q.get("score"),
     }
 
 
-def _dei_careers_year_rows(
-    df: pd.DataFrame,
-    stance_df: pd.DataFrame | None = None,
-    evidence: dict | None = None,
-) -> list[dict]:
-    """Register-derived shares + stance envelope + salience per year."""
-    from lowork.config import TOP_K
+def _dei_careers_year_rows(df: pd.DataFrame, evidence: dict | None = None) -> list[dict]:
+    """Register counts, stance-sourced counter counts, and tooltip quotes per year.
 
-    stance_by_year: dict[int, object] = {}
-    if stance_df is not None and not stance_df.empty:
-        stance_by_year = {int(r.year): r for r in stance_df.itertuples()}
+    Counter-programming counts come from the STANCE classifier (registers are
+    the pro-inclusion scale only) and ship under their own stance keys. The
+    tooltip quotes are label-aware: the most inclusion-salient active-register
+    chunk and counter-stance chunk (see score_dei's evidence["quotes"]).
+    """
+    from lowork.config import TOP_K
 
     rows = []
     for r in df.sort_values("year").itertuples():
         year = int(r.year)
         n = int(r.n_chunks)
         registers = {reg: int(getattr(r, f"register_{reg}", 0)) for reg in DEI_REGISTERS}
-        active = sum(registers[reg] for reg in ACTIVE_DEI_REGISTERS)
-        # Counter-programming counts come from the STANCE axis (registers are the
-        # pro-inclusion scale only). Exported under the legacy keys the charts
-        # already render: meritocracy ≙ mission_focus_apolitical.
         counter = {s: int(getattr(r, f"stance_{s}", 0)) for s in COUNTER_DEI_STANCES}
-
-        env = (evidence or {}).get("envelope", {}).get(str(year), {})
-        sr = stance_by_year.get(year)
-
         row = {
             "year": year,
-            "activeShare": round(active / n, 4) if n else 0.0,
-            "meritocracyShare": round(counter["mission_focus_apolitical"] / n, 4) if n else 0.0,
-            "civilizationalShare": round(counter["civilizational_mission"] / n, 4) if n else 0.0,
-            "counterShare": round(sum(counter.values()) / n, 4) if n else 0.0,
-            "netScore": round(
-                float(r.inclusion_topk_mean) - float(r.meritocracy_topk_mean), 4
-            ),
-            "topkMean": round(float(r.inclusion_topk_mean), 4),
-            "stanceMean": round(float(getattr(r, "stance_mean", env.get("stanceMean", 0))), 4),
-            "salienceTopkMean": round(
-                float(getattr(r, "salience_topk_mean", env.get("salienceTopkMean", 0))), 4
-            ),
-            "textChurn": round(float(getattr(r, "text_churn", env.get("textChurn", 0))), 4),
-            # Charts index the counter bars by the legacy register keys; the counts
-            # are stance-sourced (meritocracy key carries mission_focus_apolitical).
-            "registers": {
-                **registers,
-                "meritocracy": counter["mission_focus_apolitical"],
-                "civilizational_mission": counter["civilizational_mission"],
-            },
+            "registers": {**registers, **counter},
             "nChunks": n,
             "thin": n < TOP_K,
         }
-        stance_max = _optional_metric(getattr(r, "stance_max", env.get("stanceMax")))
-        stance_min = _optional_metric(getattr(r, "stance_min", env.get("stanceMin")))
-        if stance_max is not None:
-            row["stanceMax"] = stance_max
-            if env.get("stanceMaxQuote"):
-                row["stanceMaxQuote"] = _clean_quote(env.get("stanceMaxQuote"))
-        if stance_min is not None:
-            row["stanceMin"] = stance_min
-            if env.get("stanceMinQuote"):
-                row["stanceMinQuote"] = _clean_quote(env.get("stanceMinQuote"))
-        if env.get("stanceCounterQuote"):
-            row["stanceCounterQuote"] = _clean_quote(env.get("stanceCounterQuote"))
-        if env.get("inclusionQuote"):
-            row["inclusionQuote"] = _clean_quote(env.get("inclusionQuote"))
-        if sr is not None:
-            row["bipolarTopkMean"] = round(float(sr.stance_projection_topk_mean), 4)
-            bipolar_max = _optional_metric(sr.stance_projection_max)
-            bipolar_min = _optional_metric(sr.stance_projection_min)
-            if bipolar_max is not None:
-                row["bipolarMax"] = bipolar_max
-            if bipolar_min is not None:
-                row["bipolarMin"] = bipolar_min
+        quotes = (evidence or {}).get("quotes", {}).get(str(year), {})
+        if quotes.get("inclusionQuote"):
+            row["inclusionQuote"] = _clean_quote(quotes["inclusionQuote"])
+        if quotes.get("counterQuote"):
+            row["counterQuote"] = _clean_quote(quotes["counterQuote"])
         rows.append(row)
     return rows
-
-
-def _build_envelopes(companies: list[str]) -> list[dict]:
-    """Per-company envelope series for fast client access."""
-    envelopes: list[dict] = []
-    for company in companies:
-        path = company_dir(company) / "dei_scores.parquet"
-        if not path.exists():
-            continue
-        df = pd.read_parquet(path)
-        evidence_path = company_dir(company) / "dei_evidence.json"
-        evidence = read_json(evidence_path) if evidence_path.exists() else {}
-        stance_path = company_dir(company) / "dei_stance_scores.parquet"
-        stance_df = pd.read_parquet(stance_path) if stance_path.exists() else None
-        profile = CompanyProfile.load(company)
-        years = _dei_careers_year_rows(df, stance_df, evidence)
-        envelopes.append({
-            "company": company,
-            "displayName": profile.display_name,
-            "years": years,
-        })
-    return envelopes
-
-
-def _build_stance_presence(companies: list[str]) -> list[dict]:
-    """Per-company stance classifier shares per year."""
-    from lowork.dei_stance import DEI_STANCES
-
-    presence: list[dict] = []
-    for company in companies:
-        stances_path = company_dir(company) / "dei_stances.json"
-        if not stances_path.exists():
-            continue
-        stances = read_json(stances_path)
-        from lowork.io import load_all_chunks
-
-        cdir = company_dir(company)
-        chunk_list = load_all_chunks(cdir / "chunks")
-        classifications_path = cdir / "classifications.json"
-        if classifications_path.exists():
-            classifications = read_json(classifications_path)
-            chunk_list = [
-                c for c in chunk_list
-                if classifications.get(c["chunk_id"]) in {"mission_brand", "benefits_perks"}
-            ]
-        else:
-            chunk_list = [
-                c for c in chunk_list if c.get("label") in {"mission_brand", "benefits_perks"}
-            ]
-        by_year: dict[int, dict[str, int]] = {}
-        for c in chunk_list:
-            y = int(c["year"])
-            s = stances.get(c["chunk_id"], "neutral")
-            by_year.setdefault(y, {})
-            by_year[y][s] = by_year[y].get(s, 0) + 1
-
-        profile = CompanyProfile.load(company)
-        year_rows = []
-        for year in sorted(by_year):
-            counts = by_year[year]
-            total = sum(counts.values())
-            shares = {
-                s: round(counts.get(s, 0) / total, 4) if total else 0.0
-                for s in DEI_STANCES
-            }
-            year_rows.append({"year": year, "counts": counts, "shares": shares, "nChunks": total})
-
-        if year_rows:
-            presence.append({
-                "company": company,
-                "displayName": profile.display_name,
-                "years": year_rows,
-            })
-    return presence
-
-
-def _dei_investor_year_rows(df: pd.DataFrame) -> list[dict]:
-    """Investor filings have no register classification — net score only."""
-    from lowork.config import TOP_K
-
-    rows = []
-    for r in df.sort_values("year").itertuples():
-        n = int(r.n_chunks)
-        mer = getattr(r, "meritocracy_topk_mean", None)
-        net = (
-            round(float(r.inclusion_topk_mean) - float(mer), 4)
-            if mer is not None and pd.notna(mer)
-            else None
-        )
-        rows.append({
-            "year": int(r.year),
-            "netScore": net,
-            "topkMean": round(float(r.inclusion_topk_mean), 4),
-            "nChunks": n,
-            "thin": bool(getattr(r, "thin", n < TOP_K)),
-        })
-    return rows
-
-
-def _curate_dei_timelines(companies: list[str]) -> list[dict]:
-    """Per-company chronological quotes showing how DEI language changed.
-
-    Picks the first and last quote of each register the company ever used,
-    so the timeline reads as a then-vs-now narrative.
-    """
-    timelines: list[dict] = []
-    for company in companies:
-        path = company_dir(company) / "dei_evidence.json"
-        if not path.exists():
-            continue
-        evidence = read_json(path)
-        profile = CompanyProfile.load(company)
-
-        # year -> best quote per register (from both axis evidence sets)
-        candidates: list[dict] = []
-        for axis in ("inclusion", "meritocracy"):
-            for year_str, quotes in evidence.get(axis, {}).items():
-                year = int(year_str)
-                for q in quotes:
-                    reg = q.get("register")
-                    if reg is None or reg == "absent" or (isinstance(reg, float) and pd.isna(reg)):
-                        continue
-                    # meritocracy quotes only from the meritocracy axis ranking
-                    if reg == "meritocracy" and axis != "meritocracy":
-                        continue
-                    if reg != "meritocracy" and axis != "inclusion":
-                        continue
-                    candidates.append({
-                        "year": year,
-                        "register": reg,
-                        "text": q["text"],
-                        "heading": q.get("heading", ""),
-                        "score": round(float(q.get("score", 0)), 4),
-                    })
-
-        if not candidates:
-            continue
-
-        # Best candidate per (year, register)
-        best: dict[tuple[int, str], dict] = {}
-        for c in candidates:
-            key = (c["year"], c["register"])
-            if key not in best or c["score"] > best[key]["score"]:
-                best[key] = c
-
-        # First and last appearance per register, dedup by text
-        by_register: dict[str, list[dict]] = {}
-        for c in best.values():
-            by_register.setdefault(c["register"], []).append(c)
-
-        picked: list[dict] = []
-        seen_text: set[str] = set()
-        for reg, items in by_register.items():
-            items.sort(key=lambda x: x["year"])
-            for item in [items[0], items[-1]]:
-                key = item["text"][:80]
-                if key in seen_text:
-                    continue
-                seen_text.add(key)
-                picked.append(item)
-
-        picked.sort(key=lambda x: (x["year"], x["register"]))
-        timelines.append({
-            "company": company,
-            "displayName": profile.display_name,
-            "quotes": picked[:8],
-        })
-
-    return timelines
 
 
 def _altruism_year_rows(
@@ -1195,7 +965,7 @@ def export_dei(companies: list[str]) -> None:
     dei_companies = companies
     sources: dict[str, dict] = {}
 
-    # Careers: register-derived shares + envelope from dei_scores.parquet
+    # Careers: register counts + stance counter counts + tooltip quotes
     careers_series = []
     for company in dei_companies:
         path = company_dir(company) / "dei_scores.parquet"
@@ -1204,21 +974,13 @@ def export_dei(companies: list[str]) -> None:
         df = pd.read_parquet(path)
         evidence_path = company_dir(company) / "dei_evidence.json"
         evidence = read_json(evidence_path) if evidence_path.exists() else {}
-        stance_path = company_dir(company) / "dei_stance_scores.parquet"
-        stance_df = pd.read_parquet(stance_path) if stance_path.exists() else None
         profile = CompanyProfile.load(company)
         careers_series.append({
             "id": company,
             "displayName": profile.display_name,
-            "years": _dei_careers_year_rows(df, stance_df, evidence),
+            "years": _dei_careers_year_rows(df, evidence),
         })
     if careers_series:
-        # Data only: the register chart needs registers + nChunks + thin (to
-        # tell no-capture from DEI-absent); the hover needs the two stance
-        # quotes. The retired salience/envelope/stance fields stay out.
-        keep = {"year", "registers", "nChunks", "thin", "stanceMaxQuote", "stanceMinQuote"}
-        for c in careers_series:
-            c["years"] = [{k: v for k, v in y.items() if k in keep} for y in c["years"]]
         sources["careers"] = {
             "coverageStart": min(y["year"] for c in careers_series for y in c["years"]),
             "companies": careers_series,

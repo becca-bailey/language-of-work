@@ -29,7 +29,7 @@ export default function DeiExplorer({ data }: { data: DeiData }) {
         <h2 className="text-sm font-medium uppercase tracking-wide text-neutral-500">Register breakdown</h2>
         <p className="mt-1 text-xs text-neutral-500">
           What kind of DEI language, not just how much. Inclusion registers stack
-          above the line; meritocracy / civilizational-mission counter-registers
+          above the line; apolitical / civilizational-mission counter-stances
           hang below (same convention as the DEI story). Chunks with no DEI
           language are omitted — an empty year means the pages said nothing.
         </p>

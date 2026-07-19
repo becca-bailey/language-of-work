@@ -1,8 +1,14 @@
 #!/usr/bin/env python
-"""Score DEI inclusion/meritocracy intensity and aggregate register counts per year.
+"""Score DEI inclusion intensity and aggregate register/stance counts per year.
 
 Writes data/<company>/dei_scores.parquet and dei_evidence.json.
 Uses raw cosine scores (not z-scored) — near-zero is meaningful for absence.
+
+Direction (counter-programming) is measured ONLY by the stance classifier
+(lowork.dei_stance); the old inclusion−meritocracy diff and the bipolar
+dei_stance embedding axis were retired 2026-07-18 — merit-intensity language
+is not a position on DEI (it is measured in the performance study), and a
+continuous direction score at a ~1% counter-programming base rate was noise.
 """
 
 from __future__ import annotations
@@ -24,17 +30,14 @@ from lowork.text_filter import is_english
 PRESENCE_THRESHOLD = 0.25  # inclusion cosine; tune after hand-label review
 
 
-def _quote_row(row: pd.Series, score_col: str) -> dict:
+def _quote_row(row: pd.Series) -> dict:
     return {
         "text": str(row["text"])[:400],
         "heading": row.get("heading", ""),
         "register": row.get("register"),
         "stance": row.get("stance"),
         "inclusion": round(float(row["inclusion"]), 4),
-        "meritocracy": round(float(row["meritocracy"]), 4),
-        "stanceDiff": round(float(row["stance_diff"]), 4),
-        "salience": round(float(row["salience"]), 4),
-        "score": round(float(row[score_col]), 4),
+        "score": round(float(row["inclusion"]), 4),
     }
 
 
@@ -56,12 +59,8 @@ def main(company: str) -> None:
     stances = read_json(stances_path) if stances_path.exists() else {}
 
     inc_vec = load_built_vector("inclusion")
-    mer_vec = load_built_vector("meritocracy")
     embeddings = np.stack(mission["embedding"].tolist())
     mission["inclusion"] = project(embeddings, inc_vec)
-    mission["meritocracy"] = project(embeddings, mer_vec)
-    mission["stance_diff"] = mission["inclusion"] - mission["meritocracy"]
-    mission["salience"] = mission[["inclusion", "meritocracy"]].max(axis=1)
     mission["register"] = mission["chunk_id"].map(registers)
     mission["stance"] = mission["chunk_id"].map(stances)
 
@@ -76,7 +75,12 @@ def main(company: str) -> None:
         control_by_year = {int(r.year): float(r.raw_topk_mean) for r in ctrl.itertuples()}
 
     rows = []
-    evidence: dict[str, dict] = {"inclusion": {}, "meritocracy": {}, "envelope": {}}
+    # evidence["inclusion"]: top-k quote lists per year (explore page).
+    # evidence["quotes"]: the two label-aware tooltip quotes per year — the
+    # most inclusion-salient chunk in an ACTIVE register, and the most
+    # inclusion-salient counter-STANCE chunk (inclusion cosine here is topic
+    # proximity, which ranks counter chunks sensibly too).
+    evidence: dict[str, dict] = {"inclusion": {}, "quotes": {}}
     prior_texts: set[str] | None = None
     # Per-chunk labels for the story highlight curation: every deduped analysis
     # chunk that carries a DEI signal on either axis (register or stance).
@@ -103,37 +107,20 @@ def main(company: str) -> None:
             continue
 
         inc_scores = group["inclusion"].to_numpy()
-        mer_scores = group["meritocracy"].to_numpy()
-        diff_scores = group["stance_diff"].to_numpy()
-        sal_scores = group["salience"].to_numpy()
-
         inc_mean, inc_k, inc_idx = topk_mean(inc_scores, TOP_K)
-        mer_mean, mer_k, mer_idx = topk_mean(mer_scores, TOP_K)
-        sal_mean, sal_k, _ = topk_mean(sal_scores, TOP_K)
 
-        # Counter-programming comes from the STANCE axis — registers are the
-        # pro-inclusion scale only (see lowork.dei / lowork.dei_stance).
-        counter_mask = group["stance"].isin(COUNTER_DEI_STANCES)
-        max_idx = int(group["stance_diff"].idxmax())
-        min_idx = int(group["stance_diff"].idxmin())
-
-        # Label-aware inclusion quote for the chart tooltip: the most salient
-        # chunk in an ACTIVE register that year. Falls back to the embedding
-        # argmax (stanceMaxQuote) when no chunk carries an active register.
         inclusion_quote = None
         active_sub = group[group["register"].isin(ACTIVE_DEI_REGISTERS)]
         if not active_sub.empty:
-            inclusion_quote = _quote_row(active_sub.loc[active_sub["salience"].idxmax()], "stance_diff")
+            inclusion_quote = _quote_row(active_sub.loc[active_sub["inclusion"].idxmax()])
 
         counter_quote = None
         civ = group[group["stance"] == "civilizational_mission"]
+        counter_sub = group[group["stance"].isin(COUNTER_DEI_STANCES)]
         if not civ.empty:
-            counter_quote = _quote_row(civ.loc[civ["salience"].idxmax()], "stance_diff")
-        elif counter_mask.any():
-            counter_sub = group[counter_mask]
-            counter_quote = _quote_row(
-                counter_sub.loc[counter_sub["salience"].idxmax()], "stance_diff"
-            )
+            counter_quote = _quote_row(civ.loc[civ["inclusion"].idxmax()])
+        elif not counter_sub.empty:
+            counter_quote = _quote_row(counter_sub.loc[counter_sub["inclusion"].idxmax()])
 
         current_texts = set(group["text"].tolist())
         churn = _text_churn(current_texts, prior_texts)
@@ -149,7 +136,7 @@ def main(company: str) -> None:
                     "heading": getattr(row, "heading", "") or "",
                     "register": reg,
                     "stance": stance,
-                    "salience": round(float(row.salience), 4),
+                    "salience": round(float(row.inclusion), 4),
                 }
 
         reg_counts = Counter(group["register"].dropna())
@@ -168,37 +155,21 @@ def main(company: str) -> None:
             "inclusion_max": float(inc_scores.max()),
             "inclusion_k_used": inc_k,
             "inclusion_fraction_present": float((inc_scores >= PRESENCE_THRESHOLD).mean()),
-            "meritocracy_mean": float(mer_scores.mean()),
-            "meritocracy_topk_mean": mer_mean,
-            "meritocracy_max": float(mer_scores.max()),
-            "meritocracy_k_used": mer_k,
-            "stance_max": float(group.loc[max_idx, "stance_diff"]),
-            "stance_min": float(group.loc[min_idx, "stance_diff"]),
-            "stance_mean": float(diff_scores.mean()),
-            "salience_topk_mean": sal_mean,
-            "salience_k_used": sal_k,
             "control_raw_topk_mean": control_by_year.get(year),
             **{f"register_{r}": reg_dict[r] for r in DEI_REGISTERS},
             **{f"stance_{s}": stance_dict[s] for s in DEI_STANCES},
         })
 
         evidence["inclusion"][str(year)] = [
-            _quote_row(group.iloc[i], "inclusion") for i in inc_idx
+            _quote_row(group.iloc[i]) for i in inc_idx
         ]
-        evidence["meritocracy"][str(year)] = [
-            _quote_row(group.iloc[i], "meritocracy") for i in mer_idx
-        ]
-        evidence["envelope"][str(year)] = {
-            "stanceMax": round(float(group.loc[max_idx, "stance_diff"]), 4),
-            "stanceMin": round(float(group.loc[min_idx, "stance_diff"]), 4),
-            "stanceMean": round(float(diff_scores.mean()), 4),
-            "salienceTopkMean": round(sal_mean, 4),
-            "textChurn": round(churn, 4),
-            "stanceMaxQuote": _quote_row(group.loc[max_idx], "stance_diff"),
-            "stanceMinQuote": _quote_row(group.loc[min_idx], "stance_diff"),
-            "stanceCounterQuote": counter_quote,
-            "inclusionQuote": inclusion_quote,
-        }
+        quotes: dict[str, dict] = {}
+        if inclusion_quote:
+            quotes["inclusionQuote"] = inclusion_quote
+        if counter_quote:
+            quotes["counterQuote"] = counter_quote
+        if quotes:
+            evidence["quotes"][str(year)] = quotes
 
     out_df = pd.DataFrame(rows).sort_values("year")
     out_df.to_parquet(cdir / "dei_scores.parquet", index=False)

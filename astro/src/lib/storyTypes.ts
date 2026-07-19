@@ -5,11 +5,8 @@ export interface StoryEnvelopeQuote {
   heading?: string;
   register?: string | null;
   stance?: string | null;
-  stanceDiff?: number;
   inclusion?: number;
-  meritocracy?: number;
-  salience?: number;
-  stanceProjection?: number;
+  score?: number;
 }
 
 export interface StoryQuoteRef {
@@ -47,33 +44,10 @@ export interface StoryYearPoint {
   controlZscore?: number | null;
   /** Embedding-derived presence share (performance story). */
   fractionPresent?: number;
-  /** Share of chunks in an active DEI register (DEI story, careers source). */
-  activeShare?: number;
-  /** Share of chunks in the meritocracy register (DEI story, careers source). */
-  meritocracyShare?: number;
-  /** Share of chunks in the civilizational_mission register. */
-  civilizationalShare?: number;
-  /** Combined meritocracy + civilizational_mission share. */
-  counterShare?: number;
-  /** Signed inclusion − meritocracy projection (DEI story). */
-  netScore?: number | null;
-  /** Stance envelope extrema (inclusion − meritocracy per chunk). */
-  stanceMax?: number;
-  stanceMin?: number;
-  stanceMean?: number;
-  /** Topical salience: max(inclusion, meritocracy) top-k mean. */
-  salienceTopkMean?: number;
-  /** Fraction of chunk texts new vs prior year. */
-  textChurn?: number;
-  stanceMaxQuote?: StoryEnvelopeQuote | null;
-  stanceMinQuote?: StoryEnvelopeQuote | null;
-  stanceCounterQuote?: StoryEnvelopeQuote | null;
   /** Most salient chunk in an active DEI register that year (label-aware tooltip quote). */
   inclusionQuote?: StoryEnvelopeQuote | null;
-  /** Bipolar DEI stance axis projection. */
-  bipolarTopkMean?: number;
-  bipolarMax?: number;
-  bipolarMin?: number;
+  /** Most salient counter-stance chunk that year (label-aware tooltip quote). */
+  counterQuote?: StoryEnvelopeQuote | null;
   /** Register counts for this year (DEI story, careers source). */
   registers?: Record<string, number>;
   topkMean: number;
@@ -144,12 +118,6 @@ export interface StoryTimeline {
   quotes: StoryTimelineQuote[];
 }
 
-export interface StoryCompanyEnvelope {
-  company: string;
-  displayName: string;
-  years: StoryYearPoint[];
-}
-
 export interface StoryStanceYear {
   year: number;
   counts: Record<string, number>;
@@ -172,7 +140,6 @@ export interface StoryData {
   lexicons: Record<string, (PhraseTerm & { company?: string })[]>;
   highlights?: StoryHighlight[];
   timelines?: StoryTimeline[];
-  envelopes?: StoryCompanyEnvelope[];
   stancePresence?: StoryStancePresence[];
   peakPresent?: StoryPeakPresent[];
   yearQuotes?: StoryYearQuote[];

@@ -110,15 +110,12 @@ export interface DeiYearScore {
   inclusionMean: number;
   inclusionMax: number;
   inclusionFractionPresent: number;
-  meritocracyTopkMean: number;
-  meritocracyMean: number;
   nChunks: number;
   kUsed: number;
   thin: boolean;
   registers: Record<string, number>;
   controlTopkMean: number | null;
   inclusionQuotes: EvidenceQuote[];
-  meritocracyQuotes: EvidenceQuote[];
 }
 
 export interface DeiData {
