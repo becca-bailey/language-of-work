@@ -423,8 +423,8 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
-        "belonging_culture": 1,
+        "aspirational_vague": 1,
+        "belonging_culture": 0,
         "absent": 10,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
@@ -434,8 +434,8 @@
         {
           "text": "We’re here to create a free and open financial system for the world. We built Coinbase to bring economic freedom to millions — and we’re hiring. See our commitment to belonging >",
           "heading": "Build the future of finance",
-          "register": "belonging_culture",
-          "stance": "neutral",
+          "register": "aspirational_vague",
+          "stance": "affirming_dei",
           "inclusion": 0.5678,
           "score": 0.5678
         },
@@ -486,8 +486,8 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 1,
-        "absent": 4,
+        "belonging_culture": 0,
+        "absent": 5,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -496,8 +496,8 @@
         {
           "text": "We’re here to create a free and open financial system for the world. We built Coinbase to bring economic freedom to millions — and we’re hiring. See our commitment to belonging >",
           "heading": "Build the future of finance",
-          "register": "belonging_culture",
-          "stance": "neutral",
+          "register": "absent",
+          "stance": "affirming_dei",
           "inclusion": 0.5678,
           "score": 0.5678
         },

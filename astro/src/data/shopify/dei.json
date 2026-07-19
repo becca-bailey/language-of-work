@@ -140,8 +140,8 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
-        "belonging_culture": 0,
-        "absent": 11,
+        "belonging_culture": 1,
+        "absent": 10,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -150,7 +150,7 @@
         {
           "text": "Here at Shopify, we do things a little differently. We don’t believe in silly rules like working 9 to 5 every day. We don’t believe in wearing fancy-schmancy suits to work. But we do believe in you. You are the very best at what you do — and that’s why we want to hire you. This is a place where you have the opportunity to work to your full potential. It’s a place where you can be proud of the work",
           "heading": "Our Culture",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.4596,
           "score": 0.4596
@@ -299,11 +299,11 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 1,
+        "explicit_demographic": 2,
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 0,
-        "absent": 8,
+        "absent": 7,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -328,8 +328,8 @@
         {
           "text": "We’re proud to help our team grow their families with childcare benefits and flexible work hours.",
           "heading": "39 babies",
-          "register": "absent",
-          "stance": "affirming_dei",
+          "register": "explicit_demographic",
+          "stance": "neutral",
           "inclusion": 0.544,
           "score": 0.544
         },
@@ -361,11 +361,11 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 0,
-        "absent": 7,
+        "aspirational_vague": 1,
+        "belonging_culture": 1,
+        "absent": 6,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -382,7 +382,7 @@
         {
           "text": "We want a team that’s ready to do their best work, and excited to learn and grow with us – no matter what age.",
           "heading": "18 to 62",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.5581,
           "score": 0.5581
@@ -390,7 +390,7 @@
         {
           "text": "We’re proud to help our team grow their families with childcare benefits and flexible work hours.",
           "heading": "39 babies",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.544,
           "score": 0.544
@@ -426,8 +426,8 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 1,
-        "belonging_culture": 1,
-        "absent": 5,
+        "belonging_culture": 2,
+        "absent": 4,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -436,7 +436,7 @@
         {
           "text": "We care about growing great people Your personal growth is important to us, and we’ll give you everything you need to make it happen: learning budgets, mentorship opportunities, one-on-one coaching, skill development workshops, you name it. We encourage you to experiment, take risks, and pursue the things you care about. And if you make a mistake? That’s ok – learn from it, and share your experien",
           "heading": "Life at Shopify",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.5087,
           "score": 0.5087
@@ -487,9 +487,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
+        "aspirational_vague": 3,
         "belonging_culture": 0,
-        "absent": 8,
+        "absent": 7,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -522,7 +522,7 @@
         {
           "text": "We’re a learner’s organization, made up of PhDs, university drop outs, and everything in between. We learn by doing – doing well, doing not so well, failing hard, and doing better.",
           "heading": "Education",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.4857,
           "score": 0.4857
@@ -549,9 +549,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
+        "aspirational_vague": 3,
         "belonging_culture": 0,
-        "absent": 7,
+        "absent": 6,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -584,7 +584,7 @@
         {
           "text": "We’re a learner’s organization, made up of PhDs, university drop outs, and everything in between. We learn by doing – doing well, doing not so well, failing hard, and doing better.",
           "heading": "Education",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.4857,
           "score": 0.4857
@@ -631,7 +631,7 @@
           "text": "We’ve read a lot of cover letters over the years. Now it’s your turn. We’re applying to you. Finding the right job is hard work. It takes time and effort to get to know a company – to be sure it’s the kind of place where you can make an impact, somewhere you want to invest your talent and energy, and do your life’s work. We’d like to save you some of that effort by applying to you, first. We’re Sh",
           "heading": "February 01, 2020",
           "register": "aspirational_vague",
-          "stance": "neutral",
+          "stance": "affirming_dei",
           "inclusion": 0.4999,
           "score": 0.4999
         },
@@ -673,9 +673,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 3,
         "belonging_culture": 0,
-        "absent": 12,
+        "absent": 10,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -684,7 +684,7 @@
         {
           "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been.",
           "heading": "Our team spirit looks like entrepreneurial spirit",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.4724,
           "score": 0.4724
@@ -716,7 +716,7 @@
         {
           "text": "We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been. As technologists, we are fortunate to have such highly sought-after skills. Shopify is where I can ask, 'how am I making the world a better place?'",
           "heading": "Our team spirit looks like entrepreneurial spirit",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.4476,
           "score": 0.4476
@@ -735,9 +735,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
-        "belonging_culture": 0,
-        "absent": 16,
+        "aspirational_vague": 2,
+        "belonging_culture": 5,
+        "absent": 9,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -746,7 +746,7 @@
         {
           "text": "Committed to a better way of working The world is changing and we’re changing with it. Digital by design is about building new ways of connecting, collaborating, and building relationships. We’ve always been a company that looks at the world a little differently. It’s how we’ve attracted some of the world’s most curious, creative, and thoughtful humans, united around a belief that commerce can be ",
           "heading": "Committed to a better way of working",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.4848,
           "score": 0.4848
@@ -754,7 +754,7 @@
         {
           "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been.",
           "heading": "Who we are",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.4724,
           "score": 0.4724
@@ -762,7 +762,7 @@
         {
           "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been. As technologists, we are fortunate to have such highly sought-after skills. Shopify is where I can ask, 'how am I making the world a better place?'",
           "heading": "Who we are",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "affirming_dei",
           "inclusion": 0.4614,
           "score": 0.4614
@@ -770,7 +770,7 @@
         {
           "text": "The mental, emotional, and physical well being of our people is paramount. That’s why our Digital by Design environment enables you to take time to recharge in the ways that make sense for you. We don’t prescribe solutions. We create space and opportunity for people to make the choices that are best for their unique circumstances.",
           "heading": "It starts with you",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.4572,
           "score": 0.4572
@@ -859,9 +859,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 17,
+        "absent": 18,
         "mission_focus_apolitical": 3,
         "civilizational_mission": 0
       },
@@ -886,7 +886,7 @@
         {
           "text": "Joining our team means working with the most driven crafters who pursue mastery. But growth isn’t just an opportunity, it’s an expectation. With resources to help you, you’ll be pushing yourself out of your comfort zone. Shopify is a platform company singularly focused on creating a world with more entrepreneurs, which we believe causes positive societal effects. While we respect everyone’s right ",
           "heading": "Constant learning, constant discomfort",
-          "register": "aspirational_vague",
+          "register": "absent",
           "stance": "mission_focus_apolitical",
           "inclusion": 0.4837,
           "score": 0.4837
@@ -986,7 +986,7 @@
         "aspirational_vague": 0,
         "belonging_culture": 0,
         "absent": 44,
-        "mission_focus_apolitical": 1,
+        "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.1226,

@@ -1,44 +1,37 @@
 {
   "pooled": {
     "n": 201,
-    "accuracy": 0.866,
-    "krippendorff_alpha": 0.79,
+    "accuracy": 0.876,
+    "krippendorff_alpha": 0.802,
     "confusion": {
       "absent": {
-        "absent": 104,
-        "explicit_demographic": 3,
-        "belonging_culture": 5,
+        "absent": 108,
+        "explicit_demographic": 2,
         "structural_process": 3,
-        "aspirational_vague": 5
+        "aspirational_vague": 5,
+        "belonging_culture": 2
       },
       "explicit_demographic": {
-        "explicit_demographic": 27,
-        "aspirational_vague": 1
+        "explicit_demographic": 22,
+        "structural_process": 6
       },
       "aspirational_vague": {
-        "aspirational_vague": 16,
-        "explicit_demographic": 2,
-        "belonging_culture": 1,
-        "structural_process": 4
+        "aspirational_vague": 18,
+        "explicit_demographic": 1,
+        "structural_process": 3,
+        "absent": 1
       },
       "belonging_culture": {
-        "aspirational_vague": 1,
-        "belonging_culture": 14
+        "belonging_culture": 13,
+        "aspirational_vague": 2
       },
       "structural_process": {
-        "structural_process": 13,
-        "aspirational_vague": 1,
-        "explicit_demographic": 1
+        "structural_process": 15
       }
     },
     "disagreements": [
       {
-        "chunk_id": "a5c2412a3c1b9800",
-        "hand_label": "belonging_culture",
-        "predicted": "aspirational_vague"
-      },
-      {
-        "chunk_id": "db0ff87c6a8dd89f",
+        "chunk_id": "e27c6dcec175ad55",
         "hand_label": "absent",
         "predicted": "explicit_demographic"
       },
@@ -48,24 +41,14 @@
         "predicted": "explicit_demographic"
       },
       {
-        "chunk_id": "5551918065a0f77c",
+        "chunk_id": "6842ac7cad337353",
         "hand_label": "aspirational_vague",
         "predicted": "explicit_demographic"
       },
       {
-        "chunk_id": "23413d78c57db2f2",
+        "chunk_id": "007475f4e0a540bf",
         "hand_label": "aspirational_vague",
-        "predicted": "explicit_demographic"
-      },
-      {
-        "chunk_id": "e9d2f11db3ff1bc5",
-        "hand_label": "aspirational_vague",
-        "predicted": "belonging_culture"
-      },
-      {
-        "chunk_id": "c5feaf27783b3695",
-        "hand_label": "absent",
-        "predicted": "belonging_culture"
+        "predicted": "structural_process"
       },
       {
         "chunk_id": "1000f98ed3bc8bc5",
@@ -73,19 +56,9 @@
         "predicted": "structural_process"
       },
       {
-        "chunk_id": "e044fb509f8c4210",
-        "hand_label": "aspirational_vague",
+        "chunk_id": "9bf5e5d4314a8b25",
+        "hand_label": "explicit_demographic",
         "predicted": "structural_process"
-      },
-      {
-        "chunk_id": "aa9f198e0a9c04c2",
-        "hand_label": "absent",
-        "predicted": "aspirational_vague"
-      },
-      {
-        "chunk_id": "fe63f96ab829201c",
-        "hand_label": "structural_process",
-        "predicted": "aspirational_vague"
       },
       {
         "chunk_id": "5405bb6bd3e23e30",
@@ -93,8 +66,13 @@
         "predicted": "aspirational_vague"
       },
       {
-        "chunk_id": "c25dc6308a1626cc",
-        "hand_label": "explicit_demographic",
+        "chunk_id": "1aab2f6fe5992964",
+        "hand_label": "belonging_culture",
+        "predicted": "aspirational_vague"
+      },
+      {
+        "chunk_id": "11a476607db8493c",
+        "hand_label": "belonging_culture",
         "predicted": "aspirational_vague"
       },
       {
@@ -103,14 +81,24 @@
         "predicted": "structural_process"
       },
       {
-        "chunk_id": "684482813a4678d4",
-        "hand_label": "absent",
-        "predicted": "explicit_demographic"
+        "chunk_id": "1cdac43cf6afe9c7",
+        "hand_label": "explicit_demographic",
+        "predicted": "structural_process"
       },
       {
-        "chunk_id": "d899ab87f9077b6b",
-        "hand_label": "absent",
-        "predicted": "aspirational_vague"
+        "chunk_id": "bc7467000da697b8",
+        "hand_label": "explicit_demographic",
+        "predicted": "structural_process"
+      },
+      {
+        "chunk_id": "d56c711f83b117dc",
+        "hand_label": "explicit_demographic",
+        "predicted": "structural_process"
+      },
+      {
+        "chunk_id": "980bc67c89df7ead",
+        "hand_label": "aspirational_vague",
+        "predicted": "absent"
       },
       {
         "chunk_id": "b46c02e78bc7f0b9",
@@ -123,14 +111,24 @@
         "predicted": "aspirational_vague"
       },
       {
+        "chunk_id": "aab0f58cfd2d826f",
+        "hand_label": "absent",
+        "predicted": "belonging_culture"
+      },
+      {
         "chunk_id": "a1e1dfa8120edb83",
         "hand_label": "aspirational_vague",
         "predicted": "structural_process"
       },
       {
+        "chunk_id": "f5926be6563efe69",
+        "hand_label": "explicit_demographic",
+        "predicted": "structural_process"
+      },
+      {
         "chunk_id": "aef630f0d4a10986",
         "hand_label": "absent",
-        "predicted": "belonging_culture"
+        "predicted": "aspirational_vague"
       },
       {
         "chunk_id": "040670fe19de641e",
@@ -143,29 +141,19 @@
         "predicted": "structural_process"
       },
       {
-        "chunk_id": "37793972a0a86222",
-        "hand_label": "structural_process",
-        "predicted": "explicit_demographic"
+        "chunk_id": "bf4e4725a700d275",
+        "hand_label": "explicit_demographic",
+        "predicted": "structural_process"
       },
       {
         "chunk_id": "b9cc6ec679e2c712",
         "hand_label": "absent",
-        "predicted": "belonging_culture"
-      },
-      {
-        "chunk_id": "1dd36c4331be108e",
-        "hand_label": "aspirational_vague",
-        "predicted": "structural_process"
+        "predicted": "aspirational_vague"
       },
       {
         "chunk_id": "19b20c5ae36fa55d",
         "hand_label": "absent",
         "predicted": "aspirational_vague"
-      },
-      {
-        "chunk_id": "0b46921ff0d8220f",
-        "hand_label": "absent",
-        "predicted": "belonging_culture"
       }
     ]
   },
@@ -209,13 +197,12 @@
     },
     "apple": {
       "n": 22,
-      "accuracy": 0.773,
-      "krippendorff_alpha": 0.686,
+      "accuracy": 0.955,
+      "krippendorff_alpha": 0.94,
       "confusion": {
         "aspirational_vague": {
-          "belonging_culture": 1,
-          "aspirational_vague": 2,
-          "structural_process": 2
+          "aspirational_vague": 4,
+          "explicit_demographic": 1
         },
         "structural_process": {
           "structural_process": 9
@@ -227,35 +214,14 @@
           "belonging_culture": 3
         },
         "absent": {
-          "explicit_demographic": 1,
-          "aspirational_vague": 1
+          "absent": 2
         }
       },
       "disagreements": [
         {
-          "chunk_id": "e9d2f11db3ff1bc5",
+          "chunk_id": "6842ac7cad337353",
           "hand_label": "aspirational_vague",
-          "predicted": "belonging_culture"
-        },
-        {
-          "chunk_id": "e044fb509f8c4210",
-          "hand_label": "aspirational_vague",
-          "predicted": "structural_process"
-        },
-        {
-          "chunk_id": "684482813a4678d4",
-          "hand_label": "absent",
           "predicted": "explicit_demographic"
-        },
-        {
-          "chunk_id": "d899ab87f9077b6b",
-          "hand_label": "absent",
-          "predicted": "aspirational_vague"
-        },
-        {
-          "chunk_id": "1dd36c4331be108e",
-          "hand_label": "aspirational_vague",
-          "predicted": "structural_process"
         }
       ]
     },
@@ -279,17 +245,24 @@
     },
     "github": {
       "n": 3,
-      "accuracy": 1.0,
-      "krippendorff_alpha": 1.0,
+      "accuracy": 0.667,
+      "krippendorff_alpha": 0.545,
       "confusion": {
         "absent": {
-          "absent": 2
+          "absent": 1,
+          "belonging_culture": 1
         },
         "aspirational_vague": {
           "aspirational_vague": 1
         }
       },
-      "disagreements": []
+      "disagreements": [
+        {
+          "chunk_id": "aab0f58cfd2d826f",
+          "hand_label": "absent",
+          "predicted": "belonging_culture"
+        }
+      ]
     },
     "gitlab": {
       "n": 4,
@@ -310,51 +283,65 @@
     },
     "google": {
       "n": 62,
-      "accuracy": 0.871,
-      "krippendorff_alpha": 0.79,
+      "accuracy": 0.806,
+      "krippendorff_alpha": 0.69,
       "confusion": {
         "absent": {
-          "absent": 34,
           "explicit_demographic": 1,
+          "absent": 34,
           "aspirational_vague": 1
         },
         "belonging_culture": {
-          "aspirational_vague": 1,
-          "belonging_culture": 1
+          "belonging_culture": 2
         },
         "aspirational_vague": {
           "aspirational_vague": 5,
-          "explicit_demographic": 2,
-          "structural_process": 2
+          "structural_process": 3,
+          "absent": 1
         },
         "explicit_demographic": {
-          "explicit_demographic": 12
+          "explicit_demographic": 6,
+          "structural_process": 6
         },
         "structural_process": {
-          "structural_process": 2,
-          "explicit_demographic": 1
+          "structural_process": 3
         }
       },
       "disagreements": [
         {
-          "chunk_id": "a5c2412a3c1b9800",
-          "hand_label": "belonging_culture",
-          "predicted": "aspirational_vague"
-        },
-        {
-          "chunk_id": "db0ff87c6a8dd89f",
+          "chunk_id": "e27c6dcec175ad55",
           "hand_label": "absent",
           "predicted": "explicit_demographic"
         },
         {
-          "chunk_id": "5551918065a0f77c",
+          "chunk_id": "007475f4e0a540bf",
           "hand_label": "aspirational_vague",
-          "predicted": "explicit_demographic"
+          "predicted": "structural_process"
         },
         {
-          "chunk_id": "23413d78c57db2f2",
+          "chunk_id": "9bf5e5d4314a8b25",
+          "hand_label": "explicit_demographic",
+          "predicted": "structural_process"
+        },
+        {
+          "chunk_id": "1cdac43cf6afe9c7",
+          "hand_label": "explicit_demographic",
+          "predicted": "structural_process"
+        },
+        {
+          "chunk_id": "bc7467000da697b8",
+          "hand_label": "explicit_demographic",
+          "predicted": "structural_process"
+        },
+        {
+          "chunk_id": "d56c711f83b117dc",
+          "hand_label": "explicit_demographic",
+          "predicted": "structural_process"
+        },
+        {
+          "chunk_id": "980bc67c89df7ead",
           "hand_label": "aspirational_vague",
-          "predicted": "explicit_demographic"
+          "predicted": "absent"
         },
         {
           "chunk_id": "b46c02e78bc7f0b9",
@@ -372,9 +359,14 @@
           "predicted": "structural_process"
         },
         {
-          "chunk_id": "37793972a0a86222",
-          "hand_label": "structural_process",
-          "predicted": "explicit_demographic"
+          "chunk_id": "f5926be6563efe69",
+          "hand_label": "explicit_demographic",
+          "predicted": "structural_process"
+        },
+        {
+          "chunk_id": "bf4e4725a700d275",
+          "hand_label": "explicit_demographic",
+          "predicted": "structural_process"
         }
       ]
     },
@@ -385,7 +377,7 @@
       "confusion": {
         "absent": {
           "structural_process": 1,
-          "belonging_culture": 2
+          "aspirational_vague": 2
         },
         "explicit_demographic": {
           "explicit_demographic": 1
@@ -400,35 +392,28 @@
         {
           "chunk_id": "aef630f0d4a10986",
           "hand_label": "absent",
-          "predicted": "belonging_culture"
+          "predicted": "aspirational_vague"
         },
         {
           "chunk_id": "b9cc6ec679e2c712",
           "hand_label": "absent",
-          "predicted": "belonging_culture"
+          "predicted": "aspirational_vague"
         }
       ]
     },
     "meta": {
       "n": 24,
-      "accuracy": 0.958,
-      "krippendorff_alpha": 0.652,
+      "accuracy": 1.0,
+      "krippendorff_alpha": 1.0,
       "confusion": {
         "absent": {
-          "absent": 22,
-          "belonging_culture": 1
+          "absent": 23
         },
         "belonging_culture": {
           "belonging_culture": 1
         }
       },
-      "disagreements": [
-        {
-          "chunk_id": "0b46921ff0d8220f",
-          "hand_label": "absent",
-          "predicted": "belonging_culture"
-        }
-      ]
+      "disagreements": []
     },
     "netflix": {
       "n": 2,
@@ -461,16 +446,15 @@
     },
     "salesforce": {
       "n": 11,
-      "accuracy": 0.727,
-      "krippendorff_alpha": 0.537,
+      "accuracy": 0.909,
+      "krippendorff_alpha": 0.844,
       "confusion": {
         "absent": {
           "explicit_demographic": 1,
-          "aspirational_vague": 1
+          "absent": 1
         },
         "explicit_demographic": {
-          "explicit_demographic": 5,
-          "aspirational_vague": 1
+          "explicit_demographic": 6
         },
         "aspirational_vague": {
           "aspirational_vague": 3
@@ -481,16 +465,6 @@
           "chunk_id": "63c927442c68d29f",
           "hand_label": "absent",
           "predicted": "explicit_demographic"
-        },
-        {
-          "chunk_id": "aa9f198e0a9c04c2",
-          "hand_label": "absent",
-          "predicted": "aspirational_vague"
-        },
-        {
-          "chunk_id": "c25dc6308a1626cc",
-          "hand_label": "explicit_demographic",
-          "predicted": "aspirational_vague"
         }
       ]
     },
@@ -510,14 +484,20 @@
     },
     "snap": {
       "n": 1,
-      "accuracy": 1.0,
-      "krippendorff_alpha": null,
+      "accuracy": 0.0,
+      "krippendorff_alpha": 0.0,
       "confusion": {
         "belonging_culture": {
-          "belonging_culture": 1
+          "aspirational_vague": 1
         }
       },
-      "disagreements": []
+      "disagreements": [
+        {
+          "chunk_id": "11a476607db8493c",
+          "hand_label": "belonging_culture",
+          "predicted": "aspirational_vague"
+        }
+      ]
     },
     "starbucks": {
       "n": 14,
@@ -531,40 +511,34 @@
           "explicit_demographic": 3
         },
         "structural_process": {
-          "aspirational_vague": 1
+          "structural_process": 1
         },
         "aspirational_vague": {
           "aspirational_vague": 2
         },
         "belonging_culture": {
-          "belonging_culture": 1
+          "aspirational_vague": 1
         }
       },
       "disagreements": [
         {
-          "chunk_id": "fe63f96ab829201c",
-          "hand_label": "structural_process",
+          "chunk_id": "1aab2f6fe5992964",
+          "hand_label": "belonging_culture",
           "predicted": "aspirational_vague"
         }
       ]
     },
     "stripe": {
       "n": 6,
-      "accuracy": 0.5,
-      "krippendorff_alpha": -0.138,
+      "accuracy": 0.667,
+      "krippendorff_alpha": -0.1,
       "confusion": {
         "absent": {
-          "belonging_culture": 1,
-          "absent": 3,
+          "absent": 4,
           "structural_process": 2
         }
       },
       "disagreements": [
-        {
-          "chunk_id": "c5feaf27783b3695",
-          "hand_label": "absent",
-          "predicted": "belonging_culture"
-        },
         {
           "chunk_id": "635389c7d98416ab",
           "hand_label": "absent",

@@ -1,14 +1,12 @@
 # DEI register review by year
 
-## explicit_demographic (21 chunks)
+## explicit_demographic (19 chunks)
 
 - [2020] **SnapNoir** — ​SnapNoir​ is a forum for fostering cultural understanding, diversity, and professional development for people of the African diaspora — both at Snap and in the community....
   - source: https://careers.snap.com/diversity
 - [2020] **Lady Chillahs** — Lady Chillahs supports, empowers, and advances women at Snap through workshops, outreach to women in need, and bringing the Snap family together to explore issues facing women today....
   - source: https://careers.snap.com/diversity
 - [2020] **SnapAbility** — ​SnapAbility is a community for team members who identify as persons with disabilities, and it includes the many allies, guardians, and advocates who support them — both at Snap and beyond. Their mission is to promote empathy, respect, and kindness for all people, regardless of ability level or ment...
-  - source: https://careers.snap.com/diversity
-- [2020] **Diversity, Equity & Inclusion** — Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work...
   - source: https://careers.snap.com/diversity
 - [2020] **¡Los​ Snaps!** — ​¡Los Snaps! empowers, uplifts, and celebrates the unique diversity that makes up the Latino community — while creating education and integration opportunities within the community here at Snap....
   - source: https://careers.snap.com/diversity
@@ -19,8 +17,6 @@
 - [2020] **SnapPride** — ​SnapPride embraces and celebrates all genders, sexualities, and lifestyles! SnapPride focuses on empowering our local community, and increasing awareness and education surrounding LGBTQ+ issues....
   - source: https://careers.snap.com/diversity
 - [2021] **SnapAbility** — SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities....
-  - source: https://careers.snap.com/diversity
-- [2021] **Diversity, Equity & Inclusion** — Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work...
   - source: https://careers.snap.com/diversity
 - [2021] **SnapVets** — SnapVets builds community for military veterans, dependents, and those who continue to serve....
   - source: https://careers.snap.com/diversity
@@ -45,7 +41,14 @@
 - [2026] Read about our commitment to Belonging at Snap We believe in building innovative and inclusive products for our global community, finding the best talent anywhere, and cultivating an environment where everyone belongs. Employee Resource Groups (ERGs) at Snap bring together a community of individuals...
   - source: https://careers.snap.com/belonging
 
-## aspirational_vague (7 chunks)
+## structural_process (2 chunks)
+
+- [2020] **Diversity, Equity & Inclusion** — Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work...
+  - source: https://careers.snap.com/diversity
+- [2021] **Diversity, Equity & Inclusion** — Millions of people from all walks of life use Snapchat every day to communicate with friends and family. It’s important for us to bring the same diversity of cultures, backgrounds, and perspectives together at Snap Inc. A diverse, equitable, and inclusive culture helps people achieve their best work...
+  - source: https://careers.snap.com/diversity
+
+## aspirational_vague (8 chunks)
 
 - [2021] **Kaleidoscope** — ​Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture....
   - source: https://careers.snap.com/diversity
@@ -61,15 +64,15 @@
   - source: https://careers.snap.com/diversity
 - [2025] Snap Inc. the parent company of Snapchat , is all about enhancing real relationships between friends, family, and the world—a mission that is as true inside of our walls as well as within our products. We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all ...
   - source: https://careers.snap.com/
+- [2026] **Our commitment to belonging** — We believe in hiring the most talented team members and creating an environment where everyone belongs...
+  - source: https://careers.snap.com/job?id=R0042661
 
-## belonging_culture (3 chunks)
+## belonging_culture (2 chunks)
 
 - [2022] **Snap Council** — Council is the practice of people coming together to share stories, listen deeply, and speak from the heart. Team members have the opportunity to speak without being interrupted, which ensures everyone has a chance to be heard. As stories are shared, others listen wholeheartedly. This fosters an inc...
   - source: https://careers.snap.com/community
 - [2025] **Our commitment to belonging** — We believe in hiring the most talented team members and creating an environment where everyone belongs...
   - source: https://careers.snap.com/
-- [2026] **Our commitment to belonging** — We believe in hiring the most talented team members and creating an environment where everyone belongs...
-  - source: https://careers.snap.com/job?id=R0042661
 
 ## absent (56 chunks)
 

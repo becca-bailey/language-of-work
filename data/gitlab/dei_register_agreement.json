@@ -1,7 +1,17 @@
 {
-  "n": 0,
-  "accuracy": null,
-  "krippendorff_alpha": null,
-  "confusion": {},
+  "n": 4,
+  "accuracy": 1.0,
+  "krippendorff_alpha": 1.0,
+  "confusion": {
+    "absent": {
+      "absent": 1
+    },
+    "belonging_culture": {
+      "belonging_culture": 2
+    },
+    "aspirational_vague": {
+      "aspirational_vague": 1
+    }
+  },
   "disagreements": []
 }

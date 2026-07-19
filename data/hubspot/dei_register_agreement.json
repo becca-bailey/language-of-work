@@ -1,7 +1,31 @@
 {
-  "n": 0,
-  "accuracy": null,
-  "krippendorff_alpha": null,
-  "confusion": {},
-  "disagreements": []
+  "n": 4,
+  "accuracy": 0.25,
+  "krippendorff_alpha": 0.087,
+  "confusion": {
+    "absent": {
+      "structural_process": 1,
+      "aspirational_vague": 2
+    },
+    "explicit_demographic": {
+      "explicit_demographic": 1
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "1000f98ed3bc8bc5",
+      "hand_label": "absent",
+      "predicted": "structural_process"
+    },
+    {
+      "chunk_id": "aef630f0d4a10986",
+      "hand_label": "absent",
+      "predicted": "aspirational_vague"
+    },
+    {
+      "chunk_id": "b9cc6ec679e2c712",
+      "hand_label": "absent",
+      "predicted": "aspirational_vague"
+    }
+  ]
 }

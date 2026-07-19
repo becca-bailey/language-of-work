@@ -253,9 +253,9 @@
       "registers": {
         "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 2,
+        "aspirational_vague": 3,
         "belonging_culture": 0,
-        "absent": 9,
+        "absent": 8,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -313,9 +313,9 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 1,
+        "explicit_demographic": 2,
         "structural_process": 0,
-        "aspirational_vague": 2,
+        "aspirational_vague": 1,
         "belonging_culture": 1,
         "absent": 9,
         "mission_focus_apolitical": 0,
@@ -326,7 +326,7 @@
         {
           "text": "Results : Fast growth , ambitious vision Flexible Work Hours : Plan your day so you are there for other people & have time for personal interests Iteration : Empower people to be effective & have an impact , Merge Request rate , We dogfood our own product , Directly responsible individuals Diversity, Inclusion & Belonging : A focus on gender parity , Team Member Resource Groups , other initiatives",
           "heading": "Advantages",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.5275,
           "score": 0.5275
@@ -378,8 +378,8 @@
         "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 4,
-        "belonging_culture": 3,
-        "absent": 15,
+        "belonging_culture": 6,
+        "absent": 12,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -437,11 +437,11 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 1,
+        "explicit_demographic": 2,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 3,
-        "absent": 15,
+        "aspirational_vague": 1,
+        "belonging_culture": 5,
+        "absent": 13,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -450,7 +450,7 @@
         {
           "text": "Diversity, Inclusion, & Belonging is woven into our values and everything we do GitLab is home to many dedicated Team Member Resource Groups GitLab is a global, multi-cultural organization with team members all over the world",
           "heading": "Diversity & Inclusion",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.5826,
           "score": 0.5826
@@ -474,7 +474,7 @@
         {
           "text": "Our size and our mission (that everyone can contribute) mean that our team members can — and are expected to — make an impact across the company. Because we all use our product internally, you don't have to be a developer to learn to collaborate in the GitLab tool. From your very first week, no matter your role, you'll gain the technical skills needed to access, question, and contribute to project",
           "heading": "Everyone can contribute",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.4641,
           "score": 0.4641
@@ -499,9 +499,9 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 0,
         "belonging_culture": 2,
         "absent": 7,
         "mission_focus_apolitical": 0,
@@ -512,7 +512,7 @@
         {
           "text": "Diversity, Inclusion, & Belonging is woven into our values and everything we do GitLab is home to many dedicated Team Member Resource Groups GitLab is a global, multi-cultural organization with team members all over the world",
           "heading": "Diversity & Inclusion",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.5826,
           "score": 0.5826
@@ -623,9 +623,9 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 0,
         "belonging_culture": 3,
         "absent": 10,
         "mission_focus_apolitical": 0,
@@ -636,7 +636,7 @@
         {
           "text": "Creating inclusive environments is woven into our values and everything we do We create spaces where everyone belongs and deliver programs so that everyone can contribute GitLab is home to many dedicated Team Member Resource Groups GitLab is a global, multi-cultural organization with team members all over the world",
           "heading": "Inclusion & Belonging",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.6172,
           "score": 0.6172

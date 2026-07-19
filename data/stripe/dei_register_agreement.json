@@ -1,7 +1,23 @@
 {
-  "n": 0,
-  "accuracy": null,
-  "krippendorff_alpha": null,
-  "confusion": {},
-  "disagreements": []
+  "n": 6,
+  "accuracy": 0.667,
+  "krippendorff_alpha": -0.1,
+  "confusion": {
+    "absent": {
+      "absent": 4,
+      "structural_process": 2
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "635389c7d98416ab",
+      "hand_label": "absent",
+      "predicted": "structural_process"
+    },
+    {
+      "chunk_id": "2041fe38b9ceaae0",
+      "hand_label": "absent",
+      "predicted": "structural_process"
+    }
+  ]
 }

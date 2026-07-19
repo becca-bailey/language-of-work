@@ -290,8 +290,8 @@
       "thin": true,
       "registers": {
         "explicit_demographic": 0,
-        "structural_process": 0,
-        "aspirational_vague": 2,
+        "structural_process": 1,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 1,
         "mission_focus_apolitical": 0,
@@ -302,7 +302,7 @@
         {
           "text": "We enjoy working on hard problems together because the hardest challenges are often the most rewarding. Help improve local economies, make roads safer, and bring opportunities to millions of people around the world. We want to create a workplace that is inclusive and reflects the diversity of the cities we serve. Take a look at our latest diversity report.",
           "heading": "Welcoming for everyone",
-          "register": "aspirational_vague",
+          "register": "structural_process",
           "stance": "affirming_dei",
           "inclusion": 0.5572,
           "score": 0.5572
@@ -335,11 +335,11 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 9,
-        "structural_process": 4,
-        "aspirational_vague": 6,
-        "belonging_culture": 3,
-        "absent": 3,
+        "explicit_demographic": 7,
+        "structural_process": 8,
+        "aspirational_vague": 4,
+        "belonging_culture": 2,
+        "absent": 4,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -372,7 +372,7 @@
         {
           "text": "Last year, we put a stake in the ground to make Uber a great place to work for everyone. We’ve spent the past 12 months investing heavily in the tech sector and building partnerships through a dedicated fund we created to support organizations working to bring more women and underrepresented people into tech. Through that commitment, we’ve had the opportunity to work with amazing organizations lik",
           "heading": "Where we’ve been",
-          "register": "explicit_demographic",
+          "register": "structural_process",
           "stance": "affirming_dei",
           "inclusion": 0.6096,
           "score": 0.6096
@@ -398,8 +398,8 @@
       "thin": false,
       "registers": {
         "explicit_demographic": 9,
-        "structural_process": 2,
-        "aspirational_vague": 7,
+        "structural_process": 5,
+        "aspirational_vague": 4,
         "belonging_culture": 2,
         "absent": 5,
         "mission_focus_apolitical": 0,
@@ -460,10 +460,10 @@
       "thin": false,
       "registers": {
         "explicit_demographic": 1,
-        "structural_process": 0,
+        "structural_process": 1,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 20,
+        "absent": 19,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },

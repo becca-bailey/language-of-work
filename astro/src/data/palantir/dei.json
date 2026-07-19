@@ -951,9 +951,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
-        "absent": 28,
+        "absent": 27,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 2
       },
@@ -962,7 +962,7 @@
         {
           "text": "We attract people who are intellectually diverse and contrarian at heart. Palantirians have strong convictions and open minds. Whether you have PhD or GED, deep thinking matters most.",
           "heading": "Free Thinkers",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.4582,
           "score": 0.4582

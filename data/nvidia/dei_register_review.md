@@ -1,14 +1,17 @@
 # DEI register review by year
 
-## explicit_demographic (5 chunks)
+## explicit_demographic (3 chunks)
 
-- [2025] **Our Commitment to Progress** — We’re focused on increasing our hiring of women and underrepresented communities in technology, tracking our success, and adjusting to ensure a diverse, representative workforce. We’ve achieved pay parity for the past several years and are committed to continuing this practice. But progress goes bey...
-  - source: https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/
 - [2025] **Do Your Life’s Work** — NVIDIA has always been fearless about taking on new challenges, and we encourage and support employees who share the same values. There are endless opportunities at NVIDIA, and you have the opportunity to explore them all. We provide tailored mentoring programs, job-shadowing experiences, and leader...
   - source: https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/
 - [2025] **Connecting With Others** — Our Community Resource Groups (CRGs) have an impactful role in the NVIDIA experience–from leading celebrations to advocacy–and are integral to building an inclusive culture. NVIDIA supports nine CRGs and support groups for neuro diversity, caregivers, and working parents. “As a co-lead for ADHD NVID...
   - source: https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/
 - [2025] **Expanding Our Reach** — We tap into diverse student organizations at more than 25 university campuses, including Minority Serving Institutions, Historically Black Colleges and Universities (HBCUs), and Hispanic-Serving Institutions (HSIs). We also work with Black in AI, Black Tech Nation, Color Stack, the National GEM Cons...
+  - source: https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/
+
+## structural_process (2 chunks)
+
+- [2025] **Our Commitment to Progress** — We’re focused on increasing our hiring of women and underrepresented communities in technology, tracking our success, and adjusting to ensure a diverse, representative workforce. We’ve achieved pay parity for the past several years and are committed to continuing this practice. But progress goes bey...
   - source: https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/
 - [2025] **Explore Allyship at Work** — We strive to create an environment where underrepresented groups feel empowered. Through our CARE Allyship Program, we train our people to unlock the power of diversity and inclusion and take action to help others succeed. “The Allyship Program taught me how to be more attentive to the needs of unde...
   - source: https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/

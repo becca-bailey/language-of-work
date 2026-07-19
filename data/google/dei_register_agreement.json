@@ -1,50 +1,64 @@
 {
   "n": 62,
-  "accuracy": 0.871,
-  "krippendorff_alpha": 0.79,
+  "accuracy": 0.806,
+  "krippendorff_alpha": 0.69,
   "confusion": {
     "absent": {
-      "absent": 34,
       "explicit_demographic": 1,
+      "absent": 34,
       "aspirational_vague": 1
     },
     "belonging_culture": {
-      "aspirational_vague": 1,
-      "belonging_culture": 1
+      "belonging_culture": 2
     },
     "aspirational_vague": {
       "aspirational_vague": 5,
-      "explicit_demographic": 2,
-      "structural_process": 2
+      "structural_process": 3,
+      "absent": 1
     },
     "explicit_demographic": {
-      "explicit_demographic": 12
+      "explicit_demographic": 6,
+      "structural_process": 6
     },
     "structural_process": {
-      "structural_process": 2,
-      "explicit_demographic": 1
+      "structural_process": 3
     }
   },
   "disagreements": [
     {
-      "chunk_id": "a5c2412a3c1b9800",
-      "hand_label": "belonging_culture",
-      "predicted": "aspirational_vague"
-    },
-    {
-      "chunk_id": "db0ff87c6a8dd89f",
+      "chunk_id": "e27c6dcec175ad55",
       "hand_label": "absent",
       "predicted": "explicit_demographic"
     },
     {
-      "chunk_id": "5551918065a0f77c",
+      "chunk_id": "007475f4e0a540bf",
       "hand_label": "aspirational_vague",
-      "predicted": "explicit_demographic"
+      "predicted": "structural_process"
     },
     {
-      "chunk_id": "23413d78c57db2f2",
+      "chunk_id": "9bf5e5d4314a8b25",
+      "hand_label": "explicit_demographic",
+      "predicted": "structural_process"
+    },
+    {
+      "chunk_id": "1cdac43cf6afe9c7",
+      "hand_label": "explicit_demographic",
+      "predicted": "structural_process"
+    },
+    {
+      "chunk_id": "bc7467000da697b8",
+      "hand_label": "explicit_demographic",
+      "predicted": "structural_process"
+    },
+    {
+      "chunk_id": "d56c711f83b117dc",
+      "hand_label": "explicit_demographic",
+      "predicted": "structural_process"
+    },
+    {
+      "chunk_id": "980bc67c89df7ead",
       "hand_label": "aspirational_vague",
-      "predicted": "explicit_demographic"
+      "predicted": "absent"
     },
     {
       "chunk_id": "b46c02e78bc7f0b9",
@@ -62,9 +76,14 @@
       "predicted": "structural_process"
     },
     {
-      "chunk_id": "37793972a0a86222",
-      "hand_label": "structural_process",
-      "predicted": "explicit_demographic"
+      "chunk_id": "f5926be6563efe69",
+      "hand_label": "explicit_demographic",
+      "predicted": "structural_process"
+    },
+    {
+      "chunk_id": "bf4e4725a700d275",
+      "hand_label": "explicit_demographic",
+      "predicted": "structural_process"
     }
   ]
 }

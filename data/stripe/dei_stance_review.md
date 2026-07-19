@@ -26,40 +26,29 @@
 
 ## 2019
 - affirming_dei: 2
-- neutral: 34
-- performance_elite: 2
+- neutral: 36
 
 ## 2020
-- affirming_dei: 5
-- neutral: 40
-- mission_focus_apolitical: 1
-- performance_elite: 7
+- affirming_dei: 4
+- neutral: 49
 
 ## 2021
-- neutral: 22
-- mission_focus_apolitical: 1
-- performance_elite: 8
+- neutral: 31
 
 ## 2022
-- neutral: 43
-- mission_focus_apolitical: 1
-- performance_elite: 6
+- neutral: 50
 
 ## 2023
-- affirming_dei: 1
-- neutral: 20
-- performance_elite: 3
+- affirming_dei: 2
+- neutral: 22
 
 ## 2024
 - affirming_dei: 2
-- neutral: 25
-- performance_elite: 1
+- neutral: 26
 
 ## 2025
 - affirming_dei: 1
-- neutral: 25
-- performance_elite: 1
+- neutral: 26
 
 ## 2026
-- neutral: 22
-- performance_elite: 1
+- neutral: 23

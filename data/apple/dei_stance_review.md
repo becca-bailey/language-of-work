@@ -40,24 +40,24 @@
 - neutral: 3
 
 ## 2014
-- affirming_dei: 5
-- neutral: 7
+- affirming_dei: 4
+- neutral: 8
 
 ## 2015
-- affirming_dei: 21
-- neutral: 19
+- affirming_dei: 22
+- neutral: 18
 
 ## 2016
 - affirming_dei: 1
 - neutral: 3
 
 ## 2017
-- affirming_dei: 1
-- neutral: 2
+- affirming_dei: 2
+- neutral: 1
 
 ## 2018
-- affirming_dei: 10
-- neutral: 11
+- affirming_dei: 12
+- neutral: 9
 
 ## 2019
 - affirming_dei: 8
@@ -72,21 +72,21 @@
 - neutral: 21
 
 ## 2022
-- affirming_dei: 61
-- neutral: 21
+- affirming_dei: 59
+- neutral: 23
 
 ## 2023
-- affirming_dei: 52
-- neutral: 23
+- affirming_dei: 49
+- neutral: 26
 
 ## 2024
-- affirming_dei: 20
-- neutral: 18
+- affirming_dei: 17
+- neutral: 21
 
 ## 2025
-- affirming_dei: 30
-- neutral: 23
+- affirming_dei: 29
+- neutral: 24
 
 ## 2026
-- affirming_dei: 10
-- neutral: 5
+- affirming_dei: 11
+- neutral: 4

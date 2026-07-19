@@ -1,13 +1,11 @@
 # DEI register review by year
 
-## belonging_culture (2 chunks)
+## aspirational_vague (1 chunks)
 
 - [2021] **Build the future of finance** — We’re here to create a free and open financial system for the world. We built Coinbase to bring economic freedom to millions — and we’re hiring. See our commitment to belonging >...
   - source: https://www.coinbase.com/careers
-- [2022] **Build the future of finance** — We’re here to create a free and open financial system for the world. We built Coinbase to bring economic freedom to millions — and we’re hiring. See our commitment to belonging >...
-  - source: https://www.coinbase.com/careers
 
-## absent (77 chunks)
+## absent (78 chunks)
 
 - [2013] **Growth** — We're currently experiencing rapid growth in transaction volume and revenue due to the public exposure to bitcoin. We're a small team that is aggressively looking to grow. Drop us a line!...
   - source: https://coinbase.com/careers
@@ -104,6 +102,8 @@
 - [2021] **Our mission** — Our mission is to increase economic freedom in the world. Everyone at Coinbase plays an important role in helping us achieve our mission ....
   - source: https://www.coinbase.com/careers
 - [2022] **Our mission** — Our mission is to increase economic freedom in the world. Everyone at Coinbase plays an important role in helping us achieve our mission ....
+  - source: https://www.coinbase.com/careers
+- [2022] **Build the future of finance** — We’re here to create a free and open financial system for the world. We built Coinbase to bring economic freedom to millions — and we’re hiring. See our commitment to belonging >...
   - source: https://www.coinbase.com/careers
 - [2022] **Our culture** — Our culture is how we treat each other and operate day-to-day at Coinbase. Outlining our culture helps everyone — from candidates to new leaders to veteran employees — understand how we interact and get work done in service of our mission. Some of our cultural tenets are more aspirational than other...
   - source: https://www.coinbase.com/careers

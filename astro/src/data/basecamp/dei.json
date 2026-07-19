@@ -375,7 +375,7 @@
           "text": "Basecamp is a company spread out across 26 different cities around the world. Our office is in Chicago, but everyone at Basecamp is free to live and work wherever they want. Many of us love working remotely . We’re designers, programmers, tinkerers, writers, speakers, bikers, engineers, runners, developers, chefs, analysts, campers, musicians, filmmakers, knitters, hikers, authors, photographers, ",
           "heading": "We the Basecamp.",
           "register": "aspirational_vague",
-          "stance": "neutral",
+          "stance": "affirming_dei",
           "inclusion": 0.336,
           "score": 0.336
         },
@@ -437,7 +437,7 @@
           "text": "Basecamp was founded in 1999. We started out with four people, and today we’re a company of about 50 spread out across 32 different cities around the world. Our headquarters are in Chicago, but everyone at Basecamp is free to live and work wherever they want. Many of us love working remotely – we literally wrote the book on remote working ! We’re designers, programmers, tinkerers, writers, speaker",
           "heading": "We the Basecamp!",
           "register": "aspirational_vague",
-          "stance": "neutral",
+          "stance": "affirming_dei",
           "inclusion": 0.3366,
           "score": 0.3366
         },
@@ -577,7 +577,7 @@
           "text": "Basecamp was founded in 1999. We started out with four people, and today we’re a company of about 50 spread out across 32 different cities around the world. Our headquarters is in Chicago, but everyone at Basecamp is free to live and work wherever they want. Many of us love working remotely – we literally wrote the book on remote working ! We’re designers, programmers, tinkerers, writers, speakers",
           "heading": "We the Basecamp!",
           "register": "aspirational_vague",
-          "stance": "affirming_dei",
+          "stance": "neutral",
           "inclusion": 0.3352,
           "score": 0.3352
         }
@@ -781,9 +781,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 58,
+        "absent": 59,
         "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
@@ -870,7 +870,7 @@
         {
           "text": "A calm, low-distraction environment where you can do your best work. We work hard to make sure every employee is given the freedom, tools, trust, and support to do the best work of their careers. That’s why so many people who work at 37signals stay at 37signals. We respect everyone’s right to participate in political expression and activism, but we avoid having political debates on our internal co",
           "heading": "What it’s like to work here",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "mission_focus_apolitical",
           "inclusion": 0.4425,
           "score": 0.4425
@@ -886,7 +886,7 @@
         {
           "text": "An eclectic crew united by intellectual curiosity and a commitment to creating truly great products. We’re a fully-remote company with no physical headquarters. We’re collectively spread out across dozens of cities on multiple continents. Everyone is free to live and work wherever they choose. We run the gamut in geography, lifestyle, and interest, but we’re all here to do exceptional work, build ",
           "heading": "Who we are",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.4196,
           "score": 0.4196
@@ -905,8 +905,8 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 1,
+        "aspirational_vague": 0,
+        "belonging_culture": 2,
         "absent": 60,
         "mission_focus_apolitical": 1,
         "civilizational_mission": 0
@@ -932,7 +932,7 @@
         {
           "text": "A calm, low-distraction environment where you can do your best work. We work hard to make sure every employee is given the freedom, tools, trust, and support to do the best work of their careers. That’s why so many people who work at 37signals stay at 37signals. We respect everyone’s right to participate in political expression and activism, but we avoid having political debates on our internal co",
           "heading": "What it’s like to work here",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "mission_focus_apolitical",
           "inclusion": 0.441,
           "score": 0.441
@@ -948,7 +948,7 @@
         {
           "text": "Rock star? Pass. Friendly and thoughtful? Let’s talk. In broad strokes, Managers of One thrive at 37signals. If you consider yourself an eager learner, a conscientious worker, and a thoughtful, kind, supportive human, you might just have a home here. We don’t place independent value on where you come from, where you live, where you worked before, where you went to school, if you graduated or dropp",
           "heading": "Who you are",
-          "register": "aspirational_vague",
+          "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4122,
           "score": 0.4122
@@ -967,9 +967,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 1,
-        "aspirational_vague": 2,
+        "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 35,
+        "absent": 37,
         "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
@@ -994,7 +994,7 @@
         {
           "text": "An eclectic crew united by intellectual curiosity and a commitment to creating truly great products. We’re a fully-remote company with no physical headquarters. We’re collectively spread out across dozens of cities on multiple continents. Everyone is free to live and work wherever they choose. We run the gamut in geography, lifestyle, and interest, but we’re all here to do exceptional work, build ",
           "heading": "Who we are",
-          "register": "aspirational_vague",
+          "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4196,
           "score": 0.4196
@@ -1002,7 +1002,7 @@
         {
           "text": "Rock star? Pass. Friendly and thoughtful? Let’s talk. In broad strokes, Managers of One thrive at 37signals. If you consider yourself an eager learner, a conscientious worker, and a thoughtful, kind, supportive human, you might just have a home here. We don’t place independent value on where you come from, where you live, where you worked before, where you went to school, if you graduated or dropp",
           "heading": "Who you are",
-          "register": "aspirational_vague",
+          "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4122,
           "score": 0.4122
@@ -1029,9 +1029,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 0,
-        "absent": 25,
+        "aspirational_vague": 0,
+        "belonging_culture": 2,
+        "absent": 24,
         "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
@@ -1048,7 +1048,7 @@
         {
           "text": "A calm, low-distraction environment where you can do your best work. We work hard to make sure every employee is given the freedom, tools, trust, and support to do the best work of their careers. That’s why so many people who work at 37signals stay at 37signals. We respect everyone’s right to participate in political expression and activism, but we avoid having political debates on our internal co",
           "heading": "What it’s like to work here",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "mission_focus_apolitical",
           "inclusion": 0.4404,
           "score": 0.4404
@@ -1064,7 +1064,7 @@
         {
           "text": "Rock star? Pass. Friendly and thoughtful? Let’s talk. In broad strokes, Managers of One thrive at 37signals. If you consider yourself an eager learner, a conscientious worker, and a thoughtful, kind, supportive human, you might just have a home here. We don’t place independent value on where you come from, where you live, where you worked before, where you went to school, if you graduated or dropp",
           "heading": "Who you are",
-          "register": "aspirational_vague",
+          "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4122,
           "score": 0.4122

@@ -15,8 +15,8 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
-        "belonging_culture": 2,
+        "aspirational_vague": 1,
+        "belonging_culture": 1,
         "absent": 8,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
@@ -42,7 +42,7 @@
         {
           "text": "Create a global experience of belonging for anyone, anywhere. Those who work for, in, or around Airbnb agree to champion the mission by living it.",
           "heading": "Champion the Mission",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.4531,
           "score": 0.4531
@@ -139,9 +139,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
-        "belonging_culture": 2,
-        "absent": 12,
+        "aspirational_vague": 2,
+        "belonging_culture": 1,
+        "absent": 11,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -182,7 +182,7 @@
         {
           "text": "Passionate. Committed. Optimistic. Puts the Airbnb community first. Takes ownership and delivers results. Perpetuates belonging.",
           "heading": "Champion the Mission",
-          "register": "belonging_culture",
+          "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.447,
           "score": 0.447
@@ -263,9 +263,9 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 3,
-        "belonging_culture": 1,
-        "absent": 9,
+        "aspirational_vague": 4,
+        "belonging_culture": 3,
+        "absent": 6,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -282,7 +282,7 @@
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.6275,
           "score": 0.6275
@@ -291,7 +291,7 @@
           "text": "We’re united with our community to create a world where anyone can belong anywhere.",
           "heading": "Champion the Mission",
           "register": "aspirational_vague",
-          "stance": "neutral",
+          "stance": "affirming_dei",
           "inclusion": 0.5971,
           "score": 0.5971
         },
@@ -306,7 +306,7 @@
         {
           "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
           "heading": "Embrace the Adventure",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.5299,
           "score": 0.5299
@@ -323,11 +323,11 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 3,
-        "belonging_culture": 0,
-        "absent": 4,
+        "belonging_culture": 1,
+        "absent": 2,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -336,7 +336,7 @@
         {
           "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about diversity and belonging",
           "heading": "Include everyone",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.6378,
           "score": 0.6378
@@ -344,7 +344,7 @@
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "absent",
+          "register": "belonging_culture",
           "stance": "neutral",
           "inclusion": 0.6275,
           "score": 0.6275
@@ -360,7 +360,7 @@
         {
           "text": "We’re driven by curiosity, optimism, and the belief that every person can grow.",
           "heading": "Embrace the Adventure",
-          "register": "absent",
+          "register": "aspirational_vague",
           "stance": "neutral",
           "inclusion": 0.5299,
           "score": 0.5299
@@ -385,11 +385,11 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 3,
-        "belonging_culture": 1,
-        "absent": 6,
+        "aspirational_vague": 2,
+        "belonging_culture": 0,
+        "absent": 7,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -398,7 +398,7 @@
         {
           "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about diversity and belonging",
           "heading": "Include everyone",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.6378,
           "score": 0.6378
@@ -406,7 +406,7 @@
         {
           "text": "We're caring, open, and encouraging to everyone we work with.",
           "heading": "Be a Host",
-          "register": "belonging_culture",
+          "register": "absent",
           "stance": "neutral",
           "inclusion": 0.6275,
           "score": 0.6275
@@ -447,9 +447,9 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 3,
+        "aspirational_vague": 2,
         "belonging_culture": 1,
         "absent": 3,
         "mission_focus_apolitical": 0,
@@ -468,7 +468,7 @@
         {
           "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about what makes Airbnb, Airbnb",
           "heading": "Include everyone",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.6081,
           "score": 0.6081
@@ -573,8 +573,8 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 0,
+        "aspirational_vague": 1,
+        "belonging_culture": 1,
         "absent": 2,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
@@ -584,7 +584,7 @@
         {
           "text": "Creating connection and belonging in the world begins with a workplace where you're both welcomed and empowered to be your authentic self, so you can deliver your best work. We’re committed to ensuring Airbnb is a place where people of all backgrounds, identities, and experiences can thrive.",
           "heading": "We welcome you",
-          "register": "aspirational_vague",
+          "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.5473,
           "score": 0.5473
@@ -627,8 +627,8 @@
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
-        "belonging_culture": 0,
+        "aspirational_vague": 1,
+        "belonging_culture": 1,
         "absent": 2,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
@@ -638,7 +638,7 @@
         {
           "text": "Creating connection and belonging in the world begins with a workplace where you're both welcomed and empowered to be your authentic self, so you can deliver your best work. We’re committed to ensuring Airbnb is a place where people of all backgrounds, identities, and experiences can thrive.",
           "heading": "We welcome you",
-          "register": "aspirational_vague",
+          "register": "belonging_culture",
           "stance": "affirming_dei",
           "inclusion": 0.5473,
           "score": 0.5473

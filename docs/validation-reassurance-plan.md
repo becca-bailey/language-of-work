@@ -27,7 +27,7 @@ except the tournament parameterization in Phase 1.
 
 ---
 
-## Phase 0 — Close out the labeling gates — **1–2 PASSED 2026-07-18; 3 remains**
+## Phase 0 — CLOSED 2026-07-19 (all three gates passed; reads in execution-log.md)
 
 1. ~~Chunk agreement~~ **PASSED**: `report_chunk_agreement.py` → blind pooled α
    0.759 7-way / 0.805 analysis view (n=440); gold set adjudicated clean.
@@ -35,17 +35,17 @@ except the tournament parameterization in Phase 1.
    blind α 0.932 / acc 0.96 (n=100), adjudicated α 1.0. Note: this validates
    the migrated stance data; the classifier-under-new-prompt α comes from
    re-running the report after step 3's stance re-classify.
-3. **The remaining item — one batched API run**: full-corpus register
-   re-classify with the rewritten register prompt + fresh stance classify with
-   the new 4-class taxonomy (performance_elite removed, civilizational_mission
-   narrowed to explicit-West). Then re-run both agreement reports for final
-   classifier-under-current-prompt numbers. This is upstream of everything
-   below — **finish it first** so phases 1–4 validate the corpus we actually
-   keep.
+3. ~~Batched API re-classify~~ **PASSED 2026-07-19**: full-corpus register +
+   stance re-classify under the current prompts (all 19 companies, 4,694
+   analysis chunks each task). Classifier-under-current-prompt numbers:
+   register pooled α **0.802** / acc 0.876 (n=201); stance pooled α **0.877** /
+   acc 0.93 (n=100). Both clear the α ≥ 0.80 gate. Stance misses are
+   one-directional (classifier under-detects mission_focus_apolitical, recall
+   14/20) — counter-stance counts in the story are floors, stated as such.
 
 ## Phase 1 — Extend the LLM tournament beyond altruism (the only code phase)
 
-The pairwise-tournament cross-check in [validate_altruism_axes.py](../scripts/validate_altruism_axes.py)
+The pairwise-tournament cross-check in [validate_axes.py](../scripts/validate_axes.py)
 (`tournament`, `embedding_vs_llm`, `early_year_agreement`) hardcodes
 `"altruism"`. `quotes_text()` already takes an axis parameter and
 `evidence_quotes.json` already contains quotes for **all nine scored axes**, so
@@ -53,7 +53,7 @@ this is parameter-threading, not new machinery.
 
 Build:
 
-- Add an `AXIS_TOURNAMENTS` table to validate_altruism_axes.py: `{axis: question_text}`.
+- Add an `AXIS_TOURNAMENTS` table to validate_axes.py: `{axis: question_text}`.
   Each axis needs its own `TOURNAMENT_QUESTION` phrasing (the judge question
   must name the concept without leaking the axis's pole phrases — same
   circularity discipline as axis construction). Start with:

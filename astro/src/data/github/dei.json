@@ -288,8 +288,8 @@
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
-        "structural_process": 0,
-        "aspirational_vague": 2,
+        "structural_process": 1,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 14,
         "mission_focus_apolitical": 0,
@@ -300,7 +300,7 @@
         {
           "text": "At GitHub, we think that a diverse company is a strong company, and we work hard to foster a supportive and welcoming workplace. Learn more about our commitment to diversity and inclusion and see our current demographic data .",
           "heading": "A diverse and inclusive workplace",
-          "register": "aspirational_vague",
+          "register": "structural_process",
           "stance": "affirming_dei",
           "inclusion": 0.6328,
           "score": 0.6328
@@ -349,9 +349,9 @@
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
-        "structural_process": 0,
-        "aspirational_vague": 3,
+        "explicit_demographic": 1,
+        "structural_process": 1,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 6,
         "mission_focus_apolitical": 0,
@@ -362,7 +362,7 @@
         {
           "text": "At GitHub, we think that a diverse company is a strong company, and we work hard to foster a supportive and welcoming workplace. Learn more about our commitment to diversity and inclusion and see our current demographic data .",
           "heading": "A diverse and inclusive workplace",
-          "register": "aspirational_vague",
+          "register": "structural_process",
           "stance": "affirming_dei",
           "inclusion": 0.6328,
           "score": 0.6328
@@ -394,7 +394,7 @@
         {
           "text": "Our office in San Francisco’s SOMA neighborhood is designed to help you find your ideal work environment—whether that’s in a library, hammock room, or roof deck. When it’s time to fuel up, we’ve got an in-house coffee shop and several catered meals throughout the week. We also love sharing our space for community events like meetups, hackathons, and Pride Month celebrations.",
           "heading": "Explore HQ",
-          "register": "aspirational_vague",
+          "register": "explicit_demographic",
           "stance": "affirming_dei",
           "inclusion": 0.3955,
           "score": 0.3955
@@ -414,8 +414,8 @@
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 3,
-        "belonging_culture": 0,
-        "absent": 12,
+        "belonging_culture": 1,
+        "absent": 11,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },

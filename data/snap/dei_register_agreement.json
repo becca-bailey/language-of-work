@@ -1,7 +1,17 @@
 {
-  "n": 0,
-  "accuracy": null,
-  "krippendorff_alpha": null,
-  "confusion": {},
-  "disagreements": []
+  "n": 1,
+  "accuracy": 0.0,
+  "krippendorff_alpha": 0.0,
+  "confusion": {
+    "belonging_culture": {
+      "aspirational_vague": 1
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "11a476607db8493c",
+      "hand_label": "belonging_culture",
+      "predicted": "aspirational_vague"
+    }
+  ]
 }

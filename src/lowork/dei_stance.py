@@ -8,6 +8,7 @@ import re
 from anthropic import Anthropic
 
 from .config import CLASSIFIER_MODEL
+from .dei import parse_json_items
 
 # Offline-bootstrap keyword net for the civilizational stance (narrowed 2026-07-18:
 # explicit West/civilization invocations only — deterrence/battlefield/"important
@@ -142,9 +143,7 @@ def classify_stances(chunks: list[dict], model: str = CLASSIFIER_MODEL) -> dict[
             messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
         )
         text = resp.content[0].text.strip()
-        if text.startswith("```"):
-            text = text.strip("`").removeprefix("json").strip()
-        for item in json.loads(text):
+        for item in parse_json_items(text):
             stance = item["stance"]
             if stance not in DEI_STANCES:
                 stance = "neutral"

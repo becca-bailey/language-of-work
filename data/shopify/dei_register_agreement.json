@@ -1,7 +1,14 @@
 {
-  "n": 0,
-  "accuracy": null,
-  "krippendorff_alpha": null,
-  "confusion": {},
+  "n": 3,
+  "accuracy": 1.0,
+  "krippendorff_alpha": 1.0,
+  "confusion": {
+    "absent": {
+      "absent": 2
+    },
+    "belonging_culture": {
+      "belonging_culture": 1
+    }
+  },
   "disagreements": []
 }

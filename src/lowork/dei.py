@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 import time
 
-from anthropic import Anthropic
+from anthropic import Anthropic, APIConnectionError
 
 from .config import REGISTER_MODEL
 
@@ -170,11 +170,40 @@ def heuristic_register(text: str) -> str:
     return "aspirational_vague"
 
 
-def _parse_batch_text(text: str, results: dict[str, str]) -> None:
+def parse_json_items(text: str) -> list[dict]:
+    """Parse model output that should be a JSON array of objects.
+
+    Tolerates code fences, newline-delimited objects instead of an array,
+    surrounding prose, and multiple concatenated arrays — all observed
+    failure modes of strict json.loads on batch classifier output.
+    Raises only if no JSON value can be recovered at all.
+    """
     text = text.strip()
     if text.startswith("```"):
         text = text.strip("`").removeprefix("json").strip()
-    for item in json.loads(text):
+    decoder = json.JSONDecoder()
+    items: list[dict] = []
+    idx, n = 0, len(text)
+    while idx < n:
+        try:
+            value, end = decoder.raw_decode(text, idx)
+        except json.JSONDecodeError:
+            starts = [p for p in (text.find("[", idx + 1), text.find("{", idx + 1)) if p != -1]
+            if not starts:
+                if items:
+                    break  # trailing prose after valid items
+                raise
+            idx = min(starts)
+            continue
+        items.extend(value if isinstance(value, list) else [value])
+        idx = end
+        while idx < n and text[idx] in " \t\r\n,":
+            idx += 1
+    return items
+
+
+def _parse_batch_text(text: str, results: dict[str, str]) -> None:
+    for item in parse_json_items(text):
         reg = item["register"]
         if reg not in DEI_REGISTERS:
             reg = "absent"
@@ -228,8 +257,21 @@ def classify_registers(chunks: list[dict], model: str = REGISTER_MODEL) -> dict[
         ]
     )
     print(f"  batch {mb.id}: {len(groups)} requests ({len(chunks)} chunks), polling...")
+    batch_id = mb.id
+    conn_errors = 0
     while True:
-        mb = client.messages.batches.retrieve(mb.id)
+        try:
+            mb = client.messages.batches.retrieve(batch_id)
+        except APIConnectionError:
+            # Transient network blips shouldn't kill a run whose batch is
+            # already submitted and billed; the batch keeps processing
+            # server-side regardless.
+            conn_errors += 1
+            if conn_errors > 30:
+                raise
+            print(f"  connection error while polling ({conn_errors}), retrying...")
+            time.sleep(30)
+            continue
         if mb.processing_status == "ended":
             break
         time.sleep(20)

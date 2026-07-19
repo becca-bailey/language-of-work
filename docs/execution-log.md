@@ -190,3 +190,35 @@ dropped; the citable pair is final: **blind α 0.932** (reliability figure) /
 Standing qualifiers on the 0.932: prefilled-label anchoring, and migrated data
 partly matched-by-construction on civilizational rows. Classifier-under-
 new-prompt α still pending a fresh API re-classify.
+
+## 2026-07-19 — Phase 0.3: full-corpus re-classify under current prompts + agreement gates
+
+Ran the batched API re-classify across all 19 companies: `classify_dei_register.py
+--reclassify-all` (rewritten register prompt) + `classify_dei_stance.py
+--reclassify-all` (4-class taxonomy). 4,694 analysis chunks per task, verified
+register/stance counts match per company. Two crash-and-resume cycles along the way,
+both hardened in code: (1) strict `json.loads` on batch output died on
+newline-delimited JSON → tolerant `parse_json_items()` in `lowork/dei.py`, shared by
+both classifiers; (2) a transient connection error killed polling on an
+already-billed batch → poll loop now retries; salesforce's completed batch was
+recovered by ID with no re-spend.
+
+Gate reads (classifier-under-current-prompt, the citable numbers):
+
+- **Register**: `report_dei_agreement.py --task register` →
+  `data/dei_labels/agreement.json`. **Pooled α = 0.802, accuracy 0.876, n = 201**
+  (gate α ≥ 0.80: PASS, at the line). Largest confusions: explicit_demographic →
+  structural_process (6), absent → aspirational_vague (5) — both adjacent-register
+  leaks, no absent↔explicit flips beyond 2.
+- **Stance**: `report_dei_agreement.py --task stance` →
+  `data/dei_labels/stance_agreement.json`. **Pooled α = 0.877, accuracy 0.93,
+  n = 100** (gate α ≥ 0.80: PASS). Down from 0.932 vs the migrated data, as
+  expected — this is the honest number for the prompt we ship. All 7 disagreements
+  are one-directional: classifier says neutral where the hand label is a stance
+  (6× mission_focus_apolitical, 1× affirming_dei). mission_focus_apolitical recall
+  vs hand labels = 14/20; civilizational 3/3; affirming 19/20. Counter-stance
+  counts in the DEI story are therefore floors — the classifier under-detects
+  apolitical counter-programming, it does not invent it.
+
+Phase 0 of the validation-reassurance plan is closed. Downstream re-score
+(score_dei → exports → synthesize) re-run after these labels landed.

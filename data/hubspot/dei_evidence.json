@@ -14,7 +14,7 @@
       {
         "text": "There's a freedom and openness to working at HubSpot that takes a lot of people by surprise. But the good kind of surprise, like a birthday party.",
         "heading": "Culture",
-        "register": "absent",
+        "register": "belonging_culture",
         "stance": "neutral",
         "inclusion": 0.3691,
         "score": 0.3691
@@ -32,7 +32,7 @@
       {
         "text": "There's a freedom and openness to working at HubSpot that takes a lot of people by surprise. But the good kind of surprise, like a birthday party.",
         "heading": "Culture",
-        "register": "absent",
+        "register": "belonging_culture",
         "stance": "neutral",
         "inclusion": 0.3691,
         "score": 0.3691
@@ -40,7 +40,7 @@
       {
         "text": "All global movements start with great people and bold ideas. At HubSpot, we set out with a big mission to transform the way people work and grow through the power of inbound. We're building a once and a lifetime company and we want you to be apart of it. \"I love working at HubSpot because I'm inspired to work as hard and smart as my peers. The people I work with aren't coworkers, they're friends.\"",
         "heading": "Join an amazing team of HubSpotters",
-        "register": "absent",
+        "register": "belonging_culture",
         "stance": "neutral",
         "inclusion": 0.3678,
         "score": 0.3678
@@ -90,7 +90,7 @@
       {
         "text": "There’s more to life than work. As a HubSpotter, you’re encouraged and supported in finding a healthy personal and professional life balance. In our offices, you’ll have access to many perks and free activities to help you enjoy your work and bond with your team members. We allow employees to work flexible hours that suit them and their families, and to work remotely when necessary. Beyond the nat",
         "heading": "Balance",
-        "register": "absent",
+        "register": "belonging_culture",
         "stance": "neutral",
         "inclusion": 0.3215,
         "score": 0.3215
@@ -142,7 +142,7 @@
       {
         "text": "What most people don’t realize though is that the ‘code’ in Culture Code doesn’t mean handbook or a ‘code of conduct’. It means actual code. The kind of code you’d write to build software. As a programmer, I believe building culture is a lot like building a product. First, just like with product you need to talk to your “customers”. In the case of culture -- the “customers” of the culture are the ",
         "heading": "How We Fixed a Critical Bug in HubSpot's Culture Code",
-        "register": "absent",
+        "register": "belonging_culture",
         "stance": "affirming_dei",
         "inclusion": 0.4413,
         "score": 0.4413
@@ -216,7 +216,7 @@
       {
         "text": "In her seminal work, Lean In , well-known Silicon Valley mom, Sheryl Sandberg , recounts being extremely pregnant and having to waddle-run across the entire length of a Google parking lot one morning due to a lack of “pregnancy parking.” The thought of such a policy, says Sandberg, “had never occurred to me. The other pregnant women must have suffered in silence, not wanting to ask for special tre",
         "heading": "Working Moms: The Difference Between Inclusivity and \"Special Treatment\"",
-        "register": "explicit_demographic",
+        "register": "aspirational_vague",
         "stance": "affirming_dei",
         "inclusion": 0.3865,
         "score": 0.3865
@@ -342,7 +342,7 @@
       {
         "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
         "heading": "Employees are treated like people, not line items.",
-        "register": "absent",
+        "register": "belonging_culture",
         "stance": "neutral",
         "inclusion": 0.5053,
         "score": 0.5053
@@ -376,7 +376,7 @@
       {
         "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
         "heading": "Employees are treated like people, not line items.",
-        "register": "absent",
+        "register": "belonging_culture",
         "stance": "neutral",
         "inclusion": 0.5053,
         "score": 0.5053
@@ -410,7 +410,7 @@
       {
         "text": "Read HubSpot's 2023 Diversity, Inclusion, & Belonging Report to learn about the progress we’ve made and the opportunities ahead to build a more inclusive and equitable workplace.",
         "heading": "",
-        "register": "aspirational_vague",
+        "register": "structural_process",
         "stance": "affirming_dei",
         "inclusion": 0.5423,
         "score": 0.5423
@@ -426,7 +426,7 @@
       {
         "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
         "heading": "Employees are treated like people, not line items.",
-        "register": "absent",
+        "register": "belonging_culture",
         "stance": "neutral",
         "inclusion": 0.5053,
         "score": 0.5053
@@ -452,7 +452,7 @@
       {
         "text": "Employees are whole people, with families, hobbies, and lives outside of work. We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
         "heading": "Employees are treated like people, not line items.",
-        "register": "absent",
+        "register": "belonging_culture",
         "stance": "neutral",
         "inclusion": 0.5053,
         "score": 0.5053
@@ -518,6 +518,26 @@
     ]
   },
   "quotes": {
+    "2014": {
+      "inclusionQuote": {
+        "text": "There's a freedom and openness to working at HubSpot that takes a lot of people by surprise. But the good kind of surprise, like a birthday party.",
+        "heading": "Culture",
+        "register": "belonging_culture",
+        "stance": "neutral",
+        "inclusion": 0.3691,
+        "score": 0.3691
+      }
+    },
+    "2015": {
+      "inclusionQuote": {
+        "text": "There's a freedom and openness to working at HubSpot that takes a lot of people by surprise. But the good kind of surprise, like a birthday party.",
+        "heading": "Culture",
+        "register": "belonging_culture",
+        "stance": "neutral",
+        "inclusion": 0.3691,
+        "score": 0.3691
+      }
+    },
     "2016": {
       "inclusionQuote": {
         "text": "A 100 Best Workplace for Women and Best Workplace in Tech by Fortune.com",
@@ -540,12 +560,12 @@
     },
     "2018": {
       "inclusionQuote": {
-        "text": "So, in hopes of making empathy a core value , up-front-and-center, I proposed replacing ‘Effective’ with ‘Empathy’ in HEART. By sharing the idea on HubSpot’s internal Wiki and encouraging employees to share their feedback, HubSpotters confirmed that ‘Empathy’ was the right move. We also got some strong ideas for future revisions to the deck to make sure we don’t lose ‘effectiveness’ completely. (I",
+        "text": "What most people don’t realize though is that the ‘code’ in Culture Code doesn’t mean handbook or a ‘code of conduct’. It means actual code. The kind of code you’d write to build software. As a programmer, I believe building culture is a lot like building a product. First, just like with product you need to talk to your “customers”. In the case of culture -- the “customers” of the culture are the ",
         "heading": "How We Fixed a Critical Bug in HubSpot's Culture Code",
         "register": "belonging_culture",
         "stance": "affirming_dei",
-        "inclusion": 0.4334,
-        "score": 0.4334
+        "inclusion": 0.4413,
+        "score": 0.4413
       }
     },
     "2019": {
