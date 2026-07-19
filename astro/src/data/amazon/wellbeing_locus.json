@@ -4,8 +4,80 @@
   "axis": "wellbeing_locus",
   "years": [
     {
+      "year": 1999,
+      "zscore": -0.4069,
+      "rawTopkMean": 0.0167,
+      "nChunks": 8,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We look forward to hearing from you!",
+          "heading": "",
+          "score": 0.0965
+        },
+        {
+          "text": "As a pioneer in this new marketplace, we're building an important and lasting company--and making history while we do it.",
+          "heading": "",
+          "score": 0.0234
+        },
+        {
+          "text": "(And it's great to be located in downtown Seattle , too!) If you'd like to work with us to build a lasting franchise in this world-changing industry (and have a great time doing it), let us know !",
+          "heading": "",
+          "score": 0.0109
+        },
+        {
+          "text": "We've got opportunities in many different areas.",
+          "heading": "",
+          "score": -0.0218
+        },
+        {
+          "text": "But we don't stop at providing products and information that inspire, educate, and entertain our millions of customers--we also offer a work environment full of exceptionally talented, bright, and driven people.",
+          "heading": "",
+          "score": -0.0253
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "zscore": 1.4976,
+      "rawTopkMean": 0.1129,
+      "nChunks": 10,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Click here . • Redeem or buy a gift certificate. • Visit the Help Desk .",
+          "heading": "",
+          "score": 0.1495
+        },
+        {
+          "text": "This is your chance to make history.",
+          "heading": "",
+          "score": 0.1339
+        },
+        {
+          "text": "Need Help? • Forgot your password?",
+          "heading": "",
+          "score": 0.1039
+        },
+        {
+          "text": "We look forward to hearing from you!",
+          "heading": "",
+          "score": 0.0965
+        },
+        {
+          "text": "If you'd like to help us build the place to find and buy anything online, let us know.",
+          "heading": "",
+          "score": 0.0809
+        }
+      ]
+    },
+    {
       "year": 2007,
-      "zscore": 1.3701,
+      "zscore": 1.3256,
       "rawTopkMean": 0.1042,
       "nChunks": 26,
       "kUsed": 5,
@@ -41,7 +113,7 @@
     },
     {
       "year": 2008,
-      "zscore": 1.2448,
+      "zscore": 1.2058,
       "rawTopkMean": 0.0982,
       "nChunks": 8,
       "kUsed": 5,
@@ -77,7 +149,7 @@
     },
     {
       "year": 2011,
-      "zscore": 0.0995,
+      "zscore": 0.1098,
       "rawTopkMean": 0.0428,
       "nChunks": 18,
       "kUsed": 5,
@@ -113,7 +185,7 @@
     },
     {
       "year": 2013,
-      "zscore": 0.6938,
+      "zscore": 0.6784,
       "rawTopkMean": 0.0716,
       "nChunks": 24,
       "kUsed": 5,
@@ -149,7 +221,7 @@
     },
     {
       "year": 2014,
-      "zscore": -0.5359,
+      "zscore": -0.4983,
       "rawTopkMean": 0.0121,
       "nChunks": 3,
       "kUsed": 3,
@@ -175,7 +247,7 @@
     },
     {
       "year": 2016,
-      "zscore": -0.0135,
+      "zscore": 0.0016,
       "rawTopkMean": 0.0374,
       "nChunks": 45,
       "kUsed": 5,
@@ -211,7 +283,7 @@
     },
     {
       "year": 2017,
-      "zscore": 1.1272,
+      "zscore": 1.0932,
       "rawTopkMean": 0.0925,
       "nChunks": 131,
       "kUsed": 5,
@@ -247,7 +319,7 @@
     },
     {
       "year": 2018,
-      "zscore": -0.934,
+      "zscore": -0.8793,
       "rawTopkMean": -0.0071,
       "nChunks": 3,
       "kUsed": 3,
@@ -273,7 +345,7 @@
     },
     {
       "year": 2019,
-      "zscore": -2.3096,
+      "zscore": -2.1956,
       "rawTopkMean": -0.0736,
       "nChunks": 4,
       "kUsed": 4,
@@ -304,7 +376,7 @@
     },
     {
       "year": 2023,
-      "zscore": -0.4251,
+      "zscore": -0.3922,
       "rawTopkMean": 0.0175,
       "nChunks": 11,
       "kUsed": 5,
@@ -339,8 +411,44 @@
       ]
     },
     {
+      "year": 2024,
+      "zscore": -1.2649,
+      "rawTopkMean": -0.0266,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We also invest in employees’ success.",
+          "heading": "Our Workplace",
+          "score": 0.0044
+        },
+        {
+          "text": "Amazon will spend over $1.2 billion to provide free skills training to employees—helping them further their careers in tech and in-demand roles such as cloud computing.",
+          "heading": "Our Workplace",
+          "score": 0.0028
+        },
+        {
+          "text": "The customer is at the heart of everything we do.",
+          "heading": "Our Workplace",
+          "score": -0.0093
+        },
+        {
+          "text": "Amazon is a place where smart, passionate people obsess over customers and innovate on their behalf.",
+          "heading": "Our Workplace",
+          "score": -0.0601
+        },
+        {
+          "text": "Amazon has created more U.S. jobs in the last decade than any other company.",
+          "heading": "Our Workplace",
+          "score": -0.0707
+        }
+      ]
+    },
+    {
       "year": 2025,
-      "zscore": 0.0495,
+      "zscore": 0.0619,
       "rawTopkMean": 0.0404,
       "nChunks": 19,
       "kUsed": 5,
@@ -376,7 +484,7 @@
     },
     {
       "year": 2026,
-      "zscore": -0.367,
+      "zscore": -0.3367,
       "rawTopkMean": 0.0203,
       "nChunks": 21,
       "kUsed": 5,

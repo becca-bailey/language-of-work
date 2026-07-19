@@ -4,11 +4,27 @@
   "axis": "meritocracy",
   "years": [
     {
-      "year": 2005,
-      "zscore": -2.0609,
-      "rawTopkMean": 0.1269,
-      "nChunks": 2,
-      "kUsed": 2,
+      "year": 2003,
+      "zscore": -1.7261,
+      "rawTopkMean": 0.1568,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "No Due Dates! Over 15,000 Titles! No Commitments! Cancel Anytime.",
+          "heading": "",
+          "score": 0.1568
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "zscore": -1.9013,
+      "rawTopkMean": 0.1292,
+      "nChunks": 1,
+      "kUsed": 1,
       "thin": true,
       "carriedForwardFrac": null,
       "quotes": [
@@ -16,7 +32,18 @@
           "text": "The #1 Online DVD Rental Service with over 2,000,000 members!",
           "heading": "",
           "score": 0.1292
-        },
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "zscore": -1.9314,
+      "rawTopkMean": 0.1245,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
         {
           "text": "The #1 Online DVD Rental Service with more than 3,000,000 members!",
           "heading": "",
@@ -26,7 +53,7 @@
     },
     {
       "year": 2011,
-      "zscore": -0.0248,
+      "zscore": 0.0577,
       "rawTopkMean": 0.4373,
       "nChunks": 1,
       "kUsed": 1,
@@ -34,7 +61,7 @@
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough that you can make a difference, but big enough that we can transform an industry When you say where you work, your friends will remark \"oh, I love Netflix!\"",
+          "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
           "heading": "Netflix Business Opportunity",
           "score": 0.4373
         }
@@ -42,7 +69,7 @@
     },
     {
       "year": 2013,
-      "zscore": 0.304,
+      "zscore": 0.3764,
       "rawTopkMean": 0.4875,
       "nChunks": 8,
       "kUsed": 5,
@@ -78,7 +105,7 @@
     },
     {
       "year": 2014,
-      "zscore": 0.2853,
+      "zscore": 0.3583,
       "rawTopkMean": 0.4846,
       "nChunks": 9,
       "kUsed": 5,
@@ -87,12 +114,12 @@
       "quotes": [
         {
           "text": "We are candid and transparent and seek excellence in everything that we do.",
-          "heading": "Netflix Culture",
+          "heading": "Join our team",
           "score": 0.5819
         },
         {
           "text": "Who we are At Netflix we value high performance, freedom and responsibility.",
-          "heading": "Netflix Culture",
+          "heading": "Join our team",
           "score": 0.5278
         },
         {
@@ -102,21 +129,21 @@
         },
         {
           "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here.",
-          "heading": "Netflix Culture",
+          "heading": "Join our team",
           "score": 0.4162
         },
         {
           "text": "What we do We tackle problems others have not been able to solve.",
-          "heading": "Join our team",
+          "heading": "Netflix Culture",
           "score": 0.4131
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.7999,
-      "rawTopkMean": 0.5631,
-      "nChunks": 130,
+      "zscore": 0.8867,
+      "rawTopkMean": 0.5677,
+      "nChunks": 132,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -137,58 +164,22 @@
           "score": 0.5495
         },
         {
-          "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support.",
-          "heading": "Dream Team",
-          "score": 0.5318
-        },
-        {
-          "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized",
-          "heading": "Inclusion",
-          "score": 0.5246
-        }
-      ]
-    },
-    {
-      "year": 2018,
-      "zscore": 0.5819,
-      "rawTopkMean": 0.5298,
-      "nChunks": 55,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "Like all great companies, we strive to hire the best and we value integrity, excellence, respect, and collaboration.",
-          "heading": "Netflix Culture",
-          "score": 0.625
-        },
-        {
           "text": "Our core philosophy is people over process.",
           "heading": "Freedom and Responsibility",
           "score": 0.5478
         },
         {
-          "text": "We believe that people thrive on being trusted, on freedom, and on being able to make a difference.",
-          "heading": "Freedom & Responsibility",
-          "score": 0.5105
-        },
-        {
-          "text": "We work to have a company of self-disciplined people who discover and fix issues without being told to do so.",
-          "heading": "Freedom & Responsibility",
-          "score": 0.4867
-        },
-        {
-          "text": "What is special about Netflix, though, is how much we: Share information openly, broadly and deliberately Are extraordinarily candid with each other Keep only our highly effective people Our core philosophy is people over process .",
-          "heading": "Netflix Culture",
-          "score": 0.4792
+          "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support.",
+          "heading": "Dream Team",
+          "score": 0.5318
         }
       ]
     },
     {
-      "year": 2019,
-      "zscore": 0.4461,
-      "rawTopkMean": 0.5091,
-      "nChunks": 62,
+      "year": 2018,
+      "zscore": 0.7631,
+      "rawTopkMean": 0.5483,
+      "nChunks": 107,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -199,32 +190,68 @@
           "score": 0.6256
         },
         {
+          "text": "Like all great companies, we strive to hire the best and we value integrity, excellence, respect, and collaboration.",
+          "heading": "Netflix Culture",
+          "score": 0.625
+        },
+        {
+          "text": "We believe that people thrive on being trusted, on freedom, and on being able to make a difference.",
+          "heading": "Freedom & Responsibility",
+          "score": 0.5105
+        },
+        {
           "text": "What is special about Netflix, though, is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people Our core philosophy is people over process .",
           "heading": "Netflix Culture",
           "score": 0.4936
         },
+        {
+          "text": "We work to have a company of self-disciplined people who discover and fix issues without being told to do so.",
+          "heading": "Freedom & Responsibility",
+          "score": 0.4867
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "zscore": 0.2176,
+      "rawTopkMean": 0.4625,
+      "nChunks": 48,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
         {
           "text": "Unquestionably, we have to hire well.",
           "heading": "Dream Team",
           "score": 0.4816
         },
         {
-          "text": "Below are our real values, the specific behaviors and skills we care about most.",
-          "heading": "Real Values",
-          "score": 0.4802
+          "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized",
+          "heading": "Inclusion",
+          "score": 0.4716
         },
         {
-          "text": "The unusual part is that we give adequate performers a generous severance package 2 so that we can find a star for that position.",
+          "text": "While our teammates are fantastic, and we work together very well, we know we can always do better.",
           "heading": "Dream Team",
-          "score": 0.4646
+          "score": 0.4684
+        },
+        {
+          "text": "The unusual part is that we give adequate performers a generous 2 severance package so that we can find a star for that position.",
+          "heading": "Dream Team",
+          "score": 0.4497
+        },
+        {
+          "text": "Our version of the great workplace is a dream team in pursuit of ambitious common goals, for which we spend heavily.",
+          "heading": "Dream Team",
+          "score": 0.4412
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.6416,
+      "zscore": 0.7037,
       "rawTopkMean": 0.5389,
-      "nChunks": 116,
+      "nChunks": 76,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -258,7 +285,7 @@
     },
     {
       "year": 2021,
-      "zscore": 0.0279,
+      "zscore": 0.1087,
       "rawTopkMean": 0.4454,
       "nChunks": 8,
       "kUsed": 5,
@@ -294,25 +321,45 @@
     },
     {
       "year": 2022,
-      "zscore": -2.2701,
-      "rawTopkMean": 0.095,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "zscore": 0.6928,
+      "rawTopkMean": 0.5372,
+      "nChunks": 195,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Netflix has more than 220 million active members who perform a variety of actions throughout each session, ranging from renaming a profile to watchi...",
-          "heading": "Intro",
-          "score": 0.095
+          "text": "We insist on decent human interactions, no matter how brilliant someone may be.",
+          "heading": "Dream Team",
+          "score": 0.5631
+        },
+        {
+          "text": "We believe a company’s actual values are shown by whom they hire, reward or let go.",
+          "heading": "Valued Behaviors",
+          "score": 0.556
+        },
+        {
+          "text": "That’s why our core philosophy is people over process , and why we try to bring great people together as a dream team .",
+          "heading": "Netflix Culture — Seeking Excellence",
+          "score": 0.5399
+        },
+        {
+          "text": "Our model works best for people who value excellence and the opportunities it provides.",
+          "heading": "Dream Team",
+          "score": 0.515
+        },
+        {
+          "text": "Just like our members, our employees have unique perspectives based on their backgrounds and experience.",
+          "heading": "Representation Matters",
+          "score": 0.5121
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 0.7563,
+      "zscore": 0.8149,
       "rawTopkMean": 0.5564,
-      "nChunks": 98,
+      "nChunks": 99,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -345,8 +392,8 @@
       ]
     },
     {
-      "year": 2026,
-      "zscore": 0.5128,
+      "year": 2025,
+      "zscore": 0.5788,
       "rawTopkMean": 0.5193,
       "nChunks": 35,
       "kUsed": 5,

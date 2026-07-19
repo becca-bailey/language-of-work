@@ -6,7 +6,7 @@
 // scales with similarity. Reads the diffusion over time and its volume at once.
 import { lineageConcepts } from "./lineage";
 
-const MIN = 2005, MAX = 2026;
+const MIN = 1999, MAX = 2026;
 const x = (y: number) => `${((Math.min(MAX, Math.max(MIN, y)) - MIN) / (MAX - MIN)) * 100}%`;
 // Similarity -> depth of the info-colored echo dot (kept opaque enough to stay visible),
 // derived from the --info token via color-mix so it re-themes with the palette.
@@ -19,7 +19,7 @@ const paraphraseText = "color-mix(in srgb, var(--alert) 45%, black)";
 
 const concepts = (await lineageConcepts()).sort((a, b) =>
   (b.adopters.length - a.adopters.length) || ((b.echoes?.length ?? 0) - (a.echoes?.length ?? 0)));
-const ticks = [2005, 2010, 2015, 2020, 2025];
+const ticks = [2000, 2005, 2010, 2015, 2020, 2025];
 ---
 
 <div class="my-6 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">

@@ -9,6 +9,84 @@
   ],
   "years": [
     {
+      "year": 2002,
+      "total_chunks": 4,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2003,
+      "total_chunks": 11,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2004,
+      "total_chunks": 10,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
       "year": 2009,
       "total_chunks": 10,
       "ai_chunks": 0,
@@ -432,7 +510,7 @@
     },
     {
       "year": 2026,
-      "total_chunks": 29,
+      "total_chunks": 32,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -448,7 +526,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 3,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         }

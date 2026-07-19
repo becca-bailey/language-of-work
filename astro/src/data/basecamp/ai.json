@@ -5,6 +5,87 @@
   "caveat": "Framing projections have ~4 years of real signal by construction; per-company timing is not comparable until corpus gaps are filled.",
   "years": [
     {
+      "year": 2002,
+      "totalChunks": 4,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2003,
+      "totalChunks": 11,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2004,
+      "totalChunks": 10,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
       "year": 2009,
       "totalChunks": 10,
       "aiChunks": 0,
@@ -445,7 +526,7 @@
     },
     {
       "year": 2026,
-      "totalChunks": 29,
+      "totalChunks": 32,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -461,7 +542,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 3,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         }

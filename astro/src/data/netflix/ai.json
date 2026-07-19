@@ -5,6 +5,45 @@
   "caveat": "Framing projections have ~4 years of real signal by construction; per-company timing is not comparable until corpus gaps are filled.",
   "years": [
     {
+      "year": 2003,
+      "totalChunks": 2,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2004,
+      "totalChunks": 2,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
       "year": 2005,
       "totalChunks": 3,
       "aiChunks": 0,
@@ -62,6 +101,23 @@
     },
     {
       "year": 2008,
+      "totalChunks": 2,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2009,
       "totalChunks": 1,
       "aiChunks": 0,
       "prevalence": 0.0,
@@ -181,29 +237,12 @@
     },
     {
       "year": 2017,
-      "totalChunks": 30,
-      "aiChunks": 0,
-      "prevalence": 0.0,
-      "thin": false,
-      "labels": {
-        "mission_brand": {
-          "chunks": 30,
-          "ai_chunks": 0,
-          "mentions": 0
-        }
-      },
-      "terms": {},
-      "projections": [],
-      "quotes": []
-    },
-    {
-      "year": 2018,
       "totalChunks": 33,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
-        "job_listing": {
+        "employee_story": {
           "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
@@ -219,8 +258,30 @@
       "quotes": []
     },
     {
+      "year": 2018,
+      "totalChunks": 37,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 36,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
       "year": 2019,
-      "totalChunks": 39,
+      "totalChunks": 46,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -236,7 +297,7 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 35,
+          "chunks": 42,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -247,11 +308,16 @@
     },
     {
       "year": 2020,
-      "totalChunks": 33,
+      "totalChunks": 34,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
           "chunks": 33,
           "ai_chunks": 0,
@@ -286,13 +352,13 @@
     },
     {
       "year": 2022,
-      "totalChunks": 34,
+      "totalChunks": 64,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 34,
+          "chunks": 64,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -303,13 +369,13 @@
     },
     {
       "year": 2023,
-      "totalChunks": 2,
+      "totalChunks": 32,
       "aiChunks": 0,
       "prevalence": 0.0,
-      "thin": true,
+      "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 32,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -320,13 +386,18 @@
     },
     {
       "year": 2024,
-      "totalChunks": 12,
+      "totalChunks": 45,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
-          "chunks": 12,
+          "chunks": 43,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -337,13 +408,13 @@
     },
     {
       "year": 2025,
-      "totalChunks": 10,
+      "totalChunks": 16,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 10,
+          "chunks": 16,
           "ai_chunks": 0,
           "mentions": 0
         }

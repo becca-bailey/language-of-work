@@ -1,17 +1,56 @@
 {
-  "company": "starbucks",
-  "display_name": "Starbucks",
-  "comment": "Careers pages. Starbucks frames employees as 'partners' and is benefits-forward (college, healthcare); a non-tech, mission-driven retailer — a useful out-of-sector case. Seed patterns; refine after `discover`.",
-  "hosts": ["starbucks.com", "www.starbucks.com", "careers.starbucks.com", "about.starbucks.com", "stories.starbucks.com"],
-  "comment_patterns": "Refined after discover: `starbucks.com/career` (prefix) is a superset of /careers that also catches the 2010-2012 era; `careers.starbucks.com` covers the 2024+ subdomain. www/ and bare /careers were exact duplicates (CDX normalizes www) and were dropped. No early captures 2005-2007. Adjacent pages added via link expansion (M8): /responsibility (diversity, community, shared-values 2011-2020), /aboutus (2008-era csr/overview/partner-experience), about.starbucks.com (belonging/communities/foundation 2021+), stories.starbucks.com/stories/inclusion-diversity.",
-  "patterns": [
-    {"url": "starbucks.com/career", "match_type": "prefix", "era_hint": "2008-2025"},
-    {"url": "careers.starbucks.com", "match_type": "prefix", "era_hint": "2024-2026"},
-    {"url": "starbucks.com/responsibility", "match_type": "prefix", "era_hint": "2010-2020"},
-    {"url": "starbucks.com/responsibility/diversity", "match_type": "prefix", "era_hint": "2010-2016"},
-    {"url": "starbucks.com/responsibility/community/diversity-and-inclusion", "match_type": "prefix", "era_hint": "2013-2020"},
-    {"url": "starbucks.com/aboutus", "match_type": "prefix", "era_hint": "2008-2012"},
-    {"url": "about.starbucks.com", "match_type": "prefix", "era_hint": "2021-2026"},
-    {"url": "stories.starbucks.com/stories/inclusion-diversity", "match_type": "prefix", "era_hint": "2020-2026"}
-  ]
+ "company": "starbucks",
+ "display_name": "Starbucks",
+ "comment": "Careers pages. Starbucks frames employees as 'partners' and is benefits-forward (college, healthcare); a non-tech, mission-driven retailer — a useful out-of-sector case. Seed patterns; refine after `discover`.",
+ "hosts": [
+  "starbucks.com",
+  "www.starbucks.com",
+  "careers.starbucks.com",
+  "about.starbucks.com",
+  "stories.starbucks.com"
+ ],
+ "comment_patterns": "Refined after discover: `starbucks.com/career` (prefix) is a superset of /careers that also catches the 2010-2012 era; `careers.starbucks.com` covers the 2024+ subdomain. www/ and bare /careers were exact duplicates (CDX normalizes www) and were dropped. No early captures 2005-2007. Adjacent pages added via link expansion (M8): /responsibility (diversity, community, shared-values 2011-2020), /aboutus (2008-era csr/overview/partner-experience), about.starbucks.com (belonging/communities/foundation 2021+), stories.starbucks.com/stories/inclusion-diversity.",
+ "patterns": [
+  {
+   "url": "starbucks.com/career",
+   "match_type": "prefix",
+   "era_hint": "2008-2025"
+  },
+  {
+   "url": "careers.starbucks.com",
+   "match_type": "prefix",
+   "era_hint": "2024-2026"
+  },
+  {
+   "url": "starbucks.com/responsibility",
+   "match_type": "prefix",
+   "era_hint": "2010-2020"
+  },
+  {
+   "url": "starbucks.com/responsibility/diversity",
+   "match_type": "prefix",
+   "era_hint": "2010-2016"
+  },
+  {
+   "url": "starbucks.com/responsibility/community/diversity-and-inclusion",
+   "match_type": "prefix",
+   "era_hint": "2013-2020"
+  },
+  {
+   "url": "starbucks.com/aboutus",
+   "match_type": "prefix",
+   "era_hint": "2008-2012 | from_year widened 1998 (pre-2005 archaeology 2026-07-18)",
+   "from_year": 1998
+  },
+  {
+   "url": "about.starbucks.com",
+   "match_type": "prefix",
+   "era_hint": "2021-2026"
+  },
+  {
+   "url": "stories.starbucks.com/stories/inclusion-diversity",
+   "match_type": "prefix",
+   "era_hint": "2020-2026"
+  }
+ ]
 }

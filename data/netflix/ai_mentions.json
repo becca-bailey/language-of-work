@@ -9,6 +9,43 @@
   ],
   "years": [
     {
+      "year": 2003,
+      "total_chunks": 2,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2004,
+      "total_chunks": 2,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
       "year": 2005,
       "total_chunks": 3,
       "ai_chunks": 0,
@@ -63,6 +100,22 @@
     },
     {
       "year": 2008,
+      "total_chunks": 2,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2009,
       "total_chunks": 1,
       "ai_chunks": 0,
       "prevalence": 0.0,
@@ -175,28 +228,12 @@
     },
     {
       "year": 2017,
-      "total_chunks": 30,
-      "ai_chunks": 0,
-      "prevalence": 0.0,
-      "thin": false,
-      "labels": {
-        "mission_brand": {
-          "chunks": 30,
-          "ai_chunks": 0,
-          "mentions": 0
-        }
-      },
-      "terms": {},
-      "examples": []
-    },
-    {
-      "year": 2018,
       "total_chunks": 33,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
-        "job_listing": {
+        "employee_story": {
           "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
@@ -211,8 +248,29 @@
       "examples": []
     },
     {
+      "year": 2018,
+      "total_chunks": 37,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 36,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
       "year": 2019,
-      "total_chunks": 39,
+      "total_chunks": 46,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -228,7 +286,7 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 35,
+          "chunks": 42,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -238,11 +296,16 @@
     },
     {
       "year": 2020,
-      "total_chunks": 33,
+      "total_chunks": 34,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
           "chunks": 33,
           "ai_chunks": 0,
@@ -275,13 +338,13 @@
     },
     {
       "year": 2022,
-      "total_chunks": 34,
+      "total_chunks": 64,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 34,
+          "chunks": 64,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -291,13 +354,13 @@
     },
     {
       "year": 2023,
-      "total_chunks": 2,
+      "total_chunks": 32,
       "ai_chunks": 0,
       "prevalence": 0.0,
-      "thin": true,
+      "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 32,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -307,13 +370,18 @@
     },
     {
       "year": 2024,
-      "total_chunks": 12,
+      "total_chunks": 45,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
-          "chunks": 12,
+          "chunks": 43,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -323,13 +391,13 @@
     },
     {
       "year": 2025,
-      "total_chunks": 10,
+      "total_chunks": 16,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 10,
+          "chunks": 16,
           "ai_chunks": 0,
           "mentions": 0
         }

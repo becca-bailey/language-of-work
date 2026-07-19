@@ -5,6 +5,153 @@
   "caveat": "Framing projections have ~4 years of real signal by construction; per-company timing is not comparable until corpus gaps are filled.",
   "years": [
     {
+      "year": 1999,
+      "totalChunks": 4,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2000,
+      "totalChunks": 1,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2001,
+      "totalChunks": 5,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2002,
+      "totalChunks": 3,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2003,
+      "totalChunks": 8,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2004,
+      "totalChunks": 8,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
       "year": 2005,
       "totalChunks": 1,
       "aiChunks": 0,
@@ -23,18 +170,23 @@
     },
     {
       "year": 2006,
-      "totalChunks": 10,
+      "totalChunks": 23,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "employee_story": {
-          "chunks": 3,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 1,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -50,13 +202,18 @@
     },
     {
       "year": 2007,
-      "totalChunks": 16,
+      "totalChunks": 22,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "employee_story": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "job_listing": {
-          "chunks": 13,
+          "chunks": 17,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -77,11 +234,16 @@
     },
     {
       "year": 2008,
-      "totalChunks": 6,
+      "totalChunks": 12,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "employee_story": {
           "chunks": 3,
           "ai_chunks": 0,
@@ -98,7 +260,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 1,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -109,18 +271,23 @@
     },
     {
       "year": 2009,
-      "totalChunks": 22,
+      "totalChunks": 29,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "employee_story": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "job_listing": {
           "chunks": 16,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -136,7 +303,7 @@
     },
     {
       "year": 2010,
-      "totalChunks": 12,
+      "totalChunks": 44,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -147,17 +314,17 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 6,
+          "chunks": 34,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 1,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 4,
+          "chunks": 7,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -168,7 +335,7 @@
     },
     {
       "year": 2011,
-      "totalChunks": 42,
+      "totalChunks": 46,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -184,7 +351,7 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 30,
+          "chunks": 34,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -200,23 +367,28 @@
     },
     {
       "year": 2012,
-      "totalChunks": 15,
+      "totalChunks": 50,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "job_listing": {
-          "chunks": 12,
+          "chunks": 28,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 5,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 1,
+          "chunks": 11,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -227,7 +399,7 @@
     },
     {
       "year": 2013,
-      "totalChunks": 39,
+      "totalChunks": 41,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -237,13 +409,18 @@
           "ai_chunks": 0,
           "mentions": 0
         },
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "job_listing": {
           "chunks": 28,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -259,7 +436,7 @@
     },
     {
       "year": 2014,
-      "totalChunks": 22,
+      "totalChunks": 58,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -270,12 +447,12 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 10,
+          "chunks": 42,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 8,
+          "chunks": 12,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -291,7 +468,7 @@
     },
     {
       "year": 2015,
-      "totalChunks": 49,
+      "totalChunks": 85,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -307,17 +484,17 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 17,
+          "chunks": 34,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 18,
+          "chunks": 36,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 7,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -328,7 +505,7 @@
     },
     {
       "year": 2016,
-      "totalChunks": 11,
+      "totalChunks": 13,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -339,12 +516,12 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 8,
+          "chunks": 9,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -382,28 +559,33 @@
     },
     {
       "year": 2018,
-      "totalChunks": 38,
+      "totalChunks": 69,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "employee_story": {
-          "chunks": 8,
+          "chunks": 11,
           "ai_chunks": 0,
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 15,
+          "chunks": 35,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 14,
+          "chunks": 19,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 1,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -414,23 +596,23 @@
     },
     {
       "year": 2019,
-      "totalChunks": 35,
+      "totalChunks": 78,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "employee_story": {
-          "chunks": 9,
-          "ai_chunks": 0,
-          "mentions": 0
-        },
-        "job_listing": {
           "chunks": 13,
           "ai_chunks": 0,
           "mentions": 0
         },
+        "job_listing": {
+          "chunks": 49,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
-          "chunks": 12,
+          "chunks": 15,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -446,13 +628,13 @@
     },
     {
       "year": 2020,
-      "totalChunks": 52,
-      "aiChunks": 0,
-      "prevalence": 0.0,
+      "totalChunks": 75,
+      "aiChunks": 6,
+      "prevalence": 0.08,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 5,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -462,12 +644,12 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 28,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 46,
+          "ai_chunks": 6,
+          "mentions": 48
         },
         "mission_brand": {
-          "chunks": 7,
+          "chunks": 9,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -477,15 +659,98 @@
           "mentions": 0
         }
       },
-      "terms": {},
-      "projections": [],
-      "quotes": []
+      "terms": {
+        "machine learning": 31,
+        "ML": 14,
+        "AI": 2,
+        "deep learning": 1
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0889,
+          "nChunks": 6,
+          "thin": false
+        },
+        {
+          "group": "hire",
+          "meanProjection": -0.0889,
+          "nChunks": 6,
+          "thin": false
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "dedc086b8c831fa1",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.1176,
+          "text": "See full role description Computer Vision Software Developer in Test Share Computer Vision Software Developer in Test Share this role. Close Role Number: 200127031 Weekly Hours: 40 Hours At Apple we tackle large scale engineering challenges to surprise and delight our users. To build, maintain, and extend the necessary architecture for these tasks Apple is looking for an excellent software enginee"
+        },
+        {
+          "chunk_id": "56de65ef8c043a45",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.0947,
+          "text": "Add to Favorites Machine Learning Engineer Removed from favorites To view your favorites, sign in with your Apple ID. Sign In Don’t have an Apple ID? Create one now Forgot your Apple ID or password? Share Machine Learning Engineer Share this role. Close Submit Resume Machine Learning Engineer See full role description Machine Learning Engineer Share Machine Learning Engineer Share this role. Close"
+        },
+        {
+          "chunk_id": "99e9d6c7b02cc7c5",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.086,
+          "text": "Add to Favorites Computer Vision/ Machine Learning Engineer- Video Engineering Removed from favorites To view your favorites, sign in with your Apple ID. Sign In Don’t have an Apple ID? Create one now Forgot your Apple ID or password? Share Computer Vision/ Machine Learning Engineer- Video Engineering Share this role. Close Submit Resume Computer Vision/ Machine Learning Engineer- Video Engineerin"
+        },
+        {
+          "chunk_id": "ae5bd948eddef296",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "ML",
+            "machine learning"
+          ],
+          "projection": -0.082,
+          "text": "Add to Favorites Applied ML Engineer (Computer Vision) Removed from favorites To view your favorites, sign in with your Apple ID. Sign In Don’t have an Apple ID? Create one now Forgot your Apple ID or password? Share Applied ML Engineer (Computer Vision) Share this role. Close Submit Resume Applied ML Engineer (Computer Vision) See full role description Applied ML Engineer (Computer Vision) Share "
+        },
+        {
+          "chunk_id": "813923726743f48a",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "ML",
+            "deep learning",
+            "machine learning"
+          ],
+          "projection": -0.0798,
+          "text": "See full role description Computer Vision Intern - Zurich Share Computer Vision Intern - Zurich Share this role. Close Role Number: 200113400 Weekly Hours: 40 Hours We are continuously advancing the state of the art in computer vision and machine learning. At Apple, we have a balanced mix of research and focus on delivering only the best products. We are looking for an applied researcher and engin"
+        },
+        {
+          "chunk_id": "696bbdc27aab72de",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "ML"
+          ],
+          "projection": -0.0734,
+          "text": "Add to Favorites ML & Data Infrastructure Engineer Removed from favorites To view your favorites, sign in with your Apple ID. Sign In Don’t have an Apple ID? Create one now Forgot your Apple ID or password? Share ML & Data Infrastructure Engineer Share this role. Close Submit Resume ML & Data Infrastructure Engineer See full role description ML & Data Infrastructure Engineer Share ML & Data Infras"
+        }
+      ]
     },
     {
       "year": 2021,
-      "totalChunks": 105,
-      "aiChunks": 9,
-      "prevalence": 0.0857,
+      "totalChunks": 127,
+      "aiChunks": 11,
+      "prevalence": 0.0866,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -494,17 +759,17 @@
           "mentions": 2
         },
         "employee_story": {
-          "chunks": 16,
+          "chunks": 23,
           "ai_chunks": 2,
           "mentions": 4
         },
         "job_listing": {
-          "chunks": 34,
-          "ai_chunks": 5,
-          "mentions": 14
+          "chunks": 48,
+          "ai_chunks": 7,
+          "mentions": 23
         },
         "mission_brand": {
-          "chunks": 48,
+          "chunks": 49,
           "ai_chunks": 1,
           "mentions": 1
         },
@@ -515,23 +780,23 @@
         }
       },
       "terms": {
-        "machine learning": 9,
-        "AI": 7,
+        "machine learning": 13,
+        "AI": 10,
+        "deep learning": 3,
         "ML": 2,
-        "deep learning": 2,
-        "artificial intelligence": 1
+        "artificial intelligence": 2
       },
       "projections": [
         {
           "group": "all",
-          "meanProjection": -0.073,
-          "nChunks": 9,
+          "meanProjection": -0.0714,
+          "nChunks": 11,
           "thin": false
         },
         {
           "group": "hire",
-          "meanProjection": -0.066,
-          "nChunks": 5,
+          "meanProjection": -0.0654,
+          "nChunks": 7,
           "thin": false
         },
         {
@@ -580,6 +845,16 @@
           "text": "If you are a Colorado resident, this is for you: At Apple, we see the whole you. We carefully consider a wide range of compensation factors, including your background and experience. These considerations can cause your compensation to vary. AI/ML - Analytics Engineer, Siri Data starts at a minimum annual salary of $105,600. The actual pay may be higher depending on your skills, qualifications, and"
         },
         {
+          "chunk_id": "26c47d8dc54dd378",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.0864,
+          "text": "How do over 130,000 employees stay connected to each other, to suppliers, and to over a billion customers around the world? They depend on Apple’s nerve center — Information Systems and Technology (IS&T). They could depend on you, as you help design and manage the massive systems that run Apple services such as Apple Pay and the Apple website, as well as manufacturing, logistics, retail operations"
+        },
+        {
           "chunk_id": "56f4de0f15f21e40",
           "label": "job_listing",
           "group": "hire",
@@ -621,27 +896,14 @@
           ],
           "projection": -0.0449,
           "text": "Features like gesture-reading sensors and fingerprint-recognizing Touch ID are perfect examples of what this group can do when they work with the hardware and software groups and many others throughout Apple. Areas of work include Sensing Hardware Engineering, Sensing ASIC Architecture, Algorithm Engineering, Machine Learning Engineering, Deep Learning, Firmware Engineering, Software Engineering, "
-        },
-        {
-          "chunk_id": "fdaf44d7b13c4f48",
-          "label": "job_listing",
-          "group": "hire",
-          "terms": [
-            "AI",
-            "artificial intelligence",
-            "deep learning",
-            "machine learning"
-          ],
-          "projection": -0.0435,
-          "text": "Machine learning and AI continue to grow in importance for virtually every Apple product and service, so your contributions in these fields can make an impact on many groups here. You’ll help develop algorithms that solve some of the most complex AI problems, integrating your work into powerful neural processors to provide speed and efficiency for a great user experience. And you’ll do it with the"
         }
       ]
     },
     {
       "year": 2022,
-      "totalChunks": 137,
+      "totalChunks": 152,
       "aiChunks": 8,
-      "prevalence": 0.0584,
+      "prevalence": 0.0526,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -655,7 +917,7 @@
           "mentions": 4
         },
         "job_listing": {
-          "chunks": 35,
+          "chunks": 50,
           "ai_chunks": 5,
           "mentions": 30
         },
@@ -785,9 +1047,9 @@
     },
     {
       "year": 2023,
-      "totalChunks": 105,
+      "totalChunks": 107,
       "aiChunks": 3,
-      "prevalence": 0.0286,
+      "prevalence": 0.028,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -801,7 +1063,7 @@
           "mentions": 4
         },
         "job_listing": {
-          "chunks": 18,
+          "chunks": 20,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -872,13 +1134,13 @@
     },
     {
       "year": 2024,
-      "totalChunks": 60,
+      "totalChunks": 72,
       "aiChunks": 1,
-      "prevalence": 0.0167,
+      "prevalence": 0.0139,
       "thin": false,
       "labels": {
         "job_listing": {
-          "chunks": 19,
+          "chunks": 31,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -925,9 +1187,9 @@
     },
     {
       "year": 2025,
-      "totalChunks": 92,
-      "aiChunks": 4,
-      "prevalence": 0.0435,
+      "totalChunks": 117,
+      "aiChunks": 23,
+      "prevalence": 0.1966,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -941,9 +1203,9 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 27,
-          "ai_chunks": 1,
-          "mentions": 1
+          "chunks": 52,
+          "ai_chunks": 20,
+          "mentions": 203
         },
         "mission_brand": {
           "chunks": 43,
@@ -957,20 +1219,29 @@
         }
       },
       "terms": {
-        "machine learning": 4
+        "machine learning": 104,
+        "foundation models": 34,
+        "ML": 23,
+        "AI": 17,
+        "generative ai": 12,
+        "LLMs": 8,
+        "deep learning": 3,
+        "artificial intelligence": 3,
+        "large language models": 1,
+        "large language model": 1
       },
       "projections": [
         {
           "group": "all",
-          "meanProjection": -0.0728,
-          "nChunks": 4,
-          "thin": true
+          "meanProjection": -0.0906,
+          "nChunks": 23,
+          "thin": false
         },
         {
           "group": "hire",
-          "meanProjection": -0.0782,
-          "nChunks": 1,
-          "thin": true
+          "meanProjection": -0.0935,
+          "nChunks": 20,
+          "thin": false
         },
         {
           "group": "talk",
@@ -981,52 +1252,106 @@
       ],
       "quotes": [
         {
-          "chunk_id": "ad91a05d604dde40",
+          "chunk_id": "24afbebaa11a4d1e",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "deep learning",
+            "foundation models",
+            "machine learning"
+          ],
+          "projection": -0.1081,
+          "text": "See full role description AIML - Machine Learning Engineer, Foundation Models Share AIML - Machine Learning Engineer, Foundation Models Share this role. Close Role Number: 200547609 Weekly Hours: 40 Hours We are a group of engineers and researchers responsible for building foundation models at Apple. We build infrastructure, datasets, and models with fundamental general capabilities such as unders"
+        },
+        {
+          "chunk_id": "6deadb5c624e5fbd",
           "label": "job_listing",
           "group": "hire",
           "terms": [
             "machine learning"
           ],
-          "projection": -0.0782,
-          "text": "Add to Favorites Data Infrastructure Engineer, Shazam (Fixed Term Contract - 12 months) Removed from favorites Add a favorite Close To view your favorites, sign in with your Apple Account. Sign In Don’t have an Apple Account? Create one now Forgot your Apple Account or password? Share Data Infrastructure Engineer, Shazam (Fixed Term Contract - 12 months) Share this role. Close Submit Resume Data I"
+          "projection": -0.108,
+          "text": "See full role description AIML - Senior Data Science Manager, AIML Data Share AIML - Senior Data Science Manager, AIML Data Share this role. Close Role Number: 200583355 Weekly Hours: 40 Hours Do you get excited by driving product impact via measurement and evaluation, for products and services used by hundreds of millions of people globally? The vision for the AIML Data organization is to improve"
         },
         {
-          "chunk_id": "d899ab87f9077b6b",
-          "label": "mission_brand",
-          "group": "talk",
+          "chunk_id": "bccb3498dd90e861",
+          "label": "job_listing",
+          "group": "hire",
           "terms": [
+            "foundation models",
             "machine learning"
           ],
-          "projection": -0.0757,
-          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives better.” We consider inclusivity at every step — and this work requires close collaboration among a wi"
+          "projection": -0.1057,
+          "text": "See full role description Machine Learning Researcher, Multimodal Foundation Models Share Machine Learning Researcher, Multimodal Foundation Models Share this role. Close Role Number: 200584336 Weekly Hours: 40 Hours Imagine what you could do here. At Apple, new ideas have a way of becoming extraordinary products, services, and customer experiences very quickly. Bring passion and dedication to you"
         },
         {
-          "chunk_id": "93572daded1949b1",
-          "label": "mission_brand",
-          "group": "talk",
+          "chunk_id": "89ab254750e61bda",
+          "label": "job_listing",
+          "group": "hire",
           "terms": [
+            "artificial intelligence",
+            "deep learning",
+            "foundation models",
             "machine learning"
           ],
-          "projection": -0.0729,
-          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives better.” We consider inclusivity at every step — and this work requires close collaboration among a wi"
+          "projection": -0.1055,
+          "text": "See full role description AIML - Sr. Machine Learning Engineer, Siri Search Quality - Siri & Information Intelligence Share AIML - Sr. Machine Learning Engineer, Siri Search Quality - Siri & Information Intelligence Share this role. Close Role Number: 200584045 Weekly Hours: 40 Hours The Siri Search Quality team is creating groundbreaking technology for artificial intelligence, machine learning an"
         },
         {
-          "chunk_id": "6be3e1034171e946",
-          "label": "mission_brand",
-          "group": "talk",
+          "chunk_id": "b95b3b87ca8478f4",
+          "label": "job_listing",
+          "group": "hire",
           "terms": [
+            "ML",
             "machine learning"
           ],
-          "projection": -0.0645,
-          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives better. ” We consider inclusivity at every step — and this work requires close collaboration among a w"
+          "projection": -0.1024,
+          "text": "See full role description AIML - Senior Data Science Manager, AIML Data Share AIML - Senior Data Science Manager, AIML Data Share this role. Close Role Number: 200583811 Weekly Hours: 40 Hours Do you get excited by driving product impact via measurement and evaluation, for products and services used by hundreds of millions of people globally? The vision for the AIML Data organization is to improve"
+        },
+        {
+          "chunk_id": "1501bbd4a35ffceb",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "foundation models",
+            "machine learning"
+          ],
+          "projection": -0.1005,
+          "text": "See full role description Machine Learning Researcher, Multimodal Foundation Models Share Machine Learning Researcher, Multimodal Foundation Models Share this role. Close Role Number: 200527006 Weekly Hours: 40 Hours Imagine what you could do here. At Apple, new ideas have a way of becoming extraordinary products, services, and customer experiences very quickly. Bring passion and dedication to you"
+        },
+        {
+          "chunk_id": "00a47d11df49f4a4",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "ML",
+            "foundation models",
+            "machine learning"
+          ],
+          "projection": -0.1,
+          "text": "See full role description Applied Machine Learning Researcher - Multimodal Foundation Models Share Applied Machine Learning Researcher - Multimodal Foundation Models Share this role. Close Role Number: 200584357 Weekly Hours: 40 Hours Imagine what you could do here. At Apple, new ideas have a way of becoming extraordinary products, services, and customer experiences very quickly. Bring passion and"
+        },
+        {
+          "chunk_id": "5985bd3810aa1546",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "LLMs",
+            "ML",
+            "generative ai",
+            "machine learning"
+          ],
+          "projection": -0.0967,
+          "text": "See full role description AIML - ML Engineer, Safety & Red Teaming Share AIML - ML Engineer, Safety & Red Teaming Share this role. Close Role Number: 200583682 Weekly Hours: 40 Hours Would you like to play a part in building the next generation of generative AI applications at Apple? We're looking for scientists and engineers to work on ambitious projects that will impact the future of Apple, our "
         }
       ]
     },
     {
       "year": 2026,
-      "totalChunks": 18,
-      "aiChunks": 1,
-      "prevalence": 0.0556,
+      "totalChunks": 38,
+      "aiChunks": 8,
+      "prevalence": 0.2105,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -1035,9 +1360,9 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 2,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 22,
+          "ai_chunks": 7,
+          "mentions": 44
         },
         "mission_brand": {
           "chunks": 14,
@@ -1051,14 +1376,25 @@
         }
       },
       "terms": {
-        "machine learning": 1
+        "ML": 14,
+        "machine learning": 13,
+        "AI": 12,
+        "foundation models": 4,
+        "foundation model": 1,
+        "generative ai": 1
       },
       "projections": [
         {
           "group": "all",
-          "meanProjection": -0.0645,
-          "nChunks": 1,
-          "thin": true
+          "meanProjection": -0.0992,
+          "nChunks": 8,
+          "thin": false
+        },
+        {
+          "group": "hire",
+          "meanProjection": -0.1041,
+          "nChunks": 7,
+          "thin": false
         },
         {
           "group": "talk",
@@ -1068,6 +1404,88 @@
         }
       ],
       "quotes": [
+        {
+          "chunk_id": "b9d0ac56d777501f",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "machine learning"
+          ],
+          "projection": -0.1223,
+          "text": "DFM R&D Engineer — Advanced Simulation & Materials Operations and Supply Chain Feb 02, 2026 Location Various Locations within San Francisco Bay Area Actions See full role description Share DFM R&D Engineer — Advanced Simulation & Materials 200629197-3401 Role Number: 200629197-3401 Weekly Hours: 40 Hours At Apple, innovative ideas become extraordinary products through deep engineering rigor and st"
+        },
+        {
+          "chunk_id": "14836ed62b81cc70",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "ML"
+          ],
+          "projection": -0.1158,
+          "text": "ML Video Codec Algorithm Engineer Hardware Jun 06, 2026 Location Cupertino Actions See full role description Share ML Video Codec Algorithm Engineer 200652180-0836 Role Number: 200652180-0836 Weekly Hours: 40 Hours Apple is where individual imaginations gather together, committing to the values that lead to great work. Every new product we build, service we create, or Apple Store experience we del"
+        },
+        {
+          "chunk_id": "b36312281e959b4e",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "ML",
+            "generative ai"
+          ],
+          "projection": -0.1116,
+          "text": "ML Software Engineer Software and Services Jul 02, 2026 Location Seattle Actions See full role description Share ML Software Engineer 200669226-3337 Role Number: 200669226-3337 Weekly Hours: 40 Hours People at Apple don't just build products — they craft the kind of experience that has revolutionized entire industries. The diverse collection of our people and their ideas inspire innovation in ever"
+        },
+        {
+          "chunk_id": "bc8ca4cccb6459fb",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "ML",
+            "foundation model",
+            "foundation models",
+            "machine learning"
+          ],
+          "projection": -0.1009,
+          "text": "ML Engineer, Apple Foundation Models Machine Learning and AI Jul 02, 2026 Location Cupertino Actions See full role description Share ML Engineer, Apple Foundation Models 200670922-0836 Role Number: 200670922-0836 Weekly Hours: 40 Hours Join the team shaping the data foundation and intelligence for Apple's frontier foundation models. We believe that breakthrough AI capabilities are driven not only "
+        },
+        {
+          "chunk_id": "29dd125329e6c693",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "ML",
+            "machine learning"
+          ],
+          "projection": -0.0952,
+          "text": "Product Design Engineer Hardware Mar 05, 2025 Location Cupertino Actions See full role description Share Product Design Engineer 200543111-0836 Role Number: 200543111-0836 Weekly Hours: 40 Hours One of Apple’s R&D groups is currently seeking a senior product design engineer. This engineer will be responsible for mechanical design of mechanisms and mechatronic systems from concept generation throug"
+        },
+        {
+          "chunk_id": "e6cef5230fb72426",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "ML",
+            "machine learning"
+          ],
+          "projection": -0.0927,
+          "text": "Machine Learning Technical Lead - Data Engineering, MLO Machine Learning and AI Nov 21, 2025 Location Cupertino Actions See full role description Share Machine Learning Technical Lead - Data Engineering, MLO 200633418-0836 Role Number: 200633418-0836 Weekly Hours: 40 Hours Do you believe Machine Learning and AI can change the world? We truly believe it can! We are the ML Data Ops team at Apple. We"
+        },
+        {
+          "chunk_id": "3fae36030db563ba",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "machine learning"
+          ],
+          "projection": -0.0901,
+          "text": "AirPods Firmware Engineering Manager Hardware Jul 02, 2026 Location Cupertino Actions See full role description Share AirPods Firmware Engineering Manager 200670751-0836 Role Number: 200670751-0836 Weekly Hours: 40 Hours AirPods have redefined how people listen to music, take calls, and experience the world around them, and they continue to evolve with new products and technologies shipping every "
+        },
         {
           "chunk_id": "91e59e6bb0e20f0a",
           "label": "mission_brand",

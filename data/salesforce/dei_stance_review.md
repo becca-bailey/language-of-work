@@ -1,5 +1,8 @@
 # DEI stance by year
 
+## 2004
+- neutral: 3
+
 ## 2006
 - neutral: 3
 
@@ -71,5 +74,5 @@
 - neutral: 53
 
 ## 2026
-- affirming_dei: 19
-- neutral: 43
+- affirming_dei: 36
+- neutral: 46

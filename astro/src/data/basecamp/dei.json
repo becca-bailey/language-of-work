@@ -4,6 +4,160 @@
   "axis": "dei",
   "years": [
     {
+      "year": 2002,
+      "inclusionTopkMean": 0.294,
+      "inclusionMean": 0.294,
+      "inclusionMax": 0.294,
+      "inclusionFractionPresent": 1.0,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 1,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": 0.0175,
+      "inclusionQuotes": [
+        {
+          "text": "About 37signals Q&A How is 37signals different than other web firms? We're a small, honest, agile team of experts with tons of experience (we've all been working on the web since 1995). We give all of our clients personal attention and are proud that 100% of our clients are references. Our obsession with simplicity and clarity in interface design is why we're called \"the masters par excellence of ",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.294,
+          "score": 0.294
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "inclusionTopkMean": 0.2636,
+      "inclusionMean": 0.2636,
+      "inclusionMax": 0.4111,
+      "inclusionFractionPresent": 0.6,
+      "nChunks": 5,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 5,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": -0.0295,
+      "inclusionQuotes": [
+        {
+          "text": "We work with smart clients who understand that it's the customer, not org-charts or office politics, who matters most. These clients are hard to find, so when we get them we treat them well. Sound good? Then get in touch .",
+          "heading": "How do I know if we're a good match?",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4111,
+          "score": 0.4111
+        },
+        {
+          "text": "We're a small, honest, agile team of experts with tons of experience (we've all been working on the web since 1995). We give all of our clients personal attention and are proud that 100% of our clients are references. Our obsession with simplicity and clarity in interface design is why we're called \"the masters par excellence of HTMinimaLism\" by the author of Fresh Styles for Web Designers , and t",
+          "heading": "How is 37signals different than other web firms?",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3286,
+          "score": 0.3286
+        },
+        {
+          "text": "Meetup, Panera Bread, Monster.com, Yellow Corporation, Getty Images, Qwest, Performance Bike, Clear Channel, and more...",
+          "heading": "Repeat clients include",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.267,
+          "score": 0.267
+        },
+        {
+          "text": "Check out our new E-Commerce Search Report 37signals' Design Not Found covered in this N.Y. Times article . New Architect magazine publishes Making Mistakes Well , our article on contingency design. CommArts publishes our article on 37BetterFedEx (our proposed redesign of FedEx's online shipping form).",
+          "heading": "37signals Highlights",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2019,
+          "score": 0.2019
+        },
+        {
+          "text": "In the New York Times, the Washington Post, the Times of London, on FOX news, in various books including the popular \"Fresh Styles For Web Designers,\" linked from usability expert Jakob Nielsen's site, as one of Yahoo's Picks of the Year, or in another publication.",
+          "heading": "Where might I have seen your projects before?",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.1097,
+          "score": 0.1097
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "inclusionTopkMean": 0.2469,
+      "inclusionMean": 0.2469,
+      "inclusionMax": 0.4111,
+      "inclusionFractionPresent": 0.4,
+      "nChunks": 5,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 5,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": -0.0694,
+      "inclusionQuotes": [
+        {
+          "text": "We work with smart clients who understand that it's the customer, not org-charts or office politics, who matters most. These clients are hard to find, so when we get them we treat them well. Sound good? Then get in touch .",
+          "heading": "How do I know if we're a good match?",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4111,
+          "score": 0.4111
+        },
+        {
+          "text": "We're a small, honest, agile team of experts with tons of experience (we've all been working on the web since 1995). We give all of our clients personal attention and are proud that 100% of our clients are references. Our obsession with simplicity and clarity in interface design is why we're called \"the masters par excellence of HTMinimaLism\" by the author of Fresh Styles for Web Designers , and t",
+          "heading": "How is 37signals different than other web firms?",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3286,
+          "score": 0.3286
+        },
+        {
+          "text": "Check out our new E-Commerce Search Report 37signals' Design Not Found covered in this N.Y. Times article . New Architect magazine publishes Making Mistakes Well , our article on contingency design. CommArts publishes our article on 37BetterFedEx (our proposed redesign of FedEx's online shipping form).",
+          "heading": "37signals Highlights",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2019,
+          "score": 0.2019
+        },
+        {
+          "text": "Free Holiday E-Commerce Ideas from 37signals. 37signals' Design Not Found covered in this N.Y. Times article . New Architect magazine publishes Making Mistakes Well , our article on contingency design. CommArts publishes our article on 37BetterFedEx (our proposed redesign of FedEx's online shipping form).",
+          "heading": "37signals Highlights",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.1832,
+          "score": 0.1832
+        },
+        {
+          "text": "In the New York Times, the Washington Post, the Times of London, on FOX news, in various books including the popular \"Fresh Styles For Web Designers,\" linked from usability expert Jakob Nielsen's site, as one of Yahoo's Picks of the Year, or in another publication.",
+          "heading": "Where might I have seen your projects before?",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.1097,
+          "score": 0.1097
+        }
+      ]
+    },
+    {
       "year": 2009,
       "inclusionTopkMean": 0.3547,
       "inclusionMean": 0.3547,
@@ -944,6 +1098,66 @@
       }
     ],
     "high_scoring_sentences": [
+      {
+        "id": "68782cdc25ab",
+        "year": 2002,
+        "text": "We work with smart clients who understand that it's the customer, not org-charts or office politics, who matters most.",
+        "score": 0.4304
+      },
+      {
+        "id": "57928e681c2d",
+        "year": 2002,
+        "text": "We're a small, honest, agile team of experts with tons of experience (we've all been working on the web since 1995).",
+        "score": 0.4011
+      },
+      {
+        "id": "6db7c3a39850",
+        "year": 2002,
+        "text": "We give all of our clients personal attention and are proud that 100% of our clients are references.",
+        "score": 0.3446
+      },
+      {
+        "id": "5d7c5e3b4334",
+        "year": 2002,
+        "text": "About 37signals Q&A How is 37signals different than other web firms?",
+        "score": 0.3047
+      },
+      {
+        "id": "68782cdc25ab",
+        "year": 2003,
+        "text": "We work with smart clients who understand that it's the customer, not org-charts or office politics, who matters most.",
+        "score": 0.4304
+      },
+      {
+        "id": "57928e681c2d",
+        "year": 2003,
+        "text": "We're a small, honest, agile team of experts with tons of experience (we've all been working on the web since 1995).",
+        "score": 0.4011
+      },
+      {
+        "id": "6db7c3a39850",
+        "year": 2003,
+        "text": "We give all of our clients personal attention and are proud that 100% of our clients are references.",
+        "score": 0.3446
+      },
+      {
+        "id": "68782cdc25ab",
+        "year": 2004,
+        "text": "We work with smart clients who understand that it's the customer, not org-charts or office politics, who matters most.",
+        "score": 0.4304
+      },
+      {
+        "id": "57928e681c2d",
+        "year": 2004,
+        "text": "We're a small, honest, agile team of experts with tons of experience (we've all been working on the web since 1995).",
+        "score": 0.4011
+      },
+      {
+        "id": "6db7c3a39850",
+        "year": 2004,
+        "text": "We give all of our clients personal attention and are proud that 100% of our clients are references.",
+        "score": 0.3446
+      },
       {
         "id": "08ffb7c6515d",
         "year": 2009,

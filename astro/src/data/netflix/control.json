@@ -4,11 +4,27 @@
   "axis": "control",
   "years": [
     {
-      "year": 2005,
-      "zscore": -1.156,
-      "rawTopkMean": -0.0443,
-      "nChunks": 2,
-      "kUsed": 2,
+      "year": 2003,
+      "zscore": 0.1288,
+      "rawTopkMean": 0.039,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "No Due Dates! Over 15,000 Titles! No Commitments! Cancel Anytime.",
+          "heading": "",
+          "score": 0.039
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "zscore": -1.181,
+      "rawTopkMean": -0.0412,
+      "nChunks": 1,
+      "kUsed": 1,
       "thin": true,
       "carriedForwardFrac": null,
       "quotes": [
@@ -16,7 +32,18 @@
           "text": "The #1 Online DVD Rental Service with over 2,000,000 members!",
           "heading": "",
           "score": -0.0412
-        },
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "zscore": -1.2838,
+      "rawTopkMean": -0.0474,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
         {
           "text": "The #1 Online DVD Rental Service with more than 3,000,000 members!",
           "heading": "",
@@ -26,7 +53,7 @@
     },
     {
       "year": 2011,
-      "zscore": -1.8827,
+      "zscore": -1.9498,
       "rawTopkMean": -0.0882,
       "nChunks": 1,
       "kUsed": 1,
@@ -34,7 +61,7 @@
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough that you can make a difference, but big enough that we can transform an industry When you say where you work, your friends will remark \"oh, I love Netflix!\"",
+          "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
           "heading": "Netflix Business Opportunity",
           "score": -0.0882
         }
@@ -42,7 +69,7 @@
     },
     {
       "year": 2013,
-      "zscore": -0.8818,
+      "zscore": -0.9617,
       "rawTopkMean": -0.0277,
       "nChunks": 8,
       "kUsed": 5,
@@ -78,7 +105,7 @@
     },
     {
       "year": 2014,
-      "zscore": -0.3785,
+      "zscore": -0.465,
       "rawTopkMean": 0.0027,
       "nChunks": 9,
       "kUsed": 5,
@@ -102,21 +129,21 @@
         },
         {
           "text": "We are candid and transparent and seek excellence in everything that we do.",
-          "heading": "Netflix Culture",
+          "heading": "Join our team",
           "score": -0.0173
         },
         {
           "text": "What we do We tackle problems others have not been able to solve.",
-          "heading": "Join our team",
+          "heading": "Netflix Culture",
           "score": -0.044
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 1.1434,
+      "zscore": 1.0373,
       "rawTopkMean": 0.0946,
-      "nChunks": 130,
+      "nChunks": 132,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -150,45 +177,9 @@
     },
     {
       "year": 2018,
-      "zscore": 0.5407,
-      "rawTopkMean": 0.0582,
-      "nChunks": 55,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "You can choose all cash, all options, or whatever combination suits you 4 .",
-          "heading": "Freedom & Responsibility",
-          "score": 0.0756
-        },
-        {
-          "text": "Antoine de Saint-Exupéry, the author of The Little Prince , shows us the way: If you want to build a ship, don’t drum up the people to gather wood, divide the work, and give orders.",
-          "heading": "Finally",
-          "score": 0.0633
-        },
-        {
-          "text": "As rules and procedures proliferate, the value system evolves into rule following (i.e. that is how you get rewarded).",
-          "heading": "Freedom & Responsibility",
-          "score": 0.0597
-        },
-        {
-          "text": "You choose how much risk and upside you want.",
-          "heading": "Freedom & Responsibility",
-          "score": 0.0566
-        },
-        {
-          "text": "Our parental leave policy is: “take care of your baby and yourself.” New parents are encouraged to take the time they feel is right and to ease back in as they want.",
-          "heading": "Freedom & Responsibility",
-          "score": 0.0356
-        }
-      ]
-    },
-    {
-      "year": 2019,
-      "zscore": 0.8977,
-      "rawTopkMean": 0.0797,
-      "nChunks": 62,
+      "zscore": 0.8086,
+      "rawTopkMean": 0.0806,
+      "nChunks": 107,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -204,6 +195,11 @@
           "score": 0.0852
         },
         {
+          "text": "You can choose all cash, all options, or whatever combination suits you 4 .",
+          "heading": "Freedom & Responsibility",
+          "score": 0.0756
+        },
+        {
           "text": "For every significant decision there is a responsible captain of the ship who makes a judgment call after sharing and digesting others’ views.",
           "heading": "Informed Captains",
           "score": 0.074
@@ -212,19 +208,14 @@
           "text": "Afterwards, it is important for us to reflect on the decision, and see if we could do even better in the future.",
           "heading": "Informed Captains",
           "score": 0.0739
-        },
-        {
-          "text": "When the captain of any particular decision is reasonably confident of the right bet for us to take, they decide and we take that bet.",
-          "heading": "Informed Captains",
-          "score": 0.0714
         }
       ]
     },
     {
-      "year": 2020,
-      "zscore": 1.3568,
-      "rawTopkMean": 0.1074,
-      "nChunks": 116,
+      "year": 2019,
+      "zscore": 1.2241,
+      "rawTopkMean": 0.106,
+      "nChunks": 48,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -250,15 +241,51 @@
           "score": 0.1023
         },
         {
+          "text": "Afterwards, as the impact becomes clearer, we reflect on the decision, and see if we could do even better in the future.",
+          "heading": "Informed Captains",
+          "score": 0.0837
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "zscore": 0.6822,
+      "rawTopkMean": 0.0728,
+      "nChunks": 76,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
           "text": "In describing selflessness we say “ You make time to help colleagues.",
           "heading": "Dream Team",
           "score": 0.091
+        },
+        {
+          "text": "You can choose all cash, all options, or whatever combination suits you 4 .",
+          "heading": "Freedom and Responsibility",
+          "score": 0.0756
+        },
+        {
+          "text": "People frequently ask others, “What could I be doing better?” and themselves, “What feedback have I not yet shared?”",
+          "heading": "Impact",
+          "score": 0.0702
+        },
+        {
+          "text": "Feedback helps us to avoid sustained misunderstandings and the need for rules.",
+          "heading": "Impact",
+          "score": 0.0668
+        },
+        {
+          "text": "Feedback is more easily exchanged if there is a strong underlying relationship and trust between people, which is part of why we invest time in developing those professional relationships.",
+          "heading": "Impact",
+          "score": 0.0605
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": -0.1604,
+      "zscore": -0.2497,
       "rawTopkMean": 0.0158,
       "nChunks": 8,
       "kUsed": 5,
@@ -294,25 +321,45 @@
     },
     {
       "year": 2022,
-      "zscore": -0.7938,
-      "rawTopkMean": -0.0224,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "zscore": 1.0952,
+      "rawTopkMean": 0.0981,
+      "nChunks": 195,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Netflix has more than 220 million active members who perform a variety of actions throughout each session, ranging from renaming a profile to watchi...",
-          "heading": "Intro",
-          "score": -0.0224
+          "text": "But then the captain needs to decide.",
+          "heading": "Informed Captains",
+          "score": 0.1193
+        },
+        {
+          "text": "It is sometimes challenging and always important to agree up front who is the informed captain for a project.",
+          "heading": "Informed Captains",
+          "score": 0.117
+        },
+        {
+          "text": "Afterwards, as the impact becomes clearer, we reflect on the decision and see how we could do even better in the future.",
+          "heading": "Informed Captains",
+          "score": 0.0861
+        },
+        {
+          "text": "Rapid recovery is possible if people have great judgment.",
+          "heading": "Freedom and Responsibility",
+          "score": 0.0852
+        },
+        {
+          "text": "Managers communicate frequently with each member of their team so surprises are rare.",
+          "heading": "Dream Team",
+          "score": 0.0828
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 1.122,
+      "zscore": 1.0161,
       "rawTopkMean": 0.0933,
-      "nChunks": 98,
+      "nChunks": 99,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -345,8 +392,8 @@
       ]
     },
     {
-      "year": 2026,
-      "zscore": 0.1925,
+      "year": 2025,
+      "zscore": 0.0986,
       "rawTopkMean": 0.0371,
       "nChunks": 35,
       "kUsed": 5,

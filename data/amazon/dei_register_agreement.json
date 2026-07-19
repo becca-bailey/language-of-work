@@ -1,21 +1,17 @@
 {
-  "n": 26,
-  "accuracy": 0.962,
-  "krippendorff_alpha": 0.738,
+  "n": 31,
+  "accuracy": 1.0,
+  "krippendorff_alpha": 1.0,
   "confusion": {
     "absent": {
-      "absent": 24
+      "absent": 27
     },
     "explicit_demographic": {
-      "explicit_demographic": 1,
-      "aspirational_vague": 1
+      "explicit_demographic": 2
+    },
+    "aspirational_vague": {
+      "aspirational_vague": 2
     }
   },
-  "disagreements": [
-    {
-      "chunk_id": "129ebf1f7738b858",
-      "hand_label": "explicit_demographic",
-      "predicted": "aspirational_vague"
-    }
-  ]
+  "disagreements": []
 }

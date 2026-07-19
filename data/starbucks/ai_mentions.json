@@ -9,6 +9,22 @@
   ],
   "years": [
     {
+      "year": 2001,
+      "total_chunks": 1,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
       "year": 2005,
       "total_chunks": 1,
       "ai_chunks": 0,
@@ -614,13 +630,18 @@
     },
     {
       "year": 2026,
-      "total_chunks": 26,
+      "total_chunks": 34,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 13,
+          "chunks": 18,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -630,7 +651,7 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 9,
+          "chunks": 10,
           "ai_chunks": 0,
           "mentions": 0
         }

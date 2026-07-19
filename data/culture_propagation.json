@@ -69,7 +69,7 @@
     "keeper_test": {
       "netflix": {
         "firstYearConcept": 2009,
-        "nConcept": 17,
+        "nConcept": 23,
         "yearsConcept": [
           2009,
           2017,
@@ -78,6 +78,7 @@
           2020,
           2021,
           2022,
+          2023,
           2024,
           2025,
           2026
@@ -98,7 +99,7 @@
       },
       "netflix": {
         "firstYearConcept": 2009,
-        "nConcept": 10,
+        "nConcept": 13,
         "yearsConcept": [
           2009,
           2017,
@@ -107,6 +108,7 @@
           2020,
           2021,
           2022,
+          2023,
           2024,
           2025,
           2026
@@ -165,7 +167,7 @@
       },
       "netflix": {
         "firstYearConcept": 2017,
-        "nConcept": 15,
+        "nConcept": 18,
         "yearsConcept": [
           2017,
           2018,
@@ -173,6 +175,7 @@
           2020,
           2021,
           2022,
+          2023,
           2024,
           2025,
           2026
@@ -333,7 +336,7 @@
       },
       "netflix": {
         "firstYearConcept": 2009,
-        "nConcept": 13,
+        "nConcept": 18,
         "yearsConcept": [
           2009,
           2017,
@@ -341,7 +344,9 @@
           2019,
           2020,
           2021,
-          2022
+          2022,
+          2023,
+          2024
         ],
         "example": "Unlike many companies, we practice:adequate performance gets agenerous severance package",
         "exampleScore": 0.759
@@ -808,9 +813,11 @@
       },
       "netflix": {
         "firstYearConcept": 2009,
-        "nConcept": 4,
+        "nConcept": 7,
         "yearsConcept": [
           2009,
+          2022,
+          2023,
           2024,
           2025,
           2026
@@ -851,11 +858,14 @@
       },
       "netflix": {
         "firstYearConcept": 2017,
-        "nConcept": 3,
+        "nConcept": 6,
         "yearsConcept": [
           2017,
           2018,
-          2019
+          2019,
+          2022,
+          2023,
+          2024
         ],
         "example": "Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.",
         "exampleScore": 0.746

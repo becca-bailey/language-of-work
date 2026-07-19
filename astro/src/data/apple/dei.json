@@ -4,6 +4,198 @@
   "axis": "dei",
   "years": [
     {
+      "year": 1999,
+      "inclusionTopkMean": 0.2788,
+      "inclusionMean": 0.2788,
+      "inclusionMax": 0.3057,
+      "inclusionFractionPresent": 0.6667,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 3,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": 0.0413,
+      "inclusionQuotes": [
+        {
+          "text": "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can praise them, disagree with them, quote them, disbelieve them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They invent. ",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3057,
+          "score": 0.3057
+        },
+        {
+          "text": "“I enjoy representing Apple within the community. It’s critical for corporations to play a role in the community. We’re impacting a real piece of the world.” For over a decade, Apple and Nimitz Elementary School have been educational partners. Every Apple volunteer gives one hour a week as a tutor or classroom mentor. Contributing to public education and enriching children’s lives through technolo",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2929,
+          "score": 0.2929
+        },
+        {
+          "text": "Apple offers great benefits. For starters, you can count on great compensation, insurance coverage, bonuses, stock purchase, and savings/investment plans. Substantial product discounts and the opportunity to work on great projects with some of the finest minds in the computer industry are additional bonuses. Read on for more details. 401(k) Savings and Investment Plan : Apple's 401(k) Savings and ",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2377,
+          "score": 0.2377
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "inclusionTopkMean": 0.2479,
+      "inclusionMean": 0.2479,
+      "inclusionMax": 0.2594,
+      "inclusionFractionPresent": 0.6667,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 3,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": null,
+      "inclusionQuotes": [
+        {
+          "text": "Apple offers great benefits. For starters, you can count on great compensation, insurance coverage, bonuses, and stock purchase and savings/investment plans. Substantial product discounts and the opportunity to work on great projects with some of the finest minds in the computer industry are additional bonuses. Read on for more details. Flexible Benefits: Everyone's situation is unique. So Apple o",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2594,
+          "score": 0.2594
+        },
+        {
+          "text": "Salaries From entry-level on up, Apple salaries are competitive with salaries at other technology companies. Bonus Programs We believe in sharing our success with those who make it happen. Apple has a variety of bonus programs to reward outstanding performance at all levels of the organization. Stock Purchase Apple's Employee Stock Purchase Plan offers employees the opportunity to purchase Apple c",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.257,
+          "score": 0.257
+        },
+        {
+          "text": "Apple offers great benefits. For starters, you can count on great compensation, insurance coverage, bonuses, and stock purchase and savings/investment plans. Substantial product discounts and the opportunity to work on great projects with some of the finest minds in the computer industry are additional bonuses. Read on for more details. Flexible Benefits Everyone's situation is unique. So Apple of",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2274,
+          "score": 0.2274
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "inclusionTopkMean": 0.3687,
+      "inclusionMean": 0.3687,
+      "inclusionMax": 0.5099,
+      "inclusionFractionPresent": 0.5,
+      "nChunks": 2,
+      "kUsed": 2,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 1,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 1,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": 0.0066,
+      "inclusionQuotes": [
+        {
+          "text": "Apple recognizes that each Apple employee brings a wealth of different perspectives to our environment. We respect these differences and treat them as an additional value that we incorporate in the way we treat each other and approach our customers. A multicultural work environment must look at \"difference\" in the broadest sense of the word. Culture is often defined in terms of race, gender, and n",
+          "heading": "",
+          "register": "explicit_demographic",
+          "stance": "affirming_dei",
+          "inclusion": 0.5099,
+          "score": 0.5099
+        },
+        {
+          "text": "Apple Health & Fitness is a company-wide, comprehensive wellness program offering Health Education, Preventive Care, Fitness and Recreation Services. The program is designed to encourage positive lifestyle changes and enhance the quality of life for Apple Employees and their families. This program results in a healthier, more productive workforce, which enhances the creation of superior products. ",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2276,
+          "score": 0.2276
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "inclusionTopkMean": 0.2599,
+      "inclusionMean": 0.2367,
+      "inclusionMax": 0.4272,
+      "inclusionFractionPresent": 0.1429,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 7,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": null,
+      "inclusionQuotes": [
+        {
+          "text": "We encourage employees to familiarize themselves with the hardware and software they help create. To that end, we provide generous incentives toward the purchase of Apple products.",
+          "heading": "A computer at home",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4272,
+          "score": 0.4272
+        },
+        {
+          "text": "Apple provides a generous holiday and vacation accrual schedule so you can take time off to recharge.",
+          "heading": "Time to relax",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2275,
+          "score": 0.2275
+        },
+        {
+          "text": "Apple's Employee Stock Purchase Plan offers employees the opportunity to purchase Apple common stock every six months at a 15% discount. During the enrollment periods, beginning in May and November, you can authorize payroll deductions of up to 10% of your salary to purchase Apple stock at this reduced price.",
+          "heading": "Stock purchase",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.222,
+          "score": 0.222
+        },
+        {
+          "text": "Apple offers excellent benefits programs for its employees. While benefits packages vary depending on location and employment status, benefits can include insurance coverage, Flexible Spending Accounts, an Employee Stock Purchase Program, a 401(k) Savings and Investment plan, and more. Product discounts and the opportunity to work on great projects with some of the finest minds in the industry are",
+          "heading": "Benefits",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2191,
+          "score": 0.2191
+        },
+        {
+          "text": "The Apple Health+Fitness Program is designed to encourage positive lifestyle changes and enhance the quality of life for Apple employees and their families. Key program components include fitness plans, health education, and preventive care. Fitness Centers are located in Cupertino, California; Sacramento, California; and Austin, Texas.",
+          "heading": "Health+Fitness",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2035,
+          "score": 0.2035
+        }
+      ]
+    },
+    {
       "year": 2007,
       "inclusionTopkMean": 0.5591,
       "inclusionMean": 0.5591,
@@ -43,19 +235,19 @@
     },
     {
       "year": 2008,
-      "inclusionTopkMean": 0.5435,
-      "inclusionMean": 0.5435,
+      "inclusionTopkMean": 0.3148,
+      "inclusionMean": 0.2921,
       "inclusionMax": 0.5435,
-      "inclusionFractionPresent": 1.0,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "inclusionFractionPresent": 0.6667,
+      "nChunks": 6,
+      "kUsed": 5,
+      "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 0,
-        "absent": 0,
+        "absent": 5,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -68,29 +260,69 @@
           "stance": "affirming_dei",
           "inclusion": 0.5435,
           "score": 0.5435
+        },
+        {
+          "text": "Apple's University Relations department hosts a variety of activities for interns each summer, including an Executive Speaker Series, where interns hear from executive team members across the company for a view from the top; team contests, with Apple products as prizes; technical talks and presentations; and trips throughout the greater Bay Area.",
+          "heading": "Summer Events",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2732,
+          "score": 0.2732
+        },
+        {
+          "text": "All Apple internships are paid. We offer a competitive salary and relocation package, which includes travel and housing assistance.",
+          "heading": "Salary and Relocation Assistance",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.261,
+          "score": 0.261
+        },
+        {
+          "text": "While working on the Apple campus, interns are encouraged to take full advantage of Apple's world-class cafe, sport courts, state-of-the-art fitness center, and company store. And don't forget about the casual dress code. No suits required!",
+          "heading": "Casual Work Environment",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.251,
+          "score": 0.251
+        },
+        {
+          "text": "As an Apple intern, you can get company discounts on Apple and third-party products.",
+          "heading": "Cool Products, Special Prices",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2454,
+          "score": 0.2454
         }
       ]
     },
     {
       "year": 2009,
-      "inclusionTopkMean": 0.3641,
-      "inclusionMean": 0.3641,
-      "inclusionMax": 0.4133,
+      "inclusionTopkMean": 0.4239,
+      "inclusionMean": 0.4239,
+      "inclusionMax": 0.5435,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 2,
-      "kUsed": 2,
+      "nChunks": 3,
+      "kUsed": 3,
       "thin": true,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
         "absent": 2,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": -0.0409,
+      "controlTopkMean": -0.1144,
       "inclusionQuotes": [
+        {
+          "text": "Apple celebrates diverse experiences and backgrounds. By introducing new and innovative people to the company, we incorporate their different perspectives and skills and achieve our goal of making the best products on the market. At Apple, diversity network associations offer employees an opportunity to engage in professional support and networking activities that promote diversity. Partners provi",
+          "heading": "Commitment to diversity",
+          "register": "aspirational_vague",
+          "stance": "affirming_dei",
+          "inclusion": 0.5435,
+          "score": 0.5435
+        },
         {
           "text": "Work behind the scenes—where we design, engineer, and launch every Mac, iPod, iPhone, and Apple software title. And do all the other stuff that makes that possible. A lot of big companies are about endless meetings. Massive bureaucracy. Executive parking spaces. And suits. We don't see what any of that has to do with great work. So we don't bother. This isn't your cushy corporate nine-to-fiver. Fo",
           "heading": "",
@@ -111,24 +343,32 @@
     },
     {
       "year": 2010,
-      "inclusionTopkMean": 0.3069,
-      "inclusionMean": 0.3069,
-      "inclusionMax": 0.3329,
+      "inclusionTopkMean": 0.3455,
+      "inclusionMean": 0.3455,
+      "inclusionMax": 0.4225,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 2,
-      "kUsed": 2,
+      "nChunks": 3,
+      "kUsed": 3,
       "thin": true,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 2,
+        "absent": 3,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.003,
+      "controlTopkMean": 0.0036,
       "inclusionQuotes": [
+        {
+          "text": "Work behind the scenes — where we design, engineer, and launch every Mac, iPod, iPhone, and Apple software title. And do all the other stuff that makes that possible. A lot of big companies are about endless meetings. Massive bureaucracy. Executive parking spaces. And suits. We don’t see what any of that has to do with great work. So we don’t bother. This isn’t your cushy corporate nine-to-fiver. ",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4225,
+          "score": 0.4225
+        },
         {
           "text": "Apple jobs come in all stripes. Whether you’re a developer, industrial designer, or retail expert, there’s an opportunity here for you. Be part of something big We are committed to diversity. Apple is an Equal Employment Opportunity and Affirmative Action Employer. Apple participates in the E-Verify program in certain locations as required by law. Download more information . Shop the Apple Online ",
           "heading": "",
@@ -203,19 +443,19 @@
     },
     {
       "year": 2012,
-      "inclusionTopkMean": 0.3949,
-      "inclusionMean": 0.3949,
+      "inclusionTopkMean": 0.3519,
+      "inclusionMean": 0.2815,
       "inclusionMax": 0.4411,
-      "inclusionFractionPresent": 1.0,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "inclusionFractionPresent": 0.6364,
+      "nChunks": 11,
+      "kUsed": 5,
+      "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 2,
+        "absent": 11,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -230,35 +470,67 @@
           "score": 0.4411
         },
         {
+          "text": "Apple is looking for natural leaders who are creative, smart, dynamic, interesting, authentic, and driven. People who are unwilling to settle for doing anything less than what they love. Our Apple Retail Store teams have a variety of incredibly talented, passionate people with interests as diverse as their personalities. Each shares a passion for our products and for enriching the lives of one ano",
+          "heading": "You’re in good company.",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3769,
+          "score": 0.3769
+        },
+        {
           "text": "Apple is one of the most innovative companies in the global marketplace — and one of the fastest growing. We’re always looking for smart, engaging, supportive, and dynamic people who love Apple and our products.",
           "heading": "Share your passion for Apple.",
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.3487,
           "score": 0.3487
+        },
+        {
+          "text": "Apple is a place where students and college graduates thrive. Every day presents new challenges and the chance to collaborate with some of the best minds in business. If you’re like us, you’ll love every minute of it. Many opportunities exist at Apple, including internships, co-ops, retail store positions, and on-campus positions.",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3036,
+          "score": 0.3036
+        },
+        {
+          "text": "As an Apple At-Home Advisor, you’ll receive coveted perks that you can enjoy without ever leaving home. These include fantastic benefits, employee discounts, and the opportunity to grow with Apple. We’re always looking for ways to improve our employees’ quality of life, reward them, and make them feel valued. At Apple, you can feel great knowing you’re truly making a difference to our customers.",
+          "heading": "All the bells and whistles, delivered.",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.289,
+          "score": 0.289
         }
       ]
     },
     {
       "year": 2013,
-      "inclusionTopkMean": 0.3214,
-      "inclusionMean": 0.3214,
-      "inclusionMax": 0.372,
-      "inclusionFractionPresent": 0.75,
-      "nChunks": 4,
-      "kUsed": 4,
-      "thin": true,
+      "inclusionTopkMean": 0.3454,
+      "inclusionMean": 0.3454,
+      "inclusionMax": 0.4411,
+      "inclusionFractionPresent": 0.8,
+      "nChunks": 5,
+      "kUsed": 5,
+      "thin": false,
       "registers": {
         "explicit_demographic": 1,
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 3,
+        "absent": 4,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": -0.0865,
       "inclusionQuotes": [
+        {
+          "text": "A job at Apple is unlike any other you’ve had. You’ll be challenged. You’ll be inspired. And you’ll be proud. Because whatever your job is here, you’ll be part of something big. Every piece of packaging. Every swipe of the finger. Every “How can I help you?” Everything. And it doesn’t matter just some of the time. It matters all of the time. That’s how we do things at Apple. The result is some of ",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4411,
+          "score": 0.4411
+        },
         {
           "text": "We’re always adding new stores and expanding into new countries. Which means there’s a good chance you can live and work in a city you love. Learn more",
           "heading": "400 Apple Retail Stores worldwide (and counting).",
@@ -295,23 +567,23 @@
     },
     {
       "year": 2014,
-      "inclusionTopkMean": 0.4898,
-      "inclusionMean": 0.4044,
+      "inclusionTopkMean": 0.5129,
+      "inclusionMean": 0.3936,
       "inclusionMax": 0.6029,
-      "inclusionFractionPresent": 0.75,
-      "nChunks": 8,
+      "inclusionFractionPresent": 0.8333,
+      "nChunks": 12,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 2,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 2,
         "belonging_culture": 0,
-        "absent": 6,
+        "absent": 8,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.02,
+      "controlTopkMean": 0.0342,
       "inclusionQuotes": [
         {
           "text": "At Apple, our 98,000 employees share a passion for products that change people’s lives, and from the very earliest days we have known that diversity is critical to our success. We believe deeply that inclusion inspires innovation. Our definition of diversity goes far beyond the traditional categories of race, gender, and ethnicity. It includes personal qualities that usually go unmeasured, like se",
@@ -338,42 +610,42 @@
           "score": 0.5275
         },
         {
+          "text": "At the Apple Store, we know inspiring leaders come from every sort of background. What matters most is your ability to connect with your team, provide innovative solutions, and create an environment where all can succeed.",
+          "heading": "Opportunities",
+          "register": "aspirational_vague",
+          "stance": "affirming_dei",
+          "inclusion": 0.4641,
+          "score": 0.4641
+        },
+        {
           "text": "A job at Apple is unlike any other you’ve had. You’ll be challenged. You’ll be inspired. And you’ll be proud. Because whatever your job is here, you’ll be part of something big. Every piece of packaging. Every swipe of the finger. Every “How can I help you?” Everything. And it doesn’t matter just some of the time. It matters all of the time. That’s how we do things at Apple. The result is some of ",
           "heading": "",
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4411,
           "score": 0.4411
-        },
-        {
-          "text": "Apple is one of the most innovative companies in the global marketplace — and one of the fastest growing. We’re always looking for smart, engaging, supportive, and dynamic people who love Apple and our products.",
-          "heading": "Share your passion for Apple.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3487,
-          "score": 0.3487
         }
       ]
     },
     {
       "year": 2015,
-      "inclusionTopkMean": 0.6123,
-      "inclusionMean": 0.4133,
+      "inclusionTopkMean": 0.6494,
+      "inclusionMean": 0.4045,
       "inclusionMax": 0.7174,
-      "inclusionFractionPresent": 0.9091,
-      "nChunks": 22,
+      "inclusionFractionPresent": 0.925,
+      "nChunks": 40,
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 6,
+        "explicit_demographic": 12,
         "structural_process": 0,
-        "aspirational_vague": 4,
-        "belonging_culture": 1,
-        "absent": 11,
+        "aspirational_vague": 9,
+        "belonging_culture": 2,
+        "absent": 17,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.1109,
+      "controlTopkMean": 0.128,
       "inclusionQuotes": [
         {
           "text": "Our commitment to diversity is part of everything we do. We foster an environment that allows all employees to contribute, grow, and push their talents to achieve incredible things. It’s why we work with suppliers who share our values. And why we continue to launch initiatives that will lead to a stronger, more representative workforce.",
@@ -392,46 +664,46 @@
           "score": 0.6443
         },
         {
-          "text": "At Apple, our 98,000 employees share a passion for products that change people’s lives, and from the very earliest days we have known that diversity is critical to our success. We believe deeply that inclusion inspires innovation. Our definition of diversity goes far beyond the traditional categories of race, gender, and ethnicity. It includes personal qualities that usually go unmeasured, like se",
-          "heading": "A Message from Tim Cook.",
-          "register": "explicit_demographic",
+          "text": "We believe people from every background, race, and gender have a right to pursue their dreams. We partner with organizations that give them that chance, whether they’re taking their very first classes or starting their first jobs.",
+          "heading": "The future of tech isn’t a product. It’s people.",
+          "register": "aspirational_vague",
           "stance": "affirming_dei",
-          "inclusion": 0.6029,
-          "score": 0.6029
+          "inclusion": 0.6371,
+          "score": 0.6371
         },
         {
-          "text": "We want to encourage people to share their cultures with each other. Diversity Network Associations (DNAs) are Apple employee groups representing different ethnicities, religions, orientations, and interests. We’ve also welcomed leaders like Congressman John Lewis, Apple Board Member Andrea Jung, former Under Secretary of Defense for Policy Michèle Flournoy, and former Secretary of Homeland Securi",
-          "heading": "Drawing on our differences.",
-          "register": "explicit_demographic",
+          "text": "In the last 12 months, we’ve hired more diverse candidates than in any other year to date. It’s part of our commitment to creating a truly inclusive Apple.",
+          "heading": "A look at our progress.",
+          "register": "aspirational_vague",
           "stance": "affirming_dei",
-          "inclusion": 0.5683,
-          "score": 0.5683
+          "inclusion": 0.6289,
+          "score": 0.6289
         },
         {
-          "text": "Beyond the work we do creating innovative tools for our customers, improving education is one of the best ways in which Apple can have a meaningful impact on society. We recently pledged $100 million to President Obama’s ConnectED initiative to bring cutting-edge technologies to economically disadvantaged schools. Eighty percent of the student population in the schools we will equip and support ar",
-          "heading": "A Message from Tim Cook.",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5288,
-          "score": 0.5288
+          "text": "Apple has always been different. A different kind of company with a different view of the world. It’s a special place where we have the opportunity to create the best products on earth — products that change lives and help shape the future. It’s a privilege we hold dear. Diversity is critical to innovation and it is essential to Apple’s future. We aspire to do more than just make our company as di",
+          "heading": "A message from Tim Cook.",
+          "register": "aspirational_vague",
+          "stance": "affirming_dei",
+          "inclusion": 0.6194,
+          "score": 0.6194
         }
       ]
     },
     {
       "year": 2016,
-      "inclusionTopkMean": 0.3577,
-      "inclusionMean": 0.3577,
+      "inclusionTopkMean": 0.3696,
+      "inclusionMean": 0.3696,
       "inclusionMax": 0.4577,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 3,
-      "kUsed": 3,
+      "nChunks": 4,
+      "kUsed": 4,
       "thin": true,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 0,
-        "absent": 2,
+        "absent": 3,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -444,6 +716,14 @@
           "stance": "affirming_dei",
           "inclusion": 0.4577,
           "score": 0.4577
+        },
+        {
+          "text": "We’re perfectionists. Idealists. Inventors. Forever tinkering with products and processes, always on the lookout for better. Whether you work at one of our global offices, offsite, or even at home, a job at Apple will be demanding. But it also rewards bright, original thinking and hard work. And none of us here would have it any other way.",
+          "heading": "It’s what we do together that sets us apart.",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4053,
+          "score": 0.4053
         },
         {
           "text": "Apple is a place where students can thrive. We have opportunities that can help you take your ideas and your passion to the next level. Develop skills and get hands-on experience working with some of the best minds in the business.",
@@ -512,22 +792,22 @@
     {
       "year": 2018,
       "inclusionTopkMean": 0.5841,
-      "inclusionMean": 0.477,
+      "inclusionMean": 0.4247,
       "inclusionMax": 0.6559,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 14,
+      "nChunks": 21,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 5,
         "structural_process": 3,
-        "aspirational_vague": 4,
-        "belonging_culture": 0,
-        "absent": 2,
+        "aspirational_vague": 6,
+        "belonging_culture": 1,
+        "absent": 6,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.0417,
+      "controlTopkMean": 0.1015,
       "inclusionQuotes": [
         {
           "text": "It’s something we’re deeply committed to. We champion pay equity for employees in similar roles, in similar markets, and with similar performance — in every single country where we operate.",
@@ -574,22 +854,22 @@
     {
       "year": 2019,
       "inclusionTopkMean": 0.5587,
-      "inclusionMean": 0.4604,
+      "inclusionMean": 0.4456,
       "inclusionMax": 0.6083,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 12,
+      "nChunks": 15,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 5,
         "structural_process": 1,
-        "aspirational_vague": 2,
-        "belonging_culture": 1,
+        "aspirational_vague": 3,
+        "belonging_culture": 3,
         "absent": 3,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.0303,
+      "controlTopkMean": 0.0489,
       "inclusionQuotes": [
         {
           "text": "We make thoughtful and inclusive decisions and seek out certified diverse suppliers. And we’re expanding our network to include more businesses owned by women, minorities, Veterans, people with disabilities, and LGBTQ individuals.",
@@ -635,23 +915,23 @@
     },
     {
       "year": 2020,
-      "inclusionTopkMean": 0.467,
-      "inclusionMean": 0.386,
+      "inclusionTopkMean": 0.4688,
+      "inclusionMean": 0.3714,
       "inclusionMax": 0.5479,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 12,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 4,
-        "belonging_culture": 0,
-        "absent": 8,
+        "aspirational_vague": 5,
+        "belonging_culture": 1,
+        "absent": 11,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.0482,
+      "controlTopkMean": 0.0283,
       "inclusionQuotes": [
         {
           "text": "We’re a diverse collective of thinkers and doers, continuously reimagining our products and practices to help people do what they love in new ways. That innovation is inspired by a shared commitment to great work — and to each other. Because learning from the people here means we’re learning from the best.",
@@ -678,30 +958,30 @@
           "score": 0.4622
         },
         {
+          "text": "Come to Apple, where thousands of individual imaginations gather together to pave the way to innovation. Here, you’ll do more than join something — you’ll add something.",
+          "heading": "An open invitation to open minds.",
+          "register": "aspirational_vague",
+          "stance": "neutral",
+          "inclusion": 0.4196,
+          "score": 0.4196
+        },
+        {
           "text": "Every new product, service, or feature we invent is the result of people working together to make each other’s ideas stronger. That happens here because every one of us strives toward a common goal — creating the best customer experiences. Just one example: The incredibly advanced camera features in every new iPhone are not the result of a few dozen people. They’re the product of hundreds of optic",
           "heading": "Share an idea and watch it grow.",
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4129,
           "score": 0.4129
-        },
-        {
-          "text": "We’ve always thought of Apple as the intersection of technology and the liberal arts. That’s why we’re looking for great minds from every field of study. With so many ways to contribute here, chances are good you’ll find a way to do what you love. Whether you work at one of our global offices, an Apple Store, or even at home, a job here will be demanding. But it also rewards original thinking and ",
-          "heading": "Roles Throughout Apple",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.4101,
-          "score": 0.4101
         }
       ]
     },
     {
       "year": 2021,
       "inclusionTopkMean": 0.6905,
-      "inclusionMean": 0.4859,
+      "inclusionMean": 0.4837,
       "inclusionMax": 0.7196,
-      "inclusionFractionPresent": 0.9815,
-      "nChunks": 54,
+      "inclusionFractionPresent": 0.9818,
+      "nChunks": 55,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -709,7 +989,7 @@
         "structural_process": 8,
         "aspirational_vague": 11,
         "belonging_culture": 4,
-        "absent": 20,
+        "absent": 21,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -1072,10 +1352,31 @@
     "terms": [
       {
         "term": "diversity",
-        "first_year": 2007,
+        "first_year": 2004,
         "last_year": 2026,
         "max_score": 0.7271,
         "example": "Together, we are committed to diversity within our company and the advancement of equality and human rights everywhere."
+      },
+      {
+        "term": "hispanic",
+        "first_year": 2004,
+        "last_year": 2025,
+        "max_score": 0.614,
+        "example": "Over the past year, we hired more Black and Hispanic/Latinx team members in the U.S. than ever before."
+      },
+      {
+        "term": "women",
+        "first_year": 2004,
+        "last_year": 2025,
+        "max_score": 0.6114,
+        "example": "Over the past year, we filled more open leadership roles than ever with women globally and Black candidates in the United States."
+      },
+      {
+        "term": "disability",
+        "first_year": 2006,
+        "last_year": 2006,
+        "max_score": 0.1938,
+        "example": "So Apple offers FlexBenefits, an innovative program that lets you choose health, life, and disability benefits that best fit your lifestyle and individual/family needs."
       },
       {
         "term": "affirmative",
@@ -1083,13 +1384,6 @@
         "last_year": 2015,
         "max_score": 0.6107,
         "example": "We also take affirmative action to offer employment and advancement opportunities to all applicants, including minorities, women, protected veterans, and individuals with disabilities."
-      },
-      {
-        "term": "women",
-        "first_year": 2013,
-        "last_year": 2025,
-        "max_score": 0.6114,
-        "example": "Over the past year, we filled more open leadership roles than ever with women globally and Black candidates in the United States."
       },
       {
         "term": "inclusion",
@@ -1111,13 +1405,6 @@
         "last_year": 2026,
         "max_score": 0.6781,
         "example": "We’re committed to increasing the number of managers from underrepresented communities, with a particular focus on outreach efforts for internal and external candidates from Black and Brown communitie"
-      },
-      {
-        "term": "hispanic",
-        "first_year": 2015,
-        "last_year": 2025,
-        "max_score": 0.614,
-        "example": "Over the past year, we hired more Black and Hispanic/Latinx team members in the U.S. than ever before."
       },
       {
         "term": "bias",
@@ -1177,6 +1464,180 @@
       }
     ],
     "high_scoring_sentences": [
+      {
+        "id": "b7b7d42bbadd",
+        "year": 1999,
+        "text": "Bonus Programs : We believe in sharing our success with those who make it happen.",
+        "score": 0.4475
+      },
+      {
+        "id": "22858b07630a",
+        "year": 1999,
+        "text": "To that end, we provide generous incentives toward the purchase of Apple products.",
+        "score": 0.39
+      },
+      {
+        "id": "9b8728a1b7aa",
+        "year": 1999,
+        "text": "A Computer at Home : We encourage employees to familiarize themselves with the hardware and software they help create.",
+        "score": 0.3869
+      },
+      {
+        "id": "3c1994fe32f4",
+        "year": 1999,
+        "text": "It’s critical for corporations to play a role in the community.",
+        "score": 0.3448
+      },
+      {
+        "id": "33dfd6529473",
+        "year": 1999,
+        "text": "We make tools for these kinds of people.",
+        "score": 0.3421
+      },
+      {
+        "id": "2d57304ecb54",
+        "year": 1999,
+        "text": "“I enjoy representing Apple within the community.",
+        "score": 0.3339
+      },
+      {
+        "id": "6667aeff1196",
+        "year": 1999,
+        "text": "Substantial product discounts and the opportunity to work on great projects with some of the finest minds in the computer industry are additional bonuses.",
+        "score": 0.3263
+      },
+      {
+        "id": "6d9307a8ad5e",
+        "year": 1999,
+        "text": "Apple has a variety of bonus programs to reward outstanding performance at all levels of the organization.",
+        "score": 0.3142
+      },
+      {
+        "id": "419adee82900",
+        "year": 1999,
+        "text": "Contributing to public education and enriching children’s lives through technology and hands-on mentoring are Apple ideals.",
+        "score": 0.305
+      },
+      {
+        "id": "0881bfe87976",
+        "year": 2003,
+        "text": "Bonus Programs: We believe in sharing our success with those who make it happen.",
+        "score": 0.4619
+      },
+      {
+        "id": "080c0b9d149f",
+        "year": 2003,
+        "text": "Bonus Programs We believe in sharing our success with those who make it happen.",
+        "score": 0.4521
+      },
+      {
+        "id": "fd7d0ac3ffb1",
+        "year": 2003,
+        "text": "A Computer at Home We encourage employees to familiarize themselves with the hardware and software they help create.",
+        "score": 0.4124
+      },
+      {
+        "id": "b01848016135",
+        "year": 2003,
+        "text": "A Computer at Home: We encourage employees to familiarize themselves with the hardware and software they help create.",
+        "score": 0.4061
+      },
+      {
+        "id": "22858b07630a",
+        "year": 2003,
+        "text": "To that end, we provide generous incentives toward the purchase of Apple products.",
+        "score": 0.39
+      },
+      {
+        "id": "6667aeff1196",
+        "year": 2003,
+        "text": "Substantial product discounts and the opportunity to work on great projects with some of the finest minds in the computer industry are additional bonuses.",
+        "score": 0.3263
+      },
+      {
+        "id": "6d9307a8ad5e",
+        "year": 2003,
+        "text": "Apple has a variety of bonus programs to reward outstanding performance at all levels of the organization.",
+        "score": 0.3142
+      },
+      {
+        "id": "05078f896f35",
+        "year": 2003,
+        "text": "For starters, you can count on great compensation, insurance coverage, bonuses, and stock purchase and savings/investment plans.",
+        "score": 0.3025
+      },
+      {
+        "id": "e2cf4896d4a8",
+        "year": 2004,
+        "text": "Apple recognizes that each Apple employee brings a wealth of different perspectives to our environment.",
+        "score": 0.5874
+      },
+      {
+        "id": "bdce94e7c295",
+        "year": 2004,
+        "text": "We respect these differences and treat them as an additional value that we incorporate in the way we treat each other and approach our customers.",
+        "score": 0.5459
+      },
+      {
+        "id": "65a6b987ae65",
+        "year": 2004,
+        "text": "As an Apple employee, you're responsible for understanding and following Apple's policy on diversity.",
+        "score": 0.5073
+      },
+      {
+        "id": "6d38526ad2c9",
+        "year": 2004,
+        "text": "In addition, you're expected to respect the diverse backgrounds of all Apple employees, temporary agency workers, independent contractors, customers, clients, and vendors.",
+        "score": 0.4931
+      },
+      {
+        "id": "f613a34cd124",
+        "year": 2004,
+        "text": "A multicultural work environment must look at \"difference\" in the broadest sense of the word.",
+        "score": 0.4685
+      },
+      {
+        "id": "b5ee51d160a7",
+        "year": 2004,
+        "text": "Apple supports all differences and groups on campus.",
+        "score": 0.4444
+      },
+      {
+        "id": "0936ec4a7130",
+        "year": 2004,
+        "text": "We have chapters for the following employee groups: Apple Asian Association African American Employee Association Apple Hispanic Association Apple Jewish Association Apple Lambda Lesbian and Gay Employee Association Women's Leadership at Apple Apple Muslim Association",
+        "score": 0.3993
+      },
+      {
+        "id": "5b688a83878e",
+        "year": 2004,
+        "text": "Additionally, culture can also include age, marital status, religion, sexual orientation, and ability.",
+        "score": 0.3917
+      },
+      {
+        "id": "caf1155bd0e9",
+        "year": 2004,
+        "text": "This program results in a healthier, more productive workforce, which enhances the creation of superior products.",
+        "score": 0.338
+      },
+      {
+        "id": "acd381e364d5",
+        "year": 2006,
+        "text": "We encourage employees to familiarize themselves with the hardware and software they help create.",
+        "score": 0.4744
+      },
+      {
+        "id": "22858b07630a",
+        "year": 2006,
+        "text": "To that end, we provide generous incentives toward the purchase of Apple products.",
+        "score": 0.39
+      },
+      {
+        "id": "b294a49e7db6",
+        "year": 2006,
+        "text": "Product discounts and the opportunity to work on great projects with some of the finest minds in the industry are additional bonuses.",
+        "score": 0.3408
+      },
       {
         "id": "e51197d1df50",
         "year": 2007,
@@ -1238,6 +1699,36 @@
         "score": 0.429
       },
       {
+        "id": "3f0d9d42cde8",
+        "year": 2008,
+        "text": "We offer a competitive salary and relocation package, which includes travel and housing assistance.",
+        "score": 0.3474
+      },
+      {
+        "id": "e51197d1df50",
+        "year": 2009,
+        "text": "Apple celebrates diverse experiences and backgrounds.",
+        "score": 0.6318
+      },
+      {
+        "id": "1329e849d8e6",
+        "year": 2009,
+        "text": "By introducing new and innovative people to the company, we incorporate their different perspectives and skills and achieve our goal of making the best products on the market.",
+        "score": 0.5812
+      },
+      {
+        "id": "a175c5f48ab7",
+        "year": 2009,
+        "text": "Partners provide the resources and recruitment opportunities necessary to help us find new talent and further our commitment.",
+        "score": 0.4536
+      },
+      {
+        "id": "db8865a49e6c",
+        "year": 2009,
+        "text": "At Apple, diversity network associations offer employees an opportunity to engage in professional support and networking activities that promote diversity.",
+        "score": 0.429
+      },
+      {
         "id": "675961a712d9",
         "year": 2009,
         "text": "We've got an environment where you can make things happen.",
@@ -1280,6 +1771,12 @@
         "score": 0.4977
       },
       {
+        "id": "281ecf969fb9",
+        "year": 2010,
+        "text": "We’ve got an environment where you can make things happen.",
+        "score": 0.415
+      },
+      {
         "id": "17470d484113",
         "year": 2010,
         "text": "These include fantastic benefits, employee discounts, and the opportunity to contribute meaningfully to people’s lives.",
@@ -1298,10 +1795,28 @@
         "score": 0.3635
       },
       {
+        "id": "760dd91fb068",
+        "year": 2010,
+        "text": "Work behind the scenes — where we design, engineer, and launch every Mac, iPod, iPhone, and Apple software title.",
+        "score": 0.3384
+      },
+      {
         "id": "33abb8ad11f5",
         "year": 2010,
         "text": "Apple jobs come in all stripes.",
         "score": 0.338
+      },
+      {
+        "id": "5e06435b9ef2",
+        "year": 2010,
+        "text": "There’s plenty of open space — and open minds.",
+        "score": 0.3099
+      },
+      {
+        "id": "1b0c1729a62a",
+        "year": 2010,
+        "text": "We also have a shared obsession with getting every last detail right.",
+        "score": 0.309
       },
       {
         "id": "637670e43325",
@@ -1364,6 +1879,18 @@
         "score": 0.3018
       },
       {
+        "id": "637670e43325",
+        "year": 2012,
+        "text": "We’re always looking for ways to improve our employees’ quality of life, reward them, and make them feel valued.",
+        "score": 0.5213
+      },
+      {
+        "id": "e693356d61c5",
+        "year": 2012,
+        "text": "Each shares a passion for our products and for enriching the lives of one another and our customers.",
+        "score": 0.4853
+      },
+      {
         "id": "6feade0b56d9",
         "year": 2012,
         "text": "We’re always looking for smart, engaging, supportive, and dynamic people who love Apple and our products.",
@@ -1374,6 +1901,12 @@
         "year": 2012,
         "text": "When there’s an opening at Apple, we always look to fill it with the best.",
         "score": 0.4645
+      },
+      {
+        "id": "f5f5b2d9c468",
+        "year": 2012,
+        "text": "At Apple, we learn by doing and by working side by side with extraordinary people.",
+        "score": 0.4563
       },
       {
         "id": "e0cf9074e497",
@@ -1388,16 +1921,64 @@
         "score": 0.4243
       },
       {
+        "id": "e777b68855c6",
+        "year": 2012,
+        "text": "Our Apple Retail Store teams have a variety of incredibly talented, passionate people with interests as diverse as their personalities.",
+        "score": 0.3992
+      },
+      {
+        "id": "7ff591f60434",
+        "year": 2012,
+        "text": "Plus, we’ll hook you up with a great benefits package, competitive pay, and an employee discount on Apple products.",
+        "score": 0.3931
+      },
+      {
+        "id": "92255030e275",
+        "year": 2012,
+        "text": "At Apple, you can feel great knowing you’re truly making a difference to our customers.",
+        "score": 0.3893
+      },
+      {
+        "id": "66ac5ff36a2e",
+        "year": 2012,
+        "text": "Every day presents new challenges and the chance to collaborate with some of the best minds in business.",
+        "score": 0.3884
+      },
+      {
         "id": "5587e42aed76",
         "year": 2012,
         "text": "That’s how we do things at Apple.",
         "score": 0.3805
       },
       {
+        "id": "6912465ee300",
+        "year": 2012,
+        "text": "Apple is looking for natural leaders who are creative, smart, dynamic, interesting, authentic, and driven.",
+        "score": 0.3796
+      },
+      {
+        "id": "f15b9b5e1040",
+        "year": 2012,
+        "text": "These employees will be partners in your development.",
+        "score": 0.3667
+      },
+      {
+        "id": "353f7101b8f2",
+        "year": 2012,
+        "text": "Apple is a place where students and college graduates thrive.",
+        "score": 0.3531
+      },
+      {
         "id": "6a3171bf7dbb",
         "year": 2012,
         "text": "When you imagine the creative process at Apple, at first you may not picture someone in HR.",
         "score": 0.3514
+      },
+      {
+        "id": "c74762cd8537",
+        "year": 2012,
+        "text": "Join the dedicated group of people who help take every Apple product from the idea phase all the way to the marketplace.",
+        "score": 0.3484
       },
       {
         "id": "53cc0e4b7875",
@@ -1412,6 +1993,30 @@
         "score": 0.3439
       },
       {
+        "id": "b3d96ee03cff",
+        "year": 2012,
+        "text": "Start your career with one of the world’s most admired companies.",
+        "score": 0.3391
+      },
+      {
+        "id": "717f347c947d",
+        "year": 2012,
+        "text": "Take care of our customers, and we’ll take care of you.",
+        "score": 0.3302
+      },
+      {
+        "id": "3fd93cd91a10",
+        "year": 2012,
+        "text": "Salaries are competitive and are determined based on qualifications and experience.",
+        "score": 0.3231
+      },
+      {
+        "id": "02efe9cb3a7f",
+        "year": 2012,
+        "text": "These include fantastic benefits, employee discounts, and the opportunity to grow with Apple.",
+        "score": 0.3202
+      },
+      {
         "id": "a847907725e5",
         "year": 2012,
         "text": "It means forever asking, “Why is it this way?” and “How can it be better?” It means rethinking every customer experience until the clutter has fallen away — until all that remains is what’s essential, useful, and beautiful.",
@@ -1422,6 +2027,12 @@
         "year": 2012,
         "text": "A job at Apple is unlike any other you’ve had.",
         "score": 0.3152
+      },
+      {
+        "id": "5ffde4a2ae5b",
+        "year": 2012,
+        "text": "To make your job easier, we’ll provide you with an iMac to use while you’re working from home.",
+        "score": 0.3018
       },
       {
         "id": "10a2bc69f795",
@@ -1442,10 +2053,64 @@
         "score": 0.4651
       },
       {
+        "id": "138cda45f4d2",
+        "year": 2013,
+        "text": "When there’s an opening at Apple, we always look to fill it with the best.",
+        "score": 0.4645
+      },
+      {
+        "id": "e0cf9074e497",
+        "year": 2013,
+        "text": "But we expect creative thinking and solutions from everyone here, no matter what their responsibilities are.",
+        "score": 0.4483
+      },
+      {
+        "id": "562f65345e22",
+        "year": 2013,
+        "text": "Innovation takes many forms, and our people seem to find new ones every day.",
+        "score": 0.4243
+      },
+      {
         "id": "aa5b32c212a6",
         "year": 2013,
         "text": "Apple is committed to working with and providing reasonable accommodation to applicants with physical or mental disabilities.",
         "score": 0.407
+      },
+      {
+        "id": "5587e42aed76",
+        "year": 2013,
+        "text": "That’s how we do things at Apple.",
+        "score": 0.3805
+      },
+      {
+        "id": "6a3171bf7dbb",
+        "year": 2013,
+        "text": "When you imagine the creative process at Apple, at first you may not picture someone in HR.",
+        "score": 0.3514
+      },
+      {
+        "id": "53cc0e4b7875",
+        "year": 2013,
+        "text": "This is where we dream up what’s next for Apple — from hardware to software to the customer experience that goes with it — and where we do everything necessary to make it happen.",
+        "score": 0.3481
+      },
+      {
+        "id": "4e0671cf6c85",
+        "year": 2013,
+        "text": "Because whatever your job is here, you’ll be part of something big.",
+        "score": 0.3439
+      },
+      {
+        "id": "a847907725e5",
+        "year": 2013,
+        "text": "It means forever asking, “Why is it this way?” and “How can it be better?” It means rethinking every customer experience until the clutter has fallen away — until all that remains is what’s essential, useful, and beautiful.",
+        "score": 0.3176
+      },
+      {
+        "id": "3b6bb29e02a8",
+        "year": 2013,
+        "text": "A job at Apple is unlike any other you’ve had.",
+        "score": 0.3152
       },
       {
         "id": "5bf25b8a8d40",
@@ -1514,6 +2179,12 @@
         "score": 0.532
       },
       {
+        "id": "383d7ebcaad1",
+        "year": 2014,
+        "text": "At the Apple Store, we know inspiring leaders come from every sort of background.",
+        "score": 0.519
+      },
+      {
         "id": "50b1b7ebb924",
         "year": 2014,
         "text": "Both Walter and Kim exemplify what we value in diversity.",
@@ -1524,6 +2195,12 @@
         "year": 2014,
         "text": "At Apple, our 98,000 employees share a passion for products that change people’s lives, and from the very earliest days we have known that diversity is critical to our success.",
         "score": 0.5013
+      },
+      {
+        "id": "afc4f22be1e4",
+        "year": 2014,
+        "text": "What matters most is your ability to connect with your team, provide innovative solutions, and create an environment where all can succeed.",
+        "score": 0.478
       },
       {
         "id": "445b71b1fe3c",
@@ -1604,16 +2281,34 @@
         "score": 0.3805
       },
       {
+        "id": "21f4b0fc0c1f",
+        "year": 2014,
+        "text": "Join the Apple Store team and do meaningful work — you'll integrate products into people's lives and build skills for your career, life, and more.",
+        "score": 0.3722
+      },
+      {
         "id": "20f00ece8e43",
         "year": 2014,
         "text": "Her guide dog, Gemma, is affectionately known around the store as the “seeing iDog.” When we think of diversity, we think of individuals like Kim.",
         "score": 0.3704
       },
       {
+        "id": "6ddb87eb9e0f",
+        "year": 2014,
+        "text": "So whether you're analytical or creative, tech savvy, or a people person, the Apple Store provides an ideal opportunity to challenge yourself.",
+        "score": 0.3615
+      },
+      {
         "id": "1295e408d1c0",
         "year": 2014,
         "text": "When he introduced the bill in June 1963, President Kennedy urged Congress to pass it “for the one plain, proud and priceless quality that unites us all as Americans: a sense of justice.” All around the world, our team at Apple is united in the belief that being different makes us better.",
         "score": 0.3563
+      },
+      {
+        "id": "9c3fb3d27d43",
+        "year": 2014,
+        "text": "We have corporate offices all over the world, from Cupertino to London to Shanghai.",
+        "score": 0.3526
       },
       {
         "id": "6a3171bf7dbb",
@@ -1652,6 +2347,18 @@
         "score": 0.3439
       },
       {
+        "id": "274689e88a59",
+        "year": 2014,
+        "text": "Apple Store employees are unique individuals whose talents and experiences cannot be summed up in a job description.",
+        "score": 0.3426
+      },
+      {
+        "id": "490820f337be",
+        "year": 2014,
+        "text": "At Apple, great ideas have a way of becoming great products, services, and customer experiences very quickly.",
+        "score": 0.3354
+      },
+      {
         "id": "28e7e5b1be91",
         "year": 2014,
         "text": "And our board of directors is stronger than ever with the addition of Sue Wagner, who was elected in July.",
@@ -1662,6 +2369,18 @@
         "year": 2014,
         "text": "Thousands of Apple employees and their families march in the San Francisco Pride Parade.",
         "score": 0.3316
+      },
+      {
+        "id": "887c65b2c4a1",
+        "year": 2014,
+        "text": "None of us here at Apple would have it any other way.",
+        "score": 0.33
+      },
+      {
+        "id": "342317b1b96e",
+        "year": 2014,
+        "text": "Bring passion and dedication to your job and there's no telling what you could accomplish.",
+        "score": 0.3255
       },
       {
         "id": "974a6f65b3c2",
@@ -1682,10 +2401,22 @@
         "score": 0.3195
       },
       {
+        "id": "0726963f2697",
+        "year": 2014,
+        "text": "Forever tinkering with products and processes, always on the lookout for better.",
+        "score": 0.3195
+      },
+      {
         "id": "a847907725e5",
         "year": 2014,
         "text": "It means forever asking, “Why is it this way?” and “How can it be better?” It means rethinking every customer experience until the clutter has fallen away — until all that remains is what’s essential, useful, and beautiful.",
         "score": 0.3176
+      },
+      {
+        "id": "ef9ce497c926",
+        "year": 2014,
+        "text": "A job at Apple is one that requires a lot of you, but it’s also one that rewards bright, original thinking and hard work.",
+        "score": 0.3161
       },
       {
         "id": "3b6bb29e02a8",
@@ -1706,10 +2437,40 @@
         "score": 0.7271
       },
       {
+        "id": "385a72753469",
+        "year": 2015,
+        "text": "We aspire to do more than just make our company as diverse as the talent available to hire.",
+        "score": 0.7065
+      },
+      {
         "id": "5f38d401631a",
         "year": 2015,
         "text": "Our commitment to diversity is part of everything we do.",
         "score": 0.7001
+      },
+      {
+        "id": "b40731ec9521",
+        "year": 2015,
+        "text": "We are committed to fostering and advancing inclusion and diversity across Apple and all the communities we’re a part of.",
+        "score": 0.6754
+      },
+      {
+        "id": "49b0d0525c8f",
+        "year": 2015,
+        "text": "We are proud of the progress we’ve made, and our commitment to diversity is unwavering.",
+        "score": 0.674
+      },
+      {
+        "id": "ae3497d0689d",
+        "year": 2015,
+        "text": "We believe people from every background, race, and gender have a right to pursue their dreams.",
+        "score": 0.6691
+      },
+      {
+        "id": "6978b073b1e4",
+        "year": 2015,
+        "text": "As you can see, we’re working hard to expand our recruiting efforts so we continue hiring talented people from groups that are currently underrepresented in our industry.",
+        "score": 0.668
       },
       {
         "id": "17c4740f33a7",
@@ -1736,6 +2497,18 @@
         "score": 0.6472
       },
       {
+        "id": "9450a0d6f5f3",
+        "year": 2015,
+        "text": "We believe in equality for everyone, regardless of race, age, gender, gender identity, ethnicity, religion, or sexual orientation.",
+        "score": 0.6424
+      },
+      {
+        "id": "3c2ccc93a438",
+        "year": 2015,
+        "text": "We must address the broad underlying challenges, offer new opportunities, and create a future generation of employees as diverse as the world around us.",
+        "score": 0.6216
+      },
+      {
         "id": "756fc58f7424",
         "year": 2015,
         "text": "At Apple, we believe in celebrating and investing in diversity with a shared goal of making a difference in the world.",
@@ -1754,10 +2527,40 @@
         "score": 0.6143
       },
       {
+        "id": "80882beef0d1",
+        "year": 2015,
+        "text": "In the last 12 months, we’ve hired more diverse candidates than in any other year to date.",
+        "score": 0.614
+      },
+      {
         "id": "c80da14dd26f",
         "year": 2015,
         "text": "We also take affirmative action to offer employment and advancement opportunities to all applicants, including minorities, women, protected veterans, and individuals with disabilities.",
         "score": 0.6107
+      },
+      {
+        "id": "82e4fb92053b",
+        "year": 2015,
+        "text": "It’s part of our commitment to creating a truly inclusive Apple.",
+        "score": 0.607
+      },
+      {
+        "id": "8f02022055db",
+        "year": 2015,
+        "text": "We want every person who joins our team, every customer visiting our stores or calling for support to feel welcome.",
+        "score": 0.5873
+      },
+      {
+        "id": "a254353c5cd4",
+        "year": 2015,
+        "text": "We celebrate their differences and the many benefits we and our customers enjoy as a result.",
+        "score": 0.5803
+      },
+      {
+        "id": "8e3b04cfecc3",
+        "year": 2015,
+        "text": "Last year we reported the demographics of our employees for the first time externally, although we have long prioritized diversity.",
+        "score": 0.5706
       },
       {
         "id": "5eb1f7e00fb5",
@@ -1778,6 +2581,30 @@
         "score": 0.5629
       },
       {
+        "id": "6fd91ea761f1",
+        "year": 2015,
+        "text": "We believe the tech industry must fundamentally change how it offers support and opportunities to women.",
+        "score": 0.5614
+      },
+      {
+        "id": "8bc63ec44325",
+        "year": 2015,
+        "text": "Additionally, in the first 6 months of this year, nearly 50 percent of the people we’ve hired in the United States are women, Black, Hispanic, or Native American.",
+        "score": 0.5568
+      },
+      {
+        "id": "fe191e855db4",
+        "year": 2015,
+        "text": "This means fostering diversity not just at Apple but throughout our entire ecosystem, from the customers we welcome in our stores to the suppliers and developers we work with.",
+        "score": 0.5537
+      },
+      {
+        "id": "bf8ce72c4ecd",
+        "year": 2015,
+        "text": "Diversity is critical to innovation and it is essential to Apple’s future.",
+        "score": 0.5533
+      },
+      {
         "id": "e8107c1c479b",
         "year": 2015,
         "text": "We believe the more perspectives we have, the more innovative and powerful apps can be.",
@@ -1796,10 +2623,22 @@
         "score": 0.5419
       },
       {
+        "id": "42bceb25a87d",
+        "year": 2015,
+        "text": "In the United States, we hired more than 2,200 Black employees — a 50 percent increase over last year — and 2,700 Hispanic employees, a 66 percent increase.",
+        "score": 0.5369
+      },
+      {
         "id": "65bc67b0ceb9",
         "year": 2015,
         "text": "We share their mission to protect the civil and workplace rights of all our employees.",
         "score": 0.5368
+      },
+      {
+        "id": "2efe8796b7d1",
+        "year": 2015,
+        "text": "In total, this represents the largest group of employees we’ve ever hired from underrepresented groups in a single year.",
+        "score": 0.533
       },
       {
         "id": "48f8c730d6e9",
@@ -1832,10 +2671,22 @@
         "score": 0.5163
       },
       {
+        "id": "2a9aaf6ad924",
+        "year": 2015,
+        "text": "That applies throughout our company, around the world with no exceptions.",
+        "score": 0.515
+      },
+      {
         "id": "195d82cfa80b",
         "year": 2015,
         "text": "At Apple, our 98,000 employees share a passion for products that change people’s lives, and from the very earliest days we have known that diversity is critical to our success.",
         "score": 0.5013
+      },
+      {
+        "id": "cac5d5941719",
+        "year": 2015,
+        "text": "As one example, we’re proud that our spending on women- and minority-owned businesses exceeded $650 million last year.",
+        "score": 0.4969
       },
       {
         "id": "f9699608cf4f",
@@ -1862,10 +2713,22 @@
         "score": 0.4743
       },
       {
+        "id": "4640249c9aaa",
+        "year": 2015,
+        "text": "To encourage women to be part of the tech industry, we’ve developed a strong partnership with the National Center for Women & Information Technology (NCWIT).",
+        "score": 0.4743
+      },
+      {
         "id": "16c0943c381b",
         "year": 2015,
         "text": "I’m proud to work alongside the many senior executives we’ve hired and promoted in the past few years, including Eddy Cue and Angela Ahrendts, Lisa Jackson and Denise Young-Smith.",
         "score": 0.4705
+      },
+      {
+        "id": "cf482c697cfa",
+        "year": 2015,
+        "text": "We also aspire to make a difference beyond Apple.",
+        "score": 0.4637
       },
       {
         "id": "9872b9357807",
@@ -1878,6 +2741,12 @@
         "year": 2015,
         "text": "More and more, we’re fueling the talents of different people to come up with world-changing apps.",
         "score": 0.454
+      },
+      {
+        "id": "3d2b01780ef1",
+        "year": 2015,
+        "text": "As part of our partnership, we’re helping NCWIT expand the only national talent development initiative for women in tech — Aspirations in Computing.",
+        "score": 0.4517
       },
       {
         "id": "38f7e2bf46f8",
@@ -1910,16 +2779,34 @@
         "score": 0.4382
       },
       {
+        "id": "2a736c3c407d",
+        "year": 2015,
+        "text": "We’re supporting education with programs like the Thurgood Marshall College Fund to help students at historically black colleges and universities find opportunities in technology.",
+        "score": 0.4368
+      },
+      {
         "id": "c67de1da2a67",
         "year": 2015,
         "text": "Open to everyone, regardless of where they come from, what they look like, how they worship, or who they love.”",
         "score": 0.4361
       },
       {
+        "id": "1d69c7449fba",
+        "year": 2015,
+        "text": "In the past year we hired over 11,000 women globally, which is 65 percent more than in the previous year.",
+        "score": 0.4352
+      },
+      {
         "id": "179e89378813",
         "year": 2015,
         "text": "The index measures a company’s commitment to equality, and it’s an incredibly high standard.",
         "score": 0.435
+      },
+      {
+        "id": "0e2e76823f12",
+        "year": 2015,
+        "text": "That’s why we’re helping NCWIT launch Latinas in Technology, which will encourage even more young women to get into the industry.",
+        "score": 0.4348
       },
       {
         "id": "587ccad21f87",
@@ -1946,6 +2833,12 @@
         "score": 0.4193
       },
       {
+        "id": "853405bf4350",
+        "year": 2015,
+        "text": "It’s a special place where we have the opportunity to create the best products on earth — products that change lives and help shape the future.",
+        "score": 0.4163
+      },
+      {
         "id": "d0c8102f8e9b",
         "year": 2015,
         "text": "The work we do with these groups is meaningful and inspiring.",
@@ -1964,16 +2857,52 @@
         "score": 0.4123
       },
       {
+        "id": "b3ea4fd89f00",
+        "year": 2015,
+        "text": "We’re proud to be their first-ever Lifetime Partner, and we’re dedicated to supporting all aspects of their organization.",
+        "score": 0.4108
+      },
+      {
         "id": "aa5b32c212a6",
         "year": 2015,
         "text": "Apple is committed to working with and providing reasonable accommodation to applicants with physical or mental disabilities.",
         "score": 0.407
       },
       {
+        "id": "f4bf8159e788",
+        "year": 2015,
+        "text": "TMCF is helping us to identify, develop, and hire interns who want to get into tech.",
+        "score": 0.406
+      },
+      {
+        "id": "8ed083fef924",
+        "year": 2015,
+        "text": "And more important than these statistics, we see tens of thousands of Apple employees all over the world, speaking dozens of languages, working together.",
+        "score": 0.4001
+      },
+      {
+        "id": "ac5c45156375",
+        "year": 2015,
+        "text": "A different kind of company with a different view of the world.",
+        "score": 0.3964
+      },
+      {
         "id": "d96e48e79dad",
         "year": 2015,
         "text": "We have opportunities that can help you take your ideas and your passion to the next level.",
         "score": 0.3958
+      },
+      {
+        "id": "001fc52ac7a9",
+        "year": 2015,
+        "text": "We’ve designed a weeklong immersion program at Apple that helps them be successful no matter where their job path might take them.",
+        "score": 0.3944
+      },
+      {
+        "id": "b2e1432c87ef",
+        "year": 2015,
+        "text": "It’s a long-term project, and we’re committed to its success. 92 percent of these students are of Hispanic, Black, Native American, Alaskan Native, or Asian heritage. 1",
+        "score": 0.3913
       },
       {
         "id": "3ec9633d60b7",
@@ -2006,16 +2935,70 @@
         "score": 0.3809
       },
       {
+        "id": "99acc0e36af8",
+        "year": 2015,
+        "text": "Through our work with HBCUs, we want to increase the enrollment of computer science students and double the number of high-performing graduates.",
+        "score": 0.3795
+      },
+      {
         "id": "45f1aaba40f3",
         "year": 2015,
         "text": "If you'd like more information about your EEO rights as an applicant, please click here .",
         "score": 0.3793
       },
       {
+        "id": "d8dfa955b0e7",
+        "year": 2015,
+        "text": "That’s why we created a grant program to fund faculty members who research and develop ways to propel their students forward and support their journey in tech.",
+        "score": 0.3785
+      },
+      {
+        "id": "1312174bcfef",
+        "year": 2015,
+        "text": "We believe in the power of education to go beyond the classroom.",
+        "score": 0.3784
+      },
+      {
+        "id": "d748516498cb",
+        "year": 2015,
+        "text": "We partner with organizations that give them that chance, whether they’re taking their very first classes or starting their first jobs.",
+        "score": 0.3783
+      },
+      {
+        "id": "8d7f3729773b",
+        "year": 2015,
+        "text": "We’re also hosting hundreds of students at our annual developer conference, and we’re setting up new programs to help students learn to code.",
+        "score": 0.378
+      },
+      {
+        "id": "eb96516128e3",
+        "year": 2015,
+        "text": "We’re reaching out to students who are interested in technology and the industries that support it.",
+        "score": 0.3772
+      },
+      {
         "id": "aaf9ddc3c13d",
         "year": 2015,
         "text": "A standard we’re determined to meet for years to come.",
         "score": 0.3727
+      },
+      {
+        "id": "01cc79d8b539",
+        "year": 2015,
+        "text": "We promised to improve those numbers and we’re happy to report that we have made progress.",
+        "score": 0.368
+      },
+      {
+        "id": "6ddb87eb9e0f",
+        "year": 2015,
+        "text": "So whether you're analytical or creative, tech savvy, or a people person, the Apple Store provides an ideal opportunity to challenge yourself.",
+        "score": 0.3615
+      },
+      {
+        "id": "de9b1d9bcee8",
+        "year": 2015,
+        "text": "We’ve joined President Obama in support of the ConnectED initiative by committing our products, our knowledge, and our passion for learning to 114 underserved schools across the country.",
+        "score": 0.3583
       },
       {
         "id": "1295e408d1c0",
@@ -2030,10 +3013,28 @@
         "score": 0.3551
       },
       {
+        "id": "5aab6fcb55a1",
+        "year": 2015,
+        "text": "But with Latinas making up just 1 percent of the tech workforce, there’s a huge opportunity.",
+        "score": 0.3504
+      },
+      {
+        "id": "e12f212b3a58",
+        "year": 2015,
+        "text": "We’re working with the Thurgood Marshall College Fund (TMCF), which provides scholarships to students at public HBCUs.",
+        "score": 0.3496
+      },
+      {
         "id": "61095a6eaba1",
         "year": 2015,
         "text": "We know we can do more, and we will.",
         "score": 0.3462
+      },
+      {
+        "id": "84fa4d20c045",
+        "year": 2015,
+        "text": "And we’re helping educate the next generation of coders.",
+        "score": 0.3458
       },
       {
         "id": "0758e7c234ce",
@@ -2048,10 +3049,28 @@
         "score": 0.343
       },
       {
+        "id": "274689e88a59",
+        "year": 2015,
+        "text": "Apple Store employees are unique individuals whose talents and experiences cannot be summed up in a job description.",
+        "score": 0.3426
+      },
+      {
+        "id": "3325164c6a10",
+        "year": 2015,
+        "text": "It’s a privilege we hold dear.",
+        "score": 0.3422
+      },
+      {
         "id": "60772ba7cada",
         "year": 2015,
         "text": "Develop skills and get hands-on experience working with some of the best minds in the business.",
         "score": 0.3395
+      },
+      {
+        "id": "49f1c28ecd96",
+        "year": 2015,
+        "text": "But we know there is a lot more work to be done.",
+        "score": 0.3387
       },
       {
         "id": "1d9025b145ef",
@@ -2072,6 +3091,24 @@
         "score": 0.3353
       },
       {
+        "id": "15ce08f62c31",
+        "year": 2015,
+        "text": "Learn how you can support or join NCWIT",
+        "score": 0.3351
+      },
+      {
+        "id": "c1f045caff28",
+        "year": 2015,
+        "text": "ConnectED is bringing our technology to some of the most economically disadvantaged schools and communities in the United States, so more people have the opportunity to pursue their dreams.",
+        "score": 0.3342
+      },
+      {
+        "id": "4d63cf968a38",
+        "year": 2015,
+        "text": "These students also attend sessions that teach them about our industry and Apple culture.",
+        "score": 0.3333
+      },
+      {
         "id": "d01244bc6c8b",
         "year": 2015,
         "text": "Thousands of Apple employees and their families march in the San Francisco Pride Parade.",
@@ -2084,9 +3121,21 @@
         "score": 0.3311
       },
       {
+        "id": "819309df5df7",
+        "year": 2015,
+        "text": "We’re focusing on schools where at least 96 percent of the students are eligible for the free or reduced-price lunch program, so we can make a difference in areas that need it most.",
+        "score": 0.331
+      },
+      {
         "id": "ed61eaa82b52",
         "year": 2015,
         "text": "To celebrate the right of everyone to love whomever they choose, Apple employees march in Pride parades in both San Francisco, California, and Austin, Texas.",
+        "score": 0.3297
+      },
+      {
+        "id": "dce684737ad0",
+        "year": 2015,
+        "text": "We want to make sure all ConnectED students and teachers are equipped with the tools they need.",
         "score": 0.3297
       },
       {
@@ -2120,6 +3169,18 @@
         "score": 0.3187
       },
       {
+        "id": "9c43829c52b0",
+        "year": 2015,
+        "text": "In addition, iTunes will be showcasing Latina role models and developers to inspire Hispanic women.",
+        "score": 0.3185
+      },
+      {
+        "id": "6a4922fe3d64",
+        "year": 2015,
+        "text": "A group of hardware engineers at our campus in Cupertino, CA.",
+        "score": 0.3131
+      },
+      {
         "id": "8481b8e6b13e",
         "year": 2015,
         "text": "Since 2008, over 861,000 workers in our supply chain have used the classes to further their careers.",
@@ -2132,6 +3193,12 @@
         "score": 0.3093
       },
       {
+        "id": "ea5f34f233f9",
+        "year": 2015,
+        "text": "One way we can make a lasting impact on the future is by starting at the earliest stages of education.",
+        "score": 0.308
+      },
+      {
         "id": "bd7ddf7498c3",
         "year": 2015,
         "text": "Apple is a place where students can thrive.",
@@ -2142,6 +3209,12 @@
         "year": 2015,
         "text": "CastleOak Securities (African American–owned), Lebenthal Holdings (female-owned), and Mischler Financial Group (veteran-owned) comanaged the $8 billion bond offering in May. spent with small and diverse suppliers.",
         "score": 0.3068
+      },
+      {
+        "id": "2e8b5088af89",
+        "year": 2015,
+        "text": "The campaign will also provide families with the resources they need to talk to their daughters about a tech career.",
+        "score": 0.3012
       },
       {
         "id": "b54560672a5c",
@@ -2184,6 +3257,18 @@
         "year": 2016,
         "text": "Develop skills and get hands-on experience working with some of the best minds in the business.",
         "score": 0.3395
+      },
+      {
+        "id": "a7202906e3a1",
+        "year": 2016,
+        "text": "Whether you work at one of our global offices, offsite, or even at home, a job at Apple will be demanding.",
+        "score": 0.3366
+      },
+      {
+        "id": "0726963f2697",
+        "year": 2016,
+        "text": "Forever tinkering with products and processes, always on the lookout for better.",
+        "score": 0.3195
       },
       {
         "id": "bd7ddf7498c3",
@@ -2276,6 +3361,12 @@
         "score": 0.5775
       },
       {
+        "id": "6ea782a6b179",
+        "year": 2018,
+        "text": "Either way, we’re committed to helping employees explore their potential.",
+        "score": 0.5674
+      },
+      {
         "id": "4e96c154b341",
         "year": 2018,
         "text": "And we’re expanding our network to include more businesses owned by women, minorities, Veterans, people with disabilities, and LGBTQ individuals.",
@@ -2360,6 +3451,12 @@
         "score": 0.4544
       },
       {
+        "id": "75d2ad116054",
+        "year": 2018,
+        "text": "That’s why we’re looking for great minds from every field of study.",
+        "score": 0.4509
+      },
+      {
         "id": "fde7b5338f77",
         "year": 2018,
         "text": "Quote by Opportunities like the Apple Scholars program level out the playing field because it puts Historically Black Colleges and Universities on the map to be included in the hiring of diverse talent.",
@@ -2396,6 +3493,12 @@
         "score": 0.4258
       },
       {
+        "id": "cc90dfa9b19a",
+        "year": 2018,
+        "text": "We do things differently, and the results have revolutionized entire industries.",
+        "score": 0.4219
+      },
+      {
         "id": "ef3f9390cf0f",
         "year": 2018,
         "text": "I think we walk the talk here.",
@@ -2408,6 +3511,12 @@
         "score": 0.4107
       },
       {
+        "id": "b2272188e773",
+        "year": 2018,
+        "text": "So bring your curiosity and individuality to Apple, where you’ll develop professional skills, get hands-on experience, and work with some of the best minds in the business.",
+        "score": 0.4009
+      },
+      {
         "id": "3ea9820cc98d",
         "year": 2018,
         "text": "Instead of relying solely on large financial institutions for our bond offerings, we actively seek out financial institutions owned by minorities, women, and Veterans to distribute our bonds to their investors.",
@@ -2418,6 +3527,12 @@
         "year": 2018,
         "text": "Women earn one dollar for every dollar male employees earn.",
         "score": 0.3871
+      },
+      {
+        "id": "f92aa3c351a7",
+        "year": 2018,
+        "text": "We also have all kinds of resources to promote your career development.",
+        "score": 0.3865
       },
       {
         "id": "d5f418e49c79",
@@ -2442,6 +3557,12 @@
         "year": 2018,
         "text": "The best way the world works is everybody in.",
         "score": 0.3671
+      },
+      {
+        "id": "899f1ee51fa7",
+        "year": 2018,
+        "text": "Whether you work at one of our global offices or even at home, a job here will be demanding.",
+        "score": 0.3666
       },
       {
         "id": "6dc1ae9d5c89",
@@ -2474,10 +3595,34 @@
         "score": 0.3472
       },
       {
+        "id": "2f1d71128d52",
+        "year": 2018,
+        "text": "We’ve always thought of Apple as the intersection of technology and the liberal arts.",
+        "score": 0.3437
+      },
+      {
+        "id": "c7c2cc01ff25",
+        "year": 2018,
+        "text": "With so many ways to contribute here, chances are good you’ll find a way to do what you love.",
+        "score": 0.3398
+      },
+      {
+        "id": "9447596f924b",
+        "year": 2018,
+        "text": "A network of coworkers is always there for you, and you’ll keep in touch with your team and manager through video conversations and chat tools.",
+        "score": 0.3364
+      },
+      {
         "id": "c79dd4563ae6",
         "year": 2018,
         "text": "This enables the firms to grow, and in turn, we reach investors who wouldn’t normally have access to our offerings.",
         "score": 0.3301
+      },
+      {
+        "id": "d766dc094219",
+        "year": 2018,
+        "text": "We’ll train you to be the best.",
+        "score": 0.3283
       },
       {
         "id": "ebed8623aa7e",
@@ -2486,10 +3631,28 @@
         "score": 0.3279
       },
       {
+        "id": "38186acdb8ed",
+        "year": 2018,
+        "text": "From your own home, you’ll be their human connection to Apple: friendly, thoughtful, and real.",
+        "score": 0.3154
+      },
+      {
         "id": "f62246cf5b85",
         "year": 2018,
         "text": "And because students at community colleges are the most diverse groups among higher education institutions, we’ve also introduced a free year-long app development curriculum for high school and community college students to help bring their ideas to life.",
         "score": 0.3068
+      },
+      {
+        "id": "c3b50b8c920e",
+        "year": 2018,
+        "text": "All At Home Advisors — even those who work part-time — receive a robust benefits package, including product discounts and paid time away.",
+        "score": 0.3068
+      },
+      {
+        "id": "61998340b151",
+        "year": 2018,
+        "text": "And you’ll gain valuable experience to help you succeed in practically any job, at Apple or beyond.",
+        "score": 0.3061
       },
       {
         "id": "90ed4ec39a66",
@@ -2576,6 +3739,12 @@
         "score": 0.469
       },
       {
+        "id": "75d2ad116054",
+        "year": 2019,
+        "text": "That’s why we’re looking for great minds from every field of study.",
+        "score": 0.4509
+      },
+      {
         "id": "fde7b5338f77",
         "year": 2019,
         "text": "Quote by Opportunities like the Apple Scholars program level out the playing field because it puts Historically Black Colleges and Universities on the map to be included in the hiring of diverse talent.",
@@ -2606,10 +3775,22 @@
         "score": 0.4258
       },
       {
+        "id": "2ed5d7a379ce",
+        "year": 2019,
+        "text": "And that’s why we’re continuously reinventing the retail experience: to open up all kinds of potential for our customers — and you.",
+        "score": 0.4142
+      },
+      {
         "id": "8cd91ad3e8ec",
         "year": 2019,
         "text": "Because the majority of our previously undeclared employees identified as White, the decrease had no impact on the representation rates for any other group.",
         "score": 0.4119
+      },
+      {
+        "id": "bc21ffc3ec29",
+        "year": 2019,
+        "text": "Come to Apple as a student and your team will welcome you as a full contributor, like any other employee.",
+        "score": 0.4117
       },
       {
         "id": "5e324b2b4a21",
@@ -2660,16 +3841,40 @@
         "score": 0.352
       },
       {
+        "id": "4082d7ac6f20",
+        "year": 2019,
+        "text": "Whether you work at one of our global offices, an Apple Store, or even at home, a job here will be demanding.",
+        "score": 0.3512
+      },
+      {
         "id": "cc415fc8ff57",
         "year": 2019,
         "text": "Through our partnership with Historically Black Colleges and Universities, we welcomed our second class of Thurgood Marshall College Fund scholars to Apple in summer 2017.",
         "score": 0.3472
       },
       {
+        "id": "3de215a89d94",
+        "year": 2019,
+        "text": "Watch the film of Apple Store employees discussing how their passions fuel their work every day.",
+        "score": 0.3454
+      },
+      {
+        "id": "2f1d71128d52",
+        "year": 2019,
+        "text": "We’ve always thought of Apple as the intersection of technology and the liberal arts.",
+        "score": 0.3437
+      },
+      {
         "id": "244c5105ec5a",
         "year": 2019,
         "text": "Learn more about working at Apple",
         "score": 0.3431
+      },
+      {
+        "id": "c7c2cc01ff25",
+        "year": 2019,
+        "text": "With so many ways to contribute here, chances are good you’ll find a way to do what you love.",
+        "score": 0.3398
       },
       {
         "id": "c79dd4563ae6",
@@ -2694,6 +3899,12 @@
         "year": 2019,
         "text": "And because students at community colleges are the most diverse groups among higher education institutions, we’ve also introduced a free year-long app development curriculum for high school and community college students to help bring their ideas to life.",
         "score": 0.3068
+      },
+      {
+        "id": "2030087592f4",
+        "year": 2019,
+        "text": "You’ll get hands-on experience while collaborating with some of the best minds in the world.",
+        "score": 0.3058
       },
       {
         "id": "0aae21ca0fb1",
@@ -2738,6 +3949,12 @@
         "score": 0.5341
       },
       {
+        "id": "71254ffeb5ab",
+        "year": 2020,
+        "text": "Either way, we’re committed to helping employees explore their potential, both during and after college.",
+        "score": 0.5058
+      },
+      {
         "id": "a93ee9fbe4a8",
         "year": 2020,
         "text": "That happens here because every one of us strives toward a common goal — creating the best customer experiences.",
@@ -2748,6 +3965,12 @@
         "year": 2020,
         "text": "For every product we create, we consider the impact it will make — on our customers, on our people, and on our planet.",
         "score": 0.4696
+      },
+      {
+        "id": "6dcea21186a0",
+        "year": 2020,
+        "text": "Join us and you’ll do the best work of your life — and make a difference in other people’s lives.",
+        "score": 0.469
       },
       {
         "id": "4e8f2203cf43",
@@ -2810,6 +4033,12 @@
         "score": 0.4021
       },
       {
+        "id": "893275aafee7",
+        "year": 2020,
+        "text": "Come to Apple, where thousands of individual imaginations gather together to pave the way to innovation.",
+        "score": 0.3998
+      },
+      {
         "id": "075d9b6f9729",
         "year": 2020,
         "text": "And we lead the industry with efforts to reduce our impact on climate change, find ways to use greener materials, and conserve the Earth’s valuable resources.",
@@ -2826,6 +4055,18 @@
         "year": 2020,
         "text": "Apple’s most important resource, our soul, is our people.",
         "score": 0.3937
+      },
+      {
+        "id": "8484cdfa09ce",
+        "year": 2020,
+        "text": "This is where some of the world’s smartest, most passionate people create the world’s most innovative products and experiences.",
+        "score": 0.388
+      },
+      {
+        "id": "f92aa3c351a7",
+        "year": 2020,
+        "text": "We also have all kinds of resources to promote your career development.",
+        "score": 0.3865
       },
       {
         "id": "24d13e16168e",
@@ -2864,6 +4105,12 @@
         "score": 0.3558
       },
       {
+        "id": "5736608a8c9a",
+        "year": 2020,
+        "text": "Watch the film in which Apple employees talk about what drives them and what it’s like to work here.",
+        "score": 0.3529
+      },
+      {
         "id": "4082d7ac6f20",
         "year": 2020,
         "text": "Whether you work at one of our global offices, an Apple Store, or even at home, a job here will be demanding.",
@@ -2876,10 +4123,22 @@
         "score": 0.3491
       },
       {
+        "id": "ee639f2d35ca",
+        "year": 2020,
+        "text": "Here, you’ll do more than join something — you’ll add something.",
+        "score": 0.3438
+      },
+      {
         "id": "2f1d71128d52",
         "year": 2020,
         "text": "We’ve always thought of Apple as the intersection of technology and the liberal arts.",
         "score": 0.3437
+      },
+      {
+        "id": "244c5105ec5a",
+        "year": 2020,
+        "text": "Learn more about working at Apple",
+        "score": 0.3431
       },
       {
         "id": "c7c2cc01ff25",
@@ -2894,16 +4153,40 @@
         "score": 0.3384
       },
       {
+        "id": "9447596f924b",
+        "year": 2020,
+        "text": "A network of coworkers is always there for you, and you’ll keep in touch with your team and manager through video conversations and chat tools.",
+        "score": 0.3364
+      },
+      {
+        "id": "d766dc094219",
+        "year": 2020,
+        "text": "We’ll train you to be the best.",
+        "score": 0.3283
+      },
+      {
         "id": "b7e949ed7240",
         "year": 2020,
         "text": "Lisa Jackson Vice President of Environment, Policy, and Social Initiatives",
         "score": 0.3261
       },
       {
+        "id": "869bbdb04058",
+        "year": 2020,
+        "text": "They all really care about my growth within the company and really want me to succeed, even after I graduate.” “I love that Apple gives me a consistent, dependable work schedule built around my academic timetable.",
+        "score": 0.3197
+      },
+      {
         "id": "e5b663f19dd5",
         "year": 2020,
         "text": "Salaries are competitive and will be discussed during the recruiting process.",
         "score": 0.3192
+      },
+      {
+        "id": "98118b3a0653",
+        "year": 2020,
+        "text": "And you’ll gain valuable experience to help you succeed in practically any job, at Apple or beyond. “The Apple coaching and mentoring have been really valuable.",
+        "score": 0.3183
       },
       {
         "id": "f26c31a9a438",
@@ -2916,6 +4199,12 @@
         "year": 2020,
         "text": "They’re the product of hundreds of optical technology experts who complement each other’s thinking.",
         "score": 0.3074
+      },
+      {
+        "id": "c3b50b8c920e",
+        "year": 2020,
+        "text": "All At Home Advisors — even those who work part-time — receive a robust benefits package, including product discounts and paid time away.",
+        "score": 0.3068
       },
       {
         "id": "2030087592f4",
@@ -3636,6 +4925,12 @@
         "year": 2021,
         "text": "Recently we’ve expanded Apple University offerings to team members across more departments in more parts of the world, and we’ve made it easier to participate remotely.",
         "score": 0.3699
+      },
+      {
+        "id": "520747ccff4e",
+        "year": 2021,
+        "text": "At the Apple Store, sharing what you love through our products helps others realize their own potential.",
+        "score": 0.3673
       },
       {
         "id": "09d940f1edbe",
@@ -8652,10 +9947,31 @@
       "inclusion": [
         {
           "term": "diversity",
-          "first_year": 2007,
+          "first_year": 2004,
           "last_year": 2026,
           "max_score": 0.7271,
           "example": "Together, we are committed to diversity within our company and the advancement of equality and human rights everywhere."
+        },
+        {
+          "term": "hispanic",
+          "first_year": 2004,
+          "last_year": 2025,
+          "max_score": 0.614,
+          "example": "Over the past year, we hired more Black and Hispanic/Latinx team members in the U.S. than ever before."
+        },
+        {
+          "term": "women",
+          "first_year": 2004,
+          "last_year": 2025,
+          "max_score": 0.6114,
+          "example": "Over the past year, we filled more open leadership roles than ever with women globally and Black candidates in the United States."
+        },
+        {
+          "term": "disability",
+          "first_year": 2006,
+          "last_year": 2006,
+          "max_score": 0.1938,
+          "example": "So Apple offers FlexBenefits, an innovative program that lets you choose health, life, and disability benefits that best fit your lifestyle and individual/family needs."
         },
         {
           "term": "affirmative",
@@ -8663,13 +9979,6 @@
           "last_year": 2015,
           "max_score": 0.6107,
           "example": "We also take affirmative action to offer employment and advancement opportunities to all applicants, including minorities, women, protected veterans, and individuals with disabilities."
-        },
-        {
-          "term": "women",
-          "first_year": 2013,
-          "last_year": 2025,
-          "max_score": 0.6114,
-          "example": "Over the past year, we filled more open leadership roles than ever with women globally and Black candidates in the United States."
         },
         {
           "term": "inclusion",
@@ -8691,13 +10000,6 @@
           "last_year": 2026,
           "max_score": 0.6781,
           "example": "We’re committed to increasing the number of managers from underrepresented communities, with a particular focus on outreach efforts for internal and external candidates from Black and Brown communitie"
-        },
-        {
-          "term": "hispanic",
-          "first_year": 2015,
-          "last_year": 2025,
-          "max_score": 0.614,
-          "example": "Over the past year, we hired more Black and Hispanic/Latinx team members in the U.S. than ever before."
         },
         {
           "term": "bias",

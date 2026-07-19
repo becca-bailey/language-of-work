@@ -1,7 +1,52 @@
 {
-  "n": 0,
-  "accuracy": null,
-  "krippendorff_alpha": null,
-  "confusion": {},
-  "disagreements": []
+  "n": 22,
+  "accuracy": 0.773,
+  "krippendorff_alpha": 0.686,
+  "confusion": {
+    "aspirational_vague": {
+      "belonging_culture": 1,
+      "aspirational_vague": 2,
+      "structural_process": 2
+    },
+    "structural_process": {
+      "structural_process": 9
+    },
+    "explicit_demographic": {
+      "explicit_demographic": 3
+    },
+    "belonging_culture": {
+      "belonging_culture": 3
+    },
+    "absent": {
+      "explicit_demographic": 1,
+      "aspirational_vague": 1
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "e9d2f11db3ff1bc5",
+      "hand_label": "aspirational_vague",
+      "predicted": "belonging_culture"
+    },
+    {
+      "chunk_id": "e044fb509f8c4210",
+      "hand_label": "aspirational_vague",
+      "predicted": "structural_process"
+    },
+    {
+      "chunk_id": "684482813a4678d4",
+      "hand_label": "absent",
+      "predicted": "explicit_demographic"
+    },
+    {
+      "chunk_id": "d899ab87f9077b6b",
+      "hand_label": "absent",
+      "predicted": "aspirational_vague"
+    },
+    {
+      "chunk_id": "1dd36c4331be108e",
+      "hand_label": "aspirational_vague",
+      "predicted": "structural_process"
+    }
+  ]
 }

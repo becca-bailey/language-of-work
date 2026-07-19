@@ -4,8 +4,106 @@
   "axis": "wellbeing",
   "years": [
     {
+      "year": 2002,
+      "zscore": -0.9987,
+      "rawTopkMean": 0.0324,
+      "nChunks": 17,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Where might I have seen your projects before?",
+          "heading": "",
+          "score": 0.0606
+        },
+        {
+          "text": "In the New York Times, the Washington Post, the Times of London, on FOX news, in the book \"Fresh Styles For Web Designers,\" linked from usability expert Jakob Nielsen's site, as one of Yahoo's Picks of the Year, or maybe somewhere else .",
+          "heading": "",
+          "score": 0.049
+        },
+        {
+          "text": "Times on eNormicom More in news ...",
+          "heading": "",
+          "score": 0.0356
+        },
+        {
+          "text": "It's a collection of 37 nuggets of online philosophy and design wisdom.",
+          "heading": "",
+          "score": 0.0186
+        },
+        {
+          "text": "Recent client projects Kicksology : Shoe fetish Tenzing : In-flight email interface MissileLock : Contact management interface FastWeb : #1 scholarship finder More in work ... 37signals' projects and writing Design Not Found : Real-world contingency design examples Contingency Design White Paper : Designing for when things go wrong 37BetterBank : The way online banking should be 37BetterFedEx : A ",
+          "heading": "",
+          "score": -0.0017
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "zscore": -1.0001,
+      "rawTopkMean": 0.0323,
+      "nChunks": 11,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "In the New York Times, the Washington Post, the Times of London, on FOX news, in various books including the popular \"Fresh Styles For Web Designers,\" linked from usability expert Jakob Nielsen's site, as one of Yahoo's Picks of the Year, or in another publication.",
+          "heading": "Where might I have seen your projects before?",
+          "score": 0.057
+        },
+        {
+          "text": "See what industry experts, clients, and others are saying about 37signals.",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.0323
+        },
+        {
+          "text": "New Architect magazine publishes Making Mistakes Well , our article on contingency design.",
+          "heading": "37signals Highlights",
+          "score": 0.0315
+        },
+        {
+          "text": "Meetup, Panera Bread, Monster.com, Yellow Corporation, Getty Images, Qwest, Performance Bike, Clear Channel, and more...",
+          "heading": "Repeat clients include",
+          "score": 0.0254
+        },
+        {
+          "text": "CommArts publishes our article on 37BetterFedEx (our proposed redesign of FedEx's online shipping form).",
+          "heading": "37signals Highlights",
+          "score": 0.0155
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "zscore": -1.0162,
+      "rawTopkMean": 0.0314,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Free Holiday E-Commerce Ideas from 37signals. 37signals' Design Not Found covered in this N.Y.",
+          "heading": "37signals Highlights",
+          "score": 0.0474
+        },
+        {
+          "text": "New Architect magazine publishes Making Mistakes Well , our article on contingency design.",
+          "heading": "37signals Highlights",
+          "score": 0.0315
+        },
+        {
+          "text": "CommArts publishes our article on 37BetterFedEx (our proposed redesign of FedEx's online shipping form).",
+          "heading": "37signals Highlights",
+          "score": 0.0155
+        }
+      ]
+    },
+    {
       "year": 2009,
-      "zscore": -1.1187,
+      "zscore": -0.8758,
       "rawTopkMean": 0.0394,
       "nChunks": 28,
       "kUsed": 5,
@@ -41,7 +139,7 @@
     },
     {
       "year": 2010,
-      "zscore": -2.455,
+      "zscore": -2.1793,
       "rawTopkMean": -0.0342,
       "nChunks": 3,
       "kUsed": 3,
@@ -67,7 +165,7 @@
     },
     {
       "year": 2014,
-      "zscore": -0.6269,
+      "zscore": -0.3962,
       "rawTopkMean": 0.0664,
       "nChunks": 19,
       "kUsed": 5,
@@ -103,7 +201,7 @@
     },
     {
       "year": 2016,
-      "zscore": -0.8138,
+      "zscore": -0.5784,
       "rawTopkMean": 0.0561,
       "nChunks": 37,
       "kUsed": 5,
@@ -139,7 +237,7 @@
     },
     {
       "year": 2017,
-      "zscore": 0.3406,
+      "zscore": 0.5476,
       "rawTopkMean": 0.1197,
       "nChunks": 20,
       "kUsed": 5,
@@ -175,7 +273,7 @@
     },
     {
       "year": 2018,
-      "zscore": -0.0925,
+      "zscore": 0.1251,
       "rawTopkMean": 0.0958,
       "nChunks": 33,
       "kUsed": 5,
@@ -211,7 +309,7 @@
     },
     {
       "year": 2019,
-      "zscore": 1.3841,
+      "zscore": 1.5655,
       "rawTopkMean": 0.1771,
       "nChunks": 106,
       "kUsed": 5,
@@ -247,7 +345,7 @@
     },
     {
       "year": 2020,
-      "zscore": 0.6004,
+      "zscore": 0.801,
       "rawTopkMean": 0.134,
       "nChunks": 213,
       "kUsed": 5,
@@ -283,7 +381,7 @@
     },
     {
       "year": 2021,
-      "zscore": 1.1944,
+      "zscore": 1.3804,
       "rawTopkMean": 0.1667,
       "nChunks": 159,
       "kUsed": 5,
@@ -319,7 +417,7 @@
     },
     {
       "year": 2022,
-      "zscore": 1.0583,
+      "zscore": 1.2477,
       "rawTopkMean": 0.1592,
       "nChunks": 113,
       "kUsed": 5,
@@ -355,7 +453,7 @@
     },
     {
       "year": 2023,
-      "zscore": 0.2331,
+      "zscore": 0.4427,
       "rawTopkMean": 0.1138,
       "nChunks": 115,
       "kUsed": 5,
@@ -391,7 +489,7 @@
     },
     {
       "year": 2024,
-      "zscore": 0.6835,
+      "zscore": 0.882,
       "rawTopkMean": 0.1386,
       "nChunks": 99,
       "kUsed": 5,
@@ -427,7 +525,7 @@
     },
     {
       "year": 2025,
-      "zscore": -0.4413,
+      "zscore": -0.2151,
       "rawTopkMean": 0.0766,
       "nChunks": 70,
       "kUsed": 5,
@@ -463,7 +561,7 @@
     },
     {
       "year": 2026,
-      "zscore": 0.0538,
+      "zscore": 0.2679,
       "rawTopkMean": 0.1039,
       "nChunks": 36,
       "kUsed": 5,

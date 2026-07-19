@@ -9,6 +9,22 @@
   ],
   "years": [
     {
+      "year": 2004,
+      "total_chunks": 3,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
       "year": 2005,
       "total_chunks": 4,
       "ai_chunks": 0,
@@ -652,13 +668,13 @@
     },
     {
       "year": 2026,
-      "total_chunks": 112,
-      "ai_chunks": 31,
-      "prevalence": 0.2768,
+      "total_chunks": 141,
+      "ai_chunks": 35,
+      "prevalence": 0.2482,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 7,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -668,25 +684,25 @@
           "mentions": 11
         },
         "job_listing": {
-          "chunks": 20,
+          "chunks": 21,
           "ai_chunks": 8,
           "mentions": 28
         },
         "mission_brand": {
-          "chunks": 55,
-          "ai_chunks": 14,
-          "mentions": 25
+          "chunks": 74,
+          "ai_chunks": 18,
+          "mentions": 31
         },
         "process_logistics": {
-          "chunks": 19,
+          "chunks": 27,
           "ai_chunks": 4,
           "mentions": 10
         }
       },
       "terms": {
-        "AI": 41,
-        "agentic": 17,
-        "agentforce": 14,
+        "AI": 43,
+        "agentic": 19,
+        "agentforce": 16,
         "LLMs": 1,
         "machine learning": 1
       },

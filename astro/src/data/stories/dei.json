@@ -561,6 +561,34 @@
           "displayName": "Amazon",
           "years": [
             {
+              "year": 1999,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2000,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true
+            },
+            {
               "year": 2007,
               "registers": {
                 "explicit_demographic": 0,
@@ -819,21 +847,21 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 1,
+                "aspirational_vague": 2,
                 "belonging_culture": 0,
-                "absent": 1,
+                "absent": 3,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 2,
-              "thin": true,
+              "nChunks": 5,
+              "thin": false,
               "inclusionQuote": {
-                "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average wage of over $20.50 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
-                "heading": "Our Workplace",
+                "text": "Amazon’s culture of innovation and scale powers world-changing ideas and creates a safe, inclusive environment that allows employees to do their best work.",
+                "heading": "Get to know Amazon's workplace culture",
                 "register": "aspirational_vague",
-                "stance": "affirming_dei",
-                "inclusion": 0.4304,
-                "score": 0.4304
+                "stance": "neutral",
+                "inclusion": 0.4352,
+                "score": 0.4352
               }
             },
             {
@@ -1727,6 +1755,34 @@
           "displayName": "Netflix",
           "years": [
             {
+              "year": 2003,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2004,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 2,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 2,
+              "thin": true
+            },
+            {
               "year": 2005,
               "registers": {
                 "explicit_demographic": 0,
@@ -1831,28 +1887,6 @@
                 "structural_process": 0,
                 "aspirational_vague": 2,
                 "belonging_culture": 0,
-                "absent": 28,
-                "mission_focus_apolitical": 0,
-                "civilizational_mission": 0
-              },
-              "nChunks": 30,
-              "thin": false,
-              "inclusionQuote": {
-                "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past",
-                "heading": "Inclusion",
-                "register": "aspirational_vague",
-                "stance": "affirming_dei",
-                "inclusion": 0.6327,
-                "score": 0.6327
-              }
-            },
-            {
-              "year": 2018,
-              "registers": {
-                "explicit_demographic": 0,
-                "structural_process": 0,
-                "aspirational_vague": 2,
-                "belonging_culture": 0,
                 "absent": 30,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
@@ -1869,17 +1903,39 @@
               }
             },
             {
+              "year": 2018,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 4,
+                "belonging_culture": 0,
+                "absent": 32,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 36,
+              "thin": false,
+              "inclusionQuote": {
+                "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past",
+                "heading": "Inclusion",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "inclusion": 0.6327,
+                "score": 0.6327
+              }
+            },
+            {
               "year": 2019,
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 5,
-                "belonging_culture": 0,
-                "absent": 30,
+                "aspirational_vague": 6,
+                "belonging_culture": 1,
+                "absent": 35,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 35,
+              "nChunks": 42,
               "thin": false,
               "inclusionQuote": {
                 "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past",
@@ -1939,57 +1995,65 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 4,
-                "belonging_culture": 0,
-                "absent": 30,
+                "aspirational_vague": 6,
+                "belonging_culture": 1,
+                "absent": 57,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 34,
+              "nChunks": 64,
               "thin": false,
               "inclusionQuote": {
-                "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us",
-                "heading": "Inclusion",
+                "text": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity. Just like our members, our employees have unique perspectives based on their backgrounds and experience. As we grow, we are working to make our employees, suppliers, off and on-screen talent better reflect our membership so that we can better entertain the world. We have ",
+                "heading": "Representation Matters",
                 "register": "aspirational_vague",
                 "stance": "affirming_dei",
-                "inclusion": 0.6042,
-                "score": 0.6042
+                "inclusion": 0.6159,
+                "score": 0.6159
               }
             },
             {
               "year": 2023,
               "registers": {
-                "explicit_demographic": 0,
+                "explicit_demographic": 1,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 2,
                 "belonging_culture": 0,
-                "absent": 2,
+                "absent": 29,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 2,
-              "thin": true
+              "nChunks": 32,
+              "thin": false,
+              "inclusionQuote": {
+                "text": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity. Just like our members, our employees have unique perspectives based on their backgrounds and experience. As we grow, we are working to make our employees, suppliers, off and on-screen talent better reflect our membership so that we can better entertain the world. We have ",
+                "heading": "Representation Matters",
+                "register": "explicit_demographic",
+                "stance": "affirming_dei",
+                "inclusion": 0.6159,
+                "score": 0.6159
+              }
             },
             {
               "year": 2024,
               "registers": {
-                "explicit_demographic": 0,
+                "explicit_demographic": 1,
                 "structural_process": 0,
-                "aspirational_vague": 1,
-                "belonging_culture": 0,
-                "absent": 11,
+                "aspirational_vague": 2,
+                "belonging_culture": 1,
+                "absent": 39,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 12,
+              "nChunks": 43,
               "thin": false,
               "inclusionQuote": {
-                "text": "We believe that what makes a fantastic workplace isn’t a great office or free meals and massages — although we have some nice perks. It’s the people. Imagine working alongside stunning colleagues who are great at what they do, and even better at working together. It’s why we model ourselves on a professional sports team, not a family. Families are about unconditional love. They can also be dysfunc",
-                "heading": "THE DREAM TEAM",
-                "register": "aspirational_vague",
-                "stance": "neutral",
-                "inclusion": 0.515,
-                "score": 0.515
+                "text": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity. Just like our members, our employees have unique perspectives based on their backgrounds and experience. As we grow, we are working to make our employees, suppliers, off and on-screen talent better reflect our membership so that we can better entertain the world. We have ",
+                "heading": "Representation Matters",
+                "register": "explicit_demographic",
+                "stance": "affirming_dei",
+                "inclusion": 0.6159,
+                "score": 0.6159
               }
             },
             {
@@ -1999,11 +2063,11 @@
                 "structural_process": 0,
                 "aspirational_vague": 1,
                 "belonging_culture": 0,
-                "absent": 9,
+                "absent": 15,
                 "mission_focus_apolitical": 1,
                 "civilizational_mission": 0
               },
-              "nChunks": 10,
+              "nChunks": 16,
               "thin": false,
               "inclusionQuote": {
                 "text": "We believe that what makes a fantastic workplace isn’t a great office or free meals and massages — although we have some nice perks. It’s the people. Imagine working alongside stunning colleagues who are great at what they do, and even better at working together. It’s why we model ourselves on a professional sports team, not a family. Families are about unconditional love. They can also be dysfunc",
@@ -3993,6 +4057,48 @@
           "displayName": "Basecamp",
           "years": [
             {
+              "year": 2002,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2003,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 5,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2004,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 5,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 5,
+              "thin": false
+            },
+            {
               "year": 2009,
               "registers": {
                 "explicit_demographic": 0,
@@ -4352,6 +4458,20 @@
           "id": "salesforce",
           "displayName": "Salesforce",
           "years": [
+            {
+              "year": 2004,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 3,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 3,
+              "thin": true
+            },
             {
               "year": 2006,
               "registers": {
@@ -4731,15 +4851,15 @@
             {
               "year": 2026,
               "registers": {
-                "explicit_demographic": 2,
+                "explicit_demographic": 17,
                 "structural_process": 2,
-                "aspirational_vague": 17,
+                "aspirational_vague": 19,
                 "belonging_culture": 2,
-                "absent": 39,
+                "absent": 42,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 62,
+              "nChunks": 82,
               "thin": false,
               "inclusionQuote": {
                 "text": "We are more powerful when we work together. So we are on a journey to create a more inclusive and diverse workplace , and a more equal world. We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality.",
@@ -4756,6 +4876,20 @@
           "id": "starbucks",
           "displayName": "Starbucks",
           "years": [
+            {
+              "year": 2001,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 1,
+              "thin": true
+            },
             {
               "year": 2005,
               "registers": {
@@ -5171,11 +5305,11 @@
                 "structural_process": 0,
                 "aspirational_vague": 0,
                 "belonging_culture": 0,
-                "absent": 22,
+                "absent": 28,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 22,
+              "nChunks": 28,
               "thin": false
             }
           ]
@@ -5371,6 +5505,70 @@
           "displayName": "Apple",
           "years": [
             {
+              "year": 1999,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 3,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2003,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 3,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2004,
+              "registers": {
+                "explicit_demographic": 1,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 1,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 2,
+              "thin": true,
+              "inclusionQuote": {
+                "text": "Apple recognizes that each Apple employee brings a wealth of different perspectives to our environment. We respect these differences and treat them as an additional value that we incorporate in the way we treat each other and approach our customers. A multicultural work environment must look at \"difference\" in the broadest sense of the word. Culture is often defined in terms of race, gender, and n",
+                "heading": "",
+                "register": "explicit_demographic",
+                "stance": "affirming_dei",
+                "inclusion": 0.5099,
+                "score": 0.5099
+              }
+            },
+            {
+              "year": 2006,
+              "registers": {
+                "explicit_demographic": 0,
+                "structural_process": 0,
+                "aspirational_vague": 0,
+                "belonging_culture": 0,
+                "absent": 7,
+                "mission_focus_apolitical": 0,
+                "civilizational_mission": 0
+              },
+              "nChunks": 7,
+              "thin": false
+            },
+            {
               "year": 2007,
               "registers": {
                 "explicit_demographic": 1,
@@ -5399,12 +5597,12 @@
                 "structural_process": 0,
                 "aspirational_vague": 1,
                 "belonging_culture": 0,
-                "absent": 0,
+                "absent": 5,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 1,
-              "thin": true,
+              "nChunks": 6,
+              "thin": false,
               "inclusionQuote": {
                 "text": "Apple celebrates diverse experiences and backgrounds. By introducing new and innovative people to the company, we incorporate their different perspectives and skills and achieve our goal of making the best products on the market. At Apple, diversity network associations offer employees an opportunity to engage in professional support and networking activities that promote diversity. Partners provi",
                 "heading": "Commitment to diversity",
@@ -5419,14 +5617,22 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 1,
                 "belonging_culture": 0,
                 "absent": 2,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 2,
-              "thin": true
+              "nChunks": 3,
+              "thin": true,
+              "inclusionQuote": {
+                "text": "Apple celebrates diverse experiences and backgrounds. By introducing new and innovative people to the company, we incorporate their different perspectives and skills and achieve our goal of making the best products on the market. At Apple, diversity network associations offer employees an opportunity to engage in professional support and networking activities that promote diversity. Partners provi",
+                "heading": "Commitment to diversity",
+                "register": "aspirational_vague",
+                "stance": "affirming_dei",
+                "inclusion": 0.5435,
+                "score": 0.5435
+              }
             },
             {
               "year": 2010,
@@ -5435,11 +5641,11 @@
                 "structural_process": 0,
                 "aspirational_vague": 0,
                 "belonging_culture": 0,
-                "absent": 2,
+                "absent": 3,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 2,
+              "nChunks": 3,
               "thin": true
             },
             {
@@ -5463,12 +5669,12 @@
                 "structural_process": 0,
                 "aspirational_vague": 0,
                 "belonging_culture": 0,
-                "absent": 2,
+                "absent": 11,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 2,
-              "thin": true
+              "nChunks": 11,
+              "thin": false
             },
             {
               "year": 2013,
@@ -5477,12 +5683,12 @@
                 "structural_process": 0,
                 "aspirational_vague": 0,
                 "belonging_culture": 0,
-                "absent": 3,
+                "absent": 4,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 4,
-              "thin": true,
+              "nChunks": 5,
+              "thin": false,
               "inclusionQuote": {
                 "text": "The iOS Scholarship for Women in Technology is an opportunity for women to win a $10,000 scholarship. Whether you’re analytical or creative, tech savvy or insightful, there’s a place to share your talents while you learn, develop, and inspire.",
                 "heading": "iOS Scholarship for Women",
@@ -5497,13 +5703,13 @@
               "registers": {
                 "explicit_demographic": 2,
                 "structural_process": 0,
-                "aspirational_vague": 0,
+                "aspirational_vague": 2,
                 "belonging_culture": 0,
-                "absent": 6,
+                "absent": 8,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 8,
+              "nChunks": 12,
               "thin": false,
               "inclusionQuote": {
                 "text": "At Apple, our 98,000 employees share a passion for products that change people’s lives, and from the very earliest days we have known that diversity is critical to our success. We believe deeply that inclusion inspires innovation. Our definition of diversity goes far beyond the traditional categories of race, gender, and ethnicity. It includes personal qualities that usually go unmeasured, like se",
@@ -5517,15 +5723,15 @@
             {
               "year": 2015,
               "registers": {
-                "explicit_demographic": 6,
+                "explicit_demographic": 12,
                 "structural_process": 0,
-                "aspirational_vague": 4,
-                "belonging_culture": 1,
-                "absent": 11,
+                "aspirational_vague": 9,
+                "belonging_culture": 2,
+                "absent": 17,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 22,
+              "nChunks": 40,
               "thin": false,
               "inclusionQuote": {
                 "text": "Our commitment to diversity is part of everything we do. We foster an environment that allows all employees to contribute, grow, and push their talents to achieve incredible things. It’s why we work with suppliers who share our values. And why we continue to launch initiatives that will lead to a stronger, more representative workforce.",
@@ -5543,11 +5749,11 @@
                 "structural_process": 0,
                 "aspirational_vague": 1,
                 "belonging_culture": 0,
-                "absent": 2,
+                "absent": 3,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 3,
+              "nChunks": 4,
               "thin": true,
               "inclusionQuote": {
                 "text": "The people here at Apple don’t just create products — they create the kind of wonder that’s revolutionized entire industries. It’s the diversity of those people and their ideas that inspires the innovation that runs through everything we do, from amazing technology to industry-leading environmental efforts. Join Apple, and help us leave the world better than we found it. Where do you see yourself ",
@@ -5585,13 +5791,13 @@
               "registers": {
                 "explicit_demographic": 5,
                 "structural_process": 3,
-                "aspirational_vague": 4,
-                "belonging_culture": 0,
-                "absent": 2,
+                "aspirational_vague": 6,
+                "belonging_culture": 1,
+                "absent": 6,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 14,
+              "nChunks": 21,
               "thin": false,
               "inclusionQuote": {
                 "text": "It’s something we’re deeply committed to. We champion pay equity for employees in similar roles, in similar markets, and with similar performance — in every single country where we operate.",
@@ -5607,13 +5813,13 @@
               "registers": {
                 "explicit_demographic": 5,
                 "structural_process": 1,
-                "aspirational_vague": 2,
-                "belonging_culture": 1,
+                "aspirational_vague": 3,
+                "belonging_culture": 3,
                 "absent": 3,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 12,
+              "nChunks": 15,
               "thin": false,
               "inclusionQuote": {
                 "text": "We make thoughtful and inclusive decisions and seek out certified diverse suppliers. And we’re expanding our network to include more businesses owned by women, minorities, Veterans, people with disabilities, and LGBTQ individuals.",
@@ -5629,13 +5835,13 @@
               "registers": {
                 "explicit_demographic": 0,
                 "structural_process": 0,
-                "aspirational_vague": 4,
-                "belonging_culture": 0,
-                "absent": 8,
+                "aspirational_vague": 5,
+                "belonging_culture": 1,
+                "absent": 11,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 12,
+              "nChunks": 17,
               "thin": false,
               "inclusionQuote": {
                 "text": "We’re a diverse collective of thinkers and doers, continuously reimagining our products and practices to help people do what they love in new ways. That innovation is inspired by a shared commitment to great work — and to each other. Because learning from the people here means we’re learning from the best.",
@@ -5653,11 +5859,11 @@
                 "structural_process": 8,
                 "aspirational_vague": 11,
                 "belonging_culture": 4,
-                "absent": 20,
+                "absent": 21,
                 "mission_focus_apolitical": 0,
                 "civilizational_mission": 0
               },
-              "nChunks": 54,
+              "nChunks": 55,
               "thin": false,
               "inclusionQuote": {
                 "text": "We’re building more diverse interview panels and candidate slates to ensure that diversity is reflected at every stage of the hiring process.",

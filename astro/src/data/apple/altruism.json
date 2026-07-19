@@ -4,8 +4,82 @@
   "axis": "altruism",
   "years": [
     {
+      "year": 1999,
+      "zscore": -0.1902,
+      "rawTopkMean": 0.1557,
+      "nChunks": 11,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "technoShare": 0.4211,
+      "quotes": [
+        {
+          "text": "Contributing to public education and enriching children’s lives through technology and hands-on mentoring are Apple ideals.",
+          "heading": "",
+          "score": 0.2057
+        },
+        {
+          "text": "Because the people who are crazy enough to think they can change the world, are the ones who do.",
+          "heading": "",
+          "score": 0.192
+        },
+        {
+          "text": "Every Apple volunteer gives one hour a week as a tutor or classroom mentor.",
+          "heading": "",
+          "score": 0.1338
+        },
+        {
+          "text": "We’re impacting a real piece of the world.” For over a decade, Apple and Nimitz Elementary School have been educational partners.",
+          "heading": "",
+          "score": 0.1291
+        },
+        {
+          "text": "It’s critical for corporations to play a role in the community.",
+          "heading": "",
+          "score": 0.1181
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "zscore": -1.5447,
+      "rawTopkMean": 0.0572,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "technoShare": 0.0,
+      "quotes": [
+        {
+          "text": "Apple supports all differences and groups on campus.",
+          "heading": "",
+          "score": 0.0916
+        },
+        {
+          "text": "Apple recognizes that each Apple employee brings a wealth of different perspectives to our environment.",
+          "heading": "",
+          "score": 0.0657
+        },
+        {
+          "text": "We have chapters for the following employee groups: Apple Asian Association African American Employee Association Apple Hispanic Association Apple Jewish Association Apple Lambda Lesbian and Gay Employee Association Women's Leadership at Apple Apple Muslim Association",
+          "heading": "",
+          "score": 0.0578
+        },
+        {
+          "text": "In addition, you're expected to respect the diverse backgrounds of all Apple employees, temporary agency workers, independent contractors, customers, clients, and vendors.",
+          "heading": "",
+          "score": 0.0366
+        },
+        {
+          "text": "As an Apple employee, you're responsible for understanding and following Apple's policy on diversity.",
+          "heading": "",
+          "score": 0.0344
+        }
+      ]
+    },
+    {
       "year": 2007,
-      "zscore": -1.4664,
+      "zscore": -1.4278,
       "rawTopkMean": 0.0657,
       "nChunks": 6,
       "kUsed": 5,
@@ -42,7 +116,7 @@
     },
     {
       "year": 2008,
-      "zscore": -1.6741,
+      "zscore": -1.6372,
       "rawTopkMean": 0.0505,
       "nChunks": 4,
       "kUsed": 4,
@@ -74,14 +148,19 @@
     },
     {
       "year": 2009,
-      "zscore": -1.3361,
-      "rawTopkMean": 0.0753,
-      "nChunks": 8,
+      "zscore": -1.1556,
+      "rawTopkMean": 0.0855,
+      "nChunks": 12,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.2727,
+      "technoShare": 0.2,
       "quotes": [
+        {
+          "text": "Apple celebrates diverse experiences and backgrounds.",
+          "heading": "Commitment to diversity",
+          "score": 0.0987
+        },
         {
           "text": "We've got an environment where you can make things happen.",
           "heading": "",
@@ -101,23 +180,18 @@
           "text": "And do all the other stuff that makes that possible.",
           "heading": "",
           "score": 0.0739
-        },
-        {
-          "text": "We don't see what any of that has to do with great work.",
-          "heading": "",
-          "score": 0.0474
         }
       ]
     },
     {
       "year": 2010,
-      "zscore": -0.4118,
-      "rawTopkMean": 0.143,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -0.8776,
+      "rawTopkMean": 0.1058,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.6667,
+      "technoShare": 0.4,
       "quotes": [
         {
           "text": "Be part of something big We are committed to diversity.",
@@ -125,21 +199,73 @@
           "score": 0.1989
         },
         {
+          "text": "We’ve got an environment where you can make things happen.",
+          "heading": "",
+          "score": 0.0978
+        },
+        {
           "text": "Apple is an Equal Employment Opportunity and Affirmative Action Employer.",
           "heading": "",
           "score": 0.0871
+        },
+        {
+          "text": "And do all the other stuff that makes that possible.",
+          "heading": "",
+          "score": 0.0739
+        },
+        {
+          "text": "There’s plenty of open space — and open minds.",
+          "heading": "",
+          "score": 0.0711
         }
       ]
     },
     {
       "year": 2012,
-      "zscore": -1.2025,
-      "rawTopkMean": 0.0851,
-      "nChunks": 9,
+      "zscore": -0.9776,
+      "rawTopkMean": 0.0985,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.5263,
+      "technoShare": 0.5,
+      "quotes": [
+        {
+          "text": "And you can be part of it.",
+          "heading": "",
+          "score": 0.1166
+        },
+        {
+          "text": "It means forever asking, “Why is it this way?” and “How can it be better?” It means rethinking every customer experience until the clutter has fallen away — until all that remains is what’s essential, useful, and beautiful.",
+          "heading": "",
+          "score": 0.1157
+        },
+        {
+          "text": "Start your career with one of the world’s most admired companies.",
+          "heading": "Launch your career.",
+          "score": 0.1146
+        },
+        {
+          "text": "Each shares a passion for our products and for enriching the lives of one another and our customers.",
+          "heading": "You’re in good company.",
+          "score": 0.0772
+        },
+        {
+          "text": "Every “How can I help you?” Everything.",
+          "heading": "",
+          "score": 0.0682
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "zscore": -1.1618,
+      "rawTopkMean": 0.0851,
+      "nChunks": 10,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "technoShare": 0.5238,
       "quotes": [
         {
           "text": "And you can be part of it.",
@@ -169,36 +295,14 @@
       ]
     },
     {
-      "year": 2013,
-      "zscore": -1.8321,
-      "rawTopkMean": 0.0389,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "technoShare": 0.5,
-      "quotes": [
-        {
-          "text": "We’re always looking for smart, engaging, supportive, and dynamic people who love Apple and our products.",
-          "heading": "Share your passion for Apple.",
-          "score": 0.0591
-        },
-        {
-          "text": "Which means there’s a good chance you can live and work in a city you love.",
-          "heading": "400 Apple Retail Stores worldwide (and counting).",
-          "score": 0.0188
-        }
-      ]
-    },
-    {
       "year": 2014,
-      "zscore": 0.7051,
+      "zscore": 0.7608,
       "rawTopkMean": 0.2249,
-      "nChunks": 40,
+      "nChunks": 45,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.3333,
+      "technoShare": 0.375,
       "quotes": [
         {
           "text": "We know that each generation has a responsibility to build upon the gains of the past, expanding the rights and freedoms we enjoy to the many who are still striving for justice.",
@@ -229,50 +333,50 @@
     },
     {
       "year": 2015,
-      "zscore": 0.7199,
-      "rawTopkMean": 0.226,
-      "nChunks": 78,
+      "zscore": 1.2728,
+      "rawTopkMean": 0.2621,
+      "nChunks": 145,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.1429,
+      "technoShare": 0.1989,
       "quotes": [
+        {
+          "text": "We believe in the power of education to go beyond the classroom.",
+          "heading": "Equipping schools with technology and knowledge through ConnectED.",
+          "score": 0.2701
+        },
         {
           "text": "We know that each generation has a responsibility to build upon the gains of the past, expanding the rights and freedoms we enjoy to the many who are still striving for justice.",
           "heading": "A Message from Tim Cook.",
           "score": 0.2683
         },
         {
-          "text": "When he introduced the bill in June 1963, President Kennedy urged Congress to pass it “for the one plain, proud and priceless quality that unites us all as Americans: a sense of justice.” All around the world, our team at Apple is united in the belief that being different makes us better.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.2257
+          "text": "One way we can make a lasting impact on the future is by starting at the earliest stages of education.",
+          "heading": "Equipping schools with technology and knowledge through ConnectED.",
+          "score": 0.2605
         },
         {
-          "text": "We recently pledged $100 million to President Obama’s ConnectED initiative to bring cutting-edge technologies to economically disadvantaged schools.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.2131
+          "text": "We believe people from every background, race, and gender have a right to pursue their dreams.",
+          "heading": "The future of tech isn’t a product. It’s people.",
+          "score": 0.2575
         },
         {
-          "text": "Beyond the work we do creating innovative tools for our customers, improving education is one of the best ways in which Apple can have a meaningful impact on society.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.2127
-        },
-        {
-          "text": "When we work hard to encourage people to see things differently, the ideas they contribute may change the world.",
-          "heading": "Tim Cook",
-          "score": 0.2102
+          "text": "We also aspire to make a difference beyond Apple.",
+          "heading": "A message from Tim Cook.",
+          "score": 0.2543
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": 0.0898,
-      "rawTopkMean": 0.1798,
-      "nChunks": 4,
-      "kUsed": 4,
-      "thin": true,
+      "zscore": -0.1985,
+      "rawTopkMean": 0.1551,
+      "nChunks": 6,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.4286,
+      "technoShare": 0.4545,
       "quotes": [
         {
           "text": "Join Apple, and help us leave the world better than we found it.",
@@ -293,12 +397,17 @@
           "text": "Apple is a place where students can thrive.",
           "heading": "Get experience. And have an experience.",
           "score": 0.1238
+        },
+        {
+          "text": "And none of us here would have it any other way.",
+          "heading": "It’s what we do together that sets us apart.",
+          "score": 0.0565
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": -0.3543,
+      "zscore": -0.307,
       "rawTopkMean": 0.1473,
       "nChunks": 5,
       "kUsed": 5,
@@ -335,13 +444,13 @@
     },
     {
       "year": 2018,
-      "zscore": 0.4661,
+      "zscore": 0.5198,
       "rawTopkMean": 0.2074,
-      "nChunks": 45,
+      "nChunks": 58,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.1667,
+      "technoShare": 0.2162,
       "quotes": [
         {
           "text": "Join Apple, and help us leave the world better than we found it.",
@@ -372,13 +481,13 @@
     },
     {
       "year": 2019,
-      "zscore": 0.1903,
-      "rawTopkMean": 0.1872,
-      "nChunks": 38,
+      "zscore": 0.2564,
+      "rawTopkMean": 0.1882,
+      "nChunks": 47,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.1915,
+      "technoShare": 0.2295,
       "quotes": [
         {
           "text": "We have always believed education is the great equalizer.",
@@ -401,26 +510,31 @@
           "score": 0.1659
         },
         {
-          "text": "That’s why we’ve created free curricula for students from kindergarten through college.",
-          "heading": "A more diverse future begins with opportunities in education.",
-          "score": 0.1551
+          "text": "Because sharing what you love through Apple products sparks others to pursue their own passions.",
+          "heading": "Apple Retail",
+          "score": 0.1604
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.3724,
-      "rawTopkMean": 0.2005,
-      "nChunks": 20,
+      "zscore": 0.5886,
+      "rawTopkMean": 0.2124,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.5,
+      "technoShare": 0.5217,
       "quotes": [
         {
           "text": "At Apple, we are committed to leaving the world better than we found it.",
           "heading": "Join a company with business practices as innovative as its products.",
           "score": 0.3153
+        },
+        {
+          "text": "Join us and you’ll do the best work of your life — and make a difference in other people’s lives.",
+          "heading": "Do more than you ever thought possible. Have more impact than you ever imagined.",
+          "score": 0.2098
         },
         {
           "text": "We invest in education programs so that people everywhere have the opportunity to realize their potential.",
@@ -436,23 +550,18 @@
           "text": "Lisa Jackson Vice President of Environment, Policy, and Social Initiatives",
           "heading": "Join a company with business practices as innovative as its products.",
           "score": 0.1614
-        },
-        {
-          "text": "That’s why we’re looking for great minds from every field of study.",
-          "heading": "Roles Throughout Apple",
-          "score": 0.1505
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 1.4064,
+      "zscore": 1.4675,
       "rawTopkMean": 0.2763,
-      "nChunks": 126,
+      "nChunks": 127,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.2544,
+      "technoShare": 0.2529,
       "quotes": [
         {
           "text": "At Apple, we are committed to leaving the world better than we found it.",
@@ -483,7 +592,7 @@
     },
     {
       "year": 2022,
-      "zscore": 0.8622,
+      "zscore": 0.9191,
       "rawTopkMean": 0.2364,
       "nChunks": 208,
       "kUsed": 5,
@@ -520,7 +629,7 @@
     },
     {
       "year": 2023,
-      "zscore": 0.7317,
+      "zscore": 0.7876,
       "rawTopkMean": 0.2269,
       "nChunks": 232,
       "kUsed": 5,
@@ -557,7 +666,7 @@
     },
     {
       "year": 2024,
-      "zscore": 0.8936,
+      "zscore": 0.9507,
       "rawTopkMean": 0.2387,
       "nChunks": 141,
       "kUsed": 5,
@@ -594,7 +703,7 @@
     },
     {
       "year": 2025,
-      "zscore": 0.908,
+      "zscore": 0.9653,
       "rawTopkMean": 0.2398,
       "nChunks": 156,
       "kUsed": 5,
@@ -618,7 +727,7 @@
           "score": 0.2295
         },
         {
-          "text": "The course description aptly sums it up: “Technology for All of Us encourages you to consider what it means to build for humanity in all its variety — and why it matters.” “Our role is not to do the work for people, or to tell people what to do, or to look under the hood before something goes out the door,” says Cohen. “Our job is to empower people who have the responsibility to develop inclusive products.",
+          "text": "The course description aptly sums it up: “Technology for All of Us encourages you to consider what it means to build for humanity in all its variety — and why it matters.” “Our role is not to do the work for people, or to tell people what to do, or to look under the hood before something goes out the door,” says Cohen. “Our job is to empower people who have the responsibility to develop inclusive ",
           "heading": "Our products and services are designed to be inclusive.",
           "score": 0.2148
         },
@@ -631,7 +740,7 @@
     },
     {
       "year": 2026,
-      "zscore": 0.9319,
+      "zscore": 0.9893,
       "rawTopkMean": 0.2415,
       "nChunks": 47,
       "kUsed": 5,

@@ -4,6 +4,74 @@
   "axis": "dei",
   "years": [
     {
+      "year": 2003,
+      "inclusionTopkMean": 0.1055,
+      "inclusionMean": 0.1055,
+      "inclusionMax": 0.1055,
+      "inclusionFractionPresent": 0.0,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 1,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": 0.039,
+      "inclusionQuotes": [
+        {
+          "text": "No Due Dates! Over 15,000 Titles! No Commitments! Cancel Anytime.",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.1055,
+          "score": 0.1055
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "inclusionTopkMean": 0.1026,
+      "inclusionMean": 0.1026,
+      "inclusionMax": 0.1055,
+      "inclusionFractionPresent": 0.0,
+      "nChunks": 2,
+      "kUsed": 2,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 2,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": -0.0412,
+      "inclusionQuotes": [
+        {
+          "text": "No Due Dates! Over 15,000 Titles! No Commitments! Cancel Anytime.",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.1055,
+          "score": 0.1055
+        },
+        {
+          "text": "The #1 Online DVD Rental Service with over 2,000,000 members!",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.0997,
+          "score": 0.0997
+        }
+      ]
+    },
+    {
       "year": 2005,
       "inclusionTopkMean": 0.0968,
       "inclusionMean": 0.0968,
@@ -21,7 +89,7 @@
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": -0.0443,
+      "controlTopkMean": -0.0474,
       "inclusionQuotes": [
         {
           "text": "The #1 Online DVD Rental Service with over 2,000,000 members!",
@@ -239,11 +307,11 @@
     },
     {
       "year": 2017,
-      "inclusionTopkMean": 0.5181,
-      "inclusionMean": 0.4041,
+      "inclusionTopkMean": 0.5331,
+      "inclusionMean": 0.4021,
       "inclusionMax": 0.6327,
-      "inclusionFractionPresent": 1.0,
-      "nChunks": 30,
+      "inclusionFractionPresent": 0.9688,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -251,7 +319,7 @@
         "structural_process": 0,
         "aspirational_vague": 2,
         "belonging_culture": 0,
-        "absent": 28,
+        "absent": 30,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -264,6 +332,14 @@
           "stance": "affirming_dei",
           "inclusion": 0.6327,
           "score": 0.6327
+        },
+        {
+          "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
+          "heading": "Freedom and Responsibility",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.528,
+          "score": 0.528
         },
         {
           "text": "New employees often comment in the first few months that they are surprised how accurate our culture description is to the actual culture they experience. Around the world, we live and create our culture together. In fact, hundreds of global employees contributed to this document. We do not seek to preserve our culture — we seek to improve it. Every person who joins us helps to shape and evolve th",
@@ -288,36 +364,28 @@
           "stance": "neutral",
           "inclusion": 0.4777,
           "score": 0.4777
-        },
-        {
-          "text": "As we wrote in the beginning, what is unique and special about Netflix is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people",
-          "heading": "Summary",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.453,
-          "score": 0.453
         }
       ]
     },
     {
       "year": 2018,
-      "inclusionTopkMean": 0.5299,
-      "inclusionMean": 0.4008,
+      "inclusionTopkMean": 0.5295,
+      "inclusionMean": 0.3916,
       "inclusionMax": 0.6327,
-      "inclusionFractionPresent": 0.9688,
-      "nChunks": 32,
+      "inclusionFractionPresent": 0.9444,
+      "nChunks": 36,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 2,
+        "aspirational_vague": 4,
         "belonging_culture": 0,
-        "absent": 30,
+        "absent": 32,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.0582,
+      "controlTopkMean": 0.0806,
       "inclusionQuotes": [
         {
           "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past",
@@ -356,30 +424,30 @@
           "heading": "Impact",
           "register": "absent",
           "stance": "neutral",
-          "inclusion": 0.478,
-          "score": 0.478
+          "inclusion": 0.4761,
+          "score": 0.4761
         }
       ]
     },
     {
       "year": 2019,
-      "inclusionTopkMean": 0.5299,
-      "inclusionMean": 0.389,
+      "inclusionTopkMean": 0.5537,
+      "inclusionMean": 0.3912,
       "inclusionMax": 0.6327,
-      "inclusionFractionPresent": 0.9429,
-      "nChunks": 35,
+      "inclusionFractionPresent": 0.9524,
+      "nChunks": 42,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 5,
-        "belonging_culture": 0,
-        "absent": 30,
+        "aspirational_vague": 6,
+        "belonging_culture": 1,
+        "absent": 35,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.0797,
+      "controlTopkMean": 0.106,
       "inclusionQuotes": [
         {
           "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past",
@@ -390,6 +458,14 @@
           "score": 0.6327
         },
         {
+          "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized",
+          "heading": "Inclusion",
+          "register": "belonging_culture",
+          "stance": "affirming_dei",
+          "inclusion": 0.5919,
+          "score": 0.5919
+        },
+        {
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
           "register": "absent",
@@ -398,12 +474,12 @@
           "score": 0.528
         },
         {
-          "text": "New employees often comment in the first few months that they are surprised how accurate this culture description is to the actual culture they experience. Around the world, we live and create our culture together. In fact, hundreds of our global employees contributed to this document. We do not seek to preserve our culture — we seek to improve it. Every person who joins us helps to shape and evol",
+          "text": "New employees often comment in their first few months that they are surprised how accurate this culture description is to the actual culture they experience. Around the world, we live and create our culture together. In fact, hundreds of our global employees contributed to this document. We do not seek to preserve our culture — we seek to improve it. Every person who joins us helps to shape and ev",
           "heading": "Seeking Excellence",
           "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.5117,
-          "score": 0.5117
+          "stance": "affirming_dei",
+          "inclusion": 0.5148,
+          "score": 0.5148
         },
         {
           "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
@@ -412,14 +488,6 @@
           "stance": "neutral",
           "inclusion": 0.5012,
           "score": 0.5012
-        },
-        {
-          "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “You question actions inconsistent with our values.” We want everyone to help each other live the values and hold each other responsible for bei",
-          "heading": "Impact",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4761,
-          "score": 0.4761
         }
       ]
     },
@@ -441,7 +509,7 @@
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.1074,
+      "controlTopkMean": 0.0728,
       "inclusionQuotes": [
         {
           "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized",
@@ -549,24 +617,40 @@
     },
     {
       "year": 2022,
-      "inclusionTopkMean": 0.5227,
-      "inclusionMean": 0.3879,
-      "inclusionMax": 0.6042,
-      "inclusionFractionPresent": 0.9412,
-      "nChunks": 34,
+      "inclusionTopkMean": 0.5848,
+      "inclusionMean": 0.3936,
+      "inclusionMax": 0.6159,
+      "inclusionFractionPresent": 0.9688,
+      "nChunks": 64,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 4,
-        "belonging_culture": 0,
-        "absent": 30,
+        "aspirational_vague": 6,
+        "belonging_culture": 1,
+        "absent": 57,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": -0.0224,
+      "controlTopkMean": 0.0981,
       "inclusionQuotes": [
+        {
+          "text": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity. Just like our members, our employees have unique perspectives based on their backgrounds and experience. As we grow, we are working to make our employees, suppliers, off and on-screen talent better reflect our membership so that we can better entertain the world. We have ",
+          "heading": "Representation Matters",
+          "register": "aspirational_vague",
+          "stance": "affirming_dei",
+          "inclusion": 0.6159,
+          "score": 0.6159
+        },
+        {
+          "text": "You work well with people of different backgrounds, identities, values and cultures You are excited to help build diverse teams where everyone feels welcomed and respected You recognize we all have biases and work to counteract them You take action if someone is marginalizing a colleague You treat everyone with respect regardless of their position at Netflix",
+          "heading": "Inclusion",
+          "register": "belonging_culture",
+          "stance": "affirming_dei",
+          "inclusion": 0.6101,
+          "score": 0.6101
+        },
         {
           "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us",
           "heading": "Inclusion",
@@ -576,60 +660,68 @@
           "score": 0.6042
         },
         {
+          "text": "We do not seek to preserve our culture—we seek to improve it. Every new employee helps to shape and evolve the culture so we find new ways to accomplish more together. We are learning faster than ever, because we have more dedicated people with more diverse perspectives working to excel as the dream team. That cultural excellence propels our business excellence, which increases member satisfaction",
+          "heading": "Seeking Excellence to Drive Success",
+          "register": "aspirational_vague",
+          "stance": "neutral",
+          "inclusion": 0.5658,
+          "score": 0.5658
+        },
+        {
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.528,
           "score": 0.528
-        },
-        {
-          "text": "New employees often comment in their first few months that they are surprised at how accurate this culture description is to the actual culture they experience. Around the world, we live and create our culture together. In fact, hundreds of our global employees contributed to this document. We do not seek to preserve our culture — we seek to improve it. Every person who joins us helps to shape and",
-          "heading": "Seeking Excellence",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.5136,
-          "score": 0.5136
-        },
-        {
-          "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support. We focus on managers’ judgment through the “keeper test” for each of their people: if one of the members of the team was thinking of leaving for another firm, would the manager try hard to keep ",
-          "heading": "Dream Team",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5012,
-          "score": 0.5012
-        },
-        {
-          "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them. In describing courage we say, “ You question actions inconsistent with our values. ” We want everyone to help each other live the values and hold each other responsible for b",
-          "heading": "Impact",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4667,
-          "score": 0.4667
         }
       ]
     },
     {
       "year": 2023,
-      "inclusionTopkMean": 0.3774,
-      "inclusionMean": 0.3774,
-      "inclusionMax": 0.528,
-      "inclusionFractionPresent": 0.5,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "inclusionTopkMean": 0.5577,
+      "inclusionMean": 0.3987,
+      "inclusionMax": 0.6159,
+      "inclusionFractionPresent": 0.9688,
+      "nChunks": 32,
+      "kUsed": 5,
+      "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 2,
         "belonging_culture": 0,
-        "absent": 2,
+        "absent": 29,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": null,
       "inclusionQuotes": [
         {
+          "text": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity. Just like our members, our employees have unique perspectives based on their backgrounds and experience. As we grow, we are working to make our employees, suppliers, off and on-screen talent better reflect our membership so that we can better entertain the world. We have ",
+          "heading": "Representation Matters",
+          "register": "explicit_demographic",
+          "stance": "affirming_dei",
+          "inclusion": 0.6159,
+          "score": 0.6159
+        },
+        {
+          "text": "You work well with people of different backgrounds, identities, values and cultures You are excited to help build diverse teams where everyone feels welcomed and respected You recognize we all have biases and work to counteract them You take action if someone is marginalizing a colleague You treat everyone with respect regardless of their position at Netflix",
+          "heading": "Inclusion",
+          "register": "aspirational_vague",
+          "stance": "affirming_dei",
+          "inclusion": 0.6101,
+          "score": 0.6101
+        },
+        {
+          "text": "We do not seek to preserve our culture—we seek to improve it. Every new employee helps to shape and evolve the culture so we find new ways to accomplish more together. We are learning faster than ever, because we have more dedicated people with more diverse perspectives working to excel as the dream team. That cultural excellence propels our business excellence, which increases member satisfaction",
+          "heading": "Seeking Excellence to Drive Success",
+          "register": "aspirational_vague",
+          "stance": "affirming_dei",
+          "inclusion": 0.5658,
+          "score": 0.5658
+        },
+        {
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
           "register": "absent",
@@ -638,35 +730,59 @@
           "score": 0.528
         },
         {
-          "text": "Our first original series debuted in 2013. Over the following decades, Streaming TV will replace linear, and we hope to keep leading by offering an amazing entertainment experience.",
-          "heading": "Streaming entertainment. Global original content. Product personalization. ",
+          "text": "A dream team is one in which all of your colleagues are extraordinary at what they do and highly effective working together. Our version of a great workplace is not great perks, although we have many. It’s about investing in a dream team of talented people who are excited to pursue ambitious shared goals. On our dream team we encourage collaboration, share information and discourage politics. Ther",
+          "heading": "Dream Team",
           "register": "absent",
           "stance": "neutral",
-          "inclusion": 0.2269,
-          "score": 0.2269
+          "inclusion": 0.4687,
+          "score": 0.4687
         }
       ]
     },
     {
       "year": 2024,
-      "inclusionTopkMean": 0.5127,
-      "inclusionMean": 0.4255,
-      "inclusionMax": 0.528,
-      "inclusionFractionPresent": 0.9167,
-      "nChunks": 12,
+      "inclusionTopkMean": 0.567,
+      "inclusionMean": 0.4073,
+      "inclusionMax": 0.6159,
+      "inclusionFractionPresent": 0.9767,
+      "nChunks": 43,
       "kUsed": 5,
       "thin": false,
       "registers": {
-        "explicit_demographic": 0,
+        "explicit_demographic": 1,
         "structural_process": 0,
-        "aspirational_vague": 1,
-        "belonging_culture": 0,
-        "absent": 11,
+        "aspirational_vague": 2,
+        "belonging_culture": 1,
+        "absent": 39,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0933,
       "inclusionQuotes": [
+        {
+          "text": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity. Just like our members, our employees have unique perspectives based on their backgrounds and experience. As we grow, we are working to make our employees, suppliers, off and on-screen talent better reflect our membership so that we can better entertain the world. We have ",
+          "heading": "Representation Matters",
+          "register": "explicit_demographic",
+          "stance": "affirming_dei",
+          "inclusion": 0.6159,
+          "score": 0.6159
+        },
+        {
+          "text": "You work well with people of different backgrounds, identities, values and cultures You are excited to help build diverse teams where everyone feels welcomed and respected You recognize we all have biases and work to counteract them You take action if someone is marginalizing a colleague You treat everyone with respect regardless of their position at Netflix",
+          "heading": "Inclusion",
+          "register": "belonging_culture",
+          "stance": "affirming_dei",
+          "inclusion": 0.6101,
+          "score": 0.6101
+        },
+        {
+          "text": "We do not seek to preserve our culture—we seek to improve it. Every new employee helps to shape and evolve the culture so we find new ways to accomplish more together. We are learning faster than ever, because we have more dedicated people with more diverse perspectives working to excel as the dream team. That cultural excellence propels our business excellence, which increases member satisfaction",
+          "heading": "Seeking Excellence to Drive Success",
+          "register": "aspirational_vague",
+          "stance": "neutral",
+          "inclusion": 0.5658,
+          "score": 0.5658
+        },
         {
           "text": "Our core philosophy is people over process. Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
@@ -682,40 +798,16 @@
           "stance": "neutral",
           "inclusion": 0.515,
           "score": 0.515
-        },
-        {
-          "text": "Since a high performer in any role is many times more effective than the average employee, our Dream Team is driven by performance — not seniority, tenure or unconditional loyalty. It’s also why we focus on maintaining a high performance culture . To recruit and retain stunning colleagues, we pay personal top of market for the role and location — a judgment about what that person could make in a s",
-          "heading": "THE DREAM TEAM",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5145,
-          "score": 0.5145
-        },
-        {
-          "text": "Representation matters. Our members come from many different backgrounds and cultures, and they want to see a wide variety of stories and people on screen. This diversity is wonderful and it can create real tension since we all have such different views about what’s acceptable — and what’s harmful — on TV. While every show, film or game is different, we approach them with the same set of principle",
-          "heading": "ARTISTIC EXPRESSION",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.5095,
-          "score": 0.5095
-        },
-        {
-          "text": "Curiosity — you learn rapidly and eagerly; you are as interested in other people’s ideas as your own; you’re humble about what you don’t yet know. Resilience — you quickly adapt to changing circumstances; you make tough decisions without agonizing or long delay; you embrace a hard challenge. It’s easy to talk about values and harder to live them. We work hard to keep each other accountable for uph",
-          "heading": "THE DREAM TEAM",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4965,
-          "score": 0.4965
         }
       ]
     },
     {
       "year": 2025,
-      "inclusionTopkMean": 0.4953,
-      "inclusionMean": 0.4351,
-      "inclusionMax": 0.515,
-      "inclusionFractionPresent": 1.0,
-      "nChunks": 10,
+      "inclusionTopkMean": 0.5154,
+      "inclusionMean": 0.4353,
+      "inclusionMax": 0.5343,
+      "inclusionFractionPresent": 0.9375,
+      "nChunks": 16,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -723,12 +815,20 @@
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 0,
-        "absent": 9,
+        "absent": 15,
         "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
-      "controlTopkMean": null,
+      "controlTopkMean": 0.0371,
       "inclusionQuotes": [
+        {
+          "text": "Representation matters. Our members come from many different backgrounds and cultures, and they want to see a wide variety of stories and people on screen. This diversity is wonderful and it can create real tension since we all have such different views about what’s acceptable — and what’s harmful — on TV. While every show, film or game is different, we approach them with the same set of principle",
+          "heading": "Artistic Expression",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.5343,
+          "score": 0.5343
+        },
         {
           "text": "We believe that what makes a fantastic workplace isn’t a great office or free meals and massages — although we have some nice perks. It’s the people. Imagine working alongside stunning colleagues who are great at what they do, and even better at working together. It’s why we model ourselves on a professional sports team, not a family. Families are about unconditional love. They can also be dysfunc",
           "heading": "THE DREAM TEAM",
@@ -754,20 +854,12 @@
           "score": 0.5095
         },
         {
-          "text": "Curiosity — you learn rapidly and eagerly; you are as interested in other people’s ideas as your own; you’re humble about what you don’t yet know. Resilience — you quickly adapt to changing circumstances; you make tough decisions without agonizing or long delay; you embrace a hard challenge. It’s easy to talk about values and harder to live them. We work hard to keep each other accountable for uph",
-          "heading": "THE DREAM TEAM",
+          "text": "It’s easy to talk about values and harder to live them. We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence and honesty go hand in hand. It’s why we invest in strong professional relationships that build trust and help people assume good intent. This, in turn, enables us to practice extraordinary candor — ensuring constructive feedb",
+          "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
           "register": "absent",
           "stance": "neutral",
-          "inclusion": 0.4965,
-          "score": 0.4965
-        },
-        {
-          "text": "We avoid decision-making by committee, which tends to slow companies down and undermine accountability. For every significant decision, we identify an informed captain who’s responsible for making a judgment call on the right way ahead. Then different teams, each led by their own informed captain, implement the decision. This highly aligned and loosely coupled approach gives teams the freedom to m",
-          "heading": "PEOPLE OVER PROCESS",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4412,
-          "score": 0.4412
+          "inclusion": 0.5036,
+          "score": 0.5036
         }
       ]
     },
@@ -789,7 +881,7 @@
         "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.0371,
+      "controlTopkMean": null,
       "inclusionQuotes": [
         {
           "text": "Representation matters. Our members come from many different backgrounds and cultures, and they want to see a wide variety of stories and people on screen. This diversity is wonderful and it can create real tension since we all have such different views about what’s acceptable — and what’s harmful — on TV. While every show, film or game is different, we approach them with the same set of principle",
@@ -845,10 +937,10 @@
       },
       {
         "term": "diversity",
-        "first_year": 2019,
+        "first_year": 2018,
         "last_year": 2026,
-        "max_score": 0.498,
-        "example": "We also have to foster collaboration, embrace a diversity of viewpoints, support information sharing, and discourage politics."
+        "max_score": 0.6322,
+        "example": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity."
       },
       {
         "term": "inclusion",
@@ -856,6 +948,13 @@
         "last_year": 2025,
         "max_score": 0.6424,
         "example": "Like all great companies, we strive to hire the best and we value integrity, excellence, respect, inclusion, and collaboration."
+      },
+      {
+        "term": "belonging",
+        "first_year": 2022,
+        "last_year": 2024,
+        "max_score": 0.6303,
+        "example": "We have evolved our employee and leadership diversity to be some of the best in our industry, and we’ll continue to improve so that everyone feels a sense of belonging at Netflix."
       }
     ],
     "high_scoring_sentences": [
@@ -1070,6 +1169,12 @@
         "score": 0.5476
       },
       {
+        "id": "27da4a903618",
+        "year": 2017,
+        "text": "Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
+        "score": 0.5417
+      },
+      {
         "id": "5b559f11191e",
         "year": 2017,
         "text": "We are dedicated to constantly increasing employee freedom.",
@@ -1182,6 +1287,12 @@
         "year": 2017,
         "text": "We work to have a company of self-disciplined people who discover and fix issues without being told to do so.",
         "score": 0.4636
+      },
+      {
+        "id": "396b6f844a19",
+        "year": 2017,
+        "text": "Our core philosophy is people over process.",
+        "score": 0.4635
       },
       {
         "id": "3c46f4a5d14a",
@@ -1748,6 +1859,12 @@
         "score": 0.3001
       },
       {
+        "id": "712b0905f721",
+        "year": 2018,
+        "text": "Like all great companies, we strive to hire the best and we value integrity, excellence, respect, inclusivity, and collaboration.",
+        "score": 0.6489
+      },
+      {
         "id": "3bd734e56065",
         "year": 2018,
         "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized",
@@ -1802,10 +1919,22 @@
         "score": 0.5028
       },
       {
+        "id": "0afe10213e08",
+        "year": 2018,
+        "text": "With this approach, we are a more flexible, fun, stimulating, creative, collaborative and successful organization.",
+        "score": 0.5006
+      },
+      {
         "id": "4ef26f50a9aa",
         "year": 2018,
         "text": "To help us attract and retain stunning colleagues, we pay employees at the top of their personal market.",
         "score": 0.4989
+      },
+      {
+        "id": "65eb5da6e6c7",
+        "year": 2018,
+        "text": "We also have to foster collaboration, embrace a diversity of viewpoints, support information sharing, and discourage politics.",
+        "score": 0.498
       },
       {
         "id": "b8f3b6d84a5f",
@@ -1848,6 +1977,12 @@
         "year": 2018,
         "text": "We have no bell curves or rankings or quotas such as “cut the bottom 10% every year.” That would be detrimental to fostering collaboration, and is a simplistic, rules-based approach we would never support.",
         "score": 0.4762
+      },
+      {
+        "id": "eb3f6946f2a7",
+        "year": 2018,
+        "text": "This document is about our unusual employee culture.",
+        "score": 0.4755
       },
       {
         "id": "999809d01318",
@@ -1910,10 +2045,10 @@
         "score": 0.449
       },
       {
-        "id": "c9fb516e4923",
+        "id": "6a52d8abef7f",
         "year": 2018,
-        "text": "We make a good-faith estimate of the highest compensation each employee could make at peer firms, and pay them that max.",
-        "score": 0.4458
+        "text": "We make a good-faith estimate of the highest compensation each employee could make at peer firms, and pay them that maximum.",
+        "score": 0.4446
       },
       {
         "id": "24d186d1675f",
@@ -1928,6 +2063,12 @@
         "score": 0.4348
       },
       {
+        "id": "6b3b3722673b",
+        "year": 2018,
+        "text": "What is special about Netflix, though, is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people Our core philosophy is people over process .",
+        "score": 0.4336
+      },
+      {
         "id": "483a0eb555a5",
         "year": 2018,
         "text": "Below are our real values, the specific behaviors and skills we care about most.",
@@ -1938,6 +2079,12 @@
         "year": 2018,
         "text": "But unconditional allegiance to a stagnant firm, or to a merely-adequately-performing employee, is not what we are about.",
         "score": 0.431
+      },
+      {
+        "id": "e99365fa531e",
+        "year": 2018,
+        "text": "But unconditional allegiance to a shrinking firm, or to an adequately performing employee, is not what we are about.",
+        "score": 0.4307
       },
       {
         "id": "5b01b25a8a78",
@@ -1988,12 +2135,6 @@
         "score": 0.4111
       },
       {
-        "id": "c625825740f8",
-        "year": 2018,
-        "text": "We also have to foster collaboration, support information sharing, and discourage politics.",
-        "score": 0.4099
-      },
-      {
         "id": "08489b86ea84",
         "year": 2018,
         "text": "We share documents internally broadly and systematically.",
@@ -2018,10 +2159,22 @@
         "score": 0.408
       },
       {
+        "id": "4ea71d6b3edb",
+        "year": 2018,
+        "text": "The more these values sound like you, and describe people you want to work with, the more likely you will thrive at Netflix.",
+        "score": 0.4035
+      },
+      {
         "id": "a288eadab322",
         "year": 2018,
         "text": "We trust our teams to do what they think is best for Netflix — giving them lots of freedom, power, and information in support of their decisions.",
         "score": 0.4034
+      },
+      {
+        "id": "b2e2fb3164da",
+        "year": 2018,
+        "text": "The unusual part is that we give adequate performers a generous severance package 2 so that we can find a star for that position.",
+        "score": 0.4005
       },
       {
         "id": "abb495e5dea0",
@@ -2039,12 +2192,6 @@
         "id": "6613770c65f4",
         "year": 2018,
         "text": "We want employees to be great independent decision makers, and to only consult their manager when they are unsure of the right decision.",
-        "score": 0.3974
-      },
-      {
-        "id": "892cc326d23b",
-        "year": 2018,
-        "text": "The unusual part is that we give adequate performers a generous severance package 2 , so that we can find a star for that position.",
         "score": 0.3974
       },
       {
@@ -2078,6 +2225,12 @@
         "score": 0.3892
       },
       {
+        "id": "dbe17580e072",
+        "year": 2018,
+        "text": "Leaders demonstrate that we are all fallible and open to feedback.",
+        "score": 0.388
+      },
+      {
         "id": "0bc0ab95f88b",
         "year": 2018,
         "text": "We have a regular cadence of many types of meetings; we start and end on time, and have well-prepared agendas.",
@@ -2106,12 +2259,6 @@
         "year": 2018,
         "text": "We pride ourselves on how few, not how many, decisions senior management makes.",
         "score": 0.3821
-      },
-      {
-        "id": "7b5693e9b59b",
-        "year": 2018,
-        "text": "The more these sound like you, and describe people you want to work with, the more likely you will thrive at Netflix.",
-        "score": 0.3805
       },
       {
         "id": "521bf1680c80",
@@ -2324,6 +2471,12 @@
         "score": 0.3328
       },
       {
+        "id": "f6c2fb99c85d",
+        "year": 2018,
+        "text": "Afterwards, it is important for us to reflect on the decision, and see if we could do even better in the future.",
+        "score": 0.3322
+      },
+      {
         "id": "4e0385a0338d",
         "year": 2018,
         "text": "On the other hand, if the company does well, our broadly distributed stock options become quite valuable.",
@@ -2408,10 +2561,10 @@
         "score": 0.3184
       },
       {
-        "id": "60437c5bd6fe",
+        "id": "78d5fae23b2b",
         "year": 2018,
-        "text": "You are concise and articulate in speech and writing You listen well and seek to understand before reacting You maintain calm poise in stressful situations to draw out the clearest thinking You adapt your communication style to work well with people from around the world who may not share your native language You provide candid, timely feedback to colleagues",
-        "score": 0.318
+        "text": "You are concise and articulate in speech and writing You listen well and seek to understand before reacting You maintain calm poise in stressful situations to draw out the clearest thinking You adapt your communication style to work well with people from around the world who may not share your native language You provide candid, helpful, timely feedback to colleagues",
+        "score": 0.317
       },
       {
         "id": "56135c57278c",
@@ -2424,6 +2577,18 @@
         "year": 2018,
         "text": "Ultimately, the end goal is to grow the business for bigger impact while increasing flexibility and agility.",
         "score": 0.3137
+      },
+      {
+        "id": "49913ecfd2f8",
+        "year": 2018,
+        "text": "Once the captain makes a decision, we expect everyone to help make it as successful as possible.",
+        "score": 0.3125
+      },
+      {
+        "id": "3a4d03049991",
+        "year": 2018,
+        "text": "For every significant decision there is a responsible captain of the ship who makes a judgment call after sharing and digesting others’ views.",
+        "score": 0.3116
       },
       {
         "id": "0b7492157073",
@@ -2460,6 +2625,12 @@
         "year": 2019,
         "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You focus on talent and our values, rather than a person’s similarity to yourself You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized",
         "score": 0.6327
+      },
+      {
+        "id": "2688d8a311aa",
+        "year": 2019,
+        "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized",
+        "score": 0.5919
       },
       {
         "id": "de41c4cae9cf",
@@ -2666,6 +2837,12 @@
         "score": 0.4281
       },
       {
+        "id": "74a953f70573",
+        "year": 2019,
+        "text": "We strive to bring the best experience to our…",
+        "score": 0.4206
+      },
+      {
         "id": "aa9f09cb862e",
         "year": 2019,
         "text": "We know this level of candor and feedback can be difficult for new hires and people in different parts of the world where direct feedback is uncommon.",
@@ -2786,6 +2963,12 @@
         "score": 0.3944
       },
       {
+        "id": "7bad557e469a",
+        "year": 2019,
+        "text": "Our version of the great workplace is not sushi lunches, great gyms, fancy offices, or frequent parties.",
+        "score": 0.3924
+      },
+      {
         "id": "c674ffae9234",
         "year": 2019,
         "text": "You contribute effectively outside of your specialty You make connections that others miss You seek to understand our members around the world, and how we entertain them",
@@ -2798,6 +2981,12 @@
         "score": 0.388
       },
       {
+        "id": "ae836be19c22",
+        "year": 2019,
+        "text": "You seek what is best for Netflix, rather than what is best for yourself or your group You are open-minded in search of great ideas You make time to help colleagues You share information openly and proactively",
+        "score": 0.3875
+      },
+      {
         "id": "0bc0ab95f88b",
         "year": 2019,
         "text": "We have a regular cadence of many types of meetings; we start and end on time, and have well-prepared agendas.",
@@ -2808,6 +2997,12 @@
         "year": 2019,
         "text": "We build trust by being selfless in giving feedback to our colleagues even if it is uncomfortable to do so.",
         "score": 0.3868
+      },
+      {
+        "id": "c4a7d522c854",
+        "year": 2019,
+        "text": "The unusual part is that we give adequate performers a generous 2 severance package so that we can find a star for that position.",
+        "score": 0.3855
       },
       {
         "id": "e838a11c2853",
@@ -2826,6 +3021,12 @@
         "year": 2019,
         "text": "We pride ourselves on how few, not how many, decisions senior management makes.",
         "score": 0.3821
+      },
+      {
+        "id": "7c6404466406",
+        "year": 2019,
+        "text": "We farm for dissent; dissent is not natural or easy, which is why we make a concerted effort to stimulate it.",
+        "score": 0.3805
       },
       {
         "id": "521bf1680c80",
@@ -2936,6 +3137,12 @@
         "score": 0.3503
       },
       {
+        "id": "cdad54d1e19e",
+        "year": 2019,
+        "text": "Instead, teach them to yearn for the vast and endless sea. 1 We mean the team of your dreams, not the 1992 men’s USA Olympic basketball team. 2 We generally offer a minimum of four months of full pay to our salaried employees as a severance package, giving our ex-teammates time to find a new company. 3 Mostly for our salaried employees; there are many limitations on this for our hourly employees due to legal requirements. 4 Sadly, a few countries’ tax laws do not support employee choice (Singapore, Japan, France, Korea, Taiwan)",
+        "score": 0.3502
+      },
+      {
         "id": "ee97000eb3d4",
         "year": 2019,
         "text": "Each employee chooses each year how much of their compensation they want in salary versus stock options.",
@@ -2954,6 +3161,12 @@
         "score": 0.3485
       },
       {
+        "id": "6d13b0b3faa8",
+        "year": 2019,
+        "text": "New employees often comment in their first few months that they are surprised how accurate this culture description is to the actual culture they experience.",
+        "score": 0.3477
+      },
+      {
         "id": "929bcfa76845",
         "year": 2019,
         "text": "To have an entire company comprise the dream team (rather than just a few small groups) is challenging.",
@@ -2970,12 +3183,6 @@
         "year": 2019,
         "text": "The real values of a firm are shown by who gets rewarded or let go.",
         "score": 0.3407
-      },
-      {
-        "id": "d66dd6e8003f",
-        "year": 2019,
-        "text": "New employees often comment in the first few months that they are surprised how accurate this culture description is to the actual culture they experience.",
-        "score": 0.3386
       },
       {
         "id": "c15b9d003169",
@@ -3150,6 +3357,12 @@
         "year": 2019,
         "text": "For every significant decision there is a responsible captain of the ship who makes a judgment call after sharing and digesting others’ views.",
         "score": 0.3116
+      },
+      {
+        "id": "67d45c1b1285",
+        "year": 2019,
+        "text": "At Netflix, you learn a lot working on hard problems with amazing colleagues, and what you learn increases your market value.",
+        "score": 0.3112
       },
       {
         "id": "0b7492157073",
@@ -4562,16 +4775,70 @@
         "score": 0.6424
       },
       {
+        "id": "8fc381cd4130",
+        "year": 2022,
+        "text": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity.",
+        "score": 0.6322
+      },
+      {
+        "id": "1465d9915fb4",
+        "year": 2022,
+        "text": "We have evolved our employee and leadership diversity to be some of the best in our industry, and we’ll continue to improve so that everyone feels a sense of belonging at Netflix.",
+        "score": 0.6303
+      },
+      {
+        "id": "4c0a407e8ba6",
+        "year": 2022,
+        "text": "Just like our members, our employees have unique perspectives based on their backgrounds and experience.",
+        "score": 0.6267
+      },
+      {
+        "id": "256e721dcb2b",
+        "year": 2022,
+        "text": "As we grow, we are working to make our employees, suppliers, off and on-screen talent better reflect our membership so that we can better entertain the world.",
+        "score": 0.6148
+      },
+      {
+        "id": "b92921ac91f4",
+        "year": 2022,
+        "text": "We try hard to be a company where everyone feels a sense of responsibility to make us better.",
+        "score": 0.6102
+      },
+      {
+        "id": "b2e3766157c8",
+        "year": 2022,
+        "text": "You work well with people of different backgrounds, identities, values and cultures You are excited to help build diverse teams where everyone feels welcomed and respected You recognize we all have biases and work to counteract them You take action if someone is marginalizing a colleague You treat everyone with respect regardless of their position at Netflix",
+        "score": 0.6101
+      },
+      {
         "id": "d9d4134ca19b",
         "year": 2022,
         "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us",
         "score": 0.6042
       },
       {
+        "id": "bac288dc96ec",
+        "year": 2022,
+        "text": "We believe a company’s actual values are shown by whom they hire, reward or let go.",
+        "score": 0.5676
+      },
+      {
+        "id": "951552509e73",
+        "year": 2022,
+        "text": "Every new employee helps to shape and evolve the culture so we find new ways to accomplish more together.",
+        "score": 0.5522
+      },
+      {
         "id": "de41c4cae9cf",
         "year": 2022,
         "text": "We are learning faster than ever because we have more dedicated people with diverse perspectives trying to find better ways for our talented team to work together more cohesively, nimbly and effectively.",
         "score": 0.5476
+      },
+      {
+        "id": "17ac162df617",
+        "year": 2022,
+        "text": "We strive to develop good decision-making muscles across our company.",
+        "score": 0.5432
       },
       {
         "id": "27da4a903618",
@@ -4592,10 +4859,34 @@
         "score": 0.5261
       },
       {
+        "id": "0c1e1a2aa861",
+        "year": 2022,
+        "text": "As employees we support the principle that Netflix offers a diversity of stories, even if we find some titles counter to our own personal values.",
+        "score": 0.5221
+      },
+      {
+        "id": "c895497eaaad",
+        "year": 2022,
+        "text": "To help us succeed, we’ve created an unusual employee culture.",
+        "score": 0.5209
+      },
+      {
+        "id": "bf85f6ec40d8",
+        "year": 2022,
+        "text": "We are learning faster than ever, because we have more dedicated people with more diverse perspectives working to excel as the dream team.",
+        "score": 0.5181
+      },
+      {
         "id": "07aa8c184392",
         "year": 2022,
         "text": "Every person who joins us helps to shape and evolve the culture further.",
         "score": 0.5113
+      },
+      {
+        "id": "e805308e9741",
+        "year": 2022,
+        "text": "That’s why our core philosophy is people over process , and why we try to bring great people together as a dream team .",
+        "score": 0.5048
       },
       {
         "id": "95b55d21a864",
@@ -4628,10 +4919,28 @@
         "score": 0.498
       },
       {
+        "id": "3a8a35c4d2f1",
+        "year": 2022,
+        "text": "On our dream team we encourage collaboration, share information and discourage politics.",
+        "score": 0.4952
+      },
+      {
         "id": "b8f3b6d84a5f",
         "year": 2022,
         "text": "We believe that people thrive on being trusted, on freedom, and on being able to make a difference.",
         "score": 0.4918
+      },
+      {
+        "id": "ba1522b8719d",
+        "year": 2022,
+        "text": "This democratizes our giving decisions, and incentivizes employees to support causes they’re passionate about.",
+        "score": 0.4902
+      },
+      {
+        "id": "902c4bc326a9",
+        "year": 2022,
+        "text": "But with our people-first approach, we can be more flexible, creative and successful in everything we do.",
+        "score": 0.489
       },
       {
         "id": "519c86e2a324",
@@ -4676,6 +4985,18 @@
         "score": 0.475
       },
       {
+        "id": "62259a747f41",
+        "year": 2022,
+        "text": "We see outside interviewing as acceptable, and encourage employees to talk with their managers about what they learn in the process.",
+        "score": 0.474
+      },
+      {
+        "id": "3f1e1ff2fa9e",
+        "year": 2022,
+        "text": "Some examples of our unusual amounts of employee 1 freedom: We share documents internally broadly and systematically, so people can read and often comment on them—including memos on each title’s performance, our strategy decisions and product feature tests.",
+        "score": 0.4732
+      },
+      {
         "id": "fcdc748b98ff",
         "year": 2022,
         "text": "We actively help people learn how to do this at Netflix through coaching and modeling the behaviors we want to see in every employee.",
@@ -4686,6 +5007,12 @@
         "year": 2022,
         "text": "Our version of the great workplace is a dream team in pursuit of ambitious common goals, for which we spend heavily.",
         "score": 0.4666
+      },
+      {
+        "id": "32fc1059b247",
+        "year": 2022,
+        "text": "We want to be a company of self-disciplined, accountable people who discover and fix issues without being told to do so.",
+        "score": 0.4657
       },
       {
         "id": "a88ec2513862",
@@ -4712,6 +5039,12 @@
         "score": 0.459
       },
       {
+        "id": "9e1491c08119",
+        "year": 2022,
+        "text": "We believe Netflix is most effective and innovative when employees across the company make and own decisions.",
+        "score": 0.4565
+      },
+      {
         "id": "63058d3575ca",
         "year": 2022,
         "text": "Our model works best for people who highly value consistent excellence in their colleagues.",
@@ -4724,16 +5057,40 @@
         "score": 0.449
       },
       {
+        "id": "514d7ac63f1a",
+        "year": 2022,
+        "text": "So we help people learn to give and receive feedback through coaching and modeling the behaviors we want to see across the company.",
+        "score": 0.4474
+      },
+      {
         "id": "f88ae36bbe04",
         "year": 2022,
         "text": "Below are our values, the specific behaviors and skills we care about most.",
         "score": 0.4469
       },
       {
+        "id": "ceac7fb3eafd",
+        "year": 2022,
+        "text": "That said, we don’t believe in long-term allegiance to a stagnant company, or to an only-adequately-performing employee.",
+        "score": 0.4464
+      },
+      {
         "id": "6a52d8abef7f",
         "year": 2022,
         "text": "We make a good-faith estimate of the highest compensation each employee could make at peer firms, and pay them that maximum.",
         "score": 0.4446
+      },
+      {
+        "id": "e69b08be4af0",
+        "year": 2022,
+        "text": "This document is about that culture, and how we can continuously improve as a team so that we can better serve our members.",
+        "score": 0.4437
+      },
+      {
+        "id": "2aea2336cfbb",
+        "year": 2022,
+        "text": "We have no tolerance for harassment of employees or trading on insider information, for example.",
+        "score": 0.4415
       },
       {
         "id": "24d186d1675f",
@@ -4748,16 +5105,46 @@
         "score": 0.4348
       },
       {
+        "id": "d9a20496ac35",
+        "year": 2022,
+        "text": "But it is an important part of getting stronger, as individuals and as a company, because it’s what fuels our dream team.",
+        "score": 0.4344
+      },
+      {
         "id": "6b3b3722673b",
         "year": 2022,
         "text": "What is special about Netflix, though, is how much we: share information openly, broadly, and deliberately are extraordinarily candid with each other keep only our highly effective people Our core philosophy is people over process .",
         "score": 0.4336
       },
       {
+        "id": "37fbb8332417",
+        "year": 2022,
+        "text": "We know this level of candor can be especially challenging for new hires, people in parts of the world or cultures where direct feedback is uncommon, and if there’s a power imbalance.",
+        "score": 0.4323
+      },
+      {
+        "id": "bc64ab0937c3",
+        "year": 2022,
+        "text": "It’s about investing in a dream team of talented people who are excited to pursue ambitious shared goals.",
+        "score": 0.4312
+      },
+      {
         "id": "abf1d165144f",
         "year": 2022,
         "text": "But unconditional allegiance to a stagnant firm, or to a merely-adequately-performing employee, is not what we are about.",
         "score": 0.431
+      },
+      {
+        "id": "7042de637b98",
+        "year": 2022,
+        "text": "Our model works best for people who value excellence and the opportunities it provides.",
+        "score": 0.429
+      },
+      {
+        "id": "90d9dc7a9684",
+        "year": 2022,
+        "text": "It’s how we build an extraordinarily successful company entertaining the world.",
+        "score": 0.4285
       },
       {
         "id": "5b01b25a8a78",
@@ -4772,10 +5159,28 @@
         "score": 0.4281
       },
       {
+        "id": "c854cf85c135",
+        "year": 2022,
+        "text": "To avoid this, we work hard to maintain employee excellence and keep our business as simple as possible given our growth ambitions.",
+        "score": 0.426
+      },
+      {
+        "id": "3591368431cb",
+        "year": 2022,
+        "text": "We insist on decent human interactions, no matter how brilliant someone may be.",
+        "score": 0.4257
+      },
+      {
         "id": "aa9f09cb862e",
         "year": 2022,
         "text": "We know this level of candor and feedback can be difficult for new hires and people in different parts of the world where direct feedback is uncommon.",
         "score": 0.4204
+      },
+      {
+        "id": "ae4b81d379e0",
+        "year": 2022,
+        "text": "In describing courage we say, “ You question colleagues' actions inconsistent with these behaviors. ” We all work to keep each other accountable for living up to these standards, especially our leaders.",
+        "score": 0.4202
       },
       {
         "id": "6784ff2f3711",
@@ -4784,10 +5189,34 @@
         "score": 0.4185
       },
       {
+        "id": "cf69c918c9d7",
+        "year": 2022,
+        "text": "What makes Netflix special is how much we: Share information openly, broadly and deliberately Keep only our highly effective people The thing we most value is working with talented people in highly creative and productive ways.",
+        "score": 0.4168
+      },
+      {
         "id": "bb7aba12e467",
         "year": 2022,
         "text": "Each employee is expected to seek advice and perspective as appropriate. “Use good judgment” is our core precept.",
         "score": 0.4149
+      },
+      {
+        "id": "09e97d727991",
+        "year": 2022,
+        "text": "You develop new ideas that prove impactful You look for every opportunity to reduce complexity and keep things simple You challenge prevailing assumptions, and suggest better approaches You are flexible and thrive in a constantly evolving organization",
+        "score": 0.4133
+      },
+      {
+        "id": "0b615fd0e963",
+        "year": 2022,
+        "text": "Instead of leadership picking particular causes, we do this through a two-to-one employee match.",
+        "score": 0.4118
+      },
+      {
+        "id": "b565e9b42557",
+        "year": 2022,
+        "text": "We also believe fewer management layers makes us more agile.",
+        "score": 0.4117
       },
       {
         "id": "7bc76fd49196",
@@ -4800,6 +5229,12 @@
         "year": 2022,
         "text": "We share documents internally broadly and systematically.",
         "score": 0.4097
+      },
+      {
+        "id": "d95457dc1bfc",
+        "year": 2022,
+        "text": "Our version of a great workplace is not great perks, although we have many.",
+        "score": 0.4086
       },
       {
         "id": "6cf7b2f156de",
@@ -4838,6 +5273,36 @@
         "score": 0.4034
       },
       {
+        "id": "bfcce9a9a111",
+        "year": 2022,
+        "text": "This is why \" You make time to help colleagues across Netflix succeed \" is a valued behavior.",
+        "score": 0.4032
+      },
+      {
+        "id": "3bb9b17526da",
+        "year": 2022,
+        "text": "We want our teams to do what is best for Netflix.",
+        "score": 0.4018
+      },
+      {
+        "id": "8ac580dbe8e8",
+        "year": 2022,
+        "text": "While every title is different, we approach them based on the same set of principles: we support the artistic expression of the creators we choose to work with; we program for a diversity of audiences and tastes; and we let viewers decide what’s appropriate for them, versus having Netflix censor specific artists or voices.",
+        "score": 0.4006
+      },
+      {
+        "id": "3c93b8dfce50",
+        "year": 2022,
+        "text": "You exhibit and are known for candor and transparency You only say things about colleagues that you are willing to share with them You admit mistakes openly and share learnings widely You always share relevant information internally, even when uncomfortable You act with good intent and trust your colleagues to do the same",
+        "score": 0.4004
+      },
+      {
+        "id": "0b9a32bda7da",
+        "year": 2022,
+        "text": "We do not seek to preserve our culture—we seek to improve it.",
+        "score": 0.3989
+      },
+      {
         "id": "ac6630fa1655",
         "year": 2022,
         "text": "Our leaders make sure they set good examples by taking vacations, often coming back with fresh ideas, and encourage the rest of the team to do the same.",
@@ -4850,6 +5315,12 @@
         "score": 0.3974
       },
       {
+        "id": "98f8dea0e36d",
+        "year": 2022,
+        "text": "So we seek to stay fast and nimble, even as we grow.",
+        "score": 0.397
+      },
+      {
         "id": "67f5fdddb529",
         "year": 2022,
         "text": "We celebrate the people who are very candid, especially to those in more powerful positions.",
@@ -4860,6 +5331,24 @@
         "year": 2022,
         "text": "While our teammates are fantastic, and we work together very well, we know we can always do better.",
         "score": 0.3955
+      },
+      {
+        "id": "1ef7abfbce5e",
+        "year": 2022,
+        "text": "If these values describe you, and the people you want to work with, you’re likely to thrive at Netflix.",
+        "score": 0.3926
+      },
+      {
+        "id": "1d4ee309e81a",
+        "year": 2022,
+        "text": "Our leaders make sure they set good examples by taking vacations, often coming back with fresh ideas, and encouraging the rest of the team to do the same.",
+        "score": 0.3921
+      },
+      {
+        "id": "c0ab991db048",
+        "year": 2022,
+        "text": "That cultural excellence propels our business excellence, which increases member satisfaction and in turn propels our long term growth and stock price.",
+        "score": 0.3907
       },
       {
         "id": "7019e9581baa",
@@ -4880,6 +5369,12 @@
         "score": 0.3892
       },
       {
+        "id": "bb8a0baab7bf",
+        "year": 2022,
+        "text": "To strengthen our dream team, our managers use a “keeper test” for each of their people: if a team member was leaving for a similar role at another company, would the manager try to keep them?",
+        "score": 0.3891
+      },
+      {
         "id": "dbe17580e072",
         "year": 2022,
         "text": "Leaders demonstrate that we are all fallible and open to feedback.",
@@ -4898,6 +5393,12 @@
         "score": 0.3855
       },
       {
+        "id": "ae231bc9e5f2",
+        "year": 2022,
+        "text": "You seek what is best for Netflix, not yourself or your team You are humble and open-minded about others’ great ideas You make time to help colleagues across Netflix succeed You debate ideas openly, and help implement whatever decision is made even when you disagree",
+        "score": 0.3848
+      },
+      {
         "id": "8cf550b2cab0",
         "year": 2022,
         "text": "Our goal is to inspire people more than manage them.",
@@ -4910,10 +5411,22 @@
         "score": 0.3826
       },
       {
+        "id": "9847ded5183e",
+        "year": 2022,
+        "text": "At Netflix, we aspire to entertain the world—creating great stories from anywhere and offering greater choice and control for people everywhere.",
+        "score": 0.3824
+      },
+      {
         "id": "e7dbe710e1bb",
         "year": 2022,
         "text": "We pride ourselves on how few, not how many, decisions senior management makes.",
         "score": 0.3821
+      },
+      {
+        "id": "3318c8196c0d",
+        "year": 2022,
+        "text": "We pride ourselves on how few, not how many, decisions our senior managers make.",
+        "score": 0.3817
       },
       {
         "id": "7c6404466406",
@@ -4928,10 +5441,22 @@
         "score": 0.38
       },
       {
+        "id": "e2347c23eb54",
+        "year": 2022,
+        "text": "This, in turn, generates a sense of responsibility, accountability and self-discipline that drives us to do great work.",
+        "score": 0.3796
+      },
+      {
         "id": "08482ff55fb0",
         "year": 2022,
         "text": "You are known for candor, authenticity, transparency, and being non-political You only say things about fellow employees that you say to their face You admit mistakes freely and openly You treat people with respect regardless of their status or disagreement with you You always share relevant information, even when worrisome to do so",
         "score": 0.377
+      },
+      {
+        "id": "1c94e50dff6a",
+        "year": 2022,
+        "text": "For every significant decision, we identify an informed captain of the ship who is an expert in their area.",
+        "score": 0.3769
       },
       {
         "id": "c8fdd60458ee",
@@ -4940,16 +5465,58 @@
         "score": 0.3747
       },
       {
+        "id": "3e8ca935d11c",
+        "year": 2022,
+        "text": "Similarly, we want employees to stick with Netflix through any short term dips the company may have.",
+        "score": 0.3742
+      },
+      {
+        "id": "9d0c16516cab",
+        "year": 2022,
+        "text": "Dissent can be difficult, which is why we make an effort to stimulate discussion.",
+        "score": 0.3732
+      },
+      {
         "id": "fe97dd583a9a",
         "year": 2022,
         "text": "Those who do not pass the keeper test (i.e. their manager would not fight to keep them) are promptly and respectfully given a generous severance package so we can find someone for that position that makes us an even better dream team.",
         "score": 0.3728
       },
       {
+        "id": "b15675c1bd96",
+        "year": 2022,
+        "text": "That said, we don’t believe in hands-off management.",
+        "score": 0.3727
+      },
+      {
+        "id": "0f46c6dbc57d",
+        "year": 2022,
+        "text": "We also encourage employees to check in with their manager at any time by asking, “How hard would you work to change my mind if I were thinking of leaving?”",
+        "score": 0.3725
+      },
+      {
         "id": "127c681d64c6",
         "year": 2022,
         "text": "Also, it is safe for any employee at any time to check in with their manager by asking, “How hard would you work to change my mind if I were thinking of leaving?” In the tension between honesty and kindness, we lean into honesty.",
         "score": 0.3725
+      },
+      {
+        "id": "abd9e8c7a4c5",
+        "year": 2022,
+        "text": "At Netflix, positive and constructive feedback is part of everyday life—not only an annual event.",
+        "score": 0.3724
+      },
+      {
+        "id": "cd79e8bdc67e",
+        "year": 2022,
+        "text": "We are strict about ethical and safety issues.",
+        "score": 0.3723
+      },
+      {
+        "id": "bd6d5f7cec7f",
+        "year": 2022,
+        "text": "You seek alternate perspectives to improve your ideas You see patterns and connections that other people miss You seek to understand members’ changing tastes and desires It’s easy to talk about valued behaviors; it’s harder to live them.",
+        "score": 0.3711
       },
       {
         "id": "61627a5485bc",
@@ -4964,16 +5531,34 @@
         "score": 0.3684
       },
       {
+        "id": "75d22e87da26",
+        "year": 2022,
+        "text": "We don’t wait for consensus or vote by committee, nor do we drive to rapid, uninformed decision making.",
+        "score": 0.3682
+      },
+      {
         "id": "68722eeb87bc",
         "year": 2022,
         "text": "Many people value job security very highly, and would prefer to work at companies whose orientation is more about stability, seniority, and working around inconsistent employee effectiveness.",
         "score": 0.3672
       },
       {
+        "id": "2120a5679ce2",
+        "year": 2022,
+        "text": "Both rely on trust and positive intent, which is why we invest time in developing strong professional relationships.",
+        "score": 0.366
+      },
+      {
         "id": "099a5a0e964e",
         "year": 2022,
         "text": "No matter how honest, though, we treat people with respect.",
         "score": 0.3647
+      },
+      {
+        "id": "78dcebde9dae",
+        "year": 2022,
+        "text": "On our dream team, there are no brilliant jerks as they are detrimental to great teamwork.",
+        "score": 0.3645
       },
       {
         "id": "193adcb526eb",
@@ -4994,10 +5579,22 @@
         "score": 0.3607
       },
       {
+        "id": "a07a0d1d756f",
+        "year": 2022,
+        "text": "Those who do not pass the keeper test (i.e. their manager would not fight to keep them) are given a generous severance package so we can find someone even better for that position—making an even better dream team.",
+        "score": 0.3602
+      },
+      {
         "id": "1705650a8e50",
         "year": 2022,
         "text": "Frankly, we intermix work and personal time quite a bit, doing email at odd hours, taking off a weekday afternoon, etc.",
         "score": 0.36
+      },
+      {
+        "id": "55b19a39a54c",
+        "year": 2022,
+        "text": "Our \"context not control\" culture works best when leaders manage many direct reports, giving each employee sufficient autonomy to do the best work of their lives.",
+        "score": 0.3599
       },
       {
         "id": "bbfa5a3215df",
@@ -5012,10 +5609,34 @@
         "score": 0.3571
       },
       {
+        "id": "fc5c3a4728ba",
+        "year": 2022,
+        "text": "We spend lots of time debating and writing down strategy and context, and then trust each other to execute on tactics without prior approval.",
+        "score": 0.3559
+      },
+      {
         "id": "0350163f4b16",
         "year": 2022,
         "text": "Instead, teach them to yearn for the vast and endless sea. 1 We mean the team of your dreams, not the 1992 men’s USA Olympic basketball team. 2 We generally offer a minimum of four months of full pay as a severance package, giving our ex-teammates time to find a new company. 3 Mostly for our salaried employees; there are many limitations on this for our hourly employees due to legal requirements. 4 Sadly, a few countries’ tax laws do not support employee choice (Singapore, Japan, France, Korea, Taiwan)",
         "score": 0.355
+      },
+      {
+        "id": "6f434cf4e0c9",
+        "year": 2022,
+        "text": "So we are relatively error tolerant except where safety is an issue—and we focus on ensuring that any error prevention efforts don’t limit inventive, creative work.",
+        "score": 0.3546
+      },
+      {
+        "id": "a7905cf06c1f",
+        "year": 2022,
+        "text": "Below are the specific behaviors and skills we care about most.",
+        "score": 0.3539
+      },
+      {
+        "id": "eac84f23106c",
+        "year": 2022,
+        "text": "Beyond candor in our day-to-day interactions, we act honorably, even when no one is looking.",
+        "score": 0.3535
       },
       {
         "id": "77e97a5f6d7d",
@@ -5024,10 +5645,28 @@
         "score": 0.3531
       },
       {
+        "id": "9297228c7025",
+        "year": 2022,
+        "text": "We work to foster players from the development leagues so they can become the stars of tomorrow.",
+        "score": 0.3527
+      },
+      {
+        "id": "6ccceb45412d",
+        "year": 2022,
+        "text": "And we discuss how we can do better in the future.",
+        "score": 0.3522
+      },
+      {
         "id": "254befd8763d",
         "year": 2022,
         "text": "Memos on each title’s performance, on every strategy decision, on every competitor, and on every product feature test are open for all employees to read.",
         "score": 0.3517
+      },
+      {
+        "id": "66641aa144c1",
+        "year": 2022,
+        "text": "We have many successes and failures, which is how we learn and why everyone is evaluated on their whole record (versus simply mistakes or bets that didn’t pay off).",
+        "score": 0.3516
       },
       {
         "id": "16106261b7dc",
@@ -5040,6 +5679,12 @@
         "year": 2022,
         "text": "Each employee chooses each year how much of their compensation they want in salary versus stock options.",
         "score": 0.3493
+      },
+      {
+        "id": "aa23f5ca26fe",
+        "year": 2022,
+        "text": "Frankly, we mix work and personal time quite a bit, doing email at odd hours or taking off a weekday afternoon.",
+        "score": 0.3491
       },
       {
         "id": "c747ecea8a6f",
@@ -5060,10 +5705,64 @@
         "score": 0.3485
       },
       {
+        "id": "f457f8bb68bc",
+        "year": 2022,
+        "text": "Just because a few people abuse their freedom doesn’t mean the rest of our employees aren’t worthy of great trust.",
+        "score": 0.348
+      },
+      {
         "id": "929bcfa76845",
         "year": 2022,
         "text": "To have an entire company comprise the dream team (rather than just a few small groups) is challenging.",
         "score": 0.3475
+      },
+      {
+        "id": "9b39630138ba",
+        "year": 2022,
+        "text": "You make tough decisions without agonizing or long delay You take informed risks and are open to possible failure You question colleagues’ actions inconsistent with these behaviors You are willing to be vulnerable, in search of truth and connection You give and take feedback to and from colleagues at any level",
+        "score": 0.3474
+      },
+      {
+        "id": "2501067372c3",
+        "year": 2022,
+        "text": "We are in a creative business and our biggest threat over time is a lack of innovation.",
+        "score": 0.3469
+      },
+      {
+        "id": "b76d5146fddd",
+        "year": 2022,
+        "text": "You care deeply about Netflix‘s success You inspire others with your drive for excellence You are excited about your work You are proud to entertain the world",
+        "score": 0.3454
+      },
+      {
+        "id": "d2dd0b987212",
+        "year": 2022,
+        "text": "Sometimes we have smaller teams due to specialization or sub-scale environments, but those should be exceptions and not the norm.",
+        "score": 0.342
+      },
+      {
+        "id": "b653bd0dff4e",
+        "year": 2022,
+        "text": "We model ourselves on being a professional sports team, not a family.",
+        "score": 0.3416
+      },
+      {
+        "id": "ed1322e41f5e",
+        "year": 2022,
+        "text": "Instead, teach them to yearn for the vast and endless sea. 1 Mostly for our salaried employees; there are limitations on this for our hourly employees due to legal requirements.",
+        "score": 0.3389
+      },
+      {
+        "id": "61b61f8b0719",
+        "year": 2022,
+        "text": "This is a good-faith estimate of the highest compensation each employee could make at a similar role in local peer companies, combined with what we would pay to replace them if needed.",
+        "score": 0.3387
+      },
+      {
+        "id": "4d490e48f419",
+        "year": 2022,
+        "text": "We expect all employees to protect confidential company information, whether or not it is marked “confidential”.",
+        "score": 0.3378
       },
       {
         "id": "e09fdd564889",
@@ -5072,10 +5771,22 @@
         "score": 0.3372
       },
       {
+        "id": "130460b719b2",
+        "year": 2022,
+        "text": "Once the informed captain makes a decision, we expect everyone—including those who disagreed—to commit and help make the outcome as successful as possible.",
+        "score": 0.3372
+      },
+      {
         "id": "49df55df0d09",
         "year": 2022,
         "text": "You accomplish amazing amounts of important work You demonstrate consistently strong performance so colleagues can rely upon you You focus on results over process It’s easy to write admirable values; it’s harder to live them.",
         "score": 0.3359
+      },
+      {
+        "id": "9ca8752d94eb",
+        "year": 2022,
+        "text": "Being on a dream team is the thrill of a professional lifetime, and team members are incredibly supportive of each other.",
+        "score": 0.3358
       },
       {
         "id": "303d074cc435",
@@ -5088,6 +5799,12 @@
         "year": 2022,
         "text": "We use these meetings to learn from each other and get more done, rather than to prevent errors or approve decisions.",
         "score": 0.3351
+      },
+      {
+        "id": "3e9bf1ebdb79",
+        "year": 2022,
+        "text": "One process we do well is purposeful, scheduled meetings.",
+        "score": 0.3347
       },
       {
         "id": "d35feb12fcbe",
@@ -5126,10 +5843,22 @@
         "score": 0.329
       },
       {
+        "id": "9ade7c2fb66e",
+        "year": 2022,
+        "text": "We avoid decisions by committee, which would slow us down and diffuse responsibility.",
+        "score": 0.3289
+      },
+      {
         "id": "beeac271d7b9",
         "year": 2022,
         "text": "When highly capable people work together in a collaborative context, they inspire each other to be more creative, more productive and ultimately more successful as a team than they could be as a collection of individuals.",
         "score": 0.3285
+      },
+      {
+        "id": "af0a257fc130",
+        "year": 2022,
+        "text": "We use these meetings to learn from each other and get more done, rather than prevent mistakes or approve tactical decisions.",
+        "score": 0.3283
       },
       {
         "id": "cfa17287253c",
@@ -5144,10 +5873,34 @@
         "score": 0.3274
       },
       {
+        "id": "2f05cdad3433",
+        "year": 2022,
+        "text": "But we don’t measure someone’s contribution by the hours they work.",
+        "score": 0.3274
+      },
+      {
+        "id": "636e242330aa",
+        "year": 2022,
+        "text": "You make wise decisions despite ambiguity You use data to inform your intuition and choices You look beyond symptoms to identify systemic issues You spend our members’ money wisely You make decisions mostly based on their long term, rather than near term, impact",
+        "score": 0.3257
+      },
+      {
+        "id": "f9fc99f8e396",
+        "year": 2022,
+        "text": "If an employee disagrees on an important open issue, it is their responsibility to explain why, ideally in person and in writing.",
+        "score": 0.3248
+      },
+      {
         "id": "d770226555b3",
         "year": 2022,
         "text": "We are in a creative business, not a safety-critical business.",
         "score": 0.3234
+      },
+      {
+        "id": "5bab22ebf89f",
+        "year": 2022,
+        "text": "The success of a highly aligned, loosely coupled work environment depends on talented individuals working well together, and setting effective context.",
+        "score": 0.3233
       },
       {
         "id": "bf4d603def84",
@@ -5162,10 +5915,28 @@
         "score": 0.322
       },
       {
+        "id": "2b601221b216",
+        "year": 2022,
+        "text": "Dream team members take informed risks, which require courage and encouragement from leaders and peers.",
+        "score": 0.3219
+      },
+      {
+        "id": "5993e8ce2173",
+        "year": 2022,
+        "text": "You learn a lot at Netflix working on hard problems with stunning colleagues, and that increases your market value.",
+        "score": 0.3207
+      },
+      {
         "id": "b2625b093d5a",
         "year": 2022,
         "text": "We don’t buy into the lore of senior leaders, who are so involved in the details that their product or service becomes amazing.",
         "score": 0.3203
+      },
+      {
+        "id": "8569c1202d2d",
+        "year": 2022,
+        "text": "When highly capable people work together well, they inspire each other to be more creative, more productive and ultimately more successful as a team than they could be individually.",
+        "score": 0.3198
       },
       {
         "id": "f803f7f2befd",
@@ -5178,6 +5949,18 @@
         "year": 2022,
         "text": "You are concise and articulate in speech and writing You listen well and seek to understand before reacting You maintain calm poise in stressful situations to draw out the clearest thinking You adapt your communication style to work well with people from around the world who may not share your native language You provide candid, helpful, timely feedback to colleagues",
         "score": 0.317
+      },
+      {
+        "id": "d598abd4b04d",
+        "year": 2022,
+        "text": "As we wrote in the beginning, what is special about Netflix is how much we: Share information openly, broadly, and deliberately Keep only our highly effective people Finally, Antoine de Saint-Exupéry, the author of The Little Prince , shows us the way: If you want to build a ship, don't drum up the people to gather wood, divide the work, and give orders.",
+        "score": 0.3169
+      },
+      {
+        "id": "fa58cbaa37d9",
+        "year": 2022,
+        "text": "Ultimately, the end goal is to grow the business for a bigger impact while increasing flexibility and agility.",
+        "score": 0.3153
       },
       {
         "id": "94027e862797",
@@ -5198,10 +5981,28 @@
         "score": 0.3141
       },
       {
+        "id": "bd64c3070d55",
+        "year": 2022,
+        "text": "Dream teams are about performance, not seniority or tenure.",
+        "score": 0.3139
+      },
+      {
         "id": "364fb3278da8",
         "year": 2022,
         "text": "Ultimately, the end goal is to grow the business for bigger impact while increasing flexibility and agility.",
         "score": 0.3137
+      },
+      {
+        "id": "0890d7a0bd7d",
+        "year": 2022,
+        "text": "Our parental leave policy is: “Take care of your baby and yourself.” Parents generally follow local norms.",
+        "score": 0.3126
+      },
+      {
+        "id": "97cc178f157a",
+        "year": 2022,
+        "text": "Employees with a strong track record at Netflix get leeway if their performance takes a temporary dip, or if they are in a new role.",
+        "score": 0.3125
       },
       {
         "id": "49913ecfd2f8",
@@ -5210,10 +6011,22 @@
         "score": 0.3125
       },
       {
+        "id": "9e348020265e",
+        "year": 2022,
+        "text": "Some people prefer job security, and choose to work at companies that are more focused on stability and seniority, and less rigorous about performance management.",
+        "score": 0.3116
+      },
+      {
         "id": "3a4d03049991",
         "year": 2022,
         "text": "For every significant decision there is a responsible captain of the ship who makes a judgment call after sharing and digesting others’ views.",
         "score": 0.3116
+      },
+      {
+        "id": "f83de2eb67d0",
+        "year": 2022,
+        "text": "We plan an agenda ahead of time, including thinking through what needs synchronous discussion versus what can be done offline.",
+        "score": 0.3113
       },
       {
         "id": "67d45c1b1285",
@@ -5228,10 +6041,28 @@
         "score": 0.3095
       },
       {
+        "id": "2c2585becea2",
+        "year": 2022,
+        "text": "Our policy for travel, entertainment, gifts and other expenses is five words long: “Act in Netflix’s best interest.”",
+        "score": 0.309
+      },
+      {
+        "id": "32fa1e702e47",
+        "year": 2022,
+        "text": "Our vacation policy is: “Take vacation.” We don’t have any rules about how many weeks per year.",
+        "score": 0.3073
+      },
+      {
         "id": "0b7492157073",
         "year": 2022,
         "text": "The success of a “Highly Aligned, Loosely Coupled” work environment is dependent upon the collaborative efforts of high performance individuals and effective context.",
         "score": 0.3073
+      },
+      {
+        "id": "9e984a302354",
+        "year": 2022,
+        "text": "It’s exhilarating and how we learn the most, do our best work, improve the fastest and have the most fun.",
+        "score": 0.3041
       },
       {
         "id": "16e95d7cbc9c",
@@ -5240,10 +6071,142 @@
         "score": 0.303
       },
       {
+        "id": "9112f06ccb23",
+        "year": 2022,
+        "text": "Some employees’ estimated personal market will rise rapidly, either due to their performance or a shortage of talent in that area.",
+        "score": 0.303
+      },
+      {
+        "id": "1cd3fc63f998",
+        "year": 2022,
+        "text": "It also makes it easier to share views openly and widely.",
+        "score": 0.3028
+      },
+      {
+        "id": "8fc381cd4130",
+        "year": 2023,
+        "text": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity.",
+        "score": 0.6322
+      },
+      {
+        "id": "1465d9915fb4",
+        "year": 2023,
+        "text": "We have evolved our employee and leadership diversity to be some of the best in our industry, and we’ll continue to improve so that everyone feels a sense of belonging at Netflix.",
+        "score": 0.6303
+      },
+      {
+        "id": "4c0a407e8ba6",
+        "year": 2023,
+        "text": "Just like our members, our employees have unique perspectives based on their backgrounds and experience.",
+        "score": 0.6267
+      },
+      {
+        "id": "256e721dcb2b",
+        "year": 2023,
+        "text": "As we grow, we are working to make our employees, suppliers, off and on-screen talent better reflect our membership so that we can better entertain the world.",
+        "score": 0.6148
+      },
+      {
+        "id": "b92921ac91f4",
+        "year": 2023,
+        "text": "We try hard to be a company where everyone feels a sense of responsibility to make us better.",
+        "score": 0.6102
+      },
+      {
+        "id": "b2e3766157c8",
+        "year": 2023,
+        "text": "You work well with people of different backgrounds, identities, values and cultures You are excited to help build diverse teams where everyone feels welcomed and respected You recognize we all have biases and work to counteract them You take action if someone is marginalizing a colleague You treat everyone with respect regardless of their position at Netflix",
+        "score": 0.6101
+      },
+      {
+        "id": "bac288dc96ec",
+        "year": 2023,
+        "text": "We believe a company’s actual values are shown by whom they hire, reward or let go.",
+        "score": 0.5676
+      },
+      {
+        "id": "951552509e73",
+        "year": 2023,
+        "text": "Every new employee helps to shape and evolve the culture so we find new ways to accomplish more together.",
+        "score": 0.5522
+      },
+      {
+        "id": "17ac162df617",
+        "year": 2023,
+        "text": "We strive to develop good decision-making muscles across our company.",
+        "score": 0.5432
+      },
+      {
         "id": "27da4a903618",
         "year": 2023,
         "text": "Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
         "score": 0.5417
+      },
+      {
+        "id": "0c1e1a2aa861",
+        "year": 2023,
+        "text": "As employees we support the principle that Netflix offers a diversity of stories, even if we find some titles counter to our own personal values.",
+        "score": 0.5221
+      },
+      {
+        "id": "c895497eaaad",
+        "year": 2023,
+        "text": "To help us succeed, we’ve created an unusual employee culture.",
+        "score": 0.5209
+      },
+      {
+        "id": "bf85f6ec40d8",
+        "year": 2023,
+        "text": "We are learning faster than ever, because we have more dedicated people with more diverse perspectives working to excel as the dream team.",
+        "score": 0.5181
+      },
+      {
+        "id": "e805308e9741",
+        "year": 2023,
+        "text": "That’s why our core philosophy is people over process , and why we try to bring great people together as a dream team .",
+        "score": 0.5048
+      },
+      {
+        "id": "4ef26f50a9aa",
+        "year": 2023,
+        "text": "To help us attract and retain stunning colleagues, we pay employees at the top of their personal market.",
+        "score": 0.4989
+      },
+      {
+        "id": "3a8a35c4d2f1",
+        "year": 2023,
+        "text": "On our dream team we encourage collaboration, share information and discourage politics.",
+        "score": 0.4952
+      },
+      {
+        "id": "ba1522b8719d",
+        "year": 2023,
+        "text": "This democratizes our giving decisions, and incentivizes employees to support causes they’re passionate about.",
+        "score": 0.4902
+      },
+      {
+        "id": "902c4bc326a9",
+        "year": 2023,
+        "text": "But with our people-first approach, we can be more flexible, creative and successful in everything we do.",
+        "score": 0.489
+      },
+      {
+        "id": "62259a747f41",
+        "year": 2023,
+        "text": "We see outside interviewing as acceptable, and encourage employees to talk with their managers about what they learn in the process.",
+        "score": 0.474
+      },
+      {
+        "id": "3f1e1ff2fa9e",
+        "year": 2023,
+        "text": "Some examples of our unusual amounts of employee 1 freedom: We share documents internally broadly and systematically, so people can read and often comment on them—including memos on each title’s performance, our strategy decisions and product feature tests.",
+        "score": 0.4732
+      },
+      {
+        "id": "32fc1059b247",
+        "year": 2023,
+        "text": "We want to be a company of self-disciplined, accountable people who discover and fix issues without being told to do so.",
+        "score": 0.4657
       },
       {
         "id": "396b6f844a19",
@@ -5252,10 +6215,574 @@
         "score": 0.4635
       },
       {
+        "id": "9e1491c08119",
+        "year": 2023,
+        "text": "We believe Netflix is most effective and innovative when employees across the company make and own decisions.",
+        "score": 0.4565
+      },
+      {
+        "id": "514d7ac63f1a",
+        "year": 2023,
+        "text": "So we help people learn to give and receive feedback through coaching and modeling the behaviors we want to see across the company.",
+        "score": 0.4474
+      },
+      {
+        "id": "ceac7fb3eafd",
+        "year": 2023,
+        "text": "That said, we don’t believe in long-term allegiance to a stagnant company, or to an only-adequately-performing employee.",
+        "score": 0.4464
+      },
+      {
+        "id": "e69b08be4af0",
+        "year": 2023,
+        "text": "This document is about that culture, and how we can continuously improve as a team so that we can better serve our members.",
+        "score": 0.4437
+      },
+      {
+        "id": "2aea2336cfbb",
+        "year": 2023,
+        "text": "We have no tolerance for harassment of employees or trading on insider information, for example.",
+        "score": 0.4415
+      },
+      {
+        "id": "d9a20496ac35",
+        "year": 2023,
+        "text": "But it is an important part of getting stronger, as individuals and as a company, because it’s what fuels our dream team.",
+        "score": 0.4344
+      },
+      {
+        "id": "37fbb8332417",
+        "year": 2023,
+        "text": "We know this level of candor can be especially challenging for new hires, people in parts of the world or cultures where direct feedback is uncommon, and if there’s a power imbalance.",
+        "score": 0.4323
+      },
+      {
+        "id": "bc64ab0937c3",
+        "year": 2023,
+        "text": "It’s about investing in a dream team of talented people who are excited to pursue ambitious shared goals.",
+        "score": 0.4312
+      },
+      {
+        "id": "7042de637b98",
+        "year": 2023,
+        "text": "Our model works best for people who value excellence and the opportunities it provides.",
+        "score": 0.429
+      },
+      {
+        "id": "90d9dc7a9684",
+        "year": 2023,
+        "text": "It’s how we build an extraordinarily successful company entertaining the world.",
+        "score": 0.4285
+      },
+      {
+        "id": "c854cf85c135",
+        "year": 2023,
+        "text": "To avoid this, we work hard to maintain employee excellence and keep our business as simple as possible given our growth ambitions.",
+        "score": 0.426
+      },
+      {
+        "id": "3591368431cb",
+        "year": 2023,
+        "text": "We insist on decent human interactions, no matter how brilliant someone may be.",
+        "score": 0.4257
+      },
+      {
+        "id": "ae4b81d379e0",
+        "year": 2023,
+        "text": "In describing courage we say, “ You question colleagues' actions inconsistent with these behaviors. ” We all work to keep each other accountable for living up to these standards, especially our leaders.",
+        "score": 0.4202
+      },
+      {
+        "id": "cf69c918c9d7",
+        "year": 2023,
+        "text": "What makes Netflix special is how much we: Share information openly, broadly and deliberately Keep only our highly effective people The thing we most value is working with talented people in highly creative and productive ways.",
+        "score": 0.4168
+      },
+      {
+        "id": "09e97d727991",
+        "year": 2023,
+        "text": "You develop new ideas that prove impactful You look for every opportunity to reduce complexity and keep things simple You challenge prevailing assumptions, and suggest better approaches You are flexible and thrive in a constantly evolving organization",
+        "score": 0.4133
+      },
+      {
+        "id": "0b615fd0e963",
+        "year": 2023,
+        "text": "Instead of leadership picking particular causes, we do this through a two-to-one employee match.",
+        "score": 0.4118
+      },
+      {
+        "id": "b565e9b42557",
+        "year": 2023,
+        "text": "We also believe fewer management layers makes us more agile.",
+        "score": 0.4117
+      },
+      {
+        "id": "d95457dc1bfc",
+        "year": 2023,
+        "text": "Our version of a great workplace is not great perks, although we have many.",
+        "score": 0.4086
+      },
+      {
+        "id": "bfcce9a9a111",
+        "year": 2023,
+        "text": "This is why \" You make time to help colleagues across Netflix succeed \" is a valued behavior.",
+        "score": 0.4032
+      },
+      {
+        "id": "3bb9b17526da",
+        "year": 2023,
+        "text": "We want our teams to do what is best for Netflix.",
+        "score": 0.4018
+      },
+      {
+        "id": "8ac580dbe8e8",
+        "year": 2023,
+        "text": "While every title is different, we approach them based on the same set of principles: we support the artistic expression of the creators we choose to work with; we program for a diversity of audiences and tastes; and we let viewers decide what’s appropriate for them, versus having Netflix censor specific artists or voices.",
+        "score": 0.4006
+      },
+      {
+        "id": "3c93b8dfce50",
+        "year": 2023,
+        "text": "You exhibit and are known for candor and transparency You only say things about colleagues that you are willing to share with them You admit mistakes openly and share learnings widely You always share relevant information internally, even when uncomfortable You act with good intent and trust your colleagues to do the same",
+        "score": 0.4004
+      },
+      {
+        "id": "0b9a32bda7da",
+        "year": 2023,
+        "text": "We do not seek to preserve our culture—we seek to improve it.",
+        "score": 0.3989
+      },
+      {
+        "id": "98f8dea0e36d",
+        "year": 2023,
+        "text": "So we seek to stay fast and nimble, even as we grow.",
+        "score": 0.397
+      },
+      {
+        "id": "1ef7abfbce5e",
+        "year": 2023,
+        "text": "If these values describe you, and the people you want to work with, you’re likely to thrive at Netflix.",
+        "score": 0.3926
+      },
+      {
+        "id": "1d4ee309e81a",
+        "year": 2023,
+        "text": "Our leaders make sure they set good examples by taking vacations, often coming back with fresh ideas, and encouraging the rest of the team to do the same.",
+        "score": 0.3921
+      },
+      {
+        "id": "c0ab991db048",
+        "year": 2023,
+        "text": "That cultural excellence propels our business excellence, which increases member satisfaction and in turn propels our long term growth and stock price.",
+        "score": 0.3907
+      },
+      {
+        "id": "bb8a0baab7bf",
+        "year": 2023,
+        "text": "To strengthen our dream team, our managers use a “keeper test” for each of their people: if a team member was leaving for a similar role at another company, would the manager try to keep them?",
+        "score": 0.3891
+      },
+      {
+        "id": "ae231bc9e5f2",
+        "year": 2023,
+        "text": "You seek what is best for Netflix, not yourself or your team You are humble and open-minded about others’ great ideas You make time to help colleagues across Netflix succeed You debate ideas openly, and help implement whatever decision is made even when you disagree",
+        "score": 0.3848
+      },
+      {
+        "id": "8cf550b2cab0",
+        "year": 2023,
+        "text": "Our goal is to inspire people more than manage them.",
+        "score": 0.3827
+      },
+      {
+        "id": "9847ded5183e",
+        "year": 2023,
+        "text": "At Netflix, we aspire to entertain the world—creating great stories from anywhere and offering greater choice and control for people everywhere.",
+        "score": 0.3824
+      },
+      {
+        "id": "3318c8196c0d",
+        "year": 2023,
+        "text": "We pride ourselves on how few, not how many, decisions our senior managers make.",
+        "score": 0.3817
+      },
+      {
+        "id": "e2347c23eb54",
+        "year": 2023,
+        "text": "This, in turn, generates a sense of responsibility, accountability and self-discipline that drives us to do great work.",
+        "score": 0.3796
+      },
+      {
+        "id": "1c94e50dff6a",
+        "year": 2023,
+        "text": "For every significant decision, we identify an informed captain of the ship who is an expert in their area.",
+        "score": 0.3769
+      },
+      {
+        "id": "3e8ca935d11c",
+        "year": 2023,
+        "text": "Similarly, we want employees to stick with Netflix through any short term dips the company may have.",
+        "score": 0.3742
+      },
+      {
+        "id": "9d0c16516cab",
+        "year": 2023,
+        "text": "Dissent can be difficult, which is why we make an effort to stimulate discussion.",
+        "score": 0.3732
+      },
+      {
+        "id": "b15675c1bd96",
+        "year": 2023,
+        "text": "That said, we don’t believe in hands-off management.",
+        "score": 0.3727
+      },
+      {
+        "id": "0f46c6dbc57d",
+        "year": 2023,
+        "text": "We also encourage employees to check in with their manager at any time by asking, “How hard would you work to change my mind if I were thinking of leaving?”",
+        "score": 0.3725
+      },
+      {
+        "id": "abd9e8c7a4c5",
+        "year": 2023,
+        "text": "At Netflix, positive and constructive feedback is part of everyday life—not only an annual event.",
+        "score": 0.3724
+      },
+      {
+        "id": "cd79e8bdc67e",
+        "year": 2023,
+        "text": "We are strict about ethical and safety issues.",
+        "score": 0.3723
+      },
+      {
+        "id": "bd6d5f7cec7f",
+        "year": 2023,
+        "text": "You seek alternate perspectives to improve your ideas You see patterns and connections that other people miss You seek to understand members’ changing tastes and desires It’s easy to talk about valued behaviors; it’s harder to live them.",
+        "score": 0.3711
+      },
+      {
+        "id": "75d22e87da26",
+        "year": 2023,
+        "text": "We don’t wait for consensus or vote by committee, nor do we drive to rapid, uninformed decision making.",
+        "score": 0.3682
+      },
+      {
+        "id": "2120a5679ce2",
+        "year": 2023,
+        "text": "Both rely on trust and positive intent, which is why we invest time in developing strong professional relationships.",
+        "score": 0.366
+      },
+      {
+        "id": "78dcebde9dae",
+        "year": 2023,
+        "text": "On our dream team, there are no brilliant jerks as they are detrimental to great teamwork.",
+        "score": 0.3645
+      },
+      {
+        "id": "a07a0d1d756f",
+        "year": 2023,
+        "text": "Those who do not pass the keeper test (i.e. their manager would not fight to keep them) are given a generous severance package so we can find someone even better for that position—making an even better dream team.",
+        "score": 0.3602
+      },
+      {
+        "id": "55b19a39a54c",
+        "year": 2023,
+        "text": "Our \"context not control\" culture works best when leaders manage many direct reports, giving each employee sufficient autonomy to do the best work of their lives.",
+        "score": 0.3599
+      },
+      {
+        "id": "fc5c3a4728ba",
+        "year": 2023,
+        "text": "We spend lots of time debating and writing down strategy and context, and then trust each other to execute on tactics without prior approval.",
+        "score": 0.3559
+      },
+      {
+        "id": "6f434cf4e0c9",
+        "year": 2023,
+        "text": "So we are relatively error tolerant except where safety is an issue—and we focus on ensuring that any error prevention efforts don’t limit inventive, creative work.",
+        "score": 0.3546
+      },
+      {
+        "id": "a7905cf06c1f",
+        "year": 2023,
+        "text": "Below are the specific behaviors and skills we care about most.",
+        "score": 0.3539
+      },
+      {
+        "id": "eac84f23106c",
+        "year": 2023,
+        "text": "Beyond candor in our day-to-day interactions, we act honorably, even when no one is looking.",
+        "score": 0.3535
+      },
+      {
+        "id": "9297228c7025",
+        "year": 2023,
+        "text": "We work to foster players from the development leagues so they can become the stars of tomorrow.",
+        "score": 0.3527
+      },
+      {
+        "id": "6ccceb45412d",
+        "year": 2023,
+        "text": "And we discuss how we can do better in the future.",
+        "score": 0.3522
+      },
+      {
+        "id": "66641aa144c1",
+        "year": 2023,
+        "text": "We have many successes and failures, which is how we learn and why everyone is evaluated on their whole record (versus simply mistakes or bets that didn’t pay off).",
+        "score": 0.3516
+      },
+      {
+        "id": "aa23f5ca26fe",
+        "year": 2023,
+        "text": "Frankly, we mix work and personal time quite a bit, doing email at odd hours or taking off a weekday afternoon.",
+        "score": 0.3491
+      },
+      {
+        "id": "f457f8bb68bc",
+        "year": 2023,
+        "text": "Just because a few people abuse their freedom doesn’t mean the rest of our employees aren’t worthy of great trust.",
+        "score": 0.348
+      },
+      {
+        "id": "9b39630138ba",
+        "year": 2023,
+        "text": "You make tough decisions without agonizing or long delay You take informed risks and are open to possible failure You question colleagues’ actions inconsistent with these behaviors You are willing to be vulnerable, in search of truth and connection You give and take feedback to and from colleagues at any level",
+        "score": 0.3474
+      },
+      {
+        "id": "2501067372c3",
+        "year": 2023,
+        "text": "We are in a creative business and our biggest threat over time is a lack of innovation.",
+        "score": 0.3469
+      },
+      {
+        "id": "b76d5146fddd",
+        "year": 2023,
+        "text": "You care deeply about Netflix‘s success You inspire others with your drive for excellence You are excited about your work You are proud to entertain the world",
+        "score": 0.3454
+      },
+      {
+        "id": "d2dd0b987212",
+        "year": 2023,
+        "text": "Sometimes we have smaller teams due to specialization or sub-scale environments, but those should be exceptions and not the norm.",
+        "score": 0.342
+      },
+      {
+        "id": "b653bd0dff4e",
+        "year": 2023,
+        "text": "We model ourselves on being a professional sports team, not a family.",
+        "score": 0.3416
+      },
+      {
+        "id": "ed1322e41f5e",
+        "year": 2023,
+        "text": "Instead, teach them to yearn for the vast and endless sea. 1 Mostly for our salaried employees; there are limitations on this for our hourly employees due to legal requirements.",
+        "score": 0.3389
+      },
+      {
+        "id": "61b61f8b0719",
+        "year": 2023,
+        "text": "This is a good-faith estimate of the highest compensation each employee could make at a similar role in local peer companies, combined with what we would pay to replace them if needed.",
+        "score": 0.3387
+      },
+      {
+        "id": "4d490e48f419",
+        "year": 2023,
+        "text": "We expect all employees to protect confidential company information, whether or not it is marked “confidential”.",
+        "score": 0.3378
+      },
+      {
+        "id": "130460b719b2",
+        "year": 2023,
+        "text": "Once the informed captain makes a decision, we expect everyone—including those who disagreed—to commit and help make the outcome as successful as possible.",
+        "score": 0.3372
+      },
+      {
+        "id": "9ca8752d94eb",
+        "year": 2023,
+        "text": "Being on a dream team is the thrill of a professional lifetime, and team members are incredibly supportive of each other.",
+        "score": 0.3358
+      },
+      {
+        "id": "3e9bf1ebdb79",
+        "year": 2023,
+        "text": "One process we do well is purposeful, scheduled meetings.",
+        "score": 0.3347
+      },
+      {
+        "id": "9ade7c2fb66e",
+        "year": 2023,
+        "text": "We avoid decisions by committee, which would slow us down and diffuse responsibility.",
+        "score": 0.3289
+      },
+      {
+        "id": "af0a257fc130",
+        "year": 2023,
+        "text": "We use these meetings to learn from each other and get more done, rather than prevent mistakes or approve tactical decisions.",
+        "score": 0.3283
+      },
+      {
+        "id": "2f05cdad3433",
+        "year": 2023,
+        "text": "But we don’t measure someone’s contribution by the hours they work.",
+        "score": 0.3274
+      },
+      {
+        "id": "636e242330aa",
+        "year": 2023,
+        "text": "You make wise decisions despite ambiguity You use data to inform your intuition and choices You look beyond symptoms to identify systemic issues You spend our members’ money wisely You make decisions mostly based on their long term, rather than near term, impact",
+        "score": 0.3257
+      },
+      {
+        "id": "f9fc99f8e396",
+        "year": 2023,
+        "text": "If an employee disagrees on an important open issue, it is their responsibility to explain why, ideally in person and in writing.",
+        "score": 0.3248
+      },
+      {
+        "id": "5bab22ebf89f",
+        "year": 2023,
+        "text": "The success of a highly aligned, loosely coupled work environment depends on talented individuals working well together, and setting effective context.",
+        "score": 0.3233
+      },
+      {
+        "id": "2b601221b216",
+        "year": 2023,
+        "text": "Dream team members take informed risks, which require courage and encouragement from leaders and peers.",
+        "score": 0.3219
+      },
+      {
+        "id": "5993e8ce2173",
+        "year": 2023,
+        "text": "You learn a lot at Netflix working on hard problems with stunning colleagues, and that increases your market value.",
+        "score": 0.3207
+      },
+      {
+        "id": "8569c1202d2d",
+        "year": 2023,
+        "text": "When highly capable people work together well, they inspire each other to be more creative, more productive and ultimately more successful as a team than they could be individually.",
+        "score": 0.3198
+      },
+      {
+        "id": "d598abd4b04d",
+        "year": 2023,
+        "text": "As we wrote in the beginning, what is special about Netflix is how much we: Share information openly, broadly, and deliberately Keep only our highly effective people Finally, Antoine de Saint-Exupéry, the author of The Little Prince , shows us the way: If you want to build a ship, don't drum up the people to gather wood, divide the work, and give orders.",
+        "score": 0.3169
+      },
+      {
+        "id": "fa58cbaa37d9",
+        "year": 2023,
+        "text": "Ultimately, the end goal is to grow the business for a bigger impact while increasing flexibility and agility.",
+        "score": 0.3153
+      },
+      {
+        "id": "bd64c3070d55",
+        "year": 2023,
+        "text": "Dream teams are about performance, not seniority or tenure.",
+        "score": 0.3139
+      },
+      {
+        "id": "0890d7a0bd7d",
+        "year": 2023,
+        "text": "Our parental leave policy is: “Take care of your baby and yourself.” Parents generally follow local norms.",
+        "score": 0.3126
+      },
+      {
+        "id": "97cc178f157a",
+        "year": 2023,
+        "text": "Employees with a strong track record at Netflix get leeway if their performance takes a temporary dip, or if they are in a new role.",
+        "score": 0.3125
+      },
+      {
+        "id": "9e348020265e",
+        "year": 2023,
+        "text": "Some people prefer job security, and choose to work at companies that are more focused on stability and seniority, and less rigorous about performance management.",
+        "score": 0.3116
+      },
+      {
+        "id": "f83de2eb67d0",
+        "year": 2023,
+        "text": "We plan an agenda ahead of time, including thinking through what needs synchronous discussion versus what can be done offline.",
+        "score": 0.3113
+      },
+      {
+        "id": "2c2585becea2",
+        "year": 2023,
+        "text": "Our policy for travel, entertainment, gifts and other expenses is five words long: “Act in Netflix’s best interest.”",
+        "score": 0.309
+      },
+      {
+        "id": "32fa1e702e47",
+        "year": 2023,
+        "text": "Our vacation policy is: “Take vacation.” We don’t have any rules about how many weeks per year.",
+        "score": 0.3073
+      },
+      {
+        "id": "9e984a302354",
+        "year": 2023,
+        "text": "It’s exhilarating and how we learn the most, do our best work, improve the fastest and have the most fun.",
+        "score": 0.3041
+      },
+      {
+        "id": "9112f06ccb23",
+        "year": 2023,
+        "text": "Some employees’ estimated personal market will rise rapidly, either due to their performance or a shortage of talent in that area.",
+        "score": 0.303
+      },
+      {
+        "id": "1cd3fc63f998",
+        "year": 2023,
+        "text": "It also makes it easier to share views openly and widely.",
+        "score": 0.3028
+      },
+      {
+        "id": "8fc381cd4130",
+        "year": 2024,
+        "text": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity.",
+        "score": 0.6322
+      },
+      {
+        "id": "1465d9915fb4",
+        "year": 2024,
+        "text": "We have evolved our employee and leadership diversity to be some of the best in our industry, and we’ll continue to improve so that everyone feels a sense of belonging at Netflix.",
+        "score": 0.6303
+      },
+      {
+        "id": "4c0a407e8ba6",
+        "year": 2024,
+        "text": "Just like our members, our employees have unique perspectives based on their backgrounds and experience.",
+        "score": 0.6267
+      },
+      {
+        "id": "256e721dcb2b",
+        "year": 2024,
+        "text": "As we grow, we are working to make our employees, suppliers, off and on-screen talent better reflect our membership so that we can better entertain the world.",
+        "score": 0.6148
+      },
+      {
         "id": "6b3df70ce510",
         "year": 2024,
         "text": "Inclusion — you recognize your biases and work to counteract them; you work to ensure everyone at Netflix can do their best work, whatever their culture, identity or background.",
         "score": 0.6139
+      },
+      {
+        "id": "b92921ac91f4",
+        "year": 2024,
+        "text": "We try hard to be a company where everyone feels a sense of responsibility to make us better.",
+        "score": 0.6102
+      },
+      {
+        "id": "b2e3766157c8",
+        "year": 2024,
+        "text": "You work well with people of different backgrounds, identities, values and cultures You are excited to help build diverse teams where everyone feels welcomed and respected You recognize we all have biases and work to counteract them You take action if someone is marginalizing a colleague You treat everyone with respect regardless of their position at Netflix",
+        "score": 0.6101
+      },
+      {
+        "id": "bac288dc96ec",
+        "year": 2024,
+        "text": "We believe a company’s actual values are shown by whom they hire, reward or let go.",
+        "score": 0.5676
       },
       {
         "id": "cfd0d3384ec5",
@@ -5264,10 +6791,28 @@
         "score": 0.561
       },
       {
+        "id": "951552509e73",
+        "year": 2024,
+        "text": "Every new employee helps to shape and evolve the culture so we find new ways to accomplish more together.",
+        "score": 0.5522
+      },
+      {
         "id": "b3d1772316a2",
         "year": 2024,
         "text": "To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher.",
         "score": 0.5512
+      },
+      {
+        "id": "17ac162df617",
+        "year": 2024,
+        "text": "We strive to develop good decision-making muscles across our company.",
+        "score": 0.5432
+      },
+      {
+        "id": "f53d71ece590",
+        "year": 2024,
+        "text": "To do that, we’ve developed an unusual company culture focused on excellence, creating an environment where our talented people can thrive.",
+        "score": 0.5425
       },
       {
         "id": "27da4a903618",
@@ -5280,6 +6825,24 @@
         "year": 2024,
         "text": "As employees, we support these principles, even if some stories run counter to our personal values.",
         "score": 0.5382
+      },
+      {
+        "id": "0c1e1a2aa861",
+        "year": 2024,
+        "text": "As employees we support the principle that Netflix offers a diversity of stories, even if we find some titles counter to our own personal values.",
+        "score": 0.5221
+      },
+      {
+        "id": "c895497eaaad",
+        "year": 2024,
+        "text": "To help us succeed, we’ve created an unusual employee culture.",
+        "score": 0.5209
+      },
+      {
+        "id": "bf85f6ec40d8",
+        "year": 2024,
+        "text": "We are learning faster than ever, because we have more dedicated people with more diverse perspectives working to excel as the dream team.",
+        "score": 0.5181
       },
       {
         "id": "e365a13f1746",
@@ -5300,16 +6863,46 @@
         "score": 0.5069
       },
       {
+        "id": "e805308e9741",
+        "year": 2024,
+        "text": "That’s why our core philosophy is people over process , and why we try to bring great people together as a dream team .",
+        "score": 0.5048
+      },
+      {
         "id": "7383a4ac97ec",
         "year": 2024,
         "text": "It’s why we care so much about the Dream Team, putting people over process and creating an environment where everyone feels a sense of responsibility to make us better.",
         "score": 0.5013
       },
       {
+        "id": "4ef26f50a9aa",
+        "year": 2024,
+        "text": "To help us attract and retain stunning colleagues, we pay employees at the top of their personal market.",
+        "score": 0.4989
+      },
+      {
+        "id": "3a8a35c4d2f1",
+        "year": 2024,
+        "text": "On our dream team we encourage collaboration, share information and discourage politics.",
+        "score": 0.4952
+      },
+      {
+        "id": "ba1522b8719d",
+        "year": 2024,
+        "text": "This democratizes our giving decisions, and incentivizes employees to support causes they’re passionate about.",
+        "score": 0.4902
+      },
+      {
         "id": "b7caaba29603",
         "year": 2024,
         "text": "We believe that what makes a fantastic workplace isn’t a great office or free meals and massages — although we have some nice perks.",
         "score": 0.4898
+      },
+      {
+        "id": "902c4bc326a9",
+        "year": 2024,
+        "text": "But with our people-first approach, we can be more flexible, creative and successful in everything we do.",
+        "score": 0.489
       },
       {
         "id": "775a7122dac9",
@@ -5330,10 +6923,28 @@
         "score": 0.4752
       },
       {
+        "id": "62259a747f41",
+        "year": 2024,
+        "text": "We see outside interviewing as acceptable, and encourage employees to talk with their managers about what they learn in the process.",
+        "score": 0.474
+      },
+      {
         "id": "e5db6f21f2f5",
         "year": 2024,
         "text": "When you have talented people who work well together — trusting each other’s intentions and respecting their differences — it makes everyone more successful.",
         "score": 0.4736
+      },
+      {
+        "id": "3f1e1ff2fa9e",
+        "year": 2024,
+        "text": "Some examples of our unusual amounts of employee 1 freedom: We share documents internally broadly and systematically, so people can read and often comment on them—including memos on each title’s performance, our strategy decisions and product feature tests.",
+        "score": 0.4732
+      },
+      {
+        "id": "32fc1059b247",
+        "year": 2024,
+        "text": "We want to be a company of self-disciplined, accountable people who discover and fix issues without being told to do so.",
+        "score": 0.4657
       },
       {
         "id": "396b6f844a19",
@@ -5366,6 +6977,12 @@
         "score": 0.4585
       },
       {
+        "id": "9e1491c08119",
+        "year": 2024,
+        "text": "We believe Netflix is most effective and innovative when employees across the company make and own decisions.",
+        "score": 0.4565
+      },
+      {
         "id": "69b868ec2e4e",
         "year": 2024,
         "text": "It’s why we invest in strong professional relationships that build trust and help people assume good intent.",
@@ -5390,6 +7007,18 @@
         "score": 0.4502
       },
       {
+        "id": "514d7ac63f1a",
+        "year": 2024,
+        "text": "So we help people learn to give and receive feedback through coaching and modeling the behaviors we want to see across the company.",
+        "score": 0.4474
+      },
+      {
+        "id": "ceac7fb3eafd",
+        "year": 2024,
+        "text": "That said, we don’t believe in long-term allegiance to a stagnant company, or to an only-adequately-performing employee.",
+        "score": 0.4464
+      },
+      {
         "id": "9fac8bef031c",
         "year": 2024,
         "text": "What won’t change is our focus on excellence, and our determination to ensure that Netflix remains a place where great people can do the best work of their lives.",
@@ -5402,10 +7031,40 @@
         "score": 0.4452
       },
       {
+        "id": "e69b08be4af0",
+        "year": 2024,
+        "text": "This document is about that culture, and how we can continuously improve as a team so that we can better serve our members.",
+        "score": 0.4437
+      },
+      {
+        "id": "2aea2336cfbb",
+        "year": 2024,
+        "text": "We have no tolerance for harassment of employees or trading on insider information, for example.",
+        "score": 0.4415
+      },
+      {
         "id": "852052588625",
         "year": 2024,
         "text": "It’s also why we constantly seek to improve our culture, not preserve it.",
         "score": 0.4408
+      },
+      {
+        "id": "d9a20496ac35",
+        "year": 2024,
+        "text": "But it is an important part of getting stronger, as individuals and as a company, because it’s what fuels our dream team.",
+        "score": 0.4344
+      },
+      {
+        "id": "37fbb8332417",
+        "year": 2024,
+        "text": "We know this level of candor can be especially challenging for new hires, people in parts of the world or cultures where direct feedback is uncommon, and if there’s a power imbalance.",
+        "score": 0.4323
+      },
+      {
+        "id": "bc64ab0937c3",
+        "year": 2024,
+        "text": "It’s about investing in a dream team of talented people who are excited to pursue ambitious shared goals.",
+        "score": 0.4312
       },
       {
         "id": "6c169c0f9e9c",
@@ -5414,10 +7073,34 @@
         "score": 0.4301
       },
       {
+        "id": "7042de637b98",
+        "year": 2024,
+        "text": "Our model works best for people who value excellence and the opportunities it provides.",
+        "score": 0.429
+      },
+      {
+        "id": "90d9dc7a9684",
+        "year": 2024,
+        "text": "It’s how we build an extraordinarily successful company entertaining the world.",
+        "score": 0.4285
+      },
+      {
         "id": "1a59fc5d1852",
         "year": 2024,
         "text": "We believe this approach is the surest path to excellence and long term success.",
         "score": 0.4279
+      },
+      {
+        "id": "c854cf85c135",
+        "year": 2024,
+        "text": "To avoid this, we work hard to maintain employee excellence and keep our business as simple as possible given our growth ambitions.",
+        "score": 0.426
+      },
+      {
+        "id": "3591368431cb",
+        "year": 2024,
+        "text": "We insist on decent human interactions, no matter how brilliant someone may be.",
+        "score": 0.4257
       },
       {
         "id": "871e772cf808",
@@ -5444,6 +7127,12 @@
         "score": 0.4203
       },
       {
+        "id": "ae4b81d379e0",
+        "year": 2024,
+        "text": "In describing courage we say, “ You question colleagues' actions inconsistent with these behaviors. ” We all work to keep each other accountable for living up to these standards, especially our leaders.",
+        "score": 0.4202
+      },
+      {
         "id": "a8b06c2459a2",
         "year": 2024,
         "text": "This, in turn, enables us to practice extraordinary candor — ensuring constructive feedback is part of our everyday work (like brushing your teeth).",
@@ -5456,10 +7145,22 @@
         "score": 0.4186
       },
       {
+        "id": "cf69c918c9d7",
+        "year": 2024,
+        "text": "What makes Netflix special is how much we: Share information openly, broadly and deliberately Keep only our highly effective people The thing we most value is working with talented people in highly creative and productive ways.",
+        "score": 0.4168
+      },
+      {
         "id": "c743b180a2e1",
         "year": 2024,
         "text": "And companies need strict rules against things like harassment, marginalizing colleagues, leaking company information, or insider trading.",
         "score": 0.4167
+      },
+      {
+        "id": "09e97d727991",
+        "year": 2024,
+        "text": "You develop new ideas that prove impactful You look for every opportunity to reduce complexity and keep things simple You challenge prevailing assumptions, and suggest better approaches You are flexible and thrive in a constantly evolving organization",
+        "score": 0.4133
       },
       {
         "id": "96c2f9e55840",
@@ -5468,10 +7169,28 @@
         "score": 0.413
       },
       {
+        "id": "0b615fd0e963",
+        "year": 2024,
+        "text": "Instead of leadership picking particular causes, we do this through a two-to-one employee match.",
+        "score": 0.4118
+      },
+      {
+        "id": "b565e9b42557",
+        "year": 2024,
+        "text": "We also believe fewer management layers makes us more agile.",
+        "score": 0.4117
+      },
+      {
         "id": "57deffd2ab25",
         "year": 2024,
         "text": "These are the values we value: Selflessness — you are humble when searching for the best ideas; you seek what’s best for Netflix, not yourself or your team; you take time to help others succeed.",
         "score": 0.4098
+      },
+      {
+        "id": "d95457dc1bfc",
+        "year": 2024,
+        "text": "Our version of a great workplace is not great perks, although we have many.",
+        "score": 0.4086
       },
       {
         "id": "b5c9e249cbaa",
@@ -5486,16 +7205,52 @@
         "score": 0.4043
       },
       {
+        "id": "bfcce9a9a111",
+        "year": 2024,
+        "text": "This is why \" You make time to help colleagues across Netflix succeed \" is a valued behavior.",
+        "score": 0.4032
+      },
+      {
         "id": "16ab09ad6a67",
         "year": 2024,
         "text": "But we work hard to keep rules at Netflix to a minimum and ensure any process is good (simple, efficient, impactful).",
         "score": 0.4025
       },
       {
+        "id": "3bb9b17526da",
+        "year": 2024,
+        "text": "We want our teams to do what is best for Netflix.",
+        "score": 0.4018
+      },
+      {
+        "id": "8ac580dbe8e8",
+        "year": 2024,
+        "text": "While every title is different, we approach them based on the same set of principles: we support the artistic expression of the creators we choose to work with; we program for a diversity of audiences and tastes; and we let viewers decide what’s appropriate for them, versus having Netflix censor specific artists or voices.",
+        "score": 0.4006
+      },
+      {
+        "id": "3c93b8dfce50",
+        "year": 2024,
+        "text": "You exhibit and are known for candor and transparency You only say things about colleagues that you are willing to share with them You admit mistakes openly and share learnings widely You always share relevant information internally, even when uncomfortable You act with good intent and trust your colleagues to do the same",
+        "score": 0.4004
+      },
+      {
         "id": "4b8c1f4763ec",
         "year": 2024,
         "text": "We avoid decision-making by committee, which tends to slow companies down and undermine accountability.",
         "score": 0.3998
+      },
+      {
+        "id": "0b9a32bda7da",
+        "year": 2024,
+        "text": "We do not seek to preserve our culture—we seek to improve it.",
+        "score": 0.3989
+      },
+      {
+        "id": "98f8dea0e36d",
+        "year": 2024,
+        "text": "So we seek to stay fast and nimble, even as we grow.",
+        "score": 0.397
       },
       {
         "id": "c0e883249d9b",
@@ -5522,10 +7277,46 @@
         "score": 0.3928
       },
       {
+        "id": "1ef7abfbce5e",
+        "year": 2024,
+        "text": "If these values describe you, and the people you want to work with, you’re likely to thrive at Netflix.",
+        "score": 0.3926
+      },
+      {
+        "id": "1d4ee309e81a",
+        "year": 2024,
+        "text": "Our leaders make sure they set good examples by taking vacations, often coming back with fresh ideas, and encouraging the rest of the team to do the same.",
+        "score": 0.3921
+      },
+      {
+        "id": "c0ab991db048",
+        "year": 2024,
+        "text": "That cultural excellence propels our business excellence, which increases member satisfaction and in turn propels our long term growth and stock price.",
+        "score": 0.3907
+      },
+      {
+        "id": "bb8a0baab7bf",
+        "year": 2024,
+        "text": "To strengthen our dream team, our managers use a “keeper test” for each of their people: if a team member was leaving for a similar role at another company, would the manager try to keep them?",
+        "score": 0.3891
+      },
+      {
         "id": "6270f38a1c2b",
         "year": 2024,
         "text": "Creativity — you welcome new ideas; you are passionate and persistent in pursuit of more innovative solutions; you value artistic expression.",
         "score": 0.3865
+      },
+      {
+        "id": "ae231bc9e5f2",
+        "year": 2024,
+        "text": "You seek what is best for Netflix, not yourself or your team You are humble and open-minded about others’ great ideas You make time to help colleagues across Netflix succeed You debate ideas openly, and help implement whatever decision is made even when you disagree",
+        "score": 0.3848
+      },
+      {
+        "id": "8cf550b2cab0",
+        "year": 2024,
+        "text": "Our goal is to inspire people more than manage them.",
+        "score": 0.3827
       },
       {
         "id": "92478b9f3b2a",
@@ -5534,10 +7325,34 @@
         "score": 0.3825
       },
       {
+        "id": "9847ded5183e",
+        "year": 2024,
+        "text": "At Netflix, we aspire to entertain the world—creating great stories from anywhere and offering greater choice and control for people everywhere.",
+        "score": 0.3824
+      },
+      {
+        "id": "3318c8196c0d",
+        "year": 2024,
+        "text": "We pride ourselves on how few, not how many, decisions our senior managers make.",
+        "score": 0.3817
+      },
+      {
+        "id": "e2347c23eb54",
+        "year": 2024,
+        "text": "This, in turn, generates a sense of responsibility, accountability and self-discipline that drives us to do great work.",
+        "score": 0.3796
+      },
+      {
         "id": "4ee176f2c7c2",
         "year": 2024,
         "text": "Candor — you willingly receive and give feedback; you are open about what’s working and what needs to improve; you admit mistakes openly and share learnings widely.",
         "score": 0.3795
+      },
+      {
+        "id": "1c94e50dff6a",
+        "year": 2024,
+        "text": "For every significant decision, we identify an informed captain of the ship who is an expert in their area.",
+        "score": 0.3769
       },
       {
         "id": "690cea825dfb",
@@ -5552,10 +7367,46 @@
         "score": 0.3748
       },
       {
+        "id": "3e8ca935d11c",
+        "year": 2024,
+        "text": "Similarly, we want employees to stick with Netflix through any short term dips the company may have.",
+        "score": 0.3742
+      },
+      {
+        "id": "9d0c16516cab",
+        "year": 2024,
+        "text": "Dissent can be difficult, which is why we make an effort to stimulate discussion.",
+        "score": 0.3732
+      },
+      {
         "id": "cf743d6fd6d3",
         "year": 2024,
         "text": "And we understand that, depending on our roles, we may need to work on TV shows, films or games we perceive to be harmful.",
         "score": 0.3731
+      },
+      {
+        "id": "b15675c1bd96",
+        "year": 2024,
+        "text": "That said, we don’t believe in hands-off management.",
+        "score": 0.3727
+      },
+      {
+        "id": "0f46c6dbc57d",
+        "year": 2024,
+        "text": "We also encourage employees to check in with their manager at any time by asking, “How hard would you work to change my mind if I were thinking of leaving?”",
+        "score": 0.3725
+      },
+      {
+        "id": "abd9e8c7a4c5",
+        "year": 2024,
+        "text": "At Netflix, positive and constructive feedback is part of everyday life—not only an annual event.",
+        "score": 0.3724
+      },
+      {
+        "id": "cd79e8bdc67e",
+        "year": 2024,
+        "text": "We are strict about ethical and safety issues.",
+        "score": 0.3723
       },
       {
         "id": "a452dc0c5b90",
@@ -5564,10 +7415,34 @@
         "score": 0.3716
       },
       {
+        "id": "bd6d5f7cec7f",
+        "year": 2024,
+        "text": "You seek alternate perspectives to improve your ideas You see patterns and connections that other people miss You seek to understand members’ changing tastes and desires It’s easy to talk about valued behaviors; it’s harder to live them.",
+        "score": 0.3711
+      },
+      {
+        "id": "75d22e87da26",
+        "year": 2024,
+        "text": "We don’t wait for consensus or vote by committee, nor do we drive to rapid, uninformed decision making.",
+        "score": 0.3682
+      },
+      {
         "id": "00279d330952",
         "year": 2024,
         "text": "While every show, film or game is different, we approach them with the same set of principles: we support the artistic expression of the creators we choose to work with; we program for a wide variety of audiences, cultures and tastes; and we provide ratings, content advisories and parental controls in multiple languages to help members choose what to watch or play.",
         "score": 0.3678
+      },
+      {
+        "id": "2120a5679ce2",
+        "year": 2024,
+        "text": "Both rely on trust and positive intent, which is why we invest time in developing strong professional relationships.",
+        "score": 0.366
+      },
+      {
+        "id": "78dcebde9dae",
+        "year": 2024,
+        "text": "On our dream team, there are no brilliant jerks as they are detrimental to great teamwork.",
+        "score": 0.3645
       },
       {
         "id": "0887b810723e",
@@ -5582,10 +7457,124 @@
         "score": 0.3608
       },
       {
+        "id": "a07a0d1d756f",
+        "year": 2024,
+        "text": "Those who do not pass the keeper test (i.e. their manager would not fight to keep them) are given a generous severance package so we can find someone even better for that position—making an even better dream team.",
+        "score": 0.3602
+      },
+      {
+        "id": "55b19a39a54c",
+        "year": 2024,
+        "text": "Our \"context not control\" culture works best when leaders manage many direct reports, giving each employee sufficient autonomy to do the best work of their lives.",
+        "score": 0.3599
+      },
+      {
+        "id": "fc5c3a4728ba",
+        "year": 2024,
+        "text": "We spend lots of time debating and writing down strategy and context, and then trust each other to execute on tactics without prior approval.",
+        "score": 0.3559
+      },
+      {
         "id": "3b4ef46a2304",
         "year": 2024,
         "text": "This diversity is wonderful and it can create real tension since we all have such different views about what’s acceptable — and what’s harmful — on TV.",
         "score": 0.3557
+      },
+      {
+        "id": "6f434cf4e0c9",
+        "year": 2024,
+        "text": "So we are relatively error tolerant except where safety is an issue—and we focus on ensuring that any error prevention efforts don’t limit inventive, creative work.",
+        "score": 0.3546
+      },
+      {
+        "id": "a7905cf06c1f",
+        "year": 2024,
+        "text": "Below are the specific behaviors and skills we care about most.",
+        "score": 0.3539
+      },
+      {
+        "id": "eac84f23106c",
+        "year": 2024,
+        "text": "Beyond candor in our day-to-day interactions, we act honorably, even when no one is looking.",
+        "score": 0.3535
+      },
+      {
+        "id": "9297228c7025",
+        "year": 2024,
+        "text": "We work to foster players from the development leagues so they can become the stars of tomorrow.",
+        "score": 0.3527
+      },
+      {
+        "id": "6ccceb45412d",
+        "year": 2024,
+        "text": "And we discuss how we can do better in the future.",
+        "score": 0.3522
+      },
+      {
+        "id": "66641aa144c1",
+        "year": 2024,
+        "text": "We have many successes and failures, which is how we learn and why everyone is evaluated on their whole record (versus simply mistakes or bets that didn’t pay off).",
+        "score": 0.3516
+      },
+      {
+        "id": "aa23f5ca26fe",
+        "year": 2024,
+        "text": "Frankly, we mix work and personal time quite a bit, doing email at odd hours or taking off a weekday afternoon.",
+        "score": 0.3491
+      },
+      {
+        "id": "f457f8bb68bc",
+        "year": 2024,
+        "text": "Just because a few people abuse their freedom doesn’t mean the rest of our employees aren’t worthy of great trust.",
+        "score": 0.348
+      },
+      {
+        "id": "9b39630138ba",
+        "year": 2024,
+        "text": "You make tough decisions without agonizing or long delay You take informed risks and are open to possible failure You question colleagues’ actions inconsistent with these behaviors You are willing to be vulnerable, in search of truth and connection You give and take feedback to and from colleagues at any level",
+        "score": 0.3474
+      },
+      {
+        "id": "2501067372c3",
+        "year": 2024,
+        "text": "We are in a creative business and our biggest threat over time is a lack of innovation.",
+        "score": 0.3469
+      },
+      {
+        "id": "b76d5146fddd",
+        "year": 2024,
+        "text": "You care deeply about Netflix‘s success You inspire others with your drive for excellence You are excited about your work You are proud to entertain the world",
+        "score": 0.3454
+      },
+      {
+        "id": "d2dd0b987212",
+        "year": 2024,
+        "text": "Sometimes we have smaller teams due to specialization or sub-scale environments, but those should be exceptions and not the norm.",
+        "score": 0.342
+      },
+      {
+        "id": "b653bd0dff4e",
+        "year": 2024,
+        "text": "We model ourselves on being a professional sports team, not a family.",
+        "score": 0.3416
+      },
+      {
+        "id": "ed1322e41f5e",
+        "year": 2024,
+        "text": "Instead, teach them to yearn for the vast and endless sea. 1 Mostly for our salaried employees; there are limitations on this for our hourly employees due to legal requirements.",
+        "score": 0.3389
+      },
+      {
+        "id": "61b61f8b0719",
+        "year": 2024,
+        "text": "This is a good-faith estimate of the highest compensation each employee could make at a similar role in local peer companies, combined with what we would pay to replace them if needed.",
+        "score": 0.3387
+      },
+      {
+        "id": "4d490e48f419",
+        "year": 2024,
+        "text": "We expect all employees to protect confidential company information, whether or not it is marked “confidential”.",
+        "score": 0.3378
       },
       {
         "id": "baa6842aca56",
@@ -5594,10 +7583,46 @@
         "score": 0.3376
       },
       {
+        "id": "130460b719b2",
+        "year": 2024,
+        "text": "Once the informed captain makes a decision, we expect everyone—including those who disagreed—to commit and help make the outcome as successful as possible.",
+        "score": 0.3372
+      },
+      {
+        "id": "9ca8752d94eb",
+        "year": 2024,
+        "text": "Being on a dream team is the thrill of a professional lifetime, and team members are incredibly supportive of each other.",
+        "score": 0.3358
+      },
+      {
+        "id": "3e9bf1ebdb79",
+        "year": 2024,
+        "text": "One process we do well is purposeful, scheduled meetings.",
+        "score": 0.3347
+      },
+      {
         "id": "882cdeb09cd5",
         "year": 2024,
         "text": "It takes courage and vulnerability to ask someone how you could do better, or to seek alternative opinions, and integrity only to say things about a colleague you’re willing to share with them directly.",
         "score": 0.33
+      },
+      {
+        "id": "9ade7c2fb66e",
+        "year": 2024,
+        "text": "We avoid decisions by committee, which would slow us down and diffuse responsibility.",
+        "score": 0.3289
+      },
+      {
+        "id": "af0a257fc130",
+        "year": 2024,
+        "text": "We use these meetings to learn from each other and get more done, rather than prevent mistakes or approve tactical decisions.",
+        "score": 0.3283
+      },
+      {
+        "id": "2f05cdad3433",
+        "year": 2024,
+        "text": "But we don’t measure someone’s contribution by the hours they work.",
+        "score": 0.3274
       },
       {
         "id": "1e3457ad4344",
@@ -5606,10 +7631,46 @@
         "score": 0.3271
       },
       {
+        "id": "636e242330aa",
+        "year": 2024,
+        "text": "You make wise decisions despite ambiguity You use data to inform your intuition and choices You look beyond symptoms to identify systemic issues You spend our members’ money wisely You make decisions mostly based on their long term, rather than near term, impact",
+        "score": 0.3257
+      },
+      {
+        "id": "f9fc99f8e396",
+        "year": 2024,
+        "text": "If an employee disagrees on an important open issue, it is their responsibility to explain why, ideally in person and in writing.",
+        "score": 0.3248
+      },
+      {
+        "id": "5bab22ebf89f",
+        "year": 2024,
+        "text": "The success of a highly aligned, loosely coupled work environment depends on talented individuals working well together, and setting effective context.",
+        "score": 0.3233
+      },
+      {
         "id": "afd9ea60ef74",
         "year": 2024,
         "text": "It’s why we model ourselves on a professional sports team, not a family.",
         "score": 0.322
+      },
+      {
+        "id": "2b601221b216",
+        "year": 2024,
+        "text": "Dream team members take informed risks, which require courage and encouragement from leaders and peers.",
+        "score": 0.3219
+      },
+      {
+        "id": "5993e8ce2173",
+        "year": 2024,
+        "text": "You learn a lot at Netflix working on hard problems with stunning colleagues, and that increases your market value.",
+        "score": 0.3207
+      },
+      {
+        "id": "8569c1202d2d",
+        "year": 2024,
+        "text": "When highly capable people work together well, they inspire each other to be more creative, more productive and ultimately more successful as a team than they could be individually.",
+        "score": 0.3198
       },
       {
         "id": "22cfa1c84899",
@@ -5618,10 +7679,64 @@
         "score": 0.3192
       },
       {
+        "id": "d598abd4b04d",
+        "year": 2024,
+        "text": "As we wrote in the beginning, what is special about Netflix is how much we: Share information openly, broadly, and deliberately Keep only our highly effective people Finally, Antoine de Saint-Exupéry, the author of The Little Prince , shows us the way: If you want to build a ship, don't drum up the people to gather wood, divide the work, and give orders.",
+        "score": 0.3169
+      },
+      {
+        "id": "fa58cbaa37d9",
+        "year": 2024,
+        "text": "Ultimately, the end goal is to grow the business for a bigger impact while increasing flexibility and agility.",
+        "score": 0.3153
+      },
+      {
+        "id": "bd64c3070d55",
+        "year": 2024,
+        "text": "Dream teams are about performance, not seniority or tenure.",
+        "score": 0.3139
+      },
+      {
         "id": "fb07c2a958c5",
         "year": 2024,
         "text": "Many people will be happier at companies that are more stable or take fewer risks.",
         "score": 0.3133
+      },
+      {
+        "id": "0890d7a0bd7d",
+        "year": 2024,
+        "text": "Our parental leave policy is: “Take care of your baby and yourself.” Parents generally follow local norms.",
+        "score": 0.3126
+      },
+      {
+        "id": "97cc178f157a",
+        "year": 2024,
+        "text": "Employees with a strong track record at Netflix get leeway if their performance takes a temporary dip, or if they are in a new role.",
+        "score": 0.3125
+      },
+      {
+        "id": "9e348020265e",
+        "year": 2024,
+        "text": "Some people prefer job security, and choose to work at companies that are more focused on stability and seniority, and less rigorous about performance management.",
+        "score": 0.3116
+      },
+      {
+        "id": "f83de2eb67d0",
+        "year": 2024,
+        "text": "We plan an agenda ahead of time, including thinking through what needs synchronous discussion versus what can be done offline.",
+        "score": 0.3113
+      },
+      {
+        "id": "2c2585becea2",
+        "year": 2024,
+        "text": "Our policy for travel, entertainment, gifts and other expenses is five words long: “Act in Netflix’s best interest.”",
+        "score": 0.309
+      },
+      {
+        "id": "32fa1e702e47",
+        "year": 2024,
+        "text": "Our vacation policy is: “Take vacation.” We don’t have any rules about how many weeks per year.",
+        "score": 0.3073
       },
       {
         "id": "4205f128b5ea",
@@ -5630,10 +7745,28 @@
         "score": 0.3059
       },
       {
+        "id": "9e984a302354",
+        "year": 2024,
+        "text": "It’s exhilarating and how we learn the most, do our best work, improve the fastest and have the most fun.",
+        "score": 0.3041
+      },
+      {
+        "id": "9112f06ccb23",
+        "year": 2024,
+        "text": "Some employees’ estimated personal market will rise rapidly, either due to their performance or a shortage of talent in that area.",
+        "score": 0.303
+      },
+      {
         "id": "ca0b7fdab60f",
         "year": 2024,
         "text": "Managers need to be involved in the work being done around them, and actively coach their teams.",
         "score": 0.3029
+      },
+      {
+        "id": "1cd3fc63f998",
+        "year": 2024,
+        "text": "It also makes it easier to share views openly and widely.",
+        "score": 0.3028
       },
       {
         "id": "e028c5cb203c",
@@ -5666,6 +7799,12 @@
         "score": 0.5512
       },
       {
+        "id": "f53d71ece590",
+        "year": 2025,
+        "text": "To do that, we’ve developed an unusual company culture focused on excellence, creating an environment where our talented people can thrive.",
+        "score": 0.5425
+      },
+      {
         "id": "1f9e7cd6cfe5",
         "year": 2025,
         "text": "As employees, we support these principles, even if some stories run counter to our personal values.",
@@ -5868,6 +8007,12 @@
         "year": 2025,
         "text": "So we stick with employees through short-term bumps.",
         "score": 0.4043
+      },
+      {
+        "id": "8316f90f80df",
+        "year": 2025,
+        "text": "These are the values we value:",
+        "score": 0.4035
       },
       {
         "id": "16ab09ad6a67",
@@ -6373,10 +8518,10 @@
         },
         {
           "term": "diversity",
-          "first_year": 2019,
+          "first_year": 2018,
           "last_year": 2026,
-          "max_score": 0.498,
-          "example": "We also have to foster collaboration, embrace a diversity of viewpoints, support information sharing, and discourage politics."
+          "max_score": 0.6322,
+          "example": "Our members want to see a variety of stories and people on screen—and our company and leadership should reflect that diversity."
         },
         {
           "term": "inclusion",
@@ -6384,6 +8529,13 @@
           "last_year": 2025,
           "max_score": 0.6424,
           "example": "Like all great companies, we strive to hire the best and we value integrity, excellence, respect, inclusion, and collaboration."
+        },
+        {
+          "term": "belonging",
+          "first_year": 2022,
+          "last_year": 2024,
+          "max_score": 0.6303,
+          "example": "We have evolved our employee and leadership diversity to be some of the best in our industry, and we’ll continue to improve so that everyone feels a sense of belonging at Netflix."
         }
       ],
       "civilizational": []

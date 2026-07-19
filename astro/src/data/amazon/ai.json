@@ -5,6 +5,65 @@
   "caveat": "Framing projections have ~4 years of real signal by construction; per-company timing is not comparable until corpus gaps are filled.",
   "years": [
     {
+      "year": 1999,
+      "totalChunks": 5,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2000,
+      "totalChunks": 4,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
       "year": 2007,
       "totalChunks": 4,
       "aiChunks": 0,
@@ -84,7 +143,7 @@
     },
     {
       "year": 2014,
-      "totalChunks": 15,
+      "totalChunks": 19,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -95,7 +154,7 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 9,
+          "chunks": 13,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -116,18 +175,18 @@
     },
     {
       "year": 2016,
-      "totalChunks": 38,
+      "totalChunks": 42,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "employee_story": {
-          "chunks": 11,
+          "chunks": 14,
           "ai_chunks": 0,
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 4,
+          "chunks": 5,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -258,15 +317,15 @@
     },
     {
       "year": 2019,
-      "totalChunks": 31,
-      "aiChunks": 0,
-      "prevalence": 0.0,
+      "totalChunks": 32,
+      "aiChunks": 1,
+      "prevalence": 0.0312,
       "thin": false,
       "labels": {
         "employee_story": {
-          "chunks": 10,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 11,
+          "ai_chunks": 1,
+          "mentions": 2
         },
         "mission_brand": {
           "chunks": 18,
@@ -279,9 +338,35 @@
           "mentions": 0
         }
       },
-      "terms": {},
-      "projections": [],
-      "quotes": []
+      "terms": {
+        "machine learning": 2
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0259,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.0259,
+          "nChunks": 1,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "c840fb207b263c81",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.0259,
+          "text": "For more than 15 years, Chao has been conducting speech recognition and natural language processing research in academia and industry focused on creating systems that can engage with humans more naturally. Chao, who joined the Alexa Machine Learning team less than two years ago to focus on multimodal machine learning technologies, is still amazed at just how well Alexa interacts with customers. “S"
+        }
+      ]
     },
     {
       "year": 2020,
@@ -399,18 +484,23 @@
     },
     {
       "year": 2024,
-      "totalChunks": 10,
+      "totalChunks": 13,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "employee_story": {
           "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         }

@@ -4,8 +4,80 @@
   "axis": "craft",
   "years": [
     {
+      "year": 1999,
+      "zscore": -0.5902,
+      "rawTopkMean": 0.066,
+      "nChunks": 19,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We make tools for these kinds of people.",
+          "heading": "",
+          "score": 0.098
+        },
+        {
+          "text": "“I enjoy representing Apple within the community.",
+          "heading": "",
+          "score": 0.0631
+        },
+        {
+          "text": "Home Contact Us Copyright © 1999 Apple Computer, Inc.",
+          "heading": "",
+          "score": 0.0596
+        },
+        {
+          "text": "It’s critical for corporations to play a role in the community.",
+          "heading": "",
+          "score": 0.0574
+        },
+        {
+          "text": "How else can you stare at an empty canvas and see a work of art?",
+          "heading": "",
+          "score": 0.0517
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "zscore": 0.0848,
+      "rawTopkMean": 0.1029,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "In addition, you're expected to respect the diverse backgrounds of all Apple employees, temporary agency workers, independent contractors, customers, clients, and vendors.",
+          "heading": "",
+          "score": 0.1531
+        },
+        {
+          "text": "We respect these differences and treat them as an additional value that we incorporate in the way we treat each other and approach our customers.",
+          "heading": "",
+          "score": 0.1077
+        },
+        {
+          "text": "As an Apple employee, you're responsible for understanding and following Apple's policy on diversity.",
+          "heading": "",
+          "score": 0.1026
+        },
+        {
+          "text": "Additionally, culture can also include age, marital status, religion, sexual orientation, and ability.",
+          "heading": "",
+          "score": 0.0869
+        },
+        {
+          "text": "Apple recognizes that each Apple employee brings a wealth of different perspectives to our environment.",
+          "heading": "",
+          "score": 0.0644
+        }
+      ]
+    },
+    {
       "year": 2007,
-      "zscore": -0.8335,
+      "zscore": -0.7046,
       "rawTopkMean": 0.0597,
       "nChunks": 6,
       "kUsed": 5,
@@ -41,7 +113,7 @@
     },
     {
       "year": 2008,
-      "zscore": -1.5463,
+      "zscore": -1.3405,
       "rawTopkMean": 0.0249,
       "nChunks": 4,
       "kUsed": 4,
@@ -72,9 +144,30 @@
     },
     {
       "year": 2009,
-      "zscore": 0.2508,
-      "rawTopkMean": 0.1127,
-      "nChunks": 11,
+      "zscore": -2.2517,
+      "rawTopkMean": -0.0251,
+      "nChunks": 2,
+      "kUsed": 2,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "With business booming at retail locations from SoHo to Tokyo, Apple is growing fast.",
+          "heading": "Apple Store",
+          "score": 0.011
+        },
+        {
+          "text": "Are you ready to grow with us?",
+          "heading": "Apple Store",
+          "score": -0.0611
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "zscore": 0.4311,
+      "rawTopkMean": 0.1219,
+      "nChunks": 15,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -85,9 +178,9 @@
           "score": 0.1779
         },
         {
-          "text": "Work behind the scenes—where we design, engineer, and launch every Mac, iPod, iPhone, and Apple software title.",
+          "text": "Work behind the scenes — where we design, engineer, and launch every Mac, iPod, iPhone, and Apple software title.",
           "heading": "",
-          "score": 0.1139
+          "score": 0.1159
         },
         {
           "text": "And do all the other stuff that makes that possible.",
@@ -95,58 +188,22 @@
           "score": 0.1138
         },
         {
-          "text": "We don't see what any of that has to do with great work.",
+          "text": "We don’t see what any of that has to do with great work.",
           "heading": "",
-          "score": 0.1067
+          "score": 0.1103
         },
-        {
-          "text": "This isn't your cushy corporate nine-to-fiver.",
-          "heading": "",
-          "score": 0.0511
-        }
-      ]
-    },
-    {
-      "year": 2010,
-      "zscore": -0.6698,
-      "rawTopkMean": 0.0677,
-      "nChunks": 6,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
         {
           "text": "Whether you’re a developer, industrial designer, or retail expert, there’s an opportunity here for you.",
           "heading": "",
           "score": 0.0915
-        },
-        {
-          "text": "Apple jobs come in all stripes.",
-          "heading": "",
-          "score": 0.0667
-        },
-        {
-          "text": "Apple is an Equal Employment Opportunity and Affirmative Action Employer.",
-          "heading": "",
-          "score": 0.063
-        },
-        {
-          "text": "Be part of something big We are committed to diversity.",
-          "heading": "",
-          "score": 0.0615
-        },
-        {
-          "text": "Apple participates in the E-Verify program in certain locations as required by law.",
-          "heading": "",
-          "score": 0.0558
         }
       ]
     },
     {
       "year": 2012,
-      "zscore": 0.3297,
-      "rawTopkMean": 0.1166,
-      "nChunks": 19,
+      "zscore": 0.6619,
+      "rawTopkMean": 0.1346,
+      "nChunks": 34,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -157,30 +214,30 @@
           "score": 0.1624
         },
         {
+          "text": "Each shares a passion for our products and for enriching the lives of one another and our customers.",
+          "heading": "You’re in good company.",
+          "score": 0.1579
+        },
+        {
           "text": "That’s how we do things at Apple.",
           "heading": "",
           "score": 0.1282
         },
         {
-          "text": "It matters all of the time.",
-          "heading": "",
-          "score": 0.107
+          "text": "People who are unwilling to settle for doing anything less than what they love.",
+          "heading": "You’re in good company.",
+          "score": 0.1157
         },
         {
-          "text": "It might be a customer support call, or even a display in an Apple store, arranged and lit exactly so.",
-          "heading": "",
-          "score": 0.0969
-        },
-        {
-          "text": "Because whatever your job is here, you’ll be part of something big.",
-          "heading": "",
-          "score": 0.0883
+          "text": "Our Apple Retail Store teams have a variety of incredibly talented, passionate people with interests as diverse as their personalities.",
+          "heading": "You’re in good company.",
+          "score": 0.1086
         }
       ]
     },
     {
       "year": 2013,
-      "zscore": -2.9573,
+      "zscore": -2.5994,
       "rawTopkMean": -0.0441,
       "nChunks": 2,
       "kUsed": 2,
@@ -201,9 +258,9 @@
     },
     {
       "year": 2014,
-      "zscore": 0.2551,
-      "rawTopkMean": 0.1129,
-      "nChunks": 41,
+      "zscore": 0.3474,
+      "rawTopkMean": 0.1173,
+      "nChunks": 53,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -212,6 +269,11 @@
           "text": "Our customers rave about Kim’s service, and they say she embodies the best characteristics of Apple.",
           "heading": "A Message from Tim Cook.",
           "score": 0.1325
+        },
+        {
+          "text": "Bring passion and dedication to your job and there's no telling what you could accomplish.",
+          "heading": "",
+          "score": 0.1246
         },
         {
           "text": "Ideas drive the innovation that makes Apple unique, and they deliver the level of excellence our customers have come to expect.",
@@ -227,19 +289,14 @@
           "text": "Together, we are committed to diversity within our company and the advancement of equality and human rights everywhere.",
           "heading": "A Message from Tim Cook.",
           "score": 0.1026
-        },
-        {
-          "text": "Tim Cook holding the Mac Pro with Operations employees in Austin, Texas.",
-          "heading": "Together.",
-          "score": 0.1025
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": 1.1053,
-      "rawTopkMean": 0.1545,
-      "nChunks": 63,
+      "zscore": 1.2467,
+      "rawTopkMean": 0.1666,
+      "nChunks": 151,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -255,25 +312,25 @@
           "score": 0.1834
         },
         {
+          "text": "That applies throughout our company, around the world with no exceptions.",
+          "heading": "A message from Tim Cook.",
+          "score": 0.1786
+        },
+        {
           "text": "The index measures a company’s commitment to equality, and it’s an incredibly high standard.",
           "heading": "Standing up for human rights.",
           "score": 0.1465
         },
         {
-          "text": "The people who provide goods and services to our company are extremely important to us.",
-          "heading": "Empowering workers through free education.",
-          "score": 0.1339
-        },
-        {
-          "text": "Our commitment to diversity is part of everything we do.",
-          "heading": "Diversity makes us stronger every day.",
-          "score": 0.1245
+          "text": "It’s a privilege we hold dear.",
+          "heading": "A message from Tim Cook.",
+          "score": 0.1405
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": -0.4989,
+      "zscore": -0.4061,
       "rawTopkMean": 0.076,
       "nChunks": 7,
       "kUsed": 5,
@@ -309,7 +366,7 @@
     },
     {
       "year": 2017,
-      "zscore": -0.2274,
+      "zscore": -0.1638,
       "rawTopkMean": 0.0893,
       "nChunks": 2,
       "kUsed": 2,
@@ -330,9 +387,9 @@
     },
     {
       "year": 2018,
-      "zscore": 0.2125,
-      "rawTopkMean": 0.1108,
-      "nChunks": 48,
+      "zscore": 0.3389,
+      "rawTopkMean": 0.1169,
+      "nChunks": 63,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -341,6 +398,11 @@
           "text": "We make thoughtful and inclusive decisions and seek out certified diverse suppliers.",
           "heading": "Our commitment to diversity extends to our suppliers.",
           "score": 0.1581
+        },
+        {
+          "text": "From your own home, you’ll be their human connection to Apple: friendly, thoughtful, and real.",
+          "heading": "Genuine, homemade support.",
+          "score": 0.1178
         },
         {
           "text": "It’s something we’re deeply committed to.",
@@ -356,55 +418,50 @@
           "text": "In 2017, we dedicated a portion of the proceeds from our Pride Edition Apple Watch band to help support the work of GLSEN, PFLAG, The Trevor Project, and ILGA.",
           "heading": "LGBTQ rights are human rights.\u0003",
           "score": 0.0956
-        },
-        {
-          "text": "Apple is the sole lifetime partner to the National Center for Women & Information Technology, which works to increase the meaningful participation of women in the field of technology.",
-          "heading": "A more diverse future begins with opportunities in education.",
-          "score": 0.0876
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": -0.6344,
-      "rawTopkMean": 0.0694,
-      "nChunks": 18,
+      "zscore": 0.0459,
+      "rawTopkMean": 0.1008,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Whether you work at one of our global offices, an Apple Store, or even at home, a job here will be demanding.",
+          "heading": "Roles Throughout Apple",
+          "score": 0.1191
+        },
+        {
+          "text": "Bring what you love to what you do.",
+          "heading": "Apple Retail",
+          "score": 0.1052
+        },
+        {
+          "text": "We’ve always thought of Apple as the intersection of technology and the liberal arts.",
+          "heading": "Roles Throughout Apple",
+          "score": 0.097
+        },
         {
           "text": "This is where some of the world’s smartest, most passionate people create the world’s most innovative products and experiences.",
           "heading": "Do more than you ever thought possible. Have more impact than you ever imagined.",
           "score": 0.0924
         },
         {
-          "text": "Watch the film in which Apple employees talk about what drives them and what it’s like to work here.",
-          "heading": "Do more than you ever thought possible. Have more impact than you ever imagined.",
-          "score": 0.086
-        },
-        {
-          "text": "We value passion, courage, and original thinking.",
-          "heading": "There’s a place here for every kind of brilliant.",
-          "score": 0.0702
-        },
-        {
-          "text": "Join us and you’ll do the best work of your life — and make a difference in other people’s lives.",
-          "heading": "Do more than you ever thought possible. Have more impact than you ever imagined.",
-          "score": 0.0576
-        },
-        {
-          "text": "This decrease comes as the result of stronger internal processes and employees properly identifying themselves.",
-          "heading": "Here’s data from the last four years.",
-          "score": 0.0409
+          "text": "Watch the film of Apple Store employees discussing how their passions fuel their work every day.",
+          "heading": "Apple Retail",
+          "score": 0.0903
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 1.0547,
-      "rawTopkMean": 0.152,
-      "nChunks": 40,
+      "zscore": 0.954,
+      "rawTopkMean": 0.1506,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -425,20 +482,20 @@
           "score": 0.141
         },
         {
-          "text": "Whether you work at one of our global offices, an Apple Store, or even at home, a job here will be demanding.",
-          "heading": "Roles Throughout Apple",
-          "score": 0.1191
-        },
-        {
           "text": "That’s how we create the kinds of products and experiences that few ever imagine.",
           "heading": "Come work where sentences start with “What if…?”",
           "score": 0.1144
+        },
+        {
+          "text": "Multiply that effort across every feature in every Apple product, and you’ll get an idea of how important collaboration is here. 800 + Engineers and specialists collaborating solely on camera technologies.",
+          "heading": "Share an idea and watch it grow.",
+          "score": 0.1119
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 0.808,
+      "zscore": 0.76,
       "rawTopkMean": 0.1399,
       "nChunks": 143,
       "kUsed": 5,
@@ -474,7 +531,7 @@
     },
     {
       "year": 2022,
-      "zscore": 1.2189,
+      "zscore": 1.1266,
       "rawTopkMean": 0.16,
       "nChunks": 150,
       "kUsed": 5,
@@ -510,7 +567,7 @@
     },
     {
       "year": 2023,
-      "zscore": 0.8177,
+      "zscore": 0.7686,
       "rawTopkMean": 0.1404,
       "nChunks": 132,
       "kUsed": 5,
@@ -546,7 +603,7 @@
     },
     {
       "year": 2024,
-      "zscore": 0.5256,
+      "zscore": 0.508,
       "rawTopkMean": 0.1261,
       "nChunks": 30,
       "kUsed": 5,
@@ -582,7 +639,7 @@
     },
     {
       "year": 2025,
-      "zscore": 0.4476,
+      "zscore": 0.4384,
       "rawTopkMean": 0.1223,
       "nChunks": 79,
       "kUsed": 5,
@@ -618,7 +675,7 @@
     },
     {
       "year": 2026,
-      "zscore": 0.3418,
+      "zscore": 0.344,
       "rawTopkMean": 0.1171,
       "nChunks": 21,
       "kUsed": 5,

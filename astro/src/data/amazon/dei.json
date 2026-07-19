@@ -4,6 +4,66 @@
   "axis": "dei",
   "years": [
     {
+      "year": 1999,
+      "inclusionTopkMean": 0.3489,
+      "inclusionMean": 0.3489,
+      "inclusionMax": 0.3489,
+      "inclusionFractionPresent": 1.0,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 1,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": -0.0301,
+      "inclusionQuotes": [
+        {
+          "text": "Employment Opportunities at Amazon.com Amazon.com, the world leader in Internet commerce, is creating a discovery machine for books and music (and more)! As a pioneer in this new marketplace, we're building an important and lasting company--and making history while we do it. But we don't stop at providing products and information that inspire, educate, and entertain our millions of customers--we a",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3489,
+          "score": 0.3489
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "inclusionTopkMean": 0.2921,
+      "inclusionMean": 0.2921,
+      "inclusionMax": 0.2921,
+      "inclusionFractionPresent": 1.0,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "registers": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0,
+        "absent": 1,
+        "mission_focus_apolitical": 0,
+        "civilizational_mission": 0
+      },
+      "controlTopkMean": 0.032,
+      "inclusionQuotes": [
+        {
+          "text": "Employment Opportunities at Amazon.com, Inc. At Amazon.com, we're working to be the most customer-centric company on Earth. (And with more than 17 million customers, that's a tall order!) To get there, we need exceptionally talented, bright, and driven people. If you'd like to help us build the place to find and buy anything online, let us know. This is your chance to make history. Also, since thi",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.2921,
+          "score": 0.2921
+        }
+      ]
+    },
+    {
       "year": 2007,
       "inclusionTopkMean": 0.3252,
       "inclusionMean": 0.3252,
@@ -651,24 +711,32 @@
     },
     {
       "year": 2024,
-      "inclusionTopkMean": 0.3861,
-      "inclusionMean": 0.3861,
-      "inclusionMax": 0.4304,
-      "inclusionFractionPresent": 1.0,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "inclusionTopkMean": 0.3449,
+      "inclusionMean": 0.3449,
+      "inclusionMax": 0.4352,
+      "inclusionFractionPresent": 0.8,
+      "nChunks": 5,
+      "kUsed": 5,
+      "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 2,
         "belonging_culture": 0,
-        "absent": 1,
+        "absent": 3,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": null,
+      "controlTopkMean": -0.0493,
       "inclusionQuotes": [
+        {
+          "text": "Amazon’s culture of innovation and scale powers world-changing ideas and creates a safe, inclusive environment that allows employees to do their best work.",
+          "heading": "Get to know Amazon's workplace culture",
+          "register": "aspirational_vague",
+          "stance": "neutral",
+          "inclusion": 0.4352,
+          "score": 0.4352
+        },
         {
           "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce. Learn more Employee Benefits Along with an average wage of over $20.50 per hour, we offer comprehensive, highly competitive benefits that begin on day one. Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities. Learn more Employee Grow",
           "heading": "Our Workplace",
@@ -684,6 +752,22 @@
           "stance": "neutral",
           "inclusion": 0.3418,
           "score": 0.3418
+        },
+        {
+          "text": "The customer is at the heart of everything we do. Amazon is a place where smart, passionate people obsess over customers and innovate on their behalf. Amazon has created more U.S. jobs in the last decade than any other company. These are jobs that pay an average of $22 per hour, more than triple the federal minimum wage. We also invest in employees’ success. Amazon will spend over $1.2 billion to ",
+          "heading": "Our Workplace",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3235,
+          "score": 0.3235
+        },
+        {
+          "text": "Amazon is increasing the average total compensation package for fulfillment and transportation employees in the U.S. to over $29 per hour.",
+          "heading": "Amazon increases wages, adds new benefits for hourly US employees",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.1937,
+          "score": 0.1937
         }
       ]
     },
@@ -815,6 +899,13 @@
   "phrases": {
     "terms": [
       {
+        "term": "equity",
+        "first_year": 1999,
+        "last_year": 2024,
+        "max_score": 0.6419,
+        "example": "Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities."
+      },
+      {
         "term": "bias",
         "first_year": 2007,
         "last_year": 2007,
@@ -871,13 +962,6 @@
         "example": "In addition to sponsoring and supporting programs and classes, the group partners with organizations like Northwest Center to recruit people of all abilities, and works with Amazon's Global Real Estat"
       },
       {
-        "term": "equity",
-        "first_year": 2017,
-        "last_year": 2024,
-        "max_score": 0.6419,
-        "example": "Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities."
-      },
-      {
         "term": "representation",
         "first_year": 2025,
         "last_year": 2026,
@@ -893,6 +977,78 @@
       }
     ],
     "high_scoring_sentences": [
+      {
+        "id": "0c499cbeac41",
+        "year": 1999,
+        "text": "But we don't stop at providing products and information that inspire, educate, and entertain our millions of customers--we also offer a work environment full of exceptionally talented, bright, and driven people.",
+        "score": 0.4669
+      },
+      {
+        "id": "8b4e486254f1",
+        "year": 1999,
+        "text": "As a pioneer in this new marketplace, we're building an important and lasting company--and making history while we do it.",
+        "score": 0.4573
+      },
+      {
+        "id": "256a64679fcf",
+        "year": 1999,
+        "text": "We've got opportunities in many different areas.",
+        "score": 0.4571
+      },
+      {
+        "id": "383e7211e370",
+        "year": 1999,
+        "text": "(And it's great to be located in downtown Seattle , too!) If you'd like to work with us to build a lasting franchise in this world-changing industry (and have a great time doing it), let us know !",
+        "score": 0.4224
+      },
+      {
+        "id": "dc698a295e13",
+        "year": 1999,
+        "text": "Also, since this is very possibly the worst five-year period in history not to have equity ownership, you should know that compensation for all of our openings includes stock options.",
+        "score": 0.3765
+      },
+      {
+        "id": "4c5ff8bda527",
+        "year": 1999,
+        "text": "We have open positions in Seattle, Washington New Castle, Delaware Fernley, Nevada Coffeyville, Kansas and Europe",
+        "score": 0.3494
+      },
+      {
+        "id": "3981fa01baaa",
+        "year": 1999,
+        "text": "We look forward to hearing from you!",
+        "score": 0.322
+      },
+      {
+        "id": "ff849ae09ad0",
+        "year": 2000,
+        "text": "(And with more than 17 million customers, that's a tall order!) To get there, we need exceptionally talented, bright, and driven people.",
+        "score": 0.3909
+      },
+      {
+        "id": "b52d2f59e83a",
+        "year": 2000,
+        "text": "At Amazon.com, we're working to be the most customer-centric company on Earth.",
+        "score": 0.3885
+      },
+      {
+        "id": "dc698a295e13",
+        "year": 2000,
+        "text": "Also, since this is very possibly the worst five-year period in history not to have equity ownership, you should know that compensation for all of our openings includes stock options.",
+        "score": 0.3765
+      },
+      {
+        "id": "a878ffdc7000",
+        "year": 2000,
+        "text": "If you'd like to help us build the place to find and buy anything online, let us know.",
+        "score": 0.354
+      },
+      {
+        "id": "3981fa01baaa",
+        "year": 2000,
+        "text": "We look forward to hearing from you!",
+        "score": 0.322
+      },
       {
         "id": "9523275170ec",
         "year": 2007,
@@ -3102,6 +3258,12 @@
         "score": 0.6419
       },
       {
+        "id": "ad30f4b326b4",
+        "year": 2024,
+        "text": "We also invest in employees’ success.",
+        "score": 0.4876
+      },
+      {
         "id": "571083fe9a90",
         "year": 2024,
         "text": "Learn more Employee Growth and Opportunities We invest in the success of our employees and help them grow their skills and careers.",
@@ -3112,6 +3274,12 @@
         "year": 2024,
         "text": "Our Employees We’re able to delight and invent for customers thanks to our incredible workforce.",
         "score": 0.4607
+      },
+      {
+        "id": "f71f97151013",
+        "year": 2024,
+        "text": "Amazon’s culture of innovation and scale powers world-changing ideas and creates a safe, inclusive environment that allows employees to do their best work.",
+        "score": 0.4352
       },
       {
         "id": "b0c4ca0ff1d3",
@@ -3126,6 +3294,12 @@
         "score": 0.3879
       },
       {
+        "id": "c8df3fd17e67",
+        "year": 2024,
+        "text": "The customer is at the heart of everything we do.",
+        "score": 0.3737
+      },
+      {
         "id": "fb63b8c81c80",
         "year": 2024,
         "text": "Learn more Our Facilities We support over 1 million Amazon employees in operations facilities, tech hubs, and corporate offices.",
@@ -3136,6 +3310,12 @@
         "year": 2024,
         "text": "Our mission is to be Earth's most customer-centric company.",
         "score": 0.3576
+      },
+      {
+        "id": "aca59de95600",
+        "year": 2024,
+        "text": "Amazon is a place where smart, passionate people obsess over customers and innovate on their behalf.",
+        "score": 0.3561
       },
       {
         "id": "abd3b18361e2",
@@ -3363,6 +3543,13 @@
     "lexicons": {
       "inclusion": [
         {
+          "term": "equity",
+          "first_year": 1999,
+          "last_year": 2024,
+          "max_score": 0.6419,
+          "example": "Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities."
+        },
+        {
           "term": "bias",
           "first_year": 2007,
           "last_year": 2007,
@@ -3417,13 +3604,6 @@
           "last_year": 2018,
           "max_score": 0.3869,
           "example": "In addition to sponsoring and supporting programs and classes, the group partners with organizations like Northwest Center to recruit people of all abilities, and works with Amazon's Global Real Estat"
-        },
-        {
-          "term": "equity",
-          "first_year": 2017,
-          "last_year": 2024,
-          "max_score": 0.6419,
-          "example": "Learn more Diversity, Equity, and Inclusion We strive to reflect the diversity of our customers, vendors, and communities."
         },
         {
           "term": "representation",

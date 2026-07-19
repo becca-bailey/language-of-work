@@ -450,187 +450,229 @@
           "displayName": "Amazon",
           "years": [
             {
+              "year": 1999,
+              "zscore": -0.6338,
+              "topkMean": 0.0669,
+              "controlZscore": -0.5888,
+              "nChunks": 8,
+              "thin": false
+            },
+            {
+              "year": 2000,
+              "zscore": -0.2556,
+              "topkMean": 0.0892,
+              "controlZscore": 0.5881,
+              "nChunks": 10,
+              "thin": false
+            },
+            {
               "year": 2007,
-              "zscore": -0.4346,
+              "zscore": -0.2617,
               "topkMean": 0.0889,
-              "controlZscore": 1.0269,
+              "controlZscore": 1.1615,
               "nChunks": 26,
               "thin": false
             },
             {
               "year": 2008,
-              "zscore": 0.5103,
+              "zscore": 0.7018,
               "topkMean": 0.1458,
-              "controlZscore": 0.6957,
+              "controlZscore": 0.8125,
               "nChunks": 8,
               "thin": false
             },
             {
               "year": 2011,
-              "zscore": 0.9907,
+              "zscore": 1.1917,
               "topkMean": 0.1747,
-              "controlZscore": -0.806,
+              "controlZscore": -0.77,
               "nChunks": 18,
               "thin": false
             },
             {
               "year": 2013,
-              "zscore": 1.3713,
+              "zscore": 1.5798,
               "topkMean": 0.1977,
-              "controlZscore": 1.4474,
+              "controlZscore": 1.6047,
               "nChunks": 24,
               "thin": false
             },
             {
               "year": 2014,
-              "zscore": -1.1451,
+              "zscore": -0.9861,
               "topkMean": 0.0461,
-              "controlZscore": -0.4923,
+              "controlZscore": -0.4394,
               "nChunks": 3,
               "thin": true
             },
             {
               "year": 2016,
-              "zscore": -0.0674,
+              "zscore": 0.1128,
               "topkMean": 0.111,
-              "controlZscore": 1.1814,
+              "controlZscore": 1.3243,
               "nChunks": 45,
               "thin": false
             },
             {
               "year": 2017,
-              "zscore": 1.23,
+              "zscore": 1.4358,
               "topkMean": 0.1892,
-              "controlZscore": 1.3777,
+              "controlZscore": 1.5312,
               "nChunks": 131,
               "thin": false
             },
             {
               "year": 2018,
-              "zscore": -1.0498,
+              "zscore": -0.889,
               "topkMean": 0.0518,
-              "controlZscore": -0.8389,
+              "controlZscore": -0.8046,
               "nChunks": 3,
               "thin": true
             },
             {
               "year": 2019,
-              "zscore": -1.8138,
+              "zscore": -1.668,
               "topkMean": 0.0058,
-              "controlZscore": -1.3035,
+              "controlZscore": -1.2942,
               "nChunks": 4,
               "thin": true
             },
             {
               "year": 2023,
-              "zscore": -0.8333,
+              "zscore": -0.6682,
               "topkMean": 0.0649,
-              "controlZscore": -0.639,
+              "controlZscore": -0.594,
               "nChunks": 11,
               "thin": false
             },
             {
+              "year": 2024,
+              "zscore": -1.2885,
+              "topkMean": 0.0282,
+              "controlZscore": -0.9519,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
               "year": 2025,
-              "zscore": 0.6605,
+              "zscore": 0.855,
               "topkMean": 0.1549,
-              "controlZscore": -0.8931,
+              "controlZscore": -0.8617,
               "nChunks": 19,
               "thin": false
             },
             {
               "year": 2026,
-              "zscore": 0.5811,
+              "zscore": 0.7741,
               "topkMean": 0.1501,
-              "controlZscore": -0.7564,
+              "controlZscore": -0.7177,
               "nChunks": 21,
               "thin": false
             }
           ],
           "worldChanging": [
             {
+              "year": 1999,
+              "zscore": -1.8121,
+              "topkMean": 0.0318,
+              "nChunks": 5,
+              "thin": false,
+              "control": -0.5888,
+              "quote": "(And it's great to be located in downtown Seattle , too!) If you'd like to work with us to build a lasting franchise in this world-changing industry (and have a great time doing it), let us know !"
+            },
+            {
+              "year": 2000,
+              "zscore": -0.5683,
+              "topkMean": 0.0892,
+              "nChunks": 7,
+              "thin": false,
+              "control": 0.5881,
+              "quote": "This is your chance to make history."
+            },
+            {
               "year": 2007,
-              "zscore": -1.4771,
+              "zscore": -1.2349,
               "topkMean": 0.0585,
               "nChunks": 10,
               "thin": false,
-              "control": 1.0269,
+              "control": 1.1615,
               "quote": "Bias for Action: We live in a time of unheralded revolution and insurmountable opportunity--provided we make every minute count."
             },
             {
               "year": 2008,
-              "zscore": 0.5419,
+              "zscore": 0.6564,
               "topkMean": 0.1458,
               "nChunks": 6,
               "thin": false,
-              "control": 0.6957,
+              "control": 0.8125,
               "quote": "It’s your day to be a part of something great."
             },
             {
               "year": 2011,
-              "zscore": 1.1485,
+              "zscore": 1.2246,
               "topkMean": 0.1721,
               "nChunks": 6,
               "thin": false,
-              "control": -0.806,
+              "control": -0.77,
               "quote": "We're making history and the good news is that we've only just begun."
             },
             {
               "year": 2013,
-              "zscore": 0.6699,
+              "zscore": 0.7762,
               "topkMean": 0.1513,
               "nChunks": 11,
               "thin": false,
-              "control": 1.4474,
+              "control": 1.6047,
               "quote": "Join us, and you’ll not only see the future, you’ll create it."
             },
             {
               "year": 2014,
-              "zscore": -1.3582,
+              "zscore": -1.1235,
               "topkMean": 0.0636,
               "nChunks": 2,
               "thin": true,
-              "control": -0.4923,
+              "control": -0.4394,
               "quote": "Play the amazon.jobs game, and guess what words really inspire us every day."
             },
             {
               "year": 2016,
-              "zscore": -0.2624,
+              "zscore": -0.0971,
               "topkMean": 0.111,
               "nChunks": 36,
               "thin": false,
-              "control": 1.1814,
+              "control": 1.3243,
               "quote": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers."
             },
             {
               "year": 2017,
-              "zscore": 1.5441,
+              "zscore": 1.5951,
               "topkMean": 0.1892,
               "nChunks": 137,
               "thin": false,
-              "control": 1.3777,
+              "control": 1.5312,
               "quote": "The \"Black to the Future\" event brought together community members, developers, designers, data scientists, and local officials to imagine and build a more perfect future."
             },
             {
               "year": 2018,
-              "zscore": 1.5441,
+              "zscore": 1.5951,
               "topkMean": 0.1892,
               "nChunks": 137,
               "thin": false,
-              "control": -0.8389,
+              "control": -0.8046,
               "quote": "The \"Black to the Future\" event brought together community members, developers, designers, data scientists, and local officials to imagine and build a more perfect future."
             },
             {
               "year": 2019,
-              "zscore": -0.21,
+              "zscore": -0.048,
               "topkMean": 0.1133,
               "nChunks": 37,
               "thin": false,
-              "control": -1.3035,
+              "control": -1.2942,
               "quote": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers."
             },
             {
               "year": 2020,
-              "zscore": -0.215,
+              "zscore": -0.0526,
               "topkMean": 0.1131,
               "nChunks": 36,
               "thin": false,
@@ -639,7 +681,7 @@
             },
             {
               "year": 2021,
-              "zscore": -0.215,
+              "zscore": -0.0526,
               "topkMean": 0.1131,
               "nChunks": 36,
               "thin": false,
@@ -648,7 +690,7 @@
             },
             {
               "year": 2022,
-              "zscore": -0.5718,
+              "zscore": -0.3868,
               "topkMean": 0.0976,
               "nChunks": 2,
               "thin": true,
@@ -657,38 +699,38 @@
             },
             {
               "year": 2023,
-              "zscore": -1.0339,
+              "zscore": -0.8197,
               "topkMean": 0.0776,
               "nChunks": 8,
               "thin": false,
-              "control": -0.639,
+              "control": -0.594,
               "quote": "Our mission is to be Earth's most customer-centric company."
             },
             {
               "year": 2024,
-              "zscore": -1.4881,
+              "zscore": -1.2452,
               "topkMean": 0.058,
-              "nChunks": 6,
+              "nChunks": 8,
               "thin": false,
-              "control": null,
+              "control": -0.9519,
               "quote": "Our mission is to be Earth's most customer-centric company."
             },
             {
               "year": 2025,
-              "zscore": 0.2604,
+              "zscore": 0.3927,
               "topkMean": 0.1336,
               "nChunks": 15,
               "thin": false,
-              "control": -0.8931,
+              "control": -0.8617,
               "quote": "Read more Inclusive Experiences and Technology We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways."
             },
             {
               "year": 2026,
-              "zscore": 1.1226,
+              "zscore": 1.2003,
               "topkMean": 0.1709,
               "nChunks": 18,
               "thin": false,
-              "control": -0.7564,
+              "control": -0.7177,
               "quote": "Together initiatives We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways."
             }
           ]
@@ -1498,110 +1540,142 @@
           "displayName": "Netflix",
           "years": [
             {
+              "year": 2003,
+              "zscore": -1.0884,
+              "topkMean": 0.0039,
+              "controlZscore": 0.1288,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2004,
+              "zscore": -0.9543,
+              "topkMean": 0.0133,
+              "controlZscore": -1.181,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
               "year": 2005,
-              "zscore": -0.9434,
-              "topkMean": 0.0137,
-              "controlZscore": -1.156,
-              "nChunks": 2,
+              "zscore": -0.9414,
+              "topkMean": 0.0142,
+              "controlZscore": -1.2838,
+              "nChunks": 1,
               "thin": true
             },
             {
               "year": 2011,
-              "zscore": -1.872,
+              "zscore": -1.881,
               "topkMean": -0.0516,
-              "controlZscore": -1.8827,
+              "controlZscore": -1.9498,
               "nChunks": 1,
               "thin": true
             },
             {
               "year": 2013,
-              "zscore": -0.2868,
+              "zscore": -0.2879,
               "topkMean": 0.0599,
-              "controlZscore": -0.8818,
+              "controlZscore": -0.9617,
               "nChunks": 8,
               "thin": false
             },
             {
               "year": 2014,
-              "zscore": -0.2252,
+              "zscore": -0.2261,
               "topkMean": 0.0642,
-              "controlZscore": -0.3785,
+              "controlZscore": -0.465,
               "nChunks": 9,
               "thin": false
             },
             {
               "year": 2017,
-              "zscore": 1.1846,
+              "zscore": 1.1907,
               "topkMean": 0.1634,
-              "controlZscore": 1.1434,
-              "nChunks": 130,
+              "controlZscore": 1.0373,
+              "nChunks": 132,
               "thin": false
             },
             {
               "year": 2018,
-              "zscore": 1.2913,
+              "zscore": 1.2979,
               "topkMean": 0.1709,
-              "controlZscore": 0.5407,
-              "nChunks": 55,
+              "controlZscore": 0.8086,
+              "nChunks": 107,
               "thin": false
             },
             {
               "year": 2019,
-              "zscore": 0.2908,
-              "topkMean": 0.1006,
-              "controlZscore": 0.8977,
-              "nChunks": 62,
+              "zscore": 0.1414,
+              "topkMean": 0.09,
+              "controlZscore": 1.2241,
+              "nChunks": 48,
               "thin": false
             },
             {
               "year": 2020,
-              "zscore": 1.351,
+              "zscore": 1.3579,
               "topkMean": 0.1751,
-              "controlZscore": 1.3568,
-              "nChunks": 116,
+              "controlZscore": 0.6822,
+              "nChunks": 76,
               "thin": false
             },
             {
               "year": 2021,
-              "zscore": -0.7683,
+              "zscore": -0.7718,
               "topkMean": 0.026,
-              "controlZscore": -0.1604,
+              "controlZscore": -0.2497,
               "nChunks": 8,
               "thin": false
             },
             {
               "year": 2022,
-              "zscore": -1.1181,
-              "topkMean": 0.0014,
-              "controlZscore": -0.7938,
-              "nChunks": 1,
-              "thin": true
-            },
-            {
-              "year": 2024,
-              "zscore": 0.7078,
-              "topkMean": 0.1299,
-              "controlZscore": 1.122,
-              "nChunks": 98,
+              "zscore": 1.0611,
+              "topkMean": 0.1544,
+              "controlZscore": 1.0952,
+              "nChunks": 195,
               "thin": false
             },
             {
-              "year": 2026,
-              "zscore": 0.3883,
+              "year": 2024,
+              "zscore": 0.7115,
+              "topkMean": 0.1299,
+              "controlZscore": 1.0161,
+              "nChunks": 99,
+              "thin": false
+            },
+            {
+              "year": 2025,
+              "zscore": 0.3905,
               "topkMean": 0.1074,
-              "controlZscore": 0.1925,
+              "controlZscore": 0.0986,
               "nChunks": 35,
               "thin": false
             }
           ],
           "worldChanging": [
             {
+              "year": 2003,
+              "zscore": null,
+              "topkMean": null,
+              "nChunks": 0,
+              "thin": true,
+              "control": 0.1288
+            },
+            {
+              "year": 2004,
+              "zscore": null,
+              "topkMean": null,
+              "nChunks": 0,
+              "thin": true,
+              "control": -1.181
+            },
+            {
               "year": 2005,
               "zscore": null,
               "topkMean": null,
               "nChunks": 0,
               "thin": true,
-              "control": -1.156
+              "control": -1.2838
             },
             {
               "year": 2010,
@@ -1617,7 +1691,7 @@
               "topkMean": null,
               "nChunks": 0,
               "thin": true,
-              "control": -1.8827
+              "control": -1.9498
             },
             {
               "year": 2012,
@@ -1629,25 +1703,25 @@
             },
             {
               "year": 2013,
-              "zscore": -0.8427,
+              "zscore": -0.9412,
               "topkMean": 0.0518,
               "nChunks": 3,
               "thin": true,
-              "control": -0.8818,
+              "control": -0.9617,
               "quote": "We are connecting people with movies and television globally."
             },
             {
               "year": 2014,
-              "zscore": -0.2388,
+              "zscore": -0.304,
               "topkMean": 0.0929,
               "nChunks": 6,
               "thin": false,
-              "control": -0.3785,
+              "control": -0.465,
               "quote": "We are connecting people with movies and television globally."
             },
             {
               "year": 2015,
-              "zscore": -0.9895,
+              "zscore": -1.0961,
               "topkMean": 0.0418,
               "nChunks": 4,
               "thin": true,
@@ -1656,92 +1730,92 @@
             },
             {
               "year": 2017,
-              "zscore": 1.1013,
+              "zscore": 1.1098,
               "topkMean": 0.1843,
-              "nChunks": 179,
+              "nChunks": 181,
               "thin": false,
-              "control": 1.1434,
+              "control": 1.0373,
               "quote": "Around the world, we live and create our culture together."
             },
             {
               "year": 2018,
-              "zscore": 1.1918,
+              "zscore": 1.2052,
               "topkMean": 0.1905,
-              "nChunks": 177,
+              "nChunks": 192,
               "thin": false,
-              "control": 0.5407,
+              "control": 0.8086,
               "quote": "Around the world, we live and create our culture together."
             },
             {
               "year": 2019,
-              "zscore": 1.1918,
+              "zscore": 1.2052,
               "topkMean": 0.1905,
-              "nChunks": 183,
+              "nChunks": 195,
               "thin": false,
-              "control": 0.8977,
+              "control": 1.2241,
               "quote": "Around the world, we live and create our culture together."
             },
             {
               "year": 2020,
-              "zscore": 1.2043,
+              "zscore": 1.2185,
               "topkMean": 0.1913,
               "nChunks": 183,
               "thin": false,
-              "control": 1.3568,
+              "control": 0.6822,
               "quote": "Around the world, we live and create our culture together."
             },
             {
               "year": 2021,
-              "zscore": 1.2043,
+              "zscore": 1.2185,
               "topkMean": 0.1913,
               "nChunks": 181,
               "thin": false,
-              "control": -0.1604,
+              "control": -0.2497,
               "quote": "Around the world, we live and create our culture together."
             },
             {
               "year": 2022,
-              "zscore": 1.2043,
-              "topkMean": 0.1913,
-              "nChunks": 182,
+              "zscore": 1.2274,
+              "topkMean": 0.1919,
+              "nChunks": 342,
               "thin": false,
-              "control": -0.7938,
+              "control": 1.0952,
               "quote": "Around the world, we live and create our culture together."
             },
             {
               "year": 2023,
-              "zscore": -1.153,
-              "topkMean": 0.0306,
-              "nChunks": 2,
-              "thin": true,
+              "zscore": 0.6465,
+              "topkMean": 0.1544,
+              "nChunks": 167,
+              "thin": false,
               "control": null,
-              "quote": "Our core philosophy is people over process."
+              "quote": "We do not seek to preserve our culture—we seek to improve it."
             },
             {
               "year": 2024,
-              "zscore": 0.3032,
-              "topkMean": 0.1299,
-              "nChunks": 89,
+              "zscore": 0.6914,
+              "topkMean": 0.1573,
+              "nChunks": 255,
               "thin": false,
-              "control": 1.122,
-              "quote": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere."
+              "control": 1.0161,
+              "quote": "We do not seek to preserve our culture—we seek to improve it."
             },
             {
               "year": 2025,
-              "zscore": 0.3032,
-              "topkMean": 0.1299,
-              "nChunks": 87,
+              "zscore": 0.3088,
+              "topkMean": 0.1325,
+              "nChunks": 91,
               "thin": false,
-              "control": null,
+              "control": 0.0986,
               "quote": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere."
             },
             {
               "year": 2026,
-              "zscore": 0.1318,
+              "zscore": 0.0869,
               "topkMean": 0.1182,
               "nChunks": 71,
               "thin": false,
-              "control": 0.1925,
+              "control": null,
               "quote": "But we're nowhere close to where we want to be in the future."
             }
           ]
@@ -3315,149 +3389,200 @@
           "displayName": "Basecamp",
           "years": [
             {
+              "year": 2002,
+              "zscore": -0.8613,
+              "topkMean": 0.0326,
+              "controlZscore": -0.5249,
+              "nChunks": 17,
+              "thin": false
+            },
+            {
+              "year": 2003,
+              "zscore": -1.7256,
+              "topkMean": -0.0052,
+              "controlZscore": -1.099,
+              "nChunks": 11,
+              "thin": false
+            },
+            {
+              "year": 2004,
+              "zscore": -2.1281,
+              "topkMean": -0.0228,
+              "controlZscore": -1.5848,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
               "year": 2009,
-              "zscore": -1.2091,
+              "zscore": -0.5281,
               "topkMean": 0.0471,
-              "controlZscore": -0.1831,
+              "controlZscore": 0.0577,
               "nChunks": 28,
               "thin": false
             },
             {
               "year": 2010,
-              "zscore": -1.7765,
+              "zscore": -0.934,
               "topkMean": 0.0294,
-              "controlZscore": -2.0202,
+              "controlZscore": -1.662,
               "nChunks": 3,
               "thin": true
             },
             {
               "year": 2014,
-              "zscore": 0.0269,
+              "zscore": 0.356,
               "topkMean": 0.0858,
-              "controlZscore": -1.3598,
+              "controlZscore": -1.0438,
               "nChunks": 19,
               "thin": false
             },
             {
               "year": 2016,
-              "zscore": 0.8573,
+              "zscore": 0.95,
               "topkMean": 0.1117,
-              "controlZscore": -0.6827,
+              "controlZscore": -0.4099,
               "nChunks": 37,
               "thin": false
             },
             {
               "year": 2017,
-              "zscore": 0.6016,
+              "zscore": 0.7671,
               "topkMean": 0.1037,
-              "controlZscore": -0.6634,
+              "controlZscore": -0.3919,
               "nChunks": 20,
               "thin": false
             },
             {
               "year": 2018,
-              "zscore": -0.8292,
+              "zscore": -0.2564,
               "topkMean": 0.059,
-              "controlZscore": -1.0394,
+              "controlZscore": -0.7439,
               "nChunks": 33,
               "thin": false
             },
             {
               "year": 2019,
-              "zscore": 0.2457,
+              "zscore": 0.5126,
               "topkMean": 0.0926,
-              "controlZscore": 1.1643,
+              "controlZscore": 1.3192,
               "nChunks": 106,
               "thin": false
             },
             {
               "year": 2020,
-              "zscore": 0.8832,
+              "zscore": 0.9685,
               "topkMean": 0.1125,
-              "controlZscore": 0.9141,
+              "controlZscore": 1.085,
               "nChunks": 213,
               "thin": false
             },
             {
               "year": 2021,
-              "zscore": 2.0759,
+              "zscore": 1.8217,
               "topkMean": 0.1498,
-              "controlZscore": 0.8761,
+              "controlZscore": 1.0493,
               "nChunks": 159,
               "thin": false
             },
             {
               "year": 2022,
-              "zscore": 0.4709,
+              "zscore": 0.6736,
               "topkMean": 0.0996,
-              "controlZscore": 0.71,
+              "controlZscore": 0.8938,
               "nChunks": 113,
               "thin": false
             },
             {
               "year": 2023,
-              "zscore": 0.6052,
+              "zscore": 0.7697,
               "topkMean": 0.1038,
-              "controlZscore": 0.8385,
+              "controlZscore": 1.0141,
               "nChunks": 115,
               "thin": false
             },
             {
               "year": 2024,
-              "zscore": -1.2317,
+              "zscore": -0.5443,
               "topkMean": 0.0464,
-              "controlZscore": 0.9266,
+              "controlZscore": 1.0966,
               "nChunks": 99,
               "thin": false
             },
             {
               "year": 2025,
-              "zscore": -0.1563,
+              "zscore": 0.225,
               "topkMean": 0.08,
-              "controlZscore": 0.9269,
+              "controlZscore": 1.0969,
               "nChunks": 70,
               "thin": false
             },
             {
               "year": 2026,
-              "zscore": -0.5638,
+              "zscore": -0.0665,
               "topkMean": 0.0673,
-              "controlZscore": -0.4078,
+              "controlZscore": -0.1526,
               "nChunks": 36,
               "thin": false
             }
           ],
           "worldChanging": [
             {
+              "year": 2002,
+              "zscore": -1.1625,
+              "topkMean": -0.0139,
+              "nChunks": 6,
+              "thin": false,
+              "control": -0.5249,
+              "quote": "It's a collection of 37 nuggets of online philosophy and design wisdom."
+            },
+            {
+              "year": 2003,
+              "zscore": -2.4339,
+              "topkMean": -0.1107,
+              "nChunks": 3,
+              "thin": true,
+              "control": -1.099,
+              "quote": "We give all of our clients personal attention and are proud that 100% of our clients are references."
+            },
+            {
+              "year": 2004,
+              "zscore": -2.4339,
+              "topkMean": -0.1107,
+              "nChunks": 3,
+              "thin": true,
+              "control": -1.5848,
+              "quote": "We give all of our clients personal attention and are proud that 100% of our clients are references."
+            },
+            {
               "year": 2009,
-              "zscore": -1.9164,
+              "zscore": -0.3608,
               "topkMean": 0.0471,
               "nChunks": 10,
               "thin": false,
-              "control": -0.1831,
+              "control": 0.0577,
               "quote": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done."
             },
             {
               "year": 2010,
-              "zscore": -2.2509,
+              "zscore": -0.4939,
               "topkMean": 0.037,
               "nChunks": 9,
               "thin": false,
-              "control": -2.0202,
+              "control": -1.662,
               "quote": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done."
             },
             {
               "year": 2014,
-              "zscore": -0.6413,
+              "zscore": 0.1468,
               "topkMean": 0.0858,
               "nChunks": 16,
               "thin": false,
-              "control": -1.3598,
+              "control": -1.0438,
               "quote": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning."
             },
             {
               "year": 2015,
-              "zscore": -0.6413,
+              "zscore": 0.1468,
               "topkMean": 0.0858,
               "nChunks": 16,
               "thin": false,
@@ -3466,101 +3591,101 @@
             },
             {
               "year": 2016,
-              "zscore": 0.3117,
+              "zscore": 0.5261,
               "topkMean": 0.1146,
               "nChunks": 25,
               "thin": false,
-              "control": -0.6827,
+              "control": -0.4099,
               "quote": "They remind us where we’ve been, how we got here, and point to where we’re going."
             },
             {
               "year": 2017,
-              "zscore": 0.2395,
+              "zscore": 0.4974,
               "topkMean": 0.1124,
               "nChunks": 33,
               "thin": false,
-              "control": -0.6634,
+              "control": -0.3919,
               "quote": "There are few better ways to expand your horizons and grow as a person than to put yourself in the company of others with different backgrounds, experiences and identities."
             },
             {
               "year": 2018,
-              "zscore": -0.5255,
+              "zscore": 0.1929,
               "topkMean": 0.0893,
               "nChunks": 32,
               "thin": false,
-              "control": -1.0394,
+              "control": -0.7439,
               "quote": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning."
             },
             {
               "year": 2019,
-              "zscore": -0.001,
+              "zscore": 0.4016,
               "topkMean": 0.1052,
               "nChunks": 127,
               "thin": false,
-              "control": 1.1643,
+              "control": 1.3192,
               "quote": "Having a chat room where you can just say good morning, let people know you’re out for lunch, and generally just feel part of something is a powerful counter to cabin fever."
             },
             {
               "year": 2020,
-              "zscore": 0.4798,
+              "zscore": 0.593,
               "topkMean": 0.1197,
               "nChunks": 175,
               "thin": false,
-              "control": 0.9141,
+              "control": 1.085,
               "quote": "We now have a shared truth."
             },
             {
               "year": 2021,
-              "zscore": 1.4786,
+              "zscore": 0.9905,
               "topkMean": 0.15,
               "nChunks": 266,
               "thin": false,
-              "control": 0.8761,
+              "control": 1.0493,
               "quote": "This is our life’s work — we’re in this for the long haul."
             },
             {
               "year": 2022,
-              "zscore": 1.0189,
+              "zscore": 0.8076,
               "topkMean": 0.136,
               "nChunks": 216,
               "thin": false,
-              "control": 0.71,
+              "control": 0.8938,
               "quote": "For more than two decades, we’ve been proving that you don’t have to be a big company to have a big impact."
             },
             {
               "year": 2023,
-              "zscore": 0.7356,
+              "zscore": 0.6948,
               "topkMean": 0.1275,
               "nChunks": 255,
               "thin": false,
-              "control": 0.8385,
+              "control": 1.0141,
               "quote": "We now have a shared truth."
             },
             {
               "year": 2024,
-              "zscore": 0.6162,
+              "zscore": 0.6473,
               "topkMean": 0.1239,
               "nChunks": 269,
               "thin": false,
-              "control": 0.9266,
+              "control": 1.0966,
               "quote": "We now have a shared truth."
             },
             {
               "year": 2025,
-              "zscore": 0.4224,
+              "zscore": 0.5701,
               "topkMean": 0.118,
               "nChunks": 183,
               "thin": false,
-              "control": 0.9269,
+              "control": 1.0969,
               "quote": "We now have a shared truth."
             },
             {
               "year": 2026,
-              "zscore": 0.6737,
+              "zscore": 0.6702,
               "topkMean": 0.1256,
               "nChunks": 178,
               "thin": false,
-              "control": -0.4078,
+              "control": -0.1526,
               "quote": "We now have a shared truth."
             }
           ]
@@ -3570,164 +3695,181 @@
           "displayName": "Salesforce",
           "years": [
             {
+              "year": 2004,
+              "zscore": -1.9285,
+              "topkMean": -0.0005,
+              "controlZscore": 0.8475,
+              "nChunks": 16,
+              "thin": false
+            },
+            {
               "year": 2006,
-              "zscore": -0.9176,
+              "zscore": -0.7228,
               "topkMean": 0.0947,
-              "controlZscore": 0.9089,
+              "controlZscore": 0.8654,
               "nChunks": 41,
               "thin": false
             },
             {
               "year": 2007,
-              "zscore": -0.8929,
+              "zscore": -0.7006,
               "topkMean": 0.0965,
-              "controlZscore": 0.2537,
+              "controlZscore": 0.2057,
               "nChunks": 31,
               "thin": false
             },
             {
               "year": 2011,
-              "zscore": -1.8,
+              "zscore": -1.5169,
               "topkMean": 0.032,
-              "controlZscore": -0.4893,
+              "controlZscore": -0.5426,
               "nChunks": 7,
               "thin": false
             },
             {
               "year": 2012,
-              "zscore": -1.0496,
+              "zscore": -0.8416,
               "topkMean": 0.0854,
-              "controlZscore": -0.0015,
+              "controlZscore": -0.0513,
               "nChunks": 22,
               "thin": false
             },
             {
               "year": 2013,
-              "zscore": -1.1969,
+              "zscore": -0.9742,
               "topkMean": 0.0749,
-              "controlZscore": -0.5488,
+              "controlZscore": -0.6025,
               "nChunks": 8,
               "thin": false
             },
             {
               "year": 2014,
-              "zscore": -0.1937,
+              "zscore": -0.0713,
               "topkMean": 0.1462,
-              "controlZscore": -0.5089,
+              "controlZscore": -0.5623,
               "nChunks": 28,
               "thin": false
             },
             {
               "year": 2015,
-              "zscore": -0.6927,
+              "zscore": -0.5204,
               "topkMean": 0.1107,
-              "controlZscore": 0.7362,
+              "controlZscore": 0.6915,
               "nChunks": 30,
               "thin": false
             },
             {
               "year": 2016,
-              "zscore": 0.5735,
+              "zscore": 0.619,
               "topkMean": 0.2007,
-              "controlZscore": 0.5025,
+              "controlZscore": 0.4562,
               "nChunks": 44,
               "thin": false
             },
             {
               "year": 2017,
-              "zscore": 1.0365,
+              "zscore": 1.0357,
               "topkMean": 0.2336,
-              "controlZscore": 0.9884,
+              "controlZscore": 0.9455,
               "nChunks": 91,
               "thin": false
             },
             {
               "year": 2018,
-              "zscore": 1.0965,
+              "zscore": 1.0897,
               "topkMean": 0.2379,
-              "controlZscore": -0.9793,
+              "controlZscore": -1.036,
               "nChunks": 15,
               "thin": false
             },
             {
               "year": 2019,
-              "zscore": -1.0164,
+              "zscore": -0.8117,
               "topkMean": 0.0877,
-              "controlZscore": -1.6345,
+              "controlZscore": -1.6958,
               "nChunks": 4,
               "thin": true
             },
             {
               "year": 2020,
-              "zscore": 0.9822,
+              "zscore": 0.9868,
               "topkMean": 0.2298,
-              "controlZscore": 0.0263,
+              "controlZscore": -0.0233,
               "nChunks": 30,
               "thin": false
             },
             {
               "year": 2022,
-              "zscore": 0.4025,
+              "zscore": 0.4652,
               "topkMean": 0.1886,
-              "controlZscore": -1.6536,
+              "controlZscore": -1.7151,
               "nChunks": 8,
               "thin": false
             },
             {
               "year": 2023,
-              "zscore": 0.4515,
+              "zscore": 0.5093,
               "topkMean": 0.1921,
-              "controlZscore": -0.852,
+              "controlZscore": -0.9079,
               "nChunks": 14,
               "thin": false
             },
             {
               "year": 2024,
-              "zscore": 0.6669,
+              "zscore": 0.7031,
               "topkMean": 0.2074,
-              "controlZscore": 0.3753,
+              "controlZscore": 0.3281,
               "nChunks": 33,
               "thin": false
             },
             {
               "year": 2025,
-              "zscore": 1.7241,
+              "zscore": 1.6545,
               "topkMean": 0.2825,
-              "controlZscore": 2.4796,
-              "nChunks": 180,
+              "controlZscore": 2.4472,
+              "nChunks": 166,
               "thin": false
             },
             {
               "year": 2026,
-              "zscore": 0.8261,
-              "topkMean": 0.2187,
-              "controlZscore": 0.3969,
-              "nChunks": 28,
+              "zscore": 1.0246,
+              "topkMean": 0.2328,
+              "controlZscore": 0.3499,
+              "nChunks": 56,
               "thin": false
             }
           ],
           "worldChanging": [
             {
+              "year": 2004,
+              "zscore": -2.6692,
+              "topkMean": -0.0847,
+              "nChunks": 1,
+              "thin": true,
+              "control": 0.8475,
+              "quote": "We've done a great job of attracting and retaining top talent in a hot market and if you join the team at salesforce.com you will soon realize how much we value our employees."
+            },
+            {
               "year": 2006,
-              "zscore": -1.1351,
+              "zscore": -0.8102,
               "topkMean": 0.085,
               "nChunks": 16,
               "thin": false,
-              "control": 0.9089,
+              "control": 0.8654,
               "quote": "With our innovative 1% model , we're integrating our business and our community (worldwide) by giving 1% each of our time, equity and profit."
             },
             {
               "year": 2007,
-              "zscore": -0.7934,
+              "zscore": -0.531,
               "topkMean": 0.1104,
               "nChunks": 20,
               "thin": false,
-              "control": 0.2537,
+              "control": 0.2057,
               "quote": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities."
             },
             {
               "year": 2008,
-              "zscore": -1.1191,
+              "zscore": -0.7971,
               "topkMean": 0.0862,
               "nChunks": 9,
               "thin": false,
@@ -3736,7 +3878,7 @@
             },
             {
               "year": 2009,
-              "zscore": -1.1191,
+              "zscore": -0.7971,
               "topkMean": 0.0862,
               "nChunks": 9,
               "thin": false,
@@ -3745,7 +3887,7 @@
             },
             {
               "year": 2010,
-              "zscore": -1.1191,
+              "zscore": -0.7971,
               "topkMean": 0.0862,
               "nChunks": 9,
               "thin": false,
@@ -3754,97 +3896,97 @@
             },
             {
               "year": 2011,
-              "zscore": -1.5618,
+              "zscore": -1.1587,
               "topkMean": 0.0532,
               "nChunks": 2,
               "thin": true,
-              "control": -0.4893,
+              "control": -0.5426,
               "quote": "Salesforce.com and our global team of employees are transforming the way companies are run and careers are made."
             },
             {
               "year": 2012,
-              "zscore": -1.2313,
+              "zscore": -0.8887,
               "topkMean": 0.0778,
               "nChunks": 8,
               "thin": false,
-              "control": -0.0015,
+              "control": -0.0513,
               "quote": "We’re transforming the way companies are run and careers are made."
             },
             {
               "year": 2013,
-              "zscore": -0.7869,
+              "zscore": -0.5257,
               "topkMean": 0.1109,
               "nChunks": 2,
               "thin": true,
-              "control": -0.5488,
+              "control": -0.6025,
               "quote": "We’re transforming the way companies are run and careers are made."
             },
             {
               "year": 2014,
-              "zscore": -0.3135,
+              "zscore": -0.1391,
               "topkMean": 0.1462,
               "nChunks": 28,
               "thin": false,
-              "control": -0.5089,
+              "control": -0.5623,
               "quote": "We leverage their skills, creativity, and experience to address issues our community faces, like high drop-out rates and a wide digital divide.” - Sebastian A., LatinoForce Founding Member"
             },
             {
               "year": 2015,
-              "zscore": -0.2673,
+              "zscore": -0.1014,
               "topkMean": 0.1496,
               "nChunks": 49,
               "thin": false,
-              "control": 0.7362,
+              "control": 0.6915,
               "quote": "We leverage their skills, creativity, and experience to address issues our community faces, like high drop-out rates and a wide digital divide.” - Sebastian A., LatinoForce Founding Member"
             },
             {
               "year": 2016,
-              "zscore": 0.418,
+              "zscore": 0.4584,
               "topkMean": 0.2007,
               "nChunks": 58,
               "thin": false,
-              "control": 0.5025,
+              "control": 0.4562,
               "quote": "Together, with our whole Ohana made up of our employees, customers, partners and communities, we are working to improve the state of the world."
             },
             {
               "year": 2017,
-              "zscore": 0.8799,
+              "zscore": 0.8357,
               "topkMean": 0.2352,
               "nChunks": 114,
               "thin": false,
-              "control": 0.9884,
+              "control": 0.9455,
               "quote": "“Our higher purpose is to drive the Age of Equality.”"
             },
             {
               "year": 2018,
-              "zscore": 0.9813,
+              "zscore": 0.9185,
               "topkMean": 0.2427,
               "nChunks": 62,
               "thin": false,
-              "control": -0.9793,
+              "control": -1.036,
               "quote": "We believe that businesses can be powerful platforms for social change and that our higher purpose is to drive Equality for all."
             },
             {
               "year": 2019,
-              "zscore": 0.9167,
+              "zscore": 0.8658,
               "topkMean": 0.2379,
               "nChunks": 22,
               "thin": false,
-              "control": -1.6345,
+              "control": -1.6958,
               "quote": "We believe that businesses can be powerful platforms for social change and that our higher purpose is to drive Equality for all."
             },
             {
               "year": 2020,
-              "zscore": 0.7605,
+              "zscore": 0.7382,
               "topkMean": 0.2262,
               "nChunks": 28,
               "thin": false,
-              "control": 0.0263,
+              "control": -0.0233,
               "quote": "We believe that businesses can be powerful platforms for social change and that it is our responsibility to further Equality for all."
             },
             {
               "year": 2021,
-              "zscore": -0.042,
+              "zscore": 0.0827,
               "topkMean": 0.1664,
               "nChunks": 6,
               "thin": false,
@@ -3853,48 +3995,48 @@
             },
             {
               "year": 2022,
-              "zscore": 0.2549,
+              "zscore": 0.3252,
               "topkMean": 0.1886,
               "nChunks": 8,
               "thin": false,
-              "control": -1.6536,
+              "control": -1.7151,
               "quote": "We believe that businesses can be powerful platforms for social change, and that it is our responsibility to further equality for all."
             },
             {
               "year": 2023,
-              "zscore": 1.0073,
+              "zscore": 0.9398,
               "topkMean": 0.2446,
               "nChunks": 15,
               "thin": false,
-              "control": -0.852,
+              "control": -0.9079,
               "quote": "We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality."
             },
             {
               "year": 2024,
-              "zscore": 1.2284,
+              "zscore": 1.1204,
               "topkMean": 0.2611,
               "nChunks": 48,
               "thin": false,
-              "control": 0.3753,
+              "control": 0.3281,
               "quote": "We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality."
             },
             {
               "year": 2025,
-              "zscore": 1.6508,
+              "zscore": 1.4654,
               "topkMean": 0.2926,
               "nChunks": 173,
               "thin": false,
-              "control": 2.4796,
+              "control": 2.4472,
               "quote": "We believe in being better people for the planet and creating a better planet for all people."
             },
             {
               "year": 2026,
-              "zscore": 1.3909,
-              "topkMean": 0.2732,
-              "nChunks": 105,
+              "zscore": 1.4654,
+              "topkMean": 0.2926,
+              "nChunks": 164,
               "thin": false,
-              "control": 0.3969,
-              "quote": "We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality."
+              "control": 0.3499,
+              "quote": "We believe in being better people for the planet and creating a better planet for all people."
             }
           ]
         },
@@ -3903,362 +4045,379 @@
           "displayName": "Starbucks",
           "years": [
             {
+              "year": 2001,
+              "zscore": -0.9159,
+              "topkMean": 0.1263,
+              "controlZscore": 0.1544,
+              "nChunks": 70,
+              "thin": false
+            },
+            {
               "year": 2005,
-              "zscore": -0.8307,
+              "zscore": -0.8045,
               "topkMean": 0.1333,
-              "controlZscore": -0.0426,
+              "controlZscore": -0.0513,
               "nChunks": 26,
               "thin": false
             },
             {
               "year": 2006,
-              "zscore": -0.111,
+              "zscore": -0.0748,
               "topkMean": 0.1793,
-              "controlZscore": 3.0691,
+              "controlZscore": 3.1334,
               "nChunks": 41,
               "thin": false
             },
             {
               "year": 2007,
-              "zscore": -0.5417,
+              "zscore": -0.5115,
               "topkMean": 0.1518,
-              "controlZscore": 0.7992,
+              "controlZscore": 0.8103,
               "nChunks": 35,
               "thin": false
             },
             {
               "year": 2008,
-              "zscore": -1.1326,
+              "zscore": -1.1105,
               "topkMean": 0.1141,
-              "controlZscore": -0.1048,
+              "controlZscore": -0.1149,
               "nChunks": 15,
               "thin": false
             },
             {
               "year": 2010,
-              "zscore": 0.8672,
+              "zscore": 0.9169,
               "topkMean": 0.2418,
-              "controlZscore": 0.677,
+              "controlZscore": 0.6852,
               "nChunks": 79,
               "thin": false
             },
             {
               "year": 2011,
-              "zscore": -1.3121,
+              "zscore": -1.2925,
               "topkMean": 0.1026,
-              "controlZscore": -0.254,
+              "controlZscore": -0.2676,
               "nChunks": 15,
               "thin": false
             },
             {
               "year": 2012,
-              "zscore": 1.2685,
+              "zscore": 1.3237,
               "topkMean": 0.2674,
-              "controlZscore": -0.6031,
+              "controlZscore": -0.6249,
               "nChunks": 51,
               "thin": false
             },
             {
               "year": 2013,
-              "zscore": 0.7538,
+              "zscore": 0.8019,
               "topkMean": 0.2346,
-              "controlZscore": 0.0083,
+              "controlZscore": 0.0008,
               "nChunks": 76,
               "thin": false
             },
             {
               "year": 2014,
-              "zscore": 1.3074,
+              "zscore": 1.3631,
               "topkMean": 0.2699,
-              "controlZscore": 0.785,
+              "controlZscore": 0.7957,
               "nChunks": 44,
               "thin": false
             },
             {
               "year": 2015,
-              "zscore": 0.8575,
+              "zscore": 0.907,
               "topkMean": 0.2412,
-              "controlZscore": 0.543,
+              "controlZscore": 0.5481,
               "nChunks": 213,
               "thin": false
             },
             {
               "year": 2016,
-              "zscore": 0.4503,
+              "zscore": 0.4943,
               "topkMean": 0.2152,
-              "controlZscore": 0.0237,
+              "controlZscore": 0.0166,
               "nChunks": 39,
               "thin": false
             },
             {
               "year": 2017,
-              "zscore": 0.3341,
+              "zscore": 0.3764,
               "topkMean": 0.2078,
-              "controlZscore": -0.205,
+              "controlZscore": -0.2174,
               "nChunks": 16,
               "thin": false
             },
             {
               "year": 2018,
-              "zscore": 0.5792,
+              "zscore": 0.6249,
               "topkMean": 0.2234,
-              "controlZscore": -0.0792,
+              "controlZscore": -0.0887,
               "nChunks": 89,
               "thin": false
             },
             {
               "year": 2019,
-              "zscore": -1.5693,
+              "zscore": -1.5533,
               "topkMean": 0.0862,
-              "controlZscore": -1.1164,
+              "controlZscore": -1.1502,
               "nChunks": 8,
               "thin": false
             },
             {
               "year": 2020,
-              "zscore": -1.4809,
+              "zscore": -1.4636,
               "topkMean": 0.0918,
-              "controlZscore": -1.7862,
+              "controlZscore": -1.8357,
               "nChunks": 7,
               "thin": false
             },
             {
               "year": 2021,
-              "zscore": 0.4504,
+              "zscore": 0.4943,
               "topkMean": 0.2152,
-              "controlZscore": -0.6153,
+              "controlZscore": -0.6374,
               "nChunks": 33,
               "thin": false
             },
             {
               "year": 2022,
-              "zscore": 1.2609,
+              "zscore": 1.316,
               "topkMean": 0.267,
-              "controlZscore": -0.3453,
+              "controlZscore": -0.3611,
               "nChunks": 166,
               "thin": false
             },
             {
               "year": 2023,
-              "zscore": 0.4965,
+              "zscore": 0.541,
               "topkMean": 0.2181,
-              "controlZscore": 1.1543,
+              "controlZscore": 1.1737,
               "nChunks": 196,
               "thin": false
             },
             {
               "year": 2024,
-              "zscore": 0.6938,
+              "zscore": 0.7411,
               "topkMean": 0.2307,
-              "controlZscore": 0.1583,
+              "controlZscore": 0.1544,
               "nChunks": 92,
               "thin": false
             },
             {
               "year": 2025,
-              "zscore": -0.4432,
+              "zscore": -0.4116,
               "topkMean": 0.1581,
-              "controlZscore": -0.4604,
+              "controlZscore": -0.4789,
               "nChunks": 32,
               "thin": false
             },
             {
               "year": 2026,
-              "zscore": -1.8982,
-              "topkMean": 0.0652,
-              "controlZscore": -1.6057,
-              "nChunks": 4,
-              "thin": true
+              "zscore": -1.7627,
+              "topkMean": 0.073,
+              "controlZscore": -1.6447,
+              "nChunks": 6,
+              "thin": false
             }
           ],
           "worldChanging": [
             {
+              "year": 2001,
+              "zscore": -1.7428,
+              "topkMean": 0.1263,
+              "nChunks": 61,
+              "thin": false,
+              "control": 0.1544,
+              "quote": "We had hoped to share with you our policies and actions on these issues and to explore how we could work together to achieve those things to which I think we may both be committed."
+            },
+            {
               "year": 2005,
-              "zscore": -1.7821,
+              "zscore": -1.604,
               "topkMean": 0.1333,
               "nChunks": 24,
               "thin": false,
-              "control": -0.0426,
+              "control": -0.0513,
               "quote": "The Foundation is dedicated to creating hope, discovery, and opportunity in communities where Starbucks lives and works."
             },
             {
               "year": 2006,
-              "zscore": -0.8214,
+              "zscore": -0.6946,
               "topkMean": 0.1793,
               "nChunks": 39,
               "thin": false,
-              "control": 3.0691,
+              "control": 3.1334,
               "quote": "Embrace diversity and build bridges of understanding among youth of diverse ethnic, racial and socio-economic backgrounds."
             },
             {
               "year": 2007,
-              "zscore": -1.3963,
+              "zscore": -1.2388,
               "topkMean": 0.1518,
               "nChunks": 34,
               "thin": false,
-              "control": 0.7992,
+              "control": 0.8103,
               "quote": "\"The greatest challenge facing public education is not what we teach, but rather, how we inspire."
             },
             {
               "year": 2008,
-              "zscore": -2.185,
+              "zscore": -1.9854,
               "topkMean": 0.1141,
               "nChunks": 15,
               "thin": false,
-              "control": -0.1048,
+              "control": -0.1149,
               "quote": "Preparing our preschoolers All children should have equal access to literacy and social skill development activities, regardless of their socioeconomic or parental conditions."
             },
             {
               "year": 2010,
-              "zscore": 0.4843,
+              "zscore": 0.5414,
               "topkMean": 0.2418,
               "nChunks": 87,
               "thin": false,
-              "control": 0.677,
+              "control": 0.6852,
               "quote": "We can all pitch in to help better our world."
             },
             {
               "year": 2011,
-              "zscore": -0.3349,
+              "zscore": -0.2341,
               "topkMean": 0.2026,
               "nChunks": 45,
               "thin": false,
-              "control": -0.254,
+              "control": -0.2676,
               "quote": "As good neighbors we get involved with local efforts to bring people together and create positive change whenever we can."
             },
             {
               "year": 2012,
-              "zscore": 1.0199,
+              "zscore": 1.0484,
               "topkMean": 0.2674,
               "nChunks": 52,
               "thin": false,
-              "control": -0.6031,
+              "control": -0.6249,
               "quote": "We are dedicated to encouraging young people to drive positive change in their communities."
             },
             {
               "year": 2013,
-              "zscore": 0.3329,
+              "zscore": 0.3981,
               "topkMean": 0.2346,
               "nChunks": 88,
               "thin": false,
-              "control": 0.0083,
+              "control": 0.0008,
               "quote": "Join us in making communities brighter, one neighborhood at a time."
             },
             {
               "year": 2014,
-              "zscore": 1.2137,
+              "zscore": 1.2319,
               "topkMean": 0.2767,
               "nChunks": 75,
               "thin": false,
-              "control": 0.785,
+              "control": 0.7957,
               "quote": "We believe we can all become a part of something bigger and inspire positive change in the world around us."
             },
             {
               "year": 2015,
-              "zscore": 0.7013,
+              "zscore": 0.7469,
               "topkMean": 0.2522,
               "nChunks": 228,
               "thin": false,
-              "control": 0.543,
+              "control": 0.5481,
               "quote": "Join us in our journey to inspire and nurture the human spirit."
             },
             {
               "year": 2016,
-              "zscore": 0.1975,
+              "zscore": 0.2699,
               "topkMean": 0.2281,
               "nChunks": 42,
               "thin": false,
-              "control": 0.0237,
+              "control": 0.0166,
               "quote": "Join us in our journey to inspire and nurture the human spirit."
             },
             {
               "year": 2017,
-              "zscore": 1.3362,
+              "zscore": 1.3478,
               "topkMean": 0.2826,
               "nChunks": 43,
               "thin": false,
-              "control": -0.205,
+              "control": -0.2174,
               "quote": "We believe we can all become a part of something bigger and inspire positive change in the world around us."
             },
             {
               "year": 2018,
-              "zscore": 0.3425,
+              "zscore": 0.4072,
               "topkMean": 0.235,
               "nChunks": 101,
               "thin": false,
-              "control": -0.0792,
+              "control": -0.0887,
               "quote": "Join us in our journey to inspire and nurture the human spirit."
             },
             {
               "year": 2019,
-              "zscore": 0.4112,
+              "zscore": 0.4723,
               "topkMean": 0.2383,
               "nChunks": 69,
               "thin": false,
-              "control": -1.1164,
+              "control": -1.1502,
               "quote": "Join us in our journey to inspire and nurture the human spirit."
             },
             {
               "year": 2020,
-              "zscore": 0.0999,
+              "zscore": 0.1775,
               "topkMean": 0.2234,
               "nChunks": 48,
               "thin": false,
-              "control": -1.7862,
+              "control": -1.8357,
               "quote": "Join us in our journey to inspire and nurture the human spirit."
             },
             {
               "year": 2021,
-              "zscore": 0.2592,
+              "zscore": 0.3284,
               "topkMean": 0.231,
               "nChunks": 40,
               "thin": false,
-              "control": -0.6153,
+              "control": -0.6374,
               "quote": "It is our vision that we will help inspire our partners, customers, suppliers and neighbors to create positive change."
             },
             {
               "year": 2022,
-              "zscore": 1.0097,
+              "zscore": 1.0388,
               "topkMean": 0.267,
               "nChunks": 168,
               "thin": false,
-              "control": -0.3453,
+              "control": -0.3611,
               "quote": "We’ll make a difference in this world."
             },
             {
               "year": 2023,
-              "zscore": 0.5527,
+              "zscore": 0.6062,
               "topkMean": 0.2451,
               "nChunks": 212,
               "thin": false,
-              "control": 1.1543,
+              "control": 1.1737,
               "quote": "We’re on a journey to create environments where everyone is welcome and feels a sense of belonging."
             },
             {
               "year": 2024,
-              "zscore": 0.5416,
+              "zscore": 0.5957,
               "topkMean": 0.2446,
               "nChunks": 110,
               "thin": false,
-              "control": 0.1583,
+              "control": 0.1544,
               "quote": "Join us as we raise awareness, foster inclusive spaces and celebrate the achievements that have helped shape our shared history, culture and future."
             },
             {
               "year": 2025,
-              "zscore": -0.2197,
+              "zscore": -0.1249,
               "topkMean": 0.2081,
               "nChunks": 58,
               "thin": false,
-              "control": -0.4604,
+              "control": -0.4789,
               "quote": "We’re investing in the well-being of those we connect with, working hard toward a better future."
             },
             {
               "year": 2026,
-              "zscore": -1.7631,
+              "zscore": -1.586,
               "topkMean": 0.1342,
-              "nChunks": 24,
+              "nChunks": 26,
               "thin": false,
-              "control": -1.6057,
+              "control": -1.6447,
               "quote": "Starbucks mission to inspire and nurture the human spirit extends well beyond our customers, partners and cafes."
             }
           ]
@@ -4430,328 +4589,362 @@
           "displayName": "Apple",
           "years": [
             {
+              "year": 1999,
+              "zscore": 0.4488,
+              "topkMean": 0.184,
+              "controlZscore": 0.1065,
+              "nChunks": 19,
+              "thin": false
+            },
+            {
+              "year": 2004,
+              "zscore": -1.0875,
+              "topkMean": 0.0572,
+              "controlZscore": -0.4205,
+              "nChunks": 9,
+              "thin": false
+            },
+            {
               "year": 2007,
-              "zscore": -1.0094,
+              "zscore": -0.9845,
               "topkMean": 0.0657,
-              "controlZscore": -0.7344,
+              "controlZscore": -0.6574,
               "nChunks": 6,
               "thin": false
             },
             {
               "year": 2008,
-              "zscore": -1.2038,
+              "zscore": -1.169,
               "topkMean": 0.0505,
-              "controlZscore": -0.6485,
+              "controlZscore": -0.5801,
               "nChunks": 4,
               "thin": true
             },
             {
               "year": 2009,
-              "zscore": -0.8875,
-              "topkMean": 0.0753,
-              "controlZscore": -1.2735,
-              "nChunks": 11,
-              "thin": false
+              "zscore": -1.5994,
+              "topkMean": 0.015,
+              "controlZscore": -2.2581,
+              "nChunks": 2,
+              "thin": true
             },
             {
               "year": 2010,
-              "zscore": -0.9428,
-              "topkMean": 0.071,
-              "controlZscore": -0.5319,
-              "nChunks": 6,
+              "zscore": -0.4995,
+              "topkMean": 0.1058,
+              "controlZscore": -0.4658,
+              "nChunks": 15,
               "thin": false
             },
             {
               "year": 2012,
-              "zscore": -0.6683,
-              "topkMean": 0.0925,
-              "controlZscore": 0.717,
-              "nChunks": 19,
+              "zscore": -0.5338,
+              "topkMean": 0.1029,
+              "controlZscore": 0.6477,
+              "nChunks": 34,
               "thin": false
             },
             {
               "year": 2013,
-              "zscore": -1.8207,
+              "zscore": -1.7546,
               "topkMean": 0.0022,
-              "controlZscore": -2.043,
+              "controlZscore": -1.834,
               "nChunks": 2,
               "thin": true
             },
             {
               "year": 2014,
-              "zscore": 1.0226,
+              "zscore": 0.9445,
               "topkMean": 0.2249,
-              "controlZscore": -0.2444,
-              "nChunks": 41,
+              "controlZscore": -0.002,
+              "nChunks": 53,
               "thin": false
             },
             {
               "year": 2015,
-              "zscore": 0.5806,
-              "topkMean": 0.1903,
-              "controlZscore": 1.2903,
-              "nChunks": 63,
+              "zscore": 1.3369,
+              "topkMean": 0.2573,
+              "controlZscore": 1.4234,
+              "nChunks": 151,
               "thin": false
             },
             {
               "year": 2016,
-              "zscore": 0.4315,
+              "zscore": 0.3834,
               "topkMean": 0.1786,
-              "controlZscore": -0.8602,
+              "controlZscore": -0.7705,
               "nChunks": 7,
               "thin": false
             },
             {
               "year": 2017,
-              "zscore": -1.6118,
+              "zscore": -1.5563,
               "topkMean": 0.0186,
-              "controlZscore": -0.4409,
+              "controlZscore": -0.3935,
               "nChunks": 2,
               "thin": true
             },
             {
               "year": 2018,
-              "zscore": 0.492,
+              "zscore": 0.4409,
               "topkMean": 0.1833,
-              "controlZscore": 0.122,
-              "nChunks": 48,
+              "controlZscore": 1.0208,
+              "nChunks": 63,
               "thin": false
             },
             {
               "year": 2019,
-              "zscore": -0.3401,
-              "topkMean": 0.1182,
-              "controlZscore": -0.0705,
-              "nChunks": 18,
+              "zscore": 0.147,
+              "topkMean": 0.1591,
+              "controlZscore": 0.2215,
+              "nChunks": 32,
               "thin": false
             },
             {
               "year": 2020,
-              "zscore": 0.7872,
-              "topkMean": 0.2065,
-              "controlZscore": 0.2311,
-              "nChunks": 40,
+              "zscore": 0.7321,
+              "topkMean": 0.2074,
+              "controlZscore": -0.0905,
+              "nChunks": 32,
               "thin": false
             },
             {
               "year": 2021,
-              "zscore": 1.4186,
+              "zscore": 1.3204,
               "topkMean": 0.2559,
-              "controlZscore": 1.8491,
+              "controlZscore": 1.6656,
               "nChunks": 143,
               "thin": false
             },
             {
               "year": 2022,
-              "zscore": 0.8592,
+              "zscore": 0.7894,
               "topkMean": 0.2121,
-              "controlZscore": 1.7597,
+              "controlZscore": 1.5853,
               "nChunks": 150,
               "thin": false
             },
             {
               "year": 2023,
-              "zscore": 0.9954,
+              "zscore": 0.9187,
               "topkMean": 0.2228,
-              "controlZscore": 1.2538,
+              "controlZscore": 1.1303,
               "nChunks": 132,
               "thin": false
             },
             {
               "year": 2024,
-              "zscore": -0.1688,
+              "zscore": -0.1864,
               "topkMean": 0.1316,
-              "controlZscore": -0.5759,
+              "controlZscore": -0.5149,
               "nChunks": 30,
               "thin": false
             },
             {
               "year": 2025,
-              "zscore": 0.8829,
+              "zscore": 0.8119,
               "topkMean": 0.214,
-              "controlZscore": 0.4712,
+              "controlZscore": 0.4266,
               "nChunks": 79,
               "thin": false
             },
             {
               "year": 2026,
-              "zscore": 1.1832,
+              "zscore": 1.097,
               "topkMean": 0.2375,
-              "controlZscore": -0.271,
+              "controlZscore": -0.2407,
               "nChunks": 21,
               "thin": false
             }
           ],
           "worldChanging": [
             {
+              "year": 1999,
+              "zscore": -0.1902,
+              "topkMean": 0.1557,
+              "nChunks": 11,
+              "thin": false,
+              "control": 0.1065,
+              "quote": "Contributing to public education and enriching children’s lives through technology and hands-on mentoring are Apple ideals."
+            },
+            {
+              "year": 2004,
+              "zscore": -1.5447,
+              "topkMean": 0.0572,
+              "nChunks": 9,
+              "thin": false,
+              "control": -0.4205,
+              "quote": "Apple supports all differences and groups on campus."
+            },
+            {
               "year": 2007,
-              "zscore": -1.4664,
+              "zscore": -1.4278,
               "topkMean": 0.0657,
               "nChunks": 6,
               "thin": false,
-              "control": -0.7344,
+              "control": -0.6574,
               "quote": "Apple celebrates diverse experiences and backgrounds."
             },
             {
               "year": 2008,
-              "zscore": -1.6741,
+              "zscore": -1.6372,
               "topkMean": 0.0505,
               "nChunks": 4,
               "thin": true,
-              "control": -0.6485,
+              "control": -0.5801,
               "quote": "Apple celebrates diverse experiences and backgrounds."
             },
             {
               "year": 2009,
-              "zscore": -1.3361,
-              "topkMean": 0.0753,
-              "nChunks": 8,
+              "zscore": -1.1556,
+              "topkMean": 0.0855,
+              "nChunks": 12,
               "thin": false,
-              "control": -1.2735,
-              "quote": "We've got an environment where you can make things happen."
+              "control": -2.2581,
+              "quote": "Apple celebrates diverse experiences and backgrounds."
             },
             {
               "year": 2010,
-              "zscore": -0.4118,
-              "topkMean": 0.143,
-              "nChunks": 2,
-              "thin": true,
-              "control": -0.5319,
+              "zscore": -0.8776,
+              "topkMean": 0.1058,
+              "nChunks": 9,
+              "thin": false,
+              "control": -0.4658,
               "quote": "Be part of something big We are committed to diversity."
             },
             {
               "year": 2012,
-              "zscore": -1.2025,
-              "topkMean": 0.0851,
-              "nChunks": 9,
+              "zscore": -0.9776,
+              "topkMean": 0.0985,
+              "nChunks": 17,
               "thin": false,
-              "control": 0.717,
+              "control": 0.6477,
               "quote": "And you can be part of it."
             },
             {
               "year": 2013,
-              "zscore": -1.8321,
-              "topkMean": 0.0389,
-              "nChunks": 2,
-              "thin": true,
-              "control": -2.043,
-              "quote": "We’re always looking for smart, engaging, supportive, and dynamic people who love Apple and our products."
+              "zscore": -1.1618,
+              "topkMean": 0.0851,
+              "nChunks": 10,
+              "thin": false,
+              "control": -1.834,
+              "quote": "And you can be part of it."
             },
             {
               "year": 2014,
-              "zscore": 0.7051,
+              "zscore": 0.7608,
               "topkMean": 0.2249,
-              "nChunks": 40,
+              "nChunks": 45,
               "thin": false,
-              "control": -0.2444,
+              "control": -0.002,
               "quote": "We know that each generation has a responsibility to build upon the gains of the past, expanding the rights and freedoms we enjoy to the many who are still striving for justice."
             },
             {
               "year": 2015,
-              "zscore": 0.7199,
-              "topkMean": 0.226,
-              "nChunks": 78,
+              "zscore": 1.2728,
+              "topkMean": 0.2621,
+              "nChunks": 145,
               "thin": false,
-              "control": 1.2903,
-              "quote": "We know that each generation has a responsibility to build upon the gains of the past, expanding the rights and freedoms we enjoy to the many who are still striving for justice."
+              "control": 1.4234,
+              "quote": "We believe in the power of education to go beyond the classroom."
             },
             {
               "year": 2016,
-              "zscore": 0.0898,
-              "topkMean": 0.1798,
-              "nChunks": 4,
-              "thin": true,
-              "control": -0.8602,
+              "zscore": -0.1985,
+              "topkMean": 0.1551,
+              "nChunks": 6,
+              "thin": false,
+              "control": -0.7705,
               "quote": "Join Apple, and help us leave the world better than we found it."
             },
             {
               "year": 2017,
-              "zscore": -0.3543,
+              "zscore": -0.307,
               "topkMean": 0.1473,
               "nChunks": 5,
               "thin": false,
-              "control": -0.4409,
+              "control": -0.3935,
               "quote": "Join Apple, and help us leave the world better than we found it."
             },
             {
               "year": 2018,
-              "zscore": 0.4661,
+              "zscore": 0.5198,
               "topkMean": 0.2074,
-              "nChunks": 45,
+              "nChunks": 58,
               "thin": false,
-              "control": 0.122,
+              "control": 1.0208,
               "quote": "Join Apple, and help us leave the world better than we found it."
             },
             {
               "year": 2019,
-              "zscore": 0.1903,
-              "topkMean": 0.1872,
-              "nChunks": 38,
+              "zscore": 0.2564,
+              "topkMean": 0.1882,
+              "nChunks": 47,
               "thin": false,
-              "control": -0.0705,
+              "control": 0.2215,
               "quote": "We have always believed education is the great equalizer."
             },
             {
               "year": 2020,
-              "zscore": 0.3724,
-              "topkMean": 0.2005,
-              "nChunks": 20,
+              "zscore": 0.5886,
+              "topkMean": 0.2124,
+              "nChunks": 22,
               "thin": false,
-              "control": 0.2311,
+              "control": -0.0905,
               "quote": "At Apple, we are committed to leaving the world better than we found it."
             },
             {
               "year": 2021,
-              "zscore": 1.4064,
+              "zscore": 1.4675,
               "topkMean": 0.2763,
-              "nChunks": 126,
+              "nChunks": 127,
               "thin": false,
-              "control": 1.8491,
+              "control": 1.6656,
               "quote": "At Apple, we are committed to leaving the world better than we found it."
             },
             {
               "year": 2022,
-              "zscore": 0.8622,
+              "zscore": 0.9191,
               "topkMean": 0.2364,
               "nChunks": 208,
               "thin": false,
-              "control": 1.7597,
+              "control": 1.5853,
               "quote": "Learn more about Apple and education Environment Our goal is to leave the planet better than we found it."
             },
             {
               "year": 2023,
-              "zscore": 0.7317,
+              "zscore": 0.7876,
               "topkMean": 0.2269,
               "nChunks": 232,
               "thin": false,
-              "control": 1.2538,
+              "control": 1.1303,
               "quote": "Occasions like these give us the opportunity to rally around important causes and make a positive impact."
             },
             {
               "year": 2024,
-              "zscore": 0.8936,
+              "zscore": 0.9507,
               "topkMean": 0.2387,
               "nChunks": 141,
               "thin": false,
-              "control": -0.5759,
+              "control": -0.5149,
               "quote": "Learn about Apple and education Environment Our goal is to leave the planet better than we found it."
             },
             {
               "year": 2025,
-              "zscore": 0.908,
+              "zscore": 0.9653,
               "topkMean": 0.2398,
               "nChunks": 156,
               "thin": false,
-              "control": 0.4712,
+              "control": 0.4266,
               "quote": "Learn about Apple and education Environment Our goal is to leave the planet better than we found it."
             },
             {
               "year": 2026,
-              "zscore": 0.9319,
+              "zscore": 0.9893,
               "topkMean": 0.2415,
               "nChunks": 47,
               "thin": false,
-              "control": -0.271,
+              "control": -0.2407,
               "quote": "Learn about Apple and education Environment Our goal is to leave the planet better than we found it."
             }
           ]
@@ -5004,14 +5197,14 @@
       "company": "amazon",
       "displayName": "Amazon",
       "peakYear": 2013,
-      "peakZscore": 1.3713,
+      "peakZscore": 1.5798,
       "peakQuote": {
         "text": "The most radical and transformative of inventions are often those that empower others to unleash their creativity — to pursue their dreams.",
         "heading": "",
         "score": 0.2663
       },
       "latestYear": 2026,
-      "latestZscore": 0.5811,
+      "latestZscore": 0.7741,
       "latestQuote": {
         "text": "Together initiatives We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways.",
         "heading": "Working at Amazon",
@@ -5076,14 +5269,14 @@
       "company": "netflix",
       "displayName": "Netflix",
       "peakYear": 2020,
-      "peakZscore": 1.351,
+      "peakZscore": 1.3579,
       "peakQuote": {
         "text": "Around the world, we live and create our culture together.",
         "heading": "Seeking Excellence",
         "score": 0.2189
       },
-      "latestYear": 2026,
-      "latestZscore": 0.3883,
+      "latestYear": 2025,
+      "latestZscore": 0.3905,
       "latestQuote": {
         "text": "But we're nowhere close to where we want to be in the future.",
         "heading": "Artistic Expression",
@@ -5220,14 +5413,14 @@
       "company": "basecamp",
       "displayName": "Basecamp",
       "peakYear": 2021,
-      "peakZscore": 2.0759,
+      "peakZscore": 1.8217,
       "peakQuote": {
         "text": "This is our life’s work — we’re in this for the long haul.",
         "heading": "It’s a promise to our customers",
         "score": 0.176
       },
       "latestYear": 2026,
-      "latestZscore": -0.5638,
+      "latestZscore": -0.0665,
       "latestQuote": {
         "text": "Hopefully it also offers a small peek at our culture.",
         "heading": "The 37signals Employee Handbook",
@@ -5238,14 +5431,14 @@
       "company": "salesforce",
       "displayName": "Salesforce",
       "peakYear": 2025,
-      "peakZscore": 1.7241,
+      "peakZscore": 1.6545,
       "peakQuote": {
         "text": "We believe in being better people for the planet and creating a better planet for all people.",
         "heading": "Earthforce",
         "score": 0.3467
       },
       "latestYear": 2026,
-      "latestZscore": 0.8261,
+      "latestZscore": 1.0246,
       "latestQuote": {
         "text": "We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality.",
         "heading": "Equality for all.",
@@ -5256,14 +5449,14 @@
       "company": "starbucks",
       "displayName": "Starbucks",
       "peakYear": 2014,
-      "peakZscore": 1.3074,
+      "peakZscore": 1.3631,
       "peakQuote": {
         "text": "We believe we can all become a part of something bigger and inspire positive change in the world around us.",
         "heading": "Connect To Something Bigger",
         "score": 0.426
       },
       "latestYear": 2026,
-      "latestZscore": -1.8982,
+      "latestZscore": -1.7627,
       "latestQuote": {
         "text": "Helping people thrive helps ensure the long-term sustainability of the premium products we provide.",
         "heading": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
@@ -5291,15 +5484,15 @@
     {
       "company": "apple",
       "displayName": "Apple",
-      "peakYear": 2021,
-      "peakZscore": 1.4186,
+      "peakYear": 2015,
+      "peakZscore": 1.3369,
       "peakQuote": {
-        "text": "At Apple, we’re committed to leaving the world better than we found it.",
-        "heading": "The values values we share at Apple inspire the work we share with everyone.",
-        "score": 0.3108
+        "text": "We believe in the power of education to go beyond the classroom.",
+        "heading": "Equipping schools with technology and knowledge through ConnectED.",
+        "score": 0.2701
       },
       "latestYear": 2026,
-      "latestZscore": 1.1832,
+      "latestZscore": 1.097,
       "latestQuote": {
         "text": "Learn about Apple and education Environment Our goal is to leave the planet better than we found it.",
         "heading": "Our values are part of everything built here — including careers.",
@@ -5327,6 +5520,24 @@
   ],
   "yearQuotes": [
     {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 1999,
+      "text": "As a pioneer in this new marketplace, we're building an important and lasting company--and making history while we do it.",
+      "heading": "",
+      "score": 0.1311,
+      "zscore": -0.6338
+    },
+    {
+      "company": "apple",
+      "displayName": "Apple",
+      "year": 1999,
+      "text": "They push the human race forward.",
+      "heading": "",
+      "score": 0.2594,
+      "zscore": 0.4488
+    },
+    {
       "company": "google",
       "displayName": "Google",
       "year": 1999,
@@ -5334,6 +5545,15 @@
       "heading": "Jobs @ Google",
       "score": 0.068,
       "zscore": -1.7426
+    },
+    {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2000,
+      "text": "This is your chance to make history.",
+      "heading": "",
+      "score": 0.2154,
+      "zscore": -0.2556
     },
     {
       "company": "google",
@@ -5345,6 +5565,24 @@
       "zscore": -0.8485
     },
     {
+      "company": "starbucks",
+      "displayName": "Starbucks",
+      "year": 2001,
+      "text": "We had hoped to share with you our policies and actions on these issues and to explore how we could work together to achieve those things to which I think we may both be committed.",
+      "heading": "",
+      "score": 0.1426,
+      "zscore": -0.9159
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2002,
+      "text": "It's a collection of 37 nuggets of online philosophy and design wisdom.",
+      "heading": "",
+      "score": 0.0567,
+      "zscore": -0.8613
+    },
+    {
       "company": "google",
       "displayName": "Google",
       "year": 2002,
@@ -5352,6 +5590,15 @@
       "heading": "",
       "score": 0.1579,
       "zscore": -1.0232
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2003,
+      "text": "Our obsession with simplicity and clarity in interface design is why we're called \"the masters par excellence of HTMinimaLism\" by the author of Fresh Styles for Web Designers , and the sites we've designed prove that usability can be elegant.",
+      "heading": "How is 37signals different than other web firms?",
+      "score": 0.0219,
+      "zscore": -1.7256
     },
     {
       "company": "google",
@@ -5363,6 +5610,33 @@
       "zscore": -0.9471
     },
     {
+      "company": "netflix",
+      "displayName": "Netflix",
+      "year": 2003,
+      "text": "No Due Dates! Over 15,000 Titles! No Commitments! Cancel Anytime.",
+      "heading": "",
+      "score": 0.0039,
+      "zscore": -1.0884
+    },
+    {
+      "company": "apple",
+      "displayName": "Apple",
+      "year": 2004,
+      "text": "Apple supports all differences and groups on campus.",
+      "heading": "",
+      "score": 0.0916,
+      "zscore": -1.0875
+    },
+    {
+      "company": "basecamp",
+      "displayName": "Basecamp",
+      "year": 2004,
+      "text": "New Architect magazine publishes Making Mistakes Well , our article on contingency design.",
+      "heading": "37signals Highlights",
+      "score": 0.0194,
+      "zscore": -2.1281
+    },
+    {
       "company": "google",
       "displayName": "Google",
       "year": 2004,
@@ -5370,6 +5644,24 @@
       "heading": "",
       "score": 0.2564,
       "zscore": 0.354
+    },
+    {
+      "company": "netflix",
+      "displayName": "Netflix",
+      "year": 2004,
+      "text": "The #1 Online DVD Rental Service with over 2,000,000 members!",
+      "heading": "",
+      "score": 0.0133,
+      "zscore": -0.9543
+    },
+    {
+      "company": "salesforce",
+      "displayName": "Salesforce",
+      "year": 2004,
+      "text": "We are one of the fastest growing Internet companies with more than 600 employees on our global team.",
+      "heading": "",
+      "score": 0.0123,
+      "zscore": -1.9285
     },
     {
       "company": "google",
@@ -5387,7 +5679,7 @@
       "text": "The #1 Online DVD Rental Service with more than 3,000,000 members!",
       "heading": "",
       "score": 0.0142,
-      "zscore": -0.9434
+      "zscore": -0.9414
     },
     {
       "company": "starbucks",
@@ -5396,7 +5688,7 @@
       "text": "The Foundation is dedicated to creating hope, discovery, and opportunity in communities where Starbucks lives and works.",
       "heading": "",
       "score": 0.2199,
-      "zscore": -0.8307
+      "zscore": -0.8045
     },
     {
       "company": "nvidia",
@@ -5414,7 +5706,7 @@
       "text": "With our innovative 1% model , we're integrating our business and our community (worldwide) by giving 1% each of our time, equity and profit.",
       "heading": "",
       "score": 0.1174,
-      "zscore": -0.9176
+      "zscore": -0.7228
     },
     {
       "company": "starbucks",
@@ -5423,7 +5715,7 @@
       "text": "Embrace diversity and build bridges of understanding among youth of diverse ethnic, racial and socio-economic backgrounds.",
       "heading": "",
       "score": 0.2255,
-      "zscore": -0.111
+      "zscore": -0.0748
     },
     {
       "company": "amazon",
@@ -5432,7 +5724,7 @@
       "text": "Bias for Action: We live in a time of unheralded revolution and insurmountable opportunity--provided we make every minute count.",
       "heading": "",
       "score": 0.1938,
-      "zscore": -0.4346
+      "zscore": -0.2617
     },
     {
       "company": "apple",
@@ -5441,7 +5733,7 @@
       "text": "Apple celebrates diverse experiences and backgrounds.",
       "heading": "Commitment to diversity",
       "score": 0.0987,
-      "zscore": -1.0094
+      "zscore": -0.9845
     },
     {
       "company": "google",
@@ -5468,7 +5760,7 @@
       "text": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities.",
       "heading": "What Makes Salesforce.com Different as an Employer?",
       "score": 0.1223,
-      "zscore": -0.8929
+      "zscore": -0.7006
     },
     {
       "company": "starbucks",
@@ -5477,7 +5769,7 @@
       "text": "\"The greatest challenge facing public education is not what we teach, but rather, how we inspire.",
       "heading": "",
       "score": 0.1655,
-      "zscore": -0.5417
+      "zscore": -0.5115
     },
     {
       "company": "amazon",
@@ -5486,7 +5778,7 @@
       "text": "It’s your day to be a part of something great.",
       "heading": "",
       "score": 0.2083,
-      "zscore": 0.5103
+      "zscore": 0.7018
     },
     {
       "company": "apple",
@@ -5495,7 +5787,7 @@
       "text": "Apple celebrates diverse experiences and backgrounds.",
       "heading": "Commitment to diversity",
       "score": 0.0987,
-      "zscore": -1.2038
+      "zscore": -1.169
     },
     {
       "company": "google",
@@ -5522,16 +5814,16 @@
       "text": "Preparing our preschoolers All children should have equal access to literacy and social skill development activities, regardless of their socioeconomic or parental conditions.",
       "heading": "",
       "score": 0.1352,
-      "zscore": -1.1326
+      "zscore": -1.1105
     },
     {
       "company": "apple",
       "displayName": "Apple",
       "year": 2009,
-      "text": "We've got an environment where you can make things happen.",
-      "heading": "",
-      "score": 0.0984,
-      "zscore": -0.8875
+      "text": "Are you ready to grow with us?",
+      "heading": "Apple Store",
+      "score": 0.0787,
+      "zscore": -1.5994
     },
     {
       "company": "basecamp",
@@ -5540,7 +5832,7 @@
       "text": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done.",
       "heading": "We make it easier to get work done",
       "score": 0.0823,
-      "zscore": -1.2091
+      "zscore": -0.5281
     },
     {
       "company": "google",
@@ -5567,7 +5859,7 @@
       "text": "Be part of something big We are committed to diversity.",
       "heading": "",
       "score": 0.1989,
-      "zscore": -0.9428
+      "zscore": -0.4995
     },
     {
       "company": "basecamp",
@@ -5576,7 +5868,7 @@
       "text": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done.",
       "heading": "We make it easier to get work done",
       "score": 0.0823,
-      "zscore": -1.7765
+      "zscore": -0.934
     },
     {
       "company": "google",
@@ -5630,7 +5922,7 @@
       "text": "We can all pitch in to help better our world.",
       "heading": "How You Can Help",
       "score": 0.3035,
-      "zscore": 0.8672
+      "zscore": 0.9169
     },
     {
       "company": "amazon",
@@ -5639,7 +5931,7 @@
       "text": "We're making history and the good news is that we've only just begun.",
       "heading": "Build your future with Amazon!",
       "score": 0.2306,
-      "zscore": 0.9907
+      "zscore": 1.1917
     },
     {
       "company": "github",
@@ -5681,10 +5973,10 @@
       "company": "netflix",
       "displayName": "Netflix",
       "year": 2011,
-      "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough that you can make a difference, but big enough that we can transform an industry When you say where you work, your friends will remark \"oh, I love Netflix!\"",
+      "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
       "heading": "Netflix Business Opportunity",
       "score": -0.0516,
-      "zscore": -1.872
+      "zscore": -1.881
     },
     {
       "company": "palantir",
@@ -5702,7 +5994,7 @@
       "text": "Salesforce.com and our global team of employees are transforming the way companies are run and careers are made.",
       "heading": "Best technology, best employees, best work of your career.",
       "score": 0.0898,
-      "zscore": -1.8
+      "zscore": -1.5169
     },
     {
       "company": "shopify",
@@ -5720,7 +6012,7 @@
       "text": "See what we accomplished last year and what we hope to do going forward.",
       "heading": "Being a Responsible Company",
       "score": 0.1324,
-      "zscore": -1.3121
+      "zscore": -1.2925
     },
     {
       "company": "uber",
@@ -5738,7 +6030,7 @@
       "text": "And you can be part of it.",
       "heading": "",
       "score": 0.1166,
-      "zscore": -0.6683
+      "zscore": -0.5338
     },
     {
       "company": "github",
@@ -5792,7 +6084,7 @@
       "text": "We’re transforming the way companies are run and careers are made.",
       "heading": "Find your #dreamjob here",
       "score": 0.1592,
-      "zscore": -1.0496
+      "zscore": -0.8416
     },
     {
       "company": "shopify",
@@ -5810,7 +6102,7 @@
       "text": "We are dedicated to encouraging young people to drive positive change in their communities.",
       "heading": "Youth Engagement",
       "score": 0.2984,
-      "zscore": 1.2685
+      "zscore": 1.3237
     },
     {
       "company": "stripe",
@@ -5828,7 +6120,7 @@
       "text": "The most radical and transformative of inventions are often those that empower others to unleash their creativity — to pursue their dreams.",
       "heading": "",
       "score": 0.2663,
-      "zscore": 1.3713
+      "zscore": 1.5798
     },
     {
       "company": "apple",
@@ -5837,7 +6129,7 @@
       "text": "Which means there’s a good chance you can live and work in a city you love.",
       "heading": "400 Apple Retail Stores worldwide (and counting).",
       "score": 0.0188,
-      "zscore": -1.8207
+      "zscore": -1.7546
     },
     {
       "company": "coinbase",
@@ -5891,7 +6183,7 @@
       "text": "We are connecting people with movies and television globally.",
       "heading": "Join our team",
       "score": 0.135,
-      "zscore": -0.2868
+      "zscore": -0.2879
     },
     {
       "company": "palantir",
@@ -5909,7 +6201,7 @@
       "text": "We’re transforming the way companies are run and careers are made.",
       "heading": "Find your #dreamjob here",
       "score": 0.1592,
-      "zscore": -1.1969
+      "zscore": -0.9742
     },
     {
       "company": "starbucks",
@@ -5918,7 +6210,7 @@
       "text": "Join us in making communities brighter, one neighborhood at a time.",
       "heading": "Give back to your community.",
       "score": 0.2901,
-      "zscore": 0.7538
+      "zscore": 0.8019
     },
     {
       "company": "stripe",
@@ -5936,7 +6228,7 @@
       "text": "Play the amazon.jobs game, and guess what words really inspire us every day.",
       "heading": "Amazon.jobs-play the game!",
       "score": 0.0653,
-      "zscore": -1.1451
+      "zscore": -0.9861
     },
     {
       "company": "apple",
@@ -5945,7 +6237,7 @@
       "text": "We know that each generation has a responsibility to build upon the gains of the past, expanding the rights and freedoms we enjoy to the many who are still striving for justice.",
       "heading": "A Message from Tim Cook.",
       "score": 0.2683,
-      "zscore": 1.0226
+      "zscore": 0.9445
     },
     {
       "company": "basecamp",
@@ -5954,7 +6246,7 @@
       "text": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning.",
       "heading": "Giving a damn.",
       "score": 0.1078,
-      "zscore": 0.0269
+      "zscore": 0.356
     },
     {
       "company": "coinbase",
@@ -6017,7 +6309,7 @@
       "text": "We connect people with movies and television globally.",
       "heading": "Netflix Culture",
       "score": 0.096,
-      "zscore": -0.2252
+      "zscore": -0.2261
     },
     {
       "company": "salesforce",
@@ -6026,7 +6318,7 @@
       "text": "We leverage their skills, creativity, and experience to address issues our community faces, like high drop-out rates and a wide digital divide.” - Sebastian A., LatinoForce Founding Member",
       "heading": "LatinoForce",
       "score": 0.1716,
-      "zscore": -0.1937
+      "zscore": -0.0713
     },
     {
       "company": "shopify",
@@ -6044,7 +6336,7 @@
       "text": "We believe we can all become a part of something bigger and inspire positive change in the world around us.",
       "heading": "Connect To Something Bigger",
       "score": 0.426,
-      "zscore": 1.3074
+      "zscore": 1.3631
     },
     {
       "company": "stripe",
@@ -6077,10 +6369,10 @@
       "company": "apple",
       "displayName": "Apple",
       "year": 2015,
-      "text": "When we work hard to encourage people to see things differently, the ideas they contribute may change the world.",
-      "heading": "Tim Cook",
-      "score": 0.2102,
-      "zscore": 0.5806
+      "text": "We believe in the power of education to go beyond the classroom.",
+      "heading": "Equipping schools with technology and knowledge through ConnectED.",
+      "score": 0.2701,
+      "zscore": 1.3369
     },
     {
       "company": "github",
@@ -6134,7 +6426,7 @@
       "text": "BOLD stands for Building Opportunities for Leadership & Diversity, and members of this group come together to support community programs like Black Girls Code and Year Up , and to volunteer, network, and celebrate success.",
       "heading": "BoldForce",
       "score": 0.131,
-      "zscore": -0.6927
+      "zscore": -0.5204
     },
     {
       "company": "shopify",
@@ -6152,7 +6444,7 @@
       "text": "We believe this is the beginning of the end of AIDS.",
       "heading": "Together, we're making a difference.",
       "score": 0.2664,
-      "zscore": 0.8575
+      "zscore": 0.907
     },
     {
       "company": "stripe",
@@ -6188,7 +6480,7 @@
       "text": "We are a company of builders who bring varying backgrounds, ideas, and points of view to inventing on behalf of our customers.",
       "heading": "Diversity at Amazon",
       "score": 0.1255,
-      "zscore": -0.0674
+      "zscore": 0.1128
     },
     {
       "company": "apple",
@@ -6197,7 +6489,7 @@
       "text": "Join Apple, and help us leave the world better than we found it.",
       "heading": "Do your life’s best work here. With the whole world watching.",
       "score": 0.3091,
-      "zscore": 0.4315
+      "zscore": 0.3834
     },
     {
       "company": "basecamp",
@@ -6206,7 +6498,7 @@
       "text": "They remind us where we’ve been, how we got here, and point to where we’re going.",
       "heading": "Until the End of the Internet",
       "score": 0.1337,
-      "zscore": 0.8573
+      "zscore": 0.95
     },
     {
       "company": "github",
@@ -6260,7 +6552,7 @@
       "text": "Together, with our whole Ohana made up of our employees, customers, partners and communities, we are working to improve the state of the world.",
       "heading": "#SalesforceOhana",
       "score": 0.2337,
-      "zscore": 0.5735
+      "zscore": 0.619
     },
     {
       "company": "shopify",
@@ -6278,7 +6570,7 @@
       "text": "Join us in our journey to inspire and nurture the human spirit.",
       "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
       "score": 0.2764,
-      "zscore": 0.4503
+      "zscore": 0.4943
     },
     {
       "company": "stripe",
@@ -6314,7 +6606,7 @@
       "text": "The \"Black to the Future\" event brought together community members, developers, designers, data scientists, and local officials to imagine and build a more perfect future.",
       "heading": "Hacking a better future",
       "score": 0.2613,
-      "zscore": 1.23
+      "zscore": 1.4358
     },
     {
       "company": "apple",
@@ -6323,7 +6615,7 @@
       "text": "So whether you’re analytical or creative, tech savvy or a people person, the Apple Store provides an ideal opportunity to challenge yourself.",
       "heading": "Work where extraordinary happens.",
       "score": 0.02,
-      "zscore": -1.6118
+      "zscore": -1.5563
     },
     {
       "company": "basecamp",
@@ -6332,7 +6624,7 @@
       "text": "There are few better ways to expand your horizons and grow as a person than to put yourself in the company of others with different backgrounds, experiences and identities.",
       "heading": "Who you are",
       "score": 0.1531,
-      "zscore": 0.6016
+      "zscore": 0.7671
     },
     {
       "company": "coinbase",
@@ -6377,7 +6669,7 @@
       "text": "Around the world, we live and create our culture together.",
       "heading": "Seeking Excellence",
       "score": 0.2189,
-      "zscore": 1.1846
+      "zscore": 1.1907
     },
     {
       "company": "palantir",
@@ -6395,7 +6687,7 @@
       "text": "“Our higher purpose is to drive the Age of Equality.”",
       "heading": "Salesforce Welcomes All",
       "score": 0.2809,
-      "zscore": 1.0365
+      "zscore": 1.0357
     },
     {
       "company": "shopify",
@@ -6413,7 +6705,7 @@
       "text": "So it is our vision that together we will elevate our partners, customers, suppliers and neighbors to create positive change.",
       "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
       "score": 0.2434,
-      "zscore": 0.3341
+      "zscore": 0.3764
     },
     {
       "company": "stripe",
@@ -6440,7 +6732,7 @@
       "text": "Since then, we have expanded to create the best-selling e-reader family in the world.",
       "heading": "Amazon Devices",
       "score": 0.0794,
-      "zscore": -1.0498
+      "zscore": -0.889
     },
     {
       "company": "apple",
@@ -6449,7 +6741,7 @@
       "text": "We have always believed education is the great equalizer.",
       "heading": "A more diverse future begins with opportunities in education.",
       "score": 0.2338,
-      "zscore": 0.492
+      "zscore": 0.4409
     },
     {
       "company": "basecamp",
@@ -6458,7 +6750,7 @@
       "text": "We all love sharing what we learn, too.",
       "heading": "Meet the team.",
       "score": 0.0789,
-      "zscore": -0.8292
+      "zscore": -0.2564
     },
     {
       "company": "coinbase",
@@ -6521,7 +6813,7 @@
       "text": "So we foster freedom and empowerment wherever we can.",
       "heading": "Freedom & Responsibility",
       "score": 0.197,
-      "zscore": 1.2913
+      "zscore": 1.2979
     },
     {
       "company": "palantir",
@@ -6539,7 +6831,7 @@
       "text": "We believe that businesses can be powerful platforms for social change and that our higher purpose is to drive Equality for all.",
       "heading": "Together, we can reach Equality for all.",
       "score": 0.2657,
-      "zscore": 1.0965
+      "zscore": 1.0897
     },
     {
       "company": "shopify",
@@ -6566,7 +6858,7 @@
       "text": "Join us in our journey to inspire and nurture the human spirit.",
       "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
       "score": 0.2764,
-      "zscore": 0.5792
+      "zscore": 0.6249
     },
     {
       "company": "stripe",
@@ -6602,7 +6894,7 @@
       "text": "Our mission is to be Earth's most customer-centric company.",
       "heading": "Come build the future with us",
       "score": 0.1154,
-      "zscore": -1.8138
+      "zscore": -1.668
     },
     {
       "company": "apple",
@@ -6611,7 +6903,7 @@
       "text": "Join us and you’ll do the best work of your life — and make a difference in other people’s lives.",
       "heading": "Do more than you ever thought possible. Have more impact than you ever imagined.",
       "score": 0.2098,
-      "zscore": -0.3401
+      "zscore": 0.147
     },
     {
       "company": "basecamp",
@@ -6620,7 +6912,7 @@
       "text": "Having a chat room where you can just say good morning, let people know you’re out for lunch, and generally just feel part of something is a powerful counter to cabin fever.",
       "heading": "4. A sense of belonging.",
       "score": 0.1178,
-      "zscore": 0.2457
+      "zscore": 0.5126
     },
     {
       "company": "coinbase",
@@ -6671,10 +6963,10 @@
       "company": "netflix",
       "displayName": "Netflix",
       "year": 2019,
-      "text": "We want to entertain everyone, and make the world smile.",
-      "heading": "Netflix Culture",
-      "score": 0.1853,
-      "zscore": 0.2908
+      "text": "We suck compared to how great we want to become.",
+      "heading": "Dream Team",
+      "score": 0.1108,
+      "zscore": 0.1414
     },
     {
       "company": "salesforce",
@@ -6683,7 +6975,7 @@
       "text": "“ Inequality, in all its forms — gender, LGBTQ, racial, disability, or otherwise — is an issue that every company must address for their own benefit and to create a better world.",
       "heading": "We are committed to Equality for all.",
       "score": 0.1575,
-      "zscore": -1.0164
+      "zscore": -0.8117
     },
     {
       "company": "shopify",
@@ -6710,7 +7002,7 @@
       "text": "Being present, connecting with transparency, dignity and respect.",
       "heading": "Expect more than coffee.",
       "score": 0.1276,
-      "zscore": -1.5693
+      "zscore": -1.5533
     },
     {
       "company": "stripe",
@@ -6746,7 +7038,7 @@
       "text": "At Apple, we are committed to leaving the world better than we found it.",
       "heading": "Join a company with business practices as innovative as its products.",
       "score": 0.3153,
-      "zscore": 0.7872
+      "zscore": 0.7321
     },
     {
       "company": "basecamp",
@@ -6755,7 +7047,7 @@
       "text": "We now have a shared truth.",
       "heading": "Whenever relevant: Announcements",
       "score": 0.1549,
-      "zscore": 0.8832
+      "zscore": 0.9685
     },
     {
       "company": "coinbase",
@@ -6827,7 +7119,7 @@
       "text": "Around the world, we live and create our culture together.",
       "heading": "Seeking Excellence",
       "score": 0.2189,
-      "zscore": 1.351
+      "zscore": 1.3579
     },
     {
       "company": "salesforce",
@@ -6836,7 +7128,7 @@
       "text": "We believe that businesses can be powerful platforms for social change and that it is our responsibility to further Equality for all.",
       "heading": "Building a Workplace That Reflects Society",
       "score": 0.2405,
-      "zscore": 0.9822
+      "zscore": 0.9868
     },
     {
       "company": "shopify",
@@ -6863,7 +7155,7 @@
       "text": "That’s why we believe we have a responsibility to advocate both internal and public policies that support the health of our business, our partners (employees) and the communities we serve.",
       "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
       "score": 0.1103,
-      "zscore": -1.4809
+      "zscore": -1.4636
     },
     {
       "company": "stripe",
@@ -6890,7 +7182,7 @@
       "text": "At Apple, we’re committed to leaving the world better than we found it.",
       "heading": "The values values we share at Apple inspire the work we share with everyone.",
       "score": 0.3108,
-      "zscore": 1.4186
+      "zscore": 1.3204
     },
     {
       "company": "basecamp",
@@ -6899,7 +7191,7 @@
       "text": "This is our life’s work — we’re in this for the long haul.",
       "heading": "It’s a promise to our customers",
       "score": 0.176,
-      "zscore": 2.0759
+      "zscore": 1.8217
     },
     {
       "company": "coinbase",
@@ -6962,7 +7254,7 @@
       "text": "Over the following decades, Streaming TV will replace linear, and we hope to keep leading by offering an amazing entertainment experience.",
       "heading": "Streaming entertainment. Global original content. Product personalization.",
       "score": 0.0696,
-      "zscore": -0.7683
+      "zscore": -0.7718
     },
     {
       "company": "palantir",
@@ -6998,7 +7290,7 @@
       "text": "We’re investing in the well-being of those we connect with, working hard toward a better future.",
       "heading": "<strong>PUTTING PEOPLE FIRST</strong>",
       "score": 0.2435,
-      "zscore": 0.4504
+      "zscore": 0.4943
     },
     {
       "company": "stripe",
@@ -7025,7 +7317,7 @@
       "text": "Improving lives is great, but helping to save lives is even better.",
       "heading": "Think outside the screen.",
       "score": 0.2263,
-      "zscore": 0.8592
+      "zscore": 0.7894
     },
     {
       "company": "basecamp",
@@ -7034,7 +7326,7 @@
       "text": "This is where we summarize and celebrate the work that’s been done.",
       "heading": "Communication",
       "score": 0.108,
-      "zscore": 0.4709
+      "zscore": 0.6736
     },
     {
       "company": "coinbase",
@@ -7094,10 +7386,10 @@
       "company": "netflix",
       "displayName": "Netflix",
       "year": 2022,
-      "text": "Netflix has more than 220 million active members who perform a variety of actions throughout each session, ranging from renaming a profile to watchi...",
-      "heading": "Intro",
-      "score": 0.0014,
-      "zscore": -1.1181
+      "text": "We do not seek to preserve our culture—we seek to improve it.",
+      "heading": "Seeking Excellence to Drive Success",
+      "score": 0.1754,
+      "zscore": 1.0611
     },
     {
       "company": "palantir",
@@ -7115,7 +7407,7 @@
       "text": "We believe that businesses can be powerful platforms for social change, and that it is our responsibility to further equality for all.",
       "heading": "Building a Workplace That Reflects Society",
       "score": 0.252,
-      "zscore": 0.4025
+      "zscore": 0.4652
     },
     {
       "company": "shopify",
@@ -7142,7 +7434,7 @@
       "text": "We’ll make a difference in this world.",
       "heading": "",
       "score": 0.3115,
-      "zscore": 1.2609
+      "zscore": 1.316
     },
     {
       "company": "stripe",
@@ -7169,7 +7461,7 @@
       "text": "Learn more Amazon Fulfillment Center Tours We’ve paused in-person tours during the COVID-19 pandemic.",
       "heading": "Our Workplace",
       "score": 0.0841,
-      "zscore": -0.8333
+      "zscore": -0.6682
     },
     {
       "company": "apple",
@@ -7178,7 +7470,7 @@
       "text": "Occasions like these give us the opportunity to rally around important causes and make a positive impact.",
       "heading": "We come together to celebrate important cultural moments.",
       "score": 0.2515,
-      "zscore": 0.9954
+      "zscore": 0.9187
     },
     {
       "company": "basecamp",
@@ -7187,7 +7479,7 @@
       "text": "It’s been an incredible ride so far, and we have so many people to thank.",
       "heading": "Where we came from.",
       "score": 0.1189,
-      "zscore": 0.6052
+      "zscore": 0.7697
     },
     {
       "company": "coinbase",
@@ -7250,7 +7542,7 @@
       "text": "We help solve some of the world’s biggest challenges by creating the connections that help businesses, people, communities, and our planet thrive.",
       "heading": "Sparking change with innovation.",
       "score": 0.2379,
-      "zscore": 0.4515
+      "zscore": 0.5093
     },
     {
       "company": "shopify",
@@ -7277,7 +7569,7 @@
       "text": "Throughout our 51-year history we’ve been dedicated to our mission: With every cup, with every conversation, with every community – we nurture the limitless possibilities of human connection.",
       "heading": "Our Partners",
       "score": 0.2322,
-      "zscore": 0.4965
+      "zscore": 0.541
     },
     {
       "company": "stripe",
@@ -7298,13 +7590,22 @@
       "zscore": 0.2828
     },
     {
+      "company": "amazon",
+      "displayName": "Amazon",
+      "year": 2024,
+      "text": "Amazon’s culture of innovation and scale powers world-changing ideas and creates a safe, inclusive environment that allows employees to do their best work.",
+      "heading": "Get to know Amazon's workplace culture",
+      "score": 0.1075,
+      "zscore": -1.2885
+    },
+    {
       "company": "apple",
       "displayName": "Apple",
       "year": 2024,
       "text": "Explore a collaborative culture of inclusion, growth, and originality, supported by resources that make a difference in your life.",
       "heading": "Join our community and help define it.",
       "score": 0.1606,
-      "zscore": -0.1688
+      "zscore": -0.1864
     },
     {
       "company": "basecamp",
@@ -7313,7 +7614,7 @@
       "text": "There’s always more work to be done, always more initiatives to kick off, and always more improvement to be had.",
       "heading": "With managers of one",
       "score": 0.0567,
-      "zscore": -1.2317
+      "zscore": -0.5443
     },
     {
       "company": "coinbase",
@@ -7356,9 +7657,9 @@
       "displayName": "Netflix",
       "year": 2024,
       "text": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere.",
-      "heading": "Netflix Culture — The Best Work of Our Lives",
+      "heading": "The Best Work of Our Lives",
       "score": 0.1536,
-      "zscore": 0.7078
+      "zscore": 0.7115
     },
     {
       "company": "palantir",
@@ -7376,7 +7677,7 @@
       "text": "Join us in creating a better future of work that’s more connected, inclusive and flexible.",
       "heading": "Slack",
       "score": 0.2853,
-      "zscore": 0.6669
+      "zscore": 0.7031
     },
     {
       "company": "shopify",
@@ -7403,7 +7704,7 @@
       "text": "Join us as we raise awareness, foster inclusive spaces and celebrate the achievements that have helped shape our shared history, culture and future.",
       "heading": "Disability Pride Month",
       "score": 0.2676,
-      "zscore": 0.6938
+      "zscore": 0.7411
     },
     {
       "company": "stripe",
@@ -7430,7 +7731,7 @@
       "text": "Read more Inclusive Experiences and Technology We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways.",
       "heading": "",
       "score": 0.2065,
-      "zscore": 0.6605
+      "zscore": 0.855
     },
     {
       "company": "apple",
@@ -7439,7 +7740,7 @@
       "text": "Occasions like these give us the opportunity to rally around important causes and make a positive impact.",
       "heading": "We come together to celebrate important cultural moments.",
       "score": 0.2515,
-      "zscore": 0.8829
+      "zscore": 0.8119
     },
     {
       "company": "basecamp",
@@ -7448,7 +7749,7 @@
       "text": "If we remove the immediate impact, how do we think we’ll feel about this decision a year from now?",
       "heading": "Rules of thumb, and general philosophy",
       "score": 0.0921,
-      "zscore": -0.1563
+      "zscore": 0.225
     },
     {
       "company": "coinbase",
@@ -7514,6 +7815,15 @@
       "zscore": 2.3906
     },
     {
+      "company": "netflix",
+      "displayName": "Netflix",
+      "year": 2025,
+      "text": "But we're nowhere close to where we want to be in the future.",
+      "heading": "Artistic Expression",
+      "score": 0.136,
+      "zscore": 0.3905
+    },
+    {
       "company": "palantir",
       "displayName": "Palantir",
       "year": 2025,
@@ -7529,7 +7839,7 @@
       "text": "We believe in being better people for the planet and creating a better planet for all people.",
       "heading": "Earthforce",
       "score": 0.3467,
-      "zscore": 1.7241
+      "zscore": 1.6545
     },
     {
       "company": "shopify",
@@ -7556,7 +7866,7 @@
       "text": "Communities Uplifting our communities every day At Starbucks, we believe it is our responsibility to contribute positively to the communities we serve.",
       "heading": "2024 GLOBAL IMPACT REPORT",
       "score": 0.1922,
-      "zscore": -0.4432
+      "zscore": -0.4116
     },
     {
       "company": "amazon",
@@ -7565,7 +7875,7 @@
       "text": "Together initiatives We’re in this together—reaching across cultures—creating global tech innovations that bring us together in new and exciting ways.",
       "heading": "Working at Amazon",
       "score": 0.2439,
-      "zscore": 0.5811
+      "zscore": 0.7741
     },
     {
       "company": "apple",
@@ -7574,7 +7884,7 @@
       "text": "Learn about Apple and education Environment Our goal is to leave the planet better than we found it.",
       "heading": "Our values are part of everything built here — including careers.",
       "score": 0.2889,
-      "zscore": 1.1832
+      "zscore": 1.097
     },
     {
       "company": "basecamp",
@@ -7583,7 +7893,7 @@
       "text": "Hopefully it also offers a small peek at our culture.",
       "heading": "The 37signals Employee Handbook",
       "score": 0.1366,
-      "zscore": -0.5638
+      "zscore": -0.0665
     },
     {
       "company": "coinbase",
@@ -7631,15 +7941,6 @@
       "zscore": -0.778
     },
     {
-      "company": "netflix",
-      "displayName": "Netflix",
-      "year": 2026,
-      "text": "But we're nowhere close to where we want to be in the future.",
-      "heading": "Artistic Expression",
-      "score": 0.136,
-      "zscore": 0.3883
-    },
-    {
       "company": "palantir",
       "displayName": "Palantir",
       "year": 2026,
@@ -7655,7 +7956,7 @@
       "text": "We have a great opportunity to ensure every human being benefits from products, experiences, and policies that foster equality.",
       "heading": "Equality for all.",
       "score": 0.2967,
-      "zscore": 0.8261
+      "zscore": 1.0246
     },
     {
       "company": "shopify",
@@ -7682,7 +7983,7 @@
       "text": "Helping people thrive helps ensure the long-term sustainability of the premium products we provide.",
       "heading": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
       "score": 0.1322,
-      "zscore": -1.8982
+      "zscore": -1.7627
     },
     {
       "company": "stripe",

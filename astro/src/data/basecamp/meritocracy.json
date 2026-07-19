@@ -4,8 +4,106 @@
   "axis": "meritocracy",
   "years": [
     {
+      "year": 2002,
+      "zscore": -0.022,
+      "rawTopkMean": 0.4137,
+      "nChunks": 17,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We work with smart clients who understand that it's the customer, not org-charts or office politics, who matters most.",
+          "heading": "",
+          "score": 0.5226
+        },
+        {
+          "text": "We're a small, honest, agile team of experts with tons of experience (we've all been working on the web since 1995).",
+          "heading": "",
+          "score": 0.4496
+        },
+        {
+          "text": "We give all of our clients personal attention and are proud that 100% of our clients are references.",
+          "heading": "",
+          "score": 0.4204
+        },
+        {
+          "text": "These clients are hard to find, so when we get them we treat them well.",
+          "heading": "",
+          "score": 0.3498
+        },
+        {
+          "text": "About 37signals Q&A How is 37signals different than other web firms?",
+          "heading": "",
+          "score": 0.3261
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "zscore": -0.0402,
+      "rawTopkMean": 0.4122,
+      "nChunks": 11,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We work with smart clients who understand that it's the customer, not org-charts or office politics, who matters most.",
+          "heading": "How do I know if we're a good match?",
+          "score": 0.5226
+        },
+        {
+          "text": "We're a small, honest, agile team of experts with tons of experience (we've all been working on the web since 1995).",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.4496
+        },
+        {
+          "text": "We give all of our clients personal attention and are proud that 100% of our clients are references.",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.4204
+        },
+        {
+          "text": "These clients are hard to find, so when we get them we treat them well.",
+          "heading": "How do I know if we're a good match?",
+          "score": 0.3498
+        },
+        {
+          "text": "See what industry experts, clients, and others are saying about 37signals.",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.3187
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "zscore": -2.7739,
+      "rawTopkMean": 0.189,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "CommArts publishes our article on 37BetterFedEx (our proposed redesign of FedEx's online shipping form).",
+          "heading": "37signals Highlights",
+          "score": 0.2152
+        },
+        {
+          "text": "New Architect magazine publishes Making Mistakes Well , our article on contingency design.",
+          "heading": "37signals Highlights",
+          "score": 0.1889
+        },
+        {
+          "text": "Free Holiday E-Commerce Ideas from 37signals. 37signals' Design Not Found covered in this N.Y.",
+          "heading": "37signals Highlights",
+          "score": 0.1628
+        }
+      ]
+    },
+    {
       "year": 2009,
-      "zscore": -0.0513,
+      "zscore": 0.1621,
       "rawTopkMean": 0.4287,
       "nChunks": 28,
       "kUsed": 5,
@@ -41,7 +139,7 @@
     },
     {
       "year": 2010,
-      "zscore": -0.1152,
+      "zscore": 0.1116,
       "rawTopkMean": 0.4246,
       "nChunks": 3,
       "kUsed": 3,
@@ -67,7 +165,7 @@
     },
     {
       "year": 2014,
-      "zscore": 0.7413,
+      "zscore": 0.7879,
       "rawTopkMean": 0.4799,
       "nChunks": 19,
       "kUsed": 5,
@@ -103,7 +201,7 @@
     },
     {
       "year": 2016,
-      "zscore": 0.1897,
+      "zscore": 0.3524,
       "rawTopkMean": 0.4443,
       "nChunks": 37,
       "kUsed": 5,
@@ -139,7 +237,7 @@
     },
     {
       "year": 2017,
-      "zscore": 1.2433,
+      "zscore": 1.1843,
       "rawTopkMean": 0.5122,
       "nChunks": 20,
       "kUsed": 5,
@@ -175,7 +273,7 @@
     },
     {
       "year": 2018,
-      "zscore": 0.1969,
+      "zscore": 0.358,
       "rawTopkMean": 0.4447,
       "nChunks": 33,
       "kUsed": 5,
@@ -211,7 +309,7 @@
     },
     {
       "year": 2019,
-      "zscore": -1.0739,
+      "zscore": -0.6454,
       "rawTopkMean": 0.3628,
       "nChunks": 106,
       "kUsed": 5,
@@ -247,7 +345,7 @@
     },
     {
       "year": 2020,
-      "zscore": -0.3549,
+      "zscore": -0.0777,
       "rawTopkMean": 0.4092,
       "nChunks": 213,
       "kUsed": 5,
@@ -283,7 +381,7 @@
     },
     {
       "year": 2021,
-      "zscore": 0.4322,
+      "zscore": 0.5438,
       "rawTopkMean": 0.4599,
       "nChunks": 159,
       "kUsed": 5,
@@ -319,7 +417,7 @@
     },
     {
       "year": 2022,
-      "zscore": 2.0424,
+      "zscore": 1.8153,
       "rawTopkMean": 0.5638,
       "nChunks": 113,
       "kUsed": 5,
@@ -355,7 +453,7 @@
     },
     {
       "year": 2023,
-      "zscore": -0.675,
+      "zscore": -0.3304,
       "rawTopkMean": 0.3885,
       "nChunks": 115,
       "kUsed": 5,
@@ -391,7 +489,7 @@
     },
     {
       "year": 2024,
-      "zscore": 0.6084,
+      "zscore": 0.683,
       "rawTopkMean": 0.4713,
       "nChunks": 99,
       "kUsed": 5,
@@ -427,7 +525,7 @@
     },
     {
       "year": 2025,
-      "zscore": -1.2164,
+      "zscore": -0.7579,
       "rawTopkMean": 0.3536,
       "nChunks": 70,
       "kUsed": 5,
@@ -463,7 +561,7 @@
     },
     {
       "year": 2026,
-      "zscore": -1.9676,
+      "zscore": -1.351,
       "rawTopkMean": 0.3052,
       "nChunks": 36,
       "kUsed": 5,

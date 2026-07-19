@@ -2,133 +2,121 @@
 
 Open a sample across eras; confirm real careers content.
 
+## 2003
+- [20030207101225 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20030207101225/http://www.netflix.com:80/Jobs)
+- [20030621174500 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20030621174500/http://www.netflix.com:80/Jobs)
+- [20030801081810 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20030801081810/http://www.netflix.com:80/Jobs)
+- [20031202163854 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20031202163854/http://www.netflix.com:80/Jobs)
+
+## 2004
+- [20040215200851 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20040215200851/http://www.netflix.com:80/Jobs)
+- [20040402073704 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20040402073704/http://www.netflix.com:80/Jobs)
+- [20040813064159 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20040813064159/http://www.netflix.com:80/Jobs)
+- [20041001020439 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20041001020439/http://www.netflix.com:80/Jobs)
+
 ## 2005
-- [20050203013159 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20050203013159/http://www.netflix.com:80/Jobs)
-- [20050401012543 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20050401012543/http://www.netflix.com:80/Jobs)
-- [20050802235955 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20050802235955/http://www.netflix.com:80/Jobs)
-- [20051001004525 — http://jobs.netflix.com:80/](https://web.archive.org/web/20051001004525/http://jobs.netflix.com:80/)
+- [20051003221138 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20051003221138/http://www.netflix.com:80/Jobs)
+- [20051102074458 — http://jobs.netflix.com:80/](https://web.archive.org/web/20051102074458/http://jobs.netflix.com:80/)
+- [20051201032229 — http://jobs.netflix.com:80/](https://web.archive.org/web/20051201032229/http://jobs.netflix.com:80/)
 
 ## 2006
-- [20060204012229 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20060204012229/http://www.netflix.com:80/Jobs)
-- [20060406064323 — http://jobs.netflix.com:80/](https://web.archive.org/web/20060406064323/http://jobs.netflix.com:80/)
-- [20060811223731 — http://jobs.netflix.com:80/](https://web.archive.org/web/20060811223731/http://jobs.netflix.com:80/)
-- [20061027063947 — http://jobs.netflix.com:80/](https://web.archive.org/web/20061027063947/http://jobs.netflix.com:80/)
+- [20060204030630 — http://jobs.netflix.com:80/](https://web.archive.org/web/20060204030630/http://jobs.netflix.com:80/)
+- [20060613035701 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20060613035701/http://www.netflix.com:80/Jobs)
+- [20060821095352 — http://www.netflix.com:80/Jobs?](https://web.archive.org/web/20060821095352/http://www.netflix.com:80/Jobs?)
+- [20061029015454 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20061029015454/http://www.netflix.com:80/Jobs)
 
 ## 2007
-- [20070202010757 — http://www.netflix.com:80/Jobs?](https://web.archive.org/web/20070202010757/http://www.netflix.com:80/Jobs?)
-- [20070403073346 — http://jobs.netflix.com:80/](https://web.archive.org/web/20070403073346/http://jobs.netflix.com:80/)
-- [20070809200459 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20070809200459/http://www.netflix.com:80/Jobs)
-- [20071001023703 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20071001023703/http://www.netflix.com:80/Jobs)
+- [20070306150756 — http://jobs.netflix.com:80/](https://web.archive.org/web/20070306150756/http://jobs.netflix.com:80/)
+- [20070408070800 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20070408070800/http://www.netflix.com:80/Jobs)
+- [20070814003457 — http://jobs.netflix.com:80/](https://web.archive.org/web/20070814003457/http://jobs.netflix.com:80/)
+- [20071002041821 — http://jobs.netflix.com:80/](https://web.archive.org/web/20071002041821/http://jobs.netflix.com:80/)
 
 ## 2008
-- [20080113151011 — http://jobs.netflix.com:80/](https://web.archive.org/web/20080113151011/http://jobs.netflix.com:80/)
-- [20080517011515 — http://www.netflix.com/Jobs](https://web.archive.org/web/20080517011515/http://www.netflix.com/Jobs)
-- [20080706164840 — http://jobs.netflix.com/](https://web.archive.org/web/20080706164840/http://jobs.netflix.com/)
-- [20081005102130 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20081005102130/http://www.netflix.com:80/Jobs)
+- [20080113200124 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20080113200124/http://www.netflix.com:80/Jobs)
+- [20080913114057 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20080913114057/http://www.netflix.com:80/Jobs)
+- [20080913144023 — http://jobs.netflix.com:80/](https://web.archive.org/web/20080913144023/http://jobs.netflix.com:80/)
+- [20081014022928 — http://jobs.netflix.com:80/](https://web.archive.org/web/20081014022928/http://jobs.netflix.com:80/)
 
 ## 2009
-- [20090205225004 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20090205225004/http://www.netflix.com:80/Jobs)
-- [20090404131108 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20090404131108/http://www.netflix.com:80/Jobs)
-- [20090801021350 — http://www.netflix.com:80/Jobs?](https://web.archive.org/web/20090801021350/http://www.netflix.com:80/Jobs?)
-- [20091001194943 — http://www.netflix.com:80/Jobs?](https://web.archive.org/web/20091001194943/http://www.netflix.com:80/Jobs?)
+- [20090223191257 — http://jobs.netflix.com:80/](https://web.archive.org/web/20090223191257/http://jobs.netflix.com:80/)
+- [20090427034539 — http://jobs.netflix.com:80/](https://web.archive.org/web/20090427034539/http://jobs.netflix.com:80/)
+- [20090628131646 — http://jobs.netflix.com:80/](https://web.archive.org/web/20090628131646/http://jobs.netflix.com:80/)
+- [20090729072040 — http://jobs.netflix.com:80/](https://web.archive.org/web/20090729072040/http://jobs.netflix.com:80/)
 
 ## 2010
-- [20100206052717 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20100206052717/http://www.netflix.com:80/Jobs)
-- [20100403093316 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20100403093316/http://www.netflix.com:80/Jobs)
-- [20100814171429 — http://www.netflix.com:80/Jobs?](https://web.archive.org/web/20100814171429/http://www.netflix.com:80/Jobs?)
-- [20101006154252 — http://www.netflix.com:80/Jobs?](https://web.archive.org/web/20101006154252/http://www.netflix.com:80/Jobs?)
 
 ## 2011
-- [20110202111739 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20110202111739/http://www.netflix.com:80/Jobs)
-- [20110402234210 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20110402234210/http://www.netflix.com:80/Jobs)
-- [20110802014639 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20110802014639/http://www.netflix.com:80/Jobs)
-- [20111001053910 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20111001053910/http://www.netflix.com:80/Jobs)
 
 ## 2012
-- [20120101060952 — http://www.netflix.com:80/Jobs](https://web.archive.org/web/20120101060952/http://www.netflix.com:80/Jobs)
-- [20120201124037 — http://www2.netflix.com/Jobs](https://web.archive.org/web/20120201124037/http://www2.netflix.com/Jobs)
-- [20120326154542 — http://jobs.netflix.com:80/](https://web.archive.org/web/20120326154542/http://jobs.netflix.com:80/)
 
 ## 2013
-- [20130905084940 — http://jobs.netflix.com:80/](https://web.archive.org/web/20130905084940/http://jobs.netflix.com:80/)
-- [20131004140645 — http://jobs.netflix.com:80/](https://web.archive.org/web/20131004140645/http://jobs.netflix.com:80/)
-- [20131105072333 — http://jobs.netflix.com:80/](https://web.archive.org/web/20131105072333/http://jobs.netflix.com:80/)
 
 ## 2014
-- [20140104055023 — http://jobs.netflix.com:80/](https://web.archive.org/web/20140104055023/http://jobs.netflix.com:80/)
-- [20140403030005 — http://jobs.netflix.com:80/](https://web.archive.org/web/20140403030005/http://jobs.netflix.com:80/)
-- [20140802062459 — http://jobs.netflix.com/](https://web.archive.org/web/20140802062459/http://jobs.netflix.com/)
-- [20141004055511 — http://jobs.netflix.com:80/](https://web.archive.org/web/20141004055511/http://jobs.netflix.com:80/)
 
 ## 2015
-- [20150101080605 — http://jobs.netflix.com:80/](https://web.archive.org/web/20150101080605/http://jobs.netflix.com:80/)
-- [20150401212336 — https://jobs.netflix.com/](https://web.archive.org/web/20150401212336/https://jobs.netflix.com/)
-- [20150813132348 — https://jobs.netflix.com/](https://web.archive.org/web/20150813132348/https://jobs.netflix.com/)
-- [20151016004823 — https://jobs.netflix.com/](https://web.archive.org/web/20151016004823/https://jobs.netflix.com/)
 
 ## 2016
-- [20160202144109 — https://www.netflix.com/jobs](https://web.archive.org/web/20160202144109/https://www.netflix.com/jobs)
-- [20160305163703 — https://jobs.netflix.com/](https://web.archive.org/web/20160305163703/https://jobs.netflix.com/)
-- [20160623194646 — https://jobs.netflix.com/](https://web.archive.org/web/20160623194646/https://jobs.netflix.com/)
-- [20161020142352 — https://jobs.netflix.com/](https://web.archive.org/web/20161020142352/https://jobs.netflix.com/)
+- [20160208125542 — https://jobs.netflix.com/](https://web.archive.org/web/20160208125542/https://jobs.netflix.com/)
 
 ## 2017
-- [20170213185101 — https://jobs.netflix.com/](https://web.archive.org/web/20170213185101/https://jobs.netflix.com/)
-- [20170304202506 — https://jobs.netflix.com/](https://web.archive.org/web/20170304202506/https://jobs.netflix.com/)
-- [20170810090655 — https://jobs.netflix.com/](https://web.archive.org/web/20170810090655/https://jobs.netflix.com/)
-- [20171101234206 — https://jobs.netflix.com/culture/](https://web.archive.org/web/20171101234206/https://jobs.netflix.com/culture/)
+- [20170605110942 — https://jobs.netflix.com/](https://web.archive.org/web/20170605110942/https://jobs.netflix.com/)
+- [20170621204202 — https://jobs.netflix.com/culture](https://web.archive.org/web/20170621204202/https://jobs.netflix.com/culture)
+- [20170722231056 — https://jobs.netflix.com/culture](https://web.archive.org/web/20170722231056/https://jobs.netflix.com/culture)
+- [20171102000106 — http://jobs.netflix.com/](https://web.archive.org/web/20171102000106/http://jobs.netflix.com/)
 
 ## 2018
-- [20180202134307 — https://jobs.netflix.com/](https://web.archive.org/web/20180202134307/https://jobs.netflix.com/)
-- [20180402004838 — https://jobs.netflix.com/culture](https://web.archive.org/web/20180402004838/https://jobs.netflix.com/culture)
-- [20180801234110 — https://jobs.netflix.com/culture](https://web.archive.org/web/20180801234110/https://jobs.netflix.com/culture)
-- [20181003015645 — https://jobs.netflix.com/](https://web.archive.org/web/20181003015645/https://jobs.netflix.com/)
+- [20180206181615 — https://jobs.netflix.com/culture](https://web.archive.org/web/20180206181615/https://jobs.netflix.com/culture)
+- [20180403051214 — https://jobs.netflix.com/](https://web.archive.org/web/20180403051214/https://jobs.netflix.com/)
+- [20180719074933 — https://www.netflix.com/jobs](https://web.archive.org/web/20180719074933/https://www.netflix.com/jobs)
+- [20180803004537 — https://jobs.netflix.com/](https://web.archive.org/web/20180803004537/https://jobs.netflix.com/)
+- [20181008000351 — https://jobs.netflix.com/culture](https://web.archive.org/web/20181008000351/https://jobs.netflix.com/culture)
 
 ## 2019
-- [20190201124813 — https://jobs.netflix.com/culture](https://web.archive.org/web/20190201124813/https://jobs.netflix.com/culture)
-- [20190401043343 — https://jobs.netflix.com/](https://web.archive.org/web/20190401043343/https://jobs.netflix.com/)
-- [20190809095653 — https://jobs.netflix.com/](https://web.archive.org/web/20190809095653/https://jobs.netflix.com/)
-- [20191005131648 — https://jobs.netflix.com/](https://web.archive.org/web/20191005131648/https://jobs.netflix.com/)
+- [20190202145754 — https://jobs.netflix.com/](https://web.archive.org/web/20190202145754/https://jobs.netflix.com/)
+- [20190401204413 — https://jobs.netflix.com/culture](https://web.archive.org/web/20190401204413/https://jobs.netflix.com/culture)
+- [20190819183720 — https://jobs.netflix.com/culture](https://web.archive.org/web/20190819183720/https://jobs.netflix.com/culture)
+- [20191005231341 — https://jobs.netflix.com/culture](https://web.archive.org/web/20191005231341/https://jobs.netflix.com/culture)
 
 ## 2020
-- [20200213214417 — https://jobs.netflix.com/](https://web.archive.org/web/20200213214417/https://jobs.netflix.com/)
-- [20200401111344 — https://jobs.netflix.com/culture](https://web.archive.org/web/20200401111344/https://jobs.netflix.com/culture)
-- [20200802064649 — https://jobs.netflix.com/](https://web.archive.org/web/20200802064649/https://jobs.netflix.com/)
-- [20201003144646 — https://jobs.netflix.com/culture](https://web.archive.org/web/20201003144646/https://jobs.netflix.com/culture)
+- [20200109082242 — https://jobs.netflix.com/culture](https://web.archive.org/web/20200109082242/https://jobs.netflix.com/culture)
+- [20200402142215 — https://jobs.netflix.com/](https://web.archive.org/web/20200402142215/https://jobs.netflix.com/)
+- [20200806060420 — https://jobs.netflix.com/culture](https://web.archive.org/web/20200806060420/https://jobs.netflix.com/culture)
+- [20201007003459 — https://jobs.netflix.com/](https://web.archive.org/web/20201007003459/https://jobs.netflix.com/)
 
 ## 2021
-- [20210203111521 — https://jobs.netflix.com/](https://web.archive.org/web/20210203111521/https://jobs.netflix.com/)
-- [20210402042424 — https://jobs.netflix.com/](https://web.archive.org/web/20210402042424/https://jobs.netflix.com/)
-- [20210802043735 — https://jobs.netflix.com/culture](https://web.archive.org/web/20210802043735/https://jobs.netflix.com/culture)
-- [20211002204745 — https://jobs.netflix.com/](https://web.archive.org/web/20211002204745/https://jobs.netflix.com/)
+- [20210226045033 — https://www.jobs.netflix.com/culture](https://web.archive.org/web/20210226045033/https://www.jobs.netflix.com/culture)
+- [20210408053453 — https://jobs.netflix.com/culture](https://web.archive.org/web/20210408053453/https://jobs.netflix.com/culture)
+- [20210805171624 — https://jobs.netflix.com/](https://web.archive.org/web/20210805171624/https://jobs.netflix.com/)
+- [20211009134141 — https://jobs.netflix.com/culture](https://web.archive.org/web/20211009134141/https://jobs.netflix.com/culture)
 
 ## 2022
-- [20220201021105 — https://jobs.netflix.com/culture](https://web.archive.org/web/20220201021105/https://jobs.netflix.com/culture)
-- [20220401001033 — https://jobs.netflix.com/](https://web.archive.org/web/20220401001033/https://jobs.netflix.com/)
-- [20220801232933 — https://jobs.netflix.com/](https://web.archive.org/web/20220801232933/https://jobs.netflix.com/)
-- [20221002095300 — https://jobs.netflix.com/](https://web.archive.org/web/20221002095300/https://jobs.netflix.com/)
+- [20220201034602 — https://jobs.netflix.com/](https://web.archive.org/web/20220201034602/https://jobs.netflix.com/)
+- [20220407192308 — https://jobs.netflix.com/culture](https://web.archive.org/web/20220407192308/https://jobs.netflix.com/culture)
+- [20220802030704 — https://jobs.netflix.com/culture](https://web.archive.org/web/20220802030704/https://jobs.netflix.com/culture)
+- [20221007034100 — https://jobs.netflix.com/culture](https://web.archive.org/web/20221007034100/https://jobs.netflix.com/culture)
 
 ## 2023
-- [20230201055200 — https://jobs.netflix.com/](https://web.archive.org/web/20230201055200/https://jobs.netflix.com/)
-- [20230402050106 — https://jobs.netflix.com/](https://web.archive.org/web/20230402050106/https://jobs.netflix.com/)
-- [20230801053822 — https://jobs.netflix.com/](https://web.archive.org/web/20230801053822/https://jobs.netflix.com/)
-- [20231003045656 — https://jobs.netflix.com/](https://web.archive.org/web/20231003045656/https://jobs.netflix.com/)
+- [20230104051440 — https://jobs.netflix.com/culture](https://web.archive.org/web/20230104051440/https://jobs.netflix.com/culture)
+- [20230405213846 — https://jobs.netflix.com/culture/](https://web.archive.org/web/20230405213846/https://jobs.netflix.com/culture/)
+- [20230602121848 — https://jobs.netflix.com/culture](https://web.archive.org/web/20230602121848/https://jobs.netflix.com/culture)
+- [20231005014252 — https://jobs.netflix.com/culture](https://web.archive.org/web/20231005014252/https://jobs.netflix.com/culture)
 
 ## 2024
-- [20240204091453 — https://jobs.netflix.com/](https://web.archive.org/web/20240204091453/https://jobs.netflix.com/)
-- [20240403123958 — https://jobs.netflix.com/](https://web.archive.org/web/20240403123958/https://jobs.netflix.com/)
-- [20240805114009 — https://jobs.netflix.com/culture](https://web.archive.org/web/20240805114009/https://jobs.netflix.com/culture)
-- [20241001071116 — https://jobs.netflix.com/culture](https://web.archive.org/web/20241001071116/https://jobs.netflix.com/culture)
+- [20240214051337 — https://jobs.netflix.com/culture](https://web.archive.org/web/20240214051337/https://jobs.netflix.com/culture)
+- [20240404155148 — https://jobs.netflix.com/culture](https://web.archive.org/web/20240404155148/https://jobs.netflix.com/culture)
+- [20240806025701 — https://jobs.netflix.com/](https://web.archive.org/web/20240806025701/https://jobs.netflix.com/)
+- [20241001145243 — https://jobs.netflix.com/](https://web.archive.org/web/20241001145243/https://jobs.netflix.com/)
 
 ## 2025
-- [20250201010541 — https://jobs.netflix.com/culture](https://web.archive.org/web/20250201010541/https://jobs.netflix.com/culture)
-- [20250402040606 — https://jobs.netflix.com/culture](https://web.archive.org/web/20250402040606/https://jobs.netflix.com/culture)
-- [20250801013410 — https://jobs.netflix.com/](https://web.archive.org/web/20250801013410/https://jobs.netflix.com/)
-- [20251001164926 — https://jobs.netflix.com/](https://web.archive.org/web/20251001164926/https://jobs.netflix.com/)
+- [20250202025002 — https://jobs.netflix.com/](https://web.archive.org/web/20250202025002/https://jobs.netflix.com/)
+- [20250402042738 — https://jobs.netflix.com/](https://web.archive.org/web/20250402042738/https://jobs.netflix.com/)
+- [20250801064540 — https://jobs.netflix.com/culture](https://web.archive.org/web/20250801064540/https://jobs.netflix.com/culture)
+- [20251001165248 — https://jobs.netflix.com/culture](https://web.archive.org/web/20251001165248/https://jobs.netflix.com/culture)
 
 ## 2026
-- [20260101210512 — https://jobs.netflix.com/culture](https://web.archive.org/web/20260101210512/https://jobs.netflix.com/culture)
-- [20260404221637 — https://jobs.netflix.com/](https://web.archive.org/web/20260404221637/https://jobs.netflix.com/)
-- [20260502183830 — https://jobs.netflix.com/culture](https://web.archive.org/web/20260502183830/https://jobs.netflix.com/culture)
-- [20260601104819 — https://jobs.netflix.com/culture](https://web.archive.org/web/20260601104819/https://jobs.netflix.com/culture)
+- [20260104101430 — https://jobs.netflix.com/](https://web.archive.org/web/20260104101430/https://jobs.netflix.com/)
+- [20260304150453 — https://jobs.netflix.com/culture](https://web.archive.org/web/20260304150453/https://jobs.netflix.com/culture)
+- [20260619043927 — https://jobs.netflix.com/](https://web.archive.org/web/20260619043927/https://jobs.netflix.com/)
+- [20260703150422 — https://jobs.netflix.com/](https://web.archive.org/web/20260703150422/https://jobs.netflix.com/)
+- [20260708074605 — https://jobs.netflix.com/culture](https://web.archive.org/web/20260708074605/https://jobs.netflix.com/culture)
 

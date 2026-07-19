@@ -1,7 +1,18 @@
 {
-  "n": 0,
-  "accuracy": null,
-  "krippendorff_alpha": null,
-  "confusion": {},
-  "disagreements": []
+  "n": 6,
+  "accuracy": 0.833,
+  "krippendorff_alpha": 0.0,
+  "confusion": {
+    "absent": {
+      "absent": 5,
+      "belonging_culture": 1
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "040670fe19de641e",
+      "hand_label": "absent",
+      "predicted": "belonging_culture"
+    }
+  ]
 }

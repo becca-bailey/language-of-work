@@ -1,5 +1,14 @@
 # DEI stance by year
 
+## 2002
+- neutral: 1
+
+## 2003
+- neutral: 5
+
+## 2004
+- neutral: 5
+
 ## 2009
 - neutral: 5
 
@@ -45,9 +54,8 @@
 - mission_focus_apolitical: 1
 
 ## 2025
-- neutral: 36
+- neutral: 37
 - mission_focus_apolitical: 1
-- performance_elite: 1
 
 ## 2026
 - neutral: 25

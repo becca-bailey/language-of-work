@@ -4,8 +4,44 @@
   "axis": "meritocracy",
   "years": [
     {
+      "year": 2004,
+      "zscore": -1.1704,
+      "rawTopkMean": 0.3646,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We've done a great job of attracting and retaining top talent in a hot market and if you join the team at salesforce.com you will soon realize how much we value our employees.",
+          "heading": "",
+          "score": 0.4603
+        },
+        {
+          "text": "If you are ready to become a key contributor and join one of the hottest, market-leading companies, then submit your resume to us today.",
+          "heading": "",
+          "score": 0.3576
+        },
+        {
+          "text": "We are one of the fastest growing Internet companies with more than 500 employees on our global team.",
+          "heading": "",
+          "score": 0.341
+        },
+        {
+          "text": "We are one of the fastest growing Internet companies with more than 600 employees on our global team.",
+          "heading": "",
+          "score": 0.3402
+        },
+        {
+          "text": "Note: Applications will not be accepted from external recruiters. :: salesforce.com News Salesforce.com's service is good for any business Salesforce.com excels yet in face of slow spending and changed market",
+          "heading": "",
+          "score": 0.324
+        }
+      ]
+    },
+    {
       "year": 2006,
-      "zscore": 0.6939,
+      "zscore": 0.7377,
       "rawTopkMean": 0.5087,
       "nChunks": 41,
       "kUsed": 5,
@@ -41,7 +77,7 @@
     },
     {
       "year": 2007,
-      "zscore": 0.3195,
+      "zscore": 0.3725,
       "rawTopkMean": 0.4811,
       "nChunks": 31,
       "kUsed": 5,
@@ -77,7 +113,7 @@
     },
     {
       "year": 2011,
-      "zscore": -1.4518,
+      "zscore": -1.3552,
       "rawTopkMean": 0.3507,
       "nChunks": 7,
       "kUsed": 5,
@@ -113,7 +149,7 @@
     },
     {
       "year": 2012,
-      "zscore": -1.1003,
+      "zscore": -1.0124,
       "rawTopkMean": 0.3766,
       "nChunks": 22,
       "kUsed": 5,
@@ -149,7 +185,7 @@
     },
     {
       "year": 2013,
-      "zscore": -1.4476,
+      "zscore": -1.3512,
       "rawTopkMean": 0.351,
       "nChunks": 8,
       "kUsed": 5,
@@ -185,7 +221,7 @@
     },
     {
       "year": 2014,
-      "zscore": -0.5338,
+      "zscore": -0.4598,
       "rawTopkMean": 0.4183,
       "nChunks": 28,
       "kUsed": 5,
@@ -221,7 +257,7 @@
     },
     {
       "year": 2015,
-      "zscore": -0.0692,
+      "zscore": -0.0067,
       "rawTopkMean": 0.4525,
       "nChunks": 30,
       "kUsed": 5,
@@ -257,7 +293,7 @@
     },
     {
       "year": 2016,
-      "zscore": 0.993,
+      "zscore": 1.0294,
       "rawTopkMean": 0.5307,
       "nChunks": 44,
       "kUsed": 5,
@@ -293,7 +329,7 @@
     },
     {
       "year": 2017,
-      "zscore": 1.2329,
+      "zscore": 1.2634,
       "rawTopkMean": 0.5484,
       "nChunks": 91,
       "kUsed": 5,
@@ -329,7 +365,7 @@
     },
     {
       "year": 2018,
-      "zscore": 0.1126,
+      "zscore": 0.1707,
       "rawTopkMean": 0.4659,
       "nChunks": 15,
       "kUsed": 5,
@@ -365,7 +401,7 @@
     },
     {
       "year": 2019,
-      "zscore": -1.8632,
+      "zscore": -1.7565,
       "rawTopkMean": 0.3204,
       "nChunks": 4,
       "kUsed": 4,
@@ -396,7 +432,7 @@
     },
     {
       "year": 2020,
-      "zscore": 0.7689,
+      "zscore": 0.8108,
       "rawTopkMean": 0.5142,
       "nChunks": 30,
       "kUsed": 5,
@@ -432,7 +468,7 @@
     },
     {
       "year": 2022,
-      "zscore": -0.2149,
+      "zscore": -0.1487,
       "rawTopkMean": 0.4418,
       "nChunks": 8,
       "kUsed": 5,
@@ -468,7 +504,7 @@
     },
     {
       "year": 2023,
-      "zscore": -0.5277,
+      "zscore": -0.4539,
       "rawTopkMean": 0.4187,
       "nChunks": 14,
       "kUsed": 5,
@@ -504,7 +540,7 @@
     },
     {
       "year": 2024,
-      "zscore": 0.3817,
+      "zscore": 0.4331,
       "rawTopkMean": 0.4857,
       "nChunks": 33,
       "kUsed": 5,
@@ -540,9 +576,9 @@
     },
     {
       "year": 2025,
-      "zscore": 1.3624,
+      "zscore": 1.3897,
       "rawTopkMean": 0.5579,
-      "nChunks": 180,
+      "nChunks": 166,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -576,9 +612,9 @@
     },
     {
       "year": 2026,
-      "zscore": 1.3435,
-      "rawTopkMean": 0.5565,
-      "nChunks": 28,
+      "zscore": 1.5078,
+      "rawTopkMean": 0.5668,
+      "nChunks": 56,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -594,6 +630,11 @@
           "score": 0.5797
         },
         {
+          "text": "We promote an open and equitable culture that empowers employees to bring their whole, authentic selves to work every day.",
+          "heading": "Outforce",
+          "score": 0.551
+        },
+        {
           "text": "We strive to bring out the best in one another, deliver success to our customers, and inspire the entire industry through our actions.",
           "heading": "Values-Driven Mentality",
           "score": 0.533
@@ -602,11 +643,6 @@
           "text": "We are committed to creating equal opportunities for everyone, ensuring equal pay for equal work, and supporting the dignity of every person.",
           "heading": "Our commitment to equality.",
           "score": 0.5229
-        },
-        {
-          "text": "At Salesforce, we lead with our values and learn and grow together.",
-          "heading": "Why Salesforce?",
-          "score": 0.4994
         }
       ]
     }

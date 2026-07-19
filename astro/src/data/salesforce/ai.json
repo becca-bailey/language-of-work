@@ -5,6 +5,23 @@
   "caveat": "Framing projections have ~4 years of real signal by construction; per-company timing is not comparable until corpus gaps are filled.",
   "years": [
     {
+      "year": 2004,
+      "totalChunks": 3,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
       "year": 2005,
       "totalChunks": 4,
       "aiChunks": 0,
@@ -852,13 +869,13 @@
     },
     {
       "year": 2026,
-      "totalChunks": 112,
-      "aiChunks": 31,
-      "prevalence": 0.2768,
+      "totalChunks": 141,
+      "aiChunks": 35,
+      "prevalence": 0.2482,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 7,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -868,33 +885,33 @@
           "mentions": 11
         },
         "job_listing": {
-          "chunks": 20,
+          "chunks": 21,
           "ai_chunks": 8,
           "mentions": 28
         },
         "mission_brand": {
-          "chunks": 55,
-          "ai_chunks": 14,
-          "mentions": 25
+          "chunks": 74,
+          "ai_chunks": 18,
+          "mentions": 31
         },
         "process_logistics": {
-          "chunks": 19,
+          "chunks": 27,
           "ai_chunks": 4,
           "mentions": 10
         }
       },
       "terms": {
-        "AI": 41,
-        "agentic": 17,
-        "agentforce": 14,
+        "AI": 43,
+        "agentic": 19,
+        "agentforce": 16,
         "LLMs": 1,
         "machine learning": 1
       },
       "projections": [
         {
           "group": "all",
-          "meanProjection": -0.0054,
-          "nChunks": 31,
+          "meanProjection": -0.0079,
+          "nChunks": 35,
           "thin": false
         },
         {
@@ -911,8 +928,8 @@
         },
         {
           "group": "talk",
-          "meanProjection": 0.013,
-          "nChunks": 19,
+          "meanProjection": 0.0061,
+          "nChunks": 23,
           "thin": false
         }
       ],

@@ -207,6 +207,20 @@
           "displayName": "Amazon",
           "years": [
             {
+              "year": 1999,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3472,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2000,
+              "fractionPresent": 1.0,
+              "topkMean": 0.2887,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
               "year": 2007,
               "fractionPresent": 1.0,
               "topkMean": 0.3517,
@@ -299,10 +313,10 @@
             },
             {
               "year": 2024,
-              "fractionPresent": 1.0,
-              "topkMean": 0.3476,
-              "nChunks": 2,
-              "thin": true
+              "fractionPresent": 0.8,
+              "topkMean": 0.3269,
+              "nChunks": 5,
+              "thin": false
             },
             {
               "year": 2025,
@@ -686,6 +700,20 @@
           "displayName": "Netflix",
           "years": [
             {
+              "year": 2003,
+              "fractionPresent": 0.0,
+              "topkMean": 0.109,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2004,
+              "fractionPresent": 0.0,
+              "topkMean": 0.1257,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
               "year": 2005,
               "fractionPresent": 0.0,
               "topkMean": 0.1369,
@@ -736,23 +764,23 @@
             },
             {
               "year": 2017,
-              "fractionPresent": 1.0,
-              "topkMean": 0.5032,
-              "nChunks": 30,
-              "thin": false
-            },
-            {
-              "year": 2018,
               "fractionPresent": 0.9688,
-              "topkMean": 0.5192,
+              "topkMean": 0.517,
               "nChunks": 32,
               "thin": false
             },
             {
+              "year": 2018,
+              "fractionPresent": 0.9167,
+              "topkMean": 0.518,
+              "nChunks": 36,
+              "thin": false
+            },
+            {
               "year": 2019,
-              "fractionPresent": 0.9143,
-              "topkMean": 0.5179,
-              "nChunks": 35,
+              "fractionPresent": 0.9048,
+              "topkMean": 0.5194,
+              "nChunks": 42,
               "thin": false
             },
             {
@@ -771,30 +799,30 @@
             },
             {
               "year": 2022,
-              "fractionPresent": 0.9118,
-              "topkMean": 0.5177,
-              "nChunks": 34,
+              "fractionPresent": 0.9375,
+              "topkMean": 0.5294,
+              "nChunks": 64,
               "thin": false
             },
             {
               "year": 2023,
-              "fractionPresent": 0.5,
-              "topkMean": 0.3835,
-              "nChunks": 2,
-              "thin": true
+              "fractionPresent": 0.9375,
+              "topkMean": 0.5188,
+              "nChunks": 32,
+              "thin": false
             },
             {
               "year": 2024,
-              "fractionPresent": 0.9167,
-              "topkMean": 0.5426,
-              "nChunks": 12,
+              "fractionPresent": 0.9535,
+              "topkMean": 0.5472,
+              "nChunks": 43,
               "thin": false
             },
             {
               "year": 2025,
-              "fractionPresent": 1.0,
-              "topkMean": 0.5158,
-              "nChunks": 10,
+              "fractionPresent": 0.9375,
+              "topkMean": 0.5352,
+              "nChunks": 16,
               "thin": false
             },
             {
@@ -1511,6 +1539,27 @@
           "displayName": "Basecamp",
           "years": [
             {
+              "year": 2002,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3396,
+              "nChunks": 1,
+              "thin": true
+            },
+            {
+              "year": 2003,
+              "fractionPresent": 0.6,
+              "topkMean": 0.3026,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
+              "year": 2004,
+              "fractionPresent": 0.4,
+              "topkMean": 0.289,
+              "nChunks": 5,
+              "thin": false
+            },
+            {
               "year": 2009,
               "fractionPresent": 1.0,
               "topkMean": 0.3786,
@@ -1621,6 +1670,13 @@
           "id": "salesforce",
           "displayName": "Salesforce",
           "years": [
+            {
+              "year": 2004,
+              "fractionPresent": 1.0,
+              "topkMean": 0.3598,
+              "nChunks": 3,
+              "thin": true
+            },
             {
               "year": 2006,
               "fractionPresent": 1.0,
@@ -1763,9 +1819,9 @@
             },
             {
               "year": 2026,
-              "fractionPresent": 0.9516,
+              "fractionPresent": 0.939,
               "topkMean": 0.4873,
-              "nChunks": 62,
+              "nChunks": 82,
               "thin": false
             }
           ]
@@ -1774,6 +1830,13 @@
           "id": "starbucks",
           "displayName": "Starbucks",
           "years": [
+            {
+              "year": 2001,
+              "fractionPresent": 0.0,
+              "topkMean": 0.1848,
+              "nChunks": 1,
+              "thin": true
+            },
             {
               "year": 2005,
               "fractionPresent": 0.0,
@@ -1916,9 +1979,9 @@
             },
             {
               "year": 2026,
-              "fractionPresent": 0.2273,
-              "topkMean": 0.3258,
-              "nChunks": 22,
+              "fractionPresent": 0.2857,
+              "topkMean": 0.3436,
+              "nChunks": 28,
               "thin": false
             }
           ]
@@ -2004,6 +2067,34 @@
           "displayName": "Apple",
           "years": [
             {
+              "year": 1999,
+              "fractionPresent": 0.3333,
+              "topkMean": 0.2769,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2003,
+              "fractionPresent": 0.6667,
+              "topkMean": 0.2391,
+              "nChunks": 3,
+              "thin": true
+            },
+            {
+              "year": 2004,
+              "fractionPresent": 1.0,
+              "topkMean": 0.2814,
+              "nChunks": 2,
+              "thin": true
+            },
+            {
+              "year": 2006,
+              "fractionPresent": 0.1429,
+              "topkMean": 0.2295,
+              "nChunks": 7,
+              "thin": false
+            },
+            {
               "year": 2007,
               "fractionPresent": 1.0,
               "topkMean": 0.3448,
@@ -2012,23 +2103,23 @@
             },
             {
               "year": 2008,
-              "fractionPresent": 1.0,
-              "topkMean": 0.2981,
-              "nChunks": 1,
-              "thin": true
+              "fractionPresent": 0.3333,
+              "topkMean": 0.254,
+              "nChunks": 6,
+              "thin": false
             },
             {
               "year": 2009,
               "fractionPresent": 1.0,
-              "topkMean": 0.42,
-              "nChunks": 2,
+              "topkMean": 0.3793,
+              "nChunks": 3,
               "thin": true
             },
             {
               "year": 2010,
               "fractionPresent": 1.0,
-              "topkMean": 0.2877,
-              "nChunks": 2,
+              "topkMean": 0.3573,
+              "nChunks": 3,
               "thin": true
             },
             {
@@ -2040,37 +2131,37 @@
             },
             {
               "year": 2012,
-              "fractionPresent": 1.0,
-              "topkMean": 0.4473,
-              "nChunks": 2,
-              "thin": true
+              "fractionPresent": 0.5455,
+              "topkMean": 0.3921,
+              "nChunks": 11,
+              "thin": false
             },
             {
               "year": 2013,
-              "fractionPresent": 0.75,
-              "topkMean": 0.3016,
-              "nChunks": 4,
-              "thin": true
+              "fractionPresent": 0.8,
+              "topkMean": 0.3389,
+              "nChunks": 5,
+              "thin": false
             },
             {
               "year": 2014,
-              "fractionPresent": 0.625,
-              "topkMean": 0.3886,
-              "nChunks": 8,
+              "fractionPresent": 0.75,
+              "topkMean": 0.4228,
+              "nChunks": 12,
               "thin": false
             },
             {
               "year": 2015,
-              "fractionPresent": 0.7273,
-              "topkMean": 0.4187,
-              "nChunks": 22,
+              "fractionPresent": 0.7,
+              "topkMean": 0.446,
+              "nChunks": 40,
               "thin": false
             },
             {
               "year": 2016,
-              "fractionPresent": 0.6667,
-              "topkMean": 0.3467,
-              "nChunks": 3,
+              "fractionPresent": 0.75,
+              "topkMean": 0.388,
+              "nChunks": 4,
               "thin": true
             },
             {
@@ -2083,29 +2174,29 @@
             {
               "year": 2018,
               "fractionPresent": 0.8571,
-              "topkMean": 0.3991,
-              "nChunks": 14,
+              "topkMean": 0.4215,
+              "nChunks": 21,
               "thin": false
             },
             {
               "year": 2019,
-              "fractionPresent": 0.75,
-              "topkMean": 0.415,
-              "nChunks": 12,
+              "fractionPresent": 0.8,
+              "topkMean": 0.4418,
+              "nChunks": 15,
               "thin": false
             },
             {
               "year": 2020,
-              "fractionPresent": 0.8333,
-              "topkMean": 0.4381,
-              "nChunks": 12,
+              "fractionPresent": 0.8824,
+              "topkMean": 0.4434,
+              "nChunks": 17,
               "thin": false
             },
             {
               "year": 2021,
-              "fractionPresent": 0.8148,
+              "fractionPresent": 0.8182,
               "topkMean": 0.4717,
-              "nChunks": 54,
+              "nChunks": 55,
               "thin": false
             },
             {

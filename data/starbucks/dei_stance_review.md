@@ -1,5 +1,8 @@
 # DEI stance by year
 
+## 2001
+- neutral: 1
+
 ## 2005
 - neutral: 1
 
@@ -77,4 +80,4 @@
 - neutral: 29
 
 ## 2026
-- neutral: 22
+- neutral: 28

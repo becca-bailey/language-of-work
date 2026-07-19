@@ -9,6 +9,147 @@
   ],
   "years": [
     {
+      "year": 1999,
+      "total_chunks": 4,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2000,
+      "total_chunks": 1,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2001,
+      "total_chunks": 5,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2002,
+      "total_chunks": 3,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2003,
+      "total_chunks": 8,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2004,
+      "total_chunks": 8,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
       "year": 2005,
       "total_chunks": 1,
       "ai_chunks": 0,
@@ -26,18 +167,23 @@
     },
     {
       "year": 2006,
-      "total_chunks": 10,
+      "total_chunks": 23,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "employee_story": {
-          "chunks": 3,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 1,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -52,13 +198,18 @@
     },
     {
       "year": 2007,
-      "total_chunks": 16,
+      "total_chunks": 22,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "employee_story": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "job_listing": {
-          "chunks": 13,
+          "chunks": 17,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -78,11 +229,16 @@
     },
     {
       "year": 2008,
-      "total_chunks": 6,
+      "total_chunks": 12,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "employee_story": {
           "chunks": 3,
           "ai_chunks": 0,
@@ -99,7 +255,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 1,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -109,18 +265,23 @@
     },
     {
       "year": 2009,
-      "total_chunks": 22,
+      "total_chunks": 29,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "employee_story": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "job_listing": {
           "chunks": 16,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -135,7 +296,7 @@
     },
     {
       "year": 2010,
-      "total_chunks": 12,
+      "total_chunks": 44,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -146,17 +307,17 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 6,
+          "chunks": 34,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 1,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 4,
+          "chunks": 7,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -166,7 +327,7 @@
     },
     {
       "year": 2011,
-      "total_chunks": 42,
+      "total_chunks": 46,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -182,7 +343,7 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 30,
+          "chunks": 34,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -197,39 +358,13 @@
     },
     {
       "year": 2012,
-      "total_chunks": 15,
-      "ai_chunks": 0,
-      "prevalence": 0.0,
-      "thin": false,
-      "labels": {
-        "job_listing": {
-          "chunks": 12,
-          "ai_chunks": 0,
-          "mentions": 0
-        },
-        "mission_brand": {
-          "chunks": 2,
-          "ai_chunks": 0,
-          "mentions": 0
-        },
-        "process_logistics": {
-          "chunks": 1,
-          "ai_chunks": 0,
-          "mentions": 0
-        }
-      },
-      "terms": {},
-      "examples": []
-    },
-    {
-      "year": 2013,
-      "total_chunks": 39,
+      "total_chunks": 50,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 2,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -239,7 +374,43 @@
           "mentions": 0
         },
         "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 11,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "examples": []
+    },
+    {
+      "year": 2013,
+      "total_chunks": 41,
+      "ai_chunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
           "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 28,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -254,7 +425,7 @@
     },
     {
       "year": 2014,
-      "total_chunks": 22,
+      "total_chunks": 58,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -265,12 +436,12 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 10,
+          "chunks": 42,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 8,
+          "chunks": 12,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -285,7 +456,7 @@
     },
     {
       "year": 2015,
-      "total_chunks": 49,
+      "total_chunks": 85,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -301,17 +472,17 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 17,
+          "chunks": 34,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 18,
+          "chunks": 36,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 7,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -321,7 +492,7 @@
     },
     {
       "year": 2016,
-      "total_chunks": 11,
+      "total_chunks": 13,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -332,12 +503,12 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 8,
+          "chunks": 9,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 2,
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -373,28 +544,33 @@
     },
     {
       "year": 2018,
-      "total_chunks": 38,
+      "total_chunks": 69,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "employee_story": {
-          "chunks": 8,
+          "chunks": 11,
           "ai_chunks": 0,
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 15,
+          "chunks": 35,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 14,
+          "chunks": 19,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 1,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -404,23 +580,23 @@
     },
     {
       "year": 2019,
-      "total_chunks": 35,
+      "total_chunks": 78,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "employee_story": {
-          "chunks": 9,
-          "ai_chunks": 0,
-          "mentions": 0
-        },
-        "job_listing": {
           "chunks": 13,
           "ai_chunks": 0,
           "mentions": 0
         },
+        "job_listing": {
+          "chunks": 49,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
-          "chunks": 12,
+          "chunks": 15,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -435,13 +611,13 @@
     },
     {
       "year": 2020,
-      "total_chunks": 52,
-      "ai_chunks": 0,
-      "prevalence": 0.0,
+      "total_chunks": 75,
+      "ai_chunks": 6,
+      "prevalence": 0.08,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 5,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -451,12 +627,12 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 28,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 46,
+          "ai_chunks": 6,
+          "mentions": 48
         },
         "mission_brand": {
-          "chunks": 7,
+          "chunks": 9,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -466,14 +642,48 @@
           "mentions": 0
         }
       },
-      "terms": {},
-      "examples": []
+      "terms": {
+        "machine learning": 31,
+        "ML": 14,
+        "AI": 2,
+        "deep learning": 1
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "dedc086b8c831fa1",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "See full role description Computer Vision Software Developer in Test Share Computer Vision Software Developer in Test Share this role. Close Role Number: 200127031 Weekly Hours: 40 Hours At Apple we tackle large scale engineering challenges to surprise and delight our users. To build, maintain, and "
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "813923726743f48a",
+          "terms": [
+            "ML",
+            "deep learning",
+            "machine learning"
+          ],
+          "text": "See full role description Computer Vision Intern - Zurich Share Computer Vision Intern - Zurich Share this role. Close Role Number: 200113400 Weekly Hours: 40 Hours We are continuously advancing the state of the art in computer vision and machine learning. At Apple, we have a balanced mix of researc"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "ae5bd948eddef296",
+          "terms": [
+            "AI",
+            "ML",
+            "machine learning"
+          ],
+          "text": "Add to Favorites Applied ML Engineer (Computer Vision) Removed from favorites To view your favorites, sign in with your Apple ID. Sign In Don’t have an Apple ID? Create one now Forgot your Apple ID or password? Share Applied ML Engineer (Computer Vision) Share this role. Close Submit Resume Applied "
+        }
+      ]
     },
     {
       "year": 2021,
-      "total_chunks": 105,
-      "ai_chunks": 9,
-      "prevalence": 0.0857,
+      "total_chunks": 127,
+      "ai_chunks": 11,
+      "prevalence": 0.0866,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -482,17 +692,17 @@
           "mentions": 2
         },
         "employee_story": {
-          "chunks": 16,
+          "chunks": 23,
           "ai_chunks": 2,
           "mentions": 4
         },
         "job_listing": {
-          "chunks": 34,
-          "ai_chunks": 5,
-          "mentions": 14
+          "chunks": 48,
+          "ai_chunks": 7,
+          "mentions": 23
         },
         "mission_brand": {
-          "chunks": 48,
+          "chunks": 49,
           "ai_chunks": 1,
           "mentions": 1
         },
@@ -503,11 +713,11 @@
         }
       },
       "terms": {
-        "machine learning": 9,
-        "AI": 7,
+        "machine learning": 13,
+        "AI": 10,
+        "deep learning": 3,
         "ML": 2,
-        "deep learning": 2,
-        "artificial intelligence": 1
+        "artificial intelligence": 2
       },
       "examples": [
         {
@@ -530,22 +740,19 @@
         },
         {
           "label": "job_listing",
-          "chunk_id": "fdaf44d7b13c4f48",
+          "chunk_id": "26c47d8dc54dd378",
           "terms": [
-            "AI",
-            "artificial intelligence",
-            "deep learning",
             "machine learning"
           ],
-          "text": "Machine learning and AI continue to grow in importance for virtually every Apple product and service, so your contributions in these fields can make an impact on many groups here. You’ll help develop algorithms that solve some of the most complex AI problems, integrating your work into powerful neur"
+          "text": "How do over 130,000 employees stay connected to each other, to suppliers, and to over a billion customers around the world? They depend on Apple’s nerve center — Information Systems and Technology (IS&T). They could depend on you, as you help design and manage the massive systems that run Apple serv"
         }
       ]
     },
     {
       "year": 2022,
-      "total_chunks": 137,
+      "total_chunks": 152,
       "ai_chunks": 8,
-      "prevalence": 0.0584,
+      "prevalence": 0.0526,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -559,7 +766,7 @@
           "mentions": 4
         },
         "job_listing": {
-          "chunks": 35,
+          "chunks": 50,
           "ai_chunks": 5,
           "mentions": 30
         },
@@ -611,9 +818,9 @@
     },
     {
       "year": 2023,
-      "total_chunks": 105,
+      "total_chunks": 107,
       "ai_chunks": 3,
-      "prevalence": 0.0286,
+      "prevalence": 0.028,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -627,7 +834,7 @@
           "mentions": 4
         },
         "job_listing": {
-          "chunks": 18,
+          "chunks": 20,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -678,13 +885,13 @@
     },
     {
       "year": 2024,
-      "total_chunks": 60,
+      "total_chunks": 72,
       "ai_chunks": 1,
-      "prevalence": 0.0167,
+      "prevalence": 0.0139,
       "thin": false,
       "labels": {
         "job_listing": {
-          "chunks": 19,
+          "chunks": 31,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -715,9 +922,9 @@
     },
     {
       "year": 2025,
-      "total_chunks": 92,
-      "ai_chunks": 4,
-      "prevalence": 0.0435,
+      "total_chunks": 117,
+      "ai_chunks": 23,
+      "prevalence": 0.1966,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -731,9 +938,9 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 27,
-          "ai_chunks": 1,
-          "mentions": 1
+          "chunks": 52,
+          "ai_chunks": 20,
+          "mentions": 203
         },
         "mission_brand": {
           "chunks": 43,
@@ -747,40 +954,53 @@
         }
       },
       "terms": {
-        "machine learning": 4
+        "machine learning": 104,
+        "foundation models": 34,
+        "ML": 23,
+        "AI": 17,
+        "generative ai": 12,
+        "LLMs": 8,
+        "deep learning": 3,
+        "artificial intelligence": 3,
+        "large language models": 1,
+        "large language model": 1
       },
       "examples": [
         {
-          "label": "mission_brand",
-          "chunk_id": "d899ab87f9077b6b",
+          "label": "job_listing",
+          "chunk_id": "24afbebaa11a4d1e",
           "terms": [
+            "deep learning",
+            "foundation models",
             "machine learning"
           ],
-          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives be"
+          "text": "See full role description AIML - Machine Learning Engineer, Foundation Models Share AIML - Machine Learning Engineer, Foundation Models Share this role. Close Role Number: 200547609 Weekly Hours: 40 Hours We are a group of engineers and researchers responsible for building foundation models at Apple"
         },
         {
           "label": "job_listing",
-          "chunk_id": "ad91a05d604dde40",
+          "chunk_id": "f2b6185801ab24b4",
           "terms": [
+            "AI",
+            "ML",
             "machine learning"
           ],
-          "text": "Add to Favorites Data Infrastructure Engineer, Shazam (Fixed Term Contract - 12 months) Removed from favorites Add a favorite Close To view your favorites, sign in with your Apple Account. Sign In Don’t have an Apple Account? Create one now Forgot your Apple Account or password? Share Data Infrastru"
+          "text": "Add to Favorites AIML- Sr Full Stack Engineer, Data and ML Innovation Removed from favorites Add a favorite Close To view your favorites, sign in with your Apple Account. Sign In Don’t have an Apple Account? Create one now Forgot your Apple Account or password? Share AIML- Sr Full Stack Engineer, Da"
         },
         {
-          "label": "mission_brand",
-          "chunk_id": "93572daded1949b1",
+          "label": "job_listing",
+          "chunk_id": "20ef8c9782b5d301",
           "terms": [
             "machine learning"
           ],
-          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives be"
+          "text": "Add to Favorites AIML - Technical Process Engineer, Data Operations Removed from favorites Add a favorite Close To view your favorites, sign in with your Apple Account. Sign In Don’t have an Apple Account? Create one now Forgot your Apple Account or password? Share AIML - Technical Process Engineer,"
         }
       ]
     },
     {
       "year": 2026,
-      "total_chunks": 18,
-      "ai_chunks": 1,
-      "prevalence": 0.0556,
+      "total_chunks": 38,
+      "ai_chunks": 8,
+      "prevalence": 0.2105,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -789,9 +1009,9 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 2,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 22,
+          "ai_chunks": 7,
+          "mentions": 44
         },
         "mission_brand": {
           "chunks": 14,
@@ -805,16 +1025,44 @@
         }
       },
       "terms": {
-        "machine learning": 1
+        "ML": 14,
+        "machine learning": 13,
+        "AI": 12,
+        "foundation models": 4,
+        "foundation model": 1,
+        "generative ai": 1
       },
       "examples": [
         {
-          "label": "mission_brand",
-          "chunk_id": "91e59e6bb0e20f0a",
+          "label": "job_listing",
+          "chunk_id": "b9d0ac56d777501f",
           "terms": [
+            "AI",
             "machine learning"
           ],
-          "text": "Since our earliest days, inclusivity has been fundamental to our design process. “ Inclusion is not something you can tack on at the end, or do once at the beginning and you’re done; it’s an ongoing effort to constantly improve the experience that everyone has and it’s done to make people’s lives be"
+          "text": "DFM R&D Engineer — Advanced Simulation & Materials Operations and Supply Chain Feb 02, 2026 Location Various Locations within San Francisco Bay Area Actions See full role description Share DFM R&D Engineer — Advanced Simulation & Materials 200629197-3401 Role Number: 200629197-3401 Weekly Hours: 40 "
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "e6cef5230fb72426",
+          "terms": [
+            "AI",
+            "ML",
+            "machine learning"
+          ],
+          "text": "Machine Learning Technical Lead - Data Engineering, MLO Machine Learning and AI Nov 21, 2025 Location Cupertino Actions See full role description Share Machine Learning Technical Lead - Data Engineering, MLO 200633418-0836 Role Number: 200633418-0836 Weekly Hours: 40 Hours Do you believe Machine Lea"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "bc8ca4cccb6459fb",
+          "terms": [
+            "AI",
+            "ML",
+            "foundation model",
+            "foundation models",
+            "machine learning"
+          ],
+          "text": "ML Engineer, Apple Foundation Models Machine Learning and AI Jul 02, 2026 Location Cupertino Actions See full role description Share ML Engineer, Apple Foundation Models 200670922-0836 Role Number: 200670922-0836 Weekly Hours: 40 Hours Join the team shaping the data foundation and intelligence for A"
         }
       ]
     }

@@ -4,8 +4,80 @@
   "axis": "control",
   "years": [
     {
+      "year": 1999,
+      "zscore": 0.1065,
+      "rawTopkMean": 0.0413,
+      "nChunks": 19,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Every Apple volunteer gives one hour a week as a tutor or classroom mentor.",
+          "heading": "",
+          "score": 0.0772
+        },
+        {
+          "text": "About the only thing you can't do is ignore them.",
+          "heading": "",
+          "score": 0.0513
+        },
+        {
+          "text": "You can praise them, disagree with them, quote them, disbelieve them, glorify or vilify them.",
+          "heading": "",
+          "score": 0.0411
+        },
+        {
+          "text": "How else can you stare at an empty canvas and see a work of art?",
+          "heading": "",
+          "score": 0.0212
+        },
+        {
+          "text": "Or sit in silence and hear a song that's never been written?",
+          "heading": "",
+          "score": 0.0157
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "zscore": -0.4205,
+      "rawTopkMean": 0.0066,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "As an Apple employee, you're responsible for understanding and following Apple's policy on diversity.",
+          "heading": "",
+          "score": 0.0593
+        },
+        {
+          "text": "In addition, you're expected to respect the diverse backgrounds of all Apple employees, temporary agency workers, independent contractors, customers, clients, and vendors.",
+          "heading": "",
+          "score": 0.0229
+        },
+        {
+          "text": "Culture is often defined in terms of race, gender, and national origin.",
+          "heading": "",
+          "score": -0.0081
+        },
+        {
+          "text": "Additionally, culture can also include age, marital status, religion, sexual orientation, and ability.",
+          "heading": "",
+          "score": -0.0129
+        },
+        {
+          "text": "Apple supports all differences and groups on campus.",
+          "heading": "",
+          "score": -0.0283
+        }
+      ]
+    },
+    {
       "year": 2007,
-      "zscore": -0.7344,
+      "zscore": -0.6574,
       "rawTopkMean": -0.009,
       "nChunks": 6,
       "kUsed": 5,
@@ -41,7 +113,7 @@
     },
     {
       "year": 2008,
-      "zscore": -0.6485,
+      "zscore": -0.5801,
       "rawTopkMean": -0.0039,
       "nChunks": 4,
       "kUsed": 4,
@@ -72,45 +144,30 @@
     },
     {
       "year": 2009,
-      "zscore": -1.2735,
-      "rawTopkMean": -0.0409,
-      "nChunks": 11,
-      "kUsed": 5,
-      "thin": false,
+      "zscore": -2.2581,
+      "rawTopkMean": -0.1144,
+      "nChunks": 2,
+      "kUsed": 2,
+      "thin": true,
       "carriedForwardFrac": null,
       "quotes": [
-        {
-          "text": "We also have a shared obsession with getting every last detail right.",
-          "heading": "",
-          "score": -0.0329
-        },
-        {
-          "text": "We don't see what any of that has to do with great work.",
-          "heading": "",
-          "score": -0.0339
-        },
-        {
-          "text": "Leave your neckties, bring your ideas.",
-          "heading": "",
-          "score": -0.0402
-        },
         {
           "text": "Are you ready to grow with us?",
           "heading": "Apple Store",
           "score": -0.0468
         },
         {
-          "text": "And do all the other stuff that makes that possible.",
-          "heading": "",
-          "score": -0.0508
+          "text": "With business booming at retail locations from SoHo to Tokyo, Apple is growing fast.",
+          "heading": "Apple Store",
+          "score": -0.182
         }
       ]
     },
     {
       "year": 2010,
-      "zscore": -0.5319,
-      "rawTopkMean": 0.003,
-      "nChunks": 6,
+      "zscore": -0.4658,
+      "rawTopkMean": 0.0036,
+      "nChunks": 15,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -136,17 +193,17 @@
           "score": -0.029
         },
         {
-          "text": "Whether you’re a developer, industrial designer, or retail expert, there’s an opportunity here for you.",
+          "text": "We also have a shared obsession with getting every last detail right.",
           "heading": "",
-          "score": -0.036
+          "score": -0.0329
         }
       ]
     },
     {
       "year": 2012,
-      "zscore": 0.717,
+      "zscore": 0.6477,
       "rawTopkMean": 0.0769,
-      "nChunks": 19,
+      "nChunks": 34,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -180,7 +237,7 @@
     },
     {
       "year": 2013,
-      "zscore": -2.043,
+      "zscore": -1.834,
       "rawTopkMean": -0.0865,
       "nChunks": 2,
       "kUsed": 2,
@@ -201,9 +258,9 @@
     },
     {
       "year": 2014,
-      "zscore": -0.2444,
-      "rawTopkMean": 0.02,
-      "nChunks": 41,
+      "zscore": -0.002,
+      "rawTopkMean": 0.0342,
+      "nChunks": 53,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -219,27 +276,27 @@
           "score": 0.0371
         },
         {
-          "text": "Kim has a medical condition that has impaired her vision and hearing since she was a child.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.0104
+          "text": "A job at Apple is one that requires a lot of you, but it’s also one that rewards bright, original thinking and hard work.",
+          "heading": "",
+          "score": 0.0367
         },
         {
-          "text": "Our customers rave about Kim’s service, and they say she embodies the best characteristics of Apple.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.0079
+          "text": "Join the Apple Store team and do meaningful work — you'll integrate products into people's lives and build skills for your career, life, and more.",
+          "heading": "",
+          "score": 0.0296
         },
         {
-          "text": "Both Walter and Kim exemplify what we value in diversity.",
-          "heading": "A Message from Tim Cook.",
-          "score": -0.0099
+          "text": "Apple Store employees are unique individuals whose talents and experiences cannot be summed up in a job description.",
+          "heading": "Find your place here.",
+          "score": 0.0129
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": 1.2903,
-      "rawTopkMean": 0.1109,
-      "nChunks": 63,
+      "zscore": 1.4234,
+      "rawTopkMean": 0.128,
+      "nChunks": 151,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -260,20 +317,20 @@
           "score": 0.1301
         },
         {
-          "text": "Apple is committed to working with and providing reasonable accommodation to applicants with physical or mental disabilities.",
-          "heading": "Inclusion and Diversity Engineering Scholarships",
-          "score": 0.0585
+          "text": "The younger you start, the easier it is to learn.",
+          "heading": "Introducing kids to coding at the Apple Store.",
+          "score": 0.1033
         },
         {
-          "text": "We support this commitment with the scholarships we offer to women, black/African-American, Hispanic, and Native American university students who are continuing their education.",
-          "heading": "Inclusion and Diversity Engineering Scholarships",
-          "score": 0.0459
+          "text": "The program offers help to students as early as kindergarten.",
+          "heading": "Building a vibrant community to support women in tech.",
+          "score": 0.0869
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": -0.8602,
+      "zscore": -0.7705,
       "rawTopkMean": -0.0165,
       "nChunks": 7,
       "kUsed": 5,
@@ -309,7 +366,7 @@
     },
     {
       "year": 2017,
-      "zscore": -0.4409,
+      "zscore": -0.3935,
       "rawTopkMean": 0.0084,
       "nChunks": 2,
       "kUsed": 2,
@@ -330,49 +387,59 @@
     },
     {
       "year": 2018,
-      "zscore": 0.122,
-      "rawTopkMean": 0.0417,
-      "nChunks": 48,
+      "zscore": 1.0208,
+      "rawTopkMean": 0.1015,
+      "nChunks": 63,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Quote by Opportunities like the Apple Scholars program level out the playing field because it puts Historically Black Colleges and Universities on the map to be included in the hiring of diverse talent.",
-          "heading": "A more diverse future begins with opportunities in education.",
-          "score": 0.0633
+          "text": "And every time you save someone’s day, you’ll be amazed by what it does for yours.",
+          "heading": "Genuine, homemade support.",
+          "score": 0.122
         },
         {
-          "text": "And everyone should have the opportunity to learn it.",
-          "heading": "A more diverse future begins with opportunities in education.",
-          "score": 0.042
+          "text": "You can add to it, whether you’re looking for an opportunity while you’re in school or you’re ready to start a career.",
+          "heading": "Interns, Undergrads, and Grads",
+          "score": 0.1126
         },
         {
-          "text": "And because students at community colleges are the most diverse groups among higher education institutions, we’ve also introduced a free year-long app development curriculum for high school and community college students to help bring their ideas to life.",
-          "heading": "A more diverse future begins with opportunities in education.",
-          "score": 0.039
+          "text": "That’s what you’ll do every day as an Apple At Home Advisor.",
+          "heading": "Make your passion your profession.",
+          "score": 0.0923
         },
         {
-          "text": "As part of our commitment to pay equity, we've stopped asking candidates about their salary history in the United States and are in the process of implementing this practice globally.",
-          "heading": "Pay equity is simply the right thing to do.",
-          "score": 0.0373
+          "text": "When people contact us for help, an At Home Advisor is often the one who responds.",
+          "heading": "Genuine, homemade support.",
+          "score": 0.0904
         },
         {
-          "text": "People should not be discriminated against because of their sexual orientation or gender identity.",
-          "heading": "LGBTQ rights are human rights.\u0003",
-          "score": 0.0268
+          "text": "And you’ll gain valuable experience to help you succeed in practically any job, at Apple or beyond.",
+          "heading": "Get noticed. Get better. Get ahead.",
+          "score": 0.0902
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": -0.0705,
-      "rawTopkMean": 0.0303,
-      "nChunks": 18,
+      "zscore": 0.2215,
+      "rawTopkMean": 0.0489,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Yes, you’ll learn from them, but they expect to learn from you, too.",
+          "heading": "Undergrads and Grad Students",
+          "score": 0.074
+        },
+        {
+          "text": "Come to Apple as a student and your team will welcome you as a full contributor, like any other employee.",
+          "heading": "Undergrads and Grad Students",
+          "score": 0.0605
+        },
         {
           "text": "For every team and every role.",
           "heading": "There’s a place here for every kind of brilliant.",
@@ -387,42 +454,27 @@
           "text": "We believe the information we report elsewhere on this site is a more accurate reflection of our progress toward diversity.",
           "heading": "Here’s data from the last four years.",
           "score": 0.0332
-        },
-        {
-          "text": "The population of employees whose race or ethnicity is undeclared this year is less than 1 percent.",
-          "heading": "Here’s data from the last four years.",
-          "score": 0.0245
-        },
-        {
-          "text": "The population of employees whose race or ethnicity was undeclared decreased from 6 percent in 2015 to less than 1 percent in 2016 and continues to remain below 1 percent in 2017.",
-          "heading": "Here’s data from the last four years.",
-          "score": 0.0171
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.2311,
-      "rawTopkMean": 0.0482,
-      "nChunks": 40,
+      "zscore": -0.0905,
+      "rawTopkMean": 0.0283,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
-        {
-          "text": "Yes, you’ll learn from them, but they expect to learn from you, too.",
-          "heading": "Undergrads and Grad Students",
-          "score": 0.074
-        },
         {
           "text": "That’s why Apple welcomes you for who you are and who you want to become.",
           "heading": "Join a worldwide company that reflects the whole wide world.",
           "score": 0.0724
         },
         {
-          "text": "Come to Apple as a student and your team will welcome you as a full contributor, like any other employee.",
-          "heading": "Undergrads and Grad Students",
-          "score": 0.0605
+          "text": "Here, you’ll do more than join something — you’ll add something.",
+          "heading": "An open invitation to open minds.",
+          "score": 0.0294
         },
         {
           "text": "When people say, ‘This is hard,’ my rule of thumb is, if it’s not gated by physics, that means it’s hard but doable.",
@@ -433,12 +485,17 @@
           "text": "We invest in education programs so that people everywhere have the opportunity to realize their potential.",
           "heading": "Join a company with business practices as innovative as its products.",
           "score": 0.0145
+        },
+        {
+          "text": "Others figured out how people in wheelchairs can track their activity with Apple Watch to promote their fitness.",
+          "heading": "Come work where sentences start with “What if…?”",
+          "score": 0.0059
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 1.8491,
+      "zscore": 1.6656,
       "rawTopkMean": 0.144,
       "nChunks": 143,
       "kUsed": 5,
@@ -474,7 +531,7 @@
     },
     {
       "year": 2022,
-      "zscore": 1.7597,
+      "zscore": 1.5853,
       "rawTopkMean": 0.1387,
       "nChunks": 150,
       "kUsed": 5,
@@ -510,7 +567,7 @@
     },
     {
       "year": 2023,
-      "zscore": 1.2538,
+      "zscore": 1.1303,
       "rawTopkMean": 0.1087,
       "nChunks": 132,
       "kUsed": 5,
@@ -533,7 +590,7 @@
           "score": 0.0958
         },
         {
-          "text": "Another told a story about feeling accepted at Apple,” says Molla. “People sharing their stories, then learning about how those stories connect with people, is really powerful.” Brian Rekasis of Global Recruiting Marketing has also seen the benefits of the website. “Our Careers at Apple site is one of the first ways candidates get a sense of Apple’s culture and values, and our DNAs are a huge part of that,” he says. “It’s about being seen and heard, which leads to feeling valued.”",
+          "text": "Another told a story about feeling accepted at Apple,” says Molla. “People sharing their stories, then learning about how those stories connect with people, is really powerful.” Brian Rekasis of Global Recruiting Marketing has also seen the benefits of the website. “Our Careers at Apple site is one of the first ways candidates get a sense of Apple’s culture and values, and our DNAs are a huge part",
           "heading": "Apple’s Diversity Network Associations reflect our worldwide community.",
           "score": 0.094
         },
@@ -546,7 +603,7 @@
     },
     {
       "year": 2024,
-      "zscore": -0.5759,
+      "zscore": -0.5149,
       "rawTopkMean": 0.0004,
       "nChunks": 30,
       "kUsed": 5,
@@ -582,7 +639,7 @@
     },
     {
       "year": 2025,
-      "zscore": 0.4712,
+      "zscore": 0.4266,
       "rawTopkMean": 0.0624,
       "nChunks": 79,
       "kUsed": 5,
@@ -618,7 +675,7 @@
     },
     {
       "year": 2026,
-      "zscore": -0.271,
+      "zscore": -0.2407,
       "rawTopkMean": 0.0184,
       "nChunks": 21,
       "kUsed": 5,

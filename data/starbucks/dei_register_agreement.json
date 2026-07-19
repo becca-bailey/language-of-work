@@ -1,14 +1,29 @@
 {
-  "n": 7,
-  "accuracy": 1.0,
-  "krippendorff_alpha": 1.0,
+  "n": 14,
+  "accuracy": 0.929,
+  "krippendorff_alpha": 0.897,
   "confusion": {
     "absent": {
-      "absent": 5
+      "absent": 7
     },
     "explicit_demographic": {
-      "explicit_demographic": 2
+      "explicit_demographic": 3
+    },
+    "structural_process": {
+      "aspirational_vague": 1
+    },
+    "aspirational_vague": {
+      "aspirational_vague": 2
+    },
+    "belonging_culture": {
+      "belonging_culture": 1
     }
   },
-  "disagreements": []
+  "disagreements": [
+    {
+      "chunk_id": "fe63f96ab829201c",
+      "hand_label": "structural_process",
+      "predicted": "aspirational_vague"
+    }
+  ]
 }
