@@ -77,7 +77,7 @@ MANUAL GATE require human review before continuing.
 | 11 | `uv run scripts/embed_chunks.py` | Cache-first embeddings for analysis chunks |
 | 12 | `uv run scripts/build_axes.py` | Build axis vectors + circularity check |
 | 13 | `uv run scripts/score_axes.py` | Project, top-k aggregate, z-score, dedup analysis |
-| 14 | `uv run scripts/validate_altruism_axes.py` | 2014 check, LLM tournament, perturbation test |
+| 14 | `uv run scripts/validate_axes.py` | 2014 check, LLM tournament, perturbation test |
 | 15 | — | MANUAL (M6): review `data/google/validation_report.md` |
 | 16 | `uv run scripts/export_web.py` | Export per-company JSON for the Astro frontend |
 | 17 | `cd astro && npm run dev` | Visualization at `/explore/altruism/google` or `/explore/altruism/compare` |

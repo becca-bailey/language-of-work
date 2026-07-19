@@ -111,7 +111,7 @@ Posture (from the plan): descriptive/case-comparative; effect sizes + visuals ov
 
 ## Phase 5 — Robustness
 
-Confound sensitivity runs (pay-transparency law flags: CO'21/NYC'22/WA·CA'23 — run benefits analysis with/without legally-compelled categories; 10-K human-capital date-flag); alternate embedding model on the axes; prompt-paraphrase audit on the extraction prompt with label-stability report. Reuse the perturbation logic in `scripts/validate_altruism_axes.py`.
+Confound sensitivity runs (pay-transparency law flags: CO'21/NYC'22/WA·CA'23 — run benefits analysis with/without legally-compelled categories; 10-K human-capital date-flag); alternate embedding model on the axes; prompt-paraphrase audit on the extraction prompt with label-stability report. Reuse the perturbation logic in `scripts/validate_axes.py`.
 
 ---
 

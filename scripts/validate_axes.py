@@ -26,13 +26,33 @@ from lowork.config import AXES_DIR, JUDGE_MODEL, TOP_K, company_dir
 from lowork.embeddings import EmbeddingStore
 from lowork.io import read_json, write_json
 
-TOURNAMENT_QUESTION = (
+TOURNAMENT_TEMPLATE = (
     "Below are mission/brand chunks from a company's careers page in two different "
-    "years, labeled A and B. Which set expresses more idealistic, world-improving "
-    "framing — work as social good rather than commercial success?\n\n"
+    "years, labeled A and B. {question}\n\n"
     "SET A:\n{a}\n\nSET B:\n{b}\n\n"
     "Answer with exactly one letter: A or B."
 )
+
+# Judge questions per axis. Circularity discipline: each names the concept
+# without reusing the axis's pole phrases (see axes/*.yaml), so the LLM ranks
+# years independently of the embedding construction. Single common words
+# ("quality", "intense") are unavoidable; multiword pole phrases are not.
+AXIS_TOURNAMENTS = {
+    "altruism": (
+        "Which set expresses more idealistic, world-improving "
+        "framing — work as social good rather than commercial success?"
+    ),
+    "performance": (
+        "Which set describes a more demanding, high-pressure work culture — "
+        "one that stresses elite talent, relentless effort, and tough "
+        "performance expectations?"
+    ),
+    "craft": (
+        "Which set leans more toward patient, careful workmanship — treating "
+        "the finished product's quality and permanence as the point — rather "
+        "than shipping quickly and improving through rapid revision?"
+    ),
+}
 
 EARLY_YEARS = list(range(2005, 2014))
 
@@ -93,7 +113,11 @@ def bradley_terry(years: list[int], wins: dict[tuple[int, int], int], iters: int
     return strength
 
 
-def tournament(quotes: dict, years: list[int], n_pairs: int, seed: int, level: str = "chunk") -> dict:
+def tournament(
+    quotes: dict, years: list[int], n_pairs: int, seed: int,
+    level: str = "chunk", axis: str = "altruism",
+) -> dict:
+    question = AXIS_TOURNAMENTS[axis]
     rng = random.Random(seed)
     all_pairs = [(a, b) for i, a in enumerate(years) for b in years[i + 1:]]
     pairs = rng.sample(all_pairs, min(n_pairs, len(all_pairs)))
@@ -103,9 +127,10 @@ def tournament(quotes: dict, years: list[int], n_pairs: int, seed: int, level: s
     for a, b in pairs:
         flip = rng.random() < 0.5
         first, second = (b, a) if flip else (a, b)
-        prompt = TOURNAMENT_QUESTION.format(
-            a=quotes_text(quotes, "altruism", first, level=level),
-            b=quotes_text(quotes, "altruism", second, level=level),
+        prompt = TOURNAMENT_TEMPLATE.format(
+            question=question,
+            a=quotes_text(quotes, axis, first, level=level),
+            b=quotes_text(quotes, axis, second, level=level),
         )
         resp = client.messages.create(
             model=JUDGE_MODEL, max_tokens=5, temperature=0,
@@ -121,15 +146,19 @@ def tournament(quotes: dict, years: list[int], n_pairs: int, seed: int, level: s
     return {"judgments": judgments, "strengths": {str(y): s for y, s in strengths.items()}}
 
 
-def embedding_vs_llm(scores: pd.DataFrame, tournament_result: dict, level: str) -> float:
-    alt = scores[(scores["axis"] == "altruism") & (scores["level"] == level)].sort_values("year")
+def embedding_vs_llm(
+    scores: pd.DataFrame, tournament_result: dict, level: str, axis: str = "altruism"
+) -> float:
+    alt = scores[(scores["axis"] == axis) & (scores["level"] == level)].sort_values("year")
     emb_rank = alt.set_index("year")["zscore"]
     llm_rank = pd.Series({int(y): s for y, s in tournament_result["strengths"].items()})
     rho, _ = spearmanr(emb_rank.sort_index(), llm_rank.sort_index())
     return round(float(rho), 3)
 
 
-def early_year_agreement(scores: pd.DataFrame, tournament_result: dict) -> dict:
+def early_year_agreement(
+    scores: pd.DataFrame, tournament_result: dict, axis: str = "altruism"
+) -> dict:
     """Compare chunk vs sentence embedding rankings to LLM on early years."""
     years = [y for y in EARLY_YEARS if str(y) in tournament_result["strengths"]]
     if len(years) < 3:
@@ -137,7 +166,7 @@ def early_year_agreement(scores: pd.DataFrame, tournament_result: dict) -> dict:
     llm = pd.Series({int(y): tournament_result["strengths"][str(y)] for y in years})
     out = {}
     for level in ("chunk", "sentence"):
-        alt = scores[(scores["axis"] == "altruism") & (scores["level"] == level)]
+        alt = scores[(scores["axis"] == axis) & (scores["level"] == level)]
         emb = alt[alt["year"].isin(years)].set_index("year")["zscore"]
         if len(emb) >= 3:
             rho, _ = spearmanr(emb.sort_index(), llm.sort_index())
@@ -250,6 +279,14 @@ def write_report(cdir, results: dict, profile: CompanyProfile) -> None:
             lines.append("")
     else:
         lines += ["- Skipped (--skip-tournament)", ""]
+    for axis, t in results.get("tournaments", {}).items():
+        gate = "PASS" if (t["spearman_chunk"] or 0) >= 0.6 else "BELOW GATE (0.6): INVESTIGATE"
+        lines += [
+            f"### {axis} tournament",
+            f"- Chunk embedding-vs-LLM Spearman: **{t['spearman_chunk']}** — {gate}",
+            f"- Sentence embedding-vs-LLM Spearman: **{t['spearman_sentence']}**",
+            f"- {len(t['tournament']['judgments'])} pairwise judgments", "",
+        ]
     lines += [
         "## 3. Axis-sentence perturbation",
         f"- Min Spearman across leave-one-out: **{pert['min_spearman']}** "
@@ -275,30 +312,47 @@ def write_report(cdir, results: dict, profile: CompanyProfile) -> None:
     (cdir / "validation_report.md").write_text("\n".join(lines) + "\n")
 
 
-def main(company: str, n_pairs: int, seed: int, skip_tournament: bool) -> None:
+def main(company: str, n_pairs: int, seed: int, skip_tournament: bool, axes: list[str]) -> None:
     profile = CompanyProfile.load(company)
     validation = profile.validation
     cdir = company_dir(company)
     scores = pd.read_parquet(cdir / "axis_scores.parquet")
     quotes = read_json(cdir / "evidence_quotes.json")
 
-    results: dict = {
-        "ground_truth_chunk": ground_truth_check(scores, "chunk", validation=validation),
-        "ground_truth_sentence": ground_truth_check(scores, "sentence", validation=validation),
-    }
+    # Merge into any existing validation.json so a per-axis run doesn't clobber
+    # sections it didn't recompute (the M6 gate reads the altruism keys).
+    results: dict = read_json(cdir / "validation.json") if (cdir / "validation.json").exists() else {}
+    results["ground_truth_chunk"] = ground_truth_check(scores, "chunk", validation=validation)
+    results["ground_truth_sentence"] = ground_truth_check(scores, "sentence", validation=validation)
     print(f"Ground truth (chunk): {results['ground_truth_chunk']}")
     print(f"Ground truth (sentence): {results['ground_truth_sentence']}")
 
     if not skip_tournament:
-        alt_years = scores[(scores["axis"] == "altruism") & (scores["level"] == "chunk")]["year"].tolist()
-        print(f"Tournament over {len(alt_years)} years, {n_pairs} pairs:")
-        results["tournament"] = tournament(quotes, alt_years, n_pairs, seed, level="chunk")
-        results["tournament_spearman_chunk"] = embedding_vs_llm(scores, results["tournament"], "chunk")
-        results["tournament_spearman_sentence"] = embedding_vs_llm(scores, results["tournament"], "sentence")
-        results["early_year_agreement"] = early_year_agreement(scores, results["tournament"])
-        print(f"Chunk vs LLM: {results['tournament_spearman_chunk']}")
-        print(f"Sentence vs LLM: {results['tournament_spearman_sentence']}")
-        print(f"Early years: {results['early_year_agreement']}")
+        for axis in axes:
+            if axis not in AXIS_TOURNAMENTS:
+                raise SystemExit(f"no tournament question defined for axis '{axis}' "
+                                 f"(have: {', '.join(AXIS_TOURNAMENTS)})")
+            years = scores[(scores["axis"] == axis) & (scores["level"] == "chunk")]["year"].tolist()
+            print(f"[{axis}] tournament over {len(years)} years, {n_pairs} pairs:")
+            tour = tournament(quotes, years, n_pairs, seed, level="chunk", axis=axis)
+            sp_chunk = embedding_vs_llm(scores, tour, "chunk", axis=axis)
+            sp_sent = embedding_vs_llm(scores, tour, "sentence", axis=axis)
+            early = early_year_agreement(scores, tour, axis=axis)
+            if axis == "altruism":  # legacy output shape, unchanged
+                results["tournament"] = tour
+                results["tournament_spearman_chunk"] = sp_chunk
+                results["tournament_spearman_sentence"] = sp_sent
+                results["early_year_agreement"] = early
+            else:
+                results.setdefault("tournaments", {})[axis] = {
+                    "tournament": tour,
+                    "spearman_chunk": sp_chunk,
+                    "spearman_sentence": sp_sent,
+                    "early_year_agreement": early,
+                }
+            print(f"[{axis}] chunk vs LLM: {sp_chunk}")
+            print(f"[{axis}] sentence vs LLM: {sp_sent}")
+            print(f"[{axis}] early years: {early}")
 
     print("Perturbation check...")
     results["perturbation"] = perturbation_check(company)
@@ -320,5 +374,11 @@ if __name__ == "__main__":
     parser.add_argument("--n-pairs", type=int, default=40)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--skip-tournament", action="store_true")
+    parser.add_argument(
+        "--axes", default="altruism",
+        help="Comma-separated axes to run tournaments for "
+             f"(available: {', '.join(AXIS_TOURNAMENTS)})",
+    )
     args = parser.parse_args()
-    main(args.company, args.n_pairs, args.seed, args.skip_tournament)
+    main(args.company, args.n_pairs, args.seed, args.skip_tournament,
+         [a.strip() for a in args.axes.split(",") if a.strip()])
