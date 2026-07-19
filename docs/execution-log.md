@@ -156,3 +156,37 @@ Traced GitLab's paid parental leave across the pre-2023 handbook (blobless clone
   1. **Individualization language embedded INSIDE the structural benefit.** The 16-week policy itself says team members are "encouraged to decide for themselves the appropriate amount of time to take and how to take it." A generous structural benefit, framed in individual-responsibility language — the individualization thesis operating inside the benefit, not just around it.
   2. **Peripheral accretion of individual-locus perks around a flat structural core.** Recent additions (2025–26) are vendor stipends — Parentaly, Tilt (fertility/parenting support) — i.e. individual-locus add-ons bolted onto the stable structural leave. Structural core flat; individual periphery grows. That IS the substitution pattern, in one benefit.
 - **Editorial read:** there is interesting data, but it's a *framing/composition* story (individual rhetoric + individual-perk accretion around a stable structural commitment), NOT a dramatic weeks-changed arc — at least none found so far. Whether that clears Becca's "interesting enough" bar is her call. A full non-blobless weeks-trace could still surface an early expansion/restriction; not yet done. Two locus rules (remote_flexibility, parental_leave) were added to the prompt *after* the model labels in `wellbeing_locus_review_model.csv` were generated, so those model labels don't yet reflect the final codebook. Plan: let Becca finish hand-coding (she may surface more hard cases), FREEZE the codebook, then do ONE final extraction re-run across all 8 companies so model labels match the codebook the human coded against — only then compute α. This avoids conflating "model is wrong" with "model didn't have the rule," and avoids repeated re-runs.
+
+---
+
+## 2026-07-18 — Validation Phase 0.2: stance hand-label agreement — **PASS (provisional)**
+
+Ran `report_dei_agreement.py --task stance` → `data/dei_labels/stance_agreement.json`.
+**Pooled α = 0.932, accuracy 0.96, n = 100** against the migrated 4-class stance data
+(gate: α ≥ 0.80). Up from a 0.47 preview before the same-day taxonomy revision
+(performance_elite removed, civilizational_mission narrowed to explicit-West) — the old
+disagreements were definitional, and the revision eliminated them.
+
+Two honesty qualifiers on the 0.932:
+1. **Provisional**: sample rows 64–100 are an AI first-pass awaiting Becca's
+   verification (rows 1–63 are hers). Re-run after verification for the final number.
+2. **It validates the shipped data, not the new prompt.** Stored stance predictions
+   were migrated deterministically, with the 31 civilizational chunks re-judged under
+   Becca's explicit-West rule — agreement on those rows is partly by construction.
+   The classifier-under-the-new-prompt α requires a fresh API re-classify (batch it
+   with the pending register re-classify), then re-run this report.
+
+Disagreements (4): google `d12f7193` (hand neutral / pred affirming — Becca's, arguable),
+palantir `787fee89` (hand apolitical / pred neutral — Becca's), shopify `b30003e0` and
+starbucks `7e8fa2af` (AI rows, both flagged as judgment calls).
+
+## 2026-07-18 (later) — Phase 0.2 follow-up: post-adjudication stance agreement
+
+Becca verified all 37 AI-prefilled rows and resolved the 4 disagreements
+(rows 13, 51, 66, 81), each toward the classifier. Re-run: **α = 1.0,
+accuracy 100/100**. Verification pass COMPLETE — the provisional qualifier is
+dropped; the citable pair is final: **blind α 0.932** (reliability figure) /
+**adjudicated α 1.0** (gold set and shipped stance data fully consistent).
+Standing qualifiers on the 0.932: prefilled-label anchoring, and migrated data
+partly matched-by-construction on civilizational rows. Classifier-under-
+new-prompt α still pending a fresh API re-classify.

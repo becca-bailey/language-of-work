@@ -1,12 +1,13 @@
 # Validation Reassurance Plan — post-hand-labeling
 
-Follow-on to the validation overhaul (see [labeling-todo.md](labeling-todo.md)).
-That workstream measures classifier agreement; this one closes the remaining
-"we think it's right" gaps in categorization that no α number covers. **Do not
-start until the hand-labeling backlog is done** — Phase 0 consumes its outputs.
-Status 2026-07-18: chunk labels done (blind pooled α 0.759 7-way / 0.805 on the
-analysis view); stance rows remain (AI first-pass labels added for Becca to
-verify — see the anchoring caveat in labeling-todo.md).
+Follow-on to the validation overhaul. That workstream measured classifier
+agreement; this one closes the remaining "we think it's right" gaps in
+categorization that no α number covers.
+**Hand-labeling is DONE (2026-07-18; the labeling-todo checklist is retired —
+gate reads live in [execution-log.md](execution-log.md)):** chunk labels
+460/460, blind pooled α 0.759 7-way / 0.805 analysis view; stance sample
+100/100 fully verified, blind α 0.932 / adjudicated 1.0 (cite the blind number;
+standing qualifier: 37 rows were AI-prefilled before Becca verified them).
 
 Instrument change 2026-07-18: the bipolar `dei_stance` embedding axis and the
 inclusion−meritocracy `stance_diff` were **retired** (output was unconsumed;
@@ -26,23 +27,21 @@ except the tournament parameterization in Phase 1.
 
 ---
 
-## Phase 0 — Close out the labeling gates (prerequisite, already specified)
+## Phase 0 — Close out the labeling gates — **1–2 PASSED 2026-07-18; 3 remains**
 
-1. `python scripts/report_chunk_agreement.py` → `data/chunk_label_agreement.json`.
-   **Gate:** overall α and per-company α for the 13 newly-labeled companies
-   (Google especially — largest corpus, previously unvalidated).
-   **Branch:** if a company's α is materially below the pooled 0.882, treat it
-   as a per-company prompt/corpus problem (inspect its disagreements before any
-   full-corpus re-classify), not a reason to distrust the pooled number.
-2. `python scripts/report_dei_agreement.py --task stance` → `data/dei_labels/agreement.json`.
-   **Gate:** stance α ≥ 0.80 (same bar register was held to; 0.67–0.80 =
-   borderline, usable with a stated caveat).
-   **Branch:** below 0.67 → stance codebook revision + relabel before any
-   stance claim ships anywhere; the DEI story's stance-based claims get a
-   visible caveat until then.
-3. The full-corpus re-classify decision (rewritten register prompt) is gated on
-   1–2 per labeling-todo.md. It is upstream of everything below — **finish it
-   first** so phases 1–4 validate the corpus we actually keep.
+1. ~~Chunk agreement~~ **PASSED**: `report_chunk_agreement.py` → blind pooled α
+   0.759 7-way / 0.805 analysis view (n=440); gold set adjudicated clean.
+2. ~~Stance agreement~~ **PASSED**: `report_dei_agreement.py --task stance` →
+   blind α 0.932 / acc 0.96 (n=100), adjudicated α 1.0. Note: this validates
+   the migrated stance data; the classifier-under-new-prompt α comes from
+   re-running the report after step 3's stance re-classify.
+3. **The remaining item — one batched API run**: full-corpus register
+   re-classify with the rewritten register prompt + fresh stance classify with
+   the new 4-class taxonomy (performance_elite removed, civilizational_mission
+   narrowed to explicit-West). Then re-run both agreement reports for final
+   classifier-under-current-prompt numbers. This is upstream of everything
+   below — **finish it first** so phases 1–4 validate the corpus we actually
+   keep.
 
 ## Phase 1 — Extend the LLM tournament beyond altruism (the only code phase)
 
