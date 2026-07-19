@@ -11,18 +11,15 @@ import DeiRegisterChart from "@/components/viz/DeiRegisterChart.astro";
 import DeiHighlights from "@/components/viz/DeiHighlights.astro";
 
 I also wanted to study diversity and inclusion language — how often companies mention it, and
-what kind of signal it is. Is it vague and aspirational, or does it name specific goals for
-specific groups? (Mostly, when it existed at all, it was vague and aspirational.)
+what kind of signal it is: vague and aspirational, or naming specific goals for specific
+groups.
 
 DEI language isn't the same as policy; it's a signal, not proof of good conditions for
 marginalized people. But as a job seeker, it's the kind of signal that decides whether I
 apply. So I classified every careers-page chunk into a *register* — a type of DEI language —
 with the Claude API, hand-tuning the prompts. Early on it couldn't tell "we want a diverse
-workforce" from "we serve a diverse customer base"; the difference matters. Amazon's early
-diversity mentions were almost always about customers — its first real *workforce* language
-shows up around 2016 ("a company of builders who bring varying backgrounds … gender, race, age,
-national origin, sexual orientation"), and only in 2026 does it harden into a measurable claim:
-"we track the representation of our workforce."
+workforce" from "we serve a diverse customer base"; the difference matters, and the
+classifier counts only language about a company's own workforce.
 
 The chart stacks each company's registers by year: inclusion language above the line,
 counter-programming below — apolitical / anti-DEI framing and the "civilizational mission"
@@ -30,10 +27,7 @@ language best exemplified by Palantir's many invocations of "the West."
 
 <DeiRegisterChart />
 
-Read it as adoption and retraction: the rhetoric spikes around 2021 and recedes, and the
-counterforces grow after 2020. Coinbase is the rare inversion — Armstrong's 2020 "apolitical"
-memo precedes the careers-page flip by about three years. Hover any year for the actual
-language.
+Hover any year for the actual language.
 
 ## About "civilizational mission"
 
