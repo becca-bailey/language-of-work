@@ -1,15 +1,14 @@
 {
   "pooled": {
     "n": 100,
-    "accuracy": 0.93,
-    "krippendorff_alpha": 0.877,
+    "accuracy": 0.99,
+    "krippendorff_alpha": 0.983,
     "confusion": {
       "neutral": {
         "neutral": 57
       },
       "mission_focus_apolitical": {
-        "mission_focus_apolitical": 14,
-        "neutral": 6
+        "mission_focus_apolitical": 20
       },
       "civilizational_mission": {
         "civilizational_mission": 3
@@ -21,38 +20,8 @@
     },
     "disagreements": [
       {
-        "chunk_id": "eb471ed88193a52e",
-        "hand_label": "mission_focus_apolitical",
-        "predicted": "neutral"
-      },
-      {
-        "chunk_id": "acf0e4f54c5591a9",
-        "hand_label": "mission_focus_apolitical",
-        "predicted": "neutral"
-      },
-      {
-        "chunk_id": "0f638d474d9d9baa",
-        "hand_label": "mission_focus_apolitical",
-        "predicted": "neutral"
-      },
-      {
         "chunk_id": "95ead68a1dfc6c99",
         "hand_label": "affirming_dei",
-        "predicted": "neutral"
-      },
-      {
-        "chunk_id": "8a9bfe52b40da2c3",
-        "hand_label": "mission_focus_apolitical",
-        "predicted": "neutral"
-      },
-      {
-        "chunk_id": "91d429f3eac8cbd6",
-        "hand_label": "mission_focus_apolitical",
-        "predicted": "neutral"
-      },
-      {
-        "chunk_id": "c6a09699c405f4c5",
-        "hand_label": "mission_focus_apolitical",
         "predicted": "neutral"
       }
     ]
@@ -175,28 +144,17 @@
     },
     "netflix": {
       "n": 16,
-      "accuracy": 0.875,
-      "krippendorff_alpha": -0.033,
+      "accuracy": 1.0,
+      "krippendorff_alpha": 1.0,
       "confusion": {
         "neutral": {
           "neutral": 14
         },
         "mission_focus_apolitical": {
-          "neutral": 2
+          "mission_focus_apolitical": 2
         }
       },
-      "disagreements": [
-        {
-          "chunk_id": "0f638d474d9d9baa",
-          "hand_label": "mission_focus_apolitical",
-          "predicted": "neutral"
-        },
-        {
-          "chunk_id": "91d429f3eac8cbd6",
-          "hand_label": "mission_focus_apolitical",
-          "predicted": "neutral"
-        }
-      ]
+      "disagreements": []
     },
     "palantir": {
       "n": 22,
@@ -225,24 +183,17 @@
     },
     "shopify": {
       "n": 6,
-      "accuracy": 0.833,
-      "krippendorff_alpha": 0.686,
+      "accuracy": 1.0,
+      "krippendorff_alpha": 1.0,
       "confusion": {
         "mission_focus_apolitical": {
-          "mission_focus_apolitical": 3,
-          "neutral": 1
+          "mission_focus_apolitical": 4
         },
         "neutral": {
           "neutral": 2
         }
       },
-      "disagreements": [
-        {
-          "chunk_id": "c6a09699c405f4c5",
-          "hand_label": "mission_focus_apolitical",
-          "predicted": "neutral"
-        }
-      ]
+      "disagreements": []
     },
     "starbucks": {
       "n": 7,
@@ -260,33 +211,17 @@
     },
     "stripe": {
       "n": 8,
-      "accuracy": 0.625,
-      "krippendorff_alpha": -0.154,
+      "accuracy": 1.0,
+      "krippendorff_alpha": 1.0,
       "confusion": {
         "mission_focus_apolitical": {
-          "neutral": 3
+          "mission_focus_apolitical": 3
         },
         "neutral": {
           "neutral": 5
         }
       },
-      "disagreements": [
-        {
-          "chunk_id": "eb471ed88193a52e",
-          "hand_label": "mission_focus_apolitical",
-          "predicted": "neutral"
-        },
-        {
-          "chunk_id": "acf0e4f54c5591a9",
-          "hand_label": "mission_focus_apolitical",
-          "predicted": "neutral"
-        },
-        {
-          "chunk_id": "8a9bfe52b40da2c3",
-          "hand_label": "mission_focus_apolitical",
-          "predicted": "neutral"
-        }
-      ]
+      "disagreements": []
     }
   }
 }

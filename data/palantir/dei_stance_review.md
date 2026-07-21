@@ -51,5 +51,6 @@
 - civilizational_mission: 1
 
 ## 2026
-- neutral: 26
+- neutral: 25
+- mission_focus_apolitical: 1
 - civilizational_mission: 2

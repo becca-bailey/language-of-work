@@ -24,8 +24,8 @@
 - neutral: 1
 
 ## 2018
-- affirming_dei: 21
-- neutral: 4
+- affirming_dei: 22
+- neutral: 3
 
 ## 2019
 - affirming_dei: 20

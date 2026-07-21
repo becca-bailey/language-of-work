@@ -25,12 +25,10 @@
 - neutral: 7
 
 ## 2021
-- affirming_dei: 1
-- neutral: 10
+- neutral: 11
 
 ## 2022
-- affirming_dei: 1
-- neutral: 4
+- neutral: 5
 
 ## 2023
 - neutral: 3

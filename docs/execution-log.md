@@ -222,3 +222,108 @@ Gate reads (classifier-under-current-prompt, the citable numbers):
 
 Phase 0 of the validation-reassurance plan is closed. Downstream re-score
 (score_dei → exports → synthesize) re-run after these labels landed.
+
+## 2026-07-20 — Validation-reassurance Phase 1: axis tournaments, Google + Netflix
+
+Ran `validate_axes.py --company google --axes performance,craft` and
+`--company netflix --axes altruism,performance,craft` (Sonnet judge, 40 pairs
+per axis, seed 42; merges preserved Google's existing altruism section).
+Gate: embedding-vs-LLM Spearman ≥ 0.6. Pair-level localization computed from
+the logged judgments (agreement = LLM winner also has the higher chunk zscore).
+
+- **netflix/performance: PASS** — Spearman 0.616 chunk / 0.766 sentence;
+  judge-pair agreement 0.78, consistent across eras (1.00 early / 0.67 late /
+  0.78 cross). The published Netflix story's intensity-trend claim now has
+  two-instrument support.
+- **google/performance: MISS, localized** — 0.518 chunk / 0.349 sentence.
+  Disagreement concentrates in early-era pairs (both years ≤2015: 0.61, n=18);
+  cross-era pairs agree 0.80 (n=20), both-recent 1.00 (n=2). Read: the
+  early-year *ordering* (thin years, incl. the pre-2005 archaeology era) is not
+  reliable; the rise into the modern era is supported. Branch taken: hedge any
+  Google early-year performance ordering; trend-level contrast OK.
+- **craft: FAIL, broad — both companies.** google −0.063 chunk / −0.451
+  sentence (pair agreement 0.53 ≈ coin flip in every era); netflix −0.09 /
+  −0.095 (0.50 overall; 0.87 both-recent but 0.14 early, 0.33 cross-era).
+  Axis separation from performance PASSES (cosine 0.093, chunk r≈0.16–0.19),
+  so craft is not duplicating performance — but an independent reader does not
+  reproduce its year ranking at all. Per the plan branch: craft trends must not
+  be presented as trends; the axis needs rework (inspect craft evidence quotes
+  first — thin/noisy quotes vs wrong direction not yet distinguished) before
+  any craft story. First human-independent check on the newest axis; this is
+  what the check is for.
+- netflix/altruism: weak (0.09 chunk / 0.402 sentence; pair agreement 0.55) —
+  no story leans on Netflix altruism; noted, not actioned.
+- Google ground-truth altruism check re-confirmed FAIL (peak 2025 vs expected
+  2014±2; control coupled r=0.52) — the open corpus-composition question,
+  unchanged by this run. Netflix has no expected-peak hypothesis (informational).
+- Perturbation (min Spearman 0.988 google / 0.956 netflix) and craft-vs-
+  performance axis separation pass at both companies.
+
+## 2026-07-20 — Stance prompt v2 (tie-breaker 8) + dedup + full-corpus re-classify
+
+Error analysis of the 6 stance disagreements (all hand=mission_focus_apolitical /
+pred=neutral) showed they were 3 recurring passages — Stripe "The Stripe service"
+(2019–22), Netflix "Artistic Expression" (2024–26), Shopify "Accept our mission"
+(2024–26) — all one genre: viewpoint-neutrality about customers/content *demanded
+of employees*. The prompt's product/customer guard pushed these to neutral; the
+under-detection was definitional, not model error. Becca's ruling: this genre IS
+discouraging workplace activism → extend the codebook.
+
+Changes ([src/lowork/dei_stance.py](../src/lowork/dei_stance.py)):
+- Tie-breaker 8 + definition extension: employee-directed product/content
+  neutrality demands ("you'll serve customers / work on content you disagree
+  with, or work elsewhere") → mission_focus_apolitical; the same neutrality as
+  pure company/product policy stays neutral. Calibration examples paraphrased,
+  not quoted from the sample.
+- Exact-(heading,text) dedup in `classify_stances`: classify each unique text
+  once, fan the label out to every chunk_id (per-year counts unchanged).
+  Motivated by Shopify 2024 vs 2026: byte-identical text, different labels —
+  batch composition sways borderline calls at temperature 0. Full corpus:
+  4,694 chunks → 2,796 unique API classifications (~40% saved).
+
+Gate reads:
+- **Validate-only (new prompt vs 100-row sample, before any overwrite): α 0.932 /
+  acc 0.96; mission_focus_apolitical recall 20/20 (was 14/20), zero new false
+  positives into the class.** 4 residual disagreements all sit on the soft
+  affirming/neutral boundary (borderline copy; batch-composition variance).
+- **Full-corpus re-classify (19 companies) then `report_dei_agreement.py --task
+  stance`: pooled α 0.967 / acc 0.98, n=100 — PASSES 0.80 gate.** CAVEAT: partly
+  in-sample — the prompt revision was driven by this sample's errors; treat 0.967
+  with that qualifier (homepage says so).
+- Corpus impact: 149/4,693 labels changed — 17 neutral→mission_focus_apolitical
+  (the fix; incl. an earlier Netflix "Not everyone will like—or agree with—"
+  variant the rule found beyond the sample), 0 civilizational changes, and
+  70/62 neutral↔affirming churn (soft-boundary instability, net +8).
+- **Out-of-sample spot-check pending (Becca):**
+  [data/dei_labels/stance_new_apolitical_review.md](../data/dei_labels/stance_new_apolitical_review.md)
+  lists all 17 new counter-stance calls. Two questionable families flagged:
+  Stripe "Think rigorously" ×4 (heterodox-speakers/epistemic-culture copy, not a
+  service-neutrality demand) and Palantir 2026 "shallow consumerism" (decline
+  rhetoric; also the sample's one new false positive, hand=neutral). If ruled
+  false positives: tighten the rule's wording (debate-welcoming ≠ demand) and
+  re-classify those chunks.
+
+Downstream: score_dei + export_dei_web re-run for all 19; export_story_web
+--story dei re-run. The DEI story now surfaces Netflix's Artistic Expression
+clause as counterQuotes (2022–26). dei.mdx floors caveat kept (out-of-sample
+under-detection still possible); homepage stance α updated 0.88 → 0.97 with
+the in-sample qualifier. Everything uncommitted, pending Becca's spot-check.
+
+## 2026-07-21 — Stance v2 spot-check adjudicated; FINAL gate read α 0.983
+
+Becca reviewed all 17 new mission_focus_apolitical calls
+(stance_new_apolitical_review.md): 16 confirmed (incl. Stripe "Think
+rigorously" — heterodoxy copy IS in-scope, her ruling), palantir 2026
+`66b9df96` ruled false positive on text-based grounds (her blind gold-set
+label was already neutral; company priors don't label chunks). Prompt guard 9
+added to dei_stance.py (cultural-decline / purpose-critique rhetoric without
+an explicit refusal or employee-directed neutrality demand → neutral); the
+single affected chunk re-classified → neutral (corpus-wide grep confirmed no
+other chunk carries the passage); palantir score_dei + export_dei_web +
+export_story_web --story dei re-run.
+
+**Final citable stance numbers: pooled α 0.983 / accuracy 0.99 (n=100).**
+Standing qualifier unchanged: partly in-sample (prompt v2 was driven by this
+sample's errors; the 17 new calls were the out-of-sample check, now fully
+hand-reviewed). Sole remaining disagreement: apple `95ead68a` partner-org
+list (hand affirming_dei / pred neutral). Homepage updated to α 0.98.

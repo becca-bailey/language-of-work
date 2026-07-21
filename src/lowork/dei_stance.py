@@ -53,13 +53,13 @@ COUNTER_DEI_STANCES = ["mission_focus_apolitical", "civilizational_mission"]
 
 SYSTEM_PROMPT = """You classify text chunks from archived company careers pages by DEI stance.
 
-These chunks come from careers/mission pages. Classify the company's STANCE on workplace inclusion and DEI — not product mission or customer demographics.
+These chunks come from careers/mission pages. Classify the company's STANCE on workplace inclusion and DEI — not product mission or customer demographics (one exception: viewpoint-neutrality demands aimed at employees, tie-breaker 8).
 
 Assign exactly one stance to each chunk:
 
 - affirming_dei: the company actively affirms DEI as an employer — belonging CTAs, diversity commitments, representation goals, inclusion programs, "bring your whole self" framing with company accountability. Must be about the company's OWN workforce or workplace.
 - neutral: mission, innovation, recruiting, or benefits copy with no discernible stance on workplace DEI — standard product impact, generic engineering culture. ALSO includes CSR / philanthropy / community content (foundation grants, volunteering, youth or education programs, supplier and producer sustainability) — "underserved," "diverse backgrounds," or named groups describing program BENEFICIARIES or the community are not a workplace-DEI stance.
-- mission_focus_apolitical: explicitly refuses workplace social/political activism unrelated to mission; apolitical company framing; "refuge from division"; keeps causes out of the workplace. ALSO includes explicit identity-blind rejection of DEI practice — "we hire on merit, not identity politics", "no diversity quotas or identity-based hiring targets", announcing the wind-down of DEI programs or representation goals. The distinguishing feature is an explicit refusal aimed at DEI/identity/causes, not mere intensity.
+- mission_focus_apolitical: explicitly refuses workplace social/political activism unrelated to mission; apolitical company framing; "refuge from division"; keeps causes out of the workplace. ALSO includes explicit identity-blind rejection of DEI practice — "we hire on merit, not identity politics", "no diversity quotas or identity-based hiring targets", announcing the wind-down of DEI programs or representation goals. ALSO includes viewpoint-neutrality demands aimed at employees: telling employees they must serve customers, work on content, or advance the mission for people whose values or politics they personally reject — or self-select out ("you won't agree with every customer we serve", "our mission is for everyone, not just those you agree with", "if you can't support the full breadth of what we make, this isn't the place for you"). The distinguishing feature is an explicit refusal or demand aimed at employees' politics/causes/identity commitments, not mere intensity.
 - civilizational_mission: employer identity framed around defending or ensuring the future of "the West" / Western civilization — an EXPLICIT civilizational invocation is required. Markers (any company's phrasing counts, not just the famous examples): "the West", "Western civilization", "Western values", "Western institutions", "civilizational" stakes, defense-of-civilization or civilizational-destiny framing, decline-and-renewal rhetoric explicitly about the West or civilization. Counter-programming to DEI-era employer branding without necessarily naming DEI.
 
 Tie-breakers:
@@ -70,6 +70,8 @@ Tie-breakers:
 5. 2013 women-in-tech scholarships / Girl Geek spotlights → affirming_dei (workforce pipeline programs count).
 6. CSR / philanthropy about the community, customers, or supply chain — even when it names demographic groups — → neutral. "Our Foundation funds programs for underserved youth of diverse ethnic and racial backgrounds" is philanthropy, not a workplace-DEI stance.
 7. Generic diversity-of-thought recruiting copy ("talented people from diverse backgrounds approach problems from varying perspectives") with no commitment or program → neutral, not affirming_dei.
+8. Product/content neutrality aimed at EMPLOYEES — you must tolerate customers, content, or uses of our product that conflict with your personal values or politics, or you should work elsewhere — is a workplace stance (it disciplines employee politics) → mission_focus_apolitical. The same neutrality described purely as company or product policy, with no demand on employees, → neutral.
+9. Cultural-decline or purpose-critique rhetoric ("tech has lost its way", "too few ask what ought to be built", critiques of consumerism or shallowness) WITHOUT an explicit refusal of politics/causes/identity and WITHOUT a neutrality demand on employees → neutral. Counter-programming flavor alone is not a stance; the refusal or demand must be in the text.
 
 Respond with a JSON array, one object per chunk, in input order:
 [{"id": "<chunk id>", "stance": "<stance>"}]
@@ -100,6 +102,9 @@ def heuristic_stance(text: str) -> str:
             "merit, not",
             "no diversity quotas",
             "identity-based",
+            # employee-directed viewpoint-neutrality demands (tie-breaker 8)
+            "not just those you agree with",
+            "not the best place for you",
         )
     ):
         return "mission_focus_apolitical"
@@ -126,12 +131,29 @@ def heuristic_stance(text: str) -> str:
 
 
 def classify_stances(chunks: list[dict], model: str = CLASSIFIER_MODEL) -> dict[str, str]:
-    """Classify chunks -> {chunk_id: stance}. Batched, temperature 0."""
-    client = Anthropic()
-    results: dict[str, str] = {}
+    """Classify chunks -> {chunk_id: stance}. Batched, temperature 0.
 
-    for i in range(0, len(chunks), BATCH_SIZE):
-        batch = chunks[i : i + BATCH_SIZE]
+    Identical (heading, text) pairs recur across yearly snapshots; each unique
+    pair is classified once and the stance fanned out to every chunk_id that
+    carries it — batch composition can sway borderline calls even at
+    temperature 0 (shopify 2024 vs 2026 got different labels on identical
+    text). Per-year counts downstream still see every chunk_id.
+    """
+    groups: dict[tuple[str, str], list[str]] = {}
+    for c in chunks:
+        groups.setdefault((c.get("heading") or "", c["text"]), []).append(c["chunk_id"])
+    reps = [
+        {"chunk_id": ids[0], "heading": heading, "text": text}
+        for (heading, text), ids in groups.items()
+    ]
+    if len(reps) < len(chunks):
+        print(f"  dedup: {len(chunks)} chunks -> {len(reps)} unique texts")
+
+    client = Anthropic()
+    rep_stances: dict[str, str] = {}
+
+    for i in range(0, len(reps), BATCH_SIZE):
+        batch = reps[i : i + BATCH_SIZE]
         payload = [
             {"id": c["chunk_id"], "heading": c["heading"], "text": c["text"]} for c in batch
         ]
@@ -147,9 +169,16 @@ def classify_stances(chunks: list[dict], model: str = CLASSIFIER_MODEL) -> dict[
             stance = item["stance"]
             if stance not in DEI_STANCES:
                 stance = "neutral"
-            results[item["id"]] = stance
-        print(f"  classified {min(i + BATCH_SIZE, len(chunks))}/{len(chunks)}")
+            rep_stances[item["id"]] = stance
+        print(f"  classified {min(i + BATCH_SIZE, len(reps))}/{len(reps)}")
 
+    results: dict[str, str] = {}
+    for (heading, text), ids in groups.items():
+        stance = rep_stances.get(ids[0])
+        if stance is None:
+            continue
+        for cid in ids:
+            results[cid] = stance
     return results
 
 

@@ -26,12 +26,12 @@
 - neutral: 11
 
 ## 2022
-- affirming_dei: 7
-- neutral: 16
+- affirming_dei: 5
+- neutral: 18
 
 ## 2023
-- affirming_dei: 5
-- neutral: 16
+- affirming_dei: 4
+- neutral: 17
 
 ## 2024
 - affirming_dei: 3

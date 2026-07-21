@@ -32,12 +32,12 @@
 - neutral: 6
 
 ## 2020
-- affirming_dei: 3
-- neutral: 12
+- affirming_dei: 4
+- neutral: 11
 
 ## 2021
-- affirming_dei: 2
-- neutral: 16
+- affirming_dei: 3
+- neutral: 15
 
 ## 2022
 - affirming_dei: 2

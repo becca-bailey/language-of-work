@@ -20,8 +20,8 @@
 - neutral: 8
 
 ## 2005
-- affirming_dei: 2
-- neutral: 5
+- affirming_dei: 1
+- neutral: 6
 
 ## 2006
 - affirming_dei: 1
@@ -69,32 +69,33 @@
 - neutral: 10
 
 ## 2018
-- affirming_dei: 18
-- neutral: 13
+- affirming_dei: 19
+- neutral: 12
 
 ## 2019
 - affirming_dei: 52
 - neutral: 9
 
 ## 2020
-- affirming_dei: 34
-- neutral: 16
+- affirming_dei: 40
+- neutral: 10
 
 ## 2021
-- affirming_dei: 15
+- affirming_dei: 14
+- neutral: 1
 
 ## 2022
-- affirming_dei: 20
-- neutral: 15
+- affirming_dei: 21
+- neutral: 14
 
 ## 2023
-- affirming_dei: 13
-- neutral: 14
+- affirming_dei: 14
+- neutral: 13
 
 ## 2024
 - affirming_dei: 11
 - neutral: 14
 
 ## 2025
-- affirming_dei: 14
-- neutral: 32
+- affirming_dei: 17
+- neutral: 29

@@ -19,16 +19,14 @@
 - neutral: 5
 
 ## 2015
-- affirming_dei: 1
-- neutral: 4
+- neutral: 5
 
 ## 2016
-- affirming_dei: 1
-- neutral: 7
+- neutral: 8
 
 ## 2017
-- affirming_dei: 3
-- neutral: 9
+- affirming_dei: 1
+- neutral: 11
 
 ## 2018
 - neutral: 9

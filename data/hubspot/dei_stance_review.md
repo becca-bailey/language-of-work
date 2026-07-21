@@ -22,8 +22,8 @@
 - neutral: 6
 
 ## 2019
-- affirming_dei: 10
-- neutral: 4
+- affirming_dei: 11
+- neutral: 3
 
 ## 2020
 - affirming_dei: 1
@@ -42,8 +42,8 @@
 - neutral: 16
 
 ## 2024
-- affirming_dei: 4
-- neutral: 21
+- affirming_dei: 6
+- neutral: 19
 
 ## 2025
 - affirming_dei: 1

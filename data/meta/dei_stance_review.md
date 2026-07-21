@@ -51,16 +51,14 @@
 - neutral: 10
 
 ## 2023
-- affirming_dei: 1
-- neutral: 1
+- neutral: 2
 
 ## 2024
-- affirming_dei: 1
-- neutral: 1
+- neutral: 2
 
 ## 2025
-- affirming_dei: 4
-- neutral: 8
+- affirming_dei: 3
+- neutral: 9
 
 ## 2026
 - neutral: 11
