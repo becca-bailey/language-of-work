@@ -1,0 +1,235 @@
+# Altruism genre review — Google pilot v2 (2026-07-21)
+
+Full non-techno pool classified under the v2 codebook (Becca's four
+boundary rulings; classifier sees chunk headings). The worldChanging
+series is computed over the world_changing group only.
+
+## world_changing (23)
+
+- (2014,2015,2016, alt 0.343) [Global Impact Awards: Giving back at Goo] At Google, we believe in making the world a better place through technology.
+- (2023,2024, alt 0.326) [Find your team] Make people's lives better through technology.
+- (2025, alt 0.266) [Accelerating the impact of nonprofits] We’re applying Google’s innovation, research, and resources to promote progress and expand opportunity for everyone.
+- (2019,2020, alt 0.261) [Conclusion] We believe in universal access to technology for all communities.
+- (2004,2005,2006,2007, alt 0.256) Uniting the world, one user at a time.
+- (2005,2006,2007, alt 0.251) Can one conversation change the world?
+- (2008, alt 0.228) [Top 10 Reasons to Work at Google] As such we think, act, and work globally - just our little contribution to making the world a better place.
+- (2004,2005,2006,2007, alt 0.226) As such we think, act, and work globally—just our little contribution to making the world a better place. 9.
+- (2024,2025, alt 0.226) [Explore more of our belonging work] We’re working to develop artificial intelligence responsibly.
+- (2025, alt 0.200) [Preventing online hate and toxicity with] When used and developed responsibly , artificial intelligence has the power to help protect vulnerable people – including members of LGBTQ+ communities around the world – from online hate.
+- (2022,2023,2024,2025, alt 0.199) [How we’re building online safety for peo] As part of its mission to address threats to open societies, Jigsaw (a team within Google) is working toward globally scalable solutions to the issue of online toxicity .
+- (2018,2019, alt 0.193) [Conclusion] We are determined we will have the impact the world expects of us, and that we expect of ourselves.
+- (2005,2006,2007, alt 0.184) It can also produce ideas that transform how people live their lives.
+- (2012, alt 0.181) [Ten things we know to be true] Those are the kinds of changes we seek to make, and we’re always looking for new places where we can make a difference.
+- (2008, alt 0.138) [Top 10 Reasons to Work at Google] With millions of visitors every month, Google has become an essential part of everyday life - like a good friend - connecting people with the information they need to live great lives.
+- (2005,2006,2007, alt 0.132) With millions of visitors every month, Google has become an essential part of everyday life—like a good friend—connecting people with the information they need to live great lives. 2.
+- (2012, alt 0.132) [Ten things we know to be true] In addition, we’re hoping to fuel greater innovation for mobile users everywhere with Android, a free, open source mobile platform.
+- (2012, alt 0.111) [What we do for you] Above all, it means making our products work better so that people can spend time on the stuff they’re good at—like enjoying time with family, camping in the wilderness, painting a picture or throwing a party.
+- (2000, alt 0.108) [Join Our Team!] Millions use Google - your ideas will make a difference.
+- (2003, alt 0.108) Millions use Google - your ideas will make a difference.
+- (2000, alt 0.106) Your ideas can make a difference.
+- (1999, alt 0.092) [Reasons to work at Google!] Your ideas can make a difference Millions of people will use and appreciate your software Google seeks to hire only the best, and conducts business following the spirit and the intent of the equal opportunity laws.
+- (2012, alt 0.061) [Ten things we know to be true] You can make money without doing evil.
+
+## belonging_dei (313, top 40 shown)
+
+- (2021,2022, alt 0.314) [Why is belonging important at Google?] Can we create a world where we all belong?
+- (2021,2022, alt 0.305) [Why is belonging important at Google?] Not all situated the same, but can we create a world in which our shared humanity becomes real?
+- (2022,2023, alt 0.292) [In a world where everyone belongs, anyth] POWELL: How do we actually create a world in which our shared humanity becomes real, a world where everyone can belong?
+- (2024,2025, alt 0.267) [Explore more of our belonging work] In 2023 we deepened our global belonging efforts to build a world where belonging is the norm, not the exception.
+- (2022,2023, alt 0.251) [In a world where everyone belongs, anyth] JUAN RAJLIN: What we’re trying to create is a culture where literally everyone can reach their full potential.
+- (2022,2023, alt 0.248) [Explore more of our belonging work] A world of belonging includes care for our planet.
+- (2021,2022, alt 0.239) [2020 was a year of challenges that had a] We recognize our responsibility to meet this moment and believe the greatest contribution we can make to changing these structural inequities is sustained action within our company, our communities, and the world.
+- (2018,2019, alt 0.223) [3. Overarching strategy] We seek to embrace diversity and create the conditions for everyone to thrive.
+- (2025, alt 0.222) [Shifting the story about how disabled pe] We partnered with actor, author, and advocate Selma Blair to share these resources with the world and shine a spotlight on our shared mission to shift the story about how disabled people are represented in society.
+- (2019,2020, alt 0.221) [Conclusion] That’s why in 2019 we challenge ourselves and others to think differently so that we widen pathways to tech.
+- (2025, alt 0.221) [In a world where everyone belongs, anyth] “Building belonging for everyone means ensuring no one is left out and each person can thrive.”
+- (2017,2018, alt 0.218) [Building a Google that works for everyon] And while progress will take time, our actions today will determine who we are in the future.
+- (2019,2020, alt 0.214) [Community inclusion] Objectives for the event were to build community, share human stories behind the trends we saw in the data, and align on a collective agenda to accelerate change.
+- (2022,2023,2024,2025, alt 0.214) [How we’re working to better recruit, hir] We’re actively working to make Google a place where everyone can learn, grow, and have an impact.
+- (2021,2022, alt 0.213) [From awareness to action] It’s through collective action that we can make the largest impact on these deep structural issues.
+- (2021,2022, alt 0.212) [2020 was a year of challenges that had a] These issues deeply impacted us all, at Google and around the world, serving as a reminder that systemic barriers still hold too many back.
+- (2023, alt 0.210) [How we’re continuing to show up for comm] Across Google, we’re sustaining our commitment to building sustainable equity for communities worldwide.
+- (2020, alt 0.205) [2020 Diversity Annual Report] We’re advancing a diverse, accessible, and inclusive Google where everyone feels like they belong.
+- (2021,2022, alt 0.205) [Building diversity, equity, and inclusio] We’re advancing a diverse, accessible, and inclusive Google where everyone feels like they belong.
+- (2024, alt 0.202) [In a world where everyone belongs, anyth] Building belonging for everyone means ensuring no one is left out and each person can thrive.
+- (2021,2022, alt 0.190) [Building diversity, equity, and inclusio] We will continue to build with and for underrepresented groups where structural and systemic barriers to belonging are the highest, as well as co-create solutions to address racial equity, gender equity, and accessibility with experts and leaders around the world.
+- (2019,2020, alt 0.187) [Community inclusion] We are scaling the impact of the State of Black Women Summit by empowering ambassadors to run local site programs to build community for Black+ women at Google.
+- (2025, alt 0.186) [Building technology, together] We’re designing with communities that are often overlooked so that what we build is truly helpful for everyone.
+- (2021,2022, alt 0.185) [Building diversity, equity, and inclusio] In order to tackle structural inequities we face as a society, we must take a systems-level approach.
+- (2021,2022, alt 0.180) [What has Google learned?] Melonie : Yes, I want to make sure that we’re not setting boundaries between the U.S. and outside of the U.S., that we are really co-creating our future together.
+- (2020,2021,2022, alt 0.179) [Our approach to diversity, equity, and i] As Google continues to grow, we have a responsibility to scale our diversity, equity, and inclusion initiatives to increase pathways to tech in the communities we call home.
+- (2018,2019, alt 0.178) [2018 overall representation] This represents the beginning of our exploration of intersectional data in the U.S., and we invite others in the tech industry to join us in a more rigorous examination of this space.
+- (2022, alt 0.177) [Our work to support the Asian American P] We’re working to support this community and #StopAsianHate.
+- (2019,2020, alt 0.176) [Business & product inclusion] Around the world, Google engineers, designers, and marketers are working to understand the needs of communities who have been underrepresented in tech.
+- (2019,2020, alt 0.176) [2. Data powers progress] We believe that data is an important catalyst for change and indicator of progress—that’s why we publish this report.
+- (2017,2018, alt 0.175) [Building a Google that works for everyon] Google should be a place where people from different backgrounds and experiences come to do their best work–a place where every Googler feels they belong.
+- (2023, alt 0.174) [In a world where everyone belongs, anyth] Belonging is not just critical to our survival, it’s essential if we are to thrive. john a. powell (he/him) Director, Othering & Belonging Institute
+- (2022, alt 0.173) [Combat Antisemitism] We recognize the importance of working together with governments and civil society to tackle these issues, and we have a shared responsibility to promote Holocaust remembrance and combat antisemitism, both online and offline.
+- (2018,2019, alt 0.172) [From unconscious bias to conscious actio] We also want to do more to challenge gender stereotypes in Google’s workplace.
+- (2022,2023,2024,2025, alt 0.172) [How we’re building belonging for the mil] We’re working to make Google a place where the military-affiliated community can thrive and grow.
+- (2014,2015,2016, alt 0.170) [Culture and Diversity] We’ve always wanted Google to be a place that brought together smart, talented people from a diversity of backgrounds, and where you could bring your whole self to work.
+- (2021,2022, alt 0.170) [Why is belonging important at Google?] Everyone is in the circle of human concern.
+- (2017,2018, alt 0.169) [Building a Google that works for everyon] These commitments require us to look at bias through a wider lens: at Google, in the industry, and in society.
+- (2019,2020, alt 0.167) [Community inclusion] We hosted 19 global Women Techmakers summits and supported more than 300 community-led meet-ups to empower 25,000 women in the tech industry.
+- (2021,2022, alt 0.166) [Building diversity, equity, and inclusio] And we’re excited to build on the goals we’ve set for ourselves such as increasing representation of underrepresented groups by 30% by 2025 and expanding hiring in cities that contribute to a high quality of life for Black+ Googlers all over the world.
+
+## csr_philanthropy (75, top 40 shown)
+
+- (2020,2021,2022, alt 0.237) [Our approach to diversity, equity, and i] Google.org is committed to philanthropy in support of STEM access for underserved communities.
+- (2020,2021,2022, alt 0.217) [Our approach to diversity, equity, and i] By providing computer science education from primary school through university we are growing the next generation of Black and Latinx tech leaders through programs like CS First , Code Next , and Tech Exchange .
+- (2022,2023,2024,2025, alt 0.211) [$25M Google.org Impact Challenge for Wom] In 2021, we launched the Google.org Impact Challenge for Women and Girls , which focused on gender inequity, one of the most urgent challenges we face as a society.
+- (2022,2023,2024,2025, alt 0.202) [$25M Google.org Impact Challenge for Wom] The challenge, launched in partnership with Vital Voices and Project Everyone, was an open call to organizations that create pathways to prosperity for women and girls.
+- (2019,2020, alt 0.201) [What would it take (for tech to reflect ] An example of this is Google.org's $25 million commitment to increase Black+ and Latinx+ students’ access to computer science and artificial intelligence education across the U.S.
+- (2021,2022, alt 0.189) [From awareness to action] By 2020, it has dedicated $104 million in grants and 25,000 pro bono hours to advancing racial equity.
+- (2021,2022, alt 0.188) [From awareness to action] Google.org launches a racial justice portfolio.
+- (2018,2019, alt 0.184) [From unconscious bias to conscious actio] And it’s why we inspire girls and young women to consider a career in the Tech sector via projects like Made With Code .
+- (2022,2023,2024,2025, alt 0.184) [Celebrating the impact of the Asian Amer] As part of our 2021 campaign to honor Asian American Heritage Month and #StopAsianHate, we committed $10 million to organizations fighting for safety, dignity, and equity for the AAPI community.
+- (2021,2022, alt 0.183) [From awareness to action] By 2020, it has dedicated $55 million to create economic empowerment for women and girls.
+- (2021,2022, alt 0.177) [From awareness to action] Google.org launches a gender equality portfolio.
+- (2022,2023,2024,2025, alt 0.165) [Helping The Trevor Project support LGBTQ] In 2020, Google.org Fellows assisted The Trevor Project in building an artificial intelligence system that could identify and prioritize high-risk contacts while also reaching more people.
+- (2019,2020, alt 0.164) [Employee Resource Groups] The group helped Google celebrate Native American Heritage Month with a Google Doodle, episode on Google’s documentary series, and a CS First program to strengthen computer science in Native classrooms.
+- (2022,2023,2024,2025, alt 0.159) [Helping the military-affiliated communit] Helping trusted military-serving organizations scale their impact through Google.org grants: In 2021, we committed a $10 million grant to help Hiring Our Heroes launch Career Forward .
+- (2019,2020, alt 0.150) [Community inclusion] Google also signed the Women’s Empowerment Principles from UN Women, which was developed to help organizations advance and empower women in the workplace and beyond.
+- (2019,2020, alt 0.148) [What would it take (for tech to reflect ] That’s why we continue to make long-term investments in education, so that we increase pathways to tech for underrepresented groups.
+- (2019,2020, alt 0.148) [What would it take (for tech to reflect ] At the same time we will deepen our efforts around our educational equity programs—for example with Tech Exchange and Code Next .
+- (2022,2023,2024,2025, alt 0.143) [Helping the military-affiliated communit] Since 2015, we’ve committed over $29 million to support the efforts of U.S.
+- (2022, alt 0.142) [Our work to support the Asian American P] We also recognize the urgency of supporting the physical and psychological safety of this group, which is why we committed $10 million to organizations on the front lines fighting for safety, dignity, and equity for the AAPI community.
+- (2025, alt 0.142) [Supporting LGBTQ+ communities around the] In the last couple of years, Google.org has allocated millions of dollars in grant money to support LGBTQ+ communities around the world.
+- (2025, alt 0.141) [Connecting job seekers with in-demand di] Here are some of the ways we’re working to close that gap: Tech Equity Collective (TEC), an initiative started by Google employees in the summer of 2020, accelerates Black innovation and representation in tech by bringing together community and industry partners to create programs and experiences that lead to tangible progress for Black tech innovators.
+- (2019,2020, alt 0.140) [Community inclusion] We know that this work is done better in partnership with others, so we engage closely with external organizations like Anita B.Org , UN Women , Black Girls Code (who run a lab inside dedicated Google office space in NYC ), National Center for Women in Technology (to whom we gave dedicated office space in Boulder valued at $1.3M), Lesbians Who Tech , and Stanford Clayman Institute for Gender Research .
+- (2014,2015, alt 0.139) [Fortune Names Google the 2014 “Best Comp] While we’re honored to be included, what makes us proud is the recognition of the great contributions Googlers make to the communities in which we live and work.
+- (2025, alt 0.138) [Supporting LGBTQ+ communities around the] This includes: $2.7 million and a team of 30 Google.org Fellows in 2021 to use AI to help The Trevor Project scale its LGBTQ+ youth crisis support resources, including expanding its services to more countries starting with Mexico $2 million in grants and $1 million in Ad Grants to help OutRight Action International support LGBTQ+ people affected by the COVID-19 crisis in 2021 Free search ads for Turn2Me in 2022, an Irish nonprofit on a mission to offer safe and timely mental health services online Support for {reprograma} , a training initiative that aims to increase opportunities for Black and transgender women in Brazil’s tech sector
+- (2022,2023,2024,2025, alt 0.127) [Helping the military-affiliated communit] We have pledged $10 million in ad grants over the next five years, to military- and Veteran-serving organizations.
+- (2018,2019, alt 0.122) [From unconscious bias to conscious actio] Our grant funding supports many organizations that tackle bias; read about them here .
+- (2023, alt 0.119) [How we’re continuing to show up for comm] Our efforts include strengthening workplace onboarding programs, developing entrepreneurial tools and creating economic opportunities for underrepresented groups.
+- (2018,2019, alt 0.118) [From unconscious bias to conscious actio] That’s why Google invests in teaching girls and other under-represented groups to code.
+- (2020,2021,2022, alt 0.116) [Our approach to diversity, equity, and i] We approach this work by building long-term partnerships with educational institutions, policymakers, and community organizations.
+- (2020,2021, alt 0.115) [Looking back. Stepping forward.] We’ve made investments to strengthen the diverse communities both within and outside Google.
+- (2019,2020, alt 0.114) [Community inclusion] Events also included giving back to local communities.
+- (2024, alt 0.114) [Relief for Israel and Gaza] Googlers and Google.org have committed more than $8 million to nonprofits providing relief to civilians affected in Israel and Gaza.
+- (2022,2023,2024,2025, alt 0.109) [Helping the military-affiliated communit] As of 2022, we’ve given $800,000 toward organizations including Code Platoon and Student Veterans of America, so they can better connect with those searching for their services on Google.
+- (2022,2023,2024,2025, alt 0.108) [Helping the military-affiliated communit] That’s why we’re working to increase access to portable career credentials and employment opportunities.
+- (2019,2020, alt 0.107) [Employee Resource Groups] Members organized a service trip to Puerto Rico that provided mentoring for 100 small businesses and nonprofit organizations there.
+- (2019,2020, alt 0.107) [Employee Resource Groups] Among the many programs, the #IAmRemarkable empowerment workshops have accelerated the career progression of 25,000 women both inside and outside Google in 50+ countries.
+- (2022,2023,2024,2025, alt 0.107) [Helping the military-affiliated communit] In addition, we’re developing tools and programs to help service members and military spouses and partners prepare for careers in tech and beyond.
+- (2022,2023,2024,2025, alt 0.107) [Helping The Trevor Project support LGBTQ] To support youth in crisis, The Trevor Project offers free, confidential, 24/7 crisis services via phone, chat, and text.
+- (2016, alt 0.106) [Give back] We value giving back to the community just as much as we value the products we create.
+- (2019,2020, alt 0.106) [Community inclusion] We also partner with Women in Computer Science chapters across 100+ universities to host 200+ events annually.
+
+## product_hype (83, top 40 shown)
+
+- (2025, alt 0.204) [Android & Pixel for everyone] We're committed to creating tools that make it easier for everyone to accomplish important everyday tasks - like having conversations, getting work done, and enjoying entertainment.
+- (2019,2020, alt 0.192) [Business & product inclusion] For example, Project Respect helps create more inclusive artificial intelligence (AI) algorithms, in line with our AI Principles .
+- (2025, alt 0.191) [Accessibility with AI] Here are some of the ways we’re doing it: In 2022, we announced the 1,000 Languages Initiative , an ambitious commitment to build an AI model that will support the 1,000 most spoken languages and bring greater inclusion to billions of people in marginalized communities all around the world.
+- (2025, alt 0.191) [We’re building technology that helps eac] Working with the disability community to build more helpful phones for all
+- (2025, alt 0.190) [Accessibility with AI] That’s why we’re using AI to make the internet and digital tools more accessible and useful for speakers of all languages, all around the world.
+- (2025, alt 0.179) [Partnering to create more inclusive came] Our teams are on a mission to build products that work equitably for everyone, so that people from all racial and ethnic groups can enjoy beautiful, representative, and accurate photos and images.
+- (2022,2023,2024,2025, alt 0.178) [Supporting the mental well-being of serv] Our Recover Together site is designed to help anyone find nearby recovery groups, information about recovery-related initiatives, and personal stories of addiction, recovery, and community to help break the stigma and end the silence.
+- (2025, alt 0.170) [Accessibility with AI] We’ve built a language model for Bambara, one of West Africa's most widely spoken languages, to make the world’s information more accessible to its speakers.
+- (2021, alt 0.163) [Why is belonging important at Google?] And we are far from being perfect, but we are making a journey in terms of trying to make our products as available and accessible as to as many people as possible, to make sure that the internet could work for everyone irrespective of location, language you speak, or digital proficiency.
+- (2019,2020, alt 0.159) [Business & product inclusion] We also offer online crowdsourcing platforms to encourage anyone anywhere to help improve the inclusivity of Google’s products.
+- (2022,2023, alt 0.159) [In a world where everyone belongs, anyth] EVE ANDERSSON: By making our products more accessible, we’re enabling people to learn more, to accomplish more in their lives.
+- (2012, alt 0.158) [What we do for the web] We build products that we hope will make the web better—and therefore your experience on the web better.
+- (2025, alt 0.153) [Partnering to create more inclusive came] Together, we significantly increased the number of portraits of people of color in the image datasets that train our camera models.
+- (2019,2020, alt 0.149) [Business & product inclusion] From Google’s Pixel Camera , to embracing equity in Google’s global support services , we are making sustained efforts to drive inclusion by design.
+- (2012, alt 0.148) [Broadcast yourself] Cat videos, citizen journalism, political candidacy and double rainbows have never been the same.
+- (2018,2019, alt 0.148) [Inclusion inside and out] When our products are built using a diversity of data, we help bring the benefits of AI to all , so that our products work for everyone.
+- (2025, alt 0.144) [Skin tone representation] In 2022, we took steps to address this problem by openly releasing the Monk Skin Tone (MST) Scale , an alternative 10-shade scale developed by professor and sociologist Dr.
+- (2018,2019, alt 0.143) [Fostering inclusion for all] DA also promotes Google’s wider work on disability, such as offering scholarships to disabled students, and ensuring Google serves the needs of an estimated 20% of the world’s population who are disabled.
+- (2025, alt 0.141) [AI in Mammography] AI can help doctors and patients detect diseases earlier, so it has the potential to improve screening for breast cancer – the most common cancer in women worldwide.
+- (2025, alt 0.139) [Transforming how people connect with Pix] We’re committed to making sure people with disabilities can use Android and Pixel phones as easily and effectively as possible.
+- (2025, alt 0.139) [Partnering to create more inclusive came] To make Pixel a more inclusive and equitable camera , we partnered with a diverse range of renowned image makers who are celebrated for their depictions of communities of color.
+- (2019,2020, alt 0.137) [Business & product inclusion] These examples show how our teams build with everyone for everyone.
+- (2022,2023,2024,2025, alt 0.137) [We were named 2021 Marketplace Innovator] Accessibility is at the core of our product mission at Google, and we have pushed this commitment even further in recent years.
+- (2025, alt 0.135) [Preventing online hate and toxicity with] These free, open-source tools help platforms and individuals reduce toxicity and abusive behavior, enabling healthy conversations.
+- (2021, alt 0.132) [Why is belonging important at Google?] And when we think about the words universally accessible — this is the ultimate definition of inclusivity.
+- (2022,2023,2025, alt 0.132) [Building for accessibility] We’re sharing resources to help creative technologists, including software engineers and UX designers, build truly accessible websites and apps.
+- (2022,2023,2024,2025, alt 0.131) [How we’re building online safety for peo] This program, embraced at Google offices around the world , includes training on how to push back against online violence and hackathons to develop scalable solutions.
+- (2022,2023, alt 0.126) [In a world where everyone belongs, anyth] MAMBU BAYOH: How do we make sure that when someone takes a photo of them, they see themselves?
+- (2019, alt 0.125) [Our accelerated approach to diversity an] We endeavor to build products that work for everyone by including perspectives from backgrounds that vary by race, ethnicity, social background, religion, gender, age, disability, sexual orientation, veteran status, and national origin.
+- (2020, alt 0.125) [Making progress on diversity, equity, an] We endeavor to build products that work for everyone by including perspectives from backgrounds that vary by race, ethnicity, social background, religion, gender, age, disability, sexual orientation, veteran status, and national origin.
+- (2019,2020, alt 0.121) [Business & product inclusion] And at Accelerate with Google we “open source” best practices, guidance, and research on inclusive design.
+- (2022,2023,2024,2025, alt 0.118) [Boosting support for spaces of belonging] We’ve added LGBTQ+ points of interest on Google Maps, to help everyone honor important cultural landmarks and murals like the Black Trans Lives Matter Mural in San Francisco or the Gay Liberation Monument in New York.
+- (2019,2020, alt 0.114) [Community inclusion] This has now evolved to become Live Transcribe, a product which makes life easier for people living with hearing loss.
+- (2025, alt 0.113) [Android & Pixel for everyone] Learn more about accessibility and disability inclusion across our Android and Pixel products here .
+- (2019,2020, alt 0.111) [Community inclusion] Below are several examples of how community inclusion improves outcomes for Google and employees: Accessibility Week Accessibility is a core value at Google, and is embedded in our mission.
+- (2025, alt 0.111) [Skin tone representation] The MST Scale is also helping us create more representative search experiences for everyone.
+- (2019,2020, alt 0.109) [Community inclusion] Accessibility Week inspires employees to participate in engineering projects to improve accessibility of our products.
+- (2025, alt 0.105) [Partnering to create more inclusive came] Our virtual try-on tool in Google Search also reflects our commitment to making imaging technology more inclusive.
+- (2025, alt 0.104) [Supporting community businesses] We’re building tools that make it easier to support businesses that represent and support a range of different communities.
+- (2025, alt 0.100) [Skin tone representation] Moving forward, the MST Scale will continue to help us build products and features that reflect and serve everyone.
+
+## mission_scope (29)
+
+- (2012, alt 0.260) [Ten things we know to be true] Our hope is to bring the power of search to previously unexplored areas, and to help people access and use even more of the ever-expanding information in their lives.
+- (2008, alt 0.256) [Top 10 Reasons to Work at Google] Uniting the world, one user at a time.
+- (2021,2022, alt 0.232) [What are some of the responsibilities Go] Can we really make it available to all humans in a responsible way?
+- (2014,2015,2016, alt 0.221) [Google: A great workplace for women] At Google, our mission is to organize the world’s information and make it universally accessible. ...
+- (2018, alt 0.212) [Our accelerated approach to diversity an] Google’s mission is to organize the world's information and make it universally accessible and useful.
+- (2019,2020, alt 0.212) [Google diversity annual report 2019] Google’s mission is to organize the world's information and make it universally accessible and useful.
+- (2021, alt 0.194) [Why is belonging important at Google?] Think about it: organizing the world’s information and making it universally accessible and useful.
+- (2012, alt 0.188) [Ten things we know to be true] And our researchers continue looking into ways to bring all the world’s information to people seeking answers.
+- (2021, alt 0.180) [Why is belonging important at Google?] Pedro : The mission of Google has never been more relevant than today.
+- (2018,2019, alt 0.179) [3. Overarching strategy] And it aligns with our mission: to organize the world’s information and make it universally accessible and useful.
+- (2023,2024, alt 0.167) [Find your team] Together, we create access to information and build products for everyone.
+- (2025, alt 0.163) [2 Strengthening our culture of bold and ] We work as Team Google - one mission-driven team that solves meaningful challenges for our users while cheering each other on along the way.
+- (2021,2022, alt 0.159) [What are some of the responsibilities Go] john : One of our big issues in the world today is knowledge.
+- (2012, alt 0.158) [Ten things we know to be true] Our company was founded in California, but our mission is to facilitate access to information for the entire world, and in every language.
+- (2012, alt 0.156) [Google+] In June 2011, we introduced the Google+ project, aimed at bringing the nuance and richness of real-life sharing to the web, and making all of Google better by including people, their relationships and their interests.
+- (2014,2015,2016, alt 0.151) [Do Cool Things That Matter] Googlers solve complex problems everyday in the name of our core mission to organize the world’s information and make it universally accessible to our users.
+- (2012, alt 0.139) [What we do for the web] We’re also committed to the open web, so we’re involved in various projects to make it easier for developers to contribute to the online ecosystem and move the web forward.
+- (2014, alt 0.123) Search volume around the world, visualized on the WebGL Globe Google’s mission is to organize the world’s information and make it universally accessible and useful.
+- (2004, alt 0.121) With more than 82 million visitors every month, Google has become an essential part of everyday life—like a good friend—connecting people with the information they need to live great lives. 2.
+- (2003,2004,2005, alt 0.116) Google's approach is to foster creativity and cooperation in the pursuit of a common goal: creating the world's best search service .
+- (2012, alt 0.116) [Ten things we know to be true] With these tools and the help of volunteer translators, we have been able to greatly improve both the variety and quality of services we can offer in even the most far–flung corners of the globe.
+- (2008, alt 0.077) [Life at Google] Google has offices around the globe, from Bangalore to Zurich, but regardless of where we are, we nurture an invigorating, positive environment by hiring talented, local people who share our commitment to creating search perfection and want to have a great time doing it.
+- (2012, alt 0.067) [Ten things we know to be true] Since the beginning, we’ve focused on providing the best user experience possible.
+- (2012, alt 0.027) [Ten things we know to be true] Whether we’re designing a new Internet browser or a new tweak to the look of the homepage, we take great care to ensure that they will ultimately serve you , rather than our own internal goal or bottom line.
+- (2023,2024, alt 0.006) [Find your team] Equip businesses with the right tools to help them grow.
+- (2012, alt 0.003) [Ten things we know to be true] Google search works because it relies on the millions of individuals posting links on websites to help determine which other sites offer content of value.
+- (2012, alt -0.014) [Ten things we know to be true] Focus on the user and all else will follow.
+- (2012, alt -0.055) [Ten things we know to be true] You don’t need to be at your desk to need an answer.
+- (2025, alt -0.055) [Supporting community businesses] Business owners in the U.S. can add attributes to their Business Profiles that customers can see in their listings on Google Search and Google Maps.
+
+## other (353, top 40 shown)
+
+- (2005,2006,2007, alt 0.240) There's still so much for us to dream and do.
+- (2021,2022, alt 0.232) [Why is belonging important at Google?] Can we recognize that we’re all human?
+- (2021,2022, alt 0.217) [How do you feel about the future of this] So I hope that we are starting to be more bridge builders, being more deliberate both at the institutional level as well as the personal level.
+- (2021,2022, alt 0.208) [Building diversity, equity, and inclusio] We hope you’ll join us on this ongoing journey of listening, learning, and taking action.
+- (2021,2022, alt 0.207) [Why is belonging important at Google?] That’s what we’re striving for, and I think Google is a really wonderful platform and company to advance that.
+- (2023, alt 0.199) [We’re building belonging through:] A more inclusive Workplace Learn more Co-creation in our Products Learn more Unlocking opportunity in Society Learn more
+- (2021,2022, alt 0.194) [How do you feel about the future of this] These problems are going to be with us for a while, but I hope we see more expressions of bridging, more expressions of empathy, and, frankly, I’m hoping that Google’s space in this is more robust internally and externally.
+- (2023,2024, alt 0.192) [We’re building belonging through:] A more inclusive Workplace Learn more Co-creation in our Products Learn more Unlocking opportunity in Society Learn more A more inclusive Workplace Learn more Co-creation in our Products Learn more Unlocking opportunity in Society Learn more
+- (2018,2019, alt 0.176) [From unconscious bias to conscious actio] To help provide tools and build skills to overcome bias, we’ve taken this work further.
+- (2021,2022, alt 0.176) [Why is belonging important at Google?] Corporations like Google are being called upon to do more.
+- (2021,2022, alt 0.176) [How do you feel about the future of this] I am heartened by the executive leadership at Google, and I’m really encouraged by this and I find incredible hope there too
+- (2020,2021,2022, alt 0.175) [Build For Everyone] Thank you for joining us on this journey.
+- (2022,2023, alt 0.174) [Explore more of our belonging work] That’s why we’re committed to making every day more sustainable.
+- (2022,2023,2024,2025, alt 0.173) [Pushing for more authentic representatio] The stories we tell shape the way we see each other and ourselves.
+- (2018,2019, alt 0.169) [Investing in tomorrow’s talent] To date, we’ve engaged over 1,500 students through the Google in Residence program, and look forward to serving many more.
+- (2014,2015,2016, alt 0.160) [Going green for good] We want people to feel good about using Google products.
+- (2022,2023, alt 0.160) [In a world where everyone belongs, anyth] ERNEST JOHNSON: Being able to set somebody on a better path in their life, I can't put into words the satisfaction you get from something like that.
+- (2022,2023, alt 0.153) [In a world where everyone belongs, anyth] CASSANDRA JOHNSON: No matter what background you are, your experiences, at the core of it is your heart and your soul.
+- (2019,2020, alt 0.151) [What would it take (for tech to reflect ] This initiative will help students develop the skills and confidence they need for the future.
+- (2020,2021,2022, alt 0.148) [Build For Everyone] Google is growing to fulfill that vision.
+- (2021,2022, alt 0.148) [How do you feel about the future of this] john : If we’re going to sustain this, we have to make it sustainable and create institutions, cultures, possibilities.
+- (2018,2019, alt 0.144) [From unconscious bias to conscious actio] Changing the way we think about bias is a huge and complex task, both inside and outside Google.
+- (2014,2015,2016, alt 0.138) [Thinking big: Larry Page talks moon shot] This perspective is not limited to our engineering teams and technical roles, but extends to all Googlers who share a desire to challenge what’s possible.
+- (2012, alt 0.136) [Ten things we know to be true] Through innovation and iteration, we aim to take things that work well and improve upon them in unexpected ways.
+- (2003, alt 0.135) Here's a glimpse into a typical day in the life. ••• YOU can be part of this experience! •••
+- (2012, alt 0.135) [Ten things we know to be true] We hope it does—and you can hold us to that.
+- (2008, alt 0.133) [Top 10 Reasons to Work at Google] Being a part of something that matters and working on products in which you can believe is remarkably fulfilling.
+- (2025, alt 0.132) [Fostering community and belonging for LG] In 2009, Googlers marched in cities around the U.S. to honor the 40th anniversary of the Stonewall riots.
+- (2012, alt 0.130) [Ten things we know to be true] Ultimately, our constant dissatisfaction with the way things are becomes the driving force behind everything we do.
+- (2018,2019, alt 0.128) [From unconscious bias to conscious actio] In 2017, we expanded our Decoding Race series, which grappled with wide-ranging topics on race, reaching over 15,000 Googlers.
+- (2023,2024,2025, alt 0.128) [Our locations] Large or small, each one of our offices is designed to inspire innovation, big ideas, and community.
+- (2018,2019, alt 0.127) [Google diversity annual report 2018] That’s why we’re making some changes to how we approach diversity and inclusion at Google.
+- (2012, alt 0.124) [Ten things we know to be true] We see being great at something as a starting point, not an endpoint.
+- (2019,2020, alt 0.124) [Google diversity annual report 2019] Since then, we’ve used this report to show progress towards a more representative workforce, and share both what we’ve learned along the way and our commitments moving forward.
+- (2018,2019, alt 0.122) [Leadership] of Google’s leaders are women (Global, 2017) We have made progress in our leadership ranks, by gender and ethnicity.
+- (2018,2019, alt 0.120) [Conclusion] We look forward to inviting you back next year to see what progress we make.
+- (2012, alt 0.118) [Ten things we know to be true] We believe that great, creative things are more likely to happen with the right company culture–and that doesn’t just mean lava lamps and rubber balls.
+- (2019,2020, alt 0.118) [Product area highlights] This will lead to a better camera for everyone.” “I care passionately about our products.
+- (2004,2005,2006,2007, alt 0.117) Being a part of something that matters and working on products in which you can believe is remarkably fulfilling. 3.
+- (2018,2019, alt 0.116) [Fostering inclusion for all] The Greygler ERG also brings seniors to Google to experience the culture, promotes student coding by sponsoring Hour of Code events, and hosts Talks@Google with speakers such as Vint Cerf, Atul Gawande, and Dan Cohen, the founder of Music and Memory.

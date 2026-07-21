@@ -327,3 +327,42 @@ Standing qualifier unchanged: partly in-sample (prompt v2 was driven by this
 sample's errors; the 17 new calls were the out-of-sample check, now fully
 hand-reviewed). Sole remaining disagreement: apple `95ead68a` partner-org
 list (hand affirming_dei / pred neutral). Homepage updated to α 0.98.
+
+## 2026-07-21 — Altruism construct investigation; story UNPUBLISHED pending reshape
+
+Becca's hypothesis confirmed: her altruism construct (naive "we're changing the
+world" tech-idealism) is narrower than the embedding axis, which conflates it
+with belonging/DEI idealism and CSR philanthropy. Evidence: google's shipped
+worldChanging series peaked 2022 (z 1.32) on the belonging interview ("Can we
+create a world where we all belong?") — the live story's headline quote WAS the
+leak. Root cause is surface form: belonging copy is phrased in world-language,
+so embedding fixes fail — the inclusion-axis partition (mirror of the techno
+strip) cannot separate them (leak sentences score LOWER on inclusion, 0.36-0.41,
+than "making the world a better place" does, 0.45; peaks unmoved at any
+threshold).
+
+Fix piloted: LLM sentence-genre classifier (Haiku), v2 codebook from Becca's
+four boundary rulings — (1) bare mission restatements → mission_scope, world_
+changing only when moralized; (2) techno-solutionism split by frame (humanity-
+broadly → world_changing, concrete feature → product_hype); (3) structural-
+inequity framing → belonging_dei without needing DEI vocabulary; (4) product
+accessibility/benefit copy → product_hype. Full google non-techno pool
+classified (1,735 sentence-years, 876 unique) with chunk-heading context.
+Review file: data/altruism_labels/genre_review_google.{md,csv}.
+
+Findings: world_changing = 44 sentence-years TOTAL (several years zero; the
+2014-16 value is one canonical sentence) → an intensity trend (topk z) is not
+a valid instrument for this construct; prevalence is. Prevalence: ~14-23% of
+mission copy in 2004-07 → ~3% by 2014 → <1% 2018-22. **The 2014-peak
+hypothesis does not hold under the corrected construct — the naive-idealism
+peak is 2004-2007 (pre-registered by Becca as a real finding, not a
+measurement issue).** Genre mix (google, full pool): belonging_dei 644 / csr
+176 / product_hype 141 / world_changing 44 / mission_scope 41 — idealism
+changed genre, not volume. Caveat: 2018+ corpus includes diversity-report page
+fills, inflating belonging's share (within-page-family mix is the clean
+comparison, not yet computed).
+
+Decision pending (Becca reshaping claims): genre instrument story-wide vs
+google-only rewrite. Meanwhile altruism.mdx set published:false — prod build
+verified 26 pages, /stories/altruism no longer built. Pilot scripts + genre
+cache in session scratchpad; nothing merged into score_altruism_split.py yet.
