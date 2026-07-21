@@ -11,6 +11,16 @@
 ## 2. LLM pairwise tournament
 - Skipped (--skip-tournament)
 
+### performance tournament
+- Chunk embedding-vs-LLM Spearman: **0.518** — BELOW GATE (0.6): INVESTIGATE
+- Sentence embedding-vs-LLM Spearman: **0.349**
+- 40 pairwise judgments
+
+### craft tournament
+- Chunk embedding-vs-LLM Spearman: **-0.063** — BELOW GATE (0.6): INVESTIGATE
+- Sentence embedding-vs-LLM Spearman: **-0.451**
+- 40 pairwise judgments
+
 ## 3. Axis-sentence perturbation
 - Min Spearman across leave-one-out: **0.988** (PASS)
 - Mean: 0.994
