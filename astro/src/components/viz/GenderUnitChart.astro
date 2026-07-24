@@ -1,0 +1,154 @@
+---
+// Unit chart of gender-coded language: one square = one careers-page sentence,
+// projected on the Kozlowski-style gender axis (see src/lowork/gender_axis.py),
+// score-ordered within each company column (masculine-coded at top). Client
+// controls: sort (masculine share / corpus size / A–Z) and view (all sentences
+// = true volume, vs an equal 200-sentence stride for fair shape comparison).
+// Data: astro/src/data/stories/gender-language.json (export_gender_story.py).
+import { loadStory } from "@/lib/stories";
+
+const data = (await loadStory("gender-language")) as any;
+const columns = (data?.columns ?? []) as {
+  company: string; name: string; n: number; mascPct: number; femPct: number;
+  meanZ: number; items: { z: number; y: number; t: string }[];
+}[];
+const initial = [...columns].sort((a, b) => b.mascPct - a.mascPct || b.meanZ - a.meanZ);
+
+const fill = (z: number) => {
+  const mag = Math.min(1, Math.max(0, (Math.abs(z) - 0.5) / 2.0));
+  const depth = 45 + Math.round(mag * 55);
+  if (z >= 0.5) return `color-mix(in srgb, var(--chart-contrast-1) ${depth}%, transparent)`;
+  if (z <= -0.5) return `color-mix(in srgb, var(--chart-2) ${depth}%, transparent)`;
+  return "var(--gu-neutral)";
+};
+---
+
+<div class="gender-unit-chart my-6 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
+  <div class="mb-2 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-neutral-500">
+    <span role="group" aria-label="Sort columns" class="flex items-center gap-1">
+      sort
+      <button data-sort="masc" aria-pressed="true" class="gu-btn">masculine share</button>
+      <button data-sort="size" aria-pressed="false" class="gu-btn">corpus size</button>
+      <button data-sort="alpha" aria-pressed="false" class="gu-btn">A–Z</button>
+    </span>
+    <span role="group" aria-label="View" class="flex items-center gap-1">
+      view
+      <button data-view="all" aria-pressed="true" class="gu-btn">all sentences</button>
+      <button data-view="sample" aria-pressed="false" class="gu-btn">equal sample</button>
+    </span>
+  </div>
+  <div class="gu-cols flex flex-wrap items-end gap-x-5 gap-y-7">
+    {initial.map((c) => (
+      <div class="gu-col w-[90px]" data-company={c.company} data-masc={c.mascPct}
+        data-size={c.n} data-name={c.name} data-meanz={c.meanZ}>
+        <div class="gu-waffle flex w-[89px] flex-wrap content-end gap-[1px]">
+          {c.items.map((it) => (
+            <span class="gu-sq h-[4.6px] w-[4.6px] rounded-[1px]"
+              style={`background:${fill(it.z)}`}
+              data-z={it.z} data-y={it.y} data-t={it.t}></span>
+          ))}
+        </div>
+        <h4 class="mb-0 mt-2 text-[12.5px] font-semibold">{c.name}</h4>
+        <div class="font-mono text-[10.5px] tabular-nums text-neutral-500">
+          <b style="color:var(--chart-contrast-1)">{c.mascPct}%</b> / <b style="color:var(--chart-2)">{c.femPct}%</b> · n={c.n}
+        </div>
+      </div>
+    ))}
+  </div>
+  <p class="mt-4 flex flex-wrap gap-3 text-[10px] text-neutral-400">
+    <span><span class="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style="background:var(--chart-contrast-1)"></span>masculine-coded (z ≥ +0.5)</span>
+    <span><span class="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style="background:var(--gu-neutral)"></span>neutral band</span>
+    <span><span class="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style="background:var(--chart-2)"></span>feminine-coded (z ≤ −0.5)</span>
+    <span class="italic">one square = one sentence · deeper = further from neutral · hover for the sentence</span>
+  </p>
+  <div class="gu-tip pointer-events-none absolute z-30 hidden w-max max-w-[320px] rounded-md border border-neutral-200 bg-white px-3 py-2 shadow-lg dark:border-neutral-700 dark:bg-neutral-900" role="tooltip" aria-hidden="true">
+    <p class="gu-tip-z font-mono text-xs font-semibold"></p>
+    <p class="gu-tip-q mt-0.5 text-xs italic leading-snug text-neutral-600 dark:text-neutral-300"></p>
+    <p class="gu-tip-m mt-0.5 text-[10px] text-neutral-400"></p>
+  </div>
+</div>
+
+<style>
+  /* All colors derive from the site palette (globals.css): poles are the
+     chart-series tokens (--alert is reserved, never a series), neutral is a
+     muted/background mix so both themes come along for free. */
+  .gender-unit-chart {
+    position: relative;
+    --gu-neutral: color-mix(in srgb, var(--muted) 22%, var(--background));
+  }
+  .gu-btn {
+    border: 1px solid color-mix(in srgb, var(--muted) 45%, transparent);
+    border-radius: 5px;
+    padding: 1px 8px;
+    color: var(--foreground);
+  }
+  .gu-btn[aria-pressed="true"] {
+    background: var(--foreground);
+    color: var(--background);
+    border-color: var(--foreground);
+  }
+  .gu-btn:focus-visible { outline: 2px solid var(--chart-contrast-1); outline-offset: 1px; }
+</style>
+
+<script>
+  const SAMPLE_N = 200;
+  for (const root of document.querySelectorAll<HTMLElement>(".gender-unit-chart")) {
+    const colsBox = root.querySelector<HTMLElement>(".gu-cols")!;
+    const tip = root.querySelector<HTMLElement>(".gu-tip")!;
+    const tz = tip.querySelector<HTMLElement>(".gu-tip-z")!;
+    const tq = tip.querySelector<HTMLElement>(".gu-tip-q")!;
+    const tm = tip.querySelector<HTMLElement>(".gu-tip-m")!;
+
+    const applySort = (mode: string) => {
+      const cols = [...colsBox.querySelectorAll<HTMLElement>(".gu-col")];
+      cols.sort((a, b) =>
+        mode === "masc" ? (+b.dataset.masc! - +a.dataset.masc!) || (+b.dataset.meanz! - +a.dataset.meanz!) :
+        mode === "size" ? +b.dataset.size! - +a.dataset.size! :
+        a.dataset.name!.localeCompare(b.dataset.name!));
+      for (const c of cols) colsBox.appendChild(c);
+    };
+    const applyView = (mode: string) => {
+      for (const col of colsBox.querySelectorAll<HTMLElement>(".gu-col")) {
+        const sqs = col.querySelectorAll<HTMLElement>(".gu-sq");
+        if (mode === "all" || sqs.length <= SAMPLE_N) {
+          sqs.forEach((s) => (s.style.display = ""));
+          continue;
+        }
+        const keep = new Set<number>();
+        for (let k = 0; k < SAMPLE_N; k++)
+          keep.add(Math.round((k * (sqs.length - 1)) / (SAMPLE_N - 1)));
+        sqs.forEach((s, i) => (s.style.display = keep.has(i) ? "" : "none"));
+      }
+    };
+    for (const b of root.querySelectorAll<HTMLElement>("[data-sort]"))
+      b.addEventListener("click", () => {
+        root.querySelectorAll("[data-sort]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+        applySort(b.dataset.sort!);
+      });
+    for (const b of root.querySelectorAll<HTMLElement>("[data-view]"))
+      b.addEventListener("click", () => {
+        root.querySelectorAll("[data-view]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+        applyView(b.dataset.view!);
+      });
+
+    colsBox.addEventListener("pointerover", (e) => {
+      const s = (e.target as HTMLElement).closest<HTMLElement>(".gu-sq");
+      if (!s) { tip.classList.add("hidden"); return; }
+      const zv = parseFloat(s.dataset.z!);
+      tz.textContent = (zv > 0 ? "+" : "") + zv.toFixed(2) + "z " +
+        (zv >= 0.5 ? "masculine-coded" : zv <= -0.5 ? "feminine-coded" : "neutral");
+      tz.style.color = zv >= 0.5 ? "var(--chart-contrast-1)" : zv <= -0.5 ? "var(--chart-2)" : "";
+      tq.textContent = "“" + (s.dataset.t ?? "") + "”";
+      tm.textContent = "first captured " + s.dataset.y;
+      tip.classList.remove("hidden");
+      tip.setAttribute("aria-hidden", "false");
+      const rb = root.getBoundingClientRect(), r = s.getBoundingClientRect();
+      const tw = tip.offsetWidth, th = tip.offsetHeight;
+      let x = Math.min(Math.max(4, r.left - rb.left + r.width / 2 - tw / 2), rb.width - tw - 4);
+      let y = r.top - rb.top - th - 8;
+      if (y < 4) y = r.bottom - rb.top + 8;
+      tip.style.left = x + "px"; tip.style.top = y + "px";
+    });
+    colsBox.addEventListener("pointerleave", () => tip.classList.add("hidden"));
+  }
+</script>

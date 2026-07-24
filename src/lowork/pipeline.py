@@ -271,6 +271,13 @@ STAGES: list[Stage] = [
     Stage("power_robustness", lambda comps: _call("power_robustness"), Scope.GLOBAL, ("power",),
           inputs=("repo:astro/src/data/stories/power.json",),
           outputs=("repo:data/power_robustness.md",), depends=("export_power_story",)),
+    # Gender-language story: unit-chart data (axis lives in lowork/gender_axis.py).
+    Stage("export_gender_story", lambda comps: _call("export_gender_story", comps),
+          Scope.GLOBAL, ("gender-language",),
+          inputs=("embeddings.parquet", "classifications.json"),
+          outputs=("repo:astro/src/data/stories/gender-language.json",),
+          depends=("embed_chunks",)),
+
     Stage("export_netflix_story", lambda comps: _call("export_netflix_story", comps),
           Scope.GLOBAL, ("netflix-culture",),
           inputs=("repo:data/culture_propagation.json",

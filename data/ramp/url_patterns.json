@@ -1,0 +1,26 @@
+{
+  "company": "ramp",
+  "display_name": "Ramp",
+  "comment": "Exclusion-story company (2026-07-23). ramp.com/careers CDX 2020-2026 (4-12/yr). Purest anti-pitch specimen: founders' letter 'persuading you not to apply' (live-captured 2026-07-23 into manual_html).",
+  "hosts": [
+    "ramp.com",
+    "www.ramp.com"
+  ],
+  "patterns": [
+    {
+      "url": "ramp.com/careers",
+      "match_type": "exact",
+      "era_hint": "2020-2026"
+    },
+    {
+      "url": "www.ramp.com/careers",
+      "match_type": "exact",
+      "era_hint": "2020-2026"
+    },
+    {
+      "url": "ramp.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2020-2026"
+    }
+  ]
+}

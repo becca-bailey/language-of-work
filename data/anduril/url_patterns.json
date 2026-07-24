@@ -1,0 +1,26 @@
+{
+  "company": "anduril",
+  "display_name": "Anduril",
+  "comment": "Exclusion-story company (2026-07-23). Careers hub only; current site is a JS shell so older SSR captures carry the prose — expect shell flags on recent years. The #DontWorkAtAnduril campaign (2024-25) is canon-register, not careers copy.",
+  "hosts": [
+    "anduril.com",
+    "www.anduril.com"
+  ],
+  "patterns": [
+    {
+      "url": "anduril.com/careers",
+      "match_type": "exact",
+      "era_hint": "2018-2026"
+    },
+    {
+      "url": "www.anduril.com/careers",
+      "match_type": "exact",
+      "era_hint": "2018-2026"
+    },
+    {
+      "url": "anduril.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2018-2026"
+    }
+  ]
+}

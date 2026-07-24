@@ -1,0 +1,17 @@
+{
+  "company": "x",
+  "display_name": "X (Twitter)",
+  "comment": "Exclusion-story company (2026-07-23), canon-primary: the register lives in canon/fork_in_the_road_2022.md (the Nov 2022 ultimatum); x.com/careers is a JS shell (CDX 200s 2024+ but no prose). min_year 2023 = post-Elon only. Pre-Elon twitter (careers.twitter.com 2016-2020, about.twitter.com/careers 2014-2018) is a potential separate before/after contrast corpus — deliberately NOT this company.",
+  "hosts": [
+    "x.com",
+    "www.x.com"
+  ],
+  "patterns": [
+    {
+      "url": "x.com/careers",
+      "match_type": "exact",
+      "era_hint": "2024+",
+      "min_year": 2023
+    }
+  ]
+}

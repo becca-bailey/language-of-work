@@ -28,6 +28,12 @@ companies:
     apple,
     nvidia,
     engine,
+    # 2026-07-23 additions: in the exclusion + gender-language stories only;
+    # every legacy story pins an explicit allow-list that omits them.
+    anduril,
+    spacex,
+    ramp,
+    x, # canon-primary: the ultimatum doc, careers page is a JS shell (exclusion only — no careers corpus for gender-language)
   ]
 
 # Every company gets an individual page; the per-company exports run for all of
@@ -64,12 +70,45 @@ stories:
         apple,
         nvidia,
       ]
-  ai: true # story axis: mention tracker + tool<->mandate framing; surfaced via the craft-ai story page
-  performance: true
-  wellbeing: true # story axis: dataset exported; story page at astro/src/content/stories/wellbeing.mdx
-  power: true
-  benefits: true
-  dei: true # to curate: replace `true` with {enabled: true, companies: [...]}
+  # ai/performance/wellbeing/power/benefits/dei/profiles: pinned to the
+  # pre-exclusion-story universe (2026-07-23) so anduril/spacex stay scoped to
+  # the exclusion story only. Same 20-company list in each; edit together.
+  ai:
+    enabled: true # story axis: mention tracker + tool<->mandate framing; surfaced via the craft-ai story page
+    companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, snap, hubspot, gitlab, github, basecamp, salesforce, starbucks, uber, apple, nvidia, engine]
+  performance:
+    enabled: true
+    companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, snap, hubspot, gitlab, github, basecamp, salesforce, starbucks, uber, apple, nvidia, engine]
+  wellbeing:
+    enabled: true # story axis: dataset exported; story page at astro/src/content/stories/wellbeing.mdx
+    companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, snap, hubspot, gitlab, github, basecamp, salesforce, starbucks, uber, apple, nvidia, engine]
+  power:
+    enabled: true
+    companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, snap, hubspot, gitlab, github, basecamp, salesforce, starbucks, uber, apple, nvidia, engine]
+  benefits:
+    enabled: true
+    companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, snap, hubspot, gitlab, github, basecamp, salesforce, starbucks, uber, apple, nvidia, engine]
+  dei:
+    enabled: true
+    companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, snap, hubspot, gitlab, github, basecamp, salesforce, starbucks, uber, apple, nvidia, engine]
+  # NEW story pilot (2026-07-23): exclusionary / anti-recruiting register,
+  # working title "You probably don't belong here". Pilot memo:
+  # docs/exclusion-story-pilot.md. ramp/flock(/x-canon) join once profiles and
+  # captures exist — flock has ZERO wayback, manual-capture only.
+  # Corpus design (Becca, 2026-07-23): this story reads canon documents
+  # (data/<company>/canon/*.md — the deck, the coinbase essays, the X
+  # ultimatum, the anduril campaign) ALONGSIDE careers-page chunks, tagged by
+  # register; comparisons stay within-register (manifesto-voice confound).
+  exclusion:
+    enabled: true
+    companies: [netflix, coinbase, engine, palantir, anduril, spacex, ramp, x]
+  # Gender-coded language story (Becca, 2026-07-23): Kozlowski-style gender
+  # axis over careers-page copy. ALL corpus companies, NO canon documents —
+  # deliberately the inverse of the exclusion story's corpus design. x is out
+  # (canon-only company, no careers corpus).
+  gender-language:
+    enabled: true
+    companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, snap, hubspot, gitlab, github, basecamp, salesforce, starbucks, uber, apple, nvidia, engine, anduril, spacex, ramp]
   # Performance-culture lineage cohort. Basecamp ADDED 2026-07-23: it lifts the
   # deck's minimize-complexity rule (0.648, 2014) while rejecting the intensity
   # register ("calm company") — the counter-lineage; its simplicity doctrine
@@ -97,4 +136,6 @@ stories:
         engine,
         basecamp,
       ]
-  profiles: true # per-company AI narrative on /explore/[company] (not a story export)
+  profiles:
+    enabled: true # per-company AI narrative on /explore/[company] (not a story export)
+    companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, snap, hubspot, gitlab, github, basecamp, salesforce, starbucks, uber, apple, nvidia, engine]
