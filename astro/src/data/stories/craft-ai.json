@@ -12,14 +12,14 @@
   },
   "stats": {
     "deltas": {
-      "rho": 0.096,
-      "p": 0.695,
-      "n": 19
+      "rho": 0.402,
+      "p": 0.079,
+      "n": 20
     },
     "levels": {
-      "rho": -0.01,
-      "p": 0.966,
-      "n": 19
+      "rho": -0.091,
+      "p": 0.701,
+      "n": 20
     }
   },
   "pairs": [
@@ -29,170 +29,191 @@
       "craftSeries": [
         {
           "year": 1999,
-          "zscore": -1.8934,
-          "raw": -0.0587,
-          "nChunks": 1,
+          "zscore": -1.0447,
+          "raw": -0.001,
+          "nChunks": 2,
           "thin": true
         },
         {
           "year": 2000,
-          "zscore": 1.0123,
+          "zscore": 0.9024,
           "raw": 0.0562,
-          "nChunks": 5,
+          "nChunks": 6,
           "thin": false
         },
         {
+          "year": 2001,
+          "zscore": 1.1658,
+          "raw": 0.064,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
           "year": 2002,
-          "zscore": 1.1077,
+          "zscore": 1.0308,
           "raw": 0.06,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2003,
-          "zscore": -0.6698,
+          "zscore": -1.3606,
           "raw": -0.0103,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2004,
-          "zscore": -0.3341,
-          "raw": 0.003,
-          "nChunks": 4,
-          "thin": true
+          "zscore": -0.9804,
+          "raw": 0.0009,
+          "nChunks": 5,
+          "thin": false
         },
         {
           "year": 2005,
-          "zscore": -0.4689,
-          "raw": -0.0024,
+          "zscore": -0.3235,
+          "raw": 0.0202,
+          "nChunks": 7,
+          "thin": false
+        },
+        {
+          "year": 2006,
+          "zscore": -0.3587,
+          "raw": 0.0191,
           "nChunks": 5,
           "thin": false
         },
         {
           "year": 2007,
-          "zscore": -0.3288,
-          "raw": 0.0032,
-          "nChunks": 5,
+          "zscore": 0.122,
+          "raw": 0.0333,
+          "nChunks": 8,
           "thin": false
         },
         {
           "year": 2008,
-          "zscore": -0.242,
-          "raw": 0.0066,
-          "nChunks": 6,
+          "zscore": -0.4411,
+          "raw": 0.0167,
+          "nChunks": 8,
           "thin": false
         },
         {
           "year": 2009,
-          "zscore": -0.3517,
-          "raw": 0.0023,
-          "nChunks": 1,
+          "zscore": -0.6318,
+          "raw": 0.0111,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2010,
-          "zscore": -2.2676,
-          "raw": -0.0736,
-          "nChunks": 1,
-          "thin": true
+          "zscore": -1.5573,
+          "raw": -0.0161,
+          "nChunks": 5,
+          "thin": false
         },
         {
           "year": 2011,
-          "zscore": -1.6107,
-          "raw": -0.0476,
-          "nChunks": 1,
+          "zscore": -2.2923,
+          "raw": -0.0377,
+          "nChunks": 2,
           "thin": true
         },
         {
           "year": 2012,
-          "zscore": 0.9086,
-          "raw": 0.0521,
-          "nChunks": 30,
+          "zscore": 0.9216,
+          "raw": 0.0568,
+          "nChunks": 33,
           "thin": false
         },
         {
           "year": 2013,
-          "zscore": 0.7583,
-          "raw": 0.0462,
-          "nChunks": 1,
-          "thin": true
+          "zscore": 1.0778,
+          "raw": 0.0614,
+          "nChunks": 38,
+          "thin": false
         },
         {
           "year": 2014,
-          "zscore": 0.7584,
-          "raw": 0.0462,
-          "nChunks": 30,
+          "zscore": 0.9074,
+          "raw": 0.0564,
+          "nChunks": 35,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "zscore": 0.4458,
+          "raw": 0.0428,
+          "nChunks": 26,
           "thin": false
         },
         {
           "year": 2016,
-          "zscore": 1.9296,
-          "raw": 0.0925,
-          "nChunks": 1,
-          "thin": true
+          "zscore": 0.5004,
+          "raw": 0.0444,
+          "nChunks": 15,
+          "thin": false
         },
         {
           "year": 2017,
-          "zscore": -0.6352,
+          "zscore": -1.3141,
           "raw": -0.009,
           "nChunks": 7,
           "thin": false
         },
         {
           "year": 2018,
-          "zscore": -0.2857,
-          "raw": 0.0049,
-          "nChunks": 18,
+          "zscore": -0.7144,
+          "raw": 0.0087,
+          "nChunks": 20,
           "thin": false
         },
         {
           "year": 2019,
-          "zscore": 0.3283,
-          "raw": 0.0292,
-          "nChunks": 36,
+          "zscore": 0.1736,
+          "raw": 0.0348,
+          "nChunks": 54,
           "thin": false
         },
         {
           "year": 2020,
-          "zscore": -0.1966,
-          "raw": 0.0084,
-          "nChunks": 7,
+          "zscore": -0.0157,
+          "raw": 0.0292,
+          "nChunks": 42,
           "thin": false
         },
         {
           "year": 2021,
-          "zscore": -0.2559,
-          "raw": 0.0061,
-          "nChunks": 10,
+          "zscore": -0.6053,
+          "raw": 0.0119,
+          "nChunks": 15,
           "thin": false
         },
         {
           "year": 2022,
-          "zscore": 0.8833,
+          "zscore": 0.7289,
           "raw": 0.0511,
-          "nChunks": 23,
+          "nChunks": 34,
           "thin": false
         },
         {
           "year": 2023,
-          "zscore": 0.567,
-          "raw": 0.0386,
-          "nChunks": 8,
+          "zscore": 0.7288,
+          "raw": 0.0511,
+          "nChunks": 27,
           "thin": false
         },
         {
           "year": 2024,
-          "zscore": -0.0745,
-          "raw": 0.0132,
-          "nChunks": 3,
-          "thin": true
+          "zscore": 1.3065,
+          "raw": 0.0681,
+          "nChunks": 23,
+          "thin": false
         },
         {
           "year": 2025,
-          "zscore": 1.3614,
-          "raw": 0.07,
-          "nChunks": 27,
+          "zscore": 1.6283,
+          "raw": 0.0776,
+          "nChunks": 46,
           "thin": false
         }
       ],
@@ -235,7 +256,7 @@
         },
         {
           "year": 2005,
-          "prevalence": 0.0833,
+          "prevalence": 0.0769,
           "aiChunks": 1,
           "thin": false
         },
@@ -243,7 +264,7 @@
           "year": 2006,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2007,
@@ -267,7 +288,7 @@
           "year": 2010,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2011,
@@ -277,19 +298,19 @@
         },
         {
           "year": 2012,
-          "prevalence": 0.0208,
+          "prevalence": 0.0139,
           "aiChunks": 1,
           "thin": false
         },
         {
           "year": 2013,
-          "prevalence": 0.0,
-          "aiChunks": 0,
-          "thin": true
+          "prevalence": 0.0345,
+          "aiChunks": 3,
+          "thin": false
         },
         {
           "year": 2014,
-          "prevalence": 0.0263,
+          "prevalence": 0.0256,
           "aiChunks": 1,
           "thin": false
         },
@@ -360,10 +381,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.022,
-      "craftPost": 0.0416,
+      "craftPre": 0.0233,
+      "craftPost": 0.0729,
       "aiPost": 0.2292,
-      "dCraft": 0.0196,
+      "dCraft": 0.0496,
       "dAi": 0.1799,
       "coverageNote": null
     },
@@ -373,107 +394,128 @@
       "craftSeries": [
         {
           "year": 1999,
-          "zscore": -0.2693,
+          "zscore": -0.721,
           "raw": -0.001,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2000,
-          "zscore": -0.0048,
+          "zscore": -0.4955,
           "raw": 0.0082,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2007,
-          "zscore": 0.5818,
+          "zscore": 0.0047,
           "raw": 0.0285,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2008,
-          "zscore": -1.5265,
-          "raw": -0.0446,
-          "nChunks": 1,
+          "zscore": -1.4059,
+          "raw": -0.0288,
+          "nChunks": 2,
           "thin": true
         },
         {
           "year": 2011,
-          "zscore": -1.4408,
+          "zscore": -1.7197,
           "raw": -0.0416,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2013,
-          "zscore": -1.5373,
+          "zscore": -1.802,
           "raw": -0.045,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2014,
-          "zscore": 0.1182,
+          "zscore": -0.3906,
           "raw": 0.0124,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2016,
-          "zscore": 1.957,
+          "zscore": 1.1771,
           "raw": 0.0762,
-          "nChunks": 16,
+          "nChunks": 17,
           "thin": false
         },
         {
           "year": 2017,
-          "zscore": 0.9005,
-          "raw": 0.0396,
-          "nChunks": 27,
+          "zscore": 1.2159,
+          "raw": 0.0778,
+          "nChunks": 44,
           "thin": false
         },
         {
           "year": 2018,
-          "zscore": -0.8805,
-          "raw": -0.0222,
+          "zscore": 1.2159,
+          "raw": 0.0778,
+          "nChunks": 44,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "zscore": 1.1824,
+          "raw": 0.0764,
+          "nChunks": 18,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "zscore": 1.1824,
+          "raw": 0.0764,
+          "nChunks": 17,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "zscore": 1.1824,
+          "raw": 0.0764,
+          "nChunks": 17,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "zscore": -0.5908,
+          "raw": 0.0043,
           "nChunks": 1,
           "thin": true
         },
         {
-          "year": 2019,
-          "zscore": -0.5716,
-          "raw": -0.0115,
-          "nChunks": 2,
-          "thin": true
-        },
-        {
           "year": 2023,
-          "zscore": 0.9718,
-          "raw": 0.042,
-          "nChunks": 2,
-          "thin": true
-        },
-        {
-          "year": 2024,
-          "zscore": 0.3073,
-          "raw": 0.019,
-          "nChunks": 2,
-          "thin": true
-        },
-        {
-          "year": 2025,
-          "zscore": 0.8587,
-          "raw": 0.0381,
+          "zscore": 0.0278,
+          "raw": 0.0295,
           "nChunks": 3,
           "thin": true
         },
         {
+          "year": 2024,
+          "zscore": -0.1135,
+          "raw": 0.0237,
+          "nChunks": 4,
+          "thin": true
+        },
+        {
+          "year": 2025,
+          "zscore": 0.0328,
+          "raw": 0.0297,
+          "nChunks": 4,
+          "thin": true
+        },
+        {
           "year": 2026,
-          "zscore": 0.5355,
-          "raw": 0.0269,
-          "nChunks": 7,
+          "zscore": 0.0175,
+          "raw": 0.029,
+          "nChunks": 8,
           "thin": false
         }
       ],
@@ -587,10 +629,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0205,
-      "craftPost": 0.028,
+      "craftPre": 0.0768,
+      "craftPost": 0.0275,
       "aiPost": 0.0,
-      "dCraft": 0.0075,
+      "dCraft": -0.0493,
       "dAi": -0.0152,
       "coverageNote": null
     },
@@ -600,119 +642,126 @@
       "craftSeries": [
         {
           "year": 2009,
-          "zscore": -1.7327,
+          "zscore": -1.6513,
           "raw": -0.0593,
           "nChunks": 4,
           "thin": true
         },
         {
           "year": 2010,
-          "zscore": -1.0612,
-          "raw": -0.0362,
-          "nChunks": 3,
+          "zscore": -1.1595,
+          "raw": -0.0397,
+          "nChunks": 4,
           "thin": true
         },
         {
           "year": 2011,
-          "zscore": 0.5618,
-          "raw": 0.0197,
-          "nChunks": 2,
-          "thin": true
+          "zscore": -0.7776,
+          "raw": -0.0245,
+          "nChunks": 5,
+          "thin": false
         },
         {
           "year": 2012,
-          "zscore": -0.5032,
+          "zscore": -0.5904,
           "raw": -0.017,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2013,
-          "zscore": -0.0431,
+          "zscore": -0.1934,
           "raw": -0.0011,
           "nChunks": 8,
           "thin": false
         },
         {
           "year": 2014,
-          "zscore": -0.1519,
-          "raw": -0.0049,
-          "nChunks": 1,
-          "thin": true
+          "zscore": -0.7106,
+          "raw": -0.0218,
+          "nChunks": 7,
+          "thin": false
         },
         {
           "year": 2015,
-          "zscore": 0.0279,
-          "raw": 0.0013,
-          "nChunks": 1,
-          "thin": true
+          "zscore": -0.6407,
+          "raw": -0.019,
+          "nChunks": 8,
+          "thin": false
         },
         {
           "year": 2016,
-          "zscore": 2.4548,
+          "zscore": 1.9619,
           "raw": 0.0849,
-          "nChunks": 12,
+          "nChunks": 13,
           "thin": false
         },
         {
           "year": 2017,
-          "zscore": -0.8462,
-          "raw": -0.0288,
-          "nChunks": 3,
-          "thin": true
+          "zscore": 1.3197,
+          "raw": 0.0593,
+          "nChunks": 9,
+          "thin": false
         },
         {
           "year": 2018,
-          "zscore": 0.4117,
-          "raw": 0.0145,
-          "nChunks": 2,
-          "thin": true
+          "zscore": 1.0952,
+          "raw": 0.0503,
+          "nChunks": 7,
+          "thin": false
         },
         {
           "year": 2019,
-          "zscore": -1.8527,
+          "zscore": -1.7548,
           "raw": -0.0635,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2020,
-          "zscore": 0.8169,
+          "zscore": 0.5486,
           "raw": 0.0285,
           "nChunks": 16,
           "thin": false
         },
         {
           "year": 2021,
-          "zscore": 0.0254,
-          "raw": 0.0012,
-          "nChunks": 1,
-          "thin": true
+          "zscore": 0.5486,
+          "raw": 0.0285,
+          "nChunks": 16,
+          "thin": false
         },
         {
           "year": 2022,
-          "zscore": 0.6553,
-          "raw": 0.0229,
-          "nChunks": 11,
+          "zscore": 1.0206,
+          "raw": 0.0473,
+          "nChunks": 17,
           "thin": false
         },
         {
           "year": 2023,
-          "zscore": 0.627,
+          "zscore": 0.3848,
+          "raw": 0.0219,
+          "nChunks": 2,
+          "thin": true
+        },
+        {
+          "year": 2024,
+          "zscore": 0.3848,
           "raw": 0.0219,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2025,
-          "zscore": 0.663,
+          "zscore": 0.4158,
           "raw": 0.0232,
           "nChunks": 10,
           "thin": false
         },
         {
           "year": 2026,
-          "zscore": -0.0528,
+          "zscore": -0.2018,
           "raw": -0.0015,
           "nChunks": 11,
           "thin": false
@@ -828,10 +877,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0055,
-      "craftPost": 0.0109,
+      "craftPre": 0.0241,
+      "craftPost": 0.0146,
       "aiPost": 0.6129,
-      "dCraft": 0.0054,
+      "dCraft": -0.0095,
       "dAi": 0.6044,
       "coverageNote": "Recent years are thinly captured (2026: 11 chunks); the high AI share is real for the captured pages but rests on small n."
     },
@@ -841,93 +890,121 @@
       "craftSeries": [
         {
           "year": 2010,
-          "zscore": -0.065,
-          "raw": 0.0178,
-          "nChunks": 4,
-          "thin": true
+          "zscore": -0.8452,
+          "raw": 0.0143,
+          "nChunks": 5,
+          "thin": false
         },
         {
           "year": 2011,
-          "zscore": -0.8122,
-          "raw": 0.003,
-          "nChunks": 1,
+          "zscore": -0.3089,
+          "raw": 0.0242,
+          "nChunks": 2,
           "thin": true
         },
         {
           "year": 2012,
-          "zscore": 0.6542,
-          "raw": 0.0321,
-          "nChunks": 4,
-          "thin": true
-        },
-        {
-          "year": 2013,
-          "zscore": -1.9808,
-          "raw": -0.0202,
-          "nChunks": 8,
+          "zscore": -0.2015,
+          "raw": 0.0262,
+          "nChunks": 5,
           "thin": false
         },
         {
+          "year": 2013,
+          "zscore": -1.1754,
+          "raw": 0.0081,
+          "nChunks": 11,
+          "thin": false
+        },
+        {
+          "year": 2014,
+          "zscore": 0.612,
+          "raw": 0.0414,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
           "year": 2015,
-          "zscore": 0.1429,
+          "zscore": -0.434,
           "raw": 0.0219,
           "nChunks": 4,
           "thin": true
         },
         {
+          "year": 2016,
+          "zscore": -2.0102,
+          "raw": -0.0074,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
           "year": 2017,
-          "zscore": -0.5744,
+          "zscore": -1.1989,
           "raw": 0.0077,
           "nChunks": 7,
           "thin": false
         },
         {
           "year": 2018,
-          "zscore": 0.7504,
-          "raw": 0.034,
-          "nChunks": 1,
-          "thin": true
+          "zscore": -0.3857,
+          "raw": 0.0228,
+          "nChunks": 9,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "zscore": -0.3857,
+          "raw": 0.0228,
+          "nChunks": 9,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "zscore": -0.3857,
+          "raw": 0.0228,
+          "nChunks": 9,
+          "thin": false
         },
         {
           "year": 2021,
-          "zscore": 0.1171,
-          "raw": 0.0214,
-          "nChunks": 8,
+          "zscore": 0.5536,
+          "raw": 0.0403,
+          "nChunks": 17,
           "thin": false
         },
         {
           "year": 2022,
-          "zscore": 0.4689,
-          "raw": 0.0284,
-          "nChunks": 20,
+          "zscore": 0.8016,
+          "raw": 0.0449,
+          "nChunks": 28,
           "thin": false
         },
         {
           "year": 2023,
-          "zscore": 0.0722,
-          "raw": 0.0205,
-          "nChunks": 2,
-          "thin": true
+          "zscore": 1.1588,
+          "raw": 0.0515,
+          "nChunks": 24,
+          "thin": false
         },
         {
           "year": 2024,
-          "zscore": 1.2825,
-          "raw": 0.0445,
-          "nChunks": 3,
-          "thin": true
+          "zscore": 1.349,
+          "raw": 0.0551,
+          "nChunks": 24,
+          "thin": false
         },
         {
           "year": 2025,
-          "zscore": -1.6382,
-          "raw": -0.0134,
-          "nChunks": 2,
-          "thin": true
+          "zscore": 1.2156,
+          "raw": 0.0526,
+          "nChunks": 23,
+          "thin": false
         },
         {
           "year": 2026,
-          "zscore": 1.5824,
-          "raw": 0.0505,
-          "nChunks": 10,
+          "zscore": 1.6405,
+          "raw": 0.0605,
+          "nChunks": 28,
           "thin": false
         }
       ],
@@ -1035,10 +1112,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0212,
-      "craftPost": 0.0272,
+      "craftPre": 0.0187,
+      "craftPost": 0.056,
       "aiPost": 0.0196,
-      "dCraft": 0.006,
+      "dCraft": 0.0373,
       "dAi": 0.0087,
       "coverageNote": null
     },
@@ -1048,87 +1125,101 @@
       "craftSeries": [
         {
           "year": 2013,
-          "zscore": -2.075,
+          "zscore": -3.0553,
           "raw": -0.068,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2014,
-          "zscore": -0.5549,
-          "raw": -0.0131,
-          "nChunks": 3,
-          "thin": true
+          "zscore": -0.3736,
+          "raw": 0.0261,
+          "nChunks": 16,
+          "thin": false
+        },
+        {
+          "year": 2015,
+          "zscore": -0.4769,
+          "raw": 0.0225,
+          "nChunks": 12,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "zscore": 0.4578,
+          "raw": 0.0553,
+          "nChunks": 24,
+          "thin": false
         },
         {
           "year": 2017,
-          "zscore": -0.0403,
-          "raw": 0.0055,
-          "nChunks": 1,
-          "thin": true
+          "zscore": -0.083,
+          "raw": 0.0363,
+          "nChunks": 14,
+          "thin": false
         },
         {
           "year": 2018,
-          "zscore": -0.1828,
-          "raw": 0.0003,
-          "nChunks": 3,
-          "thin": true
+          "zscore": -0.1448,
+          "raw": 0.0342,
+          "nChunks": 11,
+          "thin": false
         },
         {
           "year": 2019,
-          "zscore": 1.0373,
-          "raw": 0.0444,
-          "nChunks": 1,
-          "thin": true
+          "zscore": 0.7713,
+          "raw": 0.0663,
+          "nChunks": 12,
+          "thin": false
         },
         {
           "year": 2020,
-          "zscore": 1.0918,
-          "raw": 0.0463,
-          "nChunks": 4,
-          "thin": true
+          "zscore": 1.3817,
+          "raw": 0.0877,
+          "nChunks": 17,
+          "thin": false
         },
         {
           "year": 2021,
-          "zscore": 0.0449,
-          "raw": 0.0085,
-          "nChunks": 8,
+          "zscore": 0.888,
+          "raw": 0.0704,
+          "nChunks": 32,
           "thin": false
         },
         {
           "year": 2022,
-          "zscore": -0.6619,
-          "raw": -0.017,
-          "nChunks": 1,
-          "thin": true
+          "zscore": -0.1565,
+          "raw": 0.0338,
+          "nChunks": 16,
+          "thin": false
         },
         {
           "year": 2023,
-          "zscore": -1.1686,
-          "raw": -0.0353,
-          "nChunks": 2,
-          "thin": true
+          "zscore": -0.2474,
+          "raw": 0.0306,
+          "nChunks": 14,
+          "thin": false
         },
         {
           "year": 2024,
-          "zscore": 0.3458,
-          "raw": 0.0194,
-          "nChunks": 5,
+          "zscore": 0.1336,
+          "raw": 0.0439,
+          "nChunks": 18,
           "thin": false
         },
         {
           "year": 2025,
-          "zscore": 0.4427,
-          "raw": 0.0229,
-          "nChunks": 7,
+          "zscore": 0.0953,
+          "raw": 0.0426,
+          "nChunks": 12,
           "thin": false
         },
         {
           "year": 2026,
-          "zscore": 1.721,
-          "raw": 0.069,
-          "nChunks": 1,
-          "thin": true
+          "zscore": 0.8097,
+          "raw": 0.0677,
+          "nChunks": 15,
+          "thin": false
         }
       ],
       "aiSeries": [
@@ -1148,13 +1239,13 @@
           "year": 2015,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2016,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2017,
@@ -1196,7 +1287,7 @@
           "year": 2023,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2024,
@@ -1217,10 +1308,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.021,
-      "craftPost": 0.0371,
+      "craftPre": 0.0533,
+      "craftPost": 0.0514,
       "aiPost": 0.0,
-      "dCraft": 0.0161,
+      "dCraft": -0.0019,
       "dAi": 0.0,
       "coverageNote": null
     },
@@ -1230,101 +1321,136 @@
       "craftSeries": [
         {
           "year": 2003,
-          "zscore": -1.3275,
+          "zscore": -1.6536,
           "raw": -0.0245,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2004,
-          "zscore": -1.6318,
-          "raw": -0.0353,
-          "nChunks": 1,
+          "zscore": -1.7832,
+          "raw": -0.0299,
+          "nChunks": 2,
           "thin": true
         },
         {
           "year": 2005,
-          "zscore": -1.578,
-          "raw": -0.0334,
+          "zscore": -1.8899,
+          "raw": -0.0343,
+          "nChunks": 2,
+          "thin": true
+        },
+        {
+          "year": 2010,
+          "zscore": -0.2225,
+          "raw": 0.0348,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2011,
-          "zscore": 0.3892,
+          "zscore": -0.1913,
+          "raw": 0.0361,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "year": 2012,
+          "zscore": -0.1913,
           "raw": 0.0361,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2013,
-          "zscore": -0.2554,
+          "zscore": -0.7404,
           "raw": 0.0133,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2014,
-          "zscore": -0.1179,
-          "raw": 0.0182,
-          "nChunks": 2,
+          "zscore": -0.6623,
+          "raw": 0.0166,
+          "nChunks": 3,
+          "thin": true
+        },
+        {
+          "year": 2015,
+          "zscore": -0.5416,
+          "raw": 0.0216,
+          "nChunks": 1,
           "thin": true
         },
         {
           "year": 2017,
-          "zscore": 1.3662,
-          "raw": 0.0706,
-          "nChunks": 21,
+          "zscore": 0.8659,
+          "raw": 0.0799,
+          "nChunks": 32,
           "thin": false
         },
         {
           "year": 2018,
-          "zscore": 0.8199,
-          "raw": 0.0513,
-          "nChunks": 13,
+          "zscore": 0.8725,
+          "raw": 0.0802,
+          "nChunks": 36,
           "thin": false
         },
         {
           "year": 2019,
-          "zscore": -0.3177,
-          "raw": 0.0111,
-          "nChunks": 10,
+          "zscore": 0.8725,
+          "raw": 0.0802,
+          "nChunks": 42,
           "thin": false
         },
         {
           "year": 2020,
-          "zscore": 0.3441,
-          "raw": 0.0345,
-          "nChunks": 8,
+          "zscore": 0.8702,
+          "raw": 0.0801,
+          "nChunks": 33,
           "thin": false
         },
         {
           "year": 2021,
-          "zscore": -0.1872,
-          "raw": 0.0157,
-          "nChunks": 5,
+          "zscore": 0.8503,
+          "raw": 0.0793,
+          "nChunks": 33,
           "thin": false
         },
         {
           "year": 2022,
-          "zscore": 1.8865,
-          "raw": 0.089,
-          "nChunks": 31,
+          "zscore": 1.2536,
+          "raw": 0.096,
+          "nChunks": 64,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "zscore": 1.1303,
+          "raw": 0.0909,
+          "nChunks": 32,
           "thin": false
         },
         {
           "year": 2024,
-          "zscore": 0.7026,
-          "raw": 0.0472,
-          "nChunks": 11,
+          "zscore": 1.1564,
+          "raw": 0.092,
+          "nChunks": 43,
           "thin": false
         },
         {
           "year": 2025,
-          "zscore": -0.093,
-          "raw": 0.0191,
-          "nChunks": 4,
-          "thin": true
+          "zscore": 0.2961,
+          "raw": 0.0563,
+          "nChunks": 16,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "zscore": -0.2917,
+          "raw": 0.0319,
+          "nChunks": 9,
+          "thin": false
         }
       ],
       "aiSeries": [
@@ -1467,10 +1593,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0367,
-      "craftPost": 0.0331,
+      "craftPre": 0.0702,
+      "craftPost": 0.0601,
       "aiPost": 0.0,
-      "dCraft": -0.0036,
+      "dCraft": -0.0101,
       "dAi": 0.0,
       "coverageNote": null
     },
@@ -1480,114 +1606,121 @@
       "craftSeries": [
         {
           "year": 2010,
-          "zscore": -0.5742,
+          "zscore": -1.0612,
           "raw": -0.0169,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2011,
-          "zscore": -0.291,
-          "raw": -0.0046,
-          "nChunks": 2,
+          "zscore": -0.6365,
+          "raw": -0.0014,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2012,
-          "zscore": 0.0784,
+          "zscore": -0.2827,
           "raw": 0.0115,
-          "nChunks": 5,
-          "thin": false
-        },
-        {
-          "year": 2014,
-          "zscore": -0.9936,
-          "raw": -0.0352,
           "nChunks": 6,
           "thin": false
         },
         {
-          "year": 2015,
-          "zscore": 0.2705,
-          "raw": 0.0199,
-          "nChunks": 7,
-          "thin": false
-        },
-        {
-          "year": 2016,
-          "zscore": -0.6277,
-          "raw": -0.0193,
+          "year": 2013,
+          "zscore": 0.2753,
+          "raw": 0.0319,
           "nChunks": 1,
           "thin": true
         },
         {
-          "year": 2017,
-          "zscore": -0.3853,
-          "raw": -0.0087,
-          "nChunks": 5,
-          "thin": false
-        },
-        {
-          "year": 2018,
-          "zscore": -0.2832,
-          "raw": -0.0043,
+          "year": 2014,
+          "zscore": -1.1009,
+          "raw": -0.0184,
           "nChunks": 7,
           "thin": false
         },
         {
-          "year": 2019,
-          "zscore": -1.3208,
-          "raw": -0.0495,
-          "nChunks": 2,
-          "thin": true
-        },
-        {
-          "year": 2020,
-          "zscore": -0.2353,
-          "raw": -0.0022,
-          "nChunks": 6,
-          "thin": false
-        },
-        {
-          "year": 2021,
-          "zscore": 0.0117,
-          "raw": 0.0086,
+          "year": 2015,
+          "zscore": -0.0535,
+          "raw": 0.0199,
           "nChunks": 9,
           "thin": false
         },
         {
+          "year": 2016,
+          "zscore": -0.219,
+          "raw": 0.0138,
+          "nChunks": 6,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "zscore": -0.4891,
+          "raw": 0.004,
+          "nChunks": 6,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "zscore": -0.4278,
+          "raw": 0.0062,
+          "nChunks": 9,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "zscore": -0.6724,
+          "raw": -0.0027,
+          "nChunks": 9,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "zscore": -0.3035,
+          "raw": 0.0107,
+          "nChunks": 10,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "zscore": -0.0837,
+          "raw": 0.0188,
+          "nChunks": 13,
+          "thin": false
+        },
+        {
           "year": 2022,
-          "zscore": -0.1457,
-          "raw": 0.0017,
-          "nChunks": 7,
+          "zscore": -0.4526,
+          "raw": 0.0053,
+          "nChunks": 9,
           "thin": false
         },
         {
           "year": 2023,
-          "zscore": 2.9594,
+          "zscore": 3.1541,
           "raw": 0.137,
           "nChunks": 18,
           "thin": false
         },
         {
           "year": 2024,
-          "zscore": 0.8866,
-          "raw": 0.0467,
-          "nChunks": 9,
+          "zscore": 0.8031,
+          "raw": 0.0512,
+          "nChunks": 17,
           "thin": false
         },
         {
           "year": 2025,
-          "zscore": -0.7519,
-          "raw": -0.0247,
-          "nChunks": 3,
-          "thin": true
+          "zscore": 0.0417,
+          "raw": 0.0234,
+          "nChunks": 8,
+          "thin": false
         },
         {
           "year": 2026,
-          "zscore": 1.402,
-          "raw": 0.0692,
-          "nChunks": 38,
+          "zscore": 1.5088,
+          "raw": 0.0769,
+          "nChunks": 44,
           "thin": false
         }
       ],
@@ -1695,10 +1828,10 @@
           "thin": false
         }
       ],
-      "craftPre": -0.0079,
-      "craftPost": 0.0304,
+      "craftPre": 0.0101,
+      "craftPost": 0.0505,
       "aiPost": 0.0238,
-      "dCraft": 0.0383,
+      "dCraft": 0.0404,
       "dAi": 0.0159,
       "coverageNote": null
     },
@@ -1708,101 +1841,108 @@
       "craftSeries": [
         {
           "year": 2012,
-          "zscore": 0.9294,
+          "zscore": 0.5881,
           "raw": 0.0789,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2013,
-          "zscore": 2.5437,
-          "raw": 0.1449,
-          "nChunks": 1,
+          "zscore": 0.3933,
+          "raw": 0.0719,
+          "nChunks": 2,
           "thin": true
         },
         {
           "year": 2014,
-          "zscore": -0.9066,
-          "raw": 0.0037,
-          "nChunks": 6,
+          "zscore": -0.5961,
+          "raw": 0.0366,
+          "nChunks": 7,
           "thin": false
         },
         {
           "year": 2015,
-          "zscore": -0.7407,
-          "raw": 0.0105,
-          "nChunks": 1,
+          "zscore": -1.8919,
+          "raw": -0.0097,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2016,
-          "zscore": 0.1679,
-          "raw": 0.0477,
-          "nChunks": 1,
-          "thin": true
-        },
-        {
-          "year": 2017,
-          "zscore": -0.6581,
-          "raw": 0.0139,
-          "nChunks": 4,
-          "thin": true
-        },
-        {
-          "year": 2018,
-          "zscore": -0.6337,
-          "raw": 0.0149,
-          "nChunks": 2,
-          "thin": true
-        },
-        {
-          "year": 2019,
-          "zscore": 1.2949,
-          "raw": 0.0938,
-          "nChunks": 30,
-          "thin": false
-        },
-        {
-          "year": 2020,
-          "zscore": -0.1625,
-          "raw": 0.0342,
-          "nChunks": 17,
-          "thin": false
-        },
-        {
-          "year": 2021,
-          "zscore": -0.6557,
-          "raw": 0.014,
-          "nChunks": 1,
-          "thin": true
-        },
-        {
-          "year": 2022,
-          "zscore": 0.5306,
-          "raw": 0.0626,
-          "nChunks": 17,
-          "thin": false
-        },
-        {
-          "year": 2023,
-          "zscore": -0.1678,
-          "raw": 0.034,
+          "zscore": -1.2623,
+          "raw": 0.0128,
           "nChunks": 6,
           "thin": false
         },
         {
+          "year": 2017,
+          "zscore": -1.4157,
+          "raw": 0.0073,
+          "nChunks": 5,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "zscore": -1.4085,
+          "raw": 0.0076,
+          "nChunks": 5,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "zscore": 1.0068,
+          "raw": 0.0938,
+          "nChunks": 35,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "zscore": 1.0383,
+          "raw": 0.095,
+          "nChunks": 45,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "zscore": 0.9944,
+          "raw": 0.0934,
+          "nChunks": 30,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "zscore": 1.1971,
+          "raw": 0.1006,
+          "nChunks": 48,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "zscore": 0.3161,
+          "raw": 0.0692,
+          "nChunks": 21,
+          "thin": false
+        },
+        {
           "year": 2024,
-          "zscore": -0.1377,
-          "raw": 0.0352,
-          "nChunks": 1,
-          "thin": true
+          "zscore": 0.3853,
+          "raw": 0.0716,
+          "nChunks": 23,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "zscore": 0.3853,
+          "raw": 0.0716,
+          "nChunks": 22,
+          "thin": false
         },
         {
           "year": 2026,
-          "zscore": -1.4037,
-          "raw": -0.0166,
-          "nChunks": 2,
-          "thin": true
+          "zscore": 0.2699,
+          "raw": 0.0675,
+          "nChunks": 20,
+          "thin": false
         }
       ],
       "aiSeries": [
@@ -1897,10 +2037,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0327,
-      "craftPost": 0.0093,
+      "craftPre": 0.0429,
+      "craftPost": 0.0703,
       "aiPost": 0.0207,
-      "dCraft": -0.0234,
+      "dCraft": 0.0274,
       "dAi": 0.0001,
       "coverageNote": null
     },
@@ -1910,63 +2050,77 @@
       "craftSeries": [
         {
           "year": 2015,
-          "zscore": 1.2007,
+          "zscore": 0.9889,
           "raw": 0.0929,
           "nChunks": 10,
           "thin": false
         },
         {
           "year": 2016,
-          "zscore": 1.1356,
-          "raw": 0.0904,
-          "nChunks": 5,
+          "zscore": 1.8314,
+          "raw": 0.1209,
+          "nChunks": 9,
           "thin": false
         },
         {
           "year": 2017,
-          "zscore": -0.4421,
-          "raw": 0.0292,
-          "nChunks": 5,
+          "zscore": 1.8385,
+          "raw": 0.1211,
+          "nChunks": 14,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "zscore": -0.6218,
+          "raw": 0.0394,
+          "nChunks": 7,
           "thin": false
         },
         {
           "year": 2019,
-          "zscore": -0.9099,
-          "raw": 0.011,
-          "nChunks": 5,
+          "zscore": -0.17,
+          "raw": 0.0544,
+          "nChunks": 12,
           "thin": false
         },
         {
           "year": 2020,
-          "zscore": 1.5669,
-          "raw": 0.1071,
-          "nChunks": 1,
-          "thin": true
+          "zscore": -0.296,
+          "raw": 0.0503,
+          "nChunks": 7,
+          "thin": false
         },
         {
           "year": 2021,
-          "zscore": -1.5697,
-          "raw": -0.0146,
+          "zscore": -0.296,
+          "raw": 0.0503,
+          "nChunks": 10,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "zscore": -0.8368,
+          "raw": 0.0323,
+          "nChunks": 6,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "zscore": -0.7121,
+          "raw": 0.0364,
+          "nChunks": 7,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "zscore": -0.8631,
+          "raw": 0.0314,
           "nChunks": 3,
           "thin": true
         },
         {
-          "year": 2022,
-          "zscore": -0.305,
-          "raw": 0.0345,
-          "nChunks": 1,
-          "thin": true
-        },
-        {
-          "year": 2023,
-          "zscore": -0.292,
-          "raw": 0.035,
-          "nChunks": 1,
-          "thin": true
-        },
-        {
-          "year": 2024,
-          "zscore": -0.3844,
+          "year": 2025,
+          "zscore": -0.8631,
           "raw": 0.0314,
           "nChunks": 3,
           "thin": true
@@ -2046,10 +2200,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0527,
+      "craftPre": 0.0756,
       "craftPost": 0.0314,
       "aiPost": 0.0,
-      "dCraft": -0.0213,
+      "dCraft": -0.0442,
       "dAi": -0.025,
       "coverageNote": null
     },
@@ -2059,65 +2213,65 @@
       "craftSeries": [
         {
           "year": 2018,
-          "zscore": -2.1874,
+          "zscore": -2.2153,
           "raw": -0.0344,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2019,
-          "zscore": 0.198,
-          "raw": 0.0087,
-          "nChunks": 6,
-          "thin": false
-        },
-        {
-          "year": 2020,
-          "zscore": -0.0231,
-          "raw": 0.0047,
+          "zscore": 0.1628,
+          "raw": 0.0157,
           "nChunks": 8,
           "thin": false
         },
         {
+          "year": 2020,
+          "zscore": -0.3605,
+          "raw": 0.0047,
+          "nChunks": 10,
+          "thin": false
+        },
+        {
           "year": 2021,
-          "zscore": 0.7938,
+          "zscore": 0.3395,
           "raw": 0.0194,
           "nChunks": 7,
           "thin": false
         },
         {
           "year": 2022,
-          "zscore": 1.3742,
-          "raw": 0.0299,
-          "nChunks": 6,
+          "zscore": 1.0155,
+          "raw": 0.0337,
+          "nChunks": 10,
           "thin": false
         },
         {
           "year": 2023,
-          "zscore": -0.1387,
-          "raw": 0.0026,
-          "nChunks": 1,
-          "thin": true
+          "zscore": 0.4989,
+          "raw": 0.0228,
+          "nChunks": 7,
+          "thin": false
         },
         {
           "year": 2024,
-          "zscore": -0.9865,
-          "raw": -0.0127,
-          "nChunks": 3,
+          "zscore": -1.0876,
+          "raw": -0.0106,
+          "nChunks": 4,
           "thin": true
         },
         {
           "year": 2025,
-          "zscore": 0.7964,
-          "raw": 0.0195,
-          "nChunks": 5,
+          "zscore": 0.794,
+          "raw": 0.029,
+          "nChunks": 7,
           "thin": false
         },
         {
           "year": 2026,
-          "zscore": 0.1732,
-          "raw": 0.0082,
-          "nChunks": 6,
+          "zscore": 0.8528,
+          "raw": 0.0302,
+          "nChunks": 9,
           "thin": false
         }
       ],
@@ -2177,10 +2331,10 @@
           "thin": false
         }
       ],
-      "craftPre": -0.0004,
-      "craftPost": 0.005,
+      "craftPre": 0.0013,
+      "craftPost": 0.0162,
       "aiPost": 0.129,
-      "dCraft": 0.0054,
+      "dCraft": 0.0149,
       "dAi": 0.129,
       "coverageNote": null
     },
@@ -2190,94 +2344,101 @@
       "craftSeries": [
         {
           "year": 2013,
-          "zscore": -1.0283,
+          "zscore": -1.4427,
           "raw": -0.0392,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2014,
-          "zscore": -1.5188,
+          "zscore": -2.0424,
           "raw": -0.062,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2015,
-          "zscore": -0.4271,
-          "raw": -0.0114,
-          "nChunks": 1,
+          "zscore": -1.375,
+          "raw": -0.0367,
+          "nChunks": 2,
           "thin": true
         },
         {
           "year": 2016,
-          "zscore": 0.3331,
+          "zscore": 0.2216,
           "raw": 0.0239,
           "nChunks": 9,
           "thin": false
         },
         {
+          "year": 2017,
+          "zscore": 0.2216,
+          "raw": 0.0239,
+          "nChunks": 7,
+          "thin": false
+        },
+        {
           "year": 2018,
-          "zscore": -0.7144,
+          "zscore": -1.059,
           "raw": -0.0247,
           "nChunks": 4,
           "thin": true
         },
         {
           "year": 2019,
-          "zscore": 0.5228,
-          "raw": 0.0327,
-          "nChunks": 9,
+          "zscore": 0.5598,
+          "raw": 0.0367,
+          "nChunks": 10,
           "thin": false
         },
         {
           "year": 2020,
-          "zscore": 0.8204,
+          "zscore": 0.8173,
           "raw": 0.0465,
           "nChunks": 19,
           "thin": false
         },
         {
           "year": 2021,
-          "zscore": 0.9283,
-          "raw": 0.0515,
-          "nChunks": 15,
+          "zscore": 1.208,
+          "raw": 0.0613,
+          "nChunks": 20,
           "thin": false
         },
         {
           "year": 2022,
-          "zscore": -0.2699,
-          "raw": -0.0041,
-          "nChunks": 3,
-          "thin": true
+          "zscore": 1.1666,
+          "raw": 0.0597,
+          "nChunks": 18,
+          "thin": false
         },
         {
           "year": 2023,
-          "zscore": -0.0415,
-          "raw": 0.0065,
-          "nChunks": 1,
-          "thin": true
+          "zscore": 0.5587,
+          "raw": 0.0367,
+          "nChunks": 15,
+          "thin": false
         },
         {
           "year": 2024,
-          "zscore": -1.0679,
-          "raw": -0.0411,
-          "nChunks": 8,
+          "zscore": 0.514,
+          "raw": 0.035,
+          "nChunks": 22,
           "thin": false
         },
         {
           "year": 2025,
-          "zscore": 0.0536,
-          "raw": 0.0109,
-          "nChunks": 7,
+          "zscore": 0.4788,
+          "raw": 0.0336,
+          "nChunks": 14,
           "thin": false
         },
         {
           "year": 2026,
-          "zscore": 2.4096,
-          "raw": 0.1202,
-          "nChunks": 1,
-          "thin": true
+          "zscore": 0.1728,
+          "raw": 0.022,
+          "nChunks": 6,
+          "thin": false
         }
       ],
       "aiSeries": [
@@ -2366,10 +2527,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0198,
-      "craftPost": 0.03,
+      "craftPre": 0.0187,
+      "craftPost": 0.0302,
       "aiPost": 0.0706,
-      "dCraft": 0.0102,
+      "dCraft": 0.0115,
       "dAi": 0.0706,
       "coverageNote": null
     },
@@ -2379,72 +2540,86 @@
       "craftSeries": [
         {
           "year": 2015,
-          "zscore": 0.2342,
+          "zscore": -0.3756,
           "raw": -0.0096,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2016,
-          "zscore": -1.2861,
+          "zscore": -1.9151,
+          "raw": -0.0537,
+          "nChunks": 2,
+          "thin": true
+        },
+        {
+          "year": 2017,
+          "zscore": -1.9151,
           "raw": -0.0537,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2018,
-          "zscore": 0.151,
-          "raw": -0.012,
-          "nChunks": 2,
-          "thin": true
-        },
-        {
-          "year": 2019,
-          "zscore": -0.2049,
-          "raw": -0.0223,
-          "nChunks": 6,
-          "thin": false
-        },
-        {
-          "year": 2020,
-          "zscore": 0.6336,
-          "raw": 0.002,
+          "zscore": -0.7436,
+          "raw": -0.0201,
           "nChunks": 4,
           "thin": true
         },
         {
-          "year": 2021,
-          "zscore": -0.1061,
-          "raw": -0.0195,
-          "nChunks": 3,
-          "thin": true
-        },
-        {
-          "year": 2022,
-          "zscore": 1.5609,
-          "raw": 0.0288,
+          "year": 2019,
+          "zscore": 0.3052,
+          "raw": 0.0099,
           "nChunks": 10,
           "thin": false
         },
         {
+          "year": 2020,
+          "zscore": 0.5891,
+          "raw": 0.018,
+          "nChunks": 12,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "zscore": 0.7445,
+          "raw": 0.0225,
+          "nChunks": 13,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "zscore": 1.0234,
+          "raw": 0.0304,
+          "nChunks": 21,
+          "thin": false
+        },
+        {
           "year": 2023,
-          "zscore": -1.79,
-          "raw": -0.0683,
-          "nChunks": 5,
+          "zscore": 0.3701,
+          "raw": 0.0117,
+          "nChunks": 18,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "zscore": 0.0931,
+          "raw": 0.0038,
+          "nChunks": 8,
           "thin": false
         },
         {
           "year": 2025,
-          "zscore": 1.3647,
-          "raw": 0.0232,
-          "nChunks": 3,
-          "thin": true
+          "zscore": 1.1566,
+          "raw": 0.0343,
+          "nChunks": 10,
+          "thin": false
         },
         {
           "year": 2026,
-          "zscore": -0.5574,
-          "raw": -0.0325,
-          "nChunks": 5,
+          "zscore": 0.6675,
+          "raw": 0.0203,
+          "nChunks": 12,
           "thin": false
         }
       ],
@@ -2528,10 +2703,10 @@
           "thin": false
         }
       ],
-      "craftPre": -0.0192,
-      "craftPost": -0.0047,
+      "craftPre": -0.0124,
+      "craftPost": 0.0194,
       "aiPost": 0.1224,
-      "dCraft": 0.0145,
+      "dCraft": 0.0318,
       "dAi": 0.1224,
       "coverageNote": null
     },
@@ -2541,87 +2716,115 @@
       "craftSeries": [
         {
           "year": 2011,
-          "zscore": -0.594,
+          "zscore": -1.0461,
           "raw": -0.0388,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2012,
-          "zscore": -0.5682,
-          "raw": -0.0381,
-          "nChunks": 1,
+          "zscore": -1.1878,
+          "raw": -0.0427,
+          "nChunks": 2,
           "thin": true
         },
         {
           "year": 2013,
-          "zscore": -0.8031,
+          "zscore": -1.2456,
           "raw": -0.0443,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2014,
-          "zscore": -1.2576,
+          "zscore": -1.6791,
           "raw": -0.0562,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2015,
-          "zscore": -1.4817,
-          "raw": -0.0621,
-          "nChunks": 1,
+          "zscore": -1.7902,
+          "raw": -0.0593,
+          "nChunks": 2,
           "thin": true
         },
         {
           "year": 2016,
-          "zscore": 0.235,
-          "raw": -0.0171,
-          "nChunks": 2,
+          "zscore": -0.3181,
+          "raw": -0.0188,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2017,
-          "zscore": 1.1525,
-          "raw": 0.007,
-          "nChunks": 3,
-          "thin": true
+          "zscore": 0.5616,
+          "raw": 0.0054,
+          "nChunks": 5,
+          "thin": false
         },
         {
           "year": 2018,
-          "zscore": -0.5331,
-          "raw": -0.0372,
-          "nChunks": 1,
+          "zscore": 0.4803,
+          "raw": 0.0032,
+          "nChunks": 5,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "zscore": 0.36,
+          "raw": -0.0001,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2020,
-          "zscore": 1.834,
-          "raw": 0.0249,
-          "nChunks": 1,
-          "thin": true
-        },
-        {
-          "year": 2021,
-          "zscore": 0.0887,
-          "raw": -0.0209,
-          "nChunks": 3,
-          "thin": true
-        },
-        {
-          "year": 2022,
-          "zscore": 1.0168,
-          "raw": 0.0034,
+          "zscore": 0.5744,
+          "raw": 0.0058,
           "nChunks": 4,
           "thin": true
         },
         {
+          "year": 2021,
+          "zscore": 1.0865,
+          "raw": 0.0198,
+          "nChunks": 7,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "zscore": 0.9317,
+          "raw": 0.0156,
+          "nChunks": 8,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "zscore": 0.9317,
+          "raw": 0.0156,
+          "nChunks": 7,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "zscore": 0.9317,
+          "raw": 0.0156,
+          "nChunks": 7,
+          "thin": false
+        },
+        {
           "year": 2025,
-          "zscore": 0.9107,
-          "raw": 0.0007,
-          "nChunks": 2,
-          "thin": true
+          "zscore": 0.8366,
+          "raw": 0.013,
+          "nChunks": 7,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "zscore": 0.5725,
+          "raw": 0.0057,
+          "nChunks": 5,
+          "thin": false
         }
       ],
       "aiSeries": [
@@ -2722,10 +2925,10 @@
           "thin": false
         }
       ],
-      "craftPre": -0.0176,
-      "craftPost": 0.0007,
+      "craftPre": -0.0063,
+      "craftPost": 0.0114,
       "aiPost": 0.0,
-      "dCraft": 0.0183,
+      "dCraft": 0.0177,
       "dAi": 0.0,
       "coverageNote": null
     },
@@ -2735,122 +2938,129 @@
       "craftSeries": [
         {
           "year": 2002,
-          "zscore": 0.5758,
+          "zscore": 0.5008,
           "raw": 0.0584,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2003,
-          "zscore": -0.0217,
+          "zscore": -1.0985,
           "raw": 0.0336,
           "nChunks": 5,
           "thin": false
         },
         {
           "year": 2004,
-          "zscore": -1.6935,
-          "raw": -0.036,
-          "nChunks": 1,
-          "thin": true
+          "zscore": -1.152,
+          "raw": 0.0327,
+          "nChunks": 5,
+          "thin": false
         },
         {
           "year": 2009,
-          "zscore": -0.141,
+          "zscore": -1.4179,
           "raw": 0.0286,
           "nChunks": 5,
           "thin": false
         },
         {
           "year": 2010,
-          "zscore": 3.2729,
-          "raw": 0.1705,
-          "nChunks": 1,
+          "zscore": 0.1449,
+          "raw": 0.0529,
+          "nChunks": 4,
           "thin": true
         },
         {
           "year": 2014,
-          "zscore": -0.0113,
-          "raw": 0.034,
-          "nChunks": 4,
-          "thin": true
-        },
-        {
-          "year": 2016,
-          "zscore": -0.2298,
-          "raw": 0.0249,
+          "zscore": -1.3987,
+          "raw": 0.0289,
           "nChunks": 5,
           "thin": false
         },
         {
+          "year": 2015,
+          "zscore": -1.3987,
+          "raw": 0.0289,
+          "nChunks": 5,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "zscore": 0.4701,
+          "raw": 0.0579,
+          "nChunks": 8,
+          "thin": false
+        },
+        {
           "year": 2017,
-          "zscore": -0.0513,
-          "raw": 0.0323,
-          "nChunks": 3,
-          "thin": true
+          "zscore": -0.4928,
+          "raw": 0.043,
+          "nChunks": 9,
+          "thin": false
         },
         {
           "year": 2018,
-          "zscore": 0.2845,
-          "raw": 0.0463,
-          "nChunks": 3,
-          "thin": true
+          "zscore": 0.0465,
+          "raw": 0.0513,
+          "nChunks": 9,
+          "thin": false
         },
         {
           "year": 2019,
-          "zscore": -0.3584,
-          "raw": 0.0196,
-          "nChunks": 18,
+          "zscore": 0.0804,
+          "raw": 0.0519,
+          "nChunks": 31,
           "thin": false
         },
         {
           "year": 2020,
-          "zscore": -0.1854,
-          "raw": 0.0267,
-          "nChunks": 25,
+          "zscore": 0.8237,
+          "raw": 0.0634,
+          "nChunks": 36,
           "thin": false
         },
         {
           "year": 2021,
-          "zscore": 0.9441,
-          "raw": 0.0737,
-          "nChunks": 22,
+          "zscore": 2.5274,
+          "raw": 0.0899,
+          "nChunks": 54,
           "thin": false
         },
         {
           "year": 2022,
-          "zscore": -0.0849,
-          "raw": 0.0309,
-          "nChunks": 12,
+          "zscore": 1.0347,
+          "raw": 0.0667,
+          "nChunks": 35,
           "thin": false
         },
         {
           "year": 2023,
-          "zscore": -0.4596,
-          "raw": 0.0153,
-          "nChunks": 13,
+          "zscore": 0.1229,
+          "raw": 0.0525,
+          "nChunks": 53,
           "thin": false
         },
         {
           "year": 2024,
-          "zscore": -1.11,
-          "raw": -0.0117,
-          "nChunks": 17,
+          "zscore": 0.1231,
+          "raw": 0.0525,
+          "nChunks": 61,
           "thin": false
         },
         {
           "year": 2025,
-          "zscore": -0.082,
-          "raw": 0.031,
-          "nChunks": 16,
+          "zscore": 0.6909,
+          "raw": 0.0613,
+          "nChunks": 34,
           "thin": false
         },
         {
           "year": 2026,
-          "zscore": -0.6483,
-          "raw": 0.0075,
-          "nChunks": 4,
-          "thin": true
+          "zscore": 0.3933,
+          "raw": 0.0567,
+          "nChunks": 25,
+          "thin": false
         }
       ],
       "aiSeries": [
@@ -2981,10 +3191,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0373,
-      "craftPost": 0.0089,
+      "craftPre": 0.0552,
+      "craftPost": 0.0569,
       "aiPost": 0.0,
-      "dCraft": -0.0284,
+      "dCraft": 0.0017,
       "dAi": 0.0,
       "coverageNote": null
     },
@@ -2994,128 +3204,156 @@
       "craftSeries": [
         {
           "year": 2004,
-          "zscore": -0.9121,
+          "zscore": -1.0119,
           "raw": 0.0021,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2006,
-          "zscore": -1.5422,
+          "zscore": -1.5856,
           "raw": -0.0213,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2007,
-          "zscore": -0.6898,
-          "raw": 0.0104,
-          "nChunks": 4,
+          "zscore": -0.7946,
+          "raw": 0.011,
+          "nChunks": 5,
+          "thin": false
+        },
+        {
+          "year": 2008,
+          "zscore": -0.5323,
+          "raw": 0.0217,
+          "nChunks": 3,
+          "thin": true
+        },
+        {
+          "year": 2009,
+          "zscore": -0.5157,
+          "raw": 0.0223,
+          "nChunks": 3,
+          "thin": true
+        },
+        {
+          "year": 2010,
+          "zscore": -0.5157,
+          "raw": 0.0223,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2011,
-          "zscore": -1.1787,
+          "zscore": -1.2547,
           "raw": -0.0078,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2012,
-          "zscore": -0.9523,
+          "zscore": -1.0485,
           "raw": 0.0006,
           "nChunks": 5,
           "thin": false
         },
         {
           "year": 2013,
-          "zscore": -1.0693,
+          "zscore": -1.155,
           "raw": -0.0037,
           "nChunks": 5,
           "thin": false
         },
         {
           "year": 2014,
-          "zscore": -0.1751,
+          "zscore": -0.3408,
           "raw": 0.0295,
-          "nChunks": 11,
+          "nChunks": 13,
           "thin": false
         },
         {
           "year": 2015,
-          "zscore": -0.634,
-          "raw": 0.0124,
-          "nChunks": 10,
+          "zscore": -0.3359,
+          "raw": 0.0297,
+          "nChunks": 19,
           "thin": false
         },
         {
           "year": 2016,
-          "zscore": 1.496,
+          "zscore": 1.1809,
           "raw": 0.0915,
-          "nChunks": 18,
+          "nChunks": 27,
           "thin": false
         },
         {
           "year": 2017,
-          "zscore": 0.8346,
-          "raw": 0.0669,
-          "nChunks": 51,
+          "zscore": 1.2019,
+          "raw": 0.0923,
+          "nChunks": 72,
           "thin": false
         },
         {
           "year": 2018,
-          "zscore": -0.3987,
-          "raw": 0.0212,
-          "nChunks": 4,
-          "thin": true
-        },
-        {
-          "year": 2019,
-          "zscore": -0.6985,
-          "raw": 0.01,
-          "nChunks": 3,
-          "thin": true
-        },
-        {
-          "year": 2020,
-          "zscore": 0.8106,
-          "raw": 0.066,
-          "nChunks": 10,
+          "zscore": 0.5703,
+          "raw": 0.0666,
+          "nChunks": 28,
           "thin": false
         },
         {
+          "year": 2019,
+          "zscore": -0.294,
+          "raw": 0.0314,
+          "nChunks": 8,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "zscore": 0.5568,
+          "raw": 0.066,
+          "nChunks": 11,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "zscore": 0.1055,
+          "raw": 0.0476,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
           "year": 2022,
-          "zscore": 0.1663,
+          "zscore": -0.0299,
           "raw": 0.0421,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2023,
-          "zscore": 1.0307,
+          "zscore": 0.7571,
           "raw": 0.0742,
-          "nChunks": 6,
+          "nChunks": 7,
           "thin": false
         },
         {
           "year": 2024,
-          "zscore": 1.3615,
-          "raw": 0.0865,
-          "nChunks": 19,
+          "zscore": 1.3909,
+          "raw": 0.1,
+          "nChunks": 27,
           "thin": false
         },
         {
           "year": 2025,
-          "zscore": 1.2202,
-          "raw": 0.0812,
-          "nChunks": 59,
+          "zscore": 1.6984,
+          "raw": 0.1126,
+          "nChunks": 82,
           "thin": false
         },
         {
           "year": 2026,
-          "zscore": 1.3306,
-          "raw": 0.0853,
-          "nChunks": 23,
+          "zscore": 1.9528,
+          "raw": 0.1229,
+          "nChunks": 74,
           "thin": false
         }
       ],
@@ -3259,10 +3497,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0447,
-      "craftPost": 0.0844,
+      "craftPre": 0.0607,
+      "craftPost": 0.1118,
       "aiPost": 0.2449,
-      "dCraft": 0.0397,
+      "dCraft": 0.0511,
       "dAi": 0.2406,
       "coverageNote": null
     },
@@ -3272,157 +3510,157 @@
       "craftSeries": [
         {
           "year": 2001,
-          "zscore": -0.6452,
+          "zscore": -0.9198,
           "raw": 0.0379,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2005,
-          "zscore": -0.0759,
+          "zscore": -0.3693,
           "raw": 0.0584,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2006,
-          "zscore": -0.7639,
+          "zscore": -1.0346,
           "raw": 0.0337,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2007,
-          "zscore": -1.4782,
+          "zscore": -1.7253,
           "raw": 0.008,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2008,
-          "zscore": -2.9569,
+          "zscore": -3.1552,
           "raw": -0.0451,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2010,
-          "zscore": 1.0585,
-          "raw": 0.0992,
-          "nChunks": 28,
+          "zscore": 0.8038,
+          "raw": 0.102,
+          "nChunks": 29,
           "thin": false
         },
         {
           "year": 2011,
-          "zscore": 0.3179,
-          "raw": 0.0726,
-          "nChunks": 5,
-          "thin": false
-        },
-        {
-          "year": 2012,
-          "zscore": 0.3005,
-          "raw": 0.0719,
-          "nChunks": 12,
-          "thin": false
-        },
-        {
-          "year": 2013,
-          "zscore": 0.4814,
-          "raw": 0.0784,
-          "nChunks": 12,
-          "thin": false
-        },
-        {
-          "year": 2014,
-          "zscore": 0.6581,
-          "raw": 0.0848,
-          "nChunks": 7,
-          "thin": false
-        },
-        {
-          "year": 2015,
-          "zscore": 0.124,
-          "raw": 0.0656,
-          "nChunks": 27,
-          "thin": false
-        },
-        {
-          "year": 2016,
-          "zscore": -0.8872,
-          "raw": 0.0292,
-          "nChunks": 7,
-          "thin": false
-        },
-        {
-          "year": 2017,
-          "zscore": -1.0848,
-          "raw": 0.0221,
-          "nChunks": 3,
-          "thin": true
-        },
-        {
-          "year": 2018,
-          "zscore": 0.5302,
-          "raw": 0.0802,
+          "zscore": 0.8555,
+          "raw": 0.1039,
           "nChunks": 20,
           "thin": false
         },
         {
-          "year": 2019,
-          "zscore": -0.7721,
-          "raw": 0.0334,
-          "nChunks": 2,
-          "thin": true
-        },
-        {
-          "year": 2020,
-          "zscore": 0.9305,
-          "raw": 0.0946,
-          "nChunks": 3,
-          "thin": true
-        },
-        {
-          "year": 2021,
-          "zscore": 0.2553,
-          "raw": 0.0703,
-          "nChunks": 9,
+          "year": 2012,
+          "zscore": 0.173,
+          "raw": 0.0786,
+          "nChunks": 13,
           "thin": false
         },
         {
-          "year": 2022,
-          "zscore": 1.2445,
-          "raw": 0.1059,
-          "nChunks": 54,
+          "year": 2013,
+          "zscore": 0.3402,
+          "raw": 0.0848,
+          "nChunks": 13,
           "thin": false
         },
         {
-          "year": 2023,
-          "zscore": 0.5663,
-          "raw": 0.0815,
-          "nChunks": 89,
-          "thin": false
-        },
-        {
-          "year": 2024,
-          "zscore": 0.3003,
-          "raw": 0.0719,
-          "nChunks": 27,
-          "thin": false
-        },
-        {
-          "year": 2025,
-          "zscore": 0.4267,
-          "raw": 0.0765,
+          "year": 2014,
+          "zscore": 0.4062,
+          "raw": 0.0872,
           "nChunks": 12,
           "thin": false
         },
         {
+          "year": 2015,
+          "zscore": -0.0897,
+          "raw": 0.0688,
+          "nChunks": 31,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "zscore": -0.8001,
+          "raw": 0.0424,
+          "nChunks": 8,
+          "thin": false
+        },
+        {
+          "year": 2017,
+          "zscore": -0.2785,
+          "raw": 0.0618,
+          "nChunks": 9,
+          "thin": false
+        },
+        {
+          "year": 2018,
+          "zscore": 0.2854,
+          "raw": 0.0827,
+          "nChunks": 25,
+          "thin": false
+        },
+        {
+          "year": 2019,
+          "zscore": 0.3426,
+          "raw": 0.0849,
+          "nChunks": 17,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "zscore": 0.7628,
+          "raw": 0.1005,
+          "nChunks": 14,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "zscore": 0.4688,
+          "raw": 0.0896,
+          "nChunks": 12,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "zscore": 1.267,
+          "raw": 0.1192,
+          "nChunks": 56,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "zscore": 0.8318,
+          "raw": 0.1031,
+          "nChunks": 109,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "zscore": 0.532,
+          "raw": 0.0919,
+          "nChunks": 38,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "zscore": 0.3597,
+          "raw": 0.0855,
+          "nChunks": 24,
+          "thin": false
+        },
+        {
           "year": 2026,
-          "zscore": 1.4699,
-          "raw": 0.114,
-          "nChunks": 4,
-          "thin": true
+          "zscore": 0.9437,
+          "raw": 0.1072,
+          "nChunks": 10,
+          "thin": false
         }
       ],
       "aiSeries": [
@@ -3565,10 +3803,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0565,
-      "craftPost": 0.0875,
+      "craftPre": 0.0758,
+      "craftPost": 0.0949,
       "aiPost": 0.0,
-      "dCraft": 0.031,
+      "dCraft": 0.0191,
       "dAi": 0.0,
       "coverageNote": null
     },
@@ -3578,56 +3816,70 @@
       "craftSeries": [
         {
           "year": 2011,
-          "zscore": 0.0502,
+          "zscore": -0.0191,
           "raw": 0.0027,
           "nChunks": 2,
           "thin": true
         },
         {
-          "year": 2014,
-          "zscore": 0.5519,
-          "raw": 0.0229,
-          "nChunks": 3,
+          "year": 2012,
+          "zscore": 0.1517,
+          "raw": 0.0093,
+          "nChunks": 1,
           "thin": true
         },
         {
-          "year": 2015,
-          "zscore": -2.4774,
+          "year": 2013,
+          "zscore": -2.6584,
           "raw": -0.0993,
           "nChunks": 1,
           "thin": true
         },
         {
+          "year": 2014,
+          "zscore": -0.2941,
+          "raw": -0.008,
+          "nChunks": 4,
+          "thin": true
+        },
+        {
+          "year": 2015,
+          "zscore": -0.2859,
+          "raw": -0.0076,
+          "nChunks": 4,
+          "thin": true
+        },
+        {
           "year": 2016,
-          "zscore": 0.6175,
-          "raw": 0.0256,
-          "nChunks": 7,
+          "zscore": 1.2114,
+          "raw": 0.0502,
+          "nChunks": 9,
           "thin": false
         },
         {
           "year": 2017,
-          "zscore": -0.4314,
-          "raw": -0.0168,
-          "nChunks": 2,
+          "zscore": 0.0262,
+          "raw": 0.0044,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2018,
-          "zscore": 0.6467,
-          "raw": 0.0267,
-          "nChunks": 19,
+          "zscore": 0.7803,
+          "raw": 0.0336,
+          "nChunks": 25,
           "thin": false
         },
         {
           "year": 2019,
-          "zscore": 0.6355,
-          "raw": 0.0263,
-          "nChunks": 14,
+          "zscore": 0.7343,
+          "raw": 0.0318,
+          "nChunks": 25,
           "thin": false
         },
         {
           "year": 2024,
-          "zscore": 0.4071,
+          "zscore": 0.3535,
           "raw": 0.0171,
           "nChunks": 20,
           "thin": false
@@ -3719,10 +3971,10 @@
           "thin": false
         }
       ],
-      "craftPre": -0.0075,
+      "craftPre": 0.0225,
       "craftPost": 0.0171,
       "aiPost": 0.0,
-      "dCraft": 0.0246,
+      "dCraft": -0.0054,
       "dAi": 0.0,
       "coverageNote": "2020-23 and 2025-26 are SPA-era coverage holes; post-2019 trends are unmeasurable until manual capture."
     },
@@ -3732,150 +3984,150 @@
       "craftSeries": [
         {
           "year": 1999,
-          "zscore": -1.0637,
+          "zscore": -1.816,
           "raw": 0.0243,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2004,
-          "zscore": 0.4359,
+          "zscore": 0.0241,
           "raw": 0.0859,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2007,
-          "zscore": -0.292,
+          "zscore": -0.869,
           "raw": 0.056,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2008,
-          "zscore": -0.6206,
+          "zscore": -1.2723,
           "raw": 0.0425,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2009,
-          "zscore": -1.4552,
-          "raw": 0.0083,
-          "nChunks": 1,
+          "zscore": -0.8755,
+          "raw": 0.0558,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2010,
-          "zscore": 0.6945,
+          "zscore": 0.3414,
           "raw": 0.0965,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2012,
-          "zscore": -0.7359,
+          "zscore": -1.4137,
           "raw": 0.0378,
           "nChunks": 5,
           "thin": false
         },
         {
           "year": 2013,
-          "zscore": -3.4099,
-          "raw": -0.0719,
-          "nChunks": 1,
+          "zscore": -2.0759,
+          "raw": 0.0156,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2014,
-          "zscore": 0.625,
-          "raw": 0.0936,
-          "nChunks": 10,
+          "zscore": 0.5026,
+          "raw": 0.1019,
+          "nChunks": 12,
           "thin": false
         },
         {
           "year": 2015,
-          "zscore": 0.6624,
-          "raw": 0.0952,
-          "nChunks": 30,
+          "zscore": 0.4618,
+          "raw": 0.1005,
+          "nChunks": 36,
           "thin": false
         },
         {
           "year": 2016,
-          "zscore": 0.0738,
-          "raw": 0.071,
-          "nChunks": 2,
+          "zscore": -0.1241,
+          "raw": 0.0809,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2017,
-          "zscore": 0.4345,
-          "raw": 0.0858,
-          "nChunks": 1,
+          "zscore": -0.2727,
+          "raw": 0.0759,
+          "nChunks": 3,
           "thin": true
         },
         {
           "year": 2018,
-          "zscore": 0.0822,
-          "raw": 0.0714,
-          "nChunks": 16,
+          "zscore": 0.4224,
+          "raw": 0.0992,
+          "nChunks": 19,
           "thin": false
         },
         {
           "year": 2019,
-          "zscore": 0.0778,
-          "raw": 0.0712,
-          "nChunks": 6,
+          "zscore": 0.1716,
+          "raw": 0.0908,
+          "nChunks": 15,
           "thin": false
         },
         {
           "year": 2020,
-          "zscore": 0.3827,
-          "raw": 0.0837,
-          "nChunks": 6,
+          "zscore": 0.4697,
+          "raw": 0.1008,
+          "nChunks": 9,
           "thin": false
         },
         {
           "year": 2021,
-          "zscore": 0.9089,
-          "raw": 0.1053,
-          "nChunks": 42,
+          "zscore": 1.0366,
+          "raw": 0.1197,
+          "nChunks": 49,
           "thin": false
         },
         {
           "year": 2022,
-          "zscore": 0.8554,
-          "raw": 0.1031,
-          "nChunks": 43,
+          "zscore": 0.9691,
+          "raw": 0.1175,
+          "nChunks": 79,
           "thin": false
         },
         {
           "year": 2023,
-          "zscore": 1.0352,
-          "raw": 0.1105,
-          "nChunks": 30,
+          "zscore": 1.2606,
+          "raw": 0.1272,
+          "nChunks": 71,
           "thin": false
         },
         {
           "year": 2024,
-          "zscore": 0.2522,
-          "raw": 0.0783,
-          "nChunks": 6,
+          "zscore": 1.3544,
+          "raw": 0.1304,
+          "nChunks": 38,
           "thin": false
         },
         {
           "year": 2025,
-          "zscore": 0.5768,
-          "raw": 0.0917,
-          "nChunks": 17,
+          "zscore": 1.2143,
+          "raw": 0.1257,
+          "nChunks": 43,
           "thin": false
         },
         {
           "year": 2026,
-          "zscore": 0.4801,
-          "raw": 0.0877,
-          "nChunks": 4,
-          "thin": true
+          "zscore": 0.4906,
+          "raw": 0.1015,
+          "nChunks": 14,
+          "thin": false
         }
       ],
       "aiSeries": [
@@ -4048,10 +4300,10 @@
           "thin": false
         }
       ],
-      "craftPre": 0.0834,
-      "craftPost": 0.0859,
+      "craftPre": 0.0954,
+      "craftPost": 0.1192,
       "aiPost": 0.141,
-      "dCraft": 0.0025,
+      "dCraft": 0.0238,
       "dAi": 0.1048,
       "coverageNote": null
     },
@@ -4061,79 +4313,100 @@
       "craftSeries": [
         {
           "year": 2006,
-          "zscore": 1.1634,
+          "zscore": 1.0758,
           "raw": 0.0537,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2007,
-          "zscore": 1.0194,
+          "zscore": 0.9327,
           "raw": 0.0508,
           "nChunks": 4,
           "thin": true
         },
         {
           "year": 2008,
-          "zscore": 0.9494,
-          "raw": 0.0495,
-          "nChunks": 2,
+          "zscore": 0.7195,
+          "raw": 0.0466,
+          "nChunks": 3,
+          "thin": true
+        },
+        {
+          "year": 2009,
+          "zscore": 0.6182,
+          "raw": 0.0446,
+          "nChunks": 1,
           "thin": true
         },
         {
           "year": 2010,
-          "zscore": 0.0204,
+          "zscore": -0.0604,
           "raw": 0.0312,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2011,
-          "zscore": -0.4159,
+          "zscore": -0.494,
           "raw": 0.0227,
           "nChunks": 1,
           "thin": true
         },
         {
           "year": 2012,
-          "zscore": 1.0233,
+          "zscore": 0.9366,
           "raw": 0.0509,
           "nChunks": 2,
           "thin": true
         },
         {
+          "year": 2013,
+          "zscore": 1.3083,
+          "raw": 0.0583,
+          "nChunks": 2,
+          "thin": true
+        },
+        {
           "year": 2014,
-          "zscore": 0.2699,
+          "zscore": 0.1876,
           "raw": 0.0361,
           "nChunks": 2,
           "thin": true
         },
         {
+          "year": 2015,
+          "zscore": -0.4921,
+          "raw": 0.0227,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
           "year": 2020,
-          "zscore": -1.9335,
+          "zscore": -2.0025,
           "raw": -0.0071,
           "nChunks": 13,
           "thin": false
         },
         {
           "year": 2024,
-          "zscore": -1.3557,
+          "zscore": -1.4282,
           "raw": 0.0042,
           "nChunks": 9,
           "thin": false
         },
         {
           "year": 2025,
-          "zscore": 0.1597,
+          "zscore": 0.0781,
           "raw": 0.034,
-          "nChunks": 11,
+          "nChunks": 12,
           "thin": false
         },
         {
           "year": 2026,
-          "zscore": -0.9003,
-          "raw": 0.0132,
-          "nChunks": 1,
+          "zscore": -1.3795,
+          "raw": 0.0052,
+          "nChunks": 3,
           "thin": true
         }
       ],
@@ -4241,19 +4514,182 @@
           "thin": false
         }
       ],
-      "craftPre": -0.0071,
-      "craftPost": 0.0171,
+      "craftPre": 0.0078,
+      "craftPost": 0.0145,
       "aiPost": 0.3,
-      "dCraft": 0.0242,
+      "dCraft": 0.0067,
       "dAi": -0.2,
       "coverageNote": "2019 and 2021-23 have no captured pages — the deep-learning boom years are a coverage hole, so trend deltas are unreliable."
+    },
+    {
+      "id": "engine",
+      "displayName": "Engine",
+      "craftSeries": [
+        {
+          "year": 2014,
+          "zscore": -0.6464,
+          "raw": 0.0312,
+          "nChunks": 2,
+          "thin": true
+        },
+        {
+          "year": 2016,
+          "zscore": -0.8116,
+          "raw": 0.0228,
+          "nChunks": 4,
+          "thin": true
+        },
+        {
+          "year": 2017,
+          "zscore": -0.9182,
+          "raw": 0.0174,
+          "nChunks": 3,
+          "thin": true
+        },
+        {
+          "year": 2019,
+          "zscore": -0.7441,
+          "raw": 0.0262,
+          "nChunks": 8,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "zscore": -1.6248,
+          "raw": -0.0187,
+          "nChunks": 4,
+          "thin": true
+        },
+        {
+          "year": 2021,
+          "zscore": -0.3407,
+          "raw": 0.0468,
+          "nChunks": 6,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "zscore": 1.1378,
+          "raw": 0.1223,
+          "nChunks": 24,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "zscore": 1.1334,
+          "raw": 0.122,
+          "nChunks": 19,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "zscore": 1.5057,
+          "raw": 0.141,
+          "nChunks": 39,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "zscore": 0.8384,
+          "raw": 0.107,
+          "nChunks": 17,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "zscore": 0.4705,
+          "raw": 0.0882,
+          "nChunks": 32,
+          "thin": false
+        }
+      ],
+      "aiSeries": [
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.1111,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0294,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0588,
+          "aiChunks": 2,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        }
+      ],
+      "craftPre": 0.0189,
+      "craftPost": 0.1121,
+      "aiPost": 0.0,
+      "dCraft": 0.0932,
+      "dAi": -0.0233,
+      "coverageNote": null
     }
   ],
   "scatter": [
     {
       "id": "google",
       "displayName": "Google",
-      "craft": 0.0416,
+      "craft": 0.0729,
       "ai": 0.2292,
       "flagged": false,
       "note": null
@@ -4261,7 +4697,7 @@
     {
       "id": "amazon",
       "displayName": "Amazon",
-      "craft": 0.028,
+      "craft": 0.0275,
       "ai": 0.0,
       "flagged": false,
       "note": null
@@ -4269,7 +4705,7 @@
     {
       "id": "meta",
       "displayName": "Meta",
-      "craft": 0.0109,
+      "craft": 0.0146,
       "ai": 0.6129,
       "flagged": true,
       "note": "Recent years are thinly captured (2026: 11 chunks); the high AI share is real for the captured pages but rests on small n."
@@ -4277,7 +4713,7 @@
     {
       "id": "palantir",
       "displayName": "Palantir",
-      "craft": 0.0272,
+      "craft": 0.056,
       "ai": 0.0196,
       "flagged": false,
       "note": null
@@ -4285,7 +4721,7 @@
     {
       "id": "coinbase",
       "displayName": "Coinbase",
-      "craft": 0.0371,
+      "craft": 0.0514,
       "ai": 0.0,
       "flagged": false,
       "note": null
@@ -4293,7 +4729,7 @@
     {
       "id": "netflix",
       "displayName": "Netflix",
-      "craft": 0.0331,
+      "craft": 0.0601,
       "ai": 0.0,
       "flagged": false,
       "note": null
@@ -4301,7 +4737,7 @@
     {
       "id": "shopify",
       "displayName": "Shopify",
-      "craft": 0.0304,
+      "craft": 0.0505,
       "ai": 0.0238,
       "flagged": false,
       "note": null
@@ -4309,7 +4745,7 @@
     {
       "id": "stripe",
       "displayName": "Stripe",
-      "craft": 0.0093,
+      "craft": 0.0703,
       "ai": 0.0207,
       "flagged": false,
       "note": null
@@ -4325,7 +4761,7 @@
     {
       "id": "snap",
       "displayName": "Snap",
-      "craft": 0.005,
+      "craft": 0.0162,
       "ai": 0.129,
       "flagged": false,
       "note": null
@@ -4333,7 +4769,7 @@
     {
       "id": "hubspot",
       "displayName": "HubSpot",
-      "craft": 0.03,
+      "craft": 0.0302,
       "ai": 0.0706,
       "flagged": false,
       "note": null
@@ -4341,7 +4777,7 @@
     {
       "id": "gitlab",
       "displayName": "GitLab",
-      "craft": -0.0047,
+      "craft": 0.0194,
       "ai": 0.1224,
       "flagged": false,
       "note": null
@@ -4349,7 +4785,7 @@
     {
       "id": "github",
       "displayName": "GitHub",
-      "craft": 0.0007,
+      "craft": 0.0114,
       "ai": 0.0,
       "flagged": false,
       "note": null
@@ -4357,7 +4793,7 @@
     {
       "id": "basecamp",
       "displayName": "Basecamp",
-      "craft": 0.0089,
+      "craft": 0.0569,
       "ai": 0.0,
       "flagged": false,
       "note": null
@@ -4365,7 +4801,7 @@
     {
       "id": "salesforce",
       "displayName": "Salesforce",
-      "craft": 0.0844,
+      "craft": 0.1118,
       "ai": 0.2449,
       "flagged": false,
       "note": null
@@ -4373,7 +4809,7 @@
     {
       "id": "starbucks",
       "displayName": "Starbucks",
-      "craft": 0.0875,
+      "craft": 0.0949,
       "ai": 0.0,
       "flagged": false,
       "note": null
@@ -4389,7 +4825,7 @@
     {
       "id": "apple",
       "displayName": "Apple",
-      "craft": 0.0859,
+      "craft": 0.1192,
       "ai": 0.141,
       "flagged": false,
       "note": null
@@ -4397,16 +4833,24 @@
     {
       "id": "nvidia",
       "displayName": "NVIDIA",
-      "craft": 0.0171,
+      "craft": 0.0145,
       "ai": 0.3,
       "flagged": true,
       "note": "2019 and 2021-23 have no captured pages — the deep-learning boom years are a coverage hole, so trend deltas are unreliable."
+    },
+    {
+      "id": "engine",
+      "displayName": "Engine",
+      "craft": 0.1121,
+      "ai": 0.0,
+      "flagged": false,
+      "note": null
     }
   ],
   "pooled": [
     {
       "year": 1999,
-      "craftMean": -0.0118,
+      "craftMean": 0.0074,
       "aiPrevalence": 0.0,
       "nCompanies": 3
     },
@@ -4418,9 +4862,9 @@
     },
     {
       "year": 2001,
-      "craftMean": 0.0379,
+      "craftMean": 0.051,
       "aiPrevalence": 0.0,
-      "nCompanies": 1
+      "nCompanies": 2
     },
     {
       "year": 2002,
@@ -4436,141 +4880,141 @@
     },
     {
       "year": 2004,
-      "craftMean": 0.0039,
+      "craftMean": 0.0183,
       "aiPrevalence": 0.0,
       "nCompanies": 5
     },
     {
       "year": 2005,
-      "craftMean": 0.0075,
-      "aiPrevalence": 0.0476,
+      "craftMean": 0.0148,
+      "aiPrevalence": 0.0455,
       "nCompanies": 3
     },
     {
       "year": 2006,
-      "craftMean": 0.022,
+      "craftMean": 0.0213,
       "aiPrevalence": 0.0,
-      "nCompanies": 3
+      "nCompanies": 4
     },
     {
       "year": 2007,
-      "craftMean": 0.0261,
+      "craftMean": 0.0313,
       "aiPrevalence": 0.0,
       "nCompanies": 6
     },
     {
       "year": 2008,
-      "craftMean": 0.0018,
+      "craftMean": 0.0089,
       "aiPrevalence": 0.0,
-      "nCompanies": 5
+      "nCompanies": 6
     },
     {
       "year": 2009,
-      "craftMean": -0.005,
+      "craftMean": 0.0172,
       "aiPrevalence": 0.0,
-      "nCompanies": 4
+      "nCompanies": 6
     },
     {
       "year": 2010,
-      "craftMean": 0.0361,
-      "aiPrevalence": 0.0063,
-      "nCompanies": 8
+      "craftMean": 0.0281,
+      "aiPrevalence": 0.0061,
+      "nCompanies": 10
     },
     {
       "year": 2011,
-      "craftMean": 0.0015,
+      "craftMean": 0.0034,
       "aiPrevalence": 0.0,
       "nCompanies": 11
     },
     {
       "year": 2012,
-      "craftMean": 0.0281,
-      "aiPrevalence": 0.0049,
-      "nCompanies": 10
+      "craftMean": 0.0272,
+      "aiPrevalence": 0.0043,
+      "nCompanies": 12
     },
     {
       "year": 2013,
-      "craftMean": -0.0009,
-      "aiPrevalence": 0.0,
-      "nCompanies": 12
+      "craftMean": 0.003,
+      "aiPrevalence": 0.0092,
+      "nCompanies": 15
     },
     {
       "year": 2014,
-      "craftMean": 0.014,
-      "aiPrevalence": 0.0025,
-      "nCompanies": 15
-    },
-    {
-      "year": 2015,
-      "craftMean": 0.0114,
-      "aiPrevalence": 0.0063,
-      "nCompanies": 12
-    },
-    {
-      "year": 2016,
-      "craftMean": 0.0405,
-      "aiPrevalence": 0.0064,
-      "nCompanies": 14
-    },
-    {
-      "year": 2017,
-      "craftMean": 0.0212,
-      "aiPrevalence": 0.0107,
-      "nCompanies": 15
-    },
-    {
-      "year": 2018,
-      "craftMean": 0.0136,
-      "aiPrevalence": 0.011,
+      "craftMean": 0.0199,
+      "aiPrevalence": 0.0024,
       "nCompanies": 17
     },
     {
+      "year": 2015,
+      "craftMean": 0.0194,
+      "aiPrevalence": 0.0061,
+      "nCompanies": 17
+    },
+    {
+      "year": 2016,
+      "craftMean": 0.0411,
+      "aiPrevalence": 0.0059,
+      "nCompanies": 17
+    },
+    {
+      "year": 2017,
+      "craftMean": 0.0364,
+      "aiPrevalence": 0.0103,
+      "nCompanies": 18
+    },
+    {
+      "year": 2018,
+      "craftMean": 0.0325,
+      "aiPrevalence": 0.0108,
+      "nCompanies": 18
+    },
+    {
       "year": 2019,
-      "craftMean": 0.0153,
-      "aiPrevalence": 0.0165,
-      "nCompanies": 16
+      "craftMean": 0.039,
+      "aiPrevalence": 0.0158,
+      "nCompanies": 19
     },
     {
       "year": 2020,
-      "craftMean": 0.0374,
-      "aiPrevalence": 0.0393,
-      "nCompanies": 16
+      "craftMean": 0.0453,
+      "aiPrevalence": 0.0398,
+      "nCompanies": 19
     },
     {
       "year": 2021,
-      "craftMean": 0.0227,
-      "aiPrevalence": 0.0287,
-      "nCompanies": 15
+      "craftMean": 0.0548,
+      "aiPrevalence": 0.0271,
+      "nCompanies": 18
     },
     {
       "year": 2022,
-      "craftMean": 0.0383,
-      "aiPrevalence": 0.0244,
-      "nCompanies": 16
+      "craftMean": 0.0568,
+      "aiPrevalence": 0.0243,
+      "nCompanies": 18
     },
     {
       "year": 2023,
-      "craftMean": 0.0344,
-      "aiPrevalence": 0.0173,
-      "nCompanies": 15
+      "craftMean": 0.0602,
+      "aiPrevalence": 0.0188,
+      "nCompanies": 18
     },
     {
       "year": 2024,
-      "craftMean": 0.0281,
-      "aiPrevalence": 0.0374,
-      "nCompanies": 16
+      "craftMean": 0.052,
+      "aiPrevalence": 0.0341,
+      "nCompanies": 20
     },
     {
       "year": 2025,
-      "craftMean": 0.0315,
-      "aiPrevalence": 0.1454,
-      "nCompanies": 16
+      "craftMean": 0.055,
+      "aiPrevalence": 0.1412,
+      "nCompanies": 19
     },
     {
       "year": 2026,
-      "craftMean": 0.0429,
-      "aiPrevalence": 0.1443,
-      "nCompanies": 14
+      "craftMean": 0.0525,
+      "aiPrevalence": 0.1326,
+      "nCompanies": 17
     }
   ]
 }

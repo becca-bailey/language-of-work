@@ -1,0 +1,36 @@
+{
+  "company": "engine",
+  "displayName": "Engine",
+  "headline": "Engine values excellence, ownership, and mission-driven work—increasingly emphasizing speed and intensity over wellbeing.",
+  "identity": "Engine has consistently valued craft, performance, and a meritocratic culture built on high standards and customer obsession. These pillars have only strengthened: craft language rose from near-zero in 2014 to a zscore of 1.33 by 2026; performance and meritocracy both climbed steadily from 2014 onward. However, wellbeing—which spiked in 2026 (zscore 2.26)—remains secondary to the company's core messaging. More notably, the careers copy has shifted from emphasizing altruism and belonging (which peaked around 2022–2023) toward techno-optimism and intensity: techno-optimism nearly doubled from 2024 to 2026 (zscore 1.83), while inclusion language, though present, has plateaued since 2024.",
+  "fit": "You might be a good fit if you are driven by speed, high standards, and ownership—someone who thrives on intensity and wants to 'move fast without cutting corners' (2025). The company explicitly warns it is 'not for everyone,' seeking people 'energized by our culture' with 'diverse experiences and backgrounds' (2022–2024). You should be comfortable in a mission-focused environment where 'excellence is standard' and 'underperformance is addressed quickly and respectfully' (2026).",
+  "sections": [
+    {
+      "heading": "The Rise of Craft and Performance Standards",
+      "body": "Engine's language around craft and excellence has grown dramatically. In 2014–2017, craft messaging was nearly absent (zscore around −1.3 to −1.7). By 2021, it shifted positive (zscore 0.47), and by 2026 it reached 1.33—among the highest in the dataset. The core refrain evolved from generic 'customer first' (2016–2017) to specific, repeated phrases: 'Anyone can make something complex, but it takes ingenuity and discipline to make something simple' (2021 onward); 'excellence is standard' (2024–2026); and 'we do not just set high standards; we insist on them' (2024–2026). Performance language followed a similar arc, rising from −2.83 (2014) to 0.92 (2026). By 2025–2026, the copy emphasized 'speed, intensity, and impact' and 'sustained intensity on work that is necessary,' signaling a shift toward a high-pressure, results-driven culture.\n\nMeritocracy has been consistent and strong since 2019 (zscore 0.1+), with language emphasizing 'talent density,' 'the right people,' and 'diverse talents and backgrounds' (2022–2024). However, the framing has hardened: early language focused on 'finding and nurturing the best and brightest' (2021); by 2026, it emphasized 'every seat must be earned' and 'underperformance is addressed quickly and respectfully'—a more transactional tone."
+    },
+    {
+      "heading": "Techno-Optimism and Mission Intensity Surge; Wellbeing Becomes Reactive",
+      "body": "Techno-optimism was nearly absent through 2023 (zscore around −0.13 to 0.09). It then spiked sharply: 1.29 in 2024, 0.98 in 2025, and 1.83 in 2026. The language shifted from functional ('innovative customer-centric technology,' 2019–2021) to grandiose: 'The energy at Engine is electric' (2024–2025); 'we're redefining how the world travels' (2025); 'speed of light execution' and 'we measure against the absolute limit of what is possible' (2026). This mirrors a broader shift toward mission-first framing: altruism language rose from −1.61 (2016) to 0.73 (2024) and 1.05 (2026), with repeated emphasis on 'something that matters' and 'building the future of travel tech.'\n\nWellbeing, by contrast, remained low or negative through 2023 (zscore −0.67 to 0.76), then spiked to 2.26 in 2026—the highest in the dataset. However, this spike appears reactive rather than proactive. The 2026 language explicitly addresses 'external events' and 'personal distress,' offering 'flexibility, designated volunteer hours and unlimited PTO' to help employees 'handle life's challenges so they can return to work ready to perform at their best.' This frames wellbeing as instrumental to performance, not intrinsic. The copy also notes 'we recognize that external events have real-world impacts on our employees' lives' and supports 'passionate activists and community leaders outside of their work'—language that reads as a response to social and political polarization, not a core cultural value."
+    },
+    {
+      "heading": "Inclusion and Belonging: Aspirational Language Without Structural Depth",
+      "body": "Inclusion language has been present since 2016 (zscore −0.33) and grew steadily, peaking at 1.08 in 2024 before settling at 0.82 in 2026. However, the substance has remained thin. From 2022 onward, the company used phrases like 'diverse experiences and backgrounds' and 'we're focused on finding the right people who are energized by our culture' (2022–2024)—what the data labels 'aspirational_vague' register. By 2026, the language shifted slightly toward 'mission_focus_apolitical,' with statements like 'we maintain a neutral corporate stance' and 'we ensure that Engine remains a place where people of all backgrounds and beliefs can work together toward a shared objective without the friction of discourse.' This suggests a deliberate choice to deprioritize identity-based belonging in favor of mission alignment. DEI language (explicit demographic or structural process language) has never appeared in the data; the company has consistently avoided naming specific groups or structural commitments."
+    }
+  ],
+  "model": "claude-haiku-4-5-20251001",
+  "promptVersion": 3,
+  "facetsUsed": [
+    "ai",
+    "altruism",
+    "craft",
+    "dei",
+    "inclusion",
+    "meritocracy",
+    "performance",
+    "techno_optimism",
+    "wellbeing",
+    "wellbeing_locus"
+  ],
+  "generatedAt": "2026-07-23"
+}

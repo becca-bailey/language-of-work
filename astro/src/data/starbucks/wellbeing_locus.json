@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2001,
-      "zscore": 0.1193,
+      "zscore": -0.5441,
       "rawTopkMean": 0.0826,
       "nChunks": 70,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2005,
-      "zscore": 0.0083,
+      "zscore": -0.6858,
       "rawTopkMean": 0.0781,
       "nChunks": 26,
       "kUsed": 5,
@@ -77,7 +77,7 @@
     },
     {
       "year": 2006,
-      "zscore": 0.8334,
+      "zscore": 0.3671,
       "rawTopkMean": 0.1114,
       "nChunks": 41,
       "kUsed": 5,
@@ -113,7 +113,7 @@
     },
     {
       "year": 2007,
-      "zscore": -0.0838,
+      "zscore": -0.8033,
       "rawTopkMean": 0.0744,
       "nChunks": 35,
       "kUsed": 5,
@@ -149,7 +149,7 @@
     },
     {
       "year": 2008,
-      "zscore": -1.3472,
+      "zscore": -2.4157,
       "rawTopkMean": 0.0234,
       "nChunks": 15,
       "kUsed": 5,
@@ -185,9 +185,9 @@
     },
     {
       "year": 2010,
-      "zscore": 0.9337,
+      "zscore": 0.4951,
       "rawTopkMean": 0.1155,
-      "nChunks": 79,
+      "nChunks": 91,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -221,45 +221,45 @@
     },
     {
       "year": 2011,
-      "zscore": -1.4879,
-      "rawTopkMean": 0.0177,
-      "nChunks": 15,
+      "zscore": -0.6633,
+      "rawTopkMean": 0.0788,
+      "nChunks": 47,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Coffee Farmer Support Tea Cocoa Store Products Our dedication to wellness means supporting policies and efforts to improve the health of our communities in addition to offering balanced food and beverage options to our customers.",
+          "heading": "We've always believed that businesses can - and should - have a positive impact on the communities they serve.",
+          "score": 0.1162
+        },
+        {
+          "text": "Ashoka Youth Ventures enables young people to solve problems in their own communities.",
+          "heading": "Our Relationships",
+          "score": 0.0702
+        },
         {
           "text": "For an enhanced experience install flash",
           "heading": "Being a Responsible Company",
           "score": 0.0701
         },
         {
-          "text": "See what we accomplished last year and what we hope to do going forward.",
-          "heading": "Being a Responsible Company",
-          "score": 0.0332
+          "text": "Every Product (RED)&trade; item purchased helps people living with HIV in Africa.",
+          "heading": "Our Relationships",
+          "score": 0.0691
         },
         {
-          "text": "We want to be known for our values as much as we are for our coffee.",
-          "heading": "Being a Responsible Company",
-          "score": -0.0009
-        },
-        {
-          "text": "We’re dedicated to serving ethically sourced coffee, caring for the environment and giving back to the communities where we do business.",
-          "heading": "What’s it like to work at Starbucks?",
-          "score": -0.0051
-        },
-        {
-          "text": "For the fourth year in a row, Ethisphere Magazine has named Starbucks to the list .",
-          "heading": "World’s Most Ethical Companies",
-          "score": -0.0087
+          "text": "You save 10¢ and another paper cup every time.",
+          "heading": "How You Can Help",
+          "score": 0.0686
         }
       ]
     },
     {
       "year": 2012,
-      "zscore": 0.4427,
+      "zscore": -0.1315,
       "rawTopkMean": 0.0957,
-      "nChunks": 51,
+      "nChunks": 52,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -293,9 +293,9 @@
     },
     {
       "year": 2013,
-      "zscore": 0.3394,
+      "zscore": -0.2632,
       "rawTopkMean": 0.0915,
-      "nChunks": 76,
+      "nChunks": 88,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -329,9 +329,9 @@
     },
     {
       "year": 2014,
-      "zscore": 1.0337,
+      "zscore": 0.6228,
       "rawTopkMean": 0.1195,
-      "nChunks": 44,
+      "nChunks": 76,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -365,9 +365,9 @@
     },
     {
       "year": 2015,
-      "zscore": 2.143,
-      "rawTopkMean": 0.1643,
-      "nChunks": 213,
+      "zscore": 2.0972,
+      "rawTopkMean": 0.1661,
+      "nChunks": 240,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -393,17 +393,17 @@
           "score": 0.1267
         },
         {
-          "text": "Their health and prosperity are important to us, and we have an opportunity to help them thrive, and to use our size for good.",
-          "heading": "Buy (STARBUCKS)RED. Help save lives.",
-          "score": 0.1124
+          "text": "Join us in our journey to inspire and nurture the human spirit.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": 0.1217
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": -0.3273,
-      "rawTopkMean": 0.0646,
-      "nChunks": 39,
+      "zscore": -0.9717,
+      "rawTopkMean": 0.0691,
+      "nChunks": 42,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -412,6 +412,11 @@
           "text": "Join us in our journey to inspire and nurture the human spirit.",
           "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
           "score": 0.1217
+        },
+        {
+          "text": "\"Together, we are on a journey.",
+          "heading": "A Special Message from Howard Schultz",
+          "score": 0.0673
         },
         {
           "text": "Create Opportunities We are committed to investing in paths to opportunity through education, training and employment.",
@@ -427,55 +432,50 @@
           "text": "Source Ethically & Sustainably We are committed to offering high-quality, ethically purchased and responsibly produced products.",
           "heading": "We have always believed Starbucks can – and should — have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
           "score": 0.0461
-        },
-        {
-          "text": "Sign up to receive occasional email updates on our global responsibility and leadership initiatives.",
-          "heading": "We have always believed Starbucks can – and should — have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "score": 0.0447
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.041,
-      "rawTopkMean": 0.0794,
-      "nChunks": 16,
+      "zscore": 1.3503,
+      "rawTopkMean": 0.1425,
+      "nChunks": 43,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "It’s the opportunity to become your personal best.",
+          "heading": "To Be A Partner",
+          "score": 0.2378
+        },
+        {
+          "text": "Gigantic possibilities lie ahead—to grow as a person, in your career and in your community.",
+          "heading": "To Be A Partner",
+          "score": 0.1324
+        },
+        {
+          "text": "Join us in our journey to inspire and nurture the human spirit.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": 0.1217
+        },
+        {
+          "text": "Their health and prosperity are important to us, and we have an opportunity to help them thrive, and to use our size for good.",
+          "heading": "Buy (STARBUCKS)RED. Help save lives.",
+          "score": 0.1124
+        },
+        {
           "text": "The group equips young HIV-positive people with the tools necessary to live happy, healthy and productive lives.",
           "heading": "Story of Impact",
           "score": 0.1083
-        },
-        {
-          "text": "To learn more about (RED) and join the conversation, visit red.org .",
-          "heading": "Story of Impact",
-          "score": 0.0885
-        },
-        {
-          "text": "Thanks to their friendship and the encouragement of others in their support group, Fabiola and Josephine’s lives have been transformed from being homeless, jobless, and extremely sick, to living under proper care, pursuing an education, and adhering a treatment regimen that provides them the health and confidence needed to embrace their bright future.",
-          "heading": "Story of Impact",
-          "score": 0.0803
-        },
-        {
-          "text": "To learn more about the Global Fund, visit www.theglobalfund.org .",
-          "heading": "Story of Impact",
-          "score": 0.0628
-        },
-        {
-          "text": "Create Opportunities We are committed to investing in paths to opportunity through education, training and employment.",
-          "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "score": 0.0573
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": 1.5485,
-      "rawTopkMean": 0.1403,
-      "nChunks": 89,
+      "zscore": 1.4421,
+      "rawTopkMean": 0.1454,
+      "nChunks": 105,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -496,102 +496,112 @@
           "score": 0.1217
         },
         {
-          "text": "At the end of its life, *if polypropylene (#5) plastic recycling is available in your region, you can recycle this cup and help minimize your impact on the planet even more.",
-          "heading": "What We’re Doing Now",
-          "score": 0.1024
+          "text": "Their health and prosperity are important to us, and we have an opportunity to help them thrive, and to use our size for good.",
+          "heading": "Buy (STARBUCKS)RED. Help save lives.",
+          "score": 0.1124
         },
         {
-          "text": "It’s a quality, low-cost option to enjoy your favorite Starbucks beverage.",
-          "heading": "What We’re Doing Now",
-          "score": 0.0926
+          "text": "The group equips young HIV-positive people with the tools necessary to live happy, healthy and productive lives.",
+          "heading": "Story of Impact",
+          "score": 0.1083
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": -0.8137,
-      "rawTopkMean": 0.0449,
-      "nChunks": 8,
+      "zscore": 0.9665,
+      "rawTopkMean": 0.1304,
+      "nChunks": 69,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "As a partner (employee) who is curious, collaborative and a continuous learner, you’ll have limitless opportunities to make an impact and thrive, all while becoming your personal best and being recognized for it.",
-          "heading": "Training and development",
-          "score": 0.0795
+          "text": "It’s an opportunity to be your personal best.",
+          "heading": "Connect with something bigger",
+          "score": 0.221
         },
         {
-          "text": "Being present, connecting with transparency, dignity and respect.",
-          "heading": "Expect more than coffee.",
-          "score": 0.0697
+          "text": "Join us in our journey to inspire and nurture the human spirit.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": 0.1217
         },
         {
-          "text": "Our people are one of our most valuable assets and we provide learning opportunities to develop skills, further careers and help partners achieve their personal and professional goals.",
-          "heading": "Training and development",
-          "score": 0.0295
+          "text": "Their health and prosperity are important to us, and we have an opportunity to help them thrive, and to use our size for good.",
+          "heading": "Buy (STARBUCKS)RED. Help save lives.",
+          "score": 0.1124
         },
         {
-          "text": "We reward partners who achieve results, live our mission and values and help others succeed.",
-          "heading": "Training and development",
-          "score": 0.026
+          "text": "The group equips young HIV-positive people with the tools necessary to live happy, healthy and productive lives.",
+          "heading": "Story of Impact",
+          "score": 0.1083
         },
         {
-          "text": "At Starbucks, we are devoted to supporting, engaging and investing in the development of our partners.",
-          "heading": "Training and development",
-          "score": 0.02
+          "text": "To learn more about (RED) and join the conversation, visit red.org .",
+          "heading": "Story of Impact",
+          "score": 0.0885
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -1.9015,
-      "rawTopkMean": 0.001,
-      "nChunks": 7,
+      "zscore": -0.1963,
+      "rawTopkMean": 0.0936,
+      "nChunks": 48,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "It’s an opportunity to be your personal best.",
+          "heading": "Connect with something bigger",
+          "score": 0.221
+        },
+        {
+          "text": "Join us in our journey to inspire and nurture the human spirit.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": 0.1217
+        },
+        {
+          "text": "We started in 1997 by funding literacy programs in the United States and Canada.",
+          "heading": "The Starbucks Foundation was created as part of our commitment to strengthen communities.",
+          "score": 0.0478
+        },
+        {
+          "text": "Projects include improving access to education and agricultural training, microfinance and microcredit services, improving biodiversity conservation, and increasing levels of health, nutrition and water sanitation.",
+          "heading": "Supporting Coffee, Tea and Cocoa Communities",
+          "score": 0.0398
+        },
+        {
           "text": "They range from global ethical business standards to our own guidelines for doing business.",
           "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
           "score": 0.0378
-        },
-        {
-          "text": "That’s why we believe we have a responsibility to advocate both internal and public policies that support the health of our business, our partners (employees) and the communities we serve.",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": 0.0193
-        },
-        {
-          "text": "Standards of Business Conduct (online) or PDF – our commitment to ethical business practices Corporate Political Contributions and Expenditures – how we engage policymakers on issues that impact our business, our people and our communities 2018 Results 2017 Results 2016 Results 2015 Results 2014 Results 2013 Results 2012 Results 2011 Results 2010 Results UN Global Compact – supporting internationa",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.0069
-        },
-        {
-          "text": "We’re creating more eco-conscious stores on a global scale from the design stage right through to construction and operations.",
-          "heading": "LEED® Certified Stores",
-          "score": -0.022
-        },
-        {
-          "text": "Animal Welfare – our preference for animal welfare-friendly practices and ingredients Deforestation – our commitment to pursuing zero net deforestation across our supply chain Sustainable Palm Oil – our commitment to using 100% RSPO certified palm oil in our company-operated stores California Transparency in Supply Chains Act – our zero tolerance policy for the use of forced labor and human traffi",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.023
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": -0.7958,
-      "rawTopkMean": 0.0457,
-      "nChunks": 33,
+      "zscore": -0.3142,
+      "rawTopkMean": 0.0899,
+      "nChunks": 45,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "It’s an opportunity to be your personal best.",
+          "heading": "Connect with something bigger",
+          "score": 0.221
+        },
+        {
           "text": "We’re investing in the well-being of those we connect with, working hard toward a better future.",
           "heading": "<strong>PUTTING PEOPLE FIRST</strong>",
           "score": 0.0696
+        },
+        {
+          "text": "Create Opportunities We are committed to investing in paths to opportunity through education, training and employment.",
+          "heading": "What is the role and responsibility of a for-profit, public company? We have always believed Starbucks can – and should – have a positive social impact on the communities we serve. One person, one cup and one neighborhood at a time.",
+          "score": 0.0573
         },
         {
           "text": "But as a coffee lover, it affects you directly because it’s the key to ensuring the future of quality coffee.",
@@ -599,31 +609,26 @@
           "score": 0.0554
         },
         {
-          "text": "And we’re investing in their communities to help improve lives and livelihoods of farmers and their communities.",
-          "heading": "From the neighborhoods where our stores are located to those where our coffee is grown, we are committed to creating and investing in opportunities for people around the world.",
-          "score": 0.044
-        },
-        {
-          "text": "(Starbucks) RED Through our long-time relationship with (RED), Starbucks is investing in the health and prosperity of our global communities.",
-          "heading": "From the neighborhoods where our stores are located to those where our coffee is grown, we are committed to creating and investing in opportunities for people around the world.",
-          "score": 0.0337
-        },
-        {
-          "text": "Community Stores Our stores, our partners and our relationships with local nonprofit organizations, are helping create new pathways to opportunity for young people in communities around the world.",
-          "heading": "From the neighborhoods where our stores are located to those where our coffee is grown, we are committed to creating and investing in opportunities for people around the world.",
-          "score": 0.0256
+          "text": "Source Ethically & Sustainably We are committed to offering high-quality, ethically purchased and responsibly produced products.",
+          "heading": "What is the role and responsibility of a for-profit, public company? We have always believed Starbucks can – and should – have a positive social impact on the communities we serve. One person, one cup and one neighborhood at a time.",
+          "score": 0.0461
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 0.6453,
-      "rawTopkMean": 0.1038,
-      "nChunks": 166,
+      "zscore": 0.9482,
+      "rawTopkMean": 0.1298,
+      "nChunks": 171,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "It’s an opportunity to be your personal best.",
+          "heading": "Join us. Inspire with every cup.",
+          "score": 0.221
+        },
         {
           "text": "No matter your identity, no matter your background, we’re better together. <strong><a href=\"https://www.starbucksglobalacademy.com/explore?prod_SGA%5BrefinementList%5D%5Btype%5D%5B0%5D=To%20Be%20Welcoming\">Learn</a> • <a href=\"https://www.thetrevorproject.org/wp-content/uploads/2019/10/Coming-Out-Handbook.pdf\">Support</a> • </strong><a href=\"https://www.hrc.org/resources/allies\"><strong>Be an Ally",
           "heading": "Starbucks Celebrates Pride Month",
@@ -643,23 +648,23 @@
           "text": "Bringing to life what we believe, the way we see the world and what inspires us.",
           "heading": "",
           "score": 0.0983
-        },
-        {
-          "text": "<p>This Juneteenth, join us in deepening our understanding of the history of this important holiday that commemorates the end of slavery in the United States. </p>",
-          "heading": "",
-          "score": 0.0911
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": 0.02,
-      "rawTopkMean": 0.0786,
-      "nChunks": 196,
+      "zscore": -0.4471,
+      "rawTopkMean": 0.0857,
+      "nChunks": 221,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Bringing to life what we believe, the way we see the world and what inspires us.",
+          "heading": "",
+          "score": 0.0983
+        },
         {
           "text": "You can’t see it, but you feel it,” said one partner.</p> <p>“I’m very touched, moved, and inspired by this conversation,” said a new partner, fighting back tears. “This is the forum to say I may not agree with you.",
           "heading": "",
@@ -671,31 +676,31 @@
           "score": 0.0855
         },
         {
+          "text": "Learn more about our commitments to the planet and our progress on our Environmental and Social Impact Reporting Hub.",
+          "heading": "<strong>PROGRESS TOWARD OUR COMMITMENTS</strong>",
+          "score": 0.0791
+        },
+        {
           "text": "Investing in their curiosity and development enables us to deliver today and build tomorrow.",
           "heading": "Investing in people",
           "score": 0.0738
-        },
-        {
-          "text": "You may not agree or understand me, but I have value, you have value, your perspective matters and we will hash this out in a safe space.”</p> <p>Schultz intends to continue the conversations across the country through a series of partner-only forums beginning in January.",
-          "heading": "",
-          "score": 0.0722
-        },
-        {
-          "text": "Being present, connecting with transparency, dignity and respect.",
-          "heading": "Expect more than coffee.",
-          "score": 0.0697
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 0.0843,
-      "rawTopkMean": 0.0812,
-      "nChunks": 92,
+      "zscore": 0.4846,
+      "rawTopkMean": 0.1151,
+      "nChunks": 116,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "It’s an opportunity to be your personal best.",
+          "heading": "Join us. Inspire with every cup.",
+          "score": 0.221
+        },
         {
           "text": "Come on in, grab a coffee and have a look around.",
           "heading": "Working at Starbucks",
@@ -715,19 +720,14 @@
           "text": "We hope to meet you soon.",
           "heading": "Working at Starbucks",
           "score": 0.0736
-        },
-        {
-          "text": "To share in the experience, please visit our stores or online at Starbucks.com and news.starbucks.com .",
-          "heading": "About Starbucks",
-          "score": 0.0512
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 0.16,
-      "rawTopkMean": 0.0842,
-      "nChunks": 32,
+      "zscore": 0.0069,
+      "rawTopkMean": 0.1,
+      "nChunks": 60,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -736,6 +736,11 @@
           "text": "Every coffee we roast is as unique as you are",
           "heading": "Search jobs & Apply now",
           "score": 0.1306
+        },
+        {
+          "text": "Come on in, grab a coffee and have a look around.",
+          "heading": "Working at Starbucks",
+          "score": 0.1146
         },
         {
           "text": "If you don’t see the milk or sweetener you prefer, don’t hesitate to ask a barista.",
@@ -748,26 +753,31 @@
           "score": 0.081
         },
         {
-          "text": "To share in the experience, please visit us in our stores or online at stories.starbucks.com or www.starbucks.com .",
-          "heading": "Highlights of partner investments include:",
-          "score": 0.0661
-        },
-        {
-          "text": "Also on January 27, you can now add the finishing touches to your beverage with the return of creamer and milk, along with a variety of sweeteners to the condiment bar.",
-          "heading": "The condiment bar is back",
-          "score": 0.0457
+          "text": "Follow the latest ways we’re supporting and strengthening the people around us.",
+          "heading": "<strong>SEE WHAT’S NEXT</strong>",
+          "score": 0.0761
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": -1.5951,
-      "rawTopkMean": 0.0134,
-      "nChunks": 6,
+      "zscore": -1.3446,
+      "rawTopkMean": 0.0573,
+      "nChunks": 26,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Come on in, grab a coffee and have a look around.",
+          "heading": "Working at Starbucks",
+          "score": 0.1146
+        },
+        {
+          "text": "We hope to meet you soon.",
+          "heading": "Working at Starbucks",
+          "score": 0.0736
+        },
         {
           "text": "Whether it’s arabica coffee, tea, cocoa or manufactured goods, we’re committed to offering ethically purchased and responsibly produced sustainable products of the highest quality.",
           "heading": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
@@ -779,19 +789,9 @@
           "score": 0.0274
         },
         {
-          "text": "International opportunities help us deliver our mission and values all over the world.",
-          "heading": "A Truly Global Company",
-          "score": 0.0057
-        },
-        {
-          "text": "No two countries are the same—we encourage our people to allow the flavor and design of the region shine through.",
-          "heading": "A Truly Global Company",
-          "score": -0.0023
-        },
-        {
-          "text": "Starbucks ethical sourcing makes it possible to provide quality sustainable products like arabica coffee and help our community thrive.",
-          "heading": "",
-          "score": -0.0102
+          "text": "Our Starbucks mission says it all: To be the premier purveyor of the finest coffee in the world, inspiring and nurturing the human spirit — one person, one cup and one neighborhood at a time.",
+          "heading": "Culture of Connection",
+          "score": 0.0245
         }
       ]
     }

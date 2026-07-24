@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2004,
-      "zscore": 0.8475,
+      "zscore": 0.7343,
       "rawTopkMean": 0.0326,
       "nChunks": 16,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2006,
-      "zscore": 0.8654,
+      "zscore": 0.7501,
       "rawTopkMean": 0.0332,
       "nChunks": 41,
       "kUsed": 5,
@@ -77,9 +77,9 @@
     },
     {
       "year": 2007,
-      "zscore": 0.2057,
-      "rawTopkMean": 0.01,
-      "nChunks": 31,
+      "zscore": 0.5593,
+      "rawTopkMean": 0.0256,
+      "nChunks": 45,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -90,8 +90,39 @@
           "score": 0.077
         },
         {
+          "text": "See a typical day in the life of a salesforce.com Account Executive.",
+          "heading": "",
+          "score": 0.0469
+        },
+        {
           "text": "See a typical day in the life of a salesforce.com account executive.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.0452
+        },
+        {
+          "text": "They are entrepreneurial, competitive, independent, and results-oriented.",
+          "heading": "",
+          "score": -0.0197
+        },
+        {
+          "text": "It means being surrounded by peers and leaders who consistently motivate and inspire you.",
           "heading": "Join the Revolution: Work with a Company That's Changing the World",
+          "score": -0.0215
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "zscore": -0.5827,
+      "rawTopkMean": -0.0201,
+      "nChunks": 17,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "See a typical day in the life of a salesforce.com account executive.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
           "score": 0.0452
         },
         {
@@ -100,20 +131,97 @@
           "score": -0.0197
         },
         {
-          "text": "It means being surrounded by peers and leaders who consistently motivate and inspire you.",
-          "heading": "Join the Revolution: Work with a Company That's Changing the World",
-          "score": -0.0215
+          "text": "The company puts its money—and its time—where its mouth is.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": -0.041
         },
         {
-          "text": "Explore our careers page to learn more about our company story, culture, values , benefits, and global locations.",
+          "text": "Salesforce.com is an employer like no other.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": -0.0414
+        },
+        {
+          "text": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": -0.0435
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "zscore": -1.0624,
+      "rawTopkMean": -0.0393,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "They are entrepreneurial, competitive, independent, and results-oriented.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": -0.0197
+        },
+        {
+          "text": "The company puts its money—and its time—where its mouth is.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": -0.041
+        },
+        {
+          "text": "Salesforce.com is an employer like no other.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": -0.0414
+        },
+        {
+          "text": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": -0.0435
+        },
+        {
+          "text": "The Hawaiian aloha evokes a spirit of cooperation and open communications and serves as a reminder to all employees of the importance of work/life balance.",
           "heading": "Join the Revolution: Work with a Company That's Changing the World",
-          "score": -0.0309
+          "score": -0.0507
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "zscore": -1.0624,
+      "rawTopkMean": -0.0393,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "They are entrepreneurial, competitive, independent, and results-oriented.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": -0.0197
+        },
+        {
+          "text": "The company puts its money—and its time—where its mouth is.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": -0.041
+        },
+        {
+          "text": "Salesforce.com is an employer like no other.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": -0.0414
+        },
+        {
+          "text": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": -0.0435
+        },
+        {
+          "text": "The Hawaiian aloha evokes a spirit of cooperation and open communications and serves as a reminder to all employees of the importance of work/life balance.",
+          "heading": "Join the Revolution: Work with a Company That's Changing the World",
+          "score": -0.0507
         }
       ]
     },
     {
       "year": 2011,
-      "zscore": -0.5426,
+      "zscore": -0.4877,
       "rawTopkMean": -0.0163,
       "nChunks": 7,
       "kUsed": 5,
@@ -149,7 +257,7 @@
     },
     {
       "year": 2012,
-      "zscore": -0.0513,
+      "zscore": -0.0558,
       "rawTopkMean": 0.001,
       "nChunks": 22,
       "kUsed": 5,
@@ -185,7 +293,7 @@
     },
     {
       "year": 2013,
-      "zscore": -0.6025,
+      "zscore": -0.5403,
       "rawTopkMean": -0.0184,
       "nChunks": 8,
       "kUsed": 5,
@@ -221,9 +329,9 @@
     },
     {
       "year": 2014,
-      "zscore": -0.5623,
+      "zscore": -0.5049,
       "rawTopkMean": -0.017,
-      "nChunks": 28,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -257,9 +365,9 @@
     },
     {
       "year": 2015,
-      "zscore": 0.6915,
-      "rawTopkMean": 0.0271,
-      "nChunks": 30,
+      "zscore": 0.6847,
+      "rawTopkMean": 0.0306,
+      "nChunks": 54,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -285,17 +393,17 @@
           "score": 0.0032
         },
         {
-          "text": "Members focus on helping vets transition to civilian life, supporting families of deployed service members, and working to impact the lives of 10,000 veterans by helping them gain Salesforce training, certification and related employment.",
-          "heading": "VetForce",
-          "score": -0.0239
+          "text": "Got a heritage or passion that you don’t see represented here?",
+          "heading": "Create Your Own ERG",
+          "score": -0.0064
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": 0.4562,
+      "zscore": 0.3904,
       "rawTopkMean": 0.0188,
-      "nChunks": 44,
+      "nChunks": 65,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -329,9 +437,9 @@
     },
     {
       "year": 2017,
-      "zscore": 0.9455,
-      "rawTopkMean": 0.036,
-      "nChunks": 91,
+      "zscore": 0.8543,
+      "rawTopkMean": 0.0374,
+      "nChunks": 133,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -352,22 +460,58 @@
           "score": 0.0396
         },
         {
+          "text": "Meet some of our amazing team members and pick up a few great life lessons from our Woman of the Month blog series .",
+          "heading": "Femmeforce",
+          "score": 0.0322
+        },
+        {
           "text": "In Hawaiian culture, “Ohana” means family; it's the tie that binds people together.",
           "heading": "Welcome to our Ohana.",
           "score": 0.0271
-        },
-        {
-          "text": "We always communicate openly and honestly.",
-          "heading": "Transparency",
-          "score": 0.0254
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": -1.036,
-      "rawTopkMean": -0.0336,
-      "nChunks": 15,
+      "zscore": 0.4055,
+      "rawTopkMean": 0.0194,
+      "nChunks": 67,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Providing interactive learning that allows anyone to become Salesforce certified with free, self-paced training",
+          "heading": "Trailhead",
+          "score": 0.0426
+        },
+        {
+          "text": "We always communicate openly and honestly.",
+          "heading": "Transparency",
+          "score": 0.0254
+        },
+        {
+          "text": "Connecting service members, veterans, and their spouses to free training, classes, and career opportunities through Vetforce",
+          "heading": "Military Veterans",
+          "score": 0.0247
+        },
+        {
+          "text": "Nothing is more important than the security and success of every member of our Ohana.",
+          "heading": "Trust",
+          "score": 0.0037
+        },
+        {
+          "text": "The trail to Equality for all starts with transparency, education, inclusive dialogue, quick action, community building, and an unbreakable commitment to making the world a better place.",
+          "heading": "We focus on four core Equality pillars.",
+          "score": 0.0006
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "zscore": -0.6328,
+      "rawTopkMean": -0.0221,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -378,63 +522,32 @@
           "score": 0.0006
         },
         {
+          "text": "My dream would be a call to action for business leaders, to show that business can be a great platform for change.",
+          "heading": "Our Commitment to Workforce Development",
+          "score": -0.0151
+        },
+        {
+          "text": "Business and government together can create world-class educational and apprenticeship programs to invest in the future of our workforce.”",
+          "heading": "Our Commitment to Workforce Development",
+          "score": -0.0299
+        },
+        {
           "text": "Creating a culture of Equality isn’t just the right thing to do, it’s also the smart thing.",
           "heading": "Together, we can reach Equality for all.",
           "score": -0.0313
         },
         {
-          "text": "This value is embodied in our Ohana Groups.",
-          "heading": "We are building a more inclusive Salesforce with our Ohana Groups and their allies.",
-          "score": -0.0438
-        },
-        {
-          "text": "At Salesforce, our culture is built around the Hawaiian concept of Ohana, which means family.",
-          "heading": "We are building a more inclusive Salesforce with our Ohana Groups and their allies.",
-          "score": -0.0452
-        },
-        {
-          "text": "Ohana is the deep-seated support system we nurture inside our company that extends from our employees to our customers, our partners, and our communities.",
-          "heading": "We are building a more inclusive Salesforce with our Ohana Groups and their allies.",
-          "score": -0.0484
-        }
-      ]
-    },
-    {
-      "year": 2019,
-      "zscore": -1.6958,
-      "rawTopkMean": -0.0568,
-      "nChunks": 4,
-      "kUsed": 4,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
           "text": "Populations of underrepresented minorities and women have increased and outpaced the rapid growth of Salesforce of new college graduate hires in the U.S. were women or from underrepresented minorities, up 4% from last year 1 in 2 employees is in one or more Employee Resource Groups of new hires were women, up 2% from last year",
           "heading": ">",
           "score": -0.0348
-        },
-        {
-          "text": "“The Salesforce team has become part of the (RED) family.”",
-          "heading": "(RED)",
-          "score": -0.0586
-        },
-        {
-          "text": "“ Inequality, in all its forms — gender, LGBTQ, racial, disability, or otherwise — is an issue that every company must address for their own benefit and to create a better world.",
-          "heading": "We are committed to Equality for all.",
-          "score": -0.0595
-        },
-        {
-          "text": "We believe businesses need to focus on closing the Equality gap with the same energy put into creating new products and markets.”",
-          "heading": "We are committed to Equality for all.",
-          "score": -0.0744
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -0.0233,
+      "zscore": -0.0312,
       "rawTopkMean": 0.002,
-      "nChunks": 30,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -467,8 +580,44 @@
       ]
     },
     {
+      "year": 2021,
+      "zscore": -1.7397,
+      "rawTopkMean": -0.0663,
+      "nChunks": 6,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Creating a culture of Equality isn’t just the right thing to do; it’s also the smart thing.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": -0.0292
+        },
+        {
+          "text": "Equality is a core value at Salesforce.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": -0.0582
+        },
+        {
+          "text": "Clearly, there is more work to be done, but together we can build a more equal workplace and world for all.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": -0.0685
+        },
+        {
+          "text": "We believe that businesses can be powerful platforms for social change and that it is our responsibility to further Equality for All.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": -0.0747
+        },
+        {
+          "text": "It empowers us to innovate, build deeper connections with our customers, and ultimately become a better company.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": -0.1011
+        }
+      ]
+    },
+    {
       "year": 2022,
-      "zscore": -1.7151,
+      "zscore": -1.5183,
       "rawTopkMean": -0.0575,
       "nChunks": 8,
       "kUsed": 5,
@@ -504,9 +653,9 @@
     },
     {
       "year": 2023,
-      "zscore": -0.9079,
+      "zscore": -0.8087,
       "rawTopkMean": -0.0291,
-      "nChunks": 14,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -540,9 +689,9 @@
     },
     {
       "year": 2024,
-      "zscore": 0.3281,
-      "rawTopkMean": 0.0143,
-      "nChunks": 33,
+      "zscore": 0.3675,
+      "rawTopkMean": 0.0179,
+      "nChunks": 53,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -558,6 +707,11 @@
           "score": 0.0304
         },
         {
+          "text": "We earn their trust to become a valued partner.",
+          "heading": "When our customers succeed, we succeed.",
+          "score": 0.0174
+        },
+        {
           "text": "We address pay gaps by race and gender each year.",
           "heading": "Our Commitment to Pay Fairness",
           "score": 0.0025
@@ -566,19 +720,14 @@
           "text": "Salesforce and Catch22 received the awards for Innovation and Partnership for delivering a transformative programme that is shaping the careers of young adults from diverse backgrounds across the UK.",
           "heading": "Creating Pathways into Salesforce with Catch22",
           "score": 0.0011
-        },
-        {
-          "text": "Now, let’s meet some of your fellow Trailblazers:",
-          "heading": "We're called Trailblazers for a reason.",
-          "score": -0.0006
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 2.4472,
+      "zscore": 2.1405,
       "rawTopkMean": 0.0888,
-      "nChunks": 166,
+      "nChunks": 217,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -612,37 +761,37 @@
     },
     {
       "year": 2026,
-      "zscore": 0.3499,
-      "rawTopkMean": 0.0151,
-      "nChunks": 56,
+      "zscore": 2.1405,
+      "rawTopkMean": 0.0888,
+      "nChunks": 198,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We enable high performance through fair, objective, and consistent talent processes, regardless of identity.",
-          "heading": "Create Access to Opportunity",
-          "score": 0.0457
+          "text": "You can get started before you’re hired.",
+          "heading": "Who are the Agentblazers?",
+          "score": 0.2045
         },
         {
-          "text": "For additional details and methodology, please see the Schedules of Selected Employee Metrics on our reports and policies page.",
-          "heading": "Meet our equality groups.",
-          "score": 0.0133
+          "text": "Apply today to not only shape the future — but to redefine what’s possible — for yourself, for AI, and the world.",
+          "heading": "Unleash Your Potential",
+          "score": 0.0723
         },
         {
-          "text": "We also offer clear career pathways and opportunities for advancement, ensuring you can grow and thrive in your role and beyond.",
-          "heading": "How do employees grow their careers here?",
-          "score": 0.0089
+          "text": "You’ll make a meaningful difference in the world.",
+          "heading": "Make a real-world impact.",
+          "score": 0.0663
         },
         {
-          "text": "We value diverse backgrounds and skills, and we’re committed to providing the training and support you need to succeed, regardless of your technical experience.",
-          "heading": "Do I need to have a technical background to work at Salesforce?",
-          "score": 0.0061
+          "text": "We’ll let you in on a secret — there is no single path.",
+          "heading": "Your path to the world's #1 agent-first enterprise.",
+          "score": 0.0516
         },
         {
-          "text": "Each year, we conduct an equal pay analysis and make adjustments as needed to ensure pay fairness.",
-          "heading": "Our Commitment to Equal Pay for Equal Work",
-          "score": 0.0013
+          "text": "Now might be the perfect time to return and write your next chapter together.",
+          "heading": "You helped shape who we are. Now help shape what’s next.",
+          "score": 0.0492
         }
       ]
     }

@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2006,
-      "zscore": -0.0095,
+      "zscore": 0.074,
       "rawTopkMean": 0.1487,
       "nChunks": 13,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2007,
-      "zscore": -0.1066,
+      "zscore": -0.0317,
       "rawTopkMean": 0.1395,
       "nChunks": 14,
       "kUsed": 5,
@@ -77,9 +77,9 @@
     },
     {
       "year": 2008,
-      "zscore": 0.2034,
-      "rawTopkMean": 0.1689,
-      "nChunks": 15,
+      "zscore": 0.3331,
+      "rawTopkMean": 0.1713,
+      "nChunks": 16,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -105,15 +105,51 @@
           "score": 0.1728
         },
         {
+          "text": "FP&A MANAGER US, CA, Santa Clara TEST ENGINEER US, CA, Santa Clara",
+          "heading": "",
+          "score": 0.1375
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "zscore": -0.2102,
+      "rawTopkMean": 0.1239,
+      "nChunks": 13,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "VERIFICATION ENGINEER US, CA, Santa Clara",
+          "heading": "",
+          "score": 0.1569
+        },
+        {
+          "text": "VALIDATION ENGINEER US, CA, Santa Clara SR.",
+          "heading": "",
+          "score": 0.1419
+        },
+        {
           "text": "NVIDIA's culture promotes and inspires our team of world-class engineers and developers to be at the top of their game.",
           "heading": "",
           "score": 0.1255
+        },
+        {
+          "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world.",
+          "heading": "",
+          "score": 0.1042
+        },
+        {
+          "text": "We invite you to explore the opportunities available at NVIDIA - just click on the link to see what your future may hold.",
+          "heading": "",
+          "score": 0.0912
         }
       ]
     },
     {
       "year": 2010,
-      "zscore": 0.1027,
+      "zscore": 0.1961,
       "rawTopkMean": 0.1594,
       "nChunks": 13,
       "kUsed": 5,
@@ -149,7 +185,7 @@
     },
     {
       "year": 2011,
-      "zscore": -0.2249,
+      "zscore": -0.1604,
       "rawTopkMean": 0.1283,
       "nChunks": 12,
       "kUsed": 5,
@@ -157,7 +193,7 @@
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Technologies 3D Surround Adobe Flash 10.1 CUDA DirectCompute GPUDirect Hybrid SLI MXM OpenCL Optimus PhysX PowerMizer PureVideo HD SLI Windows 7 Communities 3DVision Live GeForce.com GTC SLI Zone CUDA Zone Developer Zone NVIDIA Blog GPU Venture Zone PartnerForce Research As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world.",
+          "text": "Technologies 3D Surround Adobe Flash 10.1 CUDA DirectCompute GPUDirect Hybrid SLI MXM OpenCL Optimus PhysX PowerMizer PureVideo HD SLI Windows 7 Communities 3DVision Live GeForce.com GTC SLI Zone CUDA Zone Developer Zone NVIDIA Blog GPU Venture Zone PartnerForce Research As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the wo",
           "heading": "",
           "score": 0.1944
         },
@@ -185,7 +221,7 @@
     },
     {
       "year": 2012,
-      "zscore": -0.2396,
+      "zscore": -0.1763,
       "rawTopkMean": 0.1269,
       "nChunks": 13,
       "kUsed": 5,
@@ -220,8 +256,44 @@
       ]
     },
     {
+      "year": 2013,
+      "zscore": 0.1886,
+      "rawTopkMean": 0.1587,
+      "nChunks": 17,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "NVIDIA is a world leader in visual computing.",
+          "heading": "",
+          "score": 0.2043
+        },
+        {
+          "text": "Our technologies are transforming a world of displays into a world of interactive discovery for everyone from gamers and scientists, to consumers and enterprises.",
+          "heading": "",
+          "score": 0.1683
+        },
+        {
+          "text": "SENIOR MEMORY CONTROLLER VERIFICATION ENGINEER US, CA, Santa Clara",
+          "heading": "",
+          "score": 0.1493
+        },
+        {
+          "text": "NVIDIA's culture inspires our team of world-class engineers and developers to be at the top of their game.",
+          "heading": "",
+          "score": 0.1462
+        },
+        {
+          "text": "NVIDIA's culture promotes and inspires our team of world-class engineers and developers to be at the top of their game.",
+          "heading": "",
+          "score": 0.1255
+        }
+      ]
+    },
+    {
       "year": 2014,
-      "zscore": 0.1063,
+      "zscore": 0.2,
       "rawTopkMean": 0.1597,
       "nChunks": 14,
       "kUsed": 5,
@@ -256,8 +328,24 @@
       ]
     },
     {
+      "year": 2015,
+      "zscore": -2.6285,
+      "rawTopkMean": -0.087,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Each employee can make a difference – help us invent the future.",
+          "heading": "Careers",
+          "score": -0.087
+        }
+      ]
+    },
+    {
       "year": 2020,
-      "zscore": 1.6982,
+      "zscore": 1.9319,
       "rawTopkMean": 0.3108,
       "nChunks": 47,
       "kUsed": 5,
@@ -293,7 +381,7 @@
     },
     {
       "year": 2024,
-      "zscore": 1.2468,
+      "zscore": 1.4408,
       "rawTopkMean": 0.2679,
       "nChunks": 19,
       "kUsed": 5,
@@ -329,9 +417,9 @@
     },
     {
       "year": 2025,
-      "zscore": -0.2651,
+      "zscore": -0.2042,
       "rawTopkMean": 0.1245,
-      "nChunks": 34,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -365,27 +453,37 @@
     },
     {
       "year": 2026,
-      "zscore": -2.5117,
-      "rawTopkMean": -0.0887,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -0.9533,
+      "rawTopkMean": 0.0591,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "The breakthroughs we’re making at NVIDIA are impacting businesses everywhere, helping them work faster, better, and smarter.",
+          "heading": "Help Us Transform Entire Industries",
+          "score": 0.1781
+        },
+        {
+          "text": "Watch this video for a glimpse at why NVIDIA is like no place you've ever worked.",
+          "heading": "Follow Your Passion. Lead a Movement.",
+          "score": 0.1277
+        },
+        {
+          "text": "And a growing list of new opportunities every single day.",
+          "heading": "Follow Your Passion. Lead a Movement.",
+          "score": 0.0179
+        },
         {
           "text": "The project is the boss—even for our CEO.",
           "heading": "Explore Life at NVIDIA",
           "score": 0.0125
         },
         {
-          "text": "We’re an eclectic, passionate group of professionals dedicated to solving some of the world’s biggest challenges.",
-          "heading": "Explore Life at NVIDIA",
-          "score": -0.0989
-        },
-        {
-          "text": "We thrive on seamless collaboration and shared success while embracing inclusivity and individuality.",
-          "heading": "Explore Life at NVIDIA",
-          "score": -0.1797
+          "text": "You’ll solve some of the world’s hardest problems and discover never-before-seen ways to improve the quality of life for people everywhere.",
+          "heading": "Follow Your Passion. Lead a Movement.",
+          "score": -0.0405
         }
       ]
     }

@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2002,
-      "zscore": -0.0094,
+      "zscore": -0.4222,
       "rawTopkMean": 0.0414,
       "nChunks": 17,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2003,
-      "zscore": -1.1595,
+      "zscore": -1.5038,
       "rawTopkMean": -0.0128,
       "nChunks": 11,
       "kUsed": 5,
@@ -77,33 +77,43 @@
     },
     {
       "year": 2004,
-      "zscore": -2.1188,
-      "rawTopkMean": -0.058,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -1.6313,
+      "rawTopkMean": -0.0192,
+      "nChunks": 11,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We give all of our clients personal attention and are proud that 100% of our clients are references.",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.0143
+        },
+        {
+          "text": "Our obsession with simplicity and clarity in interface design is why we're called \"the masters par excellence of HTMinimaLism\" by the author of Fresh Styles for Web Designers , and the sites we've designed prove that usability can be elegant.",
+          "heading": "How is 37signals different than other web firms?",
+          "score": -0.0184
+        },
+        {
+          "text": "Check out our new E-Commerce Search Report 37signals' Design Not Found covered in this N.Y.",
+          "heading": "37signals Highlights",
+          "score": -0.02
+        },
+        {
+          "text": "In the New York Times, the Washington Post, the Times of London, on FOX news, in various books including the popular \"Fresh Styles For Web Designers,\" linked from usability expert Jakob Nielsen's site, as one of Yahoo's Picks of the Year, or in another publication.",
+          "heading": "Where might I have seen your projects before?",
+          "score": -0.0277
+        },
         {
           "text": "Free Holiday E-Commerce Ideas from 37signals. 37signals' Design Not Found covered in this N.Y.",
           "heading": "37signals Highlights",
           "score": -0.0442
-        },
-        {
-          "text": "CommArts publishes our article on 37BetterFedEx (our proposed redesign of FedEx's online shipping form).",
-          "heading": "37signals Highlights",
-          "score": -0.0603
-        },
-        {
-          "text": "New Architect magazine publishes Making Mistakes Well , our article on contingency design.",
-          "heading": "37signals Highlights",
-          "score": -0.0696
         }
       ]
     },
     {
       "year": 2009,
-      "zscore": 0.1616,
+      "zscore": -0.2614,
       "rawTopkMean": 0.0494,
       "nChunks": 28,
       "kUsed": 5,
@@ -139,39 +149,54 @@
     },
     {
       "year": 2010,
-      "zscore": -1.1587,
-      "rawTopkMean": -0.0128,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -0.5041,
+      "rawTopkMean": 0.0373,
+      "nChunks": 27,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "You’ll also find daily tips, tricks, case studies, and press mentions regarding our products at our Product Blog .",
+          "heading": "Our ideas and philosophies",
+          "score": 0.0778
+        },
+        {
+          "text": "We don’t sell you training because you don’t need it.",
+          "heading": "We believe",
+          "score": 0.0419
+        },
+        {
+          "text": "Our products start at $12/month and our most expensive plans are $149/month for unlimited users.",
+          "heading": "We believe",
+          "score": 0.0358
+        },
+        {
+          "text": "You can also watch keynote presentations and interviews that the team at 37signals has given over the years.",
+          "heading": "Our ideas and philosophies",
+          "score": 0.0156
+        },
         {
           "text": "We care deeply about the products we build for our customers.",
           "heading": "We make it easier to get work done",
           "score": 0.0153
-        },
-        {
-          "text": "Quality, clarity, attention to detail, ease-of-use, and usefulness are at the core of everything we do.",
-          "heading": "We make it easier to get work done",
-          "score": 0.0128
-        },
-        {
-          "text": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done.",
-          "heading": "We make it easier to get work done",
-          "score": -0.0665
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": -1.1232,
-      "rawTopkMean": -0.0111,
-      "nChunks": 19,
+      "zscore": -1.1912,
+      "rawTopkMean": 0.0028,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "The best business advice we ever got is from Jeff Bezos from Amazon.com (Jeff bought a small piece of our company in 2006).",
+          "heading": "Investing in the things that don’t go out of style.",
+          "score": 0.0426
+        },
         {
           "text": "We’re big believers in the power of keeping it simple.",
           "heading": "Doubling down on simple.",
@@ -191,19 +216,50 @@
           "text": "We’re also big believers in business 101.",
           "heading": "Giving a damn.",
           "score": -0.015
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "zscore": -1.1912,
+      "rawTopkMean": 0.0028,
+      "nChunks": 22,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "The best business advice we ever got is from Jeff Bezos from Amazon.com (Jeff bought a small piece of our company in 2006).",
+          "heading": "Investing in the things that don’t go out of style.",
+          "score": 0.0426
         },
         {
-          "text": "We’re in business to stay in business, and we have 15 profitable years in a row to back it up.",
+          "text": "We’re big believers in the power of keeping it simple.",
+          "heading": "Doubling down on simple.",
+          "score": 0.0093
+        },
+        {
+          "text": "This goes for our products, our publications, and our company.",
+          "heading": "Doubling down on simple.",
+          "score": -0.0079
+        },
+        {
+          "text": "In the decades to come, we’ll continue to make big bets on simplicity, clarity, ease-of-use, and honesty.",
+          "heading": "Doubling down on simple.",
+          "score": -0.0148
+        },
+        {
+          "text": "We’re also big believers in business 101.",
           "heading": "Giving a damn.",
-          "score": -0.0271
+          "score": -0.015
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": -0.1307,
-      "rawTopkMean": 0.0356,
-      "nChunks": 37,
+      "zscore": -0.4106,
+      "rawTopkMean": 0.0419,
+      "nChunks": 50,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -219,6 +275,11 @@
           "score": 0.058
         },
         {
+          "text": "The best business advice we ever got is from Jeff Bezos from Amazon.com (Jeff bought a small piece of our company in 2006).",
+          "heading": "Investing in things that don’t go out of style",
+          "score": 0.0426
+        },
+        {
           "text": "2016 marks our 17th year in business, yet we feel like we’re just getting started.",
           "heading": "17 years and running",
           "score": 0.03
@@ -227,19 +288,14 @@
           "text": "It’s become a risky venture to place your trust and data in services that could disappear at any moment, for any reason, and with no guarantee that your data will be safe, preserved, or even portable.",
           "heading": "Until the End of the Internet",
           "score": 0.0147
-        },
-        {
-          "text": "In the event that the Basecamp product you’re using enters a legacy phase you’ll be free to keep using it as-is indefinitely, assuming you continue to abide by our terms of service and keep your subscription active.",
-          "heading": "It’s a promise to our customers",
-          "score": 0.0111
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": -0.3328,
-      "rawTopkMean": 0.0261,
-      "nChunks": 20,
+      "zscore": -0.4187,
+      "rawTopkMean": 0.0415,
+      "nChunks": 53,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -255,31 +311,41 @@
           "score": 0.0428
         },
         {
+          "text": "The best business advice we ever got is from Jeff Bezos from Amazon.com (Jeff bought a small piece of our company in 2006).",
+          "heading": "Investing in things that don’t go out of style",
+          "score": 0.0426
+        },
+        {
           "text": "We're authors, artists, designers, do-it-yourselfers, tinkerers, travelers, chefs, campers, readers, race car drivers, raconteurs, programmers, photographers, parents, poets, pilots, and pet lovers .",
           "heading": "Who we are",
           "score": 0.0424
         },
         {
-          "text": "In fact, we took a look in the mirror recently and weren’t satisfied with how many similar faces we saw looking back.",
-          "heading": "Who you are",
-          "score": 0.0033
-        },
-        {
-          "text": "So if you look at our team page and don't see yourself, don’t shy away.",
-          "heading": "Who you are",
-          "score": -0.0077
+          "text": "2016 marks our 17th year in business, yet we feel like we’re just getting started.",
+          "heading": "17 years and running",
+          "score": 0.03
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": -0.7234,
-      "rawTopkMean": 0.0077,
-      "nChunks": 33,
+      "zscore": -0.6359,
+      "rawTopkMean": 0.0307,
+      "nChunks": 66,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "The best business advice we ever got is from Jeff Bezos from Amazon.com (Jeff bought a small piece of our company in 2006).",
+          "heading": "Investing in things that don’t go out of style",
+          "score": 0.0426
+        },
+        {
+          "text": "2018 marks our 19th year in business, yet we feel like we’re just getting started.",
+          "heading": "19 years and running",
+          "score": 0.0387
+        },
         {
           "text": "You can find us sharing our ideas at conferences and in our company blog .",
           "heading": "Meet the team.",
@@ -291,27 +357,17 @@
           "score": 0.0269
         },
         {
-          "text": "We all love sharing what we learn, too.",
-          "heading": "Meet the team.",
-          "score": -0.0033
-        },
-        {
-          "text": "When you walk in, you see clear through to the far wall of 10 foot windows.",
-          "heading": "Basecamp HQ in Chicago",
-          "score": -0.0069
-        },
-        {
-          "text": "You’ll also see the entrance lobby to the far left in the photo below.",
-          "heading": "Basecamp HQ in Chicago",
-          "score": -0.0139
+          "text": "We’re big believers in the power of keeping it simple.",
+          "heading": "Doubling down on simple and straightforward",
+          "score": 0.0093
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 1.1141,
-      "rawTopkMean": 0.0943,
-      "nChunks": 106,
+      "zscore": 0.9626,
+      "rawTopkMean": 0.1107,
+      "nChunks": 224,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -322,6 +378,16 @@
           "score": 0.1556
         },
         {
+          "text": "So you read up or skip out at your own risk.",
+          "heading": "10. Chat reminds you that you’re behind.",
+          "score": 0.127
+        },
+        {
+          "text": "Attention is one of your most precious resources .",
+          "heading": "Chat attacks attention and severely hinders deep work",
+          "score": 0.1
+        },
+        {
           "text": "And if you’ve already gone all-in, this document may be the catalyst for reconsideration.",
           "heading": "Group chat is like being in an all-day meeting, with random participants, and no agenda.",
           "score": 0.0877
@@ -330,24 +396,14 @@
           "text": "It feels good for a while, but it’s unhealthy to stay too long.",
           "heading": "Real-time sometimes, asynchronous most of the time.",
           "score": 0.0833
-        },
-        {
-          "text": "Think about it like a sauna or a hot tub.",
-          "heading": "Real-time sometimes, asynchronous most of the time.",
-          "score": 0.0774
-        },
-        {
-          "text": "Treat chat like a sauna — stay a while but then get out.",
-          "heading": "Real-time sometimes, asynchronous most of the time.",
-          "score": 0.0673
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.6289,
-      "rawTopkMean": 0.0714,
-      "nChunks": 213,
+      "zscore": 0.3238,
+      "rawTopkMean": 0.0787,
+      "nChunks": 299,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -363,31 +419,36 @@
           "score": 0.0862
         },
         {
+          "text": "Please take advantage of that glorious, shiny ignorance of being new, and question things.",
+          "heading": "The Basecamp Employee Handbook",
+          "score": 0.082
+        },
+        {
           "text": "Writing up what you did every day is a great way to think back about what you accomplished and how you spent your time.",
           "heading": "Automatic daily: \"What did you work on today?",
           "score": 0.0574
         },
         {
-          "text": "They'll also shine a light on challenges and difficulties along the way.",
-          "heading": "← Reflect every 6 weeks: Heartbeats",
-          "score": 0.0521
-        },
-        {
-          "text": "If you aren't sure, sleep on it before saying it.",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.0494
+          "text": "This handbook also offers us an opportunity to clarify who we actually are as a company.",
+          "heading": "The Basecamp Employee Handbook",
+          "score": 0.056
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 1.4879,
-      "rawTopkMean": 0.1119,
-      "nChunks": 159,
+      "zscore": 1.3009,
+      "rawTopkMean": 0.1277,
+      "nChunks": 424,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Try it free today and see what you've been missing.",
+          "heading": "Tried Basecamp lately?",
+          "score": 0.1556
+        },
         {
           "text": "We encourage independent thought and original thinking.",
           "heading": "Values",
@@ -407,19 +468,14 @@
           "text": "Attention is one of your most precious resources .",
           "heading": "Chat attacks attention and severely hinders deep work",
           "score": 0.1
-        },
-        {
-          "text": "You can decide not to pay attention, but that leads to a fear of missing out.",
-          "heading": "1. Mental fatigue and exhaustion.",
-          "score": 0.0767
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 1.7039,
+      "zscore": 1.189,
       "rawTopkMean": 0.1221,
-      "nChunks": 113,
+      "nChunks": 333,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -453,145 +509,145 @@
     },
     {
       "year": 2023,
-      "zscore": 0.5893,
-      "rawTopkMean": 0.0696,
-      "nChunks": 115,
+      "zscore": 1.1783,
+      "rawTopkMean": 0.1215,
+      "nChunks": 431,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Please take advantage of that glorious, shiny ignorance of being new, and question things.",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.082
+          "text": "We look forward to getting to know you.",
+          "heading": "What it’s like to work here",
+          "score": 0.1443
         },
         {
-          "text": "I look forward to hearing from you.",
-          "heading": "Where we came from.",
-          "score": 0.0757
+          "text": "So you read up or skip out at your own risk.",
+          "heading": "10. Chat reminds you that you’re behind",
+          "score": 0.127
         },
         {
-          "text": "New championing the underdogs, like you!",
-          "heading": "",
-          "score": 0.0686
+          "text": "We care about who you are today, how you’ll be tomorrow, and what you’re able to do now.",
+          "heading": "Who you are",
+          "score": 0.1165
         },
         {
-          "text": "These aren’t just states of mind, they are conditions caused by the kinds of tools we use, and the kinds of behaviors those tools encourage.",
-          "heading": "Group chat is like being in an all-day meeting, with random participants, and no agenda",
-          "score": 0.0626
+          "text": "Make sure you check out the benefits and perks .",
+          "heading": "What it’s like to work here",
+          "score": 0.1117
         },
         {
-          "text": "We’re thrilled to announce the launch of our first sweepstakes and brand campaign JUST LET ME DO MY JOB.",
-          "heading": "",
-          "score": 0.0588
+          "text": "You should be at peace with both of these stances.",
+          "heading": "What it’s like to work here",
+          "score": 0.1082
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 0.3125,
-      "rawTopkMean": 0.0565,
-      "nChunks": 99,
+      "zscore": 1.1783,
+      "rawTopkMean": 0.1215,
+      "nChunks": 452,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "It may affect your or the company’s tax situation.",
-          "heading": "Remotely",
-          "score": 0.0972
+          "text": "We look forward to getting to know you.",
+          "heading": "What it’s like to work here",
+          "score": 0.1443
         },
         {
-          "text": "That means setting your own direction when one isn’t given; and determining what needs to be done, and doing it, without waiting for someone to tell you to.",
-          "heading": "With managers of one",
-          "score": 0.0936
+          "text": "So you read up or skip out at your own risk.",
+          "heading": "10. Chat reminds you that you’re behind",
+          "score": 0.127
         },
         {
-          "text": "You should describe what you’re working on and give some context about why you’re working on it or why it’s important.",
-          "heading": "Communication",
-          "score": 0.0406
+          "text": "We care about who you are today, how you’ll be tomorrow, and what you’re able to do now.",
+          "heading": "Who you are",
+          "score": 0.1165
         },
         {
-          "text": "You’re of course free to subscribe to other team check-ins, but you’re not obligated to do so if you find it too noisy.",
-          "heading": "Communication",
-          "score": 0.0298
+          "text": "Make sure you check out the benefits and perks .",
+          "heading": "What it’s like to work here",
+          "score": 0.1117
         },
         {
-          "text": "Your first choice of action should be to post a message, a todo, or a document about what you need to explain or need to know.",
-          "heading": "Asynchronously",
-          "score": 0.0214
+          "text": "You should be at peace with both of these stances.",
+          "heading": "What it’s like to work here",
+          "score": 0.1082
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 0.8256,
-      "rawTopkMean": 0.0807,
-      "nChunks": 70,
+      "zscore": 1.0223,
+      "rawTopkMean": 0.1137,
+      "nChunks": 253,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "We look forward to getting to know you.",
+          "heading": "What it’s like to work here",
+          "score": 0.1443
+        },
+        {
+          "text": "We care about who you are today, how you’ll be tomorrow, and what you’re able to do now.",
+          "heading": "Who you are",
+          "score": 0.1165
+        },
+        {
+          "text": "Make sure you check out the benefits and perks .",
+          "heading": "What it’s like to work here",
+          "score": 0.1117
+        },
+        {
+          "text": "You should be at peace with both of these stances.",
+          "heading": "What it’s like to work here",
+          "score": 0.1082
+        },
+        {
           "text": "Just put in your best effort, make sure you reach out if things aren’t feeling right, embrace the feedback you get from your manager, and openly share your feedback with them!",
           "heading": "Your First Year",
           "score": 0.0879
-        },
-        {
-          "text": "You receive constructive feedback with a growth mindset.",
-          "heading": "Feedback",
-          "score": 0.0874
-        },
-        {
-          "text": "You’re able to disagree and commit.",
-          "heading": "Flexibility",
-          "score": 0.0829
-        },
-        {
-          "text": "You may contribute to heartbeats and kick-offs.",
-          "heading": "Communication",
-          "score": 0.0727
-        },
-        {
-          "text": "Do you even care which way this goes?",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.0725
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": -0.0674,
-      "rawTopkMean": 0.0386,
-      "nChunks": 36,
+      "zscore": 1.0154,
+      "rawTopkMean": 0.1134,
+      "nChunks": 251,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "It’s important that you review everything in this handbook, so you know what’s expected of you and what you can expect from us.",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.0842
+          "text": "We look forward to getting to know you.",
+          "heading": "What it’s like to work here",
+          "score": 0.1443
         },
         {
-          "text": "That was the especially painful and uncomfortable part.",
-          "heading": "Where we came from.",
-          "score": 0.0341
+          "text": "We care about who you are today, how you’ll be tomorrow, and what you’re able to do now.",
+          "heading": "Who you are",
+          "score": 0.1165
         },
         {
-          "text": "Hopefully it also offers a small peek at our culture.",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.0279
+          "text": "Make sure you check out the benefits and perks .",
+          "heading": "What it’s like to work here",
+          "score": 0.1117
         },
         {
-          "text": "We looked around and tried a few things, but the popular tools we tried simply didn’t cut it.",
-          "heading": "Where we came from.",
-          "score": 0.0276
+          "text": "You should be at peace with both of these stances.",
+          "heading": "What it’s like to work here",
+          "score": 0.1082
         },
         {
-          "text": "If you’re new to the company, welcome!",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.0193
+          "text": "We just ask everyone to write in their own style.",
+          "heading": "Automatic daily: “What did you work on today?”",
+          "score": 0.0862
         }
       ]
     }

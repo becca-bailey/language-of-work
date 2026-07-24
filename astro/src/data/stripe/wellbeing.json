@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2012,
-      "zscore": -0.4242,
+      "zscore": -2.1115,
       "rawTopkMean": 0.0385,
       "nChunks": 11,
       "kUsed": 5,
@@ -41,25 +41,45 @@
     },
     {
       "year": 2013,
-      "zscore": -2.3741,
-      "rawTopkMean": -0.0617,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "zscore": -1.7357,
+      "rawTopkMean": 0.0498,
+      "nChunks": 12,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We’re looking for people who care deeply about quality of execution and who want to build technology that people love to use.",
-          "heading": "Jobs at Stripe",
-          "score": -0.0617
+          "text": "Buy or build your ideal work environment.",
+          "heading": "Who we are",
+          "score": 0.1076
+        },
+        {
+          "text": "By building thoughtful infrastructure and interfaces, we're helping to put new people and companies in business.",
+          "heading": "Who we are",
+          "score": 0.0476
+        },
+        {
+          "text": "Free lunch and dinner as well as endless snacks and beverages.",
+          "heading": "Who we are",
+          "score": 0.0471
+        },
+        {
+          "text": "We like people who can set their own direction, can debate without animosity, and care about what they create.",
+          "heading": "Who we are",
+          "score": 0.0253
+        },
+        {
+          "text": "We're good friends and enjoy spending time together.",
+          "heading": "Who we are",
+          "score": 0.0212
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": 1.0276,
+      "zscore": 0.3658,
       "rawTopkMean": 0.1131,
-      "nChunks": 37,
+      "nChunks": 38,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -93,9 +113,9 @@
     },
     {
       "year": 2015,
-      "zscore": -0.5743,
-      "rawTopkMean": 0.0308,
-      "nChunks": 6,
+      "zscore": -1.5956,
+      "rawTopkMean": 0.054,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -111,27 +131,27 @@
           "score": 0.1074
         },
         {
+          "text": "Today, we support developers from a number of countries (and are expanding to even more ), card payments in 135 different currencies , Bitcoin , ACH, and have a continually-improving checkout form.",
+          "heading": "What we do",
+          "score": 0.0305
+        },
+        {
+          "text": "We've partnered with Apple to power Apple Pay , and helped launch a new cryptocurrency, Stellar .",
+          "heading": "What we do",
+          "score": -0.0034
+        },
+        {
           "text": "We know we're doing a good job of hiring so long as we see people continuing to join simply to work with those who are already here.",
           "heading": "How we work",
           "score": -0.0135
-        },
-        {
-          "text": "We work hard to find people who make others want to be around them.",
-          "heading": "How we work",
-          "score": -0.0423
-        },
-        {
-          "text": "(Plus, we hire curious people, so they generally want to know the details of what's going on.)",
-          "heading": "How we work",
-          "score": -0.0468
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": 0.4351,
-      "rawTopkMean": 0.0826,
-      "nChunks": 8,
+      "zscore": -0.4643,
+      "rawTopkMean": 0.0881,
+      "nChunks": 23,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -157,17 +177,17 @@
           "score": 0.0618
         },
         {
-          "text": "(Plus, we hire curious people, so they generally want to know the details of what's going on.) We are committed to building an actively inclusive work environment that makes Stripe an excellent home for anyone—regardless of gender, sexual orientation, ethnicity, race, education, age, or other personal characteristics.",
+          "text": "We work on broadening our diversity because we think it's simply the right thing to do.",
           "heading": "How we work",
-          "score": 0.0134
+          "score": 0.0406
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.8388,
+      "zscore": 0.0436,
       "rawTopkMean": 0.1034,
-      "nChunks": 36,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -201,9 +221,9 @@
     },
     {
       "year": 2018,
-      "zscore": 0.3749,
-      "rawTopkMean": 0.0795,
-      "nChunks": 19,
+      "zscore": 0.0436,
+      "rawTopkMean": 0.1034,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -219,27 +239,99 @@
           "score": 0.1074
         },
         {
-          "text": "We want to include people, be a spectacular home for them to be themselves, and enable them to do great work.",
-          "heading": "How we work",
-          "score": 0.0618
+          "text": "We contribute to existing open-source projects and the people working on them, and we release several tools as open-source.",
+          "heading": "What’s it like to work at Stripe?",
+          "score": 0.1067
         },
         {
-          "text": "We work on broadening our diversity because we think it’s simply the right thing to do.",
-          "heading": "How we work",
-          "score": 0.0504
+          "text": "This enables engineers to learn how different parts of Stripe work while also establishing stronger ties and cross-pollination between groups.",
+          "heading": "What’s it like to work at Stripe?",
+          "score": 0.0804
         },
         {
-          "text": "Today, we support developers from a number of countries (and are expanding to even more ), card payments in 135 different currencies , ACH, and have a continually-improving checkout form.",
-          "heading": "What we do",
-          "score": 0.0291
+          "text": "We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.",
+          "heading": "What’s it like to work at Stripe?",
+          "score": 0.0732
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 0.889,
-      "rawTopkMean": 0.1059,
-      "nChunks": 187,
+      "zscore": 0.5731,
+      "rawTopkMean": 0.1193,
+      "nChunks": 223,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We want to build a work environment where people are happy, productive, and interact well.",
+          "heading": "How we work",
+          "score": 0.149
+        },
+        {
+          "text": "Your colleagues won’t work to undermine you as they might in a winner-takes-all environment.",
+          "heading": "Move with urgency and focus",
+          "score": 0.117
+        },
+        {
+          "text": "Do you care a lot about having kind, warm, supportive colleagues?",
+          "heading": "Questions you should ask yourself",
+          "score": 0.1163
+        },
+        {
+          "text": "This helps everyone make better local decisions and avoid split-brain behavior.",
+          "heading": "How we work",
+          "score": 0.1074
+        },
+        {
+          "text": "We contribute to existing open-source projects and the people working on them, and we release several tools as open-source.",
+          "heading": "What’s it like to work at Stripe?",
+          "score": 0.1067
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "zscore": 0.692,
+      "rawTopkMean": 0.1229,
+      "nChunks": 283,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Parents has taken an active role in developing Stripe’s parental leave tools , which provide resources to managers and expectant parents.",
+          "heading": "Promoting access through representation",
+          "score": 0.1509
+        },
+        {
+          "text": "It also means you’ll have access to the support, mentorship, and communities you need to be successful as you navigate your early career.",
+          "heading": "New grads",
+          "score": 0.1173
+        },
+        {
+          "text": "Your colleagues won’t work to undermine you as they might in a winner-takes-all environment.",
+          "heading": "Move with urgency and focus",
+          "score": 0.117
+        },
+        {
+          "text": "Do you care a lot about having kind, warm, supportive colleagues?",
+          "heading": "Questions you should ask yourself",
+          "score": 0.1163
+        },
+        {
+          "text": "Our Parents community works toward improving the lives of Stripe families through events and training programs, by sharing best practices and difficult challenges, and advocating for workplace policies.",
+          "heading": "Promoting access through representation",
+          "score": 0.1129
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "zscore": 0.1813,
+      "rawTopkMean": 0.1075,
+      "nChunks": 184,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -260,79 +352,58 @@
           "score": 0.1062
         },
         {
-          "text": "There are “conventional” forms of recognition at Stripe, like equity refreshes and bonuses.",
-          "heading": "Move with urgency and focus",
-          "score": 0.0955
-        },
-        {
-          "text": "So Slack can reinvent workplace communication, not invoicing.",
-          "heading": "What matters to us is what we enable for others",
-          "score": 0.0947
-        }
-      ]
-    },
-    {
-      "year": 2020,
-      "zscore": 1.128,
-      "rawTopkMean": 0.1182,
-      "nChunks": 108,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "Parents has taken an active role in developing Stripe’s parental leave tools , which provide resources to managers and expectant parents.",
-          "heading": "Promoting access through representation",
-          "score": 0.1509
-        },
-        {
-          "text": "It also means you’ll have access to the support, mentorship, and communities you need to be successful as you navigate your early career.",
-          "heading": "New grads",
-          "score": 0.1173
-        },
-        {
-          "text": "Our Parents community works toward improving the lives of Stripe families through events and training programs, by sharing best practices and difficult challenges, and advocating for workplace policies.",
-          "heading": "Promoting access through representation",
-          "score": 0.1129
-        },
-        {
-          "text": "We want to work in a company of warm, inclusive people who treat their colleagues well.",
-          "heading": "What’s it like to work at Stripe?",
-          "score": 0.1052
-        },
-        {
-          "text": "We contribute to open-source projects and the people working on them, and we release tools as open-source.",
-          "heading": "What’s it like to work at Stripe?",
-          "score": 0.1048
-        }
-      ]
-    },
-    {
-      "year": 2021,
-      "zscore": -0.1793,
-      "rawTopkMean": 0.0511,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
           "text": "We offer competitive and comprehensive benefits, though lots of companies can offer you those.",
           "heading": "Support to do your best work",
           "score": 0.1025
         },
         {
-          "text": "We also have a rarer opportunity: The impact you can make from being at a nimble startup, working on a platform that operates at a significant (and quickly growing) scale.",
-          "heading": "Support to do your best work",
-          "score": -0.0004
+          "text": "There are “conventional” forms of recognition at Stripe, like equity refreshes and bonuses.",
+          "heading": "Move with urgency and focus",
+          "score": 0.0955
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 1.1206,
+      "zscore": 1.2473,
+      "rawTopkMean": 0.1396,
+      "nChunks": 234,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We also need to balance an intense work environment against the need to support fulfilling and sustainable careers.",
+          "heading": "We need to balance speed with meticulousness",
+          "score": 0.193
+        },
+        {
+          "text": "Many companies can offer you attractive benefits and compensation.",
+          "heading": "Support to do your best work",
+          "score": 0.1655
+        },
+        {
+          "text": "Your colleagues won’t work to undermine you as they might in a winner-takes-all environment.",
+          "heading": "Move with urgency and focus",
+          "score": 0.117
+        },
+        {
+          "text": "Do you care a lot about having kind, warm, supportive colleagues?",
+          "heading": "Questions you should ask yourself",
+          "score": 0.1163
+        },
+        {
+          "text": "This has the advantage of ensuring that you’ll almost never be annoyed about that slacker in the next cubicle (and not just because we don’t have cubicles).",
+          "heading": "Move with urgency and focus",
+          "score": 0.1062
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": 0.5245,
       "rawTopkMean": 0.1178,
-      "nChunks": 51,
+      "nChunks": 77,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -365,110 +436,110 @@
       ]
     },
     {
-      "year": 2023,
-      "zscore": -0.2365,
-      "rawTopkMean": 0.0481,
-      "nChunks": 32,
+      "year": 2024,
+      "zscore": 0.5245,
+      "rawTopkMean": 0.1178,
+      "nChunks": 93,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We also need to balance an intense work environment against the need to support fulfilling and sustainable careers.",
+          "heading": "We need to balance speed with meticulousness",
+          "score": 0.193
+        },
+        {
+          "text": "Many companies can offer you attractive benefits and compensation.",
+          "heading": "Support to do your best work",
+          "score": 0.1655
+        },
+        {
+          "text": "Do your best work among people who support, refine, and amplify every piece of it.",
+          "heading": "Life at Stripe",
+          "score": 0.0902
+        },
         {
           "text": "So Le Monde can expand its digital offering globally , not reinvent subscription billing.",
           "heading": "What matters to us is what we enable for others",
           "score": 0.0787
         },
         {
-          "text": "That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.",
-          "heading": "About Stripe",
-          "score": 0.0552
-        },
-        {
-          "text": "We take pride in freeing up others to work in the spotlight.",
-          "heading": "What matters to us is what we enable for others",
-          "score": 0.0444
-        },
-        {
-          "text": "So truckers can focus on getting supply chains moving , not invoicing paper trails.",
-          "heading": "What matters to us is what we enable for others",
-          "score": 0.0313
-        },
-        {
-          "text": "So Ford can focus on building a global digital dealership , rather than processing payments.",
-          "heading": "What matters to us is what we enable for others",
-          "score": 0.0309
+          "text": "We continuously listen to our employees to understand where Stripe truly excels and listen for opportunities to further enhance the way we work as a company and as individuals.",
+          "heading": "StripeSat",
+          "score": 0.0618
         }
       ]
     },
     {
-      "year": 2024,
-      "zscore": -1.4041,
-      "rawTopkMean": -0.0119,
-      "nChunks": 15,
+      "year": 2025,
+      "zscore": 0.5245,
+      "rawTopkMean": 0.1178,
+      "nChunks": 91,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Be deeply informed about what’s happening across Stripe, and create your team’s plans in reference to the broader work.",
-          "heading": "And leaders",
-          "score": 0.0245
+          "text": "We also need to balance an intense work environment against the need to support fulfilling and sustainable careers.",
+          "heading": "We need to balance speed with meticulousness",
+          "score": 0.193
         },
         {
-          "text": "Create a culture of quickly addressing mis-hires, developing critical talent, and finding challenging work for your strongest performers.",
-          "heading": "And leaders",
-          "score": -0.0028
+          "text": "Many companies can offer you attractive benefits and compensation.",
+          "heading": "Support to do your best work",
+          "score": 0.1655
         },
         {
-          "text": "It’s not always clear who should make a decision.",
-          "heading": "And leaders",
-          "score": -0.0037
+          "text": "Do your best work among people who support, refine, and amplify every piece of it.",
+          "heading": "Life at Stripe",
+          "score": 0.0902
         },
         {
-          "text": "Push back on managers when you sense they’re making hires who are merely “fine.” Hold an equally high bar for performance!",
-          "heading": "And leaders",
-          "score": -0.0246
+          "text": "So Le Monde can expand its digital offering globally , not reinvent subscription billing.",
+          "heading": "What matters to us is what we enable for others",
+          "score": 0.0787
         },
         {
-          "text": "The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be your biggest competitive advantage.",
-          "heading": "And leaders",
-          "score": -0.0526
+          "text": "We continuously listen to our employees to understand where Stripe truly excels and listen for opportunities to further enhance the way we work as a company and as individuals.",
+          "heading": "StripeSat",
+          "score": 0.0618
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": -0.6215,
-      "rawTopkMean": 0.0283,
-      "nChunks": 21,
+      "zscore": 1.1869,
+      "rawTopkMean": 0.1378,
+      "nChunks": 76,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We also need to balance an intense work environment against the need to support fulfilling and sustainable careers.",
+          "heading": "We need to balance speed with meticulousness",
+          "score": 0.193
+        },
+        {
+          "text": "Many companies can offer you attractive benefits and compensation.",
+          "heading": "Support to do your best work",
+          "score": 0.1655
+        },
         {
           "text": "Well-crafted work indicates care for the user, and beautiful work indicates care for the world.",
           "heading": "Operating principles",
           "score": 0.1615
         },
         {
-          "text": "Here are a few of the ones you’re likely to encounter during your work here:",
-          "heading": "Operating principles",
-          "score": 0.0042
+          "text": "Do your best work among people who support, refine, and amplify every piece of it.",
+          "heading": "Life at Stripe",
+          "score": 0.0902
         },
         {
-          "text": "With careful thought, anything can be made surprisingly great.",
-          "heading": "Operating principles",
-          "score": -0.0025
-        },
-        {
-          "text": "We’re generous with credit and stingy with blame.",
-          "heading": "Operating principles",
-          "score": -0.01
-        },
-        {
-          "text": "We have a weighty responsibility to those businesses and to society.",
-          "heading": "Operating principles",
-          "score": -0.0115
+          "text": "So Le Monde can expand its digital offering globally , not reinvent subscription billing.",
+          "heading": "What matters to us is what we enable for others",
+          "score": 0.0787
         }
       ]
     }

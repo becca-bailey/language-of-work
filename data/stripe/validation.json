@@ -1,17 +1,17 @@
 {
   "ground_truth_chunk": {
     "level": "chunk",
-    "altruism_peak_year": 2013,
-    "altruism_control_correlation": 0.187,
-    "correlation_p": 0.522,
-    "control_decoupled": true,
+    "altruism_peak_year": 2019,
+    "altruism_control_correlation": 0.58,
+    "correlation_p": 0.024,
+    "control_decoupled": false,
     "peak_within_expected": null
   },
   "ground_truth_sentence": {
     "level": "sentence",
-    "altruism_peak_year": 2019,
-    "altruism_control_correlation": 0.762,
-    "correlation_p": 0.002,
+    "altruism_peak_year": 2022,
+    "altruism_control_correlation": 0.835,
+    "correlation_p": 0.0,
     "control_decoupled": false,
     "peak_within_expected": null
   },
@@ -98,5 +98,401 @@
       "n_chunks": 274,
       "separated": true
     }
-  ]
+  ],
+  "tournament": {
+    "judgments": [
+      {
+        "pair": [
+          2021,
+          2022
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2013,
+          2015
+        ],
+        "winner": 2013
+      },
+      {
+        "pair": [
+          2012,
+          2016
+        ],
+        "winner": 2016
+      },
+      {
+        "pair": [
+          2014,
+          2026
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2014,
+          2021
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2014,
+          2018
+        ],
+        "winner": 2018
+      },
+      {
+        "pair": [
+          2013,
+          2018
+        ],
+        "winner": 2013
+      },
+      {
+        "pair": [
+          2013,
+          2014
+        ],
+        "winner": 2013
+      },
+      {
+        "pair": [
+          2018,
+          2026
+        ],
+        "winner": 2018
+      },
+      {
+        "pair": [
+          2012,
+          2024
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2019,
+          2026
+        ],
+        "winner": 2019
+      },
+      {
+        "pair": [
+          2016,
+          2026
+        ],
+        "winner": 2016
+      },
+      {
+        "pair": [
+          2012,
+          2017
+        ],
+        "winner": 2017
+      },
+      {
+        "pair": [
+          2023,
+          2024
+        ],
+        "winner": 2023
+      },
+      {
+        "pair": [
+          2024,
+          2026
+        ],
+        "winner": 2026
+      },
+      {
+        "pair": [
+          2014,
+          2017
+        ],
+        "winner": 2017
+      },
+      {
+        "pair": [
+          2014,
+          2019
+        ],
+        "winner": 2019
+      },
+      {
+        "pair": [
+          2018,
+          2020
+        ],
+        "winner": 2018
+      },
+      {
+        "pair": [
+          2020,
+          2022
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2019,
+          2021
+        ],
+        "winner": 2019
+      },
+      {
+        "pair": [
+          2014,
+          2015
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2021,
+          2023
+        ],
+        "winner": 2023
+      },
+      {
+        "pair": [
+          2016,
+          2024
+        ],
+        "winner": 2016
+      },
+      {
+        "pair": [
+          2022,
+          2023
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2017,
+          2020
+        ],
+        "winner": 2017
+      },
+      {
+        "pair": [
+          2022,
+          2026
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2012,
+          2013
+        ],
+        "winner": 2013
+      },
+      {
+        "pair": [
+          2013,
+          2021
+        ],
+        "winner": 2013
+      },
+      {
+        "pair": [
+          2015,
+          2024
+        ],
+        "winner": 2015
+      },
+      {
+        "pair": [
+          2020,
+          2026
+        ],
+        "winner": 2026
+      },
+      {
+        "pair": [
+          2013,
+          2022
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2021,
+          2026
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2012,
+          2022
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2021,
+          2024
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2016,
+          2019
+        ],
+        "winner": 2019
+      },
+      {
+        "pair": [
+          2017,
+          2023
+        ],
+        "winner": 2017
+      },
+      {
+        "pair": [
+          2012,
+          2019
+        ],
+        "winner": 2019
+      },
+      {
+        "pair": [
+          2012,
+          2018
+        ],
+        "winner": 2012
+      },
+      {
+        "pair": [
+          2013,
+          2026
+        ],
+        "winner": 2013
+      },
+      {
+        "pair": [
+          2020,
+          2024
+        ],
+        "winner": 2020
+      }
+    ],
+    "strengths": {
+      "2012": 0.002092728513247141,
+      "2013": 0.0032173968754389565,
+      "2014": 1.9318388031615246e-06,
+      "2015": 9.68815322443839e-05,
+      "2016": 0.03503971186221288,
+      "2017": 0.1552156214539825,
+      "2018": 6.03746332197643e-05,
+      "2019": 0.8005453218002286,
+      "2020": 1.684169100666236e-09,
+      "2021": 0.0008982186285152791,
+      "2022": 0.0016375515573562847,
+      "2023": 0.0011941701587169554,
+      "2024": 0.0,
+      "2026": 8.946186495266495e-08
+    }
+  },
+  "tournament_spearman_chunk": 0.075,
+  "tournament_spearman_sentence": -0.062,
+  "early_year_agreement": {
+    "note": "insufficient early-year tournament coverage"
+  },
+  "control_decoupling": [
+    {
+      "axis": "altruism",
+      "level": "chunk",
+      "n_years": 15,
+      "control_r": 0.58,
+      "control_p": 0.024,
+      "r_topk_vs_logn": 0.661,
+      "control_r_topk_vs_logn": 0.861,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "craft",
+      "level": "chunk",
+      "n_years": 15,
+      "control_r": 0.913,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.637,
+      "control_r_topk_vs_logn": 0.861,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "inclusion",
+      "level": "chunk",
+      "n_years": 15,
+      "control_r": 0.753,
+      "control_p": 0.001,
+      "r_topk_vs_logn": 0.784,
+      "control_r_topk_vs_logn": 0.861,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "meritocracy",
+      "level": "chunk",
+      "n_years": 15,
+      "control_r": 0.934,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.765,
+      "control_r_topk_vs_logn": 0.861,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "performance",
+      "level": "chunk",
+      "n_years": 15,
+      "control_r": 0.902,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.671,
+      "control_r_topk_vs_logn": 0.861,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "techno_optimism",
+      "level": "chunk",
+      "n_years": 15,
+      "control_r": 0.919,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.858,
+      "control_r_topk_vs_logn": 0.861,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "wellbeing",
+      "level": "chunk",
+      "n_years": 15,
+      "control_r": 0.627,
+      "control_p": 0.012,
+      "r_topk_vs_logn": 0.884,
+      "control_r_topk_vs_logn": 0.861,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "wellbeing_locus",
+      "level": "chunk",
+      "n_years": 15,
+      "control_r": 0.938,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.96,
+      "control_r_topk_vs_logn": 0.861,
+      "diagnosis": "pool_size_suspect"
+    }
+  ],
+  "tournament_agreement": {
+    "n": 40,
+    "agreement": 0.575,
+    "n_confident": 23,
+    "confident_agreement": 0.522,
+    "n_close": 17,
+    "close_agreement": 0.647,
+    "confident_margin_z": 1.0
+  }
 }

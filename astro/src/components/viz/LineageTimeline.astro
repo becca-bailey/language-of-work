@@ -4,9 +4,15 @@
 // at the year the language first appears in that company's captured snapshots (coverage is
 // continuous per company, so first-appearance is a real signal, not a scraping gap). Opacity
 // scales with similarity. Reads the diffusion over time and its volume at once.
+//
+// Hover/focus opens a real tooltip (one floating card per chart, filled via textContent —
+// quotes are scraped corpus text, so never innerHTML). Marks are focusable for keyboard
+// parity, and each mark's hit area extends ~7px past its painted pixels (::before inset).
 import { lineageConcepts } from "./lineage";
 
-const MIN = 1999, MAX = 2026;
+// Axis starts at the deck (2009). Pre-2009 matches are excluded upstream in
+// track_culture_propagation.py (they can't be descent, only convergence).
+const MIN = 2009, MAX = 2026;
 const x = (y: number) => `${((Math.min(MAX, Math.max(MIN, y)) - MIN) / (MAX - MIN)) * 100}%`;
 // Similarity -> depth of the info-colored echo dot (kept opaque enough to stay visible),
 // derived from the --info token via color-mix so it re-themes with the palette.
@@ -19,10 +25,10 @@ const paraphraseText = "color-mix(in srgb, var(--alert) 45%, black)";
 
 const concepts = (await lineageConcepts()).sort((a, b) =>
   (b.adopters.length - a.adopters.length) || ((b.echoes?.length ?? 0) - (a.echoes?.length ?? 0)));
-const ticks = [2000, 2005, 2010, 2015, 2020, 2025];
+const ticks = [2009, 2015, 2020, 2025];
 ---
 
-<div class="my-6 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
+<div class="lineage-timeline relative my-6 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
   <div class="relative mb-3 ml-[150px] h-4 text-[10px] text-neutral-400">
     {ticks.map((t) => (<span class="absolute -translate-x-1/2" style={`left:${x(t)}`}>{t}</span>))}
   </div>
@@ -38,20 +44,22 @@ const ticks = [2000, 2005, 2010, 2015, 2020, 2025];
           {ticks.map((t) => (<div class="absolute top-1/2 h-1.5 w-px -translate-y-1/2 bg-neutral-200 dark:bg-neutral-800" style={`left:${x(t)}`}></div>))}
           {/* echoes: faint dots by year */}
           {(c.echoes ?? []).map((e) => (
-            <span title={`${e.displayName} ${e.year} · ${e.score.toFixed(2)} (adjacent)\n“${e.example}”`}
-              class="absolute top-1/2 h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 cursor-help rounded-full"
-              style={`left:${x(e.year)};background:${infoMix(dotPct(e.score))}`}></span>
+            <span tabindex="0" class="tl-mark absolute top-1/2 h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 cursor-help rounded-full"
+              data-name={e.displayName} data-year={String(e.year)} data-score={e.score.toFixed(2)}
+              data-kind="adjacent echo" data-quote={e.example}
+              style={`left:${x(e.year)};background:${infoMix(dotPct(e.score))};--key:${infoMix(dotPct(e.score))}`}></span>
           ))}
           {/* borrowed lifts: strong markers */}
           {c.adopters.map((a) => (
-            <span title={`${a.displayName} ${a.year} · ${(a.score ?? 0).toFixed(2)} ${a.verbatim ? "near-verbatim" : "paraphrase"}\n“${a.example}”`}
-              class="absolute top-1/2 z-10 flex h-4 -translate-x-1/2 -translate-y-1/2 items-center rounded px-1 text-[9px] font-medium cursor-help"
-              style={`left:${x(a.year)};background:${a.verbatim ? "var(--alert)" : BORROW_PARAPHRASE};color:${a.verbatim ? "#fff" : paraphraseText}`}>{a.displayName}</span>
+            <span tabindex="0" class="tl-mark absolute top-1/2 z-10 flex h-4 -translate-x-1/2 -translate-y-1/2 items-center rounded px-1 text-[9px] font-medium cursor-help"
+              data-name={a.displayName} data-year={String(a.year)} data-score={(a.score ?? 0).toFixed(2)}
+              data-kind={a.verbatim ? "near-verbatim borrowing" : "paraphrase borrowing"} data-quote={a.example}
+              style={`left:${x(a.year)};background:${a.verbatim ? "var(--alert)" : BORROW_PARAPHRASE};color:${a.verbatim ? "#fff" : paraphraseText};--key:var(--alert)`}>{a.displayName}</span>
           ))}
           {/* Netflix origin: bold anchor */}
-          <span title={`Netflix ${c.originYear ?? 2009} — origin\n“${c.originQuote}”`}
-            class="absolute top-1/2 z-20 h-3.5 w-3.5 -translate-x-1/2 -translate-y-1/2 cursor-help rounded-full border-2 border-white dark:border-neutral-900"
-            style={`left:${x(c.originYear ?? 2009)};background:var(--origin)`}></span>
+          <span tabindex="0" class="tl-mark absolute top-1/2 z-20 h-3.5 w-3.5 -translate-x-1/2 -translate-y-1/2 cursor-help rounded-full border-2 border-white dark:border-neutral-900"
+            data-name="Netflix" data-year={String(c.originYear ?? 2009)} data-kind="origin" data-quote={c.originQuote}
+            style={`left:${x(c.originYear ?? 2009)};background:var(--origin);--key:var(--origin)`}></span>
         </div>
       </div>
     ))}
@@ -61,6 +69,79 @@ const ticks = [2000, 2005, 2010, 2015, 2020, 2025];
     <span><span class="mr-1 inline-block h-2 w-3 rounded-sm align-middle" style="background:var(--alert)"></span>borrowed (near-verbatim)</span>
     <span><span class="mr-1 inline-block h-2 w-3 rounded-sm align-middle" style="background:color-mix(in srgb, var(--alert) 52%, white)"></span>borrowed (paraphrase)</span>
     <span><span class="mr-1 inline-block h-2 w-2 rounded-full align-middle" style="background:color-mix(in srgb, var(--info) 85%, transparent)"></span>adjacent language (fainter = weaker match)</span>
-    <span class="italic">number after label = echo count · hover for quotes</span>
+    <span class="italic">number after label = echo count · hover or focus a mark for the quote</span>
   </p>
+  {/* one tooltip card per chart, repositioned to the hovered/focused mark */}
+  <div class="tl-tip pointer-events-none absolute z-30 hidden w-max max-w-[300px] rounded-md border border-neutral-200 bg-white px-3 py-2 shadow-lg dark:border-neutral-700 dark:bg-neutral-900" role="tooltip" aria-hidden="true">
+    <p class="flex items-center gap-1.5 text-xs">
+      <span class="tl-tip-key inline-block h-0.5 w-3 shrink-0 rounded-full"></span>
+      <strong class="tl-tip-name font-semibold text-neutral-800 dark:text-neutral-100"></strong>
+      <span class="tl-tip-year font-mono text-neutral-500"></span>
+    </p>
+    <p class="tl-tip-meta mt-0.5 text-[10px] uppercase tracking-wide text-neutral-400"></p>
+    <p class="tl-tip-quote mt-1 text-xs italic leading-snug text-neutral-600 dark:text-neutral-300"></p>
+  </div>
 </div>
+
+<style>
+  /* Hit target bigger than the mark: extend ~7px past the painted pixels. */
+  .tl-mark::before {
+    content: "";
+    position: absolute;
+    inset: -7px;
+  }
+  .tl-mark:hover,
+  .tl-mark:focus-visible {
+    outline: 2px solid var(--key, var(--info));
+    outline-offset: 2px;
+  }
+</style>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>(".lineage-timeline")) {
+    const tip = root.querySelector<HTMLElement>(".tl-tip");
+    if (!tip) continue;
+    const name = tip.querySelector<HTMLElement>(".tl-tip-name")!;
+    const year = tip.querySelector<HTMLElement>(".tl-tip-year")!;
+    const meta = tip.querySelector<HTMLElement>(".tl-tip-meta")!;
+    const quote = tip.querySelector<HTMLElement>(".tl-tip-quote")!;
+    const key = tip.querySelector<HTMLElement>(".tl-tip-key")!;
+
+    const show = (mark: HTMLElement) => {
+      // textContent only — quotes are scraped corpus text, never trusted as HTML.
+      name.textContent = mark.dataset.name ?? "";
+      year.textContent = mark.dataset.year ?? "";
+      meta.textContent = mark.dataset.score
+        ? `similarity ${mark.dataset.score} · ${mark.dataset.kind}`
+        : (mark.dataset.kind ?? "");
+      quote.textContent = mark.dataset.quote ? `“${mark.dataset.quote}”` : "";
+      key.style.background = getComputedStyle(mark).getPropertyValue("--key") || "var(--info)";
+      tip.classList.remove("hidden");
+      tip.setAttribute("aria-hidden", "false");
+
+      const rootBox = root.getBoundingClientRect();
+      const markBox = mark.getBoundingClientRect();
+      const tipBox = tip.getBoundingClientRect();
+      let left = markBox.left - rootBox.left + markBox.width / 2 - tipBox.width / 2;
+      left = Math.max(4, Math.min(left, rootBox.width - tipBox.width - 4));
+      let top = markBox.top - rootBox.top - tipBox.height - 8;
+      if (top < 4) top = markBox.bottom - rootBox.top + 8; // flip below near the top edge
+      tip.style.left = `${left}px`;
+      tip.style.top = `${top}px`;
+    };
+    const hide = () => {
+      tip.classList.add("hidden");
+      tip.setAttribute("aria-hidden", "true");
+    };
+
+    for (const mark of root.querySelectorAll<HTMLElement>(".tl-mark")) {
+      mark.addEventListener("pointerenter", () => show(mark));
+      mark.addEventListener("pointerleave", hide);
+      mark.addEventListener("focus", () => show(mark));
+      mark.addEventListener("blur", hide);
+    }
+    root.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") hide();
+    });
+  }
+</script>

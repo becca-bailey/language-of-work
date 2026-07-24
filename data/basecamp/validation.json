@@ -2,88 +2,88 @@
   "ground_truth_chunk": {
     "level": "chunk",
     "altruism_peak_year": 2023,
-    "altruism_control_correlation": 0.329,
-    "correlation_p": 0.251,
-    "control_decoupled": true,
+    "altruism_control_correlation": 0.839,
+    "correlation_p": 0.0,
+    "control_decoupled": false,
     "peak_within_expected": null
   },
   "ground_truth_sentence": {
     "level": "sentence",
     "altruism_peak_year": 2021,
-    "altruism_control_correlation": 0.453,
-    "correlation_p": 0.103,
-    "control_decoupled": true,
+    "altruism_control_correlation": 0.744,
+    "correlation_p": 0.0,
+    "control_decoupled": false,
     "peak_within_expected": null
   },
   "perturbation": {
     "per_sentence": [
       {
         "dropped": "A0: We believe technology has the power to solve humanity's greatest challenges.",
-        "spearman": 0.993
+        "spearman": 0.995
       },
       {
         "dropped": "A1: Join us in building products that leave the world better than we found it.",
-        "spearman": 0.986
+        "spearman": 0.992
       },
       {
         "dropped": "A2: Our mission is to create innovations that uplift communities and transform lives for the better.",
-        "spearman": 0.989
+        "spearman": 0.994
       },
       {
         "dropped": "A3: At our company, we measure success by the positive impact we create in society.",
-        "spearman": 0.982
+        "spearman": 0.99
       },
       {
         "dropped": "A4: We envision a future where technology serves as a force for universal good.",
-        "spearman": 0.993
+        "spearman": 0.996
       },
       {
         "dropped": "A5: We're building something bigger than ourselves—a legacy of meaningful progress.",
-        "spearman": 0.996
+        "spearman": 0.997
       },
       {
         "dropped": "A6: Come help us pursue breakthroughs that will benefit generations to come.",
-        "spearman": 0.996
+        "spearman": 0.998
       },
       {
         "dropped": "A7: Join us in our quest to unlock technology's potential for human flourishing.",
-        "spearman": 0.993
-      },
-      {
-        "dropped": "B0: You'll work alongside teams who measure success in customer acquisition, retention, and sustainable growth.",
-        "spearman": 0.993
-      },
-      {
-        "dropped": "B1: We prioritize features based on commercial value and ship solutions that move the bottom line.",
-        "spearman": 1.0
-      },
-      {
-        "dropped": "B2: We invest in innovation that creates competitive advantage and generates measurable returns.",
-        "spearman": 0.989
-      },
-      {
-        "dropped": "B3: Join us if you want your work to directly contribute to revenue growth and market expansion.",
-        "spearman": 0.975
-      },
-      {
-        "dropped": "B4: Our technical strategy is shaped by competitive positioning and customer willingness to pay.",
-        "spearman": 0.993
-      },
-      {
-        "dropped": "B5: Our product roadmap reflects what the market demands, and we pivot quickly when customer feedback requires it.",
         "spearman": 0.996
       },
       {
+        "dropped": "B0: You'll work alongside teams who measure success in customer acquisition, retention, and sustainable growth.",
+        "spearman": 0.996
+      },
+      {
+        "dropped": "B1: We prioritize features based on commercial value and ship solutions that move the bottom line.",
+        "spearman": 0.999
+      },
+      {
+        "dropped": "B2: We invest in innovation that creates competitive advantage and generates measurable returns.",
+        "spearman": 0.994
+      },
+      {
+        "dropped": "B3: Join us if you want your work to directly contribute to revenue growth and market expansion.",
+        "spearman": 0.979
+      },
+      {
+        "dropped": "B4: Our technical strategy is shaped by competitive positioning and customer willingness to pay.",
+        "spearman": 0.995
+      },
+      {
+        "dropped": "B5: Our product roadmap reflects what the market demands, and we pivot quickly when customer feedback requires it.",
+        "spearman": 0.998
+      },
+      {
         "dropped": "B6: We build technology that solves real problems for paying customers.",
-        "spearman": 0.989
+        "spearman": 0.994
       },
       {
         "dropped": "B7: You'll collaborate with colleagues who understand that great technology must also make financial sense.",
-        "spearman": 0.982
+        "spearman": 0.99
       }
     ],
-    "min_spearman": 0.975,
-    "mean_spearman": 0.99,
+    "min_spearman": 0.979,
+    "mean_spearman": 0.994,
     "robust": true
   },
   "axis_separation": [
@@ -93,10 +93,409 @@
         "performance"
       ],
       "vector_cosine": 0.093,
-      "chunk_r": 0.657,
+      "chunk_r": 0.646,
       "chunk_p": 0.0,
-      "n_chunks": 374,
+      "n_chunks": 385,
       "separated": false
     }
-  ]
+  ],
+  "tournament": {
+    "judgments": [
+      {
+        "pair": [
+          2003,
+          2024
+        ],
+        "winner": 2024
+      },
+      {
+        "pair": [
+          2002,
+          2017
+        ],
+        "winner": 2002
+      },
+      {
+        "pair": [
+          2014,
+          2016
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2010,
+          2019
+        ],
+        "winner": 2010
+      },
+      {
+        "pair": [
+          2009,
+          2026
+        ],
+        "winner": 2009
+      },
+      {
+        "pair": [
+          2004,
+          2017
+        ],
+        "winner": 2004
+      },
+      {
+        "pair": [
+          2003,
+          2022
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2003,
+          2018
+        ],
+        "winner": 2003
+      },
+      {
+        "pair": [
+          2019,
+          2020
+        ],
+        "winner": 2019
+      },
+      {
+        "pair": [
+          2002,
+          2014
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2002,
+          2010
+        ],
+        "winner": 2002
+      },
+      {
+        "pair": [
+          2002,
+          2022
+        ],
+        "winner": 2002
+      },
+      {
+        "pair": [
+          2003,
+          2023
+        ],
+        "winner": 2023
+      },
+      {
+        "pair": [
+          2003,
+          2025
+        ],
+        "winner": 2003
+      },
+      {
+        "pair": [
+          2010,
+          2021
+        ],
+        "winner": 2010
+      },
+      {
+        "pair": [
+          2014,
+          2023
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2021,
+          2026
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2014,
+          2017
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2003,
+          2021
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2017,
+          2018
+        ],
+        "winner": 2017
+      },
+      {
+        "pair": [
+          2016,
+          2019
+        ],
+        "winner": 2019
+      },
+      {
+        "pair": [
+          2016,
+          2025
+        ],
+        "winner": 2016
+      },
+      {
+        "pair": [
+          2010,
+          2026
+        ],
+        "winner": 2010
+      },
+      {
+        "pair": [
+          2009,
+          2022
+        ],
+        "winner": 2009
+      },
+      {
+        "pair": [
+          2025,
+          2026
+        ],
+        "winner": 2025
+      },
+      {
+        "pair": [
+          2023,
+          2025
+        ],
+        "winner": 2023
+      },
+      {
+        "pair": [
+          2014,
+          2021
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2023,
+          2024
+        ],
+        "winner": 2023
+      },
+      {
+        "pair": [
+          2018,
+          2022
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2002,
+          2003
+        ],
+        "winner": 2003
+      },
+      {
+        "pair": [
+          2017,
+          2024
+        ],
+        "winner": 2017
+      },
+      {
+        "pair": [
+          2018,
+          2026
+        ],
+        "winner": 2018
+      },
+      {
+        "pair": [
+          2003,
+          2016
+        ],
+        "winner": 2003
+      },
+      {
+        "pair": [
+          2019,
+          2026
+        ],
+        "winner": 2019
+      },
+      {
+        "pair": [
+          2009,
+          2023
+        ],
+        "winner": 2009
+      },
+      {
+        "pair": [
+          2004,
+          2025
+        ],
+        "winner": 2025
+      },
+      {
+        "pair": [
+          2022,
+          2024
+        ],
+        "winner": 2022
+      },
+      {
+        "pair": [
+          2003,
+          2014
+        ],
+        "winner": 2014
+      },
+      {
+        "pair": [
+          2021,
+          2024
+        ],
+        "winner": 2021
+      },
+      {
+        "pair": [
+          2018,
+          2019
+        ],
+        "winner": 2019
+      }
+    ],
+    "strengths": {
+      "2002": 0.0022794892815819865,
+      "2003": 0.00034030965624357143,
+      "2004": 7.236393180859532e-05,
+      "2009": 0.5696191859977039,
+      "2010": 0.002332753234176256,
+      "2014": 0.4119931785172257,
+      "2016": 9.757066536326783e-05,
+      "2017": 8.462810181574883e-05,
+      "2018": 4.032827445148211e-07,
+      "2019": 0.0004934697785088636,
+      "2020": 0.0,
+      "2021": 0.0011236178278095942,
+      "2022": 0.0011141090203820726,
+      "2023": 0.010277028904062457,
+      "2024": 0.00011050816911790304,
+      "2025": 6.138363145549651e-05,
+      "2026": 0.0
+    }
+  },
+  "tournament_spearman_chunk": -0.064,
+  "tournament_spearman_sentence": -0.15,
+  "early_year_agreement": {
+    "note": "insufficient early-year tournament coverage"
+  },
+  "control_decoupling": [
+    {
+      "axis": "altruism",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.839,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.917,
+      "control_r_topk_vs_logn": 0.915,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "craft",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.722,
+      "control_p": 0.001,
+      "r_topk_vs_logn": 0.558,
+      "control_r_topk_vs_logn": 0.915,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "inclusion",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.748,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.819,
+      "control_r_topk_vs_logn": 0.915,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "meritocracy",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.785,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.813,
+      "control_r_topk_vs_logn": 0.915,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "performance",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.704,
+      "control_p": 0.001,
+      "r_topk_vs_logn": 0.763,
+      "control_r_topk_vs_logn": 0.915,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "techno_optimism",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.787,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.633,
+      "control_r_topk_vs_logn": 0.915,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "wellbeing",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.966,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.921,
+      "control_r_topk_vs_logn": 0.915,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "wellbeing_locus",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.813,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.782,
+      "control_r_topk_vs_logn": 0.915,
+      "diagnosis": "pool_size_suspect"
+    }
+  ],
+  "tournament_agreement": {
+    "n": 40,
+    "agreement": 0.475,
+    "n_confident": 22,
+    "confident_agreement": 0.318,
+    "n_close": 18,
+    "close_agreement": 0.667,
+    "confident_margin_z": 1.0
+  }
 }

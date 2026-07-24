@@ -1,0 +1,415 @@
+{
+  "company": "engine",
+  "displayName": "Engine",
+  "axis": "ai",
+  "caveat": "Framing projections have ~4 years of real signal by construction; per-company timing is not comparable until corpus gaps are filled.",
+  "years": [
+    {
+      "year": 2013,
+      "totalChunks": 2,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2014,
+      "totalChunks": 7,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2016,
+      "totalChunks": 4,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2017,
+      "totalChunks": 3,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": true,
+      "labels": {
+        "mission_brand": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2019,
+      "totalChunks": 13,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 8,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2020,
+      "totalChunks": 9,
+      "aiChunks": 1,
+      "prevalence": 0.1111,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
+        "mission_brand": {
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 1
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0389,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.0389,
+          "nChunks": 1,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "57da2404b9faa487",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.0389,
+          "text": "Fun fact: I’ve been a hobbyist beekeeper since I was 15, and my very first company sold honey. Fun fact: I secretly wish I could be an American Idol superstar. Fun fact: I am an avid reader, regularly finishing more than 100 books a year. Fun fact: I’ve lived in five states in the past eight years, and I’m happy to settle in Denver as my forever home. Fun fact: I’m an artisan baker and make loaves"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "totalChunks": 14,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2022,
+      "totalChunks": 34,
+      "aiChunks": 1,
+      "prevalence": 0.0294,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 5,
+          "ai_chunks": 1,
+          "mentions": 2
+        },
+        "mission_brand": {
+          "chunks": 24,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 2
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0287,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.0287,
+          "nChunks": 1,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "5ffd9f29cc79747c",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.0287,
+          "text": "John brings over 20 years of professional software experience working in large, medium, and small businesses. He founded multiple startups including 60mo — a tool for forecasting and analyzing businesses’ finance, HR and shareholder data — and ExpenseBot, an automated expense management system. Prior to Hotel Engine, John served as the Senior Software Engineer at Travelers Haven and the technical "
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "totalChunks": 34,
+      "aiChunks": 2,
+      "prevalence": 0.0588,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 12,
+          "ai_chunks": 2,
+          "mentions": 2
+        },
+        "mission_brand": {
+          "chunks": 19,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "machine learning": 2
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0392,
+          "nChunks": 2,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.0392,
+          "nChunks": 2,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "1f0f3097943e7614",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.052,
+          "text": "Prior to joining Hotel Engine, Florent was leading the data science and machine learning team at Sonder, a tech-driven hospitality company based in San Francisco. He built the team from the ground up and worked on the development of the company’s proprietary models and algorithms for real-estate valuation and dynamic pricing. Prior to that, Florent was a staff scientist and head of solutions engin"
+        },
+        {
+          "chunk_id": "a1a170f5455bd297",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.0264,
+          "text": "He currently serves as a board member for Children of Uganda, where he utilizes his experience in budgeting, yield management, negotiations, marketing, profit analysis, and building high-performing teams to help the organization reach its goals of empowering and educating women and youth in Uganda. Fun Fact: Anwar is an artisan baker and make loaves of bread weekly. John Siladie is Hotel Engine’s "
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "totalChunks": 44,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "employee_story": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 39,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2025,
+      "totalChunks": 18,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 17,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2026,
+      "totalChunks": 34,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 32,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    }
+  ]
+}

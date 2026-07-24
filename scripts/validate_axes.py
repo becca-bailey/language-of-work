@@ -152,8 +152,57 @@ def embedding_vs_llm(
     alt = scores[(scores["axis"] == axis) & (scores["level"] == level)].sort_values("year")
     emb_rank = alt.set_index("year")["zscore"]
     llm_rank = pd.Series({int(y): s for y, s in tournament_result["strengths"].items()})
-    rho, _ = spearmanr(emb_rank.sort_index(), llm_rank.sort_index())
+    # Intersect: the ranking may cover years the tournament never saw
+    # (e.g. years resurrected by a corpus/methodology change after the run).
+    common = emb_rank.index.intersection(llm_rank.index).sort_values()
+    rho, _ = spearmanr(emb_rank.loc[common], llm_rank.loc[common])
     return round(float(rho), 3)
+
+
+CONFIDENT_MARGIN_Z = 1.0   # |Δz| at/above which the embedding is "confident"
+AGREEMENT_GATE = 0.8       # primary gate: duel agreement on confident pairs
+
+
+def pairwise_agreement(
+    scores: pd.DataFrame, judgments: list[dict], level: str = "chunk", axis: str = "altruism"
+) -> dict:
+    """Duel-level agreement between stored judge decisions and the CURRENT
+    embedding ranking — the PRIMARY tournament statistic (2026-07-21).
+
+    Robust at small pair budgets where Bradley-Terry+Spearman is schedule-luck
+    noise (bootstrap sd ≈0.13 at 40 pairs; google's 0.52-vs-gate was aggregation
+    noise over 24 years at ~3 games/year, while duel agreement was 88%). The
+    margin split is the signature check: two instruments sharing real signal
+    agree strongly on confident pairs and dissolve toward a coin flip on close
+    ones. Judgments are reusable data — this recomputes against whatever the
+    current ranking is, no new judge calls.
+    """
+    z = scores[(scores["axis"] == axis) & (scores["level"] == level)].set_index("year")["zscore"]
+    rows = []
+    for j in judgments:
+        a, b = j["pair"]
+        if a not in z.index or b not in z.index:
+            continue
+        emb_winner = a if z[a] > z[b] else b
+        rows.append((abs(z[a] - z[b]), emb_winner == j["winner"]))
+    if not rows:
+        return {"n": 0}
+    conf = [h for m, h in rows if m >= CONFIDENT_MARGIN_Z]
+    close = [h for m, h in rows if m < CONFIDENT_MARGIN_Z]
+    return {
+        "n": len(rows),
+        "agreement": round(sum(h for _, h in rows) / len(rows), 3),
+        "n_confident": len(conf),
+        "confident_agreement": round(sum(conf) / len(conf), 3) if conf else None,
+        "n_close": len(close),
+        "close_agreement": round(sum(close) / len(close), 3) if close else None,
+        "confident_margin_z": CONFIDENT_MARGIN_Z,
+    }
+
+
+def games_per_year(judgments: list[dict]) -> float:
+    years = {y for j in judgments for y in j["pair"]}
+    return round(2 * len(judgments) / len(years), 1) if years else 0.0
 
 
 def early_year_agreement(
@@ -200,6 +249,58 @@ def perturbation_check(company: str) -> dict:
     rhos = [c["spearman"] for c in correlations]
     return {"per_sentence": correlations, "min_spearman": min(rhos),
             "mean_spearman": round(sum(rhos) / len(rhos), 3), "robust": min(rhos) >= 0.8}
+
+
+CONTROL_COUPLING_GATE = 0.5   # |r| below this = decoupled (matches ground_truth_check)
+POOL_SIZE_R_GATE = 0.5        # r(topk, log n) above this on axis AND control = pool-size suspect
+
+
+def control_decoupling_check(scores: pd.DataFrame, level: str = "chunk") -> list[dict]:
+    """Placebo check for every axis, not just altruism (extended 2026-07-21).
+
+    Coupling with the values-neutral control axis flags composition-driven
+    trends. The log(n) correlation separates the two confounds control can't
+    distinguish alone: adaptive top-k mechanically rises with pool size on ANY
+    axis (order-statistic inflation), vs a genuine logistics/office mix shift.
+    If the axis AND control both track log(n), suspect pool size; if the axis
+    couples with control but neither tracks n, suspect mix shift.
+    """
+    ctrl = scores[(scores["axis"] == "control") & (scores["level"] == level)]
+    if ctrl.empty:
+        return []
+    ctrl = ctrl.dropna(subset=["raw_topk_mean"]).set_index("year")
+    out = []
+    for axis in sorted(scores["axis"].unique()):
+        if axis == "control":
+            continue
+        ax = (scores[(scores["axis"] == axis) & (scores["level"] == level)]
+              .dropna(subset=["raw_topk_mean"]).set_index("year"))
+        common = ax.index.intersection(ctrl.index)
+        if len(common) < 4:
+            continue
+        a, c = ax.loc[common], ctrl.loc[common]
+        r, p = pearsonr(a["raw_topk_mean"], c["raw_topk_mean"])
+        logn = np.log(a["n_chunks"].astype(float))
+        if logn.nunique() > 1:
+            r_n_axis, _ = pearsonr(a["raw_topk_mean"], logn)
+            r_n_ctrl, _ = pearsonr(c["raw_topk_mean"], logn)
+        else:
+            r_n_axis = r_n_ctrl = float("nan")
+        coupled = abs(r) >= CONTROL_COUPLING_GATE
+        if not coupled:
+            diagnosis = "decoupled"
+        elif r_n_axis >= POOL_SIZE_R_GATE and r_n_ctrl >= POOL_SIZE_R_GATE:
+            diagnosis = "pool_size_suspect"
+        else:
+            diagnosis = "mix_shift_suspect"
+        out.append({
+            "axis": axis, "level": level, "n_years": len(common),
+            "control_r": round(float(r), 3), "control_p": round(float(p), 3),
+            "r_topk_vs_logn": round(float(r_n_axis), 3) if r_n_axis == r_n_axis else None,
+            "control_r_topk_vs_logn": round(float(r_n_ctrl), 3) if r_n_ctrl == r_n_ctrl else None,
+            "diagnosis": diagnosis,
+        })
+    return out
 
 
 AXIS_SEPARATION_PAIRS = [("craft", "performance")]
@@ -264,8 +365,24 @@ def write_report(cdir, results: dict, profile: CompanyProfile) -> None:
             _peak_line(gt_sent),
             f"- Altruism-control correlation: {gt_sent['altruism_control_correlation']}", "",
         ]
+    def _agreement_lines(agr: dict | None, judgments: list[dict]) -> list[str]:
+        out = []
+        if agr and agr.get("n"):
+            ca = agr.get("confident_agreement")
+            gate = "PASS" if (ca or 0) >= AGREEMENT_GATE else "INVESTIGATE"
+            ca_s = f"{ca:.0%} ({agr['n_confident']} pairs)" if ca is not None else "n/a"
+            cl = agr.get("close_agreement")
+            cl_s = f"{cl:.0%} ({agr['n_close']})" if cl is not None else "n/a"
+            out.append(f"- Duel agreement (PRIMARY): **{agr['agreement']:.0%}** of {agr['n']}; "
+                       f"confident |Δz|≥{agr['confident_margin_z']}: **{ca_s}** — {gate}; close: {cl_s}")
+        gpy = games_per_year(judgments)
+        note = "" if gpy >= 10 else f" (≈{gpy} games/yr; BT ranking needs ~10 to be stable)"
+        return out + [f"- Spearman is the timeline-shape statistic, secondary{note}"]
+
     lines += ["## 2. LLM pairwise tournament"]
     if "tournament" in results:
+        lines += _agreement_lines(results.get("tournament_agreement"),
+                                  results["tournament"]["judgments"])
         lines += [
             f"- Chunk embedding-vs-LLM Spearman: **{results['tournament_spearman_chunk']}**",
             f"- Sentence embedding-vs-LLM Spearman: **{results.get('tournament_spearman_sentence', 'n/a')}**",
@@ -280,10 +397,10 @@ def write_report(cdir, results: dict, profile: CompanyProfile) -> None:
     else:
         lines += ["- Skipped (--skip-tournament)", ""]
     for axis, t in results.get("tournaments", {}).items():
-        gate = "PASS" if (t["spearman_chunk"] or 0) >= 0.6 else "BELOW GATE (0.6): INVESTIGATE"
+        lines += [f"### {axis} tournament"]
+        lines += _agreement_lines(t.get("agreement"), t["tournament"]["judgments"])
         lines += [
-            f"### {axis} tournament",
-            f"- Chunk embedding-vs-LLM Spearman: **{t['spearman_chunk']}** — {gate}",
+            f"- Chunk embedding-vs-LLM Spearman: **{t['spearman_chunk']}**",
             f"- Sentence embedding-vs-LLM Spearman: **{t['spearman_sentence']}**",
             f"- {len(t['tournament']['judgments'])} pairwise judgments", "",
         ]
@@ -303,8 +420,19 @@ def write_report(cdir, results: dict, profile: CompanyProfile) -> None:
                 f"chunk-level r={s['chunk_r']} (n={s['n_chunks']}) — {verdict}"
             )
         lines.append("")
+    ctrl = results.get("control_decoupling", [])
+    if ctrl:
+        lines += ["## 5. Control decoupling (all axes, chunk level)", "",
+                  "| axis | r vs control | r(topk, log n) | diagnosis |",
+                  "|---|---|---|---|"]
+        for d in ctrl:
+            mark = {"decoupled": "PASS",
+                    "pool_size_suspect": "POOL-SIZE: top-k inflation, fix estimator",
+                    "mix_shift_suspect": "MIX-SHIFT: composition change, read trend cautiously"}[d["diagnosis"]]
+            lines.append(f"| {d['axis']} | {d['control_r']} | {d['r_topk_vs_logn']} | {mark} |")
+        lines.append("")
     if profile.validation and profile.validation.notes:
-        lines += ["## 5. Data expansion notes", ""]
+        lines += ["## 6. Data expansion notes", ""]
         lines += [f"- {note}" for note in profile.validation.notes]
         lines += ["", "Disagreements are case studies, not silent overrides.", ""]
     else:
@@ -312,7 +440,8 @@ def write_report(cdir, results: dict, profile: CompanyProfile) -> None:
     (cdir / "validation_report.md").write_text("\n".join(lines) + "\n")
 
 
-def main(company: str, n_pairs: int, seed: int, skip_tournament: bool, axes: list[str]) -> None:
+def main(company: str, n_pairs: int | None, seed: int, skip_tournament: bool,
+         axes: list[str], backfill_agreement: bool = False) -> None:
     profile = CompanyProfile.load(company)
     validation = profile.validation
     cdir = company_dir(company)
@@ -327,29 +456,58 @@ def main(company: str, n_pairs: int, seed: int, skip_tournament: bool, axes: lis
     print(f"Ground truth (chunk): {results['ground_truth_chunk']}")
     print(f"Ground truth (sentence): {results['ground_truth_sentence']}")
 
+    if backfill_agreement:
+        # Recompute agreement + spearman from STORED judgments against the
+        # current ranking. Judgments are fixed data; the comparison target
+        # moves with the methodology. No judge calls.
+        if "tournament" in results:
+            tour = results["tournament"]
+            results["tournament_agreement"] = pairwise_agreement(
+                scores, tour["judgments"], "chunk", "altruism")
+            results["tournament_spearman_chunk"] = embedding_vs_llm(scores, tour, "chunk", "altruism")
+            results["tournament_spearman_sentence"] = embedding_vs_llm(scores, tour, "sentence", "altruism")
+            print(f"[altruism] backfilled agreement: {results['tournament_agreement']}")
+        for axis, t in results.get("tournaments", {}).items():
+            t["agreement"] = pairwise_agreement(scores, t["tournament"]["judgments"], "chunk", axis)
+            t["spearman_chunk"] = embedding_vs_llm(scores, t["tournament"], "chunk", axis)
+            t["spearman_sentence"] = embedding_vs_llm(scores, t["tournament"], "sentence", axis)
+            print(f"[{axis}] backfilled agreement: {t['agreement']}")
+        write_json(cdir / "validation.json", results)
+        write_report(cdir, results, profile)
+        print(f"Wrote {cdir / 'validation_report.md'} (backfill)")
+        return
+
     if not skip_tournament:
         for axis in axes:
             if axis not in AXIS_TOURNAMENTS:
                 raise SystemExit(f"no tournament question defined for axis '{axis}' "
                                  f"(have: {', '.join(AXIS_TOURNAMENTS)})")
             years = scores[(scores["axis"] == axis) & (scores["level"] == "chunk")]["year"].tolist()
-            print(f"[{axis}] tournament over {len(years)} years, {n_pairs} pairs:")
-            tour = tournament(quotes, years, n_pairs, seed, level="chunk", axis=axis)
+            # Default budget scales with year count: BT standings need ~10
+            # games/year to escape schedule luck (fixed 40 over 24 years was
+            # ~3 games/year — the google lesson). Explicit --n-pairs overrides.
+            n_pairs_eff = n_pairs or min(5 * len(years), len(years) * (len(years) - 1) // 2)
+            print(f"[{axis}] tournament over {len(years)} years, {n_pairs_eff} pairs:")
+            tour = tournament(quotes, years, n_pairs_eff, seed, level="chunk", axis=axis)
+            agr = pairwise_agreement(scores, tour["judgments"], "chunk", axis=axis)
             sp_chunk = embedding_vs_llm(scores, tour, "chunk", axis=axis)
             sp_sent = embedding_vs_llm(scores, tour, "sentence", axis=axis)
             early = early_year_agreement(scores, tour, axis=axis)
             if axis == "altruism":  # legacy output shape, unchanged
                 results["tournament"] = tour
+                results["tournament_agreement"] = agr
                 results["tournament_spearman_chunk"] = sp_chunk
                 results["tournament_spearman_sentence"] = sp_sent
                 results["early_year_agreement"] = early
             else:
                 results.setdefault("tournaments", {})[axis] = {
                     "tournament": tour,
+                    "agreement": agr,
                     "spearman_chunk": sp_chunk,
                     "spearman_sentence": sp_sent,
                     "early_year_agreement": early,
                 }
+            print(f"[{axis}] duel agreement (PRIMARY): {agr}")
             print(f"[{axis}] chunk vs LLM: {sp_chunk}")
             print(f"[{axis}] sentence vs LLM: {sp_sent}")
             print(f"[{axis}] early years: {early}")
@@ -363,6 +521,11 @@ def main(company: str, n_pairs: int, seed: int, skip_tournament: bool, axes: lis
         print(f"Axis separation {s['axes']}: cosine {s['vector_cosine']}, "
               f"chunk r={s['chunk_r']} -> {'PASS' if s['separated'] else 'OVERLAP'}")
 
+    results["control_decoupling"] = control_decoupling_check(scores, "chunk")
+    for d in results["control_decoupling"]:
+        print(f"Control decoupling {d['axis']}: r={d['control_r']} "
+              f"r(topk,logn)={d['r_topk_vs_logn']} -> {d['diagnosis']}")
+
     write_json(cdir / "validation.json", results)
     write_report(cdir, results, profile)
     print(f"Wrote {cdir / 'validation_report.md'}")
@@ -371,9 +534,13 @@ def main(company: str, n_pairs: int, seed: int, skip_tournament: bool, axes: lis
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--company", default="google")
-    parser.add_argument("--n-pairs", type=int, default=40)
+    parser.add_argument("--n-pairs", type=int, default=None,
+                        help="pairs per tournament (default: 5 x n_years, capped at all pairs)")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--skip-tournament", action="store_true")
+    parser.add_argument("--backfill-agreement", action="store_true",
+                        help="recompute duel agreement + spearman from stored judgments "
+                             "against the current ranking; no judge calls")
     parser.add_argument(
         "--axes", default="altruism",
         help="Comma-separated axes to run tournaments for "
@@ -381,4 +548,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     main(args.company, args.n_pairs, args.seed, args.skip_tournament,
-         [a.strip() for a in args.axes.split(",") if a.strip()])
+         [a.strip() for a in args.axes.split(",") if a.strip()],
+         backfill_agreement=args.backfill_agreement)

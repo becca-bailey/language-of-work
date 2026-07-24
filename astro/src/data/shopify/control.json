@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2010,
-      "zscore": -0.391,
+      "zscore": -0.7338,
       "rawTopkMean": 0.0069,
       "nChunks": 9,
       "kUsed": 5,
@@ -41,9 +41,9 @@
     },
     {
       "year": 2011,
-      "zscore": -1.3963,
-      "rawTopkMean": -0.0518,
-      "nChunks": 6,
+      "zscore": -1.6399,
+      "rawTopkMean": -0.0397,
+      "nChunks": 7,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -64,22 +64,22 @@
           "score": -0.0374
         },
         {
+          "text": "Shopify is looking for some awesome new talent to come join us.",
+          "heading": "Come in, we're hiring!",
+          "score": -0.0542
+        },
+        {
           "text": "You'll be working in an amazing team with tons of benefits and perks.",
           "heading": "Come in, we're hiring!",
           "score": -0.0715
-        },
-        {
-          "text": "It currently hosts more than 10,000 online retailers, including Tesla Motors, Penny Arcade, Amnesty International, Angry Birds, and General Electric.",
-          "heading": "About Shopify",
-          "score": -0.1145
         }
       ]
     },
     {
       "year": 2012,
-      "zscore": -0.1484,
-      "rawTopkMean": 0.0211,
-      "nChunks": 30,
+      "zscore": -0.3737,
+      "rawTopkMean": 0.0254,
+      "nChunks": 34,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -105,17 +105,53 @@
           "score": 0.0002
         },
         {
-          "text": "Shopify is looking for brilliant people to join us.",
-          "heading": "Come on in, we're hiring!",
-          "score": -0.0296
+          "text": "Shopify is the Internet’s most elegant, simple and affordable online retail platform aimed at providing businesses with easy to use ecommerce solutions, taking the challenge out of setting up and managing ecommerce storefronts.",
+          "heading": "About Shopify",
+          "score": -0.0077
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "zscore": -0.8411,
+      "rawTopkMean": 0.0014,
+      "nChunks": 18,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "You are the very best at what you do — and that’s why we want to hire you.",
+          "heading": "Our Culture",
+          "score": 0.0848
+        },
+        {
+          "text": "But we do believe in you.",
+          "heading": "Our Culture",
+          "score": 0.0415
+        },
+        {
+          "text": "Brittany Forsyth , HR Manager Awesome people.",
+          "heading": "Our Culture",
+          "score": -0.0308
+        },
+        {
+          "text": "Our mission is simple: make commerce better.",
+          "heading": "Our Culture",
+          "score": -0.0427
+        },
+        {
+          "text": "Alex MacDonell , Design Lead Shopify allows you to work on exciting, challenging projects with some amazingly talented people.",
+          "heading": "Our Culture",
+          "score": -0.046
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": 0.6823,
-      "rawTopkMean": 0.0696,
-      "nChunks": 27,
+      "zscore": 0.6867,
+      "rawTopkMean": 0.08,
+      "nChunks": 45,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -124,6 +160,11 @@
           "text": "And if you make a mistake?",
           "heading": "You’ll fit right in",
           "score": 0.1069
+        },
+        {
+          "text": "You are the very best at what you do — and that’s why we want to hire you.",
+          "heading": "Our Culture",
+          "score": 0.0848
         },
         {
           "text": "Here at Shopify, we take hiring very seriously.",
@@ -139,26 +180,21 @@
           "text": "Follow our Head of Talent Acquisition, Doug Tetzner, as he attempts to find the perfect employee -- in a very unusual way.",
           "heading": "Product Management",
           "score": 0.0602
-        },
-        {
-          "text": "Find something that interests you, and own it.",
-          "heading": "You’ll fit right in",
-          "score": 0.0326
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": 0.3446,
-      "rawTopkMean": 0.0498,
-      "nChunks": 31,
+      "zscore": 0.1087,
+      "rawTopkMean": 0.0503,
+      "nChunks": 38,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
           "text": "And if you make a mistake?",
-          "heading": "Life at Shopify",
+          "heading": "You'll fit right in",
           "score": 0.1069
         },
         {
@@ -172,43 +208,58 @@
           "score": 0.037
         },
         {
+          "text": "Find something that interests you, and own it.",
+          "heading": "You'll fit right in",
+          "score": 0.0326
+        },
+        {
           "text": "You can really get your hands dirty.",
           "heading": "Our Mission",
           "score": 0.0318
-        },
-        {
-          "text": "You get the tools you need to do great things, but it’s up to you to make it happen.",
-          "heading": "Life at Shopify",
-          "score": 0.0305
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": -1.9009,
-      "rawTopkMean": -0.0813,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -1.1199,
+      "rawTopkMean": -0.013,
+      "nChunks": 19,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Changing the face of commerce is no small feat.",
-          "heading": "Shopifolk",
-          "score": -0.0629
+          "text": "We want the best, no matter where you come from.",
+          "heading": "20 countries",
+          "score": 0.006
         },
         {
-          "text": "We need a big team to bring our ideas to life.",
-          "heading": "Shopifolk",
-          "score": -0.0996
+          "text": "I’m always finding new challenges, and being bored is not something I worry about.",
+          "heading": "Our Mission",
+          "score": 0.0036
+        },
+        {
+          "text": "To truly change the future of commerce, we need your help.",
+          "heading": "Our Mission",
+          "score": -0.0154
+        },
+        {
+          "text": "Every store will need an ecommerce website.",
+          "heading": "Our Mission",
+          "score": -0.0271
+        },
+        {
+          "text": "I’m always engaged and excited about the work we’re doing.",
+          "heading": "20 countries",
+          "score": -0.032
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.3547,
+      "zscore": 0.1121,
       "rawTopkMean": 0.0504,
-      "nChunks": 22,
+      "nChunks": 24,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -242,9 +293,9 @@
     },
     {
       "year": 2018,
-      "zscore": 1.1071,
-      "rawTopkMean": 0.0944,
-      "nChunks": 23,
+      "zscore": 1.3416,
+      "rawTopkMean": 0.1137,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -253,6 +304,11 @@
           "text": "We’d like to save you some of that effort by applying to you, first.",
           "heading": "February 01, 2018",
           "score": 0.1732
+        },
+        {
+          "text": "For that reason we strongly encourage international applicants to put their hat in the ring and apply!",
+          "heading": "Our Mission",
+          "score": 0.1443
         },
         {
           "text": "It takes time and effort to get to know a company – to be sure it’s the kind of place where you can make an impact, somewhere you want to invest your talent and energy, and do your life’s work.",
@@ -268,36 +324,31 @@
           "text": "We’ve read a lot of cover letters over the years.",
           "heading": "February 01, 2018",
           "score": 0.0617
-        },
-        {
-          "text": "If you’re impactful, ambitious, and passionate about shaping the future of commerce, check out our resume or jump straight to jobs .",
-          "heading": "February 01, 2018",
-          "score": 0.0476
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 1.0331,
-      "rawTopkMean": 0.09,
-      "nChunks": 10,
+      "zscore": 0.9639,
+      "rawTopkMean": 0.0943,
+      "nChunks": 25,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
           "text": "We’d like to save you some of that effort by applying to you, first.",
-          "heading": "April 01, 2019",
+          "heading": "February 02, 2019",
           "score": 0.1732
         },
         {
           "text": "It takes time and effort to get to know a company – to be sure it’s the kind of place where you can make an impact, somewhere you want to invest your talent and energy, and do your life’s work.",
-          "heading": "April 01, 2019",
+          "heading": "February 02, 2019",
           "score": 0.0973
         },
         {
           "text": "Finding the right job is hard work.",
-          "heading": "April 01, 2019",
+          "heading": "February 02, 2019",
           "score": 0.0922
         },
         {
@@ -306,53 +357,53 @@
           "score": 0.0617
         },
         {
-          "text": "If you’re ambitious, make an impact everywhere you go, and you’re ready to shape the future of commerce with us, check out our resumé or jump straight to jobs .",
-          "heading": "April 01, 2019",
-          "score": 0.0259
+          "text": "Quote from: Satish Kanwar Vice President of Product Shopify taught me it’s never too late to take a leap.",
+          "heading": "Achievements",
+          "score": 0.0471
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -1.1712,
-      "rawTopkMean": -0.0387,
-      "nChunks": 16,
+      "zscore": 0.9639,
+      "rawTopkMean": 0.0943,
+      "nChunks": 35,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Do fulfilling work, make a real impact, and own your role.",
-          "heading": "Remote and in control",
-          "score": -0.0094
+          "text": "We’d like to save you some of that effort by applying to you, first.",
+          "heading": "February 01, 2020",
+          "score": 0.1732
         },
         {
-          "text": "Shopify’s mission is to ‘Make Commerce Better for Everyone’ .",
-          "heading": "Our merchants don’t stop. Neither do we.",
-          "score": -0.0312
+          "text": "It takes time and effort to get to know a company – to be sure it’s the kind of place where you can make an impact, somewhere you want to invest your talent and energy, and do your life’s work.",
+          "heading": "February 01, 2020",
+          "score": 0.0973
         },
         {
-          "text": "The path to Shopify is never a straight line, but the common thread is our ability to thrive on change, operate with trust, and celebrate the diverse perspectives of our people in all that we do.",
-          "heading": "Our team spirit looks a lot like entrepreneurial spirit",
-          "score": -0.0443
+          "text": "Finding the right job is hard work.",
+          "heading": "February 01, 2020",
+          "score": 0.0922
         },
         {
-          "text": "We’re hiring high-impact R&D team members to help us do this.",
-          "heading": "Our merchants don’t stop. Neither do we.",
-          "score": -0.0528
+          "text": "We’ve read a lot of cover letters over the years.",
+          "heading": "February 01, 2020",
+          "score": 0.0617
         },
         {
-          "text": "Yes, we work a little differently but we think that makes space for the challenges and risks that pave the way for real growth. “A relentless focus on our mission is at the heart of everything we do at Shopify.” Brittany Forsyth — Chief Talent Officer",
-          "heading": "We're problem solvers",
-          "score": -0.0556
+          "text": "Quote from: Satish Kanwar Vice President of Product Shopify taught me it’s never too late to take a leap.",
+          "heading": "Achievements",
+          "score": 0.0471
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": -0.6574,
+      "zscore": -1.036,
       "rawTopkMean": -0.0087,
-      "nChunks": 27,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -386,9 +437,9 @@
     },
     {
       "year": 2022,
-      "zscore": -1.2514,
+      "zscore": -1.7099,
       "rawTopkMean": -0.0433,
-      "nChunks": 16,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -422,7 +473,7 @@
     },
     {
       "year": 2023,
-      "zscore": 1.0201,
+      "zscore": 0.867,
       "rawTopkMean": 0.0893,
       "nChunks": 61,
       "kUsed": 5,
@@ -450,7 +501,7 @@
           "score": 0.0699
         },
         {
-          "text": "Before you apply, consider if you can: Care deeply about what you do and about making commerce better for everyone Excel by seeking professional and personal hypergrowth Keep up with an unrelenting pace (the week, not the quarter) Be resilient and resourceful in face of ambiguity and thrive on (rather than endure) change Embrace differences and disagreement to get shit done and move forward Work digital-first for your daily work",
+          "text": "Before you apply, consider if you can: Care deeply about what you do and about making commerce better for everyone Excel by seeking professional and personal hypergrowth Keep up with an unrelenting pace (the week, not the quarter) Be resilient and resourceful in face of ambiguity and thrive on (rather than endure) change Embrace differences and disagreement to get shit done and move forward Work d",
           "heading": "About you",
           "score": 0.0515
         }
@@ -458,13 +509,18 @@
     },
     {
       "year": 2024,
-      "zscore": 0.3154,
-      "rawTopkMean": 0.0481,
-      "nChunks": 28,
+      "zscore": 0.3756,
+      "rawTopkMean": 0.064,
+      "nChunks": 56,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "It’s time to find your role.",
+          "heading": "# Things you should know",
+          "score": 0.102
+        },
         {
           "text": "If this is you, hit VIP access at the top to convert your skills into high-performance Shopify roles.",
           "heading": "# Not everyone can do this",
@@ -484,19 +540,14 @@
           "text": "We want to ensure those who consider applying can thrive in our environment- from how we approach solving problems, to how we approach internal growth and the corporate ladder.",
           "heading": "Who we hire",
           "score": 0.04
-        },
-        {
-          "text": "Moving fast to Get Shit Done requires resilience to uncertainty.",
-          "heading": "# Not everyone can do this",
-          "score": 0.0228
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 0.4689,
-      "rawTopkMean": 0.0571,
-      "nChunks": 16,
+      "zscore": 0.4898,
+      "rawTopkMean": 0.0699,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -512,27 +563,27 @@
           "score": 0.116
         },
         {
-          "text": "Moving fast to Get Shit Done requires resilience to uncertainty.",
-          "heading": "# Not everyone can do this",
-          "score": 0.0228
+          "text": "You need to be resilient to navigate ambiguity.",
+          "heading": "Thrive on change",
+          "score": 0.0501
         },
         {
-          "text": "We default to the most important work rather than adhering to prescriptive roles – and we hire the same way.",
-          "heading": "Find your Quest",
-          "score": 0.0188
+          "text": "We want to ensure those who consider applying can thrive in our environment- from how we approach solving problems, to how we approach internal growth and the corporate ladder.",
+          "heading": "Who we hire",
+          "score": 0.04
         },
         {
-          "text": "We hire the best people and match their expertise to our most exciting work.",
-          "heading": "Find your Quest",
-          "score": 0.011
+          "text": "This is life-defining work that directly impacts people’s lives as much as it transforms your own.",
+          "heading": "What we do",
+          "score": 0.0262
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": 1.5903,
-      "rawTopkMean": 0.1226,
-      "nChunks": 362,
+      "zscore": 1.5451,
+      "rawTopkMean": 0.1242,
+      "nChunks": 385,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -553,14 +604,14 @@
           "score": 0.1244
         },
         {
+          "text": "If this is you, hit skip the line for the fast track.",
+          "heading": "# Not everyone can do this",
+          "score": 0.117
+        },
+        {
           "text": "It's almost impossible to reverse later.",
           "heading": "1.1 Make the important things easy, and everything else possible",
           "score": 0.111
-        },
-        {
-          "text": "At a moment's notice, you should be able to answer questions like, \"How would a merchant perceive what we're talking about?\" or \"What would it feel like to experience this as a buyer?\" Cultivate this skill.",
-          "heading": "Personal practice",
-          "score": 0.109
         }
       ]
     }

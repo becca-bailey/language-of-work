@@ -218,6 +218,14 @@ STAGES: list[Stage] = [
           ("netflix-culture",), inputs=("embeddings.parquet", "classifications.json"),
           outputs=("repo:data/culture_propagation.json",), depends=("embed_chunks",)),
 
+    # LLM judge over the tracker's echoes/lifts: genuine / adjacent / spurious.
+    # Incremental (only new sentences hit the API); export drops spurious echoes.
+    Stage("judge_culture_echoes", lambda comps: _call("judge_culture_echoes"),
+          Scope.GLOBAL, ("netflix-culture",),
+          inputs=("repo:data/culture_propagation.json",),
+          outputs=("repo:data/culture_echo_judgments.json",),
+          depends=("track_culture_propagation",)),
+
     # --- global story exports (one per story; filter to the story's set) ---
     Stage("export_story_altruism", lambda comps: _call("export_story_web", "altruism", comps),
           Scope.GLOBAL, ("altruism",),
@@ -265,9 +273,10 @@ STAGES: list[Stage] = [
           outputs=("repo:data/power_robustness.md",), depends=("export_power_story",)),
     Stage("export_netflix_story", lambda comps: _call("export_netflix_story", comps),
           Scope.GLOBAL, ("netflix-culture",),
-          inputs=("repo:data/culture_propagation.json", "embeddings.parquet"),
+          inputs=("repo:data/culture_propagation.json",
+                  "repo:data/culture_echo_judgments.json", "embeddings.parquet"),
           outputs=("repo:astro/src/data/stories/netflix-culture.json",),
-          depends=("track_culture_propagation",)),
+          depends=("track_culture_propagation", "judge_culture_echoes")),
 ]
 
 STAGE_BY_NAME = {s.name: s for s in STAGES}

@@ -1,89 +1,184 @@
 {
   "ground_truth_chunk": {
     "level": "chunk",
-    "altruism_peak_year": 2008,
-    "altruism_control_correlation": -0.266,
-    "correlation_p": 0.489,
+    "altruism_peak_year": 2017,
+    "altruism_control_correlation": 0.41,
+    "correlation_p": 0.091,
     "control_decoupled": true,
     "peak_within_expected": null
   },
   "ground_truth_sentence": {
     "level": "sentence",
     "altruism_peak_year": 2013,
-    "altruism_control_correlation": 0.545,
-    "correlation_p": 0.129,
-    "control_decoupled": false,
+    "altruism_control_correlation": 0.33,
+    "correlation_p": 0.181,
+    "control_decoupled": true,
     "peak_within_expected": null
   },
   "perturbation": {
     "per_sentence": [
       {
         "dropped": "A0: We believe technology has the power to solve humanity's greatest challenges.",
-        "spearman": 0.823
+        "spearman": 0.988
       },
       {
         "dropped": "A1: Join us in building products that leave the world better than we found it.",
-        "spearman": 0.829
+        "spearman": 0.954
       },
       {
         "dropped": "A2: Our mission is to create innovations that uplift communities and transform lives for the better.",
-        "spearman": 0.713
+        "spearman": 0.934
       },
       {
         "dropped": "A3: At our company, we measure success by the positive impact we create in society.",
-        "spearman": 0.789
+        "spearman": 0.967
       },
       {
         "dropped": "A4: We envision a future where technology serves as a force for universal good.",
-        "spearman": 0.97
+        "spearman": 0.995
       },
       {
         "dropped": "A5: We're building something bigger than ourselves—a legacy of meaningful progress.",
-        "spearman": 0.8
+        "spearman": 0.983
       },
       {
         "dropped": "A6: Come help us pursue breakthroughs that will benefit generations to come.",
-        "spearman": 0.82
+        "spearman": 0.948
       },
       {
         "dropped": "A7: Join us in our quest to unlock technology's potential for human flourishing.",
-        "spearman": 0.973
+        "spearman": 0.965
       },
       {
         "dropped": "B0: You'll work alongside teams who measure success in customer acquisition, retention, and sustainable growth.",
-        "spearman": 0.838
+        "spearman": 0.988
       },
       {
         "dropped": "B1: We prioritize features based on commercial value and ship solutions that move the bottom line.",
-        "spearman": 0.976
+        "spearman": 0.975
       },
       {
         "dropped": "B2: We invest in innovation that creates competitive advantage and generates measurable returns.",
-        "spearman": 0.9
+        "spearman": 0.952
       },
       {
         "dropped": "B3: Join us if you want your work to directly contribute to revenue growth and market expansion.",
-        "spearman": 0.986
+        "spearman": 0.968
       },
       {
         "dropped": "B4: Our technical strategy is shaped by competitive positioning and customer willingness to pay.",
-        "spearman": 0.848
+        "spearman": 0.942
       },
       {
         "dropped": "B5: Our product roadmap reflects what the market demands, and we pivot quickly when customer feedback requires it.",
-        "spearman": 0.823
+        "spearman": 0.973
       },
       {
         "dropped": "B6: We build technology that solves real problems for paying customers.",
-        "spearman": 0.979
+        "spearman": 0.996
       },
       {
         "dropped": "B7: You'll collaborate with colleagues who understand that great technology must also make financial sense.",
-        "spearman": 0.982
+        "spearman": 0.994
       }
     ],
-    "min_spearman": 0.713,
-    "mean_spearman": 0.878,
-    "robust": false
-  }
+    "min_spearman": 0.934,
+    "mean_spearman": 0.97,
+    "robust": true
+  },
+  "axis_separation": [
+    {
+      "axes": [
+        "craft",
+        "performance"
+      ],
+      "vector_cosine": 0.093,
+      "chunk_r": 0.058,
+      "chunk_p": 0.428,
+      "n_chunks": 189,
+      "separated": true
+    }
+  ],
+  "control_decoupling": [
+    {
+      "axis": "altruism",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.41,
+      "control_p": 0.091,
+      "r_topk_vs_logn": 0.655,
+      "control_r_topk_vs_logn": 0.594,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "craft",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.451,
+      "control_p": 0.06,
+      "r_topk_vs_logn": 0.841,
+      "control_r_topk_vs_logn": 0.594,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "inclusion",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.371,
+      "control_p": 0.129,
+      "r_topk_vs_logn": 0.915,
+      "control_r_topk_vs_logn": 0.594,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "meritocracy",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.582,
+      "control_p": 0.011,
+      "r_topk_vs_logn": 0.942,
+      "control_r_topk_vs_logn": 0.594,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "performance",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.606,
+      "control_p": 0.008,
+      "r_topk_vs_logn": 0.899,
+      "control_r_topk_vs_logn": 0.594,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "techno_optimism",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.379,
+      "control_p": 0.121,
+      "r_topk_vs_logn": 0.367,
+      "control_r_topk_vs_logn": 0.594,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "wellbeing",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": -0.113,
+      "control_p": 0.654,
+      "r_topk_vs_logn": 0.469,
+      "control_r_topk_vs_logn": 0.594,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "wellbeing_locus",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.811,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.583,
+      "control_r_topk_vs_logn": 0.594,
+      "diagnosis": "pool_size_suspect"
+    }
+  ]
 }

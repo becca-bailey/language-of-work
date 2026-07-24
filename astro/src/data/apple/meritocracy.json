@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 1999,
-      "zscore": -1.1867,
+      "zscore": -2.2934,
       "rawTopkMean": 0.3296,
       "nChunks": 19,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2004,
-      "zscore": -0.3918,
+      "zscore": -1.1519,
       "rawTopkMean": 0.3994,
       "nChunks": 9,
       "kUsed": 5,
@@ -77,7 +77,7 @@
     },
     {
       "year": 2007,
-      "zscore": 0.2698,
+      "zscore": -0.2018,
       "rawTopkMean": 0.4574,
       "nChunks": 6,
       "kUsed": 5,
@@ -113,7 +113,7 @@
     },
     {
       "year": 2008,
-      "zscore": -0.3855,
+      "zscore": -1.1429,
       "rawTopkMean": 0.3999,
       "nChunks": 4,
       "kUsed": 4,
@@ -144,28 +144,43 @@
     },
     {
       "year": 2009,
-      "zscore": -2.2996,
-      "rawTopkMean": 0.232,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -0.5364,
+      "rawTopkMean": 0.437,
+      "nChunks": 15,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Are you ready to grow with us?",
-          "heading": "Apple Store",
-          "score": 0.2893
+          "text": "By introducing new and innovative people to the company, we incorporate their different perspectives and skills and achieve our goal of making the best products on the market.",
+          "heading": "Commitment to diversity",
+          "score": 0.5103
         },
         {
-          "text": "With business booming at retail locations from SoHo to Tokyo, Apple is growing fast.",
-          "heading": "Apple Store",
-          "score": 0.1747
+          "text": "Apple celebrates diverse experiences and backgrounds.",
+          "heading": "Commitment to diversity",
+          "score": 0.4782
+        },
+        {
+          "text": "We've got an environment where you can make things happen.",
+          "heading": "",
+          "score": 0.4461
+        },
+        {
+          "text": "Partners provide the resources and recruitment opportunities necessary to help us find new talent and further our commitment.",
+          "heading": "Commitment to diversity",
+          "score": 0.3806
+        },
+        {
+          "text": "We also have a shared obsession with getting every last detail right.",
+          "heading": "",
+          "score": 0.3697
         }
       ]
     },
     {
       "year": 2010,
-      "zscore": -0.2989,
+      "zscore": -1.0185,
       "rawTopkMean": 0.4075,
       "nChunks": 15,
       "kUsed": 5,
@@ -201,7 +216,7 @@
     },
     {
       "year": 2012,
-      "zscore": 0.7431,
+      "zscore": 0.4778,
       "rawTopkMean": 0.4989,
       "nChunks": 34,
       "kUsed": 5,
@@ -237,34 +252,54 @@
     },
     {
       "year": 2013,
-      "zscore": -2.2534,
-      "rawTopkMean": 0.2361,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": 0.36,
+      "rawTopkMean": 0.4917,
+      "nChunks": 21,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We’re always adding new stores and expanding into new countries.",
-          "heading": "400 Apple Retail Stores worldwide (and counting).",
-          "score": 0.2683
+          "text": "But we expect creative thinking and solutions from everyone here, no matter what their responsibilities are.",
+          "heading": "",
+          "score": 0.5678
         },
         {
-          "text": "Which means there’s a good chance you can live and work in a city you love.",
-          "heading": "400 Apple Retail Stores worldwide (and counting).",
-          "score": 0.2038
+          "text": "When there’s an opening at Apple, we always look to fill it with the best.",
+          "heading": "",
+          "score": 0.54
+        },
+        {
+          "text": "We’re always looking for smart, engaging, supportive, and dynamic people who love Apple and our products.",
+          "heading": "Share your passion for Apple.",
+          "score": 0.4761
+        },
+        {
+          "text": "Innovation takes many forms, and our people seem to find new ones every day.",
+          "heading": "",
+          "score": 0.457
+        },
+        {
+          "text": "That’s how we do things at Apple.",
+          "heading": "",
+          "score": 0.4178
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": 1.0443,
-      "rawTopkMean": 0.5254,
-      "nChunks": 53,
+      "zscore": 1.2199,
+      "rawTopkMean": 0.5443,
+      "nChunks": 72,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "But we expect creative thinking and solutions from everyone here, no matter what their responsibilities are.",
+          "heading": "",
+          "score": 0.5678
+        },
         {
           "text": "At the Apple Store, we know inspiring leaders come from every sort of background.",
           "heading": "Opportunities",
@@ -276,27 +311,22 @@
           "score": 0.545
         },
         {
+          "text": "When there’s an opening at Apple, we always look to fill it with the best.",
+          "heading": "",
+          "score": 0.54
+        },
+        {
           "text": "What matters most is your ability to connect with your team, provide innovative solutions, and create an environment where all can succeed.",
           "heading": "Opportunities",
           "score": 0.521
-        },
-        {
-          "text": "We believe deeply that inclusion inspires innovation.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.5067
-        },
-        {
-          "text": "The talented leaders on my staff come from around the world, and they each bring a unique point of view based on their experience and heritage.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.5066
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": 1.4925,
+      "zscore": 1.5539,
       "rawTopkMean": 0.5647,
-      "nChunks": 151,
+      "nChunks": 181,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -330,9 +360,9 @@
     },
     {
       "year": 2016,
-      "zscore": -0.6022,
-      "rawTopkMean": 0.3809,
-      "nChunks": 7,
+      "zscore": -1.3101,
+      "rawTopkMean": 0.3897,
+      "nChunks": 11,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -348,48 +378,63 @@
           "score": 0.3912
         },
         {
+          "text": "Whether you work at one of our global offices, offsite, or even at home, a job at Apple will be demanding.",
+          "heading": "It’s what we do together that sets us apart.",
+          "score": 0.3691
+        },
+        {
+          "text": "But it also rewards bright, original thinking and hard work.",
+          "heading": "It’s what we do together that sets us apart.",
+          "score": 0.358
+        },
+        {
           "text": "We have opportunities that can help you take your ideas and your passion to the next level.",
           "heading": "Get experience. And have an experience.",
           "score": 0.3553
-        },
-        {
-          "text": "Join Apple, and help us leave the world better than we found it.",
-          "heading": "Do your life’s best work here. With the whole world watching.",
-          "score": 0.3509
-        },
-        {
-          "text": "Develop skills and get hands-on experience working with some of the best minds in the business.",
-          "heading": "Get experience. And have an experience.",
-          "score": 0.3323
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": -0.7044,
-      "rawTopkMean": 0.372,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -1.2178,
+      "rawTopkMean": 0.3954,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "It’s the diversity of those people and their ideas that inspires the innovation that runs through everything we do, from amazing technology to industry-leading environmental efforts.",
+          "heading": "Do your life’s best work here now. With the whole world watching.",
+          "score": 0.4749
+        },
         {
           "text": "So whether you’re analytical or creative, tech savvy or a people person, the Apple Store provides an ideal opportunity to challenge yourself.",
           "heading": "Work where extraordinary happens.",
           "score": 0.4045
         },
         {
-          "text": "Apple Store employees are unique individuals whose varied talents and experiences bring value to the way they connect people with Apple.",
-          "heading": "Work where extraordinary happens.",
-          "score": 0.3394
+          "text": "The people here at Apple don’t just create products — they create the kind of wonder that’s revolutionized entire industries.",
+          "heading": "Do your life’s best work here now. With the whole world watching.",
+          "score": 0.3912
+        },
+        {
+          "text": "We have opportunities that can help you take your ideas and your passion to the next level.",
+          "heading": "Get experience. And have an experience.",
+          "score": 0.3553
+        },
+        {
+          "text": "Join Apple, and help us leave the world better than we found it.",
+          "heading": "Do your life’s best work here now. With the whole world watching.",
+          "score": 0.3509
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": 0.7473,
-      "rawTopkMean": 0.4993,
-      "nChunks": 63,
+      "zscore": 0.6041,
+      "rawTopkMean": 0.5067,
+      "nChunks": 74,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -405,6 +450,11 @@
           "score": 0.5175
         },
         {
+          "text": "That’s why we’re looking for great minds from every field of study.",
+          "heading": "Corporate",
+          "score": 0.503
+        },
+        {
           "text": "We do things differently, and the results have revolutionized entire industries.",
           "heading": "Interns, Undergrads, and Grads",
           "score": 0.4953
@@ -413,19 +463,14 @@
           "text": "We don’t just say we embrace diversity and inclusion.",
           "heading": "LGBTQ rights are human rights.\u0003",
           "score": 0.4936
-        },
-        {
-          "text": "We make thoughtful and inclusive decisions and seek out certified diverse suppliers.",
-          "heading": "Our commitment to diversity extends to our suppliers.",
-          "score": 0.4663
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 0.3208,
-      "rawTopkMean": 0.4619,
-      "nChunks": 32,
+      "zscore": 0.3647,
+      "rawTopkMean": 0.492,
+      "nChunks": 61,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -441,27 +486,27 @@
           "score": 0.503
         },
         {
-          "text": "Join us and you’ll do the best work of your life — and make a difference in other people’s lives.",
-          "heading": "Do more than you ever thought possible. Have more impact than you ever imagined.",
-          "score": 0.454
+          "text": "We make thoughtful and inclusive decisions and seek out certified diverse suppliers.",
+          "heading": "Our commitment to diversity extends to our suppliers.",
+          "score": 0.4663
         },
         {
-          "text": "Come to Apple as a student and your team will welcome you as a full contributor, like any other employee.",
-          "heading": "Undergrads and Grad Students",
-          "score": 0.4003
+          "text": "We’ve achieved pay equity in every country where we operate — women earn the same as men when you factor in similar roles, markets, and performance.",
+          "heading": "Pay equity is simply the right thing to do.",
+          "score": 0.4634
         },
         {
-          "text": "Whether you work at one of our global offices, an Apple Store, or even at home, a job here will be demanding.",
-          "heading": "Roles Throughout Apple",
-          "score": 0.3855
+          "text": "We have always believed education is the great equalizer.",
+          "heading": "A more diverse future begins with opportunities in education.",
+          "score": 0.4607
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.7168,
-      "rawTopkMean": 0.4966,
-      "nChunks": 32,
+      "zscore": 0.6096,
+      "rawTopkMean": 0.507,
+      "nChunks": 46,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -477,6 +522,11 @@
           "score": 0.5365
         },
         {
+          "text": "That’s why we’re looking for great minds from every field of study.",
+          "heading": "Roles Throughout Apple",
+          "score": 0.503
+        },
+        {
           "text": "It takes a diverse team of talented individuals to do extraordinary work.",
           "heading": "Join a worldwide company that reflects the whole wide world.",
           "score": 0.5014
@@ -485,19 +535,14 @@
           "text": "We’re a diverse collective of thinkers and doers, continuously reimagining our products and practices to help people do what they love in new ways.",
           "heading": "We bring amazing people together to make amazing things happen.",
           "score": 0.4557
-        },
-        {
-          "text": "Every new product, service, or feature we invent is the result of people working together to make each other’s ideas stronger.",
-          "heading": "Share an idea and watch it grow.",
-          "score": 0.4512
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 1.0778,
-      "rawTopkMean": 0.5283,
-      "nChunks": 143,
+      "zscore": 1.1391,
+      "rawTopkMean": 0.5393,
+      "nChunks": 170,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -508,32 +553,68 @@
           "score": 0.5525
         },
         {
+          "text": "That happens here because every one of us strives toward a common goal — creating the best customer experiences.",
+          "heading": "Share an idea and watch it grow.",
+          "score": 0.5383
+        },
+        {
           "text": "We know we are all better at what we do when we’re free to be who we are.",
           "heading": "Community is built into our DNA.",
           "score": 0.5378
         },
         {
+          "text": "And we know our ability to continue creating the world’s most innovative products depends on people who represent the variety of the human experience and who inspire us with great thinking.",
+          "heading": "Join a worldwide company that reflects the whole wide world.",
+          "score": 0.5365
+        },
+        {
           "text": "Each of us contributes to that effort in our own way, bringing a passion for what we do best and what we believe matters most.",
           "heading": "The values values we share at Apple inspire the work we share with everyone.",
           "score": 0.5315
-        },
-        {
-          "text": "To create products for everyone in the world, we need a workforce with different backgrounds and experiences.",
-          "heading": "Hiring practices with the highest standards.",
-          "score": 0.5122
-        },
-        {
-          "text": "Apple is a place where all people are valued for the work they do.",
-          "heading": "Support for every career path. And career change.",
-          "score": 0.5074
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 0.9392,
-      "rawTopkMean": 0.5161,
-      "nChunks": 150,
+      "zscore": 1.0298,
+      "rawTopkMean": 0.5327,
+      "nChunks": 254,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We know that differences in our backgrounds, identities, and the way we think make our teams stronger and more innovative.",
+          "heading": "More diverse leadership by design.",
+          "score": 0.5525
+        },
+        {
+          "text": "We’re committed to increasing the number of managers from underrepresented communities, because differences in our backgrounds, our identities, and the way we think ultimately make our teams stronger and more innovative.",
+          "heading": "Representation in leadership matters.",
+          "score": 0.538
+        },
+        {
+          "text": "We know we are all better at what we do when we’re free to be who we are.",
+          "heading": "Community is built into our DNA.",
+          "score": 0.5378
+        },
+        {
+          "text": "Because we know we are all better at what we do when we’re free to be who we are.",
+          "heading": "Community is the core of our culture.",
+          "score": 0.5227
+        },
+        {
+          "text": "To create products for everyone in the world, we need a workforce with different backgrounds and experiences.",
+          "heading": "Hiring practices with the highest standards.",
+          "score": 0.5122
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": 0.8213,
+      "rawTopkMean": 0.5199,
+      "nChunks": 274,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -549,63 +630,27 @@
           "score": 0.5227
         },
         {
-          "text": "To create products for everyone in the world, we need a workforce with diverse backgrounds and experiences.",
-          "heading": "Hiring practices with shared goals in mind.",
-          "score": 0.5116
-        },
-        {
-          "text": "We’re continuing to build a culture where everybody belongs.",
-          "heading": "How we come together is how we change the world.",
-          "score": 0.5067
-        },
-        {
-          "text": "We’ve built inclusion and diversity measures into our candidate assessment framework.",
-          "heading": "Inclusive hiring standards and processes.",
-          "score": 0.5017
-        }
-      ]
-    },
-    {
-      "year": 2023,
-      "zscore": 0.1984,
-      "rawTopkMean": 0.4512,
-      "nChunks": 132,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
           "text": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level.",
           "heading": "We belong. Together.",
           "score": 0.5199
         },
         {
-          "text": "Our workforce is more diverse than ever.",
-          "heading": "Under­represented Communities",
-          "score": 0.4416
+          "text": "To create products for everyone in the world, we need a workforce with diverse backgrounds and experiences.",
+          "heading": "Hiring practices with shared goals in mind.",
+          "score": 0.5116
         },
         {
-          "text": "“Our role is not to do the work for people, or to tell people what to do, or to look under the hood before something goes out the door,” says Cohen. “Our job is to empower people who have the responsibility to develop inclusive products.",
-          "heading": "Our products and services are designed to be inclusive.",
-          "score": 0.4327
-        },
-        {
-          "text": "We remain committed to continuing to grow leadership representation.",
-          "heading": "Inclusive Leadership",
-          "score": 0.4313
-        },
-        {
-          "text": "Over the past year, we filled more open leadership roles than ever with women globally and Black candidates in the United States.",
-          "heading": "Inclusive Leadership",
-          "score": 0.4303
+          "text": "Apple is a place where all people are valued for the work they do.",
+          "heading": "Support for new career paths. And career changes.",
+          "score": 0.5074
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 0.5026,
-      "rawTopkMean": 0.4778,
-      "nChunks": 30,
+      "zscore": 0.3729,
+      "rawTopkMean": 0.4925,
+      "nChunks": 185,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -614,6 +659,11 @@
           "text": "Where a healthy respect for courage and original thinking inspires you to bring your best to what we do together.",
           "heading": "Your work is as meaningful to us as it is to you.",
           "score": 0.5326
+        },
+        {
+          "text": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level.",
+          "heading": "We belong. Together.",
+          "score": 0.5199
         },
         {
           "text": "We foster this culture by giving experts the room to take bold yet informed risks that lead to breakthroughs.",
@@ -629,19 +679,14 @@
           "text": "At Apple, innovation depends not only on brilliant individuals, but also on a community of specialists, each focused on what we can do instead of what’s been done.",
           "heading": "Innovation",
           "score": 0.4624
-        },
-        {
-          "text": "Innovation is led by those who know their stuff, whether it’s the first job of their life or the latest project in a career decades in the making.",
-          "heading": "Innovation",
-          "score": 0.4464
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 0.5445,
-      "rawTopkMean": 0.4815,
-      "nChunks": 79,
+      "zscore": 0.4675,
+      "rawTopkMean": 0.4983,
+      "nChunks": 187,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -650,6 +695,11 @@
           "text": "We’re continuing to create a culture of inclusion, belonging, and collaboration where everyone can do their best work.",
           "heading": "We belong. Together.",
           "score": 0.5526
+        },
+        {
+          "text": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level.",
+          "heading": "We belong. Together.",
+          "score": 0.5199
         },
         {
           "text": "At Apple, we create a culture of collaboration where different experiences, backgrounds, and perspectives come together to make something magical and meaningful.",
@@ -665,47 +715,42 @@
           "text": "They’re also key in making sure we consider diverse perspectives in everything we do. “ Diverse representation is important to us as a company.",
           "heading": "We’re deepening relationships with Latin American and U.S. Hispanic communities.",
           "score": 0.446
-        },
-        {
-          "text": "Hispanic. “We found that bringing together a wide group of leaders from various areas of the organization makes a huge difference.",
-          "heading": "We’re deepening relationships with Latin American and U.S. Hispanic communities.",
-          "score": 0.4359
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": -0.4745,
-      "rawTopkMean": 0.3921,
-      "nChunks": 21,
+      "zscore": -0.1478,
+      "rawTopkMean": 0.4607,
+      "nChunks": 60,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "At Apple, we create a culture of collaboration where different experiences, backgrounds, and perspectives come together to make something magical and meaningful.",
+          "heading": "All. Together.",
+          "score": 0.4958
+        },
+        {
+          "text": "A culture with a North Star of dignity, respect, and opportunity for everyone.",
+          "heading": "All. Together.",
+          "score": 0.4773
+        },
         {
           "text": "Learn more Inclusion and Diversity We’re holding ourselves accountable for creating a culture where everyone belongs.",
           "heading": "Our values are part of everything built here — including careers.",
           "score": 0.4768
         },
         {
-          "text": "Learn more Supply Chain Innovation We uphold high standards to safeguard people and the planet across our global supply chain.",
-          "heading": "Our values are part of everything built here — including careers.",
-          "score": 0.3817
+          "text": "This is where individual imaginations gather together, committing to the values that lead to great work.",
+          "heading": "Join us. Be you.",
+          "score": 0.4374
         },
         {
-          "text": "As we celebrate how far we’ve come, we’re inspired by where we’ll go — together.",
-          "heading": "",
-          "score": 0.3803
-        },
-        {
-          "text": "Learn about Apple’s Racial Equity and Justice Initiative Supplier Responsibility We believe in a safe, respectful, and supportive workplace for everyone.",
-          "heading": "Our values are part of everything built here — including careers.",
-          "score": 0.378
-        },
-        {
-          "text": "Accessibility Technology is most powerful when everyone can make their mark.",
-          "heading": "Our values are part of everything built here — including careers.",
-          "score": 0.3438
+          "text": "Learn more Supply Chain Innovation We prioritize providing safe, respectful, supportive workplaces for everyone.",
+          "heading": "Our values lead the way.",
+          "score": 0.4162
         }
       ]
     }

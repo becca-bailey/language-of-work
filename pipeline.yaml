@@ -27,6 +27,7 @@ companies:
     uber,
     apple,
     nvidia,
+    engine,
   ]
 
 # Every company gets an individual page; the per-company exports run for all of
@@ -35,17 +36,65 @@ companies:
 # data but still need their page content designed.
 
 stories:
-  altruism: true
+  # Altruism cohort excludes palantir (2026-07-21): persistent outlier — its
+  # "idealism" is the civilizational-mission register (dei study territory),
+  # and it's the one company where the tournament judge GENUINELY disputes the
+  # embedding ranking (42% duel agreement on confident pairs vs 91-95% for
+  # passing companies). Its trend isn't citable; excluding beats caveating.
+  altruism:
+    enabled: true
+    companies:
+      [
+        google,
+        amazon,
+        meta,
+        coinbase,
+        netflix,
+        shopify,
+        stripe,
+        airbnb,
+        snap,
+        hubspot,
+        gitlab,
+        github,
+        basecamp,
+        salesforce,
+        starbucks,
+        uber,
+        apple,
+        nvidia,
+      ]
   ai: true # story axis: mention tracker + tool<->mandate framing; surfaced via the craft-ai story page
   performance: true
   wellbeing: true # story axis: dataset exported; story page at astro/src/content/stories/wellbeing.mdx
   power: true
   benefits: true
   dei: true # to curate: replace `true` with {enabled: true, companies: [...]}
-  # Performance-culture lineage cohort: excludes basecamp (the anti-intensity
-  # counterpoint) and starbucks (out-of-sector retail) so they don't dilute the
-  # propagation echoes or the objectivity scan. Salesforce kept in.
+  # Performance-culture lineage cohort. Basecamp ADDED 2026-07-23: it lifts the
+  # deck's minimize-complexity rule (0.648, 2014) while rejecting the intensity
+  # register ("calm company") — the counter-lineage; its simplicity doctrine
+  # predates the deck, so the chronology view carries the convergence caveat.
+  # Still excludes starbucks/uber/apple/nvidia (2026-07-23 scan: no echoes
+  # beyond the raise_the_bar/only_the_best convergence zone).
   netflix-culture:
     enabled: true
-    companies: [google, amazon, meta, palantir, coinbase, netflix, shopify, stripe, airbnb, snap, hubspot, gitlab, github, salesforce]
+    companies:
+      [
+        google,
+        amazon,
+        meta,
+        palantir,
+        coinbase,
+        netflix,
+        shopify,
+        stripe,
+        airbnb,
+        snap,
+        hubspot,
+        gitlab,
+        github,
+        salesforce,
+        engine,
+        basecamp,
+      ]
   profiles: true # per-company AI narrative on /explore/[company] (not a story export)

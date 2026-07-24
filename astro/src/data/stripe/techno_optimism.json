@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2012,
-      "zscore": 0.1887,
+      "zscore": -1.4355,
       "rawTopkMean": 0.0433,
       "nChunks": 11,
       "kUsed": 5,
@@ -41,13 +41,33 @@
     },
     {
       "year": 2013,
-      "zscore": -0.4576,
-      "rawTopkMean": -0.0041,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "zscore": -1.8095,
+      "rawTopkMean": 0.0312,
+      "nChunks": 12,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Stripe's investors include Peter Thiel, Elon Musk, Y Combinator, Andreessen Horowitz, and Sequoia Capital.",
+          "heading": "Who we are",
+          "score": 0.0846
+        },
+        {
+          "text": "Buy or build your ideal work environment.",
+          "heading": "Who we are",
+          "score": 0.0528
+        },
+        {
+          "text": "Free lunch and dinner as well as endless snacks and beverages.",
+          "heading": "Who we are",
+          "score": 0.0131
+        },
+        {
+          "text": "You might fit in well at Stripe if you enjoy teaching yourself whatever you need in order to get things done, and if you enjoy working with a team.",
+          "heading": "Who we are",
+          "score": 0.0094
+        },
         {
           "text": "We’re looking for people who care deeply about quality of execution and who want to build technology that people love to use.",
           "heading": "Jobs at Stripe",
@@ -57,9 +77,9 @@
     },
     {
       "year": 2014,
-      "zscore": 0.6282,
+      "zscore": -0.44,
       "rawTopkMean": 0.0755,
-      "nChunks": 37,
+      "nChunks": 38,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -93,81 +113,81 @@
     },
     {
       "year": 2015,
-      "zscore": -1.9553,
-      "rawTopkMean": -0.1138,
-      "nChunks": 6,
+      "zscore": -0.9307,
+      "rawTopkMean": 0.0596,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "(Plus, we hire curious people, so they generally want to know the details of what's going on.)",
-          "heading": "How we work",
-          "score": -0.0438
+          "text": "We've partnered with Apple to power Apple Pay , and helped launch a new cryptocurrency, Stellar .",
+          "heading": "What we do",
+          "score": 0.0656
         },
         {
-          "text": "Personal interaction in particular is something we emphasize a lot.",
-          "heading": "How we work",
-          "score": -0.086
+          "text": "We started with building the simplest API for accepting credit cards.",
+          "heading": "What we do",
+          "score": 0.0646
         },
         {
-          "text": "We know we're doing a good job of hiring so long as we see people continuing to join simply to work with those who are already here.",
-          "heading": "How we work",
-          "score": -0.1343
+          "text": "Today, we support developers from a number of countries (and are expanding to even more ), card payments in 135 different currencies , Bitcoin , ACH, and have a continually-improving checkout form.",
+          "heading": "What we do",
+          "score": 0.0645
         },
         {
-          "text": "This helps everyone make better local decisions and avoid split-brain behavior.",
-          "heading": "How we work",
-          "score": -0.1353
+          "text": "Our initial product enabled payments for developers in the US wanting to transact in USD—a lot more qualifiers than we wanted.",
+          "heading": "What we do",
+          "score": 0.0634
         },
         {
-          "text": "We work hard to find people who make others want to be around them.",
-          "heading": "How we work",
-          "score": -0.1697
+          "text": "And we're really just getting started.",
+          "heading": "What we do",
+          "score": 0.0398
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": -2.1442,
-      "rawTopkMean": -0.1276,
-      "nChunks": 8,
+      "zscore": -0.7518,
+      "rawTopkMean": 0.0654,
+      "nChunks": 23,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Personal interaction in particular is something we emphasize a lot.",
-          "heading": "How we work",
-          "score": -0.086
+          "text": "Explore our product Read our blog See our timeline Our main office is in the South Beach area of San Francisco, but Stripes can be found all over the world in places like Tokyo, Melbourne, Vancouver, Austin, New York City, London, Paris, and Berlin.",
+          "heading": "What we do",
+          "score": 0.0688
         },
         {
-          "text": "(Plus, we hire curious people, so they generally want to know the details of what's going on.) We are committed to building an actively inclusive work environment that makes Stripe an excellent home for anyone—regardless of gender, sexual orientation, ethnicity, race, education, age, or other personal characteristics.",
-          "heading": "How we work",
-          "score": -0.113
+          "text": "We've partnered with Apple to power Apple Pay , and helped launch a new cryptocurrency, Stellar .",
+          "heading": "What we do",
+          "score": 0.0656
         },
         {
-          "text": "We know we're doing a good job of hiring so long as we see people continuing to join simply to work with those who are already here.",
-          "heading": "How we work",
-          "score": -0.1343
+          "text": "We started with building the simplest API for accepting credit cards.",
+          "heading": "What we do",
+          "score": 0.0646
         },
         {
-          "text": "This helps everyone make better local decisions and avoid split-brain behavior.",
-          "heading": "How we work",
-          "score": -0.1353
+          "text": "Today, we support developers from a number of countries (and are expanding to even more ), card payments in 135 different currencies , Bitcoin , ACH, and have a continually-improving checkout form.",
+          "heading": "What we do",
+          "score": 0.0645
         },
         {
-          "text": "We work hard to find people who make others want to be around them.",
-          "heading": "How we work",
-          "score": -0.1697
+          "text": "Our initial product enabled payments for developers in the US wanting to transact in USD—a lot more qualifiers than we wanted.",
+          "heading": "What we do",
+          "score": 0.0634
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.5326,
+      "zscore": -0.6565,
       "rawTopkMean": 0.0685,
-      "nChunks": 36,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -183,7 +203,7 @@
           "score": 0.0688
         },
         {
-          "text": "To provide a missing pillar of core internet infrastructure, we hire people with a broad set of technical skills (and from a wide variety of backgrounds) who are ready to take on some of the most challenging problems in the industry – from reliably handling 100M API requests per day, to building adaptive machine learning as a result of years of data science and infrastructure work, and enabling entrepreneurs worldwide to start a global internet business.",
+          "text": "To provide a missing pillar of core internet infrastructure, we hire people with a broad set of technical skills (and from a wide variety of backgrounds) who are ready to take on some of the most challenging problems in the industry – from reliably handling 100M API requests per day, to building adaptive machine learning as a result of years of data science and infrastructure work, and enabling en",
           "heading": "What’s it like to work at Stripe?",
           "score": 0.0657
         },
@@ -201,13 +221,23 @@
     },
     {
       "year": 2018,
-      "zscore": 0.4165,
-      "rawTopkMean": 0.0599,
-      "nChunks": 19,
+      "zscore": -0.6979,
+      "rawTopkMean": 0.0671,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Stripe is, at its heart, an engineering company.",
+          "heading": "What’s it like to work at Stripe?",
+          "score": 0.0776
+        },
+        {
+          "text": "To provide a missing pillar of core internet infrastructure, we hire people with a broad set of technical skills (and from a wide variety of backgrounds) who are ready to take on some of the most challenging problems in the industry – from reliably handling 100M API requests per day, to building adaptive machine learning as a result of years of data science and infrastructure work, and enabling en",
+          "heading": "What’s it like to work at Stripe?",
+          "score": 0.0657
+        },
         {
           "text": "We started with building the simplest API for accepting credit cards.",
           "heading": "What we do",
@@ -222,24 +252,14 @@
           "text": "Our initial product enabled payments for developers in the US wanting to transact in USD—a lot more qualifiers than we wanted.",
           "heading": "What we do",
           "score": 0.0634
-        },
-        {
-          "text": "Explore our product Read our blog See our timeline Our main office is in the SoMa area of San Francisco, but Stripes can be found all over the world in places like Tokyo, Melbourne, Vancouver, Austin, New York City, London, Paris, and Berlin.",
-          "heading": "What we do",
-          "score": 0.0599
-        },
-        {
-          "text": "Today, we support developers from a number of countries (and are expanding to even more ), card payments in 135 different currencies , ACH, and have a continually-improving checkout form.",
-          "heading": "What we do",
-          "score": 0.0475
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 1.3102,
+      "zscore": 1.1052,
       "rawTopkMean": 0.1254,
-      "nChunks": 187,
+      "nChunks": 223,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -273,13 +293,18 @@
     },
     {
       "year": 2020,
-      "zscore": 1.1706,
-      "rawTopkMean": 0.1152,
-      "nChunks": 108,
+      "zscore": 1.5577,
+      "rawTopkMean": 0.1401,
+      "nChunks": 283,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We have company-defining products that were originally built by one or two engineers in their first real job (or internship).",
+          "heading": "We don’t have all the answers",
+          "score": 0.2022
+        },
         {
           "text": "And I was fairly technical for someone who didn’t work in tech.",
           "heading": "An environment of growth",
@@ -296,43 +321,89 @@
           "score": 0.12
         },
         {
-          "text": "Yes, you will actually ship it.",
-          "heading": "Have a meaningful impact",
-          "score": 0.102
-        },
-        {
-          "text": "These days, at peak, we receive 10,000 API requests per second—but we still sweat the correctness of every one, because our customers depend on us.",
-          "heading": "Fast-paced, detail-oriented",
-          "score": 0.0929
+          "text": "Previously, they had to create an ad hoc, informally specified, bug-ridden version of financial rails before they could do business online.",
+          "heading": "Help increase the GDP of the internet",
+          "score": 0.117
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": -0.2256,
-      "rawTopkMean": 0.0129,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": 1.1052,
+      "rawTopkMean": 0.1254,
+      "nChunks": 184,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We also have a rarer opportunity: The impact you can make from being at a nimble startup, working on a platform that operates at a significant (and quickly growing) scale.",
-          "heading": "Support to do your best work",
-          "score": 0.032
+          "text": "We have company-defining products that were originally built by one or two engineers in their first real job (or internship).",
+          "heading": "We don’t have all the answers",
+          "score": 0.2022
         },
         {
-          "text": "We offer competitive and comprehensive benefits, though lots of companies can offer you those.",
-          "heading": "Support to do your best work",
-          "score": -0.0062
+          "text": "Previously, they had to create an ad hoc, informally specified, bug-ridden version of financial rails before they could do business online.",
+          "heading": "Help increase the GDP of the internet",
+          "score": 0.117
+        },
+        {
+          "text": "You will, within weeks of joining Stripe, work on problems that no one here has solved before.",
+          "heading": "We haven’t won yet",
+          "score": 0.1054
+        },
+        {
+          "text": "We have smart people who sweat the details—who start with a blank screen, work until it is ready, and then polish until it is exceptional.",
+          "heading": "Ownership and impact",
+          "score": 0.105
+        },
+        {
+          "text": "We want specialists who are already experts in their chosen field and are ready to spend several years advancing the state of the art in it.",
+          "heading": "The right people don’t always think they’re right",
+          "score": 0.0975
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 1.0128,
+      "zscore": 1.2282,
+      "rawTopkMean": 0.1294,
+      "nChunks": 234,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We have company-defining products that were originally built by one or two engineers in their first real job (or internship).",
+          "heading": "We don’t have all the answers",
+          "score": 0.2022
+        },
+        {
+          "text": "Previously, they had to create an ad hoc, informally specified, bug-ridden version of financial rails before they could do business online.",
+          "heading": "Help increase the GDP of the internet",
+          "score": 0.117
+        },
+        {
+          "text": "We have smart people who sweat the details—who start with a blank screen, work until a product is ready, and polish until it is exceptional.",
+          "heading": "Ownership and impact",
+          "score": 0.1138
+        },
+        {
+          "text": "We have to be able to build things quickly to support the fastest growing startups and platforms in the world, while also being reliable, trustworthy, and sometimes profoundly boring.",
+          "heading": "We need to balance speed with meticulousness",
+          "score": 0.1086
+        },
+        {
+          "text": "You will, within weeks of joining Stripe, work on problems that no one here has solved before.",
+          "heading": "We haven’t won yet",
+          "score": 0.1054
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": 0.4314,
       "rawTopkMean": 0.1036,
-      "nChunks": 51,
+      "nChunks": 77,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -365,110 +436,110 @@
       ]
     },
     {
-      "year": 2023,
-      "zscore": 0.1031,
-      "rawTopkMean": 0.037,
-      "nChunks": 32,
+      "year": 2024,
+      "zscore": 0.4314,
+      "rawTopkMean": 0.1036,
+      "nChunks": 93,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Stripe is a financial infrastructure platform for businesses.",
-          "heading": "About Stripe",
-          "score": 0.0563
+          "text": "We have smart people who sweat the details—who start with a blank screen, work until a product is ready, and polish until it is exceptional.",
+          "heading": "Ownership and impact",
+          "score": 0.1138
         },
         {
-          "text": "Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities.",
-          "heading": "About Stripe",
-          "score": 0.0559
+          "text": "We have to be able to build things quickly to support the fastest growing startups and platforms in the world, while also being reliable, trustworthy, and sometimes profoundly boring.",
+          "heading": "We need to balance speed with meticulousness",
+          "score": 0.1086
         },
         {
-          "text": "So Ford can focus on building a global digital dealership , rather than processing payments.",
-          "heading": "What matters to us is what we enable for others",
-          "score": 0.0427
+          "text": "Stripe builds financial infrastructure that ambitious companies use to launch their boldest products.",
+          "heading": "Our customers are building the future",
+          "score": 0.1031
         },
         {
-          "text": "A bias for action speeds our learning and delights our users.",
-          "heading": "How we work",
-          "score": 0.0161
+          "text": "The pace of change and velocity of the product force you to pick up new skills, experiment with new tactics, and walk in a variety of users’ shoes.",
+          "heading": "We know we need to know more",
+          "score": 0.0966
         },
         {
-          "text": "Startups are tumultuous places and the audacity of our goals will mean occasional failure.",
-          "heading": "Who we are",
-          "score": 0.0139
+          "text": "Our customers range from hours-old startups to complex global businesses.",
+          "heading": "Our customers are building the future",
+          "score": 0.0961
         }
       ]
     },
     {
-      "year": 2024,
-      "zscore": -0.5547,
-      "rawTopkMean": -0.0112,
-      "nChunks": 15,
+      "year": 2025,
+      "zscore": 0.4314,
+      "rawTopkMean": 0.1036,
+      "nChunks": 91,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be your biggest competitive advantage.",
-          "heading": "And leaders",
-          "score": 0.021
+          "text": "We have smart people who sweat the details—who start with a blank screen, work until a product is ready, and polish until it is exceptional.",
+          "heading": "Ownership and impact",
+          "score": 0.1138
         },
         {
-          "text": "Stripe is intense—we have broad ambitions and serious obligations to our users.",
-          "heading": "And leaders",
-          "score": 0.0179
+          "text": "We have to be able to build things quickly to support the fastest growing startups and platforms in the world, while also being reliable, trustworthy, and sometimes profoundly boring.",
+          "heading": "We need to balance speed with meticulousness",
+          "score": 0.1086
         },
         {
-          "text": "Be deeply informed about what’s happening across Stripe, and create your team’s plans in reference to the broader work.",
-          "heading": "And leaders",
-          "score": -0.0288
+          "text": "Stripe builds financial infrastructure that ambitious companies use to launch their boldest products.",
+          "heading": "Our customers are building the future",
+          "score": 0.1031
         },
         {
-          "text": "Guide your team to redefine what’s possible by expanding what’s reasonable.",
-          "heading": "And leaders",
-          "score": -0.0306
+          "text": "The pace of change and velocity of the product force you to pick up new skills, experiment with new tactics, and walk in a variety of users’ shoes.",
+          "heading": "We know we need to know more",
+          "score": 0.0966
         },
         {
-          "text": "Effective leaders embrace decision-making in cases of murky ownership, either making the call themselves or collaborating across the necessary teams to drive an outcome.",
-          "heading": "And leaders",
-          "score": -0.0355
+          "text": "Our customers range from hours-old startups to complex global businesses.",
+          "heading": "Our customers are building the future",
+          "score": 0.0961
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": -0.0252,
-      "rawTopkMean": 0.0276,
-      "nChunks": 21,
+      "zscore": 0.4314,
+      "rawTopkMean": 0.1036,
+      "nChunks": 76,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We work backwards from our users’ needs, indexing especially on feedback from the most innovative.",
-          "heading": "Operating principles",
-          "score": 0.067
+          "text": "We have smart people who sweat the details—who start with a blank screen, work until a product is ready, and polish until it is exceptional.",
+          "heading": "Ownership and impact",
+          "score": 0.1138
         },
         {
-          "text": "Whereas many companies get slower until they’re eventually mired in mediocrity, we aspire to become the world’s fastest company.",
-          "heading": "Operating principles",
-          "score": 0.0493
+          "text": "We have to be able to build things quickly to support the fastest growing startups and platforms in the world, while also being reliable, trustworthy, and sometimes profoundly boring.",
+          "heading": "We need to balance speed with meticulousness",
+          "score": 0.1086
         },
         {
-          "text": "We move with speed on what matters most and take the time to invest in what will make us faster tomorrow.",
-          "heading": "Operating principles",
-          "score": 0.0406
+          "text": "Stripe builds financial infrastructure that ambitious companies use to launch their boldest products.",
+          "heading": "Our customers are building the future",
+          "score": 0.1031
         },
         {
-          "text": "Since the details and possibilities are infinite, we are always seeking to learn.",
-          "heading": "Operating principles",
-          "score": -0.0069
+          "text": "The pace of change and velocity of the product force you to pick up new skills, experiment with new tactics, and walk in a variety of users’ shoes.",
+          "heading": "We know we need to know more",
+          "score": 0.0966
         },
         {
-          "text": "With careful thought, anything can be made surprisingly great.",
-          "heading": "Operating principles",
-          "score": -0.012
+          "text": "Our customers range from hours-old startups to complex global businesses.",
+          "heading": "Our customers are building the future",
+          "score": 0.0961
         }
       ]
     }

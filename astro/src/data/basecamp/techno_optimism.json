@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2002,
-      "zscore": 0.1352,
+      "zscore": -0.8277,
       "rawTopkMean": 0.0873,
       "nChunks": 17,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2003,
-      "zscore": 0.1526,
+      "zscore": -0.8062,
       "rawTopkMean": 0.088,
       "nChunks": 11,
       "kUsed": 5,
@@ -77,33 +77,43 @@
     },
     {
       "year": 2004,
-      "zscore": -0.8666,
-      "rawTopkMean": 0.0453,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -0.8062,
+      "rawTopkMean": 0.088,
+      "nChunks": 11,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Our obsession with simplicity and clarity in interface design is why we're called \"the masters par excellence of HTMinimaLism\" by the author of Fresh Styles for Web Designers , and the sites we've designed prove that usability can be elegant.",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.111
+        },
+        {
+          "text": "Check out our new E-Commerce Search Report 37signals' Design Not Found covered in this N.Y.",
+          "heading": "37signals Highlights",
+          "score": 0.1108
+        },
+        {
+          "text": "In the New York Times, the Washington Post, the Times of London, on FOX news, in various books including the popular \"Fresh Styles For Web Designers,\" linked from usability expert Jakob Nielsen's site, as one of Yahoo's Picks of the Year, or in another publication.",
+          "heading": "Where might I have seen your projects before?",
+          "score": 0.0945
+        },
+        {
+          "text": "See what industry experts, clients, and others are saying about 37signals.",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.0701
+        },
         {
           "text": "CommArts publishes our article on 37BetterFedEx (our proposed redesign of FedEx's online shipping form).",
           "heading": "37signals Highlights",
           "score": 0.0535
-        },
-        {
-          "text": "Free Holiday E-Commerce Ideas from 37signals. 37signals' Design Not Found covered in this N.Y.",
-          "heading": "37signals Highlights",
-          "score": 0.0503
-        },
-        {
-          "text": "New Architect magazine publishes Making Mistakes Well , our article on contingency design.",
-          "heading": "37signals Highlights",
-          "score": 0.0321
         }
       ]
     },
     {
       "year": 2009,
-      "zscore": 0.864,
+      "zscore": 0.0748,
       "rawTopkMean": 0.1178,
       "nChunks": 28,
       "kUsed": 5,
@@ -139,39 +149,54 @@
     },
     {
       "year": 2010,
-      "zscore": -2.2804,
-      "rawTopkMean": -0.0139,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -0.0072,
+      "rawTopkMean": 0.115,
+      "nChunks": 27,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We care deeply about the products we build for our customers.",
-          "heading": "We make it easier to get work done",
-          "score": 0.0003
+          "text": "Some business software costs tens of thousands of dollars a year.",
+          "heading": "We believe",
+          "score": 0.1516
         },
         {
-          "text": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done.",
-          "heading": "We make it easier to get work done",
-          "score": -0.0179
+          "text": "Software that requires training is failed software.",
+          "heading": "We believe",
+          "score": 0.1515
         },
         {
-          "text": "Quality, clarity, attention to detail, ease-of-use, and usefulness are at the core of everything we do.",
-          "heading": "We make it easier to get work done",
-          "score": -0.024
+          "text": "You’ll also find daily tips, tricks, case studies, and press mentions regarding our products at our Product Blog .",
+          "heading": "Our ideas and philosophies",
+          "score": 0.0928
+        },
+        {
+          "text": "Our products are built for small groups.",
+          "heading": "We make products for small groups",
+          "score": 0.0904
+        },
+        {
+          "text": "You’ll pick them up in seconds or minutes, not hours, days or weeks.",
+          "heading": "We believe",
+          "score": 0.0887
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": -1.2899,
-      "rawTopkMean": 0.0276,
-      "nChunks": 19,
+      "zscore": -2.2957,
+      "rawTopkMean": 0.0376,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "The best business advice we ever got is from Jeff Bezos from Amazon.com (Jeff bought a small piece of our company in 2006).",
+          "heading": "Investing in the things that don’t go out of style.",
+          "score": 0.0452
+        },
         {
           "text": "Basecamp is a company spread out across 26 different cities around the world.",
           "heading": "We the Basecamp.",
@@ -191,19 +216,50 @@
           "text": "It’s rare that a business tool is equally popular with the big guys and the small guys, but Basecamp is that kind of tool.",
           "heading": "15 years and running.",
           "score": 0.0332
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "zscore": -2.2957,
+      "rawTopkMean": 0.0376,
+      "nChunks": 22,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "The best business advice we ever got is from Jeff Bezos from Amazon.com (Jeff bought a small piece of our company in 2006).",
+          "heading": "Investing in the things that don’t go out of style.",
+          "score": 0.0452
         },
         {
-          "text": "Over the years we’ve been fortunate to earn the repeat business of thousands of customers including some of the world’s largest - and smallest - companies.",
+          "text": "Basecamp is a company spread out across 26 different cities around the world.",
+          "heading": "We the Basecamp.",
+          "score": 0.0369
+        },
+        {
+          "text": "We started the business back in 1999 (we used to be called 37signals, but recently we changed the name of the business to Basecamp, to match the name of our most popular product). 2014 marks our 15th year in business, yet we feel like we’re just getting started.",
           "heading": "15 years and running.",
-          "score": -0.005
+          "score": 0.0365
+        },
+        {
+          "text": "Freelancers, small shops, mid-sized companies, and multinationals all rely on Basecamp.",
+          "heading": "15 years and running.",
+          "score": 0.0364
+        },
+        {
+          "text": "It’s rare that a business tool is equally popular with the big guys and the small guys, but Basecamp is that kind of tool.",
+          "heading": "15 years and running.",
+          "score": 0.0332
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": 1.1927,
+      "zscore": 0.4818,
       "rawTopkMean": 0.1315,
-      "nChunks": 37,
+      "nChunks": 50,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -237,81 +293,81 @@
     },
     {
       "year": 2017,
-      "zscore": -1.2785,
-      "rawTopkMean": 0.0281,
-      "nChunks": 20,
+      "zscore": 0.2601,
+      "rawTopkMean": 0.124,
+      "nChunks": 53,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "It’ll take some getting used to if you’ve been immersed in ASAP culture, but after a while you’ll wonder how you worked any other way.",
-          "heading": "What it's like to work here",
-          "score": 0.0505
+          "text": "If you run in tech circles, you’ve surely heard of Ruby on Rails .",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1491
         },
         {
-          "text": "You’ll have a lot fewer meetings, a lot less email, and a lot less interruption.",
-          "heading": "What it's like to work here",
-          "score": 0.0334
+          "text": "Many of Rails modern innovations start as experiments inside Basecamp.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1353
         },
         {
-          "text": "Basecamp is headquartered in Chicago , but our team is spread out across 32 cities around the world.",
-          "heading": "Who we are",
-          "score": 0.0288
+          "text": "Over the past decade, Rails has become one of the world’s most popular programming frameworks.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1269
         },
         {
-          "text": "We work in small, independent teams, typically on a 6 week cycle .",
-          "heading": "What it's like to work here",
-          "score": 0.0232
+          "text": "The first Rails app, however, was our very own Basecamp.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1085
         },
         {
-          "text": "Collectively, we’ve run a profitable and popular business for 17 years straight, launched a widely popular programming framework (Ruby on Rails), written best-selling books, and a whole lot more .",
-          "heading": "Who we are",
-          "score": 0.0044
+          "text": "Rails was invented in 2003 by David Heinemeier Hansson, a partner here at Basecamp.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1004
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": -0.4899,
-      "rawTopkMean": 0.0611,
-      "nChunks": 33,
+      "zscore": 0.2601,
+      "rawTopkMean": 0.124,
+      "nChunks": 66,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "It was formerly a 10,000 sqft empty concrete box, used by Crate & Barrel as their photo studio.",
-          "heading": "Basecamp HQ in Chicago",
-          "score": 0.0789
+          "text": "If you run in tech circles, you’ve surely heard of Ruby on Rails .",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1491
         },
         {
-          "text": "We spent a year designing and building it out with our friends at Brininstool+Lynch .",
-          "heading": "Basecamp HQ in Chicago",
-          "score": 0.0774
+          "text": "Many of Rails modern innovations start as experiments inside Basecamp.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1353
         },
         {
-          "text": "When you walk in, you see clear through to the far wall of 10 foot windows.",
-          "heading": "Basecamp HQ in Chicago",
-          "score": 0.0682
+          "text": "Over the past decade, Rails has become one of the world’s most popular programming frameworks.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1269
         },
         {
-          "text": "If moving pictures are more your style, here are some slow pans of the office.",
-          "heading": "Basecamp HQ in Chicago",
-          "score": 0.0437
+          "text": "The first Rails app, however, was our very own Basecamp.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1085
         },
         {
-          "text": "We built out a theater that seats 37 people.",
-          "heading": "Basecamp HQ in Chicago",
-          "score": 0.0373
+          "text": "Rails was invented in 2003 by David Heinemeier Hansson, a partner here at Basecamp.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1004
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 0.8669,
-      "rawTopkMean": 0.1179,
-      "nChunks": 106,
+      "zscore": 0.9586,
+      "rawTopkMean": 0.1476,
+      "nChunks": 224,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -322,32 +378,32 @@
           "score": 0.2094
         },
         {
+          "text": "If you run in tech circles, you’ve surely heard of Ruby on Rails .",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1491
+        },
+        {
+          "text": "Many of Rails modern innovations start as experiments inside Basecamp.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1353
+        },
+        {
+          "text": "Over the past decade, Rails has become one of the world’s most popular programming frameworks.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1269
+        },
+        {
           "text": "Used an earlier version, but moved on?",
           "heading": "Tried Basecamp lately?",
           "score": 0.1174
-        },
-        {
-          "text": "Now you can ditch Slack, Asana, Trello, Jira, Dropbox, or some other messy jumble of products.",
-          "heading": "Tried Basecamp lately?",
-          "score": 0.0884
-        },
-        {
-          "text": "They don’t know how to use it.",
-          "heading": "Get off the conveyor belt",
-          "score": 0.0882
-        },
-        {
-          "text": "Software developers are prone to saying “well, then you’re using it wrong.” Or “it’s not the tool’s fault, it’s how you use it.” That’s a cop out.",
-          "heading": "Group chat is like being in an all-day meeting, with random participants, and no agenda.",
-          "score": 0.0859
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 1.5319,
-      "rawTopkMean": 0.1457,
-      "nChunks": 213,
+      "zscore": 1.0242,
+      "rawTopkMean": 0.1499,
+      "nChunks": 299,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -363,99 +419,99 @@
           "score": 0.1595
         },
         {
+          "text": "If you run in tech circles, you’ve surely heard of Ruby on Rails .",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1491
+        },
+        {
           "text": "Keep in mind that many technical systems truncate long text or titles.",
           "heading": "Rules of thumb, and general philosophy",
           "score": 0.1407
         },
         {
-          "text": "Soon after, our clients started asking us what software we were using to run these projects.",
-          "heading": "Basecamp",
-          "score": 0.1319
-        },
-        {
-          "text": "Then our clients started asking us what software we were using to run these projects.",
-          "heading": "The story of Basecamp.",
-          "score": 0.1318
+          "text": "Many of Rails modern innovations start as experiments inside Basecamp.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1353
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 0.808,
-      "rawTopkMean": 0.1154,
-      "nChunks": 159,
+      "zscore": 1.1637,
+      "rawTopkMean": 0.1546,
+      "nChunks": 424,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "It's all-new, thoroughly modern, and unlike anything else.",
+          "heading": "Tried Basecamp lately?",
+          "score": 0.2094
+        },
+        {
+          "text": "If you run in tech circles, you’ve surely heard of Ruby on Rails .",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1491
+        },
+        {
+          "text": "Keep in mind that many technical systems truncate long text or titles.",
+          "heading": "Rules of thumb, and general philosophy",
+          "score": 0.1407
+        },
+        {
+          "text": "When they launched, each of our products was our finest work.",
+          "heading": "Until the End of the Internet",
+          "score": 0.1379
+        },
+        {
+          "text": "From creating one of the first software-as-a-service web apps, inventing Ruby on Rails , writing influential and NYT best-selling books , to running a remote company a decade before the rest of the industry caught on; we make waves and build great software while we do it.",
+          "heading": "We the Basecamp!",
+          "score": 0.1358
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "zscore": 0.7784,
+      "rawTopkMean": 0.1415,
+      "nChunks": 333,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "If you run in tech circles, you’ve surely heard of Ruby on Rails .",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1491
+        },
+        {
+          "text": "Basecamp defined a category, and continues to constantly push that category forward in innovative ways.",
+          "heading": "Where we came from.",
+          "score": 0.1469
+        },
+        {
+          "text": "Keep in mind that many technical systems truncate long text or titles.",
+          "heading": "Rules of thumb, and general philosophy",
+          "score": 0.1407
+        },
         {
           "text": "From creating one of the first software-as-a-service web apps, inventing Ruby on Rails , writing influential and NYT best-selling books , to running a remote company a decade before the rest of the industry caught on; we make waves and build great software while we do it.",
           "heading": "We the Basecamp!",
           "score": 0.1358
         },
         {
-          "text": "The average tenure of employees working at many technology companies today is shockingly low.",
-          "heading": "Making a Career",
-          "score": 0.1274
-        },
-        {
-          "text": "At both Amazon and Google, it’s just around one year .",
-          "heading": "Making a Career",
-          "score": 0.1272
-        },
-        {
-          "text": "Most companies cobble together a latticework of separate tools as they grow, but the weight of disorganization and lack of order collapses and eventually catches up to them.",
-          "heading": "Helping small businesses deal with growth",
-          "score": 0.0994
-        },
-        {
-          "text": "And just when you’re caught up, you’re behind again.",
-          "heading": "10. Chat reminds you that you’re behind.",
-          "score": 0.0874
-        }
-      ]
-    },
-    {
-      "year": 2022,
-      "zscore": 0.2485,
-      "rawTopkMean": 0.092,
-      "nChunks": 113,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "In addition to Basecamp and HEY, we invented the Ruby on Rails programming framework and have written a number of best-selling, influential books .",
-          "heading": "Who we are",
-          "score": 0.1033
-        },
-        {
-          "text": "As soon as organizational bottlenecks form, like a slew of features waiting for “the mobile integration”, we’re dragged towards more micro and detailed schedule management.",
-          "heading": "In self-sufficient, independent teams",
-          "score": 0.0987
-        },
-        {
-          "text": "Thus, the fewer other departments a team has to pass through on their road to rolling out a new feature, the better.",
-          "heading": "In self-sufficient, independent teams",
-          "score": 0.0916
-        },
-        {
-          "text": "That work has a lot of interrupt-based jobs that simply needs to be done right here, right now.",
-          "heading": "Asynchronously",
-          "score": 0.0884
-        },
-        {
-          "text": "For example, a team working on a new scheduling feature should be able to test and integrate their work with the native apps without involving mobile, unless something special is needed.",
-          "heading": "In self-sufficient, independent teams",
-          "score": 0.0779
+          "text": "Many of Rails modern innovations start as experiments inside Basecamp.",
+          "heading": "Ruby on Rails was born here!",
+          "score": 0.1353
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": 0.9363,
-      "rawTopkMean": 0.1208,
-      "nChunks": 115,
+      "zscore": 0.5283,
+      "rawTopkMean": 0.1331,
+      "nChunks": 431,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -476,58 +532,58 @@
           "score": 0.1334
         },
         {
-          "text": "Over the past few years, persistent group chat tools like Slack and Microsoft Teams have taken hold — and strangled companies.",
-          "heading": "Group chat is like being in an all-day meeting, with random participants, and no agenda",
-          "score": 0.0943
+          "text": "Soon after, our clients started asking us what software we were using to run these projects.",
+          "heading": "Basecamp",
+          "score": 0.1319
         },
         {
-          "text": "More than a decade of first-hand, extended-used experience has revealed some patterns and inconvenient truths.",
-          "heading": "Group chat is like being in an all-day meeting, with random participants, and no agenda",
-          "score": 0.0887
+          "text": "A few months later we had something ready, and we immediately started using this tool with our existing clients.",
+          "heading": "Basecamp",
+          "score": 0.1126
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": -0.5651,
-      "rawTopkMean": 0.0579,
-      "nChunks": 99,
+      "zscore": 0.251,
+      "rawTopkMean": 0.1237,
+      "nChunks": 452,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Every team submits a Kickoff for the upcoming cycle, and they’re due the second Friday of the cooldown period.",
-          "heading": "Communication",
-          "score": 0.0666
+          "text": "Basecamp defined a category, and continues to constantly push that category forward in innovative ways.",
+          "heading": "Where we came from.",
+          "score": 0.1469
         },
         {
-          "text": "37signals is a fully distributed company.",
-          "heading": "Remotely",
-          "score": 0.0615
+          "text": "Keep in mind that many technical systems truncate long text or titles.",
+          "heading": "Rules of thumb, and general philosophy",
+          "score": 0.1407
         },
         {
-          "text": "We have pings, video calls, screen-sharing, or even in-person collaboration for when async isn’t efficient.",
-          "heading": "Asynchronously",
-          "score": 0.0564
+          "text": "Real-time sometimes, asynchronous most of the time.",
+          "heading": "Rules of thumb, and general philosophy",
+          "score": 0.1334
         },
         {
-          "text": "Compare that with the number of lines it takes to communicate the same thing in chat.",
-          "heading": "11. 25 used to mean 1",
-          "score": 0.0548
+          "text": "In addition to Basecamp and HEY, we invented the Ruby on Rails programming framework and have written a number of best-selling, influential books .",
+          "heading": "Who we are",
+          "score": 0.1033
         },
         {
-          "text": "Of course there will be times when you do need to tightly collaborate with someone in real time, but those cases should be infrequent.",
-          "heading": "Asynchronously",
-          "score": 0.0505
+          "text": "Over the past few years, persistent group chat tools like Slack and Microsoft Teams have taken hold — and strangled companies.",
+          "heading": "Group chat is like being in an all-day meeting, with random participants, and no agenda",
+          "score": 0.0943
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": -0.3638,
-      "rawTopkMean": 0.0664,
-      "nChunks": 70,
+      "zscore": 0.7712,
+      "rawTopkMean": 0.1413,
+      "nChunks": 253,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -538,36 +594,51 @@
           "score": 0.1822
         },
         {
-          "text": "What parts can we eliminate from consideration?",
+          "text": "Basecamp defined a category, and continues to constantly push that category forward in innovative ways.",
+          "heading": "Where we came from",
+          "score": 0.1469
+        },
+        {
+          "text": "Keep in mind that many technical systems truncate long text or titles.",
           "heading": "Rules of thumb, and general philosophy",
-          "score": 0.0621
+          "score": 0.1407
         },
         {
-          "text": "You’re a key contributor to heartbeats, kickoffs, and both internal and external feature releases.",
-          "heading": "Communication",
-          "score": 0.0423
-        },
-        {
-          "text": "Is this primarily a data-based decision, or an intuition, gut-based decision?",
+          "text": "Real-time sometimes, asynchronous most of the time.",
           "heading": "Rules of thumb, and general philosophy",
-          "score": 0.0299
+          "score": 0.1334
         },
         {
-          "text": "You have a point of view as a designer and you’re demonstrated comfort expressing it.",
-          "heading": "Flexibility",
-          "score": 0.0152
+          "text": "In addition to Basecamp and HEY, we invented the Ruby on Rails programming framework and have written a number of best-selling, influential books .",
+          "heading": "Who we are",
+          "score": 0.1033
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": 0.3984,
-      "rawTopkMean": 0.0983,
-      "nChunks": 36,
+      "zscore": 0.4865,
+      "rawTopkMean": 0.1317,
+      "nChunks": 251,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Basecamp defined a category, and continues to constantly push that category forward in innovative ways.",
+          "heading": "Where we came from",
+          "score": 0.1469
+        },
+        {
+          "text": "Keep in mind that many technical systems truncate long text or titles.",
+          "heading": "Rules of thumb, and general philosophy",
+          "score": 0.1407
+        },
+        {
+          "text": "Real-time sometimes, asynchronous most of the time.",
+          "heading": "Rules of thumb, and general philosophy",
+          "score": 0.1334
+        },
         {
           "text": "The company reserves the right to, and may be required to, seize your computer or its data at any point in response to subpoenas, lawsuits, or security incidents.",
           "heading": "Access to code and secrets",
@@ -577,21 +648,6 @@
           "text": "Devices running Android, iOS/iPadOS, and Windows are currently unmanaged.",
           "heading": "Mobile devices and Windows",
           "score": 0.1054
-        },
-        {
-          "text": "So we had to build our own project management system from scratch.",
-          "heading": "Where we came from.",
-          "score": 0.091
-        },
-        {
-          "text": "Knowing our devices are safe and secure allows us to entrust our work computers with access to sensitive systems like Queenbee, and our internal VPN and remote servers.",
-          "heading": "Access to code and secrets",
-          "score": 0.0839
-        },
-        {
-          "text": "We looked around and tried a few things, but the popular tools we tried simply didn’t cut it.",
-          "heading": "Where we came from.",
-          "score": 0.079
         }
       ]
     }

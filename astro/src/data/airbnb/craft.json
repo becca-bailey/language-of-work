@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2015,
-      "zscore": 1.8251,
+      "zscore": 0.9092,
       "rawTopkMean": 0.0935,
       "nChunks": 20,
       "kUsed": 5,
@@ -41,9 +41,9 @@
     },
     {
       "year": 2016,
-      "zscore": 0.4971,
-      "rawTopkMean": 0.0614,
-      "nChunks": 5,
+      "zscore": 1.5283,
+      "rawTopkMean": 0.1103,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -54,32 +54,68 @@
           "score": 0.2053
         },
         {
+          "text": "We make sure to enjoy it.",
+          "heading": "Play",
+          "score": 0.1196
+        },
+        {
           "text": "Passionate. Committed. Optimistic. Puts the Airbnb community first. Takes ownership and delivers results. Perpetuates belonging.",
           "heading": "Champion the Mission",
           "score": 0.0905
         },
         {
-          "text": "Advocates and eliminates interference for others.",
-          "heading": "Be a Host",
-          "score": 0.0455
+          "text": "It takes an entire team united behind something big.",
+          "heading": "Together at Airbnb",
+          "score": 0.0786
         },
         {
-          "text": "Distills a problem to its essence.",
-          "heading": "Simplify",
-          "score": 0.0237
-        },
-        {
-          "text": "Flexible. Risk tolerant. Always learning. Curious. Open-minded. Brings joy to their work.",
-          "heading": "Embrace the Adventure",
-          "score": -0.058
+          "text": "It's all about knowing who you are.",
+          "heading": "We Learn from the Best",
+          "score": 0.0575
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.8153,
-      "rawTopkMean": 0.0691,
-      "nChunks": 8,
+      "zscore": 1.6932,
+      "rawTopkMean": 0.1148,
+      "nChunks": 22,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Appreciates the details and prioritizes the right ones.",
+          "heading": "Every Frame Matters",
+          "score": 0.2053
+        },
+        {
+          "text": "We make sure to enjoy it.",
+          "heading": "Play",
+          "score": 0.1196
+        },
+        {
+          "text": "Passionate. Committed. Optimistic. Puts the Airbnb community first. Takes ownership and delivers results. Perpetuates belonging.",
+          "heading": "Champion the Mission",
+          "score": 0.0905
+        },
+        {
+          "text": "Care for others and make them feel like they belong Encourage others to participate to their fullest Listen, communicate openly and set clear expectations",
+          "heading": "Be a Host",
+          "score": 0.0798
+        },
+        {
+          "text": "It takes an entire team united behind something big.",
+          "heading": "Together at Airbnb",
+          "score": 0.0786
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "zscore": 0.4784,
+      "rawTopkMean": 0.0819,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -95,27 +131,135 @@
           "score": 0.0798
         },
         {
+          "text": "It takes an entire team united behind something big.",
+          "heading": "Together at Airbnb",
+          "score": 0.0786
+        },
+        {
           "text": "Prioritize work that advances the mission and positively impacts the community Build with the long-term in mind Actively participate in the community and culture",
           "heading": "Champion the Mission",
           "score": 0.0738
         },
         {
-          "text": "Life is what happens when you're busy working.",
-          "heading": "Create a world that inspires human connection",
-          "score": 0.047
-        },
-        {
-          "text": "Be bold and apply original thinking Imagine the ideal outcome Be resourceful to make the outcome a reality",
-          "heading": "Be a Cereal Entrepreneur",
-          "score": 0.0253
+          "text": "It's all about knowing who you are.",
+          "heading": "We Learn from the Best",
+          "score": 0.0575
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": -0.7483,
-      "rawTopkMean": 0.0313,
-      "nChunks": 9,
+      "zscore": 0.4309,
+      "rawTopkMean": 0.0806,
+      "nChunks": 23,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We make sure to enjoy it.",
+          "heading": "Create a world that inspires human connection",
+          "score": 0.1196
+        },
+        {
+          "text": "Care for others and make them feel like they belong Encourage others to participate to their fullest Listen, communicate openly and set clear expectations",
+          "heading": "Be a Host",
+          "score": 0.0798
+        },
+        {
+          "text": "It takes an entire team united behind something big.",
+          "heading": "Together at Airbnb",
+          "score": 0.0786
+        },
+        {
+          "text": "Prioritize work that advances the mission and positively impacts the community Build with the long-term in mind Actively participate in the community and culture",
+          "heading": "Champion the Mission",
+          "score": 0.0738
+        },
+        {
+          "text": "We're caring, open, and encouraging to everyone we work with.",
+          "heading": "Be a Host",
+          "score": 0.051
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "zscore": -0.5534,
+      "rawTopkMean": 0.0539,
+      "nChunks": 14,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "There’s life at work and life outside of work.",
+          "heading": "Live your best life",
+          "score": 0.0922
+        },
+        {
+          "text": "We're caring, open, and encouraging to everyone we work with.",
+          "heading": "Be a Host",
+          "score": 0.051
+        },
+        {
+          "text": "We want everyone to be healthy, travel often, get time to give back, and have the financial resources and support they need.",
+          "heading": "Live your best life",
+          "score": 0.0503
+        },
+        {
+          "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work.",
+          "heading": "Include everyone",
+          "score": 0.0399
+        },
+        {
+          "text": "We’re united with our community to create a world where anyone can belong anywhere.",
+          "heading": "Champion the Mission",
+          "score": 0.0361
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "zscore": -0.5534,
+      "rawTopkMean": 0.0539,
+      "nChunks": 24,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "There’s life at work and life outside of work.",
+          "heading": "Live your best life",
+          "score": 0.0922
+        },
+        {
+          "text": "We're caring, open, and encouraging to everyone we work with.",
+          "heading": "Be a Host",
+          "score": 0.051
+        },
+        {
+          "text": "We want everyone to be healthy, travel often, get time to give back, and have the financial resources and support they need.",
+          "heading": "Live your best life",
+          "score": 0.0503
+        },
+        {
+          "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work.",
+          "heading": "Include everyone",
+          "score": 0.0399
+        },
+        {
+          "text": "We’re united with our community to create a world where anyone can belong anywhere.",
+          "heading": "Champion the Mission",
+          "score": 0.0361
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "zscore": -1.1021,
+      "rawTopkMean": 0.039,
+      "nChunks": 12,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -125,94 +269,6 @@
           "heading": "Be a Host",
           "score": 0.051
         },
-        {
-          "text": "We’re united with our community to create a world where anyone can belong anywhere.",
-          "heading": "Champion the Mission",
-          "score": 0.0361
-        },
-        {
-          "text": "Airbnb is built around the idea that everyone should be able to take the perfect trip, including where they stay, what they do, and who they meet.",
-          "heading": "Create a world where anyone can belong anywhere",
-          "score": 0.0319
-        },
-        {
-          "text": "We’re determined and creative in transforming our bold ambitions into reality.",
-          "heading": "Be a Cereal Entrepreneur",
-          "score": 0.0255
-        },
-        {
-          "text": "It’s an audacious, incredibly rewarding mission that our increasingly diverse team is dedicated to achieving.",
-          "heading": "Create a world where anyone can belong anywhere",
-          "score": 0.0119
-        }
-      ]
-    },
-    {
-      "year": 2020,
-      "zscore": 0.9035,
-      "rawTopkMean": 0.0712,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "There’s life at work and life outside of work.",
-          "heading": "Live your best life",
-          "score": 0.0922
-        },
-        {
-          "text": "We want everyone to be healthy, travel often, get time to give back, and have the financial resources and support they need.",
-          "heading": "Live your best life",
-          "score": 0.0503
-        }
-      ]
-    },
-    {
-      "year": 2021,
-      "zscore": -1.4835,
-      "rawTopkMean": 0.0135,
-      "nChunks": 10,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "Every day, Hosts offer one-of-a-kind stays and unique Experiences that make it possible for guests to experience the world in a more authentic, connected way.",
-          "heading": "About Airbnb",
-          "score": 0.0229
-        },
-        {
-          "text": "Airbnb will continue to build an efficient local team, bringing the authentic travel experience to Chinese travelers.",
-          "heading": "About Airbnb China",
-          "score": 0.0187
-        },
-        {
-          "text": "As one of the leaders in the home sharing industry, Airbnb works with partners across many fields to actively promote the sustainable development of this emerging industry and achieve win-win results for everyone.",
-          "heading": "About Airbnb China",
-          "score": 0.018
-        },
-        {
-          "text": "Engineering technologies that bring people together in the real world is both inspiring and daunting.",
-          "heading": "Build extraordinary products",
-          "score": 0.0123
-        },
-        {
-          "text": "Airbnb continues to focus on product localization and innovation to better serve local users and enhance the user experience, nurture a trusting local community, and engage Chinese Millennial travelers with inspiring brand moments.",
-          "heading": "About Airbnb China",
-          "score": -0.0043
-        }
-      ]
-    },
-    {
-      "year": 2022,
-      "zscore": -0.7394,
-      "rawTopkMean": 0.0315,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "quotes": [
         {
           "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work.",
           "heading": "Include everyone",
@@ -224,19 +280,24 @@
           "score": 0.0363
         },
         {
-          "text": "Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world.",
-          "heading": "Include everyone",
-          "score": 0.0184
+          "text": "We’re united with our community to create a world where anyone can belong anywhere.",
+          "heading": "Champion the Mission",
+          "score": 0.0361
+        },
+        {
+          "text": "Airbnb is built around the idea that everyone should be able to take the perfect trip, including where they stay, what they do, and who they meet.",
+          "heading": "Create a world where anyone can belong anywhere",
+          "score": 0.0319
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": -0.7097,
-      "rawTopkMean": 0.0322,
-      "nChunks": 4,
-      "kUsed": 4,
-      "thin": true,
+      "zscore": -0.7483,
+      "rawTopkMean": 0.0486,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
@@ -245,25 +306,66 @@
           "score": 0.0798
         },
         {
-          "text": "\"Every day at Airbnb, I get to work with the smartest people I know on beautiful technical projects that help share the joy of travel with the rest of the world.\" \"Airbnb is the type of place where you get calluses from clapping, strong fingers from coding, abs from laughing, and delicious food.\"",
-          "heading": "Belong at Airbnb",
-          "score": 0.0346
+          "text": "We're caring, open, and encouraging to everyone we work with.",
+          "heading": "Be a Host",
+          "score": 0.051
         },
         {
-          "text": "We seek to host employees who express a diversity of cultures, interests, thinking, and identities.",
-          "heading": "Belong at Airbnb",
-          "score": 0.0205
+          "text": "A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work.",
+          "heading": "Include everyone",
+          "score": 0.0399
         },
         {
-          "text": "We believe that embracing differences within Airbnb's teams is key to promoting innovation and accessibility in our global community.",
-          "heading": "Belong at Airbnb",
-          "score": -0.006
+          "text": "Learn more about what makes Airbnb, Airbnb",
+          "heading": "Include everyone",
+          "score": 0.0363
+        },
+        {
+          "text": "We’re united with our community to create a world where anyone can belong anywhere.",
+          "heading": "Champion the Mission",
+          "score": 0.0361
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": -0.3601,
+      "zscore": -1.0414,
+      "rawTopkMean": 0.0407,
+      "nChunks": 5,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Join our global creative community, where passion and collaboration drive innovation to make products that impact the world.",
+          "heading": "Make an impact",
+          "score": 0.0747
+        },
+        {
+          "text": "We’re committed to ensuring Airbnb is a place where people of all backgrounds, identities, and experiences can thrive.",
+          "heading": "We welcome you",
+          "score": 0.063
+        },
+        {
+          "text": "Creating connection and belonging in the world begins with a workplace where you're both welcomed and empowered to be your authentic self, so you can deliver your best work.",
+          "heading": "We welcome you",
+          "score": 0.0566
+        },
+        {
+          "text": "Work alongside industry-leading talent and be part of our vibrant network, encompassing people from all walks of life.",
+          "heading": "Make an impact",
+          "score": 0.0499
+        },
+        {
+          "text": "From our first three guests in 2007, Airbnb has welcomed 1.5 billion arrivals, all thanks to our 5 million Hosts.",
+          "heading": "Work at one of the most creative places on Earth",
+          "score": -0.0409
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "zscore": -1.0414,
       "rawTopkMean": 0.0407,
       "nChunks": 5,
       "kUsed": 5,

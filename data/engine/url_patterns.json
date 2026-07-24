@@ -1,0 +1,89 @@
+{
+  "company": "engine",
+  "display_name": "Engine",
+  "comment": "Hotel Engine rebranded to Engine (engine.com) in 2024; hotelengine.com carries the 2013-2024 era. engine.com had unrelated owners before the rebrand, so engine.com patterns are bounded with min_year 2024. Culture memo (engine.com/culture-memo) is the Netflix-memo descendant of interest; /how-we-operate has zero CDX captures as of 2026-07 and is covered by manual live capture instead.",
+  "hosts": [
+    "engine.com",
+    "www.engine.com",
+    "hotelengine.com",
+    "www.hotelengine.com"
+  ],
+  "patterns": [
+    {
+      "url": "hotelengine.com/careers",
+      "match_type": "exact",
+      "era_hint": "2019-2024"
+    },
+    {
+      "url": "www.hotelengine.com/careers",
+      "match_type": "exact",
+      "era_hint": "2019-2024"
+    },
+    {
+      "url": "hotelengine.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2019-2024"
+    },
+    {
+      "url": "www.hotelengine.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2019-2024"
+    },
+    {
+      "url": "hotelengine.com/about-us",
+      "match_type": "exact",
+      "era_hint": "2013-2024"
+    },
+    {
+      "url": "www.hotelengine.com/about-us",
+      "match_type": "exact",
+      "era_hint": "2013-2024"
+    },
+    {
+      "url": "www.hotelengine.com/about-us/",
+      "match_type": "exact",
+      "era_hint": "2013-2024"
+    },
+    {
+      "url": "hotelengine.com/culture",
+      "match_type": "exact",
+      "era_hint": "2024"
+    },
+    {
+      "url": "engine.com/careers",
+      "match_type": "exact",
+      "era_hint": "2024+",
+      "min_year": 2024
+    },
+    {
+      "url": "www.engine.com/careers",
+      "match_type": "exact",
+      "era_hint": "2024+",
+      "min_year": 2024
+    },
+    {
+      "url": "engine.com/culture",
+      "match_type": "exact",
+      "era_hint": "2024+",
+      "min_year": 2024
+    },
+    {
+      "url": "engine.com/culture-memo",
+      "match_type": "exact",
+      "era_hint": "2025+",
+      "min_year": 2024
+    },
+    {
+      "url": "engine.com/mission-first",
+      "match_type": "exact",
+      "era_hint": "2026+",
+      "min_year": 2024
+    },
+    {
+      "url": "engine.com/how-we-operate",
+      "match_type": "exact",
+      "era_hint": "2025+",
+      "min_year": 2024
+    }
+  ]
+}

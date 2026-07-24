@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2006,
-      "zscore": 0.5702,
+      "zscore": 0.5369,
       "rawTopkMean": 0.0822,
       "nChunks": 13,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2007,
-      "zscore": 0.3592,
+      "zscore": 0.3571,
       "rawTopkMean": 0.0776,
       "nChunks": 14,
       "kUsed": 5,
@@ -77,9 +77,9 @@
     },
     {
       "year": 2008,
-      "zscore": 0.813,
+      "zscore": 0.7437,
       "rawTopkMean": 0.0875,
-      "nChunks": 15,
+      "nChunks": 16,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -112,8 +112,44 @@
       ]
     },
     {
+      "year": 2009,
+      "zscore": 0.2795,
+      "rawTopkMean": 0.0756,
+      "nChunks": 13,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers.",
+          "heading": "",
+          "score": 0.1248
+        },
+        {
+          "text": "NVIDIA's culture promotes and inspires our team of world-class engineers and developers to be at the top of their game.",
+          "heading": "",
+          "score": 0.0687
+        },
+        {
+          "text": "NVIDIA conducts background checks as a condition of employment.",
+          "heading": "",
+          "score": 0.0685
+        },
+        {
+          "text": "We love what we do because we do what we love.",
+          "heading": "",
+          "score": 0.0631
+        },
+        {
+          "text": "VERIFICATION ENGINEER US, CA, Santa Clara",
+          "heading": "",
+          "score": 0.053
+        }
+      ]
+    },
+    {
       "year": 2010,
-      "zscore": 0.2395,
+      "zscore": 0.2552,
       "rawTopkMean": 0.075,
       "nChunks": 13,
       "kUsed": 5,
@@ -149,7 +185,7 @@
     },
     {
       "year": 2011,
-      "zscore": 0.2395,
+      "zscore": 0.2552,
       "rawTopkMean": 0.075,
       "nChunks": 12,
       "kUsed": 5,
@@ -185,7 +221,7 @@
     },
     {
       "year": 2012,
-      "zscore": 0.4969,
+      "zscore": 0.4745,
       "rawTopkMean": 0.0806,
       "nChunks": 13,
       "kUsed": 5,
@@ -220,8 +256,44 @@
       ]
     },
     {
+      "year": 2013,
+      "zscore": 1.2424,
+      "rawTopkMean": 0.1003,
+      "nChunks": 17,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We invest in our people, our technologies, and our research and development efforts to deliver the highest quality products to customers across the globe.",
+          "heading": "",
+          "score": 0.1669
+        },
+        {
+          "text": "We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers.",
+          "heading": "",
+          "score": 0.1248
+        },
+        {
+          "text": "NVIDIA's culture inspires our team of world-class engineers and developers to be at the top of their game.",
+          "heading": "",
+          "score": 0.0714
+        },
+        {
+          "text": "SENIOR MEMORY CONTROLLER VERIFICATION ENGINEER US, CA, Santa Clara",
+          "heading": "",
+          "score": 0.0696
+        },
+        {
+          "text": "NVIDIA's culture promotes and inspires our team of world-class engineers and developers to be at the top of their game.",
+          "heading": "",
+          "score": 0.0687
+        }
+      ]
+    },
+    {
       "year": 2014,
-      "zscore": 0.6844,
+      "zscore": 0.6342,
       "rawTopkMean": 0.0847,
       "nChunks": 14,
       "kUsed": 5,
@@ -256,8 +328,24 @@
       ]
     },
     {
+      "year": 2015,
+      "zscore": -1.7866,
+      "rawTopkMean": 0.0227,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Each employee can make a difference – help us invent the future.",
+          "heading": "Careers",
+          "score": 0.0227
+        }
+      ]
+    },
+    {
       "year": 2020,
-      "zscore": -1.2037,
+      "zscore": -0.974,
       "rawTopkMean": 0.0435,
       "nChunks": 47,
       "kUsed": 5,
@@ -293,7 +381,7 @@
     },
     {
       "year": 2024,
-      "zscore": -1.1793,
+      "zscore": -0.9532,
       "rawTopkMean": 0.044,
       "nChunks": 19,
       "kUsed": 5,
@@ -329,9 +417,9 @@
     },
     {
       "year": 2025,
-      "zscore": 1.1776,
+      "zscore": 1.0542,
       "rawTopkMean": 0.0955,
-      "nChunks": 34,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -365,17 +453,22 @@
     },
     {
       "year": 2026,
-      "zscore": -2.1974,
-      "rawTopkMean": 0.0218,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -2.1192,
+      "rawTopkMean": 0.0142,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
           "text": "We thrive on seamless collaboration and shared success while embracing inclusivity and individuality.",
           "heading": "Explore Life at NVIDIA",
           "score": 0.0464
+        },
+        {
+          "text": "Watch this video for a glimpse at why NVIDIA is like no place you've ever worked.",
+          "heading": "Follow Your Passion. Lead a Movement.",
+          "score": 0.0335
         },
         {
           "text": "The project is the boss—even for our CEO.",
@@ -386,6 +479,11 @@
           "text": "We’re an eclectic, passionate group of professionals dedicated to solving some of the world’s biggest challenges.",
           "heading": "Explore Life at NVIDIA",
           "score": 0.0007
+        },
+        {
+          "text": "You’ll solve some of the world’s hardest problems and discover never-before-seen ways to improve the quality of life for people everywhere.",
+          "heading": "Follow Your Passion. Lead a Movement.",
+          "score": -0.0281
         }
       ]
     }

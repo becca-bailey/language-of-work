@@ -2,16 +2,16 @@
   "ground_truth_chunk": {
     "level": "chunk",
     "altruism_peak_year": 2025,
-    "altruism_control_correlation": 0.033,
-    "correlation_p": 0.901,
+    "altruism_control_correlation": 0.345,
+    "correlation_p": 0.161,
     "control_decoupled": true,
     "peak_within_expected": null
   },
   "ground_truth_sentence": {
     "level": "sentence",
     "altruism_peak_year": 2016,
-    "altruism_control_correlation": 0.465,
-    "correlation_p": 0.06,
+    "altruism_control_correlation": 0.427,
+    "correlation_p": 0.077,
     "control_decoupled": true,
     "peak_within_expected": null
   },
@@ -97,6 +97,88 @@
       "chunk_p": 0.608,
       "n_chunks": 143,
       "separated": true
+    }
+  ],
+  "control_decoupling": [
+    {
+      "axis": "altruism",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.345,
+      "control_p": 0.161,
+      "r_topk_vs_logn": 0.651,
+      "control_r_topk_vs_logn": 0.633,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "craft",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.127,
+      "control_p": 0.617,
+      "r_topk_vs_logn": 0.483,
+      "control_r_topk_vs_logn": 0.633,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "inclusion",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.392,
+      "control_p": 0.108,
+      "r_topk_vs_logn": 0.351,
+      "control_r_topk_vs_logn": 0.633,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "meritocracy",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.214,
+      "control_p": 0.393,
+      "r_topk_vs_logn": 0.127,
+      "control_r_topk_vs_logn": 0.633,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "performance",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.005,
+      "control_p": 0.985,
+      "r_topk_vs_logn": -0.151,
+      "control_r_topk_vs_logn": 0.633,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "techno_optimism",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": -0.285,
+      "control_p": 0.252,
+      "r_topk_vs_logn": 0.156,
+      "control_r_topk_vs_logn": 0.633,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "wellbeing",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.381,
+      "control_p": 0.119,
+      "r_topk_vs_logn": 0.634,
+      "control_r_topk_vs_logn": 0.633,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "wellbeing_locus",
+      "level": "chunk",
+      "n_years": 18,
+      "control_r": 0.272,
+      "control_p": 0.275,
+      "r_topk_vs_logn": 0.634,
+      "control_r_topk_vs_logn": 0.633,
+      "diagnosis": "decoupled"
     }
   ]
 }

@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2018,
-      "zscore": -0.595,
+      "zscore": -1.3546,
       "rawTopkMean": 0.4241,
       "nChunks": 8,
       "kUsed": 5,
@@ -41,9 +41,9 @@
     },
     {
       "year": 2019,
-      "zscore": -1.3105,
-      "rawTopkMean": 0.3356,
-      "nChunks": 6,
+      "zscore": -0.7367,
+      "rawTopkMean": 0.475,
+      "nChunks": 14,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -59,27 +59,27 @@
           "score": 0.4931
         },
         {
-          "text": "We think deeply, question conventions, and strive to never stop learning.",
-          "heading": "We Are Smart",
-          "score": 0.4085
+          "text": "We Are Creative We challenge the status quo to make things with a sense of purpose.",
+          "heading": "Our Brands",
+          "score": 0.4831
         },
         {
-          "text": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
-          "heading": "Spectacles",
-          "score": 0.16
+          "text": "We Are Kind We listen from the heart, think empathetically, and help each other grow.",
+          "heading": "Our Brands",
+          "score": 0.4662
         },
         {
-          "text": "Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
-          "heading": "Bitmoji",
-          "score": 0.1174
+          "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+          "heading": "Who We Are",
+          "score": 0.4336
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 1.2282,
+      "zscore": 1.3834,
       "rawTopkMean": 0.6497,
-      "nChunks": 26,
+      "nChunks": 34,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -113,7 +113,7 @@
     },
     {
       "year": 2021,
-      "zscore": 1.2897,
+      "zscore": 1.4757,
       "rawTopkMean": 0.6573,
       "nChunks": 16,
       "kUsed": 5,
@@ -149,9 +149,9 @@
     },
     {
       "year": 2022,
-      "zscore": 0.3385,
+      "zscore": 0.0473,
       "rawTopkMean": 0.5396,
-      "nChunks": 20,
+      "nChunks": 25,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -185,35 +185,45 @@
     },
     {
       "year": 2023,
-      "zscore": -1.7723,
-      "rawTopkMean": 0.2785,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -1.3548,
+      "rawTopkMean": 0.4241,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture.",
+          "heading": "Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture.",
+          "score": 0.4794
+        },
+        {
+          "text": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
+          "heading": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
+          "score": 0.421
+        },
+        {
+          "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
+          "heading": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
+          "score": 0.4196
+        },
+        {
+          "text": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+          "heading": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+          "score": 0.4147
+        },
         {
           "text": "We’ll work hard to make sure they get the support they need.",
           "heading": "Snap-a-Wish",
           "score": 0.3858
-        },
-        {
-          "text": "Lend them a hand through our internal Snap-a-Wish program!",
-          "heading": "Snap-a-Wish",
-          "score": 0.2862
-        },
-        {
-          "text": "Have a teammate going through a tough time?",
-          "heading": "Snap-a-Wish",
-          "score": 0.1634
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 0.0693,
+      "zscore": -0.357,
       "rawTopkMean": 0.5063,
-      "nChunks": 11,
+      "nChunks": 15,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -247,9 +257,9 @@
     },
     {
       "year": 2025,
-      "zscore": 0.7027,
-      "rawTopkMean": 0.5846,
-      "nChunks": 33,
+      "zscore": 0.7344,
+      "rawTopkMean": 0.5962,
+      "nChunks": 35,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -270,26 +280,31 @@
           "score": 0.5746
         },
         {
+          "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
+          "heading": "Our public commitment to DEI",
+          "score": 0.567
+        },
+        {
           "text": "We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, innovation, and most of all fun.",
           "heading": "",
           "score": 0.5601
-        },
-        {
-          "text": "Hear from our leadership on what it's like to work at Snap, Inc. and how we live our values of kind, smart, and creative every day.",
-          "heading": "",
-          "score": 0.5092
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": 0.0495,
-      "rawTopkMean": 0.5038,
-      "nChunks": 41,
+      "zscore": 0.1623,
+      "rawTopkMean": 0.5491,
+      "nChunks": 46,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
+          "heading": "Our commitment to belonging",
+          "score": 0.7007
+        },
         {
           "text": "Read about our commitment to Belonging at Snap We believe in building innovative and inclusive products for our global community, finding the best talent anywhere, and cultivating an environment where everyone belongs.",
           "heading": "",
@@ -309,11 +324,6 @@
           "text": "This practice enables our teams to collaborate with greater creativity, speed, and compassion.",
           "heading": "",
           "score": 0.4885
-        },
-        {
-          "text": "We hosted an in office event to nurture creator and community growth, solidify our leadership position in AR, and increase our brand relevance in underrepresented markets.",
-          "heading": "",
-          "score": 0.4745
         }
       ]
     }

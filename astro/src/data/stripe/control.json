@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2012,
-      "zscore": -0.2774,
+      "zscore": -1.0461,
       "rawTopkMean": 0.0126,
       "nChunks": 11,
       "kUsed": 5,
@@ -41,25 +41,45 @@
     },
     {
       "year": 2013,
-      "zscore": -1.1082,
-      "rawTopkMean": -0.0281,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "zscore": -1.1533,
+      "rawTopkMean": 0.008,
+      "nChunks": 12,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We’re looking for people who care deeply about quality of execution and who want to build technology that people love to use.",
-          "heading": "Jobs at Stripe",
-          "score": -0.0281
+          "text": "The people making decisions are also the ones implementing them.",
+          "heading": "Who we are",
+          "score": 0.0351
+        },
+        {
+          "text": "We're making it easier for people to transact on the internet.",
+          "heading": "Who we are",
+          "score": 0.0058
+        },
+        {
+          "text": "Our about page lists the team so far.",
+          "heading": "Who we are",
+          "score": 0.0052
+        },
+        {
+          "text": "Below are some positions for which we're particularly interested in finding people.",
+          "heading": "Who we are",
+          "score": 0.0052
+        },
+        {
+          "text": "You might fit in well at Stripe if you enjoy teaching yourself whatever you need in order to get things done, and if you enjoy working with a team.",
+          "heading": "Who we are",
+          "score": -0.0114
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": -0.2105,
+      "zscore": -0.9695,
       "rawTopkMean": 0.0159,
-      "nChunks": 37,
+      "nChunks": 38,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -93,13 +113,18 @@
     },
     {
       "year": 2015,
-      "zscore": -0.6045,
-      "rawTopkMean": -0.0034,
-      "nChunks": 6,
+      "zscore": -1.1719,
+      "rawTopkMean": 0.0072,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We started with building the simplest API for accepting credit cards.",
+          "heading": "What we do",
+          "score": 0.022
+        },
         {
           "text": "(Plus, we hire curious people, so they generally want to know the details of what's going on.)",
           "heading": "How we work",
@@ -119,23 +144,28 @@
           "text": "We work hard to find people who make others want to be around them.",
           "heading": "How we work",
           "score": -0.0003
-        },
-        {
-          "text": "This helps everyone make better local decisions and avoid split-brain behavior.",
-          "heading": "How we work",
-          "score": -0.0312
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": -0.7994,
-      "rawTopkMean": -0.013,
-      "nChunks": 8,
+      "zscore": -1.1719,
+      "rawTopkMean": 0.0072,
+      "nChunks": 23,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We started with building the simplest API for accepting credit cards.",
+          "heading": "What we do",
+          "score": 0.022
+        },
+        {
+          "text": "(Plus, we hire curious people, so they generally want to know the details of what's going on.)",
+          "heading": "How we work",
+          "score": 0.0072
+        },
         {
           "text": "We know we're doing a good job of hiring so long as we see people continuing to join simply to work with those who are already here.",
           "heading": "How we work",
@@ -150,24 +180,14 @@
           "text": "We work hard to find people who make others want to be around them.",
           "heading": "How we work",
           "score": -0.0003
-        },
-        {
-          "text": "This helps everyone make better local decisions and avoid split-brain behavior.",
-          "heading": "How we work",
-          "score": -0.0312
-        },
-        {
-          "text": "(Plus, we hire curious people, so they generally want to know the details of what's going on.) We are committed to building an actively inclusive work environment that makes Stripe an excellent home for anyone—regardless of gender, sexual orientation, ethnicity, race, education, age, or other personal characteristics.",
-          "heading": "How we work",
-          "score": -0.0405
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.0587,
+      "zscore": -0.6614,
       "rawTopkMean": 0.0291,
-      "nChunks": 36,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -201,17 +221,27 @@
     },
     {
       "year": 2018,
-      "zscore": -0.5015,
-      "rawTopkMean": 0.0016,
-      "nChunks": 19,
+      "zscore": -0.6345,
+      "rawTopkMean": 0.0302,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "We look forward to hearing from you.",
+          "heading": "What’s it like to work at Stripe?",
+          "score": 0.1005
+        },
+        {
           "text": "We started with building the simplest API for accepting credit cards.",
           "heading": "What we do",
           "score": 0.022
+        },
+        {
+          "text": "The kind of people who are committed to going out of their way to help other Stripes in the short-term and pushing them to improve over the long-term (by helping them to get better at what they do).",
+          "heading": "What’s it like to work at Stripe?",
+          "score": 0.0157
         },
         {
           "text": "We know we’re doing a good job of hiring so long as we see people continuing to join simply to work with those who are already here.",
@@ -222,24 +252,14 @@
           "text": "Personal interaction in particular is something we emphasize a lot.",
           "heading": "How we work",
           "score": 0.0006
-        },
-        {
-          "text": "We work hard to find people who make others want to be around them.",
-          "heading": "How we work",
-          "score": -0.0003
-        },
-        {
-          "text": "Our goal is to combine simplicity and power to deliver an awesome experience.",
-          "heading": "What we do",
-          "score": -0.0265
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 1.664,
+      "zscore": 1.1764,
       "rawTopkMean": 0.1077,
-      "nChunks": 187,
+      "nChunks": 223,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -273,9 +293,9 @@
     },
     {
       "year": 2020,
-      "zscore": 1.5681,
-      "rawTopkMean": 0.103,
-      "nChunks": 108,
+      "zscore": 1.3637,
+      "rawTopkMean": 0.1157,
+      "nChunks": 283,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -291,48 +311,99 @@
           "score": 0.1205
         },
         {
+          "text": "For example, we think the traditional way that candidates are interviewed in the technology industry is suboptimal.",
+          "heading": "Think rigorously",
+          "score": 0.1052
+        },
+        {
+          "text": "Are you comfortable with owning your own career outcomes, rather than having a clear progression of goals and milestones described to you by a single decisionmaker?",
+          "heading": "Questions you should ask yourself",
+          "score": 0.0996
+        },
+        {
           "text": "Yes, you will actually ship it.",
           "heading": "Have a meaningful impact",
           "score": 0.0833
-        },
-        {
-          "text": "You will learn how the best teams put together extremely reliable systems, and you will be responsible for them, with adequate backup when things get tough.",
-          "heading": "Some opinionated career advice",
-          "score": 0.0717
-        },
-        {
-          "text": "Many organizations treat internships as an opportunity to “pay your dues” or work on project scraps.",
-          "heading": "Have a meaningful impact",
-          "score": 0.0694
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": -1.7608,
-      "rawTopkMean": -0.0601,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": 0.7456,
+      "rawTopkMean": 0.0893,
+      "nChunks": 184,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We also have a rarer opportunity: The impact you can make from being at a nimble startup, working on a platform that operates at a significant (and quickly growing) scale.",
-          "heading": "Support to do your best work",
-          "score": -0.0595
+          "text": "For example, we think the traditional way that candidates are interviewed in the technology industry is suboptimal.",
+          "heading": "Think rigorously",
+          "score": 0.1052
         },
         {
-          "text": "We offer competitive and comprehensive benefits, though lots of companies can offer you those.",
-          "heading": "Support to do your best work",
-          "score": -0.0607
+          "text": "Are you comfortable with owning your own career outcomes, rather than having a clear progression of goals and milestones described to you by a single decisionmaker?",
+          "heading": "Questions you should ask yourself",
+          "score": 0.0996
+        },
+        {
+          "text": "While you’ll have a hand in the outcome, are you okay with a substantial amount of risk and ambiguity?",
+          "heading": "Questions you should ask yourself",
+          "score": 0.0822
+        },
+        {
+          "text": "You won’t always agree with feedback you get, but you should consider it seriously and with humility: it comes from a smart colleague who, like you, sincerely wants your project to succeed.",
+          "heading": "Global optimization",
+          "score": 0.0815
+        },
+        {
+          "text": "The good news: it’s not too late.",
+          "heading": "We haven’t won yet",
+          "score": 0.078
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 0.3974,
-      "rawTopkMean": 0.0457,
-      "nChunks": 51,
+      "zscore": 0.7826,
+      "rawTopkMean": 0.0909,
+      "nChunks": 234,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "For example, we think the traditional way that candidates are interviewed in the technology industry is suboptimal.",
+          "heading": "Think rigorously",
+          "score": 0.1052
+        },
+        {
+          "text": "Are you comfortable with owning your own career outcomes, rather than having a clear progression of goals and milestones described to you by a single decisionmaker?",
+          "heading": "Questions you should ask yourself",
+          "score": 0.0996
+        },
+        {
+          "text": "And they’ll be eager to learn from you.",
+          "heading": "Heterogenous perspectives",
+          "score": 0.0859
+        },
+        {
+          "text": "While you’ll have a hand in the outcome, are you okay with a substantial amount of risk and ambiguity?",
+          "heading": "Questions you should ask yourself",
+          "score": 0.0822
+        },
+        {
+          "text": "You won’t always agree with feedback you get, but you should consider it seriously and with humility: it comes from a smart colleague who, like you, sincerely wants your project to succeed.",
+          "heading": "Global optimization",
+          "score": 0.0815
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": 0.1115,
+      "rawTopkMean": 0.0621,
+      "nChunks": 77,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -343,40 +414,14 @@
           "score": 0.0859
         },
         {
-          "text": "Stripe is not a pay-your-dues culture; we will train you quickly and then give you substantial responsibility.",
-          "heading": "We know we need to know more",
-          "score": 0.0606
-        },
-        {
-          "text": "This motivates us to bring in people like you—people who have knowledge and experiences we don’t, and who can quickly bring their talents to bear on hard problems.",
-          "heading": "We know we need to know more",
-          "score": 0.0344
-        },
-        {
-          "text": "The leaders in any field make their success look easy.",
-          "heading": "Nothing worth doing is easy",
-          "score": 0.028
-        },
-        {
-          "text": "Planning means sacrifice: we have great ambitions but limited resources over short time horizons.",
-          "heading": "We have to be extremely selective in what we do",
-          "score": 0.0193
-        }
-      ]
-    },
-    {
-      "year": 2023,
-      "zscore": 0.258,
-      "rawTopkMean": 0.0388,
-      "nChunks": 32,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
           "text": "So truckers can focus on getting supply chains moving , not invoicing paper trails.",
           "heading": "What matters to us is what we enable for others",
           "score": 0.0645
+        },
+        {
+          "text": "Stripe is not a pay-your-dues culture; we will train you quickly and then give you substantial responsibility.",
+          "heading": "We know we need to know more",
+          "score": 0.0606
         },
         {
           "text": "We take end-to-end accountability for seeing our work through and delivering on our commitments.",
@@ -387,24 +432,14 @@
           "text": "Focus on what matters most, make fast initial progress, and iterate toward the best outcome.",
           "heading": "How we work",
           "score": 0.0488
-        },
-        {
-          "text": "That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.",
-          "heading": "About Stripe",
-          "score": 0.0163
-        },
-        {
-          "text": "Stripes reject cynicism, knowing that all problems can be solved with the right understanding, and that progress is only inevitable through focused effort.",
-          "heading": "Who we are",
-          "score": 0.0136
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 1.6511,
-      "rawTopkMean": 0.1071,
-      "nChunks": 15,
+      "zscore": 1.3455,
+      "rawTopkMean": 0.115,
+      "nChunks": 93,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -420,6 +455,11 @@
           "score": 0.1126
         },
         {
+          "text": "And they’ll be eager to learn from you.",
+          "heading": "Heterogenous perspectives",
+          "score": 0.0859
+        },
+        {
           "text": "Push back on managers when you sense they’re making hires who are merely “fine.” Hold an equally high bar for performance!",
           "heading": "And leaders",
           "score": 0.0795
@@ -428,47 +468,78 @@
           "text": "They clearly communicate decisions and hold themselves and their teams accountable for results.",
           "heading": "And leaders",
           "score": 0.0648
-        },
-        {
-          "text": "Create a culture of quickly addressing mis-hires, developing critical talent, and finding challenging work for your strongest performers.",
-          "heading": "And leaders",
-          "score": 0.0466
         }
       ]
     },
     {
-      "year": 2026,
-      "zscore": -0.335,
-      "rawTopkMean": 0.0098,
-      "nChunks": 21,
+      "year": 2025,
+      "zscore": 1.3455,
+      "rawTopkMean": 0.115,
+      "nChunks": 91,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Here are a few of the ones you’re likely to encounter during your work here:",
-          "heading": "Operating principles",
-          "score": 0.0138
+          "text": "Be the person who reads and investigates every candidate packet.",
+          "heading": "And leaders",
+          "score": 0.232
         },
         {
-          "text": "Since the details and possibilities are infinite, we are always seeking to learn.",
-          "heading": "Operating principles",
-          "score": 0.0123
+          "text": "It’s not always clear who should make a decision.",
+          "heading": "And leaders",
+          "score": 0.1126
         },
         {
-          "text": "Everyone at Stripe talks to users.",
-          "heading": "Operating principles",
-          "score": 0.0109
+          "text": "And they’ll be eager to learn from you.",
+          "heading": "Heterogenous perspectives",
+          "score": 0.0859
         },
         {
-          "text": "It’s every Stripe’s responsibility to help hire the best and to push for excellence everywhere.",
-          "heading": "Operating principles",
-          "score": 0.009
+          "text": "Push back on managers when you sense they’re making hires who are merely “fine.” Hold an equally high bar for performance!",
+          "heading": "And leaders",
+          "score": 0.0795
         },
         {
-          "text": "Stripe is an applied exercise in learning about how businesses tick and how the world works.",
-          "heading": "Operating principles",
-          "score": 0.0028
+          "text": "They clearly communicate decisions and hold themselves and their teams accountable for results.",
+          "heading": "And leaders",
+          "score": 0.0648
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "zscore": -0.0623,
+      "rawTopkMean": 0.0547,
+      "nChunks": 76,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "And they’ll be eager to learn from you.",
+          "heading": "Heterogenous perspectives",
+          "score": 0.0859
+        },
+        {
+          "text": "So truckers can focus on getting supply chains moving , not invoicing paper trails.",
+          "heading": "What matters to us is what we enable for others",
+          "score": 0.0645
+        },
+        {
+          "text": "Stripe is not a pay-your-dues culture; we will train you quickly and then give you substantial responsibility.",
+          "heading": "We know we need to know more",
+          "score": 0.0606
+        },
+        {
+          "text": "This motivates us to bring in people like you—people who have knowledge and experiences we don’t, and who can quickly bring their talents to bear on hard problems.",
+          "heading": "We know we need to know more",
+          "score": 0.0344
+        },
+        {
+          "text": "The leaders in any field make their success look easy.",
+          "heading": "Nothing worth doing is easy",
+          "score": 0.028
         }
       ]
     }

@@ -151,9 +151,17 @@ def main(
         mission = mission[mission["subtype"].fillna("") != exclude_subtype]
     mission = mission.reset_index(drop=True)
     n_before = len(mission)
-    mission = pd.DataFrame(dedup_chunks(mission.to_dict("records")))
+    # Within-year dedup only (2026-07-21): language standing on the page counts
+    # in every year it appears. Cross-year dedup measured first-appearance and
+    # silently emptied unchanged years (Google 2015/2016); standing rhetoric is
+    # what the story claims assert. Thin/poorly-captured years now dip visibly
+    # instead — a transparent gap, fixable by fetching, not a silent reattribution.
+    mission = pd.DataFrame(
+        [c for _, g in mission.groupby("year")
+         for c in dedup_chunks(g.to_dict("records"))]
+    )
     if len(mission) < n_before:
-        print(f"Deduped mission chunks: {n_before} -> {len(mission)}")
+        print(f"Deduped mission chunks within-year: {n_before} -> {len(mission)}")
     print(f"{len(mission)} mission chunks across {mission['year'].nunique()} years")
 
     chunk_scores, chunk_quotes = score_chunk_level(mission, axis_names)

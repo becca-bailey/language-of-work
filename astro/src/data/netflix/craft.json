@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2003,
-      "zscore": -1.4429,
+      "zscore": -1.6376,
       "rawTopkMean": -0.0245,
       "nChunks": 1,
       "kUsed": 1,
@@ -21,13 +21,18 @@
     },
     {
       "year": 2004,
-      "zscore": -1.6204,
-      "rawTopkMean": -0.0353,
-      "nChunks": 1,
-      "kUsed": 1,
+      "zscore": -1.7229,
+      "rawTopkMean": -0.0299,
+      "nChunks": 2,
+      "kUsed": 2,
       "thin": true,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "No Due Dates! Over 15,000 Titles! No Commitments! Cancel Anytime.",
+          "heading": "",
+          "score": -0.0245
+        },
         {
           "text": "The #1 Online DVD Rental Service with over 2,000,000 members!",
           "heading": "",
@@ -37,10 +42,10 @@
     },
     {
       "year": 2005,
-      "zscore": -1.589,
-      "rawTopkMean": -0.0334,
-      "nChunks": 1,
-      "kUsed": 1,
+      "zscore": -1.793,
+      "rawTopkMean": -0.0343,
+      "nChunks": 2,
+      "kUsed": 2,
       "thin": true,
       "carriedForwardFrac": null,
       "quotes": [
@@ -48,12 +53,49 @@
           "text": "The #1 Online DVD Rental Service with more than 3,000,000 members!",
           "heading": "",
           "score": -0.0334
+        },
+        {
+          "text": "The #1 Online DVD Rental Service with over 2,000,000 members!",
+          "heading": "",
+          "score": -0.0353
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "zscore": -0.6964,
+      "rawTopkMean": 0.0348,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
+          "heading": "",
+          "score": 0.0348
         }
       ]
     },
     {
       "year": 2011,
-      "zscore": -0.4418,
+      "zscore": -0.6759,
+      "rawTopkMean": 0.0361,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Consistently amazing, talented colleagues from whom you can learn and with whom you will do your best work Great business track record, with many years of growth ahead as streaming over the Internet expands We pay top of market to attract and keep the high performers every company wants Freedom and responsibility culture keeps us nimble Embracing innovation that pleases our members Small enough th",
+          "heading": "Netflix Business Opportunity",
+          "score": 0.0361
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "zscore": -0.6759,
       "rawTopkMean": 0.0361,
       "nChunks": 1,
       "kUsed": 1,
@@ -69,7 +111,7 @@
     },
     {
       "year": 2013,
-      "zscore": -0.4784,
+      "zscore": -0.7111,
       "rawTopkMean": 0.0339,
       "nChunks": 8,
       "kUsed": 5,
@@ -105,9 +147,9 @@
     },
     {
       "year": 2014,
-      "zscore": -0.3137,
-      "rawTopkMean": 0.0438,
-      "nChunks": 9,
+      "zscore": -0.314,
+      "rawTopkMean": 0.0589,
+      "nChunks": 12,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -116,6 +158,11 @@
           "text": "We are candid and transparent and seek excellence in everything that we do.",
           "heading": "Join our team",
           "score": 0.1056
+        },
+        {
+          "text": "We are candid and transparent and seek excellence in all that we do.",
+          "heading": "Join our team",
+          "score": 0.0929
         },
         {
           "text": "It is the policy of Netflix to provide equal employment opportunities to all employees and employment applicants.",
@@ -129,21 +176,52 @@
         },
         {
           "text": "Who we are At Netflix we value high performance, freedom and responsibility.",
-          "heading": "Join our team",
+          "heading": "Netflix Culture",
+          "score": 0.0179
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "zscore": -0.5529,
+      "rawTopkMean": 0.0438,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We are candid and transparent and seek excellence in everything that we do.",
+          "heading": "Netflix Culture",
+          "score": 0.1056
+        },
+        {
+          "text": "It is the policy of Netflix to provide equal employment opportunities to all employees and employment applicants.",
+          "heading": "Netflix Culture",
+          "score": 0.0499
+        },
+        {
+          "text": "Jobs If you are looking to have a large impact at a growing company and work with a high performance team - start here.",
+          "heading": "Netflix Culture",
+          "score": 0.0281
+        },
+        {
+          "text": "Who we are At Netflix we value high performance, freedom and responsibility.",
+          "heading": "Netflix Culture",
           "score": 0.0179
         },
         {
           "text": "We license great content, build systems at scale and use data to push the business forward.",
-          "heading": "Join our team",
+          "heading": "Netflix Culture",
           "score": 0.0177
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 1.2077,
+      "zscore": 0.9086,
       "rawTopkMean": 0.1359,
-      "nChunks": 132,
+      "nChunks": 219,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -177,9 +255,9 @@
     },
     {
       "year": 2018,
-      "zscore": 1.0867,
-      "rawTopkMean": 0.1286,
-      "nChunks": 107,
+      "zscore": 1.0337,
+      "rawTopkMean": 0.1438,
+      "nChunks": 231,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -195,63 +273,63 @@
           "score": 0.1548
         },
         {
-          "text": "This kind of organization is very specialized and well adapted to its business model.",
-          "heading": "Freedom & Responsibility",
-          "score": 0.1196
+          "text": "No matter how honest, though, we treat people with respect.",
+          "heading": "Dream Team",
+          "score": 0.1455
         },
         {
-          "text": "In turn, this generates a sense of responsibility and self-discipline that drives us to do great work that benefits the company.",
-          "heading": "Freedom & Responsibility",
-          "score": 0.1083
+          "text": "Our view is that brilliant people are also capable of decent human interactions, and we insist upon that.",
+          "heading": "Dream Team",
+          "score": 0.1348
         },
         {
-          "text": "We are strict about ethical issues and safety issues.",
+          "text": "Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
           "heading": "Freedom and Responsibility",
-          "score": 0.1042
+          "score": 0.1278
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 0.1641,
-      "rawTopkMean": 0.0728,
-      "nChunks": 48,
+      "zscore": 0.9409,
+      "rawTopkMean": 0.138,
+      "nChunks": 241,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "If you think of a professional sports team, it is up to the coach to ensure that every player on the field is amazing at their position, and plays very effectively with the others.",
-          "heading": "Dream Team",
-          "score": 0.0834
+          "text": "Like all great companies, we strive to hire the best and we value integrity, excellence, respect, inclusivity, and collaboration.",
+          "heading": "Netflix Culture",
+          "score": 0.1548
         },
         {
-          "text": "A dream team 1 is one in which all of your colleagues are extraordinary at what they do and are highly effective collaborators.",
+          "text": "No matter how honest, though, we treat people with respect.",
           "heading": "Dream Team",
-          "score": 0.0791
+          "score": 0.1455
         },
         {
-          "text": "Unquestionably, we have to hire well.",
+          "text": "Our view is that brilliant people are also capable of decent human interactions, and we insist upon that.",
           "heading": "Dream Team",
-          "score": 0.0749
+          "score": 0.1348
         },
         {
-          "text": "The value and satisfaction of being on a dream team is tremendous.",
-          "heading": "Dream Team",
-          "score": 0.0659
+          "text": "Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
+          "heading": "Freedom and Responsibility",
+          "score": 0.1278
         },
         {
-          "text": "When Netflix brings you a series that reflects your own life or a film that offers you a portal into the lives of people around the world, it takes a network that runs on energy.",
-          "heading": "A renewable energy update from us",
-          "score": 0.0606
+          "text": "In describing selflessness we say “You make time to help colleagues.",
+          "heading": "Dream Team",
+          "score": 0.127
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.9559,
-      "rawTopkMean": 0.1207,
-      "nChunks": 76,
+      "zscore": 0.9311,
+      "rawTopkMean": 0.1374,
+      "nChunks": 221,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -262,68 +340,104 @@
           "score": 0.154
         },
         {
+          "text": "No matter how honest, though, we treat people with respect.",
+          "heading": "Dream Team",
+          "score": 0.1455
+        },
+        {
           "text": "Our view is that brilliant people are also capable of decent human interactions, and we insist upon that.",
           "heading": "Dream Team",
           "score": 0.1348
         },
         {
+          "text": "Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
+          "heading": "Freedom and Responsibility",
+          "score": 0.1278
+        },
+        {
           "text": "In describing selflessness we say “ You make time to help colleagues.",
           "heading": "Dream Team",
           "score": 0.1247
-        },
-        {
-          "text": "In describing integrity we say, “ You only say things about fellow employees you say to their face. ” This attribute is one of the hardest for new people to believe — and to learn to practice.",
-          "heading": "Impact",
-          "score": 0.1
-        },
-        {
-          "text": "The legend of Steve Jobs was that his micromanagement made the iPhone a great product.",
-          "heading": "Context not Control",
-          "score": 0.0901
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": -0.2935,
-      "rawTopkMean": 0.0451,
-      "nChunks": 8,
+      "zscore": 0.9311,
+      "rawTopkMean": 0.1374,
+      "nChunks": 220,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Below are our values, the specific behaviors and skills we care about most.",
-          "heading": "Real Values",
-          "score": 0.0649
+          "text": "Like all great companies, we strive to hire the best and we value integrity, excellence, respect, inclusion, and collaboration.",
+          "heading": "Netflix Culture",
+          "score": 0.154
         },
         {
-          "text": "You are known for candor, authenticity, transparency, and being non-political You only say things about fellow employees that you say to their face You admit mistakes freely and openly You treat people with respect regardless of their status or disagreement with you You always share relevant information, even when worrisome to do so",
-          "heading": "Integrity",
-          "score": 0.0562
+          "text": "No matter how honest, though, we treat people with respect.",
+          "heading": "Dream Team",
+          "score": 0.1455
         },
         {
-          "text": "You collaborate effectively with people of diverse backgrounds and cultures You nurture and embrace differing perspectives to make better decisions You recognize we all have biases, and work to grow past them You intervene if someone else is being marginalized You are curious about how our different backgrounds affect us at work, rather than pretending they don’t affect us",
-          "heading": "Inclusion",
-          "score": 0.0386
+          "text": "Our view is that brilliant people are also capable of decent human interactions, and we insist upon that.",
+          "heading": "Dream Team",
+          "score": 0.1348
         },
         {
-          "text": "The more these values sound like you, and describe people you want to work with, the more likely you will thrive at Netflix.",
-          "heading": "Real Values",
-          "score": 0.0374
+          "text": "Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
+          "heading": "Freedom and Responsibility",
+          "score": 0.1278
         },
         {
-          "text": "The real values of a firm are shown by who gets rewarded or let go .",
-          "heading": "Real Values",
-          "score": 0.0282
+          "text": "In describing selflessness we say “ You make time to help colleagues.",
+          "heading": "Dream Team",
+          "score": 0.1247
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 0.8836,
-      "rawTopkMean": 0.1163,
-      "nChunks": 195,
+      "zscore": 0.9634,
+      "rawTopkMean": 0.1394,
+      "nChunks": 409,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Like all great companies, we strive to hire the best and we value integrity, excellence, respect, inclusion, and collaboration.",
+          "heading": "Netflix Culture",
+          "score": 0.154
+        },
+        {
+          "text": "No matter how honest, though, we treat people with respect.",
+          "heading": "Dream Team",
+          "score": 0.1455
+        },
+        {
+          "text": "Our view is that brilliant people are also capable of decent human interactions, and we insist upon that.",
+          "heading": "Dream Team",
+          "score": 0.1348
+        },
+        {
+          "text": "Beyond candor in our day-to-day interactions, we act honorably, even when no one is looking.",
+          "heading": "Ethical Expectations",
+          "score": 0.1329
+        },
+        {
+          "text": "We insist on decent human interactions, no matter how brilliant someone may be.",
+          "heading": "Dream Team",
+          "score": 0.1298
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": 0.6827,
+      "rawTopkMean": 0.1217,
+      "nChunks": 198,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -339,6 +453,11 @@
           "score": 0.1298
         },
         {
+          "text": "Our culture has been instrumental to our success and has helped us attract and retain stunning colleagues, making work here more satisfying.",
+          "heading": "Freedom and Responsibility",
+          "score": 0.1278
+        },
+        {
           "text": "We expect all employees to protect confidential company information, whether or not it is marked “confidential”.",
           "heading": "Ethical Expectations",
           "score": 0.1144
@@ -347,19 +466,14 @@
           "text": "This, in turn, generates a sense of responsibility, accountability and self-discipline that drives us to do great work.",
           "heading": "Freedom and Responsibility",
           "score": 0.1036
-        },
-        {
-          "text": "We are strict about ethical and safety issues.",
-          "heading": "Freedom and Responsibility",
-          "score": 0.1009
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 1.0583,
-      "rawTopkMean": 0.1269,
-      "nChunks": 99,
+      "zscore": 0.9038,
+      "rawTopkMean": 0.1356,
+      "nChunks": 297,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -375,6 +489,42 @@
           "score": 0.1365
         },
         {
+          "text": "Beyond candor in our day-to-day interactions, we act honorably, even when no one is looking.",
+          "heading": "Ethical Expectations",
+          "score": 0.1329
+        },
+        {
+          "text": "Imagine working alongside stunning colleagues who are great at what they do, and even better at working together.",
+          "heading": "THE DREAM TEAM",
+          "score": 0.1304
+        },
+        {
+          "text": "We insist on decent human interactions, no matter how brilliant someone may be.",
+          "heading": "Dream Team",
+          "score": 0.1298
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "zscore": 0.7651,
+      "rawTopkMean": 0.1269,
+      "nChunks": 104,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "No matter how brilliant someone may be, there’s no place in our Dream Team for people who don’t treat their colleagues with decency and respect .",
+          "heading": "THE DREAM TEAM",
+          "score": 0.1486
+        },
+        {
+          "text": "We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence and honesty go hand in hand.",
+          "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
+          "score": 0.1365
+        },
+        {
           "text": "Imagine working alongside stunning colleagues who are great at what they do, and even better at working together.",
           "heading": "THE DREAM TEAM",
           "score": 0.1304
@@ -386,20 +536,25 @@
         },
         {
           "text": "It’s why we invest in strong professional relationships that build trust and help people assume good intent.",
-          "heading": "THE DREAM TEAM",
+          "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
           "score": 0.1067
         }
       ]
     },
     {
-      "year": 2025,
-      "zscore": 0.8234,
-      "rawTopkMean": 0.1127,
-      "nChunks": 35,
+      "year": 2026,
+      "zscore": 0.719,
+      "rawTopkMean": 0.124,
+      "nChunks": 81,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "No matter how brilliant someone may be, there’s no place in our Dream Team for people who don’t treat their colleagues with decency and respect .",
+          "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
+          "score": 0.1486
+        },
         {
           "text": "We work hard to keep each other accountable for upholding these standards, especially our leaders, because excellence and honesty go hand in hand.",
           "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
@@ -416,14 +571,9 @@
           "score": 0.1067
         },
         {
-          "text": "It’s why we care so much about the Dream Team, putting people over process and creating an environment where everyone feels a sense of responsibility to make us better.",
-          "heading": "Artistic Expression",
-          "score": 0.0953
-        },
-        {
-          "text": "These are the values we value:",
+          "text": "When you have talented people who work well together — trusting each other’s intentions and respecting their differences — it makes everyone more successful.",
           "heading": "At Netflix, we aspire to entertain the world, thrilling audiences everywhere. To do that, we’ve developed an unusual company culture focused on excellence, and creating an environment where talented people can thrive — lifting ourselves, each other and our audiences higher and higher. This document is about that culture, which is based on four core principles:",
-          "score": 0.0946
+          "score": 0.0977
         }
       ]
     }

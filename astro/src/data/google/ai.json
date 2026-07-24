@@ -194,9 +194,9 @@
     },
     {
       "year": 2005,
-      "totalChunks": 12,
+      "totalChunks": 13,
       "aiChunks": 1,
-      "prevalence": 0.0833,
+      "prevalence": 0.0769,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -210,7 +210,7 @@
           "mentions": 1
         },
         "mission_brand": {
-          "chunks": 6,
+          "chunks": 7,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -252,13 +252,13 @@
     },
     {
       "year": 2006,
-      "totalChunks": 4,
+      "totalChunks": 5,
       "aiChunks": 0,
       "prevalence": 0.0,
-      "thin": true,
+      "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 4,
+          "chunks": 5,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -269,13 +269,13 @@
     },
     {
       "year": 2007,
-      "totalChunks": 7,
+      "totalChunks": 8,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 7,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -286,7 +286,7 @@
     },
     {
       "year": 2008,
-      "totalChunks": 13,
+      "totalChunks": 14,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -297,7 +297,7 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 7,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -308,13 +308,13 @@
     },
     {
       "year": 2009,
-      "totalChunks": 1,
+      "totalChunks": 3,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": true,
       "labels": {
         "mission_brand": {
-          "chunks": 1,
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -325,11 +325,43 @@
     },
     {
       "year": 2010,
-      "totalChunks": 2,
+      "totalChunks": 6,
       "aiChunks": 0,
       "prevalence": 0.0,
-      "thin": true,
+      "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 5,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {},
+      "projections": [],
+      "quotes": []
+    },
+    {
+      "year": 2011,
+      "totalChunks": 18,
+      "aiChunks": 0,
+      "prevalence": 0.0,
+      "thin": false,
+      "labels": {
+        "benefits_perks": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 15,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
           "chunks": 2,
           "ai_chunks": 0,
@@ -341,34 +373,22 @@
       "quotes": []
     },
     {
-      "year": 2011,
-      "totalChunks": 16,
-      "aiChunks": 0,
-      "prevalence": 0.0,
+      "year": 2012,
+      "totalChunks": 72,
+      "aiChunks": 1,
+      "prevalence": 0.0139,
       "thin": false,
       "labels": {
-        "job_listing": {
-          "chunks": 15,
+        "benefits_perks": {
+          "chunks": 10,
           "ai_chunks": 0,
           "mentions": 0
         },
-        "mission_brand": {
-          "chunks": 1,
+        "employee_story": {
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
-        }
-      },
-      "terms": {},
-      "projections": [],
-      "quotes": []
-    },
-    {
-      "year": 2012,
-      "totalChunks": 48,
-      "aiChunks": 1,
-      "prevalence": 0.0208,
-      "thin": false,
-      "labels": {
+        },
         "job_listing": {
           "chunks": 14,
           "ai_chunks": 1,
@@ -380,7 +400,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 1,
+          "chunks": 11,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -417,31 +437,90 @@
     },
     {
       "year": 2013,
-      "totalChunks": 4,
-      "aiChunks": 0,
-      "prevalence": 0.0,
-      "thin": true,
+      "totalChunks": 87,
+      "aiChunks": 3,
+      "prevalence": 0.0345,
+      "thin": false,
       "labels": {
-        "mission_brand": {
-          "chunks": 2,
+        "benefits_perks": {
+          "chunks": 14,
           "ai_chunks": 0,
           "mentions": 0
         },
+        "employee_story": {
+          "chunks": 17,
+          "ai_chunks": 2,
+          "mentions": 4
+        },
+        "mission_brand": {
+          "chunks": 38,
+          "ai_chunks": 1,
+          "mentions": 1
+        },
         "process_logistics": {
-          "chunks": 2,
+          "chunks": 18,
           "ai_chunks": 0,
           "mentions": 0
         }
       },
-      "terms": {},
-      "projections": [],
-      "quotes": []
+      "terms": {
+        "deep learning": 3,
+        "machine learning": 2
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0023,
+          "nChunks": 3,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.0023,
+          "nChunks": 3,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "d04653a4098f6d65",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "deep learning"
+          ],
+          "projection": 0.0579,
+          "text": "Google researchers teamed up with Stanford University computer scientists to build a \"deep learning\" neural ..."
+        },
+        {
+          "chunk_id": "273c67cc0441a676",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "deep learning",
+            "machine learning"
+          ],
+          "projection": -0.0456,
+          "text": "The road to Omega: John Wilkes discusses computer science research and the future of Google infrastructure Operating at a global scale presents some amazing challenges. To find solutions, Google recruits computer science researchers to push the limits of what's possible. They ... A rare inside look at Google’s top-secret data centers With all the talk about cloud computing, it’s easy to forget tha"
+        },
+        {
+          "chunk_id": "81e2fffc2fcb3041",
+          "label": "employee_story",
+          "group": "talk",
+          "terms": [
+            "deep learning",
+            "machine learning"
+          ],
+          "projection": -0.0191,
+          "text": "A rare inside look at Google’s top-secret data centers With all the talk about cloud computing, it’s easy to forget that the 20 billion pages Google ... We want people to feel good about using Google products. One way we try to do that is by making environmentally-responsible choices in all aspect ... A network’s first lesson in machine learning Google researchers teamed up with Stanford Universit"
+        }
+      ]
     },
     {
       "year": 2014,
-      "totalChunks": 38,
+      "totalChunks": 39,
       "aiChunks": 1,
-      "prevalence": 0.0263,
+      "prevalence": 0.0256,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -450,7 +529,7 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 34,
+          "chunks": 35,
           "ai_chunks": 1,
           "mentions": 1
         },

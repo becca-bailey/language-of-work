@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2018,
-      "zscore": -0.6454,
+      "zscore": -1.395,
       "rawTopkMean": 0.0499,
       "nChunks": 8,
       "kUsed": 5,
@@ -41,9 +41,9 @@
     },
     {
       "year": 2019,
-      "zscore": -1.433,
-      "rawTopkMean": 0.0129,
-      "nChunks": 6,
+      "zscore": -0.9536,
+      "rawTopkMean": 0.064,
+      "nChunks": 14,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -54,32 +54,32 @@
           "score": 0.0712
         },
         {
+          "text": "Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
+          "heading": "Our Brands",
+          "score": 0.0672
+        },
+        {
+          "text": "We contribute to human progress by empowering people to express themselves, live in the moment, learn about the world, and have fun together.",
+          "heading": "Who We Are",
+          "score": 0.0626
+        },
+        {
+          "text": "Bitmoji Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
+          "heading": "Our Brands",
+          "score": 0.0599
+        },
+        {
           "text": "Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
           "heading": "Bitmoji",
           "score": 0.0592
-        },
-        {
-          "text": "We listen from the heart, think empathetically, and help each other grow.",
-          "heading": "We Are Kind",
-          "score": 0.0279
-        },
-        {
-          "text": "Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
-          "heading": "Snapchat",
-          "score": 0.0155
-        },
-        {
-          "text": "We think deeply, question conventions, and strive to never stop learning.",
-          "heading": "We Are Smart",
-          "score": -0.1095
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.6015,
+      "zscore": 0.4298,
       "rawTopkMean": 0.1084,
-      "nChunks": 26,
+      "nChunks": 34,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -113,7 +113,7 @@
     },
     {
       "year": 2021,
-      "zscore": 0.8335,
+      "zscore": 0.7692,
       "rawTopkMean": 0.1193,
       "nChunks": 16,
       "kUsed": 5,
@@ -149,9 +149,9 @@
     },
     {
       "year": 2022,
-      "zscore": 1.0697,
+      "zscore": 1.1149,
       "rawTopkMean": 0.1304,
-      "nChunks": 20,
+      "nChunks": 25,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -185,35 +185,45 @@
     },
     {
       "year": 2023,
-      "zscore": -1.3636,
-      "rawTopkMean": 0.0161,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -0.1553,
+      "rawTopkMean": 0.0896,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture.",
+          "heading": "Kaleidoscope aims to provide employees in offices outside of headquarters the opportunity to build community and promote the diversity and inclusion in their unique local office culture.",
+          "score": 0.1245
+        },
+        {
+          "text": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
+          "heading": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
+          "score": 0.0996
+        },
         {
           "text": "Lend them a hand through our internal Snap-a-Wish program!",
           "heading": "Snap-a-Wish",
           "score": 0.0914
         },
         {
-          "text": "Have a teammate going through a tough time?",
-          "heading": "Snap-a-Wish",
-          "score": -0.0188
+          "text": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+          "heading": "SnapFamilia celebrates and elevates diverse perspectives across Hispanic and Latinx communities.",
+          "score": 0.0755
         },
         {
-          "text": "We’ll work hard to make sure they get the support they need.",
-          "heading": "Snap-a-Wish",
-          "score": -0.0242
+          "text": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
+          "heading": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
+          "score": 0.0572
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": -0.8778,
-      "rawTopkMean": 0.0389,
-      "nChunks": 11,
+      "zscore": -1.5651,
+      "rawTopkMean": 0.0444,
+      "nChunks": 15,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -222,6 +232,11 @@
           "text": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
           "heading": "",
           "score": 0.0712
+        },
+        {
+          "text": "Bring your idea to life with our suite of Lens development, management, and analytic tools.",
+          "heading": "",
+          "score": 0.0484
         },
         {
           "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
@@ -237,19 +252,14 @@
           "text": "Snap Augmented Reality enables creators around the world to revolutionize the way we create, explore, and play.",
           "heading": "",
           "score": 0.0313
-        },
-        {
-          "text": "From our bright and open offices to our vibrant culture—we strive to make every day at Snap feel fresh and exciting.",
-          "heading": "",
-          "score": 0.0212
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 0.7465,
+      "zscore": 0.6419,
       "rawTopkMean": 0.1152,
-      "nChunks": 33,
+      "nChunks": 35,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -283,9 +293,9 @@
     },
     {
       "year": 2026,
-      "zscore": 1.0686,
+      "zscore": 1.1133,
       "rawTopkMean": 0.1303,
-      "nChunks": 41,
+      "nChunks": 46,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,

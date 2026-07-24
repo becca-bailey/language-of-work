@@ -5,90 +5,80 @@ Open a sample across eras; confirm real careers content.
 ## 1999
 
 ## 2000
-- [20000711064039 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20000711064039/http://www.google.com:80/jobs/benefits.html)
-- [20000711075301 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20000711075301/http://www.google.com:80/jobs/culture.html)
-- [20001121060700 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20001121060700/http://www.google.com:80/jobs/culture.html)
-- [20001202200300 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20001202200300/http://www.google.com:80/jobs/benefits.html)
-- [20001202222400 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20001202222400/http://www.google.com:80/jobs/culture.html)
 
 ## 2001
-- [20010208185848 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20010208185848/http://www.google.com:80/jobs/culture.html)
-- [20010413173019 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20010413173019/http://www.google.com:80/jobs/benefits.html)
-- [20010609214014 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20010609214014/http://www.google.com:80/jobs/culture.html)
-- [20010801144623 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20010801144623/http://www.google.com:80/jobs/benefits.html)
 
 ## 2002
-- [20020213012451 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20020213012451/http://www.google.com:80/jobs/culture.html)
-- [20020223163203 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20020223163203/http://www.google.com:80/jobs/benefits.html)
-- [20020401225342 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20020401225342/http://www.google.com:80/jobs/culture.html)
-- [20020601095543 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20020601095543/http://www.google.com:80/jobs/benefits.html)
-- [20020803074008 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20020803074008/http://www.google.com:80/jobs/benefits.html)
-- [20021002222743 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20021002222743/http://www.google.com:80/jobs/culture.html)
-- [20021002235534 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20021002235534/http://www.google.com:80/jobs/benefits.html)
 
 ## 2003
-- [20030201092701 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20030201092701/http://www.google.com:80/jobs/benefits.html)
-- [20030206211948 — http://www.google.com:80/jobs/reasons.html](https://web.archive.org/web/20030206211948/http://www.google.com:80/jobs/reasons.html)
-- [20030210174458 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20030210174458/http://www.google.com:80/jobs/culture.html)
-- [20030210174930 — http://www.google.com:80/jobs/balance.html](https://web.archive.org/web/20030210174930/http://www.google.com:80/jobs/balance.html)
-- [20030701065818 — http://www3.google.com:80/jobs/benefits.html](https://web.archive.org/web/20030701065818/http://www3.google.com:80/jobs/benefits.html)
 
 ## 2004
-- [20040215144249 — http://www.google.com:80/jobs/balance.html](https://web.archive.org/web/20040215144249/http://www.google.com:80/jobs/balance.html)
-- [20040403234701 — http://www.google.com:80/jobs/reasons.html](https://web.archive.org/web/20040403234701/http://www.google.com:80/jobs/reasons.html)
-- [20040409002646 — http://www.google.com:80/jobs/balance.html](https://web.archive.org/web/20040409002646/http://www.google.com:80/jobs/balance.html)
-- [20040409004501 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20040409004501/http://www.google.com:80/jobs/benefits.html)
-- [20040517182605 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20040517182605/http://www.google.com:80/jobs/culture.html)
-- [20040607131408 — http://www.google.com:80/jobs/reasons.html](https://web.archive.org/web/20040607131408/http://www.google.com:80/jobs/reasons.html)
-- [20040612075029 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20040612075029/http://www.google.com:80/jobs/benefits.html)
-- [20040715051336 — http://www.google.com:80/jobs/nonca_benefits.html](https://web.archive.org/web/20040715051336/http://www.google.com:80/jobs/nonca_benefits.html)
-- [20040901000052 — http://www.google.com:80/jobs/balance.html](https://web.archive.org/web/20040901000052/http://www.google.com:80/jobs/balance.html)
-- [20040901032750 — http://www.google.com:80/jobs/reasons.html](https://web.archive.org/web/20040901032750/http://www.google.com:80/jobs/reasons.html)
-- [20040901095221 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20040901095221/http://www.google.com:80/jobs/culture.html)
-- [20041101011908 — http://www.google.com:80/jobs/reasons.html](https://web.archive.org/web/20041101011908/http://www.google.com:80/jobs/reasons.html)
-- [20041101025833 — http://www.google.com:80/jobs/balance.html](https://web.archive.org/web/20041101025833/http://www.google.com:80/jobs/balance.html)
-- [20041101031700 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20041101031700/http://www.google.com:80/jobs/benefits.html)
-- [20041110042114 — http://www.google.com:80/jobs/culture.html](https://web.archive.org/web/20041110042114/http://www.google.com:80/jobs/culture.html)
-- [20041124010017 — http://www.google.com:80/jobs/nonca_benefits.html](https://web.archive.org/web/20041124010017/http://www.google.com:80/jobs/nonca_benefits.html)
 
 ## 2005
-- [20050403041645 — http://www.google.com:80/jobs/benefits.html](https://web.archive.org/web/20050403041645/http://www.google.com:80/jobs/benefits.html)
-- [20050811234500 — http://www.google.com:80/jobs/working.html](https://web.archive.org/web/20050811234500/http://www.google.com:80/jobs/working.html)
-- [20050903121909 — http://www.google.com:80/jobs/reasons.html](https://web.archive.org/web/20050903121909/http://www.google.com:80/jobs/reasons.html)
+- [20050110005538 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20050110005538/http://www.google.com:80/corporate/culture.html)
+- [20050701022128 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20050701022128/http://www.google.com:80/corporate/culture.html)
+- [20051001012801 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20051001012801/http://www.google.com:80/corporate/culture.html)
+- [20051201045317 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20051201045317/http://www.google.com:80/corporate/culture.html)
 
 ## 2006
-- [20060202230101 — http://www.google.com:80/jobs/working.html](https://web.archive.org/web/20060202230101/http://www.google.com:80/jobs/working.html)
-- [20060205050820 — http://www.google.com:80/jobs/reasons.html](https://web.archive.org/web/20060205050820/http://www.google.com:80/jobs/reasons.html)
-- [20060313095417 — http://www.google.com/jobs/reasons.html](https://web.archive.org/web/20060313095417/http://www.google.com/jobs/reasons.html)
-- [20060411182039 — http://www.google.com:80/jobs/reasons.html](https://web.archive.org/web/20060411182039/http://www.google.com:80/jobs/reasons.html)
-- [20060412013929 — http://www.google.com:80/jobs/working.html](https://web.archive.org/web/20060412013929/http://www.google.com:80/jobs/working.html)
-- [20060913084706 — http://www.google.com/jobs/working.html](https://web.archive.org/web/20060913084706/http://www.google.com/jobs/working.html)
-- [20061201143336 — http://www.google.com:80/jobs/working.html](https://web.archive.org/web/20061201143336/http://www.google.com:80/jobs/working.html)
+- [20060411182409 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20060411182409/http://www.google.com:80/corporate/culture.html)
+- [20061029150929 — http://www.google.com/corporate/culture.html](https://web.archive.org/web/20061029150929/http://www.google.com/corporate/culture.html)
+- [20061206000048 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20061206000048/http://www.google.com:80/corporate/culture.html)
 
 ## 2007
-- [20070202152929 — http://www.google.com:80/jobs/working.html](https://web.archive.org/web/20070202152929/http://www.google.com:80/jobs/working.html)
-- [20070203142933 — http://www.google.com:80/jobs/reasons.html](https://web.archive.org/web/20070203142933/http://www.google.com:80/jobs/reasons.html)
-- [20070308172530 — http://www.google.com:80/jobs/working.html](https://web.archive.org/web/20070308172530/http://www.google.com:80/jobs/working.html)
-- [20070506172119 — http://www.google.com:80/jobs/working.html](https://web.archive.org/web/20070506172119/http://www.google.com:80/jobs/working.html)
-- [20070602163820 — http://www.google.com:80/jobs/working.html](https://web.archive.org/web/20070602163820/http://www.google.com:80/jobs/working.html)
+- [20070203050610 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20070203050610/http://www.google.com:80/corporate/culture.html)
 
 ## 2008
-- [20080521155252 — http://www.google.com/jobs/culture.html](https://web.archive.org/web/20080521155252/http://www.google.com/jobs/culture.html)
-- [20080723144909 — http://www.google.com/jobs/benefits.html](https://web.archive.org/web/20080723144909/http://www.google.com/jobs/benefits.html)
-- [20080725150134 — http://www.google.com/jobs/reasons.html](https://web.archive.org/web/20080725150134/http://www.google.com/jobs/reasons.html)
-- [20081012075029 — http://google.com/jobs/working.html](https://web.archive.org/web/20081012075029/http://google.com/jobs/working.html)
+- [20080224212302 — http://www.google.com/corporate/culture.html](https://web.archive.org/web/20080224212302/http://www.google.com/corporate/culture.html)
+- [20080501045117 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20080501045117/http://www.google.com:80/corporate/culture.html)
+- [20080727111609 — http://www.google.com/corporate/culture.html](https://web.archive.org/web/20080727111609/http://www.google.com/corporate/culture.html)
+- [20081206235317 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20081206235317/http://www.google.com:80/corporate/culture.html)
 
 ## 2009
+- [20090205115646 — http://www.google.com/corporate/culture.html](https://web.archive.org/web/20090205115646/http://www.google.com/corporate/culture.html)
+- [20090304033649 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20090304033649/http://www.google.com:80/corporate/culture.html)
+- [20090417010019 — http://www.google.com/corporate/culture.html](https://web.archive.org/web/20090417010019/http://www.google.com/corporate/culture.html)
+- [20091026145343 — http://www.google.com/corporate/culture.html](https://web.archive.org/web/20091026145343/http://www.google.com/corporate/culture.html)
 
 ## 2010
+- [20100208060341 — http://www.google.com:80/corporate/culture.html](https://web.archive.org/web/20100208060341/http://www.google.com:80/corporate/culture.html)
+- [20100601074110 — http://www.google.com/corporate/culture.html](https://web.archive.org/web/20100601074110/http://www.google.com/corporate/culture.html)
+- [20101120212937 — http://www.google.com/corporate/culture.html](https://web.archive.org/web/20101120212937/http://www.google.com/corporate/culture.html)
 
 ## 2011
+- [20110219234551 — http://www.google.com//corporate//culture.html](https://web.archive.org/web/20110219234551/http://www.google.com//corporate//culture.html)
+- [20110412085714 — http://www.google.com//corporate//culture.html](https://web.archive.org/web/20110412085714/http://www.google.com//corporate//culture.html)
 
 ## 2012
+- [20120423200803 — http://www.google.com:80/about/jobs/lifeatgoogle/hiringprocess/](https://web.archive.org/web/20120423200803/http://www.google.com:80/about/jobs/lifeatgoogle/hiringprocess/)
+- [20120426053217 — http://www.google.com:80/about/jobs/lifeatgoogle/](https://web.archive.org/web/20120426053217/http://www.google.com:80/about/jobs/lifeatgoogle/)
+- [20120426234421 — http://www.google.com/about/jobs/lifeatgoogle/benefits/](https://web.archive.org/web/20120426234421/http://www.google.com/about/jobs/lifeatgoogle/benefits/)
+- [20120502045804 — http://www.google.com:80/about/jobs/lifeatgoogle/hiringprocess/](https://web.archive.org/web/20120502045804/http://www.google.com:80/about/jobs/lifeatgoogle/hiringprocess/)
+- [20120504225345 — http://www.google.com/about/jobs/lifeatgoogle/benefits/](https://web.archive.org/web/20120504225345/http://www.google.com/about/jobs/lifeatgoogle/benefits/)
+- [20120621073816 — http://www.google.com:80/about/jobs/lifeatgoogle/](https://web.archive.org/web/20120621073816/http://www.google.com:80/about/jobs/lifeatgoogle/)
+- [20120804160706 — http://www.google.com/about/jobs/lifeatgoogle/](https://web.archive.org/web/20120804160706/http://www.google.com/about/jobs/lifeatgoogle/)
+- [20120805013626 — http://www.google.com/about/jobs/lifeatgoogle/benefits/](https://web.archive.org/web/20120805013626/http://www.google.com/about/jobs/lifeatgoogle/benefits/)
+- [20120805042309 — http://www.google.com/about/jobs/lifeatgoogle/hiringprocess/](https://web.archive.org/web/20120805042309/http://www.google.com/about/jobs/lifeatgoogle/hiringprocess/)
+- [20121001064110 — http://www.google.com/about/jobs/lifeatgoogle/hiringprocess/](https://web.archive.org/web/20121001064110/http://www.google.com/about/jobs/lifeatgoogle/hiringprocess/)
+- [20121001064547 — http://www.google.com/about/jobs/lifeatgoogle/](https://web.archive.org/web/20121001064547/http://www.google.com/about/jobs/lifeatgoogle/)
+- [20121005041508 — http://www.google.com/about/jobs/lifeatgoogle/benefits/](https://web.archive.org/web/20121005041508/http://www.google.com/about/jobs/lifeatgoogle/benefits/)
 
 ## 2013
+- [20130201200800 — https://www.google.com/about/jobs/lifeatgoogle/benefits/](https://web.archive.org/web/20130201200800/https://www.google.com/about/jobs/lifeatgoogle/benefits/)
+- [20130201215552 — http://www.google.com/about/jobs/lifeatgoogle/](https://web.archive.org/web/20130201215552/http://www.google.com/about/jobs/lifeatgoogle/)
+- [20130201234617 — http://www.google.com/about/jobs/lifeatgoogle/hiringprocess/](https://web.archive.org/web/20130201234617/http://www.google.com/about/jobs/lifeatgoogle/hiringprocess/)
+- [20130401073531 — http://www.google.com/about/jobs/lifeatgoogle/benefits/](https://web.archive.org/web/20130401073531/http://www.google.com/about/jobs/lifeatgoogle/benefits/)
+- [20130401073607 — http://www.google.com/about/jobs/lifeatgoogle/](https://web.archive.org/web/20130401073607/http://www.google.com/about/jobs/lifeatgoogle/)
+- [20130401094330 — http://www.google.com/about/jobs/lifeatgoogle/hiringprocess/](https://web.archive.org/web/20130401094330/http://www.google.com/about/jobs/lifeatgoogle/hiringprocess/)
+- [20130709070656 — http://www.google.com/about/jobs/lifeatgoogle/](https://web.archive.org/web/20130709070656/http://www.google.com/about/jobs/lifeatgoogle/)
+- [20130807010354 — http://www.google.com/about/jobs/lifeatgoogle/benefits/](https://web.archive.org/web/20130807010354/http://www.google.com/about/jobs/lifeatgoogle/benefits/)
+- [20130815054957 — http://www.google.com/about/jobs/lifeatgoogle/hiringprocess/](https://web.archive.org/web/20130815054957/http://www.google.com/about/jobs/lifeatgoogle/hiringprocess/)
+- [20130908000212 — http://www.google.com:80/about/jobs/lifeatgoogle/hiringprocess/](https://web.archive.org/web/20130908000212/http://www.google.com:80/about/jobs/lifeatgoogle/hiringprocess/)
+- [20131023081531 — http://www.google.com:80/about/jobs/lifeatgoogle/](https://web.archive.org/web/20131023081531/http://www.google.com:80/about/jobs/lifeatgoogle/)
+- [20131028021404 — http://www.google.com:80/about/jobs/lifeatgoogle/benefits/](https://web.archive.org/web/20131028021404/http://www.google.com:80/about/jobs/lifeatgoogle/benefits/)
 
 ## 2014
+- [20140219194826 — http://www.google.com/about/jobs/lifeatgoogle/](https://web.archive.org/web/20140219194826/http://www.google.com/about/jobs/lifeatgoogle/)
 
 ## 2015
 

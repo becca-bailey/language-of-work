@@ -1,17 +1,17 @@
 {
   "ground_truth_chunk": {
     "level": "chunk",
-    "altruism_peak_year": 2018,
-    "altruism_control_correlation": 0.443,
-    "correlation_p": 0.129,
-    "control_decoupled": true,
+    "altruism_peak_year": 2023,
+    "altruism_control_correlation": 0.691,
+    "correlation_p": 0.002,
+    "control_decoupled": false,
     "peak_within_expected": null
   },
   "ground_truth_sentence": {
     "level": "sentence",
-    "altruism_peak_year": 2018,
-    "altruism_control_correlation": 0.22,
-    "correlation_p": 0.471,
+    "altruism_peak_year": 2019,
+    "altruism_control_correlation": 0.105,
+    "correlation_p": 0.687,
     "control_decoupled": true,
     "peak_within_expected": null
   },
@@ -314,8 +314,8 @@
       "2026": 2.2244718490908048e-06
     }
   },
-  "tournament_spearman_chunk": 0.484,
-  "tournament_spearman_sentence": 0.747,
+  "tournament_spearman_chunk": -0.091,
+  "tournament_spearman_sentence": 0.162,
   "early_year_agreement": {
     "chunk_vs_llm_spearman": 0.8,
     "sentence_vs_llm_spearman": 0.4
@@ -390,5 +390,109 @@
     "min_spearman": 0.944,
     "mean_spearman": 0.988,
     "robust": true
+  },
+  "axis_separation": [
+    {
+      "axes": [
+        "craft",
+        "performance"
+      ],
+      "vector_cosine": 0.093,
+      "chunk_r": 0.344,
+      "chunk_p": 0.0,
+      "n_chunks": 207,
+      "separated": true
+    }
+  ],
+  "control_decoupling": [
+    {
+      "axis": "altruism",
+      "level": "chunk",
+      "n_years": 17,
+      "control_r": 0.691,
+      "control_p": 0.002,
+      "r_topk_vs_logn": 0.702,
+      "control_r_topk_vs_logn": 0.47,
+      "diagnosis": "mix_shift_suspect"
+    },
+    {
+      "axis": "craft",
+      "level": "chunk",
+      "n_years": 17,
+      "control_r": 0.24,
+      "control_p": 0.353,
+      "r_topk_vs_logn": 0.63,
+      "control_r_topk_vs_logn": 0.47,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "inclusion",
+      "level": "chunk",
+      "n_years": 17,
+      "control_r": 0.31,
+      "control_p": 0.226,
+      "r_topk_vs_logn": 0.375,
+      "control_r_topk_vs_logn": 0.47,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "meritocracy",
+      "level": "chunk",
+      "n_years": 17,
+      "control_r": 0.379,
+      "control_p": 0.133,
+      "r_topk_vs_logn": 0.534,
+      "control_r_topk_vs_logn": 0.47,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "performance",
+      "level": "chunk",
+      "n_years": 17,
+      "control_r": 0.23,
+      "control_p": 0.375,
+      "r_topk_vs_logn": 0.419,
+      "control_r_topk_vs_logn": 0.47,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "techno_optimism",
+      "level": "chunk",
+      "n_years": 17,
+      "control_r": 0.255,
+      "control_p": 0.323,
+      "r_topk_vs_logn": 0.755,
+      "control_r_topk_vs_logn": 0.47,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "wellbeing",
+      "level": "chunk",
+      "n_years": 17,
+      "control_r": 0.638,
+      "control_p": 0.006,
+      "r_topk_vs_logn": 0.731,
+      "control_r_topk_vs_logn": 0.47,
+      "diagnosis": "mix_shift_suspect"
+    },
+    {
+      "axis": "wellbeing_locus",
+      "level": "chunk",
+      "n_years": 17,
+      "control_r": 0.604,
+      "control_p": 0.01,
+      "r_topk_vs_logn": 0.82,
+      "control_r_topk_vs_logn": 0.47,
+      "diagnosis": "mix_shift_suspect"
+    }
+  ],
+  "tournament_agreement": {
+    "n": 40,
+    "agreement": 0.5,
+    "n_confident": 24,
+    "confident_agreement": 0.417,
+    "n_close": 16,
+    "close_agreement": 0.625,
+    "confident_margin_z": 1.0
   }
 }

@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2001,
-      "zscore": -1.3441,
+      "zscore": -1.6178,
       "rawTopkMean": 0.2958,
       "nChunks": 70,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2005,
-      "zscore": -0.7511,
+      "zscore": -1.0392,
       "rawTopkMean": 0.3368,
       "nChunks": 26,
       "kUsed": 5,
@@ -77,7 +77,7 @@
     },
     {
       "year": 2006,
-      "zscore": -0.7202,
+      "zscore": -1.0091,
       "rawTopkMean": 0.3389,
       "nChunks": 41,
       "kUsed": 5,
@@ -113,7 +113,7 @@
     },
     {
       "year": 2007,
-      "zscore": -0.5727,
+      "zscore": -0.8652,
       "rawTopkMean": 0.3491,
       "nChunks": 35,
       "kUsed": 5,
@@ -149,7 +149,7 @@
     },
     {
       "year": 2008,
-      "zscore": -2.6992,
+      "zscore": -2.94,
       "rawTopkMean": 0.202,
       "nChunks": 15,
       "kUsed": 5,
@@ -185,13 +185,23 @@
     },
     {
       "year": 2010,
-      "zscore": -0.0433,
-      "rawTopkMean": 0.3857,
-      "nChunks": 79,
+      "zscore": 0.0282,
+      "rawTopkMean": 0.4124,
+      "nChunks": 91,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We’re committed to upholding a culture where diversity is valued and respected.",
+          "heading": "Aside from extraordinary coffee, Starbucks has made a business out of human connections, community involvement and the celebration of cultures.",
+          "score": 0.4611
+        },
+        {
+          "text": "We honor the unique combination of talents, experiences and perspectives of each partner, making Starbucks success possible.",
+          "heading": "Aside from extraordinary coffee, Starbucks has made a business out of human connections, community involvement and the celebration of cultures.",
+          "score": 0.4101
+        },
         {
           "text": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
           "heading": "Starbucks on the Issues",
@@ -206,24 +216,14 @@
           "text": "As a responsible company, we like to be open and honest about the successes and challenges we face.",
           "heading": "How We’re Doing So Far",
           "score": 0.3911
-        },
-        {
-          "text": "We're also committed to championing progressive climate change policy in partnership with other businesses and organizations.",
-          "heading": "What We've Been Doing",
-          "score": 0.3706
-        },
-        {
-          "text": "We have a name for our commitment to doing business responsibly.",
-          "heading": "Starbucks™ Shared Planet™",
-          "score": 0.3671
         }
       ]
     },
     {
       "year": 2011,
-      "zscore": 0.364,
-      "rawTopkMean": 0.4139,
-      "nChunks": 15,
+      "zscore": 0.5084,
+      "rawTopkMean": 0.4465,
+      "nChunks": 47,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -232,6 +232,11 @@
           "text": "For one thing, the people who work here aren’t “employees” - we're “partners” because we passionately share common goals and mutual success.",
           "heading": "What’s it like to work at Starbucks?",
           "score": 0.5136
+        },
+        {
+          "text": "We’re committed to upholding a culture where diversity is valued and respected.",
+          "heading": "Aside from extraordinary coffee, Starbucks has made a business out of human connections, community involvement and the celebration of cultures.",
+          "score": 0.4611
         },
         {
           "text": "The IT professionals here are doing some pretty amazing, innovative, industry-leading work.",
@@ -244,22 +249,17 @@
           "score": 0.4129
         },
         {
-          "text": "We’re dedicated to serving ethically sourced coffee, caring for the environment and giving back to the communities where we do business.",
-          "heading": "What’s it like to work at Starbucks?",
-          "score": 0.3787
-        },
-        {
-          "text": "All qualified applicants will receive consideration for employment without regard to race, national origin, age, sex, religion, disability, sexual orientation, marital status, veteran status, gender identity or expression, or any other basis protected by local, state or federal law.",
-          "heading": "What’s it like to work at Starbucks?",
-          "score": 0.3296
+          "text": "We honor the unique combination of talents, experiences and perspectives of each partner, making Starbucks success possible.",
+          "heading": "Aside from extraordinary coffee, Starbucks has made a business out of human connections, community involvement and the celebration of cultures.",
+          "score": 0.4101
         }
       ]
     },
     {
       "year": 2012,
-      "zscore": 0.3924,
+      "zscore": 0.0766,
       "rawTopkMean": 0.4159,
-      "nChunks": 51,
+      "nChunks": 52,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -293,8 +293,44 @@
     },
     {
       "year": 2013,
-      "zscore": 1.0196,
-      "rawTopkMean": 0.4593,
+      "zscore": 0.8051,
+      "rawTopkMean": 0.4675,
+      "nChunks": 88,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We will work and think across teams, functions and businesses; across markets, channels and organizations; across cultures and communities; across physical and digital spaces.",
+          "heading": "What We’re Doing Now",
+          "score": 0.4827
+        },
+        {
+          "text": "We expect to be a leader in diversity and inclusion, from our partners in the field to our senior leadership teams.",
+          "heading": "What We’re Doing Now",
+          "score": 0.4763
+        },
+        {
+          "text": "We will continue to recruit and develop our partners to be effective at building a workplace that leverages our team diversity for high performance.",
+          "heading": "What We’ll Do Next",
+          "score": 0.4751
+        },
+        {
+          "text": "We’re committed to upholding a culture where diversity is valued and respected.",
+          "heading": "Aside from extraordinary coffee, Starbucks has made a business out of human connections, community involvement and the celebration of cultures.",
+          "score": 0.4611
+        },
+        {
+          "text": "We will reach out to leverage diverse points of view, talents and capabilities.",
+          "heading": "What We’re Doing Now",
+          "score": 0.4423
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "zscore": 0.714,
+      "rawTopkMean": 0.4611,
       "nChunks": 76,
       "kUsed": 5,
       "thin": false,
@@ -321,53 +357,17 @@
           "score": 0.4423
         },
         {
-          "text": "Connect with something bigger, have an impact every day and work someplace truly great.",
-          "heading": "Want to be part of something big? This is the place to do it.",
-          "score": 0.4198
-        }
-      ]
-    },
-    {
-      "year": 2014,
-      "zscore": 0.1337,
-      "rawTopkMean": 0.398,
-      "nChunks": 44,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
           "text": "We’re tapping into a passionate network of people eager to be catalysts in their local neighborhoods.",
           "heading": "From the neighborhoods where our stores are located to those where our coffee is grown, we are committed to making our communities stronger.",
           "score": 0.4288
-        },
-        {
-          "text": "We believe we can all become a part of something bigger and inspire positive change in the world around us.",
-          "heading": "Connect To Something Bigger",
-          "score": 0.3945
-        },
-        {
-          "text": "Our welcoming work environment encourages partners to engage with one another and make Starbucks a place they look forward to working each day.",
-          "heading": "Diversity and Inclusion",
-          "score": 0.3924
-        },
-        {
-          "text": "At Starbucks, we strive to create a culture that values and respects diversity and inclusion .",
-          "heading": "Diversity and Inclusion",
-          "score": 0.3909
-        },
-        {
-          "text": "It’s our commitment to purchase only the highest quality, ethically sourced and responsibly grown coffee.",
-          "heading": "Starbucks™ Shared Planet™ is our commitment to do business in ways that are good for people and the planet.",
-          "score": 0.3833
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": 1.0152,
-      "rawTopkMean": 0.4589,
-      "nChunks": 213,
+      "zscore": 1.1738,
+      "rawTopkMean": 0.4937,
+      "nChunks": 240,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -378,32 +378,32 @@
           "score": 0.5359
         },
         {
+          "text": "We will continue to recruit and develop our partners to be effective at building a workplace that leverages our assets for high performance.",
+          "heading": "What We’ll Do Next",
+          "score": 0.4903
+        },
+        {
           "text": "In all that we do, we will continue to strive to create a culture of belonging – where everyone is welcome- so that we can continue to drive innovation and growth through our people.",
           "heading": "Our Aspirations",
           "score": 0.4831
         },
         {
-          "text": "We believe in the importance of setting aspirational targets rather than settling for less ambitious targets, as well as learning from our experience to inform next steps.",
-          "heading": "ENVIRONMENT",
-          "score": 0.4495
+          "text": "We will work and think across teams, functions and businesses; across markets, channels and organizations; across cultures and communities; across physical and digital spaces.",
+          "heading": "What We’re Doing Now",
+          "score": 0.4827
         },
         {
-          "text": "By staying true to our mission, values and guiding principles, I believe we’ve proven it is possible to build a world-class company with a conscience.",
-          "heading": "What is the Role and Responsibility of a For-Profit Public Company?",
-          "score": 0.4165
-        },
-        {
-          "text": "That’s why when you launch a career inspired by human connection and the opportunity to become your personal best, the possibilities are endless.",
-          "heading": "To Be a Partner",
-          "score": 0.4098
+          "text": "We expect to be a leader in diversity and inclusion, from our partners in the field to our senior leadership teams.",
+          "heading": "What We’re Doing Now",
+          "score": 0.4763
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": 0.223,
-      "rawTopkMean": 0.4042,
-      "nChunks": 39,
+      "zscore": -0.0409,
+      "rawTopkMean": 0.4075,
+      "nChunks": 42,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -424,58 +424,58 @@
           "score": 0.3964
         },
         {
+          "text": "Not only as a company, but as partners who share a Mission and purpose.",
+          "heading": "A Special Message from Howard Schultz",
+          "score": 0.3926
+        },
+        {
           "text": "Create Opportunities We are committed to investing in paths to opportunity through education, training and employment.",
           "heading": "We have always believed Starbucks can – and should — have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
           "score": 0.3897
-        },
-        {
-          "text": "Join us in our journey to inspire and nurture the human spirit.",
-          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
-          "score": 0.3757
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": -0.4577,
-      "rawTopkMean": 0.3571,
-      "nChunks": 16,
+      "zscore": -0.0274,
+      "rawTopkMean": 0.4085,
+      "nChunks": 43,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Create Opportunities We are committed to investing in paths to opportunity through education, training and employment.",
-          "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "score": 0.3897
+          "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": 0.4346
         },
         {
-          "text": "So it is our vision that together we will elevate our partners, customers, suppliers and neighbors to create positive change.",
-          "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "score": 0.3728
+          "text": "Our Culture From our earliest days, diversity and inclusion have been at the heart of how we do business.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": 0.4245
         },
         {
-          "text": "To be innovators, leaders and contributors to an inclusive society and a healthy environment so that Starbucks and everyone we touch can endure and thrive.",
-          "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "score": 0.3644
+          "text": "Embracing diversity only enhances our work culture, it also drives our business success.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": 0.3964
         },
         {
-          "text": "Source Ethically & Sustainably We are committed to offering high-quality, ethically purchased and responsibly produced products.",
-          "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "score": 0.3382
+          "text": "We believe we can all become a part of something bigger and inspire positive change in the world around us.",
+          "heading": "Connect To Something Bigger",
+          "score": 0.3945
         },
         {
-          "text": "Lead in Green Retail We are committed to minimizing our environmental footprint and inspiring others to do the same.",
-          "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "score": 0.3203
+          "text": "Not only as a company, but as partners who share a Mission and purpose.",
+          "heading": "A Special Message from Howard Schultz",
+          "score": 0.3926
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": 0.4267,
+      "zscore": 0.11,
       "rawTopkMean": 0.4182,
-      "nChunks": 89,
+      "nChunks": 105,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -509,9 +509,9 @@
     },
     {
       "year": 2019,
-      "zscore": 1.5844,
-      "rawTopkMean": 0.4983,
-      "nChunks": 8,
+      "zscore": 1.2688,
+      "rawTopkMean": 0.5004,
+      "nChunks": 69,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -537,53 +537,53 @@
           "score": 0.4871
         },
         {
-          "text": "Our people are one of our most valuable assets and we provide learning opportunities to develop skills, further careers and help partners achieve their personal and professional goals.",
-          "heading": "Training and development",
-          "score": 0.4242
+          "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": 0.4346
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -1.039,
-      "rawTopkMean": 0.3169,
-      "nChunks": 7,
+      "zscore": 0.1071,
+      "rawTopkMean": 0.418,
+      "nChunks": 48,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "That’s why we believe we have a responsibility to advocate both internal and public policies that support the health of our business, our partners (employees) and the communities we serve.",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": 0.349
+          "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": 0.4346
         },
         {
-          "text": "From how we buy our coffee to how we ensure the best possible workplace for our partners, we believe it is important to operate consistent with our mission: to inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": 0.3462
+          "text": "Our Culture From our earliest days, diversity and inclusion have been at the heart of how we do business.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": 0.4245
         },
         {
-          "text": "The policies and positions below demonstrate our commitment to being a responsible business.",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": 0.3361
+          "text": "Join a company with values you can be proud of.",
+          "heading": "Culture and Values",
+          "score": 0.416
         },
         {
-          "text": "We’re creating more eco-conscious stores on a global scale from the design stage right through to construction and operations.",
-          "heading": "LEED® Certified Stores",
-          "score": 0.2863
+          "text": "We aspire to be a place of inclusion, diversity, equity, and accessibility.",
+          "heading": "A message from Kevin Johnson",
+          "score": 0.4139
         },
         {
-          "text": "They range from global ethical business standards to our own guidelines for doing business.",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": 0.2667
+          "text": "Hiring veterans, ethical sourcing, and minimizing our environmental footprint are just a few ways that we strive to make a bigger impact.",
+          "heading": "Culture and Values",
+          "score": 0.4012
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 0.6675,
-      "rawTopkMean": 0.4349,
-      "nChunks": 33,
+      "zscore": 0.5133,
+      "rawTopkMean": 0.4468,
+      "nChunks": 45,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -609,17 +609,17 @@
           "score": 0.422
         },
         {
-          "text": "We are as diverse as the communities we serve.",
-          "heading": "From the neighborhoods where our stores are located to those where our coffee is grown, we are committed to creating and investing in opportunities for people around the world.",
-          "score": 0.3564
+          "text": "Join a company with values you can be proud of.",
+          "heading": "Culture and Values",
+          "score": 0.416
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 0.465,
+      "zscore": 0.1476,
       "rawTopkMean": 0.4209,
-      "nChunks": 166,
+      "nChunks": 171,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -641,21 +641,21 @@
         },
         {
           "text": "We’re committed to continuing our journey to be a place where everyone is welcome.",
-          "heading": "twitter:description",
+          "heading": "",
           "score": 0.4203
         },
         {
-          "text": "As our journey continues, we’re taking bold actions with intention, transparency and accountability.</p>",
-          "heading": "",
-          "score": 0.4159
+          "text": "Join a company with values you can be proud of.",
+          "heading": "Culture and Values",
+          "score": 0.416
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": 1.6321,
-      "rawTopkMean": 0.5016,
-      "nChunks": 196,
+      "zscore": 1.3981,
+      "rawTopkMean": 0.5096,
+      "nChunks": 221,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -671,6 +671,11 @@
           "score": 0.5197
         },
         {
+          "text": "We put our partners (employees) first, empowering them by providing meaningful opportunities to pursue their aspirations.",
+          "heading": "Opportunity",
+          "score": 0.5023
+        },
+        {
           "text": "<span>We are talented technologists leading today and into the future.</span>",
           "heading": "Mission driven",
           "score": 0.4979
@@ -679,19 +684,14 @@
           "text": "Our people are our greatest asset.",
           "heading": "Investing in people",
           "score": 0.4705
-        },
-        {
-          "text": "That’s why we’re taking bold actions to support their growth by setting ambitious goals, offering effective development tools, and holding ourselves accountable.</p>",
-          "heading": "core/paragraph",
-          "score": 0.4626
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 0.9754,
-      "rawTopkMean": 0.4562,
-      "nChunks": 92,
+      "zscore": 0.9134,
+      "rawTopkMean": 0.4752,
+      "nChunks": 116,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -702,96 +702,96 @@
           "score": 0.5071
         },
         {
+          "text": "We put our partners (employees) first, empowering them by providing meaningful opportunities to pursue their aspirations.",
+          "heading": "Opportunity",
+          "score": 0.5023
+        },
+        {
           "text": "We pride ourselves in living our mission and values with a clear approach : real inclusion and belonging requires intent and is not defined only by metrics.",
           "heading": "Setting and maintaining representation goals",
           "score": 0.4737
         },
         {
+          "text": "We’re investing in the well-being of those we connect with, working hard toward a better future.",
+          "heading": "<strong>PUTTING PEOPLE FIRST</strong>",
+          "score": 0.4466
+        },
+        {
           "text": "At our best, we are building a bridge to a better future for our partners (employees) through thoughtful and intentional investments rooted in partner feedback and experiences.",
           "heading": "Our Partner Promise: Bridge to a better future",
           "score": 0.4463
-        },
-        {
-          "text": "Our goal is to enhance our efforts in reaching a broader pool of candidates and reaching talent that brings new perspectives and experiences to improve our business and workplace.",
-          "heading": "Setting and maintaining representation goals",
-          "score": 0.4444
-        },
-        {
-          "text": "We believe that success is best when shared.",
-          "heading": "But… what’s a Starbucks Partner?",
-          "score": 0.4094
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": -0.5969,
-      "rawTopkMean": 0.3474,
-      "nChunks": 32,
+      "zscore": 0.3094,
+      "rawTopkMean": 0.4324,
+      "nChunks": 60,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "We put our partners (employees) first, empowering them by providing meaningful opportunities to pursue their aspirations.",
+          "heading": "Opportunity",
+          "score": 0.5023
+        },
+        {
+          "text": "We’re investing in the well-being of those we connect with, working hard toward a better future.",
+          "heading": "<strong>PUTTING PEOPLE FIRST</strong>",
+          "score": 0.4466
+        },
+        {
+          "text": "Our commitment to equal opportunity means cultivating an environment where differences are embraced and building a culture that fosters a sense of belonging.",
+          "heading": "Inclusion &amp; Diversity",
+          "score": 0.422
+        },
+        {
+          "text": "We believe that success is best when shared.",
+          "heading": "But… what’s a Starbucks Partner?",
+          "score": 0.4094
+        },
+        {
           "text": "Through our unwavering commitment to excellence and our guiding principles, we bring the unique Starbucks Experience to life for every customer through every cup.",
           "heading": "Highlights of partner investments include:",
           "score": 0.3815
-        },
-        {
-          "text": "Our program is built upon a strong set of foundational standards, and our sourcing teams work directly with a diverse set of suppliers who share our commitment to ethical sourcing to negotiate contracts for the products we use operationally and those we sell to our customers.",
-          "heading": "Ethically Sourced Manufactured Goods",
-          "score": 0.3632
-        },
-        {
-          "text": "Our green aprons are on, our playlists are ready, and our mugs are waiting to be filled—and refilled—with the finest Starbucks brewed coffee.",
-          "heading": "Simplifying our menu",
-          "score": 0.3375
-        },
-        {
-          "text": "Whether it's working to relieve hunger, building purpose-defined stores, or investing in under resourced communities, serving our communities is part of our ethos.",
-          "heading": "Communities The power of positive contribution",
-          "score": 0.3322
-        },
-        {
-          "text": "We are continuing to collaborate with others in our industry to address ethical sourcing best practices in our shared supply bases.",
-          "heading": "Ethically Sourced Manufactured Goods",
-          "score": 0.3227
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": -0.675,
-      "rawTopkMean": 0.342,
-      "nChunks": 6,
+      "zscore": -0.5343,
+      "rawTopkMean": 0.3726,
+      "nChunks": 26,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We believe that success is best when shared.",
+          "heading": "But… what’s a Starbucks Partner?",
+          "score": 0.4094
+        },
+        {
+          "text": "For over 50 years, we’ve believed in our hearts we’re not in the coffee business serving people – we’re in the people business, serving coffee.",
+          "heading": "Working at Starbucks",
+          "score": 0.3753
+        },
         {
           "text": "No two countries are the same—we encourage our people to allow the flavor and design of the region shine through.",
           "heading": "A Truly Global Company",
           "score": 0.3638
         },
         {
+          "text": "Our employees are called partners because, through our annual Bean Stock grant, we each have ownership in the future success of our business.",
+          "heading": "But… what’s a Starbucks Partner?",
+          "score": 0.3593
+        },
+        {
           "text": "Helping people thrive helps ensure the long-term sustainability of the premium products we provide.",
           "heading": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
           "score": 0.355
-        },
-        {
-          "text": "International opportunities help us deliver our mission and values all over the world.",
-          "heading": "A Truly Global Company",
-          "score": 0.347
-        },
-        {
-          "text": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
-          "heading": "",
-          "score": 0.3389
-        },
-        {
-          "text": "Whether it’s arabica coffee, tea, cocoa or manufactured goods, we’re committed to offering ethically purchased and responsibly produced sustainable products of the highest quality.",
-          "heading": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
-          "score": 0.3055
         }
       ]
     }

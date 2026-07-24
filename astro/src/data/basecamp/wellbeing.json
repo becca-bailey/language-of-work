@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2002,
-      "zscore": -0.9987,
+      "zscore": -1.221,
       "rawTopkMean": 0.0324,
       "nChunks": 17,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2003,
-      "zscore": -1.0001,
+      "zscore": -1.2223,
       "rawTopkMean": 0.0323,
       "nChunks": 11,
       "kUsed": 5,
@@ -77,17 +77,27 @@
     },
     {
       "year": 2004,
-      "zscore": -1.0162,
-      "rawTopkMean": 0.0314,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -1.1531,
+      "rawTopkMean": 0.0367,
+      "nChunks": 11,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "In the New York Times, the Washington Post, the Times of London, on FOX news, in various books including the popular \"Fresh Styles For Web Designers,\" linked from usability expert Jakob Nielsen's site, as one of Yahoo's Picks of the Year, or in another publication.",
+          "heading": "Where might I have seen your projects before?",
+          "score": 0.057
+        },
         {
           "text": "Free Holiday E-Commerce Ideas from 37signals. 37signals' Design Not Found covered in this N.Y.",
           "heading": "37signals Highlights",
           "score": 0.0474
+        },
+        {
+          "text": "See what industry experts, clients, and others are saying about 37signals.",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.0323
         },
         {
           "text": "New Architect magazine publishes Making Mistakes Well , our article on contingency design.",
@@ -103,7 +113,7 @@
     },
     {
       "year": 2009,
-      "zscore": -0.8758,
+      "zscore": -1.1118,
       "rawTopkMean": 0.0394,
       "nChunks": 28,
       "kUsed": 5,
@@ -139,35 +149,81 @@
     },
     {
       "year": 2010,
-      "zscore": -2.1793,
-      "rawTopkMean": -0.0342,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -1.206,
+      "rawTopkMean": 0.0334,
+      "nChunks": 27,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "You can also watch keynote presentations and interviews that the team at 37signals has given over the years.",
+          "heading": "Our ideas and philosophies",
+          "score": 0.0759
+        },
+        {
+          "text": "You’ll also find daily tips, tricks, case studies, and press mentions regarding our products at our Product Blog .",
+          "heading": "Our ideas and philosophies",
+          "score": 0.0411
+        },
+        {
+          "text": "Our customers can cancel at any time, no questions asked (and we never charge a setup or termination fee).",
+          "heading": "We believe",
+          "score": 0.0245
+        },
+        {
+          "text": "Bells and whistles wear off, but usefulness never does.",
+          "heading": "We believe",
+          "score": 0.0188
+        },
         {
           "text": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done.",
           "heading": "We make it easier to get work done",
           "score": 0.0066
-        },
-        {
-          "text": "We care deeply about the products we build for our customers.",
-          "heading": "We make it easier to get work done",
-          "score": -0.0361
-        },
-        {
-          "text": "Quality, clarity, attention to detail, ease-of-use, and usefulness are at the core of everything we do.",
-          "heading": "We make it easier to get work done",
-          "score": -0.0731
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": -0.3962,
+      "zscore": -0.6854,
       "rawTopkMean": 0.0664,
-      "nChunks": 19,
+      "nChunks": 22,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Many of us love working remotely .",
+          "heading": "We the Basecamp.",
+          "score": 0.1116
+        },
+        {
+          "text": "Our office is in Chicago, but everyone at Basecamp is free to live and work wherever they want.",
+          "heading": "We the Basecamp.",
+          "score": 0.0891
+        },
+        {
+          "text": "Treating people right is fundamental to how we do business.",
+          "heading": "Giving a damn.",
+          "score": 0.0574
+        },
+        {
+          "text": "We treat our customers as we’d want to be treated, we treat each other like family, and we treat ourselves to a good day’s work and a good night’s sleep.",
+          "heading": "Giving a damn.",
+          "score": 0.0481
+        },
+        {
+          "text": "Freelancers, small shops, mid-sized companies, and multinationals all rely on Basecamp.",
+          "heading": "15 years and running.",
+          "score": 0.026
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "zscore": -0.6854,
+      "rawTopkMean": 0.0664,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -201,9 +257,9 @@
     },
     {
       "year": 2016,
-      "zscore": -0.5784,
-      "rawTopkMean": 0.0561,
-      "nChunks": 37,
+      "zscore": -0.7986,
+      "rawTopkMean": 0.0592,
+      "nChunks": 50,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -212,6 +268,11 @@
           "text": "Our headquarters are in Chicago, but everyone at Basecamp is free to live and work wherever they want.",
           "heading": "We the Basecamp!",
           "score": 0.081
+        },
+        {
+          "text": "Treating people right is fundamental to how we do business.",
+          "heading": "Giving a damn",
+          "score": 0.0574
         },
         {
           "text": "Many of us love working remotely – we literally wrote the book on remote working !",
@@ -227,19 +288,14 @@
           "text": "While we may not add new features to legacy products we’ll continue to apply the latest security updates; maintain the infrastructure that keeps them safe, fast and secure; and continue to offer customer support .",
           "heading": "It’s a promise to our customers",
           "score": 0.0492
-        },
-        {
-          "text": "Sites like Twitter, and GitHub, and Shopify, and hundreds of thousands more all run on Rails.",
-          "heading": "Ruby on Rails was born here!",
-          "score": 0.0419
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.5476,
+      "zscore": 0.1535,
       "rawTopkMean": 0.1197,
-      "nChunks": 20,
+      "nChunks": 53,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -273,9 +329,9 @@
     },
     {
       "year": 2018,
-      "zscore": 0.1251,
+      "zscore": -0.2221,
       "rawTopkMean": 0.0958,
-      "nChunks": 33,
+      "nChunks": 66,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -309,9 +365,9 @@
     },
     {
       "year": 2019,
-      "zscore": 1.5655,
-      "rawTopkMean": 0.1771,
-      "nChunks": 106,
+      "zscore": 1.0758,
+      "rawTopkMean": 0.1783,
+      "nChunks": 224,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -337,17 +393,17 @@
           "score": 0.15
         },
         {
-          "text": "Give everyone a chance to consider and have a say on a reasonable schedule.",
+          "text": "If you want people to do great work, you have to give them the appropriate time and space to get into the zone.",
           "heading": "Real-time sometimes, asynchronous most of the time.",
-          "score": 0.1439
+          "score": 0.1495
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.801,
+      "zscore": 0.3787,
       "rawTopkMean": 0.134,
-      "nChunks": 213,
+      "nChunks": 299,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -381,13 +437,18 @@
     },
     {
       "year": 2021,
-      "zscore": 1.3804,
-      "rawTopkMean": 0.1667,
-      "nChunks": 159,
+      "zscore": 1.3642,
+      "rawTopkMean": 0.1966,
+      "nChunks": 424,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "So create some time for people by asking for feedback asynchronously — let people respond on their own time.",
+          "heading": "Real-time sometimes, asynchronous most of the time.",
+          "score": 0.2366
+        },
         {
           "text": "If you can’t, make sure people understand that it’s OK to be unavailable.",
           "heading": "Real-time sometimes, asynchronous most of the time.",
@@ -399,27 +460,22 @@
           "score": 0.1942
         },
         {
-          "text": "That turning off chat — quitting, closing, snoozing, whatever — should be perfectly acceptable.",
-          "heading": "Real-time sometimes, asynchronous most of the time.",
-          "score": 0.1561
+          "text": "This is particularly important for people who work remotely.",
+          "heading": "4. A sense of belonging.",
+          "score": 0.1844
         },
         {
-          "text": "If you want people to do great work, you have to give them the appropriate time and space to get into the zone.",
+          "text": "That creates space and attention for the things that really do have to be discussed right now, and allows everything else to be thoroughly discussed asynchronously and thoughtfully over time.",
           "heading": "Real-time sometimes, asynchronous most of the time.",
-          "score": 0.1495
-        },
-        {
-          "text": "Give people long uninterrupted stretches to get work done.",
-          "heading": "Real-time sometimes, asynchronous most of the time.",
-          "score": 0.1368
+          "score": 0.1707
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 1.2477,
-      "rawTopkMean": 0.1592,
-      "nChunks": 113,
+      "zscore": 0.9785,
+      "rawTopkMean": 0.1721,
+      "nChunks": 333,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -428,6 +484,11 @@
           "text": "Then others can read it on their schedule, when the natural lulls of the day allow it, rather than being interrupted right in their peak flow time.",
           "heading": "Asynchronously",
           "score": 0.2096
+        },
+        {
+          "text": "Something about vacation time, or a new benefit, or reiterating that 40 hour weeks means 40 hour weeks.",
+          "heading": "Whenever relevant: Announcements",
+          "score": 0.1765
         },
         {
           "text": "Make sure you check out the benefits and perks .",
@@ -440,158 +501,153 @@
           "score": 0.1499
         },
         {
-          "text": "You should be at peace with both of these stances.",
-          "heading": "What it’s like to work here",
-          "score": 0.1348
-        },
-        {
-          "text": "These mechanisms work together to free individuals and teams to run their days and cycles with confidence and independence.",
-          "heading": "Communication",
-          "score": 0.1262
+          "text": "You may have some spare time on a Sunday afternoon to write something, but putting it out there on Sunday may pull people back into work on the weekends.",
+          "heading": "Rules of thumb, and general philosophy",
+          "score": 0.1488
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": 0.4427,
-      "rawTopkMean": 0.1138,
-      "nChunks": 115,
+      "zscore": 1.3825,
+      "rawTopkMean": 0.1977,
+      "nChunks": 431,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "You may have some spare time on a Sunday afternoon to write something, but putting it out there on Sunday may pull people back into work on the weekends.",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.1488
+          "text": "So create some time for people by asking for feedback asynchronously — let people respond on their own time.",
+          "heading": "Real-time sometimes, asynchronous most of the time",
+          "score": 0.2366
         },
         {
-          "text": "Time is on your side, rushing makes conversations worse.",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.1266
+          "text": "If you can’t, make sure people understand that it’s OK to be unavailable.",
+          "heading": "Real-time sometimes, asynchronous most of the time",
+          "score": 0.1969
         },
         {
-          "text": "Internal communication based on long-form writing, rather than a verbal tradition of meetings, speaking, and chatting, leads to a welcomed reduction in meetings, video conferences, calls, or other real-time opportunities to interrupt and be interrupted.",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.1022
+          "text": "Set expectations that it’s OK to be unavailable.",
+          "heading": "Real-time sometimes, asynchronous most of the time",
+          "score": 0.1942
         },
         {
-          "text": "Sharing something at 5pm may keep someone at work longer.",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.0997
+          "text": "This is particularly important for people who work remotely.",
+          "heading": "4. A sense of belonging",
+          "score": 0.1844
         },
         {
-          "text": "Give meaningful discussions a meaningful amount of time to develop and unfold.",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.0916
+          "text": "Something about vacation time, or a new benefit, or reiterating that 40 hour weeks means 40 hour weeks.",
+          "heading": "Whenever relevant: Announcements",
+          "score": 0.1765
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 0.882,
-      "rawTopkMean": 0.1386,
-      "nChunks": 99,
+      "zscore": 1.4866,
+      "rawTopkMean": 0.2043,
+      "nChunks": 452,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "So create some time for people by asking for feedback asynchronously — let people respond on their own time.",
+          "heading": "Real-time sometimes, asynchronous most of the time",
+          "score": 0.2366
+        },
         {
           "text": "Then others can read it on their schedule, when the natural lulls of the day allow it, rather than being interrupted right in their peak flow time.",
           "heading": "Asynchronously",
           "score": 0.2096
         },
         {
-          "text": "You can work from anywhere, but please be sure to inform your People Ops team when you move – especially across state or country borders.",
-          "heading": "Remotely",
-          "score": 0.1337
+          "text": "If you can’t, make sure people understand that it’s OK to be unavailable.",
+          "heading": "Real-time sometimes, asynchronous most of the time",
+          "score": 0.1969
         },
         {
-          "text": "Asynchronous communication is far better when working with teams spread across the world or even just a few time zones apart.",
-          "heading": "17. Communication across time-zones",
-          "score": 0.1215
+          "text": "Set expectations that it’s OK to be unavailable.",
+          "heading": "Real-time sometimes, asynchronous most of the time",
+          "score": 0.1942
         },
         {
-          "text": "Daily and weekly check-ins are subdivided by department so you’re only subscribed to your team’s answers.",
-          "heading": "Communication",
-          "score": 0.1151
-        },
-        {
-          "text": "A manager of one will spend their time well when left to their own devices.",
-          "heading": "With managers of one",
-          "score": 0.113
+          "text": "This is particularly important for people who work remotely.",
+          "heading": "4. A sense of belonging",
+          "score": 0.1844
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": -0.2151,
-      "rawTopkMean": 0.0766,
-      "nChunks": 70,
+      "zscore": 0.743,
+      "rawTopkMean": 0.1571,
+      "nChunks": 253,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Your day-to-day work doesn’t need to be reviewed.",
-          "heading": "Trust",
-          "score": 0.1044
+          "text": "Something about vacation time, or a new benefit, or reiterating that 40 hour weeks means 40 hour weeks.",
+          "heading": "Whenever relevant: Announcements",
+          "score": 0.1765
         },
         {
-          "text": "You have demonstrated a good technical understanding of the software systems and tools needed in your daily work.",
-          "heading": "Tooling",
-          "score": 0.0775
+          "text": "Make sure you check out the benefits and perks .",
+          "heading": "What it’s like to work here",
+          "score": 0.1755
         },
         {
-          "text": "Will this decision make more work for people that don’t have extra time for that work?",
+          "text": "A calm, low-distraction environment where you can do your best work.",
+          "heading": "What it’s like to work here",
+          "score": 0.1499
+        },
+        {
+          "text": "You may have some spare time on a Sunday afternoon to write something, but putting it out there on Sunday may pull people back into work on the weekends.",
           "heading": "Rules of thumb, and general philosophy",
-          "score": 0.0761
+          "score": 0.1488
         },
         {
-          "text": "Could this decision be a good one for someone else to practice making?",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.0673
-        },
-        {
-          "text": "You receive constructive feedback with a growth mindset.",
-          "heading": "Feedback",
-          "score": 0.058
+          "text": "You should be at peace with both of these stances.",
+          "heading": "What it’s like to work here",
+          "score": 0.1348
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": 0.2679,
-      "rawTopkMean": 0.1039,
-      "nChunks": 36,
+      "zscore": 0.743,
+      "rawTopkMean": 0.1571,
+      "nChunks": 251,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Knowing our devices are safe and secure allows us to entrust our work computers with access to sensitive systems like Queenbee, and our internal VPN and remote servers.",
-          "heading": "Access to code and secrets",
-          "score": 0.119
+          "text": "Something about vacation time, or a new benefit, or reiterating that 40 hour weeks means 40 hour weeks.",
+          "heading": "Whenever relevant: Announcements",
+          "score": 0.1765
         },
         {
-          "text": "You should maintain a separate, personally-owned machine if you need a home computer.",
-          "heading": "Access to code and secrets",
-          "score": 0.114
+          "text": "Make sure you check out the benefits and perks .",
+          "heading": "What it’s like to work here",
+          "score": 0.1755
         },
         {
-          "text": "Please reach out to the People Ops team or to your manager if you have any questions about the information contained in this handbook.",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.1136
+          "text": "A calm, low-distraction environment where you can do your best work.",
+          "heading": "What it’s like to work here",
+          "score": 0.1499
         },
         {
-          "text": "In this handbook, you’ll find everything you need to know about 37signals policies and benefits.",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.1085
+          "text": "You may have some spare time on a Sunday afternoon to write something, but putting it out there on Sunday may pull people back into work on the weekends.",
+          "heading": "Rules of thumb, and general philosophy",
+          "score": 0.1488
         },
         {
-          "text": "Please do not keep any personal data on your 37signals-issued computer.",
-          "heading": "Access to code and secrets",
-          "score": 0.0644
+          "text": "You should be at peace with both of these stances.",
+          "heading": "What it’s like to work here",
+          "score": 0.1348
         }
       ]
     }

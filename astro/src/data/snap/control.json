@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2018,
-      "zscore": -0.9834,
+      "zscore": -1.736,
       "rawTopkMean": -0.0119,
       "nChunks": 8,
       "kUsed": 5,
@@ -41,9 +41,9 @@
     },
     {
       "year": 2019,
-      "zscore": -1.2749,
-      "rawTopkMean": -0.0197,
-      "nChunks": 6,
+      "zscore": -0.3747,
+      "rawTopkMean": 0.0153,
+      "nChunks": 14,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -54,6 +54,16 @@
           "score": 0.0562
         },
         {
+          "text": "Bitmoji Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
+          "heading": "Our Brands",
+          "score": 0.0428
+        },
+        {
+          "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
+          "heading": "Our Brands",
+          "score": 0.0016
+        },
+        {
           "text": "Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
           "heading": "Snapchat",
           "score": -0.0084
@@ -62,24 +72,14 @@
           "text": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
           "heading": "Spectacles",
           "score": -0.0154
-        },
-        {
-          "text": "We think deeply, question conventions, and strive to never stop learning.",
-          "heading": "We Are Smart",
-          "score": -0.0623
-        },
-        {
-          "text": "We listen from the heart, think empathetically, and help each other grow.",
-          "heading": "We Are Kind",
-          "score": -0.0687
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.9654,
-      "rawTopkMean": 0.0401,
-      "nChunks": 26,
+      "zscore": 1.0471,
+      "rawTopkMean": 0.0439,
+      "nChunks": 34,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -95,6 +95,11 @@
           "score": 0.0486
         },
         {
+          "text": "Bitmoji Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
+          "heading": "Our Brands",
+          "score": 0.0428
+        },
+        {
           "text": "SnapVets empowers veteran professional development, community outreach, recruiting, and more!",
           "heading": "SnapVets",
           "score": 0.0393
@@ -103,17 +108,12 @@
           "text": "​SnapVets is a resource group for veterans, dependents, and those who support them.",
           "heading": "SnapVets",
           "score": 0.0267
-        },
-        {
-          "text": "Veteran Fellowship program to help facilitate it!",
-          "heading": "SnapAbility",
-          "score": 0.024
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": -0.3803,
+      "zscore": -0.9327,
       "rawTopkMean": 0.0042,
       "nChunks": 16,
       "kUsed": 5,
@@ -149,13 +149,18 @@
     },
     {
       "year": 2022,
-      "zscore": 0.4328,
-      "rawTopkMean": 0.0259,
-      "nChunks": 20,
+      "zscore": 0.6937,
+      "rawTopkMean": 0.0368,
+      "nChunks": 25,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
+          "heading": "Bitmoji",
+          "score": 0.0562
+        },
         {
           "text": "As stories are shared, others listen wholeheartedly.",
           "heading": "Snap Council",
@@ -175,21 +180,16 @@
           "text": "We want to help you give back, your way!",
           "heading": "Giving Back",
           "score": 0.0058
-        },
-        {
-          "text": "Council is the practice of people coming together to share stories, listen deeply, and speak from the heart.",
-          "heading": "Snap Council",
-          "score": 0.0017
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": 0.37,
-      "rawTopkMean": 0.0242,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -0.2184,
+      "rawTopkMean": 0.0185,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
@@ -203,21 +203,41 @@
           "score": 0.0248
         },
         {
+          "text": "SnapVets builds community for military veterans, dependents, and those who continue to serve.",
+          "heading": "SnapVets builds community for military veterans, dependents, and those who continue to serve.",
+          "score": 0.0169
+        },
+        {
           "text": "We’ll work hard to make sure they get the support they need.",
           "heading": "Snap-a-Wish",
+          "score": 0.003
+        },
+        {
+          "text": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
+          "heading": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
           "score": 0.003
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": -1.46,
-      "rawTopkMean": -0.0247,
-      "nChunks": 11,
+      "zscore": -0.7303,
+      "rawTopkMean": 0.0082,
+      "nChunks": 15,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "It's the easiest and fastest way to communicate the full range of human emotions with your friends without pressure to be popular, pretty, or perfect.",
+          "heading": "",
+          "score": 0.0802
+        },
+        {
+          "text": "Snapchat is an app that empowers people to express themselves, live in the moment, learn about the world, and have fun together.",
+          "heading": "",
+          "score": 0.0089
+        },
         {
           "text": "Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
           "heading": "",
@@ -232,24 +252,14 @@
           "text": "We solve problems through action, make high-quality decisions, and think with a strategic mindset.",
           "heading": "",
           "score": -0.0242
-        },
-        {
-          "text": "Our mission is to contribute to human progress by empowering people to express themselves, and live in the moment...",
-          "heading": "Grounded in Kindness",
-          "score": -0.0376
-        },
-        {
-          "text": "We believe that when we can see the world from other’s perspectives, we come to understand why DEI is so essential",
-          "heading": "Our public commitment to DEI",
-          "score": -0.0377
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 0.8827,
+      "zscore": 0.7494,
       "rawTopkMean": 0.0379,
-      "nChunks": 33,
+      "nChunks": 35,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -283,9 +293,9 @@
     },
     {
       "year": 2026,
-      "zscore": 1.4477,
+      "zscore": 1.5019,
       "rawTopkMean": 0.053,
-      "nChunks": 41,
+      "nChunks": 46,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,

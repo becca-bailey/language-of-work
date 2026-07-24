@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2013,
-      "zscore": -1.9333,
+      "zscore": -2.5938,
       "rawTopkMean": -0.1329,
       "nChunks": 2,
       "kUsed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "year": 2014,
-      "zscore": -1.0074,
+      "zscore": -1.5473,
       "rawTopkMean": -0.0619,
       "nChunks": 2,
       "kUsed": 2,
@@ -47,9 +47,9 @@
     },
     {
       "year": 2015,
-      "zscore": -0.2573,
+      "zscore": -0.6995,
       "rawTopkMean": -0.0044,
-      "nChunks": 8,
+      "nChunks": 9,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -83,7 +83,7 @@
     },
     {
       "year": 2016,
-      "zscore": 0.2579,
+      "zscore": -0.117,
       "rawTopkMean": 0.0352,
       "nChunks": 35,
       "kUsed": 5,
@@ -118,8 +118,44 @@
       ]
     },
     {
+      "year": 2017,
+      "zscore": -0.3025,
+      "rawTopkMean": 0.0226,
+      "nChunks": 27,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "You’ll play an important role in building our company, in Japan and beyond.",
+          "heading": "What makes HubSpot the right employer for you?",
+          "score": 0.0569
+        },
+        {
+          "text": "Our inbound sales and marketing software is empowering more than 18,000 HubSpot customers to deliver a remarkable experience around the world.",
+          "heading": "What is HubSpot?",
+          "score": 0.018
+        },
+        {
+          "text": "We believe in a helpful, human, and personable approach to doing business.",
+          "heading": "What is HubSpot?",
+          "score": 0.0172
+        },
+        {
+          "text": "Since 2006, HubSpot has been on a mission to transform the way businesses market, sell, and grow.",
+          "heading": "What is HubSpot?",
+          "score": 0.0106
+        },
+        {
+          "text": "Similarly, we believe it’s the ultimate sign of respect to empower employees to grow into entrepreneurs and leaders.",
+          "heading": "Respect",
+          "score": 0.0101
+        }
+      ]
+    },
+    {
       "year": 2018,
-      "zscore": 0.2033,
+      "zscore": -0.1788,
       "rawTopkMean": 0.031,
       "nChunks": 43,
       "kUsed": 5,
@@ -155,9 +191,9 @@
     },
     {
       "year": 2019,
-      "zscore": 1.2822,
+      "zscore": 1.0407,
       "rawTopkMean": 0.1138,
-      "nChunks": 109,
+      "nChunks": 110,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -191,7 +227,7 @@
     },
     {
       "year": 2020,
-      "zscore": 1.082,
+      "zscore": 0.8144,
       "rawTopkMean": 0.0984,
       "nChunks": 68,
       "kUsed": 5,
@@ -227,9 +263,9 @@
     },
     {
       "year": 2021,
-      "zscore": 1.0189,
+      "zscore": 0.7431,
       "rawTopkMean": 0.0936,
-      "nChunks": 34,
+      "nChunks": 43,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -263,9 +299,9 @@
     },
     {
       "year": 2022,
-      "zscore": 0.5969,
-      "rawTopkMean": 0.0612,
-      "nChunks": 9,
+      "zscore": 0.5849,
+      "rawTopkMean": 0.0828,
+      "nChunks": 41,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -276,9 +312,45 @@
           "score": 0.1164
         },
         {
+          "text": "You can move fast, and learn even faster.",
+          "heading": "Everyone's empowered to work autonomously.",
+          "score": 0.0971
+        },
+        {
+          "text": "We're committed to building a diverse and inclusive environment where you feel you belong.",
+          "heading": "Diverse perspectives are celebrated.",
+          "score": 0.0766
+        },
+        {
+          "text": "If you're ready to grow your career and help millions of organizations grow better, you've come to the right place.",
+          "heading": "Let's grow together.",
+          "score": 0.068
+        },
+        {
           "text": "Come join us and help us build a global company where we're all proud to belong.",
           "heading": "All Open Positions",
           "score": 0.056
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": 0.275,
+      "rawTopkMean": 0.0618,
+      "nChunks": 35,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "You can move fast, and learn even faster.",
+          "heading": "Everyone's empowered to work autonomously.",
+          "score": 0.0971
+        },
+        {
+          "text": "If you're ready to grow your career and help millions of organizations grow better, you've come to the right place.",
+          "heading": "Let's grow together.",
+          "score": 0.068
         },
         {
           "text": "It's our mission to not just help them grow, but to help them grow better .",
@@ -286,84 +358,94 @@
           "score": 0.0522
         },
         {
+          "text": "That way, you own product decisions and can move faster to solve for the customer.",
+          "heading": "Small Teams Win",
+          "score": 0.0479
+        },
+        {
           "text": "Tens of thousands of customers all over the world use our marketing, sales, and customer success software to grow their businesses.",
           "heading": "What is HubSpot?",
           "score": 0.0438
-        },
-        {
-          "text": "Learn more about hybrid at HubSpot.",
-          "heading": "Where we work.",
-          "score": 0.0374
-        }
-      ]
-    },
-    {
-      "year": 2023,
-      "zscore": -0.5486,
-      "rawTopkMean": -0.0267,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "We work hard to build a diverse and inclusive environment where you feel you belong.",
-          "heading": "Diverse perspectives are celebrated.",
-          "score": 0.0394
-        },
-        {
-          "text": "We are committed to providing reasonable accommodations throughout the application and interview process.",
-          "heading": "Diverse perspectives are celebrated.",
-          "score": -0.0492
-        },
-        {
-          "text": "We believe different perspectives make HubSpot a better company.",
-          "heading": "Diverse perspectives are celebrated.",
-          "score": -0.0704
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": -0.2317,
-      "rawTopkMean": -0.0024,
-      "nChunks": 36,
+      "zscore": 0.275,
+      "rawTopkMean": 0.0618,
+      "nChunks": 69,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Read HubSpot's 2023 Diversity, Inclusion, & Belonging Report to learn about the progress we’ve made and the opportunities ahead to build a more inclusive and equitable workplace.",
-          "heading": "",
-          "score": 0.0122
+          "text": "You can move fast, and learn even faster.",
+          "heading": "Everyone's empowered to work autonomously.",
+          "score": 0.0971
         },
         {
-          "text": "We all play an important role in helping HubSpot, and our customers, grow better.",
-          "heading": "What we work on.",
-          "score": 0.0047
+          "text": "If you're ready to grow your career and help millions of organizations grow better, you've come to the right place.",
+          "heading": "Let's grow together.",
+          "score": 0.068
         },
         {
-          "text": "We believe access to a career in tech shouldn’t be determined by your zip code.",
-          "heading": "The Future of Work at HubSpot: How We're Building a Hybrid Company",
-          "score": -0.0035
+          "text": "It's our mission to not just help them grow, but to help them grow better .",
+          "heading": "What is HubSpot?",
+          "score": 0.0522
         },
         {
-          "text": "You can expect to hear more from us over the next few months about our move to a truly hybrid company and culture.",
-          "heading": "HubSpot’s New Vision for Work",
-          "score": -0.0062
+          "text": "That way, you own product decisions and can move faster to solve for the customer.",
+          "heading": "Small Teams Win",
+          "score": 0.0479
         },
         {
-          "text": "From weekly tech talks to 1:1 mentoring, we're constantly helping each other become the best product people (and humans) we can be.",
-          "heading": "Always Be Learning",
-          "score": -0.0192
+          "text": "Tens of thousands of customers all over the world use our marketing, sales, and customer success software to grow their businesses.",
+          "heading": "What is HubSpot?",
+          "score": 0.0438
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 1.0729,
+      "zscore": 0.9017,
+      "rawTopkMean": 0.1043,
+      "nChunks": 24,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Tackle challenges, deepen your craft, and explore new directions.",
+          "heading": "Growth without limits.",
+          "score": 0.1618
+        },
+        {
+          "text": "You can move fast, and learn even faster.",
+          "heading": "Everyone's empowered to work autonomously.",
+          "score": 0.0971
+        },
+        {
+          "text": "That mission fuels everything we do — and it can fuel your career, too.",
+          "heading": "Make an Impact.",
+          "score": 0.0905
+        },
+        {
+          "text": "Our mission is simple: help millions grow better.",
+          "heading": "Make an Impact.",
+          "score": 0.0882
+        },
+        {
+          "text": "Work hands-on with AI, test bold ideas, and sharpen your skills in real time.",
+          "heading": "Immerse yourself in innovation.",
+          "score": 0.084
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "zscore": 0.8042,
       "rawTopkMean": 0.0977,
-      "nChunks": 10,
+      "nChunks": 8,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -392,22 +474,6 @@
           "text": "Join a team where you’ll be challenged, supported and inspired—every day.",
           "heading": "Make your move.",
           "score": 0.064
-        }
-      ]
-    },
-    {
-      "year": 2026,
-      "zscore": -1.5358,
-      "rawTopkMean": -0.1025,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "From sabbaticals to a regional week of rest, well-being is built in.",
-          "heading": "A company that cares.",
-          "score": -0.1025
         }
       ]
     }

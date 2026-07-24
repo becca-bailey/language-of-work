@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2001,
-      "zscore": 1.1036,
+      "zscore": 1.2443,
       "rawTopkMean": 0.0455,
       "nChunks": 70,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2005,
-      "zscore": -0.0943,
+      "zscore": -0.3698,
       "rawTopkMean": -0.0258,
       "nChunks": 26,
       "kUsed": 5,
@@ -77,7 +77,7 @@
     },
     {
       "year": 2006,
-      "zscore": 0.2788,
+      "zscore": 0.133,
       "rawTopkMean": -0.0036,
       "nChunks": 41,
       "kUsed": 5,
@@ -113,7 +113,7 @@
     },
     {
       "year": 2007,
-      "zscore": 0.0365,
+      "zscore": -0.1935,
       "rawTopkMean": -0.018,
       "nChunks": 35,
       "kUsed": 5,
@@ -149,7 +149,7 @@
     },
     {
       "year": 2008,
-      "zscore": -1.0397,
+      "zscore": -1.6435,
       "rawTopkMean": -0.082,
       "nChunks": 15,
       "kUsed": 5,
@@ -185,9 +185,9 @@
     },
     {
       "year": 2010,
-      "zscore": 0.6261,
+      "zscore": 0.6008,
       "rawTopkMean": 0.0171,
-      "nChunks": 79,
+      "nChunks": 91,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -221,9 +221,9 @@
     },
     {
       "year": 2011,
-      "zscore": 0.7912,
-      "rawTopkMean": 0.0269,
-      "nChunks": 15,
+      "zscore": 0.8992,
+      "rawTopkMean": 0.0303,
+      "nChunks": 47,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -239,6 +239,11 @@
           "score": 0.0615
         },
         {
+          "text": "Starbucks has been named in the 100 Best Companies To Work For by Fortune Magazine.",
+          "heading": "100 Best Companies To Work For",
+          "score": -0.0369
+        },
+        {
           "text": "It’s a lot like working with friends.",
           "heading": "What’s it like to work at Starbucks?",
           "score": -0.0456
@@ -247,19 +252,14 @@
           "text": "Our new design approach involves sourcing local materials and craftspeople to create stores that reflect the culture of the surrounding neighborhood.",
           "heading": "Being a Responsible Company",
           "score": -0.0527
-        },
-        {
-          "text": "For the fourth year in a row, Ethisphere Magazine has named Starbucks to the list .",
-          "heading": "World’s Most Ethical Companies",
-          "score": -0.0537
         }
       ]
     },
     {
       "year": 2012,
-      "zscore": -0.6897,
+      "zscore": -1.172,
       "rawTopkMean": -0.0612,
-      "nChunks": 51,
+      "nChunks": 52,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -293,9 +293,9 @@
     },
     {
       "year": 2013,
-      "zscore": 0.0735,
+      "zscore": -0.1437,
       "rawTopkMean": -0.0158,
-      "nChunks": 76,
+      "nChunks": 88,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -329,9 +329,9 @@
     },
     {
       "year": 2014,
-      "zscore": -0.2267,
-      "rawTopkMean": -0.0336,
-      "nChunks": 44,
+      "zscore": -0.3497,
+      "rawTopkMean": -0.0249,
+      "nChunks": 76,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -347,6 +347,11 @@
           "score": -0.0377
         },
         {
+          "text": "These groups provide us insight on product innovation, business solutions, partner development and the recruitment and retention of partners.",
+          "heading": "What We’re Doing Now",
+          "score": -0.0377
+        },
+        {
           "text": "If you need assistance or an accommodation due to a disability, please contact us at 206-318-0660 or via email .",
           "heading": "Diversity and Inclusion",
           "score": -0.0444
@@ -355,19 +360,14 @@
           "text": "Find out Why We Love Seattle.",
           "heading": "Diversity and Inclusion",
           "score": -0.0469
-        },
-        {
-          "text": "EEO is the Law: http://www1.eeoc.gov/employers/upload/eeoc_self_print_poster.pdf .",
-          "heading": "Diversity and Inclusion",
-          "score": -0.0815
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": 1.2932,
+      "zscore": 1.4997,
       "rawTopkMean": 0.0568,
-      "nChunks": 213,
+      "nChunks": 240,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -401,9 +401,9 @@
     },
     {
       "year": 2016,
-      "zscore": -0.1902,
+      "zscore": -0.4989,
       "rawTopkMean": -0.0315,
-      "nChunks": 39,
+      "nChunks": 42,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -437,9 +437,9 @@
     },
     {
       "year": 2017,
-      "zscore": -1.242,
-      "rawTopkMean": -0.094,
-      "nChunks": 16,
+      "zscore": -1.6431,
+      "rawTopkMean": -0.082,
+      "nChunks": 43,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -450,32 +450,32 @@
           "score": -0.0504
         },
         {
+          "text": "We have deep relationships with many coffee growing communities in Africa.",
+          "heading": "Buy (STARBUCKS)RED. Help save lives.",
+          "score": -0.0731
+        },
+        {
           "text": "Without these efforts, the epidemic threatens to outpace the response and undo the progress that’s been achieved.",
           "heading": "Together, we're making a difference.",
           "score": -0.0786
         },
         {
+          "text": "It’s the opportunity to become your personal best.",
+          "heading": "To Be A Partner",
+          "score": -0.0977
+        },
+        {
           "text": "Just a few years ago they were strangers, orphans living separate lives in Rwanda yet connected by the burden of an HIV diagnosis.",
           "heading": "Story of Impact",
           "score": -0.1099
-        },
-        {
-          "text": "Source Ethically & Sustainably We are committed to offering high-quality, ethically purchased and responsibly produced products.",
-          "heading": "We have always believed Starbucks can – and should – have a positive impact on the communities we serve. One person, one cup and one neighborhood at a time.",
-          "score": -0.112
-        },
-        {
-          "text": "Everything changed when they met at a weekly HIV support group at the (RED)-funded Nyammata Hospital.",
-          "heading": "Story of Impact",
-          "score": -0.1191
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": 0.5643,
+      "zscore": 0.5176,
       "rawTopkMean": 0.0134,
-      "nChunks": 89,
+      "nChunks": 105,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -509,81 +509,81 @@
     },
     {
       "year": 2019,
-      "zscore": -1.6359,
-      "rawTopkMean": -0.1174,
-      "nChunks": 8,
+      "zscore": -1.0108,
+      "rawTopkMean": -0.0541,
+      "nChunks": 69,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Delivering our very best in all we do, holding ourselves accountable for results.",
-          "heading": "Expect more than coffee.",
-          "score": -0.092
+          "text": "Continuing to lead the industry in terms of additional relevant benefits for our people – including full tuition reimbursement through our College Achievement Plan, Starbucks stock (Bean Stock), 401(k) matching, and other important benefits.",
+          "heading": "Our Culture of Inclusion",
+          "score": -0.0433
         },
         {
-          "text": "Acting with courage, challenging the status quo and finding new ways to grow our company and each other.",
-          "heading": "Expect more than coffee.",
-          "score": -0.0941
+          "text": "There have been enormous gains in the fight against AIDS in the last decade, but also persistent challenges.",
+          "heading": "Together, we're making a difference.",
+          "score": -0.0504
         },
         {
-          "text": "As a partner (employee) who is curious, collaborative and a continuous learner, you’ll have limitless opportunities to make an impact and thrive, all while becoming your personal best and being recognized for it.",
-          "heading": "Training and development",
-          "score": -0.1218
+          "text": "Starbucks was selected as the 2014 Disability Employer of the Year by the US Business Leadership Network.",
+          "heading": "Our Culture of Inclusion",
+          "score": -0.0548
         },
         {
-          "text": "Our people are one of our most valuable assets and we provide learning opportunities to develop skills, further careers and help partners achieve their personal and professional goals.",
-          "heading": "Training and development",
-          "score": -0.1255
+          "text": "We received a perfect 100 score on Disability Equality Index in 2015 and 2016 and achieved the top rating of 100 percent on The Human Rights Campaign (HRC) 2015 Corporate Equality Index.",
+          "heading": "Our Culture of Inclusion",
+          "score": -0.0576
         },
         {
-          "text": "At Starbucks, we are devoted to supporting, engaging and investing in the development of our partners.",
-          "heading": "Training and development",
-          "score": -0.1537
+          "text": "See how we’re doing at Starbucks.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": -0.0641
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -2.0813,
-      "rawTopkMean": -0.1439,
-      "nChunks": 7,
+      "zscore": -1.0843,
+      "rawTopkMean": -0.0573,
+      "nChunks": 48,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "Continuing to lead the industry in terms of additional relevant benefits for our people – including full tuition reimbursement through our College Achievement Plan, Starbucks stock (Bean Stock), 401(k) matching, and other important benefits.",
+          "heading": "Our Culture of Inclusion",
+          "score": -0.0433
+        },
+        {
+          "text": "Starbucks was selected as the 2014 Disability Employer of the Year by the US Business Leadership Network.",
+          "heading": "Our Culture of Inclusion",
+          "score": -0.0548
+        },
+        {
+          "text": "We received a perfect 100 score on Disability Equality Index in 2015 and 2016 and achieved the top rating of 100 percent on The Human Rights Campaign (HRC) 2015 Corporate Equality Index.",
+          "heading": "Our Culture of Inclusion",
+          "score": -0.0576
+        },
+        {
+          "text": "See how we’re doing at Starbucks.",
+          "heading": "Creating A Culture of Belonging, Inclusion and Diversity",
+          "score": -0.0641
+        },
+        {
           "text": "We’re creating more eco-conscious stores on a global scale from the design stage right through to construction and operations.",
           "heading": "LEED® Certified Stores",
           "score": -0.0666
-        },
-        {
-          "text": "They range from global ethical business standards to our own guidelines for doing business.",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.1181
-        },
-        {
-          "text": "Animal Welfare – our preference for animal welfare-friendly practices and ingredients Deforestation – our commitment to pursuing zero net deforestation across our supply chain Sustainable Palm Oil – our commitment to using 100% RSPO certified palm oil in our company-operated stores California Transparency in Supply Chains Act – our zero tolerance policy for the use of forced labor and human traffi",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.1674
-        },
-        {
-          "text": "Standards of Business Conduct (online) or PDF – our commitment to ethical business practices Corporate Political Contributions and Expenditures – how we engage policymakers on issues that impact our business, our people and our communities 2018 Results 2017 Results 2016 Results 2015 Results 2014 Results 2013 Results 2012 Results 2011 Results 2010 Results UN Global Compact – supporting internationa",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.1675
-        },
-        {
-          "text": "The policies and positions below demonstrate our commitment to being a responsible business.",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.1999
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 0.9045,
+      "zscore": 0.9759,
       "rawTopkMean": 0.0336,
-      "nChunks": 33,
+      "nChunks": 45,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -617,9 +617,9 @@
     },
     {
       "year": 2022,
-      "zscore": 0.5584,
+      "zscore": 0.5096,
       "rawTopkMean": 0.0131,
-      "nChunks": 166,
+      "nChunks": 171,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -653,9 +653,9 @@
     },
     {
       "year": 2023,
-      "zscore": 1.7026,
+      "zscore": 2.0513,
       "rawTopkMean": 0.0811,
-      "nChunks": 196,
+      "nChunks": 221,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -689,9 +689,9 @@
     },
     {
       "year": 2024,
-      "zscore": 0.6765,
+      "zscore": 0.6687,
       "rawTopkMean": 0.0201,
-      "nChunks": 92,
+      "nChunks": 116,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -725,9 +725,9 @@
     },
     {
       "year": 2025,
-      "zscore": 0.2968,
+      "zscore": 0.1572,
       "rawTopkMean": -0.0025,
-      "nChunks": 32,
+      "nChunks": 60,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -761,13 +761,28 @@
     },
     {
       "year": 2026,
-      "zscore": -1.706,
-      "rawTopkMean": -0.1216,
-      "nChunks": 6,
+      "zscore": -1.148,
+      "rawTopkMean": -0.0601,
+      "nChunks": 26,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Come on in, grab a coffee and have a look around.",
+          "heading": "Working at Starbucks",
+          "score": -0.033
+        },
+        {
+          "text": "The program includes a third-party verification process that is overseen by SCS Global Services, responsible for ensuring the quality and integrity of the audits.",
+          "heading": "Coffee",
+          "score": -0.0352
+        },
+        {
+          "text": "Developed in collaboration with Conservation International, C.A.F.E.",
+          "heading": "Coffee",
+          "score": -0.0634
+        },
         {
           "text": "No two countries are the same—we encourage our people to allow the flavor and design of the region shine through.",
           "heading": "A Truly Global Company",
@@ -777,21 +792,6 @@
           "text": "Whether it’s arabica coffee, tea, cocoa or manufactured goods, we’re committed to offering ethically purchased and responsibly produced sustainable products of the highest quality.",
           "heading": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
           "score": -0.0857
-        },
-        {
-          "text": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
-          "heading": "",
-          "score": -0.1122
-        },
-        {
-          "text": "Starbucks ethical sourcing makes it possible to provide quality sustainable products like arabica coffee and help our community thrive.",
-          "heading": "",
-          "score": -0.1255
-        },
-        {
-          "text": "International opportunities help us deliver our mission and values all over the world.",
-          "heading": "A Truly Global Company",
-          "score": -0.2015
         }
       ]
     }

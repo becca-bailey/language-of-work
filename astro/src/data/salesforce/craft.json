@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2004,
-      "zscore": -1.0564,
+      "zscore": -1.3129,
       "rawTopkMean": 0.0425,
       "nChunks": 16,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2006,
-      "zscore": 0.8289,
+      "zscore": 0.417,
       "rawTopkMean": 0.1119,
       "nChunks": 41,
       "kUsed": 5,
@@ -77,9 +77,45 @@
     },
     {
       "year": 2007,
-      "zscore": 1.0539,
-      "rawTopkMean": 0.1202,
-      "nChunks": 31,
+      "zscore": 1.1737,
+      "rawTopkMean": 0.1422,
+      "nChunks": 45,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": 0.1527
+        },
+        {
+          "text": "This concept of corporate citizenship sets us apart in the type of talent we attract; people who are well-rounded, hard-working and compassionate and who value the pledge we have made to social responsibility and are dedicated to making a positive difference in the community.",
+          "heading": "",
+          "score": 0.1451
+        },
+        {
+          "text": "The company has received countless awards and accolades, including the number 7 spot on the Business Ethics list of most ethical companies.",
+          "heading": "",
+          "score": 0.1384
+        },
+        {
+          "text": "The company puts its money—and its time—where its mouth is.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": 0.1379
+        },
+        {
+          "text": "The company has received countless awards and accolades, including the number-seven spot on the Business Ethics list of most ethical companies.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.1369
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "zscore": 0.3482,
+      "rawTopkMean": 0.1091,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -100,20 +136,92 @@
           "score": 0.1369
         },
         {
-          "text": "Everyone from the founders to our most recent hires, work as a team to create, market, and sell a superior product that customers love to use.",
+          "text": "The Hawaiian aloha evokes a spirit of cooperation and open communications and serves as a reminder to all employees of the importance of work/life balance.",
           "heading": "Join the Revolution: Work with a Company That's Changing the World",
-          "score": 0.0912
+          "score": 0.0772
         },
         {
-          "text": "Given this exalted history, it's no surprise that working at salesforce.com means collaborating with the best of the best.",
+          "text": "They are entrepreneurial, competitive, independent, and results-oriented.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.0409
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "zscore": 0.3482,
+      "rawTopkMean": 0.1091,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": 0.1527
+        },
+        {
+          "text": "The company puts its money—and its time—where its mouth is.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": 0.1379
+        },
+        {
+          "text": "The company has received countless awards and accolades, including the number-seven spot on the Business Ethics list of most ethical companies.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.1369
+        },
+        {
+          "text": "The Hawaiian aloha evokes a spirit of cooperation and open communications and serves as a reminder to all employees of the importance of work/life balance.",
           "heading": "Join the Revolution: Work with a Company That's Changing the World",
-          "score": 0.082
+          "score": 0.0772
+        },
+        {
+          "text": "They are entrepreneurial, competitive, independent, and results-oriented.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.0409
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "zscore": 0.3482,
+      "rawTopkMean": 0.1091,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "This concept of corporate citizenship sets us apart in the type of talent we attract—people who are well-rounded, hard-working, and compassionate; who value the pledge we have made to social responsibility; and who are dedicated to making a positive difference in their communities.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": 0.1527
+        },
+        {
+          "text": "The company puts its money—and its time—where its mouth is.",
+          "heading": "What Makes Salesforce.com Different as an Employer?",
+          "score": 0.1379
+        },
+        {
+          "text": "The company has received countless awards and accolades, including the number-seven spot on the Business Ethics list of most ethical companies.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.1369
+        },
+        {
+          "text": "The Hawaiian aloha evokes a spirit of cooperation and open communications and serves as a reminder to all employees of the importance of work/life balance.",
+          "heading": "Join the Revolution: Work with a Company That's Changing the World",
+          "score": 0.0772
+        },
+        {
+          "text": "They are entrepreneurial, competitive, independent, and results-oriented.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.0409
         }
       ]
     },
     {
       "year": 2011,
-      "zscore": -1.1827,
+      "zscore": -1.4287,
       "rawTopkMean": 0.0379,
       "nChunks": 7,
       "kUsed": 5,
@@ -149,7 +257,7 @@
     },
     {
       "year": 2012,
-      "zscore": -0.3319,
+      "zscore": -0.6481,
       "rawTopkMean": 0.0692,
       "nChunks": 22,
       "kUsed": 5,
@@ -185,7 +293,7 @@
     },
     {
       "year": 2013,
-      "zscore": -1.7464,
+      "zscore": -1.9459,
       "rawTopkMean": 0.0171,
       "nChunks": 8,
       "kUsed": 5,
@@ -221,9 +329,9 @@
     },
     {
       "year": 2014,
-      "zscore": -0.3172,
+      "zscore": -0.6346,
       "rawTopkMean": 0.0697,
-      "nChunks": 28,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -257,13 +365,18 @@
     },
     {
       "year": 2015,
-      "zscore": -0.7171,
-      "rawTopkMean": 0.055,
-      "nChunks": 30,
+      "zscore": -0.4636,
+      "rawTopkMean": 0.0766,
+      "nChunks": 54,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Got a heritage or passion that you don’t see represented here?",
+          "heading": "Create Your Own ERG",
+          "score": 0.1466
+        },
         {
           "text": "Hey, we don't call it a #dreamjob for nothing.",
           "heading": "Salesforce.com is a team sport—and we play to win.",
@@ -280,26 +393,26 @@
           "score": 0.0476
         },
         {
-          "text": "Members work to create an environment where all employees feel empowered to bring their whole selves to work every day, making Salesforce a Best Place to Work for LGBT Equality .",
-          "heading": "OutForce",
-          "score": 0.0435
-        },
-        {
-          "text": "A diverse workforce gives us the unique perspectives we need to build the most innovative products and engage effectively with customers and partners.",
-          "heading": "Diversity at Salesforce",
-          "score": 0.0408
+          "text": "The Asian Pacific American community has a dedicated support system and unifying resource in PacificForce.",
+          "heading": "PacificForce",
+          "score": 0.0456
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": 0.68,
-      "rawTopkMean": 0.1064,
-      "nChunks": 44,
+      "zscore": 0.5543,
+      "rawTopkMean": 0.1174,
+      "nChunks": 65,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Got a heritage or passion that you don’t see represented here?",
+          "heading": "Create Your Own ERG",
+          "score": 0.1466
+        },
         {
           "text": "It is the deep-seated support system we nurture inside our company that extends from our employees to our customers, our partners and our communities.",
           "heading": "",
@@ -319,23 +432,28 @@
           "text": "It is the bedrock upon which our company was built and the foundation for all the success that has flowed – and will continue to flow from it.",
           "heading": "",
           "score": 0.1014
-        },
-        {
-          "text": "But just as important as WHAT our Ohana does together is HOW we work together, so we also value Trust, Transparency, Equality, Wellness and Fun.",
-          "heading": "",
-          "score": 0.0917
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.583,
-      "rawTopkMean": 0.1028,
-      "nChunks": 91,
+      "zscore": 0.5924,
+      "rawTopkMean": 0.1189,
+      "nChunks": 133,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Got a heritage or passion that you don’t see represented here?",
+          "heading": "Create Your Own ERG",
+          "score": 0.1466
+        },
+        {
+          "text": "It is the deep-seated support system we nurture inside our company that extends from our employees to our customers, our partners and our communities.",
+          "heading": "",
+          "score": 0.1277
+        },
         {
           "text": "We respect and value employees from every background, and we thrive as a result.",
           "heading": "Equality",
@@ -345,6 +463,27 @@
           "text": "These values make us uniquely Salesforce.",
           "heading": "Good People",
           "score": 0.1063
+        },
+        {
+          "text": "When our people are healthy and happy, they do their very best work.",
+          "heading": "Wellbeing",
+          "score": 0.1054
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "zscore": 0.1354,
+      "rawTopkMean": 0.1006,
+      "nChunks": 67,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We respect and value employees from every background, and we thrive as a result.",
+          "heading": "Equality",
+          "score": 0.1086
         },
         {
           "text": "When our people are healthy and happy, they do their very best work.",
@@ -360,14 +499,19 @@
           "text": "When you walk the halls of Salesforce, you instantly feel something special.",
           "heading": "Our Ohana",
           "score": 0.0957
+        },
+        {
+          "text": "When our founders started Salesforce, they were as intentional about the company culture they wanted to create as they were about the products they wanted to build and how they would go to market.",
+          "heading": "Our Ohana",
+          "score": 0.0951
         }
       ]
     },
     {
-      "year": 2018,
-      "zscore": -0.3514,
-      "rawTopkMean": 0.0685,
-      "nChunks": 15,
+      "year": 2019,
+      "zscore": -0.6167,
+      "rawTopkMean": 0.0704,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -393,48 +537,17 @@
           "score": 0.0651
         },
         {
-          "text": "This value is embodied in our Ohana Groups.",
-          "heading": "We are building a more inclusive Salesforce with our Ohana Groups and their allies.",
-          "score": 0.0465
-        }
-      ]
-    },
-    {
-      "year": 2019,
-      "zscore": -1.7218,
-      "rawTopkMean": 0.018,
-      "nChunks": 4,
-      "kUsed": 4,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
           "text": "“ Inequality, in all its forms — gender, LGBTQ, racial, disability, or otherwise — is an issue that every company must address for their own benefit and to create a better world.",
           "heading": "We are committed to Equality for all.",
           "score": 0.0564
-        },
-        {
-          "text": "“The Salesforce team has become part of the (RED) family.”",
-          "heading": "(RED)",
-          "score": 0.0384
-        },
-        {
-          "text": "We believe businesses need to focus on closing the Equality gap with the same energy put into creating new products and markets.”",
-          "heading": "We are committed to Equality for all.",
-          "score": 0.0233
-        },
-        {
-          "text": "Populations of underrepresented minorities and women have increased and outpaced the rapid growth of Salesforce of new college graduate hires in the U.S. were women or from underrepresented minorities, up 4% from last year 1 in 2 employees is in one or more Employee Resource Groups of new hires were women, up 2% from last year",
-          "heading": ">",
-          "score": -0.0459
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.3252,
+      "zscore": -0.0452,
       "rawTopkMean": 0.0933,
-      "nChunks": 30,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -467,8 +580,44 @@
       ]
     },
     {
+      "year": 2021,
+      "zscore": -1.1472,
+      "rawTopkMean": 0.0492,
+      "nChunks": 6,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We strive to create a workplace that reflects the diverse communities around us and where everyone feels seen, heard, valued, and empowered to succeed.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": 0.0752
+        },
+        {
+          "text": "Equality is a core value at Salesforce.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": 0.0734
+        },
+        {
+          "text": "We believe that businesses can be powerful platforms for social change and that it is our responsibility to further Equality for All.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": 0.0469
+        },
+        {
+          "text": "Creating a culture of Equality isn’t just the right thing to do; it’s also the smart thing.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": 0.0396
+        },
+        {
+          "text": "Clearly, there is more work to be done, but together we can build a more equal workplace and world for all.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": 0.0107
+        }
+      ]
+    },
+    {
       "year": 2022,
-      "zscore": -0.6474,
+      "zscore": -0.9376,
       "rawTopkMean": 0.0576,
       "nChunks": 8,
       "kUsed": 5,
@@ -504,9 +653,9 @@
     },
     {
       "year": 2023,
-      "zscore": 0.9672,
+      "zscore": 0.5439,
       "rawTopkMean": 0.117,
-      "nChunks": 14,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -540,9 +689,9 @@
     },
     {
       "year": 2024,
-      "zscore": 0.9339,
-      "rawTopkMean": 0.1157,
-      "nChunks": 33,
+      "zscore": 1.0186,
+      "rawTopkMean": 0.136,
+      "nChunks": 53,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -551,6 +700,11 @@
           "text": "We work to ensure our products are developed and used ethically and uphold the fundamental human rights of every individual.",
           "heading": "Lead with Ethical and Humane Use",
           "score": 0.1861
+        },
+        {
+          "text": "Our values have helped to differentiate our culture and strengthen our relationships with all stakeholders.",
+          "heading": "Our values guide every decision.",
+          "score": 0.1528
         },
         {
           "text": "We’re a company committed to doing well and doing good.",
@@ -563,22 +717,17 @@
           "score": 0.1116
         },
         {
-          "text": "Our five core values — Trust, Customer Success, Innovation, Equality, and Sustainability — guide everything we do.",
-          "heading": "Can we get a high-values five?",
-          "score": 0.0902
-        },
-        {
-          "text": "At Salesforce, our commitment to equality does not waver.",
-          "heading": "Let's build a more inclusive workplace and world.",
-          "score": 0.0682
+          "text": "We build trust with stakeholders by leading with ethics and through the integrity of our technology.",
+          "heading": "In trust we trust.",
+          "score": 0.1069
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 1.4986,
-      "rawTopkMean": 0.1365,
-      "nChunks": 166,
+      "zscore": 1.6744,
+      "rawTopkMean": 0.1623,
+      "nChunks": 217,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -589,36 +738,46 @@
           "score": 0.2286
         },
         {
+          "text": "We work to ensure our products are developed and used ethically and uphold the fundamental human rights of every individual.",
+          "heading": "Lead with Ethical and Humane Use",
+          "score": 0.1861
+        },
+        {
+          "text": "Our values have helped to differentiate our culture and strengthen our relationships with all stakeholders.",
+          "heading": "Our values guide every decision.",
+          "score": 0.1528
+        },
+        {
+          "text": "We’re a company committed to doing well and doing good.",
+          "heading": "Can we get a high-values five?",
+          "score": 0.1227
+        },
+        {
           "text": "I’m truly proud to work for such an innovative company that lives its core values in everything we do.",
           "heading": "Who are the Agentblazers?",
           "score": 0.1214
-        },
-        {
-          "text": "We are deeply committed to our values of trust, Customer Success, innovation, equality, and sustainability.",
-          "heading": "Our values drive value.",
-          "score": 0.1129
-        },
-        {
-          "text": "Our employees are at the center of everything we do.",
-          "heading": "Meet our equality groups.",
-          "score": 0.1116
-        },
-        {
-          "text": "Our values — trust, customer success, innovation, equality, and sustainability — are at the heart of everything we do.",
-          "heading": "How do your company values show up day-to-day?",
-          "score": 0.1082
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": 1.2016,
-      "rawTopkMean": 0.1256,
-      "nChunks": 56,
+      "zscore": 2.026,
+      "rawTopkMean": 0.1764,
+      "nChunks": 198,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "These values are woven into the fabric of everything we do, ensuring you can align your personal beliefs with your professional life.",
+          "heading": "Our values drive value.",
+          "score": 0.2286
+        },
+        {
+          "text": "We work to ensure our products are developed and used ethically and uphold the fundamental human rights of every individual.",
+          "heading": "Lead with Ethical and Humane Use",
+          "score": 0.1861
+        },
         {
           "text": "Our core values guide everything we do as a company and as people.",
           "heading": "Values-Driven Mentality",
@@ -630,19 +789,9 @@
           "score": 0.1544
         },
         {
-          "text": "We are committed to building equality that lasts for all of our stakeholders — our people, our customers, and communities.",
-          "heading": "We are committed.",
-          "score": 0.1203
-        },
-        {
-          "text": "We build trust into AI through governance, safeguards, and responsible, accessible product design.",
-          "heading": "Lead with Ethical and Humane Use",
-          "score": 0.104
-        },
-        {
-          "text": "At Salesforce, equality is a core and longstanding value.",
-          "heading": "Our commitment to equality.",
-          "score": 0.0892
+          "text": "Our values have helped to differentiate our culture and strengthen our relationships with all stakeholders.",
+          "heading": "Our values guide every decision.",
+          "score": 0.1528
         }
       ]
     }

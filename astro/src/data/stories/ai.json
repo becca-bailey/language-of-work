@@ -40,134 +40,134 @@
     {
       "year": 2005,
       "aiChunks": 1,
-      "totalChunks": 21,
-      "prevalence": 0.0476
+      "totalChunks": 22,
+      "prevalence": 0.0455
     },
     {
       "year": 2006,
       "aiChunks": 0,
-      "totalChunks": 39,
+      "totalChunks": 40,
       "prevalence": 0.0
     },
     {
       "year": 2007,
       "aiChunks": 0,
-      "totalChunks": 62,
+      "totalChunks": 63,
       "prevalence": 0.0
     },
     {
       "year": 2008,
       "aiChunks": 0,
-      "totalChunks": 57,
+      "totalChunks": 58,
       "prevalence": 0.0
     },
     {
       "year": 2009,
       "aiChunks": 0,
-      "totalChunks": 87,
+      "totalChunks": 89,
       "prevalence": 0.0
     },
     {
       "year": 2010,
       "aiChunks": 1,
-      "totalChunks": 159,
-      "prevalence": 0.0063
+      "totalChunks": 163,
+      "prevalence": 0.0061
     },
     {
       "year": 2011,
       "aiChunks": 0,
-      "totalChunks": 157,
+      "totalChunks": 159,
       "prevalence": 0.0
     },
     {
       "year": 2012,
       "aiChunks": 1,
-      "totalChunks": 206,
-      "prevalence": 0.0049
+      "totalChunks": 230,
+      "prevalence": 0.0043
     },
     {
       "year": 2013,
-      "aiChunks": 0,
-      "totalChunks": 241,
-      "prevalence": 0.0
+      "aiChunks": 3,
+      "totalChunks": 326,
+      "prevalence": 0.0092
     },
     {
       "year": 2014,
       "aiChunks": 1,
-      "totalChunks": 406,
-      "prevalence": 0.0025
+      "totalChunks": 425,
+      "prevalence": 0.0024
     },
     {
       "year": 2015,
       "aiChunks": 2,
-      "totalChunks": 317,
-      "prevalence": 0.0063
+      "totalChunks": 328,
+      "prevalence": 0.0061
     },
     {
       "year": 2016,
       "aiChunks": 2,
-      "totalChunks": 311,
-      "prevalence": 0.0064
+      "totalChunks": 338,
+      "prevalence": 0.0059
     },
     {
       "year": 2017,
       "aiChunks": 4,
-      "totalChunks": 374,
-      "prevalence": 0.0107
+      "totalChunks": 390,
+      "prevalence": 0.0103
     },
     {
       "year": 2018,
       "aiChunks": 5,
-      "totalChunks": 455,
-      "prevalence": 0.011
+      "totalChunks": 462,
+      "prevalence": 0.0108
     },
     {
       "year": 2019,
       "aiChunks": 9,
-      "totalChunks": 547,
-      "prevalence": 0.0165
+      "totalChunks": 568,
+      "prevalence": 0.0158
     },
     {
       "year": 2020,
-      "aiChunks": 20,
-      "totalChunks": 509,
-      "prevalence": 0.0393
+      "aiChunks": 21,
+      "totalChunks": 528,
+      "prevalence": 0.0398
     },
     {
       "year": 2021,
       "aiChunks": 17,
-      "totalChunks": 593,
-      "prevalence": 0.0287
+      "totalChunks": 628,
+      "prevalence": 0.0271
     },
     {
       "year": 2022,
-      "aiChunks": 18,
-      "totalChunks": 738,
-      "prevalence": 0.0244
+      "aiChunks": 19,
+      "totalChunks": 783,
+      "prevalence": 0.0243
     },
     {
       "year": 2023,
-      "aiChunks": 13,
-      "totalChunks": 752,
-      "prevalence": 0.0173
+      "aiChunks": 15,
+      "totalChunks": 797,
+      "prevalence": 0.0188
     },
     {
       "year": 2024,
       "aiChunks": 22,
-      "totalChunks": 589,
-      "prevalence": 0.0374
+      "totalChunks": 645,
+      "prevalence": 0.0341
     },
     {
       "year": 2025,
       "aiChunks": 97,
-      "totalChunks": 667,
-      "prevalence": 0.1454
+      "totalChunks": 687,
+      "prevalence": 0.1412
     },
     {
       "year": 2026,
       "aiChunks": 70,
-      "totalChunks": 485,
-      "prevalence": 0.1443
+      "totalChunks": 528,
+      "prevalence": 0.1326
     }
   ],
   "talkVsHire": {
@@ -178,13 +178,13 @@
     },
     "other": {
       "aiChunks": 23,
-      "totalChunks": 1401,
-      "prevalence": 0.0164
+      "totalChunks": 1481,
+      "prevalence": 0.0155
     },
     "talk": {
-      "aiChunks": 160,
-      "totalChunks": 4826,
-      "prevalence": 0.0332
+      "aiChunks": 167,
+      "totalChunks": 5231,
+      "prevalence": 0.0319
     }
   },
   "companies": [
@@ -701,13 +701,13 @@
           "year": 2015,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2016,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2017,
@@ -749,7 +749,84 @@
           "year": 2023,
           "prevalence": 0.0,
           "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2024,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2025,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2026,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        }
+      ]
+    },
+    {
+      "id": "engine",
+      "years": [
+        {
+          "year": 2013,
+          "prevalence": 0.0,
+          "aiChunks": 0,
           "thin": true
+        },
+        {
+          "year": 2014,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2016,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2017,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": true
+        },
+        {
+          "year": 2019,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2020,
+          "prevalence": 0.1111,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2021,
+          "prevalence": 0.0,
+          "aiChunks": 0,
+          "thin": false
+        },
+        {
+          "year": 2022,
+          "prevalence": 0.0294,
+          "aiChunks": 1,
+          "thin": false
+        },
+        {
+          "year": 2023,
+          "prevalence": 0.0588,
+          "aiChunks": 2,
+          "thin": false
         },
         {
           "year": 2024,
@@ -996,7 +1073,7 @@
         },
         {
           "year": 2005,
-          "prevalence": 0.0833,
+          "prevalence": 0.0769,
           "aiChunks": 1,
           "thin": false
         },
@@ -1004,7 +1081,7 @@
           "year": 2006,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2007,
@@ -1028,7 +1105,7 @@
           "year": 2010,
           "prevalence": 0.0,
           "aiChunks": 0,
-          "thin": true
+          "thin": false
         },
         {
           "year": 2011,
@@ -1038,19 +1115,19 @@
         },
         {
           "year": 2012,
-          "prevalence": 0.0208,
+          "prevalence": 0.0139,
           "aiChunks": 1,
           "thin": false
         },
         {
           "year": 2013,
-          "prevalence": 0.0,
-          "aiChunks": 0,
-          "thin": true
+          "prevalence": 0.0345,
+          "aiChunks": 3,
+          "thin": false
         },
         {
           "year": 2014,
-          "prevalence": 0.0263,
+          "prevalence": 0.0256,
           "aiChunks": 1,
           "thin": false
         },

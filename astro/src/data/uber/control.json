@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2011,
-      "zscore": 0.1919,
+      "zscore": 0.0688,
       "rawTopkMean": 0.0197,
       "nChunks": 9,
       "kUsed": 5,
@@ -40,40 +40,35 @@
       ]
     },
     {
-      "year": 2014,
-      "zscore": -1.2964,
-      "rawTopkMean": -0.0687,
-      "nChunks": 4,
-      "kUsed": 4,
+      "year": 2012,
+      "zscore": -0.2712,
+      "rawTopkMean": -0.001,
+      "nChunks": 3,
+      "kUsed": 3,
       "thin": true,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Every role matters because anything and everything our employees work on affects the daily lives of people around the world.",
-          "heading": "Global Impact",
-          "score": -0.015
+          "text": "Are you up for the challenge?",
+          "heading": "Are you Uber?",
+          "score": 0.0387
         },
         {
-          "text": "At Uber, the best idea always wins.",
-          "heading": "Bold Ideas",
-          "score": -0.0275
+          "text": "Your contributions will not just move bits, but move actual people.",
+          "heading": "Are you Uber?",
+          "score": -0.0055
         },
         {
-          "text": "We empower our teams to find creative solutions to difficult problems.",
-          "heading": "Bold Ideas",
-          "score": -0.1038
-        },
-        {
-          "text": "Our heart is in our work, and we're working tirelessly to make a difference in the way that people get from point A to point B.",
-          "heading": "Passionate People",
-          "score": -0.1284
+          "text": "We're looking for extremely talented people to help us bring the transportation industry into the 21st century.",
+          "heading": "Are you Uber?",
+          "score": -0.0364
         }
       ]
     },
     {
-      "year": 2015,
-      "zscore": -0.8984,
-      "rawTopkMean": -0.045,
+      "year": 2013,
+      "zscore": -1.0519,
+      "rawTopkMean": -0.0487,
       "nChunks": 3,
       "kUsed": 3,
       "thin": true,
@@ -90,6 +85,78 @@
           "score": -0.0653
         },
         {
+          "text": "From our founding in 2009 to our launches in over 35 cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
+          "heading": "The Company",
+          "score": -0.0887
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "zscore": -0.8722,
+      "rawTopkMean": -0.0377,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "By seamlessly connecting riders to drivers through our apps, we make cities more accessible, opening up more possibilities for riders and more business for drivers.",
+          "heading": "The Company",
+          "score": 0.0079
+        },
+        {
+          "text": "Every role matters because anything and everything our employees work on affects the daily lives of people around the world.",
+          "heading": "Global Impact",
+          "score": -0.015
+        },
+        {
+          "text": "At Uber, the best idea always wins.",
+          "heading": "Bold Ideas",
+          "score": -0.0275
+        },
+        {
+          "text": "Uber is evolving the way the world moves.",
+          "heading": "The Company",
+          "score": -0.0653
+        },
+        {
+          "text": "From our founding in 2009 to our launches in over 200 cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
+          "heading": "The Company",
+          "score": -0.0887
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "zscore": -0.8365,
+      "rawTopkMean": -0.0355,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "By seamlessly connecting riders to drivers through our apps, we make cities more accessible, opening up more possibilities for riders and more business for drivers.",
+          "heading": "The Company",
+          "score": 0.0079
+        },
+        {
+          "text": "Every role matters because anything and everything our employees work on affects the daily lives of people around the world.",
+          "heading": "Global Impact",
+          "score": -0.015
+        },
+        {
+          "text": "At Uber, the best idea always wins.",
+          "heading": "Bold Ideas",
+          "score": -0.0275
+        },
+        {
+          "text": "Uber is evolving the way the world moves.",
+          "heading": "The Company",
+          "score": -0.0653
+        },
+        {
           "text": "From our founding in 2009 to our launches in hundreds of cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
           "heading": "The Company",
           "score": -0.0778
@@ -98,9 +165,9 @@
     },
     {
       "year": 2016,
-      "zscore": -0.5721,
-      "rawTopkMean": -0.0257,
-      "nChunks": 10,
+      "zscore": -0.5636,
+      "rawTopkMean": -0.0189,
+      "nChunks": 13,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -111,32 +178,32 @@
           "score": -0.0013
         },
         {
+          "text": "Every role matters because anything and everything our employees work on affects the daily lives of people around the world.",
+          "heading": "Global Impact",
+          "score": -0.015
+        },
+        {
           "text": "We move fast to do things that have never been done.",
-          "heading": "Shape the world you want",
+          "heading": "Take bold steps",
           "score": -0.0194
+        },
+        {
+          "text": "At Uber, the best idea always wins.",
+          "heading": "Bold Ideas",
+          "score": -0.0275
         },
         {
           "text": "Because you have to take risks if you want to build the next big idea.",
           "heading": "Take bold steps",
           "score": -0.0312
-        },
-        {
-          "text": "Work alongside the best in your field—the people who make you want to be better and can also help get you there.",
-          "heading": "Shape the world you want",
-          "score": -0.0381
-        },
-        {
-          "text": "We still have a long way to go.",
-          "heading": "Building something big together",
-          "score": -0.0383
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": -0.8158,
-      "rawTopkMean": -0.0401,
-      "nChunks": 9,
+      "zscore": -0.8253,
+      "rawTopkMean": -0.0348,
+      "nChunks": 10,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -157,22 +224,22 @@
           "score": -0.0461
         },
         {
+          "text": "There’s room at Uber for every talent—and talent from everywhere.",
+          "heading": "Our teams",
+          "score": -0.0482
+        },
+        {
           "text": "Help improve local economies, make roads safer, and bring opportunities to millions of people around the world.",
           "heading": "Welcoming for everyone",
           "score": -0.0633
-        },
-        {
-          "text": "We’re building something people use everyday.",
-          "heading": "Building something big together",
-          "score": -0.0747
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": 1.4817,
-      "rawTopkMean": 0.0963,
-      "nChunks": 70,
+      "zscore": 1.5385,
+      "rawTopkMean": 0.1093,
+      "nChunks": 82,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -193,56 +260,56 @@
           "score": 0.0911
         },
         {
+          "text": "The responses were completely voluntary and anonymous.",
+          "heading": "LGBTQ+ community",
+          "score": 0.0908
+        },
+        {
           "text": "In practice, this has meant training more than 1,000 new interviewers in engineering to mitigate bias and also adding anti-bias controls across interviewers during the process—including utilizing Talent Sonar , a product of TalVista, to rework over 1,500 job descriptions, making them far more inclusive.",
           "heading": "Improved our recruiting process",
           "score": 0.0872
-        },
-        {
-          "text": "We look forward to participating again this year.",
-          "heading": "Participated in the Disability Equality Index",
-          "score": 0.0255
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 0.4726,
-      "rawTopkMean": 0.0364,
-      "nChunks": 39,
+      "zscore": 1.533,
+      "rawTopkMean": 0.109,
+      "nChunks": 80,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Our teams instituted structured interviews to ensure that candidates are asked the same questions and judged against the same competencies, and we’ll be sharing the outcomes of that work with employees to let them know what will be informing our actions.",
+          "heading": "Hired a diversity sourcing team",
+          "score": 0.1405
+        },
+        {
+          "text": "We also implemented an Interview Moderator program whereby moderators observe interviews to ensure fairness.",
+          "heading": "Hired a diversity sourcing team",
+          "score": 0.1351
+        },
+        {
+          "text": "We have completely overhauled our recruiting and hiring process.",
+          "heading": "Improved our recruiting process",
+          "score": 0.0911
+        },
         {
           "text": "The responses were completely voluntary and anonymous.",
           "heading": "LGBTQ+ community",
           "score": 0.0908
         },
         {
-          "text": "Opportunities appear, open up, become reality.",
-          "heading": "We ignite opportunity by setting the world in motion",
-          "score": 0.048
-        },
-        {
-          "text": "We look forward to participating again this year.",
-          "heading": "Participated in the Disability Equality Index",
-          "score": 0.0255
-        },
-        {
-          "text": "While we recognize that it’s perhaps too small a response rate from which to draw overarching conclusions, it’s helpful to get a baseline as we work to increase the response rate in our next report.",
-          "heading": "LGBTQ+ community",
-          "score": 0.0183
-        },
-        {
-          "text": "Whether you’re in the back seat or behind the wheel, your safety is essential.",
-          "heading": "Safe rides, safer cities",
-          "score": -0.0008
+          "text": "In practice, this has meant training more than 1,000 new interviewers in engineering to mitigate bias and also adding anti-bias controls across interviewers during the process—including using Talent Sonar , a product of TalVista, to rework over 1,500 job descriptions, making them far more inclusive.",
+          "heading": "Improved our recruiting process",
+          "score": 0.0876
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 1.4366,
+      "zscore": 1.2803,
       "rawTopkMean": 0.0936,
       "nChunks": 42,
       "kUsed": 5,

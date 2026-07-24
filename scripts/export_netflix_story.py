@@ -17,22 +17,10 @@ import pandas as pd
 from lowork.config import WEB_DATA_DIR, ROOT, company_dir, load_companies
 from lowork.io import read_json, write_json
 
-# Industry-wide concepts NOT originated by Netflix — shown but never claimed as propagation.
-GENERIC = {"raise_the_bar", "only_the_best", "judged_by_outcomes"}
-
-# Canonical Netflix 2009-deck phrasing per distinctive concept — the lineage origin quote.
-ORIGINS = {
-    "talent_density": "The Key: Increase Talent Density faster than Complexity Grows.",
-    "keeper_test": "Which of my people, if they told me they were leaving for a similar job at a peer company, would I fight hard to keep at Netflix?",
-    "team_not_family": "We're a team, not a family. We're like a pro sports team, not a kid's recreational team. Netflix leaders hire, develop and cut smartly, so we have stars in every position.",
-    "dream_team": "Our version of a great workplace is a dream team in pursuit of ambitious, common goals.",
-    "high_performer_supremacy": "In creative and inventive work, the best are 10x better than the average.",
-    "adequate_severance": "Adequate performance gets a generous severance package.",
-    "freedom_responsibility": "We seek to increase freedom and responsibility as we grow — we don't have rules.",
-    "context_not_control": "Lead with context, not control.",
-    "aligned_loosely_coupled": "Highly aligned, loosely coupled.",
-    "no_vacation_policy": "Our vacation policy is “take vacation.” We don't have rules about how many weeks.",
-}
+# Concept registry (labels, deck quotes, generic tier, objectivity rows) lives in
+# src/lowork/netflix_concepts.py — the single source of truth shared with the
+# tracker. Edit concepts THERE; this export derives everything from it.
+from lowork.netflix_concepts import CONCEPTS as CONCEPT_REGISTRY, DECK_QUOTES, GENERIC, OBJECTIVITY_MATRIX, match_key
 
 
 def tier_for(cid: str, adopters: list) -> str:
@@ -42,32 +30,7 @@ def tier_for(cid: str, adopters: list) -> str:
         return "generic"
     return "lift" if adopters else "netflix_only"
 
-DECK_QUOTES = [
-    {"label": "Talent density", "text": "The Key: Increase Talent Density faster than Complexity Grows."},
-    {"label": "Team, not a family", "text": "We're a team, not a family. We're like a pro sports team, not a kid's recreational team. Netflix leaders hire, develop and cut smartly, so we have stars in every position."},
-    {"label": "The keeper test", "text": "Which of my people, if they told me they were leaving for a similar job at a peer company, would I fight hard to keep at Netflix?"},
-    {"label": "Fire the adequate", "text": "Adequate performance gets a generous severance package."},
-    {"label": "Performance, undefined", "text": "You accomplish amazing amounts of important work… you focus on great results rather than on process."},
-]
 
-# Per-concept objectivity matrix. claims/metric are grounded (the language does/doesn't);
-# "eval" (how the cut is actually made) is curated interpretation — flagged in the story.
-OBJECTIVITY_MATRIX = [
-    {"concept": "Keeper test", "claims": True, "metric": False,
-     "eval": "Manager's gut — “would I fight to keep you?” (a power decision)"},
-    {"concept": "Adequate → severance", "claims": True, "metric": False,
-     "eval": "A subjective label: who counts as “adequate” / “unremarkable”"},
-    {"concept": "High performer ≫ average", "claims": True, "metric": False,
-     "eval": "Undefined comparison to an undefined “average”"},
-    {"concept": "Raise the bar", "claims": True, "metric": False,
-     "eval": "Hiring-manager discretion about “above the bar”"},
-    {"concept": "Judged by outcomes", "claims": True, "metric": False,
-     "eval": "Unspecified “outcomes” / “impact”"},
-    {"concept": "Talent density", "claims": True, "metric": False,
-     "eval": "Concentration of an undefined “high performer”"},
-    {"concept": "Only the best / A-players", "claims": True, "metric": False,
-     "eval": "Undefined “best” / “top talent”"},
-]
 
 # Implicit <-> explicit mapping: soft industry language does the same filtering work as
 # Netflix's blunt formulations. Interpretation, flagged in the story.
@@ -153,6 +116,14 @@ def main(companies: list[str] | None = None) -> None:
     labels = prop["concepts"]
     disp = prop["displayNames"]
 
+    # LLM judge verdicts (scripts/judge_culture_echoes.py): echoes judged
+    # "spurious" (word-overlap, not the idea) are dropped here; lifts judged
+    # below "genuine" ship with disputed:true. Unjudged matches pass through
+    # with a warning — run the judge after every tracker run.
+    jpath = ROOT / "data" / "culture_echo_judgments.json"
+    judgments = read_json(jpath) if jpath.exists() else {}
+    dropped = unjudged = 0
+
     concepts = []
     for cid, label in labels.items():
         comps = timeline.get(cid, {})
@@ -165,15 +136,27 @@ def main(companies: list[str] | None = None) -> None:
                 netflix_year = e.get("firstYearConcept") or e.get("firstYearVerbatim")
                 continue
             for ec in e.get("echoes", []):
+                j = judgments.get(match_key(cid, co, ec["year"], ec["text"]))
+                if j is None:
+                    unjudged += 1
+                elif j["verdict"] == "spurious":
+                    dropped += 1
+                    continue
                 echoes.append({"company": co, "displayName": disp[co], "year": ec["year"],
-                               "example": ec["text"], "score": ec["score"]})
+                               "example": ec["text"], "score": ec["score"],
+                               "judged": j["verdict"] if j else None})
             if yr is None:
                 continue
+            j = judgments.get(match_key(cid, co, e["firstYearConcept"], e.get("example", "")))
+            if j is None:
+                unjudged += 1
             adopters.append({
                 "company": co, "displayName": disp[co], "year": yr,
                 "verbatim": bool(e.get("firstYearVerbatim")),
                 "example": e.get("example", ""),
                 "score": e.get("exampleScore"),
+                "judged": j["verdict"] if j else None,
+                "disputed": bool(j and j["verdict"] != "genuine"),
             })
         adopters.sort(key=lambda a: a["year"])
         # Echo band: one line per company (its strongest), UNCAPPED — the count is the
@@ -188,7 +171,7 @@ def main(companies: list[str] | None = None) -> None:
             top_echoes.append(ec)
         concepts.append({
             "id": cid, "label": label, "tier": tier_for(cid, adopters),
-            "originYear": netflix_year, "originQuote": ORIGINS.get(cid),
+            "originYear": netflix_year, "originQuote": CONCEPT_REGISTRY[cid]["deck_quote"],
             "adopters": adopters, "echoes": top_echoes,
         })
     # order: lift first, then netflix_only, then generic
@@ -208,6 +191,13 @@ def main(companies: list[str] | None = None) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     write_json(out_dir / "netflix-culture.json", out)
     print(f"Wrote {out_dir / 'netflix-culture.json'}")
+    if dropped or unjudged:
+        print(f"  judge filter: {dropped} spurious echoes dropped"
+              + (f"; WARNING {unjudged} matches unjudged — run scripts/judge_culture_echoes.py" if unjudged else ""))
+    for c in concepts:
+        for a in c["adopters"]:
+            if a["disputed"]:
+                print(f"  ⚠ disputed lift: [{c['id']}] {a['company']} {a['year']} judged {a['judged']}")
     print(f"  concepts={len(concepts)} (lift={sum(c['tier']=='lift' for c in concepts)}, "
           f"netflix_only={sum(c['tier']=='netflix_only' for c in concepts)}, "
           f"generic={sum(c['tier']=='generic' for c in concepts)})")

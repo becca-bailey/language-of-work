@@ -1,0 +1,1382 @@
+{
+  "talent_density|shopify|2026|3c3b49e0b05ed1b8": {
+    "verdict": "spurious",
+    "reason": "Being 'intentional about talent' is generic HR language that any company could claim; it doesn't express the specific Netflix idea of maintaining a high concentration of star performers or keeping complexity in check through talent density.",
+    "concept": "talent_density",
+    "company": "shopify",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.529,
+    "text": "This is why we're intentional about talent."
+  },
+  "talent_density|stripe|2024|881a1d186a62721e": {
+    "verdict": "adjacent",
+    "reason": "Stripe emphasizes attracting and retaining quality talent as a competitive advantage, which gestures at talent density, but stops short of the Netflix concept's core claim about maintaining a dense concentration of high performers and managing complexity growth.",
+    "concept": "talent_density",
+    "company": "stripe",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.516,
+    "text": "The quality of the Stripes you attract and retain defines your team, so developing an unusually keen talent radar can be your biggest competitive advantage."
+  },
+  "talent_density|engine|2024|785296595ee74fc4": {
+    "verdict": "genuine",
+    "reason": "This directly states that talent density is foundational to how the company operates, matching Netflix's core claim that talent density is the key lever for managing organizational performance.",
+    "concept": "talent_density",
+    "company": "engine",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.619,
+    "text": "At Hotel Engine, Talent Density is everything."
+  },
+  "talent_density|engine|2024|2e797b139aa5f79e": {
+    "verdict": "genuine",
+    "reason": "This directly states that talent density is foundational to how the company operates, matching Netflix's core claim that talent density is the key lever for managing organizational performance.",
+    "concept": "talent_density",
+    "company": "engine",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.606,
+    "text": "At Engine, talent density is everything."
+  },
+  "team_not_family|coinbase|2024|a8122d8a428b66f5": {
+    "verdict": "adjacent",
+    "reason": "Emphasizes high performance and star performers but omits the explicit team-not-family distinction and sports analogy that define the Netflix concept.",
+    "concept": "team_not_family",
+    "company": "coinbase",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.59,
+    "text": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers."
+  },
+  "team_not_family|coinbase|2021|91182b9cd33dce7a": {
+    "verdict": "genuine",
+    "reason": "Directly states the team-not-family distinction with high performance expectations, matching Netflix's core claim about organizational structure and talent standards.",
+    "concept": "team_not_family",
+    "company": "coinbase",
+    "year": 2021,
+    "kind": "lift",
+    "score": 0.823,
+    "text": "We are a winning team, not a family, and have high expectations for performance and delivering results."
+  },
+  "team_not_family|salesforce|2025|97251105772cd24c": {
+    "verdict": "spurious",
+    "reason": "Generic statement about teamwork and individual contribution; lacks the performance-based talent philosophy and explicit rejection of family-like culture that defines the Netflix concept.",
+    "concept": "team_not_family",
+    "company": "salesforce",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.559,
+    "text": "Our teams are high-performing, but never solo."
+  },
+  "minimize_complexity|meta|2023|cd88070276a186a3": {
+    "verdict": "adjacent",
+    "reason": "Removing barriers to speed up initiatives is related but doesn't address the core Netflix idea of eliminating complexity growth itself as a cultural principle.",
+    "concept": "minimize_complexity",
+    "company": "meta",
+    "year": 2023,
+    "kind": "echo",
+    "score": 0.504,
+    "text": "We continuously work to speed up our highest priority initiatives by methodically removing barriers that get in the way."
+  },
+  "minimize_complexity|coinbase|2016|fded2c632a8ee288": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the Netflix principle: asking what can be removed and consolidated to eliminate complexity as a deliberate practice.",
+    "concept": "minimize_complexity",
+    "company": "coinbase",
+    "year": 2016,
+    "kind": "echo",
+    "score": 0.584,
+    "text": "We like to ask what can be removed, consolidated, and redone to eliminate complexity."
+  },
+  "minimize_complexity|coinbase|2016|de5c3015169e46fc": {
+    "verdict": "spurious",
+    "reason": "Merely observes that complexity is a trend; does not express the cultural commitment to minimize it.",
+    "concept": "minimize_complexity",
+    "company": "coinbase",
+    "year": 2016,
+    "kind": "echo",
+    "score": 0.576,
+    "text": "Companies and products trend toward complexity."
+  },
+  "minimize_complexity|coinbase|2014|bd9deb54c6a13961": {
+    "verdict": "spurious",
+    "reason": "Same as above—states a fact about complexity growth without committing to a cultural practice of eliminating it.",
+    "concept": "minimize_complexity",
+    "company": "coinbase",
+    "year": 2014,
+    "kind": "echo",
+    "score": 0.538,
+    "text": "Organizations, products, and software trend toward complexity."
+  },
+  "minimize_complexity|coinbase|2014|d52f826b2cb0fd24": {
+    "verdict": "genuine",
+    "reason": "Expresses ruthless elimination of complexity as a deliberate cultural practice to prevent creep, matching Netflix's core principle.",
+    "concept": "minimize_complexity",
+    "company": "coinbase",
+    "year": 2014,
+    "kind": "lift",
+    "score": 0.757,
+    "text": "We're ruthless about cutting out complexity, otherwise it can creep in and slowly take over."
+  },
+  "minimize_complexity|shopify|2026|6da58b358a51fe34": {
+    "verdict": "adjacent",
+    "reason": "Keeping product lean and simple is related but focuses on product design rather than the organizational culture of minimizing complexity growth.",
+    "concept": "minimize_complexity",
+    "company": "shopify",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.618,
+    "text": "This will allow us to keep our core product lean, approachable, and simple."
+  },
+  "minimize_complexity|shopify|2026|7e96a4dea83e3dd5": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the Netflix principle: as scale grows, choose simplicity over adding more (few big products vs. many small ones).",
+    "concept": "minimize_complexity",
+    "company": "shopify",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.56,
+    "text": "As the number and diversity of our merchants grows, our entrepreneurs have less in common, and thus our core product needs to be simpler, not bigger."
+  },
+  "minimize_complexity|shopify|2023|f23b29a1211da41e": {
+    "verdict": "spurious",
+    "reason": "Acknowledges complexity and chaos as inevitable side effects of growth; does not express a commitment to minimize it.",
+    "concept": "minimize_complexity",
+    "company": "shopify",
+    "year": 2023,
+    "kind": "echo",
+    "score": 0.54,
+    "text": "Moving at our pace brings a lot of change, complexity, and ambiguity—and a little bit of chaos."
+  },
+  "minimize_complexity|stripe|2014|9a6d6ec891ac5ea7": {
+    "verdict": "adjacent",
+    "reason": "Combining simplicity with power is a product design goal, not the organizational culture of eliminating complexity growth.",
+    "concept": "minimize_complexity",
+    "company": "stripe",
+    "year": 2014,
+    "kind": "echo",
+    "score": 0.541,
+    "text": "Our goal is to combine simplicity and power to deliver an awesome experience."
+  },
+  "minimize_complexity|stripe|2026|cf148f2c971a0984": {
+    "verdict": "spurious",
+    "reason": "About prioritizing speed and investment; does not address the principle of minimizing complexity growth.",
+    "concept": "minimize_complexity",
+    "company": "stripe",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.512,
+    "text": "We move with speed on what matters most and take the time to invest in what will make us faster tomorrow."
+  },
+  "minimize_complexity|airbnb|2015|f26a4a1d9ff009d9": {
+    "verdict": "spurious",
+    "reason": "Mastering chaos through flexibility is the opposite approach—accepting and managing complexity rather than eliminating it.",
+    "concept": "minimize_complexity",
+    "company": "airbnb",
+    "year": 2015,
+    "kind": "echo",
+    "score": 0.553,
+    "text": "We master chaos through flexibility and youthful curiosity."
+  },
+  "minimize_complexity|engine|2026|40deaad9a4d09afc": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the Netflix principle: resisting the instinct to add layers, features, and processes—eliminating complexity growth.",
+    "concept": "minimize_complexity",
+    "company": "engine",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.628,
+    "text": "We resist the instinct to add: layers, features, processes, meetings, approvals."
+  },
+  "minimize_complexity|engine|2026|f5befe9218c42e71": {
+    "verdict": "genuine",
+    "reason": "Expresses the core principle: cutting distractions and eliminating what doesn't move the mission forward—ruthless complexity elimination.",
+    "concept": "minimize_complexity",
+    "company": "engine",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.609,
+    "text": "We do this efficiently by cutting distractions, prioritising what moves the mission forward and eliminating what doesn't."
+  },
+  "minimize_complexity|engine|2025|d619f1854e892370": {
+    "verdict": "genuine",
+    "reason": "Identical to the previous Engine sentence; expresses ruthless elimination of distractions and non-essential complexity.",
+    "concept": "minimize_complexity",
+    "company": "engine",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.601,
+    "text": "We do this efficiently by cutting distractions, prioritizing what moves the mission forward and eliminating what doesn’t."
+  },
+  "minimize_complexity|basecamp|2014|de89f652281141b1": {
+    "verdict": "adjacent",
+    "reason": "Commitment to simplicity and clarity is related but frames it as a product/design bet rather than a cultural practice of eliminating complexity growth.",
+    "concept": "minimize_complexity",
+    "company": "basecamp",
+    "year": 2014,
+    "kind": "echo",
+    "score": 0.559,
+    "text": "In the decades to come, we’ll continue to make big bets on simplicity, clarity, ease-of-use, and honesty."
+  },
+  "minimize_complexity|basecamp|2014|01e4372fe040b768": {
+    "verdict": "adjacent",
+    "reason": "Generic belief in simplicity without the specific Netflix idea of ruthlessly eliminating complexity as the organization grows.",
+    "concept": "minimize_complexity",
+    "company": "basecamp",
+    "year": 2014,
+    "kind": "lift",
+    "score": 0.648,
+    "text": "We’re big believers in the power of keeping it simple."
+  },
+  "not_for_everyone|palantir|2026|a27644ec0638b686": {
+    "verdict": "spurious",
+    "reason": "Describes the type of people attracted, not that the culture is unsuitable for others or that some prefer stability over performance.",
+    "concept": "not_for_everyone",
+    "company": "palantir",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.587,
+    "text": "We attract people who are intellectually diverse and contrarian at heart."
+  },
+  "not_for_everyone|coinbase|2021|747ac84e6aa03cb6": {
+    "verdict": "adjacent",
+    "reason": "Acknowledges intensity and discomfort, gesturing at a demanding culture, but doesn't explicitly state it's not for everyone or address those who value stability.",
+    "concept": "not_for_everyone",
+    "company": "coinbase",
+    "year": 2021,
+    "kind": "echo",
+    "score": 0.511,
+    "text": "We have an intense work culture, and are regularly pushed out of our comfort zones."
+  },
+  "not_for_everyone|shopify|2018|8ab0485f4018014e": {
+    "verdict": "genuine",
+    "reason": "Directly states the workplace is not for everyone, matching the core Netflix claim that their culture is not universally suitable.",
+    "concept": "not_for_everyone",
+    "company": "shopify",
+    "year": 2018,
+    "kind": "echo",
+    "score": 0.569,
+    "text": "Our mission is to make commerce better for everyone – but we’re not the workplace for everyone."
+  },
+  "not_for_everyone|shopify|2023|d9eccec7fe0b7b66": {
+    "verdict": "adjacent",
+    "reason": "Specifies particular preferences (prescriptive structure, in-person work) that aren't right for the company, but doesn't address the performance-vs-stability trade-off central to Netflix's concept.",
+    "concept": "not_for_everyone",
+    "company": "shopify",
+    "year": 2023,
+    "kind": "echo",
+    "score": 0.566,
+    "text": "If you prefer a prescriptive corporate structure and an in-person office environment, that’s not us."
+  },
+  "not_for_everyone|shopify|2023|d50f5f5aa03878a1": {
+    "verdict": "genuine",
+    "reason": "States the environment is hard for those not a good match and acknowledges self-selection, directly paralleling Netflix's idea that the culture helps others realize it's not right for them.",
+    "concept": "not_for_everyone",
+    "company": "shopify",
+    "year": 2023,
+    "kind": "echo",
+    "score": 0.556,
+    "text": "It’s hard to work here if you’re not a great match, and we want to ensure those who consider applying can thrive in our unique environment."
+  },
+  "not_for_everyone|stripe|2014|4aa0f62294a7db87": {
+    "verdict": "spurious",
+    "reason": "Describes hiring criteria (people who are likeable), not that the culture is unsuitable for certain value systems or preferences.",
+    "concept": "not_for_everyone",
+    "company": "stripe",
+    "year": 2014,
+    "kind": "echo",
+    "score": 0.56,
+    "text": "We work hard to find people who make others want to be around them."
+  },
+  "not_for_everyone|stripe|2019|5eced2873dbe7ff8": {
+    "verdict": "spurious",
+    "reason": "States that high-conflict people don't enjoy Stripe, which is the opposite claim—it suggests Stripe is not a high-conflict environment, not that it's unsuitable for those valuing stability.",
+    "concept": "not_for_everyone",
+    "company": "stripe",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.535,
+    "text": "People who thrive in high-conflict work environments often do not enjoy the experience here."
+  },
+  "not_for_everyone|stripe|2014|1968afacfb13e16f": {
+    "verdict": "spurious",
+    "reason": "Describes a hiring success metric (people joining to work with existing talent), not that the culture is unsuitable for certain types of people.",
+    "concept": "not_for_everyone",
+    "company": "stripe",
+    "year": 2014,
+    "kind": "echo",
+    "score": 0.52,
+    "text": "We know we're doing a good job of hiring so long as we see people continuing to join simply to work with those who are already here."
+  },
+  "not_for_everyone|gitlab|2019|2bf6d0187bdcfd88": {
+    "verdict": "spurious",
+    "reason": "States remote work isn't for everyone—a policy preference, not a statement about the company's performance culture being unsuitable for those valuing stability.",
+    "concept": "not_for_everyone",
+    "company": "gitlab",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.52,
+    "text": "Despite all of its benefits for team members, our company, and the world, remote work isn't for everyone."
+  },
+  "not_for_everyone|engine|2026|51161c8e15fa6d4c": {
+    "verdict": "adjacent",
+    "reason": "Acknowledges the environment isn't for everyone, but provides no specifics about what kind of people or values make it unsuitable.",
+    "concept": "not_for_everyone",
+    "company": "engine",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.6,
+    "text": "We also recognize that this environment isn't for everyone."
+  },
+  "not_for_everyone|engine|2026|5217e33fabb6adf6": {
+    "verdict": "genuine",
+    "reason": "Explicitly states transparency about attracting those energized by the environment and being honest with those who aren't, directly matching Netflix's concept of self-selection based on cultural fit.",
+    "concept": "not_for_everyone",
+    "company": "engine",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.519,
+    "text": "We are being transparent about this because we want to attract people who are energized by this level of focus — and to be honest with those who aren't."
+  },
+  "candor_directness|meta|2023|8268abfe8dc59453": {
+    "verdict": "adjacent",
+    "reason": "Mentions directness and respect, but lacks the specific claim about saying things to people's faces or avoiding gossip.",
+    "concept": "candor_directness",
+    "company": "meta",
+    "year": 2023,
+    "kind": "echo",
+    "score": 0.575,
+    "text": "Be direct and respect your colleagues"
+  },
+  "candor_directness|meta|2023|bcf72d84b2f4dd7c": {
+    "verdict": "genuine",
+    "reason": "Directly matches the Netflix concept: straightforward communication and willingness to have hard conversations instead of comfortable silence.",
+    "concept": "candor_directness",
+    "company": "meta",
+    "year": 2023,
+    "kind": "lift",
+    "score": 0.717,
+    "text": "We create a culture where we are straightforward and willing to have hard conversations with each other."
+  },
+  "candor_directness|coinbase|2017|e88cda244d02a3c1": {
+    "verdict": "genuine",
+    "reason": "Explicitly captures the core Netflix idea: talking directly to people instead of concealing or gossiping, matching the 'say to their face' principle.",
+    "concept": "candor_directness",
+    "company": "coinbase",
+    "year": 2017,
+    "kind": "echo",
+    "score": 0.622,
+    "text": "We talk to people directly about issues, instead of concealing or choosing gossip."
+  },
+  "candor_directness|coinbase|2017|d4bcb02ec3369473": {
+    "verdict": "spurious",
+    "reason": "Generic HR language about feedback that any company could claim; lacks the specific candor/directness and hard-conversation elements.",
+    "concept": "candor_directness",
+    "company": "coinbase",
+    "year": 2017,
+    "kind": "echo",
+    "score": 0.529,
+    "text": "We value giving and receiving regular feedback."
+  },
+  "candor_directness|coinbase|2021|6f3e2f0a4ebfbfc0": {
+    "verdict": "spurious",
+    "reason": "Vague platitude about feedback with no reference to directness, candor, or the Netflix-specific idea of hard conversations.",
+    "concept": "candor_directness",
+    "company": "coinbase",
+    "year": 2021,
+    "kind": "echo",
+    "score": 0.517,
+    "text": "We value giving and receiving feedback."
+  },
+  "candor_directness|airbnb|2015|90a067301fcf0e46": {
+    "verdict": "spurious",
+    "reason": "Transparency is a different concept; this is about external company honesty, not the interpersonal candor and directness Netflix describes.",
+    "concept": "candor_directness",
+    "company": "airbnb",
+    "year": 2015,
+    "kind": "echo",
+    "score": 0.585,
+    "text": "Always be transparent in your company."
+  },
+  "candor_directness|salesforce|2017|1cc09fb38784eff1": {
+    "verdict": "adjacent",
+    "reason": "Mentions open and honest communication, but lacks the specific claim about directness, hard conversations, or the 'say to their face' principle.",
+    "concept": "candor_directness",
+    "company": "salesforce",
+    "year": 2017,
+    "kind": "echo",
+    "score": 0.585,
+    "text": "We always communicate openly and honestly."
+  },
+  "candor_directness|engine|2024|6d32c9cee475a80e": {
+    "verdict": "genuine",
+    "reason": "Captures direct communication and the intent behind candor (wanting best outcomes), matching Netflix's principle of directness and hard conversations.",
+    "concept": "candor_directness",
+    "company": "engine",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.601,
+    "text": "We communicate openly and directly, coming from a place of wanting the best outcomes."
+  },
+  "candor_directness|engine|2026|95be0d457b374023": {
+    "verdict": "genuine",
+    "reason": "Explicitly states direct communication that is 'uncomfortably so,' capturing the Netflix idea of candor over comfort and hard conversations.",
+    "concept": "candor_directness",
+    "company": "engine",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.559,
+    "text": "The communication is direct, sometimes uncomfortably so."
+  },
+  "candor_directness|engine|2026|085dcb84e968deae": {
+    "verdict": "genuine",
+    "reason": "Directly invokes the Netflix concept: 'Truth over comfort' and 'Candor is mandatory' are explicit statements of the core principle.",
+    "concept": "candor_directness",
+    "company": "engine",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.54,
+    "text": "Truth over comfort Candor is mandatory."
+  },
+  "high_performer_supremacy|coinbase|2024|0a809189e1b7f935": {
+    "verdict": "spurious",
+    "reason": "This sentence is about compensation philosophy (reward for outperformance), not about the relative productivity multiplier of high performers versus average employees.",
+    "concept": "high_performer_supremacy",
+    "company": "coinbase",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.503,
+    "text": "Outperformance is met with outsized reward."
+  },
+  "adequate_severance|coinbase|2021|d56731d2cdfeea16": {
+    "verdict": "genuine",
+    "reason": "Directly mirrors Netflix's concept: substitutes 'unremarkable' for 'adequate' but makes the identical claim that below-excellent performance results in generous severance.",
+    "concept": "adequate_severance",
+    "company": "coinbase",
+    "year": 2021,
+    "kind": "lift",
+    "score": 0.858,
+    "text": "Unremarkable performance gets a generous severance package."
+  },
+  "adequate_severance|stripe|2024|66ba72361fcead5a": {
+    "verdict": "spurious",
+    "reason": "Addresses hiring standards and performance bars, not severance or separation policy; focuses on preventing mediocre hires rather than how the company treats adequate performers.",
+    "concept": "adequate_severance",
+    "company": "stripe",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.513,
+    "text": "Push back on managers when you sense they’re making hires who are merely “fine.” Hold an equally high bar for performance!"
+  },
+  "adequate_severance|engine|2025|480f53e2b6358f7b": {
+    "verdict": "adjacent",
+    "reason": "Commits to quick action on underperformance but omits the distinctive Netflix element: the generous severance package that softens the separation.",
+    "concept": "adequate_severance",
+    "company": "engine",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.567,
+    "text": "Every seat must be earned, and underperformance is addressed quickly and respectfully."
+  },
+  "values_not_wall|stripe|2019|691237fb9f5bcb92": {
+    "verdict": "spurious",
+    "reason": "Discusses alignment between personal and organizational values, not the Netflix idea that actual values are revealed through who gets rewarded/promoted/fired.",
+    "concept": "values_not_wall",
+    "company": "stripe",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.511,
+    "text": "A great deal of your fulfillment at any company is determined by the extent to which the values of the people and the organization align with your own."
+  },
+  "values_not_wall|engine|2025|e4cc4cf3ce6bea55": {
+    "verdict": "genuine",
+    "reason": "Directly claims that real company values are shown through hiring, work practices, and rewards—the exact Netflix concept that actions reveal true values.",
+    "concept": "values_not_wall",
+    "company": "engine",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.537,
+    "text": "It’s who we hire, how we work, and what we reward."
+  },
+  "raise_the_bar|google|2021|1e9097ed9fd5d465": {
+    "verdict": "spurious",
+    "reason": "Accountability is generic HR language; it doesn't express the specific idea of raising standards or lifting team performance.",
+    "concept": "raise_the_bar",
+    "company": "google",
+    "year": 2021,
+    "kind": "echo",
+    "score": 0.583,
+    "text": "And we will continue to hold ourselves accountable."
+  },
+  "raise_the_bar|google|2018|f770bc86717697f0": {
+    "verdict": "spurious",
+    "reason": "About meeting external and internal expectations, not about raising the bar through hiring/performance culture or lifting team averages.",
+    "concept": "raise_the_bar",
+    "company": "google",
+    "year": 2018,
+    "kind": "echo",
+    "score": 0.511,
+    "text": "We are determined we will have the impact the world expects of us, and that we expect of ourselves."
+  },
+  "raise_the_bar|amazon|2019|846b2aa86aad8b8b": {
+    "verdict": "genuine",
+    "reason": "Directly states leaders continually raise the bar and drive teams to deliver high quality—the core Netflix concept applied to hiring and team performance.",
+    "concept": "raise_the_bar",
+    "company": "amazon",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.634,
+    "text": "Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes."
+  },
+  "raise_the_bar|amazon|2016|2496c17958665fc2": {
+    "verdict": "genuine",
+    "reason": "Identical to 2019 version: leaders continually raise the bar and drive teams to deliver high quality.",
+    "concept": "raise_the_bar",
+    "company": "amazon",
+    "year": 2016,
+    "kind": "echo",
+    "score": 0.628,
+    "text": "Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes."
+  },
+  "raise_the_bar|amazon|2019|434b82508e7d7e24": {
+    "verdict": "genuine",
+    "reason": "Explicitly states relentlessly high standards that others may find unreasonably high—matches Netflix's exact phrasing and concept.",
+    "concept": "raise_the_bar",
+    "company": "amazon",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.623,
+    "text": "Leaders have relentlessly high standards — many people may think these standards are unreasonably high."
+  },
+  "raise_the_bar|amazon|2016|c1b433db4a0183a0": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the core idea: raise the performance bar with every hire and promotion, matching Netflix's paraphrase anchor.",
+    "concept": "raise_the_bar",
+    "company": "amazon",
+    "year": 2016,
+    "kind": "lift",
+    "score": 0.666,
+    "text": "Leaders raise the performance bar with every hire and promotion."
+  },
+  "raise_the_bar|meta|2023|38e36ee29a45df0a": {
+    "verdict": "adjacent",
+    "reason": "About shipping excellent products, not about raising standards through hiring or lifting team performance culture.",
+    "concept": "raise_the_bar",
+    "company": "meta",
+    "year": 2023,
+    "kind": "echo",
+    "score": 0.534,
+    "text": "We push ourselves to ship things that are not just good, but also awe-inspiring."
+  },
+  "raise_the_bar|coinbase|2021|6104edd68c3e14ab": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the paraphrase anchor: every new hire must raise the average on the team.",
+    "concept": "raise_the_bar",
+    "company": "coinbase",
+    "year": 2021,
+    "kind": "echo",
+    "score": 0.63,
+    "text": "We ask whether each candidate will raise the average on the team before making an offer."
+  },
+  "raise_the_bar|coinbase|2025|e4deb9b2dfbdbb08": {
+    "verdict": "spurious",
+    "reason": "About product quality and craftsmanship, not about raising standards in hiring or team performance culture.",
+    "concept": "raise_the_bar",
+    "company": "coinbase",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.504,
+    "text": "We obsess over quality and craft in our products; getting the details right really, really, matters."
+  },
+  "raise_the_bar|coinbase|2014|e4cda325c26c7572": {
+    "verdict": "genuine",
+    "reason": "Directly states raising the bar with every hire—matches the core Netflix concept.",
+    "concept": "raise_the_bar",
+    "company": "coinbase",
+    "year": 2014,
+    "kind": "lift",
+    "score": 0.684,
+    "text": "We should be raising the bar with every hire."
+  },
+  "raise_the_bar|shopify|2026|e2927da3e9533c52": {
+    "verdict": "adjacent",
+    "reason": "Raises the floor and redefines the ceiling, which gestures at continuous improvement but doesn't commit to the specific idea of raising standards through hiring.",
+    "concept": "raise_the_bar",
+    "company": "shopify",
+    "year": 2026,
+    "kind": "lift",
+    "score": 0.642,
+    "text": "We raise the floor, while we constantly redefine the ceiling."
+  },
+  "raise_the_bar|stripe|2020|6ced105bb7a04b70": {
+    "verdict": "adjacent",
+    "reason": "Describes people with high standards who inspire others, but doesn't explicitly commit to raising the bar through hiring or team performance.",
+    "concept": "raise_the_bar",
+    "company": "stripe",
+    "year": 2020,
+    "kind": "echo",
+    "score": 0.582,
+    "text": "People with unrelentingly high standards who inspire others to do more and go further."
+  },
+  "raise_the_bar|stripe|2019|eb3c3588e9c2facc": {
+    "verdict": "adjacent",
+    "reason": "Describes a competitive culture where high bars inspire others to push higher, but frames it as inspiration rather than a hiring/performance standard.",
+    "concept": "raise_the_bar",
+    "company": "stripe",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.531,
+    "text": "However, we are a very competitive culture in the sense that, if you set a high bar, you’ll probably inspire someone working with you to try to push it higher."
+  },
+  "raise_the_bar|stripe|2020|c81404c307d6d5f4": {
+    "verdict": "spurious",
+    "reason": "About operating outside job descriptions and aiming high, not about raising standards through hiring or team performance.",
+    "concept": "raise_the_bar",
+    "company": "stripe",
+    "year": 2020,
+    "kind": "echo",
+    "score": 0.503,
+    "text": "We are still honing how we operate as a company, and we expect all Stripes to be creative, operate outside of their job descriptions, and aim for targets that might seem a little t"
+  },
+  "raise_the_bar|stripe|2019|716ab9c4317e8e88": {
+    "verdict": "adjacent",
+    "reason": "Maintains high standards for quality over quantity, but doesn't express the specific idea of raising the bar through hiring or lifting team performance.",
+    "concept": "raise_the_bar",
+    "company": "stripe",
+    "year": 2019,
+    "kind": "lift",
+    "score": 0.652,
+    "text": "But we maintain an extremely high bar for the quality of what we create and how we interact , and we aren’t prepared to sacrifice that for quantity of output."
+  },
+  "raise_the_bar|salesforce|2025|7148f158b3fe2f17": {
+    "verdict": "adjacent",
+    "reason": "Aiming higher each year is a softened version of relentlessly raising the bar, but lacks the specific commitment to hiring and team performance.",
+    "concept": "raise_the_bar",
+    "company": "salesforce",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.551,
+    "text": "Every year we share our progress, and we continue to aim higher."
+  },
+  "raise_the_bar|salesforce|2026|3ad4abd3b628a874": {
+    "verdict": "spurious",
+    "reason": "About bringing out the best in people and inspiring the industry, not about raising standards through hiring or team performance culture.",
+    "concept": "raise_the_bar",
+    "company": "salesforce",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.523,
+    "text": "We strive to bring out the best in one another, deliver success to our customers, and inspire the entire industry through our actions."
+  },
+  "raise_the_bar|engine|2025|aaf6b5361bbdb6c6": {
+    "verdict": "adjacent",
+    "reason": "Keeping the bar high is mentioned alongside bias to action, but doesn't express the specific idea of raising standards through hiring.",
+    "concept": "raise_the_bar",
+    "company": "engine",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.638,
+    "text": "We have a bias to action, make quick decisions, and keep the bar high."
+  },
+  "raise_the_bar|engine|2026|f6a240d7eb98097a": {
+    "verdict": "adjacent",
+    "reason": "High and consistently enforced standards is a partial version of the concept, but doesn't express the dynamic idea of raising the bar.",
+    "concept": "raise_the_bar",
+    "company": "engine",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.634,
+    "text": "The standards are high and consistently enforced."
+  },
+  "raise_the_bar|engine|2021|75b7b704d000db81": {
+    "verdict": "spurious",
+    "reason": "About customer experience and setting a high bar for that, not about raising standards through hiring or team performance.",
+    "concept": "raise_the_bar",
+    "company": "engine",
+    "year": 2021,
+    "kind": "echo",
+    "score": 0.633,
+    "text": "We’re obsessed with giving our customers the best experience, and we set a high bar every day to make it happen."
+  },
+  "raise_the_bar|engine|2019|3fea6668543c5a05": {
+    "verdict": "genuine",
+    "reason": "Directly states raising the bar in products, work, and customer interactions—expresses the core concept of relentlessly high standards.",
+    "concept": "raise_the_bar",
+    "company": "engine",
+    "year": 2019,
+    "kind": "lift",
+    "score": 0.776,
+    "text": "Insist on High Standards We raise the bar in everything we do: our products, our work, and our customer interactions."
+  },
+  "judged_by_outcomes|palantir|2026|78d5ce04a4fa84ae": {
+    "verdict": "adjacent",
+    "reason": "Emphasizes impact over consensus, but doesn't directly address the core Netflix idea of judging people by results rather than effort or hours.",
+    "concept": "judged_by_outcomes",
+    "company": "palantir",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.56,
+    "text": "We optimize for impact, not consensus."
+  },
+  "judged_by_outcomes|palantir|2026|d91048092dd458f5": {
+    "verdict": "genuine",
+    "reason": "Directly states people are judged by outcomes, matching Netflix's core claim about results-based evaluation.",
+    "concept": "judged_by_outcomes",
+    "company": "palantir",
+    "year": 2026,
+    "kind": "lift",
+    "score": 0.718,
+    "text": "You are not evaluated by distant executives — you are judged by outcomes."
+  },
+  "judged_by_outcomes|coinbase|2017|be24ce05a857db71": {
+    "verdict": "adjacent",
+    "reason": "Values completion over discussion, which relates to outcomes but doesn't explicitly address the effort/hours vs. results distinction.",
+    "concept": "judged_by_outcomes",
+    "company": "coinbase",
+    "year": 2017,
+    "kind": "echo",
+    "score": 0.523,
+    "text": "We value completing tasks, instead of just talking about them."
+  },
+  "judged_by_outcomes|hubspot|2024|fb9044d89d00f796": {
+    "verdict": "genuine",
+    "reason": "Explicitly states results matter more than when/where work is done, directly matching Netflix's principle of judging by outcomes not effort/hours.",
+    "concept": "judged_by_outcomes",
+    "company": "hubspot",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.538,
+    "text": "That’s why, as our Culture Code states, we’ve always believed that results matter more than when or where they’re produced."
+  },
+  "judged_by_outcomes|hubspot|2025|b898d0836bf3f7fd": {
+    "verdict": "genuine",
+    "reason": "Clearly states impact matters more than location, embodying the Netflix principle of judging by results rather than activity/presence.",
+    "concept": "judged_by_outcomes",
+    "company": "hubspot",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.532,
+    "text": "Remote-first, trust-driven, and results-oriented - impact matters more than where you sit."
+  },
+  "judged_by_outcomes|gitlab|2019|0d63016ffa06cb68": {
+    "verdict": "genuine",
+    "reason": "Explicitly contrasts results with long hours, directly expressing Netflix's core idea of judging by outcomes not effort.",
+    "concept": "judged_by_outcomes",
+    "company": "gitlab",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.589,
+    "text": "Focused on results, not on long hours, so that you can have a life and don't burn out."
+  },
+  "judged_by_outcomes|gitlab|2018|5568e2fe96604a6b": {
+    "verdict": "genuine",
+    "reason": "Directly states culture of results, not hours spent, matching Netflix's principle of judging by outcomes rather than effort.",
+    "concept": "judged_by_outcomes",
+    "company": "gitlab",
+    "year": 2018,
+    "kind": "echo",
+    "score": 0.507,
+    "text": "A culture of results, not hours spent: Flexible hours let us schedule our days so that we do our best work without missing out on life's important moments."
+  },
+  "judged_by_outcomes|engine|2024|b159b6f54e2b419a": {
+    "verdict": "genuine",
+    "reason": "Explicitly measures progress by impact not effort, directly matching Netflix's core principle of judging by results not effort.",
+    "concept": "judged_by_outcomes",
+    "company": "engine",
+    "year": 2024,
+    "kind": "lift",
+    "score": 0.786,
+    "text": "We measure progress by impact, not effort."
+  },
+  "only_the_best|google|2012|c7120af9a4278aad": {
+    "verdict": "spurious",
+    "reason": "Emphasizes diversity and creative approaches, not selectivity or hiring only the best; contradicts the concept's exclusionary premise.",
+    "concept": "only_the_best",
+    "company": "google",
+    "year": 2012,
+    "kind": "echo",
+    "score": 0.536,
+    "text": "We put great stock in our employees–energetic, passionate people from diverse backgrounds with creative approaches to work, play and life."
+  },
+  "only_the_best|google|2009|3e14cf38131a16bf": {
+    "verdict": "spurious",
+    "reason": "Explicitly states 'aggressively inclusive' hiring, which directly opposes the 'only the best' concept of selective, elite hiring.",
+    "concept": "only_the_best",
+    "company": "google",
+    "year": 2009,
+    "kind": "echo",
+    "score": 0.517,
+    "text": "We are aggressively inclusive in our hiring, and we favor ability over experience."
+  },
+  "only_the_best|amazon|2011|a494c651d1ff75c7": {
+    "verdict": "genuine",
+    "reason": "Directly claims hiring 'the world's brightest minds,' matching the concept's core claim about recruiting only elite talent.",
+    "concept": "only_the_best",
+    "company": "amazon",
+    "year": 2011,
+    "kind": "echo",
+    "score": 0.628,
+    "text": "We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience for our customers."
+  },
+  "only_the_best|amazon|2011|d555da4cd5d5fb6e": {
+    "verdict": "genuine",
+    "reason": "Directly claims hiring 'the world's brightest minds,' matching the concept's core claim about recruiting only elite talent.",
+    "concept": "only_the_best",
+    "company": "amazon",
+    "year": 2011,
+    "kind": "echo",
+    "score": 0.59,
+    "text": "We hire the world's brightest minds and offer them an environment in which they can invent and innovate to improve the experience for our customers."
+  },
+  "only_the_best|meta|2013|79a6768888abf117": {
+    "verdict": "adjacent",
+    "reason": "Describes hiring specific types (trailblazers, hackers, pioneers) but doesn't explicitly claim these are the only/best; gestures at selectivity without the full commitment.",
+    "concept": "only_the_best",
+    "company": "meta",
+    "year": 2013,
+    "kind": "echo",
+    "score": 0.596,
+    "text": "We hire trailblazers, hackers and pioneers."
+  },
+  "only_the_best|meta|2013|767090cd3c0d027f": {
+    "verdict": "spurious",
+    "reason": "Describes desired qualities (problem-solving, impact, building) but doesn't claim hiring only the best or most elite; generic competency language.",
+    "concept": "only_the_best",
+    "company": "meta",
+    "year": 2013,
+    "kind": "echo",
+    "score": 0.506,
+    "text": "We want people who can solve challenging problems, make a real impact and build something big."
+  },
+  "only_the_best|palantir|2010|850707be99dab6d0": {
+    "verdict": "genuine",
+    "reason": "Explicitly states 'only hiring the best and the brightest,' using nearly identical phrasing to Netflix's original concept.",
+    "concept": "only_the_best",
+    "company": "palantir",
+    "year": 2010,
+    "kind": "echo",
+    "score": 0.608,
+    "text": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs."
+  },
+  "only_the_best|palantir|2012|0555a937c4cda158": {
+    "verdict": "spurious",
+    "reason": "Generic description of desired employee traits (smart, driven) without claiming to hire only the best or most elite.",
+    "concept": "only_the_best",
+    "company": "palantir",
+    "year": 2012,
+    "kind": "echo",
+    "score": 0.567,
+    "text": "We're looking for smart, driven people."
+  },
+  "only_the_best|coinbase|2021|eefd9740d1b7739b": {
+    "verdict": "adjacent",
+    "reason": "Claims 'extraordinary measures' for 'exceptional people,' implying high selectivity but stopping short of the 'only the best' absolutism.",
+    "concept": "only_the_best",
+    "company": "coinbase",
+    "year": 2021,
+    "kind": "echo",
+    "score": 0.614,
+    "text": "We take extraordinary measures to have exceptional people in every seat."
+  },
+  "only_the_best|coinbase|2014|0b77e8f2f3e6818f": {
+    "verdict": "adjacent",
+    "reason": "Emphasizes hiring great people as leverage but doesn't claim to hire only the best or most elite; frames it as strategic importance rather than exclusionary principle.",
+    "concept": "only_the_best",
+    "company": "coinbase",
+    "year": 2014,
+    "kind": "echo",
+    "score": 0.561,
+    "text": "That is the only order it can happen, so hiring great people is our greatest point of leverage."
+  },
+  "only_the_best|coinbase|2014|56cb79b48fcd8c9b": {
+    "verdict": "spurious",
+    "reason": "Describes a type of person hired (builders) but doesn't claim hiring only the best or most elite; generic descriptor.",
+    "concept": "only_the_best",
+    "company": "coinbase",
+    "year": 2014,
+    "kind": "echo",
+    "score": 0.535,
+    "text": "We hire builders, and this extends all the way to the founders."
+  },
+  "only_the_best|shopify|2012|e7d766f85cd81925": {
+    "verdict": "adjacent",
+    "reason": "Implies hiring only top performers ('the very best at what you do') but frames it as individual excellence rather than company-wide selectivity principle.",
+    "concept": "only_the_best",
+    "company": "shopify",
+    "year": 2012,
+    "kind": "echo",
+    "score": 0.576,
+    "text": "You are the very best at what you do — and that’s why we want to hire you."
+  },
+  "only_the_best|shopify|2012|e9fc882c8a6cc734": {
+    "verdict": "spurious",
+    "reason": "Lists desired traits (passionate, hard-working, talented) but doesn't claim hiring only the best or most elite; generic competency language.",
+    "concept": "only_the_best",
+    "company": "shopify",
+    "year": 2012,
+    "kind": "echo",
+    "score": 0.568,
+    "text": "We want passionate, hard working, talented individuals that get things done and always push themselves to get better."
+  },
+  "only_the_best|shopify|2017|20803b3c896493e9": {
+    "verdict": "adjacent",
+    "reason": "Mentions seeking 'brightest minds' but emphasizes diversity of perspectives and backgrounds, which softens the exclusionary 'only the best' concept.",
+    "concept": "only_the_best",
+    "company": "shopify",
+    "year": 2017,
+    "kind": "echo",
+    "score": 0.538,
+    "text": "The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together and it’s why we actively seek the brightest minds in the wor"
+  },
+  "only_the_best|shopify|2025|4bbf5c402bfe2332": {
+    "verdict": "genuine",
+    "reason": "Explicitly states 'hire only the best of the best' and 'don't settle for adequate,' directly matching the concept's selectivity and exclusionary principle.",
+    "concept": "only_the_best",
+    "company": "shopify",
+    "year": 2025,
+    "kind": "lift",
+    "score": 0.764,
+    "text": "We don't settle for adequate – we deliberately seek out and hire only the best of the best."
+  },
+  "only_the_best|stripe|2019|50003bea9cb4b999": {
+    "verdict": "spurious",
+    "reason": "Sets a behavioral standard (no jerks) rather than claiming to hire only the best or most elite; about culture fit, not talent selectivity.",
+    "concept": "only_the_best",
+    "company": "stripe",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.552,
+    "text": "No matter how talented, we won’t hire jerks."
+  },
+  "only_the_best|stripe|2020|c27bf9cc92d6448b": {
+    "verdict": "adjacent",
+    "reason": "Describes desired mindset (driven, curious, ambitious) but doesn't claim hiring only the best or most elite; frames it as attitude rather than exclusionary selectivity.",
+    "concept": "only_the_best",
+    "company": "stripe",
+    "year": 2020,
+    "kind": "echo",
+    "score": 0.519,
+    "text": "To make meaningful progress, we hire people who are unapologetically driven by asking “why?,” who constantly seek better solutions, and who are unfazed by tackling things that are "
+  },
+  "only_the_best|snap|2025|c5f136adaa14d3cf": {
+    "verdict": "adjacent",
+    "reason": "Claims hiring 'most talented team members' but immediately adds 'creating an environment where everyone belongs,' which softens the exclusionary principle.",
+    "concept": "only_the_best",
+    "company": "snap",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.546,
+    "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs"
+  },
+  "only_the_best|gitlab|2018|ef760a10844e00c3": {
+    "verdict": "adjacent",
+    "reason": "States hiring 'the best talent' globally but frames it as geographic access rather than selectivity principle; softer than the concept's absolutism.",
+    "concept": "only_the_best",
+    "company": "gitlab",
+    "year": 2018,
+    "kind": "echo",
+    "score": 0.562,
+    "text": "We hire all over the world so we can work with the best talent."
+  },
+  "only_the_best|salesforce|2016|cb997402ddddbe98": {
+    "verdict": "spurious",
+    "reason": "Generic description of working with talented, passionate people; doesn't claim hiring only the best or most elite.",
+    "concept": "only_the_best",
+    "company": "salesforce",
+    "year": 2016,
+    "kind": "echo",
+    "score": 0.562,
+    "text": "We work with talented, passionate people."
+  },
+  "only_the_best|salesforce|2009|c09f26bbb0a54883": {
+    "verdict": "spurious",
+    "reason": "Describes what attracts top talent (mission, competitive atmosphere) rather than claiming to hire only the best; focuses on appeal rather than selectivity.",
+    "concept": "only_the_best",
+    "company": "salesforce",
+    "year": 2009,
+    "kind": "echo",
+    "score": 0.548,
+    "text": "What attracts top talent globally is our \"change-the-world\" mentality, coupled with the opportunity to excel in a sales-driven, competitive atmosphere surrounded by inspiring, moti"
+  },
+  "only_the_best|salesforce|2025|0f700b3aa544d592": {
+    "verdict": "adjacent",
+    "reason": "Mentions hiring 'trailblazers, innovators and creators' but doesn't claim these are the only/best; describes types rather than asserting exclusionary selectivity.",
+    "concept": "only_the_best",
+    "company": "salesforce",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.531,
+    "text": "Our teams are dedicated to hiring the trailblazers, innovators and creators of the world to accelerate our business and agent-first technology."
+  },
+  "only_the_best|engine|2021|b2c4b279a1f50887": {
+    "verdict": "genuine",
+    "reason": "Explicitly states 'finding and nurturing the best and brightest talent,' directly matching the concept's core claim about recruiting only elite talent.",
+    "concept": "only_the_best",
+    "company": "engine",
+    "year": 2021,
+    "kind": "echo",
+    "score": 0.577,
+    "text": "That starts and ends with finding and nurturing the best and brightest talent."
+  },
+  "only_the_best|engine|2024|4983b9e649ca633b": {
+    "verdict": "spurious",
+    "reason": "Frames hiring as a process of excellence and commitment but doesn't claim hiring only the best or most elite; generic HR language about talent acquisition.",
+    "concept": "only_the_best",
+    "company": "engine",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.544,
+    "text": "We shape the future of Engine one amazing hire at a time and our commitment to excellence is reflected in our approach to Talent Acquisition."
+  },
+  "only_the_best|engine|2024|0f1e8c6acc1c39cd": {
+    "verdict": "spurious",
+    "reason": "Emphasizes diverse talents and backgrounds; doesn't claim hiring only the best or most elite, and diversity emphasis contradicts the concept.",
+    "concept": "only_the_best",
+    "company": "engine",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.525,
+    "text": "We look for candidates with diverse talents and backgrounds who are energized by our culture."
+  },
+  "only_the_best|basecamp|2018|9be8779033ebdcef": {
+    "verdict": "adjacent",
+    "reason": "Implies careful, selective hiring but doesn't explicitly claim hiring only the best or most elite; suggests caution without asserting exclusionary principle.",
+    "concept": "only_the_best",
+    "company": "basecamp",
+    "year": 2018,
+    "kind": "echo",
+    "score": 0.533,
+    "text": "That’s why we’re especially careful about who we hire."
+  },
+  "freedom_responsibility|google|2014|6b3d268c86bbbb1a": {
+    "verdict": "spurious",
+    "reason": "Encourages experimentation and idea flow, but says nothing about freedom from rules, responsibility-based culture, or the Netflix model of increasing freedom as the company grows.",
+    "concept": "freedom_responsibility",
+    "company": "google",
+    "year": 2014,
+    "kind": "echo",
+    "score": 0.512,
+    "text": "Our company culture encourages experimentation and the free flow of ideas."
+  },
+  "freedom_responsibility|meta|2011|df7ab6eb76fd73e7": {
+    "verdict": "adjacent",
+    "reason": "Explicitly mentions freedom and autonomy, but frames it as something leadership emphasizes rather than a core operating model based on responsibility and trust instead of rules.",
+    "concept": "freedom_responsibility",
+    "company": "meta",
+    "year": 2011,
+    "kind": "echo",
+    "score": 0.589,
+    "text": "Hear from our leadership team about why we emphasize freedom and autonomy inside the company and how we build new technology for people."
+  },
+  "freedom_responsibility|meta|2022|620a376af3d87061": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the Netflix idea: self-starters aren't told what to do, implying freedom and responsibility-based culture rather than rules and process.",
+    "concept": "freedom_responsibility",
+    "company": "meta",
+    "year": 2022,
+    "kind": "echo",
+    "score": 0.546,
+    "text": "It's a self-starter culture, we aren't told what to do to achieve results."
+  },
+  "freedom_responsibility|meta|2023|47d12c373d1b9691": {
+    "verdict": "spurious",
+    "reason": "Generic statement that values guide work; does not address the specific Netflix concept of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "meta",
+    "year": 2023,
+    "kind": "echo",
+    "score": 0.502,
+    "text": "These six values guide how we work, each and every day."
+  },
+  "freedom_responsibility|meta|2016|a2180f3d01a2adf8": {
+    "verdict": "genuine",
+    "reason": "Directly mirrors Netflix's paraphrase anchor: 'We don't have rules; we have values that guide the way we work' — the core claim that values replace rules.",
+    "concept": "freedom_responsibility",
+    "company": "meta",
+    "year": 2016,
+    "kind": "lift",
+    "score": 0.782,
+    "text": "We don’t have rules, we have values that guide the way we work and the decisions we make."
+  },
+  "freedom_responsibility|shopify|2018|62040157d3b8726a": {
+    "verdict": "adjacent",
+    "reason": "Mentions trust and diverse perspectives, which relate to freedom and responsibility, but doesn't explicitly address the model of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "shopify",
+    "year": 2018,
+    "kind": "echo",
+    "score": 0.581,
+    "text": "We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do."
+  },
+  "freedom_responsibility|shopify|2025|c9acc0e693d4198c": {
+    "verdict": "genuine",
+    "reason": "Expresses the Netflix idea: defaulting to important work rather than prescriptive roles means freedom and responsibility, not rules and process.",
+    "concept": "freedom_responsibility",
+    "company": "shopify",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.555,
+    "text": "We default to the most important work rather than adhering to prescriptive roles – and we hire the same way."
+  },
+  "freedom_responsibility|shopify|2023|7ec10d6da3715c3c": {
+    "verdict": "genuine",
+    "reason": "Directly states 'low process and high trust,' which is the Netflix model of freedom and responsibility over rules and process.",
+    "concept": "freedom_responsibility",
+    "company": "shopify",
+    "year": 2023,
+    "kind": "echo",
+    "score": 0.55,
+    "text": "We operate on low process and high trust, and trade on impact."
+  },
+  "freedom_responsibility|stripe|2019|acc467b9f9a75014": {
+    "verdict": "spurious",
+    "reason": "About team diversity and values composition; unrelated to the Netflix concept of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "stripe",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.579,
+    "text": "We have a variegated team and our values as a company are not simply the union of our values as individuals."
+  },
+  "freedom_responsibility|stripe|2019|ef5c30725d5ad34b": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the Netflix idea: moving quickly, changing regularly, and not being prescriptive means freedom and responsibility, not rules.",
+    "concept": "freedom_responsibility",
+    "company": "stripe",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.527,
+    "text": "We’re moving quickly, changing regularly, and aren’t very prescriptive in most things."
+  },
+  "freedom_responsibility|stripe|2019|bd056e7c3a9922a4": {
+    "verdict": "adjacent",
+    "reason": "Welcomes diverse values within core principles, which relates to freedom and trust, but doesn't explicitly address the model of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "stripe",
+    "year": 2019,
+    "kind": "echo",
+    "score": 0.521,
+    "text": "Within our core principles, individuals with many different sets of values are welcomed."
+  },
+  "freedom_responsibility|snap|2022|9a92aa21b4b27cb3": {
+    "verdict": "spurious",
+    "reason": "Lists values like courage, empathy, and trust, but these are generic virtues unrelated to the specific Netflix concept of freedom over rules.",
+    "concept": "freedom_responsibility",
+    "company": "snap",
+    "year": 2022,
+    "kind": "echo",
+    "score": 0.524,
+    "text": "We operate with courage, show empathy, and instill trust through honesty and integrity."
+  },
+  "freedom_responsibility|snap|2022|4d9f650d532634ea": {
+    "verdict": "spurious",
+    "reason": "Repeats generic values (kindness, courage, empathy, trust); unrelated to the Netflix concept of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "snap",
+    "year": 2022,
+    "kind": "echo",
+    "score": 0.508,
+    "text": "We Are Kind We operate with courage, show empathy, and instill trust through honesty and integrity."
+  },
+  "freedom_responsibility|hubspot|2016|df6bfad5c3a17721": {
+    "verdict": "adjacent",
+    "reason": "Empowering employees to grow as entrepreneurs and leaders relates to freedom and responsibility, but doesn't explicitly address the model of freedom over rules.",
+    "concept": "freedom_responsibility",
+    "company": "hubspot",
+    "year": 2016,
+    "kind": "echo",
+    "score": 0.569,
+    "text": "Similarly, we believe it’s the ultimate sign of respect to empower employees to grow into entrepreneurs and leaders."
+  },
+  "freedom_responsibility|hubspot|2016|4119e0798d4204ef": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the Netflix idea: hiring remarkable people and giving them responsibility and freedom to solve problems mirrors the freedom and responsibility model.",
+    "concept": "freedom_responsibility",
+    "company": "hubspot",
+    "year": 2016,
+    "kind": "echo",
+    "score": 0.554,
+    "text": "We hire remarkable people like you and give you the responsibility and freedom you need to solve for HubSpot customers and grow within our organization."
+  },
+  "freedom_responsibility|hubspot|2024|b9d54a865a487997": {
+    "verdict": "spurious",
+    "reason": "Generic statement about culture rooted in values and mission; does not address the specific Netflix concept of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "hubspot",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.502,
+    "text": "Our culture is not tied to locations, it’s rooted in our values, our amazing people, and our mission of helping millions of organizations grow better."
+  },
+  "freedom_responsibility|gitlab|2026|151a5f0d2246b753": {
+    "verdict": "adjacent",
+    "reason": "Mentions transparency and allowing people to show up as themselves, which relates to freedom and trust, but doesn't explicitly address the model of freedom over rules.",
+    "concept": "freedom_responsibility",
+    "company": "gitlab",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.519,
+    "text": "We run our business on our own product, stay transparent in how we work, and create space for team members across the globe to show up as their full selves and do the best work of "
+  },
+  "freedom_responsibility|github|2011|22a0713b45c32355": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the Netflix idea: culture based on personal responsibility rather than management, achieved by hiring great people and treating them accordingly.",
+    "concept": "freedom_responsibility",
+    "company": "github",
+    "year": 2011,
+    "kind": "lift",
+    "score": 0.641,
+    "text": "We operate in a culture based on personal responsibility, rather than management, by hiring great people and treating them accordingly."
+  },
+  "freedom_responsibility|salesforce|2020|7ca270ad845f2507": {
+    "verdict": "spurious",
+    "reason": "Lists generic values (trust, customer success, innovation, equality); does not address the specific Netflix concept of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "salesforce",
+    "year": 2020,
+    "kind": "echo",
+    "score": 0.556,
+    "text": "Our values unite us: trust, customer success, innovation, and equality."
+  },
+  "freedom_responsibility|salesforce|2026|a1a82dc1d7111362": {
+    "verdict": "spurious",
+    "reason": "Generic statement that values guide the company; does not address the specific Netflix concept of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "salesforce",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.552,
+    "text": "Our core values guide everything we do as a company and as people."
+  },
+  "freedom_responsibility|salesforce|2025|06ffd5fc1ba82255": {
+    "verdict": "spurious",
+    "reason": "Lists specific values but does not address the Netflix concept of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "salesforce",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.551,
+    "text": "We are deeply committed to our values of trust, Customer Success, innovation, equality, and sustainability."
+  },
+  "freedom_responsibility|engine|2025|da8662af86268324": {
+    "verdict": "spurious",
+    "reason": "About customer loyalty and contracts; unrelated to the Netflix concept of freedom over rules or responsibility-based culture in employment.",
+    "concept": "freedom_responsibility",
+    "company": "engine",
+    "year": 2025,
+    "kind": "echo",
+    "score": 0.534,
+    "text": "We believe loyalty is earned, not locked in by contracts."
+  },
+  "freedom_responsibility|engine|2021|879135012c128c74": {
+    "verdict": "spurious",
+    "reason": "About creating customer value and earning trust; unrelated to the Netflix concept of freedom over rules or responsibility-based employment culture.",
+    "concept": "freedom_responsibility",
+    "company": "engine",
+    "year": 2021,
+    "kind": "echo",
+    "score": 0.505,
+    "text": "Everything that we do down to individual interactions is designed to create value for our customers and earn their trust."
+  },
+  "freedom_responsibility|basecamp|2018|fbccc90218e960bf": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the Netflix idea: employees given freedom, tools, trust, and support to do their best work mirrors the freedom and responsibility model.",
+    "concept": "freedom_responsibility",
+    "company": "basecamp",
+    "year": 2018,
+    "kind": "echo",
+    "score": 0.599,
+    "text": "We work hard to make sure every employee is given the freedom, tools, trust, and support to do the best work of their careers."
+  },
+  "freedom_responsibility|basecamp|2017|bcadb87853ba8f1b": {
+    "verdict": "spurious",
+    "reason": "About shared values and goals (fun, exceptional work, best product); does not address the specific Netflix concept of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "basecamp",
+    "year": 2017,
+    "kind": "echo",
+    "score": 0.538,
+    "text": "We run the gamut in geography, lifestyle and interest, but we’re united by a common set of values and goals: have fun, do exceptional work, build the best product in the business, "
+  },
+  "freedom_responsibility|basecamp|2017|6505c3017064b87c": {
+    "verdict": "spurious",
+    "reason": "About valuing calm and deliberate effort; unrelated to the Netflix concept of freedom over rules or responsibility-based culture.",
+    "concept": "freedom_responsibility",
+    "company": "basecamp",
+    "year": 2017,
+    "kind": "echo",
+    "score": 0.526,
+    "text": "We value a calm company and deliberate, concerted effort."
+  },
+  "context_not_control|amazon|2016|ce27c47a5075e806": {
+    "verdict": "spurious",
+    "reason": "This describes leaders setting direction and inspiring results, not providing context to enable team decision-making; it emphasizes leader-driven outcomes rather than distributed decision authority.",
+    "concept": "context_not_control",
+    "company": "amazon",
+    "year": 2016,
+    "kind": "echo",
+    "score": 0.522,
+    "text": "Leaders create and communicate a bold direction that inspires results."
+  },
+  "no_vacation_policy|coinbase|2014|d9c2c1639f3d95af": {
+    "verdict": "spurious",
+    "reason": "Mentions 'flexible vacation policy' but this is a standard HR phrase that describes a policy that exists and is tracked, not the absence of one.",
+    "concept": "no_vacation_policy",
+    "company": "coinbase",
+    "year": 2014,
+    "kind": "echo",
+    "score": 0.509,
+    "text": "Flexible hours, vacation policy, and locations You can work any hours you'd like at Coinbase."
+  },
+  "no_vacation_policy|coinbase|2024|9060e14e73ebe573": {
+    "verdict": "spurious",
+    "reason": "Describes specific allocated time off ('recharge weeks and days') — the opposite of no policy; this is a formal, tracked vacation structure.",
+    "concept": "no_vacation_policy",
+    "company": "coinbase",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.501,
+    "text": "We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually."
+  },
+  "no_vacation_policy|coinbase|2014|b458ac2d82a91f0f": {
+    "verdict": "adjacent",
+    "reason": "Acknowledges flexible vacation policy and no set office hours, gesturing at autonomy, but still describes a policy that exists rather than the absence of one.",
+    "concept": "no_vacation_policy",
+    "company": "coinbase",
+    "year": 2014,
+    "kind": "lift",
+    "score": 0.66,
+    "text": "There is no set time you need to be in the office, and the vacation policy is quite flexible."
+  },
+  "no_vacation_policy|shopify|2012|fd3e231c05cb78c4": {
+    "verdict": "adjacent",
+    "reason": "Rejects rigid 9-to-5 rules, echoing Netflix's framing, but focuses on work hours rather than vacation policy specifically; doesn't address time-off philosophy.",
+    "concept": "no_vacation_policy",
+    "company": "shopify",
+    "year": 2012,
+    "kind": "echo",
+    "score": 0.568,
+    "text": "We don’t believe in silly rules like working 9 to 5 every day."
+  },
+  "no_vacation_policy|hubspot|2020|39efb9bc34ff50e6": {
+    "verdict": "genuine",
+    "reason": "Explicitly states 'unlimited vacation' and frames it as enabling autonomy and work-life fit, matching Netflix's philosophy of no formal tracking.",
+    "concept": "no_vacation_policy",
+    "company": "hubspot",
+    "year": 2020,
+    "kind": "echo",
+    "score": 0.572,
+    "text": "We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love."
+  },
+  "no_vacation_policy|engine|2026|1b5782c057f4336e": {
+    "verdict": "genuine",
+    "reason": "Explicitly mentions 'unlimited PTO' and frames it as flexibility to handle life's needs, aligning with Netflix's no-policy approach.",
+    "concept": "no_vacation_policy",
+    "company": "engine",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.57,
+    "text": "We encourage our team to use our standard flexibility, designated volunteer hours and unlimited PTO policies to find the time and space they need to handle life’s challenges so the"
+  }
+}

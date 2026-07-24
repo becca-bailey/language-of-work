@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2011,
-      "zscore": 0.1874,
+      "zscore": 0.2595,
       "rawTopkMean": 0.0338,
       "nChunks": 9,
       "kUsed": 5,
@@ -40,12 +40,64 @@
       ]
     },
     {
-      "year": 2014,
-      "zscore": -0.4674,
-      "rawTopkMean": 0.0015,
-      "nChunks": 4,
-      "kUsed": 4,
+      "year": 2012,
+      "zscore": -0.3073,
+      "rawTopkMean": 0.0066,
+      "nChunks": 3,
+      "kUsed": 3,
       "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We're looking for extremely talented people to help us bring the transportation industry into the 21st century.",
+          "heading": "Are you Uber?",
+          "score": 0.0198
+        },
+        {
+          "text": "Your contributions will not just move bits, but move actual people.",
+          "heading": "Are you Uber?",
+          "score": 0.0081
+        },
+        {
+          "text": "Are you up for the challenge?",
+          "heading": "Are you Uber?",
+          "score": -0.0082
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "zscore": -2.268,
+      "rawTopkMean": -0.0877,
+      "nChunks": 3,
+      "kUsed": 3,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "By seamlessly connecting riders to drivers through our apps, we make cities more accessible, opening up more possibilities for riders and more business for drivers.",
+          "heading": "The Company",
+          "score": -0.0611
+        },
+        {
+          "text": "Uber is evolving the way the world moves.",
+          "heading": "The Company",
+          "score": -0.0989
+        },
+        {
+          "text": "From our founding in 2009 to our launches in over 35 cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
+          "heading": "The Company",
+          "score": -0.1029
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "zscore": -0.6731,
+      "rawTopkMean": -0.011,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
@@ -64,6 +116,11 @@
           "score": -0.0568
         },
         {
+          "text": "By seamlessly connecting riders to drivers through our apps, we make cities more accessible, opening up more possibilities for riders and more business for drivers.",
+          "heading": "The Company",
+          "score": -0.0611
+        },
+        {
           "text": "At Uber, the best idea always wins.",
           "heading": "Bold Ideas",
           "score": -0.0987
@@ -72,39 +129,54 @@
     },
     {
       "year": 2015,
-      "zscore": -2.2627,
-      "rawTopkMean": -0.087,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -0.6731,
+      "rawTopkMean": -0.011,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Every role matters because anything and everything our employees work on affects the daily lives of people around the world.",
+          "heading": "Global Impact",
+          "score": 0.1021
+        },
+        {
+          "text": "Our heart is in our work, and we're working tirelessly to make a difference in the way that people get from point A to point B.",
+          "heading": "Passionate People",
+          "score": 0.0596
+        },
+        {
+          "text": "We empower our teams to find creative solutions to difficult problems.",
+          "heading": "Bold Ideas",
+          "score": -0.0568
+        },
         {
           "text": "By seamlessly connecting riders to drivers through our apps, we make cities more accessible, opening up more possibilities for riders and more business for drivers.",
           "heading": "The Company",
           "score": -0.0611
         },
         {
-          "text": "Uber is evolving the way the world moves.",
-          "heading": "The Company",
-          "score": -0.0989
-        },
-        {
-          "text": "From our founding in 2009 to our launches in hundreds of cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
-          "heading": "The Company",
-          "score": -0.101
+          "text": "At Uber, the best idea always wins.",
+          "heading": "Bold Ideas",
+          "score": -0.0987
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": 0.221,
-      "rawTopkMean": 0.0355,
-      "nChunks": 10,
+      "zscore": 0.6577,
+      "rawTopkMean": 0.053,
+      "nChunks": 13,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Every role matters because anything and everything our employees work on affects the daily lives of people around the world.",
+          "heading": "Global Impact",
+          "score": 0.1021
+        },
         {
           "text": "Our heart is in our work, and we're committed to empowering people to get where they want to be.",
           "heading": "Passionate People",
@@ -124,19 +196,14 @@
           "text": "Help improve local economies, make roads safer, and bring opportunities to millions of women and men around the world.",
           "heading": "Shape the world you want",
           "score": 0.0164
-        },
-        {
-          "text": "Work alongside the best in your field—the people who make you want to be better and can also help get you there.",
-          "heading": "Shape the world you want",
-          "score": 0.0146
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": -0.1827,
-      "rawTopkMean": 0.0156,
-      "nChunks": 9,
+      "zscore": 0.1089,
+      "rawTopkMean": 0.0266,
+      "nChunks": 10,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -145,6 +212,11 @@
           "text": "We want to create a workplace that is inclusive and reflects the diversity of the cities we serve.",
           "heading": "Welcoming for everyone",
           "score": 0.057
+        },
+        {
+          "text": "There’s room at Uber for every talent—and talent from everywhere.",
+          "heading": "Our teams",
+          "score": 0.0468
         },
         {
           "text": "And we’re doing it at a global scale—celebrating the communities where we exist, energizing local economies and bringing opportunity to millions of people around the world.",
@@ -160,19 +232,14 @@
           "text": "Take a look at our latest diversity report.",
           "heading": "Welcoming for everyone",
           "score": -0.0063
-        },
-        {
-          "text": "We’re making cities safer, smarter, and more connected.",
-          "heading": "Building something big together",
-          "score": -0.0083
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": 1.0879,
-      "rawTopkMean": 0.0782,
-      "nChunks": 70,
+      "zscore": 1.2611,
+      "rawTopkMean": 0.082,
+      "nChunks": 82,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -181,6 +248,11 @@
           "text": "We believe in and are committed to pay equity for all employees.",
           "heading": "Where we’ve been",
           "score": 0.0937
+        },
+        {
+          "text": "In 2017, the UN Human Rights Office released standards of conduct for businesses around the world on how to treat LGBTQ+ employees, suppliers, and customers.",
+          "heading": "LGBTQ+ community",
+          "score": 0.0917
         },
         {
           "text": "Leaders have also committed to personally championing inclusive behavioral norms in everything they do.",
@@ -196,19 +268,14 @@
           "text": "It takes a lot of hard work, a lot of love, and support from colleagues all over the world.",
           "heading": "Building something big together",
           "score": 0.0737
-        },
-        {
-          "text": "We know that ambition requires unwavering intention and commitment from everyone at Uber.",
-          "heading": "Where we're going",
-          "score": 0.073
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 1.1313,
-      "rawTopkMean": 0.0804,
-      "nChunks": 39,
+      "zscore": 1.2744,
+      "rawTopkMean": 0.0826,
+      "nChunks": 80,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -229,20 +296,20 @@
           "score": 0.0773
         },
         {
-          "text": "Whether you’re in the back seat or behind the wheel, your safety is essential.",
-          "heading": "Safe rides, safer cities",
-          "score": 0.0733
+          "text": "Leaders have also committed to personally championing inclusive behavioral norms in everything they do.",
+          "heading": "Engage leadership",
+          "score": 0.0766
         },
         {
-          "text": "We’re building a culture within Uber that emphasizes doing the right thing, period, for riders, drivers, and employees.",
-          "heading": "Who's driving Uber",
-          "score": 0.0659
+          "text": "And we're exceptionally proud of their work: employees who showed significant leadership in ERGs received a special bonus in recognition of their work to further inclusion at Uber.",
+          "heading": "The people who move Uber",
+          "score": 0.0737
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 0.2851,
+      "zscore": 0.3598,
       "rawTopkMean": 0.0386,
       "nChunks": 42,
       "kUsed": 5,

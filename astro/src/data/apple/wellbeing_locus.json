@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 1999,
-      "zscore": 0.0763,
+      "zscore": -0.2617,
       "rawTopkMean": 0.0709,
       "nChunks": 19,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2004,
-      "zscore": -1.6922,
+      "zscore": -1.9316,
       "rawTopkMean": -0.0306,
       "nChunks": 9,
       "kUsed": 5,
@@ -77,7 +77,7 @@
     },
     {
       "year": 2007,
-      "zscore": -1.617,
+      "zscore": -1.8606,
       "rawTopkMean": -0.0263,
       "nChunks": 6,
       "kUsed": 5,
@@ -113,7 +113,7 @@
     },
     {
       "year": 2008,
-      "zscore": -1.8866,
+      "zscore": -2.1151,
       "rawTopkMean": -0.0418,
       "nChunks": 4,
       "kUsed": 4,
@@ -144,11 +144,11 @@
     },
     {
       "year": 2009,
-      "zscore": -0.8217,
-      "rawTopkMean": 0.0193,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -0.7383,
+      "rawTopkMean": 0.0419,
+      "nChunks": 15,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
@@ -157,15 +157,30 @@
           "score": 0.1171
         },
         {
-          "text": "With business booming at retail locations from SoHo to Tokyo, Apple is growing fast.",
-          "heading": "Apple Store",
-          "score": -0.0785
+          "text": "Leave your neckties, bring your ideas.",
+          "heading": "",
+          "score": 0.0354
+        },
+        {
+          "text": "We've got an environment where you can make things happen.",
+          "heading": "",
+          "score": 0.0305
+        },
+        {
+          "text": "There's plenty of open space—and open minds.",
+          "heading": "",
+          "score": 0.029
+        },
+        {
+          "text": "Partners provide the resources and recruitment opportunities necessary to help us find new talent and further our commitment.",
+          "heading": "Commitment to diversity",
+          "score": -0.0025
         }
       ]
     },
     {
       "year": 2010,
-      "zscore": -0.3244,
+      "zscore": -0.6401,
       "rawTopkMean": 0.0479,
       "nChunks": 15,
       "kUsed": 5,
@@ -201,7 +216,7 @@
     },
     {
       "year": 2012,
-      "zscore": 0.5875,
+      "zscore": 0.221,
       "rawTopkMean": 0.1002,
       "nChunks": 34,
       "kUsed": 5,
@@ -237,34 +252,64 @@
     },
     {
       "year": 2013,
-      "zscore": -0.8944,
-      "rawTopkMean": 0.0152,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -0.1536,
+      "rawTopkMean": 0.0774,
+      "nChunks": 21,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "If that sounds like you, then start your search right here.",
+          "heading": "",
+          "score": 0.1526
+        },
+        {
+          "text": "And you can be part of it.",
+          "heading": "",
+          "score": 0.1085
+        },
+        {
+          "text": "Every “How can I help you?” Everything.",
+          "heading": "",
+          "score": 0.0847
+        },
         {
           "text": "Which means there’s a good chance you can live and work in a city you love.",
           "heading": "400 Apple Retail Stores worldwide (and counting).",
           "score": 0.0375
         },
         {
-          "text": "We’re always adding new stores and expanding into new countries.",
-          "heading": "400 Apple Retail Stores worldwide (and counting).",
-          "score": -0.0071
+          "text": "Apple is one of the most innovative companies in the global marketplace — and one of the fastest growing.",
+          "heading": "Share your passion for Apple.",
+          "score": 0.0039
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": -0.2113,
-      "rawTopkMean": 0.0544,
-      "nChunks": 53,
+      "zscore": 0.134,
+      "rawTopkMean": 0.0949,
+      "nChunks": 72,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "If that sounds like you, then start your search right here.",
+          "heading": "",
+          "score": 0.1526
+        },
+        {
+          "text": "And you can be part of it.",
+          "heading": "",
+          "score": 0.1085
+        },
+        {
+          "text": "Every “How can I help you?” Everything.",
+          "heading": "",
+          "score": 0.0847
+        },
         {
           "text": "Bring passion and dedication to your job and there's no telling what you could accomplish.",
           "heading": "",
@@ -274,29 +319,14 @@
           "text": "So whether you're analytical or creative, tech savvy, or a people person, the Apple Store provides an ideal opportunity to challenge yourself.",
           "heading": "Find your place here.",
           "score": 0.064
-        },
-        {
-          "text": "Who we are, where we come from, and what we’ve experienced influence the way we perceive issues and solve problems.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.0595
-        },
-        {
-          "text": "Kim has a medical condition that has impaired her vision and hearing since she was a child.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.0426
-        },
-        {
-          "text": "What matters most is your ability to connect with your team, provide innovative solutions, and create an environment where all can succeed.",
-          "heading": "Opportunities",
-          "score": 0.041
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": 0.725,
+      "zscore": 0.3508,
       "rawTopkMean": 0.1081,
-      "nChunks": 151,
+      "nChunks": 181,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -330,9 +360,9 @@
     },
     {
       "year": 2016,
-      "zscore": -0.1107,
-      "rawTopkMean": 0.0601,
-      "nChunks": 7,
+      "zscore": -0.4276,
+      "rawTopkMean": 0.0608,
+      "nChunks": 11,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -358,38 +388,53 @@
           "score": 0.0414
         },
         {
-          "text": "Where do you see yourself at Apple?",
-          "heading": "Do your life’s best work here. With the whole world watching.",
-          "score": -0.008
+          "text": "But it also rewards bright, original thinking and hard work.",
+          "heading": "It’s what we do together that sets us apart.",
+          "score": -0.0047
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": -0.8676,
-      "rawTopkMean": 0.0167,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -0.1696,
+      "rawTopkMean": 0.0765,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We have opportunities that can help you take your ideas and your passion to the next level.",
+          "heading": "Get experience. And have an experience.",
+          "score": 0.153
+        },
         {
           "text": "So whether you’re analytical or creative, tech savvy or a people person, the Apple Store provides an ideal opportunity to challenge yourself.",
           "heading": "Work where extraordinary happens.",
           "score": 0.0737
         },
         {
-          "text": "Apple Store employees are unique individuals whose varied talents and experiences bring value to the way they connect people with Apple.",
-          "heading": "Work where extraordinary happens.",
-          "score": -0.0403
+          "text": "Join Apple, and help us leave the world better than we found it.",
+          "heading": "Do your life’s best work here now. With the whole world watching.",
+          "score": 0.0602
+        },
+        {
+          "text": "Develop skills and get hands-on experience working with some of the best minds in the business.",
+          "heading": "Get experience. And have an experience.",
+          "score": 0.0541
+        },
+        {
+          "text": "Apple is a place where students can thrive.",
+          "heading": "Get experience. And have an experience.",
+          "score": 0.0414
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": 0.7377,
+      "zscore": 0.3628,
       "rawTopkMean": 0.1088,
-      "nChunks": 63,
+      "nChunks": 74,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -423,9 +468,9 @@
     },
     {
       "year": 2019,
-      "zscore": 0.4165,
-      "rawTopkMean": 0.0904,
-      "nChunks": 32,
+      "zscore": 0.1258,
+      "rawTopkMean": 0.0944,
+      "nChunks": 61,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -446,22 +491,22 @@
           "score": 0.1003
         },
         {
-          "text": "We value passion, courage, and original thinking.",
-          "heading": "There’s a place here for every kind of brilliant.",
-          "score": 0.0759
+          "text": "And we’re dedicated to empowering students and educators at all levels.",
+          "heading": "A more diverse future begins with opportunities in education.",
+          "score": 0.0797
         },
         {
-          "text": "Because sharing what you love through Apple products sparks others to pursue their own passions.",
-          "heading": "Apple Retail",
-          "score": 0.0608
+          "text": "And because students at community colleges are the most diverse groups among higher education institutions, we’ve also introduced a free year-long app development curriculum for high school and community college students to help bring their ideas to life.",
+          "heading": "A more diverse future begins with opportunities in education.",
+          "score": 0.0772
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 0.4121,
-      "rawTopkMean": 0.0901,
-      "nChunks": 32,
+      "zscore": 0.4897,
+      "rawTopkMean": 0.1165,
+      "nChunks": 46,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -472,36 +517,41 @@
           "score": 0.1867
         },
         {
+          "text": "Join us and you’ll do the best work of your life — and make a difference in other people’s lives.",
+          "heading": "Do more than you ever thought possible. Have more impact than you ever imagined.",
+          "score": 0.1111
+        },
+        {
           "text": "Others figured out how people in wheelchairs can track their activity with Apple Watch to promote their fitness.",
           "heading": "Come work where sentences start with “What if…?”",
           "score": 0.102
         },
         {
+          "text": "Yes, you’ll learn from them, but they expect to learn from you, too.",
+          "heading": "Undergrads and Grad Students",
+          "score": 0.1003
+        },
+        {
           "text": "We invest in education programs so that people everywhere have the opportunity to realize their potential.",
           "heading": "Join a company with business practices as innovative as its products.",
           "score": 0.0824
-        },
-        {
-          "text": "Here, you’ll do more than join something — you’ll add something.",
-          "heading": "An open invitation to open minds.",
-          "score": 0.0673
-        },
-        {
-          "text": "Come to Apple, where thousands of individual imaginations gather together to pave the way to innovation.",
-          "heading": "An open invitation to open minds.",
-          "score": 0.0122
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 1.1555,
-      "rawTopkMean": 0.1328,
-      "nChunks": 143,
+      "zscore": 1.0085,
+      "rawTopkMean": 0.1481,
+      "nChunks": 170,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "That’s why Apple welcomes you for who you are and who you want to become.",
+          "heading": "Join a worldwide company that reflects the whole wide world.",
+          "score": 0.1867
+        },
         {
           "text": "Join our community and help define it.",
           "heading": "Life at Apple",
@@ -521,19 +571,14 @@
           "text": "Niharika engineers Fitness+ for every body.",
           "heading": "Think outside the screen.",
           "score": 0.117
-        },
-        {
-          "text": "Explore a collaborative culture of inclusion, growth, and originality, supported by resources that make a difference in your life.",
-          "heading": "Life at Apple",
-          "score": 0.1104
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 1.6103,
-      "rawTopkMean": 0.1589,
-      "nChunks": 150,
+      "zscore": 1.3416,
+      "rawTopkMean": 0.1683,
+      "nChunks": 254,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -554,22 +599,58 @@
           "score": 0.1456
         },
         {
-          "text": "There’s more to you than anyone knows.",
-          "heading": "We recognize the whole you.",
-          "score": 0.1092
+          "text": "These sessions help people get inspired, develop new skills, and start creating — for themselves or their communities.",
+          "heading": "Today at Apple is global. And local.",
+          "score": 0.1319
         },
         {
-          "text": "Whether thought-provoking or entertaining, each experience is designed to deepen connection and understanding.",
-          "heading": "Building connections and understanding within Apple.",
-          "score": 0.0927
+          "text": "Niharika engineers Fitness+ for every body.",
+          "heading": "Think outside the screen.",
+          "score": 0.117
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": 1.2171,
-      "rawTopkMean": 0.1363,
-      "nChunks": 132,
+      "zscore": 0.9767,
+      "rawTopkMean": 0.1461,
+      "nChunks": 274,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We empower students and educators to learn, create, and define their own success.",
+          "heading": "Education",
+          "score": 0.2076
+        },
+        {
+          "text": "Join our community and help define it.",
+          "heading": "Life at Apple",
+          "score": 0.1726
+        },
+        {
+          "text": "These sessions help people get inspired, develop new skills, and start creating — for themselves or their communities.",
+          "heading": "Global and local programs.",
+          "score": 0.1319
+        },
+        {
+          "text": "Explore a collaborative culture of inclusion, growth, and originality, supported by resources that make a difference in your life.",
+          "heading": "Life at Apple",
+          "score": 0.1104
+        },
+        {
+          "text": "At Apple, you can unapologetically be yourself and grow and thrive.",
+          "heading": "Life at Apple",
+          "score": 0.108
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "zscore": 0.8788,
+      "rawTopkMean": 0.1402,
+      "nChunks": 185,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -595,53 +676,17 @@
           "score": 0.108
         },
         {
-          "text": "Through the course, a group of young creatives in the LGBTQ+ community learned how to make digital avatars, AR filters, and photo portraitures.",
-          "heading": "We’re helping underrepresented communities unlock their creativity.",
-          "score": 0.0829
-        }
-      ]
-    },
-    {
-      "year": 2024,
-      "zscore": -0.3815,
-      "rawTopkMean": 0.0446,
-      "nChunks": 30,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "Explore a collaborative culture of inclusion, growth, and originality, supported by resources that make a difference in your life.",
-          "heading": "Join our community and help define it.",
-          "score": 0.1104
-        },
-        {
-          "text": "Where a healthy respect for courage and original thinking inspires you to bring your best to what we do together.",
-          "heading": "Your work is as meaningful to us as it is to you.",
-          "score": 0.0665
-        },
-        {
-          "text": "If you want to really understand how something is made, get into the details, and be super creative, then Apple is the place.",
-          "heading": "How We Work",
-          "score": 0.0203
-        },
-        {
-          "text": "We have the resources to go as far as we want with ideas.",
-          "heading": "Innovation",
-          "score": 0.0163
-        },
-        {
-          "text": "And no idea is too crazy.",
-          "heading": "Innovation",
-          "score": 0.0095
+          "text": "Learn about inclusion and diversity at Apple Privacy We design Apple products to protect your privacy and give you control over your information.",
+          "heading": "Our values are part of everything built here — including careers.",
+          "score": 0.1021
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 1.4375,
-      "rawTopkMean": 0.149,
-      "nChunks": 79,
+      "zscore": 1.3696,
+      "rawTopkMean": 0.17,
+      "nChunks": 187,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -657,6 +702,11 @@
           "score": 0.2093
         },
         {
+          "text": "Join our community and help define it.",
+          "heading": "Life at Apple",
+          "score": 0.1726
+        },
+        {
           "text": "Learn more Privacy We design every product and service to keep your data safe and secure.",
           "heading": "Our values lead the way.",
           "score": 0.1212
@@ -665,47 +715,42 @@
           "text": "It shows that it’s okay to seek help, it’s okay to talk to others about issues you may be dealing with.” Raising awareness helps start important conversations and encourages Veterans to get the help they need.",
           "heading": "We’re building connections and community for Veterans.",
           "score": 0.115
-        },
-        {
-          "text": "It shows that it’s okay to seek help, it’s okay to talk to others about issues you may be dealing with. ” Ultimately, the goal for Veterans@Apple and the Benefits and Wellness teams is to work together and ensure that Veterans feel comfortable seeking the care they need, while bringing this community even closer together.",
-          "heading": "We’re building connections and community for Veterans.",
-          "score": 0.0675
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": 0.4319,
-      "rawTopkMean": 0.0913,
-      "nChunks": 21,
+      "zscore": 1.0388,
+      "rawTopkMean": 0.1499,
+      "nChunks": 60,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Learn more Education We empower students and educators to learn, create, and define their own success.",
+          "heading": "Our values lead the way.",
+          "score": 0.2093
+        },
+        {
+          "text": "Join our community and help define it.",
+          "heading": "Life at Apple",
+          "score": 0.1726
+        },
         {
           "text": "Learn more Privacy We design every product and service to help keep your data safe and secure.",
           "heading": "Our values are part of everything built here — including careers.",
           "score": 0.1359
         },
         {
-          "text": "Learn about inclusion and diversity at Apple Privacy We design Apple products to protect your privacy and give you control over your information.",
-          "heading": "Our values are part of everything built here — including careers.",
-          "score": 0.1021
+          "text": "Learn more Privacy We design every product and service to keep your data safe and secure.",
+          "heading": "Our values lead the way.",
+          "score": 0.1212
         },
         {
-          "text": "As we celebrate how far we’ve come, we’re inspired by where we’ll go — together.",
-          "heading": "",
-          "score": 0.0838
-        },
-        {
-          "text": "Learn about Apple’s accessibility innovations Learn more about Apple’s workplace accommodations Education We empower students and educators to learn, create, and define their own success.",
-          "heading": "Our values are part of everything built here — including careers.",
-          "score": 0.0769
-        },
-        {
-          "text": "At 50 years, it’s only natural to look back.",
-          "heading": "",
-          "score": 0.0576
+          "text": "Explore a collaborative culture of inclusion, growth, and originality, supported by resources that make a difference in your life.",
+          "heading": "Life at Apple",
+          "score": 0.1104
         }
       ]
     }

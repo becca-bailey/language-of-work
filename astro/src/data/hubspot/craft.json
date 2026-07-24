@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2013,
-      "zscore": -1.8935,
+      "zscore": -2.1629,
       "rawTopkMean": -0.0492,
       "nChunks": 2,
       "kUsed": 2,
@@ -26,7 +26,7 @@
     },
     {
       "year": 2014,
-      "zscore": -1.8687,
+      "zscore": -2.1378,
       "rawTopkMean": -0.0478,
       "nChunks": 2,
       "kUsed": 2,
@@ -47,9 +47,9 @@
     },
     {
       "year": 2015,
-      "zscore": -0.2601,
+      "zscore": -0.5082,
       "rawTopkMean": 0.0377,
-      "nChunks": 8,
+      "nChunks": 9,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -83,7 +83,7 @@
     },
     {
       "year": 2016,
-      "zscore": 0.3419,
+      "zscore": 0.1017,
       "rawTopkMean": 0.0698,
       "nChunks": 35,
       "kUsed": 5,
@@ -118,8 +118,44 @@
       ]
     },
     {
+      "year": 2017,
+      "zscore": 0.1017,
+      "rawTopkMean": 0.0698,
+      "nChunks": 27,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We believe in a helpful, human, and personable approach to doing business.",
+          "heading": "What is HubSpot?",
+          "score": 0.1134
+        },
+        {
+          "text": "Similarly, we believe it’s the ultimate sign of respect to empower employees to grow into entrepreneurs and leaders.",
+          "heading": "Respect",
+          "score": 0.0688
+        },
+        {
+          "text": "You’ll play an important role in building our company, in Japan and beyond.",
+          "heading": "What makes HubSpot the right employer for you?",
+          "score": 0.0582
+        },
+        {
+          "text": "Two conference rooms at our U.S. headquarters are named for Japanese Major League Baseball stars Koji Uehara and Junichi Tazawa, who play for the hometown Boston Red Sox.",
+          "heading": "Japan and HubSpot A Lasting Bond",
+          "score": 0.0554
+        },
+        {
+          "text": "We have customers in more than 90 countries and more than 1,100 employees around the world.",
+          "heading": "What is HubSpot?",
+          "score": 0.0531
+        }
+      ]
+    },
+    {
       "year": 2018,
-      "zscore": 0.7497,
+      "zscore": 0.5148,
       "rawTopkMean": 0.0915,
       "nChunks": 43,
       "kUsed": 5,
@@ -155,9 +191,9 @@
     },
     {
       "year": 2019,
-      "zscore": 1.1514,
+      "zscore": 0.9218,
       "rawTopkMean": 0.1129,
-      "nChunks": 109,
+      "nChunks": 110,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -191,7 +227,7 @@
     },
     {
       "year": 2020,
-      "zscore": 1.0013,
+      "zscore": 0.7697,
       "rawTopkMean": 0.1049,
       "nChunks": 68,
       "kUsed": 5,
@@ -227,13 +263,18 @@
     },
     {
       "year": 2021,
-      "zscore": 0.6339,
-      "rawTopkMean": 0.0853,
-      "nChunks": 34,
+      "zscore": 0.5588,
+      "rawTopkMean": 0.0938,
+      "nChunks": 43,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "These are the beliefs we live and work by.",
+          "heading": "Our guiding principles.",
+          "score": 0.1036
+        },
         {
           "text": "We’re building a company future generations can be proud of.",
           "heading": "You are welcome.",
@@ -253,59 +294,131 @@
           "text": "And our community of Black employees does just that.",
           "heading": "BLACKHub",
           "score": 0.0735
-        },
-        {
-          "text": "A company where everyone is welcome.",
-          "heading": "You are welcome.",
-          "score": 0.0613
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": -0.1246,
-      "rawTopkMean": 0.045,
-      "nChunks": 9,
+      "zscore": 0.8295,
+      "rawTopkMean": 0.108,
+      "nChunks": 41,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Employees are whole people, with families, hobbies, and lives outside of work.",
+          "heading": "Employees are treated like people, not line items.",
+          "score": 0.1339
+        },
+        {
+          "text": "What Does It Mean to Be a \"Good\" Engineer?",
+          "heading": "Learn with us.",
+          "score": 0.1131
+        },
         {
           "text": "That's how we'll build a company future generations will be proud of.",
           "heading": "What is HubSpot?",
           "score": 0.1059
         },
         {
+          "text": "These are the beliefs we live and work by.",
+          "heading": "Our guiding principles.",
+          "score": 0.1036
+        },
+        {
           "text": "Come join us and help us build a global company where we're all proud to belong.",
           "heading": "All Open Positions",
           "score": 0.0834
-        },
-        {
-          "text": "However you identify or whatever your path here, please apply if you see a position that makes your heart skip a beat.",
-          "heading": "All Open Positions",
-          "score": 0.0566
-        },
-        {
-          "text": "Employees can choose to work from one of our global offices below, fully remotely, or a mix of the two.",
-          "heading": "Where we work.",
-          "score": 0.004
-        },
-        {
-          "text": "It's our mission to not just help them grow, but to help them grow better .",
-          "heading": "What is HubSpot?",
-          "score": -0.0252
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": -0.4569,
-      "rawTopkMean": 0.0273,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": 0.5538,
+      "rawTopkMean": 0.0935,
+      "nChunks": 35,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "What Does It Mean to Be a \"Good\" Engineer?",
+          "heading": "Learn with us.",
+          "score": 0.1131
+        },
+        {
+          "text": "That's how we'll build a company future generations will be proud of.",
+          "heading": "What is HubSpot?",
+          "score": 0.1059
+        },
+        {
+          "text": "These are the beliefs we live and work by.",
+          "heading": "Our guiding principles.",
+          "score": 0.1036
+        },
+        {
+          "text": "We work hard to build a diverse and inclusive environment where you feel you belong.",
+          "heading": "Diverse perspectives are celebrated.",
+          "score": 0.0789
+        },
+        {
+          "text": "We are committed to providing reasonable accommodations throughout the application and interview process.",
+          "heading": "Diverse perspectives are celebrated.",
+          "score": 0.066
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "zscore": 0.9365,
+      "rawTopkMean": 0.1136,
+      "nChunks": 69,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Employees are whole people, with families, hobbies, and lives outside of work.",
+          "heading": "Employees are treated like people, not line items.",
+          "score": 0.1339
+        },
+        {
+          "text": "What Does It Mean to Be a \"Good\" Engineer?",
+          "heading": "Learn with us.",
+          "score": 0.1131
+        },
+        {
+          "text": "It’s the right thing to do for our employees and candidates, and for growing a company we’re proud of long-term.",
+          "heading": "The Future of Work at HubSpot: How We're Building a Hybrid Company",
+          "score": 0.1115
+        },
+        {
+          "text": "That's how we'll build a company future generations will be proud of.",
+          "heading": "What is HubSpot?",
+          "score": 0.1059
+        },
+        {
+          "text": "These are the beliefs we live and work by.",
+          "heading": "Our guiding principles.",
+          "score": 0.1036
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "zscore": 0.2433,
+      "rawTopkMean": 0.0772,
+      "nChunks": 24,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Employees are whole people, with families, hobbies, and lives outside of work.",
+          "heading": "Employees are treated like people, not line items.",
+          "score": 0.1339
+        },
         {
           "text": "We work hard to build a diverse and inclusive environment where you feel you belong.",
           "heading": "Diverse perspectives are celebrated.",
@@ -317,66 +430,35 @@
           "score": 0.066
         },
         {
-          "text": "We believe different perspectives make HubSpot a better company.",
-          "heading": "Diverse perspectives are celebrated.",
-          "score": -0.0631
+          "text": "We trust amazing people to do amazing things.",
+          "heading": "Everyone's empowered to work autonomously.",
+          "score": 0.0606
+        },
+        {
+          "text": "We're building a culture at HubSpot where amazing people (like you) can do their best work.",
+          "heading": "Let's grow together.",
+          "score": 0.0466
         }
       ]
     },
     {
-      "year": 2024,
-      "zscore": 0.1668,
-      "rawTopkMean": 0.0605,
-      "nChunks": 36,
+      "year": 2026,
+      "zscore": -0.7226,
+      "rawTopkMean": 0.0265,
+      "nChunks": 8,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "It’s the right thing to do for our employees and candidates, and for growing a company we’re proud of long-term.",
-          "heading": "The Future of Work at HubSpot: How We're Building a Hybrid Company",
-          "score": 0.1115
+          "text": "From sabbaticals to a regional week of rest, well-being is built in.",
+          "heading": "A company that cares.",
+          "score": 0.1202
         },
-        {
-          "text": "That’s why, as our Culture Code states, we’ve always believed that results matter more than when or where they’re produced.",
-          "heading": "The Future of Work at HubSpot: How We're Building a Hybrid Company",
-          "score": 0.0627
-        },
-        {
-          "text": "Some of us do our best work in an office, and some of us work best from a home office.",
-          "heading": "The Future of Work at HubSpot: How We're Building a Hybrid Company",
-          "score": 0.0547
-        },
-        {
-          "text": "At HubSpot, we’re committed to building a culture where people can do their best work.",
-          "heading": "The Future of Work at HubSpot: How We're Building a Hybrid Company",
-          "score": 0.0488
-        },
-        {
-          "text": "Our culture is not tied to locations, it’s rooted in our values, our amazing people, and our mission of helping millions of organizations grow better.",
-          "heading": "The Future of Work at HubSpot: How We're Building a Hybrid Company",
-          "score": 0.0245
-        }
-      ]
-    },
-    {
-      "year": 2025,
-      "zscore": -0.7301,
-      "rawTopkMean": 0.0127,
-      "nChunks": 10,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
         {
           "text": "Join a team where you’ll be challenged, supported and inspired—every day.",
           "heading": "Make your move.",
           "score": 0.0345
-        },
-        {
-          "text": "We’ll keep you informed at every step, from process to pay.",
-          "heading": "Clarity, always.",
-          "score": 0.0245
         },
         {
           "text": "That mission fuels everything we do — and it can fuel your career, too.",
@@ -389,25 +471,9 @@
           "score": -0.0059
         },
         {
-          "text": "We believe transparency builds trust and better conversations.",
-          "heading": "Clarity, always.",
-          "score": -0.0068
-        }
-      ]
-    },
-    {
-      "year": 2026,
-      "zscore": 1.2887,
-      "rawTopkMean": 0.1202,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "From sabbaticals to a regional week of rest, well-being is built in.",
-          "heading": "A company that cares.",
-          "score": 0.1202
+          "text": "Tackle challenges, deepen your craft, and explore new directions.",
+          "heading": "Growth without limits.",
+          "score": -0.0338
         }
       ]
     }

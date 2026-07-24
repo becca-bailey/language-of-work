@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2006,
-      "zscore": 0.5249,
+      "zscore": 0.5034,
       "rawTopkMean": 0.0697,
       "nChunks": 13,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2007,
-      "zscore": 0.3959,
+      "zscore": 0.3608,
       "rawTopkMean": 0.0617,
       "nChunks": 14,
       "kUsed": 5,
@@ -77,9 +77,45 @@
     },
     {
       "year": 2008,
-      "zscore": 0.7808,
+      "zscore": 0.7864,
       "rawTopkMean": 0.0856,
-      "nChunks": 15,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "If you wish to submit your resume, please submit online through this website or send us a hard copy via regular mail.",
+          "heading": "",
+          "score": 0.1355
+        },
+        {
+          "text": "HOW TO SUBMIT YOUR RESUME: Apply online Email us at hr@nvidia.com Create an account (if you don't see an opening that interests you now) Note to Applicants: Due to poor image quality, NVIDIA no longer accepts faxed resumes.",
+          "heading": "",
+          "score": 0.0939
+        },
+        {
+          "text": "NVIDIA conducts background checks as a condition of employment.",
+          "heading": "",
+          "score": 0.0927
+        },
+        {
+          "text": "Agency resumes are not accepted and will be considered unsolicited resumes that are not subject to placement fees.",
+          "heading": "",
+          "score": 0.0759
+        },
+        {
+          "text": "We invite you to explore the opportunities available at NVIDIA - just click on the link to see what your future may hold.",
+          "heading": "",
+          "score": 0.0297
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "zscore": 0.7864,
+      "rawTopkMean": 0.0856,
+      "nChunks": 13,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -113,7 +149,7 @@
     },
     {
       "year": 2010,
-      "zscore": 0.7808,
+      "zscore": 0.7864,
       "rawTopkMean": 0.0856,
       "nChunks": 13,
       "kUsed": 5,
@@ -149,7 +185,7 @@
     },
     {
       "year": 2011,
-      "zscore": 0.7808,
+      "zscore": 0.7864,
       "rawTopkMean": 0.0856,
       "nChunks": 12,
       "kUsed": 5,
@@ -185,7 +221,7 @@
     },
     {
       "year": 2012,
-      "zscore": 0.7808,
+      "zscore": 0.7864,
       "rawTopkMean": 0.0856,
       "nChunks": 13,
       "kUsed": 5,
@@ -220,8 +256,44 @@
       ]
     },
     {
+      "year": 2013,
+      "zscore": 0.7864,
+      "rawTopkMean": 0.0856,
+      "nChunks": 17,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "If you wish to submit your resume, please submit online through this website or send us a hard copy via regular mail.",
+          "heading": "",
+          "score": 0.1355
+        },
+        {
+          "text": "HOW TO SUBMIT YOUR RESUME: Apply online Email us at hr@nvidia.com Create an account (if you don't see an opening that interests you now) Note to Applicants: Due to poor image quality, NVIDIA no longer accepts faxed resumes.",
+          "heading": "",
+          "score": 0.0939
+        },
+        {
+          "text": "NVIDIA conducts background checks as a condition of employment.",
+          "heading": "",
+          "score": 0.0927
+        },
+        {
+          "text": "Agency resumes are not accepted and will be considered unsolicited resumes that are not subject to placement fees.",
+          "heading": "",
+          "score": 0.0759
+        },
+        {
+          "text": "We invite you to explore the opportunities available at NVIDIA - just click on the link to see what your future may hold.",
+          "heading": "",
+          "score": 0.0297
+        }
+      ]
+    },
+    {
       "year": 2014,
-      "zscore": 0.7808,
+      "zscore": 0.7864,
       "rawTopkMean": 0.0856,
       "nChunks": 14,
       "kUsed": 5,
@@ -256,8 +328,24 @@
       ]
     },
     {
+      "year": 2015,
+      "zscore": -1.315,
+      "rawTopkMean": -0.0323,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Each employee can make a difference – help us invent the future.",
+          "heading": "Careers",
+          "score": -0.0323
+        }
+      ]
+    },
+    {
       "year": 2020,
-      "zscore": -0.8823,
+      "zscore": -1.0524,
       "rawTopkMean": -0.0176,
       "nChunks": 47,
       "kUsed": 5,
@@ -293,7 +381,7 @@
     },
     {
       "year": 2024,
-      "zscore": -1.4839,
+      "zscore": -1.7175,
       "rawTopkMean": -0.0549,
       "nChunks": 19,
       "kUsed": 5,
@@ -329,9 +417,9 @@
     },
     {
       "year": 2025,
-      "zscore": -0.3587,
+      "zscore": -0.4735,
       "rawTopkMean": 0.0149,
-      "nChunks": 34,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -365,27 +453,37 @@
     },
     {
       "year": 2026,
-      "zscore": -2.1,
-      "rawTopkMean": -0.0931,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -1.8103,
+      "rawTopkMean": -0.0601,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "You’ll solve some of the world’s hardest problems and discover never-before-seen ways to improve the quality of life for people everywhere.",
+          "heading": "Follow Your Passion. Lead a Movement.",
+          "score": -0.0096
+        },
+        {
+          "text": "And a growing list of new opportunities every single day.",
+          "heading": "Follow Your Passion. Lead a Movement.",
+          "score": -0.0307
+        },
         {
           "text": "The project is the boss—even for our CEO.",
           "heading": "Explore Life at NVIDIA",
           "score": -0.0545
         },
         {
+          "text": "Watch this video for a glimpse at why NVIDIA is like no place you've ever worked.",
+          "heading": "Follow Your Passion. Lead a Movement.",
+          "score": -0.0964
+        },
+        {
           "text": "We thrive on seamless collaboration and shared success while embracing inclusivity and individuality.",
           "heading": "Explore Life at NVIDIA",
           "score": -0.1093
-        },
-        {
-          "text": "We’re an eclectic, passionate group of professionals dedicated to solving some of the world’s biggest challenges.",
-          "heading": "Explore Life at NVIDIA",
-          "score": -0.1155
         }
       ]
     }

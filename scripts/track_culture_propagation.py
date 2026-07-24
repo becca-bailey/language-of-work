@@ -35,112 +35,17 @@ COMPANIES = load_companies()
 if "netflix" in COMPANIES:  # ensure the origin sorts first
     COMPANIES = ["netflix"] + [c for c in COMPANIES if c != "netflix"]
 
+# The deck's publication year. Adopter sentences from before it are excluded
+# from the lineage data — they can't be descent, only convergence.
+ORIGIN_YEAR = 2009
+
 
 def _display(company: str) -> str:
     return CompanyProfile.load(company).display_name
 
-CONCEPTS: dict[str, dict] = {
-    "talent_density": {
-        "label": "Talent density",
-        # Seed with Netflix's own canonical deck phrasing so the origin matches by
-        # construction; paraphrases fill in the semantic neighborhood. (Anchoring only
-        # on paraphrases left Netflix's own "Increase Talent Density" lines below 0.62.)
-        "anchors": [
-            "The Key: Increase Talent Density faster than Complexity Grows.",
-            "Increase talent density — attract and concentrate high-value people.",
-            "Our edge is talent density — a high concentration of star performers.",
-            "We deliberately keep a dense team of only the highest performers.",
-        ],
-    },
-    "keeper_test": {
-        "label": "Keeper test",
-        "anchors": [
-            "If this person told us they were leaving for a similar job, would we fight to keep them?",
-            "We apply the keeper test: managers keep only the people they would fight to retain.",
-        ],
-    },
-    "team_not_family": {
-        "label": "Team, not a family",
-        "anchors": [
-            "We are a high-performance team, not a family.",
-            "We are like a professional sports team, not a recreational team.",
-        ],
-    },
-    "dream_team": {
-        "label": "Dream team / stunning colleagues",
-        "anchors": [
-            "We build a dream team of exceptional, stunning colleagues.",
-            "Your reward is working alongside stunningly talented teammates.",
-        ],
-    },
-    "high_performer_supremacy": {
-        "label": "High performer ≫ average",
-        # Seed with Netflix's own phrasing (deck + current culture page); paraphrases
-        # alone left even Netflix's canonical line at 0.600, below 0.62.
-        "anchors": [
-            "In creative and inventive work, the best are 10x better than the average.",
-            "A high performer in any role is many times more effective than the average employee.",
-            "A star performer is many times more valuable than an average employee.",
-        ],
-    },
-    "adequate_severance": {
-        "label": "Adequate → severance",
-        "anchors": [
-            "Merely adequate performance earns a generous severance package.",
-            "If your work is only solid, we part ways with a generous severance.",
-        ],
-    },
-    "raise_the_bar": {
-        "label": "Raise the bar",
-        "anchors": [
-            "We hold relentlessly high standards and keep raising the bar.",
-            "Every new hire must raise the average and lift the whole team's bar.",
-        ],
-    },
-    "judged_by_outcomes": {
-        "label": "Judged by outcomes/results",
-        "anchors": [
-            "You are judged by your results and outcomes, not your effort or hours.",
-            "We measure people by impact and results, not activity.",
-        ],
-    },
-    "only_the_best": {
-        "label": "Only the best / A-players",
-        "anchors": [
-            "We hire only the best and the brightest — A-players, top talent.",
-            "We recruit only elite, top-tier people and accept nothing less.",
-        ],
-    },
-    "freedom_responsibility": {
-        "label": "Freedom & responsibility / no rules",
-        "anchors": [
-            "We don't have rules; we rely on people's good judgment.",
-            "We run on freedom and responsibility, not rules and process.",
-            "We have values, not rules — we trust people to act in the company's interest.",
-        ],
-    },
-    "context_not_control": {
-        "label": "Context, not control",
-        "anchors": [
-            "Leaders lead with context, not control.",
-            "Managers set context and let teams make the decisions rather than controlling them.",
-        ],
-    },
-    "aligned_loosely_coupled": {
-        "label": "Highly aligned, loosely coupled",
-        "anchors": [
-            "We stay highly aligned and loosely coupled.",
-            "Teams are loosely coupled but highly aligned on strategy and goals.",
-        ],
-    },
-    "no_vacation_policy": {
-        "label": "No vacation policy / unlimited time off",
-        "anchors": [
-            "We have no vacation policy; take time off as you see fit.",
-            "There is no formal vacation tracking — take the time you need.",
-        ],
-    },
-}
+# Concept registry (labels + anchors) lives in src/lowork/netflix_concepts.py —
+# the single source of truth shared with export_netflix_story.py. Edit concepts THERE.
+from lowork.netflix_concepts import CONCEPTS  # noqa: E402
 
 
 def _norm(v: np.ndarray) -> np.ndarray:
@@ -250,6 +155,11 @@ def main(threshold: float, echo_threshold: float, verbatim_threshold: float,
         lifts: dict[str, list] = {n: [] for n in CONCEPTS}   # (i, score, verbatim)
         echoes: dict[str, list] = {n: [] for n in CONCEPTS}  # (i, score)
         for i in range(len(texts)):
+            if years[i] < ORIGIN_YEAR:
+                # A sentence that predates the deck can't be descent — that's
+                # convergence by definition (e.g. Amazon's 2007 values line),
+                # so it's excluded from the lineage data outright (2026-07-23).
+                continue
             best_n = max(concept_names, key=lambda n: sims_by[n][i])
             sc = float(sims_by[best_n][i])
             if sc >= threshold:

@@ -21,40 +21,42 @@
 
 ## 2005
 - affirming_dei: 1
-- neutral: 6
+- neutral: 7
 
 ## 2006
 - affirming_dei: 1
-- neutral: 3
+- neutral: 4
 
 ## 2007
 - affirming_dei: 2
-- neutral: 5
+- neutral: 6
 
 ## 2008
-- neutral: 13
+- neutral: 14
 
 ## 2009
-- affirming_dei: 1
+- affirming_dei: 2
+- neutral: 1
 
 ## 2010
-- affirming_dei: 1
-- neutral: 1
+- affirming_dei: 4
+- neutral: 2
 
 ## 2011
-- neutral: 1
+- affirming_dei: 1
+- neutral: 2
 
 ## 2012
 - affirming_dei: 2
-- neutral: 31
+- neutral: 41
 
 ## 2013
-- affirming_dei: 1
-- neutral: 1
+- affirming_dei: 11
+- neutral: 41
 
 ## 2014
 - affirming_dei: 5
-- neutral: 30
+- neutral: 31
 
 ## 2015
 - affirming_dei: 4

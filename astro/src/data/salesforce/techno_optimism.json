@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2004,
-      "zscore": 0.6514,
+      "zscore": 0.4253,
       "rawTopkMean": 0.0917,
       "nChunks": 16,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2006,
-      "zscore": 1.0734,
+      "zscore": 0.8394,
       "rawTopkMean": 0.129,
       "nChunks": 41,
       "kUsed": 5,
@@ -77,9 +77,9 @@
     },
     {
       "year": 2007,
-      "zscore": 1.1848,
+      "zscore": 0.9486,
       "rawTopkMean": 0.1388,
-      "nChunks": 31,
+      "nChunks": 45,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -112,8 +112,116 @@
       ]
     },
     {
+      "year": 2008,
+      "zscore": 0.2914,
+      "rawTopkMean": 0.0797,
+      "nChunks": 17,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "As the market leader in the CRM industry, the company has a constantly evolving suite of products that has continued to expand since the company was founded in order to better serve the needs of businesses.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.1157
+        },
+        {
+          "text": "Over the past year, salesforce.com has experienced explosive growth with an expanding business in new markets across the world.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.0968
+        },
+        {
+          "text": "Employees describe the atmosphere as exciting, innovative, and performance-driven—and they should know.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.071
+        },
+        {
+          "text": "CEO Marc Benioff has a penchant for all things Hawaiian, seen in the names of our conference rooms and the surfboard hanging outside his office.",
+          "heading": "Join the Revolution: Work with a Company That's Changing the World",
+          "score": 0.0603
+        },
+        {
+          "text": "Salesforce.com is an employer like no other.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.0548
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "zscore": 0.2914,
+      "rawTopkMean": 0.0797,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "As the market leader in the CRM industry, the company has a constantly evolving suite of products that has continued to expand since the company was founded in order to better serve the needs of businesses.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.1157
+        },
+        {
+          "text": "Over the past year, salesforce.com has experienced explosive growth with an expanding business in new markets across the world.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.0968
+        },
+        {
+          "text": "Employees describe the atmosphere as exciting, innovative, and performance-driven—and they should know.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.071
+        },
+        {
+          "text": "CEO Marc Benioff has a penchant for all things Hawaiian, seen in the names of our conference rooms and the surfboard hanging outside his office.",
+          "heading": "Join the Revolution: Work with a Company That's Changing the World",
+          "score": 0.0603
+        },
+        {
+          "text": "Salesforce.com is an employer like no other.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.0548
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "zscore": 0.2914,
+      "rawTopkMean": 0.0797,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "As the market leader in the CRM industry, the company has a constantly evolving suite of products that has continued to expand since the company was founded in order to better serve the needs of businesses.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.1157
+        },
+        {
+          "text": "Over the past year, salesforce.com has experienced explosive growth with an expanding business in new markets across the world.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.0968
+        },
+        {
+          "text": "Employees describe the atmosphere as exciting, innovative, and performance-driven—and they should know.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.071
+        },
+        {
+          "text": "CEO Marc Benioff has a penchant for all things Hawaiian, seen in the names of our conference rooms and the surfboard hanging outside his office.",
+          "heading": "Join the Revolution: Work with a Company That's Changing the World",
+          "score": 0.0603
+        },
+        {
+          "text": "Salesforce.com is an employer like no other.",
+          "heading": "What Attracts Top Talent Around the World to Salesforce.com?",
+          "score": 0.0548
+        }
+      ]
+    },
+    {
       "year": 2011,
-      "zscore": 0.4075,
+      "zscore": 0.186,
       "rawTopkMean": 0.0702,
       "nChunks": 7,
       "kUsed": 5,
@@ -149,7 +257,7 @@
     },
     {
       "year": 2012,
-      "zscore": 0.9367,
+      "zscore": 0.7052,
       "rawTopkMean": 0.1169,
       "nChunks": 22,
       "kUsed": 5,
@@ -185,7 +293,7 @@
     },
     {
       "year": 2013,
-      "zscore": 0.0053,
+      "zscore": -0.2087,
       "rawTopkMean": 0.0347,
       "nChunks": 8,
       "kUsed": 5,
@@ -221,13 +329,18 @@
     },
     {
       "year": 2014,
-      "zscore": -0.4483,
-      "rawTopkMean": -0.0053,
-      "nChunks": 28,
+      "zscore": -0.4158,
+      "rawTopkMean": 0.0161,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Salesforce.com's social and mobile cloud technologies are helping companies connect with their customers, partners and employees in entirely new ways and revolutionizing the way businesses sell, service, market, and succeed.",
+          "heading": "Find your #dreamjob here",
+          "score": 0.0612
+        },
         {
           "text": "We're growing fast, which means unlimited opportunities for you to do the best work of your life.",
           "heading": "Salesforce.com is a team sport—and we play to win.",
@@ -239,27 +352,22 @@
           "score": 0.0053
         },
         {
+          "text": "Our team sport culture drives our rapid growth and creates a #dreamjob experience for nearly 10,000 employees working in locations around the world.",
+          "heading": "Find your #dreamjob here",
+          "score": 0.0006
+        },
+        {
           "text": "This powerhouse group creates a community that encourages, inspires and mentors women in tech fields.",
           "heading": "Women in Technology",
           "score": -0.0011
-        },
-        {
-          "text": "With over 30 offices across the globe (plus tons of employees working remotely), chances are there's a #dreamjob near you.",
-          "heading": "Around the world",
-          "score": -0.0105
-        },
-        {
-          "text": "At salesforce.com, we like to do things differently...so it makes sense that we are all a little different.",
-          "heading": "Come one, come all",
-          "score": -0.0348
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": -0.1753,
-      "rawTopkMean": 0.0188,
-      "nChunks": 30,
+      "zscore": -0.3572,
+      "rawTopkMean": 0.0214,
+      "nChunks": 54,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -280,22 +388,22 @@
           "score": 0.0146
         },
         {
+          "text": "Women in technology fields often pursue other options because they feel alone.",
+          "heading": "Women in Technology",
+          "score": 0.0053
+        },
+        {
           "text": "( Psst ...want to know our secret to getting hired?)",
           "heading": "Salesforce.com is a team sport—and we play to win.",
           "score": 0.0013
-        },
-        {
-          "text": "The Salesforce Women in Technology group provides a collaborative forum for men and women to work together to attract, develop, mentor, support, and retain women technologists.",
-          "heading": "Women in Technology",
-          "score": -0.0076
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": 0.1435,
-      "rawTopkMean": 0.0469,
-      "nChunks": 44,
+      "zscore": 0.0901,
+      "rawTopkMean": 0.0616,
+      "nChunks": 65,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -304,6 +412,11 @@
           "text": "We are the fastest growing of the top 10 enterprise software companies, and this level of growth equals incredible opportunities to grow your career at Salesforce.",
           "heading": "#SalesforceOhana",
           "score": 0.1145
+        },
+        {
+          "text": "We are proud to be named one of the Anita Borg Institute’s Top Companies for Women Technologists 2015 .",
+          "heading": "Women in Technology",
+          "score": 0.0705
         },
         {
           "text": "See more about Outforce here .",
@@ -316,22 +429,17 @@
           "score": 0.0511
         },
         {
-          "text": "We communicate openly with our customers, and do what it takes to keep their data secure.",
-          "heading": "Trust",
-          "score": 0.0087
-        },
-        {
-          "text": "Our numbers are updated annually and always available right here.",
-          "heading": "Equal Opportunity",
-          "score": 0.0036
+          "text": "Pacificforce plays a leadership role at Salesforce, in San Francisco, and beyond.",
+          "heading": "Pacificforce",
+          "score": 0.0151
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 1.0058,
+      "zscore": 0.773,
       "rawTopkMean": 0.123,
-      "nChunks": 91,
+      "nChunks": 133,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -365,9 +473,45 @@
     },
     {
       "year": 2018,
-      "zscore": -1.5231,
-      "rawTopkMean": -0.1002,
-      "nChunks": 15,
+      "zscore": 0.0817,
+      "rawTopkMean": 0.0608,
+      "nChunks": 67,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We are the fastest-growing top 10 enterprise software company.",
+          "heading": "Growth",
+          "score": 0.1742
+        },
+        {
+          "text": "We are trusted advisors to our customers and are serious about engaging intelligently with technology to keep their data secure.",
+          "heading": "Trust",
+          "score": 0.0756
+        },
+        {
+          "text": "Our passionate spirit of innovation binds us together and enables us to achieve extraordinary things.",
+          "heading": "Innovation",
+          "score": 0.0232
+        },
+        {
+          "text": "When you walk the halls of Salesforce, you instantly feel something special.",
+          "heading": "Our Ohana",
+          "score": 0.0226
+        },
+        {
+          "text": "We communicate openly with our customers, and do what it takes to keep their data secure.",
+          "heading": "Trust",
+          "score": 0.0087
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "zscore": -1.2501,
+      "rawTopkMean": -0.0589,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -377,37 +521,6 @@
           "heading": "Together, we can reach Equality for all.",
           "score": -0.0244
         },
-        {
-          "text": "At Salesforce, our culture is built around the Hawaiian concept of Ohana, which means family.",
-          "heading": "We are building a more inclusive Salesforce with our Ohana Groups and their allies.",
-          "score": -0.0994
-        },
-        {
-          "text": "Ohana is the deep-seated support system we nurture inside our company that extends from our employees to our customers, our partners, and our communities.",
-          "heading": "We are building a more inclusive Salesforce with our Ohana Groups and their allies.",
-          "score": -0.1053
-        },
-        {
-          "text": "We are an Ohana of Trailblazers – inclusive of our customers, employees, partners, and communities .",
-          "heading": "Our Ohana blazes trails.",
-          "score": -0.1318
-        },
-        {
-          "text": "This value is embodied in our Ohana Groups.",
-          "heading": "We are building a more inclusive Salesforce with our Ohana Groups and their allies.",
-          "score": -0.14
-        }
-      ]
-    },
-    {
-      "year": 2019,
-      "zscore": -1.7715,
-      "rawTopkMean": -0.1221,
-      "nChunks": 4,
-      "kUsed": 4,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "quotes": [
         {
           "text": "“The Salesforce team has become part of the (RED) family.”",
           "heading": "(RED)",
@@ -419,22 +532,22 @@
           "score": -0.0484
         },
         {
-          "text": "We believe businesses need to focus on closing the Equality gap with the same energy put into creating new products and markets.”",
-          "heading": "We are committed to Equality for all.",
-          "score": -0.1606
+          "text": "Business and government together can create world-class educational and apprenticeship programs to invest in the future of our workforce.”",
+          "heading": "Our Commitment to Workforce Development",
+          "score": -0.0748
         },
         {
-          "text": "“ Inequality, in all its forms — gender, LGBTQ, racial, disability, or otherwise — is an issue that every company must address for their own benefit and to create a better world.",
-          "heading": "We are committed to Equality for all.",
-          "score": -0.2315
+          "text": "At Salesforce, our culture is built around the Hawaiian concept of Ohana, which means family.",
+          "heading": "We are building a more inclusive Salesforce with our Ohana Groups and their allies.",
+          "score": -0.0994
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -0.0967,
+      "zscore": -0.3088,
       "rawTopkMean": 0.0257,
-      "nChunks": 30,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -467,8 +580,44 @@
       ]
     },
     {
+      "year": 2021,
+      "zscore": -2.6494,
+      "rawTopkMean": -0.1848,
+      "nChunks": 6,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "It empowers us to innovate, build deeper connections with our customers, and ultimately become a better company.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": -0.0641
+        },
+        {
+          "text": "Equality is a core value at Salesforce.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": -0.1593
+        },
+        {
+          "text": "Creating a culture of Equality isn’t just the right thing to do; it’s also the smart thing.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": -0.212
+        },
+        {
+          "text": "Clearly, there is more work to be done, but together we can build a more equal workplace and world for all.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": -0.2253
+        },
+        {
+          "text": "We believe that businesses can be powerful platforms for social change and that it is our responsibility to further Equality for All.",
+          "heading": "Building a Workplace That Reflects Society",
+          "score": -0.2633
+        }
+      ]
+    },
+    {
       "year": 2022,
-      "zscore": -2.2323,
+      "zscore": -2.4042,
       "rawTopkMean": -0.1628,
       "nChunks": 8,
       "kUsed": 5,
@@ -504,9 +653,9 @@
     },
     {
       "year": 2023,
-      "zscore": -0.2472,
+      "zscore": -0.4564,
       "rawTopkMean": 0.0124,
-      "nChunks": 14,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -540,9 +689,9 @@
     },
     {
       "year": 2024,
-      "zscore": 0.141,
-      "rawTopkMean": 0.0467,
-      "nChunks": 33,
+      "zscore": 0.4384,
+      "rawTopkMean": 0.0929,
+      "nChunks": 53,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -553,32 +702,32 @@
           "score": 0.2231
         },
         {
+          "text": "Our products are easy-to-use, integrated, scalable, and deliver fast time to value.",
+          "heading": "Sparking change with innovation.",
+          "score": 0.2076
+        },
+        {
           "text": "We’re one of the fastest-growing top five enterprise software companies — and a leader in philanthropy, innovation, and culture.",
           "heading": "We're trailblazing, innovating, and award-winning.",
           "score": 0.0275
         },
         {
+          "text": "We build trust with stakeholders by leading with ethics and through the integrity of our technology.",
+          "heading": "In trust we trust.",
+          "score": 0.0046
+        },
+        {
           "text": "Here at Salesforce, we're innovators and lifelong learners.",
           "heading": "We're called Trailblazers for a reason.",
           "score": 0.0018
-        },
-        {
-          "text": "Together, we chart new paths, drive customer success, develop AI-first technology, and build a better world.",
-          "heading": "We're called Trailblazers for a reason.",
-          "score": -0.0043
-        },
-        {
-          "text": "If you’re ready to progress and perform, create and collaborate, motivate and innovate, and accelerate and celebrate your career — well, you’re in the right place.",
-          "heading": "We're called Trailblazers for a reason.",
-          "score": -0.0146
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 1.4037,
-      "rawTopkMean": 0.1581,
-      "nChunks": 166,
+      "zscore": 1.3442,
+      "rawTopkMean": 0.1744,
+      "nChunks": 217,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -587,6 +736,11 @@
           "text": "From agents and machine learning to cloud computing and IoT, you’ll work on (and with) the latest technologies (hello, agents!) that are shaping the future of business and beyond.",
           "heading": "Build what's next.",
           "score": 0.209
+        },
+        {
+          "text": "Our products are easy-to-use, integrated, scalable, and deliver fast time to value.",
+          "heading": "Sparking change with innovation.",
+          "score": 0.2076
         },
         {
           "text": "Our projects are challenging — pushing the boundaries of what’s possible.",
@@ -602,47 +756,42 @@
           "text": "Our product roadmap is packed with transformative, agent-first solutions.",
           "heading": "What AI or innovation projects are you focused on right now?",
           "score": 0.1361
-        },
-        {
-          "text": "You may be working at an enterprise software company; you may have never considered tech.",
-          "heading": "Your path to the world's #1 agent-first enterprise.",
-          "score": 0.1263
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": -0.4587,
-      "rawTopkMean": -0.0062,
-      "nChunks": 56,
+      "zscore": 1.3442,
+      "rawTopkMean": 0.1744,
+      "nChunks": 198,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "While many roles at Salesforce require technical expertise, we have a wide range of positions across sales, marketing, Customer Success, product management, and more.",
-          "heading": "Do I need to have a technical background to work at Salesforce?",
-          "score": 0.013
+          "text": "From agents and machine learning to cloud computing and IoT, you’ll work on (and with) the latest technologies (hello, agents!) that are shaping the future of business and beyond.",
+          "heading": "Build what's next.",
+          "score": 0.209
         },
         {
-          "text": "See how we're advancing this work.",
-          "heading": "We are committed.",
-          "score": -0.0048
+          "text": "Our products are easy-to-use, integrated, scalable, and deliver fast time to value.",
+          "heading": "Sparking change with innovation.",
+          "score": 0.2076
         },
         {
-          "text": "Reflective of the many cultures across the Asia Pacific region, our network spans the globe with locations throughout the United States, Europe and Asia.",
-          "heading": "Asiapacforce",
-          "score": -0.0052
+          "text": "Our projects are challenging — pushing the boundaries of what’s possible.",
+          "heading": "Build what's next.",
+          "score": 0.1618
         },
         {
-          "text": "Employees have access to a variety of career development resources, including Trailhead, our online learning platform, mentorship programs, and regular feedback and coaching.",
-          "heading": "How do employees grow their careers here?",
-          "score": -0.0081
+          "text": "And, in case you haven’t heard, Agentforce is redefining the future of Technology.",
+          "heading": "What AI or innovation projects are you focused on right now?",
+          "score": 0.1575
         },
         {
-          "text": "Learn more Denotes limited assurance review by EY for FY26.",
-          "heading": "Meet our equality groups.",
-          "score": -0.0261
+          "text": "Our product roadmap is packed with transformative, agent-first solutions.",
+          "heading": "What AI or innovation projects are you focused on right now?",
+          "score": 0.1361
         }
       ]
     }

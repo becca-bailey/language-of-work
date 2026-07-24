@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 1999,
-      "zscore": -1.6321,
+      "zscore": -1.7143,
       "rawTopkMean": 0.0267,
       "nChunks": 3,
       "kUsed": 3,
@@ -32,7 +32,7 @@
     },
     {
       "year": 2000,
-      "zscore": -1.3429,
+      "zscore": -1.4204,
       "rawTopkMean": 0.0513,
       "nChunks": 5,
       "kUsed": 5,
@@ -69,7 +69,7 @@
     },
     {
       "year": 2003,
-      "zscore": -0.9649,
+      "zscore": -1.0362,
       "rawTopkMean": 0.0834,
       "nChunks": 8,
       "kUsed": 5,
@@ -106,7 +106,7 @@
     },
     {
       "year": 2004,
-      "zscore": 0.0192,
+      "zscore": -0.0361,
       "rawTopkMean": 0.167,
       "nChunks": 14,
       "kUsed": 5,
@@ -143,13 +143,13 @@
     },
     {
       "year": 2005,
-      "zscore": 0.7772,
+      "zscore": 0.7343,
       "rawTopkMean": 0.2314,
-      "nChunks": 22,
+      "nChunks": 28,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.5686,
+      "technoShare": 0.6627,
       "quotes": [
         {
           "text": "Uniting the world, one user at a time.",
@@ -180,13 +180,13 @@
     },
     {
       "year": 2006,
-      "zscore": 0.7772,
+      "zscore": 0.7343,
       "rawTopkMean": 0.2314,
-      "nChunks": 23,
+      "nChunks": 29,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.5208,
+      "technoShare": 0.6375,
       "quotes": [
         {
           "text": "Uniting the world, one user at a time.",
@@ -217,13 +217,13 @@
     },
     {
       "year": 2007,
-      "zscore": 0.7772,
+      "zscore": 0.7343,
       "rawTopkMean": 0.2314,
-      "nChunks": 36,
+      "nChunks": 42,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.4194,
+      "technoShare": 0.5532,
       "quotes": [
         {
           "text": "Uniting the world, one user at a time.",
@@ -254,13 +254,13 @@
     },
     {
       "year": 2008,
-      "zscore": 0.0705,
+      "zscore": 0.0161,
       "rawTopkMean": 0.1714,
-      "nChunks": 24,
+      "nChunks": 30,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.4,
+      "technoShare": 0.5833,
       "quotes": [
         {
           "text": "Uniting the world, one user at a time.",
@@ -291,30 +291,13 @@
     },
     {
       "year": 2009,
-      "zscore": -0.8465,
-      "rawTopkMean": 0.0935,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "zscore": -1.1606,
+      "rawTopkMean": 0.073,
+      "nChunks": 17,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.75,
-      "quotes": [
-        {
-          "text": "At Google, we understand that our worldwide success results from our globally diverse workforce.",
-          "heading": "Let’s work together.",
-          "score": 0.0935
-        }
-      ]
-    },
-    {
-      "year": 2010,
-      "zscore": -1.2459,
-      "rawTopkMean": 0.0595,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "technoShare": 0.6667,
+      "technoShare": 0.7018,
       "quotes": [
         {
           "text": "At Google, we understand that our worldwide success results from our globally diverse workforce.",
@@ -322,15 +305,104 @@
           "score": 0.0935
         },
         {
-          "text": "When everyone in the company is reaching out, not up, good ideas can go a lot farther.",
-          "heading": "Do more. A lot more.",
-          "score": 0.0256
+          "text": "Here's a look at life at the Googleplex in Mountain View: Other resources Offices Jobs at Google Diversity & Inclusion",
+          "heading": "",
+          "score": 0.0928
+        },
+        {
+          "text": "As we continue to grow, we are always looking for those who share a commitment to creating search perfection and having a great time doing it.",
+          "heading": "",
+          "score": 0.0654
+        },
+        {
+          "text": "The Google Culture Though Google has grown a lot since it opened in 1998, we still maintain a small company feel.",
+          "heading": "",
+          "score": 0.0607
+        },
+        {
+          "text": "Our commitment to innovation depends on everyone being comfortable sharing ideas and opinions.",
+          "heading": "",
+          "score": 0.0526
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "zscore": -1.1606,
+      "rawTopkMean": 0.073,
+      "nChunks": 22,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "technoShare": 0.5686,
+      "quotes": [
+        {
+          "text": "At Google, we understand that our worldwide success results from our globally diverse workforce.",
+          "heading": "Let’s work together.",
+          "score": 0.0935
+        },
+        {
+          "text": "Here's a look at life at the Googleplex in Mountain View: Other resources Offices Jobs at Google Diversity & Inclusion",
+          "heading": "",
+          "score": 0.0928
+        },
+        {
+          "text": "As we continue to grow, we are always looking for those who share a commitment to creating search perfection and having a great time doing it.",
+          "heading": "",
+          "score": 0.0654
+        },
+        {
+          "text": "The Google Culture Though Google has grown a lot since it opened in 1998, we still maintain a small company feel.",
+          "heading": "",
+          "score": 0.0607
+        },
+        {
+          "text": "Our commitment to innovation depends on everyone being comfortable sharing ideas and opinions.",
+          "heading": "",
+          "score": 0.0526
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "zscore": -1.6409,
+      "rawTopkMean": 0.0328,
+      "nChunks": 6,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "technoShare": 0.5,
+      "quotes": [
+        {
+          "text": "As we continue to grow, we are always looking for those who share a commitment to creating search perfection and having a great time doing it.",
+          "heading": "The Google culture",
+          "score": 0.0654
+        },
+        {
+          "text": "Our commitment to innovation depends on everyone being comfortable sharing ideas and opinions.",
+          "heading": "The Google culture",
+          "score": 0.0526
+        },
+        {
+          "text": "Though Google has grown a lot since it opened in 1998, we still maintain a small company feel.",
+          "heading": "The Google culture",
+          "score": 0.0492
+        },
+        {
+          "text": "We are aggressively inclusive in our hiring, and we favor ability over experience.",
+          "heading": "The Google culture",
+          "score": 0.0011
+        },
+        {
+          "text": "At lunchtime, almost everyone eats in the office café, sitting at whatever table has an opening and enjoying conversations with Googlers from different teams.",
+          "heading": "The Google culture",
+          "score": -0.0042
         }
       ]
     },
     {
       "year": 2012,
-      "zscore": 0.2787,
+      "zscore": 0.2276,
       "rawTopkMean": 0.1891,
       "nChunks": 61,
       "kUsed": 5,
@@ -367,50 +439,50 @@
     },
     {
       "year": 2013,
-      "zscore": -0.9597,
-      "rawTopkMean": 0.0838,
-      "nChunks": 5,
+      "zscore": 0.4798,
+      "rawTopkMean": 0.2101,
+      "nChunks": 60,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.4444,
+      "technoShare": 0.4643,
       "quotes": [
         {
-          "text": "At Google, we don’t just accept difference - we celebrate it, we support it, and we thrive on it for the benefit of our employees, our products and our community.",
-          "heading": "Life at Google",
-          "score": 0.1441
+          "text": "At Google, we believe in making the world a better place through technology.",
+          "heading": "Culture and Diversity",
+          "score": 0.3435
         },
         {
-          "text": "Google is proud to be an equal opportunity workplace and is an affirmative action employer.",
-          "heading": "Life at Google",
-          "score": 0.0999
+          "text": "At Google, our mission is to organize the world’s information and make it universally accessible. ...",
+          "heading": "Google: A great workplace for women",
+          "score": 0.2208
         },
         {
-          "text": "Get to know who we are - from the inside out.",
-          "heading": "Life at Google",
-          "score": 0.0898
+          "text": "We’ve always wanted Google to be a place that brought together smart, talented people from a diversity of backgrounds, and where you could bring your whole self to work.",
+          "heading": "Culture and Diversity",
+          "score": 0.1696
         },
         {
-          "text": "Take me to Life at Google Still a student?",
-          "heading": "Life at Google",
-          "score": 0.0822
+          "text": "We want people to feel good about using Google products.",
+          "heading": "Going green for good",
+          "score": 0.16
         },
         {
-          "text": "This way to student jobs and internships.",
-          "heading": "Life at Google",
-          "score": 0.0031
+          "text": "Google: A great workplace for women At Google, our mission is to organize the world’s information and make it universally accessible.",
+          "heading": "Culture and Diversity",
+          "score": 0.1569
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": 0.5128,
+      "zscore": 0.4656,
       "rawTopkMean": 0.209,
-      "nChunks": 33,
+      "nChunks": 34,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
-      "technoShare": 0.4677,
+      "technoShare": 0.4688,
       "quotes": [
         {
           "text": "At Google, we believe in making the world a better place through technology.",
@@ -441,7 +513,7 @@
     },
     {
       "year": 2015,
-      "zscore": 0.5128,
+      "zscore": 0.4656,
       "rawTopkMean": 0.209,
       "nChunks": 24,
       "kUsed": 5,
@@ -478,7 +550,7 @@
     },
     {
       "year": 2016,
-      "zscore": 0.5128,
+      "zscore": 0.4656,
       "rawTopkMean": 0.209,
       "nChunks": 22,
       "kUsed": 5,
@@ -515,7 +587,7 @@
     },
     {
       "year": 2017,
-      "zscore": 0.0998,
+      "zscore": 0.0458,
       "rawTopkMean": 0.1739,
       "nChunks": 17,
       "kUsed": 5,
@@ -552,7 +624,7 @@
     },
     {
       "year": 2018,
-      "zscore": 0.4804,
+      "zscore": 0.4326,
       "rawTopkMean": 0.2062,
       "nChunks": 134,
       "kUsed": 5,
@@ -589,7 +661,7 @@
     },
     {
       "year": 2019,
-      "zscore": 0.7156,
+      "zscore": 0.6717,
       "rawTopkMean": 0.2262,
       "nChunks": 358,
       "kUsed": 5,
@@ -626,7 +698,7 @@
     },
     {
       "year": 2020,
-      "zscore": 0.7593,
+      "zscore": 0.7161,
       "rawTopkMean": 0.2299,
       "nChunks": 259,
       "kUsed": 5,
@@ -663,7 +735,7 @@
     },
     {
       "year": 2021,
-      "zscore": 1.178,
+      "zscore": 1.1417,
       "rawTopkMean": 0.2655,
       "nChunks": 110,
       "kUsed": 5,
@@ -700,7 +772,7 @@
     },
     {
       "year": 2022,
-      "zscore": 1.3714,
+      "zscore": 1.3381,
       "rawTopkMean": 0.2819,
       "nChunks": 209,
       "kUsed": 5,
@@ -737,7 +809,7 @@
     },
     {
       "year": 2023,
-      "zscore": 1.1835,
+      "zscore": 1.1472,
       "rawTopkMean": 0.2659,
       "nChunks": 117,
       "kUsed": 5,
@@ -774,7 +846,7 @@
     },
     {
       "year": 2024,
-      "zscore": 0.9798,
+      "zscore": 0.9402,
       "rawTopkMean": 0.2486,
       "nChunks": 89,
       "kUsed": 5,
@@ -811,7 +883,7 @@
     },
     {
       "year": 2025,
-      "zscore": 0.8823,
+      "zscore": 0.8411,
       "rawTopkMean": 0.2404,
       "nChunks": 159,
       "kUsed": 5,

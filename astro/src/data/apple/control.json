@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 1999,
-      "zscore": 0.1065,
+      "zscore": -0.3688,
       "rawTopkMean": 0.0413,
       "nChunks": 19,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2004,
-      "zscore": -0.4205,
+      "zscore": -0.9896,
       "rawTopkMean": 0.0066,
       "nChunks": 9,
       "kUsed": 5,
@@ -77,7 +77,7 @@
     },
     {
       "year": 2007,
-      "zscore": -0.6574,
+      "zscore": -1.2686,
       "rawTopkMean": -0.009,
       "nChunks": 6,
       "kUsed": 5,
@@ -113,7 +113,7 @@
     },
     {
       "year": 2008,
-      "zscore": -0.5801,
+      "zscore": -1.1776,
       "rawTopkMean": -0.0039,
       "nChunks": 4,
       "kUsed": 4,
@@ -144,28 +144,43 @@
     },
     {
       "year": 2009,
-      "zscore": -2.2581,
-      "rawTopkMean": -0.1144,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -1.2813,
+      "rawTopkMean": -0.0097,
+      "nChunks": 15,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Are you ready to grow with us?",
-          "heading": "Apple Store",
-          "score": -0.0468
+          "text": "Partners provide the resources and recruitment opportunities necessary to help us find new talent and further our commitment.",
+          "heading": "Commitment to diversity",
+          "score": 0.024
         },
         {
-          "text": "With business booming at retail locations from SoHo to Tokyo, Apple is growing fast.",
-          "heading": "Apple Store",
-          "score": -0.182
+          "text": "Apple celebrates diverse experiences and backgrounds.",
+          "heading": "Commitment to diversity",
+          "score": 0.0162
+        },
+        {
+          "text": "At Apple, diversity network associations offer employees an opportunity to engage in professional support and networking activities that promote diversity.",
+          "heading": "Commitment to diversity",
+          "score": -0.0228
+        },
+        {
+          "text": "We also have a shared obsession with getting every last detail right.",
+          "heading": "",
+          "score": -0.0329
+        },
+        {
+          "text": "By introducing new and innovative people to the company, we incorporate their different perspectives and skills and achieve our goal of making the best products on the market.",
+          "heading": "Commitment to diversity",
+          "score": -0.033
         }
       ]
     },
     {
       "year": 2010,
-      "zscore": -0.4658,
+      "zscore": -1.043,
       "rawTopkMean": 0.0036,
       "nChunks": 15,
       "kUsed": 5,
@@ -201,7 +216,7 @@
     },
     {
       "year": 2012,
-      "zscore": 0.6477,
+      "zscore": 0.2687,
       "rawTopkMean": 0.0769,
       "nChunks": 34,
       "kUsed": 5,
@@ -237,66 +252,81 @@
     },
     {
       "year": 2013,
-      "zscore": -1.834,
-      "rawTopkMean": -0.0865,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "We’re always adding new stores and expanding into new countries.",
-          "heading": "400 Apple Retail Stores worldwide (and counting).",
-          "score": -0.0828
-        },
-        {
-          "text": "Which means there’s a good chance you can live and work in a city you love.",
-          "heading": "400 Apple Retail Stores worldwide (and counting).",
-          "score": -0.0902
-        }
-      ]
-    },
-    {
-      "year": 2014,
-      "zscore": -0.002,
-      "rawTopkMean": 0.0342,
-      "nChunks": 53,
+      "zscore": 0.2687,
+      "rawTopkMean": 0.0769,
+      "nChunks": 21,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "It includes personal qualities that usually go unmeasured, like sexual orientation, veteran status, and disabilities.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.0545
-        },
-        {
-          "text": "I receive emails from customers around the world, and a name that comes up often is Kim Paulk.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.0371
-        },
-        {
-          "text": "A job at Apple is one that requires a lot of you, but it’s also one that rewards bright, original thinking and hard work.",
+          "text": "It matters all of the time.",
           "heading": "",
-          "score": 0.0367
+          "score": 0.102
         },
         {
-          "text": "Join the Apple Store team and do meaningful work — you'll integrate products into people's lives and build skills for your career, life, and more.",
+          "text": "If that sounds like you, then start your search right here.",
           "heading": "",
-          "score": 0.0296
+          "score": 0.0807
         },
         {
-          "text": "Apple Store employees are unique individuals whose talents and experiences cannot be summed up in a job description.",
-          "heading": "Find your place here.",
-          "score": 0.0129
+          "text": "And it doesn’t matter just some of the time.",
+          "heading": "",
+          "score": 0.0768
+        },
+        {
+          "text": "When there’s an opening at Apple, we always look to fill it with the best.",
+          "heading": "",
+          "score": 0.0665
+        },
+        {
+          "text": "Every “How can I help you?” Everything.",
+          "heading": "",
+          "score": 0.0587
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "zscore": 0.2687,
+      "rawTopkMean": 0.0769,
+      "nChunks": 72,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "It matters all of the time.",
+          "heading": "",
+          "score": 0.102
+        },
+        {
+          "text": "If that sounds like you, then start your search right here.",
+          "heading": "",
+          "score": 0.0807
+        },
+        {
+          "text": "And it doesn’t matter just some of the time.",
+          "heading": "",
+          "score": 0.0768
+        },
+        {
+          "text": "When there’s an opening at Apple, we always look to fill it with the best.",
+          "heading": "",
+          "score": 0.0665
+        },
+        {
+          "text": "Every “How can I help you?” Everything.",
+          "heading": "",
+          "score": 0.0587
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": 1.4234,
+      "zscore": 1.1824,
       "rawTopkMean": 0.128,
-      "nChunks": 151,
+      "nChunks": 181,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -330,9 +360,9 @@
     },
     {
       "year": 2016,
-      "zscore": -0.7705,
-      "rawTopkMean": -0.0165,
-      "nChunks": 7,
+      "zscore": -1.354,
+      "rawTopkMean": -0.0138,
+      "nChunks": 11,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -358,19 +388,19 @@
           "score": -0.0193
         },
         {
-          "text": "Apple is a place where students can thrive.",
-          "heading": "Get experience. And have an experience.",
-          "score": -0.045
+          "text": "But it also rewards bright, original thinking and hard work.",
+          "heading": "It’s what we do together that sets us apart.",
+          "score": -0.0316
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": -0.3935,
-      "rawTopkMean": 0.0084,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -1.1119,
+      "rawTopkMean": -0.0002,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
@@ -379,17 +409,32 @@
           "score": 0.02
         },
         {
+          "text": "We have opportunities that can help you take your ideas and your passion to the next level.",
+          "heading": "Get experience. And have an experience.",
+          "score": -0.0029
+        },
+        {
           "text": "So whether you’re analytical or creative, tech savvy or a people person, the Apple Store provides an ideal opportunity to challenge yourself.",
           "heading": "Work where extraordinary happens.",
           "score": -0.0032
+        },
+        {
+          "text": "Where do you see yourself at Apple?",
+          "heading": "Do your life’s best work here now. With the whole world watching.",
+          "score": -0.0049
+        },
+        {
+          "text": "Join Apple, and help us leave the world better than we found it.",
+          "heading": "Do your life’s best work here now. With the whole world watching.",
+          "score": -0.0102
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": 1.0208,
+      "zscore": 0.7082,
       "rawTopkMean": 0.1015,
-      "nChunks": 63,
+      "nChunks": 74,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -423,9 +468,9 @@
     },
     {
       "year": 2019,
-      "zscore": 0.2215,
-      "rawTopkMean": 0.0489,
-      "nChunks": 32,
+      "zscore": -0.1013,
+      "rawTopkMean": 0.0563,
+      "nChunks": 61,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -436,40 +481,50 @@
           "score": 0.074
         },
         {
+          "text": "Quote by Opportunities like the Apple Scholars program level out the playing field because it puts Historically Black Colleges and Universities on the map to be included in the hiring of diverse talent.",
+          "heading": "A more diverse future begins with opportunities in education.",
+          "score": 0.0633
+        },
+        {
           "text": "Come to Apple as a student and your team will welcome you as a full contributor, like any other employee.",
           "heading": "Undergrads and Grad Students",
           "score": 0.0605
         },
         {
+          "text": "And everyone should have the opportunity to learn it.",
+          "heading": "A more diverse future begins with opportunities in education.",
+          "score": 0.042
+        },
+        {
           "text": "For every team and every role.",
           "heading": "There’s a place here for every kind of brilliant.",
           "score": 0.0415
-        },
-        {
-          "text": "Other includes Native American and Native Hawaiian & Other Pacific Islander.",
-          "heading": "Here’s data from the last four years.",
-          "score": 0.0352
-        },
-        {
-          "text": "We believe the information we report elsewhere on this site is a more accurate reflection of our progress toward diversity.",
-          "heading": "Here’s data from the last four years.",
-          "score": 0.0332
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -0.0905,
-      "rawTopkMean": 0.0283,
-      "nChunks": 32,
+      "zscore": -0.1929,
+      "rawTopkMean": 0.0511,
+      "nChunks": 46,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "Yes, you’ll learn from them, but they expect to learn from you, too.",
+          "heading": "Undergrads and Grad Students",
+          "score": 0.074
+        },
+        {
           "text": "That’s why Apple welcomes you for who you are and who you want to become.",
           "heading": "Join a worldwide company that reflects the whole wide world.",
           "score": 0.0724
+        },
+        {
+          "text": "Come to Apple as a student and your team will welcome you as a full contributor, like any other employee.",
+          "heading": "Undergrads and Grad Students",
+          "score": 0.0605
         },
         {
           "text": "Here, you’ll do more than join something — you’ll add something.",
@@ -480,24 +535,14 @@
           "text": "When people say, ‘This is hard,’ my rule of thumb is, if it’s not gated by physics, that means it’s hard but doable.",
           "heading": "Come work where sentences start with “What if…?”",
           "score": 0.0194
-        },
-        {
-          "text": "We invest in education programs so that people everywhere have the opportunity to realize their potential.",
-          "heading": "Join a company with business practices as innovative as its products.",
-          "score": 0.0145
-        },
-        {
-          "text": "Others figured out how people in wheelchairs can track their activity with Apple Watch to promote their fitness.",
-          "heading": "Come work where sentences start with “What if…?”",
-          "score": 0.0059
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 1.6656,
+      "zscore": 1.4677,
       "rawTopkMean": 0.144,
-      "nChunks": 143,
+      "nChunks": 170,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -531,13 +576,23 @@
     },
     {
       "year": 2022,
-      "zscore": 1.5853,
-      "rawTopkMean": 0.1387,
-      "nChunks": 150,
+      "zscore": 1.8942,
+      "rawTopkMean": 0.1678,
+      "nChunks": 254,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Whether it’s by participating in an interview panel or filling a role as a hiring manager, bringing someone to Apple is a big responsibility.",
+          "heading": "Inclusive interviewing skills for everyone involved in hiring.",
+          "score": 0.2019
+        },
+        {
+          "text": "Every hiring decision is made one role, and one person, at a time.",
+          "heading": "Where we stand today.",
+          "score": 0.1967
+        },
         {
           "text": "Whether it’s by participating in an interview panel or serving as a hiring manager, bringing people into Apple is an important responsibility.",
           "heading": "Inclusive hiring training is our practice globally.",
@@ -552,24 +607,50 @@
           "text": "And we continue to make progress toward our goal of having more diverse interview panels and candidates so that diversity is reflected at every stage of the hiring process.",
           "heading": "Inclusive hiring standards and processes.",
           "score": 0.1337
-        },
-        {
-          "text": "We’re making sure everyone involved in the hiring process has access to the information and resources they need to develop inclusive interviewing skills.",
-          "heading": "Inclusive hiring training is our practice globally.",
-          "score": 0.1313
-        },
-        {
-          "text": "These trainings help mitigate inherent biases and create more consistent hiring experiences for all.",
-          "heading": "Inclusive hiring training is our practice globally.",
-          "score": 0.1215
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": 1.1303,
+      "zscore": 1.475,
+      "rawTopkMean": 0.1444,
+      "nChunks": 274,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Whether it’s by participating in an interview panel or serving as a hiring manager, bringing people into Apple is an important responsibility.",
+          "heading": "Inclusive hiring training is our practice globally.",
+          "score": 0.173
+        },
+        {
+          "text": "We don’t ask for previous salary information during the interview process.",
+          "heading": "We ensure pay equity for everyone, everywhere at Apple.",
+          "score": 0.1498
+        },
+        {
+          "text": "We don’t ask for salary history during the recruiting process.",
+          "heading": "Committed to pay equity around the globe.",
+          "score": 0.1338
+        },
+        {
+          "text": "And we continue to make progress toward our goal of having more diverse interview panels and candidates so that diversity is reflected at every stage of the hiring process.",
+          "heading": "Inclusive hiring standards and processes.",
+          "score": 0.1337
+        },
+        {
+          "text": "The Partnerships program gives visibility to these opportunities and has led to applications from a more diverse set of candidates.",
+          "heading": "We’re prioritizing equity and representation within our teams.",
+          "score": 0.1316
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "zscore": 0.8372,
       "rawTopkMean": 0.1087,
-      "nChunks": 132,
+      "nChunks": 185,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -602,55 +683,50 @@
       ]
     },
     {
-      "year": 2024,
-      "zscore": -0.5149,
-      "rawTopkMean": 0.0004,
-      "nChunks": 30,
+      "year": 2025,
+      "zscore": 0.5529,
+      "rawTopkMean": 0.0928,
+      "nChunks": 187,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "When experts make the decisions, they decide to innovate.",
-          "heading": "Innovation",
-          "score": 0.0197
+          "text": "The Partnerships program gives visibility to these opportunities and has led to applications from a more diverse set of candidates.",
+          "heading": "We’re prioritizing equity and representation within our teams.",
+          "score": 0.1316
         },
         {
-          "text": "And no idea is too crazy.",
-          "heading": "Innovation",
-          "score": 0.0058
+          "text": "Through regular live sessions, employees from underrepresented communities (URCs) connect with hiring managers to gain better visibility into opportunities and hone the essential skills and qualifications needed for open roles. “This program demystifies the roles and gives people a forum to ask questions to help them gain confidence to apply,” adds Cragg.",
+          "heading": "We’re prioritizing equity and representation within our teams.",
+          "score": 0.0958
         },
         {
-          "text": "Innovation is led by those who know their stuff, whether it’s the first job of their life or the latest project in a career decades in the making.",
-          "heading": "Innovation",
-          "score": 0.0019
+          "text": "Another told a story about feeling accepted at Apple,” says Molla. “People sharing their stories, then learning about how those stories connect with people, is really powerful.” Brian Rekasis of Global Recruiting Marketing has also seen the benefits of the website. “Our Careers at Apple site is one of the first ways candidates get a sense of Apple’s culture and values, and our DNAs are a huge part",
+          "heading": "Apple’s Diversity Network Associations reflect our worldwide community.",
+          "score": 0.094
         },
         {
-          "text": "Leaders at Apple combine their expertise with two other important characteristics: immersion in the details and a willingness to collaboratively debate during collective decision-making.",
-          "heading": "How We Work",
-          "score": -0.0095
+          "text": "The team hosts résumé and interview skill-building workshops for DNA members and, when possible, informs DNAs of open roles.",
+          "heading": "Apple’s Diversity Network Associations reflect our worldwide community.",
+          "score": 0.0725
         },
         {
-          "text": "If you want to really understand how something is made, get into the details, and be super creative, then Apple is the place.",
-          "heading": "How We Work",
-          "score": -0.016
+          "text": "Students also receive one-on-one mentoring with the Apple volunteers. “We know this will take time, but we’re energized by the strong interest from students, the collaboration with faculty, and the potential impact of the opportunities ahead of us,” Zerbe says.",
+          "heading": "We’re strengthening pathways from HBCUs to engineering for a more diverse workforce.",
+          "score": 0.0703
         }
       ]
     },
     {
-      "year": 2025,
-      "zscore": 0.4266,
-      "rawTopkMean": 0.0624,
-      "nChunks": 79,
+      "year": 2026,
+      "zscore": -0.0347,
+      "rawTopkMean": 0.06,
+      "nChunks": 60,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
-        {
-          "text": "Students also receive one-on-one mentoring with the Apple volunteers. “We know this will take time, but we’re energized by the strong interest from students, the collaboration with faculty, and the potential impact of the opportunities ahead of us,” Zerbe says.",
-          "heading": "We’re strengthening pathways from HBCUs to engineering.",
-          "score": 0.0703
-        },
         {
           "text": "The result of these efforts is SignTime.",
           "heading": "We design features that make technology accessible for everyone.",
@@ -662,50 +738,19 @@
           "score": 0.0664
         },
         {
-          "text": "It shows that it’s okay to seek help, it’s okay to talk to others about issues you may be dealing with.” Raising awareness helps start important conversations and encourages Veterans to get the help they need.",
-          "heading": "We’re building connections and community for Veterans.",
-          "score": 0.0588
-        },
-        {
-          "text": "Now everyone who wants to learn about working and finding community at Apple can visit the Careers at Apple website to explore employee stories.",
-          "heading": "We help create community for our employees.",
-          "score": 0.0472
-        }
-      ]
-    },
-    {
-      "year": 2026,
-      "zscore": -0.2407,
-      "rawTopkMean": 0.0184,
-      "nChunks": 21,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
           "text": "Learn about supplier responsibility at Apple",
           "heading": "Our values are part of everything built here — including careers.",
           "score": 0.059
         },
         {
-          "text": "Learn about privacy at Apple Racial Equity and Justice Initiative This is a long-term effort to help ensure more positive outcomes for communities of color.",
-          "heading": "Our values are part of everything built here — including careers.",
-          "score": 0.017
+          "text": "Students also receive one-on-one mentoring with the Apple volunteers. “We know this will take time, but we’re energized by the strong interest from students, the collaboration with faculty, and the potential impact of the opportunities ahead of us,” says Jared Zerbe, Hardware Technologies.",
+          "heading": "We’re strengthening pathways from HBCUs to engineering.",
+          "score": 0.0553
         },
         {
-          "text": "At 50 years, it’s only natural to look back.",
-          "heading": "",
-          "score": 0.0133
-        },
-        {
-          "text": "Learn about inclusion and diversity at Apple Privacy We design Apple products to protect your privacy and give you control over your information.",
-          "heading": "Our values are part of everything built here — including careers.",
-          "score": 0.0109
-        },
-        {
-          "text": "We’re creating something magical for the person who uses it.",
-          "heading": "Work at Apple",
-          "score": -0.008
+          "text": "Apple provides hands-on learning exercises and course programming, and Apple engineers volunteer their time as guest lecturers.",
+          "heading": "We’re strengthening pathways from HBCUs to engineering.",
+          "score": 0.05
         }
       ]
     }

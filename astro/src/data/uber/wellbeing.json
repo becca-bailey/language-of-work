@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2011,
-      "zscore": -0.9929,
+      "zscore": -0.7296,
       "rawTopkMean": -0.0101,
       "nChunks": 9,
       "kUsed": 5,
@@ -40,40 +40,35 @@
       ]
     },
     {
-      "year": 2014,
-      "zscore": -1.4014,
-      "rawTopkMean": -0.0347,
-      "nChunks": 4,
-      "kUsed": 4,
+      "year": 2012,
+      "zscore": -1.895,
+      "rawTopkMean": -0.0902,
+      "nChunks": 3,
+      "kUsed": 3,
       "thin": true,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Every role matters because anything and everything our employees work on affects the daily lives of people around the world.",
-          "heading": "Global Impact",
-          "score": 0.0587
+          "text": "Your contributions will not just move bits, but move actual people.",
+          "heading": "Are you Uber?",
+          "score": 0.0189
         },
         {
-          "text": "We empower our teams to find creative solutions to difficult problems.",
-          "heading": "Bold Ideas",
-          "score": -0.0146
+          "text": "We're looking for extremely talented people to help us bring the transportation industry into the 21st century.",
+          "heading": "Are you Uber?",
+          "score": -0.0912
         },
         {
-          "text": "At Uber, the best idea always wins.",
-          "heading": "Bold Ideas",
-          "score": -0.0712
-        },
-        {
-          "text": "Our heart is in our work, and we're working tirelessly to make a difference in the way that people get from point A to point B.",
-          "heading": "Passionate People",
-          "score": -0.1115
+          "text": "Are you up for the challenge?",
+          "heading": "Are you Uber?",
+          "score": -0.1982
         }
       ]
     },
     {
-      "year": 2015,
-      "zscore": -0.9883,
-      "rawTopkMean": -0.0099,
+      "year": 2013,
+      "zscore": -0.6993,
+      "rawTopkMean": -0.0081,
       "nChunks": 3,
       "kUsed": 3,
       "thin": true,
@@ -90,6 +85,78 @@
           "score": -0.0091
         },
         {
+          "text": "From our founding in 2009 to our launches in over 35 cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
+          "heading": "The Company",
+          "score": -0.0307
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "zscore": -0.538,
+      "rawTopkMean": 0.003,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Every role matters because anything and everything our employees work on affects the daily lives of people around the world.",
+          "heading": "Global Impact",
+          "score": 0.0587
+        },
+        {
+          "text": "By seamlessly connecting riders to drivers through our apps, we make cities more accessible, opening up more possibilities for riders and more business for drivers.",
+          "heading": "The Company",
+          "score": 0.0156
+        },
+        {
+          "text": "Uber is evolving the way the world moves.",
+          "heading": "The Company",
+          "score": -0.0091
+        },
+        {
+          "text": "We empower our teams to find creative solutions to difficult problems.",
+          "heading": "Bold Ideas",
+          "score": -0.0146
+        },
+        {
+          "text": "From our founding in 2009 to our launches in over 200 cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
+          "heading": "The Company",
+          "score": -0.0355
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "zscore": -0.5399,
+      "rawTopkMean": 0.0029,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Every role matters because anything and everything our employees work on affects the daily lives of people around the world.",
+          "heading": "Global Impact",
+          "score": 0.0587
+        },
+        {
+          "text": "By seamlessly connecting riders to drivers through our apps, we make cities more accessible, opening up more possibilities for riders and more business for drivers.",
+          "heading": "The Company",
+          "score": 0.0156
+        },
+        {
+          "text": "Uber is evolving the way the world moves.",
+          "heading": "The Company",
+          "score": -0.0091
+        },
+        {
+          "text": "We empower our teams to find creative solutions to difficult problems.",
+          "heading": "Bold Ideas",
+          "score": -0.0146
+        },
+        {
           "text": "From our founding in 2009 to our launches in hundreds of cities today, Uber's rapidly expanding global presence continues to bring people and their cities closer.",
           "heading": "The Company",
           "score": -0.0362
@@ -98,9 +165,9 @@
     },
     {
       "year": 2016,
-      "zscore": -0.4866,
-      "rawTopkMean": 0.0202,
-      "nChunks": 10,
+      "zscore": 0.0977,
+      "rawTopkMean": 0.0467,
+      "nChunks": 13,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -111,8 +178,13 @@
           "score": 0.136
         },
         {
+          "text": "Every role matters because anything and everything our employees work on affects the daily lives of people around the world.",
+          "heading": "Global Impact",
+          "score": 0.0587
+        },
+        {
           "text": "Work alongside the best in your field—the people who make you want to be better and can also help get you there.",
-          "heading": "Shape the world you want",
+          "heading": "Top talent, high standards",
           "score": 0.0324
         },
         {
@@ -124,19 +196,14 @@
           "text": "There’s room at Uber for every talent—and talent from everywhere.",
           "heading": "Our teams",
           "score": -0.0049
-        },
-        {
-          "text": "Our heart is in our work, and we're committed to empowering people to get where they want to be.",
-          "heading": "Passionate People",
-          "score": -0.0734
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.7375,
+      "zscore": 0.7834,
       "rawTopkMean": 0.0937,
-      "nChunks": 9,
+      "nChunks": 10,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -170,9 +237,9 @@
     },
     {
       "year": 2018,
-      "zscore": 1.1696,
-      "rawTopkMean": 0.1197,
-      "nChunks": 70,
+      "zscore": 1.3118,
+      "rawTopkMean": 0.13,
+      "nChunks": 82,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -183,6 +250,16 @@
           "score": 0.16
         },
         {
+          "text": "Help improve local economies, make roads safer, and bring opportunities to millions of people around the world.",
+          "heading": "Welcoming for everyone",
+          "score": 0.1284
+        },
+        {
+          "text": "In 2017, the UN Human Rights Office released standards of conduct for businesses around the world on how to treat LGBTQ+ employees, suppliers, and customers.",
+          "heading": "LGBTQ+ community",
+          "score": 0.1268
+        },
+        {
           "text": "We want to create a workplace that is inclusive and reflects the diversity of the cities we serve.",
           "heading": "Welcoming for everyone",
           "score": 0.1179
@@ -191,32 +268,32 @@
           "text": "We’re proud to have joined the Human Rights Campaign’s Business Coalition for the Equality Act and supported federal legislation in the U.S. that would ensure equal protections in the workplace for members of the LGBTQ+ community.",
           "heading": "Continuing to stand up for what’s right",
           "score": 0.1172
-        },
-        {
-          "text": "Take a look at our latest diversity report.",
-          "heading": "Welcoming for everyone",
-          "score": 0.1028
-        },
-        {
-          "text": "Learn more about all the work our Employee Resource Groups are doing below.",
-          "heading": "The people who move Uber",
-          "score": 0.1006
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": 0.9797,
-      "rawTopkMean": 0.1083,
-      "nChunks": 39,
+      "zscore": 1.2116,
+      "rawTopkMean": 0.1232,
+      "nChunks": 80,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "We publicly support policies that drive diversity and inclusion in the countries where we operate so that people everywhere have the right to live, work, and be their authentic selves.",
+          "heading": "Continuing to stand up for what’s right",
+          "score": 0.16
+        },
+        {
           "text": "In 2017, the UN Human Rights Office released standards of conduct for businesses around the world on how to treat LGBTQ+ employees, suppliers, and customers.",
           "heading": "LGBTQ+ community",
           "score": 0.1268
+        },
+        {
+          "text": "We’re proud to have joined the Human Rights Campaign’s Business Coalition for the Equality Act and supported federal legislation in the US that would ensure equal protections in the workplace for members of the LGBTQ+ community.",
+          "heading": "Continuing to stand up for what’s right",
+          "score": 0.114
         },
         {
           "text": "By creating an environment where people from every background can thrive, we’ll make Uber a better company—for our employees and our customers.",
@@ -227,22 +304,12 @@
           "text": "It’s our goal to create a workplace that is inclusive and reflects the diversity of the cities we serve—where everyone can be their authentic self, and where that authenticity is celebrated as a strength.",
           "heading": "Getting diversity right",
           "score": 0.1061
-        },
-        {
-          "text": "In total, over a third of employees chose to answer, and 15% identify as LGBTQ+.",
-          "heading": "LGBTQ+ community",
-          "score": 0.1026
-        },
-        {
-          "text": "We also asked our employees to self-identify their sexual orientation and gender identity.",
-          "heading": "LGBTQ+ community",
-          "score": 0.0971
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 0.9823,
+      "zscore": 0.9973,
       "rawTopkMean": 0.1084,
       "nChunks": 42,
       "kUsed": 5,

@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2001,
-      "zscore": 0.1544,
+      "zscore": -0.1201,
       "rawTopkMean": 0.0467,
       "nChunks": 70,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2005,
-      "zscore": -0.0513,
+      "zscore": -0.386,
       "rawTopkMean": 0.0376,
       "nChunks": 26,
       "kUsed": 5,
@@ -77,7 +77,7 @@
     },
     {
       "year": 2006,
-      "zscore": 3.1334,
+      "zscore": 3.7307,
       "rawTopkMean": 0.1796,
       "nChunks": 41,
       "kUsed": 5,
@@ -113,7 +113,7 @@
     },
     {
       "year": 2007,
-      "zscore": 0.8103,
+      "zscore": 0.7277,
       "rawTopkMean": 0.076,
       "nChunks": 35,
       "kUsed": 5,
@@ -149,7 +149,7 @@
     },
     {
       "year": 2008,
-      "zscore": -0.1149,
+      "zscore": -0.4682,
       "rawTopkMean": 0.0347,
       "nChunks": 15,
       "kUsed": 5,
@@ -185,9 +185,9 @@
     },
     {
       "year": 2010,
-      "zscore": 0.6852,
+      "zscore": 0.566,
       "rawTopkMean": 0.0704,
-      "nChunks": 79,
+      "nChunks": 91,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -221,9 +221,9 @@
     },
     {
       "year": 2011,
-      "zscore": -0.2676,
-      "rawTopkMean": 0.0279,
-      "nChunks": 15,
+      "zscore": -0.3234,
+      "rawTopkMean": 0.0397,
+      "nChunks": 47,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -239,27 +239,27 @@
           "score": 0.0487
         },
         {
+          "text": "Ashoka Youth Ventures enables young people to solve problems in their own communities.",
+          "heading": "Our Relationships",
+          "score": 0.0327
+        },
+        {
           "text": "For an enhanced experience install flash",
           "heading": "Being a Responsible Company",
           "score": 0.0284
         },
         {
-          "text": "Starbucks Coffee Company is an Equal Opportunity employer.",
-          "heading": "What’s it like to work at Starbucks?",
-          "score": 0.0097
-        },
-        {
-          "text": "It’s a lot like working with friends.",
-          "heading": "What’s it like to work at Starbucks?",
-          "score": -0.0091
+          "text": "You save 10¢ and another paper cup every time.",
+          "heading": "How You Can Help",
+          "score": 0.027
         }
       ]
     },
     {
       "year": 2012,
-      "zscore": -0.6249,
+      "zscore": -1.1276,
       "rawTopkMean": 0.012,
-      "nChunks": 51,
+      "nChunks": 52,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -293,9 +293,9 @@
     },
     {
       "year": 2013,
-      "zscore": 0.0008,
+      "zscore": -0.3186,
       "rawTopkMean": 0.0399,
-      "nChunks": 76,
+      "nChunks": 88,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -329,9 +329,9 @@
     },
     {
       "year": 2014,
-      "zscore": 0.7957,
+      "zscore": 0.7089,
       "rawTopkMean": 0.0753,
-      "nChunks": 44,
+      "nChunks": 76,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -365,9 +365,9 @@
     },
     {
       "year": 2015,
-      "zscore": 0.5481,
+      "zscore": 0.3888,
       "rawTopkMean": 0.0643,
-      "nChunks": 213,
+      "nChunks": 240,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -401,9 +401,9 @@
     },
     {
       "year": 2016,
-      "zscore": 0.0166,
+      "zscore": -0.2983,
       "rawTopkMean": 0.0406,
-      "nChunks": 39,
+      "nChunks": 42,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -437,13 +437,18 @@
     },
     {
       "year": 2017,
-      "zscore": -0.2174,
-      "rawTopkMean": 0.0302,
-      "nChunks": 16,
+      "zscore": -0.3186,
+      "rawTopkMean": 0.0399,
+      "nChunks": 43,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "It’s the opportunity to become your personal best.",
+          "heading": "To Be A Partner",
+          "score": 0.0687
+        },
         {
           "text": "To learn more about the Global Fund, visit www.theglobalfund.org .",
           "heading": "Story of Impact",
@@ -463,19 +468,14 @@
           "text": "To learn more about (RED) and join the conversation, visit red.org .",
           "heading": "Story of Impact",
           "score": 0.0281
-        },
-        {
-          "text": "Everything changed when they met at a weekly HIV support group at the (RED)-funded Nyammata Hospital.",
-          "heading": "Story of Impact",
-          "score": 0.02
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": -0.0887,
-      "rawTopkMean": 0.0359,
-      "nChunks": 89,
+      "zscore": -0.216,
+      "rawTopkMean": 0.0434,
+      "nChunks": 105,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -496,98 +496,103 @@
           "score": 0.0429
         },
         {
-          "text": "At the end of its life, *if polypropylene (#5) plastic recycling is available in your region, you can recycle this cup and help minimize your impact on the planet even more.",
-          "heading": "What We’re Doing Now",
-          "score": 0.0194
+          "text": "To learn more about the Global Fund, visit www.theglobalfund.org .",
+          "heading": "Story of Impact",
+          "score": 0.0395
         },
         {
-          "text": "And since you receive a 10-cent discount every time you use it in our stores, this cup pays for itself in just 10 uses.",
-          "heading": "What We’re Doing Now",
-          "score": 0.0165
+          "text": "Just a few years ago they were strangers, orphans living separate lives in Rwanda yet connected by the burden of an HIV diagnosis.",
+          "heading": "Story of Impact",
+          "score": 0.0341
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": -1.1502,
-      "rawTopkMean": -0.0114,
-      "nChunks": 8,
+      "zscore": -0.3973,
+      "rawTopkMean": 0.0372,
+      "nChunks": 69,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Being present, connecting with transparency, dignity and respect.",
-          "heading": "Expect more than coffee.",
-          "score": 0.0075
+          "text": "It’s an opportunity to be your personal best.",
+          "heading": "Connect with something bigger",
+          "score": 0.0551
         },
         {
-          "text": "Our people are one of our most valuable assets and we provide learning opportunities to develop skills, further careers and help partners achieve their personal and professional goals.",
-          "heading": "Training and development",
-          "score": -0.006
+          "text": "To learn more about the Global Fund, visit www.theglobalfund.org .",
+          "heading": "Story of Impact",
+          "score": 0.0395
         },
         {
-          "text": "Delivering our very best in all we do, holding ourselves accountable for results.",
-          "heading": "Expect more than coffee.",
-          "score": -0.0097
+          "text": "Just a few years ago they were strangers, orphans living separate lives in Rwanda yet connected by the burden of an HIV diagnosis.",
+          "heading": "Story of Impact",
+          "score": 0.0341
         },
         {
-          "text": "As a partner (employee) who is curious, collaborative and a continuous learner, you’ll have limitless opportunities to make an impact and thrive, all while becoming your personal best and being recognized for it.",
-          "heading": "Training and development",
-          "score": -0.0139
+          "text": "Thanks to their friendship and the encouragement of others in their support group, Fabiola and Josephine’s lives have been transformed from being homeless, jobless, and extremely sick, to living under proper care, pursuing an education, and adhering a treatment regimen that provides them the health and confidence needed to embrace their bright future.",
+          "heading": "Story of Impact",
+          "score": 0.0291
         },
         {
-          "text": "We reward partners who achieve results, live our mission and values and help others succeed.",
-          "heading": "Training and development",
-          "score": -0.0352
+          "text": "To learn more about (RED) and join the conversation, visit red.org .",
+          "heading": "Story of Impact",
+          "score": 0.0281
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -1.8357,
-      "rawTopkMean": -0.042,
-      "nChunks": 7,
+      "zscore": -1.2081,
+      "rawTopkMean": 0.0092,
+      "nChunks": 48,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Animal Welfare – our preference for animal welfare-friendly practices and ingredients Deforestation – our commitment to pursuing zero net deforestation across our supply chain Sustainable Palm Oil – our commitment to using 100% RSPO certified palm oil in our company-operated stores California Transparency in Supply Chains Act – our zero tolerance policy for the use of forced labor and human traffi",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.021
+          "text": "It’s an opportunity to be your personal best.",
+          "heading": "Connect with something bigger",
+          "score": 0.0551
         },
         {
-          "text": "Standards of Business Conduct (online) or PDF – our commitment to ethical business practices Corporate Political Contributions and Expenditures – how we engage policymakers on issues that impact our business, our people and our communities 2018 Results 2017 Results 2016 Results 2015 Results 2014 Results 2013 Results 2012 Results 2011 Results 2010 Results UN Global Compact – supporting internationa",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.024
+          "text": "Projects include improving access to education and agricultural training, microfinance and microcredit services, improving biodiversity conservation, and increasing levels of health, nutrition and water sanitation.",
+          "heading": "Supporting Coffee, Tea and Cocoa Communities",
+          "score": 0.004
         },
         {
-          "text": "The policies and positions below demonstrate our commitment to being a responsible business.",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.0489
+          "text": "To learn more about the grant organizations, click the link below: 2016 Starbucks Foundation Grant Recipients Learn more about the countries and organizations we work with to strengthen Farming Communities .",
+          "heading": "2016 Starbucks Opportunity for Youth Grants",
+          "score": -0.0037
         },
         {
-          "text": "They range from global ethical business standards to our own guidelines for doing business.",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.0527
+          "text": "We are proud to partner with organizations who are providing the training and experiences needed to help opportunity youth become job ready.",
+          "heading": "2016 Starbucks Opportunity for Youth Grants",
+          "score": -0.0047
         },
         {
-          "text": "From how we buy our coffee to how we ensure the best possible workplace for our partners, we believe it is important to operate consistent with our mission: to inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.",
-          "heading": "We think it’s important to take a stand on issues to support our business and because it’s who we are and how we operate.",
-          "score": -0.0635
+          "text": "These programs provide matching grants to nonprofits where our partners’ made personal monetary and time contributions.",
+          "heading": "Community Service",
+          "score": -0.0047
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": -0.6374,
-      "rawTopkMean": 0.0114,
-      "nChunks": 33,
+      "zscore": -0.8193,
+      "rawTopkMean": 0.0226,
+      "nChunks": 45,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "It’s an opportunity to be your personal best.",
+          "heading": "Connect with something bigger",
+          "score": 0.0551
+        },
         {
           "text": "Starbucks College Achievement Plan The best investment we can make is in our people, and that’s why we came together with Arizona State University to create the Starbucks College Achievement Plan that offers eligible part and full time partners the opportunity to earn a bachelor’s degree with full tuition coverage.",
           "heading": "From the neighborhoods where our stores are located to those where our coffee is grown, we are committed to creating and investing in opportunities for people around the world.",
@@ -607,23 +612,23 @@
           "text": "Veterans & Military Support Recognizing the considerable leadership, discipline and operational experience veterans and military spouses possess, we are committed to hiring at least 10,000 by the end of 2018 and believe they are the next generation of leaders at Starbucks.",
           "heading": "From the neighborhoods where our stores are located to those where our coffee is grown, we are committed to creating and investing in opportunities for people around the world.",
           "score": 0.0027
-        },
-        {
-          "text": "Opportunity for Youth Starbucks and the Starbucks Foundation are working to connect young people to the skills and training they need to succeed in a rapidly changing global economy.",
-          "heading": "From the neighborhoods where our stores are located to those where our coffee is grown, we are committed to creating and investing in opportunities for people around the world.",
-          "score": -0.0009
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": -0.3611,
-      "rawTopkMean": 0.0237,
-      "nChunks": 166,
+      "zscore": -0.5358,
+      "rawTopkMean": 0.0324,
+      "nChunks": 171,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "It’s an opportunity to be your personal best.",
+          "heading": "Join us. Inspire with every cup.",
+          "score": 0.0551
+        },
         {
           "text": "See how you can join us.</p>",
           "heading": "",
@@ -643,19 +648,14 @@
           "text": "This includes a detailed discussion guide with scenarios for managers to understand how to connect with each partner more deeply, based on their individual experiences and challenges.</p> <p class=\"is-style-default\"><strong>Updated and relevant training for all partners</strong></p> <p class=\"is-style-default\">We are requiring all leaders who are vice presidents and above to complete a two-hour an",
           "heading": "",
           "score": 0.0119
-        },
-        {
-          "text": "Her story epitomizes this year’s AANHPI Heritage Month theme: “Our Stories.",
-          "heading": "",
-          "score": 0.0118
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": 1.1737,
+      "zscore": 1.1975,
       "rawTopkMean": 0.0922,
-      "nChunks": 196,
+      "nChunks": 221,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -689,9 +689,9 @@
     },
     {
       "year": 2024,
-      "zscore": 0.1544,
-      "rawTopkMean": 0.0467,
-      "nChunks": 92,
+      "zscore": 0.0746,
+      "rawTopkMean": 0.0535,
+      "nChunks": 116,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -707,91 +707,91 @@
           "score": 0.0558
         },
         {
+          "text": "It’s an opportunity to be your personal best.",
+          "heading": "Join us. Inspire with every cup.",
+          "score": 0.0551
+        },
+        {
           "text": "The identification of these race and ethnicity categories are provided by the Equal Employment Opportunity Commission.",
           "heading": "Setting and maintaining representation goals",
           "score": 0.045
         },
         {
-          "text": "It’s a way to continue serving others.” Kress, himself a veteran who served 22 years in the U.S.",
-          "heading": "A life of service: Meet some of the 25,000 veterans and military spouses Starbucks has hired",
-          "score": 0.0286
-        },
-        {
-          "text": "In 2013, Starbucks made a commitment to hire 10,000 veterans and military spouses by 2018.",
-          "heading": "A life of service: Meet some of the 25,000 veterans and military spouses Starbucks has hired",
-          "score": 0.026
+          "text": "To do this, we are enhancing our efforts in reaching a broader pool of candidates and fostering inclusivity in our recruitment practices, assessing partner engagement, and continuing to provide opportunities for inclusive leadership training.",
+          "heading": "Our Partners",
+          "score": 0.0331
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": -0.4789,
-      "rawTopkMean": 0.0185,
-      "nChunks": 32,
+      "zscore": -0.2065,
+      "rawTopkMean": 0.0438,
+      "nChunks": 60,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We hope to meet you soon.",
+          "heading": "Working at Starbucks",
+          "score": 0.0783
+        },
+        {
+          "text": "The program includes a third-party verification process that is overseen by SCS Global Services, responsible for ensuring the quality and integrity of the audits.",
+          "heading": "Coffee",
+          "score": 0.0558
+        },
         {
           "text": "Although we endeavor to support our suppliers through multiple channels of engagement and paths to improvement, there are times when we must halt business due to the nature of issues until our standards can be met.",
           "heading": "Ethically Sourced Manufactured Goods",
           "score": 0.0437
         },
         {
+          "text": "Practices is a verification program that measures farms against economic, social and environmental criteria, all designed to promote transparent, profitable and sustainable coffee growing practices while also protecting the well-being of coffee farmers and workers, their families and their communities.",
+          "heading": "Coffee",
+          "score": 0.0224
+        },
+        {
           "text": "If you don’t see the milk or sweetener you prefer, don’t hesitate to ask a barista.",
           "heading": "The condiment bar is back",
           "score": 0.0186
-        },
-        {
-          "text": "At the same time, roughly one-third of food is wasted.",
-          "heading": "Hunger Relief",
-          "score": 0.0171
-        },
-        {
-          "text": "Every coffee we roast is as unique as you are",
-          "heading": "Search jobs & Apply now",
-          "score": 0.0074
-        },
-        {
-          "text": "Through our unwavering commitment to excellence and our guiding principles, we bring the unique Starbucks Experience to life for every customer through every cup.",
-          "heading": "Highlights of partner investments include:",
-          "score": 0.0057
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": -1.6447,
-      "rawTopkMean": -0.0335,
-      "nChunks": 6,
+      "zscore": -0.6503,
+      "rawTopkMean": 0.0284,
+      "nChunks": 26,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
-          "heading": "",
-          "score": -0.023
+          "text": "We hope to meet you soon.",
+          "heading": "Working at Starbucks",
+          "score": 0.0783
         },
         {
-          "text": "Whether it’s arabica coffee, tea, cocoa or manufactured goods, we’re committed to offering ethically purchased and responsibly produced sustainable products of the highest quality.",
-          "heading": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
-          "score": -0.0241
+          "text": "The program includes a third-party verification process that is overseen by SCS Global Services, responsible for ensuring the quality and integrity of the audits.",
+          "heading": "Coffee",
+          "score": 0.0558
         },
         {
-          "text": "International opportunities help us deliver our mission and values all over the world.",
-          "heading": "A Truly Global Company",
-          "score": -0.0324
+          "text": "Practices is a verification program that measures farms against economic, social and environmental criteria, all designed to promote transparent, profitable and sustainable coffee growing practices while also protecting the well-being of coffee farmers and workers, their families and their communities.",
+          "heading": "Coffee",
+          "score": 0.0224
         },
         {
-          "text": "Starbucks ethical sourcing makes it possible to provide quality sustainable products like arabica coffee and help our community thrive.",
-          "heading": "",
-          "score": -0.0364
+          "text": "Practices Impact Assessment Report prepared by Conservation International.",
+          "heading": "Measuring the Impact of C.A.F.E. Practices",
+          "score": -0.0023
         },
         {
-          "text": "Helping people thrive helps ensure the long-term sustainability of the premium products we provide.",
-          "heading": "<strong>Our success is linked to the success of the farmers and suppliers who grow and produce our products.</strong>",
-          "score": -0.0517
+          "text": "Practices has helped Starbucks create a long-term supply of high-quality coffee and positively impact the lives and livelihoods of coffee farmers and their communities.",
+          "heading": "Coffee",
+          "score": -0.012
         }
       ]
     }

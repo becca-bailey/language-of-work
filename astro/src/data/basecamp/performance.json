@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2002,
-      "zscore": -0.0254,
+      "zscore": -1.3538,
       "rawTopkMean": 0.4261,
       "nChunks": 17,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2003,
-      "zscore": -0.0678,
+      "zscore": -1.4186,
       "rawTopkMean": 0.4227,
       "nChunks": 11,
       "kUsed": 5,
@@ -77,33 +77,43 @@
     },
     {
       "year": 2004,
-      "zscore": -3.0412,
-      "rawTopkMean": 0.1892,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -1.4186,
+      "rawTopkMean": 0.4227,
+      "nChunks": 11,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "CommArts publishes our article on 37BetterFedEx (our proposed redesign of FedEx's online shipping form).",
-          "heading": "37signals Highlights",
-          "score": 0.2206
+          "text": "We work with smart clients who understand that it's the customer, not org-charts or office politics, who matters most.",
+          "heading": "How do I know if we're a good match?",
+          "score": 0.4983
         },
         {
-          "text": "New Architect magazine publishes Making Mistakes Well , our article on contingency design.",
-          "heading": "37signals Highlights",
-          "score": 0.1932
+          "text": "We're a small, honest, agile team of experts with tons of experience (we've all been working on the web since 1995).",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.4942
         },
         {
-          "text": "Free Holiday E-Commerce Ideas from 37signals. 37signals' Design Not Found covered in this N.Y.",
-          "heading": "37signals Highlights",
-          "score": 0.1536
+          "text": "These clients are hard to find, so when we get them we treat them well.",
+          "heading": "How do I know if we're a good match?",
+          "score": 0.4122
+        },
+        {
+          "text": "We give all of our clients personal attention and are proud that 100% of our clients are references.",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.3858
+        },
+        {
+          "text": "Our obsession with simplicity and clarity in interface design is why we're called \"the masters par excellence of HTMinimaLism\" by the author of Fresh Styles for Web Designers , and the sites we've designed prove that usability can be elegant.",
+          "heading": "How is 37signals different than other web firms?",
+          "score": 0.3231
         }
       ]
     },
     {
       "year": 2009,
-      "zscore": 0.419,
+      "zscore": -0.6768,
       "rawTopkMean": 0.461,
       "nChunks": 28,
       "kUsed": 5,
@@ -139,13 +149,18 @@
     },
     {
       "year": 2010,
-      "zscore": 0.3192,
-      "rawTopkMean": 0.4531,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -0.7513,
+      "rawTopkMean": 0.4571,
+      "nChunks": 27,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We work hard to make sure we live up to that reputation every day.",
+          "heading": "We believe",
+          "score": 0.5183
+        },
         {
           "text": "We care deeply about the products we build for our customers.",
           "heading": "We make it easier to get work done",
@@ -160,14 +175,19 @@
           "text": "We put this energy into building web-based apps that make it easier to collaborate, share, discuss, and get work done.",
           "heading": "We make it easier to get work done",
           "score": 0.4221
+        },
+        {
+          "text": "We’re known for fast, concise, and friendly customer service and support.",
+          "heading": "We believe",
+          "score": 0.408
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": 0.4847,
-      "rawTopkMean": 0.4661,
-      "nChunks": 19,
+      "zscore": -0.5587,
+      "rawTopkMean": 0.4671,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -193,17 +213,53 @@
           "score": 0.4418
         },
         {
-          "text": "We’re also big believers in business 101.",
+          "text": "We don’t chase fads and trends, we stay focused on the things that will always be important.",
+          "heading": "Investing in the things that don’t go out of style.",
+          "score": 0.4113
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "zscore": -0.5587,
+      "rawTopkMean": 0.4671,
+      "nChunks": 22,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We’re designers, programmers, tinkerers, writers, speakers, bikers, engineers, runners, developers, chefs, analysts, campers, musicians, filmmakers, knitters, hikers, authors, photographers, pilots, race car drivers, readers, travelers, gardeners, volunteers, parents, and hard workers.",
+          "heading": "We the Basecamp.",
+          "score": 0.5172
+        },
+        {
+          "text": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning.",
           "heading": "Giving a damn.",
-          "score": 0.4067
+          "score": 0.5123
+        },
+        {
+          "text": "We treat our customers as we’d want to be treated, we treat each other like family, and we treat ourselves to a good day’s work and a good night’s sleep.",
+          "heading": "Giving a damn.",
+          "score": 0.4528
+        },
+        {
+          "text": "With such a diverse group of people , from so many different places, we bring a unique perspective to everything we do.",
+          "heading": "We the Basecamp.",
+          "score": 0.4418
+        },
+        {
+          "text": "We don’t chase fads and trends, we stay focused on the things that will always be important.",
+          "heading": "Investing in the things that don’t go out of style.",
+          "score": 0.4113
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": 0.2036,
-      "rawTopkMean": 0.4441,
-      "nChunks": 37,
+      "zscore": -0.3501,
+      "rawTopkMean": 0.4778,
+      "nChunks": 50,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -214,32 +270,32 @@
           "score": 0.5172
         },
         {
+          "text": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning.",
+          "heading": "Giving a damn",
+          "score": 0.5123
+        },
+        {
           "text": "Basecamp is our life’s work—we’re in this for the long haul.",
           "heading": "It’s a promise to our customers",
           "score": 0.4721
         },
         {
+          "text": "We treat our customers as we’d want to be treated, we treat each other like family, and we treat ourselves to a good day’s work and a good night’s sleep.",
+          "heading": "Giving a damn",
+          "score": 0.4528
+        },
+        {
           "text": "With such a diverse group of people, from so many different places, we bring a unique perspective to everything we do.",
           "heading": "We the Basecamp!",
           "score": 0.4348
-        },
-        {
-          "text": "We’re big into sharing, so we even wrote a NYT best-selling book called REWORK that details how we run a happy and healthy business.",
-          "heading": "We the Basecamp!",
-          "score": 0.4075
-        },
-        {
-          "text": "We started out with four people, and today we’re a company of about 50 spread out across 32 different cities around the world.",
-          "heading": "We the Basecamp!",
-          "score": 0.3888
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 1.3884,
-      "rawTopkMean": 0.5371,
-      "nChunks": 20,
+      "zscore": 1.1029,
+      "rawTopkMean": 0.5528,
+      "nChunks": 53,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -260,22 +316,22 @@
           "score": 0.5586
         },
         {
-          "text": "If you consider yourself an eager learner, a conscientious worker, and a thoughtful, kind, supportive human, you might just have a home here.",
-          "heading": "Who you are",
-          "score": 0.506
+          "text": "We’re designers, programmers, tinkerers, writers, speakers, bikers, engineers, runners, developers, chefs, analysts, campers, musicians, filmmakers, knitters, hikers, authors, photographers, pilots, race car drivers, readers, travelers, gardeners, volunteers, parents, and hard workers.",
+          "heading": "We the Basecamp!",
+          "score": 0.5172
         },
         {
-          "text": "In broad strokes, Managers of One thrive at Basecamp.",
-          "heading": "Who you are",
-          "score": 0.4454
+          "text": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning.",
+          "heading": "Giving a damn",
+          "score": 0.5123
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": 0.4263,
-      "rawTopkMean": 0.4616,
-      "nChunks": 33,
+      "zscore": 0.3879,
+      "rawTopkMean": 0.5159,
+      "nChunks": 66,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -291,99 +347,99 @@
           "score": 0.5222
         },
         {
-          "text": "These are the people that make Basecamp, support our customers, and keep the ship running every day.",
-          "heading": "Meet the team.",
-          "score": 0.4176
+          "text": "We’re designers, programmers, tinkerers, writers, speakers, bikers, engineers, runners, developers, chefs, analysts, campers, musicians, filmmakers, knitters, hikers, authors, photographers, pilots, race car drivers, readers, travelers, gardeners, volunteers, parents, and hard workers.",
+          "heading": "We the Basecamp!",
+          "score": 0.5172
         },
         {
-          "text": "That's why so many people who work at Basecamp stay at Basecamp.",
-          "heading": "Meet the team.",
-          "score": 0.3966
+          "text": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning.",
+          "heading": "Giving a damn",
+          "score": 0.5123
         },
         {
-          "text": "And sometimes we gather together in this space when we’re hard at work preparing to launch something new (as seen below).",
-          "heading": "Basecamp HQ in Chicago",
-          "score": 0.3965
+          "text": "We treat our customers as we’d want to be treated, we treat each other like family, and we treat ourselves to a good day’s work and a good night’s sleep.",
+          "heading": "Giving a damn",
+          "score": 0.4528
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": -0.369,
-      "rawTopkMean": 0.3991,
-      "nChunks": 106,
+      "zscore": -0.3281,
+      "rawTopkMean": 0.479,
+      "nChunks": 224,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We’ll continue to work hard every day to maintain that trust.",
-          "heading": "15 years in business.",
-          "score": 0.4311
+          "text": "We’re designers, programmers, tinkerers, writers, speakers, bikers, engineers, runners, developers, chefs, analysts, campers, musicians, filmmakers, knitters, hikers, authors, photographers, pilots, race car drivers, readers, travelers, gardeners, volunteers, parents, and hard workers.",
+          "heading": "We the Basecamp!",
+          "score": 0.5172
         },
         {
-          "text": "As an organization, we’ve put considerable effort and attention into how we communicate internally.",
-          "heading": "OK, so what to do instead?",
-          "score": 0.4244
+          "text": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning.",
+          "heading": "Giving a damn",
+          "score": 0.5123
         },
         {
-          "text": "Longevity and stability is core to our mission at Basecamp.",
-          "heading": "15 years in business.",
-          "score": 0.4156
+          "text": "Full attention is required to do great work.",
+          "heading": "Chat attacks attention and severely hinders deep work",
+          "score": 0.4778
         },
         {
-          "text": "We’ve been around the block and we’ve seen a lot of companies come and go.",
-          "heading": "15 years in business.",
-          "score": 0.3718
+          "text": "We treat our customers as we’d want to be treated, we treat each other like family, and we treat ourselves to a good day’s work and a good night’s sleep.",
+          "heading": "Giving a damn",
+          "score": 0.4528
         },
         {
-          "text": "Over the past 15 years we’ve worked hard to earn the trust of over hundreds of thousands of companies world wide.",
-          "heading": "15 years in business.",
-          "score": 0.3526
+          "text": "With such a diverse group of people, from so many different places, we bring a unique perspective to everything we do.",
+          "heading": "We the Basecamp!",
+          "score": 0.4348
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -0.2785,
-      "rawTopkMean": 0.4062,
-      "nChunks": 213,
+      "zscore": -0.3834,
+      "rawTopkMean": 0.4761,
+      "nChunks": 299,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We’re designers, programmers, tinkerers, writers, speakers, bikers, engineers, runners, developers, chefs, analysts, campers, musicians, filmmakers, knitters, hikers, authors, photographers, pilots, race car drivers, readers, travelers, gardeners, volunteers, parents, and hard workers.",
+          "heading": "We the Basecamp!",
+          "score": 0.5172
+        },
+        {
+          "text": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning.",
+          "heading": "Giving a damn",
+          "score": 0.5123
+        },
         {
           "text": "We don’t want to have a culture of Basecamperinos CRUSHING IT to get to the NEXT LEVEL with some super-duper PEAK PERFORMANCE, BRUH .",
           "heading": "Vocabulary",
           "score": 0.4635
         },
         {
-          "text": "This section includes specific examples of how we apply our philosophy day-to-day across the company.",
-          "heading": "Communicating day-to-day",
-          "score": 0.4067
+          "text": "We treat our customers as we’d want to be treated, we treat each other like family, and we treat ourselves to a good day’s work and a good night’s sleep.",
+          "heading": "Giving a damn",
+          "score": 0.4528
         },
         {
-          "text": "But we were inspired by how we, internally, have used Basecamp to run Basecamp, and we want to extend that philosophy to our current customers and scores of brand-new customers.",
-          "heading": "Basecamp",
-          "score": 0.3972
-        },
-        {
-          "text": "Our outstanding team is always at your service.",
-          "heading": "The story of Basecamp.",
-          "score": 0.3964
-        },
-        {
-          "text": "After Jason and David published their book REMOTE, we realized we wanted to be on the forefront of promoting remote work.",
-          "heading": "WeWorkRemotely.com",
-          "score": 0.367
+          "text": "With such a diverse group of people, from so many different places, we bring a unique perspective to everything we do.",
+          "heading": "We the Basecamp!",
+          "score": 0.4348
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 0.4507,
-      "rawTopkMean": 0.4635,
-      "nChunks": 159,
+      "zscore": -0.2768,
+      "rawTopkMean": 0.4816,
+      "nChunks": 424,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -394,32 +450,68 @@
           "score": 0.5125
         },
         {
+          "text": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning.",
+          "heading": "Giving a damn",
+          "score": 0.5123
+        },
+        {
           "text": "Full attention is required to do great work.",
           "heading": "Chat attacks attention and severely hinders deep work",
           "score": 0.4778
         },
         {
-          "text": "This is especially important since we’re a relatively small company with just two layers of managerial cake: executives and team managers.",
-          "heading": "Mastery & Titles",
+          "text": "We treat our customers as we’d want to be treated, we treat each other like family, and we treat ourselves to a good day’s work and a good night’s sleep.",
+          "heading": "Giving a damn",
           "score": 0.4528
         },
         {
-          "text": "Basecamp needs people and perspectives from all levels of skill.",
+          "text": "This is especially important since we’re a relatively small company with just two layers of managerial cake: executives and team managers.",
           "heading": "Mastery & Titles",
-          "score": 0.4436
-        },
-        {
-          "text": "It takes many forms, and we’re always working towards a more perfect system, but we help groups of people get their shit together - and keep it together - so they can do their best work with their team, in their company, for their own customers.",
-          "heading": "Helping small businesses deal with growth",
-          "score": 0.4308
+          "score": 0.4528
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 1.7142,
+      "zscore": 1.3207,
+      "rawTopkMean": 0.564,
+      "nChunks": 333,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We run the gamut in geography, lifestyle, and interest, but we’re all here to do exceptional work, build wonderfully novel, straightforward products, experiment, pay attention to the details, treat people right, tell the truth, teach, give back, and keep learning.",
+          "heading": "Who we are",
+          "score": 0.6256
+        },
+        {
+          "text": "We work hard to make sure every employee is given the freedom, tools, trust, and support to do the best work of their careers.",
+          "heading": "What it’s like to work here",
+          "score": 0.575
+        },
+        {
+          "text": "We value a calm company and deliberate, concerted effort.",
+          "heading": "What it’s like to work here",
+          "score": 0.5586
+        },
+        {
+          "text": "An eclectic crew united by intellectual curiosity and a commitment to creating truly great products.",
+          "heading": "Who we are",
+          "score": 0.5485
+        },
+        {
+          "text": "Our goals have always been the same: Have fun, do exceptional work, build the best product in the business, experiment, pay attention to the details, treat people right, tell the truth, have a positive impact on the world around us, give back, and keep learning.",
+          "heading": "Giving a damn",
+          "score": 0.5123
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": 1.2965,
       "rawTopkMean": 0.5627,
-      "nChunks": 113,
+      "nChunks": 431,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -452,146 +544,110 @@
       ]
     },
     {
-      "year": 2023,
-      "zscore": -0.2055,
-      "rawTopkMean": 0.4119,
-      "nChunks": 115,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "But most of all, we feel a deep sense of responsibility to continue to make the best product we can for companies who desperately seek a better way to work.",
-          "heading": "Where we came from.",
-          "score": 0.4882
-        },
-        {
-          "text": "It can be unnerving to join any company, but perhaps 37signals in particular, given how different some of our practices are.",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.4042
-        },
-        {
-          "text": "So, this is where we’ll try to share what’s worth knowing about 37signals the company, our culture, our process, and our history.",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.4004
-        },
-        {
-          "text": "Making the company our best product is a guiding principle, but we can’t easily improve what we haven’t articulated.",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.3875
-        },
-        {
-          "text": "Below you’ll find a collection of general principles we try to keep in mind at 37signals when communicating with teammates, within departments, across the company, and with the public.",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.3794
-        }
-      ]
-    },
-    {
       "year": 2024,
-      "zscore": 0.345,
-      "rawTopkMean": 0.4552,
-      "nChunks": 99,
+      "zscore": 1.3741,
+      "rawTopkMean": 0.5667,
+      "nChunks": 452,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We run the gamut in geography, lifestyle, and interest, but we’re all here to do exceptional work, build wonderfully novel, straightforward products, experiment, pay attention to the details, treat people right, tell the truth, teach, give back, and keep learning.",
+          "heading": "Who we are",
+          "score": 0.6256
+        },
+        {
+          "text": "We work hard to make sure every employee is given the freedom, tools, trust, and support to do the best work of their careers.",
+          "heading": "What it’s like to work here",
+          "score": 0.575
+        },
+        {
+          "text": "We value a calm company and deliberate, concerted effort.",
+          "heading": "What it’s like to work here",
+          "score": 0.5586
+        },
+        {
+          "text": "An eclectic crew united by intellectual curiosity and a commitment to creating truly great products.",
+          "heading": "Who we are",
+          "score": 0.5485
+        },
         {
           "text": "We don’t care where employees choose to live and work, just that they’re here to do great work on exceptional products, alongside a world-class team.",
           "heading": "Remotely",
           "score": 0.5261
-        },
-        {
-          "text": "We rely on everyone at 37signals to do a lot of self-management.",
-          "heading": "With managers of one",
-          "score": 0.468
-        },
-        {
-          "text": "People who do this well are managers of one , and we expect everyone to embody this principle.",
-          "heading": "With managers of one",
-          "score": 0.4653
-        },
-        {
-          "text": "Our team works from all over the world, across 5 continents.",
-          "heading": "Remotely",
-          "score": 0.4243
-        },
-        {
-          "text": "There’s always more work to be done, always more initiatives to kick off, and always more improvement to be had.",
-          "heading": "With managers of one",
-          "score": 0.3922
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": -0.8068,
-      "rawTopkMean": 0.3647,
-      "nChunks": 70,
+      "zscore": 1.2965,
+      "rawTopkMean": 0.5627,
+      "nChunks": 253,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Your first year with 37signals should confirm what we learned in the hiring phase — you’re well suited for this job, and you’re invigorated by the work to be done.",
-          "heading": "Your First Year",
-          "score": 0.4226
+          "text": "We run the gamut in geography, lifestyle, and interest, but we’re all here to do exceptional work, build wonderfully novel, straightforward products, experiment, pay attention to the details, treat people right, tell the truth, teach, give back, and keep learning.",
+          "heading": "Who we are",
+          "score": 0.6256
         },
         {
-          "text": "Below you’ll find a collection of general principles we try to keep in mind at 37signals when making decisions.",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.3849
+          "text": "We work hard to make sure every employee is given the freedom, tools, trust, and support to do the best work of their careers.",
+          "heading": "What it’s like to work here",
+          "score": 0.575
         },
         {
-          "text": "You’re a key contributor to heartbeats, kickoffs, and both internal and external feature releases.",
-          "heading": "Communication",
-          "score": 0.3706
+          "text": "We value a calm company and deliberate, concerted effort.",
+          "heading": "What it’s like to work here",
+          "score": 0.5586
         },
         {
-          "text": "A company is essentially two things: a group of people and a collection of decisions.",
-          "heading": "The 37signals Guide to Making Decisions",
-          "score": 0.3268
+          "text": "An eclectic crew united by intellectual curiosity and a commitment to creating truly great products.",
+          "heading": "Who we are",
+          "score": 0.5485
         },
         {
-          "text": "Is anyone outside the company depending on this, or is this a decision of our own making?",
-          "heading": "Rules of thumb, and general philosophy",
-          "score": 0.3185
+          "text": "If you consider yourself an eager learner, a conscientious worker, and a thoughtful, kind, supportive human, you might just have a home here.",
+          "heading": "Who you are",
+          "score": 0.506
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": -0.9567,
-      "rawTopkMean": 0.3529,
-      "nChunks": 36,
+      "zscore": 1.2965,
+      "rawTopkMean": 0.5627,
+      "nChunks": 251,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Truth is, we built Basecamp out of desperate necessity .",
-          "heading": "Where we came from.",
-          "score": 0.3759
+          "text": "We run the gamut in geography, lifestyle, and interest, but we’re all here to do exceptional work, build wonderfully novel, straightforward products, experiment, pay attention to the details, treat people right, tell the truth, teach, give back, and keep learning.",
+          "heading": "Who we are",
+          "score": 0.6256
         },
         {
-          "text": "Everything you need to know about making a career at 37signals.",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.3724
+          "text": "We work hard to make sure every employee is given the freedom, tools, trust, and support to do the best work of their careers.",
+          "heading": "What it’s like to work here",
+          "score": 0.575
         },
         {
-          "text": "As we grew, we kept taking on more and more projects.",
-          "heading": "Where we came from.",
-          "score": 0.355
+          "text": "We value a calm company and deliberate, concerted effort.",
+          "heading": "What it’s like to work here",
+          "score": 0.5586
         },
         {
-          "text": "If you’re new to the company, welcome!",
-          "heading": "The 37signals Employee Handbook",
-          "score": 0.3335
+          "text": "An eclectic crew united by intellectual curiosity and a commitment to creating truly great products.",
+          "heading": "Who we are",
+          "score": 0.5485
         },
         {
-          "text": "Way back when, we used to be a design firm.",
-          "heading": "Where we came from.",
-          "score": 0.3278
+          "text": "If you consider yourself an eager learner, a conscientious worker, and a thoughtful, kind, supportive human, you might just have a home here.",
+          "heading": "Who you are",
+          "score": 0.506
         }
       ]
     }

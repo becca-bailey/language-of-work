@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 1999,
-      "zscore": -0.1352,
+      "zscore": -0.4921,
       "rawTopkMean": 0.054,
       "nChunks": 19,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2004,
-      "zscore": -1.6701,
+      "zscore": -1.9681,
       "rawTopkMean": -0.0739,
       "nChunks": 9,
       "kUsed": 5,
@@ -77,7 +77,7 @@
     },
     {
       "year": 2007,
-      "zscore": -1.8378,
+      "zscore": -2.1294,
       "rawTopkMean": -0.0879,
       "nChunks": 6,
       "kUsed": 5,
@@ -113,7 +113,7 @@
     },
     {
       "year": 2008,
-      "zscore": -1.5626,
+      "zscore": -1.8647,
       "rawTopkMean": -0.0649,
       "nChunks": 4,
       "kUsed": 4,
@@ -144,28 +144,43 @@
     },
     {
       "year": 2009,
-      "zscore": -0.3083,
-      "rawTopkMean": 0.0396,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -0.4048,
+      "rawTopkMean": 0.0615,
+      "nChunks": 15,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Work behind the scenes—where we design, engineer, and launch every Mac, iPod, iPhone, and Apple software title.",
+          "heading": "",
+          "score": 0.1733
+        },
         {
           "text": "With business booming at retail locations from SoHo to Tokyo, Apple is growing fast.",
           "heading": "Apple Store",
           "score": 0.1102
         },
         {
-          "text": "Are you ready to grow with us?",
-          "heading": "Apple Store",
-          "score": -0.0311
+          "text": "A lot of big companies are about endless meetings.",
+          "heading": "",
+          "score": 0.0383
+        },
+        {
+          "text": "And do all the other stuff that makes that possible.",
+          "heading": "",
+          "score": -0.0038
+        },
+        {
+          "text": "We also have a shared obsession with getting every last detail right.",
+          "heading": "",
+          "score": -0.0103
         }
       ]
     },
     {
       "year": 2010,
-      "zscore": 0.1575,
+      "zscore": -0.2105,
       "rawTopkMean": 0.0784,
       "nChunks": 15,
       "kUsed": 5,
@@ -201,7 +216,7 @@
     },
     {
       "year": 2012,
-      "zscore": 0.9252,
+      "zscore": 0.5277,
       "rawTopkMean": 0.1423,
       "nChunks": 34,
       "kUsed": 5,
@@ -237,66 +252,81 @@
     },
     {
       "year": 2013,
-      "zscore": -1.4581,
-      "rawTopkMean": -0.0562,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": 0.5277,
+      "rawTopkMean": 0.1423,
+      "nChunks": 21,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We’re always adding new stores and expanding into new countries.",
-          "heading": "400 Apple Retail Stores worldwide (and counting).",
-          "score": 0.0256
+          "text": "That might be a new product feature that delights even die-hard fans.",
+          "heading": "",
+          "score": 0.2042
         },
         {
-          "text": "Which means there’s a good chance you can live and work in a city you love.",
-          "heading": "400 Apple Retail Stores worldwide (and counting).",
-          "score": -0.138
+          "text": "Apple is one of the most innovative companies in the global marketplace — and one of the fastest growing.",
+          "heading": "Share your passion for Apple.",
+          "score": 0.201
+        },
+        {
+          "text": "This is where we dream up what’s next for Apple — from hardware to software to the customer experience that goes with it — and where we do everything necessary to make it happen.",
+          "heading": "",
+          "score": 0.1262
+        },
+        {
+          "text": "The result is some of the best-loved products in the world.",
+          "heading": "",
+          "score": 0.0936
+        },
+        {
+          "text": "A job at Apple is unlike any other you’ve had.",
+          "heading": "",
+          "score": 0.0866
         }
       ]
     },
     {
       "year": 2014,
-      "zscore": 0.3372,
-      "rawTopkMean": 0.0933,
-      "nChunks": 53,
+      "zscore": 0.6522,
+      "rawTopkMean": 0.1531,
+      "nChunks": 72,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "That might be a new product feature that delights even die-hard fans.",
+          "heading": "",
+          "score": 0.2042
+        },
+        {
+          "text": "Apple is one of the most innovative companies in the global marketplace — and one of the fastest growing.",
+          "heading": "Share your passion for Apple.",
+          "score": 0.201
+        },
         {
           "text": "Tim Cook holding the Mac Pro with Operations employees in Austin, Texas.",
           "heading": "Together.",
           "score": 0.1405
         },
         {
-          "text": "Ideas drive the innovation that makes Apple unique, and they deliver the level of excellence our customers have come to expect.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.0919
-        },
-        {
-          "text": "Forever tinkering with products and processes, always on the lookout for better.",
+          "text": "This is where we dream up what’s next for Apple — from hardware to software to the customer experience that goes with it — and where we do everything necessary to make it happen.",
           "heading": "",
-          "score": 0.0848
+          "score": 0.1262
         },
         {
-          "text": "They’re not new to us, and we’ve been working hard for quite some time to improve them.",
-          "heading": "A Message from Tim Cook.",
-          "score": 0.0749
-        },
-        {
-          "text": "A job at Apple is one that requires a lot of you, but it’s also one that rewards bright, original thinking and hard work.",
+          "text": "The result is some of the best-loved products in the world.",
           "heading": "",
-          "score": 0.0746
+          "score": 0.0936
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": 0.6185,
-      "rawTopkMean": 0.1168,
-      "nChunks": 151,
+      "zscore": 0.3683,
+      "rawTopkMean": 0.1285,
+      "nChunks": 181,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -305,6 +335,11 @@
           "text": "A group of hardware engineers at our campus in Cupertino, CA.",
           "heading": "Great ideas push the world forward. And they can come from anywhere. At Apple, we rely on our employees’ diverse backgrounds and perspectives to spark innovation. So we’re hiring more inclusively, choosing partners who make diversity a priority, and creating opportunities for the next generation.",
           "score": 0.1957
+        },
+        {
+          "text": "Tim Cook holding the Mac Pro with Operations employees in Austin, Texas.",
+          "heading": "Together.",
+          "score": 0.1405
         },
         {
           "text": "Some may be too isolated to access up-to-date technology.",
@@ -320,23 +355,28 @@
           "text": "Forever tinkering with products and processes, always on the lookout for better.",
           "heading": "It’s what we do together that sets us apart.",
           "score": 0.0848
-        },
-        {
-          "text": "Many schools don’t have the resources to provide their students with the latest tools.",
-          "heading": "Equipping schools with technology and knowledge through ConnectED.",
-          "score": 0.0818
         }
       ]
     },
     {
       "year": 2016,
-      "zscore": -0.5197,
-      "rawTopkMean": 0.022,
-      "nChunks": 7,
+      "zscore": -0.3551,
+      "rawTopkMean": 0.0659,
+      "nChunks": 11,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Whether you work at one of our global offices, offsite, or even at home, a job at Apple will be demanding.",
+          "heading": "It’s what we do together that sets us apart.",
+          "score": 0.0907
+        },
+        {
+          "text": "Forever tinkering with products and processes, always on the lookout for better.",
+          "heading": "It’s what we do together that sets us apart.",
+          "score": 0.0848
+        },
         {
           "text": "Develop skills and get hands-on experience working with some of the best minds in the business.",
           "heading": "Get experience. And have an experience.",
@@ -351,28 +391,33 @@
           "text": "The people here at Apple don’t just create products — they create the kind of wonder that’s revolutionized entire industries.",
           "heading": "Do your life’s best work here. With the whole world watching.",
           "score": 0.0438
-        },
-        {
-          "text": "Apple is a place where students can thrive.",
-          "heading": "Get experience. And have an experience.",
-          "score": -0.0195
-        },
-        {
-          "text": "It’s the diversity of those people and their ideas that inspires the innovation that runs through everything we do, from amazing technology to industry-leading environmental efforts.",
-          "heading": "Do your life’s best work here. With the whole world watching.",
-          "score": -0.0245
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": -0.76,
-      "rawTopkMean": 0.0019,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -0.7513,
+      "rawTopkMean": 0.0315,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Develop skills and get hands-on experience working with some of the best minds in the business.",
+          "heading": "Get experience. And have an experience.",
+          "score": 0.0629
+        },
+        {
+          "text": "Where do you see yourself at Apple?",
+          "heading": "Do your life’s best work here now. With the whole world watching.",
+          "score": 0.0472
+        },
+        {
+          "text": "The people here at Apple don’t just create products — they create the kind of wonder that’s revolutionized entire industries.",
+          "heading": "Do your life’s best work here now. With the whole world watching.",
+          "score": 0.0438
+        },
         {
           "text": "So whether you’re analytical or creative, tech savvy or a people person, the Apple Store provides an ideal opportunity to challenge yourself.",
           "heading": "Work where extraordinary happens.",
@@ -387,9 +432,9 @@
     },
     {
       "year": 2018,
-      "zscore": 0.4448,
+      "zscore": 0.0657,
       "rawTopkMean": 0.1023,
-      "nChunks": 63,
+      "nChunks": 74,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -423,9 +468,9 @@
     },
     {
       "year": 2019,
-      "zscore": 0.2178,
-      "rawTopkMean": 0.0834,
-      "nChunks": 32,
+      "zscore": 0.0595,
+      "rawTopkMean": 0.1018,
+      "nChunks": 61,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -436,32 +481,32 @@
           "score": 0.1435
         },
         {
+          "text": "Coding is the language of the future.",
+          "heading": "A more diverse future begins with opportunities in education.",
+          "score": 0.1033
+        },
+        {
+          "text": "And WWDC 2017 was our largest and most diverse yet.",
+          "heading": "Technology for everyone should be made by everyone.",
+          "score": 0.0926
+        },
+        {
           "text": "You’ll get hands-on experience while collaborating with some of the best minds in the world.",
           "heading": "Undergrads and Grad Students",
           "score": 0.0891
         },
         {
-          "text": "Whether you work at one of our global offices, an Apple Store, or even at home, a job here will be demanding.",
-          "heading": "Roles Throughout Apple",
-          "score": 0.08
-        },
-        {
-          "text": "We’ve always thought of Apple as the intersection of technology and the liberal arts.",
-          "heading": "Roles Throughout Apple",
-          "score": 0.0663
-        },
-        {
-          "text": "Come to Apple as a student and your team will welcome you as a full contributor, like any other employee.",
-          "heading": "Undergrads and Grad Students",
-          "score": 0.0381
+          "text": "We host thousands of developers at our annual Worldwide Developers Conference (WWDC).",
+          "heading": "Technology for everyone should be made by everyone.",
+          "score": 0.0804
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": 1.415,
-      "rawTopkMean": 0.1831,
-      "nChunks": 32,
+      "zscore": 1.0291,
+      "rawTopkMean": 0.1858,
+      "nChunks": 46,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -487,17 +532,17 @@
           "score": 0.1764
         },
         {
-          "text": "Multiply that effort across every feature in every Apple product, and you’ll get an idea of how important collaboration is here. 800 + Engineers and specialists collaborating solely on camera technologies.",
-          "heading": "Share an idea and watch it grow.",
-          "score": 0.1303
+          "text": "This is where some of the world’s smartest, most passionate people create the world’s most innovative products and experiences.",
+          "heading": "Do more than you ever thought possible. Have more impact than you ever imagined.",
+          "score": 0.1435
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 1.6723,
-      "rawTopkMean": 0.2046,
-      "nChunks": 143,
+      "zscore": 1.3313,
+      "rawTopkMean": 0.2119,
+      "nChunks": 170,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -518,26 +563,67 @@
           "score": 0.2198
         },
         {
-          "text": "Johny Srouji Senior Vice President of Hardware Technologies",
-          "heading": "Come work where sentences start with “What if…?”",
-          "score": 0.1764
+          "text": "Just one example: The incredibly advanced camera features in every new iPhone are not the result of a few dozen people.",
+          "heading": "Share an idea and watch it grow.",
+          "score": 0.1962
         },
         {
-          "text": "They include everyone from hardware and software engineers to audio and materials experts to machine learning and silicon specialists.",
-          "heading": "Initiatives for enduring change in research and development.",
-          "score": 0.1758
+          "text": "They’re the product of hundreds of optical technology experts who complement each other’s thinking.",
+          "heading": "Share an idea and watch it grow.",
+          "score": 0.1929
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 1.0748,
-      "rawTopkMean": 0.1548,
-      "nChunks": 150,
+      "zscore": 1.1338,
+      "rawTopkMean": 0.1948,
+      "nChunks": 254,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Research and development (R&D) teams are the fastest growing at Apple.",
+          "heading": "Initiatives for enduring change in research and development.",
+          "score": 0.2275
+        },
+        {
+          "text": "The answer started with the video engineering team, upon discovering a new technology called LiDAR (Light Detection and Ranging).",
+          "heading": "Think outside the screen.",
+          "score": 0.2233
+        },
+        {
+          "text": "The answer started with the video engineering team while working with the technology called LiDAR (Light Detection and Ranging).",
+          "heading": "Think outside the screen.",
+          "score": 0.1958
+        },
+        {
+          "text": "They include everyone from hardware and software engineers to audio and materials experts to machine learning and silicon specialists.",
+          "heading": "Initiatives for enduring change in research and development.",
+          "score": 0.1758
+        },
+        {
+          "text": "It uses a pulsed laser to “ping” nearby objects to generate a 3D model of the surrounding environment, similar to how bats or dolphins use sound pulses to sense the world around them.",
+          "heading": "Think outside the screen.",
+          "score": 0.1517
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "zscore": 1.2022,
+      "rawTopkMean": 0.2007,
+      "nChunks": 274,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Hardware technology is at the heart of innovation at Apple.",
+          "heading": "We’re working toward a future in technology that is more diverse.",
+          "score": 0.3064
+        },
         {
           "text": "Research and development (R&D) teams are the fastest growing at Apple.",
           "heading": "Partnering to challenge systemic bias.",
@@ -554,22 +640,53 @@
           "score": 0.1517
         },
         {
-          "text": "Cross-team communication and collaboration rallied our teams so we could fast-track the LiDAR Scanner prototype to create what is now our People Detection feature.",
-          "heading": "Think outside the screen.",
-          "score": 0.1042
-        },
-        {
-          "text": "Innovation Grants help HBCU colleges of engineering develop silicon and hardware engineering curricula in partnership with Apple experts.",
-          "heading": "Innovation grants as part of our Racial Equity and Justice Initiative.",
-          "score": 0.0948
+          "text": "In 2018, Apple in Israel started working with ASAL Technologies in the Palestinian Authority (PA).",
+          "heading": "We’re working toward a future in technology that is more diverse.",
+          "score": 0.1224
         }
       ]
     },
     {
-      "year": 2023,
-      "zscore": 0.8647,
-      "rawTopkMean": 0.1373,
-      "nChunks": 132,
+      "year": 2024,
+      "zscore": 0.9829,
+      "rawTopkMean": 0.1817,
+      "nChunks": 185,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Hardware technology is at the heart of innovation at Apple.",
+          "heading": "We’re working toward a future in technology that is more diverse.",
+          "score": 0.3064
+        },
+        {
+          "text": "Dozens of specialist teams may be needed for even a single key component of a new product.",
+          "heading": "Collaboration",
+          "score": 0.1991
+        },
+        {
+          "text": "We’re experts leading experts: hardware experts lead hardware, software experts lead software, and design experts lead design.",
+          "heading": "How We Work",
+          "score": 0.1556
+        },
+        {
+          "text": "Apple’s most enduring design may be Apple itself.",
+          "heading": "How We Work",
+          "score": 0.1253
+        },
+        {
+          "text": "In 2018, Apple in Israel started working with ASAL Technologies in the Palestinian Authority (PA).",
+          "heading": "We’re working toward a future in technology that is more diverse.",
+          "score": 0.1224
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "zscore": 0.5192,
+      "rawTopkMean": 0.1416,
+      "nChunks": 187,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -590,58 +707,22 @@
           "score": 0.1
         },
         {
-          "text": "AppleCare is known for its unparalleled customer service.",
-          "heading": "We’re prioritizing equity and representation within our teams.",
-          "score": 0.0872
+          "text": "Learn more Privacy We design every product and service to keep your data safe and secure.",
+          "heading": "Our values lead the way.",
+          "score": 0.091
         },
         {
-          "text": "We design every product and service to be secure and safe.",
-          "heading": "Privacy",
-          "score": 0.0704
+          "text": "NSI is an ongoing partnership between Apple and universities including Alabama A&M, Carnegie Mellon, Georgia Tech, Howard University, Morgan State, North Carolina A&T, Prairie View A&M, Stanford University, and U.C.",
+          "heading": "We’re strengthening pathways from HBCUs to engineering.",
+          "score": 0.0881
         }
       ]
     },
     {
-      "year": 2024,
-      "zscore": 0.8522,
-      "rawTopkMean": 0.1362,
-      "nChunks": 30,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "Dozens of specialist teams may be needed for even a single key component of a new product.",
-          "heading": "Collaboration",
-          "score": 0.1991
-        },
-        {
-          "text": "We’re experts leading experts: hardware experts lead hardware, software experts lead software, and design experts lead design.",
-          "heading": "How We Work",
-          "score": 0.1556
-        },
-        {
-          "text": "Apple’s most enduring design may be Apple itself.",
-          "heading": "How We Work",
-          "score": 0.1253
-        },
-        {
-          "text": "If you want to really understand how something is made, get into the details, and be super creative, then Apple is the place.",
-          "heading": "How We Work",
-          "score": 0.1009
-        },
-        {
-          "text": "When experts make the decisions, they decide to innovate.",
-          "heading": "Innovation",
-          "score": 0.1003
-        }
-      ]
-    },
-    {
-      "year": 2025,
-      "zscore": 0.1523,
-      "rawTopkMean": 0.0779,
-      "nChunks": 79,
+      "year": 2026,
+      "zscore": -0.2237,
+      "rawTopkMean": 0.0772,
+      "nChunks": 60,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -657,55 +738,19 @@
           "score": 0.0881
         },
         {
-          "text": "This is truly representative of how we cultivate innovation at Apple.”",
-          "heading": "We’re deepening relationships with Latin American and U.S. Hispanic communities.",
-          "score": 0.0792
-        },
-        {
-          "text": "Berkeley. “ With our partners, NSI is creating pathways to a more diverse engineering workforce.” Apple provides hands-on learning exercises and course programming, and Apple engineers volunteer their time as guest lecturers.",
-          "heading": "We’re strengthening pathways from HBCUs to engineering.",
-          "score": 0.0668
-        },
-        {
-          "text": "All data as of December 2022.",
-          "heading": "We come together to celebrate important cultural moments.",
-          "score": 0.0645
-        }
-      ]
-    },
-    {
-      "year": 2026,
-      "zscore": -0.4806,
-      "rawTopkMean": 0.0252,
-      "nChunks": 21,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
           "text": "Learn more Privacy We design every product and service to help keep your data safe and secure.",
           "heading": "Our values are part of everything built here — including careers.",
           "score": 0.0756
         },
         {
-          "text": "Accessibility Our built-in accessibility features are designed to work the way you do.",
-          "heading": "Our values are part of everything built here — including careers.",
-          "score": 0.0412
+          "text": "Apple provides hands-on learning exercises and course programming, and Apple engineers volunteer their time as guest lecturers.",
+          "heading": "We’re strengthening pathways from HBCUs to engineering.",
+          "score": 0.0676
         },
         {
-          "text": "But Apple has always looked forward, building tools and delivering experiences that enrich people’s lives.",
-          "heading": "",
-          "score": 0.0203
-        },
-        {
-          "text": "We’re creating something magical for the person who uses it.",
-          "heading": "Work at Apple",
-          "score": -0.0019
-        },
-        {
-          "text": "Learn about inclusion and diversity at Apple Privacy We design Apple products to protect your privacy and give you control over your information.",
-          "heading": "Our values are part of everything built here — including careers.",
-          "score": -0.0092
+          "text": "One such effort involved Face ID, where cross-functional teams came together to ensure that our machine learning model had extensive, diverse data.",
+          "heading": "Our products are inclusive by design.",
+          "score": 0.0638
         }
       ]
     }

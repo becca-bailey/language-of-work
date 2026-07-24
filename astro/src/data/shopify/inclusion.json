@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2010,
-      "zscore": -0.8325,
+      "zscore": -1.4536,
       "rawTopkMean": 0.3913,
       "nChunks": 9,
       "kUsed": 5,
@@ -41,13 +41,18 @@
     },
     {
       "year": 2011,
-      "zscore": -2.7751,
-      "rawTopkMean": 0.2485,
-      "nChunks": 6,
+      "zscore": -2.7622,
+      "rawTopkMean": 0.3068,
+      "nChunks": 7,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Shopify is looking for some awesome new talent to come join us.",
+          "heading": "Come in, we're hiring!",
+          "score": 0.4151
+        },
         {
           "text": "Shopify is looking for some brilliant people to join us.",
           "heading": "Come in, we're hiring!",
@@ -67,19 +72,14 @@
           "text": "Shopify’s scalable and flexible full-featured platform enables any size business to efficiently launch and operate an online retail presence with ease.",
           "heading": "About Shopify",
           "score": 0.1744
-        },
-        {
-          "text": "Founded in 2005, Shopify is the flagship product of Jaded Pixel Technologies, headquartered in Ottawa, Ontario, Canada.",
-          "heading": "About Shopify",
-          "score": 0.1239
         }
       ]
     },
     {
       "year": 2012,
-      "zscore": 0.0468,
+      "zscore": -0.453,
       "rawTopkMean": 0.4559,
-      "nChunks": 30,
+      "nChunks": 34,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -112,10 +112,46 @@
       ]
     },
     {
+      "year": 2013,
+      "zscore": -1.2129,
+      "rawTopkMean": 0.4068,
+      "nChunks": 18,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Here at Shopify, we do things a little differently.",
+          "heading": "Our Culture",
+          "score": 0.4335
+        },
+        {
+          "text": "We are making a better product, providing better service, and are more passionate about what we do than anyone else.",
+          "heading": "Our Culture",
+          "score": 0.4221
+        },
+        {
+          "text": "It’s a place where you can be proud of the work that you do — and where your colleagues will be proud of you too.",
+          "heading": "Our Culture",
+          "score": 0.4141
+        },
+        {
+          "text": "This is a place where you have the opportunity to work to your full potential.",
+          "heading": "Our Culture",
+          "score": 0.389
+        },
+        {
+          "text": "And we help make great technology accessible to people who previously wouldn’t be able to afford it.",
+          "heading": "Our Culture",
+          "score": 0.3753
+        }
+      ]
+    },
+    {
       "year": 2014,
-      "zscore": -0.0315,
-      "rawTopkMean": 0.4501,
-      "nChunks": 27,
+      "zscore": -0.4178,
+      "rawTopkMean": 0.4581,
+      "nChunks": 45,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -136,22 +172,22 @@
           "score": 0.4407
         },
         {
-          "text": "At Shopify, you’re encouraged to experiment, take risks, and push the envelope.",
-          "heading": "You’ll fit right in",
-          "score": 0.4206
+          "text": "Here at Shopify, we do things a little differently.",
+          "heading": "Our Culture",
+          "score": 0.4335
         },
         {
-          "text": "Follow our Head of Talent Acquisition, Doug Tetzner, as he attempts to find the perfect employee -- in a very unusual way.",
-          "heading": "Product Management",
-          "score": 0.3948
+          "text": "We are making a better product, providing better service, and are more passionate about what we do than anyone else.",
+          "heading": "Our Culture",
+          "score": 0.4221
         }
       ]
     },
     {
       "year": 2015,
-      "zscore": 1.0883,
+      "zscore": 0.7323,
       "rawTopkMean": 0.5324,
-      "nChunks": 31,
+      "nChunks": 38,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -185,30 +221,45 @@
     },
     {
       "year": 2016,
-      "zscore": -1.874,
-      "rawTopkMean": 0.3147,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": 0.44,
+      "rawTopkMean": 0.5135,
+      "nChunks": 19,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We need a big team to bring our ideas to life.",
-          "heading": "Shopifolk",
-          "score": 0.3758
+          "text": "Diversity of background and experience makes us all better.",
+          "heading": "20 countries",
+          "score": 0.6446
         },
         {
-          "text": "Changing the face of commerce is no small feat.",
-          "heading": "Shopifolk",
-          "score": 0.2537
+          "text": "We want a team that’s ready to do their best work, and excited to learn and grow with us – no matter what age.",
+          "heading": "18 to 62",
+          "score": 0.5581
+        },
+        {
+          "text": "We're looking for hard-working, passionate people to help us make commerce better.",
+          "heading": "We're redefining commerce",
+          "score": 0.5061
+        },
+        {
+          "text": "We want the best, no matter where you come from.",
+          "heading": "20 countries",
+          "score": 0.4512
+        },
+        {
+          "text": "At Shopify, we empower entrepreneurs all over the world.",
+          "heading": "We're redefining commerce",
+          "score": 0.4074
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.7443,
-      "rawTopkMean": 0.5071,
-      "nChunks": 22,
+      "zscore": 0.5622,
+      "rawTopkMean": 0.5214,
+      "nChunks": 24,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -224,6 +275,11 @@
           "score": 0.5266
         },
         {
+          "text": "We’re looking for hard-working, passionate people to help us make commerce better.",
+          "heading": "Help us redefine commerce",
+          "score": 0.4984
+        },
+        {
           "text": "We’ll encourage you to experiment, take ownership, and pursue the things you care about.",
           "heading": "#LifeAtShopify",
           "score": 0.4757
@@ -232,23 +288,23 @@
           "text": "We are here to create amazing things together.",
           "heading": "#LifeAtShopify",
           "score": 0.4331
-        },
-        {
-          "text": "It's easy to love coming to work every day when you're given flexibility, autonomy, and the ability to have a meaningful impact while honing your craft.",
-          "heading": "The Best Place to Work in Canada",
-          "score": 0.427
         }
       ]
     },
     {
       "year": 2018,
-      "zscore": 0.971,
-      "rawTopkMean": 0.5238,
-      "nChunks": 23,
+      "zscore": 1.301,
+      "rawTopkMean": 0.5691,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together and it’s why we actively seek the brightest minds in the world.",
+          "heading": "Our Mission",
+          "score": 0.6731
+        },
         {
           "text": "We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.",
           "heading": "February 01, 2018",
@@ -268,6 +324,37 @@
           "text": "Our mission is to make commerce better for everyone – but we’re not the workplace for everyone.",
           "heading": "February 01, 2018",
           "score": 0.4834
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "zscore": 0.5989,
+      "rawTopkMean": 0.5238,
+      "nChunks": 25,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.",
+          "heading": "February 02, 2019",
+          "score": 0.6427
+        },
+        {
+          "text": "As a workplace, we challenge and support you to hone your craft and make an impact.",
+          "heading": "Objective",
+          "score": 0.544
+        },
+        {
+          "text": "We’re a learner’s organization, made up of PhDs, university drop outs, and everything in between.",
+          "heading": "Education",
+          "score": 0.5021
+        },
+        {
+          "text": "Our mission is to make commerce better for everyone – but we’re not the workplace for everyone.",
+          "heading": "February 02, 2019",
+          "score": 0.4834
         },
         {
           "text": "Top 10 most attractive companies for tech workers At the heart of everything we do at Shopify is a relentless focus on our mission.",
@@ -277,86 +364,60 @@
       ]
     },
     {
-      "year": 2019,
-      "zscore": 0.1647,
-      "rawTopkMean": 0.4645,
-      "nChunks": 10,
+      "year": 2020,
+      "zscore": 0.7914,
+      "rawTopkMean": 0.5362,
+      "nChunks": 35,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
           "text": "We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.",
-          "heading": "April 01, 2019",
+          "heading": "February 01, 2020",
           "score": 0.6427
         },
         {
-          "text": "Our mission is to make commerce better for everyone – but we’re not the workplace for everyone.",
-          "heading": "April 01, 2019",
-          "score": 0.4834
+          "text": "As a workplace, we challenge and support you to hone your craft and make an impact.",
+          "heading": "Objective",
+          "score": 0.544
         },
-        {
-          "text": "If you’re ambitious, make an impact everywhere you go, and you’re ready to shape the future of commerce with us, check out our resumé or jump straight to jobs .",
-          "heading": "April 01, 2019",
-          "score": 0.4315
-        },
-        {
-          "text": "It takes time and effort to get to know a company – to be sure it’s the kind of place where you can make an impact, somewhere you want to invest your talent and energy, and do your life’s work.",
-          "heading": "April 01, 2019",
-          "score": 0.418
-        },
-        {
-          "text": "We solve problems at a rapid pace.",
-          "heading": "April 01, 2019",
-          "score": 0.3469
-        }
-      ]
-    },
-    {
-      "year": 2020,
-      "zscore": 0.2311,
-      "rawTopkMean": 0.4694,
-      "nChunks": 16,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
         {
           "text": "Yes, we work a little differently but we think that makes space for the challenges and risks that pave the way for real growth. “A relentless focus on our mission is at the heart of everything we do at Shopify.” Brittany Forsyth — Chief Talent Officer",
           "heading": "We're problem solvers",
           "score": 0.5086
         },
         {
-          "text": "We’re hiring high-impact R&D team members to help us do this.",
-          "heading": "Our merchants don’t stop. Neither do we.",
-          "score": 0.4706
+          "text": "We’re a learner’s organization, made up of PhDs, university drop outs, and everything in between.",
+          "heading": "Education",
+          "score": 0.5021
         },
         {
-          "text": "By breaking down the barriers to building a business, we aim to empower more communities around the world to contribute to the global economy.",
-          "heading": "Anyone, anywhere, can impact everyone",
-          "score": 0.4649
-        },
-        {
-          "text": "The path to Shopify is never a straight line, but the common thread is our ability to thrive on change, operate with trust, and celebrate the diverse perspectives of our people in all that we do.",
-          "heading": "Our team spirit looks a lot like entrepreneurial spirit",
-          "score": 0.459
-        },
-        {
-          "text": "Do fulfilling work, make a real impact, and own your role.",
-          "heading": "Remote and in control",
-          "score": 0.4438
+          "text": "Our mission is to make commerce better for everyone – but we’re not the workplace for everyone.",
+          "heading": "February 01, 2020",
+          "score": 0.4834
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": 0.1048,
-      "rawTopkMean": 0.4601,
-      "nChunks": 27,
+      "zscore": 0.0267,
+      "rawTopkMean": 0.4868,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been.",
+          "heading": "Our team spirit looks like entrepreneurial spirit",
+          "score": 0.5147
+        },
+        {
+          "text": "Yes, we work a little differently but we think that makes space for the challenges and risks that pave the way for real growth. “A relentless focus on our mission is at the heart of everything we do at Shopify.” Brittany Forsyth — Chief Talent Officer",
+          "heading": "We're problem solvers",
+          "score": 0.5086
+        },
         {
           "text": "If you believe in the power of commerce and thrive on problem solving at scale, we want you to join our team.",
           "heading": "",
@@ -368,27 +429,17 @@
           "score": 0.4724
         },
         {
-          "text": "More than just the freedom to work wherever, our digital by design approach is about new ways to collaborate and build together.",
-          "heading": "We hire where you are",
-          "score": 0.4581
-        },
-        {
-          "text": "We’re here because we work hard and stay curious.",
-          "heading": "How we work",
-          "score": 0.4515
-        },
-        {
-          "text": "If this inspires you, we need you and your technical expertise - in front end, backend, data, mobile, infrastructure, and more - to continue building one of the world’s fastest growing platforms.",
-          "heading": "2,021 in 2021",
-          "score": 0.4451
+          "text": "By breaking down the barriers to building a business, we aim to empower more communities around the world to contribute to the global economy.",
+          "heading": "Anyone, anywhere, can impact everyone",
+          "score": 0.4649
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 0.479,
+      "zscore": 0.0389,
       "rawTopkMean": 0.4876,
-      "nChunks": 16,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -422,7 +473,7 @@
     },
     {
       "year": 2023,
-      "zscore": 0.1419,
+      "zscore": -0.3447,
       "rawTopkMean": 0.4628,
       "nChunks": 61,
       "kUsed": 5,
@@ -440,7 +491,7 @@
           "score": 0.4702
         },
         {
-          "text": "Before you apply, consider if you can: Care deeply about what you do and about making commerce better for everyone Excel by seeking professional and personal hypergrowth Keep up with an unrelenting pace (the week, not the quarter) Be resilient and resourceful in face of ambiguity and thrive on (rather than endure) change Embrace differences and disagreement to get shit done and move forward Work digital-first for your daily work",
+          "text": "Before you apply, consider if you can: Care deeply about what you do and about making commerce better for everyone Excel by seeking professional and personal hypergrowth Keep up with an unrelenting pace (the week, not the quarter) Be resilient and resourceful in face of ambiguity and thrive on (rather than endure) change Embrace differences and disagreement to get shit done and move forward Work d",
           "heading": "About you",
           "score": 0.4626
         },
@@ -458,9 +509,9 @@
     },
     {
       "year": 2024,
-      "zscore": 0.8975,
-      "rawTopkMean": 0.5183,
-      "nChunks": 28,
+      "zscore": 0.6304,
+      "rawTopkMean": 0.5258,
+      "nChunks": 56,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -481,26 +532,31 @@
           "score": 0.4951
         },
         {
+          "text": "It’s hard to work here if you’re not a great match, and we want to ensure those who consider applying can thrive in our unique environment.",
+          "heading": "Who we hire",
+          "score": 0.4817
+        },
+        {
           "text": "While we respect everyone’s right to political debate and engage in personal activism on their own time, we stick to the time-honored principle of leaving politics out of the workplace and off our internal communications systems.",
           "heading": "Constant learning, constant discomfort",
           "score": 0.4707
-        },
-        {
-          "text": "Joining our team means working with the most driven crafters who pursue mastery.",
-          "heading": "Constant learning, constant discomfort",
-          "score": 0.4445
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 0.1555,
-      "rawTopkMean": 0.4638,
-      "nChunks": 16,
+      "zscore": 0.8116,
+      "rawTopkMean": 0.5375,
+      "nChunks": 32,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We want to ensure those who consider applying can thrive in our environment- from how we approach solving problems, to how we approach internal growth and the corporate ladder.",
+          "heading": "Who we hire",
+          "score": 0.6524
+        },
         {
           "text": "We default to the most important work rather than adhering to prescriptive roles – and we hire the same way.",
           "heading": "Find your Quest",
@@ -512,31 +568,31 @@
           "score": 0.5266
         },
         {
-          "text": "We get why other companies want you to apply to a specific job — it's their org chart.",
-          "heading": "Find your Quest",
-          "score": 0.4321
+          "text": "You need to care deeply about your work towards our mission to make commerce better for everyone not just those you agree with.",
+          "heading": "Accept our mission",
+          "score": 0.4951
         },
         {
-          "text": "We propel entrepreneurs and enterprises to scale the heights of their potential.",
-          "heading": "What we do",
-          "score": 0.4
-        },
-        {
-          "text": "We experiment, observe, and iterate — at high speeds with high rates of improvement — to make entrepreneurship a glorious thing.",
-          "heading": "# Not everyone can do this",
-          "score": 0.3918
+          "text": "Joining our team means working with the most driven crafters who pursue mastery.",
+          "heading": "Chase excellence",
+          "score": 0.4445
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": 0.4883,
-      "rawTopkMean": 0.4883,
-      "nChunks": 362,
+      "zscore": 0.711,
+      "rawTopkMean": 0.531,
+      "nChunks": 385,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We want to ensure those who consider applying can thrive in our environment- from how we approach solving problems, to how we approach internal growth and the corporate ladder.",
+          "heading": "Who we hire",
+          "score": 0.6524
+        },
         {
           "text": "Our approach to building product embraces courage and action, and operates from a place of positive discontent.",
           "heading": "Everyone at Shopify works on product.",
@@ -548,19 +604,14 @@
           "score": 0.5118
         },
         {
+          "text": "You need to care deeply about your work towards our mission to make commerce better for everyone not just those you agree with.",
+          "heading": "Accept our mission",
+          "score": 0.4951
+        },
+        {
           "text": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
           "heading": "3. Is it infrastructure, a feature, or an experiment?",
           "score": 0.4761
-        },
-        {
-          "text": "We're technical to our core and human in our approach.",
-          "heading": "# Building different",
-          "score": 0.471
-        },
-        {
-          "text": "When we say everyone at Shopify works on product, we mean it.",
-          "heading": "Everyone at Shopify works on product.",
-          "score": 0.463
         }
       ]
     }

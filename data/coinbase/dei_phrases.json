@@ -13,6 +13,13 @@
       "last_year": 2022,
       "max_score": 0.5248,
       "example": "See our commitment to belonging >"
+    },
+    {
+      "term": "bias",
+      "first_year": 2021,
+      "last_year": 2026,
+      "max_score": 0.4414,
+      "example": "We have a bias for action."
     }
   ],
   "high_scoring_sentences": [
@@ -47,6 +54,24 @@
       "score": 0.3496
     },
     {
+      "id": "4ef8c017d514",
+      "year": 2014,
+      "text": "We should be raising the bar with every hire.",
+      "score": 0.5251
+    },
+    {
+      "id": "5b844774b9c9",
+      "year": 2014,
+      "text": "Feedback We strive to have a culture of open feedback.",
+      "score": 0.5224
+    },
+    {
+      "id": "0ba698b4d72c",
+      "year": 2014,
+      "text": "We hire builders, and this extends all the way to the founders.",
+      "score": 0.5215
+    },
+    {
       "id": "9fcf0b47ccc3",
       "year": 2014,
       "text": "We're a small team that is aggressively looking to grow.",
@@ -57,6 +82,30 @@
       "year": 2014,
       "text": "We're a community of builders - engineers, designers, and entrepreneurs - who love what we do.",
       "score": 0.4762
+    },
+    {
+      "id": "3ade0f022381",
+      "year": 2014,
+      "text": "We want you to always be comfortable sharing feedback within the organization.",
+      "score": 0.4634
+    },
+    {
+      "id": "900d36beb189",
+      "year": 2014,
+      "text": "Hiring is the top priority of everyone at Coinbase.",
+      "score": 0.4402
+    },
+    {
+      "id": "2a432c78b1d7",
+      "year": 2014,
+      "text": "That is the only order it can happen, so hiring great people is our greatest point of leverage.",
+      "score": 0.4252
+    },
+    {
+      "id": "f39652a1e29e",
+      "year": 2014,
+      "text": "New hires at Coinbase must be smart, get stuff done, and be easy to work with.",
+      "score": 0.4086
     },
     {
       "id": "92e88b3283dd",
@@ -71,10 +120,82 @@
       "score": 0.4049
     },
     {
+      "id": "1a81ba9516ff",
+      "year": 2014,
+      "text": "If we get great people, we get great products, and then we get a great business.",
+      "score": 0.4016
+    },
+    {
+      "id": "f292972e285d",
+      "year": 2014,
+      "text": "Engineering led Coinbase is an engineering led organization.",
+      "score": 0.3956
+    },
+    {
+      "id": "5f04ab102408",
+      "year": 2014,
+      "text": "It's our job to provide an environment for you to concentrate and get great work done.",
+      "score": 0.3926
+    },
+    {
+      "id": "f5fc86130575",
+      "year": 2014,
+      "text": "We work hard and there is plenty to do.",
+      "score": 0.3816
+    },
+    {
+      "id": "24f0ca73ba15",
+      "year": 2014,
+      "text": "Whether this is a 1-on-1 with your manager each week, transparency at team meetings, or anonymous feedback in peer reviews.",
+      "score": 0.3777
+    },
+    {
+      "id": "09960d7221f8",
+      "year": 2014,
+      "text": "Manual repetitive tasks don't last long at Coinbase; we always think of ways to make humans more efficient and offload tasks to machines.",
+      "score": 0.3766
+    },
+    {
+      "id": "fd67ba71d007",
+      "year": 2014,
+      "text": "This manifests itself in a number of ways: flexible hours and work locations, avoiding interruptions and meetings, and providing tasty food.",
+      "score": 0.3673
+    },
+    {
+      "id": "6e7530ce32fe",
+      "year": 2014,
+      "text": "We care about what you get done.",
+      "score": 0.3525
+    },
+    {
       "id": "6233877715d4",
       "year": 2014,
       "text": "Interested in helping build the future of currency and payments?",
       "score": 0.3496
+    },
+    {
+      "id": "4505fe729691",
+      "year": 2014,
+      "text": "Whether building a new feature or resolving a dispute, put yourself in the mind of the customer.",
+      "score": 0.3404
+    },
+    {
+      "id": "33d6c482f00b",
+      "year": 2014,
+      "text": "(Of course, many key teams outside of product are not engineering led, including business development, sales, compliance, support, and more).",
+      "score": 0.3252
+    },
+    {
+      "id": "37007c7e4247",
+      "year": 2014,
+      "text": "Every time we meet or exceed a customer's expectations, we help fill the reservoir of trust that is in their mind.",
+      "score": 0.3229
+    },
+    {
+      "id": "b1434a271817",
+      "year": 2014,
+      "text": "Communication We spend a lot of time in chat and using internal email lists.",
+      "score": 0.3204
     },
     {
       "id": "7f0b006f5aee",
@@ -89,16 +210,136 @@
       "score": 0.3161
     },
     {
+      "id": "56b7cdd4993e",
+      "year": 2014,
+      "text": "Great collaboration benefits happen from working in the office, but you know best what the right balance is to make.",
+      "score": 0.3117
+    },
+    {
+      "id": "6bf2e927eb76",
+      "year": 2014,
+      "text": "Not all meetings are bad at Coinbase; we love one-on-one meetings, presentations where a single person presents to a group, and external meetings with clients.",
+      "score": 0.3092
+    },
+    {
+      "id": "900cc902efed",
+      "year": 2014,
+      "text": "But it's helpful sometimes to think about how you'll get the most fulfillment out of being at Coinbase in the long term.",
+      "score": 0.3087
+    },
+    {
+      "id": "45cee6435639",
+      "year": 2014,
+      "text": "In this sense Coinbase is an infrastructure company; we build the tools that help bitcoin integrate into thousands of new products and services.",
+      "score": 0.3004
+    },
+    {
+      "id": "09206c68431b",
+      "year": 2014,
+      "text": "When we remember that we are building for them, it can make some decisions easier.",
+      "score": 0.3003
+    },
+    {
+      "id": "4ef8c017d514",
+      "year": 2015,
+      "text": "We should be raising the bar with every hire.",
+      "score": 0.5251
+    },
+    {
+      "id": "5b844774b9c9",
+      "year": 2015,
+      "text": "Feedback We strive to have a culture of open feedback.",
+      "score": 0.5224
+    },
+    {
+      "id": "0ba698b4d72c",
+      "year": 2015,
+      "text": "We hire builders, and this extends all the way to the founders.",
+      "score": 0.5215
+    },
+    {
       "id": "8cce69724df6",
       "year": 2015,
       "text": "We're a community of builders - engineers, designers, and entrepreneurs - who love what we do.",
       "score": 0.4762
     },
     {
+      "id": "3ade0f022381",
+      "year": 2015,
+      "text": "We want you to always be comfortable sharing feedback within the organization.",
+      "score": 0.4634
+    },
+    {
+      "id": "900d36beb189",
+      "year": 2015,
+      "text": "Hiring is the top priority of everyone at Coinbase.",
+      "score": 0.4402
+    },
+    {
+      "id": "2a432c78b1d7",
+      "year": 2015,
+      "text": "That is the only order it can happen, so hiring great people is our greatest point of leverage.",
+      "score": 0.4252
+    },
+    {
+      "id": "f39652a1e29e",
+      "year": 2015,
+      "text": "New hires at Coinbase must be smart, get stuff done, and be easy to work with.",
+      "score": 0.4086
+    },
+    {
       "id": "86178fce52eb",
       "year": 2015,
       "text": "Meaningful equity at an early stage company Own your own projects from conception to launch The option of getting paid in bitcoin Work whenever you work best (flexible hours) Flexible vacation - take time off when you need it Work in the heart of San Francisco's Financial District Work on a big idea that is changing the world",
       "score": 0.4049
+    },
+    {
+      "id": "1a81ba9516ff",
+      "year": 2015,
+      "text": "If we get great people, we get great products, and then we get a great business.",
+      "score": 0.4016
+    },
+    {
+      "id": "f292972e285d",
+      "year": 2015,
+      "text": "Engineering led Coinbase is an engineering led organization.",
+      "score": 0.3956
+    },
+    {
+      "id": "5f04ab102408",
+      "year": 2015,
+      "text": "It's our job to provide an environment for you to concentrate and get great work done.",
+      "score": 0.3926
+    },
+    {
+      "id": "f5fc86130575",
+      "year": 2015,
+      "text": "We work hard and there is plenty to do.",
+      "score": 0.3816
+    },
+    {
+      "id": "24f0ca73ba15",
+      "year": 2015,
+      "text": "Whether this is a 1-on-1 with your manager each week, transparency at team meetings, or anonymous feedback in peer reviews.",
+      "score": 0.3777
+    },
+    {
+      "id": "09960d7221f8",
+      "year": 2015,
+      "text": "Manual repetitive tasks don't last long at Coinbase; we always think of ways to make humans more efficient and offload tasks to machines.",
+      "score": 0.3766
+    },
+    {
+      "id": "fd67ba71d007",
+      "year": 2015,
+      "text": "This manifests itself in a number of ways: flexible hours and work locations, avoiding interruptions and meetings, and providing tasty food.",
+      "score": 0.3673
+    },
+    {
+      "id": "6e7530ce32fe",
+      "year": 2015,
+      "text": "We care about what you get done.",
+      "score": 0.3525
     },
     {
       "id": "6233877715d4",
@@ -113,10 +354,214 @@
       "score": 0.3466
     },
     {
+      "id": "4505fe729691",
+      "year": 2015,
+      "text": "Whether building a new feature or resolving a dispute, put yourself in the mind of the customer.",
+      "score": 0.3404
+    },
+    {
+      "id": "33d6c482f00b",
+      "year": 2015,
+      "text": "(Of course, many key teams outside of product are not engineering led, including business development, sales, compliance, support, and more).",
+      "score": 0.3252
+    },
+    {
+      "id": "37007c7e4247",
+      "year": 2015,
+      "text": "Every time we meet or exceed a customer's expectations, we help fill the reservoir of trust that is in their mind.",
+      "score": 0.3229
+    },
+    {
+      "id": "b1434a271817",
+      "year": 2015,
+      "text": "Communication We spend a lot of time in chat and using internal email lists.",
+      "score": 0.3204
+    },
+    {
+      "id": "56b7cdd4993e",
+      "year": 2015,
+      "text": "Great collaboration benefits happen from working in the office, but you know best what the right balance is to make.",
+      "score": 0.3117
+    },
+    {
+      "id": "6bf2e927eb76",
+      "year": 2015,
+      "text": "Not all meetings are bad at Coinbase; we love one-on-one meetings, presentations where a single person presents to a group, and external meetings with clients.",
+      "score": 0.3092
+    },
+    {
+      "id": "900cc902efed",
+      "year": 2015,
+      "text": "But it's helpful sometimes to think about how you'll get the most fulfillment out of being at Coinbase in the long term.",
+      "score": 0.3087
+    },
+    {
+      "id": "45cee6435639",
+      "year": 2015,
+      "text": "In this sense Coinbase is an infrastructure company; we build the tools that help bitcoin integrate into thousands of new products and services.",
+      "score": 0.3004
+    },
+    {
+      "id": "09206c68431b",
+      "year": 2015,
+      "text": "When we remember that we are building for them, it can make some decisions easier.",
+      "score": 0.3003
+    },
+    {
+      "id": "4ef8c017d514",
+      "year": 2016,
+      "text": "We should be raising the bar with every hire.",
+      "score": 0.5251
+    },
+    {
+      "id": "5b844774b9c9",
+      "year": 2016,
+      "text": "Feedback We strive to have a culture of open feedback.",
+      "score": 0.5224
+    },
+    {
+      "id": "0ba698b4d72c",
+      "year": 2016,
+      "text": "We hire builders, and this extends all the way to the founders.",
+      "score": 0.5215
+    },
+    {
+      "id": "c549a78c8148",
+      "year": 2016,
+      "text": "Adding positive energy helps us attract the best and brightest to work here, and fosters an environment of creativity.",
+      "score": 0.5215
+    },
+    {
       "id": "8cce69724df6",
       "year": 2016,
       "text": "We're a community of builders - engineers, designers, and entrepreneurs - who love what we do.",
       "score": 0.4762
+    },
+    {
+      "id": "3ade0f022381",
+      "year": 2016,
+      "text": "We want you to always be comfortable sharing feedback within the organization.",
+      "score": 0.4634
+    },
+    {
+      "id": "900d36beb189",
+      "year": 2016,
+      "text": "Hiring is the top priority of everyone at Coinbase.",
+      "score": 0.4402
+    },
+    {
+      "id": "2a432c78b1d7",
+      "year": 2016,
+      "text": "That is the only order it can happen, so hiring great people is our greatest point of leverage.",
+      "score": 0.4252
+    },
+    {
+      "id": "82d50a6c6019",
+      "year": 2016,
+      "text": "We strive to understand why something is the way it is and see if we can do better.",
+      "score": 0.4181
+    },
+    {
+      "id": "47549393e9f1",
+      "year": 2016,
+      "text": "We think this is the highest leverage way to bring about more economic freedom, innovation, efficiency, and equality of opportunity in the world.",
+      "score": 0.4145
+    },
+    {
+      "id": "08425126382d",
+      "year": 2016,
+      "text": "It requires us to be world class at security, compliance, technology, customer support, design, and more.",
+      "score": 0.4111
+    },
+    {
+      "id": "f39652a1e29e",
+      "year": 2016,
+      "text": "New hires at Coinbase must be smart, get stuff done, and be easy to work with.",
+      "score": 0.4086
+    },
+    {
+      "id": "3de2cd4c0297",
+      "year": 2016,
+      "text": "This is why we’re all here: we’re making products that solve people’s needs in the world.",
+      "score": 0.4018
+    },
+    {
+      "id": "1a81ba9516ff",
+      "year": 2016,
+      "text": "If we get great people, we get great products, and then we get a great business.",
+      "score": 0.4016
+    },
+    {
+      "id": "0b40af50ad7e",
+      "year": 2016,
+      "text": "We filter every decision we make through the question: \"Does this help us become the most trusted brand in the space?\" Trust is the sum of every interaction of customers have with us as a company.",
+      "score": 0.3982
+    },
+    {
+      "id": "f292972e285d",
+      "year": 2016,
+      "text": "Engineering led Coinbase is an engineering led organization.",
+      "score": 0.3956
+    },
+    {
+      "id": "5f04ab102408",
+      "year": 2016,
+      "text": "It's our job to provide an environment for you to concentrate and get great work done.",
+      "score": 0.3926
+    },
+    {
+      "id": "f5fc86130575",
+      "year": 2016,
+      "text": "We work hard and there is plenty to do.",
+      "score": 0.3816
+    },
+    {
+      "id": "24f0ca73ba15",
+      "year": 2016,
+      "text": "Whether this is a 1-on-1 with your manager each week, transparency at team meetings, or anonymous feedback in peer reviews.",
+      "score": 0.3777
+    },
+    {
+      "id": "09960d7221f8",
+      "year": 2016,
+      "text": "Manual repetitive tasks don't last long at Coinbase; we always think of ways to make humans more efficient and offload tasks to machines.",
+      "score": 0.3766
+    },
+    {
+      "id": "2b0027472d5a",
+      "year": 2016,
+      "text": "Strive to understand why something is the way it is and see if we can do better.",
+      "score": 0.3756
+    },
+    {
+      "id": "fd67ba71d007",
+      "year": 2016,
+      "text": "This manifests itself in a number of ways: flexible hours and work locations, avoiding interruptions and meetings, and providing tasty food.",
+      "score": 0.3673
+    },
+    {
+      "id": "459b8dd5b8a3",
+      "year": 2016,
+      "text": "This helps us get to the root of challenges, spend less time in meetings, and learn more.",
+      "score": 0.3558
+    },
+    {
+      "id": "6e7530ce32fe",
+      "year": 2016,
+      "text": "We care about what you get done.",
+      "score": 0.3525
+    },
+    {
+      "id": "711e8657415a",
+      "year": 2016,
+      "text": "This helps us get to the root of challenges, spend less time in meetings, and get to interesting conversations more quickly.",
+      "score": 0.3518
+    },
+    {
+      "id": "1f9d48804435",
+      "year": 2016,
+      "text": "We're ruthless about cutting out complexity, otherwise it can creep in and slowly take over.",
+      "score": 0.3515
     },
     {
       "id": "6233877715d4",
@@ -131,10 +576,202 @@
       "score": 0.3473
     },
     {
+      "id": "6cd12cd343af",
+      "year": 2016,
+      "text": "This is the best way we know to change the world.",
+      "score": 0.3441
+    },
+    {
+      "id": "4505fe729691",
+      "year": 2016,
+      "text": "Whether building a new feature or resolving a dispute, put yourself in the mind of the customer.",
+      "score": 0.3404
+    },
+    {
+      "id": "fd5550713fa0",
+      "year": 2016,
+      "text": "At the end of the day, we have to go back to our customers and ensure we're solving a real problem that they have.",
+      "score": 0.3371
+    },
+    {
+      "id": "3e43601c443a",
+      "year": 2016,
+      "text": "We value being succinct (saying a lot with as few words as possible).",
+      "score": 0.3288
+    },
+    {
+      "id": "33d6c482f00b",
+      "year": 2016,
+      "text": "(Of course, many key teams outside of product are not engineering led, including business development, sales, compliance, support, and more).",
+      "score": 0.3252
+    },
+    {
+      "id": "37007c7e4247",
+      "year": 2016,
+      "text": "Every time we meet or exceed a customer's expectations, we help fill the reservoir of trust that is in their mind.",
+      "score": 0.3229
+    },
+    {
+      "id": "b1434a271817",
+      "year": 2016,
+      "text": "Communication We spend a lot of time in chat and using internal email lists.",
+      "score": 0.3204
+    },
+    {
+      "id": "5b360c4255db",
+      "year": 2016,
+      "text": "Being talented is not sufficient in itself to get a job at Coinbase.",
+      "score": 0.3167
+    },
+    {
+      "id": "56b7cdd4993e",
+      "year": 2016,
+      "text": "Great collaboration benefits happen from working in the office, but you know best what the right balance is to make.",
+      "score": 0.3117
+    },
+    {
+      "id": "89efec77b1f4",
+      "year": 2016,
+      "text": "An open financial system can be a great equalizer and lift billions out of poverty while accelerating the pace of innovation around the world.",
+      "score": 0.3108
+    },
+    {
+      "id": "6bf2e927eb76",
+      "year": 2016,
+      "text": "Not all meetings are bad at Coinbase; we love one-on-one meetings, presentations where a single person presents to a group, and external meetings with clients.",
+      "score": 0.3092
+    },
+    {
+      "id": "900cc902efed",
+      "year": 2016,
+      "text": "But it's helpful sometimes to think about how you'll get the most fulfillment out of being at Coinbase in the long term.",
+      "score": 0.3087
+    },
+    {
+      "id": "45cee6435639",
+      "year": 2016,
+      "text": "In this sense Coinbase is an infrastructure company; we build the tools that help bitcoin integrate into thousands of new products and services.",
+      "score": 0.3004
+    },
+    {
+      "id": "09206c68431b",
+      "year": 2016,
+      "text": "When we remember that we are building for them, it can make some decisions easier.",
+      "score": 0.3003
+    },
+    {
+      "id": "75151563a640",
+      "year": 2016,
+      "text": "We like to ask what can be removed, consolidated, and redone to eliminate complexity.",
+      "score": 0.3
+    },
+    {
+      "id": "c549a78c8148",
+      "year": 2017,
+      "text": "Adding positive energy helps us attract the best and brightest to work here, and fosters an environment of creativity.",
+      "score": 0.5215
+    },
+    {
       "id": "8cce69724df6",
       "year": 2017,
       "text": "We're a community of builders - engineers, designers, and entrepreneurs - who love what we do.",
       "score": 0.4762
+    },
+    {
+      "id": "e1ea59044f88",
+      "year": 2017,
+      "text": "We value giving and receiving regular feedback.",
+      "score": 0.469
+    },
+    {
+      "id": "44f0d321feb3",
+      "year": 2017,
+      "text": "We create moments of play at work.",
+      "score": 0.4453
+    },
+    {
+      "id": "eb769e72becb",
+      "year": 2017,
+      "text": "We take care of each other, and help each other grow.",
+      "score": 0.4291
+    },
+    {
+      "id": "82d50a6c6019",
+      "year": 2017,
+      "text": "We strive to understand why something is the way it is and see if we can do better.",
+      "score": 0.4181
+    },
+    {
+      "id": "47549393e9f1",
+      "year": 2017,
+      "text": "We think this is the highest leverage way to bring about more economic freedom, innovation, efficiency, and equality of opportunity in the world.",
+      "score": 0.4145
+    },
+    {
+      "id": "08425126382d",
+      "year": 2017,
+      "text": "It requires us to be world class at security, compliance, technology, customer support, design, and more.",
+      "score": 0.4111
+    },
+    {
+      "id": "872c1ba0d3bf",
+      "year": 2017,
+      "text": "We’re optimistic about the future and determined to get there.",
+      "score": 0.4058
+    },
+    {
+      "id": "0b40af50ad7e",
+      "year": 2017,
+      "text": "We filter every decision we make through the question: \"Does this help us become the most trusted brand in the space?\" Trust is the sum of every interaction of customers have with us as a company.",
+      "score": 0.3982
+    },
+    {
+      "id": "757b844b7039",
+      "year": 2017,
+      "text": "We co-create solutions instead of choosing blame and criticism.",
+      "score": 0.3794
+    },
+    {
+      "id": "919a76271fea",
+      "year": 2017,
+      "text": "We learn from and mentor those around us.",
+      "score": 0.374
+    },
+    {
+      "id": "3702aba43066",
+      "year": 2017,
+      "text": "We value completing tasks, instead of just talking about them.",
+      "score": 0.3706
+    },
+    {
+      "id": "a66c09153357",
+      "year": 2017,
+      "text": "We view every situation as an opportunity to learn (especially when the going gets tough).",
+      "score": 0.3605
+    },
+    {
+      "id": "d09d8bcc324f",
+      "year": 2017,
+      "text": "We share information efficiently, improving collaboration and productivity.",
+      "score": 0.3583
+    },
+    {
+      "id": "459b8dd5b8a3",
+      "year": 2017,
+      "text": "This helps us get to the root of challenges, spend less time in meetings, and learn more.",
+      "score": 0.3558
+    },
+    {
+      "id": "1f9d48804435",
+      "year": 2017,
+      "text": "We're ruthless about cutting out complexity, otherwise it can creep in and slowly take over.",
+      "score": 0.3515
+    },
+    {
+      "id": "232f84bbe8af",
+      "year": 2017,
+      "text": "We complete high quality work quickly by working smarter, not harder.",
+      "score": 0.3504
     },
     {
       "id": "6233877715d4",
@@ -147,12 +784,72 @@
       "year": 2017,
       "text": "Own your own projects from conception to launch The option of getting paid in bitcoin Work whenever you work best (flexible hours) Flexible vacation - take time off when you need it Work on a big idea that is changing the world 7 year post termination option exercise window (for employees who stay 2 years or more) vs the industry standard 90 days",
       "score": 0.3473
+    },
+    {
+      "id": "68fa9da32e8f",
+      "year": 2017,
+      "text": "We prefer automation over manual work.",
+      "score": 0.3457
+    },
+    {
+      "id": "6cd12cd343af",
+      "year": 2017,
+      "text": "This is the best way we know to change the world.",
+      "score": 0.3441
+    },
+    {
+      "id": "10e9f1563ede",
+      "year": 2017,
+      "text": "We talk to people directly about issues, instead of concealing or choosing gossip.",
+      "score": 0.3411
+    },
+    {
+      "id": "2c05b97866d5",
+      "year": 2017,
+      "text": "We’re more interested in learning than being right.",
+      "score": 0.3399
+    },
+    {
+      "id": "fd5550713fa0",
+      "year": 2017,
+      "text": "At the end of the day, we have to go back to our customers and ensure we're solving a real problem that they have.",
+      "score": 0.3371
+    },
+    {
+      "id": "3e43601c443a",
+      "year": 2017,
+      "text": "We value being succinct (saying a lot with as few words as possible).",
+      "score": 0.3288
+    },
+    {
+      "id": "fe3e48b20416",
+      "year": 2017,
+      "text": "We prioritize, focusing on the 20% that will get us 80% of the impact.",
+      "score": 0.3199
+    },
+    {
+      "id": "5b360c4255db",
+      "year": 2017,
+      "text": "Being talented is not sufficient in itself to get a job at Coinbase.",
+      "score": 0.3167
+    },
+    {
+      "id": "89efec77b1f4",
+      "year": 2017,
+      "text": "An open financial system can be a great equalizer and lift billions out of poverty while accelerating the pace of innovation around the world.",
+      "score": 0.3108
     },
     {
       "id": "35b44682823c",
       "year": 2017,
       "text": "Own your own projects from conception to launch The option of getting paid in bitcoin Work whenever you work best (flexible hours) Flexible vacation - take time off when you need it 7 year post termination option exercise window (for employees who stay 2 years or more) vs the industry standard 90 days Coinbase covers 100% of medical/vision/dental benefits for employees Commuter benefits (up to $255/month paid by Coinbase)",
       "score": 0.3031
+    },
+    {
+      "id": "75151563a640",
+      "year": 2017,
+      "text": "We like to ask what can be removed, consolidated, and redone to eliminate complexity.",
+      "score": 0.3
     },
     {
       "id": "66d36051f880",
@@ -185,10 +882,28 @@
       "score": 0.4762
     },
     {
+      "id": "e1ea59044f88",
+      "year": 2018,
+      "text": "We value giving and receiving regular feedback.",
+      "score": 0.469
+    },
+    {
+      "id": "44f0d321feb3",
+      "year": 2018,
+      "text": "We create moments of play at work.",
+      "score": 0.4453
+    },
+    {
       "id": "da0c72a29038",
       "year": 2018,
       "text": "If this sounds like you, check out our open roles .",
       "score": 0.4392
+    },
+    {
+      "id": "eb769e72becb",
+      "year": 2018,
+      "text": "We take care of each other, and help each other grow.",
+      "score": 0.4291
     },
     {
       "id": "52d703dff84e",
@@ -197,10 +912,70 @@
       "score": 0.4268
     },
     {
+      "id": "47549393e9f1",
+      "year": 2018,
+      "text": "We think this is the highest leverage way to bring about more economic freedom, innovation, efficiency, and equality of opportunity in the world.",
+      "score": 0.4145
+    },
+    {
+      "id": "08425126382d",
+      "year": 2018,
+      "text": "It requires us to be world class at security, compliance, technology, customer support, design, and more.",
+      "score": 0.4111
+    },
+    {
+      "id": "872c1ba0d3bf",
+      "year": 2018,
+      "text": "We’re optimistic about the future and determined to get there.",
+      "score": 0.4058
+    },
+    {
+      "id": "0b40af50ad7e",
+      "year": 2018,
+      "text": "We filter every decision we make through the question: \"Does this help us become the most trusted brand in the space?\" Trust is the sum of every interaction of customers have with us as a company.",
+      "score": 0.3982
+    },
+    {
+      "id": "757b844b7039",
+      "year": 2018,
+      "text": "We co-create solutions instead of choosing blame and criticism.",
+      "score": 0.3794
+    },
+    {
+      "id": "919a76271fea",
+      "year": 2018,
+      "text": "We learn from and mentor those around us.",
+      "score": 0.374
+    },
+    {
       "id": "807f6b575a29",
       "year": 2018,
       "text": "Our values inform our behavior and the choices we make every day.",
       "score": 0.3739
+    },
+    {
+      "id": "3702aba43066",
+      "year": 2018,
+      "text": "We value completing tasks, instead of just talking about them.",
+      "score": 0.3706
+    },
+    {
+      "id": "a66c09153357",
+      "year": 2018,
+      "text": "We view every situation as an opportunity to learn (especially when the going gets tough).",
+      "score": 0.3605
+    },
+    {
+      "id": "d09d8bcc324f",
+      "year": 2018,
+      "text": "We share information efficiently, improving collaboration and productivity.",
+      "score": 0.3583
+    },
+    {
+      "id": "232f84bbe8af",
+      "year": 2018,
+      "text": "We complete high quality work quickly by working smarter, not harder.",
+      "score": 0.3504
     },
     {
       "id": "6233877715d4",
@@ -209,10 +984,46 @@
       "score": 0.3496
     },
     {
+      "id": "68fa9da32e8f",
+      "year": 2018,
+      "text": "We prefer automation over manual work.",
+      "score": 0.3457
+    },
+    {
       "id": "477a7e88bc5c",
       "year": 2018,
       "text": "We’ve taken a huge challenge and made it into our mission: To create an open financial system for the world.",
       "score": 0.3445
+    },
+    {
+      "id": "6cd12cd343af",
+      "year": 2018,
+      "text": "This is the best way we know to change the world.",
+      "score": 0.3441
+    },
+    {
+      "id": "10e9f1563ede",
+      "year": 2018,
+      "text": "We talk to people directly about issues, instead of concealing or choosing gossip.",
+      "score": 0.3411
+    },
+    {
+      "id": "2c05b97866d5",
+      "year": 2018,
+      "text": "We’re more interested in learning than being right.",
+      "score": 0.3399
+    },
+    {
+      "id": "fe3e48b20416",
+      "year": 2018,
+      "text": "We prioritize, focusing on the 20% that will get us 80% of the impact.",
+      "score": 0.3199
+    },
+    {
+      "id": "89efec77b1f4",
+      "year": 2018,
+      "text": "An open financial system can be a great equalizer and lift billions out of poverty while accelerating the pace of innovation around the world.",
+      "score": 0.3108
     },
     {
       "id": "35b44682823c",
@@ -245,10 +1056,28 @@
       "score": 0.4982
     },
     {
+      "id": "e1ea59044f88",
+      "year": 2019,
+      "text": "We value giving and receiving regular feedback.",
+      "score": 0.469
+    },
+    {
+      "id": "44f0d321feb3",
+      "year": 2019,
+      "text": "We create moments of play at work.",
+      "score": 0.4453
+    },
+    {
       "id": "da0c72a29038",
       "year": 2019,
       "text": "If this sounds like you, check out our open roles .",
       "score": 0.4392
+    },
+    {
+      "id": "eb769e72becb",
+      "year": 2019,
+      "text": "We take care of each other, and help each other grow.",
+      "score": 0.4291
     },
     {
       "id": "52d703dff84e",
@@ -263,10 +1092,70 @@
       "score": 0.4241
     },
     {
+      "id": "47549393e9f1",
+      "year": 2019,
+      "text": "We think this is the highest leverage way to bring about more economic freedom, innovation, efficiency, and equality of opportunity in the world.",
+      "score": 0.4145
+    },
+    {
+      "id": "08425126382d",
+      "year": 2019,
+      "text": "It requires us to be world class at security, compliance, technology, customer support, design, and more.",
+      "score": 0.4111
+    },
+    {
+      "id": "872c1ba0d3bf",
+      "year": 2019,
+      "text": "We’re optimistic about the future and determined to get there.",
+      "score": 0.4058
+    },
+    {
+      "id": "381b7add39c0",
+      "year": 2019,
+      "text": "We filter every decision we make through the question: \"Does this help us become the most trusted brand in the space?\" Trust is the sum of every interaction customers have with us as a company.",
+      "score": 0.4032
+    },
+    {
+      "id": "757b844b7039",
+      "year": 2019,
+      "text": "We co-create solutions instead of choosing blame and criticism.",
+      "score": 0.3794
+    },
+    {
+      "id": "919a76271fea",
+      "year": 2019,
+      "text": "We learn from and mentor those around us.",
+      "score": 0.374
+    },
+    {
       "id": "807f6b575a29",
       "year": 2019,
       "text": "Our values inform our behavior and the choices we make every day.",
       "score": 0.3739
+    },
+    {
+      "id": "3702aba43066",
+      "year": 2019,
+      "text": "We value completing tasks, instead of just talking about them.",
+      "score": 0.3706
+    },
+    {
+      "id": "a66c09153357",
+      "year": 2019,
+      "text": "We view every situation as an opportunity to learn (especially when the going gets tough).",
+      "score": 0.3605
+    },
+    {
+      "id": "d09d8bcc324f",
+      "year": 2019,
+      "text": "We share information efficiently, improving collaboration and productivity.",
+      "score": 0.3583
+    },
+    {
+      "id": "232f84bbe8af",
+      "year": 2019,
+      "text": "We complete high quality work quickly by working smarter, not harder.",
+      "score": 0.3504
     },
     {
       "id": "e3a5dd054812",
@@ -275,10 +1164,58 @@
       "score": 0.3474
     },
     {
+      "id": "68fa9da32e8f",
+      "year": 2019,
+      "text": "We prefer automation over manual work.",
+      "score": 0.3457
+    },
+    {
       "id": "477a7e88bc5c",
       "year": 2019,
       "text": "We’ve taken a huge challenge and made it into our mission: To create an open financial system for the world.",
       "score": 0.3445
+    },
+    {
+      "id": "6cd12cd343af",
+      "year": 2019,
+      "text": "This is the best way we know to change the world.",
+      "score": 0.3441
+    },
+    {
+      "id": "10e9f1563ede",
+      "year": 2019,
+      "text": "We talk to people directly about issues, instead of concealing or choosing gossip.",
+      "score": 0.3411
+    },
+    {
+      "id": "2c05b97866d5",
+      "year": 2019,
+      "text": "We’re more interested in learning than being right.",
+      "score": 0.3399
+    },
+    {
+      "id": "e167219ced2b",
+      "year": 2019,
+      "text": "We moeten dus optimaal presteren, of het nu gaat om beveiliging, naleving, technologie, klantenondersteuning, ontwerp of wat dan ook.",
+      "score": 0.3354
+    },
+    {
+      "id": "1a8e6127e83e",
+      "year": 2019,
+      "text": "Bij elke beslissing die we nemen, vragen we ons af: \"Draagt dit bij aan onze doelstelling om het meest vertrouwde merk in de sector te zijn?\" Vertrouwen is de optelsom van alle interacties die klanten met ons bedrijf hebben.",
+      "score": 0.3224
+    },
+    {
+      "id": "fe3e48b20416",
+      "year": 2019,
+      "text": "We prioritize, focusing on the 20% that will get us 80% of the impact.",
+      "score": 0.3199
+    },
+    {
+      "id": "89efec77b1f4",
+      "year": 2019,
+      "text": "An open financial system can be a great equalizer and lift billions out of poverty while accelerating the pace of innovation around the world.",
+      "score": 0.3108
     },
     {
       "id": "66d36051f880",
@@ -305,10 +1242,28 @@
       "score": 0.4982
     },
     {
+      "id": "e1ea59044f88",
+      "year": 2020,
+      "text": "We value giving and receiving regular feedback.",
+      "score": 0.469
+    },
+    {
+      "id": "44f0d321feb3",
+      "year": 2020,
+      "text": "We create moments of play at work.",
+      "score": 0.4453
+    },
+    {
       "id": "da0c72a29038",
       "year": 2020,
       "text": "If this sounds like you, check out our open roles .",
       "score": 0.4392
+    },
+    {
+      "id": "eb769e72becb",
+      "year": 2020,
+      "text": "We take care of each other, and help each other grow.",
+      "score": 0.4291
     },
     {
       "id": "52d703dff84e",
@@ -329,6 +1284,30 @@
       "score": 0.4223
     },
     {
+      "id": "47549393e9f1",
+      "year": 2020,
+      "text": "We think this is the highest leverage way to bring about more economic freedom, innovation, efficiency, and equality of opportunity in the world.",
+      "score": 0.4145
+    },
+    {
+      "id": "08425126382d",
+      "year": 2020,
+      "text": "It requires us to be world class at security, compliance, technology, customer support, design, and more.",
+      "score": 0.4111
+    },
+    {
+      "id": "872c1ba0d3bf",
+      "year": 2020,
+      "text": "We’re optimistic about the future and determined to get there.",
+      "score": 0.4058
+    },
+    {
+      "id": "381b7add39c0",
+      "year": 2020,
+      "text": "We filter every decision we make through the question: \"Does this help us become the most trusted brand in the space?\" Trust is the sum of every interaction customers have with us as a company.",
+      "score": 0.4032
+    },
+    {
       "id": "de5bc3653416",
       "year": 2020,
       "text": "Realizujemy ten cel, budując zespół inteligentnych, kreatywnych, pełnych pasji optymistów, którzy dostrzegają możliwości tam, gdzie inni widzą przeszkody.",
@@ -341,16 +1320,58 @@
       "score": 0.3856
     },
     {
+      "id": "757b844b7039",
+      "year": 2020,
+      "text": "We co-create solutions instead of choosing blame and criticism.",
+      "score": 0.3794
+    },
+    {
       "id": "3bf8e5fb2050",
       "year": 2020,
       "text": "To w dużej mierze dzięki Nasze wartości Coinbase odnosi sukcesy i jest świetnym miejscem do pracy.",
       "score": 0.3763
     },
     {
+      "id": "919a76271fea",
+      "year": 2020,
+      "text": "We learn from and mentor those around us.",
+      "score": 0.374
+    },
+    {
       "id": "807f6b575a29",
       "year": 2020,
       "text": "Our values inform our behavior and the choices we make every day.",
       "score": 0.3739
+    },
+    {
+      "id": "3702aba43066",
+      "year": 2020,
+      "text": "We value completing tasks, instead of just talking about them.",
+      "score": 0.3706
+    },
+    {
+      "id": "a66c09153357",
+      "year": 2020,
+      "text": "We view every situation as an opportunity to learn (especially when the going gets tough).",
+      "score": 0.3605
+    },
+    {
+      "id": "d09d8bcc324f",
+      "year": 2020,
+      "text": "We share information efficiently, improving collaboration and productivity.",
+      "score": 0.3583
+    },
+    {
+      "id": "232f84bbe8af",
+      "year": 2020,
+      "text": "We complete high quality work quickly by working smarter, not harder.",
+      "score": 0.3504
+    },
+    {
+      "id": "68fa9da32e8f",
+      "year": 2020,
+      "text": "We prefer automation over manual work.",
+      "score": 0.3457
     },
     {
       "id": "06ebe62486c2",
@@ -365,10 +1386,64 @@
       "score": 0.3445
     },
     {
+      "id": "6cd12cd343af",
+      "year": 2020,
+      "text": "This is the best way we know to change the world.",
+      "score": 0.3441
+    },
+    {
+      "id": "10e9f1563ede",
+      "year": 2020,
+      "text": "We talk to people directly about issues, instead of concealing or choosing gossip.",
+      "score": 0.3411
+    },
+    {
+      "id": "2c05b97866d5",
+      "year": 2020,
+      "text": "We’re more interested in learning than being right.",
+      "score": 0.3399
+    },
+    {
+      "id": "ff30562fd480",
+      "year": 2020,
+      "text": "Filtriamo ogni decisione che prendiamo chiedendoci: \"Questo ci aiuterà ad essere il marchio più affidabile nel mondo?\" La fiducia è la somma di ogni interazione tra noi come azienda e i nostri clienti.",
+      "score": 0.3392
+    },
+    {
+      "id": "fe3e48b20416",
+      "year": 2020,
+      "text": "We prioritize, focusing on the 20% that will get us 80% of the impact.",
+      "score": 0.3199
+    },
+    {
       "id": "dbc03648275f",
       "year": 2020,
       "text": "Jeśli chcesz do nas dołączyć, sprawdź dostępne stanowiska .",
       "score": 0.3177
+    },
+    {
+      "id": "89efec77b1f4",
+      "year": 2020,
+      "text": "An open financial system can be a great equalizer and lift billions out of poverty while accelerating the pace of innovation around the world.",
+      "score": 0.3108
+    },
+    {
+      "id": "dd383247ca4a",
+      "year": 2020,
+      "text": "Uważamy, że to najlepsza droga do większej swobody gospodarczej, innowacyjności, wydajności i równości szans na świecie.",
+      "score": 0.3036
+    },
+    {
+      "id": "5ca66008370e",
+      "year": 2021,
+      "text": "We cast a wide net, to attract candidates from every background, focusing on both skill and culture alignment.",
+      "score": 0.6353
+    },
+    {
+      "id": "6aec76260110",
+      "year": 2021,
+      "text": "We take extraordinary measures to have exceptional people in every seat.",
+      "score": 0.5666
     },
     {
       "id": "61426d169896",
@@ -401,6 +1476,12 @@
       "score": 0.5217
     },
     {
+      "id": "84066c37d9db",
+      "year": 2021,
+      "text": "We seek to improve all aspects of our company even in ways that are not explicitly part of our job.",
+      "score": 0.5186
+    },
+    {
       "id": "2a1be88e1851",
       "year": 2021,
       "text": "Our values are much more than words to us (and we have the emojis to prove it) — they’re what makes Coinbase a great place to work.",
@@ -411,6 +1492,12 @@
       "year": 2021,
       "text": "Our values are a large part of why Coinbase is a great place to work, and why we’ve been successful.",
       "score": 0.5159
+    },
+    {
+      "id": "fba01cb830d0",
+      "year": 2021,
+      "text": "We embrace delivering and receiving candid feedback, and see every setback as an opportunity to learn.",
+      "score": 0.5078
     },
     {
       "id": "f555bbe1b795",
@@ -437,16 +1524,64 @@
       "score": 0.4928
     },
     {
+      "id": "e0ff370f1495",
+      "year": 2021,
+      "text": "We have an intense work culture, and are regularly pushed out of our comfort zones.",
+      "score": 0.482
+    },
+    {
       "id": "198c68371385",
       "year": 2021,
       "text": "Everyone at Coinbase plays an important role in helping us achieve our mission .",
       "score": 0.4794
     },
     {
+      "id": "300c8a850fb6",
+      "year": 2021,
+      "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+      "score": 0.477
+    },
+    {
+      "id": "fbfcaaec9dbc",
+      "year": 2021,
+      "text": "We're stronger together so we choose to focus on what unites us, and not on what divides us.",
+      "score": 0.4761
+    },
+    {
       "id": "57048955d538",
       "year": 2021,
       "text": "Our culture is how we treat each other and operate day-to-day at Coinbase.",
       "score": 0.4732
+    },
+    {
+      "id": "e1ea59044f88",
+      "year": 2021,
+      "text": "We value giving and receiving regular feedback.",
+      "score": 0.469
+    },
+    {
+      "id": "723574ffe9f3",
+      "year": 2021,
+      "text": "We value giving and receiving feedback.",
+      "score": 0.4562
+    },
+    {
+      "id": "0e0880c103f0",
+      "year": 2021,
+      "text": "Coinbase should continually earn employees' commitment and, likewise, expects employees to earn their seat at the company.",
+      "score": 0.4505
+    },
+    {
+      "id": "44f0d321feb3",
+      "year": 2021,
+      "text": "We create moments of play at work.",
+      "score": 0.4453
+    },
+    {
+      "id": "429f34d0a644",
+      "year": 2021,
+      "text": "We have a bias for action.",
+      "score": 0.4414
     },
     {
       "id": "da0c72a29038",
@@ -461,6 +1596,12 @@
       "score": 0.4391
     },
     {
+      "id": "eb769e72becb",
+      "year": 2021,
+      "text": "We take care of each other, and help each other grow.",
+      "score": 0.4291
+    },
+    {
       "id": "52d703dff84e",
       "year": 2021,
       "text": "We think achieving our mission is the highest leverage way to bring about more economic freedom, innovation, efficiency, and equality of opportunity in the world.",
@@ -473,10 +1614,58 @@
       "score": 0.4244
     },
     {
+      "id": "6e9eb9d0e86a",
+      "year": 2021,
+      "text": "We ask whether each candidate will raise the average on the team before making an offer.",
+      "score": 0.4223
+    },
+    {
       "id": "2d3f52f85b86",
       "year": 2021,
       "text": "We believe that a robust cryptoeconomy can unlock innovation, economic freedom, and equality of opportunity.",
       "score": 0.4208
+    },
+    {
+      "id": "47549393e9f1",
+      "year": 2021,
+      "text": "We think this is the highest leverage way to bring about more economic freedom, innovation, efficiency, and equality of opportunity in the world.",
+      "score": 0.4145
+    },
+    {
+      "id": "8f1a74a56fd5",
+      "year": 2021,
+      "text": "In every decision we make, we ask, \"How does this create more value for our customers?\"",
+      "score": 0.4124
+    },
+    {
+      "id": "08425126382d",
+      "year": 2021,
+      "text": "It requires us to be world class at security, compliance, technology, customer support, design, and more.",
+      "score": 0.4111
+    },
+    {
+      "id": "002b319c2983",
+      "year": 2021,
+      "text": "We're humble, and value learning over being right.",
+      "score": 0.4103
+    },
+    {
+      "id": "872c1ba0d3bf",
+      "year": 2021,
+      "text": "We’re optimistic about the future and determined to get there.",
+      "score": 0.4058
+    },
+    {
+      "id": "381b7add39c0",
+      "year": 2021,
+      "text": "We filter every decision we make through the question: \"Does this help us become the most trusted brand in the space?\" Trust is the sum of every interaction customers have with us as a company.",
+      "score": 0.4032
+    },
+    {
+      "id": "4c7b8f769603",
+      "year": 2021,
+      "text": "We are optimistic about the future and determined to get there.",
+      "score": 0.3996
     },
     {
       "id": "3b886bfc5011",
@@ -485,10 +1674,112 @@
       "score": 0.3952
     },
     {
+      "id": "ff5382af920f",
+      "year": 2021,
+      "text": "We excel at making great products that bring the benefits of digital currency to everyone.",
+      "score": 0.3906
+    },
+    {
+      "id": "199f8766f611",
+      "year": 2021,
+      "text": "We have a high tolerance for failure, investing 10% of our resources in venture bets that are uncomfortably ambitious.",
+      "score": 0.3896
+    },
+    {
+      "id": "bca3ae29dc65",
+      "year": 2021,
+      "text": "We take rest seriously, to improve productivity over the long term.",
+      "score": 0.3857
+    },
+    {
+      "id": "757b844b7039",
+      "year": 2021,
+      "text": "We co-create solutions instead of choosing blame and criticism.",
+      "score": 0.3794
+    },
+    {
+      "id": "8c015728184e",
+      "year": 2021,
+      "text": "We see every situation as an opportunity to learn.",
+      "score": 0.3782
+    },
+    {
+      "id": "49bd15c98977",
+      "year": 2021,
+      "text": "We take 100% responsibility for achieving the mission.",
+      "score": 0.3779
+    },
+    {
+      "id": "81826af61cb4",
+      "year": 2021,
+      "text": "We are a winning team, not a family, and have high expectations for performance and delivering results.",
+      "score": 0.377
+    },
+    {
+      "id": "919a76271fea",
+      "year": 2021,
+      "text": "We learn from and mentor those around us.",
+      "score": 0.374
+    },
+    {
       "id": "807f6b575a29",
       "year": 2021,
       "text": "Our values inform our behavior and the choices we make every day.",
       "score": 0.3739
+    },
+    {
+      "id": "1a25c0b3bea9",
+      "year": 2021,
+      "text": "We filter all decisions through the question: \"Will this make Coinbase the most trusted name in our space?\" Trust is the sum of every customer interaction.",
+      "score": 0.3707
+    },
+    {
+      "id": "3702aba43066",
+      "year": 2021,
+      "text": "We value completing tasks, instead of just talking about them.",
+      "score": 0.3706
+    },
+    {
+      "id": "d44904219dd5",
+      "year": 2021,
+      "text": "We know that companies must continually reinvent themselves to avoid stagnation.",
+      "score": 0.3624
+    },
+    {
+      "id": "a66c09153357",
+      "year": 2021,
+      "text": "We view every situation as an opportunity to learn (especially when the going gets tough).",
+      "score": 0.3605
+    },
+    {
+      "id": "d09d8bcc324f",
+      "year": 2021,
+      "text": "We share information efficiently, improving collaboration and productivity.",
+      "score": 0.3583
+    },
+    {
+      "id": "232f84bbe8af",
+      "year": 2021,
+      "text": "We complete high quality work quickly by working smarter, not harder.",
+      "score": 0.3504
+    },
+    {
+      "id": "da752b80e4a9",
+      "year": 2021,
+      "text": "We are deeply focused on solving our customers' problems with technology, by enabling them to acquire, store and use crypto.",
+      "score": 0.3481
+    },
+    {
+      "id": "68fa9da32e8f",
+      "year": 2021,
+      "text": "We prefer automation over manual work.",
+      "score": 0.3457
+    },
+    {
+      "id": "51b6f62d3f4e",
+      "year": 2021,
+      "text": "Everyone deserves access to financial services that can help empower them to create a better life for themselves and their families.",
+      "score": 0.3455
     },
     {
       "id": "477a7e88bc5c",
@@ -497,10 +1788,76 @@
       "score": 0.3445
     },
     {
+      "id": "6cd12cd343af",
+      "year": 2021,
+      "text": "This is the best way we know to change the world.",
+      "score": 0.3441
+    },
+    {
+      "id": "10e9f1563ede",
+      "year": 2021,
+      "text": "We talk to people directly about issues, instead of concealing or choosing gossip.",
+      "score": 0.3411
+    },
+    {
+      "id": "dc7b439bad0a",
+      "year": 2021,
+      "text": "We strive to be the easiest to use, most trusted and most secure platform.",
+      "score": 0.34
+    },
+    {
+      "id": "2c05b97866d5",
+      "year": 2021,
+      "text": "We’re more interested in learning than being right.",
+      "score": 0.3399
+    },
+    {
+      "id": "83ada68924bf",
+      "year": 2021,
+      "text": "We complete high quality work quickly.",
+      "score": 0.3295
+    },
+    {
       "id": "aaec315e200a",
       "year": 2021,
       "text": "Our mission is to increase economic freedom in the world.",
       "score": 0.3286
+    },
+    {
+      "id": "fe3e48b20416",
+      "year": 2021,
+      "text": "We prioritize, focusing on the 20% that will get us 80% of the impact.",
+      "score": 0.3199
+    },
+    {
+      "id": "37f432c3263b",
+      "year": 2021,
+      "text": "We focus on the 20% of work that will get us 80% of the impact.",
+      "score": 0.3147
+    },
+    {
+      "id": "89efec77b1f4",
+      "year": 2021,
+      "text": "An open financial system can be a great equalizer and lift billions out of poverty while accelerating the pace of innovation around the world.",
+      "score": 0.3108
+    },
+    {
+      "id": "5ca66008370e",
+      "year": 2022,
+      "text": "We cast a wide net, to attract candidates from every background, focusing on both skill and culture alignment.",
+      "score": 0.6353
+    },
+    {
+      "id": "c186b6df3d34",
+      "year": 2022,
+      "text": "We seek to make the workplace a refuge from division, so we can stay focused on making progress toward the mission.",
+      "score": 0.6042
+    },
+    {
+      "id": "6aec76260110",
+      "year": 2022,
+      "text": "We take extraordinary measures to have exceptional people in every seat.",
+      "score": 0.5666
     },
     {
       "id": "61426d169896",
@@ -515,6 +1872,18 @@
       "score": 0.5248
     },
     {
+      "id": "84066c37d9db",
+      "year": 2022,
+      "text": "We seek to improve all aspects of our company even in ways that are not explicitly part of our job.",
+      "score": 0.5186
+    },
+    {
+      "id": "fba01cb830d0",
+      "year": 2022,
+      "text": "We embrace delivering and receiving candid feedback, and see every setback as an opportunity to learn.",
+      "score": 0.5078
+    },
+    {
       "id": "5abb4bf4c63e",
       "year": 2022,
       "text": "We’re a team of smart, creative optimists — the kind of people who see opportunity where others see roadblocks.",
@@ -527,10 +1896,28 @@
       "score": 0.4928
     },
     {
+      "id": "e0ff370f1495",
+      "year": 2022,
+      "text": "We have an intense work culture, and are regularly pushed out of our comfort zones.",
+      "score": 0.482
+    },
+    {
       "id": "198c68371385",
       "year": 2022,
       "text": "Everyone at Coinbase plays an important role in helping us achieve our mission .",
       "score": 0.4794
+    },
+    {
+      "id": "300c8a850fb6",
+      "year": 2022,
+      "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+      "score": 0.477
+    },
+    {
+      "id": "fbfcaaec9dbc",
+      "year": 2022,
+      "text": "We're stronger together so we choose to focus on what unites us, and not on what divides us.",
+      "score": 0.4761
     },
     {
       "id": "57048955d538",
@@ -539,10 +1926,34 @@
       "score": 0.4732
     },
     {
+      "id": "0e0880c103f0",
+      "year": 2022,
+      "text": "Coinbase should continually earn employees' commitment and, likewise, expects employees to earn their seat at the company.",
+      "score": 0.4505
+    },
+    {
+      "id": "44f0d321feb3",
+      "year": 2022,
+      "text": "We create moments of play at work.",
+      "score": 0.4453
+    },
+    {
+      "id": "429f34d0a644",
+      "year": 2022,
+      "text": "We have a bias for action.",
+      "score": 0.4414
+    },
+    {
       "id": "0844fd828ec9",
       "year": 2022,
       "text": "Our goal as a team is to continually get closer to this ideal.",
       "score": 0.4391
+    },
+    {
+      "id": "5f16a13e5c9b",
+      "year": 2022,
+      "text": "‍Our mission is ambitious and important.",
+      "score": 0.4299
     },
     {
       "id": "2cc3fe7e3716",
@@ -551,10 +1962,106 @@
       "score": 0.4244
     },
     {
+      "id": "6e9eb9d0e86a",
+      "year": 2022,
+      "text": "We ask whether each candidate will raise the average on the team before making an offer.",
+      "score": 0.4223
+    },
+    {
+      "id": "d2cc90aa8abe",
+      "year": 2022,
+      "text": "We don’t engage in social or political activism that is unrelated to our mission while at work.",
+      "score": 0.4186
+    },
+    {
+      "id": "8f1a74a56fd5",
+      "year": 2022,
+      "text": "In every decision we make, we ask, \"How does this create more value for our customers?\"",
+      "score": 0.4124
+    },
+    {
+      "id": "002b319c2983",
+      "year": 2022,
+      "text": "We're humble, and value learning over being right.",
+      "score": 0.4103
+    },
+    {
+      "id": "4c7b8f769603",
+      "year": 2022,
+      "text": "We are optimistic about the future and determined to get there.",
+      "score": 0.3996
+    },
+    {
       "id": "3b886bfc5011",
       "year": 2022,
       "text": "We’re here to create a free and open financial system for the world.",
       "score": 0.3952
+    },
+    {
+      "id": "199f8766f611",
+      "year": 2022,
+      "text": "We have a high tolerance for failure, investing 10% of our resources in venture bets that are uncomfortably ambitious.",
+      "score": 0.3896
+    },
+    {
+      "id": "bca3ae29dc65",
+      "year": 2022,
+      "text": "We take rest seriously, to improve productivity over the long term.",
+      "score": 0.3857
+    },
+    {
+      "id": "757b844b7039",
+      "year": 2022,
+      "text": "We co-create solutions instead of choosing blame and criticism.",
+      "score": 0.3794
+    },
+    {
+      "id": "49bd15c98977",
+      "year": 2022,
+      "text": "We take 100% responsibility for achieving the mission.",
+      "score": 0.3779
+    },
+    {
+      "id": "81826af61cb4",
+      "year": 2022,
+      "text": "We are a winning team, not a family, and have high expectations for performance and delivering results.",
+      "score": 0.377
+    },
+    {
+      "id": "d44904219dd5",
+      "year": 2022,
+      "text": "We know that companies must continually reinvent themselves to avoid stagnation.",
+      "score": 0.3624
+    },
+    {
+      "id": "d09d8bcc324f",
+      "year": 2022,
+      "text": "We share information efficiently, improving collaboration and productivity.",
+      "score": 0.3583
+    },
+    {
+      "id": "da752b80e4a9",
+      "year": 2022,
+      "text": "We are deeply focused on solving our customers' problems with technology, by enabling them to acquire, store and use crypto.",
+      "score": 0.3481
+    },
+    {
+      "id": "51b6f62d3f4e",
+      "year": 2022,
+      "text": "Everyone deserves access to financial services that can help empower them to create a better life for themselves and their families.",
+      "score": 0.3455
+    },
+    {
+      "id": "dc7b439bad0a",
+      "year": 2022,
+      "text": "We strive to be the easiest to use, most trusted and most secure platform.",
+      "score": 0.34
+    },
+    {
+      "id": "83ada68924bf",
+      "year": 2022,
+      "text": "We complete high quality work quickly.",
+      "score": 0.3295
     },
     {
       "id": "aaec315e200a",
@@ -563,10 +2070,196 @@
       "score": 0.3286
     },
     {
+      "id": "37f432c3263b",
+      "year": 2022,
+      "text": "We focus on the 20% of work that will get us 80% of the impact.",
+      "score": 0.3147
+    },
+    {
+      "id": "5ca66008370e",
+      "year": 2023,
+      "text": "We cast a wide net, to attract candidates from every background, focusing on both skill and culture alignment.",
+      "score": 0.6353
+    },
+    {
+      "id": "c186b6df3d34",
+      "year": 2023,
+      "text": "We seek to make the workplace a refuge from division, so we can stay focused on making progress toward the mission.",
+      "score": 0.6042
+    },
+    {
+      "id": "6aec76260110",
+      "year": 2023,
+      "text": "We take extraordinary measures to have exceptional people in every seat.",
+      "score": 0.5666
+    },
+    {
+      "id": "84066c37d9db",
+      "year": 2023,
+      "text": "We seek to improve all aspects of our company even in ways that are not explicitly part of our job.",
+      "score": 0.5186
+    },
+    {
+      "id": "fba01cb830d0",
+      "year": 2023,
+      "text": "We embrace delivering and receiving candid feedback, and see every setback as an opportunity to learn.",
+      "score": 0.5078
+    },
+    {
+      "id": "e0ff370f1495",
+      "year": 2023,
+      "text": "We have an intense work culture, and are regularly pushed out of our comfort zones.",
+      "score": 0.482
+    },
+    {
+      "id": "300c8a850fb6",
+      "year": 2023,
+      "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+      "score": 0.477
+    },
+    {
+      "id": "fbfcaaec9dbc",
+      "year": 2023,
+      "text": "We're stronger together so we choose to focus on what unites us, and not on what divides us.",
+      "score": 0.4761
+    },
+    {
+      "id": "0e0880c103f0",
+      "year": 2023,
+      "text": "Coinbase should continually earn employees' commitment and, likewise, expects employees to earn their seat at the company.",
+      "score": 0.4505
+    },
+    {
+      "id": "44f0d321feb3",
+      "year": 2023,
+      "text": "We create moments of play at work.",
+      "score": 0.4453
+    },
+    {
+      "id": "429f34d0a644",
+      "year": 2023,
+      "text": "We have a bias for action.",
+      "score": 0.4414
+    },
+    {
+      "id": "5f16a13e5c9b",
+      "year": 2023,
+      "text": "‍Our mission is ambitious and important.",
+      "score": 0.4299
+    },
+    {
+      "id": "6e9eb9d0e86a",
+      "year": 2023,
+      "text": "We ask whether each candidate will raise the average on the team before making an offer.",
+      "score": 0.4223
+    },
+    {
+      "id": "d2cc90aa8abe",
+      "year": 2023,
+      "text": "We don’t engage in social or political activism that is unrelated to our mission while at work.",
+      "score": 0.4186
+    },
+    {
+      "id": "8f1a74a56fd5",
+      "year": 2023,
+      "text": "In every decision we make, we ask, \"How does this create more value for our customers?\"",
+      "score": 0.4124
+    },
+    {
+      "id": "002b319c2983",
+      "year": 2023,
+      "text": "We're humble, and value learning over being right.",
+      "score": 0.4103
+    },
+    {
+      "id": "4c7b8f769603",
+      "year": 2023,
+      "text": "We are optimistic about the future and determined to get there.",
+      "score": 0.3996
+    },
+    {
+      "id": "199f8766f611",
+      "year": 2023,
+      "text": "We have a high tolerance for failure, investing 10% of our resources in venture bets that are uncomfortably ambitious.",
+      "score": 0.3896
+    },
+    {
+      "id": "bca3ae29dc65",
+      "year": 2023,
+      "text": "We take rest seriously, to improve productivity over the long term.",
+      "score": 0.3857
+    },
+    {
+      "id": "757b844b7039",
+      "year": 2023,
+      "text": "We co-create solutions instead of choosing blame and criticism.",
+      "score": 0.3794
+    },
+    {
+      "id": "49bd15c98977",
+      "year": 2023,
+      "text": "We take 100% responsibility for achieving the mission.",
+      "score": 0.3779
+    },
+    {
+      "id": "81826af61cb4",
+      "year": 2023,
+      "text": "We are a winning team, not a family, and have high expectations for performance and delivering results.",
+      "score": 0.377
+    },
+    {
+      "id": "d44904219dd5",
+      "year": 2023,
+      "text": "We know that companies must continually reinvent themselves to avoid stagnation.",
+      "score": 0.3624
+    },
+    {
+      "id": "d09d8bcc324f",
+      "year": 2023,
+      "text": "We share information efficiently, improving collaboration and productivity.",
+      "score": 0.3583
+    },
+    {
+      "id": "da752b80e4a9",
+      "year": 2023,
+      "text": "We are deeply focused on solving our customers' problems with technology, by enabling them to acquire, store and use crypto.",
+      "score": 0.3481
+    },
+    {
+      "id": "51b6f62d3f4e",
+      "year": 2023,
+      "text": "Everyone deserves access to financial services that can help empower them to create a better life for themselves and their families.",
+      "score": 0.3455
+    },
+    {
+      "id": "dc7b439bad0a",
+      "year": 2023,
+      "text": "We strive to be the easiest to use, most trusted and most secure platform.",
+      "score": 0.34
+    },
+    {
+      "id": "83ada68924bf",
+      "year": 2023,
+      "text": "We complete high quality work quickly.",
+      "score": 0.3295
+    },
+    {
       "id": "2f826ca06ac1",
       "year": 2023,
       "text": "We’re the leading choice to join the crypto revolution.",
       "score": 0.3229
+    },
+    {
+      "id": "37f432c3263b",
+      "year": 2023,
+      "text": "We focus on the 20% of work that will get us 80% of the impact.",
+      "score": 0.3147
+    },
+    {
+      "id": "5ca66008370e",
+      "year": 2024,
+      "text": "We cast a wide net, to attract candidates from every background, focusing on both skill and culture alignment.",
+      "score": 0.6353
     },
     {
       "id": "c186b6df3d34",
@@ -575,16 +2268,76 @@
       "score": 0.6042
     },
     {
+      "id": "6aec76260110",
+      "year": 2024,
+      "text": "We take extraordinary measures to have exceptional people in every seat.",
+      "score": 0.5666
+    },
+    {
       "id": "61426d169896",
       "year": 2024,
       "text": "Outlining our culture helps everyone — from candidates to new leaders to veteran employees — understand how we interact and get work done in service of our mission.",
       "score": 0.5349
     },
     {
+      "id": "84066c37d9db",
+      "year": 2024,
+      "text": "We seek to improve all aspects of our company even in ways that are not explicitly part of our job.",
+      "score": 0.5186
+    },
+    {
+      "id": "fba01cb830d0",
+      "year": 2024,
+      "text": "We embrace delivering and receiving candid feedback, and see every setback as an opportunity to learn.",
+      "score": 0.5078
+    },
+    {
+      "id": "53438cf985a1",
+      "year": 2024,
+      "text": "We create moments of play at work. ‍Our mission is ambitious and important.",
+      "score": 0.4844
+    },
+    {
+      "id": "e0ff370f1495",
+      "year": 2024,
+      "text": "We have an intense work culture, and are regularly pushed out of our comfort zones.",
+      "score": 0.482
+    },
+    {
+      "id": "300c8a850fb6",
+      "year": 2024,
+      "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+      "score": 0.477
+    },
+    {
+      "id": "fbfcaaec9dbc",
+      "year": 2024,
+      "text": "We're stronger together so we choose to focus on what unites us, and not on what divides us.",
+      "score": 0.4761
+    },
+    {
+      "id": "0e0880c103f0",
+      "year": 2024,
+      "text": "Coinbase should continually earn employees' commitment and, likewise, expects employees to earn their seat at the company.",
+      "score": 0.4505
+    },
+    {
       "id": "7ba9dd999319",
       "year": 2024,
       "text": "To attract top talent around the world and embrace decentralization, all full-time employees can work remote.",
       "score": 0.4484
+    },
+    {
+      "id": "44f0d321feb3",
+      "year": 2024,
+      "text": "We create moments of play at work.",
+      "score": 0.4453
+    },
+    {
+      "id": "429f34d0a644",
+      "year": 2024,
+      "text": "We have a bias for action.",
+      "score": 0.4414
     },
     {
       "id": "1e2fa908bb49",
@@ -597,6 +2350,18 @@
       "year": 2024,
       "text": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers.",
       "score": 0.4358
+    },
+    {
+      "id": "5f16a13e5c9b",
+      "year": 2024,
+      "text": "‍Our mission is ambitious and important.",
+      "score": 0.4299
+    },
+    {
+      "id": "6e9eb9d0e86a",
+      "year": 2024,
+      "text": "We ask whether each candidate will raise the average on the team before making an offer.",
+      "score": 0.4223
     },
     {
       "id": "d2cc90aa8abe",
@@ -611,10 +2376,28 @@
       "score": 0.4184
     },
     {
+      "id": "8f1a74a56fd5",
+      "year": 2024,
+      "text": "In every decision we make, we ask, \"How does this create more value for our customers?\"",
+      "score": 0.4124
+    },
+    {
+      "id": "002b319c2983",
+      "year": 2024,
+      "text": "We're humble, and value learning over being right.",
+      "score": 0.4103
+    },
+    {
       "id": "1d51bfe7c445",
       "year": 2024,
       "text": "We also offer exceptional work spaces around the world.",
       "score": 0.409
+    },
+    {
+      "id": "4c7b8f769603",
+      "year": 2024,
+      "text": "We are optimistic about the future and determined to get there.",
+      "score": 0.3996
     },
     {
       "id": "ea494cec7720",
@@ -623,10 +2406,52 @@
       "score": 0.3971
     },
     {
+      "id": "199f8766f611",
+      "year": 2024,
+      "text": "We have a high tolerance for failure, investing 10% of our resources in venture bets that are uncomfortably ambitious.",
+      "score": 0.3896
+    },
+    {
+      "id": "bca3ae29dc65",
+      "year": 2024,
+      "text": "We take rest seriously, to improve productivity over the long term.",
+      "score": 0.3857
+    },
+    {
+      "id": "757b844b7039",
+      "year": 2024,
+      "text": "We co-create solutions instead of choosing blame and criticism.",
+      "score": 0.3794
+    },
+    {
       "id": "ca2e4e178b7a",
       "year": 2024,
       "text": "To sustain productivity over the long term, we take rest seriously too.",
       "score": 0.3781
+    },
+    {
+      "id": "49bd15c98977",
+      "year": 2024,
+      "text": "We take 100% responsibility for achieving the mission.",
+      "score": 0.3779
+    },
+    {
+      "id": "81826af61cb4",
+      "year": 2024,
+      "text": "We are a winning team, not a family, and have high expectations for performance and delivering results.",
+      "score": 0.377
+    },
+    {
+      "id": "d44904219dd5",
+      "year": 2024,
+      "text": "We know that companies must continually reinvent themselves to avoid stagnation.",
+      "score": 0.3624
+    },
+    {
+      "id": "d09d8bcc324f",
+      "year": 2024,
+      "text": "We share information efficiently, improving collaboration and productivity.",
+      "score": 0.3583
     },
     {
       "id": "5961826ad20f",
@@ -635,16 +2460,40 @@
       "score": 0.3486
     },
     {
+      "id": "da752b80e4a9",
+      "year": 2024,
+      "text": "We are deeply focused on solving our customers' problems with technology, by enabling them to acquire, store and use crypto.",
+      "score": 0.3481
+    },
+    {
       "id": "1fe5c1505868",
       "year": 2024,
       "text": "We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually.",
       "score": 0.3402
     },
     {
+      "id": "dc7b439bad0a",
+      "year": 2024,
+      "text": "We strive to be the easiest to use, most trusted and most secure platform.",
+      "score": 0.34
+    },
+    {
+      "id": "83ada68924bf",
+      "year": 2024,
+      "text": "We complete high quality work quickly.",
+      "score": 0.3295
+    },
+    {
       "id": "e585100d6bb1",
       "year": 2024,
       "text": "For many, it's the most intense place we’ve ever worked.",
       "score": 0.3227
+    },
+    {
+      "id": "37f432c3263b",
+      "year": 2024,
+      "text": "We focus on the 20% of work that will get us 80% of the impact.",
+      "score": 0.3147
     },
     {
       "id": "20e8d9000773",
@@ -659,10 +2508,22 @@
       "score": 0.3016
     },
     {
+      "id": "5ca66008370e",
+      "year": 2025,
+      "text": "We cast a wide net, to attract candidates from every background, focusing on both skill and culture alignment.",
+      "score": 0.6353
+    },
+    {
       "id": "c186b6df3d34",
       "year": 2025,
       "text": "We seek to make the workplace a refuge from division, so we can stay focused on making progress toward the mission.",
       "score": 0.6042
+    },
+    {
+      "id": "6aec76260110",
+      "year": 2025,
+      "text": "We take extraordinary measures to have exceptional people in every seat.",
+      "score": 0.5666
     },
     {
       "id": "61426d169896",
@@ -671,16 +2532,64 @@
       "score": 0.5349
     },
     {
+      "id": "84066c37d9db",
+      "year": 2025,
+      "text": "We seek to improve all aspects of our company even in ways that are not explicitly part of our job.",
+      "score": 0.5186
+    },
+    {
+      "id": "fba01cb830d0",
+      "year": 2025,
+      "text": "We embrace delivering and receiving candid feedback, and see every setback as an opportunity to learn.",
+      "score": 0.5078
+    },
+    {
       "id": "dde98a2fd92c",
       "year": 2025,
       "text": "We believe flexibility boosts productivity, while in-person collaboration drives innovation.",
       "score": 0.4923
     },
     {
+      "id": "53438cf985a1",
+      "year": 2025,
+      "text": "We create moments of play at work. ‍Our mission is ambitious and important.",
+      "score": 0.4844
+    },
+    {
+      "id": "e0ff370f1495",
+      "year": 2025,
+      "text": "We have an intense work culture, and are regularly pushed out of our comfort zones.",
+      "score": 0.482
+    },
+    {
+      "id": "300c8a850fb6",
+      "year": 2025,
+      "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+      "score": 0.477
+    },
+    {
+      "id": "fbfcaaec9dbc",
+      "year": 2025,
+      "text": "We're stronger together so we choose to focus on what unites us, and not on what divides us.",
+      "score": 0.4761
+    },
+    {
+      "id": "0e0880c103f0",
+      "year": 2025,
+      "text": "Coinbase should continually earn employees' commitment and, likewise, expects employees to earn their seat at the company.",
+      "score": 0.4505
+    },
+    {
       "id": "7ba9dd999319",
       "year": 2025,
       "text": "To attract top talent around the world and embrace decentralization, all full-time employees can work remote.",
       "score": 0.4484
+    },
+    {
+      "id": "429f34d0a644",
+      "year": 2025,
+      "text": "We have a bias for action.",
+      "score": 0.4414
     },
     {
       "id": "1e2fa908bb49",
@@ -693,6 +2602,18 @@
       "year": 2025,
       "text": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers.",
       "score": 0.4358
+    },
+    {
+      "id": "09ba9ec637a7",
+      "year": 2025,
+      "text": "We strive to build products that are easy to use, trusted, and that our customers love.",
+      "score": 0.4263
+    },
+    {
+      "id": "6e9eb9d0e86a",
+      "year": 2025,
+      "text": "We ask whether each candidate will raise the average on the team before making an offer.",
+      "score": 0.4223
     },
     {
       "id": "eb8f1f9661b4",
@@ -713,16 +2634,34 @@
       "score": 0.4184
     },
     {
+      "id": "d528f2f4eb4e",
+      "year": 2025,
+      "text": "We obsess over quality and craft in our products; getting the details right really, really, matters.",
+      "score": 0.4141
+    },
+    {
       "id": "0b5faaf4b28c",
       "year": 2025,
       "text": "Our culture tenets define how we interact and get work done in service of our mission.",
       "score": 0.414
     },
     {
+      "id": "002b319c2983",
+      "year": 2025,
+      "text": "We're humble, and value learning over being right.",
+      "score": 0.4103
+    },
+    {
       "id": "1d51bfe7c445",
       "year": 2025,
       "text": "We also offer exceptional work spaces around the world.",
       "score": 0.409
+    },
+    {
+      "id": "4c7b8f769603",
+      "year": 2025,
+      "text": "We are optimistic about the future and determined to get there.",
+      "score": 0.3996
     },
     {
       "id": "82349a5912a8",
@@ -737,6 +2676,42 @@
       "score": 0.3971
     },
     {
+      "id": "199f8766f611",
+      "year": 2025,
+      "text": "We have a high tolerance for failure, investing 10% of our resources in venture bets that are uncomfortably ambitious.",
+      "score": 0.3896
+    },
+    {
+      "id": "bca3ae29dc65",
+      "year": 2025,
+      "text": "We take rest seriously, to improve productivity over the long term.",
+      "score": 0.3857
+    },
+    {
+      "id": "e30919be9fe6",
+      "year": 2025,
+      "text": "We are deeply focused on solving our customers’ problems with technology.",
+      "score": 0.3826
+    },
+    {
+      "id": "757b844b7039",
+      "year": 2025,
+      "text": "We co-create solutions instead of choosing blame and criticism.",
+      "score": 0.3794
+    },
+    {
+      "id": "49bd15c98977",
+      "year": 2025,
+      "text": "We take 100% responsibility for achieving the mission.",
+      "score": 0.3779
+    },
+    {
+      "id": "81826af61cb4",
+      "year": 2025,
+      "text": "We are a winning team, not a family, and have high expectations for performance and delivering results.",
+      "score": 0.377
+    },
+    {
       "id": "7743fcdc4ca6",
       "year": 2025,
       "text": "Let's help 1 billion people access an open financial system daily through our products.",
@@ -747,6 +2722,18 @@
       "year": 2025,
       "text": "We are builders and techno-optimists .",
       "score": 0.3717
+    },
+    {
+      "id": "d44904219dd5",
+      "year": 2025,
+      "text": "We know that companies must continually reinvent themselves to avoid stagnation.",
+      "score": 0.3624
+    },
+    {
+      "id": "d09d8bcc324f",
+      "year": 2025,
+      "text": "We share information efficiently, improving collaboration and productivity.",
+      "score": 0.3583
     },
     {
       "id": "5961826ad20f",
@@ -767,10 +2754,22 @@
       "score": 0.3369
     },
     {
+      "id": "83ada68924bf",
+      "year": 2025,
+      "text": "We complete high quality work quickly.",
+      "score": 0.3295
+    },
+    {
       "id": "71c75627a7a8",
       "year": 2025,
       "text": "As a remote employee, you'll be asked to join periodic in-person events.",
       "score": 0.3248
+    },
+    {
+      "id": "37f432c3263b",
+      "year": 2025,
+      "text": "We focus on the 20% of work that will get us 80% of the impact.",
+      "score": 0.3147
     },
     {
       "id": "20e8d9000773",
@@ -779,16 +2778,76 @@
       "score": 0.305
     },
     {
+      "id": "5ca66008370e",
+      "year": 2026,
+      "text": "We cast a wide net, to attract candidates from every background, focusing on both skill and culture alignment.",
+      "score": 0.6353
+    },
+    {
       "id": "c186b6df3d34",
       "year": 2026,
       "text": "We seek to make the workplace a refuge from division, so we can stay focused on making progress toward the mission.",
       "score": 0.6042
     },
     {
+      "id": "6aec76260110",
+      "year": 2026,
+      "text": "We take extraordinary measures to have exceptional people in every seat.",
+      "score": 0.5666
+    },
+    {
+      "id": "84066c37d9db",
+      "year": 2026,
+      "text": "We seek to improve all aspects of our company even in ways that are not explicitly part of our job.",
+      "score": 0.5186
+    },
+    {
+      "id": "fba01cb830d0",
+      "year": 2026,
+      "text": "We embrace delivering and receiving candid feedback, and see every setback as an opportunity to learn.",
+      "score": 0.5078
+    },
+    {
       "id": "dde98a2fd92c",
       "year": 2026,
       "text": "We believe flexibility boosts productivity, while in-person collaboration drives innovation.",
       "score": 0.4923
+    },
+    {
+      "id": "e0ff370f1495",
+      "year": 2026,
+      "text": "We have an intense work culture, and are regularly pushed out of our comfort zones.",
+      "score": 0.482
+    },
+    {
+      "id": "300c8a850fb6",
+      "year": 2026,
+      "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+      "score": 0.477
+    },
+    {
+      "id": "fbfcaaec9dbc",
+      "year": 2026,
+      "text": "We're stronger together so we choose to focus on what unites us, and not on what divides us.",
+      "score": 0.4761
+    },
+    {
+      "id": "0e0880c103f0",
+      "year": 2026,
+      "text": "Coinbase should continually earn employees' commitment and, likewise, expects employees to earn their seat at the company.",
+      "score": 0.4505
+    },
+    {
+      "id": "44f0d321feb3",
+      "year": 2026,
+      "text": "We create moments of play at work.",
+      "score": 0.4453
+    },
+    {
+      "id": "429f34d0a644",
+      "year": 2026,
+      "text": "We have a bias for action.",
+      "score": 0.4414
     },
     {
       "id": "53b80ef9c4ed",
@@ -803,10 +2862,34 @@
       "score": 0.4344
     },
     {
+      "id": "5f16a13e5c9b",
+      "year": 2026,
+      "text": "‍Our mission is ambitious and important.",
+      "score": 0.4299
+    },
+    {
+      "id": "09ba9ec637a7",
+      "year": 2026,
+      "text": "We strive to build products that are easy to use, trusted, and that our customers love.",
+      "score": 0.4263
+    },
+    {
+      "id": "6e9eb9d0e86a",
+      "year": 2026,
+      "text": "We ask whether each candidate will raise the average on the team before making an offer.",
+      "score": 0.4223
+    },
+    {
       "id": "d2cc90aa8abe",
       "year": 2026,
       "text": "We don’t engage in social or political activism that is unrelated to our mission while at work.",
       "score": 0.4186
+    },
+    {
+      "id": "d528f2f4eb4e",
+      "year": 2026,
+      "text": "We obsess over quality and craft in our products; getting the details right really, really, matters.",
+      "score": 0.4141
     },
     {
       "id": "0b5faaf4b28c",
@@ -815,16 +2898,58 @@
       "score": 0.414
     },
     {
+      "id": "002b319c2983",
+      "year": 2026,
+      "text": "We're humble, and value learning over being right.",
+      "score": 0.4103
+    },
+    {
+      "id": "4c7b8f769603",
+      "year": 2026,
+      "text": "We are optimistic about the future and determined to get there.",
+      "score": 0.3996
+    },
+    {
       "id": "82349a5912a8",
       "year": 2026,
       "text": "Most roles are remote-first, with in-office requirements noted when applicable.",
       "score": 0.3984
     },
     {
-      "id": "ea494cec7720",
+      "id": "199f8766f611",
       "year": 2026,
-      "text": "Our mission is ambitious and important.",
-      "score": 0.3971
+      "text": "We have a high tolerance for failure, investing 10% of our resources in venture bets that are uncomfortably ambitious.",
+      "score": 0.3896
+    },
+    {
+      "id": "bca3ae29dc65",
+      "year": 2026,
+      "text": "We take rest seriously, to improve productivity over the long term.",
+      "score": 0.3857
+    },
+    {
+      "id": "e30919be9fe6",
+      "year": 2026,
+      "text": "We are deeply focused on solving our customers’ problems with technology.",
+      "score": 0.3826
+    },
+    {
+      "id": "757b844b7039",
+      "year": 2026,
+      "text": "We co-create solutions instead of choosing blame and criticism.",
+      "score": 0.3794
+    },
+    {
+      "id": "49bd15c98977",
+      "year": 2026,
+      "text": "We take 100% responsibility for achieving the mission.",
+      "score": 0.3779
+    },
+    {
+      "id": "81826af61cb4",
+      "year": 2026,
+      "text": "We are a winning team, not a family, and have high expectations for performance and delivering results.",
+      "score": 0.377
     },
     {
       "id": "7743fcdc4ca6",
@@ -839,6 +2964,18 @@
       "score": 0.3717
     },
     {
+      "id": "d44904219dd5",
+      "year": 2026,
+      "text": "We know that companies must continually reinvent themselves to avoid stagnation.",
+      "score": 0.3624
+    },
+    {
+      "id": "d09d8bcc324f",
+      "year": 2026,
+      "text": "We share information efficiently, improving collaboration and productivity.",
+      "score": 0.3583
+    },
+    {
       "id": "8a87176afeef",
       "year": 2026,
       "text": "We believe crypto is the most important technology to create more economic freedom in the world.",
@@ -851,10 +2988,22 @@
       "score": 0.3369
     },
     {
+      "id": "83ada68924bf",
+      "year": 2026,
+      "text": "We complete high quality work quickly.",
+      "score": 0.3295
+    },
+    {
       "id": "71c75627a7a8",
       "year": 2026,
       "text": "As a remote employee, you'll be asked to join periodic in-person events.",
       "score": 0.3248
+    },
+    {
+      "id": "37f432c3263b",
+      "year": 2026,
+      "text": "We focus on the 20% of work that will get us 80% of the impact.",
+      "score": 0.3147
     },
     {
       "id": "20e8d9000773",
@@ -878,6 +3027,13 @@
         "last_year": 2022,
         "max_score": 0.5248,
         "example": "See our commitment to belonging >"
+      },
+      {
+        "term": "bias",
+        "first_year": 2021,
+        "last_year": 2026,
+        "max_score": 0.4414,
+        "example": "We have a bias for action."
       }
     ],
     "civilizational": []

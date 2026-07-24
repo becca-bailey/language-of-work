@@ -1,0 +1,792 @@
+<!DOCTYPE html><html lang="en-US"> <head><meta charset="utf-8"><title>How We Operate at Engine | Operating Principles</title><meta name="description" content="Our Operating Principles: the specific behaviors and expectations that shape how we make decisions, communicate, build, and lead every single day."><!-- OG --><meta property="og:site_name" content="Engine"><meta property="og:title" content="How We Operate at Engine | Operating Principles"><meta property="og:description" content="Our Operating Principles: the specific behaviors and expectations that shape how we make decisions, communicate, build, and lead every single day."><meta property="og:image" content="https://engine.com/_astro/engine-og-default.BAjJjAAC.png"><meta property="og:type" content="website"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How We Operate at Engine | Operating Principles"><meta name="twitter:description" content="Our Operating Principles: the specific behaviors and expectations that shape how we make decisions, communicate, build, and lead every single day."><meta name="twitter:image" content="https://engine.com/_astro/engine-og-default.BAjJjAAC.png"><!-- Viewport --><meta name="viewport" content="width=device-width, initial-scale=1"><!-- Referrer policy --><meta name="referrer" content="no-referrer-when-downgrade"><!-- Canonical --><link rel="canonical" href="https://engine.com/how-we-operate"><!-- Robots --><!-- Favicon served from Astro endpoints. The Cloudflare reverse-proxy in
+         front of engine.com (HotelEngine/astro-migration-reverse-proxy) uses
+         an exact-match path allowlist (`ASTRO_PATHS`) — `/.well-known/favicon`
+         and `/.well-known/webclip` must be in that list for these to reach
+         CloudFront rather than fall through to the legacy Webflow origin. --><link rel="icon" href="/.well-known/favicon" type="image/png"><link rel="apple-touch-icon" href="/.well-known/webclip"><!-- Google site verification --><meta name="google-site-verification" content="n_-GmeBsJVs0yDaBme30VXoYFtx9Kyalo3KeW0OSKB0"><meta name="google-site-verification" content="FIPSdnkniwunKjuDBlVRjeSI3cTxNS3-C0rwNP67LHI"><meta name="google-site-verification" content="MYHXp64LcgNEQfUBFe2iNZy3BqS2rbriMOoGdxpSK6U"><meta name="google-site-verification" content="nMa_6bTXx1KCL1i4fa6yw_NXbGJkktuCwjc9QGeiyi4"><meta name="clarity-site-verification" content="99664bc5-2197-458d-87a6-fc084b9bae51"><!-- Legacy Webflow CSS (pages not yet on new Webflow project opt in via default).
+         5 source files concat'd + minified into 1 by scripts/build-legacy-css.mjs
+         (runs before `pnpm dev` and `pnpm build`). --><link rel="stylesheet" href="/css/engine-legacy.min.css" type="text/css"><!-- Per-page head styles (e.g. new Webflow project CSS) --><!-- Astro Font: emits @font-face + preload + optimized fallback for Oracle (body/UI)
+         and Sharp Sans Display No. 2 (display/headings). Preloads only Oracle since it
+         is the dominant family above the fold; Sharp variants load lazily on demand. --><style>@font-face{font-family:Oracle-a7ee79d346062a7d;src:url("/_astro/fonts/c19229e123d5d07f.woff2") format("woff2");font-display:swap;font-weight:100 700;font-style:normal;}@font-face{font-family:"Oracle-a7ee79d346062a7d fallback: Arial";src:local("Arial");font-display:swap;font-weight:100 700;font-style:normal;size-adjust:104.7553%;ascent-override:88.3965%;descent-override:21.5741%;line-gap-override:0%;}:root{--font-oracle:Oracle-a7ee79d346062a7d,"Oracle-a7ee79d346062a7d fallback: Arial",sans-serif;}</style><link rel="preload" href="/_astro/fonts/c19229e123d5d07f.woff2" as="font" type="font/woff2" crossorigin><style>@font-face{font-family:"Sharp Sans Display No. 2-0f492c7734e46024";src:url("/_astro/fonts/ec276f040b000ad1.woff") format("woff");font-display:swap;font-weight:500;font-style:normal;}@font-face{font-family:"Sharp Sans Display No. 2-0f492c7734e46024";src:url("/_astro/fonts/72b1075b926b1dc4.woff2") format("woff2");font-display:swap;font-weight:600;font-style:normal;}@font-face{font-family:"Sharp Sans Display No. 2-0f492c7734e46024";src:url("/_astro/fonts/6d13c9313193caff.woff2") format("woff2");font-display:swap;font-weight:700;font-style:normal;}@font-face{font-family:"Sharp Sans Display No. 2-0f492c7734e46024";src:url("/_astro/fonts/a83d2c02ad138c98.woff2") format("woff2");font-display:swap;font-weight:900;font-style:normal;}@font-face{font-family:"Sharp Sans Display No. 2-0f492c7734e46024 fallback: Arial";src:local("Arial");font-display:swap;font-weight:500;font-style:normal;size-adjust:108.3444%;ascent-override:93.129%;descent-override:28.2433%;line-gap-override:0%;}@font-face{font-family:"Sharp Sans Display No. 2-0f492c7734e46024 fallback: Arial";src:local("Arial");font-display:swap;font-weight:600;font-style:normal;size-adjust:108.3444%;ascent-override:93.129%;descent-override:28.2433%;line-gap-override:0%;}@font-face{font-family:"Sharp Sans Display No. 2-0f492c7734e46024 fallback: Arial";src:local("Arial");font-display:swap;font-weight:700;font-style:normal;size-adjust:108.3444%;ascent-override:93.129%;descent-override:28.2433%;line-gap-override:0%;}@font-face{font-family:"Sharp Sans Display No. 2-0f492c7734e46024 fallback: Arial";src:local("Arial");font-display:swap;font-weight:900;font-style:normal;size-adjust:108.3444%;ascent-override:93.129%;descent-override:28.2433%;line-gap-override:0%;}:root{--font-sharp:"Sharp Sans Display No. 2-0f492c7734e46024","Sharp Sans Display No. 2-0f492c7734e46024 fallback: Arial",Arial,sans-serif;}</style><!-- Structured data (JSON-LD). Escape every `<` as `<` so no HTML
+         token (including `</script>` and the `<!--<script>` double-escape
+         trigger) can break out of the JSON-LD script tag. JSON's `\uXXXX`
+         escape is interpreted as the literal character by JSON parsers, so
+         structured-data crawlers see identical content. This is the
+         comprehensive mitigation used by Astro, Next.js, and React Helmet
+         internally — narrower escapes like `</script>` only miss the HTML5
+         tokenizer's double-escape state. --><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"How We Operate at Engine","url":"https://engine.com/how-we-operate","description":"Our Operating Principles: the specific behaviors and expectations that shape how we make decisions, communicate, build, and lead every single day.","isPartOf":{"@type":"WebSite","name":"Engine","url":"https://engine.com"}}</script><!-- Inline styles --><style>
+      /* Webflow variation hiding */
+      [data-wf-hidden-variation],
+      [data-wf-hidden-variation] * {
+        display: none !important;
+      }
+      /* Amplitude experiment variant styles */
+      [data-experiment-control]:not([data-amp-visible]),
+      [data-experiment-treatment]:not([data-amp-visible]) {
+        display: none !important;
+      }
+      [data-experiment-loader]:not([data-amp-visible]) {
+        display: block;
+      }
+      /* Reserve H1 height while the loader resolves to avoid layout shift */
+      .hero_2-col_star-flex-wrapper > .experiment-loader {
+        min-height: 170px;
+      }
+      @media (min-width: 992px) {
+        .hero_2-col_star-flex-wrapper > .experiment-loader {
+          min-height: 265px;
+        }
+      }
+      [data-amp-visible] {
+        display: block !important;
+      }
+      [data-amp-hide] {
+        display: none !important;
+      }
+      /* Salesforce chat z-index */
+      .embeddedMessagingFrame,
+      #embeddedMessagingFrame {
+        z-index: 9999;
+      }
+
+      /* Make text look crisper and more legible in all browsers */
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+    </style><!-- OneTrust cookie banner --><script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="01926895-1a09-786c-8f9c-29803e6411c7"></script><script type="text/javascript">function OptanonWrapper() {}</script><!-- Microsoft Clarity --><script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', 'lkbyl7we6n');
+    </script><!-- Google Tag Manager --><script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-K6W8LJ');
+    </script><!-- Finsweet attributes: pretend Webflow is loaded so each module's init runs immediately
+         instead of being queued on a Webflow.push array that never drains. Must run before the
+         Finsweet scripts below so their et() registrations push into a draining queue. --><script>
+      (function () {
+        var pending = Array.isArray(window.Webflow) ? window.Webflow.slice() : [];
+        window.Webflow = window.Webflow || [];
+        window.Webflow.push = function (fn) {
+          try { if (typeof fn === 'function') fn(); } catch (e) {}
+        };
+        for (var i = 0; i < pending.length; i++) {
+          try { if (typeof pending[i] === 'function') pending[i](); } catch (e) {}
+        }
+      })();
+    </script><script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js"></script><script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js"></script><script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-modal@1/modal.js"></script><script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-socialshare@1/socialshare.js"></script><!-- Salesforce EVA: global ready handler --><script>
+      window.current_url = window.location.href;
+      window.addEventListener('onEmbeddedMessagingReady', () => {
+        embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
+          Session_Start_URL__c: window.location.href,
+        });
+      });
+    </script><!-- Marketing script: analytics, experimentation, auth0, UTM params.
+         Sourced from src/lib/marketing-script/. Reads PUBLIC_* env at build time;
+         Vite bundles and tree-shakes the underlying SDKs. --><script type="module" src="/_astro/BaseLayout.astro_astro_type_script_index_0_lang.DdzrDPKD.js"></script><!-- Page-specific head slot --><style>.post__content.text h3{margin:20px 0 10px;font-weight:600;font-size:24px;line-height:1.2em}.post__content.text h4{margin:10px 0;font-weight:600;font-size:24px;line-height:1.2em}.post__content.text ul,.post__content.text ol{display:flex;flex-direction:column;row-gap:4px;padding-left:30px}.post__content.text *+ul{padding-top:12px}.post__content.text .hwo-memo-dna-list{display:grid;grid-template-columns:1fr 1fr;column-gap:32px;row-gap:4px}.hwo-memo-list-label{font-weight:600;color:var(--color-black, #1a1b1c);margin-top:0}.hwo-memo-thrives{display:grid;grid-template-columns:1fr 1fr;gap:32px 40px;margin-top:24px}.post__content.text .hwo-memo-thrives p,.post__content.text .hwo-memo-thrives ul{margin-top:0;padding-top:0}.post__content.text .hwo-memo-thrives .hwo-memo-list-label+ul{padding-top:8px}@media screen and (max-width:767px){.post__content.text h3,.post__content.text h4{font-size:22px}.post__content.text *+p{margin-top:16px}.post__content.text ul,.post__content.text ol{padding-left:1.5em}.hwo-memo-thrives{grid-template-columns:1fr;gap:16px}.post__content.text .hwo-memo-dna-list{grid-template-columns:1fr}}
+</style>
+<link rel="stylesheet" href="/_astro/BaseLayout.DPQlyfeS.css"><script type="module" src="/_astro/page.I_DeOt65.js"></script></head> <body gsap="body"> <!-- GTM noscript --> <noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6W8LJ" height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript> <div class="page-wrapper"> <div class="sticky-nav-wrapper" data-astro-cid-i27cwzt4> <div data-wf--full-navigation--variant="base" class="navbar_parent">
+      <div class="nav-visibility-container">
+        <div data-animation="default" class="navbar_component w-nav" data-easing2="ease" nav-type="default" data-theme="white" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="925f60e7-0822-a0f7-79a9-eca5db7a8879" role="banner" data-duration="400" gsap="nav_spacer">
+          <div class="navbar_container">
+            <div class="navbar_logo-link-wrapper">
+              <a href="/" class="navbar_logo-link w-nav-brand w--current">
+                <div class="navbar_logo is-1 w-embed"><svg width="100%" height="100%" viewbox="0 0 124 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0H18.7849V5.85966H5.9967V13.0734H18.7849V18.9331H5.9967V26.2946H18.7849V32.1543H0V0ZM20.6393 10.1928H26.4914V12.6303C27.816 10.8576 29.9594 9.62658 32.4882 9.62658C37.5456 9.62658 40.7487 13.0242 40.7487 18.7361V32.0804H34.752V19.4255C34.752 16.4218 33.4274 14.6738 30.7542 14.6738C28.0809 14.6738 26.636 16.2987 26.636 19.9918V32.105H20.6393V10.1928ZM69.7448 0.664751C71.8641 0.664751 73.3332 2.1666 73.3332 4.33319C73.3332 6.49979 71.8641 8.00163 69.7448 8.00163C67.6255 8.00163 66.1564 6.49979 66.1564 4.33319C66.1564 2.1666 67.6255 0.664751 69.7448 0.664751ZM66.8307 10.1928H72.8274V32.105H66.8307V10.1928ZM74.6577 10.1928H80.5099V12.6303C81.8345 10.8576 83.9779 9.62658 86.5067 9.62658C91.5641 9.62658 94.7672 13.0242 94.7672 18.7361V32.0804H88.7704V19.4255C88.7704 16.4218 87.4459 14.6738 84.7727 14.6738C82.0994 14.6738 80.6544 16.2987 80.6544 19.9918V32.105H74.6577V10.1928ZM96.0917 21.2228C96.0917 14.8215 101.029 9.6512 107.266 9.6512C113.504 9.6512 118.441 14.8215 118.441 21.2228V23.1186H101.655C102.329 25.7037 104.184 27.4764 107.242 27.4764C110.301 27.4764 111.096 26.5162 111.77 24.7435H118.152C116.418 29.643 112.83 32.6467 107.242 32.6467C101.655 32.6467 96.0677 27.4764 96.0677 21.0751V21.2228H96.0917ZM102.233 18.3668H112.492C111.698 16.2002 109.699 15.0923 107.435 15.0923C105.171 15.0923 103.172 16.4464 102.233 18.3668ZM59.0278 10.1928V12.4825C57.6069 10.833 55.3912 9.6512 52.5735 9.6512C47.6846 9.6512 42.0492 13.3196 42.0492 21.1736C42.0492 29.0275 47.9014 32.6959 52.4772 32.6959C57.053 32.6959 57.5828 31.4895 59.0278 29.7661V32.0804C59.0278 34.961 57.077 37.2261 54.4761 37.2261C51.8751 37.2261 50.3097 36.2166 49.539 34.444H43.1329C44.3852 39.3188 48.3349 42.9134 54.4761 42.9134C60.6173 42.9134 64.9522 38.5802 64.9522 31.9327V10.2421H59.0278V10.1928ZM53.6572 27.1071C50.3578 27.1071 47.8532 24.5465 47.8532 21.1243C47.8532 17.7021 50.3578 15.1908 53.6572 15.1908C56.9566 15.1908 59.1964 17.8498 59.1964 21.1243C59.1964 24.3988 56.8603 27.1071 53.6572 27.1071Z" fill="currentColor"></path>
+                  </svg></div>
+                <div class="navbar_logo is-2 w-embed"><svg width="100%" height="100%" viewbox="0 0 124 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0H18.7849V5.85966H5.9967V13.0734H18.7849V18.9331H5.9967V26.2946H18.7849V32.1543H0V0ZM20.6393 10.1928H26.4914V12.6303C27.816 10.8576 29.9594 9.62658 32.4882 9.62658C37.5456 9.62658 40.7487 13.0242 40.7487 18.7361V32.0804H34.752V19.4255C34.752 16.4218 33.4274 14.6738 30.7542 14.6738C28.0809 14.6738 26.636 16.2987 26.636 19.9918V32.105H20.6393V10.1928ZM69.7448 0.664751C71.8641 0.664751 73.3332 2.1666 73.3332 4.33319C73.3332 6.49979 71.8641 8.00163 69.7448 8.00163C67.6255 8.00163 66.1564 6.49979 66.1564 4.33319C66.1564 2.1666 67.6255 0.664751 69.7448 0.664751ZM66.8307 10.1928H72.8274V32.105H66.8307V10.1928ZM74.6577 10.1928H80.5099V12.6303C81.8345 10.8576 83.9779 9.62658 86.5067 9.62658C91.5641 9.62658 94.7672 13.0242 94.7672 18.7361V32.0804H88.7704V19.4255C88.7704 16.4218 87.4459 14.6738 84.7727 14.6738C82.0994 14.6738 80.6544 16.2987 80.6544 19.9918V32.105H74.6577V10.1928ZM96.0917 21.2228C96.0917 14.8215 101.029 9.6512 107.266 9.6512C113.504 9.6512 118.441 14.8215 118.441 21.2228V23.1186H101.655C102.329 25.7037 104.184 27.4764 107.242 27.4764C110.301 27.4764 111.096 26.5162 111.77 24.7435H118.152C116.418 29.643 112.83 32.6467 107.242 32.6467C101.655 32.6467 96.0677 27.4764 96.0677 21.0751V21.2228H96.0917ZM102.233 18.3668H112.492C111.698 16.2002 109.699 15.0923 107.435 15.0923C105.171 15.0923 103.172 16.4464 102.233 18.3668ZM59.0278 10.1928V12.4825C57.6069 10.833 55.3912 9.6512 52.5735 9.6512C47.6846 9.6512 42.0492 13.3196 42.0492 21.1736C42.0492 29.0275 47.9014 32.6959 52.4772 32.6959C57.053 32.6959 57.5828 31.4895 59.0278 29.7661V32.0804C59.0278 34.961 57.077 37.2261 54.4761 37.2261C51.8751 37.2261 50.3097 36.2166 49.539 34.444H43.1329C44.3852 39.3188 48.3349 42.9134 54.4761 42.9134C60.6173 42.9134 64.9522 38.5802 64.9522 31.9327V10.2421H59.0278V10.1928ZM53.6572 27.1071C50.3578 27.1071 47.8532 24.5465 47.8532 21.1243C47.8532 17.7021 50.3578 15.1908 53.6572 15.1908C56.9566 15.1908 59.1964 17.8498 59.1964 21.1243C59.1964 24.3988 56.8603 27.1071 53.6572 27.1071Z" fill="currentColor"></path>
+                  </svg></div>
+              </a>
+            </div>
+            <nav role="navigation" fs-scrolldisable-element="when-visible" gsap="nav_menu" class="navbar_menu w-nav-menu">
+              <div class="navbar_menu-buttons is-mobile">
+                <div data-hover="false" data-delay="0" class="navbar_dropdown w-dropdown">
+                  <div class="navbar_link is-button-size w-dropdown-toggle">
+                    <div>Login</div>
+                    <div class="dropdown-chevron w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path>
+                      </svg></div>
+                  </div>
+                  <nav class="navbar_dropdown-list-auth w-dropdown-list">
+                    <a href="https://members.engine.com/" class="navbar_dropdown-link w-inline-block">
+                      <div class="navbar_dropdown-card">
+                        <div class="heading-style-h6 text-color-alternate-primary">I&#x27;m a traveler</div>
+                      </div>
+                      <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                          <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                          <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                        </svg></div>
+                    </a>
+                    <a href="https://partnerhub.engine.com/login" class="navbar_dropdown-link w-inline-block">
+                      <div class="navbar_dropdown-card">
+                        <div class="heading-style-h6 text-color-alternate-primary">I&#x27;m a property partner</div>
+                      </div>
+                      <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                          <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                          <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                        </svg></div>
+                    </a>
+                  </nav>
+                </div>
+                <div data-experiment-control="mktg-headercta" class="experiment-control">
+                  <a href="/sign-up" class="button is-secondary is-inverted is-white-blured w-button">Sign up for free</a>
+                </div>
+                <div data-experiment-treatment="mktg-headercta" class="experiment-treatment">
+                  <a href="/sign-up" class="button is-secondary is-inverted is-white-blured w-button">Unlock business travel rates</a>
+                </div>
+              </div>
+              <div data-hover="true" data-delay="200" nav-item="default" data-w-id="328a2bbe-9edf-c1f8-a9c4-bbf33326c75c" class="navbar_menu-dropdown w-dropdown">
+                <div class="navbar_dropdown-toggle w-dropdown-toggle">
+                  <div>Products</div>
+                  <div class="dropdown-chevron w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path>
+                    </svg></div>
+                </div>
+                <nav class="navbar_dropdown-list is-resources w-dropdown-list">
+                  <div class="navbar_dropdown-content is-3-cols">
+                    <div class="navbar_dropdown-link-list">
+                      <div class="navbar_dropdown-link-wrapper">
+                        <a href="/book-corporate-travel" class="navbar_dropdown-link is-aligned-top w-inline-block">
+                          <div class="navbar_dropdown-card">
+                            <div class="heading-style-h6 text-color-alternate-primary">Book Company Travel</div>
+                            <div>Flights, hotels, and car rentals </div>
+                          </div>
+                          <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                              <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                              <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                            </svg></div>
+                        </a>
+                        <a data-w-id="328a2bbe-9edf-c1f8-a9c4-bbf33326c771" href="/groups" class="navbar_dropdown-link is-aligned-top w-inline-block">
+                          <div class="navbar_dropdown-card">
+                            <div class="heading-style-h6 text-color-alternate-primary">Book Large Groups + Extended Stays</div>
+                            <div>White-glove support for groups of 9+ or stays of 28+ days</div>
+                          </div>
+                          <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                              <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                              <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                            </svg></div>
+                        </a>
+                        <a data-w-id="619144d6-e2eb-1fe9-c74e-264415416ff4" href="https://engine.com/spaces" class="navbar_dropdown-link is-aligned-top w-inline-block">
+                          <div class="navbar_dropdown-card">
+                            <div class="heading-style-h6 text-color-alternate-primary">Book Meeting Spaces</div>
+                            <div>Venues for offsites, team meetings, and events</div>
+                          </div>
+                          <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                              <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                              <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                            </svg></div>
+                        </a>
+                        <a href="/x" class="navbar_dropdown-link is-aligned-top w-inline-block">
+                          <div class="navbar_dropdown-card">
+                            <div class="heading-style-h6 text-color-alternate-primary">Pay with Engine X</div>
+                            <div>Business cards for travel, spend, and rewards</div>
+                          </div>
+                          <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                              <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                              <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                            </svg></div>
+                        </a>
+                      </div>
+                    </div>
+                    <div id="w-node-e567d907-320f-ae3c-2978-da015355c2d9-db7a8879" class="navbar_dropdown-link-list is-last">
+                      <div class="navbar_dropdown-image-wrapper"><img id="w-node-f9976fdb-dafc-699c-39ba-1e3412b12885-db7a8879" loading="lazy" alt="A jet plane flying in the sky" src="/images/plane.avif" class="navbar_image is-small"><img id="w-node-b32dd389-40fc-39e7-596f-8d1f4fc1b21b-db7a8879" loading="lazy" alt="2 Luggages leaning against each other" src="/images/luggages.avif" class="navbar_image is-medium"><img id="w-node-_08a9e2b5-361c-89f8-2769-e6759ecfec27-db7a8879" loading="lazy" alt="An empty road" src="/images/empty-road.avif" class="navbar_image is-large"></div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div data-hover="true" data-delay="200" nav-item="default" data-w-id="925f60e7-0822-a0f7-79a9-eca5db7a8880" class="navbar_menu-dropdown w-dropdown">
+                <div class="navbar_dropdown-toggle w-dropdown-toggle">
+                  <div>Solutions</div>
+                  <div class="dropdown-chevron w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path>
+                    </svg></div>
+                </div>
+                <nav class="navbar_dropdown-list is-resources w-dropdown-list">
+                  <div class="navbar_dropdown-content is-3-cols">
+                    <div class="navbar_dropdown-link-list">
+                      <div class="navbar_dropdown-link-wrapper is-2-col">
+                        <div class="navbar_dropdown-link-column">
+                          <div class="navbar_dropdown-heading">By Role</div>
+                          <a href="/solutions/travel-managers" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Travel Managers</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/solutions/operations-managers" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Operations</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/solutions/finance-managers" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Finance</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/solutions/travelers" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Travelers</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                        </div>
+                        <div class="navbar_dropdown-link-column">
+                          <div class="navbar_dropdown-heading">By Group Type</div>
+                          <a href="/groups/construction-crews" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Construction Crews</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/groups/sports-teams" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Sports Teams</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/groups/conferences-and-events" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Conferences + Events</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/groups/offsites-and-retreats" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Offsites + Retreats</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/groups/weddings" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Weddings</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/groups/disaster-relief" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Disaster Relief</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/industry/purpose-built-for-public-sector-travel" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Public Sector</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="w-node-dfa251cd-ab27-4743-3edd-0c1bf8a374a1-db7a8879" class="navbar_dropdown-link-list is-last">
+                      <div class="navbar_dropdown-image-wrapper"><img src="/images/Food.avif" loading="lazy" id="w-node-dfa251cd-ab27-4743-3edd-0c1bf8a374a3-db7a8879" alt="Food served on a table" class="navbar_image is-small"><img src="/images/person-luggage.avif" loading="lazy" id="w-node-dfa251cd-ab27-4743-3edd-0c1bf8a374a4-db7a8879" alt="A person sitting and holding a luggage" class="navbar_image is-medium"><img src="/images/car.avif" loading="lazy" id="w-node-dfa251cd-ab27-4743-3edd-0c1bf8a374a5-db7a8879" alt="A car driving over a bridge" class="navbar_image is-large"></div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div data-hover="true" data-delay="200" nav-item="default" data-w-id="84f93d68-c939-db8c-70e6-8aade0e8acde" class="navbar_menu-dropdown w-dropdown">
+                <div class="navbar_dropdown-toggle w-dropdown-toggle">
+                  <div>Company</div>
+                  <div class="dropdown-chevron w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path>
+                    </svg></div>
+                </div>
+                <nav class="navbar_dropdown-list is-resources w-dropdown-list">
+                  <div class="navbar_dropdown-content is-3-cols">
+                    <div class="navbar_dropdown-link-list">
+                      <div class="navbar_dropdown-link-wrapper is-2-col">
+                        <div class="navbar_dropdown-link-column">
+                          <a href="/about-us" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">About</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/culture" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Culture </div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/engine-how-we-hire" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Talent</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/careers" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Career Opportunities</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/blog" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Resources</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/templates" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Templates</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/compare" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Compare Engine</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/partnerships" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Partnerships</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/press" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Press</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                        </div>
+                        <div class="navbar_dropdown-link-column"></div>
+                      </div>
+                    </div>
+                    <div id="w-node-_84f93d68-c939-db8c-70e6-8aade0e8ad14-db7a8879" class="navbar_dropdown-link-list is-last">
+                      <div class="navbar_dropdown-image-wrapper"><img src="/images/laptop-phone-coffee.avif" loading="lazy" id="w-node-_84f93d68-c939-db8c-70e6-8aade0e8ad16-db7a8879" alt="A laptop, a coffee mug and a phone" class="navbar_image is-small"><img src="/images/mountain-view.avif" loading="lazy" id="w-node-_84f93d68-c939-db8c-70e6-8aade0e8ad17-db7a8879" alt="A view of snowy mountains" class="navbar_image is-medium"><img src="/images/people-meeting.avif" loading="lazy" id="w-node-_84f93d68-c939-db8c-70e6-8aade0e8ad18-db7a8879" alt="A group of people at a work meeting" class="navbar_image is-large"></div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div data-hover="true" data-delay="200" nav-item="default" data-w-id="ad036100-4ac8-3f01-e5dd-6ec56d31c7f7" class="navbar_menu-dropdown w-dropdown">
+                <div class="navbar_dropdown-toggle w-dropdown-toggle">
+                  <div>For Hotels</div>
+                  <div class="dropdown-chevron w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path>
+                    </svg></div>
+                </div>
+                <nav class="navbar_dropdown-list is-resources w-dropdown-list">
+                  <div class="navbar_dropdown-content is-3-cols">
+                    <div id="w-node-a9da7ded-778d-2fe8-0b20-8e22f3adfe65-db7a8879" class="navbar_dropdown-link-list">
+                      <div class="navbar_dropdown-link-wrapper is-2-col">
+                        <div id="w-node-a9da7ded-778d-2fe8-0b20-8e22f3adfe67-db7a8879" class="navbar_dropdown-link-column">
+                          <a href="/partner-hub" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Partner Hub Overview</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/partner-hub/property-spotlight" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Increase Revenue</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/partner-hub/2x-rewards" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Build Customer Loyalty</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/partner-hub/manage-reservations" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Manage Reservations</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/partner-hub/team-communication" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Team Communication</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/partner-hub/traveler-issue-resolution" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Traveler Support</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                          <a href="/partner-hub/analytics" class="navbar_dropdown-link w-inline-block">
+                            <div class="navbar_dropdown-card">
+                              <div class="heading-style-h6 text-color-alternate-primary">Insights &amp; Insights+</div>
+                            </div>
+                            <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                                <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                                <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                              </svg></div>
+                          </a>
+                        </div>
+                        <div id="w-node-c91640f2-b501-b4c9-5903-d9e0ecab1e09-db7a8879" class="navbar_divider">
+                          <a href="https://partnerhub.engine.com/login" id="w-node-c4334b46-dffd-a3c5-b106-1d45571ca6df-db7a8879" class="button is-background-color w-button">Log into Partner Hub</a>
+                          <a href="https://partnerhub.engine.com/auth/signup" class="button is-background-color w-button">Become a Partner</a>
+                          <a href="/contact-us" class="button is-background-color w-button">Contact Support</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="w-node-a9da7ded-778d-2fe8-0b20-8e22f3adfe95-db7a8879" class="navbar_dropdown-link-list is-last">
+                      <div class="navbar_dropdown-image-wrapper"><img src="/images/plane-wing.avif" loading="lazy" id="w-node-a9da7ded-778d-2fe8-0b20-8e22f3adfe97-db7a8879" alt="A wing of a plane and a sunset in the background" class="navbar_image is-small"><img src="/images/people_office_workers.avif" loading="lazy" id="w-node-a9da7ded-778d-2fe8-0b20-8e22f3adfe98-db7a8879" alt="A group of people talking at an office" class="navbar_image is-medium"><img src="/images/Staircase-hotel-lobby.avif" loading="lazy" id="w-node-a9da7ded-778d-2fe8-0b20-8e22f3adfe99-db7a8879" alt="A staircase at a cozy hotel lobby" class="navbar_image is-large"></div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <a href="/pricing" nav-item="default" class="navbar_link w-nav-link">Pricing</a>
+              <div class="text-align-left"></div>
+              <a fs-modal-element="open" href="#" class="navbar_link is-last w-inline-block">
+                <div>Watch Demo</div>
+              </a>
+            </nav>
+            <div class="navbar_background-overlay"></div>
+            <div class="navbar_menu-buttons">
+              <div data-hover="false" data-delay="0" class="navbar_dropdown w-dropdown">
+                <div class="navbar_link is-button-size w-dropdown-toggle">
+                  <div>Login</div>
+                  <div class="dropdown-chevron w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path>
+                    </svg></div>
+                </div>
+                <nav class="navbar_dropdown-list-auth w-dropdown-list">
+                  <a href="https://members.engine.com/" class="navbar_dropdown-link w-inline-block">
+                    <div class="navbar_dropdown-card">
+                      <div class="heading-style-h6 text-color-alternate-primary">I&#x27;m a traveler</div>
+                    </div>
+                    <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                        <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                        <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://partnerhub.engine.com/login" class="navbar_dropdown-link w-inline-block">
+                    <div class="navbar_dropdown-card">
+                      <div class="heading-style-h6 text-color-alternate-primary">I&#x27;m a property partner</div>
+                    </div>
+                    <div class="navbar_icon is-blue w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                        <rect width="16" height="16" fill="currentcolor" fill-opacity="0.01"></rect>
+                        <path d="M14.75 8.54703L9.25 13.797C8.9375 14.0783 8.46875 14.0783 8.1875 13.7658C7.90625 13.4533 7.90625 12.9845 8.21875 12.7033L12.375 8.73453H1.75C1.3125 8.73453 1 8.42203 1 7.98453C1 7.57828 1.3125 7.23453 1.75 7.23453H12.375L8.21875 3.29703C7.90625 3.01578 7.90625 2.51578 8.1875 2.23453C8.46875 1.92203 8.96875 1.92203 9.25 2.20328L14.75 7.45328C14.9062 7.60953 15 7.79703 15 7.98453C15 8.20328 14.9062 8.39078 14.75 8.54703Z" fill="currentcolor"></path>
+                      </svg></div>
+                  </a>
+                </nav>
+              </div>
+              <div data-experiment-loader="mktg-headercta" class="experiment-loader"></div>
+              <div data-experiment-control="mktg-headercta" class="experiment-control">
+                <a href="/sign-up" class="button w-inline-block">
+                  <div class="button_text">Sign up for free</div>
+                </a>
+              </div>
+              <div data-experiment-treatment="mktg-headercta" class="experiment-treatment">
+                <a href="/sign-up" class="button w-inline-block">
+                  <div class="button_text">Unlock business travel rates</div>
+                </a>
+              </div>
+            </div>
+            <div class="navbar_menu-button w-nav-button">
+              <div class="menu-icon1">
+                <div class="menu-icon1_line-top"></div>
+                <div class="menu-icon1_line-middle">
+                  <div class="menu-icon_line-middle-inner"></div>
+                </div>
+                <div class="menu-icon1_line-bottom"></div>
+              </div>
+            </div>
+          </div>
+          <div class="custom-styles w-embed">
+            <style>
+  .navbar_logo.is-1 {
+    display: block;
+  }
+  .navbar_logo.is-2 {
+    display: none;
+  }
+  @media screen and (max-width: 1200px) and (min-width: 992px) {
+    .navbar_logo.is-1 {
+      display: none;
+    }
+    .navbar_logo.is-2 {
+      display: block;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .navbar_menu:has(.w--open) + .navbar_background-overlay {
+      opacity: 1;
+    }
+  }
+  .is-tooltip:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: calc(100% + 0.25rem);
+    font-size: 0.75rem;
+    color: white;
+    background: var(--base-color-neutral--800);
+    padding: 0 0.5rem;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+  }
+  .navbar_component {
+  	--background-color--background-tertiary: var(--base-color-neutral--800);
+  }
+	.navbar_component[data-theme="light"] {
+    --background-color--background-secondary: #fff;
+    --background-color--background-primary: var(--base-color-neutral--900);
+    --background-color--background-tertiary: var(--base-color-neutral--50);
+    --text-color--text-alternate-primary: var(--base-color-neutral--900);
+    --text-color--text-alternate-secondary: var(--base-color-neutral--700);
+    --text-color--text-primary: #fff;
+  }
+ 	.navbar_component[data-theme="light"] .navbar_background-overlay {
+    background-color: rgba(219, 211, 198, 0.6);
+  }
+  	.navbar_component[data-theme="white"] {
+    --background-color--background-secondary: var(--base-color-neutral--white);
+    --background-color--background-primary: var(--base-color-neutral--900);
+    --background-color--background-tertiary: var(--base-color-neutral--50);
+    --text-color--text-alternate-primary: var(--base-color-neutral--900);
+    --text-color--text-alternate-secondary: var(--base-color-neutral--700);
+    --text-color--text-primary: var(--base-color-neutral--white);
+  }
+    .navbar_component[data-theme="white"] .navbar_background-overlay {
+    background-color: rgba(219, 211, 198, 0.3);
+  }
+  .navbar_component[data-theme="dark"] {
+    --background-color--background-secondary: var(--base-color-neutral--950);
+    --background-color--background-primary: var(--base-color-neutral--50);
+    --background-color--background-tertiary: var(--base-color-neutral--900);
+    --text-color--text-alternate-primary: var(--base-color-neutral--50);
+    --text-color--text-alternate-secondary: var(--base-color-neutral--200);
+    --text-color--text-primary: var(--base-color-neutral--950);
+  }
+  .navbar_component[data-theme="dark"] .navbar_menu {
+    --background-color--background-secondary: var(--base-color-neutral--900);
+  }
+  .navbar_component[data-theme="dark"] .navbar_background-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .navbar_component[data-theme="blue"] {
+    --background-color--background-secondary: var(--base-color-blue--500);
+    --background-color--background-tertiary: var(--base-color-blue--600);
+    --text-color--text-alternate-secondary: var(--base-color-neutral--100);
+    --text-color--text-alternate-primary: white;
+  }
+  .navbar_component[data-theme="blue"] .navbar_menu {
+  	  --background-color--background-secondary: var(--base-color-blue--700);
+  }
+  .navbar_component[data-theme="blue"] .navbar_background-overlay {
+    background-color: rgba(253, 75, 35, 0.6);
+  }
+  .navbar_component[data-theme="orange"] {
+    --background-color--background-secondary: var(--base-color-orange--500);
+    --background-color--background-tertiary: var(--base-color-orange--600);
+    --text-color--text-alternate-secondary: var(--base-color-neutral--50);
+    --text-color--text-alternate-primary: white;
+    --base-color-blue--500: white;
+  }
+  .navbar_component[data-theme="orange"] .button {
+  	background-color: var(--base-color-neutral--950);
+    color: #fff;
+  }
+  .navbar_component[data-theme="orange"] .button:hover {
+  	background-color: var(--base-color-neutral--900);
+  }
+  .navbar_component[data-theme="orange"] .navbar_menu {
+  	  --background-color--background-secondary: var(--base-color-orange--700);
+  }
+  .navbar_component[data-theme="orange"] .navbar_background-overlay {
+    background-color: rgba(253, 75, 35, 0.6);
+  }
+  .navbar_component[data-theme="yellow"] {
+    --background-color--background-secondary: var(--base-color-yellow--500);
+    --background-color--background-primary: var(--base-color-neutral--900);
+    --background-color--background-tertiary: var(--base-color-yellow--600);
+    --text-color--text-alternate-primary: var(--base-color-neutral--950);
+    --text-color--text-alternate-secondary: var(--base-color-neutral--800);
+    --text-color--text-primary: var(--base-color-neutral--50);
+  }
+  .navbar_component[data-theme="yellow"] .navbar_background-overlay {
+    background-color: rgba(255, 178, 0, 0.6);
+  }
+    .navbar_component[data-theme="yellow"] .navbar_menu {
+  	  --background-color--background-secondary: var(--base-color-yellow--200);
+  }
+  .navbar_component[data-theme="teal"] {
+    --background-color--background-secondary: var(--base-color-teal--500);
+    --background-color--background-primary: var(--base-color-neutral--900);
+    --background-color--background-tertiary: var(--base-color-teal--600);
+    --text-color--text-alternate-primary: var(--base-color-neutral--900);
+    --text-color--text-alternate-secondary: var(--base-color-teal--900);
+    --text-color--text-primary: var(--base-color-neutral--50);
+  }
+  .navbar_component[data-theme="teal"] .navbar_background-overlay {
+    background-color: rgba(125, 203, 217, 0.6);
+  }
+  .navbar_component[data-theme="teal"] .navbar_background-overlay {
+    background-color: rgba(125, 203, 217, 0.6);
+  }
+    .navbar_component[data-theme="teal"] .navbar_menu {
+  	  --background-color--background-secondary: var(--base-color-teal--200);
+  }
+.banner_component:hover .green {
+	background-color: var(--base-color-green--600);
+}
+.banner_component:hover .black {
+	background-color: var(--base-color-neutral--900);
+}
+.banner_component:hover .blue {
+	background-color: var(--base-color-blue--500);
+}
+</style>
+          </div>
+        </div>
+      </div>
+      <div fs-scrolldisable-element="when-visible" fs-modal-element="modal" class="section_modal">
+        <div class="padding-global">
+          <div class="flex-align-center">
+            <div class="home_form-wrapper">
+              <div class="border-radius-xlarge w-embed w-iframe">
+                <div style="position: relative; box-sizing: content-box; max-height: 80vh; max-height: 80svh; width: 100%; aspect-ratio: 1.1986089644513138; padding: 40px 0 40px 0;"><iframe src="https://app.supademo.com/embed/cm6tkufp500l2pe8lpo6dg677?embed_v=2" loading="lazy" title="Booking Hotels (No Voiceover)" allow="clipboard-write" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+              </div>
+              <div class="w-layout-hflex benefit_bullet">
+                <div class="home-cta_detail is-alternate">By clicking “Sign up for free,” you agree to Engines Terms of Service and Privacy Policy.</div>
+              </div>
+              <div fs-modal-element="close" class="home_form-close">
+                <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewbox="0 -960 960 960" width="100%" fill="currentColor">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"></path>
+                  </svg></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> </div>   <main class="main-wrapper"> <div class="post__main"> <div class="post__wrapper wrapper-2"> <div class="post__logo"> <div class="w-embed"><svg width="100%" height="100%" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 19.5C0 10.967 0 6.70057 2.35034 3.82454C2.79123 3.28504 3.28514 2.79114 3.82466 2.35026C6.70078 0 10.9674 0 19.5006 0C28.0338 0 32.3004 0 35.1766 2.35026C35.7161 2.79114 36.21 3.28504 36.6509 3.82454C39.0012 6.70057 39.0012 10.967 39.0012 19.5C39.0012 28.033 39.0012 32.2994 36.6509 35.1755C36.21 35.715 35.7161 36.2089 35.1766 36.6497C32.3004 39 28.0338 39 19.5006 39C10.9674 39 6.70078 39 3.82466 36.6497C3.28514 36.2089 2.79123 35.715 2.35034 35.1755C0 32.2994 0 28.033 0 19.5ZM26.5782 21.9036L16.671 28.2039C14.9766 29.2318 14.5476 30.0304 13.8571 31.3158C13.6632 31.6766 13.4487 32.076 13.1798 32.5295C13.1798 32.6236 12.9911 32.7176 12.8024 32.7176C12.6137 32.7176 12.425 32.5295 12.425 32.3413V26.4172L26.5782 17.8601V21.9036ZM26.5782 16.4496L12.425 25.0067V20.9632L26.5782 12.4061V16.4496ZM26.5782 11.0896L12.425 19.6467V17.484C12.425 16.2615 13.0855 15.1331 14.1234 14.5689L26.5782 7.04614V11.0896Z" fill="currentColor"></path></svg></div> </div> <h1 class="post__title">How We Operate at Engine</h1> <div class="culture-byline"> <img src="/images/Press_elia_1.avif" loading="lazy" alt="Elia Wallen" class="culture-elia-avatar"> <p>By: Elia Wallen</p> </div> <div class="post__devider"></div> </div> <div class="post__wrapper wrapper-2"> <div class="post__content inner-wrap text"> <h2 class="margin-bottom margin-medium"><strong>The best work of your career starts here</strong></h2> <p class="margin-bottom margin-medium">Engine is a category-defining company in the middle of an extraordinary opportunity. More than 50% of SMB business travel spending is still unmanaged. We exist to close that gap and we are moving accordingly. We are cash-flow positive, growing fast, and backed by Blackstone, Permira, and Telescope Partners. The platform serves over 30,000 companies and a million travelers. The window to win is open. We don&rsquo;t plan to waste it.</p> <p class="margin-bottom margin-large">What follows is not a values poster. These are our Operating Principles: the specific behaviors and expectations that shape how we make decisions, communicate, build, and lead every single day. We share them publicly because we believe the right people deserve to know exactly what they&rsquo;re joining. This is a place of real autonomy, real ownership, and real reward, paired with equally real standards.</p> <h2 class="margin-bottom margin-medium"><strong>DNA is who belongs here. Operating Principles are how we work.</strong></h2> <p class="margin-bottom margin-medium">Our DNA describes the traits that define the people who belong at Engine: the instincts, values, and character you bring through the door. You can <a href="/culture-memo">read our full culture memo</a> to understand who we hire. If our DNA resonates, you&rsquo;re worth a conversation.</p> <ul class="hwo-memo-dna-list margin-bottom margin-medium"> <li><a href="/culture-memo">Customer Obsessed</a></li><li><a href="/culture-memo">Drivers, Not Passengers</a></li><li><a href="/culture-memo">Speed with Precision</a></li><li><a href="/culture-memo">Insist on High Standards</a></li><li><a href="/culture-memo">Conviction with Rationale</a></li><li><a href="/culture-memo">Deliver Results</a></li><li><a href="/culture-memo">Innovate &amp; Elevate</a></li> </ul> <p class="margin-bottom margin-medium">Our Operating Principles are different. These are behavioral standards: the specific ways we think, communicate, decide, and execute. They are not aspirational. They are expected. Consistently.</p> <p class="margin-bottom margin-large">The 13 principles below are organized into three themes: the mindset we bring, how we build, and how we communicate and learn. Together, they describe the engine behind everything we do.</p>  <h2 class="margin-bottom margin-medium"><strong>The mindset we bring</strong></h2> <p class="margin-bottom margin-medium"> <strong>Mission first<br></strong> The mission overrides individual preference, convenience, ego, and secondary agendas. We minimize distractions and focus organizational energy on building and winning. If a decision serves a person but not the mission, the mission wins. If a meeting, initiative, or agenda item doesn&#39;t move the business forward, we don&#39;t protect it out of habit or politics. </p><p class="margin-bottom margin-medium"> <strong>Complacency kills<br></strong> Our greatest threat is comfort. We operate with urgency as a default state. We assume survival is never guaranteed. Markets shift. Competitors move. Assumptions expire. Comfort is a signal to probe, not rest. We don&#39;t celebrate merely staying in motion. We push toward the edge of what is possible. </p><p class="margin-bottom margin-large"> <strong>Work hard on what matters<br></strong> We work with sustained intensity on work that is necessary to move the business forward, including the unglamorous parts. Not all effort is equal, but we don&#39;t avoid the hard, invisible, unrecognized work that makes everything else function. We are not here to manage the appearance of work. We are here to produce outcomes. The definition of &quot;what matters&quot; is set by the mission, not by personal preference. </p> <h2 class="margin-bottom margin-medium"><strong>How we build</strong></h2> <p class="margin-bottom margin-medium"> <strong>Speed of light execution<br></strong> We measure against the absolute limit of what is possible, not historical norms, and not industry averages. Accelerating cycle time is a competitive advantage. We don&#39;t accept the pace of incumbents or the lag of consensus culture. We ask what&#39;s genuinely possible in the time available, then try to beat it. Speed is not recklessness. It is discipline applied faster. </p><p class="margin-bottom margin-medium"> <strong>Cupcakes<br></strong> We build miniature end-to-end experiences that are fast, complete, and delightful from day one. A cupcake is neither flour and eggs, nor a wedding cake, but it is entirely delightful. Other companies talk about minimum viable products, but we ship minimum lovable products to never let speed compromise delight. Real customer value in every release: no scaffolding, no promises, no infrastructure that&#39;s &quot;almost ready.&quot; </p><p class="margin-bottom margin-medium"> <strong>Complexity is the enemy<br></strong> Question every requirement. Simplify relentlessly. Complexity is the enemy of scaling. We resist the instinct to add: layers, features, processes, meetings, approvals. The right answer is almost always simpler than the first instinct. Before adding anything, we ask: does this need to exist? Smart people who want to look smart often add complexity. Smart people who want to win remove it. </p><p class="margin-bottom margin-medium"> <strong>Flat by design<br></strong> We minimize layers so information, accountability, and decisions move at maximum speed. Hierarchy slows information and dilutes accountability. We organize to minimize both. Decisions live at the lowest level of competence possible. Information travels directly. Leaders are accessible. This isn&#39;t a philosophy statement. It&#39;s a structural commitment with real consequences for how we hire and operate. </p><p class="margin-bottom margin-medium"> <strong>Single owner DRI<br></strong> Every meaningful effort has one clearly accountable owner. Ownership is explicit, not implied. DRI = Directly Responsible Individual. When ownership is shared, it is effectively owned by no one. We name one person. That person is responsible for the outcome, not just their part of it. They cannot delegate the outcome, only the work. Ambiguity in ownership is a leadership failure we address immediately. </p><p class="margin-bottom margin-large"> <strong>Details decide outcomes<br></strong> Excellence is the accumulation of small decisions done correctly. Sloppiness anywhere leaks value everywhere. We don&#39;t treat quality as a finishing pass at the end of the process. It lives in every micro-decision: the copy in a button, the logic in a report, the precision of a number in a meeting. Imprecision compounds. A culture that tolerates sloppiness in small things will tolerate it in large ones. We do not. </p> <h2 class="margin-bottom margin-medium"><strong>How we communicate and learn</strong></h2> <p class="margin-bottom margin-medium"> <strong>Blunt and direct communication<br></strong> Clear beats kind. Communication is precise, brief, and actionable. We do not soften messages to protect feelings at the expense of clarity. We do not pad emails to signal effort. We do not hedge to avoid accountability. Good communication here is short, specific, and tells someone exactly what they need to know and do. If you are leaving important information out to make a conversation easier, that is a problem. </p><p class="margin-bottom margin-medium"> <strong>Truth over comfort<br></strong> Candor is mandatory. We prioritize accuracy and honesty over harmony and ease. Comfortable lies and agreeable silence are forms of organizational failure. If a strategy is weak, say so. If a result is below standard, name it. If you disagree with a direction, raise it with evidence and a point of view, not just skepticism. We debate openly, and we let the best argument win. Silence is not humility here; it is abdication. </p><p class="margin-bottom margin-medium"> <strong>Unfiltered edge intelligence<br></strong> Leaders pull raw signals from those closest to the work to avoid dilution, spin, and false confidence. Information degrades as it moves up a hierarchy. By the time a problem reaches a senior leader through three layers, it has often been softened, reframed, or buried. We fight this by design. Leaders meet with skip levels regularly, not as surveillance, but as signal gathering. The person closest to the customer, the code, or the problem knows things the org chart will never surface on its own. </p><p class="margin-bottom margin-large"> <strong>Public learning from failure<br></strong> When someone fails, we treat it as shared data. Learning compounds when mistakes are visible. If we haven&#39;t failed, we haven&#39;t tried hard enough. Failure is not the problem. Failure without a lesson is. When you take a real swing and it doesn&#39;t land, you paid the admission price. You better collect the credit. We examine what broke, extract every lesson the organization can use, and move. Failures kept private are repeated privately. Failures made visible become institutional advantage. </p> <h2 class="margin-bottom margin-medium"><strong>We wrote this so you can opt in, or opt out.</strong></h2> <p class="margin-bottom margin-large">The most honest thing we can do as a company is give you the information you need to make a real decision about whether to join us, not a filtered, aspirational version designed to maximize applications. If you&rsquo;re looking for autonomy and real ownership, the freedom to move fast, take big bets, set your own limits, and do some of the best work of your career, this is that place. We lead from the edge. We grow at a pace most companies don&rsquo;t attempt. The people here are building something that matters, and they know it. This environment is also demanding. The standards are high and consistently enforced. The communication is direct, sometimes uncomfortably so. We do not optimize for comfort. We optimize for impact. If you&rsquo;ve read the principles above and felt pulled forward, we want to meet you. If you felt unsure, we&rsquo;ve saved you some time.</p> <h2 class="margin-bottom margin-medium"><strong>Built for people who want to grow fast and build boldly</strong></h2> <div class="hwo-memo-thrives"> <div class="hwo-memo-thrives-col"> <p class="hwo-memo-list-label">You&rsquo;ll thrive if you&hellip;</p> <ul> <li>Want autonomy, ownership, and the freedom to move fast</li><li>Take big bets and own the outcome either way</li><li>Want direct feedback, not managed messaging</li><li>Measure yourself by impact, not effort</li><li>Are here to do the best work of your career</li> </ul> </div> <div class="hwo-memo-thrives-col"> <p class="hwo-memo-list-label">It may not be right if you&hellip;</p> <ul> <li>Need consensus before moving</li><li>Prefer stability and predictable scope</li><li>Want leadership to soften hard truths</li><li>Equate busyness with progress</li><li>Treat ambiguity as a blocker</li><li>Are resistant to change</li> </ul> </div> </div> </div> </div> </div> <div class="section_hubspot-form"> <div class="padding-global padding-section-small"> <div class="container-large"> <div class="component_heading"> <div class="text-align-center"> <h2 class="heading-style-h2">Come build something worth building.</h2> </div> </div> <div class="text-align-center"> <a href="/careers" class="button w-button">Explore open roles</a> </div> </div> </div> </div> </main>   <footer data-wf--footer--theme="dark" class="footer_component theme-dark" data-astro-cid-txwjdrus> <div class="padding-global" data-astro-cid-txwjdrus> <div class="container-large" data-astro-cid-txwjdrus> <div class="padding-vertical padding-xxlarge" data-astro-cid-txwjdrus> <div class="padding-bottom padding-xxlarge" data-astro-cid-txwjdrus> <div class="w-layout-grid footer_top-wrapper" data-astro-cid-txwjdrus> <div id="w-node-c5aa7e93-8506-4a1b-58d9-98395f621ff3-5f621fed" class="footer_left-wrapper" data-astro-cid-pxmtnsro> <a href="/" aria-current="page" class="footer_logo-link w-nav-brand w--current" data-astro-cid-pxmtnsro> <div class="footer_logo w-embed" data-astro-cid-pxmtnsro><svg width="100%" height="100%" viewBox="0 0 124 43" fill="none" xmlns="http://www.w3.org/2000/svg" data-astro-cid-pxmtnsro> <path d="M0 0H18.7849V5.85966H5.9967V13.0734H18.7849V18.9331H5.9967V26.2946H18.7849V32.1543H0V0ZM20.6393 10.1928H26.4914V12.6303C27.816 10.8576 29.9594 9.62658 32.4882 9.62658C37.5456 9.62658 40.7487 13.0242 40.7487 18.7361V32.0804H34.752V19.4255C34.752 16.4218 33.4274 14.6738 30.7542 14.6738C28.0809 14.6738 26.636 16.2987 26.636 19.9918V32.105H20.6393V10.1928ZM69.7448 0.664751C71.8641 0.664751 73.3332 2.1666 73.3332 4.33319C73.3332 6.49979 71.8641 8.00163 69.7448 8.00163C67.6255 8.00163 66.1564 6.49979 66.1564 4.33319C66.1564 2.1666 67.6255 0.664751 69.7448 0.664751ZM66.8307 10.1928H72.8274V32.105H66.8307V10.1928ZM74.6577 10.1928H80.5099V12.6303C81.8345 10.8576 83.9779 9.62658 86.5067 9.62658C91.5641 9.62658 94.7672 13.0242 94.7672 18.7361V32.0804H88.7704V19.4255C88.7704 16.4218 87.4459 14.6738 84.7727 14.6738C82.0994 14.6738 80.6544 16.2987 80.6544 19.9918V32.105H74.6577V10.1928ZM96.0917 21.2228C96.0917 14.8215 101.029 9.6512 107.266 9.6512C113.504 9.6512 118.441 14.8215 118.441 21.2228V23.1186H101.655C102.329 25.7037 104.184 27.4764 107.242 27.4764C110.301 27.4764 111.096 26.5162 111.77 24.7435H118.152C116.418 29.643 112.83 32.6467 107.242 32.6467C101.655 32.6467 96.0677 27.4764 96.0677 21.0751V21.2228H96.0917ZM102.233 18.3668H112.492C111.698 16.2002 109.699 15.0923 107.435 15.0923C105.171 15.0923 103.172 16.4464 102.233 18.3668ZM59.0278 10.1928V12.4825C57.6069 10.833 55.3912 9.6512 52.5735 9.6512C47.6846 9.6512 42.0492 13.3196 42.0492 21.1736C42.0492 29.0275 47.9014 32.6959 52.4772 32.6959C57.053 32.6959 57.5828 31.4895 59.0278 29.7661V32.0804C59.0278 34.961 57.077 37.2261 54.4761 37.2261C51.8751 37.2261 50.3097 36.2166 49.539 34.444H43.1329C44.3852 39.3188 48.3349 42.9134 54.4761 42.9134C60.6173 42.9134 64.9522 38.5802 64.9522 31.9327V10.2421H59.0278V10.1928ZM53.6572 27.1071C50.3578 27.1071 47.8532 24.5465 47.8532 21.1243C47.8532 17.7021 50.3578 15.1908 53.6572 15.1908C56.9566 15.1908 59.1964 17.8498 59.1964 21.1243C59.1964 24.3988 56.8603 27.1071 53.6572 27.1071Z" fill="currentColor" data-astro-cid-pxmtnsro></path> </svg></div> </a> <div class="padding-vertical padding-medium" data-astro-cid-pxmtnsro> <div class="footer_details-wrapper" data-astro-cid-pxmtnsro> <div class="margin-bottom margin-tiny" data-astro-cid-pxmtnsro> <div class="text-weight-bold" data-astro-cid-pxmtnsro>Contact Member Support:</div> </div> <div class="margin-bottom margin-small" data-astro-cid-pxmtnsro> <a href="tel:+18555674683" class="footer_link" data-astro-cid-pxmtnsro>855-567-4683</a> </div> </div> </div> <div class="w-layout-grid footer_social-list" data-astro-cid-pxmtnsro> <a aria-label="Visit our Facebook page" href="https://www.facebook.com/gowithengine" target="_blank" class="footer_social-link w-inline-block" data-astro-cid-pxmtnsro> <div class="footer_social-icon w-embed" data-astro-cid-pxmtnsro><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-astro-cid-pxmtnsro> <path d="M22 12.0611C22 6.50451 17.5229 2 12 2C6.47715 2 2 6.50451 2 12.0611C2 17.0828 5.65684 21.2452 10.4375 22V14.9694H7.89844V12.0611H10.4375V9.84452C10.4375 7.32296 11.9305 5.93012 14.2146 5.93012C15.3088 5.93012 16.4531 6.12663 16.4531 6.12663V8.60261H15.1922C13.95 8.60261 13.5625 9.37822 13.5625 10.1739V12.0611H16.3359L15.8926 14.9694H13.5625V22C18.3432 21.2452 22 17.083 22 12.0611Z" fill="CurrentColor" data-astro-cid-pxmtnsro></path> </svg></div> </a> <a aria-label="Visit our Linkedin page" href="https://www.linkedin.com/company/engine" target="_blank" class="footer_social-link w-inline-block" data-astro-cid-pxmtnsro> <div class="footer_social-icon w-embed" data-astro-cid-pxmtnsro><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-astro-cid-pxmtnsro> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 3C3.67157 3 3 3.67157 3 4.5V19.5C3 20.3284 3.67157 21 4.5 21H19.5C20.3284 21 21 20.3284 21 19.5V4.5C21 3.67157 20.3284 3 19.5 3H4.5ZM8.52076 7.00272C8.52639 7.95897 7.81061 8.54819 6.96123 8.54397C6.16107 8.53975 5.46357 7.90272 5.46779 7.00413C5.47201 6.15897 6.13998 5.47975 7.00764 5.49944C7.88795 5.51913 8.52639 6.1646 8.52076 7.00272ZM12.2797 9.76176H9.75971H9.7583V18.3216H12.4217V18.1219C12.4217 17.742 12.4214 17.362 12.4211 16.9819V16.9818V16.9816V16.9815V16.9812C12.4203 15.9674 12.4194 14.9532 12.4246 13.9397C12.426 13.6936 12.4372 13.4377 12.5005 13.2028C12.7381 12.3253 13.5271 11.7586 14.4074 11.8979C14.9727 11.9864 15.3467 12.3141 15.5042 12.8471C15.6013 13.1803 15.6449 13.5389 15.6491 13.8863C15.6605 14.9339 15.6589 15.9815 15.6573 17.0292V17.0294C15.6567 17.3992 15.6561 17.769 15.6561 18.1388V18.3202H18.328V18.1149C18.328 17.6629 18.3278 17.211 18.3275 16.7591V16.759V16.7588C18.327 15.6293 18.3264 14.5001 18.3294 13.3702C18.3308 12.8597 18.276 12.3563 18.1508 11.8627C17.9638 11.1286 17.5771 10.5211 16.9485 10.0824C16.5027 9.77019 16.0133 9.5691 15.4663 9.5466C15.404 9.54401 15.3412 9.54062 15.2781 9.53721L15.2781 9.53721L15.2781 9.53721C14.9984 9.52209 14.7141 9.50673 14.4467 9.56066C13.6817 9.71394 13.0096 10.0641 12.5019 10.6814C12.4429 10.7522 12.3852 10.8241 12.2991 10.9314L12.2991 10.9315L12.2797 10.9557V9.76176ZM5.68164 18.3244H8.33242V9.76733H5.68164V18.3244Z" fill="CurrentColor" data-astro-cid-pxmtnsro></path> </svg></div> </a> <a aria-label="Visit our Twitter/X profile" href="https://x.com/gowithengine" target="_blank" class="footer_social-link w-inline-block" data-astro-cid-pxmtnsro> <div class="footer_social-icon w-embed" data-astro-cid-pxmtnsro><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-astro-cid-pxmtnsro> <path d="M17.1761 4H19.9362L13.9061 10.7774L21 20H15.4456L11.0951 14.4066L6.11723 20H3.35544L9.80517 12.7508L3 4H8.69545L12.6279 9.11262L17.1761 4ZM16.2073 18.3754H17.7368L7.86441 5.53928H6.2232L16.2073 18.3754Z" fill="CurrentColor" data-astro-cid-pxmtnsro></path> </svg></div> </a> <a aria-label="Visit our Instagram account" href="https://www.instagram.com/gowithengine" target="_blank" class="footer_social-link w-inline-block" data-astro-cid-pxmtnsro> <div class="footer_social-icon w-embed" data-astro-cid-pxmtnsro><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-astro-cid-pxmtnsro> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 3H8C5.23858 3 3 5.23858 3 8V16C3 18.7614 5.23858 21 8 21H16C18.7614 21 21 18.7614 21 16V8C21 5.23858 18.7614 3 16 3ZM19.25 16C19.2445 17.7926 17.7926 19.2445 16 19.25H8C6.20735 19.2445 4.75549 17.7926 4.75 16V8C4.75549 6.20735 6.20735 4.75549 8 4.75H16C17.7926 4.75549 19.2445 6.20735 19.25 8V16ZM16.75 8.25C17.3023 8.25 17.75 7.80228 17.75 7.25C17.75 6.69772 17.3023 6.25 16.75 6.25C16.1977 6.25 15.75 6.69772 15.75 7.25C15.75 7.80228 16.1977 8.25 16.75 8.25ZM12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5027 10.8057 16.0294 9.65957 15.1849 8.81508C14.3404 7.97059 13.1943 7.49734 12 7.5ZM9.25 12C9.25 13.5188 10.4812 14.75 12 14.75C13.5188 14.75 14.75 13.5188 14.75 12C14.75 10.4812 13.5188 9.25 12 9.25C10.4812 9.25 9.25 10.4812 9.25 12Z" fill="CurrentColor" data-astro-cid-pxmtnsro></path> </svg></div> </a> </div> <div class="margin-top margin-medium" data-astro-cid-pxmtnsro> <div class="button-group is-vertical" data-astro-cid-pxmtnsro> <a href="https://apps.apple.com/us/app/hotel-engine/id1067715122" class="button is-app w-inline-block" data-astro-cid-pxmtnsro><img src="/_astro/app-store-badge.D2pDMQop_Z26mcEP.webp" loading="lazy" alt="Download on the App Store" data-astro-cid-pxmtnsro="true" decoding="async" width="336" height="100" class="button_app-cover"></a> <a href="https://play.google.com/store/apps/details?id=com.hotelengine.app&hl=en_US&gl=US" target="_blank" class="button is-app w-inline-block" data-astro-cid-pxmtnsro><img src="/_astro/google-play-badge.Mok5UN_k_Z2lgtwG.webp" loading="lazy" alt="Get it on Google Play" data-astro-cid-pxmtnsro="true" decoding="async" width="336" height="100" class="button_app-cover"></a> </div> </div> </div> <div class="w-layout-grid footer_menu-wrapper" data-astro-cid-wyfryaew> <div class="footer_column" data-astro-cid-wyfryaew> <div class="footer_link-list" data-astro-cid-wyfryaew> <div class="footer_menu-title" data-astro-cid-wyfryaew>Features</div> <a href="/corporate-travel-dashboards-and-reporting" class="footer_link" data-astro-cid-wyfryaew>Dashboard + Reporting</a> <a href="/corporate-hotel-invoices-and-billing" class="footer_link" data-astro-cid-wyfryaew>Billing</a> <a href="/flexibility-to-change-travel-plans" class="footer_link" data-astro-cid-wyfryaew>Flexibility</a> <a href="/groups" class="footer_link" data-astro-cid-wyfryaew>Groups + Events</a> <a href="/coverage-for-hotel-incidentals" class="footer_link hide-uk" data-astro-cid-wyfryaew>Incidentals</a> <a href="/rewards" class="footer_link hide-uk" data-astro-cid-wyfryaew>Rewards + Loyalty</a> <a href="/24-7-live-support" class="footer_link hide-uk" data-astro-cid-wyfryaew>24/7 Support</a> <a href="/our-hotels" class="footer_link hide-uk" data-astro-cid-wyfryaew>Our Hotels</a> <a href="/book-corporate-travel" class="footer_link hide-uk" data-astro-cid-wyfryaew>Book Corporate Travel</a> <a href="/corporate-travel-policies" class="footer_link hide-uk" data-astro-cid-wyfryaew>Travel Policies</a> </div> <div class="footer_link-list" data-astro-cid-wyfryaew> <div class="footer_menu-title" data-astro-cid-wyfryaew>Group Bookings</div> <a href="/groups" class="footer_link" data-astro-cid-wyfryaew>Groups Overview</a> <a href="/groups/construction-crews" class="footer_link hide-uk" data-astro-cid-wyfryaew>Construction Crews</a> <a href="/groups/conferences-and-events" class="footer_link hide-uk" data-astro-cid-wyfryaew>Conferences + Events</a> <a href="/groups/sports-teams" class="footer_link hide-uk" data-astro-cid-wyfryaew>Sports Teams</a> <a href="/groups/offsites-and-retreats" class="footer_link hide-uk" data-astro-cid-wyfryaew>Offsites + Retreats</a> <a href="/groups/weddings" class="footer_link hide-uk" data-astro-cid-wyfryaew>Weddings</a> <a href="/groups/disaster-relief" class="footer_link hide-uk" data-astro-cid-wyfryaew>Disaster Relief</a> <a href="https://roomblocks.com" class="footer_link hide-uk" data-astro-cid-wyfryaew>RoomBlocks by Engine</a> </div> </div> <div class="footer_column" data-astro-cid-wyfryaew> <div class="footer_link-list" data-astro-cid-wyfryaew> <div class="footer_menu-title" data-astro-cid-wyfryaew>Who We're Made For</div> <a href="/solutions/travel-managers" class="footer_link" data-astro-cid-wyfryaew>Travel Managers</a> <a href="/solutions/operations-managers" class="footer_link" data-astro-cid-wyfryaew>Operations Managers</a> <a href="/solutions/finance-managers" class="footer_link" data-astro-cid-wyfryaew>Finance Managers</a> <a href="/solutions/travelers" class="footer_link hide-uk" data-astro-cid-wyfryaew>Travelers</a> <a href="/industry" class="footer_link" data-astro-cid-wyfryaew>By Industry</a> </div> <div class="footer_link-list" data-astro-cid-wyfryaew> <div class="footer_menu-title" data-astro-cid-wyfryaew>Partner Hub</div> <a href="/partner-hub" class="footer_link" data-astro-cid-wyfryaew>Platform Overview</a> <a href="/partner-hub/property-spotlight" class="footer_link hide-uk" data-astro-cid-wyfryaew>Increase Revenue</a> <a href="/partner-hub/2x-rewards" class="footer_link hide-uk" data-astro-cid-wyfryaew>Build Customer Loyalty</a> <a href="/partner-hub/manage-reservations" class="footer_link hide-uk" data-astro-cid-wyfryaew>Manage Reservations</a> <a href="/partner-hub/team-communication" class="footer_link hide-uk" data-astro-cid-wyfryaew>Team Communication</a> <a href="/partner-hub/traveler-issue-resolution" class="footer_link hide-uk" data-astro-cid-wyfryaew>Traveler Support</a> <a href="/partner-hub/analytics" class="footer_link hide-uk" data-astro-cid-wyfryaew>Real-time Insights</a> </div> </div> <div class="footer_link-list" data-astro-cid-wyfryaew> <div class="footer_menu-title" data-astro-cid-wyfryaew>Company</div> <a href="/about-us" class="footer_link" data-astro-cid-wyfryaew>About Us</a> <a href="/culture" class="footer_link" data-astro-cid-wyfryaew>Culture</a> <a href="/careers" class="footer_link" data-astro-cid-wyfryaew>Careers</a> <a href="/social-responsibility" class="footer_link" data-astro-cid-wyfryaew>Social Responsibility</a> <a href="/hotel-partners" class="footer_link hide-uk" data-astro-cid-wyfryaew>Hotel Partners</a> <a href="/sign-up" class="footer_link" data-astro-cid-wyfryaew>Sign Up</a> <a href="https://members.engine.com/" class="footer_link" data-astro-cid-wyfryaew>Member Login</a> <a href="/contact-us" class="footer_link" data-astro-cid-wyfryaew>Contact Us</a> <a href="https://trust.engine.com" class="footer_link" data-astro-cid-wyfryaew>Trust Center</a> <a href="/partnerships" class="footer_link" data-astro-cid-wyfryaew>Partnerships</a> <a href="/press" class="footer_link" data-astro-cid-wyfryaew>Press</a> </div> <div class="footer_link-list" data-astro-cid-wyfryaew> <div class="footer_menu-title" data-astro-cid-wyfryaew>Resources</div> <a href="/pricing" class="footer_link hide-uk" data-astro-cid-wyfryaew>Pricing</a> <a href="/blog" class="footer_link" data-astro-cid-wyfryaew>All Resources</a> <a href="/templates" class="footer_link" data-astro-cid-wyfryaew>Templates</a> <a href="/customer-stories" class="footer_link hide-uk" data-astro-cid-wyfryaew>Case Studies</a> <a href="/compare" class="footer_link hide-uk" data-astro-cid-wyfryaew>Compare Engine</a> <a href="/faqs" class="footer_link" data-astro-cid-wyfryaew>FAQs</a> <a href="/hotels" class="footer_link" data-astro-cid-wyfryaew>Hotels</a> <a href="https://hotelengine.my.site.com/helpcenter/s/" target="_blank" class="footer_link" data-astro-cid-wyfryaew>Help Center</a> <a href="/accessibility" class="footer_link" data-astro-cid-wyfryaew>Accessibility</a> </div> </div> </div> </div> <div class="line-divider" data-astro-cid-txwjdrus></div> <div class="padding-top padding-medium" data-astro-cid-vfsbn76k> <div class="footer_bottom-wrapper" data-astro-cid-vfsbn76k> <div class="footer_credit-text" data-astro-cid-vfsbn76k>&copy; Engine <span data-el="footer_year" data-astro-cid-vfsbn76k>2026</span>. All Rights Reserved</div> <div class="w-layout-grid footer_legal-list" data-astro-cid-vfsbn76k> <div class="w-embed" data-astro-cid-vfsbn76k></div><button id="ot-sdk-btn" class="ot-sdk-show-settings footer_legal-link" data-astro-cid-vfsbn76k>Manage Cookies</button> <a href="/terms-of-service" class="footer_legal-link" data-astro-cid-vfsbn76k>Terms of Service</a> <a href="/privacy-policy" class="footer_legal-link" data-astro-cid-vfsbn76k>Privacy Policy</a> </div> </div> </div> <div class="footer_big-logo w-embed" data-astro-cid-vfsbn76k><svg width="100%" height="100%" viewBox="0 0 118.6 43" fill="none" xmlns="http://www.w3.org/2000/svg" data-astro-cid-vfsbn76k> <path d="M0 0H18.7849V5.85966H5.9967V13.0734H18.7849V18.9331H5.9967V26.2946H18.7849V32.1543H0V0ZM20.6393 10.1928H26.4914V12.6303C27.816 10.8576 29.9594 9.62658 32.4882 9.62658C37.5456 9.62658 40.7487 13.0242 40.7487 18.7361V32.0804H34.752V19.4255C34.752 16.4218 33.4274 14.6738 30.7542 14.6738C28.0809 14.6738 26.636 16.2987 26.636 19.9918V32.105H20.6393V10.1928ZM69.7448 0.664751C71.8641 0.664751 73.3332 2.1666 73.3332 4.33319C73.3332 6.49979 71.8641 8.00163 69.7448 8.00163C67.6255 8.00163 66.1564 6.49979 66.1564 4.33319C66.1564 2.1666 67.6255 0.664751 69.7448 0.664751ZM66.8307 10.1928H72.8274V32.105H66.8307V10.1928ZM74.6577 10.1928H80.5099V12.6303C81.8345 10.8576 83.9779 9.62658 86.5067 9.62658C91.5641 9.62658 94.7672 13.0242 94.7672 18.7361V32.0804H88.7704V19.4255C88.7704 16.4218 87.4459 14.6738 84.7727 14.6738C82.0994 14.6738 80.6544 16.2987 80.6544 19.9918V32.105H74.6577V10.1928ZM96.0917 21.2228C96.0917 14.8215 101.029 9.6512 107.266 9.6512C113.504 9.6512 118.441 14.8215 118.441 21.2228V23.1186H101.655C102.329 25.7037 104.184 27.4764 107.242 27.4764C110.301 27.4764 111.096 26.5162 111.77 24.7435H118.152C116.418 29.643 112.83 32.6467 107.242 32.6467C101.655 32.6467 96.0677 27.4764 96.0677 21.0751V21.2228H96.0917ZM102.233 18.3668H112.492C111.698 16.2002 109.699 15.0923 107.435 15.0923C105.171 15.0923 103.172 16.4464 102.233 18.3668ZM59.0278 10.1928V12.4825C57.6069 10.833 55.3912 9.6512 52.5735 9.6512C47.6846 9.6512 42.0492 13.3196 42.0492 21.1736C42.0492 29.0275 47.9014 32.6959 52.4772 32.6959C57.053 32.6959 57.5828 31.4895 59.0278 29.7661V32.0804C59.0278 34.961 57.077 37.2261 54.4761 37.2261C51.8751 37.2261 50.3097 36.2166 49.539 34.444H43.1329C44.3852 39.3188 48.3349 42.9134 54.4761 42.9134C60.6173 42.9134 64.9522 38.5802 64.9522 31.9327V10.2421H59.0278V10.1928ZM53.6572 27.1071C50.3578 27.1071 47.8532 24.5465 47.8532 21.1243C47.8532 17.7021 50.3578 15.1908 53.6572 15.1908C56.9566 15.1908 59.1964 17.8498 59.1964 21.1243C59.1964 24.3988 56.8603 27.1071 53.6572 27.1071Z" fill="currentColor" data-astro-cid-vfsbn76k></path> </svg></div> <div class="line-divider" data-astro-cid-vfsbn76k></div> </div> </div> </div>  </footer>  </div> <!-- Salesforce MIAW chat (time-gated: 6 AM–midnight MT, deferred until first .openchat click) --> <script type="module">function s(){const e=(new Date().getUTCHours()-7+24)%24;return e>=6&&e<24}function a(){try{embeddedservice_bootstrap.settings.language="en_US",embeddedservice_bootstrap.init("00D61000000Zy59","MIAW_For_Web_Sales_Chat_Users","https://hotelengine.my.site.com/ESWMIAWForWebSalesCha1701120415342",{scrt2URL:"https://hotelengine.my.salesforce-scrt.com"})}catch(t){console.error("Error loading Embedded Messaging: ",t)}}var o=null;function c(){return window.embeddedservice_bootstrap&&window.embeddedservice_bootstrap.utilAPI?Promise.resolve():o||(o=new Promise(function(t,e){var n=document.createElement("script");n.src="https://hotelengine.my.site.com/ESWMIAWForWebSalesCha1701120415342/assets/js/bootstrap.min.js",n.onload=function(){a();var r=Date.now();(function i(){window.embeddedservice_bootstrap&&window.embeddedservice_bootstrap.utilAPI?t():Date.now()-r>5e3?e(new Error("embeddedservice_bootstrap.utilAPI did not initialize")):setTimeout(i,50)})()},n.onerror=function(){o=null,e(new Error("Failed to load Salesforce chat bootstrap"))},document.body.appendChild(n)}),o)}function d(){embeddedservice_bootstrap.utilAPI.launchChat().then(function(){console.log("Chat launched")}).catch(function(){console.log("Chat launch failed, redirecting to support"),window.open("https://support.engine.com","_blank")})}document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".openchat").forEach(function(t){t.addEventListener("click",function(e){if(e.preventDefault(),!s()){alert("Chat is not available from 12 AM to 6 AM MT.");return}c().then(d).catch(function(){window.open("https://support.engine.com","_blank")})})})});</script> <!-- Video player --> <script type="module">document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll('[data="video-wrapper"]').forEach(e=>{const d=e.querySelector('[data="video-overlay"]'),o=e.querySelector('[data="close"]'),t=e.querySelector('[data="hero_video"]'),n=()=>{o.click(),document.removeEventListener("keydown",n)};d&&d.addEventListener("click",()=>{e.classList.add("is-open"),document.addEventListener("keydown",c=>{c.key==="Escape"&&n()})}),o&&o.addEventListener("click",()=>{e.classList.remove("is-open"),t&&(t.pause(),t.currentTime=0)})})});</script> <!-- Interaction replacements (dropdowns, hamburger, FAQ accordion) --> <script src="/js/interactions.js" type="text/javascript"></script> <!-- Shared page scripts --> <script>
+      /* Retain UTM params on groups.engine.com links */
+      function retainParamsToGroupsURL() {
+        var currentUrl = new URL(window.location.href);
+        var params = new URLSearchParams(currentUrl.search);
+        var updatedParams = params.toString().replace(/\+/g, '%20');
+        if (!params.toString()) return;
+        var targetUrlFragment = 'groups.engine.com/new-trip';
+        document.querySelectorAll('a').forEach(function (link) {
+          try {
+            if (link.href.includes(targetUrlFragment)) {
+              var linkUrl = new URL(link.href);
+              link.href = linkUrl.origin + linkUrl.pathname + '?' + updatedParams;
+            }
+          } catch (error) {}
+        });
+      }
+      window.addEventListener('DOMContentLoaded', retainParamsToGroupsURL);
+    </script> <script>
+      /* Footer year */
+      document.addEventListener("DOMContentLoaded", function () {
+        const yearEl = document.querySelector('[data-el="footer_year"]');
+        if (yearEl) yearEl.textContent = new Date().getFullYear();
+      });
+    </script> <!-- Page-specific body slot --> <script type="speculationrules">
+  {
+    "prefetch": [{
+      "where": {
+        "and": [
+          { "href_matches": "/*" }
+        ]
+      },
+      "eagerness": "moderate"
+    }],
+    "prerender": [{
+      "where": {
+        "and": [
+          { "href_matches": "/sign-up" }
+        ]
+      },
+      "eagerness": "moderate"
+    }]
+  }
+  </script> <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1feb78c0c527609',t:'MTc4NDg1MTk4NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>

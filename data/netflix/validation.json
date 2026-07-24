@@ -1,16 +1,16 @@
 {
   "ground_truth_chunk": {
     "level": "chunk",
-    "altruism_peak_year": 2022,
-    "altruism_control_correlation": 0.615,
-    "correlation_p": 0.019,
+    "altruism_peak_year": 2024,
+    "altruism_control_correlation": 0.898,
+    "correlation_p": 0.0,
     "control_decoupled": false,
     "peak_within_expected": null
   },
   "ground_truth_sentence": {
     "level": "sentence",
-    "altruism_peak_year": 2020,
-    "altruism_control_correlation": 0.839,
+    "altruism_peak_year": 2022,
+    "altruism_control_correlation": 0.947,
     "correlation_p": 0.0,
     "control_decoupled": false,
     "peak_within_expected": null
@@ -315,8 +315,8 @@
       "2025": 0.003913305605021379
     }
   },
-  "tournament_spearman_chunk": 0.09,
-  "tournament_spearman_sentence": 0.402,
+  "tournament_spearman_chunk": 0.077,
+  "tournament_spearman_sentence": 0.3,
   "early_year_agreement": {
     "chunk_vs_llm_spearman": 1.0,
     "sentence_vs_llm_spearman": 1.0
@@ -623,11 +623,20 @@
           "2025": 4.481182178757831e-06
         }
       },
-      "spearman_chunk": 0.616,
-      "spearman_sentence": 0.766,
+      "spearman_chunk": 0.61,
+      "spearman_sentence": 0.606,
       "early_year_agreement": {
         "chunk_vs_llm_spearman": 1.0,
         "sentence_vs_llm_spearman": 0.5
+      },
+      "agreement": {
+        "n": 40,
+        "agreement": 0.8,
+        "n_confident": 17,
+        "confident_agreement": 1.0,
+        "n_close": 23,
+        "close_agreement": 0.652,
+        "confident_margin_z": 1.0
       }
     },
     "craft": {
@@ -931,11 +940,20 @@
           "2025": 0.02118789523110365
         }
       },
-      "spearman_chunk": -0.09,
-      "spearman_sentence": -0.095,
+      "spearman_chunk": -0.211,
+      "spearman_sentence": -0.18,
       "early_year_agreement": {
         "chunk_vs_llm_spearman": -1.0,
         "sentence_vs_llm_spearman": -1.0
+      },
+      "agreement": {
+        "n": 40,
+        "agreement": 0.5,
+        "n_confident": 21,
+        "confident_agreement": 0.381,
+        "n_close": 19,
+        "close_agreement": 0.632,
+        "confident_margin_z": 1.0
       }
     }
   },
@@ -1022,5 +1040,96 @@
       "n_chunks": 353,
       "separated": true
     }
-  ]
+  ],
+  "control_decoupling": [
+    {
+      "axis": "altruism",
+      "level": "chunk",
+      "n_years": 19,
+      "control_r": 0.898,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.895,
+      "control_r_topk_vs_logn": 0.829,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "craft",
+      "level": "chunk",
+      "n_years": 19,
+      "control_r": 0.564,
+      "control_p": 0.012,
+      "r_topk_vs_logn": 0.83,
+      "control_r_topk_vs_logn": 0.829,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "inclusion",
+      "level": "chunk",
+      "n_years": 19,
+      "control_r": 0.394,
+      "control_p": 0.095,
+      "r_topk_vs_logn": 0.713,
+      "control_r_topk_vs_logn": 0.829,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "meritocracy",
+      "level": "chunk",
+      "n_years": 19,
+      "control_r": 0.322,
+      "control_p": 0.179,
+      "r_topk_vs_logn": 0.657,
+      "control_r_topk_vs_logn": 0.829,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "performance",
+      "level": "chunk",
+      "n_years": 19,
+      "control_r": 0.183,
+      "control_p": 0.453,
+      "r_topk_vs_logn": 0.536,
+      "control_r_topk_vs_logn": 0.829,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "techno_optimism",
+      "level": "chunk",
+      "n_years": 19,
+      "control_r": 0.141,
+      "control_p": 0.564,
+      "r_topk_vs_logn": 0.169,
+      "control_r_topk_vs_logn": 0.829,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "wellbeing",
+      "level": "chunk",
+      "n_years": 19,
+      "control_r": 0.455,
+      "control_p": 0.05,
+      "r_topk_vs_logn": 0.615,
+      "control_r_topk_vs_logn": 0.829,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "wellbeing_locus",
+      "level": "chunk",
+      "n_years": 19,
+      "control_r": 0.76,
+      "control_p": 0.0,
+      "r_topk_vs_logn": 0.689,
+      "control_r_topk_vs_logn": 0.829,
+      "diagnosis": "pool_size_suspect"
+    }
+  ],
+  "tournament_agreement": {
+    "n": 40,
+    "agreement": 0.575,
+    "n_confident": 20,
+    "confident_agreement": 0.65,
+    "n_close": 20,
+    "close_agreement": 0.5,
+    "confident_margin_z": 1.0
+  }
 }

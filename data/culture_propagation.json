@@ -7,24 +7,26 @@
     "talent_density": "Talent density",
     "keeper_test": "Keeper test",
     "team_not_family": "Team, not a family",
-    "dream_team": "Dream team / stunning colleagues",
+    "minimize_complexity": "Minimize complexity",
+    "not_for_everyone": "Not right for everyone",
+    "candor_directness": "Candor / honesty always",
     "high_performer_supremacy": "High performer ≫ average",
     "adequate_severance": "Adequate → severance",
+    "values_not_wall": "Values ≠ words on the wall",
     "raise_the_bar": "Raise the bar",
     "judged_by_outcomes": "Judged by outcomes/results",
     "only_the_best": "Only the best / A-players",
     "freedom_responsibility": "Freedom & responsibility / no rules",
     "context_not_control": "Context, not control",
-    "aligned_loosely_coupled": "Highly aligned, loosely coupled",
     "no_vacation_policy": "No vacation policy / unlimited time off"
   },
   "displayNames": {
+    "netflix": "Netflix",
     "google": "Google",
     "amazon": "Amazon",
     "meta": "Meta",
     "palantir": "Palantir",
     "coinbase": "Coinbase",
-    "netflix": "Netflix",
     "shopify": "Shopify",
     "stripe": "Stripe",
     "airbnb": "Airbnb",
@@ -32,7 +34,9 @@
     "hubspot": "HubSpot",
     "gitlab": "GitLab",
     "github": "GitHub",
-    "salesforce": "Salesforce"
+    "salesforce": "Salesforce",
+    "engine": "Engine",
+    "basecamp": "Basecamp"
   },
   "timeline": {
     "talent_density": {
@@ -64,6 +68,20 @@
             "score": 0.516
           }
         ]
+      },
+      "engine": {
+        "echoes": [
+          {
+            "year": 2024,
+            "text": "At Hotel Engine, Talent Density is everything.",
+            "score": 0.619
+          },
+          {
+            "year": 2024,
+            "text": "At Engine, talent density is everything.",
+            "score": 0.606
+          }
+        ]
       }
     },
     "keeper_test": {
@@ -88,15 +106,6 @@
       }
     },
     "team_not_family": {
-      "coinbase": {
-        "echoes": [
-          {
-            "year": 2024,
-            "text": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers.",
-            "score": 0.59
-          }
-        ]
-      },
       "netflix": {
         "firstYearConcept": 2009,
         "nConcept": 13,
@@ -116,6 +125,27 @@
         "example": "We model ourselves on being a team, not a family.",
         "exampleScore": 0.802
       },
+      "coinbase": {
+        "firstYearConcept": 2021,
+        "nConcept": 6,
+        "yearsConcept": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "example": "We are a winning team, not a family, and have high expectations for performance and delivering results.",
+        "exampleScore": 0.823,
+        "echoes": [
+          {
+            "year": 2024,
+            "text": "We have high expectations for performance and delivering results, and thrive as a team of individual star performers.",
+            "score": 0.59
+          }
+        ]
+      },
       "salesforce": {
         "echoes": [
           {
@@ -126,49 +156,12 @@
         ]
       }
     },
-    "dream_team": {
-      "google": {
-        "echoes": [
-          {
-            "year": 2012,
-            "text": "We put great stock in our employees–energetic, passionate people from diverse backgrounds with creative approaches to work, play and life.",
-            "score": 0.558
-          },
-          {
-            "year": 2000,
-            "text": "Intelligent, fun, talented, hard working, high energy teammates.",
-            "score": 0.545
-          },
-          {
-            "year": 1999,
-            "text": "Intelligent, fun, talented, hard-working, high-energy teammates In the center of the Silicon Valley An exciting place to work!",
-            "score": 0.501
-          }
-        ]
-      },
-      "coinbase": {
-        "echoes": [
-          {
-            "year": 2018,
-            "text": "To achieve this, we are building a team of smart, creative, passionate optimists, the kind of people who see opportunity where others see roadblocks.",
-            "score": 0.554
-          },
-          {
-            "year": 2021,
-            "text": "We’re a team of smart, creative, optimists — the kind of people who see opportunity where others see roadblocks.",
-            "score": 0.532
-          },
-          {
-            "year": 2022,
-            "text": "We’re a team of smart, creative optimists — the kind of people who see opportunity where others see roadblocks.",
-            "score": 0.526
-          }
-        ]
-      },
+    "minimize_complexity": {
       "netflix": {
-        "firstYearConcept": 2017,
-        "nConcept": 18,
+        "firstYearConcept": 2009,
+        "nConcept": 10,
         "yearsConcept": [
+          2009,
           2017,
           2018,
           2019,
@@ -176,48 +169,81 @@
           2021,
           2022,
           2023,
-          2024,
-          2025,
-          2026
+          2024
         ],
-        "example": "More specifically, we have great people working together as a dream team .",
-        "exampleScore": 0.681
+        "example": "Minimize Complexity Growth• Few big products vs many small ones• Eliminate distracting complexity (barnacles)• Be wary of efficiency optimizations that increase complexity and rigi",
+        "exampleScore": 0.869,
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 1
+      },
+      "meta": {
+        "echoes": [
+          {
+            "year": 2023,
+            "text": "We continuously work to speed up our highest priority initiatives by methodically removing barriers that get in the way.",
+            "score": 0.504
+          }
+        ]
+      },
+      "coinbase": {
+        "firstYearConcept": 2014,
+        "nConcept": 5,
+        "yearsConcept": [
+          2014,
+          2015,
+          2016,
+          2017
+        ],
+        "example": "We're ruthless about cutting out complexity, otherwise it can creep in and slowly take over.",
+        "exampleScore": 0.757,
+        "echoes": [
+          {
+            "year": 2016,
+            "text": "We like to ask what can be removed, consolidated, and redone to eliminate complexity.",
+            "score": 0.584
+          },
+          {
+            "year": 2016,
+            "text": "Companies and products trend toward complexity.",
+            "score": 0.576
+          },
+          {
+            "year": 2014,
+            "text": "Organizations, products, and software trend toward complexity.",
+            "score": 0.538
+          }
+        ]
       },
       "shopify": {
         "echoes": [
           {
-            "year": 2010,
-            "text": "You'll be working in an amazing team with tons of benefits and perks.",
-            "score": 0.595
+            "year": 2026,
+            "text": "This will allow us to keep our core product lean, approachable, and simple.",
+            "score": 0.618
           },
           {
-            "year": 2017,
-            "text": "The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together and it’s why we actively seek the brightest minds in the wor",
-            "score": 0.579
+            "year": 2026,
+            "text": "As the number and diversity of our merchants grows, our entrepreneurs have less in common, and thus our core product needs to be simpler, not bigger.",
+            "score": 0.56
           },
           {
             "year": 2023,
-            "text": "Joining our team means working with the most driven crafters who pursue mastery.",
-            "score": 0.529
+            "text": "Moving at our pace brings a lot of change, complexity, and ambiguity—and a little bit of chaos.",
+            "score": 0.54
           }
         ]
       },
       "stripe": {
         "echoes": [
           {
-            "year": 2017,
-            "text": "We want to work in a company of warm, inclusive people who treat their colleagues exceptionally well.",
-            "score": 0.568
+            "year": 2014,
+            "text": "Our goal is to combine simplicity and power to deliver an awesome experience.",
+            "score": 0.541
           },
           {
-            "year": 2019,
-            "text": "We want to work in a company of deeply good people who treat their colleagues exceptionally well.",
-            "score": 0.567
-          },
-          {
-            "year": 2020,
-            "text": "We want to work in a company of warm, inclusive people who treat their colleagues well.",
-            "score": 0.521
+            "year": 2026,
+            "text": "We move with speed on what matters most and take the time to invest in what will make us faster tomorrow.",
+            "score": 0.512
           }
         ]
       },
@@ -225,55 +251,207 @@
         "echoes": [
           {
             "year": 2015,
-            "text": "We build the best experience for our community - as a team.",
-            "score": 0.546
+            "text": "We master chaos through flexibility and youthful curiosity.",
+            "score": 0.553
+          }
+        ]
+      },
+      "engine": {
+        "echoes": [
+          {
+            "year": 2026,
+            "text": "We resist the instinct to add: layers, features, processes, meetings, approvals.",
+            "score": 0.628
           },
           {
-            "year": 2024,
-            "text": "Work alongside industry-leading talent and be part of our vibrant network, encompassing people from all walks of life.",
-            "score": 0.519
+            "year": 2026,
+            "text": "We do this efficiently by cutting distractions, prioritising what moves the mission forward and eliminating what doesn't.",
+            "score": 0.609
+          },
+          {
+            "year": 2025,
+            "text": "We do this efficiently by cutting distractions, prioritizing what moves the mission forward and eliminating what doesn’t.",
+            "score": 0.601
+          }
+        ]
+      },
+      "basecamp": {
+        "firstYearConcept": 2014,
+        "nConcept": 9,
+        "yearsConcept": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022
+        ],
+        "example": "We’re big believers in the power of keeping it simple.",
+        "exampleScore": 0.648,
+        "echoes": [
+          {
+            "year": 2014,
+            "text": "In the decades to come, we’ll continue to make big bets on simplicity, clarity, ease-of-use, and honesty.",
+            "score": 0.559
+          }
+        ]
+      }
+    },
+    "not_for_everyone": {
+      "netflix": {
+        "firstYearConcept": 2009,
+        "nConcept": 1,
+        "yearsConcept": [
+          2009
+        ],
+        "example": "Our High Performance Culture Not Right for Everyone• Many people love our culture, and stay a long time – They thrive on excellence and candor and change – They would be disappoint",
+        "exampleScore": 0.764
+      },
+      "palantir": {
+        "echoes": [
+          {
+            "year": 2026,
+            "text": "We attract people who are intellectually diverse and contrarian at heart.",
+            "score": 0.587
+          }
+        ]
+      },
+      "coinbase": {
+        "echoes": [
+          {
+            "year": 2021,
+            "text": "We have an intense work culture, and are regularly pushed out of our comfort zones.",
+            "score": 0.511
+          }
+        ]
+      },
+      "shopify": {
+        "echoes": [
+          {
+            "year": 2018,
+            "text": "Our mission is to make commerce better for everyone – but we’re not the workplace for everyone.",
+            "score": 0.569
+          },
+          {
+            "year": 2023,
+            "text": "If you prefer a prescriptive corporate structure and an in-person office environment, that’s not us.",
+            "score": 0.566
+          },
+          {
+            "year": 2023,
+            "text": "It’s hard to work here if you’re not a great match, and we want to ensure those who consider applying can thrive in our unique environment.",
+            "score": 0.556
+          }
+        ]
+      },
+      "stripe": {
+        "echoes": [
+          {
+            "year": 2014,
+            "text": "We work hard to find people who make others want to be around them.",
+            "score": 0.56
           },
           {
             "year": 2019,
-            "text": "It’s an audacious, incredibly rewarding mission that our increasingly diverse team is dedicated to achieving.",
-            "score": 0.501
+            "text": "People who thrive in high-conflict work environments often do not enjoy the experience here.",
+            "score": 0.535
+          },
+          {
+            "year": 2014,
+            "text": "We know we're doing a good job of hiring so long as we see people continuing to join simply to work with those who are already here.",
+            "score": 0.52
           }
         ]
       },
-      "snap": {
+      "gitlab": {
         "echoes": [
           {
-            "year": 2025,
-            "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
-            "score": 0.583
-          },
-          {
-            "year": 2024,
-            "text": "We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective c",
-            "score": 0.538
+            "year": 2019,
+            "text": "Despite all of its benefits for team members, our company, and the world, remote work isn't for everyone.",
+            "score": 0.52
           }
         ]
       },
-      "hubspot": {
+      "engine": {
         "echoes": [
           {
-            "year": 2020,
-            "text": "We're building a culture at HubSpot where amazing people (like you) can do their best work.",
-            "score": 0.548
+            "year": 2026,
+            "text": "We also recognize that this environment isn't for everyone.",
+            "score": 0.6
           },
+          {
+            "year": 2026,
+            "text": "We are being transparent about this because we want to attract people who are energized by this level of focus — and to be honest with those who aren't.",
+            "score": 0.519
+          }
+        ]
+      }
+    },
+    "candor_directness": {
+      "netflix": {
+        "firstYearConcept": 2009,
+        "nConcept": 15,
+        "yearsConcept": [
+          2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "example": "Honesty AlwaysAs a leader, no one in your groupshould be materially surprised of your views",
+        "exampleScore": 0.946,
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 2
+      },
+      "meta": {
+        "firstYearConcept": 2023,
+        "nConcept": 2,
+        "yearsConcept": [
+          2023,
+          2024
+        ],
+        "example": "We create a culture where we are straightforward and willing to have hard conversations with each other.",
+        "exampleScore": 0.717,
+        "echoes": [
+          {
+            "year": 2023,
+            "text": "Be direct and respect your colleagues",
+            "score": 0.575
+          }
+        ]
+      },
+      "coinbase": {
+        "echoes": [
+          {
+            "year": 2017,
+            "text": "We talk to people directly about issues, instead of concealing or choosing gossip.",
+            "score": 0.622
+          },
+          {
+            "year": 2017,
+            "text": "We value giving and receiving regular feedback.",
+            "score": 0.529
+          },
+          {
+            "year": 2021,
+            "text": "We value giving and receiving feedback.",
+            "score": 0.517
+          }
+        ]
+      },
+      "airbnb": {
+        "echoes": [
           {
             "year": 2015,
-            "text": "We're building a once and a lifetime company and we want you to be apart of it.",
-            "score": 0.503
-          }
-        ]
-      },
-      "github": {
-        "echoes": [
-          {
-            "year": 2022,
-            "text": "We are dedicated to building a community and team that reflects the world we live in and pushes the boundaries of software innovation.",
-            "score": 0.513
+            "text": "Always be transparent in your company.",
+            "score": 0.585
           }
         ]
       },
@@ -281,32 +459,32 @@
         "echoes": [
           {
             "year": 2017,
-            "text": "We have the privilege of collaborating every day with talented, passionate teammates, and we genuinely enjoy each other's company.",
-            "score": 0.597
+            "text": "We always communicate openly and honestly.",
+            "score": 0.585
+          }
+        ]
+      },
+      "engine": {
+        "echoes": [
+          {
+            "year": 2024,
+            "text": "We communicate openly and directly, coming from a place of wanting the best outcomes.",
+            "score": 0.601
           },
           {
-            "year": 2016,
-            "text": "We work with talented, passionate people.",
-            "score": 0.593
+            "year": 2026,
+            "text": "The communication is direct, sometimes uncomfortably so.",
+            "score": 0.559
           },
           {
-            "year": 2025,
-            "text": "Here, you’ll work with teammates who challenge you, support you, and genuinely want to see you succeed.",
+            "year": 2026,
+            "text": "Truth over comfort Candor is mandatory.",
             "score": 0.54
           }
         ]
       }
     },
     "high_performer_supremacy": {
-      "coinbase": {
-        "echoes": [
-          {
-            "year": 2024,
-            "text": "Outperformance is met with outsized reward.",
-            "score": 0.503
-          }
-        ]
-      },
       "netflix": {
         "firstYearConcept": 2009,
         "nConcept": 4,
@@ -318,22 +496,18 @@
         ],
         "example": "In creative/inventive work, the best are 10xbetter than the average, so huge premium on creating effective teams of the best",
         "exampleScore": 0.837
+      },
+      "coinbase": {
+        "echoes": [
+          {
+            "year": 2024,
+            "text": "Outperformance is met with outsized reward.",
+            "score": 0.503
+          }
+        ]
       }
     },
     "adequate_severance": {
-      "coinbase": {
-        "firstYearConcept": 2024,
-        "nConcept": 3,
-        "yearsConcept": [
-          2024,
-          2025,
-          2026
-        ],
-        "example": "Unremarkable performance gets a generous severance package.",
-        "exampleScore": 0.858,
-        "firstYearVerbatim": 2024,
-        "nVerbatim": 3
-      },
       "netflix": {
         "firstYearConcept": 2009,
         "nConcept": 18,
@@ -350,6 +524,79 @@
         ],
         "example": "Unlike many companies, we practice:adequate performance gets agenerous severance package",
         "exampleScore": 0.759
+      },
+      "coinbase": {
+        "firstYearConcept": 2021,
+        "nConcept": 6,
+        "yearsConcept": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "example": "Unremarkable performance gets a generous severance package.",
+        "exampleScore": 0.858,
+        "firstYearVerbatim": 2021,
+        "nVerbatim": 6
+      },
+      "stripe": {
+        "echoes": [
+          {
+            "year": 2024,
+            "text": "Push back on managers when you sense they’re making hires who are merely “fine.” Hold an equally high bar for performance!",
+            "score": 0.513
+          }
+        ]
+      },
+      "engine": {
+        "echoes": [
+          {
+            "year": 2025,
+            "text": "Every seat must be earned, and underperformance is addressed quickly and respectfully.",
+            "score": 0.567
+          }
+        ]
+      }
+    },
+    "values_not_wall": {
+      "netflix": {
+        "firstYearConcept": 2009,
+        "nConcept": 13,
+        "yearsConcept": [
+          2009,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "example": "The actual company values, as opposed to the nice-sounding values, are shown by who getsrewarded, promoted, or let go",
+        "exampleScore": 0.972,
+        "firstYearVerbatim": 2009,
+        "nVerbatim": 1
+      },
+      "stripe": {
+        "echoes": [
+          {
+            "year": 2019,
+            "text": "A great deal of your fulfillment at any company is determined by the extent to which the values of the people and the organization align with your own.",
+            "score": 0.511
+          }
+        ]
+      },
+      "engine": {
+        "echoes": [
+          {
+            "year": 2025,
+            "text": "It’s who we hire, how we work, and what we reward.",
+            "score": 0.537
+          }
+        ]
       }
     },
     "raise_the_bar": {
@@ -407,6 +654,29 @@
           }
         ]
       },
+      "coinbase": {
+        "firstYearConcept": 2014,
+        "nConcept": 3,
+        "yearsConcept": [
+          2014,
+          2015,
+          2016
+        ],
+        "example": "We should be raising the bar with every hire.",
+        "exampleScore": 0.684,
+        "echoes": [
+          {
+            "year": 2021,
+            "text": "We ask whether each candidate will raise the average on the team before making an offer.",
+            "score": 0.63
+          },
+          {
+            "year": 2025,
+            "text": "We obsess over quality and craft in our products; getting the details right really, really, matters.",
+            "score": 0.504
+          }
+        ]
+      },
       "shopify": {
         "firstYearConcept": 2026,
         "nConcept": 1,
@@ -458,6 +728,36 @@
             "score": 0.523
           }
         ]
+      },
+      "engine": {
+        "firstYearConcept": 2019,
+        "nConcept": 7,
+        "yearsConcept": [
+          2019,
+          2020,
+          2024,
+          2025,
+          2026
+        ],
+        "example": "Insist on High Standards We raise the bar in everything we do: our products, our work, and our customer interactions.",
+        "exampleScore": 0.776,
+        "echoes": [
+          {
+            "year": 2025,
+            "text": "We have a bias to action, make quick decisions, and keep the bar high.",
+            "score": 0.638
+          },
+          {
+            "year": 2026,
+            "text": "The standards are high and consistently enforced.",
+            "score": 0.634
+          },
+          {
+            "year": 2021,
+            "text": "We’re obsessed with giving our customers the best experience, and we set a high bar every day to make it happen.",
+            "score": 0.633
+          }
+        ]
       }
     },
     "judged_by_outcomes": {
@@ -474,6 +774,15 @@
             "year": 2026,
             "text": "We optimize for impact, not consensus.",
             "score": 0.56
+          }
+        ]
+      },
+      "coinbase": {
+        "echoes": [
+          {
+            "year": 2017,
+            "text": "We value completing tasks, instead of just talking about them.",
+            "score": 0.523
           }
         ]
       },
@@ -504,25 +813,31 @@
             "score": 0.507
           }
         ]
+      },
+      "engine": {
+        "firstYearConcept": 2024,
+        "nConcept": 4,
+        "yearsConcept": [
+          2024,
+          2025,
+          2026
+        ],
+        "example": "We measure progress by impact, not effort.",
+        "exampleScore": 0.786
       }
     },
     "only_the_best": {
       "google": {
         "echoes": [
           {
-            "year": 1999,
-            "text": "We are rapidly hiring talented people to bring the latest and greatest technology to the web.",
-            "score": 0.521
+            "year": 2012,
+            "text": "We put great stock in our employees–energetic, passionate people from diverse backgrounds with creative approaches to work, play and life.",
+            "score": 0.536
           },
           {
-            "year": 2005,
-            "text": "We're looking for people with world-class skills who thrive in small, focused teams and high-energy environments, believe in the ability of technology to change the world, and are ",
-            "score": 0.512
-          },
-          {
-            "year": 2008,
-            "text": "Our most valuable resource is our people: energetic, innovative thinkers who care equally about doing great work and developing a culture that's great for all our employees.",
-            "score": 0.509
+            "year": 2009,
+            "text": "We are aggressively inclusive in our hiring, and we favor ability over experience.",
+            "score": 0.517
           }
         ]
       },
@@ -537,11 +852,6 @@
             "year": 2011,
             "text": "We hire the world's brightest minds and offer them an environment in which they can invent and innovate to improve the experience for our customers.",
             "score": 0.59
-          },
-          {
-            "year": 2007,
-            "text": "High Hiring Bar: When making a hiring decision we ask ourselves: \"Will I admire this person?",
-            "score": 0.539
           }
         ]
       },
@@ -573,6 +883,25 @@
           }
         ]
       },
+      "coinbase": {
+        "echoes": [
+          {
+            "year": 2021,
+            "text": "We take extraordinary measures to have exceptional people in every seat.",
+            "score": 0.614
+          },
+          {
+            "year": 2014,
+            "text": "That is the only order it can happen, so hiring great people is our greatest point of leverage.",
+            "score": 0.561
+          },
+          {
+            "year": 2014,
+            "text": "We hire builders, and this extends all the way to the founders.",
+            "score": 0.535
+          }
+        ]
+      },
       "shopify": {
         "firstYearConcept": 2025,
         "nConcept": 2,
@@ -594,9 +923,9 @@
             "score": 0.568
           },
           {
-            "year": 2012,
-            "text": "We want passionate, hard working, talented individuals that want to surpass their current skill set.",
-            "score": 0.526
+            "year": 2017,
+            "text": "The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together and it’s why we actively seek the brightest minds in the wor",
+            "score": 0.538
           }
         ]
       },
@@ -614,6 +943,15 @@
           }
         ]
       },
+      "snap": {
+        "echoes": [
+          {
+            "year": 2025,
+            "text": "We believe in hiring the most talented team members and creating an environment where everyone belongs",
+            "score": 0.546
+          }
+        ]
+      },
       "gitlab": {
         "echoes": [
           {
@@ -626,12 +964,12 @@
       "salesforce": {
         "echoes": [
           {
-            "year": 2006,
-            "text": "What attracts top talent globally is our \"change the world\" mentality, coupled by the opportunity to excel in a sales-driven, competitive atmosphere surrounded inspiring, motivated",
-            "score": 0.551
+            "year": 2016,
+            "text": "We work with talented, passionate people.",
+            "score": 0.562
           },
           {
-            "year": 2007,
+            "year": 2009,
             "text": "What attracts top talent globally is our \"change-the-world\" mentality, coupled with the opportunity to excel in a sales-driven, competitive atmosphere surrounded by inspiring, moti",
             "score": 0.548
           },
@@ -641,24 +979,63 @@
             "score": 0.531
           }
         ]
+      },
+      "engine": {
+        "echoes": [
+          {
+            "year": 2021,
+            "text": "That starts and ends with finding and nurturing the best and brightest talent.",
+            "score": 0.577
+          },
+          {
+            "year": 2024,
+            "text": "We shape the future of Engine one amazing hire at a time and our commitment to excellence is reflected in our approach to Talent Acquisition.",
+            "score": 0.544
+          },
+          {
+            "year": 2024,
+            "text": "We look for candidates with diverse talents and backgrounds who are energized by our culture.",
+            "score": 0.525
+          }
+        ]
+      },
+      "basecamp": {
+        "echoes": [
+          {
+            "year": 2018,
+            "text": "That’s why we’re especially careful about who we hire.",
+            "score": 0.533
+          }
+        ]
       }
     },
     "freedom_responsibility": {
+      "netflix": {
+        "firstYearConcept": 2009,
+        "nConcept": 16,
+        "yearsConcept": [
+          2009,
+          2013,
+          2014,
+          2015,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2024,
+          2025
+        ],
+        "example": "Responsible People Thrive on Freedom,and are Worthy of Freedom",
+        "exampleScore": 0.763
+      },
       "google": {
         "echoes": [
           {
             "year": 2014,
             "text": "Our company culture encourages experimentation and the free flow of ideas.",
             "score": 0.512
-          }
-        ]
-      },
-      "amazon": {
-        "echoes": [
-          {
-            "year": 2007,
-            "text": "We make decisions as a company, and as individuals, based on our core values.",
-            "score": 0.621
           }
         ]
       },
@@ -674,14 +1051,14 @@
         "exampleScore": 0.782,
         "echoes": [
           {
+            "year": 2011,
+            "text": "Hear from our leadership team about why we emphasize freedom and autonomy inside the company and how we build new technology for people.",
+            "score": 0.589
+          },
+          {
             "year": 2022,
             "text": "It's a self-starter culture, we aren't told what to do to achieve results.",
             "score": 0.546
-          },
-          {
-            "year": 2011,
-            "text": "Hear from our leadership team about why we emphasize freedom and autonomy inside the company and how we build new technology for people.",
-            "score": 0.51
           },
           {
             "year": 2023,
@@ -689,17 +1066,6 @@
             "score": 0.502
           }
         ]
-      },
-      "netflix": {
-        "firstYearConcept": 2013,
-        "nConcept": 3,
-        "yearsConcept": [
-          2013,
-          2014,
-          2015
-        ],
-        "example": "We don't focus on rules, processes or procedures.",
-        "exampleScore": 0.667
       },
       "shopify": {
         "echoes": [
@@ -756,6 +1122,16 @@
       "hubspot": {
         "echoes": [
           {
+            "year": 2016,
+            "text": "Similarly, we believe it’s the ultimate sign of respect to empower employees to grow into entrepreneurs and leaders.",
+            "score": 0.569
+          },
+          {
+            "year": 2016,
+            "text": "We hire remarkable people like you and give you the responsibility and freedom you need to solve for HubSpot customers and grow within our organization.",
+            "score": 0.554
+          },
+          {
             "year": 2024,
             "text": "Our culture is not tied to locations, it’s rooted in our values, our amazing people, and our mission of helping millions of organizations grow better.",
             "score": 0.502
@@ -767,7 +1143,7 @@
           {
             "year": 2026,
             "text": "We run our business on our own product, stay transparent in how we work, and create space for team members across the globe to show up as their full selves and do the best work of ",
-            "score": 0.514
+            "score": 0.519
           }
         ]
       },
@@ -799,18 +1175,42 @@
             "score": 0.551
           }
         ]
-      }
-    },
-    "context_not_control": {
-      "amazon": {
+      },
+      "engine": {
         "echoes": [
           {
-            "year": 2016,
-            "text": "Leaders create and communicate a bold direction that inspires results.",
-            "score": 0.522
+            "year": 2025,
+            "text": "We believe loyalty is earned, not locked in by contracts.",
+            "score": 0.534
+          },
+          {
+            "year": 2021,
+            "text": "Everything that we do down to individual interactions is designed to create value for our customers and earn their trust.",
+            "score": 0.505
           }
         ]
       },
+      "basecamp": {
+        "echoes": [
+          {
+            "year": 2018,
+            "text": "We work hard to make sure every employee is given the freedom, tools, trust, and support to do the best work of their careers.",
+            "score": 0.599
+          },
+          {
+            "year": 2017,
+            "text": "We run the gamut in geography, lifestyle and interest, but we’re united by a common set of values and goals: have fun, do exceptional work, build the best product in the business, ",
+            "score": 0.538
+          },
+          {
+            "year": 2017,
+            "text": "We value a calm company and deliberate, concerted effort.",
+            "score": 0.526
+          }
+        ]
+      }
+    },
+    "context_not_control": {
       "netflix": {
         "firstYearConcept": 2009,
         "nConcept": 7,
@@ -824,42 +1224,23 @@
         ],
         "example": "We expect managers to practice context not control — giving their teams the context and clarity needed to make good decisions instead of trying to control everything themselves.",
         "exampleScore": 0.781
-      }
-    },
-    "aligned_loosely_coupled": {
-      "netflix": {
-        "firstYearConcept": 2009,
-        "nConcept": 11,
-        "yearsConcept": [
-          2009,
-          2017,
-          2018,
-          2019,
-          2020,
-          2021,
-          2022,
-          2024,
-          2025,
-          2026
-        ],
-        "example": "Highly Aligned, Loosely Coupled• Highly Aligned – Strategy and goals are clear, specific, broadly understood – Team interactions focused on strategy and goals, rather than tactics ",
-        "exampleScore": 0.802
+      },
+      "amazon": {
+        "echoes": [
+          {
+            "year": 2016,
+            "text": "Leaders create and communicate a bold direction that inspires results.",
+            "score": 0.522
+          }
+        ]
       }
     },
     "no_vacation_policy": {
-      "coinbase": {
-        "echoes": [
-          {
-            "year": 2024,
-            "text": "We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually.",
-            "score": 0.501
-          }
-        ]
-      },
       "netflix": {
-        "firstYearConcept": 2017,
-        "nConcept": 6,
+        "firstYearConcept": 2009,
+        "nConcept": 9,
         "yearsConcept": [
+          2009,
           2017,
           2018,
           2019,
@@ -870,12 +1251,53 @@
         "example": "Our vacation policy is “take vacation.” We don’t have any rules or forms around how many weeks per year.",
         "exampleScore": 0.746
       },
+      "coinbase": {
+        "firstYearConcept": 2014,
+        "nConcept": 3,
+        "yearsConcept": [
+          2014,
+          2015,
+          2016
+        ],
+        "example": "There is no set time you need to be in the office, and the vacation policy is quite flexible.",
+        "exampleScore": 0.66,
+        "echoes": [
+          {
+            "year": 2014,
+            "text": "Flexible hours, vacation policy, and locations You can work any hours you'd like at Coinbase.",
+            "score": 0.509
+          },
+          {
+            "year": 2024,
+            "text": "We offer flexible leave policies, and two pairs of recharge weeks and recharge days annually.",
+            "score": 0.501
+          }
+        ]
+      },
+      "shopify": {
+        "echoes": [
+          {
+            "year": 2012,
+            "text": "We don’t believe in silly rules like working 9 to 5 every day.",
+            "score": 0.568
+          }
+        ]
+      },
       "hubspot": {
         "echoes": [
           {
             "year": 2020,
             "text": "We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.",
-            "score": 0.56
+            "score": 0.572
+          }
+        ]
+      },
+      "engine": {
+        "echoes": [
+          {
+            "year": 2026,
+            "text": "We encourage our team to use our standard flexibility, designated volunteer hours and unlimited PTO policies to find the time and space they need to handle life’s challenges so the",
+            "score": 0.57
           }
         ]
       }

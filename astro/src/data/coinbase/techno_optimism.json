@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2013,
-      "zscore": 0.7175,
+      "zscore": -2.1079,
       "rawTopkMean": 0.0352,
       "nChunks": 9,
       "kUsed": 5,
@@ -41,45 +41,153 @@
     },
     {
       "year": 2014,
-      "zscore": 1.0349,
-      "rawTopkMean": 0.0584,
-      "nChunks": 11,
+      "zscore": 0.7907,
+      "rawTopkMean": 0.1017,
+      "nChunks": 77,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Organizations, products, and software trend toward complexity.",
+          "heading": "03. Make it simpler",
+          "score": 0.1492
+        },
+        {
+          "text": "This means that on the product team, engineers report to other engineers.",
+          "heading": "How do we work?",
+          "score": 0.1092
+        },
+        {
+          "text": "This includes the buying and selling of Bitcoin, secure storage of Bitcoin in the cloud, and a suite of merchant tools.",
+          "heading": "Careers at Coinbase",
+          "score": 0.0846
+        },
+        {
+          "text": "It allows asynchronous communication which is far more efficient - you can communicate asynchronously with many people at the same time but only one synchronously.",
+          "heading": "How do we work?",
+          "score": 0.0834
+        },
+        {
+          "text": "We're currently experiencing rapid growth in transactional activity due to media exposure in Bitcoin.",
+          "heading": "Careers at Coinbase",
+          "score": 0.0821
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "zscore": 0.7702,
+      "rawTopkMean": 0.1012,
+      "nChunks": 71,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Organizations, products, and software trend toward complexity.",
+          "heading": "03. Make it simpler",
+          "score": 0.1492
+        },
+        {
+          "text": "This means that on the product team, engineers report to other engineers.",
+          "heading": "How do we work?",
+          "score": 0.1092
+        },
         {
           "text": "This includes the buying and selling of Bitcoin, secure storage of Bitcoin in the cloud, and a suite of merchant tools.",
           "heading": "Careers",
           "score": 0.0846
         },
         {
-          "text": "We're currently experiencing rapid growth in transactional activity due to media exposure in Bitcoin.",
-          "heading": "Careers at Coinbase",
-          "score": 0.0821
+          "text": "It allows asynchronous communication which is far more efficient - you can communicate asynchronously with many people at the same time but only one synchronously.",
+          "heading": "How do we work?",
+          "score": 0.0834
         },
         {
-          "text": "We had an incredible 2013, growing 80x in users to over 1,000,000, closed a Series A and Series B, totalling $31M from investors such as Andreessen Horowitz and Union Square Ventures, doing all this with a team of only 8 people.",
-          "heading": "Careers at Coinbase",
-          "score": 0.047
+          "text": "Coinbase is a platform which makes these integrations possible.",
+          "heading": "03. Be the platform for easy bitcoin integration",
+          "score": 0.0797
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "zscore": 1.7549,
+      "rawTopkMean": 0.1238,
+      "nChunks": 106,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Companies and products trend toward complexity.",
+          "heading": "02. Make it simpler",
+          "score": 0.1927
         },
         {
-          "text": "At Coinbase, we're currently experiencing rapid growth in transactional activity due to media exposure in Bitcoin.",
-          "heading": "Careers at Coinbase",
-          "score": 0.0416
+          "text": "Organizations, products, and software trend toward complexity.",
+          "heading": "03. Make it simpler",
+          "score": 0.1492
         },
         {
-          "text": "We had an incredible 2013, growing 80x in users to over 800,000, closed a Series A and Series B, totalling $31M from investors such as Andreessen Horowitz and Union Square Ventures, doing all this with a team of only 8 people.",
-          "heading": "Careers at Coinbase",
-          "score": 0.0366
+          "text": "This means that on the product team, engineers report to other engineers.",
+          "heading": "How do we work?",
+          "score": 0.1092
+        },
+        {
+          "text": "This includes the buying and selling of Bitcoin, secure storage of Bitcoin in the cloud, and a suite of merchant tools.",
+          "heading": "Careers",
+          "score": 0.0846
+        },
+        {
+          "text": "It allows asynchronous communication which is far more efficient - you can communicate asynchronously with many people at the same time but only one synchronously.",
+          "heading": "How do we work?",
+          "score": 0.0834
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": 0.6686,
-      "rawTopkMean": 0.0316,
-      "nChunks": 7,
+      "zscore": 0.9043,
+      "rawTopkMean": 0.1043,
+      "nChunks": 49,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Companies and products trend toward complexity.",
+          "heading": "02. Make it simpler",
+          "score": 0.1927
+        },
+        {
+          "text": "This includes the buying and selling of digital currency, secure storage in the cloud, and a suite of merchant tools.",
+          "heading": "Careers",
+          "score": 0.0981
+        },
+        {
+          "text": "It's easy to get lost in the intellectual curiosity of new ideas.",
+          "heading": "05. Make something people want",
+          "score": 0.0819
+        },
+        {
+          "text": "Imagine if every payment in the world was as fast, cheap, and global as sending an email.",
+          "heading": "Our mission is to create an open financial system for the world",
+          "score": 0.0801
+        },
+        {
+          "text": "It requires us to be world class at security, compliance, technology, customer support, design, and more.",
+          "heading": "01. Be The Most Trusted",
+          "score": 0.0687
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "zscore": -0.3773,
+      "rawTopkMean": 0.0749,
+      "nChunks": 42,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -90,198 +198,212 @@
           "score": 0.0981
         },
         {
-          "text": "Are you passionate about digital currency?",
-          "heading": "Careers",
-          "score": 0.0223
+          "text": "Imagine if every payment in the world was as fast, cheap, and global as sending an email.",
+          "heading": "Our mission is to create an open financial system for the world",
+          "score": 0.0801
         },
         {
-          "text": "Coinbase is a platform that facilitates the easy use of digital currency for consumers and merchants.",
-          "heading": "Careers",
-          "score": 0.017
+          "text": "It requires us to be world class at security, compliance, technology, customer support, design, and more.",
+          "heading": "01. Be The Most Trusted",
+          "score": 0.0687
         },
         {
-          "text": "Do you regularly run through brick walls on your way to success?",
-          "heading": "Careers",
-          "score": 0.0115
+          "text": "We complete high quality work quickly by working smarter, not harder.",
+          "heading": "04. Efficient execution",
+          "score": 0.0651
         },
         {
-          "text": "Interested in helping build the future of currency and payments?",
-          "heading": "Careers",
-          "score": 0.009
-        }
-      ]
-    },
-    {
-      "year": 2018,
-      "zscore": -0.5975,
-      "rawTopkMean": -0.061,
-      "nChunks": 9,
-      "kUsed": 5,
-      "thin": false,
-      "carriedForwardFrac": null,
-      "quotes": [
-        {
-          "text": "They are much more than words to us (and we have the emojis to prove it).",
-          "heading": "Our values",
-          "score": -0.0215
-        },
-        {
-          "text": "If this sounds like you, check out our open roles .",
-          "heading": "Working at Coinbase",
-          "score": -0.0226
-        },
-        {
-          "text": "Each member of our team—every engineer, designer, kitchen team member, lawyer, writer, support coordinator, recruiter, and product manager—plays an important role in helping us achieve our mission.",
-          "heading": "Our mission",
-          "score": -0.0768
-        },
-        {
-          "text": "As a result, our culture is a model of the world we’re trying to build: transparent, joyful, curious, and fast-moving.",
-          "heading": "Our values",
-          "score": -0.0821
-        },
-        {
-          "text": "To achieve this, we are building a team of smart, creative, passionate optimists, the kind of people who see opportunity where others see roadblocks.",
-          "heading": "Working at Coinbase",
-          "score": -0.1023
+          "text": "Imagine if anyone who had an idea for a product could have customers all over the world from day one.",
+          "heading": "Our mission is to create an open financial system for the world",
+          "score": 0.0624
         }
       ]
     },
     {
       "year": 2019,
-      "zscore": -1.12,
-      "rawTopkMean": -0.0993,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -0.7609,
+      "rawTopkMean": 0.0661,
+      "nChunks": 39,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Cada membro de nossa equipa — todos os engenheiros, projetistas, membros da equipa de cozinha, advogados, escritores, coordenadores de assistência, recrutadores e gestores de produtos — desempenha um papel importante para nos ajudar a alcançar nossa missão.",
-          "heading": "A nossa missão",
-          "score": -0.0351
+          "text": "Imagine if every payment in the world was as fast, cheap, and global as sending an email.",
+          "heading": "Our mission is to create an open financial system for the world",
+          "score": 0.0801
         },
         {
-          "text": "Achamos que alcançar a nossa missão é a melhor forma para proporcionar mais liberdade económica, inovação, eficiência e igualdade de oportunidades no mundo.",
-          "heading": "A nossa missão",
-          "score": -0.1634
+          "text": "It requires us to be world class at security, compliance, technology, customer support, design, and more.",
+          "heading": "01. Be The Most Trusted",
+          "score": 0.0687
+        },
+        {
+          "text": "We complete high quality work quickly by working smarter, not harder.",
+          "heading": "04. Efficient execution",
+          "score": 0.0651
+        },
+        {
+          "text": "Imagine if anyone who had an idea for a product could have customers all over the world from day one.",
+          "heading": "Our mission is to create an open financial system for the world",
+          "score": 0.0624
+        },
+        {
+          "text": "We prefer automation over manual work.",
+          "heading": "04. Efficient execution",
+          "score": 0.0541
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -0.0217,
-      "rawTopkMean": -0.0189,
-      "nChunks": 12,
+      "zscore": 0.8425,
+      "rawTopkMean": 0.1029,
+      "nChunks": 59,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Każdy członek naszego zespołu – każdy inżynier, projektant, pracownik kuchni, prawnik, twórca dokumentacji, koordynator wsparcia, rekruter i menedżer produktu – odgrywa ważną rolę w realizacji naszej misji.",
-          "heading": "Nasza misja",
-          "score": -0.0046
+          "text": "Ci impone misure di sicurezza all'avanguardia, livelli di conformità, tecnologia, assistenza, progettazione di primo livello e oltre.",
+          "heading": "01. Massima affidabilità",
+          "score": 0.1793
         },
         {
-          "text": "Jeśli chcesz do nas dołączyć, sprawdź dostępne stanowiska .",
-          "heading": "Praca w Coinbase",
-          "score": -0.0137
+          "text": "Coinbase eccelle nel mettere prodotti all'avanguardia in grado di fornire tutti i vantaggi della valuta digitale nelle mani di tutti.",
+          "heading": "02. Semplicità d'uso",
+          "score": 0.0928
         },
         {
-          "text": "Jest on przejrzysty, radosny, ciekawy i dynamiczny.",
-          "heading": "Nasze wartości",
-          "score": -0.0172
+          "text": "A gdyby tak każda płatność na świecie mogła być tak szybka, niedroga i globalna, jak wysyłanie e-maila.",
+          "heading": "Naszą misją jest stworzenie powszechnego otwartego systemu finansowego",
+          "score": 0.0829
         },
         {
-          "text": "Ekibimizde yer alan her mühendis, tasarımcı, mutfak çalışanı, avukat, yazar, destek koordinatörü, işe alım sorumlusu ve ürün yöneticisi, misyonumuza ulaşmamızda önemli bir rol oynar.",
-          "heading": "Misyonumuz",
-          "score": -0.021
+          "text": "Imagine if every payment in the world was as fast, cheap, and global as sending an email.",
+          "heading": "Our mission is to create an open financial system for the world",
+          "score": 0.0801
         },
         {
-          "text": "Podjęliśmy ogromne wyzwanie i uczyniliśmy je naszą misją: stworzyć otwarty system finansowy dla całego świata.",
-          "heading": "Praca w Coinbase",
-          "score": -0.038
+          "text": "Wyobraź sobie, że każdy, kto ma pomysł na produkt, mógłby zdobywać klientów z całego świata już od pierwszego dnia działalności.",
+          "heading": "Naszą misją jest stworzenie powszechnego otwartego systemu finansowego",
+          "score": 0.0794
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": -0.4146,
-      "rawTopkMean": -0.0477,
-      "nChunks": 15,
+      "zscore": 0.4757,
+      "rawTopkMean": 0.0945,
+      "nChunks": 82,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Buy, sell, and spend crypto on the world's most trusted crypto exchange",
-          "heading": "Crypto tools for everyone",
-          "score": 0.0473
+          "text": "It requires world-class security, compliance, technology, support, design, and more.",
+          "heading": "Be the most trusted",
+          "score": 0.1699
         },
         {
-          "text": "We build Coinbase to bring economic freedom to millions — and we’re hiring.",
-          "heading": "Make crypto for everyone",
-          "score": -0.0675
+          "text": "Digital currency is a powerful technology — but its benefits are limited by how easy it is for people to use.",
+          "heading": "Be the easiest to use",
+          "score": 0.0815
         },
         {
-          "text": "We built Coinbase to bring economic freedom to millions — and we’re hiring.",
-          "heading": "Build the future of finance",
-          "score": -0.0696
+          "text": "Imagine if every payment in the world was as fast, cheap, and global as sending an email.",
+          "heading": "Our mission is to create an open financial system for the world.",
+          "score": 0.0801
         },
         {
-          "text": "We’re a team of smart, creative, optimists — the kind of people who see opportunity where others see roadblocks.",
-          "heading": "Do your best work at Coinbase",
-          "score": -0.0737
+          "text": "We complete high quality work quickly.",
+          "heading": "Efficient execution",
+          "score": 0.0721
         },
         {
-          "text": "Our culture is a model of the world we’re trying to build: transparent, joyful, curious, and fast-paced.",
-          "heading": "Our values",
-          "score": -0.0749
+          "text": "It requires us to be world class at security, compliance, technology, customer support, design, and more.",
+          "heading": "01. Be The Most Trusted",
+          "score": 0.0687
         }
       ]
     },
     {
       "year": 2022,
-      "zscore": 0.1583,
-      "rawTopkMean": -0.0058,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "zscore": -1.1482,
+      "rawTopkMean": 0.0572,
+      "nChunks": 42,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "We’re the world’s most trusted way to join the crypto revolution, serving more than 89 million accounts in more than 100 countries.",
-          "heading": "Lead the future of the cryptoeconomy. #LiveCrypto",
-          "score": -0.0058
+          "text": "We complete high quality work quickly.",
+          "heading": "Efficient execution",
+          "score": 0.0721
+        },
+        {
+          "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+          "heading": "Repeatable innovation",
+          "score": 0.06
+        },
+        {
+          "text": "We have a high tolerance for failure, investing 10% of our resources in venture bets that are uncomfortably ambitious.",
+          "heading": "Repeatable innovation",
+          "score": 0.053
+        },
+        {
+          "text": "We have an intense work culture, and are regularly pushed out of our comfort zones.",
+          "heading": "Championship team",
+          "score": 0.0509
+        },
+        {
+          "text": "We are deeply focused on solving our customers' problems with technology, by enabling them to acquire, store and use crypto.",
+          "heading": "Customer focus",
+          "score": 0.0499
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": 0.1597,
-      "rawTopkMean": -0.0056,
-      "nChunks": 2,
-      "kUsed": 2,
-      "thin": true,
+      "zscore": -0.9759,
+      "rawTopkMean": 0.0611,
+      "nChunks": 34,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "We complete high quality work quickly.",
+          "heading": "Efficient execution",
+          "score": 0.0721
+        },
         {
           "text": "We’re the leading choice to join the crypto revolution.",
           "heading": "Lead the future of the cryptoeconomy. #LiveCrypto",
           "score": 0.0697
         },
         {
-          "text": "Coinbase is increasing economic freedom in the world by making crypto trusted and easy to use.",
-          "heading": "Build the future of finance",
-          "score": -0.081
+          "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+          "heading": "Repeatable innovation",
+          "score": 0.06
+        },
+        {
+          "text": "We have a high tolerance for failure, investing 10% of our resources in venture bets that are uncomfortably ambitious.",
+          "heading": "Repeatable innovation",
+          "score": 0.053
+        },
+        {
+          "text": "We have an intense work culture, and are regularly pushed out of our comfort zones.",
+          "heading": "Championship team",
+          "score": 0.0509
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 1.3739,
-      "rawTopkMean": 0.0832,
-      "nChunks": 20,
+      "zscore": 0.5234,
+      "rawTopkMean": 0.0956,
+      "nChunks": 48,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -302,66 +424,86 @@
           "score": 0.0941
         },
         {
-          "text": "Outperformance is met with outsized reward.",
-          "heading": "Welcome to Coinbase.",
-          "score": 0.0426
+          "text": "We complete high quality work quickly.",
+          "heading": "Our culture",
+          "score": 0.0721
         },
         {
-          "text": "We also offer exceptional work spaces around the world.",
-          "heading": "Welcome to Coinbase.",
-          "score": 0.0275
+          "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+          "heading": "Our culture",
+          "score": 0.06
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 0.4912,
-      "rawTopkMean": 0.0186,
-      "nChunks": 16,
+      "zscore": -0.3457,
+      "rawTopkMean": 0.0756,
+      "nChunks": 49,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Outperformance is met with outsized reward.",
-          "heading": "Championship team",
-          "score": 0.0426
+          "text": "You will be pushed beyond what you think you're capable of.",
+          "heading": "Working at Coinbase isn't for the faint of heart.",
+          "score": 0.1191
         },
         {
-          "text": "We are builders and techno-optimists .",
-          "heading": "Who we are",
-          "score": 0.0226
+          "text": "We are deeply focused on solving our customers’ problems with technology.",
+          "heading": "Our culture",
+          "score": 0.0739
         },
         {
-          "text": "If you have an extraordinary ability that can help accelerate our mission, we want to hear from you.",
-          "heading": "Extraordinary ability",
-          "score": 0.0121
+          "text": "We complete high quality work quickly.",
+          "heading": "Our culture",
+          "score": 0.0721
         },
         {
-          "text": "Most roles are remote-first, with in-office requirements noted when applicable.",
-          "heading": "Remote-first, not remote-only",
-          "score": 0.0084
+          "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+          "heading": "Our culture",
+          "score": 0.06
         },
         {
-          "text": "Most of our roles are remote-first, with in-office requirements noted when applicable.",
-          "heading": "Welcome to Coinbase.",
-          "score": 0.0072
+          "text": "We have a high tolerance for failure, investing 10% of our resources in venture bets that are uncomfortably ambitious.",
+          "heading": "Our culture",
+          "score": 0.053
         }
       ]
     },
     {
       "year": 2026,
-      "zscore": -2.4503,
-      "rawTopkMean": -0.1966,
-      "nChunks": 1,
-      "kUsed": 1,
-      "thin": true,
+      "zscore": -0.3457,
+      "rawTopkMean": 0.0756,
+      "nChunks": 40,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
-          "text": "Our cultural tenets describe how we treat each other and operate day-to-day, so everyone understands how we interact and get work done in service of our mission.",
-          "heading": "Welcome to Coinbase",
-          "score": -0.1966
+          "text": "You will be pushed beyond what you think you're capable of.",
+          "heading": "Working at Coinbase isn't for the faint of heart.",
+          "score": 0.1191
+        },
+        {
+          "text": "We are deeply focused on solving our customers’ problems with technology.",
+          "heading": "Customer focus",
+          "score": 0.0739
+        },
+        {
+          "text": "We complete high quality work quickly.",
+          "heading": "Efficient execution",
+          "score": 0.0721
+        },
+        {
+          "text": "We are builders, leveraging technology to improve the world, constantly shipping ideas vs. just discussing them.",
+          "heading": "Repeatable innovation",
+          "score": 0.06
+        },
+        {
+          "text": "We have a high tolerance for failure, investing 10% of our resources in venture bets that are uncomfortably ambitious.",
+          "heading": "Repeatable innovation",
+          "score": 0.053
         }
       ]
     }

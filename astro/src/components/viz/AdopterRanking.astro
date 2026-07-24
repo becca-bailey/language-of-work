@@ -1,0 +1,63 @@
+---
+// Who took the most from the deck: companies ranked by how many distinctive
+// concepts they carry — split into borrowed lifts (above the validated
+// threshold) and judge-vetted echoes. Same filtered data as the other lineage
+// vizzes (generic convergence concepts excluded, Netflix is the origin, every
+// match already passed the LLM judge), so the ranking can't drift from them.
+import { lineageConcepts } from "./lineage";
+
+interface Row { name: string; liftIds: string[]; echoIds: string[] }
+const byCompany = new Map<string, Row>();
+const concepts = await lineageConcepts();
+for (const c of concepts) {
+  for (const a of c.adopters) {
+    const r = byCompany.get(a.displayName) ?? { name: a.displayName, liftIds: [], echoIds: [] };
+    if (!r.liftIds.includes(c.label)) r.liftIds.push(c.label);
+    byCompany.set(a.displayName, r);
+  }
+  for (const e of c.echoes ?? []) {
+    const r = byCompany.get(e.displayName) ?? { name: e.displayName, liftIds: [], echoIds: [] };
+    if (!r.echoIds.includes(c.label)) r.echoIds.push(c.label);
+    byCompany.set(e.displayName, r);
+  }
+}
+const rows = [...byCompany.values()]
+  .map((r) => ({
+    ...r,
+    // echo-only: concepts the company echoes but did not also lift
+    echoOnly: r.echoIds.filter((id) => !r.liftIds.includes(id)),
+  }))
+  .map((r) => ({ ...r, total: r.liftIds.length + r.echoOnly.length }))
+  .filter((r) => r.total > 0)
+  .sort((a, b) => (b.total - a.total) || (b.liftIds.length - a.liftIds.length) || a.name.localeCompare(b.name));
+const max = Math.max(...rows.map((r) => r.total), 1);
+const ECHO_FILL = "color-mix(in srgb, var(--info) 55%, transparent)";
+---
+
+<div class="my-6 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
+  <div class="space-y-1.5">
+    {rows.map((r) => (
+      <div class="flex items-center gap-2">
+        <div class="w-[142px] shrink-0 text-right text-xs text-neutral-600 dark:text-neutral-300">{r.name}</div>
+        <div class="flex h-3 flex-1 items-center gap-[2px]">
+          {r.liftIds.length > 0 && (
+            <div class="h-3 rounded-l-[4px] last:rounded-r-[4px]"
+              title={`borrowed: ${r.liftIds.join(", ")}`}
+              style={`width:${(r.liftIds.length / max) * 100}%;background:var(--alert)`}></div>
+          )}
+          {r.echoOnly.length > 0 && (
+            <div class:list={["h-3 rounded-r-[4px]", r.liftIds.length === 0 && "rounded-l-[4px]"]}
+              title={`echoed: ${r.echoOnly.join(", ")}`}
+              style={`width:${(r.echoOnly.length / max) * 100}%;background:${ECHO_FILL}`}></div>
+          )}
+          <span class="pl-1 font-mono text-[10px] text-neutral-500">{r.total}</span>
+        </div>
+      </div>
+    ))}
+  </div>
+  <p class="mt-4 flex flex-wrap gap-3 text-[10px] text-neutral-400">
+    <span><span class="mr-1 inline-block h-2 w-3 rounded-sm align-middle" style="background:var(--alert)"></span>concepts borrowed (above threshold)</span>
+    <span><span class="mr-1 inline-block h-2 w-3 rounded-sm align-middle" style={`background:${ECHO_FILL}`}></span>concepts echoed (judge-vetted, below threshold)</span>
+    <span class="italic">of {concepts.length} distinctive deck concepts · hover a segment for the list</span>
+  </p>
+</div>

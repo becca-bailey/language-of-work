@@ -40,8 +40,8 @@
 - neutral: 14
 
 ## 2017
-- affirming_dei: 30
-- neutral: 43
+- affirming_dei: 31
+- neutral: 42
 
 ## 2018
 - affirming_dei: 10

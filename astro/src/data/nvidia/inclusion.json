@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2006,
-      "zscore": -0.0351,
+      "zscore": -0.047,
       "rawTopkMean": 0.4533,
       "nChunks": 13,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2007,
-      "zscore": -0.0351,
+      "zscore": -0.047,
       "rawTopkMean": 0.4533,
       "nChunks": 14,
       "kUsed": 5,
@@ -77,9 +77,45 @@
     },
     {
       "year": 2008,
-      "zscore": -0.0351,
+      "zscore": -0.047,
       "rawTopkMean": 0.4533,
-      "nChunks": 15,
+      "nChunks": 16,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We've created an environment where talents are recognized and collaboration is valued.",
+          "heading": "",
+          "score": 0.5976
+        },
+        {
+          "text": "Our employees are shaping the world of tomorrow...today.",
+          "heading": "",
+          "score": 0.4835
+        },
+        {
+          "text": "We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers.",
+          "heading": "",
+          "score": 0.437
+        },
+        {
+          "text": "NVIDIA's culture promotes and inspires our team of world-class engineers and developers to be at the top of their game.",
+          "heading": "",
+          "score": 0.4056
+        },
+        {
+          "text": "NVIDIA conducts background checks as a condition of employment.",
+          "heading": "",
+          "score": 0.3428
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "zscore": -0.047,
+      "rawTopkMean": 0.4533,
+      "nChunks": 13,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -113,7 +149,7 @@
     },
     {
       "year": 2010,
-      "zscore": -0.0351,
+      "zscore": -0.047,
       "rawTopkMean": 0.4533,
       "nChunks": 13,
       "kUsed": 5,
@@ -149,7 +185,7 @@
     },
     {
       "year": 2011,
-      "zscore": -0.0351,
+      "zscore": -0.047,
       "rawTopkMean": 0.4533,
       "nChunks": 12,
       "kUsed": 5,
@@ -185,7 +221,7 @@
     },
     {
       "year": 2012,
-      "zscore": -0.0351,
+      "zscore": -0.047,
       "rawTopkMean": 0.4533,
       "nChunks": 13,
       "kUsed": 5,
@@ -220,8 +256,44 @@
       ]
     },
     {
+      "year": 2013,
+      "zscore": 0.312,
+      "rawTopkMean": 0.4849,
+      "nChunks": 17,
+      "kUsed": 5,
+      "thin": false,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "We've created an environment where talents are recognized and collaboration is valued.",
+          "heading": "",
+          "score": 0.5976
+        },
+        {
+          "text": "Our employees are shaping the world of tomorrow...today.",
+          "heading": "",
+          "score": 0.4835
+        },
+        {
+          "text": "Our employees are shaping the world of tomorrow ... today.",
+          "heading": "",
+          "score": 0.4713
+        },
+        {
+          "text": "We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers.",
+          "heading": "",
+          "score": 0.437
+        },
+        {
+          "text": "We invest in our people, our technologies, and our research and development efforts to deliver the highest quality products to customers across the globe.",
+          "heading": "",
+          "score": 0.4351
+        }
+      ]
+    },
+    {
       "year": 2014,
-      "zscore": 0.2362,
+      "zscore": 0.2574,
       "rawTopkMean": 0.4801,
       "nChunks": 14,
       "kUsed": 5,
@@ -256,8 +328,24 @@
       ]
     },
     {
+      "year": 2015,
+      "zscore": 0.5793,
+      "rawTopkMean": 0.5084,
+      "nChunks": 1,
+      "kUsed": 1,
+      "thin": true,
+      "carriedForwardFrac": null,
+      "quotes": [
+        {
+          "text": "Each employee can make a difference – help us invent the future.",
+          "heading": "Careers",
+          "score": 0.5084
+        }
+      ]
+    },
+    {
       "year": 2020,
-      "zscore": -2.0519,
+      "zscore": -2.3105,
       "rawTopkMean": 0.2541,
       "nChunks": 47,
       "kUsed": 5,
@@ -293,7 +381,7 @@
     },
     {
       "year": 2024,
-      "zscore": -0.8759,
+      "zscore": -0.9907,
       "rawTopkMean": 0.3702,
       "nChunks": 19,
       "kUsed": 5,
@@ -329,9 +417,9 @@
     },
     {
       "year": 2025,
-      "zscore": 2.386,
+      "zscore": 2.6702,
       "rawTopkMean": 0.6925,
-      "nChunks": 34,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -365,11 +453,11 @@
     },
     {
       "year": 2026,
-      "zscore": 0.516,
-      "rawTopkMean": 0.5078,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -0.1887,
+      "rawTopkMean": 0.4408,
+      "nChunks": 7,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
@@ -386,6 +474,16 @@
           "text": "The project is the boss—even for our CEO.",
           "heading": "Explore Life at NVIDIA",
           "score": 0.3762
+        },
+        {
+          "text": "Watch this video for a glimpse at why NVIDIA is like no place you've ever worked.",
+          "heading": "Follow Your Passion. Lead a Movement.",
+          "score": 0.345
+        },
+        {
+          "text": "The breakthroughs we’re making at NVIDIA are impacting businesses everywhere, helping them work faster, better, and smarter.",
+          "heading": "Help Us Transform Entire Industries",
+          "score": 0.3359
         }
       ]
     }

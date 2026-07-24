@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2018,
-      "zscore": 0.4366,
+      "zscore": 0.0354,
       "rawTopkMean": 0.0168,
       "nChunks": 8,
       "kUsed": 5,
@@ -41,13 +41,28 @@
     },
     {
       "year": 2019,
-      "zscore": -0.2792,
-      "rawTopkMean": -0.0284,
-      "nChunks": 6,
+      "zscore": 0.3647,
+      "rawTopkMean": 0.0361,
+      "nChunks": 14,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
+          "heading": "Our Brands",
+          "score": 0.0436
+        },
+        {
+          "text": "Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
+          "heading": "Our Brands",
+          "score": 0.0398
+        },
+        {
+          "text": "Bitmoji Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
+          "heading": "Our Brands",
+          "score": 0.0349
+        },
         {
           "text": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
           "heading": "Spectacles",
@@ -57,63 +72,48 @@
           "text": "Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
           "heading": "Snapchat",
           "score": 0.0301
-        },
-        {
-          "text": "Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
-          "heading": "Bitmoji",
-          "score": 0.0187
-        },
-        {
-          "text": "We think deeply, question conventions, and strive to never stop learning.",
-          "heading": "We Are Smart",
-          "score": -0.0902
-        },
-        {
-          "text": "We challenge the status quo to make things with a sense of purpose.",
-          "heading": "We Are Creative",
-          "score": -0.1329
         }
       ]
     },
     {
       "year": 2020,
-      "zscore": -0.5046,
-      "rawTopkMean": -0.0427,
-      "nChunks": 26,
+      "zscore": 0.064,
+      "rawTopkMean": 0.0185,
+      "nChunks": 34,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "Snapchat Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
+          "heading": "Our Brands",
+          "score": 0.0436
+        },
+        {
+          "text": "Spectacles Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
+          "heading": "Our Brands",
+          "score": 0.0398
+        },
+        {
+          "text": "Bitmoji Bitmoji is the digital you — a living cartoon character to instantly express who you are and how you're feeling, in the moment.",
+          "heading": "Our Brands",
+          "score": 0.0349
+        },
+        {
+          "text": "At Snap, we believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate.",
+          "heading": "Who We Are",
+          "score": 0.0063
+        },
+        {
           "text": "Veteran Fellowship Program Our veterans offer unique skills, leadership, and perspectives that we value immensely here at Snap.",
           "heading": "SnapAbility",
           "score": -0.0321
-        },
-        {
-          "text": "After the launch of the program, two-thirds of our Veteran Fellows received full-time offers — and all of them accepted.",
-          "heading": "SnapAbility",
-          "score": -0.0416
-        },
-        {
-          "text": "However, the transition into a civilian workplace can sometimes be a challenge, so we’ve launched the Snap Inc.",
-          "heading": "SnapAbility",
-          "score": -0.0419
-        },
-        {
-          "text": "Millions of people from all walks of life use Snapchat every day to communicate with friends and family.",
-          "heading": "Diversity, Equity & Inclusion",
-          "score": -0.0454
-        },
-        {
-          "text": "Employee Resource Groups Our Employee Resource Groups are created and led by members of the Snap Inc. family.",
-          "heading": "Diversity, Equity & Inclusion",
-          "score": -0.0523
         }
       ]
     },
     {
       "year": 2021,
-      "zscore": -0.963,
+      "zscore": -1.4736,
       "rawTopkMean": -0.0717,
       "nChunks": 16,
       "kUsed": 5,
@@ -149,9 +149,9 @@
     },
     {
       "year": 2022,
-      "zscore": 0.3254,
-      "rawTopkMean": 0.0098,
-      "nChunks": 20,
+      "zscore": 0.3647,
+      "rawTopkMean": 0.0361,
+      "nChunks": 25,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -172,48 +172,58 @@
           "score": 0.0349
         },
         {
-          "text": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
-          "heading": "We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
-          "score": -0.034
+          "text": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
+          "heading": "Spectacles",
+          "score": 0.0322
         },
         {
-          "text": "We Are Creative We gracefully manage ambiguity, cultivate innovation, and demonstrate an insatiable desire to learn.",
-          "heading": "Our Brands",
-          "score": -0.0354
+          "text": "Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
+          "heading": "Snapchat",
+          "score": 0.0301
         }
       ]
     },
     {
       "year": 2023,
-      "zscore": -2.0061,
-      "rawTopkMean": -0.1376,
-      "nChunks": 3,
-      "kUsed": 3,
-      "thin": true,
+      "zscore": -2.0195,
+      "rawTopkMean": -0.1037,
+      "nChunks": 9,
+      "kUsed": 5,
+      "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
+          "heading": "​SnapAsia brings together team members with Asian and Pacific Islander heritage.",
+          "score": -0.0558
+        },
+        {
+          "text": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
+          "heading": "​SnapNoir provides a forum for fostering cultural understanding and professional development for people of the African diaspora at Snap.",
+          "score": -0.106
+        },
         {
           "text": "Have a teammate going through a tough time?",
           "heading": "Snap-a-Wish",
           "score": -0.1094
         },
         {
-          "text": "Lend them a hand through our internal Snap-a-Wish program!",
-          "heading": "Snap-a-Wish",
-          "score": -0.1417
+          "text": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
+          "heading": "SnapAbility supports team members with disabilities and allies, guardians, and advocates of people with disabilities.",
+          "score": -0.1233
         },
         {
-          "text": "We’ll work hard to make sure they get the support they need.",
-          "heading": "Snap-a-Wish",
-          "score": -0.1617
+          "text": "SnapVets builds community for military veterans, dependents, and those who continue to serve.",
+          "heading": "SnapVets builds community for military veterans, dependents, and those who continue to serve.",
+          "score": -0.1239
         }
       ]
     },
     {
       "year": 2024,
-      "zscore": 0.5206,
-      "rawTopkMean": 0.0221,
-      "nChunks": 11,
+      "zscore": 0.8712,
+      "rawTopkMean": 0.0658,
+      "nChunks": 15,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -224,6 +234,16 @@
           "score": 0.1013
         },
         {
+          "text": "Bring your idea to life with our suite of Lens development, management, and analytic tools.",
+          "heading": "",
+          "score": 0.0926
+        },
+        {
+          "text": "Create the world you want to see with Spectacles — our first pair of glasses that bring augmented reality to life, redefining how we interact with and overlay computing on the world.",
+          "heading": "",
+          "score": 0.073
+        },
+        {
           "text": "Spectacles are sunglasses that capture your world, the way you see it — and empower you to share your perspective with the world in a whole new way.",
           "heading": "",
           "score": 0.0322
@@ -232,24 +252,14 @@
           "text": "Snapchat is a new kind of camera used by millions of people every day to stay in touch with friends, express themselves, explore the world — and take some pictures, too.",
           "heading": "",
           "score": 0.0301
-        },
-        {
-          "text": "From our bright and open offices to our vibrant culture—we strive to make every day at Snap feel fresh and exciting.",
-          "heading": "",
-          "score": -0.025
-        },
-        {
-          "text": "We are a diverse team of designers, engineers, marketers, brand strategists, and so much more—all working together to create an environment that fosters individual and collective creativity, growth, innovation, and most of all fun.",
-          "heading": "",
-          "score": -0.0279
         }
       ]
     },
     {
       "year": 2025,
-      "zscore": 1.0152,
+      "zscore": 0.6593,
       "rawTopkMean": 0.0534,
-      "nChunks": 33,
+      "nChunks": 35,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -283,9 +293,9 @@
     },
     {
       "year": 2026,
-      "zscore": 1.4552,
+      "zscore": 1.1337,
       "rawTopkMean": 0.0812,
-      "nChunks": 41,
+      "nChunks": 46,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
