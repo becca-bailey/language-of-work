@@ -1,0 +1,166 @@
+<title>Masculine Energy — shared concept ranking</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #171717; --muted: #737373; --faint: #e5e5e5;
+    --masc: #ff6230; --fem: #7669e9; --card: #fafafa;
+    --label-w: 265px; --meta-w: 86px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0a0a0a; --fg: #ededed; --muted: #8b8b8b; --faint: #262626; --card: #141414; }
+  }
+  :root[data-theme="dark"] { --bg: #0a0a0a; --fg: #ededed; --muted: #8b8b8b; --faint: #262626; --card: #141414; }
+  :root[data-theme="light"] { --bg: #ffffff; --fg: #171717; --muted: #737373; --faint: #e5e5e5; --card: #fafafa; }
+
+  body { background: var(--bg); color: var(--fg); margin: 0;
+    font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .wrap { max-width: 940px; margin: 0 auto; padding: 40px 20px 80px; }
+  .eyebrow { font: 600 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-size: 26px; line-height: 1.2; margin: 10px 0 8px; text-wrap: balance; }
+  .deck { color: var(--muted); max-width: 62ch; margin: 0 0 6px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 18px; margin: 18px 0 4px;
+    font: 11.5px/1 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted); }
+  .legend .sw { display: inline-block; width: 9px; height: 9px; border-radius: 50%;
+    vertical-align: -1px; margin-right: 6px; }
+  .legend .wh { display: inline-block; width: 14px; height: 2px; background: var(--muted);
+    vertical-align: 2px; margin-right: 6px; }
+  .chart { position: relative; margin-top: 10px; }
+  .gridlayer { position: absolute; top: 0; bottom: 0; left: var(--label-w); right: var(--meta-w);
+    pointer-events: none; }
+  .gl { position: absolute; top: 26px; bottom: 0; width: 1px; background: var(--faint); }
+  .gl.zero { background: color-mix(in srgb, var(--fg) 38%, transparent); }
+  .gl-lab { position: absolute; top: 4px; transform: translateX(-50%);
+    font: 10.5px/1 ui-monospace, monospace; color: var(--muted); }
+  .axis-ends { position: absolute; top: 3px; left: var(--label-w); right: var(--meta-w);
+    display: flex; justify-content: space-between; pointer-events: none;
+    font: 600 10px/1 ui-monospace, monospace; letter-spacing: .1em; text-transform: uppercase; }
+  .axis-ends .f { color: var(--fem); } .axis-ends .m { color: var(--masc); }
+
+  .rows { padding-top: 34px; }
+  .row { display: grid; grid-template-columns: var(--label-w) 1fr var(--meta-w);
+    align-items: center; min-height: 25px; border-radius: 4px; cursor: default; }
+  .row:hover, .row:focus-visible { background: color-mix(in srgb, var(--fg) 5%, transparent); outline: none; }
+  .row:focus-visible { box-shadow: 0 0 0 2px color-mix(in srgb, var(--fg) 40%, transparent); }
+  .lab { padding-right: 14px; text-align: right; font-size: 12.5px; line-height: 1.25;
+    color: var(--fg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .track { position: relative; height: 25px; }
+  .whisker { position: absolute; top: 50%; height: 2px; transform: translateY(-50%);
+    background: color-mix(in srgb, var(--fg) 30%, transparent); border-radius: 1px; }
+  .dot { position: absolute; top: 50%; width: 9px; height: 9px; border-radius: 50%;
+    transform: translate(-50%, -50%); border: 1.5px solid var(--bg); }
+  .meta { padding-left: 12px; font: 10.5px/1.2 ui-monospace, monospace; color: var(--muted);
+    font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  .tip { position: fixed; z-index: 10; max-width: 400px; background: var(--card);
+    border: 1px solid var(--faint); border-radius: 8px; padding: 12px 14px 10px;
+    box-shadow: 0 6px 24px rgba(0,0,0,.14); font-size: 12.5px; line-height: 1.45; }
+  .tip.hidden { display: none; }
+  .tip h3 { margin: 0 0 2px; font-size: 13px; }
+  .tip .stat { font: 11px/1.4 ui-monospace, monospace; color: var(--muted); margin-bottom: 8px; }
+  .tip .q { margin: 7px 0 0; padding-left: 9px; border-left: 2.5px solid var(--faint); }
+  .tip .src { display: block; font: 10px/1.4 ui-monospace, monospace; color: var(--muted); }
+  .foot { margin-top: 26px; color: var(--muted); font-size: 12px; max-width: 70ch; }
+
+  @media (max-width: 640px) {
+    :root { --label-w: 132px; --meta-w: 0px; }
+    .meta { display: none; }
+    .lab { font-size: 11px; white-space: normal; }
+    .row { min-height: 30px; }
+  }
+</style>
+
+<div class="wrap">
+  <div class="eyebrow">Masculine Energy · prototype · concept ranking</div>
+  <h1>The ideas companies share, ranked by gender coding</h1>
+  <p class="deck">Every sentence in the corpus was clustered into recurring ideas; an idea
+  counts as <em>shared</em> when at least three companies each contribute two or more sentences
+  and no single company supplies more than 40% of them. Each concept is scored by the
+  average gender-axis position of its sentences, excluding sentences that explicitly mention
+  gender — press releases, diversity statistics, and navigation copy are typed by an LLM judge
+  and set aside. Hover a row to hear what the concept sounds like — its closest matches, one
+  per company.</p>
+  <div class="legend">
+    <span><span class="sw" style="background:var(--masc)"></span>masculine-coded mean</span>
+    <span><span class="sw" style="background:var(--fem)"></span>feminine-coded mean</span>
+    <span><span class="wh"></span>±1 standard error</span>
+  </div>
+
+  <div class="chart" id="chart">
+    <div class="axis-ends"><span class="f">← feminine-coded</span><span class="m">masculine-coded →</span></div>
+    <div class="gridlayer" id="grid"></div>
+    <div class="rows" id="rows"></div>
+  </div>
+
+  <p class="foot">Mean position on the embedding gender axis (z-scored against the frozen
+  20-company baseline), careers-page register only, all 23 companies. Concept discovery is
+  k-means (k=80); the ordering is stable at k=50 and k=120. Cluster names by LLM judge,
+  spot-checkable in the repo. Prototype — labels and copy unedited.</p>
+</div>
+
+<div class="tip hidden" id="tip" role="status"></div>
+
+<script>
+  const DATA = /*DATA*/[]/*END*/;
+  const X0 = -1.55, X1 = 1.05;
+  const pct = z => ((z - X0) / (X1 - X0) * 100);
+
+  const grid = document.getElementById("grid");
+  for (const t of [-1.5, -1, -0.5, 0, 0.5, 1]) {
+    const l = document.createElement("div");
+    l.className = "gl" + (t === 0 ? " zero" : "");
+    l.style.left = pct(t) + "%";
+    grid.appendChild(l);
+    const lab = document.createElement("div");
+    lab.className = "gl-lab";
+    lab.style.left = pct(t) + "%";
+    lab.textContent = t === 0 ? "0" : (t > 0 ? "+" + t : "" + t) + "z";
+    grid.appendChild(lab);
+  }
+
+  const rowsBox = document.getElementById("rows");
+  DATA.forEach((d, i) => {
+    const row = document.createElement("div");
+    row.className = "row"; row.tabIndex = 0; row.dataset.i = i;
+    const color = d.z >= 0 ? "var(--masc)" : "var(--fem)";
+    row.innerHTML =
+      `<div class="lab">${d.name}</div>` +
+      `<div class="track">` +
+        `<div class="whisker" style="left:${pct(d.z - d.se)}%; width:${pct(d.z + d.se) - pct(d.z - d.se)}%"></div>` +
+        `<div class="dot" style="left:${pct(d.z)}%; background:${color}"></div>` +
+      `</div>` +
+      `<div class="meta">${d.nCos} cos · ${d.n}</div>`;
+    rowsBox.appendChild(row);
+  });
+
+  const tip = document.getElementById("tip");
+  const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+  const show = (row, x, y) => {
+    const d = DATA[+row.dataset.i];
+    const zs = (d.z >= 0 ? "+" : "") + d.z.toFixed(2);
+    const cos = d.topCos.map(c => c[0] + " " + c[1]).join(" · ");
+    tip.innerHTML =
+      `<h3>${d.name}</h3>` +
+      `<div class="stat">${zs}±${d.se.toFixed(2)}z · ${d.n} sentences · ` +
+      `${d.nCos} committed companies<br>${cos}</div>` +
+      d.examples.map(x =>
+        `<p class="q">“${esc(x.t)}”<span class="src">${x.co}${x.y ? ", " + x.y : ""}</span></p>`
+      ).join("");
+    tip.classList.remove("hidden");
+    const r = tip.getBoundingClientRect();
+    tip.style.left = Math.min(x + 14, innerWidth - r.width - 10) + "px";
+    tip.style.top = Math.min(y + 14, innerHeight - r.height - 10) + "px";
+  };
+  rowsBox.addEventListener("pointermove", e => {
+    const row = e.target.closest(".row");
+    if (!row) { tip.classList.add("hidden"); return; }
+    show(row, e.clientX, e.clientY);
+  });
+  rowsBox.addEventListener("pointerleave", () => tip.classList.add("hidden"));
+  rowsBox.addEventListener("focusin", e => {
+    const row = e.target.closest(".row");
+    if (!row) return;
+    const r = row.getBoundingClientRect();
+    show(row, r.left + r.width * 0.45, r.bottom);
+  });
+  rowsBox.addEventListener("focusout", () => tip.classList.add("hidden"));
+</script>

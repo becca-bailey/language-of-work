@@ -1,0 +1,171 @@
+---
+// Shared-concept gender ranking: diverging dot plot, one row per idea that
+// recurs across companies (>=3 companies with >=2 sentences each, no company
+// over 40%), scored by mean gender-axis z of its sentences EXCLUDING explicit
+// gender mentions ("women in tech" has no "men in tech" counterpart, so
+// mentions inflate the feminine pole asymmetrically).
+//
+// Labels are verbatim quote fragments picked by an LLM judge from the
+// concept's most central sentences (pick_labels.py) — the taxonomic name
+// demotes to a descriptor line. Data: astro/src/data/stories/
+// gender-concepts.json (export_concept_viz.py, pilot pipeline in
+// data/exclusion_pilot/ — judged clusters, k-stable at 50/80/120).
+import { loadStory } from "@/lib/stories";
+
+const doc = (await loadStory("gender-concepts")) as any;
+const concepts = (doc?.concepts ?? []) as {
+  name: string; z: number; se: number; n: number; nCos: number;
+  topCos: [string, number][]; zAll: number;
+  quote?: { t: string; co: string };
+  examples: { co: string; t: string; z: number; y?: number }[];
+}[];
+const setAside = (doc?.setAside ?? {}) as Record<string, number>;
+const setAsideLine = Object.entries(setAside)
+  .map(([k, v]) => `${v} ${k}`)
+  .join(", ");
+
+const X0 = -1.3, X1 = 0.9;
+const pct = (z: number) => ((z - X0) / (X1 - X0)) * 100;
+const ticks = [-1, -0.5, 0, 0.5];
+---
+
+<div class="concept-gender-plot relative my-6 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
+  <div class="cg-chart relative">
+    <div class="cg-ends" aria-hidden="true">
+      <span style="color:var(--chart-2)">← feminine-coded</span>
+      <span style="color:var(--chart-contrast-1)">masculine-coded →</span>
+    </div>
+    <div class="cg-grid" aria-hidden="true">
+      {ticks.map((t) => (
+        <>
+          <div class={"cg-gl" + (t === 0 ? " cg-zero" : "")} style={`left:${pct(t)}%`}></div>
+          <div class="cg-gl-lab" style={`left:${pct(t)}%`}>
+            {t === 0 ? "0" : (t > 0 ? "+" : "") + t + "z"}
+          </div>
+        </>
+      ))}
+    </div>
+    <div class="cg-rows">
+      {concepts.map((c) => (
+        <div class="cg-row" tabindex="0"
+          data-name={c.name} data-z={c.z} data-se={c.se} data-n={c.n} data-ncos={c.nCos}
+          data-zall={c.zAll} data-quote={c.quote?.t} data-quoteco={c.quote?.co}
+          data-cos={c.topCos.map(([co, n]) => `${co} ${n}`).join(" · ")}
+          data-ex={JSON.stringify(c.examples.map((x) => ({ co: x.co, t: x.t, y: x.y })))}>
+          <div class="cg-lab">
+            {c.quote
+              ? <><span class="cg-quote">“{c.quote.t}”</span><span class="cg-desc">{c.name} · {c.quote.co}</span></>
+              : <><span class="cg-quote cg-noquote">{c.name}</span><span class="cg-desc">{c.nCos} companies</span></>}
+          </div>
+          <div class="cg-track">
+            <div class="cg-whisker"
+              style={`left:${pct(c.z - c.se)}%; width:${pct(c.z + c.se) - pct(c.z - c.se)}%`}></div>
+            <div class="cg-dot"
+              style={`left:${pct(c.z)}%; background:${c.z >= 0 ? "var(--chart-contrast-1)" : "var(--chart-2)"}`}></div>
+          </div>
+          <div class="cg-meta">{c.nCos} cos · {c.n}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+  <p class="cg-foot">
+    0 = the average careers-page sentence (frozen 20-company baseline). Scores exclude
+    sentences that explicitly mention gender. The axis passes a known-answer test:
+    male-stereotyped occupations (infantry soldier, lumberjack) land on the masculine side,
+    female-stereotyped ones (kindergarten teacher, nurse) on the feminine side, neutral terms
+    near zero. Set aside by an LLM judge before ranking: {setAsideLine}.
+  </p>
+  <div class="cg-tip hidden" role="status"></div>
+</div>
+
+<style>
+  .cg-ends {
+    display: flex; justify-content: space-between;
+    margin-left: var(--cg-label-w, 250px); margin-right: var(--cg-meta-w, 82px);
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
+  }
+  .cg-grid { position: absolute; top: 14px; bottom: 0;
+    left: var(--cg-label-w, 250px); right: var(--cg-meta-w, 82px); pointer-events: none; }
+  .cg-gl { position: absolute; top: 24px; bottom: 0; width: 1px;
+    background: color-mix(in srgb, var(--muted) 25%, transparent); }
+  .cg-zero { background: color-mix(in srgb, var(--foreground) 40%, transparent); }
+  .cg-gl-lab { position: absolute; top: 2px; transform: translateX(-50%);
+    font-family: var(--font-mono, ui-monospace, monospace); font-size: 10px;
+    color: var(--muted); }
+  .cg-rows { padding-top: 44px; }
+  .cg-row { display: grid;
+    grid-template-columns: var(--cg-label-w, 250px) 1fr var(--cg-meta-w, 82px);
+    align-items: center; min-height: 37px; border-radius: 4px; cursor: default; }
+  .cg-row:hover, .cg-row:focus-visible {
+    background: color-mix(in srgb, var(--foreground) 5%, transparent); outline: none; }
+  .cg-lab { padding-right: 14px; text-align: right; line-height: 1.25; }
+  .cg-quote { display: block; font-size: 12.5px; font-style: italic;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .cg-noquote { font-style: normal; }
+  .cg-desc { display: block; font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 9.5px; color: var(--muted);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .cg-track { position: relative; height: 37px; }
+  .cg-whisker { position: absolute; top: 50%; height: 2px; transform: translateY(-50%);
+    background: color-mix(in srgb, var(--foreground) 30%, transparent); border-radius: 1px; }
+  .cg-dot { position: absolute; top: 50%; width: 9px; height: 9px; border-radius: 50%;
+    transform: translate(-50%, -50%); border: 1.5px solid var(--background); }
+  .cg-meta { padding-left: 10px; font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums;
+    white-space: nowrap; }
+  .cg-foot { margin-top: 18px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
+  .cg-tip { position: fixed; z-index: 40; max-width: 400px; background: var(--background);
+    border: 1px solid color-mix(in srgb, var(--muted) 35%, transparent); border-radius: 8px;
+    padding: 12px 14px 10px; box-shadow: 0 6px 24px rgb(0 0 0 / 0.15);
+    font-size: 12.5px; line-height: 1.45; }
+  .cg-tip.hidden { display: none; }
+  @media (max-width: 640px) {
+    .concept-gender-plot { --cg-label-w: 128px; --cg-meta-w: 0px; }
+    .cg-meta { display: none; }
+    .cg-quote { white-space: normal; font-size: 11px; }
+    .cg-row { min-height: 44px; }
+  }
+</style>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>(".concept-gender-plot")) {
+    const tip = root.querySelector<HTMLElement>(".cg-tip")!;
+    const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+    const show = (row: HTMLElement, x: number, y: number) => {
+      const z = parseFloat(row.dataset.z!);
+      const zs = (z >= 0 ? "+" : "") + z.toFixed(2);
+      const ex = JSON.parse(row.dataset.ex!) as { co: string; t: string; y?: number }[];
+      tip.innerHTML =
+        (row.dataset.quote
+          ? `<em>“${esc(row.dataset.quote)}”</em>` +
+            `<span style="display:block;font-family:var(--font-mono,monospace);font-size:10px;color:var(--muted)">` +
+            `${esc(row.dataset.quoteco ?? "")} · ${esc(row.dataset.name!)}</span>`
+          : `<strong>${esc(row.dataset.name!)}</strong>`) +
+        `<div style="font-family:var(--font-mono,monospace);font-size:11px;color:var(--muted);margin:4px 0 6px">` +
+        `${zs}±${parseFloat(row.dataset.se!).toFixed(2)}z · ${row.dataset.n} sentences · ` +
+        `${row.dataset.ncos} companies<br>${esc(row.dataset.cos!)}</div>` +
+        ex.map((e) =>
+          `<p style="margin:7px 0 0;padding-left:9px;border-left:2.5px solid color-mix(in srgb,var(--muted) 35%,transparent)">` +
+          `“${esc(e.t)}”<span style="display:block;font-family:var(--font-mono,monospace);font-size:10px;color:var(--muted)">` +
+          `${esc(e.co)}${e.y ? ", " + e.y : ""}</span></p>`).join("");
+      tip.classList.remove("hidden");
+      const r = tip.getBoundingClientRect();
+      tip.style.left = Math.min(x + 14, innerWidth - r.width - 10) + "px";
+      tip.style.top = Math.min(y + 14, innerHeight - r.height - 10) + "px";
+    };
+    root.addEventListener("pointermove", (e) => {
+      const row = (e.target as HTMLElement).closest<HTMLElement>(".cg-row");
+      if (!row) { tip.classList.add("hidden"); return; }
+      show(row, e.clientX, e.clientY);
+    });
+    root.addEventListener("pointerleave", () => tip.classList.add("hidden"));
+    root.addEventListener("focusin", (e) => {
+      const row = (e.target as HTMLElement).closest<HTMLElement>(".cg-row");
+      if (!row) return;
+      const r = row.getBoundingClientRect();
+      show(row, r.left + r.width * 0.45, r.bottom);
+    });
+    root.addEventListener("focusout", () => tip.classList.add("hidden"));
+  }
+</script>

@@ -71,6 +71,7 @@ def main(company: str, validate_only: bool) -> None:
             raise SystemExit("No hand labels found — fill in labels/sample.csv first (M3)")
         sample_chunks = [c for c in chunks if c["chunk_id"] in hand_labels]
         predictions = classify_chunks(sample_chunks)
+        raw_predictions = predictions
     else:
         existing: dict[str, str] = {}
         cls_path = cdir / "classifications.json"
@@ -91,13 +92,23 @@ def main(company: str, validate_only: bool) -> None:
                 print(f"  {r['chunk_id']}: {r['from']} -> {r['to']} ({r['reason']})")
             if len(relabels) > 10:
                 print(f"  ... and {len(relabels) - 10} more")
+        # Reviewed hand labels are ground truth: where one exists, it wins over
+        # the model in classifications.json. The agreement report below still
+        # scores the RAW predictions (raw_predictions), so the M3 metric is
+        # not inflated by this override.
+        raw_predictions = dict(predictions)
+        overrides = {k: v for k, v in hand_labels.items()
+                     if k in chunk_ids and predictions.get(k) != v}
+        if overrides:
+            print(f"Hand-label override: {len(overrides)} chunks take their hand label")
+            predictions.update(overrides)
         write_json(cls_path, predictions)
         write_json(cdir / "relabel_log.json", relabels)
         print(f"Wrote {cls_path} ({len(predictions)} total)")
         write_mission_review(cdir, chunks, predictions)
 
     if hand_labels:
-        report = agreement_report(predictions, hand_labels)
+        report = agreement_report(raw_predictions, hand_labels)
         write_json(cdir / "agreement_report.json", report)
         print(f"\nAgreement: {report['accuracy']} on {report['n']} hand-labeled chunks"
               f" (Krippendorff alpha: {report['krippendorff_alpha']})")

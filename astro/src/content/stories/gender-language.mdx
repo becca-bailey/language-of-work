@@ -13,17 +13,25 @@ teaser: "DRAFT: gender-coded language across every careers page in the corpus."
 ---
 
 import GenderUnitChart from "@/components/viz/GenderUnitChart.astro";
+import ConceptGenderPlot from "@/components/viz/ConceptGenderPlot.astro";
+import GenderPoleScatter from "@/components/viz/GenderPoleScatter.astro";
 
 *(Draft scaffold, 2026-07-23 — the chart is real, the prose is placeholder for
 Becca. Method notes live in docs/exclusion-story-pilot.md until this story
 gets its own methods section.)*
 
-Every sentence of careers-page copy in this corpus, scored on a gender-coding
-axis built from pure gender-term pairs (Kozlowski et al. 2019) — no intuition
-words in the poles. One square per sentence. "Masculine-coded" means the
-language statistically associates with male-skewed contexts across decades of
-English text: the measurement inherits the culture's coding, which is the
-phenomenon, not a bug.
+The good news about biased training data is that it can reflect our biases
+back to us. When this story says "masculine-coded" or "feminine-coded," that
+isn't a personal judgment — not "direct communication is for men, therefore
+companies shouldn't talk about direct communication." It is a computed
+proximity to masculinity: if decades of English text have these concepts
+mapped to statements made by men, for men, or about men, the embedding shows
+that. The measurement inherits the culture's coding, which is the phenomenon,
+not a bug.
+
+Every sentence of careers-page copy in this corpus is scored on a
+gender-coding axis built from pure gender-term pairs (Kozlowski et al. 2019)
+— no intuition words in the poles. One square per sentence.
 
 <GenderUnitChart />
 
@@ -31,3 +39,48 @@ phenomenon, not a bug.
 house-voice/authorship observation — Basecamp reads masculine-coded because
 everything is written in the founders' voice — and what escalates in the
 exclusion cohort. Cross-register caveats per the pilot memo.)*
+
+## The ideas companies share, ranked
+
+It isn't just companies that are gender-coded — the *ideas* they borrow from
+each other are. Clustering every sentence in the corpus into recurring
+concepts and keeping only the genuinely shared ones (at least three companies,
+two-plus sentences each, no company over 40%) puts the performance canon at
+the masculine pole — candor, effort, growth, boldness — and the inclusion
+vocabulary at the feminine pole, even with every explicit mention of gender
+excluded. Each concept is labeled with its own words.
+
+<ConceptGenderPlot />
+
+*(Placeholder for: the style-vs-topic asymmetry — masculine concepts rarely
+mention men, feminine concepts are often about women; the pay-equity
+lexical finding — its feminine coding halves once explicit gender mentions
+are excluded; and the dominance-cap note — Netflix's severance concept is
+more masculine-coded than anything here but stays in the Netflix story
+because it's still 74% one company's voice.)*
+
+## Masculine, or just not feminine?
+
+"Masculine-coded" is one number, but it hides two different ways of earning
+it. The score is a *difference*: how close a sentence sits to the masculine
+pole of the axis, minus how close it sits to the feminine pole. That means a
+concept can score masculine by **approach** — actually living near the
+masculine pole — or by **avoidance** — sitting far from the feminine pole
+while not being especially close to the masculine one either.
+
+Splitting the score back into its two halves shows both kinds exist in this
+corpus. Candor and boldness are masculine by approach: they're personal,
+people-heavy registers that sit close to both poles, just closer to the
+masculine one. But concepts like effort-and-discipline, growth-and-scale, and
+communication-norms score masculine mostly by avoidance — impersonal process
+language whose distance from the feminine pole does the work. And the
+asymmetry runs one way: the strongly feminine-coded concepts all get there by
+approach. In this corpus, femininity is something careers copy moves
+*toward*; masculinity is often just what's left when it moves *away*.
+
+<GenderPoleScatter />
+
+*(Placeholder for: the disavowal analysis — what companies say no to — is
+parked in docs/anti-feminine-measurements.md with a built chart, pending
+editorial; register-level version of this decomposition and caveats in the
+same memo.)*

@@ -1,0 +1,124 @@
+---
+// "What companies say no to": every disavowal in the corpus ("we are not a
+// family", "no rules", "we won't hire jerks"), with the REJECTED thing scored
+// on the gender axis. One square per rejection, stacked into 0.25z bins —
+// same square-equals-sentence language as the unit chart. Hover a square for
+// what was rejected and the sentence that rejected it.
+//
+// Finding this chart carries: rejected content skews masculine-coded (jerks,
+// ego, the status quo, bureaucracy); almost nothing feminine-coded is ever
+// rejected — except "being a family", five times, all in the Netflix lineage.
+// Data: astro/src/data/stories/gender-disavowals.json (data/exclusion_pilot/
+// disavowals.py — Haiku-extracted, judge-cached; discovery memo in
+// docs/anti-feminine-measurements.md).
+import { loadStory } from "@/lib/stories";
+
+const doc = (await loadStory("gender-disavowals")) as any;
+const items = (doc?.items ?? []) as
+  { r: string; z: number; co: string; y?: number; t: string }[];
+
+const X0 = -4.0, X1 = 3.0, BIN = 0.25;
+const pct = (z: number) => ((z - X0) / (X1 - X0)) * 100;
+const bins = new Map<number, typeof items>();
+for (const it of items) {
+  const b = Math.round(Math.min(Math.max(it.z, X0 + BIN), X1 - BIN) / BIN);
+  if (!bins.has(b)) bins.set(b, []);
+  bins.get(b)!.push(it);
+}
+const maxStack = Math.max(...[...bins.values()].map((v) => v.length));
+const fill = (z: number) =>
+  z >= 0.5 ? "var(--chart-contrast-1)" : z <= -0.5 ? "var(--chart-2)"
+  : "color-mix(in srgb, var(--muted) 35%, transparent)";
+const ticks = [-3, -2, -1, 0, 1, 2];
+---
+
+<div class="disavowal-strip relative my-6 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
+  <div class="ds-ends" aria-hidden="true">
+    <span style="color:var(--chart-2)">← rejects something feminine-coded</span>
+    <span style="color:var(--chart-contrast-1)">rejects something masculine-coded →</span>
+  </div>
+  <div class="ds-plot" style={`--ds-max:${maxStack}`}>
+    {ticks.map((t) => (
+      <>
+        <div class={"ds-gl" + (t === 0 ? " ds-zero" : "")} style={`left:${pct(t)}%`}></div>
+        <div class="ds-gl-lab" style={`left:${pct(t)}%`}>{t === 0 ? "0" : (t > 0 ? "+" + t : t) + "z"}</div>
+      </>
+    ))}
+    {[...bins.entries()].map(([b, list]) => (
+      <div class="ds-col" style={`left:${pct(b * BIN)}%`}>
+        {list.map((it) => (
+          <span class="ds-sq" tabindex="0" style={`background:${fill(it.z)}`}
+            data-r={it.r} data-z={it.z} data-co={it.co} data-y={it.y} data-t={it.t}></span>
+        ))}
+      </div>
+    ))}
+  </div>
+  <p class="ds-foot">
+    Every sentence in the corpus that rejects a way of working ({items.length} of ~1,000
+    negations, LLM-extracted), positioned by the gender-coding of the <em>rejected</em> thing —
+    not the sentence. Companies overwhelmingly say no to masculine-coded things: jerks, ego,
+    the status quo, bureaucracy. Feminine-coded rejections are rare — and nearly all of them
+    are "we are not a family."
+  </p>
+  <div class="ds-tip hidden" role="status"></div>
+</div>
+
+<style>
+  .ds-ends { display: flex; justify-content: space-between; margin-bottom: 6px;
+    font-family: var(--font-mono, ui-monospace, monospace); font-size: 10px;
+    font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  .ds-plot { position: relative; height: calc(var(--ds-max) * 9px + 40px); }
+  .ds-gl { position: absolute; top: 16px; bottom: 0; width: 1px;
+    background: color-mix(in srgb, var(--muted) 25%, transparent); }
+  .ds-zero { background: color-mix(in srgb, var(--foreground) 40%, transparent); }
+  .ds-gl-lab { position: absolute; top: 0; transform: translateX(-50%);
+    font-family: var(--font-mono, ui-monospace, monospace); font-size: 10px;
+    color: var(--muted); }
+  .ds-col { position: absolute; bottom: 0; transform: translateX(-50%);
+    display: flex; flex-direction: column-reverse; gap: 1.5px; }
+  .ds-sq { width: 7.5px; height: 7.5px; border-radius: 1.5px; cursor: default; }
+  .ds-sq:hover, .ds-sq:focus-visible { outline: 2px solid var(--foreground); outline-offset: 1px; }
+  .ds-foot { margin-top: 14px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
+  .ds-tip { position: fixed; z-index: 40; max-width: 380px; background: var(--background);
+    border: 1px solid color-mix(in srgb, var(--muted) 35%, transparent); border-radius: 8px;
+    padding: 11px 13px 9px; box-shadow: 0 6px 24px rgb(0 0 0 / 0.15);
+    font-size: 12.5px; line-height: 1.45; }
+  .ds-tip.hidden { display: none; }
+</style>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>(".disavowal-strip")) {
+    const tip = root.querySelector<HTMLElement>(".ds-tip")!;
+    const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+    const show = (sq: HTMLElement, x: number, y: number) => {
+      const z = parseFloat(sq.dataset.z!);
+      tip.innerHTML =
+        `<span style="font-family:var(--font-mono,monospace);font-size:10px;color:var(--muted)">rejects</span>` +
+        `<strong style="display:block">${esc(sq.dataset.r!)}</strong>` +
+        `<span style="font-family:var(--font-mono,monospace);font-size:11px;color:${
+          z >= 0.5 ? "var(--chart-contrast-1)" : z <= -0.5 ? "var(--chart-2)" : "var(--muted)"
+        }">${(z >= 0 ? "+" : "") + z.toFixed(2)}z ${
+          z >= 0.5 ? "masculine-coded" : z <= -0.5 ? "feminine-coded" : "neutral"}</span>` +
+        `<p style="margin:7px 0 0;padding-left:9px;border-left:2.5px solid color-mix(in srgb,var(--muted) 35%,transparent)">` +
+        `“${esc(sq.dataset.t!)}”<span style="display:block;font-family:var(--font-mono,monospace);font-size:10px;color:var(--muted)">` +
+        `${esc(sq.dataset.co!)}${sq.dataset.y && sq.dataset.y !== "undefined" ? ", " + sq.dataset.y : ""}</span></p>`;
+      tip.classList.remove("hidden");
+      const r = tip.getBoundingClientRect();
+      tip.style.left = Math.min(x + 14, innerWidth - r.width - 10) + "px";
+      tip.style.top = Math.min(y + 14, innerHeight - r.height - 10) + "px";
+    };
+    root.addEventListener("pointermove", (e) => {
+      const sq = (e.target as HTMLElement).closest<HTMLElement>(".ds-sq");
+      if (!sq) { tip.classList.add("hidden"); return; }
+      show(sq, e.clientX, e.clientY);
+    });
+    root.addEventListener("pointerleave", () => tip.classList.add("hidden"));
+    root.addEventListener("focusin", (e) => {
+      const sq = (e.target as HTMLElement).closest<HTMLElement>(".ds-sq");
+      if (!sq) return;
+      const r = sq.getBoundingClientRect();
+      show(sq, r.left, r.bottom + 4);
+    });
+    root.addEventListener("focusout", () => tip.classList.add("hidden"));
+  }
+</script>

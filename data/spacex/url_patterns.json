@@ -1,7 +1,7 @@
 {
   "company": "spacex",
   "display_name": "SpaceX",
-  "comment": "Exclusion-story company (2026-07-23). spacex.com/careers 200s from 2013 (301s before). Elite-selection register ('like Special Forces'). Current site is a JS shell; older captures carry the prose.",
+  "comment": "Exclusion-story company (2026-07-23). CDX discovery 2026-07-24: the pre-2013 careers page is careers.php (~90 captures, 2002-2012 era — extends the careers register a decade earlier than the /careers 301 wall suggested), plus aboutus.php from 2003. /about + /about/leadership carry culture copy 2013+; /mission is the current-era mission prose. careers/position/{id} (725 job postings) and careers/list|jobs (listing indexes) are deliberately EXCLUDED — listings, not culture copy. Current site is a JS shell; older captures carry the prose; live page needs manual capture. humanspaceflight patterns REMOVED 2026-07-24 (M3 validation caught it): those pages are spacesuit/product hardware documentation with no employer voice — careers-register pollution, same failure mode as Anduril newsroom.",
   "hosts": [
     "spacex.com",
     "www.spacex.com"
@@ -26,6 +26,65 @@
       "url": "www.spacex.com/careers/",
       "match_type": "exact",
       "era_hint": "2013-2026"
+    },
+    {
+      "url": "spacex.com/careers.php",
+      "match_type": "exact",
+      "era_hint": "2002-2012",
+      "from_year": 2002
+    },
+    {
+      "url": "www.spacex.com/careers.php",
+      "match_type": "exact",
+      "era_hint": "2002-2012",
+      "from_year": 2002
+    },
+    {
+      "url": "spacex.com/aboutus.php",
+      "match_type": "exact",
+      "era_hint": "2002-2012",
+      "from_year": 2002
+    },
+    {
+      "url": "www.spacex.com/aboutus.php",
+      "match_type": "exact",
+      "era_hint": "2002-2012",
+      "from_year": 2002
+    },
+    {
+      "url": "spacex.com/about",
+      "match_type": "exact",
+      "era_hint": "2013-2026"
+    },
+    {
+      "url": "www.spacex.com/about",
+      "match_type": "exact",
+      "era_hint": "2013-2026"
+    },
+    {
+      "url": "spacex.com/about/leadership",
+      "match_type": "exact",
+      "era_hint": "2013-2026"
+    },
+    {
+      "url": "www.spacex.com/about/leadership",
+      "match_type": "exact",
+      "era_hint": "2013-2026"
+    },
+    {
+      "url": "spacex.com/mission",
+      "match_type": "exact",
+      "era_hint": "2019-2026"
+    },
+    {
+      "url": "www.spacex.com/mission/",
+      "match_type": "exact",
+      "era_hint": "2019-2026"
+    },
+    {
+      "url": "www.spacex.com/mission/index.html",
+      "match_type": "exact",
+      "era_hint": "2019-2026"
     }
   ]
 }

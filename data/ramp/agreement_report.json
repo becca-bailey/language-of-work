@@ -1,0 +1,49 @@
+{
+  "n": 45,
+  "accuracy": 0.867,
+  "krippendorff_alpha": 0.688,
+  "confusion": {
+    "mission_brand": {
+      "mission_brand": 30,
+      "employee_story": 6
+    },
+    "benefits_perks": {
+      "benefits_perks": 8
+    },
+    "employee_story": {
+      "employee_story": 1
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "445b2142fca6446c",
+      "hand_label": "mission_brand",
+      "predicted": "employee_story"
+    },
+    {
+      "chunk_id": "8f76e16b4fc08997",
+      "hand_label": "mission_brand",
+      "predicted": "employee_story"
+    },
+    {
+      "chunk_id": "fae93bf3b36aadbe",
+      "hand_label": "mission_brand",
+      "predicted": "employee_story"
+    },
+    {
+      "chunk_id": "9597fb655cdb0ac6",
+      "hand_label": "mission_brand",
+      "predicted": "employee_story"
+    },
+    {
+      "chunk_id": "072cf6834fcb3f43",
+      "hand_label": "mission_brand",
+      "predicted": "employee_story"
+    },
+    {
+      "chunk_id": "f2f7c427c47a29ad",
+      "hand_label": "mission_brand",
+      "predicted": "employee_story"
+    }
+  ]
+}

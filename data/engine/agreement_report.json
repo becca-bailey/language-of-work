@@ -1,0 +1,64 @@
+{
+  "n": 70,
+  "accuracy": 0.9,
+  "krippendorff_alpha": 0.814,
+  "confusion": {
+    "mission_brand": {
+      "mission_brand": 45,
+      "process_logistics": 1
+    },
+    "navigation_junk": {
+      "navigation_junk": 2,
+      "process_logistics": 5
+    },
+    "benefits_perks": {
+      "benefits_perks": 5
+    },
+    "employee_story": {
+      "employee_story": 10
+    },
+    "job_listing": {
+      "mission_brand": 1
+    },
+    "process_logistics": {
+      "process_logistics": 1
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "29bc77e00dd52a17",
+      "hand_label": "navigation_junk",
+      "predicted": "process_logistics"
+    },
+    {
+      "chunk_id": "a3c6c2782bf2d124",
+      "hand_label": "navigation_junk",
+      "predicted": "process_logistics"
+    },
+    {
+      "chunk_id": "0469413549372771",
+      "hand_label": "navigation_junk",
+      "predicted": "process_logistics"
+    },
+    {
+      "chunk_id": "1b83e16252544ed5",
+      "hand_label": "navigation_junk",
+      "predicted": "process_logistics"
+    },
+    {
+      "chunk_id": "53c9f406503921bc",
+      "hand_label": "navigation_junk",
+      "predicted": "process_logistics"
+    },
+    {
+      "chunk_id": "ae8e8b2173189f46",
+      "hand_label": "mission_brand",
+      "predicted": "process_logistics"
+    },
+    {
+      "chunk_id": "a1188e86f915a0e5",
+      "hand_label": "job_listing",
+      "predicted": "mission_brand"
+    }
+  ]
+}

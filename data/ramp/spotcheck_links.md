@@ -2,86 +2,85 @@
 
 Open a sample across eras; confirm real careers content.
 
+## 2005
+- [20050113042758 — http://www.ramp.com:80/about/](https://web.archive.org/web/20050113042758/http://www.ramp.com:80/about/)
+- [20051102082919 — http://www.ramp.com:80/about/](https://web.archive.org/web/20051102082919/http://www.ramp.com:80/about/)
+- [20051218204617 — http://www.ramp.com:80/about](https://web.archive.org/web/20051218204617/http://www.ramp.com:80/about)
+
+## 2006
+- [20060302075803 — http://www.ramp.com:80/about/](https://web.archive.org/web/20060302075803/http://www.ramp.com:80/about/)
+
+## 2009
+- [20091123173842 — http://www.ramp.com:80/about/](https://web.archive.org/web/20091123173842/http://www.ramp.com:80/about/)
+- [20091208183523 — http://www.ramp.com:80/about/](https://web.archive.org/web/20091208183523/http://www.ramp.com:80/about/)
+
+## 2010
+- [20100103235140 — http://www.ramp.com:80/about/](https://web.archive.org/web/20100103235140/http://www.ramp.com:80/about/)
+
+## 2013
+- [20130624045601 — http://www.ramp.com:80/about/](https://web.archive.org/web/20130624045601/http://www.ramp.com:80/about/)
+- [20130729094108 — http://www.ramp.com:80/about/](https://web.archive.org/web/20130729094108/http://www.ramp.com:80/about/)
+- [20130811232848 — http://www.ramp.com/about/](https://web.archive.org/web/20130811232848/http://www.ramp.com/about/)
+- [20131004044256 — http://www.ramp.com:80/about/](https://web.archive.org/web/20131004044256/http://www.ramp.com:80/about/)
+
+## 2014
+- [20140214054055 — http://www.ramp.com/about/](https://web.archive.org/web/20140214054055/http://www.ramp.com/about/)
+- [20140417094846 — http://www.ramp.com:80/about/](https://web.archive.org/web/20140417094846/http://www.ramp.com:80/about/)
+- [20140822213345 — http://www.ramp.com:80/about/](https://web.archive.org/web/20140822213345/http://www.ramp.com:80/about/)
+- [20141004004628 — http://www.ramp.com:80/about/](https://web.archive.org/web/20141004004628/http://www.ramp.com:80/about/)
+
+## 2015
+- [20150206082931 — http://www.ramp.com:80/about/](https://web.archive.org/web/20150206082931/http://www.ramp.com:80/about/)
+- [20150408011600 — http://www.ramp.com:80/about/](https://web.archive.org/web/20150408011600/http://www.ramp.com:80/about/)
+- [20150810094045 — http://www.ramp.com:80/about/](https://web.archive.org/web/20150810094045/http://www.ramp.com:80/about/)
+- [20151006162552 — http://www.ramp.com:80/about/](https://web.archive.org/web/20151006162552/http://www.ramp.com:80/about/)
+
+## 2016
+- [20160204224915 — http://www.ramp.com:80/about/](https://web.archive.org/web/20160204224915/http://www.ramp.com:80/about/)
+- [20160410233603 — http://www.ramp.com/about/](https://web.archive.org/web/20160410233603/http://www.ramp.com/about/)
+- [20160827111309 — http://www.ramp.com:80/about/](https://web.archive.org/web/20160827111309/http://www.ramp.com:80/about/)
+- [20161024180648 — http://ramp.com/about/](https://web.archive.org/web/20161024180648/http://ramp.com/about/)
+
+## 2017
+- [20170713001747 — https://ramp.com/about/](https://web.archive.org/web/20170713001747/https://ramp.com/about/)
+
+## 2018
+- [20180825183220 — https://ramp.com/about/](https://web.archive.org/web/20180825183220/https://ramp.com/about/)
+
+## 2019
+- [20190205041010 — https://ramp.com/about/](https://web.archive.org/web/20190205041010/https://ramp.com/about/)
+- [20190719161135 — https://ramp.com/about/](https://web.archive.org/web/20190719161135/https://ramp.com/about/)
+- [20190923131039 — https://ramp.com/about/](https://web.archive.org/web/20190923131039/https://ramp.com/about/)
+- [20191114104832 — https://ramp.com/about/](https://web.archive.org/web/20191114104832/https://ramp.com/about/)
+
 ## 2020
-- [20200811192049 — https://ramp.com/careers/](https://web.archive.org/web/20200811192049/https://ramp.com/careers/)
-- [20200914020214 — https://ramp.com/careers](https://web.archive.org/web/20200914020214/https://ramp.com/careers)
-- [20201012230611 — https://ramp.com/careers](https://web.archive.org/web/20201012230611/https://ramp.com/careers)
-- [20201101141916 — https://ramp.com/careers](https://web.archive.org/web/20201101141916/https://ramp.com/careers)
-- [20201204013401 — https://ramp.com/careers](https://web.archive.org/web/20201204013401/https://ramp.com/careers)
+- [20200322075316 — https://ramp.com/about/](https://web.archive.org/web/20200322075316/https://ramp.com/about/)
+- [20200420084132 — https://ramp.com/about/](https://web.archive.org/web/20200420084132/https://ramp.com/about/)
+- [20200513030959 — https://ramp.com/about/](https://web.archive.org/web/20200513030959/https://ramp.com/about/)
+- [20200904041641 — https://ramp.com/about/](https://web.archive.org/web/20200904041641/https://ramp.com/about/)
 
 ## 2021
-- [20210108021755 — https://ramp.com/careers](https://web.archive.org/web/20210108021755/https://ramp.com/careers)
-- [20210209222808 — https://ramp.com/careers](https://web.archive.org/web/20210209222808/https://ramp.com/careers)
-- [20210318184736 — https://ramp.com/careers](https://web.archive.org/web/20210318184736/https://ramp.com/careers)
-- [20210413214340 — https://ramp.com/careers](https://web.archive.org/web/20210413214340/https://ramp.com/careers)
-- [20210513031220 — https://ramp.com/careers](https://web.archive.org/web/20210513031220/https://ramp.com/careers)
-- [20210614160154 — https://ramp.com/careers](https://web.archive.org/web/20210614160154/https://ramp.com/careers)
-- [20210814142203 — https://ramp.com/careers](https://web.archive.org/web/20210814142203/https://ramp.com/careers)
-- [20210903070539 — https://ramp.com/careers](https://web.archive.org/web/20210903070539/https://ramp.com/careers)
-- [20211006091533 — https://ramp.com/careers](https://web.archive.org/web/20211006091533/https://ramp.com/careers)
-- [20211111205211 — https://ramp.com/careers](https://web.archive.org/web/20211111205211/https://ramp.com/careers)
-- [20211211234028 — https://ramp.com/careers](https://web.archive.org/web/20211211234028/https://ramp.com/careers)
 
 ## 2022
-- [20220103193246 — https://ramp.com/careers](https://web.archive.org/web/20220103193246/https://ramp.com/careers)
-- [20220327144115 — https://ramp.com/careers](https://web.archive.org/web/20220327144115/https://ramp.com/careers)
-- [20220406204458 — https://ramp.com/careers](https://web.archive.org/web/20220406204458/https://ramp.com/careers)
-- [20220509124325 — https://ramp.com/careers](https://web.archive.org/web/20220509124325/https://ramp.com/careers)
-- [20220612082817 — https://ramp.com/careers](https://web.archive.org/web/20220612082817/https://ramp.com/careers)
-- [20220706073125 — https://ramp.com/careers/](https://web.archive.org/web/20220706073125/https://ramp.com/careers/)
-- [20220829150355 — https://ramp.com/careers/](https://web.archive.org/web/20220829150355/https://ramp.com/careers/)
-- [20221022033156 — https://ramp.com/careers](https://web.archive.org/web/20221022033156/https://ramp.com/careers)
-- [20221125161212 — https://ramp.com/careers](https://web.archive.org/web/20221125161212/https://ramp.com/careers)
-- [20221213153118 — https://ramp.com/careers](https://web.archive.org/web/20221213153118/https://ramp.com/careers)
+- [20220625220606 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams/](https://web.archive.org/web/20220625220606/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams/)
+- [20220706071822 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20220706071822/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
+- [20220810225002 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20220810225002/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
+- [20221128050914 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20221128050914/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
 
 ## 2023
-- [20230126153138 — https://ramp.com/careers](https://web.archive.org/web/20230126153138/https://ramp.com/careers)
-- [20230226191522 — https://ramp.com/careers](https://web.archive.org/web/20230226191522/https://ramp.com/careers)
-- [20230305153324 — https://ramp.com/careers](https://web.archive.org/web/20230305153324/https://ramp.com/careers)
-- [20230403153927 — https://ramp.com/careers](https://web.archive.org/web/20230403153927/https://ramp.com/careers)
-- [20230502055549 — https://ramp.com/careers](https://web.archive.org/web/20230502055549/https://ramp.com/careers)
-- [20230601064739 — https://ramp.com/careers](https://web.archive.org/web/20230601064739/https://ramp.com/careers)
-- [20230710183932 — https://ramp.com/careers](https://web.archive.org/web/20230710183932/https://ramp.com/careers)
-- [20230810122407 — https://ramp.com/careers](https://web.archive.org/web/20230810122407/https://ramp.com/careers)
-- [20230928185413 — https://ramp.com/careers](https://web.archive.org/web/20230928185413/https://ramp.com/careers)
-- [20231018175455 — https://ramp.com/careers](https://web.archive.org/web/20231018175455/https://ramp.com/careers)
-- [20231111064049 — https://ramp.com/careers](https://web.archive.org/web/20231111064049/https://ramp.com/careers)
-- [20231204122939 — https://ramp.com/careers](https://web.archive.org/web/20231204122939/https://ramp.com/careers)
+- [20230921223636 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20230921223636/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
 
 ## 2024
-- [20240104144608 — https://ramp.com/careers](https://web.archive.org/web/20240104144608/https://ramp.com/careers)
-- [20240208185424 — https://ramp.com/careers](https://web.archive.org/web/20240208185424/https://ramp.com/careers)
-- [20240301174018 — https://ramp.com/careers](https://web.archive.org/web/20240301174018/https://ramp.com/careers)
-- [20240402125657 — https://ramp.com/careers](https://web.archive.org/web/20240402125657/https://ramp.com/careers)
-- [20240501123837 — https://ramp.com/careers](https://web.archive.org/web/20240501123837/https://ramp.com/careers)
-- [20240601102730 — https://ramp.com/careers](https://web.archive.org/web/20240601102730/https://ramp.com/careers)
-- [20240701153121 — https://ramp.com/careers](https://web.archive.org/web/20240701153121/https://ramp.com/careers)
-- [20240805061823 — https://ramp.com/careers](https://web.archive.org/web/20240805061823/https://ramp.com/careers)
-- [20240901124212 — https://ramp.com/careers](https://web.archive.org/web/20240901124212/https://ramp.com/careers)
-- [20241003015257 — https://ramp.com/careers](https://web.archive.org/web/20241003015257/https://ramp.com/careers)
-- [20241102181213 — https://ramp.com/careers](https://web.archive.org/web/20241102181213/https://ramp.com/careers)
-- [20241211154328 — https://ramp.com/careers](https://web.archive.org/web/20241211154328/https://ramp.com/careers)
+- [20240303160950 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20240303160950/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
+- [20240625055001 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20240625055001/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
 
 ## 2025
-- [20250107104742 — https://ramp.com/careers](https://web.archive.org/web/20250107104742/https://ramp.com/careers)
-- [20250202223236 — https://ramp.com/careers](https://web.archive.org/web/20250202223236/https://ramp.com/careers)
-- [20250303182211 — https://ramp.com/careers](https://web.archive.org/web/20250303182211/https://ramp.com/careers)
-- [20250401162057 — https://ramp.com/careers](https://web.archive.org/web/20250401162057/https://ramp.com/careers)
-- [20250504065031 — https://ramp.com/careers](https://web.archive.org/web/20250504065031/https://ramp.com/careers)
-- [20250601024002 — https://ramp.com/careers](https://web.archive.org/web/20250601024002/https://ramp.com/careers)
-- [20250701033314 — https://ramp.com/careers](https://web.archive.org/web/20250701033314/https://ramp.com/careers)
-- [20250801085156 — https://ramp.com/careers](https://web.archive.org/web/20250801085156/https://ramp.com/careers)
-- [20250902193023 — https://ramp.com/careers](https://web.archive.org/web/20250902193023/https://ramp.com/careers)
-- [20251001184232 — https://ramp.com/careers](https://web.archive.org/web/20251001184232/https://ramp.com/careers)
-- [20251101034548 — https://ramp.com/careers](https://web.archive.org/web/20251101034548/https://ramp.com/careers)
-- [20251201061431 — https://ramp.com/careers](https://web.archive.org/web/20251201061431/https://ramp.com/careers)
+- [20250121185050 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20250121185050/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
+- [20250418020110 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20250418020110/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
+- [20250518074448 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20250518074448/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
+- [20250804004208 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20250804004208/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
+- [20251118224331 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20251118224331/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
 
 ## 2026
-- [20260103031323 — https://ramp.com/careers](https://web.archive.org/web/20260103031323/https://ramp.com/careers)
-- [20260201101601 — https://ramp.com/careers](https://web.archive.org/web/20260201101601/https://ramp.com/careers)
-- [20260311033203 — https://ramp.com/careers](https://web.archive.org/web/20260311033203/https://ramp.com/careers)
-- [20260422132500 — https://ramp.com/careers](https://web.archive.org/web/20260422132500/https://ramp.com/careers)
-- [20260522034442 — https://ramp.com/careers](https://web.archive.org/web/20260522034442/https://ramp.com/careers)
-- [20260610091305 — https://ramp.com/careers](https://web.archive.org/web/20260610091305/https://ramp.com/careers)
-- [20260715141601 — https://ramp.com/careers](https://web.archive.org/web/20260715141601/https://ramp.com/careers)
+- [20260416082600 — https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams](https://web.archive.org/web/20260416082600/https://ramp.com/blog/eric-glyman-on-building-high-velocity-teams)
 

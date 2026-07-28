@@ -1,26 +1,56 @@
 {
   "company": "ramp",
   "display_name": "Ramp",
-  "comment": "Exclusion-story company (2026-07-23). ramp.com/careers CDX 2020-2026 (4-12/yr). Purest anti-pitch specimen: founders' letter 'persuading you not to apply' (live-captured 2026-07-23 into manual_html).",
+  "comment": "Exclusion-story company (2026-07-23). ramp.com/careers CDX 2020-2026 (4-12/yr). Purest anti-pitch specimen: founders' letter 'persuading you not to apply' (live-captured 2026-07-23 into manual_html). CDX discovery 2026-07-24: DOMAIN-HISTORY TRAP — ramp.com pre-2019 was a DIFFERENT company (WordPress site with /about-us, /about-2, /management; port-80 captures) — every pattern MUST carry min_year>=2019 (ENFORCED — era_hint is documentation only; learned 2026-07-24 when fetch pulled 2005-2016 about/ pages from the prior domain owner); never loosen to prefix without it. The 140 'distinct' /careers URLs are Next.js ?_rsc= cache-buster variants of one page (collapse artifact, no new content). Real additions: jobs.ashbyhq.com/ramp board ROOT (intro copy; the ~2000 per-posting URLs are excluded — listings), and curated culture posts from ramp.com/blog (allow-listed slugs only; the blog is otherwise finance content marketing). REVISED 2026-07-24 (M3 sample caught both): video company held ramp.com into MID-2020 (eCDN about-pages) -> about min_year 2021; blog captures 2024+ are 0.4-1.5MB with related-post chrome (credit-card marketing chunks) -> blog max_year 2023.",
   "hosts": [
     "ramp.com",
-    "www.ramp.com"
+    "www.ramp.com",
+    "jobs.ashbyhq.com"
   ],
   "patterns": [
     {
       "url": "ramp.com/careers",
       "match_type": "exact",
-      "era_hint": "2020-2026"
+      "era_hint": "2020-2026",
+      "min_year": 2019
     },
     {
       "url": "www.ramp.com/careers",
       "match_type": "exact",
-      "era_hint": "2020-2026"
+      "era_hint": "2020-2026",
+      "min_year": 2019
     },
     {
       "url": "ramp.com/careers/",
       "match_type": "exact",
-      "era_hint": "2020-2026"
+      "era_hint": "2020-2026",
+      "min_year": 2019
+    },
+    {
+      "url": "ramp.com/about",
+      "match_type": "exact",
+      "era_hint": "2020-2026",
+      "min_year": 2021
+    },
+    {
+      "url": "jobs.ashbyhq.com/ramp",
+      "match_type": "exact",
+      "era_hint": "2021-2026",
+      "min_year": 2021
+    },
+    {
+      "url": "ramp.com/blog/eric-glyman-on-building-high-velocity-teams",
+      "match_type": "exact",
+      "era_hint": "2021-2026",
+      "min_year": 2021,
+      "max_year": 2023
+    },
+    {
+      "url": "ramp.com/blog/eric-glyman-on-building-high-velocity-teams/",
+      "match_type": "exact",
+      "era_hint": "2021-2026",
+      "min_year": 2021,
+      "max_year": 2023
     }
   ]
 }

@@ -1,0 +1,166 @@
+<title>Masculine Energy — shared concept ranking</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #171717; --muted: #737373; --faint: #e5e5e5;
+    --masc: #ff6230; --fem: #7669e9; --card: #fafafa;
+    --label-w: 265px; --meta-w: 86px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0a0a0a; --fg: #ededed; --muted: #8b8b8b; --faint: #262626; --card: #141414; }
+  }
+  :root[data-theme="dark"] { --bg: #0a0a0a; --fg: #ededed; --muted: #8b8b8b; --faint: #262626; --card: #141414; }
+  :root[data-theme="light"] { --bg: #ffffff; --fg: #171717; --muted: #737373; --faint: #e5e5e5; --card: #fafafa; }
+
+  body { background: var(--bg); color: var(--fg); margin: 0;
+    font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .wrap { max-width: 940px; margin: 0 auto; padding: 40px 20px 80px; }
+  .eyebrow { font: 600 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-size: 26px; line-height: 1.2; margin: 10px 0 8px; text-wrap: balance; }
+  .deck { color: var(--muted); max-width: 62ch; margin: 0 0 6px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 18px; margin: 18px 0 4px;
+    font: 11.5px/1 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted); }
+  .legend .sw { display: inline-block; width: 9px; height: 9px; border-radius: 50%;
+    vertical-align: -1px; margin-right: 6px; }
+  .legend .wh { display: inline-block; width: 14px; height: 2px; background: var(--muted);
+    vertical-align: 2px; margin-right: 6px; }
+  .chart { position: relative; margin-top: 10px; }
+  .gridlayer { position: absolute; top: 0; bottom: 0; left: var(--label-w); right: var(--meta-w);
+    pointer-events: none; }
+  .gl { position: absolute; top: 26px; bottom: 0; width: 1px; background: var(--faint); }
+  .gl.zero { background: color-mix(in srgb, var(--fg) 38%, transparent); }
+  .gl-lab { position: absolute; top: 4px; transform: translateX(-50%);
+    font: 10.5px/1 ui-monospace, monospace; color: var(--muted); }
+  .axis-ends { position: absolute; top: 3px; left: var(--label-w); right: var(--meta-w);
+    display: flex; justify-content: space-between; pointer-events: none;
+    font: 600 10px/1 ui-monospace, monospace; letter-spacing: .1em; text-transform: uppercase; }
+  .axis-ends .f { color: var(--fem); } .axis-ends .m { color: var(--masc); }
+
+  .rows { padding-top: 34px; }
+  .row { display: grid; grid-template-columns: var(--label-w) 1fr var(--meta-w);
+    align-items: center; min-height: 25px; border-radius: 4px; cursor: default; }
+  .row:hover, .row:focus-visible { background: color-mix(in srgb, var(--fg) 5%, transparent); outline: none; }
+  .row:focus-visible { box-shadow: 0 0 0 2px color-mix(in srgb, var(--fg) 40%, transparent); }
+  .lab { padding-right: 14px; text-align: right; font-size: 12.5px; line-height: 1.25;
+    color: var(--fg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .track { position: relative; height: 25px; }
+  .whisker { position: absolute; top: 50%; height: 2px; transform: translateY(-50%);
+    background: color-mix(in srgb, var(--fg) 30%, transparent); border-radius: 1px; }
+  .dot { position: absolute; top: 50%; width: 9px; height: 9px; border-radius: 50%;
+    transform: translate(-50%, -50%); border: 1.5px solid var(--bg); }
+  .meta { padding-left: 12px; font: 10.5px/1.2 ui-monospace, monospace; color: var(--muted);
+    font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  .tip { position: fixed; z-index: 10; max-width: 400px; background: var(--card);
+    border: 1px solid var(--faint); border-radius: 8px; padding: 12px 14px 10px;
+    box-shadow: 0 6px 24px rgba(0,0,0,.14); font-size: 12.5px; line-height: 1.45; }
+  .tip.hidden { display: none; }
+  .tip h3 { margin: 0 0 2px; font-size: 13px; }
+  .tip .stat { font: 11px/1.4 ui-monospace, monospace; color: var(--muted); margin-bottom: 8px; }
+  .tip .q { margin: 7px 0 0; padding-left: 9px; border-left: 2.5px solid var(--faint); }
+  .tip .src { display: block; font: 10px/1.4 ui-monospace, monospace; color: var(--muted); }
+  .foot { margin-top: 26px; color: var(--muted); font-size: 12px; max-width: 70ch; }
+
+  @media (max-width: 640px) {
+    :root { --label-w: 132px; --meta-w: 0px; }
+    .meta { display: none; }
+    .lab { font-size: 11px; white-space: normal; }
+    .row { min-height: 30px; }
+  }
+</style>
+
+<div class="wrap">
+  <div class="eyebrow">Masculine Energy · prototype · concept ranking</div>
+  <h1>The ideas companies share, ranked by gender coding</h1>
+  <p class="deck">Every sentence in the corpus was clustered into recurring ideas; an idea
+  counts as <em>shared</em> when at least three companies each contribute two or more sentences
+  and no single company supplies more than 40% of them. Each concept is scored by the
+  average gender-axis position of its sentences, excluding sentences that explicitly mention
+  gender — press releases, diversity statistics, and navigation copy are typed by an LLM judge
+  and set aside. Hover a row to hear what the concept sounds like — its closest matches, one
+  per company.</p>
+  <div class="legend">
+    <span><span class="sw" style="background:var(--masc)"></span>masculine-coded mean</span>
+    <span><span class="sw" style="background:var(--fem)"></span>feminine-coded mean</span>
+    <span><span class="wh"></span>±1 standard error</span>
+  </div>
+
+  <div class="chart" id="chart">
+    <div class="axis-ends"><span class="f">← feminine-coded</span><span class="m">masculine-coded →</span></div>
+    <div class="gridlayer" id="grid"></div>
+    <div class="rows" id="rows"></div>
+  </div>
+
+  <p class="foot">Mean position on the embedding gender axis (z-scored against the frozen
+  20-company baseline), careers-page register only, all 23 companies. Concept discovery is
+  k-means (k=80); the ordering is stable at k=50 and k=120. Cluster names by LLM judge,
+  spot-checkable in the repo. Prototype — labels and copy unedited.</p>
+</div>
+
+<div class="tip hidden" id="tip" role="status"></div>
+
+<script>
+  const DATA = [{"name": "transparent, accessible communication", "dei": false, "z": 0.657, "se": 0.038, "n": 151, "nCos": 10, "topCos": [["Basecamp", 56], ["Netflix", 37], ["Engine", 16], ["HubSpot", 13]], "topShare": 0.37, "diffuse": false, "zAll": 0.657, "nGendered": 0, "examples": [{"co": "Stripe", "t": "Our communication norms in places like our company all-hands, Q&As, wikis, emails, and internal messaging are unique in their aim to democratize access to information and avoid siloed thinking.", "z": 0.13, "y": 2020}, {"co": "GitLab", "t": "It's important to scale communication as companies grow to accommodate differnt learning styles, communities, and taem member expectations.", "z": 0.75, "y": 2021}, {"co": "Basecamp", "t": "By having clear expectations for communication, it’s easier for everyone to build trust in where we’re going and why.", "z": 1.27, "y": 2022}]}, {"name": "deliberate effort and discipline", "dei": false, "z": 0.609, "se": 0.051, "n": 99, "nCos": 13, "topCos": [["Shopify", 34], ["Basecamp", 12], ["Netflix", 9], ["Engine", 9]], "topShare": 0.34, "diffuse": false, "zAll": 0.593, "nGendered": 1, "examples": [{"co": "Netflix", "t": "Of course, to be great, most of us have to put in considerable effort.", "z": 0.73, "y": 2022}, {"co": "Shopify", "t": "Doing your very best to avoid the ambition decay that comes from discovering just how hard it is to do what you set out to do.", "z": 0.2, "y": 2026}, {"co": "Engine", "t": "Anyone can make something complex, but it takes ingenuity and discipline to make something simple.", "z": 1.32, "y": 2021}]}, {"name": "direct feedback and candor", "dei": false, "z": 0.538, "se": 0.048, "n": 134, "nCos": 12, "topCos": [["Netflix", 52], ["Basecamp", 26], ["HubSpot", 13], ["Coinbase", 7]], "topShare": 0.39, "diffuse": false, "zAll": 0.538, "nGendered": 0, "examples": [{"co": "Netflix", "t": "Candor — you willingly receive and give feedback; you are open about what’s working and what needs to improve; you admit mistakes openly and share learnings widely.", "z": 0.11, "y": 2024}, {"co": "Meta", "t": "Be direct and respect your colleagues", "z": 0.93, "y": 2023}, {"co": "Coinbase", "t": "We value giving and receiving feedback.", "z": 0.31, "y": 2021}]}, {"name": "rapid growth and scale", "dei": false, "z": 0.525, "se": 0.049, "n": 135, "nCos": 14, "topCos": [["Basecamp", 24], ["Netflix", 23], ["Engine", 13], ["Salesforce", 12]], "topShare": 0.18, "diffuse": false, "zAll": 0.562, "nGendered": 4, "examples": [{"co": "Engine", "t": "We are an ambitious company poised for industry-defining impact.", "z": 0.35, "y": 2026}, {"co": "Palantir", "t": "Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards.", "z": 0.73, "y": 2010}, {"co": "Stripe", "t": "Whereas many companies get slower until they’re eventually mired in mediocrity, we aspire to become the world’s fastest company.", "z": 1.09, "y": 2026}]}, {"name": "culture transparency", "dei": false, "z": 0.511, "se": 0.056, "n": 100, "nCos": 10, "topCos": [["Basecamp", 28], ["Netflix", 20], ["HubSpot", 14], ["GitLab", 10]], "topShare": 0.28, "diffuse": false, "zAll": 0.524, "nGendered": 1, "examples": [{"co": "Netflix", "t": "This document is about our internal employee culture: the unusual ways we work together so we can eventually entertain everyone.", "z": 0.44, "y": 2017}, {"co": "Coinbase", "t": "Outlining our culture helps everyone — from candidates to new leaders to veteran employees — understand how we interact and get work done in service of our mission.", "z": 0.53, "y": 2021}, {"co": "Stripe", "t": "For more on how we work, we’ve put together this quick guide about our culture today.", "z": 0.55, "y": 2017}]}, {"name": "bold innovation and experimentation", "dei": false, "z": 0.441, "se": 0.04, "n": 200, "nCos": 17, "topCos": [["Engine", 32], ["Shopify", 22], ["Netflix", 20], ["Amazon", 19]], "topShare": 0.16, "diffuse": false, "zAll": 0.441, "nGendered": 0, "examples": [{"co": "Engine", "t": "We explore bold ideas and embrace the unknown.", "z": 0.51, "y": 2026}, {"co": "Netflix", "t": "Success requires us to be bold and ambitious, to think differently, experiment and adapt (often quickly).", "z": 0.7, "y": 2024}, {"co": "Salesforce", "t": "We encourage each other to challenge the status quo, push outside of our comfort zones, and pursue initiatives that have the potential to advance the way we do business.", "z": 0.67, "y": 2017}]}, {"name": "core values-driven culture", "dei": false, "z": 0.388, "se": 0.039, "n": 184, "nCos": 17, "topCos": [["Netflix", 46], ["Engine", 31], ["HubSpot", 16], ["Stripe", 13]], "topShare": 0.25, "diffuse": false, "zAll": 0.389, "nGendered": 1, "examples": [{"co": "Netflix", "t": "Like all great companies, we strive to hire the best and we value integrity, excellence, respect, inclusivity, and collaboration.", "z": 0.21, "y": 2018}, {"co": "Salesforce", "t": "These values are woven into the fabric of everything we do, ensuring you can align your personal beliefs with your professional life.", "z": 0.05, "y": 2025}, {"co": "Shopify", "t": "We thrive on change, operate on trust, and leverage the diverse perspectives of people on our team in everything we do.", "z": -0.37, "y": 2018}]}, {"name": "continuous improvement mindset", "dei": false, "z": 0.335, "se": 0.033, "n": 166, "nCos": 16, "topCos": [["Google", 29], ["Apple", 18], ["Netflix", 15], ["Stripe", 15]], "topShare": 0.17, "diffuse": false, "zAll": 0.335, "nGendered": 0, "examples": [{"co": "Apple", "t": "We’re proud of our accomplishments, but we have much more work to do.", "z": 0.0, "y": 2018}, {"co": "Google", "t": "We’re investing great effort, and we’re improving—but we recognize we have a long way to go.", "z": 0.49, "y": 2019}, {"co": "Coinbase", "t": "We’re optimistic about the future and determined to get there.", "z": -0.04, "y": 2017}]}, {"name": "action-oriented execution", "dei": false, "z": 0.312, "se": 0.048, "n": 152, "nCos": 16, "topCos": [["Basecamp", 28], ["Shopify", 21], ["Stripe", 18], ["Google", 16]], "topShare": 0.18, "diffuse": false, "zAll": 0.312, "nGendered": 1, "examples": [{"co": "Salesforce", "t": "We put our money - and our time - where our mouth is.", "z": 0.38, "y": 2006}, {"co": "Shopify", "t": "In short, we get shit done.", "z": 0.36, "y": 2018}, {"co": "GitLab", "t": "We like to spend our time on things that matter.", "z": 0.5, "y": 2016}]}, {"name": "economic empowerment through platforms", "dei": false, "z": 0.273, "se": 0.042, "n": 100, "nCos": 8, "topCos": [["Coinbase", 31], ["Shopify", 27], ["Stripe", 17], ["Google", 6]], "topShare": 0.31, "diffuse": false, "zAll": 0.26, "nGendered": 1, "examples": [{"co": "Shopify", "t": "By breaking down the barriers to building a business, we aim to empower more communities around the world to contribute to the global economy.", "z": 0.2, "y": 2020}, {"co": "Stripe", "t": "By building thoughtful infrastructure and interfaces, we're helping to put new people and companies in business.", "z": 0.72, "y": 2012}, {"co": "Coinbase", "t": "We think this is the highest leverage way to bring about more economic freedom, innovation, efficiency, and equality of opportunity in the world.", "z": 0.8, "y": 2016}]}, {"name": "learning from peers", "dei": false, "z": 0.259, "se": 0.049, "n": 98, "nCos": 14, "topCos": [["Shopify", 23], ["HubSpot", 13], ["Basecamp", 11], ["Stripe", 9]], "topShare": 0.23, "diffuse": false, "zAll": 0.259, "nGendered": 0, "examples": [{"co": "Coinbase", "t": "We learn from and mentor those around us.", "z": 0.2, "y": 2017}, {"co": "Shopify", "t": "We learn by doing – doing well, doing not so well, failing hard, and doing better.", "z": 0.55, "y": 2018}, {"co": "Engine", "t": "We learn from them, rapidly recover, and get back to doing great work.", "z": 0.11, "y": 2024}]}, {"name": "autonomy and meaningful impact", "dei": false, "z": 0.236, "se": 0.04, "n": 191, "nCos": 19, "topCos": [["Apple", 28], ["Shopify", 26], ["Stripe", 24], ["Salesforce", 21]], "topShare": 0.15, "diffuse": false, "zAll": 0.236, "nGendered": 0, "examples": [{"co": "Shopify", "t": "You’ll have the creative freedom to make a real difference in the world of commerce, and the chance to work with some of the best in the business.", "z": 0.23, "y": 2015}, {"co": "Apple", "t": "Join us and you’ll do the best work of your life — and make a difference in other people’s lives.", "z": -0.8, "y": 2019}, {"co": "Salesforce", "t": "Whether you're an experienced candidate or a university standout, your ideas and efforts have a direct and immediate impact on the company, with career-defining results.", "z": 0.72, "y": 2006}]}, {"name": "talented people solving big problems", "dei": false, "z": 0.174, "se": 0.044, "n": 198, "nCos": 20, "topCos": [["Shopify", 32], ["Salesforce", 23], ["Coinbase", 22], ["Stripe", 14]], "topShare": 0.16, "diffuse": false, "zAll": 0.169, "nGendered": 1, "examples": [{"co": "Google", "t": "We're looking for people with world-class skills who thrive in small, focused teams and high-energy environments, believe in the ability of technology to change the world, and are as passionate about ", "z": 0.7, "y": 2005}, {"co": "Meta", "t": "We want people who can solve challenging problems, make a real impact and build something big.", "z": 0.96, "y": 2013}, {"co": "Amazon", "t": "We hire the world’s brightest minds and offer them an environment in which they can relentlessly improve the experience for our customers.", "z": 0.47, "y": 2011}]}, {"name": "customer-centric values", "dei": false, "z": 0.137, "se": 0.038, "n": 212, "nCos": 17, "topCos": [["Basecamp", 29], ["Engine", 29], ["Salesforce", 28], ["Coinbase", 16]], "topShare": 0.14, "diffuse": false, "zAll": 0.137, "nGendered": 0, "examples": [{"co": "Engine", "t": "We keep our customers at the core of everything that we do.", "z": -0.04, "y": 2024}, {"co": "Salesforce", "t": "We are deeply committed to our values of trust, Customer Success, innovation, equality, and sustainability.", "z": -0.59, "y": 2025}, {"co": "Basecamp", "t": "We care deeply about the products we build for our customers.", "z": -0.34, "y": 2010}]}, {"name": "employee growth and development", "dei": false, "z": 0.003, "se": 0.049, "n": 174, "nCos": 15, "topCos": [["Amazon", 32], ["Apple", 28], ["Google", 27], ["Salesforce", 25]], "topShare": 0.18, "diffuse": false, "zAll": -0.027, "nGendered": 4, "examples": [{"co": "Salesforce", "t": "We expand access to careers by opening doors for all, including emerging and untapped talent, people with nontraditional pathways, and more.", "z": -1.14, "y": 2026}, {"co": "Apple", "t": "From new‑hire orientation to talent planning, we’re embedding programs, processes, and resources that support employees and help current leaders identify and develop future leaders equitably.", "z": -0.86, "y": 2022}, {"co": "Google", "t": "We are building a robust, diverse talent pool to support our industry’s growth.", "z": -0.57, "y": 2020}]}, {"name": "talented people doing best work", "dei": false, "z": -0.08, "se": 0.049, "n": 193, "nCos": 20, "topCos": [["Google", 37], ["Salesforce", 24], ["Shopify", 18], ["HubSpot", 16]], "topShare": 0.19, "diffuse": false, "zAll": -0.12, "nGendered": 2, "examples": [{"co": "Google", "t": "We believe in hard work, a fun atmosphere, and the sort of creativity that only comes about when talented people from diverse backgrounds approach problems from varying perspectives.", "z": 0.88, "y": 2005}, {"co": "HubSpot", "t": "We're building a culture at HubSpot where amazing people (like you) can do their best work.", "z": -0.25, "y": 2020}, {"co": "Salesforce", "t": "We have the privilege of collaborating every day with talented, passionate teammates, and we genuinely enjoy each other's company.", "z": -0.24, "y": 2017}]}, {"name": "pay equity commitment", "dei": true, "z": -0.112, "se": 0.12, "n": 57, "nCos": 7, "topCos": [["Apple", 22], ["Netflix", 10], ["Amazon", 7], ["Google", 5]], "topShare": 0.39, "diffuse": false, "zAll": -0.474, "nGendered": 21, "examples": [{"co": "Apple", "t": "And every year, we examine the compensation employees receive and ensure that we maintain pay equity.", "z": -0.46, "y": 2022}, {"co": "Salesforce", "t": "We continuously assess and aim for pay equity across the entire organization.", "z": -1.27, "y": 2017}, {"co": "Uber", "t": "We believe in and are committed to pay equity for all employees.", "z": -0.49, "y": 2018}]}, {"name": "collaborative purpose-driven culture", "dei": false, "z": -0.131, "se": 0.046, "n": 141, "nCos": 17, "topCos": [["Starbucks", 26], ["Apple", 18], ["Netflix", 11], ["Salesforce", 11]], "topShare": 0.18, "diffuse": false, "zAll": -0.182, "nGendered": 2, "examples": [{"co": "Salesforce", "t": "We take care of each other, have fun together, and work collaboratively to make the world a better place.", "z": -1.17, "y": 2018}, {"co": "Starbucks", "t": "We believe we can all become a part of something bigger and inspire positive change in the world around us.", "z": -0.5, "y": 2014}, {"co": "NVIDIA", "t": "We thrive on seamless collaboration and shared success while embracing inclusivity and individuality.", "z": -0.73, "y": 2026}]}, {"name": "valuing diverse perspectives", "dei": false, "z": -0.142, "se": 0.065, "n": 135, "nCos": 15, "topCos": [["Google", 32], ["Apple", 25], ["HubSpot", 14], ["Netflix", 12]], "topShare": 0.24, "diffuse": false, "zAll": -0.322, "nGendered": 21, "examples": [{"co": "Apple", "t": "As you’ll see from these conversations, our stories are all different, yet each shows what’s possible when personal and professional values align.", "z": -0.6, "y": 2021}, {"co": "Salesforce", "t": "“ We all deserve to feel heard, valued, and included.", "z": -0.36, "y": 2020}, {"co": "Basecamp", "t": "There are few better ways to expand your horizons and grow as a person than to put yourself in the company of others with different backgrounds, experiences and identities.", "z": 0.48, "y": 2017}]}, {"name": "remote and flexible work", "dei": false, "z": -0.169, "se": 0.055, "n": 125, "nCos": 12, "topCos": [["GitLab", 31], ["HubSpot", 24], ["Basecamp", 20], ["Coinbase", 12]], "topShare": 0.25, "diffuse": false, "zAll": -0.159, "nGendered": 1, "examples": [{"co": "HubSpot", "t": "We work remotely, keep non-traditional hours, and use unlimited vacation to create work-life \"fit\" for us and the people we love.", "z": -0.06, "y": 2020}, {"co": "Coinbase", "t": "To attract top talent around the world and embrace decentralization, all full-time employees can work remote.", "z": 0.04, "y": 2024}, {"co": "GitLab", "t": "We're dedicated to working asynchronously, so we can contribute from anywhere at anytime.", "z": -0.67, "y": 2019}]}, {"name": "employee resource groups", "dei": true, "z": -0.457, "se": 0.065, "n": 105, "nCos": 9, "topCos": [["Salesforce", 42], ["Amazon", 14], ["Google", 11], ["Stripe", 10]], "topShare": 0.4, "diffuse": false, "zAll": -0.58, "nGendered": 8, "examples": [{"co": "Salesforce", "t": "It provides a platform for employees of color to elevate their voices and develop their careers through a strong network of allies.", "z": -1.04, "y": 2025}, {"co": "Amazon", "t": "The group helps recruit, onboard, and connect Asian employees across geographies by sharing experiences and providing access to career development, networking, and community-building opportunities.", "z": -0.73, "y": 2017}, {"co": "Meta", "t": "We represent the Asian & Pacific Islanders community at Facebook and provide the opportunity to learn about the cultural diversity that comprises API.", "z": -0.47, "y": 2020}]}, {"name": "diversity and inclusion culture", "dei": true, "z": -0.598, "se": 0.031, "n": 321, "nCos": 16, "topCos": [["Apple", 63], ["Salesforce", 58], ["Google", 48], ["Starbucks", 44]], "topShare": 0.2, "diffuse": false, "zAll": -0.661, "nGendered": 25, "examples": [{"co": "Google", "t": "We care deeply about improving workforce representation and creating an inclusive culture for everyone.", "z": -1.58, "y": 2018}, {"co": "Salesforce", "t": "We strive to create a workplace that reflects the diverse communities around us and where everyone feels seen, heard, valued, and empowered to succeed.", "z": -0.82, "y": 2021}, {"co": "Apple", "t": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level.", "z": -1.1, "y": 2023}]}, {"name": "employee resource groups", "dei": true, "z": -1.049, "se": 0.064, "n": 73, "nCos": 11, "topCos": [["Google", 14], ["Salesforce", 12], ["Apple", 10], ["Amazon", 7]], "topShare": 0.19, "diffuse": false, "zAll": -1.298, "nGendered": 11, "examples": [{"co": "Salesforce", "t": "Our Equality Groups are employee-led, open to all, and play an important role in driving engagement, innovation, retention, and leadership development.", "z": -1.66, "y": 2026}, {"co": "Google", "t": "We are proud to support the Employee Resource Groups (ERGs) that provide additional support and community for underrepresented employees and their allies.", "z": -0.75, "y": 2019}, {"co": "Snap", "t": "Whether they’re throwing social events, hosting guest speakers, or spearheading new volunteer efforts, our Employee Resource Groups are always working to make a real difference — and real friends!", "z": -1.4, "y": 2020}]}];
+  const X0 = -1.55, X1 = 1.05;
+  const pct = z => ((z - X0) / (X1 - X0) * 100);
+
+  const grid = document.getElementById("grid");
+  for (const t of [-1.5, -1, -0.5, 0, 0.5, 1]) {
+    const l = document.createElement("div");
+    l.className = "gl" + (t === 0 ? " zero" : "");
+    l.style.left = pct(t) + "%";
+    grid.appendChild(l);
+    const lab = document.createElement("div");
+    lab.className = "gl-lab";
+    lab.style.left = pct(t) + "%";
+    lab.textContent = t === 0 ? "0" : (t > 0 ? "+" + t : "" + t) + "z";
+    grid.appendChild(lab);
+  }
+
+  const rowsBox = document.getElementById("rows");
+  DATA.forEach((d, i) => {
+    const row = document.createElement("div");
+    row.className = "row"; row.tabIndex = 0; row.dataset.i = i;
+    const color = d.z >= 0 ? "var(--masc)" : "var(--fem)";
+    row.innerHTML =
+      `<div class="lab">${d.name}</div>` +
+      `<div class="track">` +
+        `<div class="whisker" style="left:${pct(d.z - d.se)}%; width:${pct(d.z + d.se) - pct(d.z - d.se)}%"></div>` +
+        `<div class="dot" style="left:${pct(d.z)}%; background:${color}"></div>` +
+      `</div>` +
+      `<div class="meta">${d.nCos} cos · ${d.n}</div>`;
+    rowsBox.appendChild(row);
+  });
+
+  const tip = document.getElementById("tip");
+  const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+  const show = (row, x, y) => {
+    const d = DATA[+row.dataset.i];
+    const zs = (d.z >= 0 ? "+" : "") + d.z.toFixed(2);
+    const cos = d.topCos.map(c => c[0] + " " + c[1]).join(" · ");
+    tip.innerHTML =
+      `<h3>${d.name}</h3>` +
+      `<div class="stat">${zs}±${d.se.toFixed(2)}z · ${d.n} sentences · ` +
+      `${d.nCos} committed companies<br>${cos}</div>` +
+      d.examples.map(x =>
+        `<p class="q">“${esc(x.t)}”<span class="src">${x.co}${x.y ? ", " + x.y : ""}</span></p>`
+      ).join("");
+    tip.classList.remove("hidden");
+    const r = tip.getBoundingClientRect();
+    tip.style.left = Math.min(x + 14, innerWidth - r.width - 10) + "px";
+    tip.style.top = Math.min(y + 14, innerHeight - r.height - 10) + "px";
+  };
+  rowsBox.addEventListener("pointermove", e => {
+    const row = e.target.closest(".row");
+    if (!row) { tip.classList.add("hidden"); return; }
+    show(row, e.clientX, e.clientY);
+  });
+  rowsBox.addEventListener("pointerleave", () => tip.classList.add("hidden"));
+  rowsBox.addEventListener("focusin", e => {
+    const row = e.target.closest(".row");
+    if (!row) return;
+    const r = row.getBoundingClientRect();
+    show(row, r.left + r.width * 0.45, r.bottom);
+  });
+  rowsBox.addEventListener("focusout", () => tip.classList.add("hidden"));
+</script>

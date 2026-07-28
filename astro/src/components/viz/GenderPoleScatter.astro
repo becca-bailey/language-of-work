@@ -1,0 +1,224 @@
+---
+// Masculine, or just not feminine? Every shared concept plotted by closeness
+// to each pole of the gender axis SEPARATELY (z-scored over gender-mention-
+// free sentences). The bipolar score in the ranking chart is the *difference*
+// of these two numbers, so it can't tell "close to masculinity" from "far
+// from femininity" — this chart can:
+//   above the diagonal  = masculine-coded (mz > fz)
+//   top-right           = close to BOTH poles: personal, people-heavy talk
+//   bottom-left         = far from both: impersonal, process-heavy talk —
+//                         masculine-coded by AVOIDANCE, not approach
+// Method + register-level version: docs/anti-feminine-measurements.md.
+// Data: gender-concepts.json (mz/fz fields, export_concept_viz.py).
+import { loadStory } from "@/lib/stories";
+
+const doc = (await loadStory("gender-concepts")) as any;
+const concepts = (doc?.concepts ?? []) as {
+  name: string; z: number; mz: number; fz: number; n: number; nCos: number;
+  quote?: { t: string; co: string };
+}[];
+
+const W = 680, H = 560, M = { l: 52, r: 24, t: 34, b: 50 };
+const xs = concepts.map((c) => c.fz), ys = concepts.map((c) => c.mz);
+const xd = [Math.min(...xs) - 0.28, Math.max(...xs) + 0.28];
+const yd = [Math.min(...ys) - 0.22, Math.max(...ys) + 0.22];
+const X = (v: number) => M.l + ((v - xd[0]) / (xd[1] - xd[0])) * (W - M.l - M.r);
+const Y = (v: number) => H - M.b - ((v - yd[0]) / (yd[1] - yd[0])) * (H - M.t - M.b);
+const d0 = Math.max(xd[0], yd[0]), d1 = Math.min(xd[1], yd[1]);
+const color = (z: number) =>
+  z >= 0.1 ? "var(--chart-contrast-1)" : z <= -0.1 ? "var(--chart-2)" : "var(--muted)";
+const xticks = [-1, -0.5, 0, 0.5, 1].filter((t) => t > xd[0] && t < xd[1]);
+const yticks = [-0.5, 0, 0.5, 1].filter((t) => t > yd[0] && t < yd[1]);
+
+// Greedy label placement: eight candidate positions per dot, tested against
+// already-placed labels, every dot, and the plot bounds. Outermost dots are
+// placed first so the crowded middle loses labels, not the extremes; a label
+// that fits nowhere is dropped (the dot keeps its hover tooltip).
+type Box = { x0: number; x1: number; y0: number; y1: number };
+const CW = 5.3, LH = 11;
+const hits = (a: Box, b: Box) =>
+  a.x0 < b.x1 && b.x0 < a.x1 && a.y0 < b.y1 && b.y0 < a.y1;
+const taken: Box[] = concepts.map((c) => ({
+  x0: X(c.fz) - 8, x1: X(c.fz) + 8, y0: Y(c.mz) - 8, y1: Y(c.mz) + 8,
+}));
+const cx = (xd[0] + xd[1]) / 2, cy = (yd[0] + yd[1]) / 2;
+const order = concepts
+  .map((c, i) => ({ i, d: Math.hypot(c.fz - cx, c.mz - cy) }))
+  .sort((a, b) => b.d - a.d);
+const labels: ({ x: number; y: number; anchor: string; name: string } | null)[] =
+  concepts.map(() => null);
+for (const { i } of order) {
+  const c = concepts[i];
+  const x = X(c.fz), y = Y(c.mz), w = c.name.length * CW;
+  const cands: { x: number; y: number; anchor: string }[] = [
+    { x: x + 10, y: y + 3.5, anchor: "start" },
+    { x: x - 10, y: y + 3.5, anchor: "end" },
+    { x, y: y - 11, anchor: "middle" },
+    { x, y: y + 17, anchor: "middle" },
+    { x: x + 10, y: y - 8, anchor: "start" },
+    { x: x + 10, y: y + 14, anchor: "start" },
+    { x: x - 10, y: y - 8, anchor: "end" },
+    { x: x - 10, y: y + 14, anchor: "end" },
+  ];
+  for (const cd of cands) {
+    const x0 = cd.anchor === "start" ? cd.x : cd.anchor === "end" ? cd.x - w : cd.x - w / 2;
+    const box = { x0, x1: x0 + w, y0: cd.y - LH + 2, y1: cd.y + 2 };
+    if (box.x0 < 2 || box.x1 > W - 2 || box.y0 < M.t - 12 || box.y1 > H - M.b + 14) continue;
+    if (taken.some((b) => hits(b, box))) continue;
+    labels[i] = { ...cd, name: c.name };
+    taken.push(box);
+    break;
+  }
+}
+const dropped = labels.filter((l) => l === null).length;
+if (dropped) console.log(`GenderPoleScatter: ${dropped} labels hidden (hover only)`);
+
+// "Masculine by avoidance": scores masculine overall (z), sits below corpus
+// average in closeness to the feminine pole (fz), and is not actually close
+// to the masculine pole (mz). Ringed in the chart; same rule as the tooltip.
+const isAvoid = (c: (typeof concepts)[number]) =>
+  c.z >= 0.15 && c.fz <= -0.2 && c.mz <= 0.3;
+---
+
+<div class="gender-pole-scatter relative my-6 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
+  <div class="gps-legend">
+    <span><span class="gps-sw" style="background:var(--chart-contrast-1)"></span>masculine-coded</span>
+    <span><span class="gps-sw" style="background:var(--chart-2)"></span>feminine-coded</span>
+    <span><span class="gps-sw gps-sw-ring"></span>masculine by avoidance — far from the feminine pole without being close to the masculine one</span>
+  </div>
+  <svg viewBox={`0 0 ${W} ${H}`} role="img"
+    aria-label="Scatter plot of shared concepts by closeness to the feminine pole (horizontal) and masculine pole (vertical)">
+    {xticks.map((t) => (
+      <>
+        <line x1={X(t)} y1={M.t} x2={X(t)} y2={H - M.b} class="gps-grid" />
+        <text x={X(t)} y={H - M.b + 16} class="gps-tick" text-anchor="middle">{t === 0 ? "0" : (t > 0 ? "+" + t : t)}</text>
+      </>
+    ))}
+    {yticks.map((t) => (
+      <>
+        <line x1={M.l} y1={Y(t)} x2={W - M.r} y2={Y(t)} class="gps-grid" />
+        <text x={M.l - 8} y={Y(t) + 3.5} class="gps-tick" text-anchor="end">{t === 0 ? "0" : (t > 0 ? "+" + t : t)}</text>
+      </>
+    ))}
+    <line x1={X(d0)} y1={Y(d0)} x2={X(d1)} y2={Y(d1)} class="gps-diag" />
+    <text x={X(d1) - 4} y={Y(d1) + 14} class="gps-diag-lab" text-anchor="end"
+      transform={`rotate(${-Math.atan2(Y(d0) - Y(d1), X(d1) - X(d0)) * 180 / Math.PI} ${X(d1) - 4} ${Y(d1) + 14})`}>
+      equally close to both poles
+    </text>
+    <text x={W - M.r - 4} y={M.t + 14} class="gps-corner" text-anchor="end">close to both poles — personal, people-heavy</text>
+    <text x={M.l + 6} y={H - M.b - 20} class="gps-corner">far from both poles — impersonal, process-heavy.</text>
+    <text x={M.l + 6} y={H - M.b - 8} class="gps-corner">ringed concepts score masculine only by distance from the feminine pole</text>
+    <text x={M.l + 6} y={M.t + 14} class="gps-region" style="fill:var(--chart-contrast-1)">masculine-coded side</text>
+    <text x={W - M.r - 4} y={H - M.b - 8} class="gps-region" style="fill:var(--chart-2)" text-anchor="end">feminine-coded side</text>
+    {concepts.map((c, i) => (
+      <g class="gps-pt" tabindex="0"
+        data-name={c.name} data-z={c.z} data-mz={c.mz} data-fz={c.fz}
+        data-n={c.n} data-ncos={c.nCos}
+        data-quote={c.quote?.t} data-quoteco={c.quote?.co}>
+        {isAvoid(c) && (
+          <circle cx={X(c.fz)} cy={Y(c.mz)} r="10" class="gps-ring" />
+        )}
+        <circle cx={X(c.fz)} cy={Y(c.mz)} r="5.5" fill={color(c.z)}
+          stroke="var(--background)" stroke-width="1.5" />
+        {labels[i] && (
+          <text x={labels[i].x} y={labels[i].y} class="gps-lab"
+            text-anchor={labels[i].anchor}>{labels[i].name}</text>
+        )}
+      </g>
+    ))}
+    <text x={(M.l + W - M.r) / 2} y={H - 8} class="gps-axis" text-anchor="middle">closeness to the feminine pole →</text>
+    <text x={14} y={(M.t + H - M.b) / 2} class="gps-axis" text-anchor="middle"
+      transform={`rotate(-90 14 ${(M.t + H - M.b) / 2})`}>closeness to the masculine pole →</text>
+  </svg>
+  <p class="gps-foot">
+    How this is measured: each pole is the average embedding of sixteen gender terms —
+    <em>woman, mother, sister, daughter, wife, queen…</em> for the feminine pole,
+    <em>man, father, brother, son, husband, king…</em> for the masculine — and a concept's
+    position is its sentences' average cosine similarity to each pole, z-scored against all
+    gender-mention-free sentences (0 = the average careers-page sentence). "Far from the
+    feminine pole" means the concept's language is less similar to those feminine terms than
+    the average sentence is. The ranking above scores each concept with one number — the
+    <em>difference</em> between these two axes — so it can't distinguish the ringed concepts
+    (masculine by avoidance) from the top-right ones (masculine by approach). The two pole
+    similarities correlate 0.84, which is why position along the diagonal mostly measures how
+    personal the language is at all.
+  </p>
+  <div class="gps-tip hidden" role="status"></div>
+</div>
+
+<style>
+  svg { width: 100%; height: auto; display: block; }
+  .gps-legend { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 8px;
+    font-family: var(--font-mono, ui-monospace, monospace); font-size: 10.5px;
+    color: var(--muted); }
+  .gps-sw { display: inline-block; width: 9px; height: 9px; border-radius: 50%;
+    vertical-align: -1px; margin-right: 5px; }
+  .gps-sw-ring { background: transparent;
+    border: 1.5px dashed color-mix(in srgb, var(--foreground) 55%, transparent); }
+  .gps-ring { fill: none; stroke: color-mix(in srgb, var(--foreground) 45%, transparent);
+    stroke-width: 1.3; stroke-dasharray: 3.5 3; }
+  .gps-grid { stroke: color-mix(in srgb, var(--muted) 20%, transparent); }
+  .gps-diag { stroke: color-mix(in srgb, var(--foreground) 35%, transparent); stroke-dasharray: 5 4; }
+  .gps-diag-lab, .gps-corner, .gps-region, .gps-tick, .gps-axis {
+    font-family: var(--font-mono, ui-monospace, monospace); fill: var(--muted); }
+  .gps-diag-lab { font-size: 9.5px; }
+  .gps-corner { font-size: 9.5px; }
+  .gps-region { font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  .gps-tick { font-size: 10px; }
+  .gps-axis { font-size: 10.5px; letter-spacing: 0.05em; }
+  .gps-lab { font-size: 9.5px; fill: var(--foreground); opacity: 0.85; }
+  .gps-pt { cursor: default; }
+  .gps-pt:hover circle, .gps-pt:focus-visible circle { stroke: var(--foreground); }
+  .gps-pt:focus-visible { outline: none; }
+  .gps-foot { margin-top: 10px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
+  .gps-tip { position: fixed; z-index: 40; max-width: 380px; background: var(--background);
+    border: 1px solid color-mix(in srgb, var(--muted) 35%, transparent); border-radius: 8px;
+    padding: 11px 13px 9px; box-shadow: 0 6px 24px rgb(0 0 0 / 0.15);
+    font-size: 12.5px; line-height: 1.45; }
+  .gps-tip.hidden { display: none; }
+  @media (max-width: 640px) { .gps-lab { display: none; } }
+</style>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>(".gender-pole-scatter")) {
+    const tip = root.querySelector<HTMLElement>(".gps-tip")!;
+    const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+    const fmt = (v: string) => {
+      const n = parseFloat(v);
+      return (n >= 0 ? "+" : "") + n.toFixed(2);
+    };
+    const show = (pt: HTMLElement, x: number, y: number) => {
+      const mz = parseFloat(pt.dataset.mz!), fz = parseFloat(pt.dataset.fz!);
+      const how = mz - fz > 0.1
+        ? (mz > 0.15 ? "masculine-coded by approach" : "masculine-coded by avoiding the feminine pole")
+        : fz - mz > 0.1 ? "feminine-coded" : "near the diagonal — barely coded";
+      tip.innerHTML =
+        (pt.dataset.quote
+          ? `<em>“${esc(pt.dataset.quote)}”</em>` +
+            `<span style="display:block;font-family:var(--font-mono,monospace);font-size:10px;color:var(--muted)">` +
+            `${esc(pt.dataset.quoteco ?? "")} · ${esc(pt.dataset.name!)}</span>`
+          : `<strong>${esc(pt.dataset.name!)}</strong>`) +
+        `<div style="font-family:var(--font-mono,monospace);font-size:11px;color:var(--muted);margin-top:4px">` +
+        `masc pole ${fmt(pt.dataset.mz!)} · fem pole ${fmt(pt.dataset.fz!)} · bipolar ${fmt(pt.dataset.z!)}z<br>` +
+        `${pt.dataset.n} sentences · ${pt.dataset.ncos} companies</div>` +
+        `<div style="margin-top:4px">${how}</div>`;
+      tip.classList.remove("hidden");
+      const r = tip.getBoundingClientRect();
+      tip.style.left = Math.min(x + 14, innerWidth - r.width - 10) + "px";
+      tip.style.top = Math.min(y + 14, innerHeight - r.height - 10) + "px";
+    };
+    root.addEventListener("pointermove", (e) => {
+      const pt = (e.target as HTMLElement).closest<HTMLElement>(".gps-pt");
+      if (!pt) { tip.classList.add("hidden"); return; }
+      show(pt, e.clientX, e.clientY);
+    });
+    root.addEventListener("pointerleave", () => tip.classList.add("hidden"));
+    root.addEventListener("focusin", (e) => {
+      const pt = (e.target as HTMLElement).closest<HTMLElement>(".gps-pt");
+      if (!pt) return;
+      const r = pt.getBoundingClientRect();
+      show(pt, r.left, r.bottom + 4);
+    });
+    root.addEventListener("focusout", () => tip.classList.add("hidden"));
+  }
+</script>
