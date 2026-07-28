@@ -2,23 +2,46 @@
 title: Masculine Energy
 subtitle: Scoring twenty-three companies' careers copy on a gender-coding axis.
 thesis: >-
-  DRAFT SCAFFOLD — prose is placeholder, Becca's editorial pass pending.
-  Careers-page language is measurably gender-coded, and the companies that
-  sound most masculine-coded aren't simply the intense ones — they're the ones
-  where a founder does the talking.
-published: false
+  If a company's job postings sound like they aren't for you, there's a
+  reason for that: careers-page language is measurably gender-coded, and
+  the exclusionary register is among the most masculine-coded language in
+  the corpus.
+published: true
 study: careers
 order: 8
-teaser: "DRAFT: gender-coded language across every careers page in the corpus."
+teaser: "Gender-coded language across every careers page in the corpus."
 ---
 
 import GenderUnitChart from "@/components/viz/GenderUnitChart.astro";
 import ConceptGenderPlot from "@/components/viz/ConceptGenderPlot.astro";
 import GenderPoleScatter from "@/components/viz/GenderPoleScatter.astro";
+import ExclusionQuotes from "@/components/viz/ExclusionQuotes.astro";
 
-*(Draft scaffold, 2026-07-23 — the chart is real, the prose is placeholder for
-Becca. Method notes live in docs/exclusion-story-pilot.md until this story
-gets its own methods section.)*
+In January 2025, Mark Zuckerberg went on Joe Rogan's podcast and said that the
+workplace has become "culturally neutered" and that he wants to bring
+"masculine energy" back to it. But what does "masculine energy" mean, exactly?
+It turns out you can measure it.
+
+A lot of this project runs on AI embeddings — models that turn a piece of text
+into a point in a space with hundreds of dimensions, where text with similar
+meanings lands close together. But *directions* in that space carry meaning
+too. The classic party trick is that if you take the vector for "king,"
+subtract "man," and add "woman," you land near "queen." A
+[study from 2019](https://journals.sagepub.com/doi/full/10.1177/0003122419877135)
+by Kozlowski, Taddy, and Evans called "The Geometry of Culture" turned that
+party trick into a measurement instrument: take many word pairs that differ
+*only* in gender — man/woman, he/she, father/mother — draw the arrow for each
+pair, and average them into a single, stable **gender axis**. Then any
+sentence can be projected onto that axis and scored: how strongly does this
+language associate with the masculine or feminine pole of the space?
+
+This story does the same thing with the careers corpus. The axis is built
+from sixteen pure gender-term pairs — and, very importantly, **there are no
+intuition words in the poles**. I never told the model that "hardcore" or
+"relentless" is masculine. The axis is built entirely from words like he/she
+and father/mother; everything else is projected onto it and scored. If
+"hardcore" comes out masculine-coded, that's the training data talking, not
+me.
 
 The good news about biased training data is that it can reflect our biases
 back to us. When this story says "masculine-coded" or "feminine-coded," that
@@ -26,19 +49,67 @@ isn't a personal judgment — not "direct communication is for men, therefore
 companies shouldn't talk about direct communication." It is a computed
 proximity to masculinity: if decades of English text have these concepts
 mapped to statements made by men, for men, or about men, the embedding shows
-that. The measurement inherits the culture's coding, which is the phenomenon,
-not a bug.
+that. In this particular study, gender bias is the feature, not a bug.
 
-Every sentence of careers-page copy in this corpus is scored on a
-gender-coding axis built from pure gender-term pairs (Kozlowski et al. 2019)
-— no intuition words in the poles. One square per sentence.
+Every sentence of careers-page copy in this corpus is scored on that axis.
+One square per sentence.
 
 <GenderUnitChart />
 
-*(Placeholder for: the known-answer validation, the neutral band, the
-house-voice/authorship observation — Basecamp reads masculine-coded because
-everything is written in the founders' voice — and what escalates in the
-exclusion cohort. Cross-register caveats per the pilot memo.)*
+Three notes on trusting this measurement. First, it passes the tests where
+the answer is known: occupation terms with heavily male-skewed workforces
+(infantry soldier, lumberjack) land cleanly on the masculine side, heavily
+female-skewed ones (kindergarten teacher, nurse) land on the feminine side,
+and genuinely neutral terms land near zero — that's also why scores inside
+the ±0.5z band are shown as neutral rather than over-read. Second, the axis
+isn't hostage to any particular word pair: splitting the sixteen pairs into
+two independent eight-pair axes ranks the corpus nearly the same way. Third —
+deliberately — there is no human-rating backstop here. Asking a human judge
+whether "bias for action" sounds masculine would re-import the very
+intuitions this method is designed to bypass; the coding lives in the corpus
+statistics, so validation is known-answer anchors and split-half reliability,
+not human agreement.
+
+One caveat belongs next to the chart rather than in a footnote: the coding
+partly tracks *who is doing the talking*. Basecamp — famously anti-hustle —
+sits near the top of the ranking, because assertive founder-manifesto prose
+("we don't do X") is masculine-coded independent of intensity, while
+HR-authored benefits copy pulls feminine. Companies whose pages are written
+in a founder's voice read more masculine than companies whose pages are
+written by a communications team, so the fair comparisons in this story are
+within a register, not across registers. Relatedly, sentences that mention
+people by name score masculine for a boring reason — "Eric" is a gendered
+word, the same as "he" — and this story is trying to measure the register,
+not the roster, so the specimens quoted in the prose are free of names and
+pronouns. (One quote card below, Ramp's letter, names both founders and earns
+part of its score that boring way; it stays because the letter itself is the
+genre's purest specimen.)
+
+## If it sounds like it isn't for you
+
+Some careers pages say it almost outright. The register runs from SpaceX's
+2003 hiring criteria to Ramp's 2026 letter persuading you not to apply — it
+predates the Netflix deck, which didn't invent this language so much as make
+it quotable — and on the gender axis, its sharpest specimens are among the
+most masculine-coded sentences in the corpus. Coinbase's homage to the
+Netflix severance line, "Unremarkable performance gets a generous severance
+package," scores 1.8 standard deviations toward the masculine pole. Engine's
+culture memo is a fountain of these: "Comfort is a signal to probe, not
+rest" (+1.7), "Silence is not humility here; it is abdication" (+1.6).
+
+Meanwhile, the one nearly neutral card below is the plainest statement of
+the idea: Netflix's "But Netflix is not for everyone, so please read on"
+scores almost exactly zero. It's not the sentiment that's masculine-coded.
+You can tell people your company isn't for everyone in neutral language.
+It's the *performance* of it — the hardcore, the hard mode, the not for the
+faint of heart — that carries the gender coding.
+
+<ExclusionQuotes />
+
+That 2003 SpaceX page, the oldest artifact in this register, also contains
+the line "SpaceX does not discriminate on the basis of anything but skill."
+Maybe they believed it. But the page is written in language that measurably
+sorts on something other than skill — it sorts on who feels spoken to.
 
 ## The ideas companies share, ranked
 
@@ -46,18 +117,31 @@ It isn't just companies that are gender-coded — the *ideas* they borrow from
 each other are. Clustering every sentence in the corpus into recurring
 concepts and keeping only the genuinely shared ones (at least three companies,
 two-plus sentences each, no company over 40%) puts the performance canon at
-the masculine pole — candor, effort, growth, boldness — and the inclusion
-vocabulary at the feminine pole, even with every explicit mention of gender
-excluded. Each concept is labeled with its own words.
+the masculine pole — speed, flat structure, rejecting conventional norms —
+and the inclusion vocabulary at the feminine pole. Each concept is labeled
+with its own words.
 
 <ConceptGenderPlot />
 
-*(Placeholder for: the style-vs-topic asymmetry — masculine concepts rarely
-mention men, feminine concepts are often about women; the pay-equity
-lexical finding — its feminine coding halves once explicit gender mentions
-are excluded; and the dominance-cap note — Netflix's severance concept is
-more masculine-coded than anything here but stays in the Netflix story
-because it's still 74% one company's voice.)*
+The two poles earn their coding differently, and the asymmetry is worth
+saying plainly. The masculine-coded concepts are *style*-driven: speed and
+iteration, flat organization, learning from difficulty rarely mention men at
+all. The feminine-coded concepts are often *subject*-driven: employee
+resource groups, pay equity, diversity-and-inclusion copy frequently talks
+explicitly about women. To separate the two, concept scores here exclude
+sentences with explicit gender mentions — and the feminine pole survives the
+exclusion. Employee resource groups barely move (−0.80 to −0.76), and
+diversity-and-inclusion culture holds at −0.56. Pay equity is the exception
+that shows the filter working: it softens from −0.95 to −0.66 once the
+sentences that literally say "women" are set aside, meaning a real share of
+its coding was lexical rather than stylistic.
+
+One absence from this chart is deliberate: concepts dominated by a single
+company are excluded (twenty fell to the 40% cap). The most masculine-coded
+concept in the whole corpus — the severance-and-high-bar-hiring cluster — is
+one of them: it's still 74% Netflix's own voice, so it lives in the Netflix
+story rather than here, where the subject is the ideas companies actually
+share.
 
 ## Masculine, or just not feminine?
 
@@ -80,7 +164,22 @@ approach. In this corpus, femininity is something careers copy moves
 
 <GenderPoleScatter />
 
-*(Placeholder for: the disavowal analysis — what companies say no to — is
-parked in docs/anti-feminine-measurements.md with a built chart, pending
-editorial; register-level version of this decomposition and caveats in the
-same memo.)*
+---
+
+Does any of this matter beyond the geometry? This corpus measures language,
+not outcomes — no promotion rates or pay gaps here. But the mechanism has
+been measured elsewhere: in
+[a series of experiments published in 2011](https://doi.org/10.1037/a0022530),
+people shown job ads that were identical except for gendered wording rated
+the masculine-coded jobs as less appealing and reported a lower sense of
+belonging — while their assessment of their own *ability to do the job didn't
+change*. The language doesn't convince anyone they can't do the work. It
+convinces them they aren't wanted. And self-selection is the cheapest, most
+deniable filter a company can run: nobody gets rejected, nothing shows up in
+the hiring statistics, people just quietly don't apply.
+
+So when a founder says he wants to bring masculine energy back to the
+workplace, the corpus has an answer: it never left. It's been on SpaceX's
+careers page since 2003, and it's the water an entire generation of tech
+founders is swimming in. When your language sits at the far masculine end of
+the axis, neutral is what reads as neutered.

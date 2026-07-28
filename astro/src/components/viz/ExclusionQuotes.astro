@@ -1,0 +1,39 @@
+---
+// The exclusion register, in the companies' own words, 2003 -> 2026.
+// Curated verbatim corpus sentences (editorial picks, Becca 2026-07-28
+// direction: "pull out the exclusionary language and highlight it");
+// each card carries the sentence's gender-axis z so the section ties the
+// register to the story thesis. Same card pattern as DeckQuotes.
+// Sources: astro/src/data/stories/gender-language.json (careers register).
+const QUOTES: { co: string; year: number; z: number; text: string }[] = [
+  { co: "SpaceX", year: 2003, z: 0.54,
+    text: "Out of necessity, SpaceX has exceptionally stringent hiring criteria." },
+  { co: "Apple", year: 2009, z: 1.26,
+    text: "This isn't your cushy corporate nine-to-fiver." },
+  { co: "Netflix", year: 2009, z: 1.2,
+    text: "Unlike many companies, we practice: adequate performance gets a generous severance package." },
+  { co: "Coinbase", year: 2024, z: 1.11,
+    text: "You will be pushed beyond what you think you're capable of." },
+  { co: "Netflix", year: 2024, z: -0.1,
+    text: "But Netflix is not for everyone, so please read on." },
+  { co: "Engine", year: 2025, z: 1.33,
+    text: "Every seat must be earned, and underperformance is addressed quickly and respectfully." },
+  { co: "Ramp", year: 2026, z: 1.82,
+    text: "Our two founders, Eric and Karim, thought it'd be a good idea to write a letter persuading you not to apply." },
+];
+const zs = (z: number) => (z >= 0 ? "+" : "") + z.toFixed(2) + "z";
+---
+
+<div class="my-6 grid gap-3 sm:grid-cols-2">
+  {QUOTES.map((q) => (
+    <div class="rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
+      <p class="text-xs font-medium uppercase tracking-wide text-neutral-500">
+        {q.co} · {q.year} ·{" "}
+        <span style={q.z >= 0.5 ? "color:var(--chart-contrast-1)" : q.z <= -0.5 ? "color:var(--chart-2)" : ""}>
+          {zs(q.z)}
+        </span>
+      </p>
+      <p class="mt-1 text-sm text-neutral-700 dark:text-neutral-300">“{q.text}”</p>
+    </div>
+  ))}
+</div>
