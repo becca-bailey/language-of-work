@@ -18,8 +18,12 @@ const QUOTES: { co: string; year: number; z: number; text: string }[] = [
     text: "But Netflix is not for everyone, so please read on." },
   { co: "Engine", year: 2025, z: 1.33,
     text: "Every seat must be earned, and underperformance is addressed quickly and respectfully." },
-  { co: "Ramp", year: 2026, z: 1.82,
-    text: "Our two founders, Eric and Karim, thought it'd be a good idea to write a letter persuading you not to apply." },
+  // Ramp card: from the founders' letter persuading you not to apply; the
+  // letter's own self-description sentence names both founders (names are
+  // gendered words — its +1.82z is part roster, not register) so the card
+  // quotes a name-free line instead.
+  { co: "Ramp", year: 2026, z: 0.64,
+    text: "That first year, we hired 60 more brilliant misfits." },
 ];
 const zs = (z: number) => (z >= 0 ? "+" : "") + z.toFixed(2) + "z";
 ---
