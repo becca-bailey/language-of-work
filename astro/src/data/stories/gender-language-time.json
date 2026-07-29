@@ -1,0 +1,2490 @@
+{
+ "minN": 20,
+ "panel": [
+  "coinbase",
+  "basecamp",
+  "starbucks"
+ ],
+ "panelWindow": [
+  2014,
+  2026
+ ],
+ "mu": -0.008,
+ "sd": 0.0394,
+ "series": [
+  {
+   "year": 1999,
+   "nCompanies": 0,
+   "nSentences": 33
+  },
+  {
+   "year": 2000,
+   "nCompanies": 1,
+   "nSentences": 31,
+   "meanZ": 0.643,
+   "mascShare": 0.667,
+   "femShare": 0.048
+  },
+  {
+   "year": 2001,
+   "nCompanies": 1,
+   "nSentences": 73,
+   "meanZ": -0.115,
+   "mascShare": 0.186,
+   "femShare": 0.443,
+   "panelMeanZ": -0.115,
+   "panelFemShare": 0.443,
+   "panelMascShare": 0.186
+  },
+  {
+   "year": 2002,
+   "nCompanies": 0,
+   "nSentences": 20,
+   "panelMeanZ": 0.633,
+   "panelFemShare": 0.0,
+   "panelMascShare": 0.471
+  },
+  {
+   "year": 2003,
+   "nCompanies": 1,
+   "nSentences": 84,
+   "meanZ": 0.791,
+   "mascShare": 0.768,
+   "femShare": 0.0,
+   "panelMeanZ": 0.608,
+   "panelFemShare": 0.0,
+   "panelMascShare": 0.364
+  },
+  {
+   "year": 2004,
+   "nCompanies": 2,
+   "nSentences": 117,
+   "meanZ": 0.441,
+   "mascShare": 0.543,
+   "femShare": 0.059,
+   "panelMeanZ": 0.645,
+   "panelFemShare": 0.0,
+   "panelMascShare": 0.455
+  },
+  {
+   "year": 2005,
+   "nCompanies": 3,
+   "nSentences": 163,
+   "meanZ": 0.271,
+   "mascShare": 0.465,
+   "femShare": 0.151,
+   "panelMeanZ": -0.273,
+   "panelFemShare": 0.346,
+   "panelMascShare": 0.192
+  },
+  {
+   "year": 2006,
+   "nCompanies": 4,
+   "nSentences": 218,
+   "meanZ": 0.325,
+   "mascShare": 0.461,
+   "femShare": 0.126,
+   "panelMeanZ": -0.227,
+   "panelFemShare": 0.39,
+   "panelMascShare": 0.22
+  },
+  {
+   "year": 2007,
+   "nCompanies": 5,
+   "nSentences": 243,
+   "meanZ": 0.356,
+   "mascShare": 0.417,
+   "femShare": 0.092,
+   "panelMeanZ": -0.085,
+   "panelFemShare": 0.257,
+   "panelMascShare": 0.229
+  },
+  {
+   "year": 2008,
+   "nCompanies": 3,
+   "nSentences": 170,
+   "meanZ": 0.449,
+   "mascShare": 0.418,
+   "femShare": 0.037,
+   "panelMeanZ": -0.193,
+   "panelFemShare": 0.133,
+   "panelMascShare": 0.0
+  },
+  {
+   "year": 2009,
+   "nCompanies": 3,
+   "nSentences": 275,
+   "meanZ": 0.511,
+   "mascShare": 0.566,
+   "femShare": 0.046,
+   "panelMeanZ": 0.392,
+   "panelFemShare": 0.071,
+   "panelMascShare": 0.5
+  },
+  {
+   "year": 2010,
+   "nCompanies": 4,
+   "nSentences": 252,
+   "meanZ": 0.38,
+   "mascShare": 0.493,
+   "femShare": 0.095,
+   "panelMeanZ": 0.139,
+   "panelFemShare": 0.156,
+   "panelMascShare": 0.338
+  },
+  {
+   "year": 2011,
+   "nCompanies": 2,
+   "nSentences": 169,
+   "meanZ": 0.12,
+   "mascShare": 0.349,
+   "femShare": 0.202,
+   "panelMeanZ": -0.357,
+   "panelFemShare": 0.404,
+   "panelMascShare": 0.128
+  },
+  {
+   "year": 2012,
+   "nCompanies": 6,
+   "nSentences": 364,
+   "meanZ": 0.14,
+   "mascShare": 0.322,
+   "femShare": 0.13,
+   "panelMeanZ": -0.37,
+   "panelFemShare": 0.404,
+   "panelMascShare": 0.154
+  },
+  {
+   "year": 2013,
+   "nCompanies": 7,
+   "nSentences": 417,
+   "meanZ": 0.067,
+   "mascShare": 0.33,
+   "femShare": 0.158,
+   "panelMeanZ": 0.099,
+   "panelFemShare": 0.165,
+   "panelMascShare": 0.29
+  },
+  {
+   "year": 2014,
+   "nCompanies": 9,
+   "nSentences": 522,
+   "meanZ": 0.056,
+   "mascShare": 0.326,
+   "femShare": 0.162,
+   "panelMeanZ": 0.256,
+   "panelFemShare": 0.158,
+   "panelMascShare": 0.36
+  },
+  {
+   "year": 2015,
+   "nCompanies": 10,
+   "nSentences": 784,
+   "meanZ": 0.022,
+   "mascShare": 0.305,
+   "femShare": 0.163,
+   "panelMeanZ": 0.254,
+   "panelFemShare": 0.15,
+   "panelMascShare": 0.364
+  },
+  {
+   "year": 2016,
+   "nCompanies": 10,
+   "nSentences": 552,
+   "meanZ": 0.16,
+   "mascShare": 0.318,
+   "femShare": 0.109,
+   "panelMeanZ": 0.277,
+   "panelFemShare": 0.102,
+   "panelMascShare": 0.381
+  },
+  {
+   "year": 2017,
+   "nCompanies": 12,
+   "nSentences": 927,
+   "meanZ": 0.103,
+   "mascShare": 0.328,
+   "femShare": 0.143,
+   "panelMeanZ": 0.124,
+   "panelFemShare": 0.159,
+   "panelMascShare": 0.301
+  },
+  {
+   "year": 2018,
+   "nCompanies": 14,
+   "nSentences": 1253,
+   "meanZ": -0.01,
+   "mascShare": 0.277,
+   "femShare": 0.194,
+   "panelMeanZ": 0.098,
+   "panelFemShare": 0.174,
+   "panelMascShare": 0.265
+  },
+  {
+   "year": 2019,
+   "nCompanies": 17,
+   "nSentences": 1759,
+   "meanZ": -0.026,
+   "mascShare": 0.269,
+   "femShare": 0.205,
+   "panelMeanZ": 0.084,
+   "panelFemShare": 0.186,
+   "panelMascShare": 0.284
+  },
+  {
+   "year": 2020,
+   "nCompanies": 18,
+   "nSentences": 1748,
+   "meanZ": -0.014,
+   "mascShare": 0.271,
+   "femShare": 0.212,
+   "panelMeanZ": 0.106,
+   "panelFemShare": 0.188,
+   "panelMascShare": 0.286
+  },
+  {
+   "year": 2021,
+   "nCompanies": 16,
+   "nSentences": 1678,
+   "meanZ": 0.017,
+   "mascShare": 0.284,
+   "femShare": 0.203,
+   "panelMeanZ": 0.197,
+   "panelFemShare": 0.145,
+   "panelMascShare": 0.336
+  },
+  {
+   "year": 2022,
+   "nCompanies": 15,
+   "nSentences": 2090,
+   "meanZ": 0.091,
+   "mascShare": 0.316,
+   "femShare": 0.186,
+   "panelMeanZ": 0.08,
+   "panelFemShare": 0.246,
+   "panelMascShare": 0.361
+  },
+  {
+   "year": 2023,
+   "nCompanies": 15,
+   "nSentences": 1777,
+   "meanZ": 0.149,
+   "mascShare": 0.354,
+   "femShare": 0.14,
+   "panelMeanZ": 0.28,
+   "panelFemShare": 0.131,
+   "panelMascShare": 0.409
+  },
+  {
+   "year": 2024,
+   "nCompanies": 16,
+   "nSentences": 1995,
+   "meanZ": 0.122,
+   "mascShare": 0.299,
+   "femShare": 0.154,
+   "panelMeanZ": 0.193,
+   "panelFemShare": 0.155,
+   "panelMascShare": 0.365
+  },
+  {
+   "year": 2025,
+   "nCompanies": 18,
+   "nSentences": 2109,
+   "meanZ": 0.007,
+   "mascShare": 0.255,
+   "femShare": 0.189,
+   "panelMeanZ": 0.193,
+   "panelFemShare": 0.129,
+   "panelMascShare": 0.318
+  },
+  {
+   "year": 2026,
+   "nCompanies": 15,
+   "nSentences": 1632,
+   "meanZ": 0.093,
+   "mascShare": 0.309,
+   "femShare": 0.169,
+   "panelMeanZ": 0.225,
+   "panelFemShare": 0.126,
+   "panelMascShare": 0.346
+  }
+ ],
+ "companies": {
+  "google": {
+   "1999": {
+    "n": 6,
+    "meanZ": 0.98,
+    "mascShare": 0.833,
+    "femShare": 0.0
+   },
+   "2000": {
+    "n": 21,
+    "meanZ": 0.643,
+    "mascShare": 0.667,
+    "femShare": 0.048
+   },
+   "2001": {
+    "n": 3,
+    "meanZ": 0.33,
+    "mascShare": 0.333,
+    "femShare": 0.0
+   },
+   "2002": {
+    "n": 3,
+    "meanZ": 0.155,
+    "mascShare": 0.333,
+    "femShare": 0.0
+   },
+   "2003": {
+    "n": 16,
+    "meanZ": 0.362,
+    "mascShare": 0.375,
+    "femShare": 0.0
+   },
+   "2004": {
+    "n": 34,
+    "meanZ": 0.161,
+    "mascShare": 0.353,
+    "femShare": 0.118
+   },
+   "2005": {
+    "n": 83,
+    "meanZ": 0.316,
+    "mascShare": 0.434,
+    "femShare": 0.108
+   },
+   "2006": {
+    "n": 80,
+    "meanZ": 0.344,
+    "mascShare": 0.438,
+    "femShare": 0.113
+   },
+   "2007": {
+    "n": 93,
+    "meanZ": 0.348,
+    "mascShare": 0.409,
+    "femShare": 0.086
+   },
+   "2008": {
+    "n": 72,
+    "meanZ": 0.524,
+    "mascShare": 0.5,
+    "femShare": 0.028
+   },
+   "2009": {
+    "n": 57,
+    "meanZ": 0.507,
+    "mascShare": 0.561,
+    "femShare": 0.053
+   },
+   "2010": {
+    "n": 30,
+    "meanZ": 0.363,
+    "mascShare": 0.467,
+    "femShare": 0.067
+   },
+   "2011": {
+    "n": 12,
+    "meanZ": 0.384,
+    "mascShare": 0.417,
+    "femShare": 0.0
+   },
+   "2012": {
+    "n": 143,
+    "meanZ": 0.484,
+    "mascShare": 0.434,
+    "femShare": 0.021
+   },
+   "2013": {
+    "n": 112,
+    "meanZ": 0.226,
+    "mascShare": 0.375,
+    "femShare": 0.134
+   },
+   "2014": {
+    "n": 64,
+    "meanZ": 0.247,
+    "mascShare": 0.281,
+    "femShare": 0.109
+   },
+   "2015": {
+    "n": 49,
+    "meanZ": 0.226,
+    "mascShare": 0.265,
+    "femShare": 0.082
+   },
+   "2016": {
+    "n": 36,
+    "meanZ": 0.281,
+    "mascShare": 0.25,
+    "femShare": 0.056
+   },
+   "2017": {
+    "n": 19,
+    "meanZ": -0.8,
+    "mascShare": 0.053,
+    "femShare": 0.474
+   },
+   "2018": {
+    "n": 149,
+    "meanZ": -0.639,
+    "mascShare": 0.094,
+    "femShare": 0.409
+   },
+   "2019": {
+    "n": 410,
+    "meanZ": -0.972,
+    "mascShare": 0.107,
+    "femShare": 0.507
+   },
+   "2020": {
+    "n": 297,
+    "meanZ": -1.057,
+    "mascShare": 0.114,
+    "femShare": 0.545
+   },
+   "2021": {
+    "n": 115,
+    "meanZ": -0.274,
+    "mascShare": 0.209,
+    "femShare": 0.383
+   },
+   "2022": {
+    "n": 219,
+    "meanZ": -0.432,
+    "mascShare": 0.196,
+    "femShare": 0.384
+   },
+   "2023": {
+    "n": 125,
+    "meanZ": -0.495,
+    "mascShare": 0.192,
+    "femShare": 0.376
+   },
+   "2024": {
+    "n": 96,
+    "meanZ": -0.453,
+    "mascShare": 0.188,
+    "femShare": 0.354
+   },
+   "2025": {
+    "n": 189,
+    "meanZ": -0.59,
+    "mascShare": 0.132,
+    "femShare": 0.386
+   }
+  },
+  "amazon": {
+   "1999": {
+    "n": 8,
+    "meanZ": 0.301,
+    "mascShare": 0.375,
+    "femShare": 0.0
+   },
+   "2000": {
+    "n": 10,
+    "meanZ": 0.255,
+    "mascShare": 0.3,
+    "femShare": 0.0
+   },
+   "2007": {
+    "n": 26,
+    "meanZ": 0.257,
+    "mascShare": 0.308,
+    "femShare": 0.115
+   },
+   "2008": {
+    "n": 24,
+    "meanZ": 0.172,
+    "mascShare": 0.208,
+    "femShare": 0.083
+   },
+   "2011": {
+    "n": 18,
+    "meanZ": 0.565,
+    "mascShare": 0.556,
+    "femShare": 0.0
+   },
+   "2013": {
+    "n": 24,
+    "meanZ": -0.124,
+    "mascShare": 0.208,
+    "femShare": 0.167
+   },
+   "2014": {
+    "n": 3,
+    "meanZ": -1.344,
+    "mascShare": 0.333,
+    "femShare": 0.667
+   },
+   "2016": {
+    "n": 47,
+    "meanZ": 0.332,
+    "mascShare": 0.404,
+    "femShare": 0.043
+   },
+   "2017": {
+    "n": 177,
+    "meanZ": -0.834,
+    "mascShare": 0.232,
+    "femShare": 0.435
+   },
+   "2018": {
+    "n": 178,
+    "meanZ": -0.804,
+    "mascShare": 0.23,
+    "femShare": 0.427
+   },
+   "2019": {
+    "n": 48,
+    "meanZ": 0.292,
+    "mascShare": 0.375,
+    "femShare": 0.062
+   },
+   "2020": {
+    "n": 45,
+    "meanZ": 0.279,
+    "mascShare": 0.356,
+    "femShare": 0.067
+   },
+   "2021": {
+    "n": 45,
+    "meanZ": 0.279,
+    "mascShare": 0.356,
+    "femShare": 0.067
+   },
+   "2022": {
+    "n": 2,
+    "meanZ": -0.264,
+    "mascShare": 0.0,
+    "femShare": 0.5
+   },
+   "2023": {
+    "n": 13,
+    "meanZ": -0.238,
+    "mascShare": 0.154,
+    "femShare": 0.308
+   },
+   "2024": {
+    "n": 17,
+    "meanZ": -0.266,
+    "mascShare": 0.118,
+    "femShare": 0.353
+   },
+   "2025": {
+    "n": 21,
+    "meanZ": -0.529,
+    "mascShare": 0.0,
+    "femShare": 0.286
+   },
+   "2026": {
+    "n": 22,
+    "meanZ": -0.629,
+    "mascShare": 0.0,
+    "femShare": 0.409
+   }
+  },
+  "meta": {
+   "2009": {
+    "n": 14,
+    "meanZ": 0.41,
+    "mascShare": 0.286,
+    "femShare": 0.0
+   },
+   "2010": {
+    "n": 9,
+    "meanZ": 0.351,
+    "mascShare": 0.222,
+    "femShare": 0.0
+   },
+   "2011": {
+    "n": 13,
+    "meanZ": 0.294,
+    "mascShare": 0.231,
+    "femShare": 0.0
+   },
+   "2012": {
+    "n": 3,
+    "meanZ": 0.842,
+    "mascShare": 0.667,
+    "femShare": 0.0
+   },
+   "2013": {
+    "n": 21,
+    "meanZ": 0.284,
+    "mascShare": 0.476,
+    "femShare": 0.19
+   },
+   "2014": {
+    "n": 17,
+    "meanZ": 0.555,
+    "mascShare": 0.588,
+    "femShare": 0.0
+   },
+   "2015": {
+    "n": 23,
+    "meanZ": 0.336,
+    "mascShare": 0.435,
+    "femShare": 0.043
+   },
+   "2016": {
+    "n": 31,
+    "meanZ": -0.229,
+    "mascShare": 0.097,
+    "femShare": 0.194
+   },
+   "2017": {
+    "n": 18,
+    "meanZ": -0.123,
+    "mascShare": 0.056,
+    "femShare": 0.167
+   },
+   "2018": {
+    "n": 15,
+    "meanZ": -0.082,
+    "mascShare": 0.067,
+    "femShare": 0.133
+   },
+   "2019": {
+    "n": 17,
+    "meanZ": 0.043,
+    "mascShare": 0.059,
+    "femShare": 0.059
+   },
+   "2020": {
+    "n": 46,
+    "meanZ": -0.821,
+    "mascShare": 0.087,
+    "femShare": 0.5
+   },
+   "2021": {
+    "n": 46,
+    "meanZ": -0.801,
+    "mascShare": 0.087,
+    "femShare": 0.5
+   },
+   "2022": {
+    "n": 51,
+    "meanZ": -0.205,
+    "mascShare": 0.176,
+    "femShare": 0.353
+   },
+   "2023": {
+    "n": 23,
+    "meanZ": 0.276,
+    "mascShare": 0.348,
+    "femShare": 0.087
+   },
+   "2024": {
+    "n": 23,
+    "meanZ": 0.276,
+    "mascShare": 0.348,
+    "femShare": 0.087
+   },
+   "2025": {
+    "n": 27,
+    "meanZ": -0.218,
+    "mascShare": 0.037,
+    "femShare": 0.185
+   },
+   "2026": {
+    "n": 21,
+    "meanZ": 0.271,
+    "mascShare": 0.524,
+    "femShare": 0.143
+   }
+  },
+  "palantir": {
+   "2010": {
+    "n": 41,
+    "meanZ": 0.878,
+    "mascShare": 0.829,
+    "femShare": 0.0
+   },
+   "2011": {
+    "n": 15,
+    "meanZ": 0.804,
+    "mascShare": 0.867,
+    "femShare": 0.0
+   },
+   "2012": {
+    "n": 35,
+    "meanZ": 0.338,
+    "mascShare": 0.571,
+    "femShare": 0.086
+   },
+   "2013": {
+    "n": 45,
+    "meanZ": -0.138,
+    "mascShare": 0.444,
+    "femShare": 0.2
+   },
+   "2014": {
+    "n": 15,
+    "meanZ": 0.076,
+    "mascShare": 0.267,
+    "femShare": 0.067
+   },
+   "2015": {
+    "n": 9,
+    "meanZ": 0.101,
+    "mascShare": 0.111,
+    "femShare": 0.111
+   },
+   "2016": {
+    "n": 3,
+    "meanZ": -0.194,
+    "mascShare": 0.0,
+    "femShare": 0.333
+   },
+   "2017": {
+    "n": 29,
+    "meanZ": 0.345,
+    "mascShare": 0.414,
+    "femShare": 0.069
+   },
+   "2018": {
+    "n": 33,
+    "meanZ": 0.3,
+    "mascShare": 0.394,
+    "femShare": 0.091
+   },
+   "2019": {
+    "n": 33,
+    "meanZ": 0.3,
+    "mascShare": 0.394,
+    "femShare": 0.091
+   },
+   "2020": {
+    "n": 33,
+    "meanZ": 0.3,
+    "mascShare": 0.394,
+    "femShare": 0.091
+   },
+   "2021": {
+    "n": 42,
+    "meanZ": 0.245,
+    "mascShare": 0.286,
+    "femShare": 0.071
+   },
+   "2022": {
+    "n": 39,
+    "meanZ": 0.266,
+    "mascShare": 0.333,
+    "femShare": 0.077
+   },
+   "2023": {
+    "n": 34,
+    "meanZ": 0.254,
+    "mascShare": 0.294,
+    "femShare": 0.088
+   },
+   "2024": {
+    "n": 33,
+    "meanZ": 0.214,
+    "mascShare": 0.273,
+    "femShare": 0.121
+   },
+   "2025": {
+    "n": 33,
+    "meanZ": 0.245,
+    "mascShare": 0.303,
+    "femShare": 0.121
+   },
+   "2026": {
+    "n": 43,
+    "meanZ": 0.476,
+    "mascShare": 0.488,
+    "femShare": 0.047
+   }
+  },
+  "coinbase": {
+   "2013": {
+    "n": 9,
+    "meanZ": 0.468,
+    "mascShare": 0.444,
+    "femShare": 0.0
+   },
+   "2014": {
+    "n": 77,
+    "meanZ": 0.463,
+    "mascShare": 0.455,
+    "femShare": 0.0
+   },
+   "2015": {
+    "n": 71,
+    "meanZ": 0.463,
+    "mascShare": 0.465,
+    "femShare": 0.0
+   },
+   "2016": {
+    "n": 106,
+    "meanZ": 0.487,
+    "mascShare": 0.5,
+    "femShare": 0.0
+   },
+   "2017": {
+    "n": 49,
+    "meanZ": 0.336,
+    "mascShare": 0.408,
+    "femShare": 0.02
+   },
+   "2018": {
+    "n": 42,
+    "meanZ": 0.151,
+    "mascShare": 0.238,
+    "femShare": 0.071
+   },
+   "2019": {
+    "n": 35,
+    "meanZ": 0.099,
+    "mascShare": 0.2,
+    "femShare": 0.086
+   },
+   "2020": {
+    "n": 35,
+    "meanZ": 0.099,
+    "mascShare": 0.2,
+    "femShare": 0.086
+   },
+   "2021": {
+    "n": 82,
+    "meanZ": 0.196,
+    "mascShare": 0.28,
+    "femShare": 0.085
+   },
+   "2022": {
+    "n": 42,
+    "meanZ": 0.27,
+    "mascShare": 0.405,
+    "femShare": 0.119
+   },
+   "2023": {
+    "n": 34,
+    "meanZ": 0.345,
+    "mascShare": 0.471,
+    "femShare": 0.088
+   },
+   "2024": {
+    "n": 48,
+    "meanZ": 0.399,
+    "mascShare": 0.438,
+    "femShare": 0.021
+   },
+   "2025": {
+    "n": 49,
+    "meanZ": 0.373,
+    "mascShare": 0.408,
+    "femShare": 0.02
+   },
+   "2026": {
+    "n": 40,
+    "meanZ": 0.406,
+    "mascShare": 0.475,
+    "femShare": 0.05
+   }
+  },
+  "netflix": {
+   "2003": {
+    "n": 1,
+    "meanZ": -0.291,
+    "mascShare": 0.0,
+    "femShare": 0.0
+   },
+   "2004": {
+    "n": 2,
+    "meanZ": -0.272,
+    "mascShare": 0.0,
+    "femShare": 0.0
+   },
+   "2005": {
+    "n": 2,
+    "meanZ": -0.238,
+    "mascShare": 0.0,
+    "femShare": 0.0
+   },
+   "2009": {
+    "n": 132,
+    "meanZ": 0.634,
+    "mascShare": 0.636,
+    "femShare": 0.015
+   },
+   "2010": {
+    "n": 1,
+    "meanZ": -0.07,
+    "mascShare": 0.0,
+    "femShare": 0.0
+   },
+   "2011": {
+    "n": 1,
+    "meanZ": -0.069,
+    "mascShare": 0.0,
+    "femShare": 0.0
+   },
+   "2012": {
+    "n": 1,
+    "meanZ": -0.069,
+    "mascShare": 0.0,
+    "femShare": 0.0
+   },
+   "2013": {
+    "n": 8,
+    "meanZ": 0.116,
+    "mascShare": 0.25,
+    "femShare": 0.125
+   },
+   "2014": {
+    "n": 12,
+    "meanZ": 0.108,
+    "mascShare": 0.25,
+    "femShare": 0.167
+   },
+   "2015": {
+    "n": 9,
+    "meanZ": 0.125,
+    "mascShare": 0.222,
+    "femShare": 0.111
+   },
+   "2017": {
+    "n": 219,
+    "meanZ": 0.493,
+    "mascShare": 0.493,
+    "femShare": 0.064
+   },
+   "2018": {
+    "n": 231,
+    "meanZ": 0.531,
+    "mascShare": 0.519,
+    "femShare": 0.056
+   },
+   "2019": {
+    "n": 241,
+    "meanZ": 0.489,
+    "mascShare": 0.494,
+    "femShare": 0.062
+   },
+   "2020": {
+    "n": 221,
+    "meanZ": 0.528,
+    "mascShare": 0.516,
+    "femShare": 0.059
+   },
+   "2021": {
+    "n": 220,
+    "meanZ": 0.526,
+    "mascShare": 0.509,
+    "femShare": 0.059
+   },
+   "2022": {
+    "n": 409,
+    "meanZ": 0.468,
+    "mascShare": 0.484,
+    "femShare": 0.071
+   },
+   "2023": {
+    "n": 198,
+    "meanZ": 0.393,
+    "mascShare": 0.46,
+    "femShare": 0.091
+   },
+   "2024": {
+    "n": 297,
+    "meanZ": 0.37,
+    "mascShare": 0.428,
+    "femShare": 0.084
+   },
+   "2025": {
+    "n": 104,
+    "meanZ": 0.337,
+    "mascShare": 0.365,
+    "femShare": 0.077
+   },
+   "2026": {
+    "n": 81,
+    "meanZ": 0.366,
+    "mascShare": 0.407,
+    "femShare": 0.074
+   }
+  },
+  "shopify": {
+   "2010": {
+    "n": 9,
+    "meanZ": -0.114,
+    "mascShare": 0.111,
+    "femShare": 0.222
+   },
+   "2011": {
+    "n": 7,
+    "meanZ": -0.22,
+    "mascShare": 0.0,
+    "femShare": 0.143
+   },
+   "2012": {
+    "n": 34,
+    "meanZ": 0.042,
+    "mascShare": 0.294,
+    "femShare": 0.147
+   },
+   "2013": {
+    "n": 18,
+    "meanZ": -0.054,
+    "mascShare": 0.278,
+    "femShare": 0.167
+   },
+   "2014": {
+    "n": 45,
+    "meanZ": 0.137,
+    "mascShare": 0.244,
+    "femShare": 0.089
+   },
+   "2015": {
+    "n": 38,
+    "meanZ": 0.049,
+    "mascShare": 0.158,
+    "femShare": 0.132
+   },
+   "2016": {
+    "n": 19,
+    "meanZ": -0.006,
+    "mascShare": 0.105,
+    "femShare": 0.158
+   },
+   "2017": {
+    "n": 24,
+    "meanZ": -0.014,
+    "mascShare": 0.125,
+    "femShare": 0.125
+   },
+   "2018": {
+    "n": 37,
+    "meanZ": 0.054,
+    "mascShare": 0.189,
+    "femShare": 0.108
+   },
+   "2019": {
+    "n": 25,
+    "meanZ": -0.028,
+    "mascShare": 0.2,
+    "femShare": 0.16
+   },
+   "2020": {
+    "n": 35,
+    "meanZ": -0.154,
+    "mascShare": 0.143,
+    "femShare": 0.229
+   },
+   "2021": {
+    "n": 37,
+    "meanZ": -0.095,
+    "mascShare": 0.243,
+    "femShare": 0.243
+   },
+   "2022": {
+    "n": 17,
+    "meanZ": -0.063,
+    "mascShare": 0.059,
+    "femShare": 0.235
+   },
+   "2023": {
+    "n": 61,
+    "meanZ": 0.057,
+    "mascShare": 0.213,
+    "femShare": 0.082
+   },
+   "2024": {
+    "n": 56,
+    "meanZ": 0.116,
+    "mascShare": 0.214,
+    "femShare": 0.054
+   },
+   "2025": {
+    "n": 32,
+    "meanZ": 0.205,
+    "mascShare": 0.344,
+    "femShare": 0.062
+   },
+   "2026": {
+    "n": 385,
+    "meanZ": 0.41,
+    "mascShare": 0.452,
+    "femShare": 0.057
+   }
+  },
+  "stripe": {
+   "2012": {
+    "n": 11,
+    "meanZ": 0.339,
+    "mascShare": 0.364,
+    "femShare": 0.0
+   },
+   "2013": {
+    "n": 12,
+    "meanZ": 0.451,
+    "mascShare": 0.417,
+    "femShare": 0.0
+   },
+   "2014": {
+    "n": 38,
+    "meanZ": 0.429,
+    "mascShare": 0.421,
+    "femShare": 0.0
+   },
+   "2015": {
+    "n": 17,
+    "meanZ": 0.421,
+    "mascShare": 0.471,
+    "femShare": 0.0
+   },
+   "2016": {
+    "n": 23,
+    "meanZ": 0.272,
+    "mascShare": 0.348,
+    "femShare": 0.0
+   },
+   "2017": {
+    "n": 37,
+    "meanZ": 0.179,
+    "mascShare": 0.378,
+    "femShare": 0.081
+   },
+   "2018": {
+    "n": 37,
+    "meanZ": 0.163,
+    "mascShare": 0.351,
+    "femShare": 0.081
+   },
+   "2019": {
+    "n": 223,
+    "meanZ": 0.353,
+    "mascShare": 0.417,
+    "femShare": 0.045
+   },
+   "2020": {
+    "n": 283,
+    "meanZ": 0.226,
+    "mascShare": 0.353,
+    "femShare": 0.099
+   },
+   "2021": {
+    "n": 184,
+    "meanZ": 0.396,
+    "mascShare": 0.44,
+    "femShare": 0.033
+   },
+   "2022": {
+    "n": 234,
+    "meanZ": 0.362,
+    "mascShare": 0.397,
+    "femShare": 0.043
+   },
+   "2023": {
+    "n": 77,
+    "meanZ": 0.35,
+    "mascShare": 0.338,
+    "femShare": 0.052
+   },
+   "2024": {
+    "n": 93,
+    "meanZ": 0.381,
+    "mascShare": 0.376,
+    "femShare": 0.043
+   },
+   "2025": {
+    "n": 91,
+    "meanZ": 0.369,
+    "mascShare": 0.363,
+    "femShare": 0.044
+   },
+   "2026": {
+    "n": 76,
+    "meanZ": 0.299,
+    "mascShare": 0.329,
+    "femShare": 0.066
+   }
+  },
+  "airbnb": {
+   "2015": {
+    "n": 20,
+    "meanZ": 0.493,
+    "mascShare": 0.45,
+    "femShare": 0.05
+   },
+   "2016": {
+    "n": 17,
+    "meanZ": 0.396,
+    "mascShare": 0.353,
+    "femShare": 0.059
+   },
+   "2017": {
+    "n": 22,
+    "meanZ": 0.387,
+    "mascShare": 0.364,
+    "femShare": 0.045
+   },
+   "2018": {
+    "n": 17,
+    "meanZ": 0.556,
+    "mascShare": 0.471,
+    "femShare": 0.0
+   },
+   "2019": {
+    "n": 23,
+    "meanZ": -0.049,
+    "mascShare": 0.217,
+    "femShare": 0.174
+   },
+   "2020": {
+    "n": 14,
+    "meanZ": -0.33,
+    "mascShare": 0.071,
+    "femShare": 0.286
+   },
+   "2021": {
+    "n": 24,
+    "meanZ": -0.33,
+    "mascShare": 0.083,
+    "femShare": 0.333
+   },
+   "2022": {
+    "n": 12,
+    "meanZ": -0.377,
+    "mascShare": 0.083,
+    "femShare": 0.333
+   },
+   "2023": {
+    "n": 16,
+    "meanZ": -0.389,
+    "mascShare": 0.062,
+    "femShare": 0.375
+   },
+   "2024": {
+    "n": 5,
+    "meanZ": -0.611,
+    "mascShare": 0.0,
+    "femShare": 0.6
+   },
+   "2025": {
+    "n": 5,
+    "meanZ": -0.611,
+    "mascShare": 0.0,
+    "femShare": 0.6
+   }
+  },
+  "snap": {
+   "2018": {
+    "n": 8,
+    "meanZ": -0.206,
+    "mascShare": 0.0,
+    "femShare": 0.375
+   },
+   "2019": {
+    "n": 14,
+    "meanZ": -0.192,
+    "mascShare": 0.071,
+    "femShare": 0.286
+   },
+   "2020": {
+    "n": 34,
+    "meanZ": -0.392,
+    "mascShare": 0.147,
+    "femShare": 0.5
+   },
+   "2021": {
+    "n": 16,
+    "meanZ": -0.65,
+    "mascShare": 0.062,
+    "femShare": 0.625
+   },
+   "2022": {
+    "n": 25,
+    "meanZ": -0.346,
+    "mascShare": 0.0,
+    "femShare": 0.24
+   },
+   "2023": {
+    "n": 9,
+    "meanZ": -0.168,
+    "mascShare": 0.111,
+    "femShare": 0.333
+   },
+   "2024": {
+    "n": 15,
+    "meanZ": -0.171,
+    "mascShare": 0.067,
+    "femShare": 0.267
+   },
+   "2025": {
+    "n": 35,
+    "meanZ": -0.425,
+    "mascShare": 0.086,
+    "femShare": 0.314
+   },
+   "2026": {
+    "n": 46,
+    "meanZ": -0.404,
+    "mascShare": 0.043,
+    "femShare": 0.283
+   }
+  },
+  "hubspot": {
+   "2013": {
+    "n": 2,
+    "meanZ": 0.442,
+    "mascShare": 0.5,
+    "femShare": 0.0
+   },
+   "2014": {
+    "n": 2,
+    "meanZ": -0.034,
+    "mascShare": 0.0,
+    "femShare": 0.0
+   },
+   "2015": {
+    "n": 9,
+    "meanZ": 0.246,
+    "mascShare": 0.222,
+    "femShare": 0.0
+   },
+   "2016": {
+    "n": 35,
+    "meanZ": 0.586,
+    "mascShare": 0.571,
+    "femShare": 0.057
+   },
+   "2017": {
+    "n": 27,
+    "meanZ": 0.591,
+    "mascShare": 0.556,
+    "femShare": 0.074
+   },
+   "2018": {
+    "n": 43,
+    "meanZ": 0.291,
+    "mascShare": 0.465,
+    "femShare": 0.14
+   },
+   "2019": {
+    "n": 110,
+    "meanZ": -0.472,
+    "mascShare": 0.136,
+    "femShare": 0.382
+   },
+   "2020": {
+    "n": 68,
+    "meanZ": 0.3,
+    "mascShare": 0.382,
+    "femShare": 0.044
+   },
+   "2021": {
+    "n": 43,
+    "meanZ": -0.575,
+    "mascShare": 0.116,
+    "femShare": 0.395
+   },
+   "2022": {
+    "n": 41,
+    "meanZ": 0.19,
+    "mascShare": 0.317,
+    "femShare": 0.073
+   },
+   "2023": {
+    "n": 35,
+    "meanZ": 0.239,
+    "mascShare": 0.343,
+    "femShare": 0.057
+   },
+   "2024": {
+    "n": 69,
+    "meanZ": 0.014,
+    "mascShare": 0.217,
+    "femShare": 0.174
+   },
+   "2025": {
+    "n": 24,
+    "meanZ": 0.143,
+    "mascShare": 0.375,
+    "femShare": 0.167
+   },
+   "2026": {
+    "n": 8,
+    "meanZ": 0.111,
+    "mascShare": 0.375,
+    "femShare": 0.25
+   }
+  },
+  "gitlab": {
+   "2015": {
+    "n": 7,
+    "meanZ": 0.123,
+    "mascShare": 0.143,
+    "femShare": 0.0
+   },
+   "2016": {
+    "n": 8,
+    "meanZ": 0.257,
+    "mascShare": 0.125,
+    "femShare": 0.0
+   },
+   "2017": {
+    "n": 8,
+    "meanZ": 0.257,
+    "mascShare": 0.125,
+    "femShare": 0.0
+   },
+   "2018": {
+    "n": 17,
+    "meanZ": -0.599,
+    "mascShare": 0.059,
+    "femShare": 0.412
+   },
+   "2019": {
+    "n": 52,
+    "meanZ": -0.368,
+    "mascShare": 0.077,
+    "femShare": 0.346
+   },
+   "2020": {
+    "n": 68,
+    "meanZ": -0.125,
+    "mascShare": 0.162,
+    "femShare": 0.235
+   },
+   "2021": {
+    "n": 76,
+    "meanZ": -0.034,
+    "mascShare": 0.211,
+    "femShare": 0.211
+   },
+   "2022": {
+    "n": 88,
+    "meanZ": -0.153,
+    "mascShare": 0.182,
+    "femShare": 0.25
+   },
+   "2023": {
+    "n": 66,
+    "meanZ": 0.1,
+    "mascShare": 0.227,
+    "femShare": 0.121
+   },
+   "2024": {
+    "n": 14,
+    "meanZ": -0.114,
+    "mascShare": 0.143,
+    "femShare": 0.143
+   },
+   "2025": {
+    "n": 17,
+    "meanZ": -0.218,
+    "mascShare": 0.118,
+    "femShare": 0.294
+   },
+   "2026": {
+    "n": 23,
+    "meanZ": -0.076,
+    "mascShare": 0.13,
+    "femShare": 0.13
+   }
+  },
+  "github": {
+   "2011": {
+    "n": 7,
+    "meanZ": 0.441,
+    "mascShare": 0.429,
+    "femShare": 0.0
+   },
+   "2012": {
+    "n": 13,
+    "meanZ": 0.319,
+    "mascShare": 0.308,
+    "femShare": 0.0
+   },
+   "2013": {
+    "n": 6,
+    "meanZ": 0.218,
+    "mascShare": 0.167,
+    "femShare": 0.0
+   },
+   "2014": {
+    "n": 4,
+    "meanZ": 0.306,
+    "mascShare": 0.25,
+    "femShare": 0.0
+   },
+   "2015": {
+    "n": 7,
+    "meanZ": 0.159,
+    "mascShare": 0.143,
+    "femShare": 0.0
+   },
+   "2016": {
+    "n": 8,
+    "meanZ": -0.212,
+    "mascShare": 0.0,
+    "femShare": 0.25
+   },
+   "2017": {
+    "n": 9,
+    "meanZ": -0.384,
+    "mascShare": 0.0,
+    "femShare": 0.444
+   },
+   "2018": {
+    "n": 9,
+    "meanZ": -0.402,
+    "mascShare": 0.0,
+    "femShare": 0.444
+   },
+   "2019": {
+    "n": 7,
+    "meanZ": -0.57,
+    "mascShare": 0.0,
+    "femShare": 0.571
+   },
+   "2020": {
+    "n": 8,
+    "meanZ": -0.575,
+    "mascShare": 0.0,
+    "femShare": 0.625
+   },
+   "2021": {
+    "n": 12,
+    "meanZ": -0.249,
+    "mascShare": 0.167,
+    "femShare": 0.417
+   },
+   "2022": {
+    "n": 12,
+    "meanZ": -0.071,
+    "mascShare": 0.25,
+    "femShare": 0.417
+   },
+   "2023": {
+    "n": 11,
+    "meanZ": -0.131,
+    "mascShare": 0.182,
+    "femShare": 0.455
+   },
+   "2024": {
+    "n": 11,
+    "meanZ": -0.131,
+    "mascShare": 0.182,
+    "femShare": 0.455
+   },
+   "2025": {
+    "n": 8,
+    "meanZ": 0.034,
+    "mascShare": 0.25,
+    "femShare": 0.375
+   },
+   "2026": {
+    "n": 6,
+    "meanZ": 0.151,
+    "mascShare": 0.333,
+    "femShare": 0.333
+   }
+  },
+  "basecamp": {
+   "2002": {
+    "n": 17,
+    "meanZ": 0.633,
+    "mascShare": 0.471,
+    "femShare": 0.0
+   },
+   "2003": {
+    "n": 11,
+    "meanZ": 0.608,
+    "mascShare": 0.364,
+    "femShare": 0.0
+   },
+   "2004": {
+    "n": 11,
+    "meanZ": 0.645,
+    "mascShare": 0.455,
+    "femShare": 0.0
+   },
+   "2009": {
+    "n": 28,
+    "meanZ": 0.392,
+    "mascShare": 0.5,
+    "femShare": 0.071
+   },
+   "2010": {
+    "n": 27,
+    "meanZ": 0.385,
+    "mascShare": 0.444,
+    "femShare": 0.037
+   },
+   "2014": {
+    "n": 22,
+    "meanZ": 0.624,
+    "mascShare": 0.545,
+    "femShare": 0.091
+   },
+   "2015": {
+    "n": 22,
+    "meanZ": 0.624,
+    "mascShare": 0.545,
+    "femShare": 0.091
+   },
+   "2016": {
+    "n": 50,
+    "meanZ": 0.614,
+    "mascShare": 0.62,
+    "femShare": 0.02
+   },
+   "2017": {
+    "n": 53,
+    "meanZ": 0.509,
+    "mascShare": 0.472,
+    "femShare": 0.038
+   },
+   "2018": {
+    "n": 66,
+    "meanZ": 0.535,
+    "mascShare": 0.5,
+    "femShare": 0.061
+   },
+   "2019": {
+    "n": 224,
+    "meanZ": 0.617,
+    "mascShare": 0.594,
+    "femShare": 0.009
+   },
+   "2020": {
+    "n": 299,
+    "meanZ": 0.593,
+    "mascShare": 0.555,
+    "femShare": 0.02
+   },
+   "2021": {
+    "n": 424,
+    "meanZ": 0.599,
+    "mascShare": 0.571,
+    "femShare": 0.017
+   },
+   "2022": {
+    "n": 333,
+    "meanZ": 0.582,
+    "mascShare": 0.574,
+    "femShare": 0.027
+   },
+   "2023": {
+    "n": 431,
+    "meanZ": 0.56,
+    "mascShare": 0.548,
+    "femShare": 0.016
+   },
+   "2024": {
+    "n": 452,
+    "meanZ": 0.542,
+    "mascShare": 0.546,
+    "femShare": 0.022
+   },
+   "2025": {
+    "n": 253,
+    "meanZ": 0.496,
+    "mascShare": 0.478,
+    "femShare": 0.016
+   },
+   "2026": {
+    "n": 251,
+    "meanZ": 0.513,
+    "mascShare": 0.486,
+    "femShare": 0.02
+   }
+  },
+  "salesforce": {
+   "2004": {
+    "n": 16,
+    "meanZ": 0.417,
+    "mascShare": 0.438,
+    "femShare": 0.0
+   },
+   "2006": {
+    "n": 41,
+    "meanZ": 0.491,
+    "mascShare": 0.463,
+    "femShare": 0.0
+   },
+   "2007": {
+    "n": 44,
+    "meanZ": 0.558,
+    "mascShare": 0.5,
+    "femShare": 0.0
+   },
+   "2008": {
+    "n": 17,
+    "meanZ": 0.507,
+    "mascShare": 0.353,
+    "femShare": 0.0
+   },
+   "2009": {
+    "n": 16,
+    "meanZ": 0.513,
+    "mascShare": 0.375,
+    "femShare": 0.0
+   },
+   "2010": {
+    "n": 16,
+    "meanZ": 0.513,
+    "mascShare": 0.375,
+    "femShare": 0.0
+   },
+   "2011": {
+    "n": 7,
+    "meanZ": 0.462,
+    "mascShare": 0.429,
+    "femShare": 0.0
+   },
+   "2012": {
+    "n": 22,
+    "meanZ": 0.179,
+    "mascShare": 0.273,
+    "femShare": 0.091
+   },
+   "2013": {
+    "n": 8,
+    "meanZ": 0.124,
+    "mascShare": 0.125,
+    "femShare": 0.125
+   },
+   "2014": {
+    "n": 32,
+    "meanZ": -1.222,
+    "mascShare": 0.156,
+    "femShare": 0.469
+   },
+   "2015": {
+    "n": 54,
+    "meanZ": -1.331,
+    "mascShare": 0.093,
+    "femShare": 0.463
+   },
+   "2016": {
+    "n": 65,
+    "meanZ": -0.652,
+    "mascShare": 0.062,
+    "femShare": 0.369
+   },
+   "2017": {
+    "n": 133,
+    "meanZ": -0.46,
+    "mascShare": 0.143,
+    "femShare": 0.286
+   },
+   "2018": {
+    "n": 67,
+    "meanZ": -0.041,
+    "mascShare": 0.179,
+    "femShare": 0.149
+   },
+   "2019": {
+    "n": 22,
+    "meanZ": -0.372,
+    "mascShare": 0.136,
+    "femShare": 0.364
+   },
+   "2020": {
+    "n": 32,
+    "meanZ": -0.365,
+    "mascShare": 0.062,
+    "femShare": 0.406
+   },
+   "2021": {
+    "n": 6,
+    "meanZ": -0.475,
+    "mascShare": 0.0,
+    "femShare": 0.5
+   },
+   "2022": {
+    "n": 8,
+    "meanZ": -0.381,
+    "mascShare": 0.125,
+    "femShare": 0.375
+   },
+   "2023": {
+    "n": 17,
+    "meanZ": 0.031,
+    "mascShare": 0.176,
+    "femShare": 0.235
+   },
+   "2024": {
+    "n": 53,
+    "meanZ": -0.324,
+    "mascShare": 0.057,
+    "femShare": 0.377
+   },
+   "2025": {
+    "n": 217,
+    "meanZ": -0.422,
+    "mascShare": 0.051,
+    "femShare": 0.415
+   },
+   "2026": {
+    "n": 198,
+    "meanZ": -0.386,
+    "mascShare": 0.071,
+    "femShare": 0.389
+   }
+  },
+  "starbucks": {
+   "2001": {
+    "n": 70,
+    "meanZ": -0.115,
+    "mascShare": 0.186,
+    "femShare": 0.443
+   },
+   "2005": {
+    "n": 26,
+    "meanZ": -0.273,
+    "mascShare": 0.192,
+    "femShare": 0.346
+   },
+   "2006": {
+    "n": 41,
+    "meanZ": -0.227,
+    "mascShare": 0.22,
+    "femShare": 0.39
+   },
+   "2007": {
+    "n": 35,
+    "meanZ": -0.085,
+    "mascShare": 0.229,
+    "femShare": 0.257
+   },
+   "2008": {
+    "n": 15,
+    "meanZ": -0.193,
+    "mascShare": 0.0,
+    "femShare": 0.133
+   },
+   "2010": {
+    "n": 91,
+    "meanZ": -0.107,
+    "mascShare": 0.231,
+    "femShare": 0.275
+   },
+   "2011": {
+    "n": 47,
+    "meanZ": -0.357,
+    "mascShare": 0.128,
+    "femShare": 0.404
+   },
+   "2012": {
+    "n": 52,
+    "meanZ": -0.37,
+    "mascShare": 0.154,
+    "femShare": 0.404
+   },
+   "2013": {
+    "n": 88,
+    "meanZ": -0.271,
+    "mascShare": 0.136,
+    "femShare": 0.33
+   },
+   "2014": {
+    "n": 76,
+    "meanZ": -0.319,
+    "mascShare": 0.079,
+    "femShare": 0.382
+   },
+   "2015": {
+    "n": 240,
+    "meanZ": -0.326,
+    "mascShare": 0.083,
+    "femShare": 0.358
+   },
+   "2016": {
+    "n": 42,
+    "meanZ": -0.269,
+    "mascShare": 0.024,
+    "femShare": 0.286
+   },
+   "2017": {
+    "n": 43,
+    "meanZ": -0.473,
+    "mascShare": 0.023,
+    "femShare": 0.419
+   },
+   "2018": {
+    "n": 105,
+    "meanZ": -0.391,
+    "mascShare": 0.057,
+    "femShare": 0.39
+   },
+   "2019": {
+    "n": 69,
+    "meanZ": -0.465,
+    "mascShare": 0.058,
+    "femShare": 0.464
+   },
+   "2020": {
+    "n": 48,
+    "meanZ": -0.375,
+    "mascShare": 0.104,
+    "femShare": 0.458
+   },
+   "2021": {
+    "n": 45,
+    "meanZ": -0.204,
+    "mascShare": 0.156,
+    "femShare": 0.333
+   },
+   "2022": {
+    "n": 171,
+    "meanZ": -0.611,
+    "mascShare": 0.105,
+    "femShare": 0.591
+   },
+   "2023": {
+    "n": 221,
+    "meanZ": -0.064,
+    "mascShare": 0.208,
+    "femShare": 0.29
+   },
+   "2024": {
+    "n": 116,
+    "meanZ": -0.363,
+    "mascShare": 0.112,
+    "femShare": 0.422
+   },
+   "2025": {
+    "n": 60,
+    "meanZ": -0.291,
+    "mascShare": 0.067,
+    "femShare": 0.35
+   },
+   "2026": {
+    "n": 26,
+    "meanZ": -0.243,
+    "mascShare": 0.077,
+    "femShare": 0.308
+   }
+  },
+  "uber": {
+   "2011": {
+    "n": 9,
+    "meanZ": 0.391,
+    "mascShare": 0.444,
+    "femShare": 0.0
+   },
+   "2012": {
+    "n": 3,
+    "meanZ": 0.547,
+    "mascShare": 0.667,
+    "femShare": 0.0
+   },
+   "2013": {
+    "n": 3,
+    "meanZ": 0.165,
+    "mascShare": 0.333,
+    "femShare": 0.0
+   },
+   "2014": {
+    "n": 7,
+    "meanZ": -0.035,
+    "mascShare": 0.143,
+    "femShare": 0.143
+   },
+   "2015": {
+    "n": 7,
+    "meanZ": -0.037,
+    "mascShare": 0.143,
+    "femShare": 0.143
+   },
+   "2016": {
+    "n": 13,
+    "meanZ": 0.152,
+    "mascShare": 0.308,
+    "femShare": 0.154
+   },
+   "2017": {
+    "n": 10,
+    "meanZ": -0.106,
+    "mascShare": 0.0,
+    "femShare": 0.3
+   },
+   "2018": {
+    "n": 82,
+    "meanZ": -0.398,
+    "mascShare": 0.122,
+    "femShare": 0.402
+   },
+   "2019": {
+    "n": 80,
+    "meanZ": -0.387,
+    "mascShare": 0.087,
+    "femShare": 0.388
+   },
+   "2024": {
+    "n": 42,
+    "meanZ": -0.135,
+    "mascShare": 0.048,
+    "femShare": 0.167
+   }
+  },
+  "apple": {
+   "1999": {
+    "n": 19,
+    "meanZ": 0.456,
+    "mascShare": 0.474,
+    "femShare": 0.053
+   },
+   "2004": {
+    "n": 9,
+    "meanZ": -0.083,
+    "mascShare": 0.111,
+    "femShare": 0.222
+   },
+   "2007": {
+    "n": 6,
+    "meanZ": -0.171,
+    "mascShare": 0.167,
+    "femShare": 0.333
+   },
+   "2008": {
+    "n": 4,
+    "meanZ": -0.172,
+    "mascShare": 0.25,
+    "femShare": 0.5
+   },
+   "2009": {
+    "n": 15,
+    "meanZ": 0.404,
+    "mascShare": 0.6,
+    "femShare": 0.2
+   },
+   "2010": {
+    "n": 15,
+    "meanZ": 0.378,
+    "mascShare": 0.533,
+    "femShare": 0.133
+   },
+   "2012": {
+    "n": 34,
+    "meanZ": 0.167,
+    "mascShare": 0.206,
+    "femShare": 0.029
+   },
+   "2013": {
+    "n": 21,
+    "meanZ": 0.179,
+    "mascShare": 0.19,
+    "femShare": 0.0
+   },
+   "2014": {
+    "n": 72,
+    "meanZ": -0.174,
+    "mascShare": 0.25,
+    "femShare": 0.264
+   },
+   "2015": {
+    "n": 181,
+    "meanZ": -0.578,
+    "mascShare": 0.11,
+    "femShare": 0.365
+   },
+   "2016": {
+    "n": 11,
+    "meanZ": 0.383,
+    "mascShare": 0.364,
+    "femShare": 0.0
+   },
+   "2017": {
+    "n": 9,
+    "meanZ": 0.125,
+    "mascShare": 0.111,
+    "femShare": 0.0
+   },
+   "2018": {
+    "n": 74,
+    "meanZ": -0.12,
+    "mascShare": 0.189,
+    "femShare": 0.243
+   },
+   "2019": {
+    "n": 61,
+    "meanZ": -0.16,
+    "mascShare": 0.164,
+    "femShare": 0.213
+   },
+   "2020": {
+    "n": 46,
+    "meanZ": 0.042,
+    "mascShare": 0.261,
+    "femShare": 0.217
+   },
+   "2021": {
+    "n": 170,
+    "meanZ": -0.334,
+    "mascShare": 0.106,
+    "femShare": 0.347
+   },
+   "2022": {
+    "n": 251,
+    "meanZ": -0.352,
+    "mascShare": 0.131,
+    "femShare": 0.335
+   },
+   "2023": {
+    "n": 274,
+    "meanZ": -0.446,
+    "mascShare": 0.106,
+    "femShare": 0.358
+   },
+   "2024": {
+    "n": 185,
+    "meanZ": -0.331,
+    "mascShare": 0.151,
+    "femShare": 0.314
+   },
+   "2025": {
+    "n": 187,
+    "meanZ": -0.445,
+    "mascShare": 0.08,
+    "femShare": 0.348
+   },
+   "2026": {
+    "n": 60,
+    "meanZ": -0.239,
+    "mascShare": 0.083,
+    "femShare": 0.283
+   }
+  },
+  "nvidia": {
+   "2006": {
+    "n": 13,
+    "meanZ": 0.182,
+    "mascShare": 0.231,
+    "femShare": 0.077
+   },
+   "2007": {
+    "n": 14,
+    "meanZ": 0.28,
+    "mascShare": 0.214,
+    "femShare": 0.071
+   },
+   "2008": {
+    "n": 16,
+    "meanZ": 0.326,
+    "mascShare": 0.312,
+    "femShare": 0.062
+   },
+   "2009": {
+    "n": 13,
+    "meanZ": 0.114,
+    "mascShare": 0.154,
+    "femShare": 0.077
+   },
+   "2010": {
+    "n": 13,
+    "meanZ": 0.195,
+    "mascShare": 0.308,
+    "femShare": 0.077
+   },
+   "2011": {
+    "n": 12,
+    "meanZ": 0.14,
+    "mascShare": 0.167,
+    "femShare": 0.083
+   },
+   "2012": {
+    "n": 13,
+    "meanZ": 0.084,
+    "mascShare": 0.077,
+    "femShare": 0.077
+   },
+   "2013": {
+    "n": 17,
+    "meanZ": 0.149,
+    "mascShare": 0.235,
+    "femShare": 0.059
+   },
+   "2014": {
+    "n": 14,
+    "meanZ": 0.092,
+    "mascShare": 0.214,
+    "femShare": 0.071
+   },
+   "2015": {
+    "n": 1,
+    "meanZ": 0.026,
+    "mascShare": 0.0,
+    "femShare": 0.0
+   },
+   "2020": {
+    "n": 47,
+    "meanZ": 0.114,
+    "mascShare": 0.234,
+    "femShare": 0.106
+   },
+   "2024": {
+    "n": 19,
+    "meanZ": -0.062,
+    "mascShare": 0.105,
+    "femShare": 0.211
+   },
+   "2025": {
+    "n": 37,
+    "meanZ": -0.462,
+    "mascShare": 0.081,
+    "femShare": 0.432
+   },
+   "2026": {
+    "n": 7,
+    "meanZ": -0.036,
+    "mascShare": 0.143,
+    "femShare": 0.286
+   }
+  },
+  "engine": {
+   "2014": {
+    "n": 2,
+    "meanZ": 0.619,
+    "mascShare": 0.5,
+    "femShare": 0.0
+   },
+   "2016": {
+    "n": 8,
+    "meanZ": 0.418,
+    "mascShare": 0.375,
+    "femShare": 0.0
+   },
+   "2017": {
+    "n": 7,
+    "meanZ": 0.465,
+    "mascShare": 0.429,
+    "femShare": 0.0
+   },
+   "2019": {
+    "n": 35,
+    "meanZ": 0.473,
+    "mascShare": 0.514,
+    "femShare": 0.0
+   },
+   "2020": {
+    "n": 22,
+    "meanZ": 0.461,
+    "mascShare": 0.545,
+    "femShare": 0.0
+   },
+   "2021": {
+    "n": 31,
+    "meanZ": 0.567,
+    "mascShare": 0.677,
+    "femShare": 0.032
+   },
+   "2022": {
+    "n": 44,
+    "meanZ": 0.299,
+    "mascShare": 0.5,
+    "femShare": 0.091
+   },
+   "2023": {
+    "n": 32,
+    "meanZ": 0.41,
+    "mascShare": 0.656,
+    "femShare": 0.062
+   },
+   "2024": {
+    "n": 90,
+    "meanZ": 0.339,
+    "mascShare": 0.422,
+    "femShare": 0.067
+   },
+   "2025": {
+    "n": 90,
+    "meanZ": 0.455,
+    "mascShare": 0.467,
+    "femShare": 0.033
+   },
+   "2026": {
+    "n": 205,
+    "meanZ": 0.565,
+    "mascShare": 0.561,
+    "femShare": 0.029
+   }
+  },
+  "anduril": {
+   "2022": {
+    "n": 17,
+    "meanZ": 0.511,
+    "mascShare": 0.412,
+    "femShare": 0.0
+   },
+   "2023": {
+    "n": 19,
+    "meanZ": 0.503,
+    "mascShare": 0.421,
+    "femShare": 0.0
+   },
+   "2024": {
+    "n": 219,
+    "meanZ": 0.798,
+    "mascShare": 0.708,
+    "femShare": 0.018
+   },
+   "2025": {
+    "n": 569,
+    "meanZ": 0.774,
+    "mascShare": 0.705,
+    "femShare": 0.011
+   }
+  },
+  "spacex": {
+   "2003": {
+    "n": 56,
+    "meanZ": 0.791,
+    "mascShare": 0.768,
+    "femShare": 0.0
+   },
+   "2004": {
+    "n": 45,
+    "meanZ": 0.72,
+    "mascShare": 0.733,
+    "femShare": 0.0
+   },
+   "2005": {
+    "n": 52,
+    "meanZ": 0.771,
+    "mascShare": 0.769,
+    "femShare": 0.0
+   },
+   "2006": {
+    "n": 43,
+    "meanZ": 0.691,
+    "mascShare": 0.721,
+    "femShare": 0.0
+   },
+   "2007": {
+    "n": 25,
+    "meanZ": 0.704,
+    "mascShare": 0.64,
+    "femShare": 0.0
+   },
+   "2008": {
+    "n": 22,
+    "meanZ": 0.652,
+    "mascShare": 0.545,
+    "femShare": 0.0
+   },
+   "2011": {
+    "n": 21,
+    "meanZ": 0.597,
+    "mascShare": 0.571,
+    "femShare": 0.0
+   },
+   "2013": {
+    "n": 23,
+    "meanZ": 0.311,
+    "mascShare": 0.478,
+    "femShare": 0.087
+   },
+   "2014": {
+    "n": 20,
+    "meanZ": 0.317,
+    "mascShare": 0.5,
+    "femShare": 0.05
+   },
+   "2015": {
+    "n": 20,
+    "meanZ": 0.265,
+    "mascShare": 0.45,
+    "femShare": 0.05
+   },
+   "2016": {
+    "n": 30,
+    "meanZ": 0.174,
+    "mascShare": 0.3,
+    "femShare": 0.067
+   },
+   "2017": {
+    "n": 34,
+    "meanZ": 0.18,
+    "mascShare": 0.324,
+    "femShare": 0.059
+   },
+   "2018": {
+    "n": 43,
+    "meanZ": 0.232,
+    "mascShare": 0.349,
+    "femShare": 0.093
+   },
+   "2019": {
+    "n": 30,
+    "meanZ": 0.215,
+    "mascShare": 0.4,
+    "femShare": 0.133
+   },
+   "2020": {
+    "n": 67,
+    "meanZ": 0.089,
+    "mascShare": 0.269,
+    "femShare": 0.149
+   },
+   "2021": {
+    "n": 50,
+    "meanZ": 0.118,
+    "mascShare": 0.22,
+    "femShare": 0.14
+   },
+   "2022": {
+    "n": 50,
+    "meanZ": 0.111,
+    "mascShare": 0.22,
+    "femShare": 0.14
+   },
+   "2023": {
+    "n": 56,
+    "meanZ": 0.14,
+    "mascShare": 0.268,
+    "femShare": 0.125
+   },
+   "2024": {
+    "n": 42,
+    "meanZ": 0.104,
+    "mascShare": 0.262,
+    "femShare": 0.143
+   },
+   "2025": {
+    "n": 53,
+    "meanZ": 0.117,
+    "mascShare": 0.245,
+    "femShare": 0.132
+   }
+  },
+  "ramp": {
+   "2021": {
+    "n": 10,
+    "meanZ": 0.489,
+    "mascShare": 0.6,
+    "femShare": 0.1
+   },
+   "2022": {
+    "n": 25,
+    "meanZ": 0.918,
+    "mascShare": 0.72,
+    "femShare": 0.0
+   },
+   "2023": {
+    "n": 25,
+    "meanZ": 0.114,
+    "mascShare": 0.64,
+    "femShare": 0.2
+   },
+   "2025": {
+    "n": 8,
+    "meanZ": 0.302,
+    "mascShare": 0.25,
+    "femShare": 0.125
+   },
+   "2026": {
+    "n": 134,
+    "meanZ": 0.067,
+    "mascShare": 0.515,
+    "femShare": 0.254
+   }
+  }
+ }
+}

@@ -1,0 +1,133 @@
+---
+// Within-company shift in masculine-coded share, pre vs post 2022
+// (2018–21 mean vs 2022–26 mean, company-years with >= 15 sentences, at
+// least two qualifying years each side). Diverging HTML bars — the same
+// row pattern as the unit chart's mobile bars, so it reads on phones.
+// Amazon is excluded pending a corpus-composition inspection (its −29pp
+// swing tracks a change in what pages were captured, not a rewrite).
+// Data: gender-language-time.json (scripts/gender_by_year.py).
+import { loadStory } from "@/lib/stories";
+
+const data = (await loadStory("gender-language-time")) as any;
+const EXCLUDED = ["amazon"];
+const PRE = [2018, 2021], POST = [2022, 2026], MIN_N = 15;
+
+type YearRow = { n: number; meanZ: number; mascShare: number; femShare: number };
+const mean = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length;
+const windowRows = (cy: Record<string, YearRow>, [a, b]: number[]) =>
+  Object.entries(cy)
+    .filter(([y, v]) => +y >= a && +y <= b && v.n >= MIN_N)
+    .map(([, v]) => v);
+
+const displayNames: Record<string, string> = {};
+try {
+  const story = (await loadStory("gender-language")) as any;
+  for (const c of story?.columns ?? []) displayNames[c.company] = c.name;
+} catch { /* fall back to slug */ }
+
+const rows = Object.entries((data?.companies ?? {}) as Record<string, Record<string, YearRow>>)
+  .filter(([co]) => !EXCLUDED.includes(co))
+  .map(([co, cy]) => {
+    const pre = windowRows(cy, PRE), post = windowRows(cy, POST);
+    if (pre.length < 2 || post.length < 2) return null;
+    const pm = mean(pre.map((v) => v.mascShare)), qm = mean(post.map((v) => v.mascShare));
+    const pf = mean(pre.map((v) => v.femShare)), qf = mean(post.map((v) => v.femShare));
+    return {
+      co, name: displayNames[co] ?? co,
+      dMasc: 100 * (qm - pm), dFem: 100 * (qf - pf),
+      pre: Math.round(100 * pm), post: Math.round(100 * qm),
+      preF: Math.round(100 * pf), postF: Math.round(100 * qf),
+    };
+  })
+  .filter((r) => r !== null)
+  .sort((a, b) => b!.dMasc - a!.dMasc) as {
+    co: string; name: string; dMasc: number; dFem: number;
+    pre: number; post: number; preF: number; postF: number;
+  }[];
+
+const MAX = Math.max(...rows.map((r) => Math.abs(r.dMasc)));
+const HIGHLIGHT = new Set(["meta", "coinbase"]);
+---
+
+<div class="gender-shift-bars my-6">
+  <div class="gsb-axis font-mono text-[10.5px] text-neutral-400">
+    <span class="gsb-axis-labels">
+      <span style="text-align:right;padding-right:6px">less masculine-coded ←</span>
+      <span style="padding-left:6px">→ more masculine-coded</span>
+    </span>
+  </div>
+  {rows.map((r) => (
+    <div class="gsb-row" title={`${r.name}: masculine-coded ${r.pre}% → ${r.post}%, feminine-coded ${r.preF}% → ${r.postF}%`}>
+      <span class="gsb-name text-[12px] font-medium">{r.name}</span>
+      <span class="gsb-bar">
+        <span class="gsb-half gsb-left">
+          {r.dMasc < 0 && (
+            <i style={`width:${(100 * Math.abs(r.dMasc)) / MAX}%;background:${
+              HIGHLIGHT.has(r.co) ? "var(--chart-contrast-1)" : "color-mix(in srgb, var(--muted) 55%, transparent)"}`}></i>
+          )}
+        </span>
+        <span class="gsb-half gsb-right">
+          {r.dMasc >= 0 && (
+            <i style={`width:${(100 * r.dMasc) / MAX}%;background:${
+              HIGHLIGHT.has(r.co) ? "var(--chart-contrast-1)" : "color-mix(in srgb, var(--muted) 55%, transparent)"}`}></i>
+          )}
+        </span>
+      </span>
+      <span class="gsb-val font-mono text-[11px] tabular-nums" style={HIGHLIGHT.has(r.co) ? "color:var(--chart-contrast-1);font-weight:600" : "color:var(--muted)"}>
+        {(r.dMasc >= 0 ? "+" : "") + r.dMasc.toFixed(0)}pp
+      </span>
+    </div>
+  ))}
+  <details class="mt-3">
+    <summary class="cursor-pointer text-xs text-neutral-500">Full table (masculine and feminine shares, before → after)</summary>
+    <div class="overflow-x-auto">
+      <table class="mt-2 text-xs tabular-nums">
+        <thead>
+          <tr class="text-left text-neutral-500">
+            <th class="pr-4 font-medium">company</th>
+            <th class="pr-4 font-medium">masc %</th>
+            <th class="pr-4 font-medium">Δ masc</th>
+            <th class="pr-4 font-medium">fem %</th>
+            <th class="font-medium">Δ fem</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr>
+              <td class="pr-4 py-0.5">{r.name}</td>
+              <td class="pr-4">{r.pre} → {r.post}</td>
+              <td class="pr-4">{(r.dMasc >= 0 ? "+" : "") + r.dMasc.toFixed(1)}</td>
+              <td class="pr-4">{r.preF} → {r.postF}</td>
+              <td>{(r.dFem >= 0 ? "+" : "") + r.dFem.toFixed(1)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </details>
+  <p class="mt-3 max-w-prose text-xs text-neutral-500">
+    Change in masculine-coded share, average of 2018–2021 vs 2022–2026
+    (company-years with at least 15 sentences; two qualifying years required
+    on each side). Amazon is excluded: its apparent −29pp swing tracks a
+    change in which pages the archive captured, not a rewrite — under
+    inspection before it's citable either way.
+  </p>
+</div>
+
+<style>
+  .gsb-axis, .gsb-row {
+    display: grid;
+    grid-template-columns: 92px minmax(0, 1fr) 48px;
+    gap: 8px; align-items: center;
+  }
+  .gsb-axis { margin-bottom: 6px; }
+  .gsb-axis-labels { grid-column: 2; display: grid; grid-template-columns: 1fr 1fr; }
+  .gsb-row { padding: 2.5px 0; }
+  .gsb-name { text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .gsb-bar { display: grid; grid-template-columns: 1fr 1fr; height: 10px; }
+  .gsb-half { position: relative; height: 10px; }
+  .gsb-left { border-right: 1px solid color-mix(in srgb, var(--muted) 55%, transparent); }
+  .gsb-half i { position: absolute; top: 1px; height: 8px; border-radius: 2px; display: block; }
+  .gsb-left i { right: 0; }
+  .gsb-right i { left: 0; }
+</style>

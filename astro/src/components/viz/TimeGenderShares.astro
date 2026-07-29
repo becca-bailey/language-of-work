@@ -1,0 +1,125 @@
+---
+// Gender-coding over time: masculine- and feminine-coded share of careers
+// sentences by year (company-equal-weight mean over companies with >= minN
+// sentences that year). Series colors are the story's fixed entity colors
+// (rust = masculine, slate = feminine). Data: gender-language-time.json
+// (scripts/gender_by_year.py). Years before START are dropped — coverage is
+// too thin (< 7 companies) to average.
+import { loadStory } from "@/lib/stories";
+
+const data = (await loadStory("gender-language-time")) as any;
+const START = 2013;
+const series = ((data?.series ?? []) as any[]).filter(
+  (e) => e.year >= START && e.mascShare != null
+);
+
+const W = 660, H = 300, M = { t: 18, r: 118, b: 30, l: 40 };
+const iw = W - M.l - M.r, ih = H - M.t - M.b;
+const years = series.map((e) => e.year);
+const y0 = years[0], y1 = years[years.length - 1];
+const x = (y: number) => M.l + ((y - y0) / (y1 - y0)) * iw;
+const YMAX = 0.4;
+const yy = (v: number) => M.t + ih - (Math.min(v, YMAX) / YMAX) * ih;
+const path = (key: string) =>
+  series.map((e, i) => `${i ? "L" : "M"}${x(e.year).toFixed(1)},${yy(e[key]).toFixed(1)}`).join("");
+
+const last = series[series.length - 1];
+const events = [
+  { year: 2020, label: "care & DEI concession" },
+  { year: 2022, label: "layoffs begin" },
+];
+const ticks = [0, 0.1, 0.2, 0.3, 0.4];
+---
+
+<div class="time-gender-shares relative my-6">
+  <svg viewBox={`0 0 ${W} ${H}`} class="w-full" role="img"
+    aria-label={`Masculine- and feminine-coded share of careers sentences per year, ${y0} to ${y1}`}>
+    {ticks.map((t) => (
+      <g>
+        <line x1={M.l} x2={W - M.r} y1={yy(t)} y2={yy(t)}
+          stroke="color-mix(in srgb, var(--muted) 25%, transparent)" stroke-width="1" />
+        <text x={M.l - 6} y={yy(t) + 4} text-anchor="end" font-size="11"
+          fill="var(--muted)" font-family="var(--font-mono, monospace)">{Math.round(t * 100)}%</text>
+      </g>
+    ))}
+    {events.map((ev) => (
+      <g>
+        <line x1={x(ev.year)} x2={x(ev.year)} y1={M.t} y2={M.t + ih}
+          stroke="color-mix(in srgb, var(--muted) 45%, transparent)" stroke-width="1" stroke-dasharray="3 3" />
+        <text x={x(ev.year) + 4} y={M.t + 10} font-size="10.5" fill="var(--muted)">{ev.label}</text>
+      </g>
+    ))}
+    <path d={path("mascShare")} fill="none" stroke="var(--chart-contrast-1)" stroke-width="2" />
+    <path d={path("femShare")} fill="none" stroke="var(--chart-2)" stroke-width="2" />
+    {series.map((e) => (
+      <g class="tgs-pt" data-year={e.year} data-masc={e.mascShare} data-fem={e.femShare}
+        data-ncos={e.nCompanies}>
+        <rect x={x(e.year) - 10} y={M.t} width="20" height={ih} fill="transparent" />
+        <circle cx={x(e.year)} cy={yy(e.mascShare)} r="3" fill="var(--chart-contrast-1)" />
+        <circle cx={x(e.year)} cy={yy(e.femShare)} r="3" fill="var(--chart-2)" />
+      </g>
+    ))}
+    <text x={x(y1) + 8} y={yy(last.mascShare) + 4} font-size="12" font-weight="600"
+      fill="var(--chart-contrast-1)">masculine-coded</text>
+    <text x={x(y1) + 8} y={yy(last.femShare) + 4} font-size="12" font-weight="600"
+      fill="var(--chart-2)">feminine-coded</text>
+    {series.filter((e) => [2013, 2016, 2019, 2022, 2025].includes(e.year)).map((e) => (
+      <text x={x(e.year)} y={M.t + ih + 16} text-anchor="middle" font-size="11"
+        fill="var(--muted)" font-family="var(--font-mono, monospace)">{e.year}</text>
+    ))}
+  </svg>
+  <div class="tgs-tip hidden" role="status"></div>
+  <p class="mt-2 max-w-prose text-xs text-neutral-500">
+    Share of each year's careers sentences that score masculine- or
+    feminine-coded, averaged with every company weighted equally (companies
+    with fewer than {data?.minN ?? 20} sentences that year sit out). A sentence
+    counts in every year its page carried it.
+  </p>
+</div>
+
+<style>
+  .tgs-tip { position: fixed; z-index: 40; max-width: 260px; background: var(--background);
+    border: 1px solid color-mix(in srgb, var(--muted) 45%, transparent); border-radius: 8px;
+    padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgb(0 0 0 / 0.12); }
+  .tgs-tip.hidden { display: none; }
+  @media (hover: none), (pointer: coarse) {
+    .tgs-tip { left: 8px !important; right: 8px; bottom: 8px; top: auto !important; max-width: none; }
+  }
+</style>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>(".time-gender-shares")) {
+    const tip = root.querySelector<HTMLElement>(".tgs-tip")!;
+    const show = (pt: HTMLElement, x: number, y: number) => {
+      tip.innerHTML =
+        `<strong>${pt.dataset.year}</strong>` +
+        `<span style="display:block;font-family:var(--font-mono,monospace);font-size:11px">` +
+        `<span style="color:var(--chart-contrast-1)">${Math.round(+pt.dataset.masc! * 100)}% masculine-coded</span><br>` +
+        `<span style="color:var(--chart-2)">${Math.round(+pt.dataset.fem! * 100)}% feminine-coded</span><br>` +
+        `<span style="color:var(--muted)">${pt.dataset.ncos} companies</span></span>`;
+      tip.classList.remove("hidden");
+      const r = tip.getBoundingClientRect();
+      tip.style.left = Math.min(x + 14, innerWidth - r.width - 10) + "px";
+      tip.style.top = Math.min(y + 14, innerHeight - r.height - 10) + "px";
+    };
+    const hide = () => tip.classList.add("hidden");
+    const coarse = matchMedia("(hover: none), (pointer: coarse)").matches;
+    if (!coarse) {
+      root.addEventListener("pointermove", (e) => {
+        const pt = (e.target as HTMLElement).closest<HTMLElement>(".tgs-pt");
+        if (!pt) { hide(); return; }
+        show(pt, e.clientX, e.clientY);
+      });
+      root.addEventListener("pointerleave", hide);
+    } else {
+      let open: HTMLElement | null = null;
+      root.addEventListener("click", (e) => {
+        const pt = (e.target as HTMLElement).closest<HTMLElement>(".tgs-pt");
+        if (!pt) return;
+        if (open === pt) { hide(); open = null; return; }
+        open = pt; show(pt, 0, 0);
+      });
+      tip.addEventListener("click", () => { hide(); open = null; });
+    }
+  }
+</script>

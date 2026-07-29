@@ -89,6 +89,9 @@ def main() -> None:
            "companies": {co: {str(y): v for y, v in cy.items()} for co, cy in per_cy.items()}}
     out_path = Path(__file__).resolve().parent.parent / "data" / "gender_by_year.json"
     out_path.write_text(json.dumps(out, indent=1))
+    web_path = WEB_DATA_DIR / "stories" / "gender-language-time.json"
+    web_path.write_text(json.dumps(out, indent=1))
+    print(f"Wrote {web_path}")
 
     print(f"\n{'year':<6}{'cos':>4}{'meanZ':>8}{'masc%':>8}{'fem%':>8}{'panelZ':>9}{'panelFem%':>10}")
     for e in series:

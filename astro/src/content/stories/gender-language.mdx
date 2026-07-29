@@ -15,6 +15,8 @@ teaser: "Gender-coded language across every careers page in the corpus."
 import GenderUnitChart from "@/components/viz/GenderUnitChart.astro";
 import ConceptGenderPlot from "@/components/viz/ConceptGenderPlot.astro";
 import ExclusionQuotes from "@/components/viz/ExclusionQuotes.astro";
+import TimeGenderShares from "@/components/viz/TimeGenderShares.astro";
+import GenderShiftBars from "@/components/viz/GenderShiftBars.astro";
 
 In January 2025, Mark Zuckerberg went on Joe Rogan's podcast and said that the
 workplace has become "culturally neutered" and that he wants to bring
@@ -147,6 +149,33 @@ concept in the whole corpus — the severance-and-high-bar-hiring cluster — is
 one of them: it's still 74% Netflix's own voice, so it lives in the Netflix
 story rather than here, where the subject is the ideas companies actually
 share.
+
+## The turn, over time
+
+Scoring each company's pages year by year adds the missing axis. In the
+aggregate, feminine-coded share peaks near one sentence in five across
+2019–2021 — the same window in which careers pages inflated care and
+diversity language — and falls to 14% by 2023, while masculine-coded share
+reaches its modern peak. Read the curve with one caveat: part of the swing
+is composition. Ramp and Anduril enter the record in 2021–22 already
+sounding masculine. The cohort founded into the tight-money era arrives
+pre-coded, which is a finding about selection, on top of the one about
+editing.
+
+<TimeGenderShares />
+
+Holding the roster fixed sharpens the picture. Among the sixteen companies
+with enough coverage on both sides of 2022, the median shift is close to
+zero — most companies did not rewrite their registers. The movement is
+concentrated: feminine-coded share fell where DEI copy was retracted (Meta,
+HubSpot, GitLab, Shopify, Google), and masculine-coded share jumped at
+exactly two companies, Meta and Coinbase, each up roughly 21 points. Meta's
+is the largest masculine shift in the corpus — the "masculine energy"
+pivot, measurable in the careers pages of the company whose CEO asked for
+it. The companies already at the masculine end — Netflix, Engine, SpaceX,
+Basecamp — held steady or softened slightly.
+
+<GenderShiftBars />
 
 ---
 
