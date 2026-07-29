@@ -79,7 +79,7 @@ def score(tokens: list[str], pats: list[tuple[str, re.Pattern]],
 def unique_sentences(co: str) -> list[str]:
     # Mirrors export_gender_story.unique_sentences (dedup lowercase, keep text).
     seen: dict[str, str] = {}
-    for y, s in company_sentences(co):
+    for y, s in company_sentences(co, english_only=True):
         k = s.lower().strip()
         if k not in seen:
             seen[k] = s

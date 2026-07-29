@@ -10,9 +10,9 @@ experimental ads 7-8%.
 
 | comparison | full dictionary | broad stems dropped* |
 |---|---|---|
-| dictionary net (masc−fem) vs axis meanZ | 0.658 | 0.586 |
-| dictionary masc% vs axis mascPct | 0.343 | 0.309 |
-| dictionary fem% vs axis femPct | 0.494 | 0.420 |
+| dictionary net (masc−fem) vs axis meanZ | 0.658 | 0.562 |
+| dictionary masc% vs axis mascPct | 0.378 | 0.328 |
+| dictionary fem% vs axis femPct | 0.468 | 0.350 |
 
 *broad stems dropped: analy*, child*, commit*, connect*, decision*, depend*, individual*, lead*, principle*, respon*
 
@@ -25,17 +25,17 @@ experimental ads 7-8%.
 | Shopify | 10,697 | 0.84 | 0.45 | +0.39 | 35 | +0.25 |
 | SpaceX | 7,402 | 0.72 | 0.32 | +0.39 | 52 | +0.44 |
 | Netflix | 18,328 | 1.13 | 0.89 | +0.24 | 49 | +0.47 |
-| Engine | 5,029 | 1.17 | 0.93 | +0.24 | 51 | +0.48 |
+| Engine | 5,029 | 1.17 | 0.93 | +0.24 | 52 | +0.48 |
 | Basecamp | 19,663 | 0.63 | 0.44 | +0.18 | 54 | +0.54 |
 | NVIDIA | 2,714 | 0.81 | 0.66 | +0.15 | 24 | +0.01 |
 | GitLab | 3,087 | 0.42 | 0.39 | +0.03 | 16 | -0.17 |
-| Amazon | 6,880 | 0.92 | 0.92 | +0.00 | 23 | -0.46 |
-| Google | 26,627 | 0.69 | 0.71 | -0.03 | 24 | -0.32 |
-| Stripe | 9,054 | 0.89 | 0.97 | -0.08 | 35 | +0.27 |
+| Amazon | 6,880 | 0.92 | 0.92 | +0.00 | 24 | -0.45 |
+| Google | 26,204 | 0.70 | 0.73 | -0.03 | 24 | -0.33 |
+| Stripe | 9,054 | 0.89 | 0.97 | -0.08 | 36 | +0.27 |
 | Ramp | 2,414 | 0.54 | 0.62 | -0.08 | 54 | +0.10 |
-| Coinbase | 4,128 | 0.56 | 0.75 | -0.19 | 38 | +0.32 |
 | Airbnb | 1,032 | 0.87 | 1.07 | -0.19 | 20 | -0.04 |
-| Apple | 19,665 | 0.74 | 1.11 | -0.37 | 16 | -0.30 |
+| Coinbase | 3,487 | 0.63 | 0.89 | -0.26 | 38 | +0.33 |
+| Apple | 19,629 | 0.74 | 1.11 | -0.37 | 17 | -0.30 |
 | Uber | 4,570 | 0.68 | 1.12 | -0.44 | 12 | -0.22 |
 | HubSpot | 6,261 | 0.38 | 0.83 | -0.45 | 27 | -0.07 |
 | Salesforce | 13,286 | 0.90 | 1.47 | -0.57 | 15 | -0.31 |
@@ -46,7 +46,7 @@ experimental ads 7-8%.
 
 ## What the counts are made of (top stems, full dictionary)
 
-- **masc**: lead* (548), decision* (273), challeng* (218), autonom* (111), individual* (101), force* (87), analy* (81), compet* (74), principle* (61), ambitio* (54), independen* (50), determin* (35)
+- **masc**: lead* (548), decision* (272), challeng* (218), autonom* (111), individual* (101), force* (87), analy* (81), compet* (74), principle* (61), ambitio* (54), independen* (50), determin* (35)
 - **fem**: support* (621), commit* (400), together* (289), respon* (229), connect* (214), understand* (127), trust* (100), kind (50), child* (36), depend* (32), empath* (29), nurtur* (26)
 
 Top matched surface words:
