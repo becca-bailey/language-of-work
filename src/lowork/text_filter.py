@@ -30,3 +30,34 @@ def is_english(text: str, *, min_chars: int = MIN_ENGLISH_CHARS) -> bool:
         return detect(t) == "en"
     except Exception:
         return _ascii_ratio(t) >= 0.92
+
+
+def is_english_sentence(text: str) -> bool:
+    """Precision-first English check for a SINGLE sentence.
+
+    langdetect is confidently wrong on short English marketing prose ("Silent
+    disagreement is unacceptable and unproductive." → fr @ 0.99), so at sentence
+    length its non-English verdict counts only when corroborated by independent
+    evidence: non-ASCII letters, or ≥2 distinctive foreign function words
+    (langgate's per-language stopword sets). Chunk-level `is_english` stays the
+    primary gate — this only catches foreign strays inside majority-English
+    chunks (e.g. Coinbase's multi-language GDPR appendix). Uncorroborated → keep.
+    """
+    t = text.strip()
+    if not t:
+        return True
+    try:
+        from langdetect import DetectorFactory, detect
+
+        DetectorFactory.seed = 0
+        if detect(t) == "en":
+            return True
+    except Exception:
+        return True
+    nonascii_letters = sum(1 for ch in t if ord(ch) > 127 and ch.isalpha())
+    if nonascii_letters >= 2:
+        return False
+    from .langgate import _STOPWORDS
+
+    words = {w.strip(".,;:!?()\"'«»„“”") for w in t.lower().split()}
+    return not any(len(words & sw) >= 2 for lang, sw in _STOPWORDS.items() if lang != "en")
