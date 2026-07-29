@@ -1,0 +1,184 @@
+{
+  "ground_truth_chunk": {
+    "level": "chunk",
+    "altruism_peak_year": 2024,
+    "altruism_control_correlation": 0.206,
+    "correlation_p": 0.624,
+    "control_decoupled": true,
+    "peak_within_expected": null
+  },
+  "ground_truth_sentence": {
+    "level": "sentence",
+    "altruism_peak_year": 2021,
+    "altruism_control_correlation": 0.409,
+    "correlation_p": 0.314,
+    "control_decoupled": true,
+    "peak_within_expected": null
+  },
+  "perturbation": {
+    "per_sentence": [
+      {
+        "dropped": "A0: We believe technology has the power to solve humanity's greatest challenges.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "A1: Join us in building products that leave the world better than we found it.",
+        "spearman": 0.994
+      },
+      {
+        "dropped": "A2: Our mission is to create innovations that uplift communities and transform lives for the better.",
+        "spearman": 1.0
+      },
+      {
+        "dropped": "A3: At our company, we measure success by the positive impact we create in society.",
+        "spearman": 0.786
+      },
+      {
+        "dropped": "A4: We envision a future where technology serves as a force for universal good.",
+        "spearman": 0.994
+      },
+      {
+        "dropped": "A5: We're building something bigger than ourselves—a legacy of meaningful progress.",
+        "spearman": 0.833
+      },
+      {
+        "dropped": "A6: Come help us pursue breakthroughs that will benefit generations to come.",
+        "spearman": 0.976
+      },
+      {
+        "dropped": "A7: Join us in our quest to unlock technology's potential for human flourishing.",
+        "spearman": 0.994
+      },
+      {
+        "dropped": "B0: You'll work alongside teams who measure success in customer acquisition, retention, and sustainable growth.",
+        "spearman": 0.976
+      },
+      {
+        "dropped": "B1: We prioritize features based on commercial value and ship solutions that move the bottom line.",
+        "spearman": 0.97
+      },
+      {
+        "dropped": "B2: We invest in innovation that creates competitive advantage and generates measurable returns.",
+        "spearman": 0.976
+      },
+      {
+        "dropped": "B3: Join us if you want your work to directly contribute to revenue growth and market expansion.",
+        "spearman": 0.905
+      },
+      {
+        "dropped": "B4: Our technical strategy is shaped by competitive positioning and customer willingness to pay.",
+        "spearman": 0.976
+      },
+      {
+        "dropped": "B5: Our product roadmap reflects what the market demands, and we pivot quickly when customer feedback requires it.",
+        "spearman": 0.976
+      },
+      {
+        "dropped": "B6: We build technology that solves real problems for paying customers.",
+        "spearman": 0.778
+      },
+      {
+        "dropped": "B7: You'll collaborate with colleagues who understand that great technology must also make financial sense.",
+        "spearman": 0.786
+      }
+    ],
+    "min_spearman": 0.778,
+    "mean_spearman": 0.932,
+    "robust": false
+  },
+  "axis_separation": [
+    {
+      "axes": [
+        "craft",
+        "performance"
+      ],
+      "vector_cosine": 0.093,
+      "chunk_r": 0.127,
+      "chunk_p": 0.371,
+      "n_chunks": 52,
+      "separated": true
+    }
+  ],
+  "control_decoupling": [
+    {
+      "axis": "altruism",
+      "level": "chunk",
+      "n_years": 8,
+      "control_r": 0.206,
+      "control_p": 0.624,
+      "r_topk_vs_logn": 0.689,
+      "control_r_topk_vs_logn": 0.799,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "craft",
+      "level": "chunk",
+      "n_years": 8,
+      "control_r": 0.594,
+      "control_p": 0.121,
+      "r_topk_vs_logn": 0.797,
+      "control_r_topk_vs_logn": 0.799,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "inclusion",
+      "level": "chunk",
+      "n_years": 8,
+      "control_r": 0.317,
+      "control_p": 0.444,
+      "r_topk_vs_logn": 0.672,
+      "control_r_topk_vs_logn": 0.799,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "meritocracy",
+      "level": "chunk",
+      "n_years": 8,
+      "control_r": 0.669,
+      "control_p": 0.07,
+      "r_topk_vs_logn": 0.94,
+      "control_r_topk_vs_logn": 0.799,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "performance",
+      "level": "chunk",
+      "n_years": 8,
+      "control_r": 0.787,
+      "control_p": 0.02,
+      "r_topk_vs_logn": 0.927,
+      "control_r_topk_vs_logn": 0.799,
+      "diagnosis": "pool_size_suspect"
+    },
+    {
+      "axis": "techno_optimism",
+      "level": "chunk",
+      "n_years": 8,
+      "control_r": 0.145,
+      "control_p": 0.732,
+      "r_topk_vs_logn": 0.114,
+      "control_r_topk_vs_logn": 0.799,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "wellbeing",
+      "level": "chunk",
+      "n_years": 8,
+      "control_r": -0.02,
+      "control_p": 0.962,
+      "r_topk_vs_logn": 0.428,
+      "control_r_topk_vs_logn": 0.799,
+      "diagnosis": "decoupled"
+    },
+    {
+      "axis": "wellbeing_locus",
+      "level": "chunk",
+      "n_years": 8,
+      "control_r": 0.811,
+      "control_p": 0.014,
+      "r_topk_vs_logn": 0.883,
+      "control_r_topk_vs_logn": 0.799,
+      "diagnosis": "pool_size_suspect"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+I rewatched The Internship (2013) and ended up asking an AI to referee a fight between my data and my assumptions. The disagreement turned out to be the best part.
+
+Some background: I've been using embeddings to measure how tech companies talk about themselves — thousands of chunks of archived careers-page copy, scored year over year on axes like idealism vs. commercial pragmatism. My math says Google's idealism peaked in 2025 and bottomed out in 2011.
+
+The problem: my math built that ranking. I picked the reference sentences, I picked the scoring. If I got something subtly wrong, everything downstream inherits the mistake and still looks fine.
+
+So I borrowed a pattern the AI research world calls LLM-as-a-judge. I run a tournament: an AI judge gets real quotes from two different years — unlabeled, in random order, never seeing my scores — and picks which set sounds more like "work as social good." Forty matchups later, I have an independent ranking built entirely by reading, to compare against my ranking built entirely by geometry.
+
+Where the two agreed, I gained some confidence I wasn't just measuring my own assumptions.
+
+Where they disagreed, it got interesting. My axis scores Google's 2024 belonging-and-inclusion language as idealism, same as 2014's "make the world a better place through technology." The judge reads them differently. It turns out "idealism" isn't one thing — and a company can swap one flavor for another without the trend line ever flinching.
+
+I'm a software engineer, not a statistician, and a big part of this project has been learning how to check AI-assisted analysis without fooling myself. The full post walks through how the tournament works, what agreement does and doesn't prove, and why the disagreements taught me more than the agreements.
+
+Link in the comments.

@@ -1,0 +1,29 @@
+My embedding math says Google's careers page hit peak idealism in 2025 and rock bottom in 2011. The problem is that my math built that ranking, so my math agreeing with itself proves very little. I picked the pole sentences. I picked the scoring. If I got something subtly wrong, every number downstream inherits the mistake and everything still looks fine. I needed a second opinion from something that doesn't know how the rankings were made.
+
+So, with some help from Claude, I run a tournament. Think of each year of Google's careers page as a team. Twenty-four years means 276 possible matchups, but in order to save on API spend I randomly sample 40 of them. In each matchup, an AI judge (Claude Sonnet, in this case) gets the three most idealistic quotes from each of the two years and one question: which set sounds more like work-as-social-good, and which sounds more like work-as-commerce? It answers with a single letter. It never sees my scores, my axis, or which year is which.
+
+Here's a real matchup, 2000 vs 2025:
+
+2000: "Quality search. Quality people. Quality work environment. Here's a glimpse into Google… ••• YOU can be part of this experience! ••• Looking for a start-up adventure? We are rapidly hiring talented people to bring the latest and greatest technology to the web."
+
+2025: "We're applying Google's innovation, research, and resources to promote progress and expand opportunity for everyone. Building belonging for everyone means ensuring no one is left out and each person can thrive."
+
+The judge picked 2025. My embedding scores had already said the same thing by doing geometry on vectors, but the judge just determined the ranking by reading. The problem with using one AI to check another AI's work is—of course—that both of them are still AIs. A human-in-the-loop judgement would probably be more accurate, but also more time-consuming. But still, when two methods that work completely differently reach the same answer, that agreement means something.
+
+But the disagreements turned out to be more interesting.
+
+Here's another real matchup, 2014 vs 2024:
+
+2014: "At Google, we believe in making the world a better place through technology." / "Our mission is to organize the world's information and make it universally accessible."
+
+2024: "We deepened our global belonging efforts to build a world where belonging is the norm, not the exception." / "Google was awarded World's Most Inclusive Brand on Kantar's 2024 Brand Inclusion Index."
+
+My embedding scores rate 2024 slightly higher. The judge read the same quotes and picked 2014.
+
+I want to be fair to both of them: my scores had these two years nearly tied, and on near-ties, some disagreement is expected — that's what a near-tie means. But look at what the two years actually sound like, because that's where it gets interesting. 2014 is classic techno-utopianism: technology itself will make the world better, and you can help. 2024 is a different register entirely — belonging, inclusion, opportunity, and an award to prove it. Both are earnest claims about making the world better. They are not the same claim.
+
+My axis can't tell them apart. I built it to measure "idealism versus commercial pragmatism," and both of these score as idealism — the axis reports the amount of world-improving language, not the kind. The judge, reading like a person, seems to have an opinion about the kind: shown institutional belonging-copy and old-fashioned change-the-world copy at similar intensity, it reached for the latter. Neither instrument is wrong. They're answering slightly different questions, and until this matchup I hadn't noticed I was asking two questions at once.
+
+That's the thing the tournament actually taught me. I built it to catch errors in my rankings, and it mostly confirmed them. What it caught instead was an assumption: "idealism" isn't one thing, and a company can swap one flavor for another without my trend line ever flinching. Which raises a better question than the one I started with — not when was Google most idealistic, but what kind of idealistic has Google been, and when did the flavor change?
+
+I don't fully answer that here. But it reframes everything that follows.
