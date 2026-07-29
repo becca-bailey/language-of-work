@@ -37,6 +37,41 @@ const split = (items: { z: number; y: number; t: string }[]) => ({
   neu: items.filter((i) => i.z > -0.5 && i.z < 0.5),
 });
 
+// Mobile drill-in examples: strongest coded sentences per side, skipping
+// sentences whose score is carried by explicit gender terms or personal names
+// (same contamination classes the story's methods flag) so the cards show
+// register, not roster.
+const GENDERED = new RegExp(
+  "\\b(man|men|woman|women|he|she|him|her|hers|his|himself|herself|male|female|" +
+  "boys?|girls?|fathers?|mothers?|sons?|daughters?|brothers?|sisters?|husbands?|" +
+  "wives|wife|kings?|queens?|gender|maternity|paternity)\\b",
+  "i"
+);
+// Any two consecutive capitalized words (deliberately over-broad: also drops
+// "New York" etc. — we pick top examples from a pool, so over-filtering is
+// safe and under-filtering shows a founder quote as a "register" example).
+const NAMEY = /[A-Z][a-z]+ [A-Z]\.|[A-Z][a-z]+ [A-Z][a-z]+/;
+// Bare given names ("We persuaded Calvin to join") escape the pair regex;
+// corpus actors + common first names, checked against capitalized tokens.
+const FIRST_NAMES = new Set(
+  `calvin fiona jason eric karim junho anthony parth andrew brian palmer david
+   chris matt shaun michael heather reed patty sheryl mark john james sarah
+   emily emma anna laura kevin jeff steve bill paul peter tom dan daniel ryan
+   josh adam ben sam alex jordan tyler maria david jamie tobi kyle luke amy
+   lisa megan rachel hannah katie claire grace sofia diego juan carlos ana
+   priya raj wei ling yuki kenji fatima omar aisha`.split(/\s+/)
+);
+const hasGivenName = (t: string) =>
+  (t.match(/\b[A-Z][a-z]+\b/g) ?? []).some((w) => FIRST_NAMES.has(w.toLowerCase()));
+const topExamples = (items: { z: number; y: number; t: string }[], side: "masc" | "fem") => {
+  const pool = side === "masc"
+    ? items.filter((i) => i.z >= 0.5)
+    : [...items].reverse().filter((i) => i.z <= -0.5);
+  return pool
+    .filter((i) => !GENDERED.test(i.t) && !NAMEY.test(i.t) && !hasGivenName(i.t))
+    .slice(0, 3);
+};
+
 ---
 
 <div class="gender-unit-chart mode-rows relative my-6 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
@@ -95,11 +130,56 @@ const split = (items: { z: number; y: number; t: string }[]) => ({
       );
     })}
   </div>
-  <p class="mt-4 flex flex-wrap gap-3 text-[10px] text-neutral-400">
+  <div class="gu-mobile">
+    <div class="gu-m-axis font-mono text-[10.5px] text-neutral-400">
+      <span>← fem</span><span class="text-right">masc →</span>
+    </div>
+    {initial.map((c) => {
+      const masc = topExamples(c.items, "masc");
+      const fem = topExamples(c.items, "fem");
+      return (
+        <details class="gu-m-co">
+          <summary>
+            <span class="gu-m-head">
+              <span class="gu-m-name text-[12.5px] font-semibold">{c.name}</span>
+              <span class="gu-m-pcts font-mono text-[10.5px] tabular-nums text-neutral-500">
+                <b style="color:var(--chart-2)">{c.femPct}%</b> · <b style="color:var(--chart-contrast-1)">{c.mascPct}%</b>
+              </span>
+            </span>
+            <span class="gu-m-bar" aria-label={`${c.femPct}% feminine-coded, ${c.mascPct}% masculine-coded of ${c.n} sentences`}>
+              <span class="gu-m-half gu-m-fem"><i style={`width:${c.femPct}%`}></i></span>
+              <span class="gu-m-half gu-m-masc"><i style={`width:${c.mascPct}%`}></i></span>
+            </span>
+          </summary>
+          <div class="gu-m-cards">
+            {masc.length > 0 && masc.map((it) => (
+              <p class="gu-m-card" style="border-left-color:var(--chart-contrast-1)">
+                <span class="font-mono text-[10px]" style="color:var(--chart-contrast-1)">+{it.z.toFixed(2)}z · {it.y}</span><br />“{it.t}”
+              </p>
+            ))}
+            {fem.length > 0 && fem.map((it) => (
+              <p class="gu-m-card" style="border-left-color:var(--chart-2)">
+                <span class="font-mono text-[10px]" style="color:var(--chart-2)">{it.z.toFixed(2)}z · {it.y}</span><br />“{it.t}”
+              </p>
+            ))}
+            {masc.length === 0 && fem.length === 0 && (
+              <p class="gu-m-card text-neutral-500">No strongly coded, name-free sentences to show.</p>
+            )}
+          </div>
+        </details>
+      );
+    })}
+    <p class="mt-3 text-[10px] italic text-neutral-400">
+      Bars show each company's share of feminine- and masculine-coded sentences.
+      Tap a company for its strongest examples (sentences with names or explicit
+      gender terms are skipped here — see methods).
+    </p>
+  </div>
+  <p class="gu-legend mt-4 flex flex-wrap gap-3 text-[10px] text-neutral-400">
     <span><span class="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style="background:var(--chart-2)"></span>feminine-coded (z ≤ −0.5)</span>
     <span><span class="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style="background:var(--gu-neutral)"></span>neutral band (−0.5 … +0.5)</span>
     <span><span class="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style="background:var(--chart-contrast-1)"></span>masculine-coded (z ≥ +0.5)</span>
-    <span class="italic">one square = one sentence · deeper = further from neutral · hover for the sentence</span>
+    <span class="gu-hover-note italic">one square = one sentence · deeper = further from neutral · hover for the sentence</span>
   </p>
   <div class="gu-tip pointer-events-none absolute z-30 hidden w-max max-w-[320px] rounded-md border border-neutral-200 bg-white px-3 py-2 shadow-lg dark:border-neutral-700 dark:bg-neutral-900" role="tooltip" aria-hidden="true">
     <p class="gu-tip-z font-mono text-xs font-semibold"></p>
@@ -165,6 +245,36 @@ const split = (items: { z: number; y: number; t: string }[]) => ({
   .mode-cols .gu-masc { order: 3; }
   .mode-cols .gu-fem { border-right: none; padding-right: 0; }
   .mode-cols .gu-masc { padding-left: 0; }
+
+  /* ---- mobile: diverging bars + tap drill-in; squares hide below md ---- */
+  .gu-mobile { display: none; }
+  @media (max-width: 767px) {
+    .gu-cos, .gu-axis-note, .gu-tip,
+    [role="group"][aria-label="Layout"], [role="group"][aria-label="Sort columns"],
+    .gu-hover-note { display: none !important; }
+    .gu-mobile { display: block; }
+    .gu-m-axis { display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 6px; }
+    .gu-m-co { border-top: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); }
+    .gu-m-co summary {
+      list-style: none; cursor: pointer; padding: 8px 0 9px;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .gu-m-co summary::-webkit-details-marker { display: none; }
+    .gu-m-head { display: flex; justify-content: space-between; align-items: baseline; }
+    .gu-m-bar { display: grid; grid-template-columns: 1fr 1fr; margin-top: 4px; height: 8px; }
+    .gu-m-half { position: relative; height: 8px; }
+    .gu-m-fem { border-right: 1px solid color-mix(in srgb, var(--muted) 55%, transparent); }
+    .gu-m-half i { position: absolute; top: 0; height: 8px; border-radius: 2px; display: block; }
+    .gu-m-fem i { right: 1px; background: var(--chart-2); }
+    .gu-m-masc i { left: 1px; background: var(--chart-contrast-1); }
+    .gu-m-co[open] summary .gu-m-name { color: var(--chart-contrast-1); }
+    .gu-m-cards { padding: 0 0 10px; }
+    .gu-m-card {
+      border-left: 2px solid; padding: 2px 0 2px 8px; margin: 6px 0;
+      font-size: 0.8rem; line-height: 1.45;
+      color: color-mix(in srgb, currentColor 85%, transparent);
+    }
+  }
 </style>
 
 <script>

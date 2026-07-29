@@ -120,6 +120,15 @@ const ticks = [-1, -0.5, 0, 0.5];
     padding: 12px 14px 10px; box-shadow: 0 6px 24px rgb(0 0 0 / 0.15);
     font-size: 12.5px; line-height: 1.45; }
   .cg-tip.hidden { display: none; }
+  /* Coarse pointers get a bottom sheet instead of a cursor-anchored tooltip;
+     !important overrides the JS-set left/top from the shared show() path. */
+  @media (hover: none), (pointer: coarse) {
+    .cg-tip {
+      left: 8px !important; right: 8px; bottom: 8px; top: auto !important;
+      max-width: none; max-height: 45vh; overflow-y: auto;
+      box-shadow: 0 -4px 24px rgb(0 0 0 / 0.18);
+    }
+  }
   @media (max-width: 640px) {
     .concept-gender-plot { --cg-label-w: 128px; --cg-meta-w: 0px; }
     .cg-meta { display: none; }
@@ -154,12 +163,32 @@ const ticks = [-1, -0.5, 0, 0.5];
       tip.style.left = Math.min(x + 14, innerWidth - r.width - 10) + "px";
       tip.style.top = Math.min(y + 14, innerHeight - r.height - 10) + "px";
     };
-    root.addEventListener("pointermove", (e) => {
-      const row = (e.target as HTMLElement).closest<HTMLElement>(".cg-row");
-      if (!row) { tip.classList.add("hidden"); return; }
-      show(row, e.clientX, e.clientY);
-    });
-    root.addEventListener("pointerleave", () => tip.classList.add("hidden"));
+    // Touch: hover doesn't exist, so tap toggles the panel (styled as a
+    // bottom sheet via the media query below); tap outside or on the panel
+    // dismisses. Mouse keeps the follow-the-cursor tooltip.
+    const coarse = matchMedia("(hover: none), (pointer: coarse)").matches;
+    let openRow: HTMLElement | null = null;
+    const hide = () => { tip.classList.add("hidden"); openRow = null; };
+    if (!coarse) {
+      root.addEventListener("pointermove", (e) => {
+        const row = (e.target as HTMLElement).closest<HTMLElement>(".cg-row");
+        if (!row) { hide(); return; }
+        show(row, e.clientX, e.clientY);
+      });
+      root.addEventListener("pointerleave", hide);
+    } else {
+      root.addEventListener("click", (e) => {
+        const row = (e.target as HTMLElement).closest<HTMLElement>(".cg-row");
+        if (!row) return;
+        if (openRow === row) { hide(); return; }
+        openRow = row;
+        show(row, 0, 0);
+      });
+      tip.addEventListener("click", hide);
+      document.addEventListener("click", (e) => {
+        if (openRow && !root.contains(e.target as Node)) hide();
+      });
+    }
     root.addEventListener("focusin", (e) => {
       const row = (e.target as HTMLElement).closest<HTMLElement>(".cg-row");
       if (!row) return;
