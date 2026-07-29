@@ -221,7 +221,7 @@ export default function CraftAiTrajectories({ pairs }: { pairs: CompanyPair[] })
       </div>
 
       <div className="h-80 w-full">
-        <ParentSize>{({ width, height }) => (width > 0 && active ? <Chart pair={active} width={width} height={height} /> : null)}</ParentSize>
+        <ParentSize initialSize={{ width: 640, height: 320 }}>{({ width, height }) => (width > 0 && active ? <Chart pair={active} width={width} height={height} /> : null)}</ParentSize>
       </div>
 
       {active?.coverageNote && (

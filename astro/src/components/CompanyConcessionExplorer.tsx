@@ -139,7 +139,7 @@ export default function CompanyConcessionExplorer({ companies }: { companies: Co
         <span className="tabular-nums">r = {active.r >= 0 ? "+" : ""}{active.r.toFixed(2)}</span>
       </p>
       <div className="h-80 w-full">
-        <ParentSize>{({ width, height }) => (width > 0 ? <Chart rows={active.years} width={width} height={height} /> : null)}</ParentSize>
+        <ParentSize initialSize={{ width: 640, height: 320 }}>{({ width, height }) => (width > 0 ? <Chart rows={active.years} width={width} height={height} /> : null)}</ParentSize>
       </div>
     </div>
   );

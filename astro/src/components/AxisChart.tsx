@@ -252,7 +252,7 @@ function Chart({
 export default function AxisChart(props: Props) {
   return (
     <div className="h-90 w-full">
-      <ParentSize>
+      <ParentSize initialSize={{ width: 640, height: 320 }}>
         {({ width, height }) =>
           width > 0 ? <Chart {...props} width={width} height={height} /> : null
         }

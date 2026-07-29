@@ -222,7 +222,7 @@ function Chart({ data, width }: { data: PowerStory; width: number }) {
 
 export default function PowerCultureChart({ data }: { data: PowerStory }) {
   return (
-    <ParentSize>
+    <ParentSize initialSize={{ width: 640, height: 320 }}>
       {({ width }) => (width > 0 ? <Chart data={data} width={width} /> : null)}
     </ParentSize>
   );

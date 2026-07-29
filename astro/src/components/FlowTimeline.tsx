@@ -85,7 +85,7 @@ function Chart({ data, width, height }: { data: FlowData; width: number; height:
 export default function FlowTimeline({ data }: { data: FlowData }) {
   return (
     <div className="h-80 w-full">
-      <ParentSize>{({ width, height }) => (width > 0 ? <Chart data={data} width={width} height={height} /> : null)}</ParentSize>
+      <ParentSize initialSize={{ width: 640, height: 320 }}>{({ width, height }) => (width > 0 ? <Chart data={data} width={width} height={height} /> : null)}</ParentSize>
     </div>
   );
 }

@@ -98,7 +98,7 @@ export default function RegisterChart({ years }: { years: DeiYearScore[] }) {
   return (
     <div>
       <div className="h-48 w-full">
-        <ParentSize>{({ width, height }) => width > 0 ? <Chart years={years} width={width} height={height} /> : null}</ParentSize>
+        <ParentSize initialSize={{ width: 640, height: 320 }}>{({ width, height }) => width > 0 ? <Chart years={years} width={width} height={height} /> : null}</ParentSize>
       </div>
       <div className="mt-2 flex flex-wrap gap-3 text-[10px] text-neutral-500">
         {REGISTER_ORDER.map((reg) => (

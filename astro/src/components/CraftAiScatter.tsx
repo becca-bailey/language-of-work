@@ -150,7 +150,7 @@ function Chart({ points, width, height }: { points: ScatterPoint[]; width: numbe
 export default function CraftAiScatter({ points }: { points: ScatterPoint[] }) {
   return (
     <div className="h-96 w-full">
-      <ParentSize>{({ width, height }) => (width > 0 ? <Chart points={points} width={width} height={height} /> : null)}</ParentSize>
+      <ParentSize initialSize={{ width: 640, height: 320 }}>{({ width, height }) => (width > 0 ? <Chart points={points} width={width} height={height} /> : null)}</ParentSize>
     </div>
   );
 }

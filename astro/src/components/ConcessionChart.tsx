@@ -165,7 +165,7 @@ function Chart({ rows, width, height }: { rows: ConcessionRow[]; width: number; 
 export default function ConcessionChart({ rows }: { rows: ConcessionRow[] }) {
   return (
     <div className="h-90 w-full">
-      <ParentSize>{({ width, height }) => (width > 0 ? <Chart rows={rows} width={width} height={height} /> : null)}</ParentSize>
+      <ParentSize initialSize={{ width: 640, height: 320 }}>{({ width, height }) => (width > 0 ? <Chart rows={rows} width={width} height={height} /> : null)}</ParentSize>
     </div>
   );
 }

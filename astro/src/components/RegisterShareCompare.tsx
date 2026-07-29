@@ -110,7 +110,7 @@ export default function RegisterShareCompare({
   return (
     <div>
       <div className="w-full" style={{ height }}>
-        <ParentSize>
+        <ParentSize initialSize={{ width: 640, height: 320 }}>
           {({ width, height: h }) =>
             width > 0 ? <Chart rows={rows} width={width} height={h} /> : null
           }

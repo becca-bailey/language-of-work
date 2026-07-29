@@ -437,7 +437,7 @@ export default function StoryRegisterChart({ companies }: Props) {
 
   return (
     <div className="space-y-1">
-      <ParentSize>
+      <ParentSize initialSize={{ width: 640, height: 320 }}>
         {({ width }) => (width > 0 ? <AggregateLine companies={withRegisters} years={years} width={width} /> : null)}
       </ParentSize>
       {groups.map((g) => (
@@ -448,7 +448,7 @@ export default function StoryRegisterChart({ companies }: Props) {
             {g.companies.map((c) => (
               <div key={c.id}>
                 <p className="text-[11px] font-medium text-neutral-600 dark:text-neutral-400">{c.displayName}</p>
-                <ParentSize>
+                <ParentSize initialSize={{ width: 640, height: 320 }}>
                   {({ width }) => (width > 0 ? <CompanyRow company={c} years={years} maxShare={maxShare} width={width} /> : null)}
                 </ParentSize>
               </div>

@@ -72,7 +72,7 @@ function Chart({ rows, width, height }: { rows: AxisSpikeRow[]; width: number; h
 export default function AxisSpikeChart({ rows }: { rows: AxisSpikeRow[] }) {
   return (
     <div className="h-72 w-full">
-      <ParentSize>{({ width, height }) => (width > 0 ? <Chart rows={rows} width={width} height={height} /> : null)}</ParentSize>
+      <ParentSize initialSize={{ width: 640, height: 320 }}>{({ width, height }) => (width > 0 ? <Chart rows={rows} width={width} height={height} /> : null)}</ParentSize>
     </div>
   );
 }

@@ -141,7 +141,7 @@ export default function MaterialDeiChart({ data }: { data: MaterialDeiData }) {
         ))}
       </div>
       <div className="h-80 w-full">
-        <ParentSize>{({ width, height }) => (width > 0 ? <Chart data={data} width={width} height={height} /> : null)}</ParentSize>
+        <ParentSize initialSize={{ width: 640, height: 320 }}>{({ width, height }) => (width > 0 ? <Chart data={data} width={width} height={height} /> : null)}</ParentSize>
       </div>
     </div>
   );

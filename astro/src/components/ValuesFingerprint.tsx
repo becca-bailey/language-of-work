@@ -125,7 +125,7 @@ function Chart({ axes, width }: Props & { width: number }) {
 
 export default function ValuesFingerprint(props: Props) {
   return (
-    <ParentSize>
+    <ParentSize initialSize={{ width: 640, height: 320 }}>
       {({ width }) => (width > 0 ? <Chart {...props} width={width} /> : null)}
     </ParentSize>
   );

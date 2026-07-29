@@ -7,6 +7,13 @@
       "runtimeArgs": ["--prefix", "astro", "run", "dev", "--", "--port", "4399"],
       "port": 4399,
       "autoPort": false
+    },
+    {
+      "name": "astro-preview",
+      "runtimeExecutable": "/Users/becca/.nvm/versions/node/v22.14.0/bin/npm",
+      "runtimeArgs": ["--prefix", "astro", "run", "preview", "--", "--port", "4398"],
+      "port": 4398,
+      "autoPort": false
     }
   ]
 }

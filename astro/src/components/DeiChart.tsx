@@ -149,7 +149,7 @@ function Chart({
 export default function DeiChart(props: Props) {
   return (
     <div className="h-96 w-full">
-      <ParentSize>{({ width, height }) => width > 0 ? <Chart {...props} width={width} height={height} /> : null}</ParentSize>
+      <ParentSize initialSize={{ width: 640, height: 320 }}>{({ width, height }) => width > 0 ? <Chart {...props} width={width} height={height} /> : null}</ParentSize>
     </div>
   );
 }

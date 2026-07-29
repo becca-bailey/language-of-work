@@ -18,6 +18,14 @@ const essays = (
 // Companion writing, published on Substack.
 const relatedWriting = [
   {
+    title: "Masculine Energy",
+    href: "https://beccabailey.substack.com/p/masculine-energy",
+  },
+  {
+    title: "Deeply Resentful",
+    href: "https://beccabailey.substack.com/p/deeply-resentful",
+  },
+  {
     title: "The Death of Changing the World",
     href: "https://open.substack.com/pub/beccabailey/p/the-death-of-changing-the-world",
   },
@@ -46,21 +54,26 @@ const sourceUrl = "https://github.com/becca-bailey/language-of-work";
       <p>
         Careers pages are corporate self-presentation at its most deliberate —
         every word chosen to attract workers. This is a computational study of
-        a quarter century of them (more than a dozen tech companies, 1999–2026,
+        a quarter century of them (two dozen tech companies, 1999–2026,
         reconstructed from the Wayback Machine), read as a longitudinal record:
         what the language does over time, when it shifts, and why. Movement is
         tracked as position along embedding-based semantic axes.
       </p>
       <p>
-        The thread running through the studies is a <strong
+        The thread running through the studies is <strong
           class="font-medium text-neutral-800 dark:text-neutral-200"
-          >counterforces</strong
-        > idea: a workplace culture stays good not because leadership cares about
-        it, but while something specific holds ordinary decay back — mostly, workers
-        having somewhere else to go. When that leverage erodes, the language of values
-        lingers as liturgy while the practice underneath reverts. The 2010s bet that
-        a new generation would permanently fix work wasn't wrong so much as rented:
-        the gains tracked the labor market, and receded the moment it inverted.
+          >selection under leverage</strong
+        >: a careers page is an audience-selection device, and its language
+        records who the company needed to persuade — or was willing to lose —
+        at each moment. When workers had somewhere else to go, the pages
+        filled with belonging, care, and diversity commitments; as that
+        leverage receded, the concessions deflated, the surviving care
+        individualized, and an openly exclusionary register ("we're not for
+        everyone") spread. Underneath both swings, the language that serves
+        the employer — performance, merit, the unmeasured "high bar" — holds
+        steady in every market. The 2010s bet that a new generation would
+        permanently fix work wasn't wrong so much as rented: the gains
+        tracked the labor market, and receded the moment it inverted.
       </p>
     </div>
 
@@ -120,10 +133,26 @@ const sourceUrl = "https://github.com/becca-bailey/language-of-work";
           carries.
         </p>
         <p>
-          Every claim is stress-tested with coverage-controlled statistics, and
-          where the data can't carry a claim, the story says so rather than
-          reaching — the honest nulls matter as much as the findings. Published
-          as interactive data stories built with Astro, React, and visx; the
+          The embedding rankings are checked against instruments that fail
+          differently. An LLM judge re-ranks the same years by reading the
+          actual quotes — pairwise, order-randomized, with the concept
+          paraphrased so the judge never sees the axis's own pole phrases —
+          and an axis publishes only where the two rankings agree (Spearman
+          &ge; 0.6; Netflix's performance axis passes at 0.62 by year and 0.77
+          by sentence, while the craft axis fails the same bar and stays
+          unpublished). The gender-coding axis carries its own battery:
+          known-answer occupation anchors, split-half reliability across its
+          sixteen word pairs, agreement with the published Gaucher gendered-word
+          dictionary (Spearman 0.66), and a masking test showing the company
+          ranking survives removal of every sentence containing gendered terms
+          or personal names (rank correlations 0.99 and 0.94).
+        </p>
+        <p>
+          Where the data can't carry a claim, the story says so rather than
+          reaching — the honest nulls matter as much as the findings. Story
+          prose is an AI-assisted synthesis of my drafts and the data,
+          reviewed and edited by me before publishing. Published as
+          interactive data stories built with Astro, React, and visx; the
           pipeline is Python (embeddings, LLM APIs, pandas/scipy) over a
           content-hash DAG.
         </p>
@@ -230,6 +259,25 @@ const sourceUrl = "https://github.com/becca-bailey/language-of-work";
           </a>
         </li>
       </ul>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="text-sm font-medium uppercase tracking-wide text-neutral-500">
+        About
+      </h2>
+      <p class="mt-2 max-w-prose text-sm text-neutral-500 dark:text-neutral-400">
+        I'm Becca Bailey, a software engineer. This project started as
+        curiosity about why job listings all sound the same, and grew into the
+        corpus and pipeline behind these stories. I'm not a trained researcher,
+        so the validation above is how I keep myself honest — and the code is
+        public so you can check. More of my work is at <a
+          href="https://becca.is"
+          target="_blank"
+          rel="noopener"
+          class="underline decoration-neutral-300 underline-offset-4 hover:text-neutral-900 dark:decoration-neutral-700 dark:hover:text-neutral-100"
+          >becca.is</a
+        >.
+      </p>
     </section>
   </main>
 </Layout>

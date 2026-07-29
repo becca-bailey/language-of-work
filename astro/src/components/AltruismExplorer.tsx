@@ -238,5 +238,5 @@ function Chart({ companies, width, featured, metricLabel }: Props & { width: num
 }
 
 export default function AltruismExplorer({ companies, featured, metricLabel }: Props) {
-  return <ParentSize>{({ width }) => (width > 0 ? <Chart companies={companies} width={width} featured={featured} metricLabel={metricLabel} /> : null)}</ParentSize>;
+  return <ParentSize initialSize={{ width: 640, height: 320 }}>{({ width }) => (width > 0 ? <Chart companies={companies} width={width} featured={featured} metricLabel={metricLabel} /> : null)}</ParentSize>;
 }
