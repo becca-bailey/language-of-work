@@ -73,7 +73,17 @@ def strip_nav(s: str) -> str:
     return rest if len(rest.split()) >= 5 else ""
 
 
-def company_sentences(company: str) -> list[tuple[int, str]]:
+def company_sentences(company: str, english_only: bool = False) -> list[tuple[int, str]]:
+    """Careers-register (mission_brand) sentences, (year, text).
+
+    english_only drops localized captures: whole non-English chunks first
+    (long text → reliable detection), then a corroborated per-sentence backstop
+    for mixed chunks (e.g. Coinbase's multi-language GDPR appendix on one
+    English page). Opt-in because the propagation tracker's published numbers
+    predate it.
+    """
+    if english_only:
+        from lowork.text_filter import is_english, is_english_sentence
     path = company_dir(company) / "embeddings.parquet"
     if not path.exists():
         return []
@@ -81,9 +91,11 @@ def company_sentences(company: str) -> list[tuple[int, str]]:
     mb = df[df["label"] == "mission_brand"]
     rows: list[tuple[int, str]] = []
     for _, r in mb.iterrows():
+        if english_only and not is_english(r["text"]):
+            continue
         for s in split_sentences(r["text"]):
             s = strip_nav(s)
-            if len(s.split()) >= 5:
+            if len(s.split()) >= 5 and not (english_only and not is_english_sentence(s)):
                 rows.append((int(r["year"]), s))
     if company == "netflix":  # seed the 2009 deck as the origin
         deck = company_dir("netflix") / "canon" / "culture_deck_2009.md"
