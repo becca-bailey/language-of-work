@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<script type="text/javascript">var _rollbarConfig = {"accessToken":"a9e544e2eb674f56b12d47e1d2ed4cd1","captureUncaught":true,"payload":{"environment":"production"},"hostBlockList":["linkedin.com","recruitics.com"],"checkIgnore":function(isUncaught, args, payload) {
+  try {
+    var isPhantomJS = window.navigator.userAgent.match(/phantomjs/i);
+    var isSplash= window.navigator.userAgent.match(/splash version/i);
+    var firefox = window.navigator.userAgent.match(/(firefox)\/(\w+)/i); // JSON, must escape slash
+    var chrome = window.navigator.userAgent.match(/(chrome)\/(\w+)/i); // JSON, must escape slash
+
+    var browserExtensionOrAutomationFile = function(frame) {
+      var regExPatterns = [/^chrome-extension/, /^safari-extension/, /^moz-extension/, /^pptr/];
+      return regExPatterns.some(function(regEx) {
+        return regEx.test(frame.filename);
+      });
+    }
+
+    var isBrowserExtensionOrAutomation = payload.body.trace &&
+                                         payload.body.trace.frames &&
+                                         payload.body.trace.frames.some(browserExtensionOrAutomationFile);
+
+    var isFirefoxLessThan50;
+    if (firefox) {
+      var majorVersion = Number(firefox[2]);
+      isFirefoxLessThan50 = majorVersion < 50
+    }
+
+    var isChromeLessThan50;
+    if (chrome) {
+      var chromeVersion = Number(chrome[2]);
+      isChromeLessThan50 = chromeVersion < 50;
+    }
+
+    return Boolean(isPhantomJS) ||
+           Boolean(isSplash) ||
+           Boolean(isFirefoxLessThan50) ||
+           Boolean(isChromeLessThan50) ||
+           Boolean(isBrowserExtensionOrAutomation);
+  } catch (e) {
+    return true;
+  }
+}
+,"ignoredMessages":["BetterJsPop","vungle","Script error","awliwidget"]};</script>
+<script type="text/javascript">!function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.22.0/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||"object"==typeof a&&a.network)&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);</script>
+  <title>Job Application for Data Engineering &amp; Web Crawling at xAI</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0" />
+  <meta id="rendered-by" content="jben" />
+  <link rel="stylesheet" media="all" href="https://boards.cdn.greenhouse.io/assets/application-37fb77937add45f47b8aa211c6e36baf590f4e1ddea883f7fa2967cb913854f4.css" />
+<link rel="stylesheet" media="all" href="https://boards.cdn.greenhouse.io/assets/responsive-95ad71d0f9cbcb13adb28ed74687b15c00a64bb1c4a6ab47ab9072493777804c.css" />
+  <script class="js-metadata" data-key="Polyglot.translation" data-type="json" data-value="{&quot;captcha&quot;:{&quot;suspected_bot&quot;:&quot;SUSPECTED BOT: Captcha failed with direct HTTP form post IP %{ip}\n&quot;,&quot;failed_to_load&quot;:&quot;Google Recaptcha service cannot be loaded.&quot;,&quot;failed&quot;:&quot;Oops! We were unable to verify your Captcha response.&quot;,&quot;help_center&quot;:&quot;Please reach out to our support team via our \u003ca target=\&quot;_blank\&quot; href=\&quot;https://support.greenhouse.io/hc/en-us/sections/360011273391-Connecting-with-support\&quot;\u003ehelp center\u003c/a\u003e.&quot;,&quot;geetest_failed_to_load&quot;:&quot;Geetest Captcha service failed to load.&quot;,&quot;fallback&quot;:&quot;Please complete the reCAPTCHA above.&quot;},&quot;job_post&quot;:{&quot;add_education&quot;:&quot;+ Add another education&quot;,&quot;add_employment&quot;:&quot;+ Add another employment&quot;,&quot;almost_there&quot;:&quot;Almost there! Review your information then click &#39;Submit Application&#39; to apply.&quot;,&quot;apply_for_this_job&quot;:&quot;Apply for this Job&quot;,&quot;apply_now&quot;:&quot;Apply Now&quot;,&quot;apply_with_linkedin&quot;:&quot;Apply With LinkedIn&quot;,&quot;attach&quot;:&quot;Attach&quot;,&quot;attachment&quot;:&quot;An attachment&quot;,&quot;at_org&quot;:&quot;at %{organization_name}&quot;,&quot;back_to_application&quot;:&quot;Back to application&quot;,&quot;cancel&quot;:&quot;Cancel&quot;,&quot;city&quot;:&quot;City&quot;,&quot;company_name&quot;:&quot;Company Name&quot;,&quot;cover_letter&quot;:&quot;Cover Letter&quot;,&quot;current&quot;:&quot;Current&quot;,&quot;degree&quot;:&quot;Degree&quot;,&quot;discipline&quot;:&quot;Discipline&quot;,&quot;drop_files_here&quot;:&quot;Drop files here&quot;,&quot;education&quot;:&quot;Education&quot;,&quot;education_end_date&quot;:&quot;End Date&quot;,&quot;education_start_date&quot;:&quot;Start Date&quot;,&quot;email&quot;:&quot;Email&quot;,&quot;employment&quot;:&quot;Employment&quot;,&quot;field_chosen&quot;:&quot;%{field} chosen&quot;,&quot;file_types&quot;:&quot;File types&quot;,&quot;first_name&quot;:&quot;First Name&quot;,&quot;loading_attachment&quot;:&quot;Loading attachment from %{uploader}...&quot;,&quot;locate_me&quot;:&quot;Locate me&quot;,&quot;location&quot;:&quot;Location&quot;,&quot;last_name&quot;:&quot;Last Name&quot;,&quot;name&quot;:&quot;Name&quot;,&quot;no&quot;:&quot;No&quot;,&quot;optional&quot;:&quot;Optional&quot;,&quot;or&quot;:&quot;or&quot;,&quot;paste&quot;:&quot;or enter manually&quot;,&quot;phone&quot;:&quot;Phone&quot;,&quot;please_select&quot;:&quot;Please select&quot;,&quot;question&quot;:&quot;Question&quot;,&quot;required&quot;:&quot;Required&quot;,&quot;remove_attachment&quot;:&quot;Remove attachment&quot;,&quot;resume&quot;:&quot;Resume/CV&quot;,&quot;school_name&quot;:&quot;School&quot;,&quot;share_this_job&quot;:&quot;Share this job: &quot;,&quot;select&quot;:&quot;Select&quot;,&quot;select_one&quot;:&quot;Select one&quot;,&quot;select_one_or_more&quot;:&quot;Select one or more&quot;,&quot;select_field&quot;:&quot;Select a %{field}&quot;,&quot;submit_application&quot;:&quot;Submit Application&quot;,&quot;file_uploader_timeout&quot;:&quot;Unable to load %{uploader}. It has either timed out or you can try again later.&quot;,&quot;textarea&quot;:&quot;Enter manually&quot;,&quot;title&quot;:&quot;Title&quot;,&quot;view_more_jobs&quot;:&quot;View more jobs at %{organization_name}&quot;,&quot;view_all_jobs&quot;:&quot;View all jobs&quot;,&quot;without_browser_support&quot;:&quot;The browser does not support %{uploader} upload.&quot;,&quot;year&quot;:&quot;Year&quot;,&quot;yes&quot;:&quot;Yes&quot;},&quot;validation&quot;:{&quot;at_least_one_required&quot;:&quot;At least one option must be checked&quot;,&quot;consent_is_required&quot;:&quot;Please accept the terms to proceed&quot;,&quot;did_you_mean&quot;:&quot;Did you mean&quot;,&quot;empty_attachment&quot;:&quot;Attached files must be larger than 0 bytes&quot;,&quot;field_is_required&quot;:&quot;%{field} is required.&quot;,&quot;invalid_date&quot;:&quot;End Date cannot be before Start Date&quot;,&quot;invalid_email&quot;:&quot;Please use the format \&quot;text@example.com\&quot;&quot;,&quot;invalid_field&quot;:&quot;Invalid %{field}&quot;,&quot;invalid_location&quot;:&quot;Please enter your location and select it from the dropdown&quot;,&quot;month_format&quot;:&quot;Month must be a number between 1 and 12&quot;,&quot;this_field_is_required&quot;:&quot;This field is required.&quot;,&quot;year_format&quot;:&quot;Year must be a number between 1900 and 2100&quot;},&quot;errors&quot;:{&quot;board_misconfigured&quot;:&quot;This job board is not yet configured. Please complete configuration in Greenhouse before embedding.&quot;,&quot;board_no_longer_available&quot;:&quot;The board you are looking for is no longer open.&quot;,&quot;job_not_live&quot;:{&quot;job_closed&quot;:&quot;The job you are looking for is no longer open.&quot;,&quot;board_closed&quot;:&quot;The board on which this job was on is no longer open.&quot;},&quot;job_not_found&quot;:&quot;The job you are looking for was not found.&quot;,&quot;job_processing_timed_out&quot;:&quot;Uh oh!  Your application took too long to process.  If you&#39;re attaching lots of files, try making them smaller.&quot;,&quot;job_stale&quot;:&quot;The company you are applying to has updated this job application. Please save your responses, reload the page, and try to submit again.&quot;,&quot;missing_application&quot;:&quot;Missing required field: job_application&quot;},&quot;api_errors&quot;:{&quot;empty_file&quot;:&quot;Attachment &#39;%{field}&#39; is empty. Please provide a non-empty file.&quot;,&quot;invalid_file&quot;:&quot;Attachment &#39;%{field}&#39; is invalid. Please provide a valid file attachment.&quot;},&quot;job_application_request&quot;:{&quot;request_received&quot;:&quot;Thanks for your submission.&quot;},&quot;data_compliance&quot;:{&quot;gdpr&quot;:{&quot;disclaimer&quot;:&quot;%{company_name} has my consent to collect, store, and process my data for the purpose of considering me for employment, and for up to %{retention_period} days thereafter.&quot;,&quot;processing_disclaimer&quot;:&quot;By checking this box, I agree to allow %{company_name} to store and process my data for the purpose of considering my eligibility regarding my current application for employment.&quot;,&quot;retention_disclaimer&quot;:&quot;By checking this box, I agree to allow %{company_name} to retain my data for future opportunities for employment for up to %{retention_period} days after the conclusion of consideration of my current application for employment.&quot;,&quot;disabled_tooltip&quot;:&quot;You must consent to the processing of your data in order to activate this checkbox&quot;}}}" type="text/configuration"></script><script class="js-metadata" data-key="errorImageSource" data-type="string" data-value="https://boards.cdn.greenhouse.io/assets/svg/error-69893c3b3f8f27477ac24dbcb3d8e569fcc265882e77cd464d2bad69dd7d3918.svg" type="text/configuration"></script>
+    <meta property="og:title" content="Data Engineering &amp; Web Crawling"></meta>
+    <meta property="og:description" content="Bay Area (San Francisco and Palo Alto)"></meta>
+    <meta property="og:url" content="https://boards.greenhouse.io/xai/jobs/4099460007"></meta>
+    <meta property="og:image" content="https://s7-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/375/800/original/inverse_xai_logo_5.png?1696284514"></meta>
+    <meta property="og:type" content="article"></meta>
+
+        <link rel="stylesheet" media="screen" href="https://s7-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/custom_css_files/400/375/800/original/simple_greenhouse_job_board.css?1696535494" />
+
+
+
+</head>
+<body>
+  <div id="wrapper">
+    <div id="main" class="accessible">
+      
+
+
+
+<div id='app_body' style='padding-left:20px'>
+  <div class="logo-container">
+      <div id="logo"><a target="_blank" href="https://x.ai"><img alt="xAI Logo" src="https://s7-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/375/800/resized/inverse_xai_logo_5.png?1696284514" width="75" height="75" /></a></div>
+  </div>
+
+    <div id="header">
+    <a href='#app' id='apply_button' class='button'>
+      Apply Now
+    </a>
+
+  <h1 class='app-title'>Data Engineering &amp; Web Crawling</h1>
+
+  <span class='company-name'>
+    at xAI
+  </span>
+
+    
+
+    <div class='location'>
+      Bay Area (San Francisco and Palo Alto)
+    </div>
+</div>
+  <div id="content" class="">
+    
+
+    <h2><span style="font-weight: 400;">About xAI</span></h2>
+<p><span style="font-weight: 400;">xAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge.</span></p>
+<p><span style="font-weight: 400;">Our team is small, highly motivated, and focused on engineering excellence. This is an organization for those who appreciate challenging themselves and who thrive on curiosity. Engineers are encouraged to work across multiple areas of the company, and as a result all engineers and researchers share the title “Member of Technical Staff”.</span></p>
+<p><span style="font-weight: 400;">We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important.</span></p>
+<p><span style="font-weight: 400;">All engineers and researchers are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates.</span></p>
+<p><span style="font-weight: 400;">xAI does not have recruiters. Every application is reviewed directly by a technical member of the team.</span></p>
+<h2><span style="font-weight: 400;">Tech Stack</span></h2>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Rust</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Python</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Spark</span></li>
+</ul>
+<h2><span style="font-weight: 400;">Focus</span></h2>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Building petabyte-scale, high-throughput data processing systems.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Managing workloads across large cloud compute clusters.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Pre-processing datasets for AI training.</span></li>
+</ul>
+<h2><span style="font-weight: 400;">Ideal Experience</span></h2>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Building bespoke data processing libraries from scratch.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Designing and implementing distributed systems in Rust.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Keeping up with state-of-the-art techniques for preparing AI training data.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Organizing and meticulously bookkeeping data across multiple clouds, of multiple modalities, and from many sources.</span></li>
+</ul>
+
+    
+
+    
+</div>
+
+    <div id='application' class="">
+      <a name='app'></a>
+      <form id="application_form" enctype="multipart/form-data" action="https://boards.greenhouse.io/xai/jobs/4099460007" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="fingerprint" id="fingerprint" value="45ef8fbd676dcf7e26e99c75901750d21c65c521" />
+        <input type="hidden" name="render_date" id="render_date" value="2023-11-04 03:13:27 +0000" />
+        <input type="hidden" name="page_load_time" id="page_load_time" value="1699067607" />
+
+
+
+        <div id='main_fields'>
+            <h2 class='heading'>Apply for this Job</h2>
+
+            <div class='required-fields'>
+              <span class='asterisk'>*</span> Required
+            </div>
+
+          <div class='clear'></div>
+
+
+          
+<script type="text/configuration" data-email-address-validator-url="https://email-address-validator.us.greenhouse.io/address/validate"></script>
+
+<div class='field'>
+  <label for='first_name'>First Name <span class='asterisk'>*</span></label>
+  <input type='text' id='first_name' name='job_application[first_name]' aria-required="true" maxlength="255" autocomplete="given-name"/>
+</div>
+<div class='field'>
+  <label for='last_name'>Last Name <span class='asterisk'>*</span></label>
+  <input type='text' id='last_name' name='job_application[last_name]' aria-required="true" maxlength="255" autocomplete="family-name" />
+</div>
+<div class='field'>
+  <label for='email'>Email <span class='asterisk'>*</span></label>
+  <input type='text' id='email' name='job_application[email]' aria-required="true" maxlength="255" autocomplete="email" />
+</div>
+<div class='field'>
+  <label for='phone'>Phone</label>
+  <input type='text' id='phone' name='job_application[phone]' maxlength="255" autocomplete="tel" />
+</div>
+
+<div id='dev-fields' aria-hidden="true">
+  <div class='field'>
+    <label for='dev-field-1'></label>
+    <input type='text' id='dev-field-1' name='dev_field_1' maxlength="255" autocomplete="off"/>
+  </div>
+</div>
+
+
+
+          
+<div class='field'>
+  <fieldset id='resume_fieldset' aria-describedby="validate_resume">
+    <legend>
+      <label aria-label="" id="resume">
+        Resume/CV
+      </label>
+    </legend>
+  
+<div class="attach-or-paste " data-allow-s3="true" data-field="resume" data-file-types="[&quot;pdf&quot;,&quot;doc&quot;,&quot;docx&quot;,&quot;txt&quot;,&quot;rtf&quot;]" data-model="job_application">
+
+  <div class="drop-zone hidden">
+    Drop files here
+  </div>
+
+  <div id="resume_chosen" class="chosen">
+    <img alt="resume chosen" src="https://boards.cdn.greenhouse.io/assets/file-296f4c2a42607d24e6901b7c58b0693d4178df7fe4edf1b50e9585efdfad7d39.png" />&nbsp;&nbsp;
+    <span id="resume_filename"></span>
+    <button name="button" type="button" class="unstyled-button remove" aria-label="Remove attachment"><img width="11" height="11" alt="Remove attachment" src="https://boards.cdn.greenhouse.io/assets/cancellation/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png" /></button>
+</div>
+  <div class="link-container">
+    <button name="button" type="button" data-source="attach" class="unstyled-button link-button" aria-describedby="resume-allowable-file-types">Attach</button>
+
+        <a data-source="dropbox" href="#">Dropbox</a>
+
+        <a data-source="google-drive" href="#">Google Drive</a>
+
+      <button name="button" type="button" data-source="paste" class="unstyled-button link-button" aria-pressed="false">or enter manually</button>
+</div>  <div data-messages="uploaders"></div>
+
+  <div class="validation-anchor" id="validate_resume" style="display: none"></div>
+  <div id="resume-allowable-file-types" class="file-types">
+    (File types: pdf, doc, docx, txt, rtf)
+  </div>
+
+  <div class="progress-bar">
+    <div class="upload">
+      <div class="progress"><div class="bar" style="width: 0%"></div></div>
+    </div>
+    <a href="#" class="cancel">
+      <img width="11" height="11" alt="Cancel" src="https://boards.cdn.greenhouse.io/assets/cancellation/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png" />
+    </a>
+</div>
+    <textarea name="job_application[resume_text]" id="resume_text" class="paste" title="Enter manually">
+</textarea>
+
+</div>
+
+  </fieldset>
+</div>
+
+  <div class='field'>
+    <fieldset id='cover_letter_fieldset' aria-describedby="validate_cover_letter">
+      <legend>
+        <label id='cover_letter' aria-label="">
+          Cover Letter
+        </label>
+      </legend>
+      
+<div class="attach-or-paste " data-allow-s3="true" data-field="cover_letter" data-file-types="[&quot;pdf&quot;,&quot;doc&quot;,&quot;docx&quot;,&quot;txt&quot;,&quot;rtf&quot;]" data-model="job_application">
+
+  <div class="drop-zone hidden">
+    Drop files here
+  </div>
+
+  <div id="cover_letter_chosen" class="chosen">
+    <img alt="cover_letter chosen" src="https://boards.cdn.greenhouse.io/assets/file-296f4c2a42607d24e6901b7c58b0693d4178df7fe4edf1b50e9585efdfad7d39.png" />&nbsp;&nbsp;
+    <span id="cover_letter_filename"></span>
+    <button name="button" type="button" class="unstyled-button remove" aria-label="Remove attachment"><img width="11" height="11" alt="Remove attachment" src="https://boards.cdn.greenhouse.io/assets/cancellation/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png" /></button>
+</div>
+  <div class="link-container">
+    <button name="button" type="button" data-source="attach" class="unstyled-button link-button" aria-describedby="cover_letter-allowable-file-types">Attach</button>
+
+        <a data-source="dropbox" href="#">Dropbox</a>
+
+        <a data-source="google-drive" href="#">Google Drive</a>
+
+      <button name="button" type="button" data-source="paste" class="unstyled-button link-button" aria-pressed="false">or enter manually</button>
+</div>  <div data-messages="uploaders"></div>
+
+  <div class="validation-anchor" id="validate_cover_letter" style="display: none"></div>
+  <div id="cover_letter-allowable-file-types" class="file-types">
+    (File types: pdf, doc, docx, txt, rtf)
+  </div>
+
+  <div class="progress-bar">
+    <div class="upload">
+      <div class="progress"><div class="bar" style="width: 0%"></div></div>
+    </div>
+    <a href="#" class="cancel">
+      <img width="11" height="11" alt="Cancel" src="https://boards.cdn.greenhouse.io/assets/cancellation/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png" />
+    </a>
+</div>
+    <textarea name="job_application[cover_letter_text]" id="cover_letter_text" class="paste" title="Enter manually">
+</textarea>
+
+</div>
+
+    </fieldset>
+  </div>
+
+
+
+        </div>
+
+            <hr/>
+
+          <div id='custom_fields'>
+            <div class="field">
+  <label>LinkedIn Profile
+    <br/>
+    
+    <input type="hidden" name="job_application[answers_attributes][0][question_id]" id="job_application_answers_attributes_0_question_id" value="4629837007" />
+<input type="hidden" name="job_application[answers_attributes][0][priority]" id="job_application_answers_attributes_0_priority" value="0" />
+
+<input type="text" name="job_application[answers_attributes][0][text_value]" id="job_application_answers_attributes_0_text_value" aria-required="false" maxlength="255" autocomplete="custom-question-linkedin-profile" />
+
+
+</label></div>
+<div class="field">
+  <label>Website
+    <br/>
+    
+    <input type="hidden" name="job_application[answers_attributes][1][question_id]" id="job_application_answers_attributes_1_question_id" value="4629836007" />
+<input type="hidden" name="job_application[answers_attributes][1][priority]" id="job_application_answers_attributes_1_priority" value="1" />
+
+<input type="text" name="job_application[answers_attributes][1][text_value]" id="job_application_answers_attributes_1_text_value" aria-required="false" maxlength="255" autocomplete="custom-question-website" />
+
+
+</label></div>
+
+          </div>
+
+
+
+
+          <div id='captcha_container' style="margin-top: 16px"></div>
+  <hr/>
+
+
+
+        <div id='error_message'></div>
+
+        <div id='captcha_error_message'>
+          Please reach out to our support team via our <a target="_blank" href="https://support.greenhouse.io/hc/en-us/sections/360011273391-Connecting-with-support">help center</a>.
+        </div>
+
+        <div id='captcha_fallback_message'>Please complete the reCAPTCHA above.</div>
+
+        <div id='submit_buttons'>
+          <input
+            type='button'
+            value='Submit Application'
+            id='submit_app'
+            class='button'>
+        </div>
+</form>    </div>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+      <div id="footer">
+    <span>Powered by</span>&nbsp;<a target="_blank" href="http://www.greenhouse.io/">
+      <img border="0" alt="Greenhouse Logo" id="gh_logo" src="https://boards.cdn.greenhouse.io/assets/greenhouse-in-app-logo-green-236d994ee39682bb46e214901c264de0df582c97e949e7c854c3531b79f00240.svg" width="100" height="30" />
+</a>    <div class="privacy-policy">
+      Read our <a href="http://www.greenhouse.io/privacy-policy">Privacy Policy</a>
+    </div>
+  </div>
+
+      <script src="https://boards.cdn.greenhouse.io/assets/application-117d8e9638784cef2f4c8e04346a031023417010284e5f30cb9346d58dcaac54.js"></script>
+
+  <div class="s3-upload-form" data-presigned-form="resume"></div>
+
+  <div class="s3-upload-form" data-presigned-form="cover_letter"></div>
+<script class="js-metadata" data-key="JBEN.hideCaptcha" data-type="boolean" data-value="false" type="text/configuration"></script><script class="js-metadata" data-key="JBEN.alternateCaptcha" data-type="boolean" data-value="false" type="text/configuration"></script><script class="js-metadata" data-key="JBEN.geetestPath" data-type="string" data-value="/geetest" type="text/configuration"></script><script class="js-metadata" data-key="JBEN.Recaptcha.publicKey" data-type="string" data-value="6LfZS8kaAAAAAG853sBcz6KRVtBgvRVFoF7qk4mL" type="text/configuration"></script><script class="js-metadata" data-key="JBEN.Recaptcha.checkboxPublicKey" data-type="string" data-value="6Le8YQAoAAAAAKEFkEzy2pAd7xCGNgDI037EDDUm" type="text/configuration"></script>      <script type="text/javascript">
+        var captchaLoadCallback = function() {
+          grecaptcha.enterprise.execute(JBEN.Recaptcha.publicKey, { action: 'load_job' }).then(function(token) {
+            // Future: send this assessment token to the server?
+          });
+        };
+      </script>
+      <script src='https://www.google.com/recaptcha/enterprise.js?onload=captchaLoadCallback&render=6LfZS8kaAAAAAG853sBcz6KRVtBgvRVFoF7qk4mL' async></script>
+
+  <script src="https://boards.cdn.greenhouse.io/assets/show_init-2f5fdd5c5ac90ad3c0ac0d76992d75eafc694581fdc565f42aa90e0fdc3c5d2c.js"></script>
+  
+
+
+  <script class="js-metadata" data-key="JBEN.PublicJobBoard.UncacheableAttributes.path" data-type="string" data-value="/uncacheable_attributes.json" type="text/configuration"></script><script class="js-metadata" data-key="LocationControl.Providers.Mapbox.apiKey" data-type="string" data-value="MAPBOX_PUBLIC_TOKEN_REDACTED" type="text/configuration"></script>
+  <script class="js-metadata" data-key="LocationControl.Providers.Pelias.apiKey" data-type="string" data-value="ge-39f1178289d5d0c5" type="text/configuration"></script>
+  <script type="application/ld+json">
+  {"@context":"schema.org","@type":"JobPosting","hiringOrganization":{"@type":"Organization","name":"xAI","logo":"https://s7-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/375/800/resized/inverse_xai_logo_5.png?1696284514"},"title":"Data Engineering \u0026 Web Crawling","datePosted":"2023-10-05","jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":null,"addressRegion":null,"addressCountry":null,"postalCode":null}},"description":"\u003ch2\u003e\u003cspan style=\"font-weight: 400;\"\u003eAbout xAI\u003c/span\u003e\u003c/h2\u003e\n\u003cp\u003e\u003cspan style=\"font-weight: 400;\"\u003exAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge.\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003e\u003cspan style=\"font-weight: 400;\"\u003eOur team is small, highly motivated, and focused on engineering excellence. This is an organization for those who appreciate challenging themselves and who thrive on curiosity. Engineers are encouraged to work across multiple areas of the company, and as a result all engineers and researchers share the title “Member of Technical Staff”.\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003e\u003cspan style=\"font-weight: 400;\"\u003eWe operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important.\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003e\u003cspan style=\"font-weight: 400;\"\u003eAll engineers and researchers are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates.\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003e\u003cspan style=\"font-weight: 400;\"\u003exAI does not have recruiters. Every application is reviewed directly by a technical member of the team.\u003c/span\u003e\u003c/p\u003e\n\u003ch2\u003e\u003cspan style=\"font-weight: 400;\"\u003eTech Stack\u003c/span\u003e\u003c/h2\u003e\n\u003cul\u003e\n\u003cli style=\"font-weight: 400;\"\u003e\u003cspan style=\"font-weight: 400;\"\u003eRust\u003c/span\u003e\u003c/li\u003e\n\u003cli style=\"font-weight: 400;\"\u003e\u003cspan style=\"font-weight: 400;\"\u003ePython\u003c/span\u003e\u003c/li\u003e\n\u003cli style=\"font-weight: 400;\"\u003e\u003cspan style=\"font-weight: 400;\"\u003eSpark\u003c/span\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e\u003cspan style=\"font-weight: 400;\"\u003eFocus\u003c/span\u003e\u003c/h2\u003e\n\u003cul\u003e\n\u003cli style=\"font-weight: 400;\"\u003e\u003cspan style=\"font-weight: 400;\"\u003eBuilding petabyte-scale, high-throughput data processing systems.\u003c/span\u003e\u003c/li\u003e\n\u003cli style=\"font-weight: 400;\"\u003e\u003cspan style=\"font-weight: 400;\"\u003eManaging workloads across large cloud compute clusters.\u003c/span\u003e\u003c/li\u003e\n\u003cli style=\"font-weight: 400;\"\u003e\u003cspan style=\"font-weight: 400;\"\u003ePre-processing datasets for AI training.\u003c/span\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e\u003cspan style=\"font-weight: 400;\"\u003eIdeal Experience\u003c/span\u003e\u003c/h2\u003e\n\u003cul\u003e\n\u003cli style=\"font-weight: 400;\"\u003e\u003cspan style=\"font-weight: 400;\"\u003eBuilding bespoke data processing libraries from scratch.\u003c/span\u003e\u003c/li\u003e\n\u003cli style=\"font-weight: 400;\"\u003e\u003cspan style=\"font-weight: 400;\"\u003eDesigning and implementing distributed systems in Rust.\u003c/span\u003e\u003c/li\u003e\n\u003cli style=\"font-weight: 400;\"\u003e\u003cspan style=\"font-weight: 400;\"\u003eKeeping up with state-of-the-art techniques for preparing AI training data.\u003c/span\u003e\u003c/li\u003e\n\u003cli style=\"font-weight: 400;\"\u003e\u003cspan style=\"font-weight: 400;\"\u003eOrganizing and meticulously bookkeeping data across multiple clouds, of multiple modalities, and from many sources.\u003c/span\u003e\u003c/li\u003e\n\u003c/ul\u003e"}
+</script>
+
+    <script type='text/javascript' src='https://www.dropbox.com/static/api/2/dropins.js' id='dropboxjs' data-app-key='mh9jyh4mfwjnfhj' async></script>
+
+<script class="js-metadata" data-key="googlePickerDeveloperKey" data-type="string" data-value="AIzaSyCratp6KuOmiXWfR3ABY8azVmw8XFnBl64" type="text/configuration"></script><script class="js-metadata" data-key="googlePickerClientId" data-type="string" data-value="594601915089-7c2994029qkt5qu2tmbppujr9jqrqqrs.apps.googleusercontent.com" type="text/configuration"></script><script class="js-metadata" data-key="googlePickerAppId" data-type="number" data-value="594601915089" type="text/configuration"></script>
+  <script src='https://apis.google.com/js/api.js' onload="gapiLoaded()" async defer></script>
+  <script src='https://accounts.google.com/gsi/client' onload="gisLoaded()" async defer></script>
+
+
+  </body>
+</html>

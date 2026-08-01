@@ -1,0 +1,73 @@
+{
+  "company": "twitter",
+  "display_name": "Twitter (pre-Elon)",
+  "comment": "CONTRAST corpus (2026-07-29, Becca-approved): pre-Elon Twitter careers copy for the before/after-Musk gender-language analysis. Deliberately NOT in pipeline.yaml — the universe auto-includes companies in site/story exports (export_gender_story/export_story_web/export_web all default to load_companies()), so this company is fetched/chunked/labeled STANDALONE and never exported. Post-Elon X lives in data/x/ (canon-primary, the Nov 2022 ultimatum) — a separate company by design; do not merge. CDX discovery 2026-07-29: careers.twitter.com is an AEM site (2016-2022); the ~7.6k 'distinct' URLs are almost all /en/work-for-twitter/{yyyymm}/{job}.html postings (EXCLUDED — listings) plus _jcr_content image assets; culture copy lives on the root, /en.html, tweep-life.html, work-for-twitter.html, diversity.html, early-career.html, and /en/locations/ city pages. about.twitter.com/careers is the prior Drupal-era site (2014-2018); /careers/positions (job postings) and /careers/jobvite_iframe_resize (iframe junk) EXCLUDED; /careers/locations city pages kept. PRE-ELON CUTOFF: max_year 2022 is year-granular, so any captures after 20221027 (acquisition close) are pruned from snapshots.json post-fetch — keep it that way. Known gap: twitter.com/jobs has CDX 2007-2013 (pre-careers-subdomain era) — candidate extension, not fetched (outside the probed scope).",
+  "hosts": [
+    "careers.twitter.com",
+    "about.twitter.com"
+  ],
+  "patterns": [
+    {
+      "url": "careers.twitter.com/",
+      "match_type": "exact",
+      "era_hint": "2016-2022",
+      "max_year": 2022
+    },
+    {
+      "url": "careers.twitter.com/en.html",
+      "match_type": "exact",
+      "era_hint": "2016-2022",
+      "max_year": 2022
+    },
+    {
+      "url": "careers.twitter.com/content/careers-twitter.html",
+      "match_type": "exact",
+      "era_hint": "2016-2020",
+      "max_year": 2022
+    },
+    {
+      "url": "careers.twitter.com/content/careers-twitter/en/tweep-life.html",
+      "match_type": "exact",
+      "era_hint": "2019-2021",
+      "max_year": 2022
+    },
+    {
+      "url": "careers.twitter.com/en/work-for-twitter.html",
+      "match_type": "exact",
+      "era_hint": "2016-2022",
+      "max_year": 2022
+    },
+    {
+      "url": "careers.twitter.com/en/diversity.html",
+      "match_type": "exact",
+      "era_hint": "2016-2022",
+      "max_year": 2022
+    },
+    {
+      "url": "careers.twitter.com/en/early-career.html",
+      "match_type": "exact",
+      "era_hint": "2021-2022",
+      "max_year": 2022
+    },
+    {
+      "url": "careers.twitter.com/en/locations/",
+      "match_type": "prefix",
+      "era_hint": "2016-2022",
+      "max_year": 2022,
+      "exclude_url": "\\?"
+    },
+    {
+      "url": "about.twitter.com/careers",
+      "match_type": "exact",
+      "era_hint": "2014-2018",
+      "max_year": 2022
+    },
+    {
+      "url": "about.twitter.com/careers/locations",
+      "match_type": "prefix",
+      "era_hint": "2014-2016",
+      "max_year": 2022,
+      "exclude_url": "\\?(?!lang=en)"
+    }
+  ]
+}

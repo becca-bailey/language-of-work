@@ -1,0 +1,39 @@
+{
+  "company": "xai",
+  "display_name": "xAI",
+  "comment": "CONTRAST corpus candidate (2026-07-29, Becca-approved discovery): xAI (Elon Musk's AI company, founded July 2023) as a standalone contrast corpus. Deliberately NOT in pipeline.yaml — the universe auto-includes companies in site/story exports (export_gender_story/export_story_web/export_web all default to load_companies()), so this company is fetched/chunked/labeled STANDALONE and never exported. DOMAIN HISTORY GOTCHA: x.ai belonged to a DIFFERENT company (the 'Amy Ingram' AI scheduling-assistant startup, ~2011-2021, acquired by Bizzabo) before Musk's xAI took the domain — min_year 2023 on every pattern is a hard floor, never widen it. CDX discovery 2026-07-29: culture prose lives on x.ai/careers (2024-2026, values + interview process + benefits), x.ai/about (2023-2025, mission + team; the 2025 version decays into a product-release timeline), x.ai/company (2025-2026, values prose — successor to /about), and the root x.ai/ for Jul-Nov 2023 only (the founding announcement WAS the culture page; no /careers existed yet). ROOT CUTOFF: root captures >= 20231115 are the Grok product-launch blog (product content, out of scope) — pruned post-fetch to snapshots.json 'pruned_product_blog'; keep it that way. Job board is Greenhouse: boards.greenhouse.io/xai (2023-2025) then job-boards.greenhouse.io/xai (2025-2026); board roots are JS shells (0 dom words); the ~1,100 distinct /jobs/<id> posting URLs are EXCLUDED per repo precedent (twitter/spacex/ramp exclude listings) BUT each posting opens with a shared 'About xAI' culture boilerplate ('flat organizational structure', 'Leadership is given to those who show initiative') — a small deduped sample is preserved in posting_boilerplate_sample.md and the include/exclude call is FLAGGED FOR BECCA in discovery_report.md, not decided here. x.ai/careers/open-roles (2025-2026) excluded: listing index, mostly JS shell (15-102w, role titles only). Live x.ai returns 403 to the pipeline's default-UA fetcher but 200 with a browser UA; Wayback coverage runs through Jul 2026, so no live/manual capture (flock/engine route) needed yet.",
+  "hosts": [
+    "x.ai"
+  ],
+  "patterns": [
+    {
+      "url": "x.ai/",
+      "match_type": "exact",
+      "era_hint": "2023 founding announcement only",
+      "min_year": 2023,
+      "max_year": 2023,
+      "from_year": 2023
+    },
+    {
+      "url": "x.ai/careers",
+      "match_type": "exact",
+      "era_hint": "2024-2026",
+      "min_year": 2024,
+      "from_year": 2023
+    },
+    {
+      "url": "x.ai/about",
+      "match_type": "exact",
+      "era_hint": "2023-2025",
+      "min_year": 2023,
+      "from_year": 2023
+    },
+    {
+      "url": "x.ai/company",
+      "match_type": "exact",
+      "era_hint": "2025-2026",
+      "min_year": 2025,
+      "from_year": 2023
+    }
+  ]
+}

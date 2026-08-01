@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<script>var _rollbarConfig = {"accessToken":"a9e544e2eb674f56b12d47e1d2ed4cd1","captureUncaught":true,"payload":{"environment":"production"},"hostBlockList":["linkedin.com","recruitics.com"],"checkIgnore":function(isUncaught, args, payload) {
+  try {
+    var isPhantomJS = window.navigator.userAgent.match(/phantomjs/i);
+    var isSplash= window.navigator.userAgent.match(/splash version/i);
+    var firefox = window.navigator.userAgent.match(/(firefox)\/(\w+)/i); // JSON, must escape slash
+    var chrome = window.navigator.userAgent.match(/(chrome)\/(\w+)/i); // JSON, must escape slash
+
+    var browserExtensionOrAutomationFile = function(frame) {
+      var regExPatterns = [/^chrome-extension/, /^safari-extension/, /^moz-extension/, /^pptr/];
+      return regExPatterns.some(function(regEx) {
+        return regEx.test(frame.filename);
+      });
+    }
+
+    var isBrowserExtensionOrAutomation = payload.body.trace &&
+                                         payload.body.trace.frames &&
+                                         payload.body.trace.frames.some(browserExtensionOrAutomationFile);
+
+    var isFirefoxLessThan50;
+    if (firefox) {
+      var majorVersion = Number(firefox[2]);
+      isFirefoxLessThan50 = majorVersion < 50
+    }
+
+    var isChromeLessThan50;
+    if (chrome) {
+      var chromeVersion = Number(chrome[2]);
+      isChromeLessThan50 = chromeVersion < 50;
+    }
+
+    return Boolean(isPhantomJS) ||
+           Boolean(isSplash) ||
+           Boolean(isFirefoxLessThan50) ||
+           Boolean(isChromeLessThan50) ||
+           Boolean(isBrowserExtensionOrAutomation);
+  } catch (e) {
+    return true;
+  }
+}
+,"ignoredMessages":["BetterJsPop","vungle","Script error","awliwidget","ResizeObserver loop completed with undelivered notifications.","jQuery is missing","Attempting to configurable attribute of unconfigurable property.","WeakMap is not defined","Cannot change the configurable attribute of","Cannot call method \"get\" of undefined","\\$ is not defined","Can't find variable: \\$","uncaught exception: \\[object Object\\]","Unexpected token ';'","Failed S3 Direct Upload for field: resume","Failed to open/load the window. Dropbox.choose and Dropbox.save should only be called from within a user-triggered event handler such as a tap or click event.","googletag","solana|ethereum","originalPrompt"]};</script>
+<script>!function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.26.1/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||function(r){return!("object"!=typeof r||void 0!==r.page&&!r.page)}(a))&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);</script>
+  <title>Job Application for IT Systems/Network Administrator at xAI</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0" />
+  <meta id="rendered-by" content="jben" />
+  <link rel="stylesheet" href="https://boards.cdn.greenhouse.io/assets/application-346344480700f72740f9a7383151a34f1b297742b4f92af674c6ce7a1ae624b8.css" media="all" />
+<link rel="stylesheet" href="https://boards.cdn.greenhouse.io/assets/responsive-95ad71d0f9cbcb13adb28ed74687b15c00a64bb1c4a6ab47ab9072493777804c.css" media="all" />
+  <script class="js-metadata" data-key="Polyglot.translation" data-type="json" data-value="{&quot;date&quot;:{&quot;formats&quot;:{&quot;default&quot;:&quot;%Y-%m-%d&quot;,&quot;short&quot;:&quot;%b %d&quot;,&quot;long&quot;:&quot;%B %d, %Y&quot;},&quot;day_names&quot;:[&quot;Sunday&quot;,&quot;Monday&quot;,&quot;Tuesday&quot;,&quot;Wednesday&quot;,&quot;Thursday&quot;,&quot;Friday&quot;,&quot;Saturday&quot;],&quot;abbr_day_names&quot;:[&quot;Sun&quot;,&quot;Mon&quot;,&quot;Tue&quot;,&quot;Wed&quot;,&quot;Thu&quot;,&quot;Fri&quot;,&quot;Sat&quot;],&quot;month_names&quot;:[null,&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;],&quot;abbr_month_names&quot;:[null,&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;],&quot;order&quot;:[&quot;year&quot;,&quot;month&quot;,&quot;day&quot;]},&quot;time&quot;:{&quot;formats&quot;:{&quot;default&quot;:&quot;%a, %d %b %Y %H:%M:%S %z&quot;,&quot;short&quot;:&quot;%d %b %H:%M&quot;,&quot;long&quot;:&quot;%B %d, %Y %H:%M&quot;},&quot;am&quot;:&quot;am&quot;,&quot;pm&quot;:&quot;pm&quot;},&quot;support&quot;:{&quot;array&quot;:{&quot;words_connector&quot;:&quot;, &quot;,&quot;two_words_connector&quot;:&quot; and &quot;,&quot;last_word_connector&quot;:&quot;, and &quot;}},&quot;number&quot;:{&quot;format&quot;:{&quot;separator&quot;:&quot;.&quot;,&quot;delimiter&quot;:&quot;,&quot;,&quot;precision&quot;:3,&quot;round_mode&quot;:&quot;default&quot;,&quot;significant&quot;:false,&quot;strip_insignificant_zeros&quot;:false},&quot;currency&quot;:{&quot;format&quot;:{&quot;format&quot;:&quot;%u%n&quot;,&quot;negative_format&quot;:&quot;-%u%n&quot;,&quot;unit&quot;:&quot;$&quot;,&quot;separator&quot;:&quot;.&quot;,&quot;delimiter&quot;:&quot;,&quot;,&quot;precision&quot;:2,&quot;significant&quot;:false,&quot;strip_insignificant_zeros&quot;:false}},&quot;percentage&quot;:{&quot;format&quot;:{&quot;delimiter&quot;:&quot;&quot;,&quot;format&quot;:&quot;%n%&quot;}},&quot;precision&quot;:{&quot;format&quot;:{&quot;delimiter&quot;:&quot;&quot;}},&quot;human&quot;:{&quot;format&quot;:{&quot;delimiter&quot;:&quot;&quot;,&quot;precision&quot;:3,&quot;significant&quot;:true,&quot;strip_insignificant_zeros&quot;:true},&quot;storage_units&quot;:{&quot;format&quot;:&quot;%n %u&quot;,&quot;units&quot;:{&quot;byte&quot;:{&quot;one&quot;:&quot;Byte&quot;,&quot;other&quot;:&quot;Bytes&quot;},&quot;kb&quot;:&quot;KB&quot;,&quot;mb&quot;:&quot;MB&quot;,&quot;gb&quot;:&quot;GB&quot;,&quot;tb&quot;:&quot;TB&quot;,&quot;pb&quot;:&quot;PB&quot;,&quot;eb&quot;:&quot;EB&quot;,&quot;zb&quot;:&quot;ZB&quot;}},&quot;decimal_units&quot;:{&quot;format&quot;:&quot;%n %u&quot;,&quot;units&quot;:{&quot;unit&quot;:&quot;&quot;,&quot;thousand&quot;:&quot;Thousand&quot;,&quot;million&quot;:&quot;Million&quot;,&quot;billion&quot;:&quot;Billion&quot;,&quot;trillion&quot;:&quot;Trillion&quot;,&quot;quadrillion&quot;:&quot;Quadrillion&quot;}}},&quot;nth&quot;:{&quot;ordinals&quot;:{},&quot;ordinalized&quot;:{}}},&quot;errors&quot;:{&quot;format&quot;:&quot;%{attribute} %{message}&quot;,&quot;messages&quot;:{&quot;model_invalid&quot;:&quot;Validation failed: %{errors}&quot;,&quot;inclusion&quot;:&quot;is not included in the list&quot;,&quot;exclusion&quot;:&quot;is reserved&quot;,&quot;invalid&quot;:&quot;is invalid&quot;,&quot;confirmation&quot;:&quot;doesn&#39;t match %{attribute}&quot;,&quot;accepted&quot;:&quot;must be accepted&quot;,&quot;empty&quot;:&quot;can&#39;t be empty&quot;,&quot;blank&quot;:&quot;can&#39;t be blank&quot;,&quot;present&quot;:&quot;must be blank&quot;,&quot;too_long&quot;:{&quot;one&quot;:&quot;is too long (maximum is 1 character)&quot;,&quot;other&quot;:&quot;is too long (maximum is %{count} characters)&quot;},&quot;password_too_long&quot;:&quot;is too long&quot;,&quot;too_short&quot;:{&quot;one&quot;:&quot;is too short (minimum is 1 character)&quot;,&quot;other&quot;:&quot;is too short (minimum is %{count} characters)&quot;},&quot;wrong_length&quot;:{&quot;one&quot;:&quot;is the wrong length (should be 1 character)&quot;,&quot;other&quot;:&quot;is the wrong length (should be %{count} characters)&quot;},&quot;not_a_number&quot;:&quot;is not a number&quot;,&quot;not_an_integer&quot;:&quot;must be an integer&quot;,&quot;greater_than&quot;:&quot;must be greater than %{count}&quot;,&quot;greater_than_or_equal_to&quot;:&quot;must be greater than or equal to %{count}&quot;,&quot;equal_to&quot;:&quot;must be equal to %{count}&quot;,&quot;less_than&quot;:&quot;must be less than %{count}&quot;,&quot;less_than_or_equal_to&quot;:&quot;must be less than or equal to %{count}&quot;,&quot;other_than&quot;:&quot;must be other than %{count}&quot;,&quot;in&quot;:&quot;must be in %{count}&quot;,&quot;odd&quot;:&quot;must be odd&quot;,&quot;even&quot;:&quot;must be even&quot;,&quot;required&quot;:&quot;must exist&quot;,&quot;taken&quot;:&quot;has already been taken&quot;},&quot;board_misconfigured&quot;:&quot;This job board is not yet configured. Please complete configuration in Greenhouse before embedding.&quot;,&quot;board_no_longer_available&quot;:&quot;The board you are looking for is no longer open.&quot;,&quot;job_not_live&quot;:{&quot;job_closed&quot;:&quot;The job you are looking for is no longer open.&quot;,&quot;board_closed&quot;:&quot;The board on which this job was on is no longer open.&quot;},&quot;job_not_found&quot;:&quot;The job you are looking for was not found.&quot;,&quot;job_processing_timed_out&quot;:&quot;Uh oh!  Your application took too long to process.  If you&#39;re attaching lots of files, try making them smaller.&quot;,&quot;job_stale&quot;:&quot;The company you are applying to has updated this job application. Please save your responses, reload the page, and try to submit again.&quot;,&quot;missing_application&quot;:&quot;Missing required field: job_application&quot;,&quot;max_file_size&quot;:&quot;%{file_size} MB maximum file size&quot;,&quot;security_code&quot;:{&quot;invalid&quot;:&quot;Incorrect security code&quot;,&quot;expired&quot;:&quot;Invalid security code&quot;}},&quot;activerecord&quot;:{&quot;errors&quot;:{&quot;messages&quot;:{&quot;record_invalid&quot;:&quot;Validation failed: %{errors}&quot;,&quot;restrict_dependent_destroy&quot;:{&quot;has_one&quot;:&quot;Cannot delete record because a dependent %{record} exists&quot;,&quot;has_many&quot;:&quot;Cannot delete record because dependent %{record} exist&quot;}}}},&quot;datetime&quot;:{&quot;distance_in_words&quot;:{&quot;half_a_minute&quot;:&quot;half a minute&quot;,&quot;less_than_x_seconds&quot;:{&quot;one&quot;:&quot;less than 1 second&quot;,&quot;other&quot;:&quot;less than %{count} seconds&quot;},&quot;x_seconds&quot;:{&quot;one&quot;:&quot;1 second&quot;,&quot;other&quot;:&quot;%{count} seconds&quot;},&quot;less_than_x_minutes&quot;:{&quot;one&quot;:&quot;less than a minute&quot;,&quot;other&quot;:&quot;less than %{count} minutes&quot;},&quot;x_minutes&quot;:{&quot;one&quot;:&quot;1 minute&quot;,&quot;other&quot;:&quot;%{count} minutes&quot;},&quot;about_x_hours&quot;:{&quot;one&quot;:&quot;about 1 hour&quot;,&quot;other&quot;:&quot;about %{count} hours&quot;},&quot;x_days&quot;:{&quot;one&quot;:&quot;1 day&quot;,&quot;other&quot;:&quot;%{count} days&quot;},&quot;about_x_months&quot;:{&quot;one&quot;:&quot;about 1 month&quot;,&quot;other&quot;:&quot;about %{count} months&quot;},&quot;x_months&quot;:{&quot;one&quot;:&quot;1 month&quot;,&quot;other&quot;:&quot;%{count} months&quot;},&quot;about_x_years&quot;:{&quot;one&quot;:&quot;about 1 year&quot;,&quot;other&quot;:&quot;about %{count} years&quot;},&quot;over_x_years&quot;:{&quot;one&quot;:&quot;over 1 year&quot;,&quot;other&quot;:&quot;over %{count} years&quot;},&quot;almost_x_years&quot;:{&quot;one&quot;:&quot;almost 1 year&quot;,&quot;other&quot;:&quot;almost %{count} years&quot;}},&quot;prompts&quot;:{&quot;year&quot;:&quot;Year&quot;,&quot;month&quot;:&quot;Month&quot;,&quot;day&quot;:&quot;Day&quot;,&quot;hour&quot;:&quot;Hour&quot;,&quot;minute&quot;:&quot;Minute&quot;,&quot;second&quot;:&quot;Seconds&quot;}},&quot;helpers&quot;:{&quot;select&quot;:{&quot;prompt&quot;:&quot;Please select&quot;},&quot;submit&quot;:{&quot;create&quot;:&quot;Create %{model}&quot;,&quot;update&quot;:&quot;Update %{model}&quot;,&quot;submit&quot;:&quot;Save %{model}&quot;},&quot;page_entries_info&quot;:{&quot;entry&quot;:{&quot;zero&quot;:&quot;entries&quot;,&quot;one&quot;:&quot;entry&quot;,&quot;other&quot;:&quot;entries&quot;},&quot;one_page&quot;:{&quot;display_entries&quot;:{&quot;zero&quot;:&quot;No %{entry_name} found&quot;,&quot;one&quot;:&quot;Displaying \u003cb\u003e1\u003c/b\u003e %{entry_name}&quot;,&quot;other&quot;:&quot;Displaying \u003cb\u003eall %{count}\u003c/b\u003e %{entry_name}&quot;}},&quot;more_pages&quot;:{&quot;display_entries&quot;:&quot;Displaying %{entry_name} \u003cb\u003e%{first}\u0026nbsp;-\u0026nbsp;%{last}\u003c/b\u003e of \u003cb\u003e%{total}\u003c/b\u003e in total&quot;}}},&quot;flash&quot;:{&quot;actions&quot;:{&quot;create&quot;:{&quot;notice&quot;:&quot;%{resource_name} was successfully created.&quot;},&quot;update&quot;:{&quot;notice&quot;:&quot;%{resource_name} was successfully updated.&quot;},&quot;destroy&quot;:{&quot;notice&quot;:&quot;%{resource_name} was successfully destroyed.&quot;,&quot;alert&quot;:&quot;%{resource_name} could not be destroyed.&quot;}}},&quot;views&quot;:{&quot;pagination&quot;:{&quot;first&quot;:&quot;\u0026laquo; First&quot;,&quot;last&quot;:&quot;Last \u0026raquo;&quot;,&quot;previous&quot;:&quot;\u0026lsaquo; Prev&quot;,&quot;next&quot;:&quot;Next \u0026rsaquo;&quot;,&quot;truncate&quot;:&quot;\u0026hellip;&quot;}},&quot;eeoc&quot;:{&quot;title&quot;:&quot;\u003ch3\u003e\u003cstrong\u003eVoluntary Self-Identification\u003c/strong\u003e\u003c/h3\u003e&quot;,&quot;intro&quot;:&quot;\u003cp\u003eFor government reporting purposes, we ask candidates to respond to the below self-identification survey.\nCompletion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring\nprocess or thereafter. Any information that you do provide will be recorded and maintained in a\nconfidential file.\u003c/p\u003e\n\n\u003cp\u003eAs set forth in %{organization_name}’s Equal Employment Opportunity policy,\nwe do not discriminate on the basis of any protected group status under any applicable law.\u003c/p\u003e\n&quot;,&quot;veteran&quot;:&quot;\u003cp\u003e\n  If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection.\n  As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure\n  the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories\n  is as follows:\n\u003c/p\u003e\n\u003cp\u003eA \&quot;disabled veteran\&quot; is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability.\u003c/p\u003e\n\u003cp\u003eA \&quot;recently separated veteran\&quot; means any veteran during the three-year period beginning on the date of such veteran&#39;s discharge or release from active duty in the U.S. military, ground, naval, or air service.\u003c/p\u003e\n\u003cp\u003eAn \&quot;active duty wartime or campaign badge veteran\&quot; means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.\u003c/p\u003e\n\u003cp\u003eAn \&quot;Armed forces service medal veteran\&quot; means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.\u003c/p\u003e\n&quot;,&quot;disability&quot;:&quot;\u003ch3\u003e\u003cstrong\u003eVoluntary Self-Identification of Disability\u003c/strong\u003e\u003c/h3\u003e\n\u003cdiv style=\&quot;display:flex; justify-content:space-between;\&quot;\u003e\n  \u003cdiv\u003e\n    \u003cdiv\u003eForm CC-305\u003c/div\u003e\n    \u003cdiv\u003ePage 1 of 1\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv\u003e\n    \u003cdiv\u003eOMB Control Number 1250-0005\u003c/div\u003e\n    \u003cdiv\u003eExpires 04/30/2026\u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n\u003cbr\u003e\n\u003cstrong\u003eWhy are you being asked to complete this form?\u003c/strong\u003e\n\u003cp\u003eWe are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.\u003c/p\u003e\n\u003cp\u003eCompleting this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at \u003ca href=\&quot;https://www.dol.gov/ofccp\&quot; target=\&quot;_blank\&quot;\u003ewww.dol.gov/ofccp\u003c/a\u003e.\u003c/p\u003e\n\u003cstrong\u003eHow do you know if you have a disability?\u003c/strong\u003e\n\u003cp\u003eA disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability. \u003cstrong\u003eDisabilities include, but are not limited to:\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003eAlcohol or other substance use disorder (not currently using drugs illegally)\u003c/li\u003e\n  \u003cli\u003eAutoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS\u003c/li\u003e\n  \u003cli\u003eBlind or low vision\u003c/li\u003e\n  \u003cli\u003eCancer (past or present)\u003c/li\u003e\n  \u003cli\u003eCardiovascular or heart disease\u003c/li\u003e\n  \u003cli\u003eCeliac disease\u003c/li\u003e\n  \u003cli\u003eCerebral palsy\u003c/li\u003e\n  \u003cli\u003eDeaf or serious difficulty hearing\u003c/li\u003e\n  \u003cli\u003eDiabetes\u003c/li\u003e\n  \u003cli\u003eDisfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders\u003c/li\u003e\n  \u003cli\u003eEpilepsy or other seizure disorder\u003c/li\u003e\n  \u003cli\u003eGastrointestinal disorders, for example, Crohn&#39;s Disease, irritable bowel syndrome\u003c/li\u003e\n  \u003cli\u003eIntellectual or developmental disability\u003c/li\u003e\n  \u003cli\u003eMental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD\u003c/li\u003e\n  \u003cli\u003eMissing limbs or partially missing limbs\u003c/li\u003e\n  \u003cli\u003eMobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports\u003c/li\u003e\n  \u003cli\u003eNervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)\u003c/li\u003e\n  \u003cli\u003eNeurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities\u003c/li\u003e\n  \u003cli\u003ePartial or complete paralysis (any cause)\u003c/li\u003e\n  \u003cli\u003ePulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema\u003c/li\u003e\n  \u003cli\u003eShort stature (dwarfism)\u003c/li\u003e\n  \u003cli\u003eTraumatic brain injury\u003c/li\u003e\n\u003c/ul\u003e\n&quot;,&quot;reasonable_accommodation_notice&quot;:&quot;\u003cp\u003ePUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete.\u003c/p\u003e\n&quot;},&quot;eeoc_data&quot;:{&quot;links&quot;:{&quot;race_ethnicity_definitions&quot;:{&quot;href&quot;:&quot;/docs/RaceEthnicityDefinitions.pdf&quot;,&quot;text&quot;:&quot;Race \u0026amp; Ethnicity Definitions&quot;}},&quot;questions&quot;:{&quot;gender&quot;:&quot;Gender&quot;,&quot;hispanic_ethnicity&quot;:&quot;Are you Hispanic/Latino?&quot;,&quot;race&quot;:&quot;Please identify your race&quot;,&quot;veteran_status&quot;:&quot;Veteran Status&quot;,&quot;disability_status&quot;:&quot;Disability Status&quot;,&quot;api&quot;:{&quot;race&quot;:&quot;Race&quot;}},&quot;answers&quot;:{&quot;gender&quot;:[&quot;Male&quot;,&quot;Female&quot;,&quot;Decline To Self Identify&quot;],&quot;hispanic_ethnicity&quot;:[[&quot;Yes&quot;,&quot;Yes&quot;],[&quot;No&quot;,&quot;No&quot;],[&quot;Decline To Self Identify&quot;,&quot;Decline To Self Identify&quot;]],&quot;race&quot;:[&quot;American Indian or Alaskan Native&quot;,&quot;Asian&quot;,&quot;Black or African American&quot;,&quot;Hispanic or Latino&quot;,&quot;White&quot;,&quot;Native Hawaiian or Other Pacific Islander&quot;,&quot;Two or More Races&quot;,&quot;Decline To Self Identify&quot;],&quot;veteran_status&quot;:[&quot;I am not a protected veteran&quot;,&quot;I identify as one or more of the classifications of a protected veteran&quot;,&quot;I don&#39;t wish to answer&quot;],&quot;disability_status&quot;:[&quot;Yes, I have a disability, or have had one in the past&quot;,&quot;No, I do not have a disability and have not had one in the past&quot;,&quot;I do not want to answer&quot;]}},&quot;captcha&quot;:{&quot;suspected_bot&quot;:&quot;SUSPECTED BOT: Captcha failed with direct HTTP form post IP %{ip}\n&quot;,&quot;failed_to_load&quot;:&quot;Google Recaptcha service cannot be loaded.&quot;,&quot;failed&quot;:&quot;Oops! We were unable to verify your Captcha response.&quot;,&quot;retry&quot;:&quot;Oops! We were unable to verify your Captcha.  Please try again.&quot;,&quot;help_center&quot;:&quot;This application was flagged as potential bot traffic. To resubmit your application, turn off any VPNs, clear the browser&#39;s cache and cookies, or try another browser. If you still can&#39;t submit it, contact our support team through the \u003ca target=\&quot;_blank\&quot; href=\&quot;https://support.greenhouse.io/hc/en-us/sections/360011273391-Connecting-with-support\&quot;\u003ehelp center\u003c/a\u003e.&quot;,&quot;geetest_failed_to_load&quot;:&quot;Geetest Captcha service failed to load.&quot;,&quot;fallback&quot;:&quot;Please complete the reCAPTCHA above.&quot;},&quot;email_verification&quot;:{&quot;job_post_description&quot;:&quot;Enter the verification code sent to \u003cb id=\&quot;security_code_recipient\&quot;\u003e\u003c/b\u003e to confirm you are not a robot, then submit your application.&quot;,&quot;email&quot;:{&quot;subject&quot;:&quot;Security code for your application to %{company_name}&quot;,&quot;salutation&quot;:&quot;Hi %{first_name},&quot;,&quot;opening&quot;:&quot;Copy and paste this code into the security code field on your application:&quot;,&quot;closing&quot;:&quot;After you enter the code, resubmit your application.&quot;}},&quot;job_post&quot;:{&quot;add_education&quot;:&quot;+ Add another education&quot;,&quot;add_employment&quot;:&quot;+ Add another employment&quot;,&quot;almost_there&quot;:&quot;Almost there! Review your information then click &#39;Submit Application&#39; to apply.&quot;,&quot;apply_for_this_job&quot;:&quot;Apply for this Job&quot;,&quot;apply_now&quot;:&quot;Apply Now&quot;,&quot;apply_with_linkedin&quot;:&quot;Apply With LinkedIn&quot;,&quot;attach&quot;:&quot;Attach&quot;,&quot;attachment&quot;:&quot;An attachment&quot;,&quot;at_org&quot;:&quot;at %{organization_name}&quot;,&quot;back_to_application&quot;:&quot;Back to application&quot;,&quot;cancel&quot;:&quot;Cancel&quot;,&quot;city&quot;:&quot;City&quot;,&quot;company_name&quot;:&quot;Company Name&quot;,&quot;cover_letter&quot;:&quot;Cover Letter&quot;,&quot;current&quot;:&quot;Current&quot;,&quot;degree&quot;:&quot;Degree&quot;,&quot;discipline&quot;:&quot;Discipline&quot;,&quot;drop_files_here&quot;:&quot;Drop files here&quot;,&quot;education&quot;:&quot;Education&quot;,&quot;education_end_date&quot;:&quot;End Date&quot;,&quot;education_start_date&quot;:&quot;Start Date&quot;,&quot;email&quot;:&quot;Email&quot;,&quot;employment&quot;:&quot;Employment&quot;,&quot;field_chosen&quot;:&quot;%{field} chosen&quot;,&quot;file_types&quot;:&quot;File types&quot;,&quot;first_name&quot;:&quot;First Name&quot;,&quot;loading_attachment&quot;:&quot;Loading attachment from %{uploader}...&quot;,&quot;locate_me&quot;:&quot;Locate me&quot;,&quot;location&quot;:&quot;Location&quot;,&quot;last_name&quot;:&quot;Last Name&quot;,&quot;name&quot;:&quot;Name&quot;,&quot;no&quot;:&quot;No&quot;,&quot;optional&quot;:&quot;Optional&quot;,&quot;or&quot;:&quot;or&quot;,&quot;paste&quot;:&quot;or enter manually&quot;,&quot;phone&quot;:&quot;Phone&quot;,&quot;please_select&quot;:&quot;Please select&quot;,&quot;preferred_name&quot;:&quot;Preferred First Name&quot;,&quot;question&quot;:&quot;Question&quot;,&quot;required&quot;:&quot;Required&quot;,&quot;remove_attachment&quot;:&quot;Remove attachment&quot;,&quot;resume&quot;:&quot;Resume/CV&quot;,&quot;school_name&quot;:&quot;School&quot;,&quot;share_this_job&quot;:&quot;Share this job: &quot;,&quot;select&quot;:&quot;Select&quot;,&quot;select_one&quot;:&quot;Select one&quot;,&quot;select_one_or_more&quot;:&quot;Select one or more&quot;,&quot;select_field&quot;:&quot;Select a %{field}&quot;,&quot;submit_application&quot;:&quot;Submit Application&quot;,&quot;file_uploader_timeout&quot;:&quot;Unable to load %{uploader}. It has either timed out or you can try again later.&quot;,&quot;textarea&quot;:&quot;Enter manually&quot;,&quot;title&quot;:&quot;Title&quot;,&quot;view_more_jobs&quot;:&quot;View more jobs at %{organization_name}&quot;,&quot;view_all_jobs&quot;:&quot;View all jobs&quot;,&quot;without_browser_support&quot;:&quot;The browser does not support %{uploader} upload.&quot;,&quot;year&quot;:&quot;Year&quot;,&quot;yes&quot;:&quot;Yes&quot;,&quot;security_code&quot;:&quot;Security Code&quot;},&quot;validation&quot;:{&quot;at_least_one_required&quot;:&quot;At least one option must be checked&quot;,&quot;consent_is_required&quot;:&quot;Please accept the terms to proceed&quot;,&quot;demographic_questions_answered&quot;:&quot;You answered some demographic questions. Please accept the terms to proceed, or clear your responses. \u003ca href=&#39;#demographic_questions&#39;\u003eReturn to the demographic questions.\u003c/a\u003e&quot;,&quot;did_you_mean&quot;:&quot;Did you mean&quot;,&quot;empty_attachment&quot;:&quot;Attached files must be larger than 0 bytes&quot;,&quot;field_is_required&quot;:&quot;%{field} is required.&quot;,&quot;invalid_date&quot;:&quot;End Date cannot be before Start Date&quot;,&quot;invalid_email&quot;:&quot;Please use the format \&quot;text@example.com\&quot;&quot;,&quot;invalid_field&quot;:&quot;Invalid %{field}&quot;,&quot;invalid_location&quot;:&quot;Please enter your location and select it from the dropdown&quot;,&quot;month_format&quot;:&quot;Month must be a number between 1 and 12&quot;,&quot;this_field_is_required&quot;:&quot;This field is required.&quot;,&quot;year_format&quot;:&quot;Year must be a number between 1900 and 2100&quot;},&quot;api_errors&quot;:{&quot;empty_file&quot;:&quot;Attachment &#39;%{field}&#39; is empty. Please provide a non-empty file.&quot;,&quot;invalid_file&quot;:&quot;Attachment &#39;%{field}&#39; is invalid. Please provide a valid file attachment.&quot;,&quot;large_file&quot;:&quot;Attachment &#39;%{field}&#39; exceeds %{max_file_size} MB file size.&quot;},&quot;job_application_request&quot;:{&quot;request_received&quot;:&quot;Thanks for your submission.&quot;},&quot;data_compliance&quot;:{&quot;gdpr&quot;:{&quot;disclaimer&quot;:&quot;%{company_name} has my consent to collect, store, and process my data for the purpose of considering me for employment, and for up to %{retention_period} days thereafter.&quot;,&quot;processing_disclaimer&quot;:&quot;By checking this box, I agree to allow %{company_name} to store and process my data for the purpose of considering my eligibility regarding my current application for employment.&quot;,&quot;retention_disclaimer&quot;:&quot;By checking this box, I agree to allow %{company_name} to retain my data for future opportunities for employment for up to %{retention_period} days after the conclusion of consideration of my current application for employment.&quot;,&quot;demographic_data_disclaimer&quot;:&quot;By checking this box, I consent to %{company_name} collecting, storing, and processing my responses to the demographic data surveys above.&quot;,&quot;disabled_tooltip&quot;:&quot;You must consent to the processing of your data in order to activate this checkbox&quot;}}}" type="text/configuration"></script><script class="js-metadata" data-key="errorImageSource" data-type="string" data-value="https://boards.cdn.greenhouse.io/assets/svg/error-69893c3b3f8f27477ac24dbcb3d8e569fcc265882e77cd464d2bad69dd7d3918.svg" type="text/configuration"></script>
+    <meta property="og:title" content="IT Systems/Network Administrator"></meta>
+    <meta property="og:description" content="Memphis, TN"></meta>
+    <meta property="og:url" content="https://boards.greenhouse.io/xai/jobs/4555073007"></meta>
+    <meta property="og:image" content="https://s7-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/375/800/original/inverse_xai_logo_5.png?1696284514"></meta>
+    <meta property="og:type" content="article"></meta>
+
+        <link rel="stylesheet" href="https://s7-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/custom_css_files/400/375/800/original/simple_greenhouse_job_board.css?1709650685" media="screen" />
+
+
+
+</head>
+<body>
+  <div id="wrapper">
+    <div id="main" class="accessible">
+      
+<script class="js-metadata" data-key="JBEN.FormControl.maxFileSizeMb" data-type="number" data-value="100" type="text/configuration"></script><script class="js-metadata" data-key="JBEN.GeocodeEarthProxyUrl" data-type="string" data-value="https://api-geocode-earth-proxy.prod.use1.greenhouse.io/" type="text/configuration"></script>
+
+
+
+<div id='app_body' style='padding-left:20px'>
+  <div class="logo-container">
+      <div id="logo"><a target="_blank" href="https://x.ai"><img alt="xAI Logo" src="https://s7-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/375/800/resized/inverse_xai_logo_5.png?1696284514" width="75" height="75" /></a></div>
+  </div>
+
+    <div id="header">
+    <a href='#app' id='apply_button' class='button'>
+      Apply Now
+    </a>
+
+  <h1 class='app-title'>IT Systems/Network Administrator</h1>
+
+  <span class='company-name'>
+    at xAI
+  </span>
+
+    <a data-mapped="true" href="/xai">(View all jobs)</a>
+
+    <div class='location'>
+      Memphis, TN
+    </div>
+</div>
+  <div id="content" class="">
+    <div class="content-intro"><h3><strong>About xAI</strong></h3>
+<p>xAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge.</p>
+<p>Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity.</p>
+<p>We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important.</p>
+<p>All engineers and researchers are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates.</p></div>
+
+    <h3><strong>Responsibilities</strong></h3>
+<ul>
+<li>Administer and optimize tools like Okta, Rippling, GSuite, Notion, various cloud services, and Slack to enhance productivity and collaboration across global teams.</li>
+<li>Manage employee laptops, focusing on top-notch security measures, and implement IT and InfoSec policies to safeguard information assets.</li>
+<li>Streamline the processes for onboarding new employees and offboarding departing ones, ensuring efficient handling of IT resources and access rights.</li>
+<li>Perform day-to-day network break/fix operations, with a focus on Layers 1–4 of the OSI model.</li>
+<li>Diagnose and resolve network-related issues, including logical and physical connectivity problems.</li>
+<li>Support and configure network fundamentals such as routing, switching, IP services.</li>
+<li>Provide support during technical network projects, including upgrades, deployments, and expansions.</li>
+<li>Proactively contribute to problem-solving efforts within a collaborative team environment.</li>
+</ul>
+<h3><strong>Preferred Skills &amp; Experience</strong></h3>
+<ul>
+<li>Strong problem-solving abilities with a methodical troubleshooting approach.</li>
+<li>Excellent communication and documentation skills.</li>
+<li>Technical project management mindset.</li>
+<li>Strong team collaboration skills with a self-motivated, proactive attitude.</li>
+<li>Deep knowledge of enterprise systems, cybersecurity, and IT operations. Familiarity with managing cloud environments, SaaS applications, and endpoint security.</li>
+<li>Exceptional at diagnosing issues, implementing solutions quickly, and preempting future IT challenges with innovative thinking.</li>
+<li>Experience in managing cross-functional projects, ensuring IT initiatives support business objectives and are delivered on time and within budget.</li>
+<li>Strong interpersonal and communication skills to effectively collaborate with various departments globally and convey complex IT concepts to non-technical stakeholder</li>
+<li>Beginner to intermediate experience with network layer operations (Layers 1–4).</li>
+<li>Basic to intermediate understanding of TCP/IP, network fundamentals, and network automation techniques.</li>
+</ul>
+<p>&nbsp;</p>
+<h3><strong>Preferred Education</strong></h3>
+<p>&nbsp;</p>
+<p>Associate or Bachelor's degree in IT, Networking, or related field (or equivalent work experience)</p>
+<p>&nbsp;</p>
+<h3><strong>Certifications</strong></h3>
+<ul>
+<li>Vendor certifications preferred, such as CCNA (Preferred).</li>
+<li>Familiarity with vendor hardware, including Cisco, Juniper, Palo Alto</li>
+</ul>
+<p>&nbsp;</p>
+<h3><strong>Benefits</strong></h3>
+<p>We offer the following employee benefits:</p>
+<ul>
+<li>Competitive cash and equity-based compensation</li>
+<li>Medical, dental, and vision insurance</li>
+<li>Unlimited paid time off subject to prior approval</li>
+</ul>
+<p>&nbsp;</p>
+
+    
+
+    <div class="content-conclusion"><p><em>xAI is an equal opportunity employer and does not unlawfully discriminate based on race, color, religion, ethnicity, ancestry, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, age, disability, medical conditions, genetic information, marital status, military or veteran status, or any other applicable legally protected characteristics.&nbsp;</em></p>
+<p><em>Qualified applicants with arrest or conviction records will be considered for employment in accordance with all applicable federal, state, and local laws, including the San Francisco Fair Chance Ordinance, Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act.&nbsp;</em></p>
+<p><em><strong>For Los Angeles County (unincorporated) Candidates:</strong></em></p>
+<p><em>xAI reasonably believes that criminal history may have a direct, adverse and negative relationship on the following job duties, potentially resulting in the withdrawal of a conditional offer of employment:&nbsp;</em></p>
+<ul>
+<li style="font-style: italic;"><em>Access to information technology systems and confidential information, including proprietary and trade secret information, and/or user data;</em></li>
+<li style="font-style: italic;"><em>Interacting with internal and/or external clients and colleagues; and</em></li>
+<li style="font-style: italic;"><em>Exercising sound judgment.</em></li>
+</ul>
+<p><a href="https://drive.google.com/file/d/1FSvHtuPdDFCaIXqF_zzgez7x5WP3dC8g/view?usp=sharing">California Consumer Privacy Act (CCPA) Notice</a></p></div>
+</div>
+
+    <div id='application' class="">
+      <a name='app'></a>
+      <form id="application_form" enctype="multipart/form-data" action="https://boards.greenhouse.io/xai/jobs/4555073007" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" />
+        <input type="hidden" name="fingerprint" id="fingerprint" value="0ef9440255a01f15dbf127d5d49670c320bd4059" autocomplete="off" />
+        <input type="hidden" name="render_date" id="render_date" value="2025-02-08 01:28:21 +0000" autocomplete="off" />
+        <input type="hidden" name="page_load_time" id="page_load_time" value="1738978101" autocomplete="off" />
+
+
+
+        <div id='main_fields'>
+            <h2 class='heading'>Apply for this Job</h2>
+
+            <div class='required-fields'>
+              <span class='asterisk'>*</span> Required
+            </div>
+
+          <div class='clear'></div>
+
+
+          
+<script type="text/configuration" data-email-address-validator-url="https://email-address-validator.us.greenhouse.io/address/validate"></script>
+
+<div class='field'>
+  <label for='first_name'>First Name <span class='asterisk'>*</span></label>
+  <input type='text' id='first_name' name='job_application[first_name]' aria-required="true" maxlength="255" autocomplete="given-name"/>
+</div>
+<div class='field'>
+  <label for='last_name'>Last Name <span class='asterisk'>*</span></label>
+  <input type='text' id='last_name' name='job_application[last_name]' aria-required="true" maxlength="255" autocomplete="family-name" />
+</div>
+<div class='field'>
+  <label for='email'>Email <span class='asterisk'>*</span></label>
+  <input type='text' id='email' name='job_application[email]' aria-required="true" maxlength="255" autocomplete="email" />
+</div>
+<div class='field'>
+  <label for='phone'>Phone <span class='asterisk'>*</span></label>
+  <input type='text' id='phone' name='job_application[phone]' maxlength="255" autocomplete="tel" required='required' aria-required="true"/>
+</div>
+
+<div id='dev-fields' aria-hidden="true">
+  <div class='field'>
+    <label for='dev-field-1'></label>
+    <input type='text' id='dev-field-1' name='dev_field_1' maxlength="255" autocomplete="off"/>
+  </div>
+</div>
+
+
+
+          
+<div class='field'>
+  <fieldset id='resume_fieldset' aria-describedby="validate_resume">
+    <legend>
+      <label aria-label="required" id="resume">
+        Resume/CV <span class='asterisk'>*</span>
+      </label>
+    </legend>
+  
+<div class="attach-or-paste" required="required" data-allow-s3="true" data-field="resume" data-file-types="[&quot;pdf&quot;,&quot;doc&quot;,&quot;docx&quot;,&quot;txt&quot;,&quot;rtf&quot;]" data-model="job_application">
+
+  <div class="drop-zone hidden">
+    Drop files here
+  </div>
+
+  <div id="resume_chosen" class="chosen">
+    <img alt="resume chosen" src="https://boards.cdn.greenhouse.io/assets/file-296f4c2a42607d24e6901b7c58b0693d4178df7fe4edf1b50e9585efdfad7d39.png" />&nbsp;&nbsp;
+    <span id="resume_filename"></span>
+    <button name="button" type="button" class="unstyled-button remove" aria-label="Remove attachment"><img width="11" height="11" alt="Remove attachment" src="https://boards.cdn.greenhouse.io/assets/cancellation/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png" /></button>
+</div>
+  <div class="link-container">
+    <button name="button" type="button" data-source="attach" class="unstyled-button link-button" aria-describedby="resume-allowable-file-types">Attach</button>
+
+        <a data-source="dropbox" href="#">Dropbox</a>
+
+        <a data-source="google-drive" href="#">Google Drive</a>
+
+      <button name="button" type="button" data-source="paste" class="unstyled-button link-button" aria-pressed="false">or enter manually</button>
+</div>  <div data-messages="uploaders"></div>
+
+  <div class="validation-anchor" id="validate_resume" style="display: none"></div>
+  <div id="resume-allowable-file-types" class="file-types">
+    (File types: pdf, doc, docx, txt, rtf)
+  </div>
+
+  <div class="progress-bar">
+    <div class="upload">
+      <div class="progress"><div class="bar" style="width: 0%"></div></div>
+    </div>
+    <a href="#" class="cancel">
+      <img width="11" height="11" alt="Cancel" src="https://boards.cdn.greenhouse.io/assets/cancellation/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png" />
+    </a>
+</div>
+    <textarea name="job_application[resume_text]" id="resume_text" class="paste" title="Enter manually">
+</textarea>
+
+</div>
+
+  </fieldset>
+</div>
+
+  <div class='field'>
+    <fieldset id='cover_letter_fieldset' aria-describedby="validate_cover_letter">
+      <legend>
+        <label id='cover_letter' aria-label="">
+          Cover Letter
+        </label>
+      </legend>
+      
+<div class="attach-or-paste" data-allow-s3="true" data-field="cover_letter" data-file-types="[&quot;pdf&quot;,&quot;doc&quot;,&quot;docx&quot;,&quot;txt&quot;,&quot;rtf&quot;]" data-model="job_application">
+
+  <div class="drop-zone hidden">
+    Drop files here
+  </div>
+
+  <div id="cover_letter_chosen" class="chosen">
+    <img alt="cover_letter chosen" src="https://boards.cdn.greenhouse.io/assets/file-296f4c2a42607d24e6901b7c58b0693d4178df7fe4edf1b50e9585efdfad7d39.png" />&nbsp;&nbsp;
+    <span id="cover_letter_filename"></span>
+    <button name="button" type="button" class="unstyled-button remove" aria-label="Remove attachment"><img width="11" height="11" alt="Remove attachment" src="https://boards.cdn.greenhouse.io/assets/cancellation/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png" /></button>
+</div>
+  <div class="link-container">
+    <button name="button" type="button" data-source="attach" class="unstyled-button link-button" aria-describedby="cover_letter-allowable-file-types">Attach</button>
+
+        <a data-source="dropbox" href="#">Dropbox</a>
+
+        <a data-source="google-drive" href="#">Google Drive</a>
+
+      <button name="button" type="button" data-source="paste" class="unstyled-button link-button" aria-pressed="false">or enter manually</button>
+</div>  <div data-messages="uploaders"></div>
+
+  <div class="validation-anchor" id="validate_cover_letter" style="display: none"></div>
+  <div id="cover_letter-allowable-file-types" class="file-types">
+    (File types: pdf, doc, docx, txt, rtf)
+  </div>
+
+  <div class="progress-bar">
+    <div class="upload">
+      <div class="progress"><div class="bar" style="width: 0%"></div></div>
+    </div>
+    <a href="#" class="cancel">
+      <img width="11" height="11" alt="Cancel" src="https://boards.cdn.greenhouse.io/assets/cancellation/x-00cb7c69bded92bc90f03e0028a3457a4905b1e28c8a7fe16b792086c4288c29.png" />
+    </a>
+</div>
+    <textarea name="job_application[cover_letter_text]" id="cover_letter_text" class="paste" title="Enter manually">
+</textarea>
+
+</div>
+
+    </fieldset>
+  </div>
+
+
+
+        </div>
+
+            <hr/>
+
+          <div id='custom_fields'>
+            <div class="field">
+  <label>LinkedIn Profile
+    <br/>
+    
+    <input type="hidden" name="job_application[answers_attributes][0][question_id]" id="job_application_answers_attributes_0_question_id" value="7537805007" autocomplete="off" />
+<input type="hidden" name="job_application[answers_attributes][0][priority]" id="job_application_answers_attributes_0_priority" value="0" autocomplete="off" />
+
+<input type="text" name="job_application[answers_attributes][0][text_value]" id="job_application_answers_attributes_0_text_value" aria-required="false" maxlength="255" autocomplete="custom-question-linkedin-profile" />
+
+
+</label></div>
+<div class="field">
+  <label>What makes you the ideal candidate for this position? 
+    <br/>
+    
+    <input type="hidden" name="job_application[answers_attributes][1][question_id]" id="job_application_answers_attributes_1_question_id" value="7537806007" autocomplete="off" />
+<input type="hidden" name="job_application[answers_attributes][1][priority]" id="job_application_answers_attributes_1_priority" value="1" autocomplete="off" />
+
+<textarea name="job_application[answers_attributes][1][text_value]" id="job_application_answers_attributes_1_text_value" aria-required="false" autocomplete="custom-question-what-makes-you-the-ideal-candidate-for-this-position-">
+</textarea>
+
+
+</label></div>
+
+          </div>
+
+
+          <hr/>
+<div id="eeoc_fields">
+  <h3 id="eeoc_title"><h3><strong>Voluntary Self-Identification</strong></h3></h3>
+
+  <p>For government reporting purposes, we ask candidates to respond to the below self-identification survey.
+Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring
+process or thereafter. Any information that you do provide will be recorded and maintained in a
+confidential file.</p>
+
+<p>As set forth in xAI’s Equal Employment Opportunity policy,
+we do not discriminate on the basis of any protected group status under any applicable law.</p>
+
+
+    
+<div class="field" id="gender_dropdown_container" data-eeoc-question="">
+  <label for="job_application_gender">
+    Gender
+</label>
+  <select name="job_application[gender]" id="job_application_gender" aria-required="false"><option value="">Please select</option><option value="1">Male</option>
+<option value="2">Female</option>
+<option value="3">Decline To Self Identify</option></select>
+</div>    
+<div class="field" id="hispanic_ethnicity_dropdown_container" data-eeoc-question="">
+  <label for="job_application_hispanic_ethnicity">
+    Are you Hispanic/Latino?
+</label>
+  <select name="job_application[hispanic_ethnicity]" id="job_application_hispanic_ethnicity" aria-required="false"><option value="">Please select</option><option value="Yes">Yes</option>
+<option value="No">No</option>
+<option value="Decline To Self Identify">Decline To Self Identify</option></select>
+</div>    
+<div class="field" id="race_dropdown_container" data-eeoc-question="">
+  <label for="job_application_race">
+    Please identify your race
+</label>
+  <select name="job_application[race]" id="job_application_race" aria-required="false"><option value="">Please select</option><option value="1">American Indian or Alaskan Native</option>
+<option value="2">Asian</option>
+<option value="3">Black or African American</option>
+<option hidden="hidden" value="4">Hispanic or Latino</option>
+<option value="5">White</option>
+<option value="6">Native Hawaiian or Other Pacific Islander</option>
+<option value="7">Two or More Races</option>
+<option value="8">Decline To Self Identify</option></select>
+</div>
+    <a target="_blank" href="https://boards.cdn.greenhouse.io/docs/RaceEthnicityDefinitions.pdf">
+      Race &amp; Ethnicity Definitions
+</a>
+    <p>
+  If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection.
+  As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure
+  the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories
+  is as follows:
+</p>
+<p>A "disabled veteran" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability.</p>
+<p>A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.</p>
+<p>An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.</p>
+<p>An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.</p>
+
+
+    
+<div class="field" id="veteran_status_dropdown_container" data-eeoc-question="">
+  <label for="job_application_veteran_status">
+    Veteran Status
+</label>
+  <select name="job_application[veteran_status]" id="job_application_veteran_status" aria-required="false"><option value="">Please select</option><option value="1">I am not a protected veteran</option>
+<option value="2">I identify as one or more of the classifications of a protected veteran</option>
+<option value="3">I don&#39;t wish to answer</option></select>
+</div>
+    <hr/>
+
+    <h3><strong>Voluntary Self-Identification of Disability</strong></h3>
+<div style="display:flex; justify-content:space-between;">
+  <div>
+    <div>Form CC-305</div>
+    <div>Page 1 of 1</div>
+  </div>
+  <div>
+    <div>OMB Control Number 1250-0005</div>
+    <div>Expires 04/30/2026</div>
+  </div>
+</div>
+<br>
+<strong>Why are you being asked to complete this form?</strong>
+<p>We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.</p>
+<p>Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at <a href="https://www.dol.gov/ofccp" target="_blank">www.dol.gov/ofccp</a>.</p>
+<strong>How do you know if you have a disability?</strong>
+<p>A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability. <strong>Disabilities include, but are not limited to:</strong></p>
+<ul>
+  <li>Alcohol or other substance use disorder (not currently using drugs illegally)</li>
+  <li>Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS</li>
+  <li>Blind or low vision</li>
+  <li>Cancer (past or present)</li>
+  <li>Cardiovascular or heart disease</li>
+  <li>Celiac disease</li>
+  <li>Cerebral palsy</li>
+  <li>Deaf or serious difficulty hearing</li>
+  <li>Diabetes</li>
+  <li>Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders</li>
+  <li>Epilepsy or other seizure disorder</li>
+  <li>Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome</li>
+  <li>Intellectual or developmental disability</li>
+  <li>Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD</li>
+  <li>Missing limbs or partially missing limbs</li>
+  <li>Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports</li>
+  <li>Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)</li>
+  <li>Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities</li>
+  <li>Partial or complete paralysis (any cause)</li>
+  <li>Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema</li>
+  <li>Short stature (dwarfism)</li>
+  <li>Traumatic brain injury</li>
+</ul>
+
+
+    
+<div class="field" id="disability_status_dropdown_container" data-eeoc-question="">
+  <label for="job_application_disability_status">
+    Disability Status
+</label>
+  <select name="job_application[disability_status]" id="job_application_disability_status" aria-required="false"><option value="">Please select</option><option value="1">Yes, I have a disability, or have had one in the past</option>
+<option value="2">No, I do not have a disability and have not had one in the past</option>
+<option value="3">I do not want to answer</option></select>
+</div>
+    <p>PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete.</p>
+
+</div>
+
+
+
+          <div id='captcha_container' style="margin-top: 16px"></div>
+  <hr/>
+
+
+
+        <div id='security_code_fields'>
+          <p id="security_code_description">Enter the verification code sent to <b id="security_code_recipient"></b> to confirm you are not a robot, then submit your application.</p>
+          <div class='field'>
+            <label for='security_code'>Security Code <span class='asterisk'>*</span></label>
+            <input
+              id="security_code"
+              name="security_code"
+              type="text"
+              aria-describedby="security_code_description"
+              disabled
+              autocomplete="one-time-code"
+            />
+          </div>
+        </div>
+
+        <div id='error_message'></div>
+
+        <div id='captcha_error_message'>
+          This application was flagged as potential bot traffic. To resubmit your application, turn off any VPNs, clear the browser's cache and cookies, or try another browser. If you still can't submit it, contact our support team through the <a target="_blank" href="https://support.greenhouse.io/hc/en-us/sections/360011273391-Connecting-with-support">help center</a>.
+        </div>
+
+        <div id='submit_buttons'>
+          <input
+            type='button'
+            value='Submit Application'
+            id='submit_app'
+            class='button'>
+        </div>
+</form>    </div>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+      <div id="footer">
+    <span>Powered by</span>&nbsp;<a target="_blank" href="http://www.greenhouse.io/">
+      <img border="0" alt="Greenhouse Logo" id="gh_logo" src="https://boards.cdn.greenhouse.io/assets/greenhouse-in-app-logo-green-236d994ee39682bb46e214901c264de0df582c97e949e7c854c3531b79f00240.svg" width="100" height="30" />
+</a>    <div class="privacy-policy">
+      Read our <a href="http://www.greenhouse.io/privacy-policy">Privacy Policy</a>
+    </div>
+  </div>
+
+      <script src="https://boards.cdn.greenhouse.io/assets/application-5824f0537a30c8920d64d2ed958492a078e17c458c6e72af879eff45cadd2860.js"></script>
+
+  <div class="s3-upload-form" data-presigned-form="resume"></div>
+
+  <div class="s3-upload-form" data-presigned-form="cover_letter"></div>
+<script class="js-metadata" data-key="JBEN.hideCaptcha" data-type="boolean" data-value="false" type="text/configuration"></script><script class="js-metadata" data-key="JBEN.alternateCaptcha" data-type="boolean" data-value="false" type="text/configuration"></script><script class="js-metadata" data-key="JBEN.geetestPath" data-type="string" data-value="/geetest" type="text/configuration"></script><script class="js-metadata" data-key="JBEN.Recaptcha.publicKey" data-type="string" data-value="6Lc_7sYpAAAAAIwx29jsS1yyzLio4oW3atTTi6MO" type="text/configuration"></script>      <script type="text/javascript">
+        var captchaLoadCallback = function() {
+          grecaptcha.enterprise.execute(JBEN.Recaptcha.publicKey, { action: 'load_job' }).then(function(token) {
+            // Future: send this assessment token to the server?
+          });
+        };
+      </script>
+      <script src='https://www.google.com/recaptcha/enterprise.js?onload=captchaLoadCallback&render=6Lc_7sYpAAAAAIwx29jsS1yyzLio4oW3atTTi6MO' async></script>
+
+  <script src="https://boards.cdn.greenhouse.io/assets/show_init-2f5fdd5c5ac90ad3c0ac0d76992d75eafc694581fdc565f42aa90e0fdc3c5d2c.js"></script>
+  
+  <script src="//jsv3.recruitics.com/partner/d056b859-3c00-11e7-8fe9-89f468934c80.js" async></script>
+
+
+  <script class="js-metadata" data-key="JBEN.PublicJobBoard.UncacheableAttributes.path" data-type="string" data-value="/uncacheable_attributes.json" type="text/configuration"></script><script class="js-metadata" data-key="LocationControl.Providers.Mapbox.apiKey" data-type="string" data-value="MAPBOX_PUBLIC_TOKEN_REDACTED" type="text/configuration"></script>
+  <script class="js-metadata" data-key="LocationControl.Providers.Pelias.apiKey" data-type="string" data-value="ge-39f1178289d5d0c5" type="text/configuration"></script>
+  <script type="application/ld+json">
+  {"@context":"schema.org","@type":"JobPosting","hiringOrganization":{"@type":"Organization","name":"xAI","logo":"https://s7-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/375/800/resized/inverse_xai_logo_5.png?1696284514"},"title":"IT Systems/Network Administrator","datePosted":"2024-10-30","jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Memphis, Tennessee, United States","addressRegion":"TN","addressCountry":null,"postalCode":null}},"description":"\u003ch3\u003e\u003cstrong\u003eResponsibilities\u003c/strong\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAdminister and optimize tools like Okta, Rippling, GSuite, Notion, various cloud services, and Slack to enhance productivity and collaboration across global teams.\u003c/li\u003e\n\u003cli\u003eManage employee laptops, focusing on top-notch security measures, and implement IT and InfoSec policies to safeguard information assets.\u003c/li\u003e\n\u003cli\u003eStreamline the processes for onboarding new employees and offboarding departing ones, ensuring efficient handling of IT resources and access rights.\u003c/li\u003e\n\u003cli\u003ePerform day-to-day network break/fix operations, with a focus on Layers 1–4 of the OSI model.\u003c/li\u003e\n\u003cli\u003eDiagnose and resolve network-related issues, including logical and physical connectivity problems.\u003c/li\u003e\n\u003cli\u003eSupport and configure network fundamentals such as routing, switching, IP services.\u003c/li\u003e\n\u003cli\u003eProvide support during technical network projects, including upgrades, deployments, and expansions.\u003c/li\u003e\n\u003cli\u003eProactively contribute to problem-solving efforts within a collaborative team environment.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e\u003cstrong\u003ePreferred Skills \u0026amp; Experience\u003c/strong\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eStrong problem-solving abilities with a methodical troubleshooting approach.\u003c/li\u003e\n\u003cli\u003eExcellent communication and documentation skills.\u003c/li\u003e\n\u003cli\u003eTechnical project management mindset.\u003c/li\u003e\n\u003cli\u003eStrong team collaboration skills with a self-motivated, proactive attitude.\u003c/li\u003e\n\u003cli\u003eDeep knowledge of enterprise systems, cybersecurity, and IT operations. Familiarity with managing cloud environments, SaaS applications, and endpoint security.\u003c/li\u003e\n\u003cli\u003eExceptional at diagnosing issues, implementing solutions quickly, and preempting future IT challenges with innovative thinking.\u003c/li\u003e\n\u003cli\u003eExperience in managing cross-functional projects, ensuring IT initiatives support business objectives and are delivered on time and within budget.\u003c/li\u003e\n\u003cli\u003eStrong interpersonal and communication skills to effectively collaborate with various departments globally and convey complex IT concepts to non-technical stakeholder\u003c/li\u003e\n\u003cli\u003eBeginner to intermediate experience with network layer operations (Layers 1–4).\u003c/li\u003e\n\u003cli\u003eBasic to intermediate understanding of TCP/IP, network fundamentals, and network automation techniques.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003ch3\u003e\u003cstrong\u003ePreferred Education\u003c/strong\u003e\u003c/h3\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eAssociate or Bachelor's degree in IT, Networking, or related field (or equivalent work experience)\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003ch3\u003e\u003cstrong\u003eCertifications\u003c/strong\u003e\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eVendor certifications preferred, such as CCNA (Preferred).\u003c/li\u003e\n\u003cli\u003eFamiliarity with vendor hardware, including Cisco, Juniper, Palo Alto\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003ch3\u003e\u003cstrong\u003eBenefits\u003c/strong\u003e\u003c/h3\u003e\n\u003cp\u003eWe offer the following employee benefits:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eCompetitive cash and equity-based compensation\u003c/li\u003e\n\u003cli\u003eMedical, dental, and vision insurance\u003c/li\u003e\n\u003cli\u003eUnlimited paid time off subject to prior approval\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e"}
+</script>
+
+    <script type='text/javascript' src='https://www.dropbox.com/static/api/2/dropins.js' id='dropboxjs' data-app-key='mh9jyh4mfwjnfhj' async></script>
+
+<script class="js-metadata" data-key="googlePickerDeveloperKey" data-type="string" data-value="AIzaSyCratp6KuOmiXWfR3ABY8azVmw8XFnBl64" type="text/configuration"></script><script class="js-metadata" data-key="googlePickerClientId" data-type="string" data-value="594601915089-7c2994029qkt5qu2tmbppujr9jqrqqrs.apps.googleusercontent.com" type="text/configuration"></script><script class="js-metadata" data-key="googlePickerAppId" data-type="number" data-value="594601915089" type="text/configuration"></script>
+  <script>
+    function callDriveMethodWhenAvailable(method, retries) {
+      retries = retries || 0;
+
+      if (window[method]) {
+        window[method]();
+      } else if (retries < 10){
+        retries++;
+        setTimeout(function() {
+          callDriveMethodWhenAvailable(method, retries);
+        }, retries * 1000);
+      }
+    }
+  </script>
+
+  <script src='https://apis.google.com/js/api.js' onload="callDriveMethodWhenAvailable('gapiLoaded')" async defer></script>
+  <script src='https://accounts.google.com/gsi/client' onload="callDriveMethodWhenAvailable('gisLoaded')" async defer></script>
+
+
+  </body>
+</html>

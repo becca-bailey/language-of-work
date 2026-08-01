@@ -1,0 +1,120 @@
+{
+  "n": 90,
+  "accuracy": 0.789,
+  "krippendorff_alpha": 0.659,
+  "confusion": {
+    "process_logistics": {
+      "process_logistics": 19,
+      "benefits_perks": 2,
+      "mission_brand": 1
+    },
+    "mission_brand": {
+      "mission_brand": 42,
+      "navigation_junk": 10,
+      "job_listing": 6
+    },
+    "job_listing": {
+      "job_listing": 1
+    },
+    "benefits_perks": {
+      "benefits_perks": 9
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "5377af53b8ed87e0",
+      "hand_label": "process_logistics",
+      "predicted": "benefits_perks"
+    },
+    {
+      "chunk_id": "9d4da89f9d4e4987",
+      "hand_label": "mission_brand",
+      "predicted": "navigation_junk"
+    },
+    {
+      "chunk_id": "cc7ba5ea18af3cb2",
+      "hand_label": "process_logistics",
+      "predicted": "benefits_perks"
+    },
+    {
+      "chunk_id": "3ffab867b90e105c",
+      "hand_label": "mission_brand",
+      "predicted": "navigation_junk"
+    },
+    {
+      "chunk_id": "b63da38749b8765b",
+      "hand_label": "mission_brand",
+      "predicted": "navigation_junk"
+    },
+    {
+      "chunk_id": "8ce9f7b8b178087d",
+      "hand_label": "mission_brand",
+      "predicted": "navigation_junk"
+    },
+    {
+      "chunk_id": "44a7fedf5f68d7d6",
+      "hand_label": "mission_brand",
+      "predicted": "job_listing"
+    },
+    {
+      "chunk_id": "9f175f1515f64fca",
+      "hand_label": "mission_brand",
+      "predicted": "navigation_junk"
+    },
+    {
+      "chunk_id": "4fa2159892452cfc",
+      "hand_label": "mission_brand",
+      "predicted": "job_listing"
+    },
+    {
+      "chunk_id": "e376fb20a8226435",
+      "hand_label": "mission_brand",
+      "predicted": "job_listing"
+    },
+    {
+      "chunk_id": "3a2e6700afd726e7",
+      "hand_label": "mission_brand",
+      "predicted": "navigation_junk"
+    },
+    {
+      "chunk_id": "1a38bf8daa548a87",
+      "hand_label": "process_logistics",
+      "predicted": "mission_brand"
+    },
+    {
+      "chunk_id": "b17a20f4efcc668b",
+      "hand_label": "mission_brand",
+      "predicted": "job_listing"
+    },
+    {
+      "chunk_id": "d7528584bd8b126f",
+      "hand_label": "mission_brand",
+      "predicted": "navigation_junk"
+    },
+    {
+      "chunk_id": "a53e75a2b2639dd2",
+      "hand_label": "mission_brand",
+      "predicted": "navigation_junk"
+    },
+    {
+      "chunk_id": "0ddac67ad121b9ef",
+      "hand_label": "mission_brand",
+      "predicted": "navigation_junk"
+    },
+    {
+      "chunk_id": "fd612a20fc27591c",
+      "hand_label": "mission_brand",
+      "predicted": "job_listing"
+    },
+    {
+      "chunk_id": "29cc68e01d0f6d73",
+      "hand_label": "mission_brand",
+      "predicted": "navigation_junk"
+    },
+    {
+      "chunk_id": "85e0ba697b382522",
+      "hand_label": "mission_brand",
+      "predicted": "job_listing"
+    }
+  ]
+}

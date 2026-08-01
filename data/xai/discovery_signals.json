@@ -1,0 +1,83 @@
+{
+  "x.ai/": {
+    "words": 235,
+    "samples": [
+      {
+        "timestamp": "20230712155404",
+        "words": 235
+      },
+      {
+        "timestamp": "20230802005630",
+        "words": 230
+      },
+      {
+        "timestamp": "20230902044625",
+        "words": 230
+      },
+      {
+        "timestamp": "20231001232202",
+        "words": 230
+      },
+      {
+        "timestamp": "20231103090934",
+        "words": 230
+      }
+    ],
+    "shell": false,
+    "note": "M1 correction 2026-07-29: automatic earliest/median/latest sampling hit the pre-announcement parked page (202302) and the post-2024 product-page shell eras, missing the Jul-Nov 2023 founding-announcement era this pattern exists for (max_year 2023). Re-probed on the announcement-era captures only."
+  },
+  "x.ai/careers": {
+    "words": 280,
+    "samples": [
+      {
+        "timestamp": "20240317211755",
+        "words": 257
+      },
+      {
+        "timestamp": "20250505144424",
+        "words": 280
+      },
+      {
+        "timestamp": "20260705112126",
+        "words": 226
+      }
+    ],
+    "shell": false
+  },
+  "x.ai/about": {
+    "words": 391,
+    "samples": [
+      {
+        "timestamp": "20231106040127",
+        "words": 199
+      },
+      {
+        "timestamp": "20240704232701",
+        "words": 324
+      },
+      {
+        "timestamp": "20250206174533",
+        "words": 391
+      }
+    ],
+    "shell": false
+  },
+  "x.ai/company": {
+    "words": 216,
+    "samples": [
+      {
+        "timestamp": "20250313074701",
+        "words": 216
+      },
+      {
+        "timestamp": "20251116154049",
+        "words": 213
+      },
+      {
+        "timestamp": "20260704231723",
+        "words": 151
+      }
+    ],
+    "shell": false
+  }
+}
