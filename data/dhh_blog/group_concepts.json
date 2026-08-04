@@ -1,0 +1,371 @@
+{
+  "case": "dhh_blog",
+  "generated_at": "2026-08-01T23:26:55+00:00",
+  "method": "probe max-sim, hit threshold 0.5, min 5 words/sentence",
+  "n_sentences": 25047,
+  "sentences_by_year": {
+    "2021": 4792,
+    "2022": 5998,
+    "2023": 6048,
+    "2024": 4752,
+    "2025": 2780,
+    "2026": 677
+  },
+  "probes": {
+    "migrant_threat": [
+      "Migrants are responsible for the rising crime in our cities.",
+      "Mass immigration is destroying the fabric of our society.",
+      "Asylum seekers are a burden and a danger to the native population."
+    ],
+    "migrant_sympathy": [
+      "Refugees deserve protection and compassion.",
+      "Immigrants enrich our society and our economy."
+    ],
+    "roma_reference": [
+      "The gypsies have taken over the public parks.",
+      "Roma people face discrimination across Europe."
+    ],
+    "islam_threat": [
+      "Islam is incompatible with Western values.",
+      "Muslim immigration threatens European culture."
+    ],
+    "crime_ethnicity": [
+      "The crime statistics show which ethnic groups are responsible.",
+      "Immigrant background explains the violence in our streets."
+    ],
+    "deportation_removal": [
+      "Deport them all and close the borders.",
+      "When they take over public spaces, you deport them."
+    ],
+    "trans_gender_ideology": [
+      "Gender ideology is being forced on our children.",
+      "Trans activism has gone too far."
+    ],
+    "western_decline": [
+      "The West is committing civilizational suicide.",
+      "Europe is too weak and delusional to defend its own culture."
+    ]
+  },
+  "concepts": {
+    "migrant_threat": {
+      "max_sim": 0.513,
+      "hits": 5,
+      "hits_per_100_by_year": {
+        "2021": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 0.18,
+        "2026": 0.0
+      },
+      "hits_by_year": {
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 5,
+        "2026": 0
+      },
+      "top_sentences": [
+        {
+          "sim": 0.513,
+          "year": "2025",
+          "slug": "failed-integration-and-the-fall-of-multiculturalism-77296314",
+          "sentence": "Vibrant, strong societies surely benefit from some degree of immigration."
+        },
+        {
+          "sim": 0.513,
+          "year": "2025",
+          "slug": "failed-integration-and-the-fall-of-multiculturalism-77296314",
+          "sentence": "Vibrant, strong societies surely benefit from some degree of immigration."
+        },
+        {
+          "sim": 0.511,
+          "year": "2025",
+          "slug": "europeans-don-t-have-or-understand-free-speech-c7c406e8",
+          "sentence": "The lack of free speech and the problems with mass immigration."
+        },
+        {
+          "sim": 0.506,
+          "year": "2025",
+          "slug": "the-new-york-times-gives-liberals-the-danish-permission-to-pivot-on-mass-immigration-e7484a14",
+          "sentence": "It took a while, but The New York Times is now recognizing that immigrants from some regions really do commit vastly more violent crime, are net-negative contributors to the state budgets (by drawing benefits at higher r"
+        },
+        {
+          "sim": 0.505,
+          "year": "2025",
+          "slug": "closing-the-borders-alone-won-t-fix-the-problems-aca49088",
+          "sentence": "The mayor of the country's third largest city, Odense, says he knows why: \"It's groups of young men with an immigrant background that's causing it."
+        }
+      ]
+    },
+    "migrant_sympathy": {
+      "max_sim": 0.651,
+      "hits": 2,
+      "hits_per_100_by_year": {
+        "2021": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 0.07,
+        "2026": 0.0
+      },
+      "hits_by_year": {
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 2,
+        "2026": 0
+      },
+      "top_sentences": [
+        {
+          "sim": 0.651,
+          "year": "2025",
+          "slug": "failed-integration-and-the-fall-of-multiculturalism-77296314",
+          "sentence": "Vibrant, strong societies surely benefit from some degree of immigration."
+        },
+        {
+          "sim": 0.651,
+          "year": "2025",
+          "slug": "failed-integration-and-the-fall-of-multiculturalism-77296314",
+          "sentence": "Vibrant, strong societies surely benefit from some degree of immigration."
+        }
+      ]
+    },
+    "roma_reference": {
+      "max_sim": 0.666,
+      "hits": 3,
+      "hits_per_100_by_year": {
+        "2021": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 0.0,
+        "2026": 0.44
+      },
+      "hits_by_year": {
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 0,
+        "2026": 3
+      },
+      "top_sentences": [
+        {
+          "sim": 0.666,
+          "year": "2026",
+          "slug": "wolves-sheep-and-gypsies-ba44af6a",
+          "sentence": "When gypsies take over public spaces, you deport them."
+        },
+        {
+          "sim": 0.632,
+          "year": "2026",
+          "slug": "wolves-sheep-and-gypsies-ba44af6a",
+          "sentence": "Cue the gypsies in Copenhagen, and their increasingly brazen behavior, after the city legalized overnight sleeping in parks and other green areas last year."
+        },
+        {
+          "sim": 0.529,
+          "year": "2026",
+          "slug": "wolves-sheep-and-gypsies-ba44af6a",
+          "sentence": "This has predictably led to these foreign vagrants setting up camp in the green areas around some of the city's metro stations to the great dismay of neighbors."
+        }
+      ]
+    },
+    "islam_threat": {
+      "max_sim": 0.512,
+      "hits": 1,
+      "hits_per_100_by_year": {
+        "2021": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 0.04,
+        "2026": 0.0
+      },
+      "hits_by_year": {
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 1,
+        "2026": 0
+      },
+      "top_sentences": [
+        {
+          "sim": 0.512,
+          "year": "2025",
+          "slug": "the-new-york-times-gives-liberals-the-danish-permission-to-pivot-on-mass-immigration-e7484a14",
+          "sentence": "Opposition to mass immigration and multi-culturalism in Europe isn't likely to go away."
+        }
+      ]
+    },
+    "crime_ethnicity": {
+      "max_sim": 0.584,
+      "hits": 5,
+      "hits_per_100_by_year": {
+        "2021": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 0.18,
+        "2026": 0.0
+      },
+      "hits_by_year": {
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 5,
+        "2026": 0
+      },
+      "top_sentences": [
+        {
+          "sim": 0.584,
+          "year": "2025",
+          "slug": "closing-the-borders-alone-won-t-fix-the-problems-aca49088",
+          "sentence": "In schools with 30% or more immigrants, violence is twice as prevalent."
+        },
+        {
+          "sim": 0.565,
+          "year": "2025",
+          "slug": "the-new-york-times-gives-liberals-the-danish-permission-to-pivot-on-mass-immigration-e7484a14",
+          "sentence": "And every excuse imaginable was leveled at the undeniable statistics showing that immigrants from countries like Tunisia, Lebanon, and Somalia are committing violent crime at rates 7-9 times higher than ethnic Danes (and"
+        },
+        {
+          "sim": 0.535,
+          "year": "2025",
+          "slug": "the-new-york-times-gives-liberals-the-danish-permission-to-pivot-on-mass-immigration-e7484a14",
+          "sentence": "It took a while, but The New York Times is now recognizing that immigrants from some regions really do commit vastly more violent crime, are net-negative contributors to the state budgets (by drawing benefits at higher r"
+        },
+        {
+          "sim": 0.519,
+          "year": "2025",
+          "slug": "closing-the-borders-alone-won-t-fix-the-problems-aca49088",
+          "sentence": "In fact, data shows the opposite: Descendants of MENAPT immigrants are more likely to be violent and troublesome than their parents."
+        },
+        {
+          "sim": 0.506,
+          "year": "2025",
+          "slug": "closing-the-borders-alone-won-t-fix-the-problems-aca49088",
+          "sentence": "The mayor of the country's third largest city, Odense, says he knows why: \"It's groups of young men with an immigrant background that's causing it."
+        }
+      ]
+    },
+    "deportation_removal": {
+      "max_sim": 0.851,
+      "hits": 1,
+      "hits_per_100_by_year": {
+        "2021": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 0.0,
+        "2026": 0.15
+      },
+      "hits_by_year": {
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 0,
+        "2026": 1
+      },
+      "top_sentences": [
+        {
+          "sim": 0.851,
+          "year": "2026",
+          "slug": "wolves-sheep-and-gypsies-ba44af6a",
+          "sentence": "When gypsies take over public spaces, you deport them."
+        }
+      ]
+    },
+    "trans_gender_ideology": {
+      "max_sim": 0.522,
+      "hits": 1,
+      "hits_per_100_by_year": {
+        "2021": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 0.04,
+        "2026": 0.0
+      },
+      "hits_by_year": {
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 1,
+        "2026": 0
+      },
+      "top_sentences": [
+        {
+          "sim": 0.522,
+          "year": "2025",
+          "slug": "gender-and-sexuality-alliances-in-primary-school-at-cis-97f66c06",
+          "sentence": "What's less lovely is the fact that CIS seems to have caught some of the same gender-ideology obsession that has ravaged many schools in America."
+        }
+      ]
+    },
+    "western_decline": {
+      "max_sim": 0.629,
+      "hits": 6,
+      "hits_per_100_by_year": {
+        "2021": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 0.18,
+        "2026": 0.15
+      },
+      "hits_by_year": {
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 5,
+        "2026": 1
+      },
+      "top_sentences": [
+        {
+          "sim": 0.629,
+          "year": "2025",
+          "slug": "europe-must-become-dangerous-again-13413d78",
+          "sentence": "Because Europe is weak, spiritually and militarily, in the face of Russia."
+        },
+        {
+          "sim": 0.563,
+          "year": "2026",
+          "slug": "the-will-to-power-will-return-58ffb9dc",
+          "sentence": "Why did the West lose the will to power?"
+        },
+        {
+          "sim": 0.518,
+          "year": "2025",
+          "slug": "failed-integration-and-the-fall-of-multiculturalism-77296314",
+          "sentence": "Second, the compromise of multiculturalism has been an abject failure in Europe."
+        },
+        {
+          "sim": 0.518,
+          "year": "2025",
+          "slug": "failed-integration-and-the-fall-of-multiculturalism-77296314",
+          "sentence": "Second, the compromise of multiculturalism has been an abject failure in Europe."
+        },
+        {
+          "sim": 0.517,
+          "year": "2025",
+          "slug": "europe-s-impotent-rage-7edae302",
+          "sentence": "Europe has become a third-rate power economically, politically, and militarily, and the price for this slowly building predicament is now due all at once."
+        },
+        {
+          "sim": 0.508,
+          "year": "2025",
+          "slug": "europe-is-weak-and-delusional-but-not-doomed-8b10e7cb",
+          "sentence": "The gap between Europe's self-image and reality has grown into a chasm of delulu."
+        }
+      ]
+    }
+  }
+}

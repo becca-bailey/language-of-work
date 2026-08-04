@@ -8,6 +8,7 @@ import { localPoint } from "@visx/event";
 import { allYears, type StoryCompanySeries, type StoryEnvelopeQuote } from "@/lib/storyTypes";
 import { DEI_REGISTER_COLORS as COLORS, DEI_REGISTER_TOKEN } from "@/lib/deiRegisters";
 import { useThemeColors } from "@/lib/themeColors";
+import { BarSegment, SEGMENT_GAP } from "@/components/chartMarks";
 
 /** Active (pro-inclusion) registers stack upward; counter registers stack downward. */
 const ACTIVE_REGISTERS = [
@@ -28,11 +29,29 @@ const LABELS: Record<string, string> = {
   civilizational_mission: "civilizational mission",
 };
 
+/** One stacked series: key into `year.registers`, legend label, CSS color token. */
+export interface RegisterSeriesDef {
+  key: string;
+  label: string;
+  token: string;
+}
+
+const DEFAULT_UP: RegisterSeriesDef[] = ACTIVE_REGISTERS.map((k) => ({
+  key: k, label: LABELS[k], token: DEI_REGISTER_TOKEN[k],
+}));
+const DEFAULT_DOWN: RegisterSeriesDef[] = COUNTER_REGISTERS.map((k) => ({
+  key: k, label: LABELS[k], token: DEI_REGISTER_TOKEN[k],
+}));
+
 const ROW_H = 96;
 const MARGIN = { top: 4, right: 8, bottom: 20, left: 12 };
 
 interface Props {
   companies: StoryCompanySeries[];
+  /** Per-company row height in px; the DEI story's 20-row grid uses the
+   * default. Single-series pages reuse CompanyRegisterRow directly instead
+   * of this wrapper (its grouping/aggregate layers are DEI-story editorial). */
+  rowHeight?: number;
 }
 
 interface YearCell {
@@ -42,19 +61,32 @@ interface YearCell {
   nChunks: number;
   shares: Record<string, number>;
   counterShares: Record<string, number>;
+  /** Raw chunk counts per class (for optional totals labels). */
+  counts: Record<string, number>;
   inclusionQuote?: StoryEnvelopeQuote | null;
   counterQuote?: StoryEnvelopeQuote | null;
 }
 
-function cellsFor(company: StoryCompanySeries): Map<number, YearCell> {
+export function cellsFor(
+  company: StoryCompanySeries,
+  up: RegisterSeriesDef[] = DEFAULT_UP,
+  down: RegisterSeriesDef[] = DEFAULT_DOWN
+): Map<number, YearCell> {
   const cells = new Map<number, YearCell>();
   for (const y of company.years) {
     if (!y.registers) continue;
     const n = Math.max(y.nChunks, 1);
     const shares: Record<string, number> = {};
-    for (const reg of ACTIVE_REGISTERS) shares[reg] = (y.registers?.[reg] ?? 0) / n;
+    const counts: Record<string, number> = {};
+    for (const { key: reg } of up) {
+      counts[reg] = y.registers?.[reg] ?? 0;
+      shares[reg] = counts[reg] / n;
+    }
     const counterShares: Record<string, number> = {};
-    for (const reg of COUNTER_REGISTERS) counterShares[reg] = (y.registers?.[reg] ?? 0) / n;
+    for (const { key: reg } of down) {
+      counts[reg] = y.registers?.[reg] ?? 0;
+      counterShares[reg] = counts[reg] / n;
+    }
     const hasDei =
       Object.values(shares).some((v) => v > 0) || Object.values(counterShares).some((v) => v > 0);
     cells.set(y.year, {
@@ -64,6 +96,7 @@ function cellsFor(company: StoryCompanySeries): Map<number, YearCell> {
       nChunks: y.nChunks,
       shares,
       counterShares,
+      counts,
       // Label-aware quotes: the most salient active-register chunk and the
       // stance-labeled counter chunk — no counter quote when none was labeled.
       inclusionQuote: y.inclusionQuote,
@@ -251,24 +284,47 @@ function AggregateLine({ companies, years, width }: { companies: StoryCompanySer
   );
 }
 
-function CompanyRow({
+export function CompanyRegisterRow({
   company,
   years,
   maxShare,
   width,
+  rowHeight = ROW_H,
+  up = DEFAULT_UP,
+  down = DEFAULT_DOWN,
+  minBarPx = 0,
+  showTotals = false,
+  scale = "share",
 }: {
   company: StoryCompanySeries;
   years: number[];
   maxShare: number;
   width: number;
+  rowHeight?: number;
+  /** Up/down stacked series; defaults = the DEI register/stance taxonomy. */
+  up?: RegisterSeriesDef[];
+  down?: RegisterSeriesDef[];
+  /** Minimum px height for a nonzero bar, so rare classes stay visible. */
+  minBarPx?: number;
+  /** Raw chunk totals above the up-stack / below the down-stack (the
+   * founder page's treatment; off for the DEI story's dense grid). */
+  showTotals?: boolean;
+  /** Bar-height scale: "share" (of the year's chunks — the DEI story's
+   * cross-company view) or "count" (raw chunks, so heights match the
+   * totals labels). With "count", pass the max stacked COUNT as maxShare. */
+  scale?: "share" | "count";
 }) {
-  const byYear = useMemo(() => cellsFor(company), [company]);
+  const byYear = useMemo(() => cellsFor(company, up, down), [company, up, down]);
   const theme = useThemeColors(); // resolve register tokens to hex for SVG fill
-  const fillFor = (reg: string) => theme.resolve(DEI_REGISTER_TOKEN[reg]);
+  const tokenFor = useMemo(
+    () => Object.fromEntries([...up, ...down].map((d) => [d.key, d.token])),
+    [up, down]
+  );
+  const fillFor = (reg: string) => theme.resolve(tokenFor[reg] ?? DEI_REGISTER_TOKEN[reg]);
   const { showTooltip, hideTooltip, tooltipData, tooltipLeft, tooltipTop } = useTooltip<Tip>();
 
   const innerW = width - MARGIN.left - MARGIN.right;
-  const innerH = ROW_H - MARGIN.top - MARGIN.bottom;
+  const innerH = rowHeight - MARGIN.top - MARGIN.bottom;
   const baseline = innerH * 0.72;
 
   const xScale = useMemo(
@@ -287,7 +343,7 @@ function CompanyRow({
     // Lift the whole row above the rows below it while its tooltip is open, so a
     // tooltip that flips below the cursor isn't covered by the next row's SVG.
     <div className={`relative ${tooltipData ? "z-30" : ""}`}>
-      <svg width={width} height={ROW_H} role="img" aria-label={`${company.displayName} register mix by year`}>
+      <svg width={width} height={rowHeight} role="img" aria-label={`${company.displayName} register mix by year`}>
         <g transform={`translate(${MARGIN.left},${MARGIN.top})`}>
           <line x1={0} x2={innerW} y1={baseline} y2={baseline} className="stroke-neutral-300 dark:stroke-neutral-700" />
           {years.map((year) => {
@@ -314,27 +370,45 @@ function CompanyRow({
               // Captured, but said nothing about DEI. Solid baseline tick.
               marks = <rect x={x} y={baseline - 1.5} width={w} height={1.5} className="fill-neutral-400 dark:fill-neutral-600" />;
             } else {
-              let up = baseline;
-              const upBars = ACTIVE_REGISTERS.map((reg) => {
-                const share = cell.shares[reg];
+              let upCursor = baseline;
+              let upFirst = true;
+              const upBars = up.map(({ key: reg }) => {
+                const share = scale === "count" ? (cell.counts[reg] ?? 0) : cell.shares[reg];
                 if (share <= 0) return null;
-                const h = upScale(share);
-                up -= h;
-                return <rect key={reg} x={x} y={up} width={w} height={h} fill={fillFor(reg)} />;
+                if (!upFirst) upCursor -= SEGMENT_GAP;
+                upFirst = false;
+                const h = Math.max(minBarPx, upScale(share));
+                upCursor -= h;
+                return <BarSegment key={reg} x={x} y={upCursor} width={w} height={h} fill={fillFor(reg)} />;
               });
-              let down = baseline;
-              const downBars = COUNTER_REGISTERS.map((reg) => {
-                const share = cell.counterShares[reg];
+              let downCursor = baseline;
+              let downFirst = true;
+              const downBars = down.map(({ key: reg }) => {
+                const share = scale === "count" ? (cell.counts[reg] ?? 0) : cell.counterShares[reg];
                 if (share <= 0) return null;
-                const h = downScale(share);
-                const bar = <rect key={reg} x={x} y={down} width={w} height={h} fill={fillFor(reg)} />;
-                down += h;
+                if (!downFirst) downCursor += SEGMENT_GAP;
+                downFirst = false;
+                const h = Math.max(minBarPx, downScale(share));
+                const bar = <BarSegment key={reg} x={x} y={downCursor} width={w} height={h} fill={fillFor(reg)} />;
+                downCursor += h;
                 return bar;
               });
+              const upTotal = up.reduce((s, d) => s + (cell.counts[d.key] ?? 0), 0);
+              const downTotal = down.reduce((s, d) => s + (cell.counts[d.key] ?? 0), 0);
               marks = (
                 <>
                   {upBars}
                   {downBars}
+                  {showTotals && upTotal > 0 && (
+                    <text x={cx} y={upCursor - 4} textAnchor="middle" className="fill-neutral-500 text-[10px] tabular-nums">
+                      {upTotal}
+                    </text>
+                  )}
+                  {showTotals && downTotal > 0 && (
+                    <text x={cx} y={downCursor + 11} textAnchor="middle" className="fill-neutral-500 text-[10px] tabular-nums">
+                      {downTotal}
+                    </text>
+                  )}
                 </>
               );
             }
@@ -416,7 +490,7 @@ function CompanyRow({
   );
 }
 
-export default function StoryRegisterChart({ companies }: Props) {
+export default function StoryRegisterChart({ companies, rowHeight }: Props) {
   const withRegisters = useMemo(() => companies.filter((c) => c.years.some((y) => y.registers)), [companies]);
   const years = useMemo(() => allYears(withRegisters), [withRegisters]);
 
@@ -449,7 +523,7 @@ export default function StoryRegisterChart({ companies }: Props) {
               <div key={c.id}>
                 <p className="text-[11px] font-medium text-neutral-600 dark:text-neutral-400">{c.displayName}</p>
                 <ParentSize initialSize={{ width: 640, height: 320 }}>
-                  {({ width }) => (width > 0 ? <CompanyRow company={c} years={years} maxShare={maxShare} width={width} /> : null)}
+                  {({ width }) => (width > 0 ? <CompanyRegisterRow company={c} years={years} maxShare={maxShare} width={width} rowHeight={rowHeight} /> : null)}
                 </ParentSize>
               </div>
             ))}

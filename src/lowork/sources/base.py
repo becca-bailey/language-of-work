@@ -110,7 +110,7 @@ def get(
 
 def registry() -> dict:
     """name -> source module. Imported lazily to avoid import cycles."""
-    from . import books, hn, live, reddit, wayback_url
+    from . import books, hey_world, hn, live, reddit, wayback_url
 
-    mods = [hn, books, reddit, wayback_url, live]
+    mods = [hn, books, reddit, wayback_url, live, hey_world]
     return {m.NAME: m for m in mods}

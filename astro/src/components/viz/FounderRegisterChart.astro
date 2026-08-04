@@ -1,0 +1,17 @@
+---
+// The DEI story's inner register-row chart, reused for the dhh_blog case
+// series (Becca 2026-08-01: same chart, no "Counter-programmers" wrapper).
+// Prose-width container so the chart matches the text column.
+// Data: founder-speech.json deiCompanies (scripts/export_founder_story.py).
+import FounderRegisterRow from "@/components/FounderRegisterRow";
+import { loadStory } from "@/lib/stories";
+
+const data = (await loadStory("founder-speech")) as any;
+const companies = data?.deiCompanies ?? [];
+---
+
+{companies.length > 0 && (
+  <div class="my-6 max-w-[480px]">
+    <FounderRegisterRow companies={companies} client:only="react" />
+  </div>
+)}

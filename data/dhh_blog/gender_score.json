@@ -1,0 +1,52 @@
+{
+  "case": "dhh_blog",
+  "generated_at": "2026-08-01T23:26:57+00:00",
+  "baseline": "frozen story mu/sd (gender-language.json)",
+  "mu": -0.008,
+  "sd": 0.0394,
+  "pooled": {
+    "n": 16738,
+    "meanZ": 0.618,
+    "mascShare": 0.571,
+    "femShare": 0.046
+  },
+  "by_year": {
+    "2021": {
+      "n": 3019,
+      "meanZ": 0.653,
+      "mascShare": 0.593,
+      "femShare": 0.035
+    },
+    "2022": {
+      "n": 3641,
+      "meanZ": 0.61,
+      "mascShare": 0.557,
+      "femShare": 0.049
+    },
+    "2023": {
+      "n": 3415,
+      "meanZ": 0.662,
+      "mascShare": 0.608,
+      "femShare": 0.035
+    },
+    "2024": {
+      "n": 3450,
+      "meanZ": 0.57,
+      "mascShare": 0.552,
+      "femShare": 0.052
+    },
+    "2025": {
+      "n": 2536,
+      "meanZ": 0.599,
+      "mascShare": 0.548,
+      "femShare": 0.063
+    },
+    "2026": {
+      "n": 677,
+      "meanZ": 0.591,
+      "mascShare": 0.547,
+      "femShare": 0.043
+    }
+  },
+  "caveat": "off-label: axis validated on careers copy; blog genre difference is a confound"
+}

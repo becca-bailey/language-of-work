@@ -1,0 +1,110 @@
+---
+title: The Non-Political Workplace
+subtitle: What a founder published while his company went quiet.
+thesis: >-
+  Basecamp banned political discussion at work in April 2021 and scrubbed its
+  own pages clean. The same spring, its co-founder started a blog. Measured
+  with this project's instruments, that blog escalates from zero references
+  to marginalized groups to a register that is 100% threat-framed — while the
+  company's careers pages stayed neutral.
+published: false
+study: careers
+order: 9
+teaser: "A founder's blog, scored with the same instruments as the careers corpus."
+---
+
+import FounderRefsStack from "@/components/viz/FounderRefsStack.astro";
+import FounderRegisterChart from "@/components/viz/FounderRegisterChart.astro";
+import FounderGenderCompare from "@/components/viz/FounderGenderCompare.astro";
+import FounderQuoteCards from "@/components/viz/FounderQuoteCards.astro";
+import FounderArcTimeline from "@/components/viz/FounderArcTimeline.astro";
+
+> **Draft.** Every number on this page is provisional: the extraction
+> instrument has not yet passed its blind hand-label validation gate, and
+> the pre-registered thresholds are documented in the pilot memo. If
+> validation moves the numbers, this page changes.
+
+In April 2021, Basecamp banned "societal and political discussions" at work,
+disbanded its DEI committee, and lost a third of its staff in the weeks that
+followed. My corpus can verify one side of that policy: the company's own
+careers pages really did go quiet — every Basecamp chunk since then codes
+neutral on my DEI stance instrument.
+
+This page is about the other side. David Heinemeier Hansson's personal blog
+started the month before the memo. I captured all 512 posts (March 2021 –
+July 2026) and ran them through the same instruments I use on careers pages,
+plus one new one: an extractor that finds references to marginalized groups
+and codes how each reference is framed — sympathetic defense, neutral
+mention, policy critique, hostile or derogatory language, or the group cast
+as a threat (crime, danger, removal). The last two are kept separate on
+purpose: contempt or mockery is real hostility, but "threat" is reserved for
+where danger or removal is actually asserted, so the threat count never
+inflates on tone alone. Every counted reference must survive a machine check
+that its quote appears verbatim in the post.
+
+## References escalate, and the frame flips
+
+<FounderRefsStack />
+
+Two years anchor this chart. The **2021** column is the year of the
+April no-politics memo — and it is empty: not one post that year references
+a marginalized group. The **2024** column holds the first threat-framed
+post, in January; everything to its right is the escalation.
+
+Read that way, three things move at once. Volume: zero referencing posts in
+2021, fifteen in 2025 against a shrinking posting pace. Subject: migrants
+and refugees become the dominant referent (8 of those 15 posts in 2025);
+Roma appear for the first time in 2026. Frame: through 2023 no post frames a
+group as a threat; the first two do in 2024; by 2025 nine of the fifteen
+referencing posts are threat-framed, and all four in 2026 are.
+
+Each post is counted once here, in its most-hostile framing — a post that
+mentions migrants both in passing and as a danger counts as a threat post,
+not split into tallies. That keeps the denominator honest: these are counts
+of posts, not of individual mentions, which the model segments arbitrarily.
+
+## DEI content and its counterforces
+
+<FounderRegisterChart />
+
+This is the same chart the DEI story uses: pro-inclusion content stacks up,
+counterforce stances stack down. Two things to read off it. First, the
+down-side has two distinct eras — in 2021–22 the blog argues *for* the
+no-politics position (apolitical / anti-DEI), and in 2025–26 the explicit
+civilizational, West-versus-the-rest register arrives, in the same window
+where the reference framing flips to threat. Second, the up-side barely
+exists: three paragraphs in six years engage DEI affirmatively. (Basecamp's
+own careers pages, run through the same classifier, code neutral almost
+throughout — but those are recruiting pages, a different kind of document,
+so the honest comparison is the prose one above, not a shared axis.)
+
+## In the corpus's own words
+
+<FounderQuoteCards />
+
+## The register was constant; the content moved
+
+<FounderGenderCompare />
+
+On the gender axis from the masculine-energy story, the blog scores above
+Basecamp's own careers pages — the second most masculine-coded company in
+the corpus — and the score is flat across all six years (0.57–0.66). The
+masculine register didn't escalate. What changed is what got written inside
+it.
+
+## The arc
+
+<FounderArcTimeline />
+
+## Method notes
+
+The corpus is a separate case study (`data/dhh_blog/`), never mixed into the
+careers universe. Three instruments cross-check each other: the LLM
+extractor, a plain regex term count anyone can rerun, and embedding probes —
+all three agree on the shape above. Known limits: the gender axis and stance
+classifier are validated on careers copy, not blog prose (read those as
+directional); deleted posts are invisible to this capture; frame coding has
+a known ambiguity about who sympathy is directed toward; and the blind
+hand-label pass is still open. The full protocol, guards, refusal counts,
+and go/no-go criteria are in the pilot memo
+(`docs/basecamp-founder-speech-pilot.md`).

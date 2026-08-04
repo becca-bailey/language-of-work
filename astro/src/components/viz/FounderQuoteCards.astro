@@ -1,0 +1,56 @@
+---
+// The arc in the blog's own words: machine-checked verbatim extractions,
+// earliest-sympathetic through 2026-threat, each linked to the live post.
+// Same card pattern as ExclusionQuotes/DeckQuotes; frame chip wears the
+// chart's frame color so the cards tie back to the stacked chart.
+// Data: founder-speech.json (scripts/export_founder_story.py).
+import { loadStory } from "@/lib/stories";
+
+const data = (await loadStory("founder-speech")) as any;
+const quotes = (data?.quotes ?? []) as {
+  date: string; title: string; url: string; group: string; frame: string; quote: string;
+}[];
+
+const FRAME_LABEL: Record<string, string> = {
+  sympathetic_defense: "sympathetic",
+  neutral_mention: "neutral",
+  policy_critique: "policy critique",
+  threat_crime_framing: "threat / removal",
+};
+const FRAME_COLOR: Record<string, string> = {
+  sympathetic_defense: "var(--chart-2)",
+  neutral_mention: "var(--muted)",
+  policy_critique: "var(--chart-contrast-2)",
+  threat_crime_framing: "var(--chart-contrast-1)",
+};
+const GROUP_LABEL: Record<string, string> = {
+  migrants_refugees: "migrants/refugees",
+  roma: "Roma",
+  muslims: "Muslims",
+  jews: "Jewish people",
+  black_people: "Black people",
+  trans_people: "trans people",
+  lgbtq_other: "LGBTQ+",
+  women: "women",
+  other_minoritized: "other",
+};
+---
+
+<div class="my-6 grid gap-3 sm:grid-cols-2">
+  {quotes.map((q) => (
+    <div class="rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
+      <p class="text-xs font-medium uppercase tracking-wide text-neutral-500">
+        {q.date} · {GROUP_LABEL[q.group] ?? q.group} ·{" "}
+        <span style={`color:${FRAME_COLOR[q.frame] ?? "inherit"}`}>{FRAME_LABEL[q.frame] ?? q.frame}</span>
+      </p>
+      <p class="mt-1 text-sm text-neutral-700 dark:text-neutral-300">“{q.quote}”</p>
+      <p class="mt-2 text-xs text-neutral-400">
+        from <a href={q.url} rel="nofollow noopener" class="underline decoration-neutral-300 underline-offset-2">{q.title}</a>
+      </p>
+    </div>
+  ))}
+</div>
+<p class="max-w-prose text-xs text-neutral-500">
+  Every quote is a machine-verified verbatim substring of the post as captured
+  2026-08-01; links go to the live posts, which the author can edit or delete.
+</p>

@@ -1,0 +1,72 @@
+---
+// The blog on the careers-corpus gender axis: pooled meanZ next to anchor
+// companies from the gender-language story, same frozen baseline. The blog
+// row wears the alarm color; companies stay muted (color follows the
+// entity the page is about, not rank). Same row pattern as GenderShiftBars.
+// Off-label caveat carried in the footnote.
+// Data: founder-speech.json (scripts/export_founder_story.py).
+import { loadStory } from "@/lib/stories";
+
+const data = (await loadStory("founder-speech")) as any;
+const rows = ([...(data?.genderCompare ?? [])] as {
+  key: string; name: string; meanZ: number; mascShare: number;
+  femShare: number; isBlog: boolean;
+}[]).sort((a, b) => b.meanZ - a.meanZ);
+const MAX = Math.max(...rows.map((r) => Math.abs(r.meanZ)), 0.1);
+---
+
+<div class="my-6" style="max-width: 480px">
+  <div class="fgc-axis font-mono text-[10.5px] text-neutral-400">
+    <span class="fgc-axis-labels">
+      <span style="text-align:right;padding-right:6px">← feminine-coded</span>
+      <span style="padding-left:6px">masculine-coded →</span>
+    </span>
+  </div>
+  {rows.map((r) => (
+    <div class="fgc-row" title={`${r.name}: mean ${r.meanZ >= 0 ? "+" : ""}${r.meanZ.toFixed(2)}z; ${Math.round(100 * r.mascShare)}% of sentences masculine-coded, ${Math.round(100 * r.femShare)}% feminine-coded`}>
+      <span class="fgc-name text-[12px]" style={r.isBlog ? "font-weight:600" : ""}>{r.name}</span>
+      <span class="fgc-bar">
+        <span class="fgc-half fgc-left">
+          {r.meanZ < 0 && (
+            <i style={`width:${(100 * Math.abs(r.meanZ)) / MAX}%;background:${
+              r.isBlog ? "var(--chart-contrast-1)" : "color-mix(in srgb, var(--muted) 55%, transparent)"}`}></i>
+          )}
+        </span>
+        <span class="fgc-half fgc-right">
+          {r.meanZ >= 0 && (
+            <i style={`width:${(100 * r.meanZ) / MAX}%;background:${
+              r.isBlog ? "var(--chart-contrast-1)" : "color-mix(in srgb, var(--muted) 55%, transparent)"}`}></i>
+          )}
+        </span>
+      </span>
+      <span class="fgc-val font-mono text-[11px] tabular-nums" style={r.isBlog ? "color:var(--chart-contrast-1);font-weight:600" : "color:var(--muted)"}>
+        {(r.meanZ >= 0 ? "+" : "") + r.meanZ.toFixed(2)}z
+      </span>
+    </div>
+  ))}
+  <p class="mt-3 max-w-prose text-xs text-neutral-500">
+    Pooled sentence-level mean on the Kozlowski gender axis, z-scored against
+    the gender story's frozen 20-company baseline. Anchor companies from the
+    careers corpus for scale. Off-label: the axis was validated on careers
+    copy, and a personal blog is a different genre — read the comparison as
+    directional.
+  </p>
+</div>
+
+<style>
+  .fgc-axis, .fgc-row {
+    display: grid;
+    grid-template-columns: 110px minmax(0, 1fr) 52px;
+    gap: 8px; align-items: center;
+  }
+  .fgc-axis { margin-bottom: 6px; }
+  .fgc-axis-labels { grid-column: 2; display: grid; grid-template-columns: 1fr 1fr; }
+  .fgc-row { padding: 2.5px 0; }
+  .fgc-name { text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .fgc-bar { display: grid; grid-template-columns: 1fr 1fr; height: 10px; }
+  .fgc-half { position: relative; height: 10px; }
+  .fgc-left { border-right: 1px solid color-mix(in srgb, var(--muted) 55%, transparent); }
+  .fgc-half i { position: absolute; top: 1px; height: 8px; border-radius: 2px; display: block; }
+  .fgc-left i { right: 0; }
+  .fgc-right i { left: 0; }
+</style>

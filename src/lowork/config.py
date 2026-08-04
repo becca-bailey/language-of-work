@@ -28,6 +28,9 @@ CLASSIFIER_MODEL = "claude-haiku-4-5-20251001"
 # hand-labeled sample (2026-07), so it's the default for cost and speed.
 REGISTER_MODEL = "claude-haiku-4-5-20251001"
 JUDGE_MODEL = "claude-sonnet-4-5-20250929"
+# Group-reference extraction on charged founder-blog prose: nuanced frame
+# calls on a few hundred posts, so judge tier, not classifier tier.
+GROUP_REF_MODEL = "claude-sonnet-4-5-20250929"
 
 # Chunk-label gates shared across scripts. ANALYSIS_LABELS is the corpus every
 # axis/DEI/performance analysis runs on. CONTENT_LABELS is the wider prose gate

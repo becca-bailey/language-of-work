@@ -1,0 +1,93 @@
+---
+// Marginalized-group references in DHH's blog by year, stacked by frame —
+// visx chart (FounderRefsChart) sharing BarSegment styling with the DEI
+// register row: rounded segment ends + 2px gaps, one look for all stacked
+// bars. Threat sits on the baseline. Legend, table fallback, and footnote
+// stay server-rendered. Frame colors are fixed to the site poles: cool =
+// sympathetic, muted = neutral, warm contrast pair = policy / threat.
+// Data: founder-speech.json (scripts/export_founder_story.py). All numbers
+// pre-validation (validationPending badge in the story prose).
+import FounderRefsChart from "@/components/FounderRefsChart";
+import { loadStory } from "@/lib/stories";
+
+const data = (await loadStory("founder-speech")) as any;
+const years = (data?.refsByYear ?? []) as {
+  year: number; posts: number; postsWithRefs: number;
+  frames: Record<string, number>;
+}[];
+
+// Stacking order: threat anchored to the baseline (first), sympathetic on top.
+const FRAME_META = [
+  { key: "threat_crime_framing", label: "threat / removal", color: "var(--chart-contrast-1)" },
+  { key: "hostile_derogatory", label: "hostile / derogatory", color: "var(--chart-contrast-2)" },
+  { key: "policy_critique", label: "policy critique", color: "var(--chart-1)", countClass: "fill-neutral-100" },
+  { key: "neutral_mention", label: "neutral mention", color: "color-mix(in srgb, var(--muted) 55%, transparent)", countClass: "fill-neutral-700 dark:fill-neutral-100" },
+  { key: "sympathetic_defense", label: "sympathetic", color: "var(--chart-2)" },
+];
+const total = (y: (typeof years)[number]) =>
+  FRAME_META.reduce((s, f) => s + (y.frames[f.key] ?? 0), 0);
+
+// One receipt next to the numbers: the wolves quote, from the exported
+// machine-checked picks. The full gallery stays later in the page.
+const quotes = (data?.quotes ?? []) as {
+  date: string; title: string; url: string; frame: string; quote: string;
+}[];
+const exemplar = quotes.find((q) => q.title === "Wolves, sheep, and gypsies") ?? quotes.at(-1);
+---
+
+<div class="my-6 max-w-[480px]">
+  <div class="mb-2 flex flex-wrap gap-x-4 gap-y-1">
+    {FRAME_META.map((f) => (
+      <span class="inline-flex items-center gap-1.5 text-[11px] text-neutral-500">
+        <i class="inline-block h-2.5 w-2.5 rounded-[3px]" style={`background:${f.color}`}></i>
+        {f.label}
+      </span>
+    ))}
+  </div>
+  <FounderRefsChart rows={years} frames={FRAME_META} client:only="react" />
+  {exemplar && (
+    <div class="mt-4 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
+      <p class="text-xs font-medium uppercase tracking-wide text-neutral-500">
+        {exemplar.date} ·{" "}
+        <span style="color:var(--chart-contrast-1)">threat / removal</span>
+      </p>
+      <p class="mt-1 text-sm text-neutral-700 dark:text-neutral-300">“{exemplar.quote}”</p>
+      <p class="mt-2 text-xs text-neutral-400">
+        from <a href={exemplar.url} rel="nofollow noopener" class="underline decoration-neutral-300 underline-offset-2">{exemplar.title}</a> — one of the posts counted above; the full set is below.
+      </p>
+    </div>
+  )}
+  <details class="mt-3">
+    <summary class="cursor-pointer text-xs text-neutral-500">Full table (posts by worst framing and year)</summary>
+    <div class="overflow-x-auto">
+      <table class="mt-2 text-xs tabular-nums">
+        <thead>
+          <tr class="text-left text-neutral-500">
+            <th class="pr-4 font-medium">year</th>
+            <th class="pr-4 font-medium">posts (w/ refs)</th>
+            {FRAME_META.map((f) => <th class="pr-4 font-medium">{f.label}</th>)}
+            <th class="font-medium">total</th>
+          </tr>
+        </thead>
+        <tbody>
+          {years.map((y) => (
+            <tr>
+              <td class="pr-4 py-0.5">{y.year}</td>
+              <td class="pr-4">{y.posts} ({y.postsWithRefs})</td>
+              {FRAME_META.map((f) => <td class="pr-4">{y.frames[f.key] ?? 0}</td>)}
+              <td>{total(y)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </details>
+  <p class="mt-3 max-w-prose text-xs text-neutral-500">
+    Posts referencing a marginalized group per year, each counted once and
+    colored by the post's most-hostile framing (a post that mentions a group
+    both neutrally and as a threat counts as threat). Under each year: posts
+    with a reference / total posts (2021 begins in March, 2026 ends in July).
+    Every reference behind these counts carries a machine-verified verbatim
+    quote.
+  </p>
+</div>

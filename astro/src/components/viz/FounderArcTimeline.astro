@@ -1,0 +1,80 @@
+---
+// The page's arc in five dated beats — the closing figure. Vertical
+// timeline (robust at prose width and on phones); dot colors follow the
+// page's semantic family: muted for the quiet years, the warm contrast
+// pair once the counterforce register arrives. Events are editorial but
+// every date is carried by the charts and quotes above.
+const EVENTS = [
+  {
+    date: "Apr 2021",
+    color: "color-mix(in srgb, var(--muted) 70%, transparent)",
+    text: "“Changes at Basecamp” bans political discussion at work; a third of staff leaves. The blog is one month old.",
+  },
+  {
+    date: "2022–23",
+    color: "color-mix(in srgb, var(--muted) 70%, transparent)",
+    text: "References to marginalized groups are rare, neutral, or sympathetic. The blog's political writing argues for apoliticality itself.",
+  },
+  {
+    date: "Jan 2024",
+    color: "var(--chart-contrast-2)",
+    text: "First threat-framed post (“The reality of the Danish fairytale”).",
+  },
+  {
+    date: "2025",
+    color: "var(--chart-contrast-1)",
+    text: "Migrant references peak (33 in 15 posts, 70% threat-framed); the explicit civilizational register arrives.",
+  },
+  {
+    date: "Jul 2026",
+    color: "var(--chart-contrast-1)",
+    text: "“Remigration” endorsed by name; the wolves post; every coded reference this year is threat, crime, or removal.",
+  },
+];
+---
+
+<div class="my-6 max-w-prose">
+  <ol class="fat-list">
+    {EVENTS.map((e) => (
+      <li class="fat-item">
+        <span class="fat-dot" style={`background:${e.color}`}></span>
+        <span class="fat-date font-mono text-[11px] text-neutral-500">{e.date}</span>
+        <span class="text-sm text-neutral-700 dark:text-neutral-300">{e.text}</span>
+      </li>
+    ))}
+  </ol>
+</div>
+
+<style>
+  .fat-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .fat-list::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 8px;
+    bottom: 8px;
+    width: 1px;
+    background: color-mix(in srgb, var(--muted) 40%, transparent);
+  }
+  .fat-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 4px 10px;
+    padding: 6px 0 6px 22px;
+  }
+  .fat-dot {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 11px;
+    height: 11px;
+    border-radius: 9999px;
+  }
+  .fat-date { padding-top: 1px; }
+</style>

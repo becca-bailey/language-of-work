@@ -1,0 +1,39 @@
+{
+  "case": "dhh_blog",
+  "fetched_at": "2026-08-01T23:22:10+00:00",
+  "sources_requested": [
+    "hey_world"
+  ],
+  "per_source": {
+    "hey_world": {
+      "register": "firm",
+      "status": "ok",
+      "records": 8200,
+      "undated_dropped": 0,
+      "subtypes": {
+        "founder_blog": 8200
+      },
+      "year_min": 2021,
+      "year_max": 2026
+    }
+  },
+  "register_counts": {
+    "firm": 5485
+  },
+  "subtype_counts": {
+    "founder_blog": 5485
+  },
+  "total_chunks": 5485,
+  "year_span": [
+    2021,
+    2026
+  ],
+  "undated_dropped": 0,
+  "caveats": [
+    "Worker-register text (hn/reddit) is community discussion-about (subtype=community), not verified first-person testimony — weight downstream, never a point estimate.",
+    "Firm register spans book metadata (codification dates), longitudinal canon snapshots (wayback), and the live present-day canon (live); tag the canon subset before drift analysis.",
+    "Counts/spans reflect the full on-disk corpus (merge-by-source), not just this run.",
+    "Undated records (no resolvable year) are dropped from the timeline; see undated_dropped.",
+    "classifications.json is a pass-through stamp (mission_brand on all 5485 chunks): careers-page label taxonomy is inapplicable to this corpus; the whole corpus is the analysis corpus."
+  ]
+}

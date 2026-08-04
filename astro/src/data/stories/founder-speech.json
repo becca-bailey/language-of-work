@@ -1,0 +1,498 @@
+{
+  "generatedAt": "2026-08-03T05:48:12+00:00",
+  "case": "dhh_blog",
+  "validationPending": true,
+  "model": "claude-sonnet-4-5-20250929",
+  "promptVersion": 3,
+  "nPosts": 512,
+  "nPostsWithRefs": 41,
+  "nThreatPosts": 16,
+  "nMentions": 108,
+  "quoteCheckFailures": 2,
+  "refusals": 12,
+  "frames": [
+    "sympathetic_defense",
+    "neutral_mention",
+    "policy_critique",
+    "hostile_derogatory",
+    "threat_crime_framing"
+  ],
+  "refsByYear": [
+    {
+      "year": 2021,
+      "posts": 72,
+      "postsWithRefs": 1,
+      "frames": {
+        "sympathetic_defense": 0,
+        "neutral_mention": 1,
+        "policy_critique": 0,
+        "hostile_derogatory": 0,
+        "threat_crime_framing": 0
+      },
+      "groups": {
+        "black_people": 1
+      }
+    },
+    {
+      "year": 2022,
+      "posts": 115,
+      "postsWithRefs": 7,
+      "frames": {
+        "sympathetic_defense": 0,
+        "neutral_mention": 6,
+        "policy_critique": 1,
+        "hostile_derogatory": 0,
+        "threat_crime_framing": 0
+      },
+      "groups": {
+        "migrants_refugees": 2,
+        "trans_people": 4,
+        "other_minoritized": 2,
+        "women": 1,
+        "jews": 1,
+        "black_people": 1
+      }
+    },
+    {
+      "year": 2023,
+      "posts": 115,
+      "postsWithRefs": 2,
+      "frames": {
+        "sympathetic_defense": 1,
+        "neutral_mention": 1,
+        "policy_critique": 0,
+        "hostile_derogatory": 0,
+        "threat_crime_framing": 0
+      },
+      "groups": {
+        "migrants_refugees": 1,
+        "other_minoritized": 1
+      }
+    },
+    {
+      "year": 2024,
+      "posts": 102,
+      "postsWithRefs": 10,
+      "frames": {
+        "sympathetic_defense": 1,
+        "neutral_mention": 6,
+        "policy_critique": 0,
+        "hostile_derogatory": 2,
+        "threat_crime_framing": 1
+      },
+      "groups": {
+        "migrants_refugees": 4,
+        "women": 1,
+        "other_minoritized": 3,
+        "black_people": 1,
+        "trans_people": 4
+      }
+    },
+    {
+      "year": 2025,
+      "posts": 86,
+      "postsWithRefs": 17,
+      "frames": {
+        "sympathetic_defense": 0,
+        "neutral_mention": 6,
+        "policy_critique": 0,
+        "hostile_derogatory": 0,
+        "threat_crime_framing": 11
+      },
+      "groups": {
+        "migrants_refugees": 9,
+        "other_minoritized": 1,
+        "muslims": 2,
+        "trans_people": 5,
+        "women": 3,
+        "lgbtq_other": 2
+      }
+    },
+    {
+      "year": 2026,
+      "posts": 22,
+      "postsWithRefs": 4,
+      "frames": {
+        "sympathetic_defense": 0,
+        "neutral_mention": 0,
+        "policy_critique": 0,
+        "hostile_derogatory": 0,
+        "threat_crime_framing": 4
+      },
+      "groups": {
+        "muslims": 1,
+        "migrants_refugees": 2,
+        "roma": 2
+      }
+    }
+  ],
+  "stanceByYear": [
+    {
+      "year": 2021,
+      "chunks": 1043,
+      "pro": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 2,
+        "belonging_culture": 0
+      },
+      "affirming": 1,
+      "apolitical": 34,
+      "civilizational": 0
+    },
+    {
+      "year": 2022,
+      "chunks": 1197,
+      "pro": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0
+      },
+      "affirming": 0,
+      "apolitical": 100,
+      "civilizational": 1
+    },
+    {
+      "year": 2023,
+      "chunks": 1087,
+      "pro": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0
+      },
+      "affirming": 0,
+      "apolitical": 14,
+      "civilizational": 0
+    },
+    {
+      "year": 2024,
+      "chunks": 1064,
+      "pro": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 1
+      },
+      "affirming": 0,
+      "apolitical": 56,
+      "civilizational": 0
+    },
+    {
+      "year": 2025,
+      "chunks": 854,
+      "pro": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0
+      },
+      "affirming": 0,
+      "apolitical": 24,
+      "civilizational": 14
+    },
+    {
+      "year": 2026,
+      "chunks": 240,
+      "pro": {
+        "explicit_demographic": 0,
+        "structural_process": 0,
+        "aspirational_vague": 0,
+        "belonging_culture": 0
+      },
+      "affirming": 0,
+      "apolitical": 6,
+      "civilizational": 14
+    }
+  ],
+  "deiCompanies": [
+    {
+      "id": "dhh_blog",
+      "displayName": "DHH's blog",
+      "years": [
+        {
+          "year": 2021,
+          "nChunks": 1043,
+          "thin": false,
+          "registers": {
+            "explicit_demographic": 0,
+            "structural_process": 0,
+            "aspirational_vague": 2,
+            "belonging_culture": 0,
+            "absent": 1041,
+            "mission_focus_apolitical": 34,
+            "civilizational_mission": 0
+          },
+          "inclusionQuote": {
+            "text": "Not only was it disrespectful to our customers, and a breach of basic privacy expectations, but it was also counter to creating an inclusive workplace. Nobody should think that maintaining such a list is okay or sanctioned behavior here.",
+            "heading": "Let it all out",
+            "register": "aspirational_vague",
+            "stance": null
+          },
+          "counterQuote": {
+            "text": "As cliché as it may sound, these are very difficult times in many places of the world, and in America in particular. We're constantly confronted with terrible tragedies, pulled into polarized political fights, and egged on by social media to engage.",
+            "heading": "Basecamp&#39;s new etiquette regarding societal politics at work",
+            "register": null,
+            "stance": "mission_focus_apolitical"
+          }
+        },
+        {
+          "year": 2022,
+          "nChunks": 1197,
+          "thin": false,
+          "registers": {
+            "explicit_demographic": 0,
+            "structural_process": 0,
+            "aspirational_vague": 0,
+            "belonging_culture": 0,
+            "absent": 1197,
+            "mission_focus_apolitical": 100,
+            "civilizational_mission": 1
+          },
+          "inclusionQuote": null,
+          "counterQuote": {
+            "text": "We live in strange times. It's hard to get a handle on what's up or down. But you could do much worse trying than by reading Orwell, Dostoevsky, and Sowell. Then thinking hard and long about how to guide your perhaps DNA-programmed yearning for a struggle towards something that won't tear down the pillars of civilization.",
+            "heading": "Misery starts when the struggle ends",
+            "register": null,
+            "stance": "civilizational_mission"
+          }
+        },
+        {
+          "year": 2023,
+          "nChunks": 1087,
+          "thin": false,
+          "registers": {
+            "explicit_demographic": 0,
+            "structural_process": 0,
+            "aspirational_vague": 0,
+            "belonging_culture": 0,
+            "absent": 1087,
+            "mission_focus_apolitical": 14,
+            "civilizational_mission": 0
+          },
+          "inclusionQuote": null,
+          "counterQuote": {
+            "text": "That alone, a clear ruling on the illegality of affirmative action, will undoubtedly help accelerate the waning days of DEI. With the legal basis drained, the ideological nature of this push will become all the more apparent and niche at the same time.",
+            "heading": "The law of the land",
+            "register": null,
+            "stance": "mission_focus_apolitical"
+          }
+        },
+        {
+          "year": 2024,
+          "nChunks": 1064,
+          "thin": false,
+          "registers": {
+            "explicit_demographic": 0,
+            "structural_process": 0,
+            "aspirational_vague": 0,
+            "belonging_culture": 1,
+            "absent": 1063,
+            "mission_focus_apolitical": 56,
+            "civilizational_mission": 0
+          },
+          "inclusionQuote": {
+            "text": "Basecamp recognizes, too, that your mental health is just as important as your physical health. Consider taking a mental health day every now and again when you're feeling overwhelmed or mentally fatigued. If a day or two won't cut it, we'll work with you to find a way to reduce the burden of your work at Basecamp on your overall mental health. We really do want your work at Basecamp to be the bes",
+            "heading": "Be less precious",
+            "register": "belonging_culture",
+            "stance": null
+          },
+          "counterQuote": {
+            "text": "We've not just passed the peak of the nonsense that nearly swallowed corporate America whole, but we're now seeing them repudiate it head on. If Google, with it's employment roster still packed with people sympathetic to the new theocracy, can put its foot down, so can the rest of the Fortune 500 and beyond. It's time they all say: \"This is a place of business\".",
+            "heading": "We are a place of business",
+            "register": null,
+            "stance": "mission_focus_apolitical"
+          }
+        },
+        {
+          "year": 2025,
+          "nChunks": 853,
+          "thin": false,
+          "registers": {
+            "explicit_demographic": 0,
+            "structural_process": 0,
+            "aspirational_vague": 0,
+            "belonging_culture": 0,
+            "absent": 853,
+            "mission_focus_apolitical": 24,
+            "civilizational_mission": 14
+          },
+          "inclusionQuote": null,
+          "counterQuote": {
+            "text": "And on a subjective level, that might well be true! There are plenty of reasons to prefer living in Europe, but that doesn't offset the fact that America is simply a vastly richer country, and that matters when it comes to everything from commercial dominance to military power.",
+            "heading": "Europe is weak and delusional (but not doomed)",
+            "register": null,
+            "stance": "civilizational_mission"
+          }
+        },
+        {
+          "year": 2026,
+          "nChunks": 240,
+          "thin": false,
+          "registers": {
+            "explicit_demographic": 0,
+            "structural_process": 0,
+            "aspirational_vague": 0,
+            "belonging_culture": 0,
+            "absent": 240,
+            "mission_focus_apolitical": 6,
+            "civilizational_mission": 14
+          },
+          "inclusionQuote": null,
+          "counterQuote": {
+            "text": "The circle of the saeculum is both a prophecy and a roadmap. We're not supposed to live like this forever: weak, ineffectual. This too shall pass. And when it does, once the Crisis becomes another High, we'll marvel at the time wasted, but with the pity due a pathetic period of the past, not from within an eternal prison of decline.",
+            "heading": "The will to power will return",
+            "register": null,
+            "stance": "civilizational_mission"
+          }
+        }
+      ]
+    }
+  ],
+  "genderCompare": [
+    {
+      "key": "dhh_blog",
+      "name": "DHH's blog",
+      "meanZ": 0.618,
+      "mascShare": 0.571,
+      "femShare": 0.046,
+      "isBlog": true
+    },
+    {
+      "key": "anduril",
+      "name": "Anduril",
+      "meanZ": 0.79,
+      "mascShare": null,
+      "femShare": null,
+      "isBlog": false
+    },
+    {
+      "key": "basecamp",
+      "name": "Basecamp",
+      "meanZ": 0.54,
+      "mascShare": null,
+      "femShare": null,
+      "isBlog": false
+    },
+    {
+      "key": "netflix",
+      "name": "Netflix",
+      "meanZ": 0.47,
+      "mascShare": null,
+      "femShare": null,
+      "isBlog": false
+    },
+    {
+      "key": "coinbase",
+      "name": "Coinbase",
+      "meanZ": 0.33,
+      "mascShare": null,
+      "femShare": null,
+      "isBlog": false
+    },
+    {
+      "key": "snap",
+      "name": "Snap",
+      "meanZ": -0.4,
+      "mascShare": null,
+      "femShare": null,
+      "isBlog": false
+    }
+  ],
+  "genderByYear": [
+    {
+      "year": 2021,
+      "n": 3019,
+      "meanZ": 0.653,
+      "mascShare": 0.593,
+      "femShare": 0.035
+    },
+    {
+      "year": 2022,
+      "n": 3641,
+      "meanZ": 0.61,
+      "mascShare": 0.557,
+      "femShare": 0.049
+    },
+    {
+      "year": 2023,
+      "n": 3415,
+      "meanZ": 0.662,
+      "mascShare": 0.608,
+      "femShare": 0.035
+    },
+    {
+      "year": 2024,
+      "n": 3450,
+      "meanZ": 0.57,
+      "mascShare": 0.552,
+      "femShare": 0.052
+    },
+    {
+      "year": 2025,
+      "n": 2536,
+      "meanZ": 0.599,
+      "mascShare": 0.548,
+      "femShare": 0.063
+    },
+    {
+      "year": 2026,
+      "n": 677,
+      "meanZ": 0.591,
+      "mascShare": 0.547,
+      "femShare": 0.043
+    }
+  ],
+  "quotes": [
+    {
+      "date": "2023-03-30",
+      "title": "America is never &quot;getting to Denmark&quot;",
+      "url": "https://world.hey.com/dhh/america-is-never-getting-to-denmark-e471ae91",
+      "group": "migrants_refugees",
+      "frame": "sympathetic_defense",
+      "quote": "it is by far and away the most welcoming, open, and integratable country I've ever spent serious time in."
+    },
+    {
+      "date": "2024-01-04",
+      "title": "The reality of the Danish fairytale",
+      "url": "https://world.hey.com/dhh/the-reality-of-the-danish-fairytale-78069fbf",
+      "group": "migrants_refugees",
+      "frame": "threat_crime_framing",
+      "quote": "a decade of doe-eyed optimism about immigration in general and asylum seekers in particular, a powerful nationalistic party set a tone for foreigners in Danish politics that remains to this day"
+    },
+    {
+      "date": "2025-09-15",
+      "title": "As I remember London",
+      "url": "https://world.hey.com/dhh/as-i-remember-london-e7d38e64",
+      "group": "migrants_refugees",
+      "frame": "threat_crime_framing",
+      "quote": "Unwilling to resign the rest of the country to the kind of demographic replacement that befell London over the last two decades."
+    },
+    {
+      "date": "2026-06-17",
+      "title": "The Rape of Britain",
+      "url": "https://world.hey.com/dhh/the-rape-of-britain-610412f8",
+      "group": "muslims",
+      "frame": "threat_crime_framing",
+      "quote": "industrial-scale sexual atrocities committed by predominantly Pakistani Muslims against mostly White British girls"
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Three sacred cows that must die so Europe can live",
+      "url": "https://world.hey.com/dhh/three-sacred-cows-that-must-die-so-europe-can-live-1afb203d",
+      "group": "migrants_refugees",
+      "frame": "threat_crime_framing",
+      "quote": "millions who are already in Europe must go. Remigration has gone from a fringe concept to the mainstream discourse"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Wolves, sheep, and gypsies",
+      "url": "https://world.hey.com/dhh/wolves-sheep-and-gypsies-ba44af6a",
+      "group": "roma",
+      "frame": "threat_crime_framing",
+      "quote": "gypsies in Copenhagen, and their increasingly brazen behavior, after the city legalized overnight sleeping in parks and other green areas last year"
+    }
+  ],
+  "policyDate": "2021-04-26"
+}
