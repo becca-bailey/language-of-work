@@ -629,16 +629,6 @@
     "score": 0.531,
     "text": "However, we are a very competitive culture in the sense that, if you set a high bar, you’ll probably inspire someone working with you to try to push it higher."
   },
-  "raise_the_bar|stripe|2020|c81404c307d6d5f4": {
-    "verdict": "spurious",
-    "reason": "About operating outside job descriptions and aiming high, not about raising standards through hiring or team performance.",
-    "concept": "raise_the_bar",
-    "company": "stripe",
-    "year": 2020,
-    "kind": "echo",
-    "score": 0.503,
-    "text": "We are still honing how we operate as a company, and we expect all Stripes to be creative, operate outside of their job descriptions, and aim for targets that might seem a little t"
-  },
   "raise_the_bar|stripe|2019|716ab9c4317e8e88": {
     "verdict": "adjacent",
     "reason": "Maintains high standards for quality over quantity, but doesn't express the specific idea of raising the bar through hiring or lifting team performance.",
@@ -1378,5 +1368,15 @@
     "kind": "echo",
     "score": 0.57,
     "text": "We encourage our team to use our standard flexibility, designated volunteer hours and unlimited PTO policies to find the time and space they need to handle life’s challenges so the"
+  },
+  "raise_the_bar|stripe|2026|ceb3ad79acbc326e": {
+    "verdict": "adjacent",
+    "reason": "Reflects a culture of continuous improvement and high standards ('don't stop at good enough'), but frames it as intellectual rigor and questioning rather than the specific Netflix idea of each hire raising the team's bar.",
+    "concept": "raise_the_bar",
+    "company": "stripe",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.534,
+    "text": "We argue from first principles, question assumptions, and don’t stop at good enough."
   }
 }

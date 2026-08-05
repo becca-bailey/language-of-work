@@ -825,11 +825,11 @@
     },
     {
       "year": 2026,
-      "inclusionTopkMean": 0.4847,
-      "inclusionMean": 0.3817,
+      "inclusionTopkMean": 0.5182,
+      "inclusionMean": 0.3844,
       "inclusionMax": 0.5451,
-      "inclusionFractionPresent": 0.913,
-      "nChunks": 23,
+      "inclusionFractionPresent": 0.9375,
+      "nChunks": 48,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -837,11 +837,11 @@
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 1,
-        "absent": 21,
+        "absent": 46,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.0547,
+      "controlTopkMean": 0.0656,
       "inclusionQuotes": [
         {
           "text": "We continuously listen to our employees to understand where Stripe truly excels and listen for opportunities to further enhance the way we work as a company and as individuals.",
@@ -852,36 +852,36 @@
           "score": 0.5451
         },
         {
+          "text": "We’re dedicated to our work and optimistic about the world. We believe entrepreneurship and free markets do good, and building what supports them matters. If that’s you, read on.",
+          "heading": "What all Stripes have in common",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.5293,
+          "score": 0.5293
+        },
+        {
+          "text": "You’ll bring high standards to everything you do and find others who do the same. We serve millions of businesses and a meaningful fraction of global GDP. We have a weighty responsibility to those businesses and to society. We work backwards from our users’ needs, indexing especially on feedback from the most innovative. Everyone at Stripe talks to users. With careful thought, anything can be made",
+          "heading": "How we operate",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.5148,
+          "score": 0.5148
+        },
+        {
+          "text": "We don’t assume the best way to do something is the way it’s always been done. We rethink from first principles how financial services should work, and welcome new ideas from every corner of the company.",
+          "heading": "Better defaults exist",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.5082,
+          "score": 0.5082
+        },
+        {
           "text": "We are grappling with the challenges of operating at an organizational scale that few tech companies reach. We care about our culture and want to preserve the important parts while evolving to meet the needs of new Stripes and our changing business context.",
           "heading": "Where we’re improving",
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4937,
           "score": 0.4937
-        },
-        {
-          "text": "Many companies can offer you attractive benefits and compensation. We offer that plus something a bit rarer: the opportunity to work with speed and agility on a platform that has an impact across the entire internet.",
-          "heading": "Support to do your best work",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4728,
-          "score": 0.4728
-        },
-        {
-          "text": "Every project exposes us to challenges that are beyond our current capabilities. This motivates us to bring in people like you—people who have knowledge and experiences we don’t, and who can quickly bring their talents to bear on hard problems. Stripe is not a pay-your-dues culture; we will train you quickly and then give you substantial responsibility. We often have surprisingly small teams accom",
-          "heading": "We know we need to know more",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4647,
-          "score": 0.4647
-        },
-        {
-          "text": "Stripes come from all sorts of professional backgrounds like engineering, design, operations, consulting, government, finance, healthcare, and education. We strive for humility as individuals and as an organization. We know that we can do great things alone, but even greater things together. We have a transparent internal culture. If you are curious about engineering, running startups, corporate s",
-          "heading": "Heterogenous perspectives",
-          "register": "aspirational_vague",
-          "stance": "neutral",
-          "inclusion": 0.447,
-          "score": 0.447
         }
       ]
     }
@@ -6347,6 +6347,12 @@
         "score": 0.5121
       },
       {
+        "id": "82e3d67dfd33",
+        "year": 2026,
+        "text": "We rethink from first principles how financial services should work, and welcome new ideas from every corner of the company.",
+        "score": 0.5091
+      },
+      {
         "id": "fe528a802ae6",
         "year": 2026,
         "text": "We work as one team: no fiefdoms, no hoarding information, no “not my problem.” We question assumptions, debate energetically, and abandon ideas when better ones emerge.",
@@ -6359,16 +6365,52 @@
         "score": 0.4868
       },
       {
+        "id": "49fca017afef",
+        "year": 2026,
+        "text": "We want people who are not afraid to be wrong, who can enthusiastically back proposals they initially opposed, and who know how to support decisions with numbers and narrative.",
+        "score": 0.4783
+      },
+      {
+        "id": "60d08c1de8f2",
+        "year": 2026,
+        "text": "We’re dedicated to our work and optimistic about the world.",
+        "score": 0.4775
+      },
+      {
         "id": "fcbc6225832b",
         "year": 2026,
         "text": "We strive for humility as individuals and as an organization.",
         "score": 0.4758
       },
       {
+        "id": "ec9a355703fb",
+        "year": 2026,
+        "text": "To meet this moment, we are looking for people who move with urgency, who like hard problems, and who want their work to matter at a time of great change.",
+        "score": 0.4743
+      },
+      {
+        "id": "5efc56f831cf",
+        "year": 2026,
+        "text": "Regardless of tenure, you’ll have the agency to pursue work you believe in and opportunities to influence decisions across Stripe.",
+        "score": 0.4677
+      },
+      {
+        "id": "51965cf273de",
+        "year": 2026,
+        "text": "We believe entrepreneurship and free markets do good, and building what supports them matters.",
+        "score": 0.4626
+      },
+      {
         "id": "cf3d99acb795",
         "year": 2026,
         "text": "Managers must relentlessly uphold our high talent bar, lead their teams with clarity and context, foster development, and ultimately support Stripes in accomplishing the best work of their careers.",
         "score": 0.4603
+      },
+      {
+        "id": "2502361c94da",
+        "year": 2026,
+        "text": "We know that we can’t be successful without nurturing the careers of both generalists and experts.",
+        "score": 0.4585
       },
       {
         "id": "bc58dcf0c3f3",
@@ -6389,6 +6431,12 @@
         "score": 0.4407
       },
       {
+        "id": "1dc19372bf24",
+        "year": 2026,
+        "text": "We power the world’s most ambitious companies because we’re obsessed with their success, rigorous about the details, creative in our approach, and always moving with urgency.",
+        "score": 0.4365
+      },
+      {
         "id": "ec47c798b01b",
         "year": 2026,
         "text": "They began as a way to make our implicit culture explicit, and we’ve refined them over time as Stripe has grown.",
@@ -6401,10 +6449,22 @@
         "score": 0.4348
       },
       {
+        "id": "287878f67667",
+        "year": 2026,
+        "text": "We try to embrace kindness while still encouraging Stripes to take measured risks and act boldly, even in the absence of consensus.",
+        "score": 0.4344
+      },
+      {
         "id": "1ff86bf5fe93",
         "year": 2026,
         "text": "These principles don’t aim to capture everything about working here, but they express the few behaviors that matter most to building a high-trust, high-impact company.",
         "score": 0.4281
+      },
+      {
+        "id": "e852dba26a25",
+        "year": 2026,
+        "text": "We exist to increase economic growth, and we pursue it on every front: by building tools that make it easier and cheaper for ambitious businesses to start and scale, by publishing ideas that advance progress, and by creating the economic infrastructure for AI.",
+        "score": 0.428
       },
       {
         "id": "714541779c05",
@@ -6437,10 +6497,22 @@
         "score": 0.4078
       },
       {
+        "id": "29e3c4de9340",
+        "year": 2026,
+        "text": "We don’t assume the best way to do something is the way it’s always been done.",
+        "score": 0.4007
+      },
+      {
         "id": "12b53e6cdc03",
         "year": 2026,
         "text": "Stripe’s operating principles describe how we work—how we make decisions, collaborate, and serve our users.",
         "score": 0.399
+      },
+      {
+        "id": "298b67b6bd06",
+        "year": 2026,
+        "text": "We want generalists who can parachute anywhere into our operations, learn a new field quickly, and execute competently beyond their formal remit.",
+        "score": 0.3968
       },
       {
         "id": "e4a7c8c612e5",
@@ -6455,10 +6527,40 @@
         "score": 0.3957
       },
       {
+        "id": "9a16732a0e77",
+        "year": 2026,
+        "text": "We argue from first principles, question assumptions, and don’t stop at good enough.",
+        "score": 0.395
+      },
+      {
         "id": "a68daa257b88",
         "year": 2026,
         "text": "Alongside the principles, we’ve long relied on a few shorthand phrases that help make our culture catchy.",
         "score": 0.392
+      },
+      {
+        "id": "1f1c60f70525",
+        "year": 2026,
+        "text": "It means that everything we create requires deep, collaborative, multidisciplinary work: technically, organizationally, and geographically. ​ Am I excited by navigating complexity at scale?",
+        "score": 0.3903
+      },
+      {
+        "id": "ef89a4382b9e",
+        "year": 2026,
+        "text": "Like all great workplaces, Stripe has its own working culture, with norms that can surprise, delight, and occasionally perplex.",
+        "score": 0.3899
+      },
+      {
+        "id": "09c79c4d62c8",
+        "year": 2026,
+        "text": "We’re building solutions without clear precedent, solving problems with far-reaching consequences.",
+        "score": 0.3893
+      },
+      {
+        "id": "6ab6e4faefe5",
+        "year": 2026,
+        "text": "The people around you are curious, rigorous, and genuinely good at what they do—and that raises everyone’s bar.",
+        "score": 0.3881
       },
       {
         "id": "4492a044173f",
@@ -6485,6 +6587,48 @@
         "score": 0.3844
       },
       {
+        "id": "6dd3da6b50e7",
+        "year": 2026,
+        "text": "We've spent 16 years building toward this moment, and we think the best work is still in front of us.",
+        "score": 0.3838
+      },
+      {
+        "id": "98076f88088e",
+        "year": 2026,
+        "text": "At Stripe, craft isn’t a nice-to-have—it’s the standard.",
+        "score": 0.3817
+      },
+      {
+        "id": "30cbd5eea4f9",
+        "year": 2026,
+        "text": "Our users trust us to provide an essential service, and it’s a heavy responsibility that we take very seriously. ​ Am I motivated to move mountains to protect and support businesses that depend on Stripe? ​ Am I driven to overcome obstacles and take on big things to drive progress, or do I feel overwhelmed by the sheer scale and breadth of sometimes nebulous opportunities?",
+        "score": 0.3809
+      },
+      {
+        "id": "abfbe4fbe0d0",
+        "year": 2026,
+        "text": "You’ll be mentored by some of the most creative and technically rigorous people in the industry, working on teams reshaping how money moves in an economy replatforming around AI.",
+        "score": 0.3804
+      },
+      {
+        "id": "b4ec7da4301a",
+        "year": 2026,
+        "text": "Most Stripes don’t come from finance, and they’ve thrived by bringing fresh perspectives.",
+        "score": 0.3784
+      },
+      {
+        "id": "6583428fca9f",
+        "year": 2026,
+        "text": "Our core mission is enabling economic growth, which we believe is one of the foundations of a flourishing civilization.",
+        "score": 0.3773
+      },
+      {
+        "id": "ce3adc8272c0",
+        "year": 2026,
+        "text": "Our goal is to get faster as Stripe grows.",
+        "score": 0.3759
+      },
+      {
         "id": "d59bead65aa0",
         "year": 2026,
         "text": "We have two headquarters (San Francisco and Dublin), but we belong to the internet.",
@@ -6503,10 +6647,28 @@
         "score": 0.3665
       },
       {
+        "id": "56c5b1d602ad",
+        "year": 2026,
+        "text": "“Users first” is a cornerstone principle.",
+        "score": 0.365
+      },
+      {
         "id": "6e0488f1dfc9",
         "year": 2026,
         "text": "We’re energized by the unfamiliar, preferring the joy of discovery to the comfort of certainty.",
         "score": 0.3647
+      },
+      {
+        "id": "8cff0e1d5e21",
+        "year": 2026,
+        "text": "We hear from a Stripe user and get their unvarnished feedback, invite Stripes to chat about (or demo!) their recent work, and welcome external experts to discuss timely and relevant topics.",
+        "score": 0.3639
+      },
+      {
+        "id": "523364f64377",
+        "year": 2026,
+        "text": "We also revere craftsmanship and obsess over every detail.",
+        "score": 0.3635
       },
       {
         "id": "d246aa6dbb1d",
@@ -6525,6 +6687,12 @@
         "year": 2026,
         "text": "It is common for Stripes to work on things outside their domain of expertise, so we encourage people to regularly attend hands-on classes led by internal and external experts on everything from Learning to Code to Thinking Like a Lawyer.",
         "score": 0.3591
+      },
+      {
+        "id": "6176ccfe6a7f",
+        "year": 2026,
+        "text": "The tension between those two operating principles—speed and craft—defines how we work.",
+        "score": 0.3579
       },
       {
         "id": "afd213ab4d41",
@@ -6563,6 +6731,24 @@
         "score": 0.3483
       },
       {
+        "id": "1fe55212dac3",
+        "year": 2026,
+        "text": "We are lucky to be at the center of this revolution: 88% of leading AI companies already run on Stripe.",
+        "score": 0.3472
+      },
+      {
+        "id": "e71d2a55cdd7",
+        "year": 2026,
+        "text": "Finding ways to achieve both keeps us moving forward.",
+        "score": 0.3435
+      },
+      {
+        "id": "2a07415965e5",
+        "year": 2026,
+        "text": "AI is changing how the global economy works, how our customers work, and how Stripes work.",
+        "score": 0.3419
+      },
+      {
         "id": "704823a4a7a4",
         "year": 2026,
         "text": "We have a weighty responsibility to those businesses and to society.",
@@ -6581,16 +6767,64 @@
         "score": 0.3331
       },
       {
+        "id": "611844170060",
+        "year": 2026,
+        "text": "We operate in situations of substantial uncertainty and cannot afford either timidity or recklessness.",
+        "score": 0.3327
+      },
+      {
+        "id": "0618642b3faf",
+        "year": 2026,
+        "text": "We print works we think can be broadly useful.",
+        "score": 0.3323
+      },
+      {
         "id": "96dda278e1b1",
         "year": 2026,
         "text": "Our customers range from hours-old startups to complex global businesses.",
         "score": 0.3316
       },
       {
+        "id": "b5b27bb407c5",
+        "year": 2026,
+        "text": "It’s a chance to reflect on the past year, hear about our priorities for the next year, learn from each other, and poke fun at ourselves.",
+        "score": 0.3301
+      },
+      {
+        "id": "4554fb71542d",
+        "year": 2026,
+        "text": "Our program is competitive and the expectations are high.",
+        "score": 0.3293
+      },
+      {
         "id": "850a9d06bd64",
         "year": 2026,
         "text": "Many companies can offer you attractive benefits and compensation.",
         "score": 0.3262
+      },
+      {
+        "id": "80eb16a06a22",
+        "year": 2026,
+        "text": "The pace of change at Stripe and in the broader economy is accelerating.",
+        "score": 0.3253
+      },
+      {
+        "id": "429ffb40c591",
+        "year": 2026,
+        "text": "If that's you, there's no better place to build your career.",
+        "score": 0.3241
+      },
+      {
+        "id": "016533cdc11a",
+        "year": 2026,
+        "text": "There may never have been a more interesting time to work on this problem at Stripe.",
+        "score": 0.3226
+      },
+      {
+        "id": "88864688db83",
+        "year": 2026,
+        "text": "Stripe is on a mission to grow the GDP of the internet. ​ Do I see free markets and entrepreneurship as powerful forces for advancing progress? ​ Does enabling entrepreneurship and helping to unlock the internet economy’s full potential seem like a compelling use of my time and talents?",
+        "score": 0.3219
       },
       {
         "id": "0db647bdeddd",
@@ -6657,6 +6891,24 @@
         "year": 2026,
         "text": "Every project exposes us to challenges that are beyond our current capabilities.",
         "score": 0.3056
+      },
+      {
+        "id": "a2bbae368df4",
+        "year": 2026,
+        "text": "You’ll bring high standards to everything you do and find others who do the same.",
+        "score": 0.3014
+      },
+      {
+        "id": "8a1b4e6eb527",
+        "year": 2026,
+        "text": "Not everyone finds success at Stripe.",
+        "score": 0.3008
+      },
+      {
+        "id": "4f33c6abfb65",
+        "year": 2026,
+        "text": "You’ll gain a clear sense of how the global economy works, how Stripe is changing it, and what you’re capable of.",
+        "score": 0.3005
       }
     ],
     "lexicons": {
@@ -6718,7 +6970,15 @@
           "example": "Equate Equate’s mission is to cultivate and promote an inclusive environment where all Stripes can proactively support and advance the equality, professional development and leadership potential of wo"
         }
       ],
-      "civilizational": []
+      "civilizational": [
+        {
+          "term": "civilization",
+          "first_year": 2026,
+          "last_year": 2026,
+          "max_score": 0.3773,
+          "example": "Our core mission is enabling economic growth, which we believe is one of the foundations of a flourishing civilization."
+        }
+      ]
     }
   }
 }

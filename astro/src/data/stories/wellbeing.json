@@ -1225,7 +1225,7 @@
               "year": 2012,
               "zscore": -2.1115,
               "topkMean": 0.0385,
-              "controlZscore": -1.0461,
+              "controlZscore": -1.0621,
               "nChunks": 11,
               "thin": false,
               "quote": "You enjoy working with a team, and you're also happy working on your own."
@@ -1234,7 +1234,7 @@
               "year": 2013,
               "zscore": -1.7357,
               "topkMean": 0.0498,
-              "controlZscore": -1.1533,
+              "controlZscore": -1.1692,
               "nChunks": 12,
               "thin": false,
               "quote": "Buy or build your ideal work environment."
@@ -1243,7 +1243,7 @@
               "year": 2014,
               "zscore": 0.3658,
               "topkMean": 0.1131,
-              "controlZscore": -0.9695,
+              "controlZscore": -0.9855,
               "nChunks": 38,
               "thin": false,
               "quote": "We want to build a work environment where people are happy, productive, and interact well."
@@ -1252,7 +1252,7 @@
               "year": 2015,
               "zscore": -1.5956,
               "topkMean": 0.054,
-              "controlZscore": -1.1719,
+              "controlZscore": -1.1877,
               "nChunks": 17,
               "thin": false,
               "quote": "We want to build a work environment where people are happy, productive, and interact well."
@@ -1261,7 +1261,7 @@
               "year": 2016,
               "zscore": -0.4643,
               "topkMean": 0.0881,
-              "controlZscore": -1.1719,
+              "controlZscore": -1.1877,
               "nChunks": 23,
               "thin": false,
               "quote": "We want to build a work environment where people are happy, productive, and interact well."
@@ -1270,7 +1270,7 @@
               "year": 2017,
               "zscore": 0.0436,
               "topkMean": 0.1034,
-              "controlZscore": -0.6614,
+              "controlZscore": -0.6777,
               "nChunks": 37,
               "thin": false,
               "quote": "We want to build a work environment where people are happy, productive, and interact well."
@@ -1279,7 +1279,7 @@
               "year": 2018,
               "zscore": 0.0436,
               "topkMean": 0.1034,
-              "controlZscore": -0.6345,
+              "controlZscore": -0.6509,
               "nChunks": 37,
               "thin": false,
               "quote": "We want to build a work environment where people are happy, productive, and interact well."
@@ -1288,7 +1288,7 @@
               "year": 2019,
               "zscore": 0.5731,
               "topkMean": 0.1193,
-              "controlZscore": 1.1764,
+              "controlZscore": 1.1583,
               "nChunks": 223,
               "thin": false,
               "quote": "We want to build a work environment where people are happy, productive, and interact well."
@@ -1297,7 +1297,7 @@
               "year": 2020,
               "zscore": 0.692,
               "topkMean": 0.1229,
-              "controlZscore": 1.3637,
+              "controlZscore": 1.3454,
               "nChunks": 283,
               "thin": false,
               "quote": "Parents has taken an active role in developing Stripe’s parental leave tools , which provide resources to managers and expectant parents."
@@ -1306,7 +1306,7 @@
               "year": 2021,
               "zscore": 0.1813,
               "topkMean": 0.1075,
-              "controlZscore": 0.7456,
+              "controlZscore": 0.7279,
               "nChunks": 184,
               "thin": false,
               "quote": "Your colleagues won’t work to undermine you as they might in a winner-takes-all environment."
@@ -1315,7 +1315,7 @@
               "year": 2022,
               "zscore": 1.2473,
               "topkMean": 0.1396,
-              "controlZscore": 0.7826,
+              "controlZscore": 0.7648,
               "nChunks": 234,
               "thin": false,
               "quote": "We also need to balance an intense work environment against the need to support fulfilling and sustainable careers."
@@ -1324,7 +1324,7 @@
               "year": 2023,
               "zscore": 0.5245,
               "topkMean": 0.1178,
-              "controlZscore": 0.1115,
+              "controlZscore": 0.0944,
               "nChunks": 77,
               "thin": false,
               "quote": "We also need to balance an intense work environment against the need to support fulfilling and sustainable careers."
@@ -1333,7 +1333,7 @@
               "year": 2024,
               "zscore": 0.5245,
               "topkMean": 0.1178,
-              "controlZscore": 1.3455,
+              "controlZscore": 1.3272,
               "nChunks": 93,
               "thin": false,
               "quote": "We also need to balance an intense work environment against the need to support fulfilling and sustainable careers."
@@ -1342,7 +1342,7 @@
               "year": 2025,
               "zscore": 0.5245,
               "topkMean": 0.1178,
-              "controlZscore": 1.3455,
+              "controlZscore": 1.3272,
               "nChunks": 91,
               "thin": false,
               "quote": "We also need to balance an intense work environment against the need to support fulfilling and sustainable careers."
@@ -1351,8 +1351,8 @@
               "year": 2026,
               "zscore": 1.1869,
               "topkMean": 0.1378,
-              "controlZscore": -0.0623,
-              "nChunks": 76,
+              "controlZscore": 0.1757,
+              "nChunks": 144,
               "thin": false,
               "quote": "We also need to balance an intense work environment against the need to support fulfilling and sustainable careers."
             }
@@ -3056,8 +3056,8 @@
   "concession": [
     {
       "year": 2015,
-      "careZ": -1.128,
-      "deiZ": -0.874,
+      "careZ": -1.129,
+      "deiZ": -0.878,
       "quits": 1.967,
       "careQuote": {
         "text": "We’ll help you maintain a healthy balance with a gym allowance, parental leave, childcare benefits, flexible work hours, and catered meals to give you more time for the things you care about most.",
@@ -3072,8 +3072,8 @@
     },
     {
       "year": 2016,
-      "careZ": -0.947,
-      "deiZ": -0.856,
+      "careZ": -0.948,
+      "deiZ": -0.859,
       "quits": 2.083,
       "careQuote": {
         "text": "This manifests itself in a number of ways: flexible hours and work locations, avoiding interruptions and meetings, and providing tasty food.",
@@ -3088,8 +3088,8 @@
     },
     {
       "year": 2017,
-      "careZ": -0.654,
-      "deiZ": -0.233,
+      "careZ": -0.655,
+      "deiZ": -0.236,
       "quits": 2.158,
       "careQuote": {
         "text": "We empower our employees to focus on their families, friends, passions, and Wellbeing.",
@@ -3104,8 +3104,8 @@
     },
     {
       "year": 2018,
-      "careZ": -0.07,
-      "deiZ": 0.354,
+      "careZ": -0.071,
+      "deiZ": 0.352,
       "quits": 2.258,
       "careQuote": {
         "text": "We empower our employees to focus on their families, friends, passions, and Wellbeing.",
@@ -3120,8 +3120,8 @@
     },
     {
       "year": 2019,
-      "careZ": 0.243,
-      "deiZ": 0.564,
+      "careZ": 0.242,
+      "deiZ": 0.561,
       "quits": 2.317,
       "careQuote": {
         "text": "Have flexible work hours so you are there for other people and free to plan the day how you like.",
@@ -3136,8 +3136,8 @@
     },
     {
       "year": 2020,
-      "careZ": 0.475,
-      "deiZ": 0.204,
+      "careZ": 0.474,
+      "deiZ": 0.201,
       "quits": 2.083,
       "careQuote": {
         "text": "Employees are whole people, with families, hobbies, and lives outside of work.",
@@ -3152,8 +3152,8 @@
     },
     {
       "year": 2021,
-      "careZ": 1.101,
-      "deiZ": 1.245,
+      "careZ": 1.099,
+      "deiZ": 1.244,
       "quits": 2.708,
       "careQuote": {
         "text": "Have flexible work hours so you are there for other people and free to plan the day how you like.",
@@ -3168,8 +3168,8 @@
     },
     {
       "year": 2022,
-      "careZ": 1.058,
-      "deiZ": 1.263,
+      "careZ": 1.057,
+      "deiZ": 1.261,
       "quits": 2.758,
       "careQuote": {
         "text": "Employees are whole people, with families, hobbies, and lives outside of work.",
@@ -3184,8 +3184,8 @@
     },
     {
       "year": 2023,
-      "careZ": 1.107,
-      "deiZ": 1.014,
+      "careZ": 1.106,
+      "deiZ": 1.012,
       "quits": 2.367,
       "careQuote": {
         "text": "We’ve created internal policies to alleviate stressors that tend to disproportionately impact women.",
@@ -3200,8 +3200,8 @@
     },
     {
       "year": 2024,
-      "careZ": 0.93,
-      "deiZ": 0.382,
+      "careZ": 0.928,
+      "deiZ": 0.379,
       "quits": 2.067,
       "careQuote": {
         "text": "Employees are whole people, with families, hobbies, and lives outside of work.",
@@ -3216,8 +3216,8 @@
     },
     {
       "year": 2025,
-      "careZ": 0.908,
-      "deiZ": 0.908,
+      "careZ": 0.906,
+      "deiZ": 0.906,
       "quits": 2.017,
       "careQuote": {
         "text": "Employees are whole people, with families, hobbies, and lives outside of work.",
@@ -3232,8 +3232,8 @@
     },
     {
       "year": 2026,
-      "careZ": 0.263,
-      "deiZ": -0.32,
+      "careZ": 0.28,
+      "deiZ": -0.281,
       "quits": 1.95,
       "careQuote": {
         "text": "From sabbaticals to a regional week of rest, well-being is built in.",
@@ -3810,6 +3810,83 @@
       ]
     },
     {
+      "id": "stripe",
+      "displayName": "Stripe",
+      "r": 0.66,
+      "years": [
+        {
+          "year": 2013,
+          "careZ": -1.589,
+          "deiZ": -0.874
+        },
+        {
+          "year": 2014,
+          "careZ": 0.757,
+          "deiZ": -0.851
+        },
+        {
+          "year": 2015,
+          "careZ": -1.231,
+          "deiZ": -1.932
+        },
+        {
+          "year": 2016,
+          "careZ": -0.009,
+          "deiZ": 0.775
+        },
+        {
+          "year": 2017,
+          "careZ": -0.862,
+          "deiZ": -0.921
+        },
+        {
+          "year": 2018,
+          "careZ": -0.878,
+          "deiZ": -0.828
+        },
+        {
+          "year": 2019,
+          "careZ": 0.264,
+          "deiZ": 2.047
+        },
+        {
+          "year": 2020,
+          "careZ": 0.681,
+          "deiZ": 0.85
+        },
+        {
+          "year": 2021,
+          "careZ": 0.218,
+          "deiZ": 0.398
+        },
+        {
+          "year": 2022,
+          "careZ": 1.516,
+          "deiZ": 0.976
+        },
+        {
+          "year": 2023,
+          "careZ": 0.538,
+          "deiZ": 0.079
+        },
+        {
+          "year": 2024,
+          "careZ": 0.749,
+          "deiZ": 0.079
+        },
+        {
+          "year": 2025,
+          "careZ": 0.749,
+          "deiZ": 0.079
+        },
+        {
+          "year": 2026,
+          "careZ": 0.994,
+          "deiZ": 0.956
+        }
+      ]
+    },
+    {
       "id": "uber",
       "displayName": "Uber",
       "r": 0.66,
@@ -3853,83 +3930,6 @@
           "year": 2024,
           "careZ": 1.054,
           "deiZ": -1.032
-        }
-      ]
-    },
-    {
-      "id": "stripe",
-      "displayName": "Stripe",
-      "r": 0.62,
-      "years": [
-        {
-          "year": 2013,
-          "careZ": -1.595,
-          "deiZ": -0.839
-        },
-        {
-          "year": 2014,
-          "careZ": 0.784,
-          "deiZ": -0.815
-        },
-        {
-          "year": 2015,
-          "careZ": -1.233,
-          "deiZ": -1.933
-        },
-        {
-          "year": 2016,
-          "careZ": 0.008,
-          "deiZ": 0.866
-        },
-        {
-          "year": 2017,
-          "careZ": -0.858,
-          "deiZ": -0.887
-        },
-        {
-          "year": 2018,
-          "careZ": -0.875,
-          "deiZ": -0.792
-        },
-        {
-          "year": 2019,
-          "careZ": 0.284,
-          "deiZ": 2.181
-        },
-        {
-          "year": 2020,
-          "careZ": 0.707,
-          "deiZ": 0.943
-        },
-        {
-          "year": 2021,
-          "careZ": 0.237,
-          "deiZ": 0.476
-        },
-        {
-          "year": 2022,
-          "careZ": 1.555,
-          "deiZ": 1.074
-        },
-        {
-          "year": 2023,
-          "careZ": 0.562,
-          "deiZ": 0.146
-        },
-        {
-          "year": 2024,
-          "careZ": 0.777,
-          "deiZ": 0.146
-        },
-        {
-          "year": 2025,
-          "careZ": 0.777,
-          "deiZ": 0.146
-        },
-        {
-          "year": 2026,
-          "careZ": 0.777,
-          "deiZ": 0.086
         }
       ]
     },
@@ -4643,7 +4643,7 @@
     {
       "axis": "wellbeing",
       "label": "Care",
-      "z2020": 0.48,
+      "z2020": 0.47,
       "concession": true
     },
     {
@@ -4655,13 +4655,13 @@
     {
       "axis": "altruism",
       "label": "Altruism",
-      "z2020": 0.05,
+      "z2020": 0.03,
       "concession": false
     },
     {
       "axis": "meritocracy",
       "label": "Meritocracy",
-      "z2020": 0.02,
+      "z2020": 0.01,
       "concession": false
     },
     {
@@ -4747,8 +4747,8 @@
     {
       "year": 2019,
       "mentalHealth": 0.023,
-      "caregiving": 0.076,
-      "nChunks": 132,
+      "caregiving": 0.075,
+      "nChunks": 133,
       "mhExample": {
         "text": "Emotional and mental health support programs and apps",
         "company": "Snap"
@@ -4818,7 +4818,7 @@
       "year": 2024,
       "mentalHealth": 0.057,
       "caregiving": 0.008,
-      "nChunks": 122,
+      "nChunks": 123,
       "mhExample": null,
       "famExample": {
         "text": "five months of paid family leave to all new parents",
@@ -4841,9 +4841,9 @@
     },
     {
       "year": 2026,
-      "mentalHealth": 0.102,
-      "caregiving": 0.047,
-      "nChunks": 128,
+      "mentalHealth": 0.098,
+      "caregiving": 0.045,
+      "nChunks": 132,
       "mhExample": {
         "text": "15 sessions per year of mental health for you + dependents through Lyra",
         "company": "Snap"
@@ -4883,14 +4883,14 @@
           0.0122,
           0.0182,
           0.0171,
-          0.0174,
+          0.0173,
           0.0136,
           0.0132,
           0.0073,
           0.0049,
           0.0029,
-          0.0026,
-          0.0039
+          0.0025,
+          0.0038
         ]
       },
       {
@@ -4902,15 +4902,15 @@
           0.0123,
           0.0322,
           0.0474,
-          0.0441,
-          0.0315,
+          0.044,
+          0.0314,
           0.021,
           0.0176,
           0.0117,
           0.0097,
           0.0108,
-          0.021,
-          0.0274
+          0.0206,
+          0.0268
         ]
       },
       {
@@ -4922,15 +4922,15 @@
           0.0152,
           0.018,
           0.0182,
-          0.0149,
+          0.0148,
           0.0135,
           0.0128,
           0.0053,
           0.0052,
           0.0029,
           0.0029,
-          0.0026,
-          0.0039
+          0.0025,
+          0.0038
         ]
       },
       {
@@ -4942,15 +4942,15 @@
           0.0,
           0.0,
           0.0,
-          0.0051,
+          0.005,
           0.0109,
           0.0132,
           0.0144,
           0.0114,
           0.0091,
           0.0029,
-          0.0026,
-          0.0039
+          0.0025,
+          0.0038
         ]
       },
       {
@@ -4969,8 +4969,8 @@
           0.0,
           0.0,
           0.0,
-          0.0026,
-          0.0039
+          0.0025,
+          0.0038
         ]
       },
       {

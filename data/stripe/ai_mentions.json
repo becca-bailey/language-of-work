@@ -244,9 +244,9 @@
     },
     {
       "year": 2019,
-      "total_chunks": 46,
-      "ai_chunks": 2,
-      "prevalence": 0.0435,
+      "total_chunks": 47,
+      "ai_chunks": 3,
+      "prevalence": 0.0638,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -255,9 +255,9 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 5,
-          "ai_chunks": 1,
-          "mentions": 1
+          "chunks": 6,
+          "ai_chunks": 2,
+          "mentions": 2
         },
         "mission_brand": {
           "chunks": 35,
@@ -271,7 +271,7 @@
         }
       },
       "terms": {
-        "machine learning": 2
+        "machine learning": 3
       },
       "examples": [
         {
@@ -289,6 +289,14 @@
             "machine learning"
           ],
           "text": "Applications The Applications group builds products that enable people to successfully run their businesses end-to-end on Stripe. See Openings Foundation The Foundation group strives to increase Stripe's operational efficiency by providing platforms which reduce accidental complexity for both those "
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "7607836880d16c53",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "Payments A complete payments platform engineered for growth. Billing Build and scale your recurring business model. Connect Everything platforms need to get sellers paid. Sigma Your business data at your fingertips. Atlas Turn your idea into a startup. Radar Fight fraud with machine learning. Issuin"
         }
       ]
     },
@@ -582,9 +590,9 @@
     },
     {
       "year": 2026,
-      "total_chunks": 42,
-      "ai_chunks": 2,
-      "prevalence": 0.0476,
+      "total_chunks": 78,
+      "ai_chunks": 11,
+      "prevalence": 0.141,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -598,25 +606,26 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 15,
-          "ai_chunks": 2,
-          "mentions": 9
+          "chunks": 19,
+          "ai_chunks": 4,
+          "mentions": 11
         },
         "mission_brand": {
-          "chunks": 20,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 45,
+          "ai_chunks": 6,
+          "mentions": 7
         },
         "process_logistics": {
-          "chunks": 3,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 10,
+          "ai_chunks": 1,
+          "mentions": 1
         }
       },
       "terms": {
+        "AI": 11,
         "agentic": 6,
-        "AI": 2,
-        "LLMs": 1
+        "LLMs": 1,
+        "machine learning": 1
       },
       "examples": [
         {
@@ -627,6 +636,14 @@
             "agentic"
           ],
           "text": "The Product Design team is made up of several groups that define, create, and deliver all user-facing aspects of Stripe’s brand and product. Product Designers are strategic partners to Engineering and Product Management within their product area. In close collaboration with product teams, they shape"
+        },
+        {
+          "label": "mission_brand",
+          "chunk_id": "57225f52f8491d20",
+          "terms": [
+            "AI"
+          ],
+          "text": "Stripe powers more than 1.6% of global GDP. Millions of businesses, from solo founders to Fortune 500 companies, run on our infrastructure. Our core mission is enabling economic growth, which we believe is one of the foundations of a flourishing civilization. There may never have been a more interes"
         },
         {
           "label": "job_listing",

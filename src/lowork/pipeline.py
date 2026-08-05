@@ -278,6 +278,17 @@ STAGES: list[Stage] = [
           outputs=("repo:astro/src/data/stories/gender-language.json",),
           depends=("embed_chunks",)),
 
+    # Year-by-year gender shares feed TimeGenderDivergingBars + GenderShiftBars.
+    # Reads the story export (mu/sd/roster) plus per-company embeddings, so it
+    # runs after export_gender_story. Not a stage before now — a corpus change
+    # left the time series stale while the main gender JSON refreshed.
+    Stage("gender_by_year", lambda comps: _call("gender_by_year"),
+          Scope.GLOBAL, ("gender-language",),
+          inputs=("repo:astro/src/data/stories/gender-language.json", "embeddings.parquet"),
+          outputs=("repo:astro/src/data/stories/gender-language-time.json",
+                   "repo:data/gender_by_year.json"),
+          depends=("export_gender_story",)),
+
     Stage("export_netflix_story", lambda comps: _call("export_netflix_story", comps),
           Scope.GLOBAL, ("netflix-culture",),
           inputs=("repo:data/culture_propagation.json",

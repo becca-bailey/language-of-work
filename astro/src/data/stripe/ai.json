@@ -277,9 +277,9 @@
     },
     {
       "year": 2019,
-      "totalChunks": 46,
-      "aiChunks": 2,
-      "prevalence": 0.0435,
+      "totalChunks": 47,
+      "aiChunks": 3,
+      "prevalence": 0.0638,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -288,9 +288,9 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 5,
-          "ai_chunks": 1,
-          "mentions": 1
+          "chunks": 6,
+          "ai_chunks": 2,
+          "mentions": 2
         },
         "mission_brand": {
           "chunks": 35,
@@ -304,19 +304,19 @@
         }
       },
       "terms": {
-        "machine learning": 2
+        "machine learning": 3
       },
       "projections": [
         {
           "group": "all",
-          "meanProjection": -0.0396,
-          "nChunks": 2,
+          "meanProjection": -0.0003,
+          "nChunks": 3,
           "thin": true
         },
         {
           "group": "hire",
-          "meanProjection": -0.0511,
-          "nChunks": 1,
+          "meanProjection": 0.0137,
+          "nChunks": 2,
           "thin": true
         },
         {
@@ -327,6 +327,16 @@
         }
       ],
       "quotes": [
+        {
+          "chunk_id": "7607836880d16c53",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": 0.0784,
+          "text": "Payments A complete payments platform engineered for growth. Billing Build and scale your recurring business model. Connect Everything platforms need to get sellers paid. Sigma Your business data at your fingertips. Atlas Turn your idea into a startup. Radar Fight fraud with machine learning. Issuing Create, distribute, and manage cards. Terminal Build your perfect point of sale. Partners: Find ap"
+        },
         {
           "chunk_id": "a34c707f0386c8c6",
           "label": "job_listing",
@@ -723,9 +733,9 @@
     },
     {
       "year": 2026,
-      "totalChunks": 42,
-      "aiChunks": 2,
-      "prevalence": 0.0476,
+      "totalChunks": 78,
+      "aiChunks": 11,
+      "prevalence": 0.141,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -739,41 +749,114 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 15,
-          "ai_chunks": 2,
-          "mentions": 9
+          "chunks": 19,
+          "ai_chunks": 4,
+          "mentions": 11
         },
         "mission_brand": {
-          "chunks": 20,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 45,
+          "ai_chunks": 6,
+          "mentions": 7
         },
         "process_logistics": {
-          "chunks": 3,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 10,
+          "ai_chunks": 1,
+          "mentions": 1
         }
       },
       "terms": {
+        "AI": 11,
         "agentic": 6,
-        "AI": 2,
-        "LLMs": 1
+        "LLMs": 1,
+        "machine learning": 1
       },
       "projections": [
         {
           "group": "all",
-          "meanProjection": 0.0038,
-          "nChunks": 2,
-          "thin": true
+          "meanProjection": -0.0186,
+          "nChunks": 11,
+          "thin": false
         },
         {
           "group": "hire",
-          "meanProjection": 0.0038,
-          "nChunks": 2,
+          "meanProjection": -0.0057,
+          "nChunks": 4,
           "thin": true
+        },
+        {
+          "group": "other",
+          "meanProjection": -0.0674,
+          "nChunks": 1,
+          "thin": true
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.019,
+          "nChunks": 6,
+          "thin": false
         }
       ],
       "quotes": [
+        {
+          "chunk_id": "ff57a0275009163e",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.0941,
+          "text": "AI is changing how the global economy works, how our customers work, and how Stripes work. The people who thrive here adapt quickly and treat obstacles as opportunities."
+        },
+        {
+          "chunk_id": "bd7b13c114ac07fe",
+          "label": "process_logistics",
+          "group": "other",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.0674,
+          "text": "What is it actually like to work at Stripe day to day? How does Stripe invest in your growth? How does AI shape the work here? What does it mean to do your best work here?"
+        },
+        {
+          "chunk_id": "e0e5369540c93ed9",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "machine learning"
+          ],
+          "projection": -0.0326,
+          "text": "While the large majority of our internships are available on the engineering team, we’ve also hosted interns in machine learning, data science, and other teams across the business."
+        },
+        {
+          "chunk_id": "57225f52f8491d20",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.0287,
+          "text": "Stripe powers more than 1.6% of global GDP. Millions of businesses, from solo founders to Fortune 500 companies, run on our infrastructure. Our core mission is enabling economic growth, which we believe is one of the foundations of a flourishing civilization. There may never have been a more interesting time to work on this problem at Stripe. AI is changing everything about the business ecosystem:"
+        },
+        {
+          "chunk_id": "e6f3c872c69a836c",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "AI"
+          ],
+          "projection": 0.0236,
+          "text": "AI is replatforming the global economy. Stripe is building infrastructure to make it possible, including real-time agent micropayments, protocols that let software transact autonomously, and fraud prevention for a new generation of threats. These are just some of the challenges you’ll be working on."
+        },
+        {
+          "chunk_id": "26a60bb86f068214",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.0163,
+          "text": "You’ll be mentored by some of the most creative and technically rigorous people in the industry, working on teams reshaping how money moves in an economy replatforming around AI."
+        },
         {
           "chunk_id": "1dc7bfb772d472c7",
           "label": "job_listing",
@@ -787,15 +870,14 @@
           "text": "You’ll lead design for Agentic Commerce. You’ll work alongside a small group of Product Managers and Engineers to shape our strategy and build a variety of transformative products—for merchants, agents, and for consumers. You’ll reimagine the consumer checkout experience with agentic commerce capabilities in mind. You’ll explore how those capabilities can be embedded across a variety of surfaces, "
         },
         {
-          "chunk_id": "bcfd267f07044ea3",
-          "label": "job_listing",
-          "group": "hire",
+          "chunk_id": "7d8f8c2dc11a94b9",
+          "label": "mission_brand",
+          "group": "talk",
           "terms": [
-            "AI",
-            "agentic"
+            "AI"
           ],
-          "projection": -0.0042,
-          "text": "The Product Design team is made up of several groups that define, create, and deliver all user-facing aspects of Stripe’s brand and product. Product Designers are strategic partners to Engineering and Product Management within their product area. In close collaboration with product teams, they shape user experiences, then translate them into high-quality designs that can be tested, shipped, and re"
+          "projection": 0.0076,
+          "text": "We exist to increase economic growth, and we pursue it on every front: by building tools that make it easier and cheaper for ambitious businesses to start and scale, by publishing ideas that advance progress, and by creating the economic infrastructure for AI. Your work will define how the world transacts."
         }
       ]
     }

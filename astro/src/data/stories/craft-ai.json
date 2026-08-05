@@ -12,8 +12,8 @@
   },
   "stats": {
     "deltas": {
-      "rho": 0.402,
-      "p": 0.079,
+      "rho": 0.39,
+      "p": 0.089,
       "n": 20
     },
     "levels": {
@@ -1841,107 +1841,107 @@
       "craftSeries": [
         {
           "year": 2012,
-          "zscore": 0.5881,
+          "zscore": 0.548,
           "raw": 0.0789,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2013,
-          "zscore": 0.3933,
+          "zscore": 0.3561,
           "raw": 0.0719,
           "nChunks": 2,
           "thin": true
         },
         {
           "year": 2014,
-          "zscore": -0.5961,
+          "zscore": -0.6183,
           "raw": 0.0366,
           "nChunks": 7,
           "thin": false
         },
         {
           "year": 2015,
-          "zscore": -1.8919,
+          "zscore": -1.8943,
           "raw": -0.0097,
           "nChunks": 3,
           "thin": true
         },
         {
           "year": 2016,
-          "zscore": -1.2623,
+          "zscore": -1.2743,
           "raw": 0.0128,
           "nChunks": 6,
           "thin": false
         },
         {
           "year": 2017,
-          "zscore": -1.4157,
+          "zscore": -1.4254,
           "raw": 0.0073,
           "nChunks": 5,
           "thin": false
         },
         {
           "year": 2018,
-          "zscore": -1.4085,
+          "zscore": -1.4183,
           "raw": 0.0076,
           "nChunks": 5,
           "thin": false
         },
         {
           "year": 2019,
-          "zscore": 1.0068,
+          "zscore": 0.9603,
           "raw": 0.0938,
           "nChunks": 35,
           "thin": false
         },
         {
           "year": 2020,
-          "zscore": 1.0383,
+          "zscore": 0.9913,
           "raw": 0.095,
           "nChunks": 45,
           "thin": false
         },
         {
           "year": 2021,
-          "zscore": 0.9944,
+          "zscore": 0.9481,
           "raw": 0.0934,
           "nChunks": 30,
           "thin": false
         },
         {
           "year": 2022,
-          "zscore": 1.1971,
+          "zscore": 1.1477,
           "raw": 0.1006,
           "nChunks": 48,
           "thin": false
         },
         {
           "year": 2023,
-          "zscore": 0.3161,
+          "zscore": 0.2801,
           "raw": 0.0692,
           "nChunks": 21,
           "thin": false
         },
         {
           "year": 2024,
-          "zscore": 0.3853,
+          "zscore": 0.3483,
           "raw": 0.0716,
           "nChunks": 23,
           "thin": false
         },
         {
           "year": 2025,
-          "zscore": 0.3853,
+          "zscore": 0.3483,
           "raw": 0.0716,
           "nChunks": 22,
           "thin": false
         },
         {
           "year": 2026,
-          "zscore": 0.2699,
-          "raw": 0.0675,
-          "nChunks": 20,
+          "zscore": 0.7023,
+          "raw": 0.0845,
+          "nChunks": 45,
           "thin": false
         }
       ],
@@ -1990,8 +1990,8 @@
         },
         {
           "year": 2019,
-          "prevalence": 0.0435,
-          "aiChunks": 2,
+          "prevalence": 0.0638,
+          "aiChunks": 3,
           "thin": false
         },
         {
@@ -2032,16 +2032,16 @@
         },
         {
           "year": 2026,
-          "prevalence": 0.0476,
-          "aiChunks": 2,
+          "prevalence": 0.141,
+          "aiChunks": 11,
           "thin": false
         }
       ],
       "craftPre": 0.0429,
-      "craftPost": 0.0703,
-      "aiPost": 0.0207,
-      "dCraft": 0.0274,
-      "dAi": 0.0001,
+      "craftPost": 0.0759,
+      "aiPost": 0.0663,
+      "dCraft": 0.033,
+      "dAi": 0.0417,
       "coverageNote": null
     },
     {
@@ -4745,8 +4745,8 @@
     {
       "id": "stripe",
       "displayName": "Stripe",
-      "craft": 0.0703,
-      "ai": 0.0207,
+      "craft": 0.0759,
+      "ai": 0.0663,
       "flagged": false,
       "note": null
     },
@@ -4971,7 +4971,7 @@
     {
       "year": 2019,
       "craftMean": 0.039,
-      "aiPrevalence": 0.0158,
+      "aiPrevalence": 0.0176,
       "nCompanies": 19
     },
     {
@@ -5012,8 +5012,8 @@
     },
     {
       "year": 2026,
-      "craftMean": 0.0525,
-      "aiPrevalence": 0.1326,
+      "craftMean": 0.0535,
+      "aiPrevalence": 0.1401,
       "nCompanies": 17
     }
   ]
