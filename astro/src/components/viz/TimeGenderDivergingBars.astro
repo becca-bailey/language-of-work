@@ -5,90 +5,134 @@
 // (rust = masculine / --chart-contrast-1, slate = feminine / --chart-2); the
 // space between the bar ends is the unshown neutral remainder. Reading the
 // asymmetry above vs below zero *is* the masculine tilt the story is about.
-// Data: gender-language-time.json (scripts/gender_by_year.py). Company-equal-
-// weight mean over companies with >= minN sentences that year; years before
-// START are dropped (coverage too thin to average).
+//
+// A company toggle (default "All companies" = the equal-weight aggregate) lets
+// you read any single company's trajectory. The y-axis is FIXED across every
+// view so toggling between companies doesn't silently rescale — same convention
+// as the craft/AI trajectories chart. Per-company views drop thin years
+// (n < minN), the same eligibility rule the aggregate uses.
+// Data: gender-language-time.json (scripts/gender_by_year.py).
 import { loadStory } from "@/lib/stories";
 
 const data = (await loadStory("gender-language-time")) as any;
+const gender = (await loadStory("gender-language")) as any;
 const START = 2013;
-const series = ((data?.series ?? []) as any[]).filter(
+const minN = data?.minN ?? 20;
+
+// display-name lookup from the main gender export
+const nameOf: Record<string, string> = {};
+for (const c of (gender?.columns ?? []) as any[]) nameOf[c.company] = c.name;
+
+// fixed year domain across all views
+const aggregate = ((data?.series ?? []) as any[]).filter(
   (e) => e.year >= START && e.mascShare != null
 );
+const perCo = (data?.companies ?? {}) as Record<string, Record<string, any>>;
+const maxYear = Math.max(
+  ...aggregate.map((e) => e.year),
+  ...Object.values(perCo).flatMap((yrs) => Object.keys(yrs).map(Number))
+);
+const years: number[] = [];
+for (let y = START; y <= maxYear; y++) years.push(y);
 
-const W = 660, H = 340, M = { t: 26, r: 118, b: 34, l: 40 };
+// build the toggle's views: "all" first, then companies by mean masculine lean
+type Pt = { year: number; masc: number; fem: number; n: number };
+const allView: Pt[] = aggregate.map((e) => ({
+  year: e.year, masc: e.mascShare, fem: e.femShare, n: e.nCompanies,
+}));
+const coViews = Object.entries(perCo)
+  .map(([slug, yrs]) => {
+    const pts: Pt[] = Object.entries(yrs)
+      .map(([y, v]) => ({ year: +y, masc: v.mascShare, fem: v.femShare, n: v.n }))
+      .filter((p) => p.year >= START && p.n >= minN)
+      .sort((a, b) => a.year - b.year);
+    const meanMasc = pts.length ? pts.reduce((s, p) => s + p.masc, 0) / pts.length : 0;
+    return { slug, label: nameOf[slug] ?? slug, pts, meanMasc };
+  })
+  .filter((c) => c.pts.length > 0)
+  .sort((a, b) => b.meanMasc - a.meanMasc);
+
+const views: Record<string, { label: string; unit: "companies" | "sentences"; pts: Pt[] }> = {
+  all: { label: "All companies", unit: "companies", pts: allView },
+};
+for (const c of coViews) views[c.slug] = { label: c.label, unit: "sentences", pts: c.pts };
+
+// geometry (shared with the client renderer below via data-geo)
+const W = 660, H = 360, M = { t: 26, r: 122, b: 34, l: 40 };
 const iw = W - M.l - M.r, ih = H - M.t - M.b;
-const half = ih / 2;
-const zeroY = M.t + half;
-const YMAX = 0.4; // symmetric axis, matches the line-chart scale for comparability
+const half = ih / 2, zeroY = M.t + half, YMAX = 0.8;
+const colW = iw / years.length;
+const barW = Math.min(24, colW * 0.6);
+const geo = { W, H, Mt: M.t, Ml: M.l, iw, ih, half, zeroY, YMAX, colW, barW, year0: START, minN };
+const tickVals = [0.2, 0.4, 0.6, 0.8];
+const labelYears = years.filter((y) => y % 3 === (START % 3)); // ~every 3rd year
 
-const n = series.length;
-const colW = iw / n;
-const barW = Math.min(26, colW * 0.62);
-const cx = (i: number) => M.l + i * colW + (colW - barW) / 2;
-const h = (v: number) => (Math.min(v, YMAX) / YMAX) * half;
-
-// Vertical bar path anchored to the zero baseline, with only the outer (data)
-// end rounded — up when `up`, down otherwise.
-function bar(i: number, v: number, up: boolean): string {
-  const x = cx(i), w = barW, len = h(v);
-  const r = Math.min(4, w / 2, len);
+// server-side render of the default "all" bars, so the chart paints before JS
+const cxOf = (year: number) => M.l + (year - START) * colW + (colW - barW) / 2;
+const hOf = (v: number) => (Math.min(v, YMAX) / YMAX) * half;
+function barPath(year: number, v: number, up: boolean): string {
+  const x = cxOf(year), w = barW, len = hOf(v), r = Math.min(4, w / 2, len);
   const end = up ? zeroY - len : zeroY + len;
-  if (up) {
+  if (up)
     return `M${x},${zeroY} L${x},${end + r} Q${x},${end} ${x + r},${end} ` +
       `L${x + w - r},${end} Q${x + w},${end} ${x + w},${end + r} L${x + w},${zeroY} Z`;
-  }
   return `M${x},${zeroY} L${x},${end - r} Q${x},${end} ${x + r},${end} ` +
     `L${x + w - r},${end} Q${x + w},${end} ${x + w},${end - r} L${x + w},${zeroY} Z`;
 }
-
-const last = series[series.length - 1];
-const tickVals = [0.4, 0.3, 0.2, 0.1];
-const labelYears = [2013, 2016, 2019, 2022, 2025];
 ---
 
-<div class="time-gender-div relative my-6">
+<div class="time-gender-div relative my-6" data-geo={JSON.stringify(geo)}
+  data-views={JSON.stringify(views)}>
+  <div class="tgd-toggle mb-3 flex flex-wrap items-center gap-1.5 text-xs">
+    <span class="mr-1 text-neutral-500">Company:</span>
+    {Object.entries(views).map(([key, v], i) => (
+      <button class="gu-btn tgd-btn" data-view={key} aria-pressed={i === 0 ? "true" : "false"}>
+        {v.label}
+      </button>
+    ))}
+  </div>
+
   <svg viewBox={`0 0 ${W} ${H}`} class="w-full" role="img"
-    aria-label={`Masculine-coded share of careers sentences drawn above a zero baseline and feminine-coded share below, by year, ${series[0].year} to ${last.year}`}>
-    <!-- gridlines + symmetric magnitude ticks (both halves read as share) -->
+    aria-label={`Masculine-coded share of careers sentences drawn above a zero baseline and feminine-coded share below, by year, ${START} to ${maxYear}. Toggle by company.`}>
     {tickVals.map((t) => (
       <g>
-        <line x1={M.l} x2={W - M.r} y1={zeroY - h(t)} y2={zeroY - h(t)}
+        <line x1={M.l} x2={W - M.r} y1={zeroY - (t / YMAX) * half} y2={zeroY - (t / YMAX) * half}
           stroke="color-mix(in srgb, var(--muted) 20%, transparent)" stroke-width="1" />
-        <line x1={M.l} x2={W - M.r} y1={zeroY + h(t)} y2={zeroY + h(t)}
+        <line x1={M.l} x2={W - M.r} y1={zeroY + (t / YMAX) * half} y2={zeroY + (t / YMAX) * half}
           stroke="color-mix(in srgb, var(--muted) 20%, transparent)" stroke-width="1" />
-        <text x={M.l - 6} y={zeroY - h(t) + 4} text-anchor="end" font-size="11"
+        <text x={M.l - 6} y={zeroY - (t / YMAX) * half + 4} text-anchor="end" font-size="11"
           fill="var(--muted)" font-family="var(--font-mono, monospace)">{Math.round(t * 100)}%</text>
-        <text x={M.l - 6} y={zeroY + h(t) + 4} text-anchor="end" font-size="11"
+        <text x={M.l - 6} y={zeroY + (t / YMAX) * half + 4} text-anchor="end" font-size="11"
           fill="var(--muted)" font-family="var(--font-mono, monospace)">{Math.round(t * 100)}%</text>
       </g>
     ))}
 
-    <!-- bars: one column per year, masc up / fem down -->
-    {series.map((e, i) => (
-      <g class="tgd-col" data-year={e.year} data-masc={e.mascShare} data-fem={e.femShare}
-        data-ncos={e.nCompanies}>
-        <rect x={cx(i) - (colW - barW) / 2} y={M.t} width={colW} height={ih} fill="transparent" />
-        <path d={bar(i, e.mascShare, true)} fill="var(--chart-contrast-1)" />
-        <path d={bar(i, e.femShare, false)} fill="var(--chart-2)" />
-      </g>
-    ))}
+    <!-- default "all" bars rendered server-side; the client renderer replaces
+         this group on toggle -->
+    <g class="tgd-bars">
+      {allView.map((p) => (
+        <g class="tgd-col" data-year={p.year} data-masc={p.masc} data-fem={p.fem}
+          data-n={p.n} data-unit="companies">
+          <rect x={cxOf(p.year) - (colW - barW) / 2} y={M.t} width={colW} height={ih}
+            fill="transparent" />
+          <path d={barPath(p.year, p.masc, true)} fill="var(--chart-contrast-1)" />
+          <path d={barPath(p.year, p.fem, false)} fill="var(--chart-2)" />
+        </g>
+      ))}
+    </g>
 
-    <!-- zero baseline = neutral diverging midpoint -->
     <line x1={M.l} x2={W - M.r} y1={zeroY} y2={zeroY}
       stroke="color-mix(in srgb, var(--muted) 70%, transparent)" stroke-width="1.5" />
 
-    <!-- direct labels (identity is never color-alone) -->
     <text x={W - M.r + 8} y={M.t + 12} font-size="12" font-weight="600"
       fill="var(--chart-contrast-1)">masculine-coded</text>
     <text x={W - M.r + 8} y={M.t + ih - 4} font-size="12" font-weight="600"
       fill="var(--chart-2)">feminine-coded</text>
 
-    <!-- year labels below the frame -->
-    {series.map((e, i) => (
-      labelYears.includes(e.year) && (
-        <text x={cx(i) + barW / 2} y={M.t + ih + 18} text-anchor="middle" font-size="11"
-          fill="var(--muted)" font-family="var(--font-mono, monospace)">{e.year}</text>
+    {years.map((y) => (
+      labelYears.includes(y) && (
+        <text x={M.l + (y - START) * colW + colW / 2} y={M.t + ih + 18} text-anchor="middle"
+          font-size="11" fill="var(--muted)" font-family="var(--font-mono, monospace)">{y}</text>
       )
     ))}
   </svg>
@@ -97,10 +141,11 @@ const labelYears = [2013, 2016, 2019, 2022, 2025];
 
   <p class="mt-2 max-w-prose text-xs text-neutral-500">
     Share of each year's careers sentences that score masculine-coded (above the
-    line) or feminine-coded (below), averaged with every company weighted equally
-    (companies with fewer than {data?.minN ?? 20} sentences that year sit out).
-    The gap between the two bars is the neutral remainder, not shown. A sentence
-    counts in every year its page carried it.
+    line) or feminine-coded (below), with the neutral remainder unshown. <span
+    class="tgd-scope">Every company is weighted equally</span>; a company-year
+    needs at least {minN} sentences to appear. A sentence counts in every year
+    its page carried it. The axis is fixed at {Math.round(YMAX * 100)}% so views
+    stay comparable across the toggle.
   </p>
 
   <details class="mt-2 max-w-prose text-xs text-neutral-500">
@@ -109,19 +154,10 @@ const labelYears = [2013, 2016, 2019, 2022, 2025];
       <thead>
         <tr>
           <th class="pr-4">Year</th><th class="pr-4">Masculine</th>
-          <th class="pr-4">Feminine</th><th>Companies</th>
+          <th class="pr-4">Feminine</th><th class="tgd-th-unit">Companies</th>
         </tr>
       </thead>
-      <tbody>
-        {series.map((e) => (
-          <tr>
-            <td class="pr-4">{e.year}</td>
-            <td class="pr-4">{Math.round(e.mascShare * 100)}%</td>
-            <td class="pr-4">{Math.round(e.femShare * 100)}%</td>
-            <td>{e.nCompanies}</td>
-          </tr>
-        ))}
-      </tbody>
+      <tbody class="tgd-tbody"></tbody>
     </table>
   </details>
 </div>
@@ -131,7 +167,13 @@ const labelYears = [2013, 2016, 2019, 2022, 2025];
     border: 1px solid color-mix(in srgb, var(--muted) 45%, transparent); border-radius: 8px;
     padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgb(0 0 0 / 0.12); }
   .tgd-tip.hidden { display: none; }
-  .time-gender-div .tgd-col { cursor: default; }
+  /* toggle buttons mirror GenderUnitChart's .gu-btn for on-page consistency */
+  .tgd-btn { border: 1px solid color-mix(in srgb, var(--muted) 45%, transparent);
+    border-radius: 5px; padding: 1px 8px; color: var(--foreground); cursor: pointer;
+    background: transparent; line-height: 1.6; }
+  .tgd-btn[aria-pressed="true"] { background: var(--foreground); color: var(--background);
+    border-color: var(--foreground); }
+  .tgd-btn:focus-visible { outline: 2px solid var(--chart-contrast-1); outline-offset: 1px; }
   .time-gender-div .tgd-col:hover path { filter: brightness(1.06); }
   @media (hover: none), (pointer: coarse) {
     .tgd-tip { left: 8px !important; right: 8px; bottom: 8px; top: auto !important; max-width: none; }
@@ -139,15 +181,88 @@ const labelYears = [2013, 2016, 2019, 2022, 2025];
 </style>
 
 <script>
+  type Pt = { year: number; masc: number; fem: number; n: number };
+  type View = { label: string; unit: "companies" | "sentences"; pts: Pt[] };
+
   for (const root of document.querySelectorAll<HTMLElement>(".time-gender-div")) {
+    const geo = JSON.parse(root.dataset.geo!);
+    const views: Record<string, View> = JSON.parse(root.dataset.views!);
+    const barsG = root.querySelector<SVGGElement>(".tgd-bars")!;
+    const tbody = root.querySelector<HTMLElement>(".tgd-tbody")!;
     const tip = root.querySelector<HTMLElement>(".tgd-tip")!;
+    const scope = root.querySelector<HTMLElement>(".tgd-scope");
+    const thUnit = root.querySelector<HTMLElement>(".tgd-th-unit");
+    const NS = "http://www.w3.org/2000/svg";
+
+    const hv = (v: number) => (Math.min(v, geo.YMAX) / geo.YMAX) * geo.half;
+    const cx = (year: number) =>
+      geo.Ml + (year - geo.year0) * geo.colW + (geo.colW - geo.barW) / 2;
+
+    // vertical bar anchored to the zero baseline, outer (data) end rounded
+    function bar(year: number, v: number, up: boolean): string {
+      const x = cx(year), w = geo.barW, len = hv(v);
+      const r = Math.min(4, w / 2, len);
+      const z = geo.zeroY, end = up ? z - len : z + len;
+      if (up)
+        return `M${x},${z} L${x},${end + r} Q${x},${end} ${x + r},${end} ` +
+          `L${x + w - r},${end} Q${x + w},${end} ${x + w},${end + r} L${x + w},${z} Z`;
+      return `M${x},${z} L${x},${end - r} Q${x},${end} ${x + r},${end} ` +
+        `L${x + w - r},${end} Q${x + w},${end} ${x + w},${end - r} L${x + w},${z} Z`;
+    }
+
+    function render(key: string) {
+      const view = views[key];
+      barsG.textContent = "";
+      for (const p of view.pts) {
+        const g = document.createElementNS(NS, "g");
+        g.setAttribute("class", "tgd-col");
+        g.dataset.year = String(p.year);
+        g.dataset.masc = String(p.masc);
+        g.dataset.fem = String(p.fem);
+        g.dataset.n = String(p.n);
+        g.dataset.unit = view.unit;
+        const hit = document.createElementNS(NS, "rect");
+        hit.setAttribute("x", String(cx(p.year) - (geo.colW - geo.barW) / 2));
+        hit.setAttribute("y", String(geo.Mt));
+        hit.setAttribute("width", String(geo.colW));
+        hit.setAttribute("height", String(geo.ih));
+        hit.setAttribute("fill", "transparent");
+        g.appendChild(hit);
+        for (const [v, up, col] of [[p.masc, true, "--chart-contrast-1"],
+          [p.fem, false, "--chart-2"]] as [number, boolean, string][]) {
+          const path = document.createElementNS(NS, "path");
+          path.setAttribute("d", bar(p.year, v, up));
+          path.setAttribute("fill", `var(${col})`);
+          g.appendChild(path);
+        }
+        barsG.appendChild(g);
+      }
+      // table + prose scope reflect the current view
+      const unitLabel = view.unit === "companies" ? "companies" : "sentences";
+      if (thUnit) thUnit.textContent = view.unit === "companies" ? "Companies" : "Sentences";
+      if (scope) scope.textContent = key === "all"
+        ? "Every company is weighted equally"
+        : `${view.label} only`;
+      tbody.innerHTML = view.pts.map((p) =>
+        `<tr><td class="pr-4">${p.year}</td><td class="pr-4">${Math.round(p.masc * 100)}%</td>` +
+        `<td class="pr-4">${Math.round(p.fem * 100)}%</td><td>${p.n}</td></tr>`).join("");
+      for (const b of root.querySelectorAll<HTMLElement>(".tgd-btn"))
+        b.setAttribute("aria-pressed", String(b.dataset.view === key));
+    }
+
+    for (const b of root.querySelectorAll<HTMLElement>(".tgd-btn"))
+      b.addEventListener("click", () => render(b.dataset.view!));
+    render("all");
+
+    // shared tooltip (delegated, so it works on re-rendered bars)
     const show = (col: HTMLElement, x: number, y: number) => {
+      const unit = col.dataset.unit === "companies" ? "companies" : "sentences";
       tip.innerHTML =
         `<strong>${col.dataset.year}</strong>` +
         `<span style="display:block;font-family:var(--font-mono,monospace);font-size:11px">` +
         `<span style="color:var(--chart-contrast-1)">${Math.round(+col.dataset.masc! * 100)}% masculine-coded</span><br>` +
         `<span style="color:var(--chart-2)">${Math.round(+col.dataset.fem! * 100)}% feminine-coded</span><br>` +
-        `<span style="color:var(--muted)">${col.dataset.ncos} companies</span></span>`;
+        `<span style="color:var(--muted)">${col.dataset.n} ${unit}</span></span>`;
       tip.classList.remove("hidden");
       const r = tip.getBoundingClientRect();
       tip.style.left = Math.min(x + 14, innerWidth - r.width - 10) + "px";
