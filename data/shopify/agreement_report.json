@@ -1,0 +1,33 @@
+{
+  "n": 10,
+  "accuracy": 0.9,
+  "krippendorff_alpha": 0.885,
+  "confusion": {
+    "benefits_perks": {
+      "benefits_perks": 1
+    },
+    "employee_story": {
+      "employee_story": 1
+    },
+    "mission_brand": {
+      "job_listing": 1,
+      "mission_brand": 2
+    },
+    "legal_boilerplate": {
+      "legal_boilerplate": 1
+    },
+    "navigation_junk": {
+      "navigation_junk": 2
+    },
+    "process_logistics": {
+      "process_logistics": 2
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "a03a69c7a944978c",
+      "hand_label": "mission_brand",
+      "predicted": "job_listing"
+    }
+  ]
+}

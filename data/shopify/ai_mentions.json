@@ -119,7 +119,7 @@
     },
     {
       "year": 2014,
-      "total_chunks": 21,
+      "total_chunks": 22,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -135,7 +135,7 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 7,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -150,28 +150,28 @@
     },
     {
       "year": 2015,
-      "total_chunks": 28,
+      "total_chunks": 40,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 1,
+          "chunks": 5,
           "ai_chunks": 0,
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 13,
+          "chunks": 18,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 9,
+          "chunks": 11,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 5,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -181,7 +181,7 @@
     },
     {
       "year": 2016,
-      "total_chunks": 12,
+      "total_chunks": 17,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -192,7 +192,7 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 1,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -202,7 +202,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 2,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -212,7 +212,7 @@
     },
     {
       "year": 2017,
-      "total_chunks": 19,
+      "total_chunks": 22,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -228,7 +228,7 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 4,
+          "chunks": 7,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -248,7 +248,7 @@
     },
     {
       "year": 2018,
-      "total_chunks": 16,
+      "total_chunks": 30,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -259,12 +259,12 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 4,
+          "chunks": 16,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 9,
+          "chunks": 11,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -326,9 +326,9 @@
     },
     {
       "year": 2021,
-      "total_chunks": 20,
+      "total_chunks": 21,
       "ai_chunks": 1,
-      "prevalence": 0.05,
+      "prevalence": 0.0476,
       "thin": false,
       "labels": {
         "job_listing": {
@@ -337,7 +337,7 @@
           "mentions": 1
         },
         "mission_brand": {
-          "chunks": 13,
+          "chunks": 14,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -413,9 +413,9 @@
     },
     {
       "year": 2023,
-      "total_chunks": 51,
+      "total_chunks": 57,
       "ai_chunks": 1,
-      "prevalence": 0.0196,
+      "prevalence": 0.0175,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -429,7 +429,7 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 8,
+          "chunks": 13,
           "ai_chunks": 1,
           "mentions": 3
         },
@@ -439,7 +439,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 18,
+          "chunks": 19,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -460,98 +460,169 @@
     },
     {
       "year": 2024,
-      "total_chunks": 19,
-      "ai_chunks": 0,
-      "prevalence": 0.0,
+      "total_chunks": 55,
+      "ai_chunks": 4,
+      "prevalence": 0.0727,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 1,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         },
-        "mission_brand": {
+        "job_listing": {
           "chunks": 17,
-          "ai_chunks": 0,
-          "mentions": 0
-        },
-        "process_logistics": {
-          "chunks": 1,
-          "ai_chunks": 0,
-          "mentions": 0
-        }
-      },
-      "terms": {},
-      "examples": []
-    },
-    {
-      "year": 2025,
-      "total_chunks": 13,
-      "ai_chunks": 0,
-      "prevalence": 0.0,
-      "thin": false,
-      "labels": {
-        "job_listing": {
-          "chunks": 2,
-          "ai_chunks": 0,
-          "mentions": 0
+          "ai_chunks": 3,
+          "mentions": 6
         },
         "mission_brand": {
-          "chunks": 8,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 34,
+          "ai_chunks": 1,
+          "mentions": 2
         },
         "process_logistics": {
-          "chunks": 3,
-          "ai_chunks": 0,
-          "mentions": 0
-        }
-      },
-      "terms": {},
-      "examples": []
-    },
-    {
-      "year": 2026,
-      "total_chunks": 52,
-      "ai_chunks": 2,
-      "prevalence": 0.0385,
-      "thin": false,
-      "labels": {
-        "job_listing": {
           "chunks": 2,
-          "ai_chunks": 0,
-          "mentions": 0
-        },
-        "mission_brand": {
-          "chunks": 44,
-          "ai_chunks": 2,
-          "mentions": 4
-        },
-        "process_logistics": {
-          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         }
       },
       "terms": {
-        "AI": 4
+        "ML": 5,
+        "AI": 3
       },
       "examples": [
         {
           "label": "mission_brand",
-          "chunk_id": "cf470103e0260c91",
+          "chunk_id": "6e954feba4d97f61",
           "terms": [
             "AI"
           ],
-          "text": "People don't wait for computers; computers wait for people. Time is precious – eliminate toil. Never waste a human's time with a task a machine could have done. Use AI and automate whatever should be automated. Reduce merchants' workload every chance you get. Unlike most products, we don't want merc"
+          "text": "Engineering is our DNA. It underpins our mission to make commerce better for everyone and how we work as a company. [Read: literally everything we do.] Engineers join Shopify to work alongside the world's best technical minds. Working together to solve massive technical problems forces a constant le"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "1c17b8758f738713",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "text": "Thrive at the intersection of ML and Software Engineering, and use your know-how of both realms to create products that super charge merchants. Use your range of development skills to build everything from the critical infrastructure and systems that support in-house ML models, to AI-powered product"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "68441c0d15605aeb",
+          "terms": [
+            "ML"
+          ],
+          "text": "At the helm of state-of-the-art ML systems. Create, train, and deploy ML models at scale. Empower our merchants by building products that help them make the best decisions faster, and more intelligently."
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total_chunks": 64,
+      "ai_chunks": 9,
+      "prevalence": 0.1406,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 38,
+          "ai_chunks": 8,
+          "mentions": 12
+        },
+        "mission_brand": {
+          "chunks": 19,
+          "ai_chunks": 1,
+          "mentions": 4
+        },
+        "process_logistics": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 11,
+        "ML": 5
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "70cedadf4bf8417e",
+          "terms": [
+            "AI"
+          ],
+          "text": "Engineering is our DNA. It underpins our mission to make commerce better for everyone and how we work as a company. [Read: literally everything we do.] Engineers join Shopify to work alongside the world's best technical minds. Working together to solve massive technical problems forces a constant le"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "4299a479275126e9",
+          "terms": [
+            "AI"
+          ],
+          "text": "UX is Shopify’s killer feature. It’s the bridge between technology and people, and it’s through exceptional user experiences that Shopify makes commerce accessible and attainable to more and more entrepreneurs. While entrepreneurship defines our mission, user experience defines our product. The key "
         },
         {
           "label": "mission_brand",
-          "chunk_id": "03a49155b699598e",
+          "chunk_id": "994aeebe15ef97f7",
           "terms": [
             "AI"
           ],
-          "text": "Everyone at Shopify works on product. (Yes, even the finance team.) Product thinking, combined with our reflexive use of AI, is why our people have superpowers. It’s why we build what our merchants need before they know they need it. In a world where AI can make anything, taste and craft become our "
+          "text": "Yes, AI is changing everything. And yes, we're all in. We are embracing AI in our tools, workflows and philosophies because we believe technology will always create opportunities for those sufficiently courageous to claim it. We want people committed to the tools of tomorrow, because true innovation"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total_chunks": 82,
+      "ai_chunks": 9,
+      "prevalence": 0.1098,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 26,
+          "ai_chunks": 6,
+          "mentions": 10
+        },
+        "mission_brand": {
+          "chunks": 47,
+          "ai_chunks": 3,
+          "mentions": 8
+        },
+        "process_logistics": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 14,
+        "ML": 4
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "9f47788c4a4cee20",
+          "terms": [
+            "AI"
+          ],
+          "text": "Engineering is our DNA. It underpins our mission to make commerce better for everyone and how we work as a company. [Read: literally everything we do.] Engineers join Shopify to work alongside the world's best technical minds. Working together to solve massive technical problems forces a constant le"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "bec46db4baa5cf48",
+          "terms": [
+            "AI"
+          ],
+          "text": "Engineering isn't a department at Shopify. It's our DNA. The engineers who thrive here care about the code, the system, and the merchants relying on both. They want hard problems and uncomfortable growth. They find solutions without waiting for permission. They ship weekly. They want commerce to wor"
+        },
+        {
+          "label": "job_listing",
+          "chunk_id": "231c007e3d0e72d5",
+          "terms": [
+            "AI"
+          ],
+          "text": "Shopify is for those who play the long game. We've completely reimagined how sales works, building a model that matches our ethos: betting on merchant success over the long term. You'll build a portfolio of relationships that compound in value over time, and a portfolio that grows more valuable as y"
         }
       ]
     }

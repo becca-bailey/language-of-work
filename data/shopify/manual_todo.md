@@ -17,6 +17,8 @@ Wayback can't recover these server-side; capture them by hand.
 | [ ] | 2011 | shopify.com/careers | https://web.archive.org/web/20110601000000*/shopify.com/careers |
 | [ ] | 2013 | shopify.com/careers | https://web.archive.org/web/20130601000000*/shopify.com/careers |
 | [ ] | 2014 | shopify.com/careers | https://web.archive.org/web/20140601000000*/shopify.com/careers |
+| [ ] | 2023 | shopify.com/careers/disciplines/engineering | https://web.archive.org/web/20230801000000*/shopify.com/careers/disciplines/engineering |
+| [ ] | 2024 | shopify.com/careers/disciplines/engineering | https://web.archive.org/web/20240201000000*/shopify.com/careers/disciplines/engineering |
 
 ## manual_manifest.json template
 ```json

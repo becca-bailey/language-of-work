@@ -6,6 +6,12 @@
   "patterns": [
     {"url": "shopify.com/careers", "match_type": "exact", "era_hint": "2010-2026"},
     {"url": "www.shopify.com/careers", "match_type": "exact", "era_hint": "2010-2026"},
-    {"url": "shopify.com/careers/", "match_type": "prefix", "era_hint": "2014-2026"}
+    {"url": "shopify.com/careers/", "match_type": "prefix", "era_hint": "2014-2026"},
+    {"url": "shopify.com/careers/disciplines/engineering", "match_type": "prefix", "era_hint": "2023-2024", "exclude_url": "engineering-data"},
+    {"url": "shopify.com/careers/disciplines/engineering-data", "match_type": "prefix", "era_hint": "2024-2026"},
+    {"url": "shopify.com/careers/disciplines/design", "match_type": "prefix", "era_hint": "2025-2026"},
+    {"url": "shopify.com/careers/disciplines/ux", "match_type": "prefix", "era_hint": "2025"},
+    {"url": "shopify.com/careers/disciplines/product", "match_type": "prefix", "era_hint": "2025-2026"},
+    {"url": "shopify.com/careers/disciplines/commercial", "match_type": "prefix", "era_hint": "2025-2026"}
   ]
 }
