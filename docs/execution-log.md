@@ -398,3 +398,17 @@ STALE downstream (not re-run, Becca's call — published story numbers would
 move): axis_scores.parquet, dei/performance/altruism artifacts, gender story
 exports (654-item Shopify column), fingerprints, synthesis. ai_mentions.json
 is re-run and current.
+
+## 2026-11-06 — November refresh round 1: exclusion-cohort live captures
+
+All 7 cohort companies (flock, icon, corgi, cluely, rilla, scale,
+bendingspoons) captured live and ingested via the manual flow — each now has
+a snapshots.json (13 captures merged; pilot flock_live.html migrated to
+data/flock/manual_html/20260723_careers.html). Ashby boards re-pulled;
+Bending Spoons PDFs re-pulled. Findings (detail in
+data/exclusion_pilot/scout_captures_2026-11/README.md): Scale replaced its
+careers credos ("Run Through Walls" era → "Quality is Our Cheat Code" set)
+between 2026-01 and 2026-11; Corgi's public Ashby board is gone (Aug capture
+is the only record), hiring moved onto corgi.insure with the "Most people
+are not a fit." headline intact but the 6-7-days/get-cut listing boilerplate
+absent from a 3-role sample; Rilla's "Don't Work Here" sections persist.
