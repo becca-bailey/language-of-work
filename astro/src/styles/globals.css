@@ -119,3 +119,9 @@ h1,
 h2 {
   color: var(--origin);
 }
+
+/* Article variant (?variant=article): strip figure chrome for screenshots.
+   Set on <html data-variant="article"> by the inline script in Layout. */
+[data-variant="article"] .article-hide {
+  display: none;
+}

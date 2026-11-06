@@ -23,6 +23,13 @@ const {
     <link rel="icon" href="/favicon.ico" sizes="any" />
   </head>
   <body class="min-h-full flex flex-col">
+    <script is:inline>
+      // Article variant for essay screenshots: hides .article-hide chrome
+      // (hints, table views, source notes) without hydration.
+      if (new URLSearchParams(location.search).get("variant") === "article") {
+        document.documentElement.dataset.variant = "article";
+      }
+    </script>
     <slot />
   </body>
 </html>

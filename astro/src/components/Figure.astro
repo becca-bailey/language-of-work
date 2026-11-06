@@ -1,0 +1,39 @@
+---
+/* Shared story-figure wrapper (pattern from crafting-research):
+   definitional caption ABOVE the chart, collapsed table view, Source
+   footnote. Caption text defines what is measured and the selection rule —
+   it never interprets. The hint, table, and source hide in the article
+   variant (?variant=article) so screenshots carry only the chart. */
+interface Props {
+  id: string;
+  title: string;
+  definition: string;
+  hint?: string;
+  source?: string;
+}
+const { id, title, definition, hint, source } = Astro.props;
+const hasTable = Astro.slots.has("table");
+---
+
+<figure id={id} class="story-figure mt-16 w-full first:mt-0">
+  <figcaption class="mb-3">
+    <h2 class="fig-title text-lg font-semibold tracking-tight">{title}</h2>
+    <p class="mt-1 max-w-prose text-sm text-neutral-600 dark:text-neutral-400">
+      {definition}{hint && <span class="article-hide">{" "}{hint}</span>}
+    </p>
+  </figcaption>
+  <slot />
+  {hasTable && (
+    <details class="article-hide mt-3 text-xs">
+      <summary class="cursor-pointer text-neutral-500 dark:text-neutral-400">Table view</summary>
+      <div class="mt-2 overflow-x-auto">
+        <slot name="table" />
+      </div>
+    </details>
+  )}
+  {source && (
+    <p class="article-hide mt-2 max-w-prose text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">
+      Source: {source}
+    </p>
+  )}
+</figure>
