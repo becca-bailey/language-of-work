@@ -44,7 +44,11 @@ def _is_prose_capture(cap: dict) -> bool:
 
 def main(company: str) -> None:
     cdir = company_dir(company)
-    manifest = read_json(cdir / "snapshots.json")
+    manifest_path = cdir / "snapshots.json"
+    if not manifest_path.exists():
+        print(f"{company}: no snapshots.json — nothing to extract (capture first)")
+        return
+    manifest = read_json(manifest_path)
     raw_dir = cdir / "raw_html"
     by_year: dict[int, list[dict]] = defaultdict(list)
 

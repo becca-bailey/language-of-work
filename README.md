@@ -37,6 +37,32 @@ Requires an rclone remote named `cloudflare` pointing at the `language-of-work`
 R2 bucket. With no cache present the pipeline still works — it just re-embeds
 (and re-pays) on first run.
 
+Raw captures are gitignored too, and for the no-Wayback companies (flock,
+bendingspoons) the local copies may be the only archival record anywhere:
+
+```bash
+./scripts/cache_sync.sh push-raw   # after any capture round
+./scripts/cache_sync.sh pull-raw   # restore raw HTML on a fresh clone
+```
+
+## Refreshing the corpus
+
+One command chains capture → spot-check gate → pipeline → backup:
+
+```bash
+uv run scripts/refresh.py                  # full refresh (pauses for spot-checks)
+uv run scripts/refresh.py --capture-only   # free: archive new captures, no API spend
+uv run scripts/refresh.py --companies shopify stripe
+uv run scripts/refresh.py --dry-run        # preview what fetch would add
+```
+
+Cadence: the per-year selector targets Feb/May/Aug/Nov, so a capture round in
+those months (at least `--capture-only`, which costs nothing) keeps the corpus
+gapless — that matters most for the no-Wayback companies, where our copies are
+the record. Scoring (`pipeline.py run`, API spend) can lag captures safely.
+After a refresh, check the printed prose-sensitive figures against published
+captions, review `git diff astro/src/data`, and commit.
+
 ## Pipeline
 
 **Everyday path.** After manually fetching new data (`fetch_snapshots.py

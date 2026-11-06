@@ -11,15 +11,16 @@ from pathlib import Path
 import httpx
 
 CDX_URL = "https://web.archive.org/cdx/search/cdx"
-REQUEST_INTERVAL_S = 1.0  # polite rate limit
-MAX_RETRIES = 4
+REQUEST_INTERVAL_S = 1.0  # polite rate limit for capture downloads
+CDX_INTERVAL_S = 4.0      # CDX hard-throttles bursts of queries (~8/min trips it)
+MAX_RETRIES = 7
 
 _last_request_at = 0.0
 
 
-def _throttle() -> None:
+def _throttle(interval: float = REQUEST_INTERVAL_S) -> None:
     global _last_request_at
-    wait = REQUEST_INTERVAL_S - (time.monotonic() - _last_request_at)
+    wait = interval - (time.monotonic() - _last_request_at)
     if wait > 0:
         time.sleep(wait)
     _last_request_at = time.monotonic()
@@ -53,19 +54,25 @@ class Capture:
         return asdict(self)
 
 
-def _get(client: httpx.Client, url: str, params: dict | None = None) -> httpx.Response:
+def _get(client: httpx.Client, url: str, params: dict | None = None,
+         interval: float = REQUEST_INTERVAL_S) -> httpx.Response:
     for attempt in range(MAX_RETRIES):
-        _throttle()
+        _throttle(interval)
         try:
             resp = client.get(url, params=params, timeout=60)
             if resp.status_code in (429, 503):
-                time.sleep(5 * (attempt + 1))
+                # Wayback's limiter can hold an IP for many minutes once
+                # tripped; back off hard and say so, or long runs look hung.
+                wait = min(300, 15 * 2 ** attempt)
+                print(f"  [throttled {resp.status_code}] waiting {wait}s "
+                      f"(attempt {attempt + 1}/{MAX_RETRIES})")
+                time.sleep(wait)
                 continue
             return resp
         except httpx.TransportError:
             if attempt == MAX_RETRIES - 1:
                 raise
-            time.sleep(5 * (attempt + 1))
+            time.sleep(min(300, 15 * 2 ** attempt))
     raise RuntimeError(f"exhausted retries for {url}")
 
 
@@ -95,7 +102,7 @@ def cdx_query(
     if collapse:
         params["collapse"] = collapse
 
-    resp = _get(client, CDX_URL, params)
+    resp = _get(client, CDX_URL, params, interval=CDX_INTERVAL_S)
     resp.raise_for_status()
     rows = resp.json()
     if not rows:
@@ -133,23 +140,39 @@ def dedup_by_digest(captures: list[Capture]) -> tuple[list[Capture], dict[str, l
     return unique, seen
 
 
-def select_per_year(captures: list[Capture], per_year: int = 4) -> dict[int, list[Capture]]:
+def select_per_year(captures: list[Capture], per_year: int = 4,
+                    existing_timestamps: list[str] | None = None) -> dict[int, list[Capture]]:
     """Pick up to `per_year` captures spread across each year.
 
     Targets evenly spaced months (Feb/May/Aug/Nov for 4) and picks the capture
     closest to each target, without reusing a capture.
+
+    `existing_timestamps` are captures already held (e.g. from the manifest of
+    a previous fetch): each consumes its year's nearest target month, so a
+    re-run tops a year up to `per_year` total instead of picking a fresh
+    `per_year` on top of what the manifest already has.
     """
     by_year: dict[int, list[Capture]] = {}
     for cap in captures:
         by_year.setdefault(cap.year, []).append(cap)
 
+    existing_by_year: dict[int, list[int]] = {}
+    for ts in existing_timestamps or []:
+        existing_by_year.setdefault(int(ts[:4]), []).append(int(ts[4:6]))
+
     selected: dict[int, list[Capture]] = {}
     for year, caps in sorted(by_year.items()):
         caps = sorted(caps, key=lambda c: c.timestamp)
-        if len(caps) <= per_year:
+        target_months = [round((i + 0.5) * 12 / per_year) for i in range(per_year)]
+        for month in existing_by_year.get(year, []):
+            if not target_months:
+                break
+            target_months.remove(min(target_months, key=lambda t: abs(t - month)))
+        if not target_months:
+            continue
+        if len(caps) <= len(target_months):
             selected[year] = caps
             continue
-        target_months = [round((i + 0.5) * 12 / per_year) for i in range(per_year)]
         chosen: list[Capture] = []
         pool = caps.copy()
         for month in target_months:

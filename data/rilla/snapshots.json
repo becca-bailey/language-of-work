@@ -6,7 +6,42 @@
       "original": "https://rilla.com/careers",
       "digest": "10f9f9efc727eeef0b48d6ff",
       "html_file": "20261106120000_10f9f9efc727eeef0b48d6ff.html",
-      "source": "live"
+      "source": "live",
+      "coverage": {
+        "chunk_count": 10,
+        "dom_words": 173,
+        "trafilatura_words": 318,
+        "dom_to_trafilatura_ratio": 0.54
+      },
+      "thin": false
+    },
+    {
+      "timestamp": "20260805120000",
+      "original": "https://jobs.ashbyhq.com/rilla",
+      "digest": "7ed8365c7ecafc958d2d126d",
+      "html_file": "20260805120000_7ed8365c7ecafc958d2d126d.html",
+      "source": "ashby_posting_api (rilla_jobs.json)",
+      "coverage": {
+        "chunk_count": 166,
+        "dom_words": 20948,
+        "trafilatura_words": 21760,
+        "dom_to_trafilatura_ratio": 0.96
+      },
+      "thin": false
+    },
+    {
+      "timestamp": "20261106120000",
+      "original": "https://jobs.ashbyhq.com/rilla",
+      "digest": "ec0c81a8f1cb295cf470be42",
+      "html_file": "20261106120000_ec0c81a8f1cb295cf470be42.html",
+      "source": "ashby_posting_api (rilla_jobs.json)",
+      "coverage": {
+        "chunk_count": 149,
+        "dom_words": 17544,
+        "trafilatura_words": 18233,
+        "dom_to_trafilatura_ratio": 0.96
+      },
+      "thin": false
     }
   ]
 }

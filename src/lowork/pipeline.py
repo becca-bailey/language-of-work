@@ -188,21 +188,9 @@ STAGES: list[Stage] = [
           outputs=("repo:astro/src/data/{co}/ai.json",),
           depends=("track_ai_mentions", "score_ai_language")),
 
-    # --- per-company AI narrative (reads the whole export dir generically) ---
-    # Hashing the entire {co} export dir means any facet added later flows into
-    # both the prompt and change-detection with no edit here; the prompt config is
-    # hashed too so editing the prompt/model regenerates. Output lives OUTSIDE
-    # the hashed dir so it never sits in its own input set.
-    Stage("synthesize_company", lambda c: _call("synthesize_company", c),
-          Scope.PER_COMPANY, ("profiles",),
-          inputs=("repo:astro/src/data/{co}", "repo:prompts/synthesis.yaml"),
-          outputs=("repo:astro/src/data/synthesis/{co}.json",),
-          depends=("export_web", "export_dei_web")),
-
     # --- cross-company values fingerprint (one bar per axis, vs. peers) ---
     # Global: each axis is standardized across the whole cohort, so it must see
-    # every company's axis levels at once. Outputs live outside the hashed
-    # per-company dir so they don't perturb synthesize_company's inputs.
+    # every company's axis levels at once.
     Stage("export_fingerprints", lambda comps: _call("export_fingerprints", comps),
           Scope.GLOBAL, ("profiles",), inputs=("axis_scores.parquet",),
           outputs=("repo:astro/src/data/fingerprints/{co}.json",),
@@ -456,11 +444,19 @@ class Step:
     reason: str
 
 
+def _has_manifest(company: str) -> bool:
+    """A universe company with no snapshots.json has no corpus yet: every
+    per-company stage is skipped for it until a capture lands."""
+    return (company_dir(company) / "snapshots.json").exists()
+
+
 def changed_companies(cfg: Config, state: dict) -> list[str]:
     """Companies whose ingestion input (snapshots.json/raw_html) has changed."""
     st = STAGE_BY_NAME["extract_chunks"]
     out = []
     for co in cfg.companies:
+        if not _has_manifest(co):
+            continue
         if state.get(_state_key(st, co)) != fingerprint(st, [co]) \
                 or not _outputs_present(st, [co]):
             out.append(co)
@@ -478,6 +474,7 @@ def evaluate(cfg: Config, state: dict, only_companies: set[str] | None = None,
     plan: list[Step] = []
     dirty_pc: dict[str, set[str]] = {}   # per-company stage -> dirty companies
     dirty_g: set[str] = set()            # dirty global stage names
+    skipped_no_manifest: set[str] = set()
 
     for stage in active_stages(cfg):
         comps = effective_companies(stage, cfg)
@@ -486,6 +483,11 @@ def evaluate(cfg: Config, state: dict, only_companies: set[str] | None = None,
             reasons: set[str] = set()
             for co in comps:
                 if only_companies is not None and co not in only_companies:
+                    continue
+                if not _has_manifest(co):
+                    if co not in skipped_no_manifest:
+                        skipped_no_manifest.add(co)
+                        print(f"[skip] {co}: no snapshots.json yet")
                     continue
                 up = [d for d in stage.depends if co in dirty_pc.get(d, set())]
                 if force:

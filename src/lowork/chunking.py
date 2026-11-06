@@ -13,6 +13,7 @@ import hashlib
 import json
 import re
 from dataclasses import dataclass
+from html import unescape
 
 import trafilatura
 from bs4 import BeautifulSoup, Tag
@@ -251,9 +252,13 @@ def chunk_html(html: str | bytes, *, source_url: str, timestamp: str) -> list[di
 
     if dom_words < 80:
         next_chunks = _chunks_from_next_data(html, source_url=source_url, timestamp=timestamp)
+        app_chunks = next_chunks or _chunks_from_app_data(html)
         if next_chunks:
             dom_chunks = [{"heading": c["heading"], "text": c["text"]} for c in next_chunks]
             extraction_source = "next_data"
+        elif app_chunks:
+            dom_chunks = [{"heading": c["heading"], "text": c["text"]} for c in app_chunks]
+            extraction_source = "app_data"
         else:
             extraction_source = "dom"
     else:
@@ -354,6 +359,57 @@ def _chunks_from_next_data(
         seen.add(key)
         chunks.append({"heading": heading, "text": text})
 
+    return chunks
+
+
+# --- window.__appData (Ashby job-board SPA) prose recovery ---
+# Archived jobs.ashbyhq.com captures are JS shells, but they embed the full
+# job JSON (title + descriptionHtml) in window.__appData. Parse, don't scrape.
+
+_APP_DATA_MARK = re.compile(r"window\.__appData\s*=\s*", re.I)
+_BLOCK_SPLIT = re.compile(r"</(?:p|li|h\d|div)>|<br\s*/?>", re.I)
+_TAG = re.compile(r"<[^>]+>")
+
+
+def _walk_app_json(obj, out: list[tuple[str, str]]) -> None:
+    if isinstance(obj, dict):
+        desc = obj.get("descriptionHtml") or obj.get("descriptionPlain")
+        title = obj.get("title")
+        if isinstance(desc, str) and desc and isinstance(title, str):
+            out.append((title, desc))
+        for v in obj.values():
+            _walk_app_json(v, out)
+    elif isinstance(obj, list):
+        for item in obj:
+            _walk_app_json(item, out)
+
+
+def _chunks_from_app_data(html: str | bytes) -> list[dict]:
+    if isinstance(html, bytes):
+        html = html.decode("utf-8", errors="replace")
+    m = _APP_DATA_MARK.search(html)
+    if not m:
+        return []
+    try:
+        data, _ = json.JSONDecoder().raw_decode(html, m.end())
+    except ValueError:
+        return []
+
+    postings: list[tuple[str, str]] = []
+    _walk_app_json(data, postings)
+
+    seen: set[str] = set()
+    chunks: list[dict] = []
+    for title, desc in postings:
+        for block in _BLOCK_SPLIT.split(desc):
+            text = strip_site_chrome(_clean(unescape(_TAG.sub(" ", block))))
+            if not _is_prose_string(text):
+                continue
+            key = text[:200]
+            if key in seen:
+                continue
+            seen.add(key)
+            chunks.append({"heading": title, "text": text})
     return chunks
 
 

@@ -169,7 +169,38 @@ def _existing_keys(manifest: dict) -> tuple[set[tuple[str, str]], set[str]]:
     return capture_keys, digests
 
 
-def cmd_fetch(company: str, per_year: int) -> None:
+def _norm_url(u: str) -> str:
+    u = u.lower()
+    for prefix in ("https://", "http://"):
+        u = u.removeprefix(prefix)
+    u = u.removeprefix("www.")
+    # Wayback originals often carry an explicit port (shopify.com:80/careers).
+    host, slash, rest = u.partition("/")
+    u = host.split(":")[0] + slash + rest
+    return u.rstrip("/")
+
+
+def _existing_by_pattern(manifest: dict, patterns: list[dict]) -> dict[str, list[str]]:
+    """Timestamps already in the manifest, attributed to each pattern URL.
+
+    These count toward the per-year quota on a re-fetch, so a November run
+    tops a year up instead of selecting a fresh per_year on top of August's.
+    Failed fetches don't count.
+    """
+    out: dict[str, list[str]] = {}
+    for cap in manifest.get("captures", []):
+        if cap.get("fetch_error"):
+            continue
+        original = _norm_url(cap.get("original", ""))
+        for p in patterns:
+            pu = _norm_url(p["url"])
+            match_type = p.get("match_type", "exact")
+            if original == pu or (match_type == "prefix" and original.startswith(pu)):
+                out.setdefault(p["url"], []).append(cap["timestamp"])
+    return out
+
+
+def cmd_fetch(company: str, per_year: int, dry_run: bool = False) -> None:
     cfg = load_patterns(company)
     cdir = company_dir(company)
     raw_dir = cdir / "raw_html"
@@ -214,7 +245,8 @@ def cmd_fetch(company: str, per_year: int) -> None:
             p["url"]: re.compile(p["exclude_url"])
             for p in cfg["patterns"] if p.get("exclude_url")
         }
-        seen_digests: set[str] = set()
+        existing_by_pattern = _existing_by_pattern(manifest, cfg["patterns"])
+        seen_digests: set[str] = set(existing_digests)
         selected: dict[int, list[Capture]] = {}
         for url, caps in results.items():
             if signals.get(url, {}).get("shell"):
@@ -234,7 +266,9 @@ def cmd_fetch(company: str, per_year: int) -> None:
                     print(f"  {url}: exclude_url dropped {before - len(caps)} captures")
             unique, _ = dedup_by_digest(caps)
             unique = [c for c in unique if c.digest not in seen_digests]
-            for year, chosen in select_per_year(unique, per_year=per_year).items():
+            for year, chosen in select_per_year(
+                    unique, per_year=per_year,
+                    existing_timestamps=existing_by_pattern.get(url, [])).items():
                 for cap in chosen:
                     if cap.digest in seen_digests:
                         continue
@@ -258,6 +292,10 @@ def cmd_fetch(company: str, per_year: int) -> None:
                 if cap.digest in existing_digests:
                     print(f"  skip digest {cap.timestamp} {cap.original}")
                     continue
+                if dry_run:
+                    print(f"  would fetch {cap.timestamp} {cap.original}")
+                    added += 1
+                    continue
                 try:
                     path, nbytes = fetch_capture(client, cap, raw_dir)
                     status = "cached" if nbytes == 0 else f"{nbytes} bytes"
@@ -273,6 +311,10 @@ def cmd_fetch(company: str, per_year: int) -> None:
                 added += 1
                 spotcheck.append(f"- [{cap.timestamp} — {cap.original}]({cap.replay_url})")
             spotcheck.append("")
+
+        if dry_run:
+            print(f"\nDry run: {added} captures would be fetched; nothing written")
+            return
 
         # SPA-era JSON probes: surface candidates for manual review, don't download
         json_candidates = []
@@ -297,9 +339,11 @@ if __name__ == "__main__":
     parser.add_argument("command", choices=["discover", "fetch"])
     parser.add_argument("--company", default="google")
     parser.add_argument("--per-year", type=int, default=4)
+    parser.add_argument("--dry-run", action="store_true",
+                        help="print what fetch would select; write nothing")
     args = parser.parse_args()
     if args.command == "discover":
         cmd_discover(args.company)
     else:
-        cmd_fetch(args.company, args.per_year)
+        cmd_fetch(args.company, args.per_year, dry_run=args.dry_run)
     sys.exit(0)
