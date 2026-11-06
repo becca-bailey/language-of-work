@@ -1,0 +1,66 @@
+---
+title: A Team, Not a Family
+subtitle: >-
+  Netflix's 2009 culture deck and where its language shows up on sixteen
+  companies' careers pages, 1999–2026.
+published: true
+study: careers
+order: 4
+teaser: "Netflix's 2009 culture deck, how narrowly it spread, and the scoreboard that isn't there."
+---
+
+import Figure from "@/components/Figure.astro";
+import AdopterRanking from "@/components/viz/AdopterRanking.astro";
+import DeckQuotes from "@/components/viz/DeckQuotes.astro";
+import LineageStacked from "@/components/viz/LineageStacked.astro";
+import LineageTimeline from "@/components/viz/LineageTimeline.astro";
+
+<Figure
+  id="deck-quotes"
+  title="What the 2009 deck says"
+  definition="The culture-deck concepts this story tracks, each with Netflix's original wording."
+  source="Netflix culture deck, 2009 (125 slides)."
+>
+  <DeckQuotes />
+</Figure>
+
+<Figure
+  id="lineage-stacked"
+  title="Which deck ideas other companies echo"
+  definition="Each concept leads with Netflix's line. Bold entries are lifts — company sentences above the validated similarity threshold. Lighter entries are echoes: adjacent language that gestures at the idea without quoting it."
+  source="16-company careers-page corpus. A match is an embedding hit above the validated threshold that also survives an LLM judge reading the sentence against the concept; about a third of raw matches fail the judge."
+>
+  <LineageStacked />
+</Figure>
+
+<Figure
+  id="lineage-timeline"
+  title="When each echo first surfaced"
+  definition="The first year each company's matching language appears. Matches that predate the 2009 deck are excluded, since earlier language cannot be descent."
+  source="Same matched set as above. Pre-deck matches existed (Amazon wrote about deciding 'based on our core values' in 2007) — a reminder that some post-2009 echoes are surely convergence too."
+>
+  <LineageTimeline />
+</Figure>
+
+<Figure
+  id="adopter-ranking"
+  title="Who carries the most of the deck"
+  definition="Companies ranked by how many deck concepts their careers copy matches, counting lifts and judge-vetted echoes once per concept."
+  source="Same matched set as above. Engine's top rank includes the one verbatim revival of the coinage itself: 'At Engine, talent density is everything' (May 2024, pre-rename)."
+>
+  <AdopterRanking />
+</Figure>
+
+## How to read these charts
+
+- **What counts as a match:** each Netflix concept and its paraphrases are
+  embedded; a company sentence that lands above the validated similarity
+  threshold and survives an LLM-judge check against the concept counts.
+- **Lifts vs. echoes:** a lift is above-threshold borrowing; an echo is
+  adjacent language below the threshold that the judge still accepts as the
+  same idea.
+- **What's excluded:** "dream team" (it caught interchangeable
+  "amazing team" boilerplate), "raise the bar" / "only the best" (industry
+  convergence, Amazon's register), and anything a company said before 2009.
+  Basecamp preached simplicity before the deck existed and sits in the
+  cohort as the control case.
