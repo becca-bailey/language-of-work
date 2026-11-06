@@ -1,0 +1,29 @@
+{
+  "company": "icon",
+  "display_name": "Icon",
+  "comment": "Exclusion-story company (scouted 2026-08-06). icon.com/careers is SERVER-RENDERED founder-letter prose ('No work-life-separation. Ping at 2am or on weekends.' / 'No bad fits. We part ways if it's not a good fit (with respect).') with ~30 collapsed captures Apr 2025 - Jun 2026 — best archive quality of the 2025-26 wave. DOMAIN-HISTORY TRAP: icon.com is an old domain with prior unrelated owners (cf. ramp.com lesson) — min_year 2025 ENFORCED on every pattern; the AI ad-maker company (founder Kennan Davison) took the domain ~2025. Never loosen without M1 archaeology.",
+  "hosts": [
+    "icon.com",
+    "www.icon.com"
+  ],
+  "patterns": [
+    {
+      "url": "icon.com/careers",
+      "match_type": "exact",
+      "era_hint": "2025-2026",
+      "min_year": 2025
+    },
+    {
+      "url": "www.icon.com/careers",
+      "match_type": "exact",
+      "era_hint": "2025-2026",
+      "min_year": 2025
+    },
+    {
+      "url": "icon.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2025-2026",
+      "min_year": 2025
+    }
+  ]
+}

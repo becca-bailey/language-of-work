@@ -1,0 +1,36 @@
+{
+  "company": "cluely",
+  "display_name": "Cluely",
+  "comment": "Exclusion-story company (scouted 2026-08-06). Register lives in job listings: 'We work six days a week in-person... You are expected to live within a block of the office (housing provided)' / 'This will likely be the most intense job of your life.' Careers page (JS shell) tagline: 'You're running out of time to make generational wealth. This is your best shot.' cluely.com/careers: 53 collapsed captures 2025-26 (shell — parse, don't scrape); jobs.ashbyhq.com/cluely: ~58 captures 2025-26 with job JSON embedded in window.__appData. Live corpus via Ashby posting API. Founder (Roy Lee) X canon is heavy but UNVERIFIED — treat as founder-canon candidate only after manual capture. min_year 2025 (company founded 2025).",
+  "hosts": [
+    "cluely.com",
+    "www.cluely.com",
+    "jobs.ashbyhq.com"
+  ],
+  "patterns": [
+    {
+      "url": "cluely.com/careers",
+      "match_type": "exact",
+      "era_hint": "2025-2026",
+      "min_year": 2025
+    },
+    {
+      "url": "www.cluely.com/careers",
+      "match_type": "exact",
+      "era_hint": "2025-2026",
+      "min_year": 2025
+    },
+    {
+      "url": "jobs.ashbyhq.com/cluely",
+      "match_type": "exact",
+      "era_hint": "2025-2026",
+      "min_year": 2025
+    },
+    {
+      "url": "jobs.ashbyhq.com/cluely/",
+      "match_type": "prefix",
+      "era_hint": "2025-2026",
+      "min_year": 2025
+    }
+  ]
+}

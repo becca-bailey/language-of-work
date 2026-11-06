@@ -1,0 +1,36 @@
+{
+  "company": "bendingspoons",
+  "display_name": "Bending Spoons",
+  "comment": "Exclusion-story company (scouted 2026-08-06). The European carrier: Culture & Policies PDFs on the company domain say the construct verbatim ('isn't for everybody'; 'Uncompromising excellence... we respectfully part ways'; 'We give generous separation packages' — the Netflix severance move). ZERO CDX coverage of the modern site: bendingspoons.com captures end 2013 (pre-company squatter page — min_year 2015 ENFORCED); bendingspoons.com/* from 2015 on and all of jobs.bendingspoons.com return nothing. Our 2026-08-06 PDF captures (data/exclusion_pilot/scout_captures_2026-08-06/) may be the only archival record — promote to canon/ and recapture periodically. Careers page is static HTML (capturable live); jobs board is a JS shell. Additional /documents/ PDFs worth capturing: A Great Spooner, Radical Candor, On-Site & Remote Work. Jobs FAQ (jobs.bendingspoons.com/faq): 'It won't be a good fit if you're at your best working at a slower pace.'",
+  "hosts": [
+    "bendingspoons.com",
+    "www.bendingspoons.com",
+    "jobs.bendingspoons.com"
+  ],
+  "patterns": [
+    {
+      "url": "bendingspoons.com/careers",
+      "match_type": "exact",
+      "era_hint": "2015-2026",
+      "min_year": 2015
+    },
+    {
+      "url": "www.bendingspoons.com/careers",
+      "match_type": "exact",
+      "era_hint": "2015-2026",
+      "min_year": 2015
+    },
+    {
+      "url": "bendingspoons.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2015-2026",
+      "min_year": 2015
+    },
+    {
+      "url": "jobs.bendingspoons.com/faq",
+      "match_type": "exact",
+      "era_hint": "2020-2026",
+      "min_year": 2015
+    }
+  ]
+}

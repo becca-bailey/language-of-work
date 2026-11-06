@@ -366,3 +366,35 @@ Decision pending (Becca reshaping claims): genre instrument story-wide vs
 google-only rewrite. Meanwhile altruism.mdx set published:false — prod build
 verified 26 pages, /stories/altruism no longer built. Pilot scripts + genre
 cache in session scratchpad; nothing merged into score_altruism_split.py yet.
+
+## 2026-08-05 — Shopify /disciplines backfill (discovery + capture)
+
+Prompted by the AI-mandate gap: careers hub capture missed discipline pages
+one level down. CDX discovery found six: engineering (2023-24),
+engineering-data (2024-26), ux (2025), design (2025-26), product (2025-26),
+commercial (2025-26) — ux→design and engineering→engineering-data are
+renames. Root cause of the miss: the careers/ prefix pattern gave all
+subpages one shared per-year quota, so the root crowded them out. Fix: six
+explicit prefix patterns in url_patterns.json (engineering excludes
+engineering-data), discover + fetch merged 105 new captures into
+snapshots.json; extract_chunks → 575 total chunks (was ~410);
+classify_chunks 165 new (α 0.885 on hand-labeled, unchanged);
+embed_chunks +41 analysis-corpus rows.
+
+**Correction to findings-2026-07-10.md ("Shopify 2/52 AI in 2026"): that was
+a sampling artifact of hub-only capture.** Re-run track_ai_mentions: 2025
+9/64 (14%), 2026 9/82 (11%). The engineering-data page carries the memo
+register verbatim ("They use AI like a keyboard, reflexively and
+everywhere"). Same hub-only caveat likely applies to other companies'
+AI-prevalence comparisons.
+
+Gaps: engineering 2023-24 Wayback captures are all 0-word SPA shells → added
+to manual_todo.md (2 rows). 2025 design chunks dedup into ux (same content,
+rename year) — expected. Sitemap discovery also surfaced an uncaptured
+candidate-guide/* section (incl. an ai-usage page) — not fetched, worklist
+candidate.
+
+STALE downstream (not re-run, Becca's call — published story numbers would
+move): axis_scores.parquet, dei/performance/altruism artifacts, gender story
+exports (654-item Shopify column), fingerprints, synthesis. ai_mentions.json
+is re-run and current.

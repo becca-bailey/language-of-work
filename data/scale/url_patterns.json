@@ -1,0 +1,32 @@
+{
+  "company": "scale",
+  "display_name": "Scale AI",
+  "comment": "Exclusion-story company (scouted 2026-08-06). Two artifacts: (1) careers credos ('Run Through Walls', 'Ambition Shapes Reality — We are extremely ambitious... expecting to fail in the short-term') SERVER-RENDERED in raw snapshot HTML, verified present in both 2024-01-01 and 2026-01-01 snapshots (pre- and post-Meta-deal); yearly CDX 200s 2019-2026 plus hundreds of per-posting captures (exclude listings via exact match). CAPTURE GOTCHA: live summarizer fetches MISS the credos — always pull raw HTML. (2) MEI memo, scale.com/blog/meritocracy-at-scale (Wang, 2024-06-13, 'Hiring on merit will be a permanent policy at Scale') — canon-doc candidate, dual-published to Wang's X same day; pattern included so the blog page gets archived captures too. M1 TODO: pre-2019 era may live on scaleapi.com — probe before extending era back.",
+  "hosts": [
+    "scale.com",
+    "www.scale.com"
+  ],
+  "patterns": [
+    {
+      "url": "scale.com/careers",
+      "match_type": "exact",
+      "era_hint": "2019-2026"
+    },
+    {
+      "url": "www.scale.com/careers",
+      "match_type": "exact",
+      "era_hint": "2019-2026"
+    },
+    {
+      "url": "scale.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2019-2026"
+    },
+    {
+      "url": "scale.com/blog/meritocracy-at-scale",
+      "match_type": "exact",
+      "era_hint": "2024-2026",
+      "min_year": 2024
+    }
+  ]
+}

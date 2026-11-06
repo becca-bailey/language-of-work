@@ -1,0 +1,36 @@
+{
+  "company": "rilla",
+  "display_name": "Rilla",
+  "comment": "Exclusion-story company (scouted 2026-08-05). Register lives in the JOB-LISTING TEMPLATE, not page prose: 16/30 live Ashby listings end with a literal 'Don't Work Here' section (~60-70 hrs/week, 6-day weeks). Live corpus via Ashby posting API (api.ashbyhq.com/posting-api/job-board/rilla; snapshot saved data/exclusion_pilot/scout_captures_2026-08-06/rilla_jobs.json). Archived Ashby captures are JS shells BUT embed full job JSON in window.__appData (descriptionHtml) — parse, don't scrape visible text. A Jan 2025 capture PREDATES the 'Don't Work Here' section, so its first appearance is datable. rilla.com/careers itself is a Next.js shell with softer copy ('championship winning team'). rillavoice.com: 0 captures (redirects to legacy.rilla.com). M1 TODO: check rilla.com pre-2023 domain history before loosening min_year.",
+  "hosts": [
+    "rilla.com",
+    "www.rilla.com",
+    "jobs.ashbyhq.com"
+  ],
+  "patterns": [
+    {
+      "url": "rilla.com/careers",
+      "match_type": "exact",
+      "era_hint": "2024-2026",
+      "min_year": 2023
+    },
+    {
+      "url": "www.rilla.com/careers",
+      "match_type": "exact",
+      "era_hint": "2024-2026",
+      "min_year": 2023
+    },
+    {
+      "url": "jobs.ashbyhq.com/rilla",
+      "match_type": "exact",
+      "era_hint": "2024-2026",
+      "min_year": 2023
+    },
+    {
+      "url": "jobs.ashbyhq.com/rilla/",
+      "match_type": "prefix",
+      "era_hint": "2024-2026",
+      "min_year": 2023
+    }
+  ]
+}

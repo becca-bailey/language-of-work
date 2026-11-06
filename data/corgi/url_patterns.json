@@ -1,0 +1,36 @@
+{
+  "company": "corgi",
+  "display_name": "Corgi",
+  "comment": "Exclusion-story company (scouted 2026-08-06). YC S24 AI insurance. Careers headline 'Most people are not a fit.' (corgi.insure/careers, Next.js shell); Ashby listing boilerplate 'We are in the office 6-7 days a week... If you don't meet them, you'll get cut... talent density' — the not_for_everyone move AND Netflix vocabulary in one paragraph (the bridge case between abstract talent-density flex and numeric hours flex). Archive thin: ~21 captures of /careers (404 until ~May 2025, live Nov 2025+), 3 Ashby captures Dec 2025-2026 — live Ashby API is the primary corpus (snapshot saved data/exclusion_pilot/scout_captures_2026-08-06/corgi_jobs.json); recapture periodically. min_year 2024 (company founded 2024).",
+  "hosts": [
+    "corgi.insure",
+    "www.corgi.insure",
+    "jobs.ashbyhq.com"
+  ],
+  "patterns": [
+    {
+      "url": "corgi.insure/careers",
+      "match_type": "exact",
+      "era_hint": "2025-2026",
+      "min_year": 2024
+    },
+    {
+      "url": "www.corgi.insure/careers",
+      "match_type": "exact",
+      "era_hint": "2025-2026",
+      "min_year": 2024
+    },
+    {
+      "url": "jobs.ashbyhq.com/corgi",
+      "match_type": "exact",
+      "era_hint": "2025-2026",
+      "min_year": 2024
+    },
+    {
+      "url": "jobs.ashbyhq.com/corgi/",
+      "match_type": "prefix",
+      "era_hint": "2025-2026",
+      "min_year": 2024
+    }
+  ]
+}

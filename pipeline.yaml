@@ -34,6 +34,18 @@ companies:
     spacex,
     ramp,
     x, # canon-primary: the ultimatum doc, careers page is a JS shell (exclusion only — no careers corpus for gender-language)
+    # 2026-08-06 additions (Becca): exclusion story ONLY — these were scouted
+    # BECAUSE they speak the register (purposive sample), so including them in
+    # any other story or cross-company aggregate would skew it by construction.
+    # Do not add to other allow-lists without an explicit selection-bias
+    # discussion. Scout evidence: docs/exclusion-story-plan.md §2.
+    flock, # Flock Safety — ZERO wayback; manual live-capture only
+    rilla,
+    icon,
+    corgi,
+    cluely,
+    scale, # Scale AI — careers credos + MEI memo canon
+    bendingspoons, # ZERO wayback of modern site; PDF canon captured 2026-08-06
   ]
 
 # Every company gets an individual page; the per-company exports run for all of
@@ -101,7 +113,10 @@ stories:
   # register; comparisons stay within-register (manifesto-voice confound).
   exclusion:
     enabled: true
-    companies: [netflix, coinbase, engine, palantir, anduril, spacex, ramp, x]
+    # 2026-08-06: + flock (pilot cohort, now onboarding) and the scouted Tier 1
+    # additions. Tier 2 canon-only candidates (greptile, snowflake doctrine,
+    # arrowster) pending Becca's call — see docs/exclusion-story-plan.md §2.
+    companies: [netflix, coinbase, engine, palantir, anduril, spacex, ramp, x, flock, rilla, icon, corgi, cluely, scale, bendingspoons]
   # Gender-coded language story (Becca, 2026-07-23): Kozlowski-style gender
   # axis over careers-page copy. ALL corpus companies, NO canon documents —
   # deliberately the inverse of the exclusion story's corpus design. x is out

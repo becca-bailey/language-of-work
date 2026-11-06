@@ -1,0 +1,26 @@
+{
+  "company": "flock",
+  "display_name": "Flock Safety",
+  "comment": "Exclusion-story company (pilot cohort 2026-07-23; onboarded 2026-08-06). STRONGER THAN ZERO COVERAGE (2026-08-06): the CDX API returns HTTP 403 for flocksafety.com queries specifically (other domains 200 in the same session, reproduced twice + via curl) — the Wayback Machine's behavior for a domain EXCLUDED from the archive (owner exclusion request or robots-based; mechanism unknowable from outside, phrase carefully in the story). Consequence: discover CRASHES on this profile (httpx raise_for_status) — do not run it for flock until the fetch path catches 403-as-exclusion; primary route is MANUAL LIVE CAPTURE with periodic recapture. The 2026-07-23 pilot live capture (data/exclusion_pilot/flock_live.html) is the only archival record of their careers copy. Old page reportedly carried an anti-pitch letter (unverifiable — no archive).",
+  "hosts": [
+    "flocksafety.com",
+    "www.flocksafety.com"
+  ],
+  "patterns": [
+    {
+      "url": "flocksafety.com/careers",
+      "match_type": "exact",
+      "era_hint": "2017-2026"
+    },
+    {
+      "url": "www.flocksafety.com/careers",
+      "match_type": "exact",
+      "era_hint": "2017-2026"
+    },
+    {
+      "url": "flocksafety.com/careers/",
+      "match_type": "exact",
+      "era_hint": "2017-2026"
+    }
+  ]
+}
