@@ -5,10 +5,10 @@ Use this during manual step M1 to confirm/extend `url_patterns.json`.
 
 | Pattern | signal | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| about.gitlab.com/jobs | 503w | 3 | 3 | 38 | 44 | 18 | 429 | 48 | 30 | 33 | 35 | 34 | 86 | 60 |
-| about.gitlab.com/company/culture | 2195w |  |  |  |  | 2 | 127 | 419 | 642 | 637 | 535 |  |  |  |
-| about.gitlab.com/handbook/values | 16630w |  |  |  | 5 | 5 | 11 | 16 | 24 | 26 | 10 |  |  |  |
-| about.gitlab.com/company/culture/all-remote | 2195w |  |  |  |  | 1 | 83 | 327 | 446 | 464 | 371 |  |  |  |
+| about.gitlab.com/jobs | 413w | 3 | 3 | 6 | 4 | 12 | 7 | 12 | 9 | 12 | 12 | 12 | 12 | 10 |
+| about.gitlab.com/jobs/ | 413w | 3 | 3 | 6 | 4 | 12 | 7 | 12 | 9 | 12 | 12 | 12 | 12 | 10 |
+| about.gitlab.com/company/culture | 1336w |  |  |  |  |  | 9 | 11 | 11 | 9 | 4 |  |  |  |
+| about.gitlab.com/company/culture/ | 1336w |  |  |  |  |  | 9 | 11 | 11 | 9 | 4 |  |  |  |
 
 ## Gaps to investigate
 

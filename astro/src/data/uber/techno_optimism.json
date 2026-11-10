@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2011,
-      "zscore": 0.0446,
+      "zscore": 0.0208,
       "rawTopkMean": 0.0142,
       "nChunks": 9,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2012,
-      "zscore": -0.6617,
+      "zscore": -0.6735,
       "rawTopkMean": -0.0057,
       "nChunks": 3,
       "kUsed": 3,
@@ -67,7 +67,7 @@
     },
     {
       "year": 2013,
-      "zscore": -1.2617,
+      "zscore": -1.2634,
       "rawTopkMean": -0.0226,
       "nChunks": 3,
       "kUsed": 3,
@@ -93,7 +93,7 @@
     },
     {
       "year": 2014,
-      "zscore": -0.7586,
+      "zscore": -0.7687,
       "rawTopkMean": -0.0085,
       "nChunks": 7,
       "kUsed": 5,
@@ -129,7 +129,7 @@
     },
     {
       "year": 2015,
-      "zscore": -0.7796,
+      "zscore": -0.7894,
       "rawTopkMean": -0.0091,
       "nChunks": 7,
       "kUsed": 5,
@@ -165,7 +165,7 @@
     },
     {
       "year": 2016,
-      "zscore": 1.8646,
+      "zscore": 1.8098,
       "rawTopkMean": 0.0655,
       "nChunks": 13,
       "kUsed": 5,
@@ -184,7 +184,7 @@
         },
         {
           "text": "Because you have to take risks if you want to build the next big idea.",
-          "heading": "Take bold steps",
+          "heading": "Shape the world you want",
           "score": 0.0485
         },
         {
@@ -201,7 +201,7 @@
     },
     {
       "year": 2017,
-      "zscore": -0.9163,
+      "zscore": -0.9238,
       "rawTopkMean": -0.0129,
       "nChunks": 10,
       "kUsed": 5,
@@ -237,7 +237,7 @@
     },
     {
       "year": 2018,
-      "zscore": 0.4764,
+      "zscore": 0.4452,
       "rawTopkMean": 0.0264,
       "nChunks": 82,
       "kUsed": 5,
@@ -246,7 +246,7 @@
       "quotes": [
         {
           "text": "We enjoy working on hard problems together because the hardest challenges are often the most rewarding.",
-          "heading": "Creative problem-solving",
+          "heading": "Welcoming for everyone",
           "score": 0.0325
         },
         {
@@ -273,7 +273,7 @@
     },
     {
       "year": 2019,
-      "zscore": 1.3551,
+      "zscore": 1.309,
       "rawTopkMean": 0.0511,
       "nChunks": 80,
       "kUsed": 5,
@@ -309,9 +309,9 @@
     },
     {
       "year": 2024,
-      "zscore": 0.6371,
-      "rawTopkMean": 0.0309,
-      "nChunks": 42,
+      "zscore": 0.8339,
+      "rawTopkMean": 0.0375,
+      "nChunks": 46,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
@@ -320,6 +320,11 @@
           "text": "In-app features, such as the ability to enter a delivery destination, can facilitate non-verbal communication between the customer and delivery person.",
           "heading": "Customers who are deaf or hard of hearing",
           "score": 0.0557
+        },
+        {
+          "text": "The Uber Driver app signals a new trip request with a flashing light and an audio notification.",
+          "heading": "Flashing trip request",
+          "score": 0.0507
         },
         {
           "text": "Assistive technology such as visible and vibrating alerts can help riders who are deaf or hard of hearing use the Uber app easily, and in-app features, such as the ability to enter a destination, can facilitate non-verbal communication between the rider and driver.",
@@ -335,11 +340,6 @@
           "text": "Uber’s technology is helping to increase mobility and independence for riders with disabilities, with features and capabilities like these:",
           "heading": "Riders with disabilities",
           "score": 0.0233
-        },
-        {
-          "text": "Assistive technology such as visible and vibrating alerts can help customers who are deaf or hard of hearing use the Uber Eats app easily.",
-          "heading": "Customers who are deaf or hard of hearing",
-          "score": 0.0177
         }
       ]
     }

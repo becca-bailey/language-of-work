@@ -84,7 +84,7 @@
 
 ## 2021
 - affirming_dei: 14
-- neutral: 1
+- neutral: 3
 
 ## 2022
 - affirming_dei: 21

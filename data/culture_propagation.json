@@ -478,9 +478,23 @@
         "exampleScore": 0.717,
         "echoes": [
           {
+            "year": 2026,
+            "text": "Be direct and respect your colleagues We create a culture where we are straightforward and willing to have hard conversations with each other.",
+            "score": 0.629
+          },
+          {
             "year": 2023,
             "text": "Be direct and respect your colleagues",
             "score": 0.575
+          }
+        ]
+      },
+      "palantir": {
+        "echoes": [
+          {
+            "year": 2011,
+            "text": "We treat each other like adults.",
+            "score": 0.512
           }
         ]
       },
@@ -670,9 +684,9 @@
             "score": 0.555
           },
           {
-            "year": 2023,
-            "text": "We operate on low process and high trust, and trade on impact.",
-            "score": 0.55
+            "year": 2024,
+            "text": "We default to the most important work rather than adhering to a prescriptive role – and we hire the same way.",
+            "score": 0.553
           }
         ]
       },
@@ -826,6 +840,15 @@
       }
     },
     "no_vacation_policy": {
+      "palantir": {
+        "echoes": [
+          {
+            "year": 2011,
+            "text": "As long as your work is getting done, you’re free to work whatever schedule suits you.",
+            "score": 0.504
+          }
+        ]
+      },
       "coinbase": {
         "firstYearConcept": 2014,
         "nConcept": 3,
@@ -977,7 +1000,14 @@
           2026
         ],
         "example": "We raise the floor, while we constantly redefine the ceiling.",
-        "exampleScore": 0.642
+        "exampleScore": 0.642,
+        "echoes": [
+          {
+            "year": 2018,
+            "text": "We specialize deeply, and stay curious and engaged to learn, grow, and level up.",
+            "score": 0.502
+          }
+        ]
       },
       "stripe": {
         "firstYearConcept": 2019,
@@ -1196,9 +1226,10 @@
         ]
       },
       "shopify": {
-        "firstYearConcept": 2025,
-        "nConcept": 2,
+        "firstYearConcept": 2024,
+        "nConcept": 5,
         "yearsConcept": [
+          2024,
           2025,
           2026
         ],

@@ -1,0 +1,8 @@
+# M4 read-through: mission_brand chunks by year
+
+## 2026 (3 chunks)
+
+- **Career growth** — Responsibility is earned through impact, not prior experience. That’s why careers grow so quickly here. Jason joined remotely while studying at university, aged 21. Within five years, he’d led software engineering teams at both Remini and Vimeo. Martina joined at 24, right after graduation. By 28, she was leading software engineering for a suite of more than 100 apps. Florinda joined as a part-time intern while at university, aged 21. By 27, she was leading a business generating more than $100 million in revenue. Marco joined us part-time while at university, aged 23. Within five years, he was heading up two businesses with millions of customers in aggregate.
+- **Team feats** — This isn’t a place to aim low or play safe. Small teams work with full autonomy as they solve hard problems and deliver outsized results. A team of around 30 shipped more than 80 improvements, including a full, multi-platform redesign, in nine months. A development team of around 25 people shipped 100 new features and improvements in 2024. In three weeks, an exploration squad of five surfaced and rolled out Previews—a feature now used by millions of users. A cross-functional team of ten built the AI Photos feature that took Remini to the top of the US App Store in 2023.
+- **The challenge of your lifetime** — We’re a tight-knit team hellbent on building one of the greatest companies of our generation. The pace can be a lot. And you may feel like you don’t have all the skills all the time. But if you’re talented, tenacious, and determined to find out how good you can be, you’re going to love it here.
+

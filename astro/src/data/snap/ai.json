@@ -51,12 +51,12 @@
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 5,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 10,
+          "chunks": 9,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -193,19 +193,14 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 5,
-          "ai_chunks": 3,
-          "mentions": 29
+          "chunks": 6,
+          "ai_chunks": 4,
+          "mentions": 33
         },
         "mission_brand": {
           "chunks": 9,
           "ai_chunks": 0,
           "mentions": 0
-        },
-        "process_logistics": {
-          "chunks": 1,
-          "ai_chunks": 1,
-          "mentions": 4
         }
       },
       "terms": {
@@ -226,22 +221,16 @@
         },
         {
           "group": "hire",
-          "meanProjection": -0.0389,
-          "nChunks": 3,
-          "thin": true
-        },
-        {
-          "group": "other",
-          "meanProjection": -0.0707,
-          "nChunks": 1,
+          "meanProjection": -0.0468,
+          "nChunks": 4,
           "thin": true
         }
       ],
       "quotes": [
         {
           "chunk_id": "afd74b83fea6b178",
-          "label": "process_logistics",
-          "group": "other",
+          "label": "job_listing",
+          "group": "hire",
           "terms": [
             "ML",
             "machine learning"

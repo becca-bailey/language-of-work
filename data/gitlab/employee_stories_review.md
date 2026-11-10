@@ -1,11 +1,12 @@
 # M4 read-through: employee_story chunks by year
 
-## 2020 (4 chunks)
+## 2020 (5 chunks)
 
 - **Staring down the cattle?** — Our CFO, Paul, was on vacation on a cattle ranch, during a time of fundraising. Normally vacation is vacation of course, but in this case it was necessary to have some calls now and again which required strong internet. To get to strong internet, Paul had to cross fields with cattle in them, and stare them down. Over the course of many trips he learned that cattle are docile, mostly... but don't turn your back on them because they can't be outrun!
 - **IPO date comes in handy… 2 years out** — After spending a couple of days in meetings with customers in New York City, USA, Sid and Kirsten had a few hours before their flight and wanted to visit the WTC Observatory deck. It didn't work out but our IPO date did work out in their favor. In the keynote at our Cape Town event, Sid explains what happened.
 - **The Boat** — Back then , the whole team used to fit in one car. And the car was called "the Boat". We even took the Boat from San Francisco to Las Vegas to celebrate Job's bachelor party, but as you can see in this video, he thought we were going to visit a customer in Los Angeles!
 - **So that's what it's like to work at GitLab…** — Being new to GitLab, our CRO, Michael McBride joined Sid in meeting with customers in New York City, USA where customers got a glimpse of what it's like to work at GitLab for him
+- **Team Stories** — What better way to convey a sense of who we are and how we work together, than by sharing the stories about it?
 
 ## 2021 (4 chunks)
 

@@ -5,17 +5,16 @@ Use this during manual step M1 to confirm/extend `url_patterns.json`.
 
 | Pattern | signal | 24 | 25 | 26 |
 |---|---|---|---|---|
-| rilla.com/careers | 173w | 2 | 5 | 3 |
-| www.rilla.com/careers | 173w | 2 | 5 | 3 |
-| jobs.ashbyhq.com/rilla | 0w ⚠shell | 5 | 4 | 2 |
-| jobs.ashbyhq.com/rilla/ | 0w ⚠shell | 56 | 80 | 48 |
+| rilla.com/careers | 173w | 2 | 5 | 6 |
+| www.rilla.com/careers | 173w | 2 | 5 | 6 |
+| jobs.ashbyhq.com/rilla | 0w ⚠shell | 5 | 5 | 4 |
+| jobs.ashbyhq.com/rilla/ | 649w | 70 | 82 | 65 |
 
 ## Shell patterns (skipped by fetch)
 
 Sample extracted < 50 words — SPA/nav shell, no archived prose:
 
 - jobs.ashbyhq.com/rilla
-- jobs.ashbyhq.com/rilla/
 
 ## Gaps to investigate
 

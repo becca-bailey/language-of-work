@@ -12,13 +12,13 @@ Use this during manual step M1 to confirm/extend `url_patterns.json`.
 | hotelengine.com/about-us | 1373w | 1 | 1 | 3 | 1 | 6 | 3 | 6 | 4 | 8 | 10 |  |  |
 | www.hotelengine.com/about-us | 1373w | 1 | 1 | 3 | 1 | 6 | 3 | 6 | 4 | 8 | 10 |  |  |
 | www.hotelengine.com/about-us/ | 1373w | 1 | 1 | 3 | 1 | 6 | 3 | 6 | 4 | 8 | 10 |  |  |
-| hotelengine.com/culture | 590w |  |  |  |  |  |  |  |  |  | 1 |  |  |
-| engine.com/careers | 35w ⚠shell |  |  |  |  |  |  |  |  |  |  | 11 | 6 |
-| www.engine.com/careers | 35w ⚠shell |  |  |  |  |  |  |  |  |  |  | 11 | 6 |
-| engine.com/culture | 520w |  |  |  |  |  |  |  |  |  | 2 | 7 | 7 |
+| hotelengine.com/culture | 590w |  |  |  |  |  |  |  |  |  | 4 |  |  |
+| engine.com/careers | 48w ⚠shell |  |  |  |  |  |  |  |  |  |  | 11 | 10 |
+| www.engine.com/careers | 48w ⚠shell |  |  |  |  |  |  |  |  |  |  | 11 | 10 |
+| engine.com/culture | 520w |  |  |  |  |  |  |  |  |  | 2 | 8 | 8 |
 | engine.com/culture-memo | 738w |  |  |  |  |  |  |  |  |  |  | 1 | 2 |
-| engine.com/mission-first | 510w |  |  |  |  |  |  |  |  |  |  |  | 1 |
-| engine.com/how-we-operate | — |  |  |  |  |  |  |  |  |  |  |  |  |
+| engine.com/mission-first | 511w |  |  |  |  |  |  |  |  |  |  |  | 2 |
+| engine.com/how-we-operate | 1331w |  |  |  |  |  |  |  |  |  |  |  | 1 |
 
 ## Shell patterns (skipped by fetch)
 

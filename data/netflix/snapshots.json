@@ -2808,12 +2808,141 @@
         "dom_to_trafilatura_ratio": 0.96
       },
       "thin": false
+    },
+    {
+      "urlkey": "com,netflix)/jobs",
+      "timestamp": "20060702171726",
+      "original": "http://www.netflix.com:80/Jobs",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "6JVVTCCKCK6NLRG5ACLQVMTEOM4FV4PE",
+      "length": 4209,
+      "html_file": "20060702171726_fcd78481e4d4.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 48,
+        "dom_to_trafilatura_ratio": 0.0
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,netflix)/jobs",
+      "timestamp": "20070105033507",
+      "original": "http://www.netflix.com:80/Jobs?",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "JHUGED2VIFNHV5ONBWSS6FISJRCHDK6W",
+      "length": 4508,
+      "html_file": "20070105033507_48a087886f19.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 53,
+        "dom_to_trafilatura_ratio": 0.0
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,netflix)/jobs",
+      "timestamp": "20090703053529",
+      "original": "http://www.netflix.com:80/Jobs",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "GDMUPPPEHXFE2OOEUCAZ7UT7PSZDLDVU",
+      "length": 4472,
+      "html_file": "20090703053529_fcd78481e4d4.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 48,
+        "dom_to_trafilatura_ratio": 0.0
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,netflix)/jobs",
+      "timestamp": "20090901005915",
+      "original": "http://www.netflix.com:80/Jobs?",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "ZQ7GHQTO3FPW7LATTJGNNTOP2AYIJGNN",
+      "length": 4776,
+      "html_file": "20090901005915_48a087886f19.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 48,
+        "dom_to_trafilatura_ratio": 0.0
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,netflix)/jobs",
+      "timestamp": "20100809023436",
+      "original": "http://www.netflix.com:80/Jobs",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "NVWN7VW62SRT7JEMYEDJKR3IMRMFOHFV",
+      "length": 5112,
+      "html_file": "20100809023436_fcd78481e4d4.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 92,
+        "trafilatura_words": 101,
+        "dom_to_trafilatura_ratio": 0.91
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,netflix)/jobs",
+      "timestamp": "20100907051059",
+      "original": "http://www.netflix.com:80/Jobs",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "IOIYMOGJPTTM5KVCYKWYRA73RKVTU6XA",
+      "length": 5074,
+      "html_file": "20100907051059_fcd78481e4d4.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 92,
+        "trafilatura_words": 101,
+        "dom_to_trafilatura_ratio": 0.91
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,netflix,jobs)/culture",
+      "timestamp": "20171208140948",
+      "original": "http://jobs.netflix.com:80/CULTURE",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "2P4WCLWGEEWR4ZD5KBP2PK2FCTJKMSYR",
+      "length": 44124,
+      "html_file": "20171208140948_a2e2a1271358.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 30,
+        "dom_words": 4323,
+        "trafilatura_words": 4449,
+        "dom_to_trafilatura_ratio": 0.97
+      },
+      "thin": false
     }
   ],
   "json_candidates": [],
   "digest_timeline": {
     "WVLDFVDTA4U7EJKERN4HJNMKWUGSTJYR": [
       "20030207101225"
+    ],
+    "CIWGEC7KQP4NWPOAKRN46T2CKH6YBJOL": [
+      "20030501034708"
     ],
     "2VF5O3YEC6OMWCL7ECJBATOXIZEEGENE": [
       "20030621174500"
@@ -2896,11 +3025,11 @@
     "ZL6QFY3MPTVB3LXMM3Z3LMEAY52AQNFT": [
       "20051201040034"
     ],
+    "6BLXS5QNGNQRSWLH6NL76XQHMXRHBVCD": [
+      "20060101014350"
+    ],
     "UMRJY45W7QNKGXLPNRXSSM26YGA2JCLP": [
       "20060104022205"
-    ],
-    "ZESGI3UPJBV5TJMZVVNGN2QMAM6MH4DS": [
-      "20060104055618"
     ],
     "EX65ZE2FFYCMDE6ZXQVZNLN3JNL7VE7L": [
       "20060204012229"
@@ -3091,11 +3220,11 @@
     "OYGWLKYX3ONQRVN6LZYHXKG7HQMG4G2L": [
       "20091001194943"
     ],
-    "FBMDL4RBFMJT7PQS2HUBPFGJPUC6ANO4": [
-      "20091111195514"
+    "K5BBMFD5YDYYE4BDA2MPQ6KKNIC3Q773": [
+      "20091106202511"
     ],
-    "WTTW4WIL6WXVNTTTT6H7ZT276Y6HCOID": [
-      "20091207122725"
+    "HUBLCDCCPKCRM7RSFXHKQGC2HA3MGPYF": [
+      "20091202230544"
     ],
     "H3DYPFEIDANZ63QJ3PI4NOZJATISOMYP": [
       "20100101205453"
@@ -3118,11 +3247,11 @@
     "P57LXO6JJ7P5QRYVEOAYA223F2EHMUEI": [
       "20100701150111"
     ],
-    "MFCES7QQFLXQ6AWVFDRB2FNRHD457FBN": [
-      "20100814171429"
+    "NVWN7VW62SRT7JEMYEDJKR3IMRMFOHFV": [
+      "20100809023436"
     ],
-    "QW3SFQR6SRE3WIAUAJLPGTPY4KFCGPEE": [
-      "20100914022610"
+    "IOIYMOGJPTTM5KVCYKWYRA73RKVTU6XA": [
+      "20100907051059"
     ],
     "NOXINPFJKPMXNIPKKMER27JQQLNS2UWN": [
       "20101006154252"
@@ -3279,6 +3408,9 @@
     "LHPYRAM7CMV2J5RYZL3G3PFR3USG7YWH": [
       "20161108044111"
     ],
+    "WUSKDJEBU2THR34EMWEBNMGD34XDIXHI": [
+      "20170129151421"
+    ],
     "Z2ZJDDSHGRJH3GWXSOYT72PAQ6HTZOR2": [
       "20170213185101"
     ],
@@ -3294,8 +3426,10 @@
     "CME7M6Y5SHIHAR7NMNVTLCGEVRP7WFD6": [
       "20170621204202"
     ],
+    "YILAEKGKEGI4RIWTU65NJIX6EOAOTXOV": [
+      "20170710131406"
+    ],
     "MH2YIKHKCXSE4H4GTVKXNKFV6Q4EBSUA": [
-      "20170714172631",
       "20170722231056"
     ],
     "3CSVAPOVOSBSOOGVDPBQ4LJT6ABQFDG4": [
@@ -3875,24 +4009,23 @@
       "20260104101430",
       "20260201214448"
     ],
-    "ZT542QF3R4BZSQDRH4F5JEZIUAZRDHWY": [
-      "20260304150453",
-      "20260405095230"
-    ],
-    "I2OB3K3LDREFS4BDWAS3FIL2MGVVL2LP": [
-      "20260305114026"
+    "OETDE23CE7OI7YQV4FXXUPAH54LHZDMQ": [
+      "20260301173736",
+      "20260401203834"
     ],
     "D3SDW6VSQ7VFHLQZFJF33WVSWJNR3JI6": [
-      "20260404221637"
+      "20260301173947",
+      "20260401204443"
     ],
     "U356HVERXLWC4ALH6C67NH5N2KN3TVWN": [
       "20260502183830"
     ],
-    "Z4IO2ABO4CQIC53US2IHPO623LH6CVV6": [
-      "20260505095754"
+    "H3CLWKOYDXNGUOAPZU7LVJZF6G65NIME": [
+      "20260503073918"
     ],
     "JRKIQPGCVNVFGLAHMZEB5CU4FK3HPLXZ": [
-      "20260601104819"
+      "20260601104819",
+      "20260801214200"
     ],
     "3IFWCOZIT4S4NRVFQ7AOXAZFVCCF7F3K": [
       "20260619043927"
@@ -3902,6 +4035,24 @@
     ],
     "F7UIS4CCTD65ZD3A7RFHHTOYUFF2GKGZ": [
       "20260708074605"
+    ],
+    "WHAS42NGTHP7ZJIP37GK3HXM2K52DFUZ": [
+      "20260805142033"
+    ],
+    "HZPSRPODUXXZNWJUJCLP2MXHQX3G5TNI": [
+      "20260904193120"
+    ],
+    "FGGWX6VVAL3FARUKLJ7MHE23ULKZOPPH": [
+      "20260913092638"
+    ],
+    "QW7HLTNQT5J53JTOZ6WICNJX2KBYCLWO": [
+      "20261005054821"
+    ],
+    "O2VF4EYW2LSVFAXSAEABERNIP3X4T7OC": [
+      "20261009010550"
+    ],
+    "LMNK2HISNMNIPAF4WLL7NTJIH3RZSL5Q": [
+      "20261101193911"
     ]
   }
 }

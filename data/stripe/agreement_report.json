@@ -1,7 +1,7 @@
 {
   "n": 10,
-  "accuracy": 0.9,
-  "krippendorff_alpha": 0.883,
+  "accuracy": 1.0,
+  "krippendorff_alpha": 1.0,
   "confusion": {
     "benefits_perks": {
       "benefits_perks": 1
@@ -10,8 +10,7 @@
       "employee_story": 1
     },
     "job_listing": {
-      "job_listing": 1,
-      "navigation_junk": 1
+      "job_listing": 2
     },
     "legal_boilerplate": {
       "legal_boilerplate": 1
@@ -23,11 +22,5 @@
       "process_logistics": 2
     }
   },
-  "disagreements": [
-    {
-      "chunk_id": "7607836880d16c53",
-      "hand_label": "job_listing",
-      "predicted": "navigation_junk"
-    }
-  ]
+  "disagreements": []
 }

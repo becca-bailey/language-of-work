@@ -590,13 +590,13 @@
     },
     {
       "year": 2026,
-      "total_chunks": 78,
-      "ai_chunks": 11,
-      "prevalence": 0.141,
+      "total_chunks": 93,
+      "ai_chunks": 14,
+      "prevalence": 0.1505,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 3,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -606,23 +606,23 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 19,
-          "ai_chunks": 4,
-          "mentions": 11
+          "chunks": 23,
+          "ai_chunks": 6,
+          "mentions": 20
         },
         "mission_brand": {
-          "chunks": 45,
-          "ai_chunks": 6,
-          "mentions": 7
+          "chunks": 50,
+          "ai_chunks": 7,
+          "mentions": 8
         },
         "process_logistics": {
-          "chunks": 10,
+          "chunks": 15,
           "ai_chunks": 1,
           "mentions": 1
         }
       },
       "terms": {
-        "AI": 11,
+        "AI": 21,
         "agentic": 6,
         "LLMs": 1,
         "machine learning": 1
@@ -639,21 +639,19 @@
         },
         {
           "label": "mission_brand",
-          "chunk_id": "57225f52f8491d20",
+          "chunk_id": "5dd754c98cd2b28f",
           "terms": [
             "AI"
           ],
-          "text": "Stripe powers more than 1.6% of global GDP. Millions of businesses, from solo founders to Fortune 500 companies, run on our infrastructure. Our core mission is enabling economic growth, which we believe is one of the foundations of a flourishing civilization. There may never have been a more interes"
+          "text": "Stripe is focused on improving the conditions for economic growth and prosperity. We’re seeing less growth in the 21st century than we did in the 20th. In rich countries, slower growth corresponds to less innovation and more fractious politics. In poor countries, it means sustained material deprivat"
         },
         {
           "label": "job_listing",
-          "chunk_id": "1dc7bfb772d472c7",
+          "chunk_id": "ef029fa6d28cf4a3",
           "terms": [
-            "AI",
-            "LLMs",
-            "agentic"
+            "AI"
           ],
-          "text": "You’ll lead design for Agentic Commerce. You’ll work alongside a small group of Product Managers and Engineers to shape our strategy and build a variety of transformative products—for merchants, agents, and for consumers. You’ll reimagine the consumer checkout experience with agentic commerce capabi"
+          "text": "The rise of AI agents has fundamentally changed how users interact with Stripe, with a supermajority of conversations with Stripe now occurring via AI across various surfaces including third-party platforms. These conversations now blend planning, building, configuration, and troubleshooting. As a P"
         }
       ]
     }

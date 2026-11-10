@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import hashlib
 import importlib.util
+import json
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
@@ -445,9 +446,16 @@ class Step:
 
 
 def _has_manifest(company: str) -> bool:
-    """A universe company with no snapshots.json has no corpus yet: every
-    per-company stage is skipped for it until a capture lands."""
-    return (company_dir(company) / "snapshots.json").exists()
+    """A universe company with no snapshots.json, or one whose manifest holds
+    zero captures, has no corpus yet: every per-company stage is skipped for
+    it until a capture lands."""
+    path = company_dir(company) / "snapshots.json"
+    if not path.exists():
+        return False
+    try:
+        return bool(json.loads(path.read_text()).get("captures"))
+    except (json.JSONDecodeError, OSError):
+        return False
 
 
 def changed_companies(cfg: Config, state: dict) -> list[str]:
@@ -487,7 +495,7 @@ def evaluate(cfg: Config, state: dict, only_companies: set[str] | None = None,
                 if not _has_manifest(co):
                     if co not in skipped_no_manifest:
                         skipped_no_manifest.add(co)
-                        print(f"[skip] {co}: no snapshots.json yet")
+                        print(f"[skip] {co}: no captures yet")
                     continue
                 up = [d for d in stage.depends if co in dirty_pc.get(d, set())]
                 if force:

@@ -65,7 +65,7 @@
 - [2025] **Employee resource groups** — Meta Employee Resource Groups (MRGs) deliver on the company's mission of creating an inclusive workplace for employees. MRGs build community, provide principled programming and foster career growth and development....
   - source: https://www.metacareers.com/diversity
 
-## aspirational_vague (8 chunks)
+## aspirational_vague (9 chunks)
 
 - [2020] **Career Development** — Facebook provides a variety of programs to help people who work here find community, tackle bias, and participate in building an inclusive workspace so we can all do the best work of our careers....
   - source: https://www.facebook.com/careers/facebook-life/diversity
@@ -83,6 +83,8 @@
   - source: https://www.metacareers.com/diversity
 - [2025] Inclusion strengthens our workplace — and our world At Meta, we’re committed to building an environment where everyone has a voice and feels valued. Bringing people from diverse backgrounds and experiences together allows us to create technologies that break down language barriers, collaborate to ma...
   - source: https://www.metacareers.com/diversity
+- [2026] We emphasize long-term thinking that encourages us to extend the timeline for the impact we have, rather than optimizing for near-term wins. We take on the challenges that will be the most impactful, even if the full results won’t be seen for years. We build the future of work that we want, with an ...
+  - source: https://www.metacareers.com/facebook-life/
 
 ## belonging_culture (12 chunks)
 
@@ -111,9 +113,11 @@
 - [2024] Build the future of how people connect. At Meta, everything we do is about helping people feel connected and closer. It’s in our technologies, our mission and how we collaborate. Working collectively and valuing each person for the differences we bring allows us all to do more. The pace is fast and ...
   - source: https://www.metacareers.com/facebook-life/
 
-## absent (145 chunks)
+## absent (147 chunks)
 
 - [2009] **How We Roll** — We pair innovation and passion with cutting loose and having fun: racing around on RipStiks; playing Bughouse chess, a hand of poker, or a game of Risk; rocking out in our music room; and embarking on all-night coding binges for new features and ideas. Our language team rewrites the site in Pirate E...
+  - source: http://www.facebook.com/careers/life.php
+- [2009] **Small Team, Big Impact: The People Behind Photos** — At Facebook, it’s common for small teams of three or four people to work together in creating products that are used by millions of people around the world. Watch how the team behind Facebook’s Photos application helped it become the most popular of its kind on the Internet....
   - source: http://www.facebook.com/careers/life.php
 - [2009] **Believe in Your Work** — We're making it possible for many millions of people on Facebook to broaden their horizons, deepen their friendships, share good times, and solve problems together. We've just begun to realize the full potential of what Facebook can contribute, and we're deeply committed to making the most of those ...
   - source: http://www.facebook.com/careers/life.php
@@ -403,4 +407,6 @@
   - source: https://www.metacareers.com/
 - [2026] **We build awesome things** — From Oakley Meta Vanguard to Oakley Meta HTSN, this is the next evolution of AI glasses. Oakley and Meta have joined forces to bring AI glasses to sports and everyday lifestyles, combining Oakley's eye-catching style with Meta's innovative wearable and AI technology. Built for life on the field, tra...
   - source: https://www.metacareers.com/
+- [2026] Working at Meta means making every connection matter Connection is at the center of our mission to build the future of human connection and the technology that makes it possible. And we live that mission from the inside out. That means we act with intention to build and reinforce strong connections ...
+  - source: https://www.metacareers.com/facebook-life/
 

@@ -52,9 +52,10 @@
 - **Embrace the Adventure** — Be curious, ask for help, and demonstrate an ability to grow Own and learn from mistakes Bring joy and optimism to work
 - **Be a Cereal Entrepreneur** — Be bold and apply original thinking Imagine the ideal outcome Be resourceful to make the outcome a reality
 
-## 2019 (12 chunks)
+## 2019 (13 chunks)
 
 - **Create a world where anyone can belong anywhere** — It’s an audacious, incredibly rewarding mission that our increasingly diverse team is dedicated to achieving. Airbnb is built around the idea that everyone should be able to take the perfect trip, including where they stay, what they do, and who they meet. To that end, we empower millions of people around the world to use their spaces, passions, and talents to become entrepreneurs. Exciting challenges lie ahead—new regions, technologies, and businesses. Guided by our four core values, we’ll meet these challenges creatively and with the support of our global community. Join us!
+- **Build extraordinary products** — Engineering technologies that bring people together in the real world is both inspiring and daunting. We're tackling challenges in search relevance, payments, fraud prevention, discrimination, and growth—all while maintaining a beautiful experience. We love to contribute to the community, from our work on testing React components to our new Android framework. Learn more about engineering at Airbnb.io
 - **Include everyone** — A world where anyone can belong anywhere starts with a workplace where you feel welcome and can contribute your best work. Airbnb welcomes candidates with backgrounds that are traditionally underrepresented in tech and offers opportunities to create community in our offices around the world. Learn more about diversity and belonging
 - **Together at Airbnb** — No global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town.
 - **Create a world that inspires human connection** — We build the best experience for our community - as a team. We look inside and outside for inspiration and learning. Life is what happens when you're busy working. We make sure to enjoy it.

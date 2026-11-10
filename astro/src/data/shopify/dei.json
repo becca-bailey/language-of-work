@@ -230,10 +230,10 @@
     {
       "year": 2014,
       "inclusionTopkMean": 0.4193,
-      "inclusionMean": 0.399,
+      "inclusionMean": 0.3953,
       "inclusionMax": 0.4596,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 9,
+      "nChunks": 10,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -241,7 +241,7 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 9,
+        "absent": 10,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -291,31 +291,31 @@
     },
     {
       "year": 2015,
-      "inclusionTopkMean": 0.5442,
-      "inclusionMean": 0.464,
-      "inclusionMax": 0.673,
-      "inclusionFractionPresent": 1.0,
-      "nChunks": 10,
+      "inclusionTopkMean": 0.5426,
+      "inclusionMean": 0.3958,
+      "inclusionMax": 0.6648,
+      "inclusionFractionPresent": 0.75,
+      "nChunks": 16,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 2,
         "structural_process": 0,
-        "aspirational_vague": 1,
+        "aspirational_vague": 2,
         "belonging_culture": 0,
-        "absent": 7,
+        "absent": 12,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.0503,
+      "controlTopkMean": 0.0692,
       "inclusionQuotes": [
         {
-          "text": "We want the best, no matter where you come from. Diversity of background and experience makes us all better. I’ve never worked with a better team. I’m always engaged and excited about the work we’re doing.",
+          "text": "We want the best, no matter where you come from. Diversity of background and experience makes us all better. “I’ve never worked with a better team. I’m always engaged and excited about the work we’re doing.",
           "heading": "20 countries",
           "register": "aspirational_vague",
           "stance": "affirming_dei",
-          "inclusion": 0.673,
-          "score": 0.673
+          "inclusion": 0.6648,
+          "score": 0.6648
         },
         {
           "text": "We want a team that’s ready to do their best work, and excited to learn and grow with us – no matter what age.",
@@ -478,10 +478,10 @@
     {
       "year": 2018,
       "inclusionTopkMean": 0.4931,
-      "inclusionMean": 0.4161,
+      "inclusionMean": 0.4046,
       "inclusionMax": 0.5087,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 10,
+      "nChunks": 12,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -489,7 +489,7 @@
         "structural_process": 0,
         "aspirational_vague": 3,
         "belonging_culture": 0,
-        "absent": 7,
+        "absent": 9,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -663,11 +663,11 @@
     },
     {
       "year": 2021,
-      "inclusionTopkMean": 0.4614,
-      "inclusionMean": 0.3981,
+      "inclusionTopkMean": 0.4641,
+      "inclusionMean": 0.4007,
       "inclusionMax": 0.4724,
-      "inclusionFractionPresent": 0.9231,
-      "nChunks": 13,
+      "inclusionFractionPresent": 0.9286,
+      "nChunks": 14,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -675,11 +675,11 @@
         "structural_process": 0,
         "aspirational_vague": 3,
         "belonging_culture": 0,
-        "absent": 10,
+        "absent": 11,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": -0.0087,
+      "controlTopkMean": -0.0059,
       "inclusionQuotes": [
         {
           "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been.",
@@ -706,20 +706,20 @@
           "score": 0.4673
         },
         {
+          "text": "Our team spirit looks like entrepreneurial spirit We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been. As technologists, we are fortunate to have such highly sought-after skills. Shopify is where I can ask, 'how am I making the world a better place?'",
+          "heading": "Our team spirit looks like entrepreneurial spirit",
+          "register": "aspirational_vague",
+          "stance": "affirming_dei",
+          "inclusion": 0.4614,
+          "score": 0.4614
+        },
+        {
           "text": "More than just the freedom to work wherever, our digital by design approach is about new ways to collaborate and build together. A Shopify community to support you Internal teams focused on process and tools",
           "heading": "We hire where you are",
           "register": "absent",
           "stance": "neutral",
           "inclusion": 0.4518,
           "score": 0.4518
-        },
-        {
-          "text": "We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been. As technologists, we are fortunate to have such highly sought-after skills. Shopify is where I can ask, 'how am I making the world a better place?'",
-          "heading": "Our team spirit looks like entrepreneurial spirit",
-          "register": "aspirational_vague",
-          "stance": "affirming_dei",
-          "inclusion": 0.4476,
-          "score": 0.4476
         }
       ]
     },
@@ -788,7 +788,7 @@
     {
       "year": 2023,
       "inclusionTopkMean": 0.4895,
-      "inclusionMean": 0.3872,
+      "inclusionMean": 0.3873,
       "inclusionMax": 0.5058,
       "inclusionFractionPresent": 0.95,
       "nChunks": 20,
@@ -849,11 +849,11 @@
     },
     {
       "year": 2024,
-      "inclusionTopkMean": 0.4804,
-      "inclusionMean": 0.3935,
-      "inclusionMax": 0.5058,
-      "inclusionFractionPresent": 0.8889,
-      "nChunks": 18,
+      "inclusionTopkMean": 0.4962,
+      "inclusionMean": 0.3467,
+      "inclusionMax": 0.5244,
+      "inclusionFractionPresent": 0.7778,
+      "nChunks": 36,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -861,12 +861,20 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 18,
+        "absent": 36,
         "mission_focus_apolitical": 3,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.064,
+      "controlTopkMean": 0.0743,
       "inclusionQuotes": [
+        {
+          "text": "Our culture encourages boldness and constant curiosity with space and appreciation for unconventional thinking.",
+          "heading": "Be bold",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.5244,
+          "score": 0.5244
+        },
         {
           "text": "Office centricity is over. We are digital-first. You do your daily work wherever you work best. Most of us then gather in real life several times a year to solve hard problems and align as a team. We hire you wherever you are.",
           "heading": "Where we hire",
@@ -898,24 +906,16 @@
           "stance": "neutral",
           "inclusion": 0.4688,
           "score": 0.4688
-        },
-        {
-          "text": "Shopify has a unique personality and approach to solving problems. It’s hard to work here if you’re not a great match, and we want to ensure those who consider applying can thrive in our unique environment.",
-          "heading": "Who we hire",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.4451,
-          "score": 0.4451
         }
       ]
     },
     {
       "year": 2025,
-      "inclusionTopkMean": 0.4467,
-      "inclusionMean": 0.4245,
+      "inclusionTopkMean": 0.4518,
+      "inclusionMean": 0.377,
       "inclusionMax": 0.5004,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 8,
+      "nChunks": 19,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -923,7 +923,7 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 8,
+        "absent": 19,
         "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
@@ -954,30 +954,30 @@
           "score": 0.4371
         },
         {
-          "text": "We’re building products for the long-term to make Shopify a forever company, and that requires an unrelenting pace (the week, not the quarter) and an ability to thrive in an unpredictable environment. You need to be resilient to navigate ambiguity.",
-          "heading": "Thrive on change",
+          "text": "Good design work comes from craft excellence, and we certainly expect that of you. But great design work comes from care. You care deeply about our mission, our merchants, and the world we want to serve. A spirit of care is what comes through is our unreasonable attention to every detail, every word, every millisecond of performance, every support interaction. It is care that animates our brand. I",
+          "heading": "Most importantly, you care",
           "register": "absent",
           "stance": "neutral",
-          "inclusion": 0.4144,
-          "score": 0.4144
+          "inclusion": 0.4288,
+          "score": 0.4288
         },
         {
-          "text": "Shopify is a company of world-class crafters. We reject the status quo. We experiment, observe, and iterate — at high speeds with high rates of improvement — to make entrepreneurship a glorious thing. Moving fast to Get Shit Done requires resilience to uncertainty. Growth isn’t just an opportunity here, it’s an expectation. If you prefer a prescriptive corporate structure and an in-person office e",
-          "heading": "# Not everyone can do this",
+          "text": "Opportunity is not evenly distributed. Shopify puts independence within reach for anyone with a dream to start a business. We propel entrepreneurs and enterprises to scale the heights of their potential. Since 2006, we’ve grown to over 8,300 employees and generated over $1 trillion in sales for millions of merchants in 175 countries. This is life-defining work that directly impacts people’s lives ",
+          "heading": "About Shopify",
           "register": "absent",
           "stance": "neutral",
-          "inclusion": 0.4127,
-          "score": 0.4127
+          "inclusion": 0.424,
+          "score": 0.424
         }
       ]
     },
     {
       "year": 2026,
-      "inclusionTopkMean": 0.4415,
-      "inclusionMean": 0.3385,
+      "inclusionTopkMean": 0.4434,
+      "inclusionMean": 0.3419,
       "inclusionMax": 0.4688,
-      "inclusionFractionPresent": 0.9091,
-      "nChunks": 44,
+      "inclusionFractionPresent": 0.9149,
+      "nChunks": 47,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -985,7 +985,7 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 44,
+        "absent": 47,
         "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
@@ -1024,12 +1024,12 @@
           "score": 0.4322
         },
         {
-          "text": "We’re building products for the long-term to make Shopify a forever company, and that requires an unrelenting pace (the week, not the quarter) and an ability to thrive in an unpredictable environment. You need to be resilient to navigate ambiguity.",
-          "heading": "Thrive on change",
+          "text": "Opportunity is not evenly distributed. Shopify puts independence within reach for anyone with a dream to start a business. We propel entrepreneurs and enterprises to scale the heights of their potential. Since 2006, we’ve grown to over 8,300 employees and generated over $1 trillion in sales for millions of merchants in 175 countries. This is life-defining work that directly impacts people’s lives ",
+          "heading": "About Shopify",
           "register": "absent",
           "stance": "neutral",
-          "inclusion": 0.4144,
-          "score": 0.4144
+          "inclusion": 0.424,
+          "score": 0.424
         }
       ]
     }
@@ -1040,8 +1040,8 @@
         "term": "diversity",
         "first_year": 2015,
         "last_year": 2026,
-        "max_score": 0.6731,
-        "example": "The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together and it’s why we actively seek the brightest minds in the world."
+        "max_score": 0.686,
+        "example": "We value authenticity, openness, and diversity in everything we do."
       },
       {
         "term": "black",
@@ -1690,10 +1690,16 @@
         "score": 0.3177
       },
       {
-        "id": "cf43033527a7",
+        "id": "892c136c21be",
         "year": 2015,
-        "text": "Diversity of background and experience makes us all better.",
-        "score": 0.6446
+        "text": "We value authenticity, openness, and diversity in everything we do.",
+        "score": 0.686
+      },
+      {
+        "id": "2589fafead14",
+        "year": 2015,
+        "text": "Diversity of background and experience makes us all better. “I’ve never worked with a better team.",
+        "score": 0.5714
       },
       {
         "id": "e89ba9853cba",
@@ -1720,6 +1726,12 @@
         "score": 0.5017
       },
       {
+        "id": "521f48be836d",
+        "year": 2015,
+        "text": "We want you to do the best work of your career, and we’ll give you everything you need to make it happen.",
+        "score": 0.4785
+      },
+      {
         "id": "998aeb7cb647",
         "year": 2015,
         "text": "We want the best, no matter where you come from.",
@@ -1736,6 +1748,12 @@
         "year": 2015,
         "text": "We encourage you to experiment, take risks, and pursue the things you care about.",
         "score": 0.4288
+      },
+      {
+        "id": "68396e3c3d19",
+        "year": 2015,
+        "text": "Shopify is growing, and we're looking for talented people who can help us make commerce better.",
+        "score": 0.4248
       },
       {
         "id": "c97b28fe8a96",
@@ -1756,6 +1774,18 @@
         "score": 0.4183
       },
       {
+        "id": "c547bc12ae18",
+        "year": 2015,
+        "text": "We have offices in Ottawa, Toronto, Montreal, and Waterloo, and remote employees all over the world.",
+        "score": 0.4101
+      },
+      {
+        "id": "e8329d006c58",
+        "year": 2015,
+        "text": "We also have employees working remotely in cities across the globe.",
+        "score": 0.4081
+      },
+      {
         "id": "aa9e2acac4c4",
         "year": 2015,
         "text": "At Shopify, we empower entrepreneurs all over the world.",
@@ -1772,6 +1802,12 @@
         "year": 2015,
         "text": "Shopify's culture is defined by the great people who work here.",
         "score": 0.4047
+      },
+      {
+        "id": "1035accfcc62",
+        "year": 2015,
+        "text": "Our head office focuses on product, platform, support, and operations.",
+        "score": 0.3842
       },
       {
         "id": "654c8dc67513",
@@ -1822,6 +1858,12 @@
         "score": 0.3396
       },
       {
+        "id": "45963bb7c904",
+        "year": 2015,
+        "text": "The best part about working at Shopify?",
+        "score": 0.3357
+      },
+      {
         "id": "aca033b0fd2e",
         "year": 2015,
         "text": "My favourite thing about working at Shopify?",
@@ -1840,10 +1882,22 @@
         "score": 0.325
       },
       {
-        "id": "0dc98a19a913",
+        "id": "8137f3ea6fa1",
         "year": 2015,
-        "text": "I’ve never worked with a better team.",
-        "score": 0.3021
+        "text": "Our Montreal office is centrally-located and surrounded by many of the small, diverse businesses that Shopify supports.",
+        "score": 0.3233
+      },
+      {
+        "id": "371785172409",
+        "year": 2015,
+        "text": "You'll find a beautiful view of the CN Tower and great food at this newly renovated and growing office, where we focus on marketing and growth.",
+        "score": 0.3226
+      },
+      {
+        "id": "ec56f71adef3",
+        "year": 2015,
+        "text": "You’ll also get to learn and grow with the best in the business.",
+        "score": 0.3029
       },
       {
         "id": "cf43033527a7",
@@ -2126,6 +2180,12 @@
         "year": 2018,
         "text": "Top 10 most attractive companies for tech workers At the heart of everything we do at Shopify is a relentless focus on our mission.",
         "score": 0.4464
+      },
+      {
+        "id": "a311f272dbda",
+        "year": 2018,
+        "text": "We specialize deeply, and stay curious and engaged to learn, grow, and level up.",
+        "score": 0.4366
       },
       {
         "id": "18620bdb6ed9",
@@ -2518,12 +2578,6 @@
         "score": 0.3149
       },
       {
-        "id": "f9a6c83b8939",
-        "year": 2021,
-        "text": "We’re astrophysicists, aspiring chefs, parents, salsa dancers—and we channel that range into building a world where entrepreneurship for everyone is more possible than it’s ever been.",
-        "score": 0.5147
-      },
-      {
         "id": "fc4c7c76d0cd",
         "year": 2021,
         "text": "Yes, we work a little differently but we think that makes space for the challenges and risks that pave the way for real growth. “A relentless focus on our mission is at the heart of everything we do at Shopify.” Brittany Forsyth — Chief Talent Officer",
@@ -2672,6 +2726,12 @@
         "year": 2021,
         "text": "Since 2006, we’ve grown to 7000 employees, who are building the tools to help merchants generate over 200 billion in sales in 175 countries.",
         "score": 0.3367
+      },
+      {
+        "id": "a11f4ea3723f",
+        "year": 2021,
+        "text": "Learn about the types of challenges we’re solving for our merchants See the latest thinking from our development team",
+        "score": 0.335
       },
       {
         "id": "94f0d7c80d37",
@@ -3052,6 +3112,12 @@
         "score": 0.3024
       },
       {
+        "id": "0834b2b30484",
+        "year": 2023,
+        "text": "Since 2006, we’ve grown to over 10,000 employees and generated over $496 billion in sales for millions of merchants in 175 countries.",
+        "score": 0.3016
+      },
+      {
         "id": "6ae5f5e84d0d",
         "year": 2023,
         "text": "This is life-defining work that directly impacts people’s lives as much as it transforms your own.",
@@ -3064,16 +3130,40 @@
         "score": 0.6524
       },
       {
+        "id": "a3ac71ed9710",
+        "year": 2024,
+        "text": "We default to the most important work rather than adhering to a prescriptive role – and we hire the same way.",
+        "score": 0.5486
+      },
+      {
         "id": "6293cfc0af87",
         "year": 2024,
         "text": "As a company we don’t weigh in publicly unless directly related to our mission - the Shopify ecosystem is made strong as a result of the diversity of backgrounds, views, and experiences of our merchants and colleagues.",
         "score": 0.529
       },
       {
+        "id": "12785e6d2b89",
+        "year": 2024,
+        "text": "We hire the best people and match their expertise to our most exciting work.",
+        "score": 0.5266
+      },
+      {
+        "id": "a0faf051e1c2",
+        "year": 2024,
+        "text": "Our culture encourages boldness and constant curiosity with space and appreciation for unconventional thinking.",
+        "score": 0.5244
+      },
+      {
         "id": "9dc735d19d6c",
         "year": 2024,
         "text": "You need to care deeply about your work towards our mission to make commerce better for everyone not just those you agree with.",
         "score": 0.4951
+      },
+      {
+        "id": "1ad123019886",
+        "year": 2024,
+        "text": "They default to the most important work rather than adhering to a prescriptive role – and we hire the same way.",
+        "score": 0.4947
       },
       {
         "id": "e9215dcf7a06",
@@ -3094,6 +3184,18 @@
         "score": 0.4702
       },
       {
+        "id": "7bf9819f6fa4",
+        "year": 2024,
+        "text": "Share your preference on what you’d like to work on during your interviews — if you join the team, we’ll match you where we know you’ll do your best work.",
+        "score": 0.4652
+      },
+      {
+        "id": "e157d43a010b",
+        "year": 2024,
+        "text": "Contributing to open source is a huge deal to us, and it’s a commitment to give back to something bigger than ourselves.",
+        "score": 0.4565
+      },
+      {
         "id": "391010ee3cc9",
         "year": 2024,
         "text": "Joining our team means working with the most driven crafters who pursue mastery.",
@@ -3106,10 +3208,28 @@
         "score": 0.4402
       },
       {
+        "id": "babcb3d83973",
+        "year": 2024,
+        "text": "That means we only hire the world’s best who can continually step up to meet our high performance standards and our client’s expectations.",
+        "score": 0.4343
+      },
+      {
+        "id": "254035519017",
+        "year": 2024,
+        "text": "We’re: Founder-led by an engineer (waves at Tobi).",
+        "score": 0.4332
+      },
+      {
         "id": "d4c8d0b7be03",
         "year": 2024,
         "text": "To make commerce better for everyone, we also have to serve and support those who we may not agree with.",
         "score": 0.426
+      },
+      {
+        "id": "f2b7dd00ae65",
+        "year": 2024,
+        "text": "We work with some of the world's biggest names and brands who are pushing the limits — and expect us to, too.",
+        "score": 0.4153
       },
       {
         "id": "eb471dd9d4f4",
@@ -3130,10 +3250,22 @@
         "score": 0.4112
       },
       {
+        "id": "ca74ac5e940f",
+        "year": 2024,
+        "text": "We take time to tinker, and playing with new tech and tooling is key to consistently raising the bar as a crafter here.",
+        "score": 0.41
+      },
+      {
         "id": "8f7ee5209f93",
         "year": 2024,
         "text": "We’re building products for the long-term to make Shopify a 100-year company, and that requires an unrelenting pace (the week, not the quarter).",
         "score": 0.4057
+      },
+      {
+        "id": "c36f3e178be3",
+        "year": 2024,
+        "text": "We're not looking for one-hit wonders—we need innovators with the entrepreneurial spirit, ready to conquer the next big thing and continuously expand their toolkit of skills along the way.",
+        "score": 0.401
       },
       {
         "id": "eaad91d7237c",
@@ -3148,9 +3280,21 @@
         "score": 0.3942
       },
       {
+        "id": "07efd803d762",
+        "year": 2024,
+        "text": "It underpins our mission to make commerce better for everyone and how we work as a company. [Read: literally everything we do.] Engineers join Shopify to work alongside the world's best technical minds.",
+        "score": 0.3921
+      },
+      {
         "id": "1645d909d041",
         "year": 2024,
         "text": "We experiment, observe, and iterate — at high speeds with high rates of improvement — to make entrepreneurship a glorious thing.",
+        "score": 0.3918
+      },
+      {
+        "id": "a992c771b3ab",
+        "year": 2024,
+        "text": "We’re growing at high speed, innovating faster than any other commerce stack, and we’re winning.",
         "score": 0.3918
       },
       {
@@ -3178,6 +3322,24 @@
         "score": 0.3846
       },
       {
+        "id": "12b25a57c189",
+        "year": 2024,
+        "text": "We focus on doing the thing and doing it well — at speed.",
+        "score": 0.3761
+      },
+      {
+        "id": "8c16378a66a3",
+        "year": 2024,
+        "text": "Outranking the competition to serve our millions of merchants is demanding work.",
+        "score": 0.3749
+      },
+      {
+        "id": "296d33fcecbb",
+        "year": 2024,
+        "text": "While entrepreneurship defines Shopify, open source defines us as engineers.",
+        "score": 0.3748
+      },
+      {
         "id": "376d4fce07b1",
         "year": 2024,
         "text": "We all get shit done, ship fast, and learn.",
@@ -3190,10 +3352,34 @@
         "score": 0.3714
       },
       {
+        "id": "10de1f9f38e1",
+        "year": 2024,
+        "text": "Working at Shopify is a challenge.",
+        "score": 0.3658
+      },
+      {
+        "id": "99727b3abd5e",
+        "year": 2024,
+        "text": "Bullish on doing what’s right for the code, the overall system, and merchants.",
+        "score": 0.3622
+      },
+      {
         "id": "241e020e27a6",
         "year": 2024,
         "text": "You’ll increase your compensation as your positive impact on Shopify’s mission grows.",
         "score": 0.3606
+      },
+      {
+        "id": "b1003f6070bf",
+        "year": 2024,
+        "text": "Pair programming aficionados because it = better code, stronger teams, and kicks down silos.",
+        "score": 0.3564
+      },
+      {
+        "id": "c87b98bca142",
+        "year": 2024,
+        "text": "We're extremely familiar and well-versed with AI and integrate it into our habits, workflows, and decision-making.",
+        "score": 0.3524
       },
       {
         "id": "033c2af0fd66",
@@ -3208,6 +3394,24 @@
         "score": 0.3501
       },
       {
+        "id": "3761ff8a2244",
+        "year": 2024,
+        "text": "If you’re someone who has great ideas but no place to try them, are moving faster than everyone around you, or want to test the limits of what’s possible, you’ve found your place.",
+        "score": 0.3486
+      },
+      {
+        "id": "981f901ef252",
+        "year": 2024,
+        "text": "Working together to solve massive technical problems forces a constant levelling up of technical excellence.",
+        "score": 0.3485
+      },
+      {
+        "id": "61ce4f6ed55b",
+        "year": 2024,
+        "text": "Shopify engineers are spiky generalists with deep proficiency in specific areas we've honed throughout our careers.",
+        "score": 0.3451
+      },
+      {
         "id": "220da3e7cc21",
         "year": 2024,
         "text": "Shopify has a unique personality and it’s hard to work here if you’re not a great match.",
@@ -3218,6 +3422,18 @@
         "year": 2024,
         "text": "From astrophysicists to Reddit influencers, pro gamers to Olympic athletes, founders and entrepreneurs to Shopify merchants, Shopify has a history of hiring people with alternative proof of achieving something difficult.",
         "score": 0.3444
+      },
+      {
+        "id": "28e69cb05c2f",
+        "year": 2024,
+        "text": "Join me in Revenue at Shopify.",
+        "score": 0.3411
+      },
+      {
+        "id": "0961ce0d7519",
+        "year": 2024,
+        "text": "Employees have made the move to Shopify from some of the world’s largest companies.",
+        "score": 0.3404
       },
       {
         "id": "f9ac59589897",
@@ -3236,6 +3452,42 @@
         "year": 2024,
         "text": "Everyone here wants to be the world’s best at what they do.",
         "score": 0.3276
+      },
+      {
+        "id": "422fd3537339",
+        "year": 2024,
+        "text": "Then, apply to join us if you like this type of work!",
+        "score": 0.3273
+      },
+      {
+        "id": "028315d1bb00",
+        "year": 2024,
+        "text": "The only company in the world that’s 100% focused on commerce with a clear mission.",
+        "score": 0.3218
+      },
+      {
+        "id": "dcf7fd71bf90",
+        "year": 2024,
+        "text": "Shopify's compensation is world class with incentivized compensation plans that reward high performance and recognize stellar outcomes.",
+        "score": 0.3163
+      },
+      {
+        "id": "612ae6affeed",
+        "year": 2024,
+        "text": "Shopify's Revenue team work to transform enterprises.",
+        "score": 0.3145
+      },
+      {
+        "id": "b309b1a0f45d",
+        "year": 2024,
+        "text": "Shopify engineers are spiky generalists with deep proficiency in specific areas they’ve honed throughout their careers.",
+        "score": 0.3097
+      },
+      {
+        "id": "a25b5eca6232",
+        "year": 2024,
+        "text": "Our system architecture supports a performant network, not false boundaries.",
+        "score": 0.3092
       },
       {
         "id": "071a93287c90",
@@ -3280,10 +3532,28 @@
         "score": 0.5266
       },
       {
+        "id": "96e330cf5944",
+        "year": 2025,
+        "text": "We want people committed to the tools of tomorrow, because true innovation happens when craft excellence meets technological audacity.",
+        "score": 0.4975
+      },
+      {
         "id": "9dc735d19d6c",
         "year": 2025,
         "text": "You need to care deeply about your work towards our mission to make commerce better for everyone not just those you agree with.",
         "score": 0.4951
+      },
+      {
+        "id": "3a5e82671cf3",
+        "year": 2025,
+        "text": "We are embracing AI in our tools, workflows and philosophies because we believe technology will always create opportunities for those sufficiently courageous to claim it.",
+        "score": 0.4722
+      },
+      {
+        "id": "92a1a6029fd0",
+        "year": 2025,
+        "text": "That means we only hire world-class talent who can continually step up to meet our high performance standards and our client’s expectations.",
+        "score": 0.4565
       },
       {
         "id": "391010ee3cc9",
@@ -3292,10 +3562,34 @@
         "score": 0.4445
       },
       {
+        "id": "d690b447fa0e",
+        "year": 2025,
+        "text": "It is our DNA—defining how we build products, solve problems, grow the company, empower our merchants, and engage their buyers.",
+        "score": 0.4396
+      },
+      {
+        "id": "bb41cdc5e527",
+        "year": 2025,
+        "text": "You care deeply about our mission, our merchants, and the world we want to serve.",
+        "score": 0.4374
+      },
+      {
         "id": "27c6c8a9a78c",
         "year": 2025,
         "text": "We get why other companies want you to apply to a specific job — it's their org chart.",
         "score": 0.4321
+      },
+      {
+        "id": "e597eb141d04",
+        "year": 2025,
+        "text": "We wake up every day focused on ways to inspire, enable, and support entrepreneurs.",
+        "score": 0.4282
+      },
+      {
+        "id": "7b990db6bb9a",
+        "year": 2025,
+        "text": "If you believe entrepreneurship can change lives, and you want your work to fuel that change, let us know.",
+        "score": 0.4208
       },
       {
         "id": "465b7ba4e3ab",
@@ -3304,16 +3598,34 @@
         "score": 0.4112
       },
       {
+        "id": "cbc3949d840d",
+        "year": 2025,
+        "text": "We are transforming how millions of unique brands start, run, and grow their businesses - and we are just getting started.",
+        "score": 0.4064
+      },
+      {
         "id": "eaad91d7237c",
         "year": 2025,
         "text": "We propel entrepreneurs and enterprises to scale the heights of their potential.",
         "score": 0.4
       },
       {
+        "id": "b7a8ca9c4836",
+        "year": 2025,
+        "text": "If you’re someone that has great ideas and needs a place to bring them to life, moves faster than everyone around you, or is hungry to test the limits of what’s possible, you’ve found your place.",
+        "score": 0.3953
+      },
+      {
         "id": "5d8403a24915",
         "year": 2025,
         "text": "Over the years, we’ve found that commerce can be a force for good, that entrepreneurs drive communities forward, and that small businesses are the backbone of economies.",
         "score": 0.3942
+      },
+      {
+        "id": "a992c771b3ab",
+        "year": 2025,
+        "text": "We’re growing at high speed, innovating faster than any other commerce stack, and we’re winning.",
+        "score": 0.3918
       },
       {
         "id": "1645d909d041",
@@ -3328,6 +3640,24 @@
         "score": 0.388
       },
       {
+        "id": "5ea288862aa1",
+        "year": 2025,
+        "text": "A spirit of care is what comes through is our unreasonable attention to every detail, every word, every millisecond of performance, every support interaction.",
+        "score": 0.387
+      },
+      {
+        "id": "10de1f9f38e1",
+        "year": 2025,
+        "text": "Working at Shopify is a challenge.",
+        "score": 0.3658
+      },
+      {
+        "id": "36a42bbf4db9",
+        "year": 2025,
+        "text": "If care and working on something meaningful is what drives you to strive and wield your skills and tools expertly…then Shopify might be for you.",
+        "score": 0.362
+      },
+      {
         "id": "033c2af0fd66",
         "year": 2025,
         "text": "This is putting the power of the few in the hands of the many, is a future with more voices rather than fewer, and is creating more choices instead of an elite option.",
@@ -3338,6 +3668,12 @@
         "year": 2025,
         "text": "Growth isn’t just an opportunity here, it’s an expectation.",
         "score": 0.3501
+      },
+      {
+        "id": "50aba778749a",
+        "year": 2025,
+        "text": "We are confident that in a world where AI can help produce almost anything, designers that can master and wield these tools with incredible taste and judgement are even more necessary than ever.",
+        "score": 0.3456
       },
       {
         "id": "220da3e7cc21",
@@ -3352,10 +3688,58 @@
         "score": 0.3412
       },
       {
+        "id": "c41603dd6e25",
+        "year": 2025,
+        "text": "It is care that animates our brand.",
+        "score": 0.334
+      },
+      {
+        "id": "ef13396d751b",
+        "year": 2025,
+        "text": "Only the world’s best can keep the relentless pace to realize Shopify’s potential.",
+        "score": 0.3327
+      },
+      {
+        "id": "79fa37f6be86",
+        "year": 2025,
+        "text": "Good design work comes from craft excellence, and we certainly expect that of you.",
+        "score": 0.3297
+      },
+      {
         "id": "d32cab3a57af",
         "year": 2025,
         "text": "Everyone here wants to be the world’s best at what they do.",
         "score": 0.3276
+      },
+      {
+        "id": "3741fe639c79",
+        "year": 2025,
+        "text": "Shopify’s mission is to make commerce better for everyone.",
+        "score": 0.3248
+      },
+      {
+        "id": "c1cd8200dcda",
+        "year": 2025,
+        "text": "You’re comfortable working close to the code, proactively collaborate with engineers, and are comfortable prototyping your work directly.",
+        "score": 0.3214
+      },
+      {
+        "id": "d448ab92c80f",
+        "year": 2025,
+        "text": "You revel in making things, trying things, sharing things and taking ownership of your own development.",
+        "score": 0.3205
+      },
+      {
+        "id": "c1b443f0e21e",
+        "year": 2025,
+        "text": "You thrive in and help create an uptempo environment, generating a lot of ideas, showing your work often, shipping fast, and always pushing to get your project to the next step.",
+        "score": 0.3114
+      },
+      {
+        "id": "badf5bd56910",
+        "year": 2025,
+        "text": "Since 2006, we’ve grown to over 8,300 employees and generated over $1 trillion in sales for millions of merchants in 175 countries.",
+        "score": 0.3086
       },
       {
         "id": "51a421095811",
@@ -3368,6 +3752,12 @@
         "year": 2025,
         "text": "We use it to cast a vote with every product we buy.",
         "score": 0.3048
+      },
+      {
+        "id": "d64e5a25176a",
+        "year": 2025,
+        "text": "High performance and outcomes are financially rewarded with uncapped accelerators on OTE.",
+        "score": 0.3043
       },
       {
         "id": "3da0847b6a2e",
@@ -3400,6 +3790,12 @@
         "score": 0.5118
       },
       {
+        "id": "96e330cf5944",
+        "year": 2026,
+        "text": "We want people committed to the tools of tomorrow, because true innovation happens when craft excellence meets technological audacity.",
+        "score": 0.4975
+      },
+      {
         "id": "9dc735d19d6c",
         "year": 2026,
         "text": "You need to care deeply about your work towards our mission to make commerce better for everyone not just those you agree with.",
@@ -3410,6 +3806,12 @@
         "year": 2026,
         "text": "We don't settle for adequate – we deliberately seek out and hire only the best of the best.",
         "score": 0.4761
+      },
+      {
+        "id": "3a5e82671cf3",
+        "year": 2026,
+        "text": "We are embracing AI in our tools, workflows and philosophies because we believe technology will always create opportunities for those sufficiently courageous to claim it.",
+        "score": 0.4722
       },
       {
         "id": "0e6616ffba81",
@@ -3448,10 +3850,28 @@
         "score": 0.4424
       },
       {
+        "id": "d690b447fa0e",
+        "year": 2026,
+        "text": "It is our DNA—defining how we build products, solve problems, grow the company, empower our merchants, and engage their buyers.",
+        "score": 0.4396
+      },
+      {
         "id": "a923c0f8ad9f",
         "year": 2026,
         "text": "We're creating a world with more entrepreneurs.",
         "score": 0.4375
+      },
+      {
+        "id": "e597eb141d04",
+        "year": 2026,
+        "text": "We wake up every day focused on ways to inspire, enable, and support entrepreneurs.",
+        "score": 0.4282
+      },
+      {
+        "id": "7b990db6bb9a",
+        "year": 2026,
+        "text": "If you believe entrepreneurship can change lives, and you want your work to fuel that change, let us know.",
+        "score": 0.4208
       },
       {
         "id": "d130ac71b10e",
@@ -3482,6 +3902,12 @@
         "year": 2026,
         "text": "(Yes, even the finance team.) Product thinking, combined with our reflexive use of AI, is why our people have superpowers.",
         "score": 0.4102
+      },
+      {
+        "id": "cbc3949d840d",
+        "year": 2026,
+        "text": "We are transforming how millions of unique brands start, run, and grow their businesses - and we are just getting started.",
+        "score": 0.4064
       },
       {
         "id": "69032c7b45f5",
@@ -3676,6 +4102,12 @@
         "score": 0.3522
       },
       {
+        "id": "033c2af0fd66",
+        "year": 2026,
+        "text": "This is putting the power of the few in the hands of the many, is a future with more voices rather than fewer, and is creating more choices instead of an elite option.",
+        "score": 0.3516
+      },
+      {
         "id": "672f13c6775e",
         "year": 2026,
         "text": "If you're energized by new challenges and measure success by growth - not comfort, then read on.",
@@ -3710,6 +4142,12 @@
         "year": 2026,
         "text": "Strong infrastructure is what allows us to scale quickly and build reliable products that stand the test of time.",
         "score": 0.3488
+      },
+      {
+        "id": "50aba778749a",
+        "year": 2026,
+        "text": "We are confident that in a world where AI can help produce almost anything, designers that can master and wield these tools with incredible taste and judgement are even more necessary than ever.",
+        "score": 0.3456
       },
       {
         "id": "220da3e7cc21",
@@ -3850,6 +4288,12 @@
         "score": 0.325
       },
       {
+        "id": "3741fe639c79",
+        "year": 2026,
+        "text": "Shopify’s mission is to make commerce better for everyone.",
+        "score": 0.3248
+      },
+      {
         "id": "2766512493f9",
         "year": 2026,
         "text": "Once they're here, we immerse them in a 10x learning environment where they can thrive.",
@@ -3946,6 +4390,12 @@
         "score": 0.3091
       },
       {
+        "id": "badf5bd56910",
+        "year": 2026,
+        "text": "Since 2006, we’ve grown to over 8,300 employees and generated over $1 trillion in sales for millions of merchants in 175 countries.",
+        "score": 0.3086
+      },
+      {
         "id": "7ece8a702662",
         "year": 2026,
         "text": "Since 2006, we've grown to ~8,000 employees and powered over $1 trillion in sales for millions of merchants in 175 countries.",
@@ -4016,6 +4466,12 @@
         "year": 2026,
         "text": "Shopify is a company of world-class crafters.",
         "score": 0.3025
+      },
+      {
+        "id": "6ae5f5e84d0d",
+        "year": 2026,
+        "text": "This is life-defining work that directly impacts people’s lives as much as it transforms your own.",
+        "score": 0.3015
       }
     ],
     "lexicons": {
@@ -4024,8 +4480,8 @@
           "term": "diversity",
           "first_year": 2015,
           "last_year": 2026,
-          "max_score": 0.6731,
-          "example": "The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together and it’s why we actively seek the brightest minds in the world."
+          "max_score": 0.686,
+          "example": "We value authenticity, openness, and diversity in everything we do."
         },
         {
           "term": "black",

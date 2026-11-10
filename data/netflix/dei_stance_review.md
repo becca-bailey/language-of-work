@@ -33,10 +33,10 @@
 
 ## 2018
 - affirming_dei: 1
-- neutral: 35
+- neutral: 36
 
 ## 2019
-- affirming_dei: 2
+- affirming_dei: 3
 - neutral: 40
 
 ## 2020

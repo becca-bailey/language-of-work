@@ -1,7 +1,7 @@
 # DEI stance by year
 
 ## 2009
-- neutral: 16
+- neutral: 17
 
 ## 2010
 - neutral: 18
@@ -61,4 +61,5 @@
 - neutral: 9
 
 ## 2026
-- neutral: 11
+- neutral: 12
+- mission_focus_apolitical: 1

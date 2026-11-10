@@ -29,7 +29,12 @@
       "thin": true,
       "labels": {
         "mission_brand": {
-          "chunks": 4,
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
         }

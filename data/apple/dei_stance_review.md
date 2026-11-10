@@ -56,7 +56,7 @@
 - neutral: 1
 
 ## 2018
-- affirming_dei: 12
+- affirming_dei: 13
 - neutral: 9
 
 ## 2019
@@ -73,15 +73,15 @@
 
 ## 2022
 - affirming_dei: 59
-- neutral: 23
+- neutral: 22
 
 ## 2023
 - affirming_dei: 50
-- neutral: 25
+- neutral: 24
 
 ## 2024
 - affirming_dei: 20
-- neutral: 18
+- neutral: 17
 
 ## 2025
 - affirming_dei: 28

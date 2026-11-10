@@ -6,14 +6,28 @@
       "original": "https://www.flocksafety.com/careers",
       "digest": "d3b84352b4057fd8c20c7efd",
       "html_file": "20260723120000_d3b84352b4057fd8c20c7efd.html",
-      "source": "live (pilot capture, migrated from data/exclusion_pilot/flock_live.html)"
+      "source": "live (pilot capture, migrated from data/exclusion_pilot/flock_live.html)",
+      "coverage": {
+        "chunk_count": 8,
+        "dom_words": 349,
+        "trafilatura_words": 394,
+        "dom_to_trafilatura_ratio": 0.89
+      },
+      "thin": false
     },
     {
       "timestamp": "20261106120000",
       "original": "https://www.flocksafety.com/careers",
       "digest": "d3016145f918249dd825740d",
       "html_file": "20261106120000_d3016145f918249dd825740d.html",
-      "source": "live"
+      "source": "live",
+      "coverage": {
+        "chunk_count": 9,
+        "dom_words": 366,
+        "trafilatura_words": 394,
+        "dom_to_trafilatura_ratio": 0.93
+      },
+      "thin": false
     }
   ]
 }

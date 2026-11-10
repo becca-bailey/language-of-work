@@ -5,10 +5,10 @@ Use this during manual step M1 to confirm/extend `url_patterns.json`.
 
 | Pattern | signal | 25 | 26 |
 |---|---|---|---|
-| cluely.com/careers | 0w ⚠shell | 7 | 2 |
-| www.cluely.com/careers | 0w ⚠shell | 7 | 2 |
-| jobs.ashbyhq.com/cluely | 0w ⚠shell | 1 | 1 |
-| jobs.ashbyhq.com/cluely/ | 0w ⚠shell | 42 | 16 |
+| cluely.com/careers | 0w ⚠shell | 7 | 4 |
+| www.cluely.com/careers | 0w ⚠shell | 7 | 4 |
+| jobs.ashbyhq.com/cluely | 0w ⚠shell | 1 | 2 |
+| jobs.ashbyhq.com/cluely/ | 244w | 43 | 22 |
 
 ## Shell patterns (skipped by fetch)
 
@@ -17,7 +17,6 @@ Sample extracted < 50 words — SPA/nav shell, no archived prose:
 - cluely.com/careers
 - www.cluely.com/careers
 - jobs.ashbyhq.com/cluely
-- jobs.ashbyhq.com/cluely/
 
 ## Gaps to investigate
 

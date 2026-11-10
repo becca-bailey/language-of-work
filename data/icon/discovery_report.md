@@ -5,9 +5,9 @@ Use this during manual step M1 to confirm/extend `url_patterns.json`.
 
 | Pattern | signal | 25 | 26 |
 |---|---|---|---|
-| icon.com/careers | 1133w | 8 | 3 |
-| www.icon.com/careers | 1133w | 8 | 3 |
-| icon.com/careers/ | 1133w | 8 | 3 |
+| icon.com/careers | 1137w | 8 | 6 |
+| www.icon.com/careers | 1137w | 8 | 6 |
+| icon.com/careers/ | 1137w | 8 | 6 |
 
 ## Gaps to investigate
 

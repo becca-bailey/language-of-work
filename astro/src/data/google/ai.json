@@ -347,7 +347,7 @@
     },
     {
       "year": 2011,
-      "totalChunks": 18,
+      "totalChunks": 19,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -366,6 +366,11 @@
           "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
         }
       },
       "terms": {},
@@ -374,9 +379,9 @@
     },
     {
       "year": 2012,
-      "totalChunks": 72,
+      "totalChunks": 73,
       "aiChunks": 1,
-      "prevalence": 0.0139,
+      "prevalence": 0.0137,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -390,7 +395,7 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 14,
+          "chunks": 15,
           "ai_chunks": 1,
           "mentions": 1
         },
@@ -929,7 +934,7 @@
           "mentions": 0
         },
         "employee_story": {
-          "chunks": 2,
+          "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -944,7 +949,7 @@
           "mentions": 8
         },
         "process_logistics": {
-          "chunks": 6,
+          "chunks": 7,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -1031,8 +1036,18 @@
       "prevalence": 0.04,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "employee_story": {
-          "chunks": 3,
+          "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -1042,7 +1057,7 @@
           "mentions": 1
         },
         "process_logistics": {
-          "chunks": 7,
+          "chunks": 5,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -1373,9 +1388,9 @@
           "mentions": 6
         },
         "job_listing": {
-          "chunks": 6,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 7,
+          "ai_chunks": 1,
+          "mentions": 2
         },
         "mission_brand": {
           "chunks": 46,
@@ -1383,9 +1398,9 @@
           "mentions": 21
         },
         "process_logistics": {
-          "chunks": 5,
-          "ai_chunks": 1,
-          "mentions": 2
+          "chunks": 4,
+          "ai_chunks": 0,
+          "mentions": 0
         }
       },
       "terms": {
@@ -1402,7 +1417,7 @@
           "thin": false
         },
         {
-          "group": "other",
+          "group": "hire",
           "meanProjection": -0.0913,
           "nChunks": 1,
           "thin": true
@@ -1417,8 +1432,8 @@
       "quotes": [
         {
           "chunk_id": "d5e7b1fa177570e4",
-          "label": "process_logistics",
-          "group": "other",
+          "label": "job_listing",
+          "group": "hire",
           "terms": [
             "artificial intelligence",
             "machine learning"

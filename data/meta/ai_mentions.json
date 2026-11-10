@@ -26,12 +26,12 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 6,
+          "chunks": 5,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 4,
+          "chunks": 5,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -97,13 +97,18 @@
           "ai_chunks": 0,
           "mentions": 0
         },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
           "chunks": 5,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 3,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -307,13 +312,18 @@
     },
     {
       "year": 2020,
-      "total_chunks": 18,
+      "total_chunks": 19,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "benefits_perks": {
           "chunks": 2,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "job_listing": {
+          "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -480,13 +490,13 @@
     },
     {
       "year": 2026,
-      "total_chunks": 11,
+      "total_chunks": 13,
       "ai_chunks": 11,
-      "prevalence": 1.0,
+      "prevalence": 0.8462,
       "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 11,
+          "chunks": 13,
           "ai_chunks": 11,
           "mentions": 88
         }

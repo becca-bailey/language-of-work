@@ -19,7 +19,7 @@
 - neutral: 13
 
 ## 2019
-- neutral: 13
+- neutral: 12
 
 ## 2020
 - neutral: 17

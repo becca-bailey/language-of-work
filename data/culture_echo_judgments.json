@@ -919,16 +919,6 @@
     "score": 0.538,
     "text": "The strength of our teams is built on an incredible diversity of perspectives, backgrounds, and talents coming together and it’s why we actively seek the brightest minds in the wor"
   },
-  "only_the_best|shopify|2025|4bbf5c402bfe2332": {
-    "verdict": "genuine",
-    "reason": "Explicitly states 'hire only the best of the best' and 'don't settle for adequate,' directly matching the concept's selectivity and exclusionary principle.",
-    "concept": "only_the_best",
-    "company": "shopify",
-    "year": 2025,
-    "kind": "lift",
-    "score": 0.764,
-    "text": "We don't settle for adequate – we deliberately seek out and hire only the best of the best."
-  },
   "only_the_best|stripe|2019|50003bea9cb4b999": {
     "verdict": "spurious",
     "reason": "Sets a behavioral standard (no jerks) rather than claiming to hire only the best or most elite; about culture fit, not talent selectivity.",
@@ -1108,16 +1098,6 @@
     "kind": "echo",
     "score": 0.555,
     "text": "We default to the most important work rather than adhering to prescriptive roles – and we hire the same way."
-  },
-  "freedom_responsibility|shopify|2023|7ec10d6da3715c3c": {
-    "verdict": "genuine",
-    "reason": "Directly states 'low process and high trust,' which is the Netflix model of freedom and responsibility over rules and process.",
-    "concept": "freedom_responsibility",
-    "company": "shopify",
-    "year": 2023,
-    "kind": "echo",
-    "score": 0.55,
-    "text": "We operate on low process and high trust, and trade on impact."
   },
   "freedom_responsibility|stripe|2019|acc467b9f9a75014": {
     "verdict": "spurious",
@@ -1378,5 +1358,65 @@
     "kind": "echo",
     "score": 0.534,
     "text": "We argue from first principles, question assumptions, and don’t stop at good enough."
+  },
+  "candor_directness|meta|2026|27866f0a3a42e60c": {
+    "verdict": "genuine",
+    "reason": "Directly expresses the core Netflix idea: straightforwardness, willingness to have hard conversations, and directness with colleagues—the same specific claim about how the company conducts its interpersonal culture.",
+    "concept": "candor_directness",
+    "company": "meta",
+    "year": 2026,
+    "kind": "echo",
+    "score": 0.629,
+    "text": "Be direct and respect your colleagues We create a culture where we are straightforward and willing to have hard conversations with each other."
+  },
+  "candor_directness|palantir|2011|be2e1288a269485b": {
+    "verdict": "adjacent",
+    "reason": "Gestures at candor and directness by invoking adult-to-adult treatment, but stops short of the specific Netflix commitment to hard conversations and saying things to people's faces; it's a softer, more implicit version.",
+    "concept": "candor_directness",
+    "company": "palantir",
+    "year": 2011,
+    "kind": "echo",
+    "score": 0.512,
+    "text": "We treat each other like adults."
+  },
+  "freedom_responsibility|shopify|2024|81dbcf73f7a207ca": {
+    "verdict": "adjacent",
+    "reason": "Describes flexibility in role definition and hiring, but doesn't commit to the core Netflix idea of increasing freedom as a deliberate cultural model or replacing rules with trust in judgment.",
+    "concept": "freedom_responsibility",
+    "company": "shopify",
+    "year": 2024,
+    "kind": "echo",
+    "score": 0.553,
+    "text": "We default to the most important work rather than adhering to a prescriptive role – and we hire the same way."
+  },
+  "no_vacation_policy|palantir|2011|177fb71c94c709a1": {
+    "verdict": "adjacent",
+    "reason": "Addresses flexible scheduling but doesn't explicitly address vacation/time-off policy, which is the core Netflix concept.",
+    "concept": "no_vacation_policy",
+    "company": "palantir",
+    "year": 2011,
+    "kind": "echo",
+    "score": 0.504,
+    "text": "As long as your work is getting done, you’re free to work whatever schedule suits you."
+  },
+  "raise_the_bar|shopify|2018|af0112913c51f17c": {
+    "verdict": "spurious",
+    "reason": "The sentence emphasizes personal learning and growth ('learn, grow, level up') rather than holding relentlessly high standards or requiring new hires to raise the collective bar.",
+    "concept": "raise_the_bar",
+    "company": "shopify",
+    "year": 2018,
+    "kind": "echo",
+    "score": 0.502,
+    "text": "We specialize deeply, and stay curious and engaged to learn, grow, and level up."
+  },
+  "only_the_best|shopify|2024|4bbf5c402bfe2332": {
+    "verdict": "genuine",
+    "reason": "Shopify explicitly states they hire 'only the best of the best' and reject adequacy, directly matching Netflix's core claim about hiring exclusively A-players and top talent.",
+    "concept": "only_the_best",
+    "company": "shopify",
+    "year": 2024,
+    "kind": "lift",
+    "score": 0.764,
+    "text": "We don't settle for adequate – we deliberately seek out and hire only the best of the best."
   }
 }

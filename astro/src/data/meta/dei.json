@@ -6,10 +6,10 @@
     {
       "year": 2009,
       "inclusionTopkMean": 0.4084,
-      "inclusionMean": 0.2897,
+      "inclusionMean": 0.2871,
       "inclusionMax": 0.4535,
-      "inclusionFractionPresent": 0.625,
-      "nChunks": 16,
+      "inclusionFractionPresent": 0.5882,
+      "nChunks": 17,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -17,11 +17,11 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 16,
+        "absent": 17,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": -0.0157,
+      "controlTopkMean": -0.0037,
       "inclusionQuotes": [
         {
           "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes. We need help from people who like to move fast, tackle the big stuff, and have an immediate impact. Sound like you?",
@@ -963,24 +963,40 @@
     },
     {
       "year": 2026,
-      "inclusionTopkMean": 0.1892,
-      "inclusionMean": 0.1625,
-      "inclusionMax": 0.2172,
-      "inclusionFractionPresent": 0.0,
-      "nChunks": 11,
+      "inclusionTopkMean": 0.3275,
+      "inclusionMean": 0.2172,
+      "inclusionMax": 0.5569,
+      "inclusionFractionPresent": 0.1538,
+      "nChunks": 13,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
-        "aspirational_vague": 0,
+        "aspirational_vague": 1,
         "belonging_culture": 0,
-        "absent": 11,
-        "mission_focus_apolitical": 0,
+        "absent": 12,
+        "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.0032,
+      "controlTopkMean": 0.0277,
       "inclusionQuotes": [
+        {
+          "text": "We emphasize long-term thinking that encourages us to extend the timeline for the impact we have, rather than optimizing for near-term wins. We take on the challenges that will be the most impactful, even if the full results won’t be seen for years. We build the future of work that we want, with an in-person focus designed to support a strong, valuable experience for our people who work from the o",
+          "heading": "",
+          "register": "aspirational_vague",
+          "stance": "mission_focus_apolitical",
+          "inclusion": 0.5569,
+          "score": 0.5569
+        },
+        {
+          "text": "Working at Meta means making every connection matter Connection is at the center of our mission to build the future of human connection and the technology that makes it possible. And we live that mission from the inside out. That means we act with intention to build and reinforce strong connections with each other, our work and our shared goals as a company. We believe in doing career-defining wor",
+          "heading": "",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.4793,
+          "score": 0.4793
+        },
         {
           "text": "Our first AR glasses prototype — something we’ve been working on for nearly a decade — has arrived. Wireless, with a wide FOV display and weighing less than 100 grams, these were exciting to unveil at Meta Connect 2024. Our continued testing will help us improve upon consumer AR glasses in the coming years. This versatile tool lets individuals and businesses without coding experience build customi",
           "heading": "We build awesome things",
@@ -1004,34 +1020,139 @@
           "stance": "neutral",
           "inclusion": 0.1784,
           "score": 0.1784
-        },
-        {
-          "text": "We’ve integrated our state-of-the-art open source language model with Meta AI, our intelligent assistant, for enhanced scalability and performance. Meta Llama significantly elevates various capabilities, such as code generation, reasoning and content translation. We’ve integrated our state-of-the-art open source language model with Meta AI, our intelligent assistant, for enhanced scalability and p",
-          "heading": "We build awesome things",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.1749,
-          "score": 0.1749
-        },
-        {
-          "text": "From Oakley Meta Vanguard to Oakley Meta HTSN, this is the next evolution of AI glasses. Oakley and Meta have joined forces to bring AI glasses to sports and everyday lifestyles, combining Oakley's eye-catching style with Meta's innovative wearable and AI technology. Built for life on the field, trail, or track, with everyday use cases, Oakley Meta is here to evolve sport and enhance performance. ",
-          "heading": "We build awesome things",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.1696,
-          "score": 0.1696
         }
       ]
     }
   ],
   "phrases": {
-    "terms": [],
+    "terms": [
+      {
+        "term": "disability",
+        "first_year": 2009,
+        "last_year": 2022,
+        "max_score": 0.5555,
+        "example": "We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gende"
+      },
+      {
+        "term": "diversity",
+        "first_year": 2013,
+        "last_year": 2022,
+        "max_score": 0.6666,
+        "example": "We are dedicated to building a team that reflects the diversity of the people, all around the globe, who use Facebook's products and services."
+      },
+      {
+        "term": "affirmative",
+        "first_year": 2013,
+        "last_year": 2022,
+        "max_score": 0.5077,
+        "example": "Facebook is proud to be an Equal Employment Opportunity and Affirmative Action employer."
+      },
+      {
+        "term": "women",
+        "first_year": 2016,
+        "last_year": 2021,
+        "max_score": 0.6108,
+        "example": "We empower women through professional development opportunities and engage with men as equal partners in advancing gender diversity and inclusion."
+      },
+      {
+        "term": "black",
+        "first_year": 2017,
+        "last_year": 2021,
+        "max_score": 0.5354,
+        "example": "We represent and celebrate all things Black@ at Facebook."
+      },
+      {
+        "term": "underrepresented",
+        "first_year": 2019,
+        "last_year": 2019,
+        "max_score": 0.4294,
+        "example": "An internship program for students from underrepresented communities."
+      },
+      {
+        "term": "belonging",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.4663,
+        "example": "Together we foster a sense of community and belonging by sharing our stories with each other, celebrating our diverse culture and bringing awareness to issues that impact Native communities."
+      },
+      {
+        "term": "hispanic",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.5143,
+        "example": "We are committed to connecting, supporting, and developing Latino and Hispanic employees at Facebook while promoting an inclusive community that fosters an appreciation for our culture."
+      },
+      {
+        "term": "lgbtq",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.5964,
+        "example": "We focus on creating an open culture for all LGBTQ employees at Facebook."
+      },
+      {
+        "term": "inclusion",
+        "first_year": 2020,
+        "last_year": 2025,
+        "max_score": 0.6652,
+        "example": "Inclusion strengthens our workplace — and our world At Meta, we’re committed to building an environment where everyone has a voice and feels valued."
+      },
+      {
+        "term": "bias",
+        "first_year": 2020,
+        "last_year": 2022,
+        "max_score": 0.5435,
+        "example": "Facebook provides a variety of programs to help people who work here find community, tackle bias, and participate in building an inclusive workspace so we can all do the best work of our careers."
+      },
+      {
+        "term": "equity",
+        "first_year": 2025,
+        "last_year": 2025,
+        "max_score": 0.4532,
+        "example": "Our equity-centered, co-design approach involves Meta experts teaming up with community members to act as equal partners."
+      }
+    ],
     "high_scoring_sentences": [
       {
+        "id": "22cb03a5828d",
+        "year": 2009,
+        "text": "As we grow quickly in every way, each of our employees has the opportunity to have an enormous impact.",
+        "score": 0.505
+      },
+      {
+        "id": "255ca7500ba1",
+        "year": 2009,
+        "text": "We're looking for dynamic people that get excited by big questions and unsolved problems.",
+        "score": 0.4553
+      },
+      {
         "id": "266f02977bcd",
         "year": 2009,
         "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes.",
         "score": 0.4273
+      },
+      {
+        "id": "deb2135cdf3c",
+        "year": 2009,
+        "text": "Almost every week, we bring in someone from outside Facebook to talk about their experience and what they're passionate about.",
+        "score": 0.4097
+      },
+      {
+        "id": "d76e48530ade",
+        "year": 2009,
+        "text": "We like to bring in people who we know will give us something to think about.",
+        "score": 0.4044
+      },
+      {
+        "id": "7364896cd4a6",
+        "year": 2009,
+        "text": "We're leading a social movement by building ground-breaking technology that gives people the power to share and makes the world more open and connected.",
+        "score": 0.4014
+      },
+      {
+        "id": "a1ecbc307205",
+        "year": 2009,
+        "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
+        "score": 0.401
       },
       {
         "id": "ed17d5457865",
@@ -1040,16 +1161,124 @@
         "score": 0.3976
       },
       {
+        "id": "e0e41fea41cd",
+        "year": 2009,
+        "text": "We've just begun to realize the full potential of what Facebook can contribute, and we're deeply committed to making the most of those opportunities.",
+        "score": 0.3924
+      },
+      {
+        "id": "7ed34403e6aa",
+        "year": 2009,
+        "text": "We pair innovation and passion with cutting loose and having fun: racing around on RipStiks; playing Bughouse chess, a hand of poker, or a game of Risk; rocking out in our music room; and embarking on all-night coding binges for new features and ideas.",
+        "score": 0.3854
+      },
+      {
+        "id": "bdca0a0aea31",
+        "year": 2009,
+        "text": "We know that passion and commitment has to be paired with rest and balance.",
+        "score": 0.3805
+      },
+      {
+        "id": "f364aee98832",
+        "year": 2009,
+        "text": "As you see the impact of your own work - and what your colleagues are accomplishing - you'll feel motivated each week by the passion, dedication, and vision that drives Facebook forward.",
+        "score": 0.3577
+      },
+      {
+        "id": "086b8a17c93f",
+        "year": 2009,
+        "text": "At our Palo Alto headquarters, we also offer free breakfast, lunch and dinner at our Cafe.",
+        "score": 0.3378
+      },
+      {
+        "id": "168d61babd23",
+        "year": 2009,
+        "text": "We comply with local regulations in all non-U.S. locations.",
+        "score": 0.3374
+      },
+      {
+        "id": "4c87963a1738",
+        "year": 2009,
+        "text": "We're making it possible for many millions of people on Facebook to broaden their horizons, deepen their friendships, share good times, and solve problems together.",
+        "score": 0.3324
+      },
+      {
+        "id": "8ba8ee044c5b",
+        "year": 2009,
+        "text": "We offer 21 days of paid vacation to make sure you take a break once in a while.",
+        "score": 0.3314
+      },
+      {
+        "id": "385f90772e1f",
+        "year": 2009,
+        "text": "At Facebook, it’s common for small teams of three or four people to work together in creating products that are used by millions of people around the world.",
+        "score": 0.3216
+      },
+      {
+        "id": "b3cfdcb0e2c7",
+        "year": 2009,
+        "text": "We have discounts from companies such as Microsoft, Dell, Apple & AT&T.;",
+        "score": 0.3163
+      },
+      {
+        "id": "f10a3b28df98",
+        "year": 2009,
+        "text": "Facebook offers a ton of great benefits and perks to make sure your life is as satisfying as your work.",
+        "score": 0.3138
+      },
+      {
+        "id": "22cb03a5828d",
+        "year": 2010,
+        "text": "As we grow quickly in every way, each of our employees has the opportunity to have an enormous impact.",
+        "score": 0.505
+      },
+      {
+        "id": "255ca7500ba1",
+        "year": 2010,
+        "text": "We're looking for dynamic people that get excited by big questions and unsolved problems.",
+        "score": 0.4553
+      },
+      {
         "id": "266f02977bcd",
         "year": 2010,
         "text": "We're a cutting-edge technology company, constantly taking on new challenges in the worlds of milliseconds and terabytes.",
         "score": 0.4273
       },
       {
+        "id": "deb2135cdf3c",
+        "year": 2010,
+        "text": "Almost every week, we bring in someone from outside Facebook to talk about their experience and what they're passionate about.",
+        "score": 0.4097
+      },
+      {
+        "id": "d76e48530ade",
+        "year": 2010,
+        "text": "We like to bring in people who we know will give us something to think about.",
+        "score": 0.4044
+      },
+      {
+        "id": "7364896cd4a6",
+        "year": 2010,
+        "text": "We're leading a social movement by building ground-breaking technology that gives people the power to share and makes the world more open and connected.",
+        "score": 0.4014
+      },
+      {
+        "id": "a1ecbc307205",
+        "year": 2010,
+        "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
+        "score": 0.401
+      },
+      {
         "id": "ed17d5457865",
         "year": 2010,
         "text": "We need help from people who like to move fast, tackle the big stuff, and have an immediate impact.",
         "score": 0.3976
+      },
+      {
+        "id": "bdca0a0aea31",
+        "year": 2010,
+        "text": "We know that passion and commitment has to be paired with rest and balance.",
+        "score": 0.3805
       },
       {
         "id": "f7eedfe950a4",
@@ -1070,10 +1299,106 @@
         "score": 0.3378
       },
       {
+        "id": "168d61babd23",
+        "year": 2010,
+        "text": "We comply with local regulations in all non-U.S. locations.",
+        "score": 0.3374
+      },
+      {
+        "id": "8ba8ee044c5b",
+        "year": 2010,
+        "text": "We offer 21 days of paid vacation to make sure you take a break once in a while.",
+        "score": 0.3314
+      },
+      {
+        "id": "37a79d99809a",
+        "year": 2010,
+        "text": "No matter what part of Facebook you join, you'll be building something big and new.",
+        "score": 0.3281
+      },
+      {
+        "id": "b3cfdcb0e2c7",
+        "year": 2010,
+        "text": "We have discounts from companies such as Microsoft, Dell, Apple & AT&T.;",
+        "score": 0.3163
+      },
+      {
+        "id": "f10a3b28df98",
+        "year": 2010,
+        "text": "Facebook offers a ton of great benefits and perks to make sure your life is as satisfying as your work.",
+        "score": 0.3138
+      },
+      {
+        "id": "3e24fcb5c480",
+        "year": 2010,
+        "text": "In our regular Hackathons, engineers spend the night coding and hacking away at new product ideas.",
+        "score": 0.3065
+      },
+      {
+        "id": "3e21b02efaea",
+        "year": 2010,
+        "text": "At Facebook, a new idea can lead to a huge impact.",
+        "score": 0.3005
+      },
+      {
+        "id": "9407b3411a5f",
+        "year": 2011,
+        "text": "Hear from our leadership team about why we emphasize freedom and autonomy inside the company and how we build new technology for people.",
+        "score": 0.5333
+      },
+      {
+        "id": "22cb03a5828d",
+        "year": 2011,
+        "text": "As we grow quickly in every way, each of our employees has the opportunity to have an enormous impact.",
+        "score": 0.505
+      },
+      {
         "id": "509be28fa8e7",
         "year": 2011,
         "text": "Our employees build and create technology that fundamentally changes how hundreds of millions of people around the world connect and share.",
         "score": 0.4623
+      },
+      {
+        "id": "255ca7500ba1",
+        "year": 2011,
+        "text": "We're looking for dynamic people that get excited by big questions and unsolved problems.",
+        "score": 0.4553
+      },
+      {
+        "id": "deb2135cdf3c",
+        "year": 2011,
+        "text": "Almost every week, we bring in someone from outside Facebook to talk about their experience and what they're passionate about.",
+        "score": 0.4097
+      },
+      {
+        "id": "d76e48530ade",
+        "year": 2011,
+        "text": "We like to bring in people who we know will give us something to think about.",
+        "score": 0.4044
+      },
+      {
+        "id": "7364896cd4a6",
+        "year": 2011,
+        "text": "We're leading a social movement by building ground-breaking technology that gives people the power to share and makes the world more open and connected.",
+        "score": 0.4014
+      },
+      {
+        "id": "a1ecbc307205",
+        "year": 2011,
+        "text": "Whether it's engineering a new site feature, expanding Facebook globally or signing on new business partners, we move fast and don't mess around.",
+        "score": 0.401
+      },
+      {
+        "id": "bdca0a0aea31",
+        "year": 2011,
+        "text": "We know that passion and commitment has to be paired with rest and balance.",
+        "score": 0.3805
+      },
+      {
+        "id": "2f05d3b48961",
+        "year": 2011,
+        "text": "All of us working at Facebook have a common goal: Helping you connect and share with the people you care about.",
+        "score": 0.3762
       },
       {
         "id": "f7eedfe950a4",
@@ -1088,16 +1413,46 @@
         "score": 0.3694
       },
       {
+        "id": "27318001951b",
+        "year": 2011,
+        "text": "Work at Facebook Rebuilding the Web Around People",
+        "score": 0.3662
+      },
+      {
         "id": "086b8a17c93f",
         "year": 2011,
         "text": "At our Palo Alto headquarters, we also offer free breakfast, lunch and dinner at our Cafe.",
         "score": 0.3378
       },
       {
+        "id": "168d61babd23",
+        "year": 2011,
+        "text": "We comply with local regulations in all non-U.S. locations.",
+        "score": 0.3374
+      },
+      {
+        "id": "8ba8ee044c5b",
+        "year": 2011,
+        "text": "We offer 21 days of paid vacation to make sure you take a break once in a while.",
+        "score": 0.3314
+      },
+      {
         "id": "37a79d99809a",
         "year": 2011,
         "text": "No matter what part of Facebook you join, you'll be building something big and new.",
         "score": 0.3281
+      },
+      {
+        "id": "b3cfdcb0e2c7",
+        "year": 2011,
+        "text": "We have discounts from companies such as Microsoft, Dell, Apple & AT&T.;",
+        "score": 0.3163
+      },
+      {
+        "id": "f10a3b28df98",
+        "year": 2011,
+        "text": "Facebook offers a ton of great benefits and perks to make sure your life is as satisfying as your work.",
+        "score": 0.3138
       },
       {
         "id": "f7eedfe950a4",
@@ -1118,6 +1473,216 @@
         "score": 0.3281
       },
       {
+        "id": "342ee3c7098f",
+        "year": 2013,
+        "text": "We’re dedicated to creating an environment where people can be their authentic selves and share their own diverse backgrounds, experiences, perspectives and ideas.",
+        "score": 0.7661
+      },
+      {
+        "id": "c9ce84d87070",
+        "year": 2013,
+        "text": "At Facebook, we value diversity on an individual level.",
+        "score": 0.621
+      },
+      {
+        "id": "930da92a067a",
+        "year": 2013,
+        "text": "Learn more about diversity at Facebook.",
+        "score": 0.5594
+      },
+      {
+        "id": "e993ee72cfe1",
+        "year": 2013,
+        "text": "We hire trailblazers, hackers and pioneers.",
+        "score": 0.5225
+      },
+      {
+        "id": "28e9f31dcfca",
+        "year": 2013,
+        "text": "Facebook is proud to be an Equal Employment Opportunity and Affirmative Action employer.",
+        "score": 0.5077
+      },
+      {
+        "id": "caba81c0fcfe",
+        "year": 2013,
+        "text": "We want people who can solve challenging problems, make a real impact and build something big.",
+        "score": 0.505
+      },
+      {
+        "id": "44b24768e8b4",
+        "year": 2013,
+        "text": "Hear from our team about what we hold important and how we get things done.",
+        "score": 0.5006
+      },
+      {
+        "id": "dd056ccfce5e",
+        "year": 2013,
+        "text": "We believe that a more open world is a better world.",
+        "score": 0.4656
+      },
+      {
+        "id": "fcb0b6b4ef21",
+        "year": 2013,
+        "text": "Informed people make better decisions and have a greater impact, which is why we work hard to make sure everyone at Facebook has access to as much information about the company as possible.",
+        "score": 0.4591
+      },
+      {
+        "id": "a4b8902ef1da",
+        "year": 2013,
+        "text": "We expect everyone at Facebook to focus every day on how to build real value for the world in everything they do.",
+        "score": 0.4492
+      },
+      {
+        "id": "609dc41d4d89",
+        "year": 2013,
+        "text": "We encourage everyone to make bold decisions, even if that means being wrong some of the time.",
+        "score": 0.4212
+      },
+      {
+        "id": "e167704f7e2c",
+        "year": 2013,
+        "text": "At Facebook, we’re less afraid of making mistakes than we are of losing opportunities.",
+        "score": 0.4063
+      },
+      {
+        "id": "9b1cadf836bb",
+        "year": 2013,
+        "text": "We expect everyone at Facebook to be good at finding the biggest problems to work on.",
+        "score": 0.4059
+      },
+      {
+        "id": "d3f136542053",
+        "year": 2013,
+        "text": "The same goes for our company.",
+        "score": 0.4011
+      },
+      {
+        "id": "dd0783ef9126",
+        "year": 2013,
+        "text": "Working at Facebook means doing what you love.",
+        "score": 0.3408
+      },
+      {
+        "id": "f6cf0aad84ac",
+        "year": 2013,
+        "text": "Facebook was created to make the world more open and connected, not just to build a company.",
+        "score": 0.3265
+      },
+      {
+        "id": "0def05377f40",
+        "year": 2013,
+        "text": "We have a saying: “Move fast and break things.” The idea is that if you never break anything, you’re probably not moving fast enough.",
+        "score": 0.3161
+      },
+      {
+        "id": "dce92639984e",
+        "year": 2013,
+        "text": "Facebook participates in the E-Verify program in certain locations, as required by law.",
+        "score": 0.3106
+      },
+      {
+        "id": "e993ee72cfe1",
+        "year": 2014,
+        "text": "We hire trailblazers, hackers and pioneers.",
+        "score": 0.5225
+      },
+      {
+        "id": "caba81c0fcfe",
+        "year": 2014,
+        "text": "We want people who can solve challenging problems, make a real impact and build something big.",
+        "score": 0.505
+      },
+      {
+        "id": "44b24768e8b4",
+        "year": 2014,
+        "text": "Hear from our team about what we hold important and how we get things done.",
+        "score": 0.5006
+      },
+      {
+        "id": "dd056ccfce5e",
+        "year": 2014,
+        "text": "We believe that a more open world is a better world.",
+        "score": 0.4656
+      },
+      {
+        "id": "fcb0b6b4ef21",
+        "year": 2014,
+        "text": "Informed people make better decisions and have a greater impact, which is why we work hard to make sure everyone at Facebook has access to as much information about the company as possible.",
+        "score": 0.4591
+      },
+      {
+        "id": "a4b8902ef1da",
+        "year": 2014,
+        "text": "We expect everyone at Facebook to focus every day on how to build real value for the world in everything they do.",
+        "score": 0.4492
+      },
+      {
+        "id": "609dc41d4d89",
+        "year": 2014,
+        "text": "We encourage everyone to make bold decisions, even if that means being wrong some of the time.",
+        "score": 0.4212
+      },
+      {
+        "id": "e167704f7e2c",
+        "year": 2014,
+        "text": "At Facebook, we’re less afraid of making mistakes than we are of losing opportunities.",
+        "score": 0.4063
+      },
+      {
+        "id": "9b1cadf836bb",
+        "year": 2014,
+        "text": "We expect everyone at Facebook to be good at finding the biggest problems to work on.",
+        "score": 0.4059
+      },
+      {
+        "id": "d3f136542053",
+        "year": 2014,
+        "text": "The same goes for our company.",
+        "score": 0.4011
+      },
+      {
+        "id": "dd0783ef9126",
+        "year": 2014,
+        "text": "Working at Facebook means doing what you love.",
+        "score": 0.3408
+      },
+      {
+        "id": "f6cf0aad84ac",
+        "year": 2014,
+        "text": "Facebook was created to make the world more open and connected, not just to build a company.",
+        "score": 0.3265
+      },
+      {
+        "id": "0def05377f40",
+        "year": 2014,
+        "text": "We have a saying: “Move fast and break things.” The idea is that if you never break anything, you’re probably not moving fast enough.",
+        "score": 0.3161
+      },
+      {
+        "id": "5a1e3ab7b59a",
+        "year": 2014,
+        "text": "For contractor opportunities at Facebook, click here.",
+        "score": 0.3023
+      },
+      {
+        "id": "e993ee72cfe1",
+        "year": 2015,
+        "text": "We hire trailblazers, hackers and pioneers.",
+        "score": 0.5225
+      },
+      {
+        "id": "caba81c0fcfe",
+        "year": 2015,
+        "text": "We want people who can solve challenging problems, make a real impact and build something big.",
+        "score": 0.505
+      },
+      {
+        "id": "44b24768e8b4",
+        "year": 2015,
+        "text": "Hear from our team about what we hold important and how we get things done.",
+        "score": 0.5006
+      },
+      {
         "id": "17e4cb4df42b",
         "year": 2015,
         "text": "We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.",
@@ -1136,10 +1701,70 @@
         "score": 0.4704
       },
       {
+        "id": "dd056ccfce5e",
+        "year": 2015,
+        "text": "We believe that a more open world is a better world.",
+        "score": 0.4656
+      },
+      {
+        "id": "fcb0b6b4ef21",
+        "year": 2015,
+        "text": "Informed people make better decisions and have a greater impact, which is why we work hard to make sure everyone at Facebook has access to as much information about the company as possible.",
+        "score": 0.4591
+      },
+      {
+        "id": "a4b8902ef1da",
+        "year": 2015,
+        "text": "We expect everyone at Facebook to focus every day on how to build real value for the world in everything they do.",
+        "score": 0.4492
+      },
+      {
+        "id": "609dc41d4d89",
+        "year": 2015,
+        "text": "We encourage everyone to make bold decisions, even if that means being wrong some of the time.",
+        "score": 0.4212
+      },
+      {
+        "id": "e167704f7e2c",
+        "year": 2015,
+        "text": "At Facebook, we’re less afraid of making mistakes than we are of losing opportunities.",
+        "score": 0.4063
+      },
+      {
+        "id": "9b1cadf836bb",
+        "year": 2015,
+        "text": "We expect everyone at Facebook to be good at finding the biggest problems to work on.",
+        "score": 0.4059
+      },
+      {
+        "id": "d3f136542053",
+        "year": 2015,
+        "text": "The same goes for our company.",
+        "score": 0.4011
+      },
+      {
         "id": "05e3eb4295a2",
         "year": 2015,
         "text": "Our teams are small and nimble.",
         "score": 0.3866
+      },
+      {
+        "id": "dd0783ef9126",
+        "year": 2015,
+        "text": "Working at Facebook means doing what you love.",
+        "score": 0.3408
+      },
+      {
+        "id": "f6cf0aad84ac",
+        "year": 2015,
+        "text": "Facebook was created to make the world more open and connected, not just to build a company.",
+        "score": 0.3265
+      },
+      {
+        "id": "0def05377f40",
+        "year": 2015,
+        "text": "We have a saying: “Move fast and break things.” The idea is that if you never break anything, you’re probably not moving fast enough.",
+        "score": 0.3161
       },
       {
         "id": "02367b2f1ceb",
@@ -1154,6 +1779,36 @@
         "score": 0.3013
       },
       {
+        "id": "6b6ebb148d74",
+        "year": 2016,
+        "text": "We're dedicated to creating a workplace where everyone belongs.",
+        "score": 0.7618
+      },
+      {
+        "id": "313574689440",
+        "year": 2016,
+        "text": "Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
+        "score": 0.6646
+      },
+      {
+        "id": "06bcdee50cea",
+        "year": 2016,
+        "text": "We strive to be a great place to work for people with families.",
+        "score": 0.5264
+      },
+      {
+        "id": "14f93d5cecc3",
+        "year": 2016,
+        "text": "We’re determined to build a better, more connected world for everyone.",
+        "score": 0.5128
+      },
+      {
+        "id": "44b24768e8b4",
+        "year": 2016,
+        "text": "Hear from our team about what we hold important and how we get things done.",
+        "score": 0.5006
+      },
+      {
         "id": "17e4cb4df42b",
         "year": 2016,
         "text": "We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.",
@@ -1172,10 +1827,82 @@
         "score": 0.4704
       },
       {
+        "id": "92156f819de5",
+        "year": 2016,
+        "text": "We’re committed to building a healthy community—one person at a time.",
+        "score": 0.47
+      },
+      {
+        "id": "680b74570877",
+        "year": 2016,
+        "text": "We design products and deliver services that create a more human world — one connection at a time.",
+        "score": 0.4668
+      },
+      {
+        "id": "5a7e52e51bc2",
+        "year": 2016,
+        "text": "People are at the heart of every connection we build.",
+        "score": 0.4567
+      },
+      {
+        "id": "ad09b538ec85",
+        "year": 2016,
+        "text": "Our mission of making the world more open and connected influences the way we work at Facebook in unique and meaningful ways.",
+        "score": 0.4478
+      },
+      {
+        "id": "765d4a6f7f19",
+        "year": 2016,
+        "text": "Hear more from the people who work here.",
+        "score": 0.4386
+      },
+      {
+        "id": "bfdf93ebe78d",
+        "year": 2016,
+        "text": "We don’t have rules, we have values that guide the way we work and the decisions we make.",
+        "score": 0.4373
+      },
+      {
+        "id": "d4640928b666",
+        "year": 2016,
+        "text": "We want to make your workspace as convenient as possible so you can focus on connecting the world.",
+        "score": 0.4241
+      },
+      {
+        "id": "ec87928f92a8",
+        "year": 2016,
+        "text": "As we build a more connected world, it's important that we stay connected to each other.",
+        "score": 0.408
+      },
+      {
+        "id": "c2761d35b392",
+        "year": 2016,
+        "text": "We provide funding and support to help you make meaningful friendships at Facebook.",
+        "score": 0.3959
+      },
+      {
         "id": "05e3eb4295a2",
         "year": 2016,
         "text": "Our teams are small and nimble.",
         "score": 0.3866
+      },
+      {
+        "id": "e61142dc4a9a",
+        "year": 2016,
+        "text": "Connecting the world takes every one of us",
+        "score": 0.342
+      },
+      {
+        "id": "927b20fb53b4",
+        "year": 2016,
+        "text": "We offer a variety of classes and tools to increase your knowledge, build your skills and take charge of your career.",
+        "score": 0.3406
+      },
+      {
+        "id": "dbe2bbd2c014",
+        "year": 2016,
+        "text": "This sense of purpose is what inspires us to connect over a billion active users every day.",
+        "score": 0.3161
       },
       {
         "id": "02367b2f1ceb",
@@ -1184,12 +1911,42 @@
         "score": 0.3117
       },
       {
+        "id": "dc1c197108e5",
+        "year": 2016,
+        "text": "However you prefer to say it, we really mean it.",
+        "score": 0.3112
+      },
+      {
+        "id": "9c5f3c70ed63",
+        "year": 2016,
+        "text": "Medical, dental and vision insurance to keep you and your family healthy Medical second opinion service to make sure you get the best care Competitive retirement plans to help you plan for the future Life insurance and survivor support to give you peace of mind Generous vacation days so you can take time off when you need it Paid leave for new parents so you can bond with your family Support for family planning: adoption and surrogacy assistance, and baby cash to help with newborn expenses Wellness allowance to support all your healthy activities Transportation support for a stress-free commute Meals and snacks when you need them",
+        "score": 0.304
+      },
+      {
         "id": "818835c0fe25",
         "year": 2016,
         "text": "When you’re in charge of making a difference, there’s no limit to what you can do.",
         "score": 0.3013
       },
       {
+        "id": "313574689440",
+        "year": 2017,
+        "text": "Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
+        "score": 0.6646
+      },
+      {
+        "id": "14f93d5cecc3",
+        "year": 2017,
+        "text": "We’re determined to build a better, more connected world for everyone.",
+        "score": 0.5128
+      },
+      {
+        "id": "44b24768e8b4",
+        "year": 2017,
+        "text": "Hear from our team about what we hold important and how we get things done.",
+        "score": 0.5006
+      },
+      {
         "id": "17e4cb4df42b",
         "year": 2017,
         "text": "We work quickly and collaboratively to build smarter, more meaningful solutions on a global scale.",
@@ -1208,6 +1965,30 @@
         "score": 0.4704
       },
       {
+        "id": "680b74570877",
+        "year": 2017,
+        "text": "We design products and deliver services that create a more human world — one connection at a time.",
+        "score": 0.4668
+      },
+      {
+        "id": "5a7e52e51bc2",
+        "year": 2017,
+        "text": "People are at the heart of every connection we build.",
+        "score": 0.4567
+      },
+      {
+        "id": "bfdf93ebe78d",
+        "year": 2017,
+        "text": "We don’t have rules, we have values that guide the way we work and the decisions we make.",
+        "score": 0.4373
+      },
+      {
+        "id": "d8de44698b6d",
+        "year": 2017,
+        "text": "Facebook hosted a black leadership panel event to give people a safe space to discuss a hot topic in our country today — “How to have candid conversations about race and diversity in the Silicon Valley tech space.” Attendees with a background in tech came together to network, connect, and learn from one another.",
+        "score": 0.4094
+      },
+      {
         "id": "05e3eb4295a2",
         "year": 2017,
         "text": "Our teams are small and nimble.",
@@ -1220,10 +2001,40 @@
         "score": 0.3744
       },
       {
+        "id": "e61142dc4a9a",
+        "year": 2017,
+        "text": "Connecting the world takes every one of us",
+        "score": 0.342
+      },
+      {
+        "id": "dc1c197108e5",
+        "year": 2017,
+        "text": "However you prefer to say it, we really mean it.",
+        "score": 0.3112
+      },
+      {
         "id": "818835c0fe25",
         "year": 2017,
         "text": "When you’re in charge of making a difference, there’s no limit to what you can do.",
         "score": 0.3013
+      },
+      {
+        "id": "313574689440",
+        "year": 2018,
+        "text": "Our culture embraces people’s diverse perspectives and creates a positive environment where everyone belongs.",
+        "score": 0.6646
+      },
+      {
+        "id": "14f93d5cecc3",
+        "year": 2018,
+        "text": "We’re determined to build a better, more connected world for everyone.",
+        "score": 0.5128
+      },
+      {
+        "id": "44b24768e8b4",
+        "year": 2018,
+        "text": "Hear from our team about what we hold important and how we get things done.",
+        "score": 0.5006
       },
       {
         "id": "17e4cb4df42b",
@@ -1244,6 +2055,24 @@
         "score": 0.4704
       },
       {
+        "id": "5a7e52e51bc2",
+        "year": 2018,
+        "text": "People are at the heart of every connection we build.",
+        "score": 0.4567
+      },
+      {
+        "id": "bfdf93ebe78d",
+        "year": 2018,
+        "text": "We don’t have rules, we have values that guide the way we work and the decisions we make.",
+        "score": 0.4373
+      },
+      {
+        "id": "10f6a64abd7f",
+        "year": 2018,
+        "text": "We design products and deliver services that bring the world closer together — one connection at a time.",
+        "score": 0.4189
+      },
+      {
         "id": "05e3eb4295a2",
         "year": 2018,
         "text": "Our teams are small and nimble.",
@@ -1256,10 +2085,1330 @@
         "score": 0.3744
       },
       {
+        "id": "b439822b0bd3",
+        "year": 2018,
+        "text": "Connecting people, building community and bringing the world closer together happens in real time.",
+        "score": 0.3651
+      },
+      {
+        "id": "e61142dc4a9a",
+        "year": 2018,
+        "text": "Connecting the world takes every one of us",
+        "score": 0.342
+      },
+      {
+        "id": "dc1c197108e5",
+        "year": 2018,
+        "text": "However you prefer to say it, we really mean it.",
+        "score": 0.3112
+      },
+      {
         "id": "818835c0fe25",
         "year": 2018,
         "text": "When you’re in charge of making a difference, there’s no limit to what you can do.",
         "score": 0.3013
+      },
+      {
+        "id": "61cd11cd291a",
+        "year": 2019,
+        "text": "Every day, we encourage you to bring your authentic self to work.",
+        "score": 0.5897
+      },
+      {
+        "id": "c214397a3414",
+        "year": 2019,
+        "text": "Diversity is a must-have for Facebook, not an option.",
+        "score": 0.5124
+      },
+      {
+        "id": "732e887d33c8",
+        "year": 2019,
+        "text": "In everything we do, we’re guided by five core values.",
+        "score": 0.4669
+      },
+      {
+        "id": "5a7e52e51bc2",
+        "year": 2019,
+        "text": "People are at the heart of every connection we build.",
+        "score": 0.4567
+      },
+      {
+        "id": "44cac81a7a95",
+        "year": 2019,
+        "text": "And we’re committed to supporting the learning you need to grow.",
+        "score": 0.4352
+      },
+      {
+        "id": "2758de8aa3f7",
+        "year": 2019,
+        "text": "An internship program for students from underrepresented communities.",
+        "score": 0.4294
+      },
+      {
+        "id": "10f6a64abd7f",
+        "year": 2019,
+        "text": "We design products and deliver services that bring the world closer together — one connection at a time.",
+        "score": 0.4189
+      },
+      {
+        "id": "bafc211f98c0",
+        "year": 2019,
+        "text": "Learn about our hiring process and what to expect.",
+        "score": 0.4173
+      },
+      {
+        "id": "eacb474f06df",
+        "year": 2019,
+        "text": "The scale and complexity of our work are unprecedented, and the work we do makes a real difference in the lives of people around the world.",
+        "score": 0.415
+      },
+      {
+        "id": "7d05a49df3bc",
+        "year": 2019,
+        "text": "We make sure you have the resources and care for you to thrive.",
+        "score": 0.4123
+      },
+      {
+        "id": "70dcfa6c8f8c",
+        "year": 2019,
+        "text": "Jumpstart your career – and do important work.",
+        "score": 0.3816
+      },
+      {
+        "id": "c3e266dbda13",
+        "year": 2019,
+        "text": "At Facebook, you’ll do the best work of your career.",
+        "score": 0.3569
+      },
+      {
+        "id": "908379ffa226",
+        "year": 2019,
+        "text": "Jumpstart your career at Facebook and do exciting work.",
+        "score": 0.3543
+      },
+      {
+        "id": "194a758bcb58",
+        "year": 2019,
+        "text": "Veterans play a key role in helping us achieve our mission.",
+        "score": 0.3407
+      },
+      {
+        "id": "14aa9c46612e",
+        "year": 2020,
+        "text": "Hiring people with different backgrounds and experiences helps us build better products, make better decisions and better serve our clients.",
+        "score": 0.7255
+      },
+      {
+        "id": "1675457a2739",
+        "year": 2020,
+        "text": "Building a diverse team where everyone belongs is crucial to understanding where we're succeeding and where we need to do better.",
+        "score": 0.7128
+      },
+      {
+        "id": "22281ad26baf",
+        "year": 2020,
+        "text": "We are dedicated to building a team that reflects the diversity of the people, all around the globe, who use Facebook's products and services.",
+        "score": 0.6666
+      },
+      {
+        "id": "740caf29959f",
+        "year": 2020,
+        "text": "We’re committed to building a workforce that’s as diverse as the communities we serve, and strive to provide the best possible care and resources to help all of our employees thrive—at work, in their personal life and across every life stage.",
+        "score": 0.6645
+      },
+      {
+        "id": "914f2840e019",
+        "year": 2020,
+        "text": "We are proud of the impact diversity is having on who we are and what we do.",
+        "score": 0.6594
+      },
+      {
+        "id": "9b699af785cc",
+        "year": 2020,
+        "text": "We empower women through professional development opportunities and engage with men as equal partners in advancing gender diversity and inclusion.",
+        "score": 0.6108
+      },
+      {
+        "id": "2dc1c9d87687",
+        "year": 2020,
+        "text": "We focus on creating an open culture for all LGBTQ employees at Facebook.",
+        "score": 0.5964
+      },
+      {
+        "id": "39d34d335827",
+        "year": 2020,
+        "text": "We believe that enabling an open dialog to foster understanding of different belief systems creates an environment that is truly open and inclusive.",
+        "score": 0.5625
+      },
+      {
+        "id": "66f9d6146246",
+        "year": 2020,
+        "text": "We promote employee growth and development, as well as support recruitment and community engagement efforts through partnerships.",
+        "score": 0.556
+      },
+      {
+        "id": "b4dc4fbc2341",
+        "year": 2020,
+        "text": "We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics.",
+        "score": 0.5555
+      },
+      {
+        "id": "85d2676f3929",
+        "year": 2020,
+        "text": "We provide opportunities for people here to connect with likeminded peers and focus on creating spaces where people feel safe voicing concerns and suggesting solutions.",
+        "score": 0.5554
+      },
+      {
+        "id": "8c65ed0c9f72",
+        "year": 2020,
+        "text": "Facebook provides a variety of programs to help people who work here find community, tackle bias, and participate in building an inclusive workspace so we can all do the best work of our careers.",
+        "score": 0.5435
+      },
+      {
+        "id": "8595897edcab",
+        "year": 2020,
+        "text": "People from all backgrounds—with diverse experiences, perspectives, and ideas—rely on Facebook to build community.",
+        "score": 0.5402
+      },
+      {
+        "id": "319679982c9a",
+        "year": 2020,
+        "text": "We represent and celebrate all things Black@ at Facebook.",
+        "score": 0.5354
+      },
+      {
+        "id": "f187f1fc525c",
+        "year": 2020,
+        "text": "We welcome employees from all faiths and spiritual groups to practice and celebrate their beliefs.",
+        "score": 0.5232
+      },
+      {
+        "id": "8162bee1c213",
+        "year": 2020,
+        "text": "We're proud to have earned a 100% rating on the Human Rights Campaign Corporate Equality Index report.",
+        "score": 0.5181
+      },
+      {
+        "id": "44cbe6d7dc5a",
+        "year": 2020,
+        "text": "We are committed to connecting, supporting, and developing Latino and Hispanic employees at Facebook while promoting an inclusive community that fosters an appreciation for our culture.",
+        "score": 0.5143
+      },
+      {
+        "id": "e93e805e2491",
+        "year": 2020,
+        "text": "We are committed to connecting and building a community of women who feel open and connected to each other.",
+        "score": 0.5061
+      },
+      {
+        "id": "94dda6ff2e07",
+        "year": 2020,
+        "text": "Providing our communities with access to economic opportunity is a key part of our commitment to empowering the people who use our products and services.",
+        "score": 0.4979
+      },
+      {
+        "id": "4f1d5b7b1513",
+        "year": 2020,
+        "text": "And there's so much research that shows that you need diverse teams to do the best work.",
+        "score": 0.4932
+      },
+      {
+        "id": "a7fdcf7c5115",
+        "year": 2020,
+        "text": "From partnering with community organizations, to celebrating in Pride parades around the world, we're committed to building community and bringing the world closer together.",
+        "score": 0.4892
+      },
+      {
+        "id": "b6bc077a30ab",
+        "year": 2020,
+        "text": "So it's important that we do better on diversity, not only because it's the right thing to do for the country and for the people, but because that's the only way we're going to serve our community the best. – Mark Zuckerberg, Founder, Chairman and Chief Executive Officer To bring the world closer together, diversity is a must-have for Facebook, not an option.",
+        "score": 0.4853
+      },
+      {
+        "id": "1f1ab493447f",
+        "year": 2020,
+        "text": "Through employee development, engagement and in support of recruiting, Latin@ serves Facebook's mission to bring the world closer together.",
+        "score": 0.4832
+      },
+      {
+        "id": "7596195348fc",
+        "year": 2020,
+        "text": "We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law.",
+        "score": 0.4822
+      },
+      {
+        "id": "42c70130327c",
+        "year": 2020,
+        "text": "Facebook Resource Groups are influential networks of people who share similar values of supporting and encouraging diversity Building for all means providing opportunity for all.",
+        "score": 0.4807
+      },
+      {
+        "id": "84c269f82a30",
+        "year": 2020,
+        "text": "We celebrate the unique contributions of women to Facebook.",
+        "score": 0.4806
+      },
+      {
+        "id": "6818adafffa0",
+        "year": 2020,
+        "text": "At Facebook, we help care for our people so they can focus on our mission of bringing the world closer together.",
+        "score": 0.4749
+      },
+      {
+        "id": "ca28dbb47249",
+        "year": 2020,
+        "text": "We focus on raising awareness, internally and externally, about the issues and opportunities facing the Differently Abled community.",
+        "score": 0.4721
+      },
+      {
+        "id": "5bf3307a4383",
+        "year": 2020,
+        "text": "Together we foster a sense of community and belonging by sharing our stories with each other, celebrating our diverse culture and bringing awareness to issues that impact Native communities.",
+        "score": 0.4663
+      },
+      {
+        "id": "09c9c7c975ff",
+        "year": 2020,
+        "text": "We serve to connect, celebrate and empower Facebook employees, friends and family who are Differently Abled -- physical, mental or cognitive.",
+        "score": 0.4638
+      },
+      {
+        "id": "1cdf1969dca5",
+        "year": 2020,
+        "text": "We represent the Asian & Pacific Islanders community at Facebook and provide the opportunity to learn about the cultural diversity that comprises API.",
+        "score": 0.4601
+      },
+      {
+        "id": "6e98166556cf",
+        "year": 2020,
+        "text": "You may view our Equal Employment Opportunity notice here.",
+        "score": 0.4557
+      },
+      {
+        "id": "f9842890826c",
+        "year": 2020,
+        "text": "We participate in local and national events through sponsorships and training opportunities that encourage recruitment and community involvement.",
+        "score": 0.4548
+      },
+      {
+        "id": "87a1eea0e402",
+        "year": 2020,
+        "text": "This Hispanic Heritage Month, our Latin@ group brought our community together to celebrate our diverse cultures and the power of voice.",
+        "score": 0.4466
+      },
+      {
+        "id": "7ed791a0b72e",
+        "year": 2020,
+        "text": "We play a critical role in helping Facebook connect and engage with the Veteran community through recruiting, engagement with external organizations and raising awareness about the value we bring to Facebook.",
+        "score": 0.4402
+      },
+      {
+        "id": "326f6acd63f3",
+        "year": 2020,
+        "text": "We support professional development for members and facilitate community engagement through efforts supporting local, API-owned nonprofits and small businesses.",
+        "score": 0.4304
+      },
+      {
+        "id": "6582c7a50e9c",
+        "year": 2020,
+        "text": "We offer a wide range of benefits in areas including health, family, finance, community and time away.",
+        "score": 0.4267
+      },
+      {
+        "id": "25343e9cee40",
+        "year": 2020,
+        "text": "Allow us to introduce a few of the people making a difference at Facebook.",
+        "score": 0.4211
+      },
+      {
+        "id": "679e81034628",
+        "year": 2020,
+        "text": "Frankly, I think [diversity is] our problem to figure out.",
+        "score": 0.4128
+      },
+      {
+        "id": "67afbeb48ca3",
+        "year": 2020,
+        "text": "Through programs dedicated to helping people build their skills, access employment opportunities, grow their businesses, and get online, we help our communities thrive.",
+        "score": 0.412
+      },
+      {
+        "id": "c0e64172db4a",
+        "year": 2020,
+        "text": "Ale T. , Employee Relations Partner, Facebook Sao Paulo Imani D. , Global Head of Technical Analytics, Business, Facebook Menlo Park Mirella D. , Solutions Engineer, Facebook Latin America Sophie A. , Software Engineer, Facebook Tel Aviv Our efforts to find, grow and keep diverse talent are delivering tangible results — and we're just getting started.",
+        "score": 0.4078
+      },
+      {
+        "id": "e6307397961c",
+        "year": 2020,
+        "text": "Join a Facebook Resource Group and be a catalyst for ensuring a fully inclusive and open environment that provides opportunities for everyone to contribute to Facebook’s success We want you to take time away when you need it.",
+        "score": 0.3998
+      },
+      {
+        "id": "8ab1cde5d4dc",
+        "year": 2020,
+        "text": "We provide Facebook with a critical perspective on issues facing the Black community.",
+        "score": 0.392
+      },
+      {
+        "id": "3245f4494b4a",
+        "year": 2020,
+        "text": "I think that responsibility rests on us and our companies in the industry to make sure that we get to that.",
+        "score": 0.3915
+      },
+      {
+        "id": "b0ba97d5b8df",
+        "year": 2020,
+        "text": "Through Life@ Facebook, our holistic approach to benefits, we make sure you and your loved ones have the resources you need to thrive.",
+        "score": 0.3881
+      },
+      {
+        "id": "ae85623d3198",
+        "year": 2020,
+        "text": "Hear from leaders across our family of apps, to find out what struck a chord with them.",
+        "score": 0.3808
+      },
+      {
+        "id": "dbabd7760321",
+        "year": 2020,
+        "text": "Facebook is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures.",
+        "score": 0.3706
+      },
+      {
+        "id": "6f469805b8e4",
+        "year": 2020,
+        "text": "Facebook’s external affairs initiatives are designed to help us gather input from a wide variety of perspectives and build platforms that give people a voice while keeping our communities safe.",
+        "score": 0.365
+      },
+      {
+        "id": "53d45bc80185",
+        "year": 2020,
+        "text": "We asked our community of women at Facebook, \"What's the best career advice you've been given?\".",
+        "score": 0.3559
+      },
+      {
+        "id": "c8c8e2bd28d6",
+        "year": 2020,
+        "text": "If you need assistance or an accommodation due to a disability, you may contact us at accommodations-ext@fb.com Upload your resume or share your LinkedIn profile with our recruiting team.",
+        "score": 0.3549
+      },
+      {
+        "id": "eb9aa8d7aa55",
+        "year": 2020,
+        "text": "A unique program that supports you in building meaningful connections at Facebook",
+        "score": 0.354
+      },
+      {
+        "id": "1f3b6a839974",
+        "year": 2020,
+        "text": "You may view Facebook's Pay Transparency Policy, Equal Employment Opportunity is the Law notice, and Notice to Applicants for Employment and Employees by clicking on their corresponding links.",
+        "score": 0.3462
+      },
+      {
+        "id": "c0f253468160",
+        "year": 2020,
+        "text": "Facebook invests in programs we believe will deepen the skills of future engineering graduates, helping them understand the immense opportunity that exists in the tech field, and prepare for a career in tech.",
+        "score": 0.3426
+      },
+      {
+        "id": "6ecd65f45e01",
+        "year": 2020,
+        "text": "Native@ is the voice for individuals working at Facebook who represent Native Americans, American Indians, First Nations, Alaskan Natives, Native Hawaiians, and other indigenous communities.",
+        "score": 0.3372
+      },
+      {
+        "id": "a1d912546920",
+        "year": 2020,
+        "text": "Keep exploring this site to learn more about the benefits Facebook provides to its employees.",
+        "score": 0.3273
+      },
+      {
+        "id": "2d774f52f97e",
+        "year": 2020,
+        "text": "Working as a technical program manager on the Social VR (Virtual Reality) team has been one...",
+        "score": 0.3164
+      },
+      {
+        "id": "0d1163fe18cf",
+        "year": 2020,
+        "text": "A 30-day paid break every five years Leave programs so that you can take the time you need to care for yourself or your family when you need it Facebook is proud to be an Equal Employment Opportunity and Affirmative Action employer.",
+        "score": 0.3146
+      },
+      {
+        "id": "dc1c197108e5",
+        "year": 2020,
+        "text": "However you prefer to say it, we really mean it.",
+        "score": 0.3112
+      },
+      {
+        "id": "14aa9c46612e",
+        "year": 2021,
+        "text": "Hiring people with different backgrounds and experiences helps us build better products, make better decisions and better serve our clients.",
+        "score": 0.7255
+      },
+      {
+        "id": "1675457a2739",
+        "year": 2021,
+        "text": "Building a diverse team where everyone belongs is crucial to understanding where we're succeeding and where we need to do better.",
+        "score": 0.7128
+      },
+      {
+        "id": "22281ad26baf",
+        "year": 2021,
+        "text": "We are dedicated to building a team that reflects the diversity of the people, all around the globe, who use Facebook's products and services.",
+        "score": 0.6666
+      },
+      {
+        "id": "740caf29959f",
+        "year": 2021,
+        "text": "We’re committed to building a workforce that’s as diverse as the communities we serve, and strive to provide the best possible care and resources to help all of our employees thrive—at work, in their personal life and across every life stage.",
+        "score": 0.6645
+      },
+      {
+        "id": "914f2840e019",
+        "year": 2021,
+        "text": "We are proud of the impact diversity is having on who we are and what we do.",
+        "score": 0.6594
+      },
+      {
+        "id": "9b699af785cc",
+        "year": 2021,
+        "text": "We empower women through professional development opportunities and engage with men as equal partners in advancing gender diversity and inclusion.",
+        "score": 0.6108
+      },
+      {
+        "id": "2dc1c9d87687",
+        "year": 2021,
+        "text": "We focus on creating an open culture for all LGBTQ employees at Facebook.",
+        "score": 0.5964
+      },
+      {
+        "id": "39d34d335827",
+        "year": 2021,
+        "text": "We believe that enabling an open dialog to foster understanding of different belief systems creates an environment that is truly open and inclusive.",
+        "score": 0.5625
+      },
+      {
+        "id": "66f9d6146246",
+        "year": 2021,
+        "text": "We promote employee growth and development, as well as support recruitment and community engagement efforts through partnerships.",
+        "score": 0.556
+      },
+      {
+        "id": "85d2676f3929",
+        "year": 2021,
+        "text": "We provide opportunities for people here to connect with likeminded peers and focus on creating spaces where people feel safe voicing concerns and suggesting solutions.",
+        "score": 0.5554
+      },
+      {
+        "id": "8c65ed0c9f72",
+        "year": 2021,
+        "text": "Facebook provides a variety of programs to help people who work here find community, tackle bias, and participate in building an inclusive workspace so we can all do the best work of our careers.",
+        "score": 0.5435
+      },
+      {
+        "id": "8595897edcab",
+        "year": 2021,
+        "text": "People from all backgrounds—with diverse experiences, perspectives, and ideas—rely on Facebook to build community.",
+        "score": 0.5402
+      },
+      {
+        "id": "319679982c9a",
+        "year": 2021,
+        "text": "We represent and celebrate all things Black@ at Facebook.",
+        "score": 0.5354
+      },
+      {
+        "id": "f187f1fc525c",
+        "year": 2021,
+        "text": "We welcome employees from all faiths and spiritual groups to practice and celebrate their beliefs.",
+        "score": 0.5232
+      },
+      {
+        "id": "8162bee1c213",
+        "year": 2021,
+        "text": "We're proud to have earned a 100% rating on the Human Rights Campaign Corporate Equality Index report.",
+        "score": 0.5181
+      },
+      {
+        "id": "44cbe6d7dc5a",
+        "year": 2021,
+        "text": "We are committed to connecting, supporting, and developing Latino and Hispanic employees at Facebook while promoting an inclusive community that fosters an appreciation for our culture.",
+        "score": 0.5143
+      },
+      {
+        "id": "e93e805e2491",
+        "year": 2021,
+        "text": "We are committed to connecting and building a community of women who feel open and connected to each other.",
+        "score": 0.5061
+      },
+      {
+        "id": "94dda6ff2e07",
+        "year": 2021,
+        "text": "Providing our communities with access to economic opportunity is a key part of our commitment to empowering the people who use our products and services.",
+        "score": 0.4979
+      },
+      {
+        "id": "4f1d5b7b1513",
+        "year": 2021,
+        "text": "And there's so much research that shows that you need diverse teams to do the best work.",
+        "score": 0.4932
+      },
+      {
+        "id": "a7fdcf7c5115",
+        "year": 2021,
+        "text": "From partnering with community organizations, to celebrating in Pride parades around the world, we're committed to building community and bringing the world closer together.",
+        "score": 0.4892
+      },
+      {
+        "id": "b6bc077a30ab",
+        "year": 2021,
+        "text": "So it's important that we do better on diversity, not only because it's the right thing to do for the country and for the people, but because that's the only way we're going to serve our community the best. – Mark Zuckerberg, Founder, Chairman and Chief Executive Officer To bring the world closer together, diversity is a must-have for Facebook, not an option.",
+        "score": 0.4853
+      },
+      {
+        "id": "1f1ab493447f",
+        "year": 2021,
+        "text": "Through employee development, engagement and in support of recruiting, Latin@ serves Facebook's mission to bring the world closer together.",
+        "score": 0.4832
+      },
+      {
+        "id": "42c70130327c",
+        "year": 2021,
+        "text": "Facebook Resource Groups are influential networks of people who share similar values of supporting and encouraging diversity Building for all means providing opportunity for all.",
+        "score": 0.4807
+      },
+      {
+        "id": "84c269f82a30",
+        "year": 2021,
+        "text": "We celebrate the unique contributions of women to Facebook.",
+        "score": 0.4806
+      },
+      {
+        "id": "ca28dbb47249",
+        "year": 2021,
+        "text": "We focus on raising awareness, internally and externally, about the issues and opportunities facing the Differently Abled community.",
+        "score": 0.4721
+      },
+      {
+        "id": "5bf3307a4383",
+        "year": 2021,
+        "text": "Together we foster a sense of community and belonging by sharing our stories with each other, celebrating our diverse culture and bringing awareness to issues that impact Native communities.",
+        "score": 0.4663
+      },
+      {
+        "id": "09c9c7c975ff",
+        "year": 2021,
+        "text": "We serve to connect, celebrate and empower Facebook employees, friends and family who are Differently Abled -- physical, mental or cognitive.",
+        "score": 0.4638
+      },
+      {
+        "id": "1cdf1969dca5",
+        "year": 2021,
+        "text": "We represent the Asian & Pacific Islanders community at Facebook and provide the opportunity to learn about the cultural diversity that comprises API.",
+        "score": 0.4601
+      },
+      {
+        "id": "f9842890826c",
+        "year": 2021,
+        "text": "We participate in local and national events through sponsorships and training opportunities that encourage recruitment and community involvement.",
+        "score": 0.4548
+      },
+      {
+        "id": "87a1eea0e402",
+        "year": 2021,
+        "text": "This Hispanic Heritage Month, our Latin@ group brought our community together to celebrate our diverse cultures and the power of voice.",
+        "score": 0.4466
+      },
+      {
+        "id": "7ed791a0b72e",
+        "year": 2021,
+        "text": "We play a critical role in helping Facebook connect and engage with the Veteran community through recruiting, engagement with external organizations and raising awareness about the value we bring to Facebook.",
+        "score": 0.4402
+      },
+      {
+        "id": "326f6acd63f3",
+        "year": 2021,
+        "text": "We support professional development for members and facilitate community engagement through efforts supporting local, API-owned nonprofits and small businesses.",
+        "score": 0.4304
+      },
+      {
+        "id": "25343e9cee40",
+        "year": 2021,
+        "text": "Allow us to introduce a few of the people making a difference at Facebook.",
+        "score": 0.4211
+      },
+      {
+        "id": "679e81034628",
+        "year": 2021,
+        "text": "Frankly, I think [diversity is] our problem to figure out.",
+        "score": 0.4128
+      },
+      {
+        "id": "67afbeb48ca3",
+        "year": 2021,
+        "text": "Through programs dedicated to helping people build their skills, access employment opportunities, grow their businesses, and get online, we help our communities thrive.",
+        "score": 0.412
+      },
+      {
+        "id": "d35b8fd978f8",
+        "year": 2021,
+        "text": "Ale T. , Employee Relations Partner, Facebook Sao Paulo Imani D. , Global Head of Technical Analytics, Business, Facebook Menlo Park Mirella D. , Solutions Engineer, Facebook Latin America Hani S. , Software Engineering Manager, Facebook Tel Aviv Our efforts to find, grow and keep diverse talent are delivering tangible results — and we're just getting started.",
+        "score": 0.4075
+      },
+      {
+        "id": "8ab1cde5d4dc",
+        "year": 2021,
+        "text": "We provide Facebook with a critical perspective on issues facing the Black community.",
+        "score": 0.392
+      },
+      {
+        "id": "3245f4494b4a",
+        "year": 2021,
+        "text": "I think that responsibility rests on us and our companies in the industry to make sure that we get to that.",
+        "score": 0.3915
+      },
+      {
+        "id": "ae85623d3198",
+        "year": 2021,
+        "text": "Hear from leaders across our family of apps, to find out what struck a chord with them.",
+        "score": 0.3808
+      },
+      {
+        "id": "6f469805b8e4",
+        "year": 2021,
+        "text": "Facebook’s external affairs initiatives are designed to help us gather input from a wide variety of perspectives and build platforms that give people a voice while keeping our communities safe.",
+        "score": 0.365
+      },
+      {
+        "id": "53d45bc80185",
+        "year": 2021,
+        "text": "We asked our community of women at Facebook, \"What's the best career advice you've been given?\".",
+        "score": 0.3559
+      },
+      {
+        "id": "c0f253468160",
+        "year": 2021,
+        "text": "Facebook invests in programs we believe will deepen the skills of future engineering graduates, helping them understand the immense opportunity that exists in the tech field, and prepare for a career in tech.",
+        "score": 0.3426
+      },
+      {
+        "id": "6ecd65f45e01",
+        "year": 2021,
+        "text": "Native@ is the voice for individuals working at Facebook who represent Native Americans, American Indians, First Nations, Alaskan Natives, Native Hawaiians, and other indigenous communities.",
+        "score": 0.3372
+      },
+      {
+        "id": "2d774f52f97e",
+        "year": 2021,
+        "text": "Working as a technical program manager on the Social VR (Virtual Reality) team has been one...",
+        "score": 0.3164
+      },
+      {
+        "id": "dc1c197108e5",
+        "year": 2021,
+        "text": "However you prefer to say it, we really mean it.",
+        "score": 0.3112
+      },
+      {
+        "id": "14aa9c46612e",
+        "year": 2022,
+        "text": "Hiring people with different backgrounds and experiences helps us build better products, make better decisions and better serve our clients.",
+        "score": 0.7255
+      },
+      {
+        "id": "1675457a2739",
+        "year": 2022,
+        "text": "Building a diverse team where everyone belongs is crucial to understanding where we're succeeding and where we need to do better.",
+        "score": 0.7128
+      },
+      {
+        "id": "22281ad26baf",
+        "year": 2022,
+        "text": "We are dedicated to building a team that reflects the diversity of the people, all around the globe, who use Facebook's products and services.",
+        "score": 0.6666
+      },
+      {
+        "id": "740caf29959f",
+        "year": 2022,
+        "text": "We’re committed to building a workforce that’s as diverse as the communities we serve, and strive to provide the best possible care and resources to help all of our employees thrive—at work, in their personal life and across every life stage.",
+        "score": 0.6645
+      },
+      {
+        "id": "914f2840e019",
+        "year": 2022,
+        "text": "We are proud of the impact diversity is having on who we are and what we do.",
+        "score": 0.6594
+      },
+      {
+        "id": "01b5192de50c",
+        "year": 2022,
+        "text": "From our holistic benefits to our commitment to diversity to our personalized approach to flexibility, we focus on building an inclusive environment that’s welcoming for everyone who works at Facebook.",
+        "score": 0.608
+      },
+      {
+        "id": "b4dc4fbc2341",
+        "year": 2022,
+        "text": "We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics.",
+        "score": 0.5555
+      },
+      {
+        "id": "85d2676f3929",
+        "year": 2022,
+        "text": "We provide opportunities for people here to connect with likeminded peers and focus on creating spaces where people feel safe voicing concerns and suggesting solutions.",
+        "score": 0.5554
+      },
+      {
+        "id": "8c65ed0c9f72",
+        "year": 2022,
+        "text": "Facebook provides a variety of programs to help people who work here find community, tackle bias, and participate in building an inclusive workspace so we can all do the best work of our careers.",
+        "score": 0.5435
+      },
+      {
+        "id": "8595897edcab",
+        "year": 2022,
+        "text": "People from all backgrounds—with diverse experiences, perspectives, and ideas—rely on Facebook to build community.",
+        "score": 0.5402
+      },
+      {
+        "id": "3dea2b29aede",
+        "year": 2022,
+        "text": "We work on things we’re incredibly passionate about, that align with our values and purpose, and that have a positive impact on the world.",
+        "score": 0.5242
+      },
+      {
+        "id": "81561991f215",
+        "year": 2022,
+        "text": "Meta is proud to be an Equal Employment Opportunity and Affirmative Action employer.",
+        "score": 0.4992
+      },
+      {
+        "id": "94dda6ff2e07",
+        "year": 2022,
+        "text": "Providing our communities with access to economic opportunity is a key part of our commitment to empowering the people who use our products and services.",
+        "score": 0.4979
+      },
+      {
+        "id": "097c9bb7523d",
+        "year": 2022,
+        "text": "Our people focus on creating real value for the world — every day and in everything they do.",
+        "score": 0.4963
+      },
+      {
+        "id": "4f1d5b7b1513",
+        "year": 2022,
+        "text": "And there's so much research that shows that you need diverse teams to do the best work.",
+        "score": 0.4932
+      },
+      {
+        "id": "b6bc077a30ab",
+        "year": 2022,
+        "text": "So it's important that we do better on diversity, not only because it's the right thing to do for the country and for the people, but because that's the only way we're going to serve our community the best. – Mark Zuckerberg, Founder, Chairman and Chief Executive Officer To bring the world closer together, diversity is a must-have for Facebook, not an option.",
+        "score": 0.4853
+      },
+      {
+        "id": "7596195348fc",
+        "year": 2022,
+        "text": "We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law.",
+        "score": 0.4822
+      },
+      {
+        "id": "64fd5302ec25",
+        "year": 2022,
+        "text": "We know there’s no one-size-fits-all approach to flexibility that allows everyone to manage work and life, which is why we provide multiple flexible work options to help employees do their best work.",
+        "score": 0.4813
+      },
+      {
+        "id": "42c70130327c",
+        "year": 2022,
+        "text": "Facebook Resource Groups are influential networks of people who share similar values of supporting and encouraging diversity Building for all means providing opportunity for all.",
+        "score": 0.4807
+      },
+      {
+        "id": "44e95a454ab2",
+        "year": 2022,
+        "text": "We empower people here to connect with each other, build community, and do work that is meaningful for them, for Facebook, and for the people who use our apps and technologies.",
+        "score": 0.4773
+      },
+      {
+        "id": "cad559062f8e",
+        "year": 2022,
+        "text": "Join an employee resource group and be a catalyst for ensuring a fully inclusive environment that provides opportunities for everyone to contribute to Meta's success We want you to take time away when you need it.",
+        "score": 0.4721
+      },
+      {
+        "id": "9d2f31c8fd6e",
+        "year": 2022,
+        "text": "Informed people make better decisions and make a greater impact — so we work hard to ensure that everyone at Facebook can access as much information about the company as possible.",
+        "score": 0.4643
+      },
+      {
+        "id": "e29d1e0ac122",
+        "year": 2022,
+        "text": "Our philosophy of everyday flexibility allows people and teams to determine patterns of work, collaboration, and connection that work best for them.",
+        "score": 0.4559
+      },
+      {
+        "id": "6e98166556cf",
+        "year": 2022,
+        "text": "You may view our Equal Employment Opportunity notice here.",
+        "score": 0.4557
+      },
+      {
+        "id": "632dc87f0850",
+        "year": 2022,
+        "text": "At Meta, we help care for our people so they can focus on our mission.",
+        "score": 0.4511
+      },
+      {
+        "id": "a1d02eb2c3cb",
+        "year": 2022,
+        "text": "Our company mission guides our innovative decision making, from the way our teams think, plan, and build, to hardware initiatives, AI, commerce, Reality Labs, and beyond.",
+        "score": 0.4465
+      },
+      {
+        "id": "53d562ef148e",
+        "year": 2022,
+        "text": "We believe that innovation leads to a more connected world.",
+        "score": 0.4459
+      },
+      {
+        "id": "4df014a58515",
+        "year": 2022,
+        "text": "At Facebook, you’ll have the opportunity to work with great people, tackle big challenges and make a real impact, wherever you work—while being your unique, authentic self.",
+        "score": 0.4455
+      },
+      {
+        "id": "5c8c04a7d90d",
+        "year": 2022,
+        "text": "At Facebook, we’re trying to bring the world closer together — not just grow our business.",
+        "score": 0.432
+      },
+      {
+        "id": "cb349ce79ffe",
+        "year": 2022,
+        "text": "You can bring your values to do work that matters—not just to you, but to the world.",
+        "score": 0.4216
+      },
+      {
+        "id": "25343e9cee40",
+        "year": 2022,
+        "text": "Allow us to introduce a few of the people making a difference at Facebook.",
+        "score": 0.4211
+      },
+      {
+        "id": "df978a5cea04",
+        "year": 2022,
+        "text": "Join an employee club—or create your own and build meaningful connections with other people who work at Meta",
+        "score": 0.4162
+      },
+      {
+        "id": "679e81034628",
+        "year": 2022,
+        "text": "Frankly, I think [diversity is] our problem to figure out.",
+        "score": 0.4128
+      },
+      {
+        "id": "67afbeb48ca3",
+        "year": 2022,
+        "text": "Through programs dedicated to helping people build their skills, access employment opportunities, grow their businesses, and get online, we help our communities thrive.",
+        "score": 0.412
+      },
+      {
+        "id": "d35b8fd978f8",
+        "year": 2022,
+        "text": "Ale T. , Employee Relations Partner, Facebook Sao Paulo Imani D. , Global Head of Technical Analytics, Business, Facebook Menlo Park Mirella D. , Solutions Engineer, Facebook Latin America Hani S. , Software Engineering Manager, Facebook Tel Aviv Our efforts to find, grow and keep diverse talent are delivering tangible results — and we're just getting started.",
+        "score": 0.4075
+      },
+      {
+        "id": "5fbe76c8d660",
+        "year": 2022,
+        "text": "Meta is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures.",
+        "score": 0.4017
+      },
+      {
+        "id": "3245f4494b4a",
+        "year": 2022,
+        "text": "I think that responsibility rests on us and our companies in the industry to make sure that we get to that.",
+        "score": 0.3915
+      },
+      {
+        "id": "7d1eb761fb13",
+        "year": 2022,
+        "text": "We believe that it’s better to move fast and make mistakes than to move slowly and miss opportunities.",
+        "score": 0.3891
+      },
+      {
+        "id": "b2bd13eec127",
+        "year": 2022,
+        "text": "You may view Meta's Pay Transparency Policy, Equal Employment Opportunity is the Law notice, and Notice to Applicants for Employment and Employees by clicking on their corresponding links.",
+        "score": 0.3816
+      },
+      {
+        "id": "549d022d365e",
+        "year": 2022,
+        "text": "Share your resume or LinkedIn profile with our recruiting team and create personalized job alerts.",
+        "score": 0.3754
+      },
+      {
+        "id": "ed9a32d672c1",
+        "year": 2022,
+        "text": "It's a self-starter culture, we aren't told what to do to achieve results.",
+        "score": 0.3718
+      },
+      {
+        "id": "2bba0c66dd51",
+        "year": 2022,
+        "text": "We expect Facebook employees to avoid wasting time on minor issues and focus on truly big challenges.",
+        "score": 0.3669
+      },
+      {
+        "id": "bdbf939a159c",
+        "year": 2022,
+        "text": "A 30-day paid break every five years Leave programs so that you can take the time you need to care for yourself or your family when you need it Meta is proud to be an Equal Employment Opportunity and Affirmative Action employer.",
+        "score": 0.3462
+      },
+      {
+        "id": "16a14028f405",
+        "year": 2022,
+        "text": "Doing so enables us to build more things and learn faster.",
+        "score": 0.345
+      },
+      {
+        "id": "c0f253468160",
+        "year": 2022,
+        "text": "Facebook invests in programs we believe will deepen the skills of future engineering graduates, helping them understand the immense opportunity that exists in the tech field, and prepare for a career in tech.",
+        "score": 0.3426
+      },
+      {
+        "id": "f70f6835f158",
+        "year": 2022,
+        "text": "Building great things means taking risks.",
+        "score": 0.3378
+      },
+      {
+        "id": "041d7c2fe017",
+        "year": 2022,
+        "text": "Additionally, Meta participates in the E-Verify program in certain locations, as required by law.",
+        "score": 0.3323
+      },
+      {
+        "id": "85856ef67321",
+        "year": 2022,
+        "text": "If you need assistance or an accommodation due to a disability, you may contact us at accommodations-ext@fb.com .",
+        "score": 0.3318
+      },
+      {
+        "id": "d451e9e2997a",
+        "year": 2022,
+        "text": "In many roles, employees can choose between working remotely, working at a Facebook office, or a combination of both.",
+        "score": 0.3314
+      },
+      {
+        "id": "ff36fc4b55b5",
+        "year": 2022,
+        "text": "Because everyone has their own needs, our Life@ benefits program is designed to give you your choice of flexible benefits to help you and your family reach your personal and well-being goals.",
+        "score": 0.3259
+      },
+      {
+        "id": "dcfe1c67e2e5",
+        "year": 2022,
+        "text": "Our holistic well-being programs include benefits to help boost your physical health, build resilience to manage mental health and stay healthy in all areas of life.",
+        "score": 0.3214
+      },
+      {
+        "id": "87c6c115624e",
+        "year": 2022,
+        "text": "We use AI to help people get information that’s important to them in a more seamless way.",
+        "score": 0.3214
+      },
+      {
+        "id": "335aafbcfd6f",
+        "year": 2023,
+        "text": "Working collectively and valuing each person for the differences we bring allows us all to do more.",
+        "score": 0.6053
+      },
+      {
+        "id": "ebb558229d8d",
+        "year": 2023,
+        "text": "Let’s build the future of work that we want, with an in-person focus designed to support a strong, valuable experience for our people who have chosen to work from the office, and a thoughtful and intentional approach to where we invest in remote work.",
+        "score": 0.5274
+      },
+      {
+        "id": "9ab8de8ce6e6",
+        "year": 2023,
+        "text": "We create a culture where we are straightforward and willing to have hard conversations with each other.",
+        "score": 0.518
+      },
+      {
+        "id": "7a761c398626",
+        "year": 2023,
+        "text": "We have a sense of responsibility for our collective success and to each other as teammates.",
+        "score": 0.4875
+      },
+      {
+        "id": "6d6661a7a39f",
+        "year": 2023,
+        "text": "We continuously work to speed up our highest priority initiatives by methodically removing barriers that get in the way.",
+        "score": 0.4646
+      },
+      {
+        "id": "cc0220ea6ae4",
+        "year": 2023,
+        "text": "We are stewards of our company and our mission.",
+        "score": 0.4623
+      },
+      {
+        "id": "b49f28f31f3a",
+        "year": 2023,
+        "text": "These six values guide how we work, each and every day.",
+        "score": 0.4577
+      },
+      {
+        "id": "38f2c3a625af",
+        "year": 2023,
+        "text": "It’s about taking care of our company and each other.",
+        "score": 0.4393
+      },
+      {
+        "id": "7064b0949b04",
+        "year": 2023,
+        "text": "It’s in our technologies, our mission and how we collaborate.",
+        "score": 0.4364
+      },
+      {
+        "id": "bc425b6fda4b",
+        "year": 2023,
+        "text": "At the same time, we are also respectful and when we share feedback, we recognize that many of the world’s leading experts work here.",
+        "score": 0.4344
+      },
+      {
+        "id": "00e0398d360d",
+        "year": 2023,
+        "text": "It’s about moving fast in one direction together–as a company and as individuals.",
+        "score": 0.4193
+      },
+      {
+        "id": "4d4ebb3e38ca",
+        "year": 2023,
+        "text": "We push ourselves to ship things that are not just good, but also awe-inspiring.",
+        "score": 0.4124
+      },
+      {
+        "id": "67f8f1e2117a",
+        "year": 2023,
+        "text": "We emphasize long-term thinking that encourages us to extend the timeline for the impact we have, rather than optimizing for near-term wins.",
+        "score": 0.4123
+      },
+      {
+        "id": "5405913ab9bd",
+        "year": 2023,
+        "text": "Build the future of how people connect.",
+        "score": 0.3924
+      },
+      {
+        "id": "804fbe1c2a35",
+        "year": 2023,
+        "text": "This also means being early adopters of the future products we build to help people feel present together wherever they are.",
+        "score": 0.3826
+      },
+      {
+        "id": "6e846cb35dfe",
+        "year": 2023,
+        "text": "At Meta, everything we do is about helping people feel connected and closer.",
+        "score": 0.3777
+      },
+      {
+        "id": "621e33c79914",
+        "year": 2023,
+        "text": "In our next chapter, we’ll focus more on inspiring them as well, in everything we do.",
+        "score": 0.3601
+      },
+      {
+        "id": "fa02e5290934",
+        "year": 2023,
+        "text": "We build and learn faster than anyone else.",
+        "score": 0.3571
+      },
+      {
+        "id": "96bc6e12f1db",
+        "year": 2023,
+        "text": "The pace is fast and the challenges are enormous, but this is how we thrive.",
+        "score": 0.3255
+      },
+      {
+        "id": "af67f4c5f266",
+        "year": 2023,
+        "text": "Be direct and respect your colleagues",
+        "score": 0.3225
+      },
+      {
+        "id": "54b7ba130fcf",
+        "year": 2023,
+        "text": "We should take on the challenges that will be the most impactful, even if the full results won’t be seen for years.",
+        "score": 0.3065
+      },
+      {
+        "id": "02f2d8e7f79e",
+        "year": 2023,
+        "text": "We’ve already built products that are useful to billions of people.",
+        "score": 0.3064
+      },
+      {
+        "id": "335aafbcfd6f",
+        "year": 2024,
+        "text": "Working collectively and valuing each person for the differences we bring allows us all to do more.",
+        "score": 0.6053
+      },
+      {
+        "id": "ebb558229d8d",
+        "year": 2024,
+        "text": "Let’s build the future of work that we want, with an in-person focus designed to support a strong, valuable experience for our people who have chosen to work from the office, and a thoughtful and intentional approach to where we invest in remote work.",
+        "score": 0.5274
+      },
+      {
+        "id": "9ab8de8ce6e6",
+        "year": 2024,
+        "text": "We create a culture where we are straightforward and willing to have hard conversations with each other.",
+        "score": 0.518
+      },
+      {
+        "id": "7a761c398626",
+        "year": 2024,
+        "text": "We have a sense of responsibility for our collective success and to each other as teammates.",
+        "score": 0.4875
+      },
+      {
+        "id": "6d6661a7a39f",
+        "year": 2024,
+        "text": "We continuously work to speed up our highest priority initiatives by methodically removing barriers that get in the way.",
+        "score": 0.4646
+      },
+      {
+        "id": "cc0220ea6ae4",
+        "year": 2024,
+        "text": "We are stewards of our company and our mission.",
+        "score": 0.4623
+      },
+      {
+        "id": "b49f28f31f3a",
+        "year": 2024,
+        "text": "These six values guide how we work, each and every day.",
+        "score": 0.4577
+      },
+      {
+        "id": "38f2c3a625af",
+        "year": 2024,
+        "text": "It’s about taking care of our company and each other.",
+        "score": 0.4393
+      },
+      {
+        "id": "7064b0949b04",
+        "year": 2024,
+        "text": "It’s in our technologies, our mission and how we collaborate.",
+        "score": 0.4364
+      },
+      {
+        "id": "bc425b6fda4b",
+        "year": 2024,
+        "text": "At the same time, we are also respectful and when we share feedback, we recognize that many of the world’s leading experts work here.",
+        "score": 0.4344
+      },
+      {
+        "id": "00e0398d360d",
+        "year": 2024,
+        "text": "It’s about moving fast in one direction together–as a company and as individuals.",
+        "score": 0.4193
+      },
+      {
+        "id": "4d4ebb3e38ca",
+        "year": 2024,
+        "text": "We push ourselves to ship things that are not just good, but also awe-inspiring.",
+        "score": 0.4124
+      },
+      {
+        "id": "67f8f1e2117a",
+        "year": 2024,
+        "text": "We emphasize long-term thinking that encourages us to extend the timeline for the impact we have, rather than optimizing for near-term wins.",
+        "score": 0.4123
+      },
+      {
+        "id": "5405913ab9bd",
+        "year": 2024,
+        "text": "Build the future of how people connect.",
+        "score": 0.3924
+      },
+      {
+        "id": "804fbe1c2a35",
+        "year": 2024,
+        "text": "This also means being early adopters of the future products we build to help people feel present together wherever they are.",
+        "score": 0.3826
+      },
+      {
+        "id": "6e846cb35dfe",
+        "year": 2024,
+        "text": "At Meta, everything we do is about helping people feel connected and closer.",
+        "score": 0.3777
+      },
+      {
+        "id": "621e33c79914",
+        "year": 2024,
+        "text": "In our next chapter, we’ll focus more on inspiring them as well, in everything we do.",
+        "score": 0.3601
+      },
+      {
+        "id": "fa02e5290934",
+        "year": 2024,
+        "text": "We build and learn faster than anyone else.",
+        "score": 0.3571
+      },
+      {
+        "id": "96bc6e12f1db",
+        "year": 2024,
+        "text": "The pace is fast and the challenges are enormous, but this is how we thrive.",
+        "score": 0.3255
+      },
+      {
+        "id": "af67f4c5f266",
+        "year": 2024,
+        "text": "Be direct and respect your colleagues",
+        "score": 0.3225
+      },
+      {
+        "id": "54b7ba130fcf",
+        "year": 2024,
+        "text": "We should take on the challenges that will be the most impactful, even if the full results won’t be seen for years.",
+        "score": 0.3065
+      },
+      {
+        "id": "02f2d8e7f79e",
+        "year": 2024,
+        "text": "We’ve already built products that are useful to billions of people.",
+        "score": 0.3064
+      },
+      {
+        "id": "5d4cc3afcce1",
+        "year": 2025,
+        "text": "Inclusion strengthens our workplace — and our world At Meta, we’re committed to building an environment where everyone has a voice and feels valued.",
+        "score": 0.6652
+      },
+      {
+        "id": "46fb7d8d15a5",
+        "year": 2025,
+        "text": "Bringing people from diverse backgrounds and experiences together allows us to create technologies that break down language barriers, collaborate to make better business decisions and connect communities around the world.",
+        "score": 0.5833
+      },
+      {
+        "id": "391c0d62fa69",
+        "year": 2025,
+        "text": "By integrating unique insights and perspectives, we can create technologies that reflect the diverse needs of billions of people across the globe.",
+        "score": 0.5803
+      },
+      {
+        "id": "ed2e254c274c",
+        "year": 2025,
+        "text": "Participants from all backgrounds have access to a wide range of programs and initiatives designed to foster career development, personal growth and inclusion.",
+        "score": 0.539
       },
       {
         "id": "98d91a49e3fc",
@@ -1298,6 +3447,12 @@
         "score": 0.4555
       },
       {
+        "id": "fb636b518051",
+        "year": 2025,
+        "text": "Our equity-centered, co-design approach involves Meta experts teaming up with community members to act as equal partners.",
+        "score": 0.4532
+      },
+      {
         "id": "9b37ddc08e8d",
         "year": 2025,
         "text": "Put your skills to work as we build for the future of AI — today At Meta, we want you to build a career where you’re challenged, valued, and learning from the best.",
@@ -1316,6 +3471,12 @@
         "score": 0.4278
       },
       {
+        "id": "d6dd70ce2136",
+        "year": 2025,
+        "text": "Meta Employee Resource Groups (MRGs) deliver on the company's mission of creating an inclusive workplace for employees.",
+        "score": 0.4277
+      },
+      {
         "id": "9656a6a742ba",
         "year": 2025,
         "text": "At the forefront of innovation, the possibilities are endless Work with the brightest AI minds to build the future of human connection.",
@@ -1332,6 +3493,12 @@
         "year": 2025,
         "text": "See how a role in AI at Meta can help you drive the future of education, healthcare, finance, cybersecurity and more.",
         "score": 0.3719
+      },
+      {
+        "id": "f2eb6715dd3a",
+        "year": 2025,
+        "text": "MRGs build community, provide principled programming and foster career growth and development.",
+        "score": 0.3587
       },
       {
         "id": "acc4fc40c4ce",
@@ -1368,7 +3535,258 @@
         "year": 2025,
         "text": "Our signature events connect us with the wider Meta community to explore tomorrow’s tech and inspire big ideas.",
         "score": 0.306
+      },
+      {
+        "id": "b27102eddbbc",
+        "year": 2026,
+        "text": "We understand the importance of varied perspectives and a community where everyone feels valued.",
+        "score": 0.7039
+      },
+      {
+        "id": "7cf82794aedf",
+        "year": 2026,
+        "text": "We build the future of work that we want, with an in-person focus designed to support a strong, valuable experience for our people who work from the office, and a thoughtful and intentional approach to where we invest in remote work.",
+        "score": 0.5458
+      },
+      {
+        "id": "599e8fc15a9a",
+        "year": 2026,
+        "text": "We believe in doing career-defining work Our culture is one of high impact, high performance and high reward, and our community is built of many of the brightest and most innovative minds in tech.",
+        "score": 0.5456
+      },
+      {
+        "id": "03ea7c532d46",
+        "year": 2026,
+        "text": "That means we act with intention to build and reinforce strong connections with each other, our work and our shared goals as a company.",
+        "score": 0.5306
+      },
+      {
+        "id": "05807f4c2a79",
+        "year": 2026,
+        "text": "We’re passionate, tenacious and adaptable with a strong desire to deliver work that matters and that helps expand human connection in new ways.",
+        "score": 0.5264
+      },
+      {
+        "id": "36e78384834f",
+        "year": 2026,
+        "text": "It’s about taking care of our company and each other. “There’s this strong culture of collaboration and transparency that I’ve never seen before.” They embody what we stand for and guide our approach to how we build technology for people and their relationships.",
+        "score": 0.5188
+      },
+      {
+        "id": "7a761c398626",
+        "year": 2026,
+        "text": "We have a sense of responsibility for our collective success and to each other as teammates.",
+        "score": 0.4875
+      },
+      {
+        "id": "e1df4c6d8867",
+        "year": 2026,
+        "text": "Be direct and respect your colleagues We create a culture where we are straightforward and willing to have hard conversations with each other.",
+        "score": 0.4682
+      },
+      {
+        "id": "6d6661a7a39f",
+        "year": 2026,
+        "text": "We continuously work to speed up our highest priority initiatives by methodically removing barriers that get in the way.",
+        "score": 0.4646
+      },
+      {
+        "id": "cc0220ea6ae4",
+        "year": 2026,
+        "text": "We are stewards of our company and our mission.",
+        "score": 0.4623
+      },
+      {
+        "id": "bc425b6fda4b",
+        "year": 2026,
+        "text": "At the same time, we are also respectful and when we share feedback, we recognize that many of the world’s leading experts work here.",
+        "score": 0.4344
+      },
+      {
+        "id": "4883e31db17d",
+        "year": 2026,
+        "text": "It’s about moving fast in one direction together — as a company and as individuals.",
+        "score": 0.4269
+      },
+      {
+        "id": "26e78f2b41cc",
+        "year": 2026,
+        "text": "And we live that mission from the inside out.",
+        "score": 0.4193
+      },
+      {
+        "id": "630e4d8b0b48",
+        "year": 2026,
+        "text": "Our core values define who we are At Meta, core values aren’t just words on a piece of paper.",
+        "score": 0.4186
+      },
+      {
+        "id": "4d4ebb3e38ca",
+        "year": 2026,
+        "text": "We push ourselves to ship things that are not just good, but also awe-inspiring.",
+        "score": 0.4124
+      },
+      {
+        "id": "67f8f1e2117a",
+        "year": 2026,
+        "text": "We emphasize long-term thinking that encourages us to extend the timeline for the impact we have, rather than optimizing for near-term wins.",
+        "score": 0.4123
+      },
+      {
+        "id": "33b2fe058284",
+        "year": 2026,
+        "text": "People deserve to be heard and to have a voice — even when that means defending the right of people we disagree with.",
+        "score": 0.3984
+      },
+      {
+        "id": "981dbd6f4aa3",
+        "year": 2026,
+        "text": "Our tools level the playing field so businesses grow, create jobs and strengthen the economy.",
+        "score": 0.3891
+      },
+      {
+        "id": "76bd2919ccda",
+        "year": 2026,
+        "text": "We work to make technology accessible to everyone, and our business model is ads so our services can be free.",
+        "score": 0.3856
+      },
+      {
+        "id": "1f1101f4f62e",
+        "year": 2026,
+        "text": "Our services help people connect, and when they’re at their best, they bring people closer together.",
+        "score": 0.3837
+      },
+      {
+        "id": "804fbe1c2a35",
+        "year": 2026,
+        "text": "This also means being early adopters of the future products we build to help people feel present together wherever they are.",
+        "score": 0.3826
+      },
+      {
+        "id": "951786d88bf6",
+        "year": 2026,
+        "text": "Working at Meta means making every connection matter Connection is at the center of our mission to build the future of human connection and the technology that makes it possible.",
+        "score": 0.3729
+      },
+      {
+        "id": "acd8813dd23c",
+        "year": 2026,
+        "text": "We take on the challenges that will be the most impactful, even if the full results won’t be seen for years.",
+        "score": 0.3685
+      },
+      {
+        "id": "7f523a80a04f",
+        "year": 2026,
+        "text": "Keep people safe and protect privacy We have a responsibility to promote the best of what people can do together by keeping them safe and preventing harm.",
+        "score": 0.3639
+      },
+      {
+        "id": "621e33c79914",
+        "year": 2026,
+        "text": "In our next chapter, we’ll focus more on inspiring them as well, in everything we do.",
+        "score": 0.3601
+      },
+      {
+        "id": "fa02e5290934",
+        "year": 2026,
+        "text": "We build and learn faster than anyone else.",
+        "score": 0.3571
+      },
+      {
+        "id": "2cfebc22da08",
+        "year": 2026,
+        "text": "They’re what guide our actions, communication and decisions every day.",
+        "score": 0.3494
       }
-    ]
+    ],
+    "lexicons": {
+      "inclusion": [
+        {
+          "term": "disability",
+          "first_year": 2009,
+          "last_year": 2022,
+          "max_score": 0.5555,
+          "example": "We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gende"
+        },
+        {
+          "term": "diversity",
+          "first_year": 2013,
+          "last_year": 2022,
+          "max_score": 0.6666,
+          "example": "We are dedicated to building a team that reflects the diversity of the people, all around the globe, who use Facebook's products and services."
+        },
+        {
+          "term": "affirmative",
+          "first_year": 2013,
+          "last_year": 2022,
+          "max_score": 0.5077,
+          "example": "Facebook is proud to be an Equal Employment Opportunity and Affirmative Action employer."
+        },
+        {
+          "term": "women",
+          "first_year": 2016,
+          "last_year": 2021,
+          "max_score": 0.6108,
+          "example": "We empower women through professional development opportunities and engage with men as equal partners in advancing gender diversity and inclusion."
+        },
+        {
+          "term": "black",
+          "first_year": 2017,
+          "last_year": 2021,
+          "max_score": 0.5354,
+          "example": "We represent and celebrate all things Black@ at Facebook."
+        },
+        {
+          "term": "underrepresented",
+          "first_year": 2019,
+          "last_year": 2019,
+          "max_score": 0.4294,
+          "example": "An internship program for students from underrepresented communities."
+        },
+        {
+          "term": "belonging",
+          "first_year": 2020,
+          "last_year": 2021,
+          "max_score": 0.4663,
+          "example": "Together we foster a sense of community and belonging by sharing our stories with each other, celebrating our diverse culture and bringing awareness to issues that impact Native communities."
+        },
+        {
+          "term": "hispanic",
+          "first_year": 2020,
+          "last_year": 2021,
+          "max_score": 0.5143,
+          "example": "We are committed to connecting, supporting, and developing Latino and Hispanic employees at Facebook while promoting an inclusive community that fosters an appreciation for our culture."
+        },
+        {
+          "term": "lgbtq",
+          "first_year": 2020,
+          "last_year": 2021,
+          "max_score": 0.5964,
+          "example": "We focus on creating an open culture for all LGBTQ employees at Facebook."
+        },
+        {
+          "term": "inclusion",
+          "first_year": 2020,
+          "last_year": 2025,
+          "max_score": 0.6652,
+          "example": "Inclusion strengthens our workplace — and our world At Meta, we’re committed to building an environment where everyone has a voice and feels valued."
+        },
+        {
+          "term": "bias",
+          "first_year": 2020,
+          "last_year": 2022,
+          "max_score": 0.5435,
+          "example": "Facebook provides a variety of programs to help people who work here find community, tackle bias, and participate in building an inclusive workspace so we can all do the best work of our careers."
+        },
+        {
+          "term": "equity",
+          "first_year": 2025,
+          "last_year": 2025,
+          "max_score": 0.4532,
+          "example": "Our equity-centered, co-design approach involves Meta experts teaming up with community members to act as equal partners."
+        }
+      ],
+      "civilizational": []
+    }
   }
 }

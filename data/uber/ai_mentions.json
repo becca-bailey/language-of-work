@@ -99,9 +99,9 @@
     },
     {
       "year": 2015,
-      "total_chunks": 8,
-      "ai_chunks": 0,
-      "prevalence": 0.0,
+      "total_chunks": 9,
+      "ai_chunks": 1,
+      "prevalence": 0.1111,
       "thin": false,
       "labels": {
         "employee_story": {
@@ -109,14 +109,30 @@
           "ai_chunks": 0,
           "mentions": 0
         },
+        "job_listing": {
+          "chunks": 1,
+          "ai_chunks": 1,
+          "mentions": 3
+        },
         "mission_brand": {
           "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         }
       },
-      "terms": {},
-      "examples": []
+      "terms": {
+        "machine learning": 3
+      },
+      "examples": [
+        {
+          "label": "job_listing",
+          "chunk_id": "95346f4b0ab6ebff",
+          "terms": [
+            "machine learning"
+          ],
+          "text": "General Manager - Scotland Operations Glasgow. United Kingdom HR Business Partner, Central U.S. & Canada People Operations Chicago, IL Marketing Manager, Paid Performance - Russia Local Marketing and Support St. Petersburg, Russia Operations Coordinator - Glasgow Operations Glasgow. United Kingdom O"
+        }
+      ]
     },
     {
       "year": 2016,
@@ -268,7 +284,7 @@
     },
     {
       "year": 2024,
-      "total_chunks": 29,
+      "total_chunks": 27,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -279,17 +295,17 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 5,
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 20,
+          "chunks": 22,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 3,
+          "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
         }

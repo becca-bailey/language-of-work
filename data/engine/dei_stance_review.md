@@ -13,7 +13,7 @@
 - neutral: 10
 
 ## 2020
-- neutral: 5
+- neutral: 6
 
 ## 2021
 - neutral: 7
@@ -25,7 +25,7 @@
 - neutral: 20
 
 ## 2024
-- neutral: 40
+- neutral: 39
 
 ## 2025
 - neutral: 18

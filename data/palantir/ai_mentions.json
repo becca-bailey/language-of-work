@@ -10,13 +10,13 @@
   "years": [
     {
       "year": 2010,
-      "total_chunks": 5,
+      "total_chunks": 6,
       "ai_chunks": 1,
-      "prevalence": 0.2,
+      "prevalence": 0.1667,
       "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 5,
+          "chunks": 6,
           "ai_chunks": 1,
           "mentions": 1
         }
@@ -37,45 +37,82 @@
     },
     {
       "year": 2011,
-      "total_chunks": 2,
-      "ai_chunks": 0,
-      "prevalence": 0.0,
-      "thin": true,
+      "total_chunks": 10,
+      "ai_chunks": 1,
+      "prevalence": 0.1,
+      "thin": false,
       "labels": {
-        "mission_brand": {
-          "chunks": 2,
+        "benefits_perks": {
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 7,
+          "ai_chunks": 1,
+          "mentions": 1
         }
       },
-      "terms": {},
-      "examples": []
+      "terms": {
+        "artificial intelligence": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "11fc9536dbbdadc1",
+          "terms": [
+            "artificial intelligence"
+          ],
+          "text": "Palantir places all the analytical power and technical prowess of the world’s best software engineers at your fingertips. Palantir shifts the paradigm away from both the etching technologies that merely let you map out what you already know and the quasi stand-alone field of artificial intelligence,"
+        }
+      ]
     },
     {
       "year": 2012,
-      "total_chunks": 5,
-      "ai_chunks": 0,
-      "prevalence": 0.0,
+      "total_chunks": 20,
+      "ai_chunks": 1,
+      "prevalence": 0.05,
       "thin": false,
       "labels": {
-        "mission_brand": {
-          "chunks": 5,
+        "benefits_perks": {
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
+        },
+        "mission_brand": {
+          "chunks": 12,
+          "ai_chunks": 1,
+          "mentions": 1
         }
       },
-      "terms": {},
-      "examples": []
+      "terms": {
+        "artificial intelligence": 1
+      },
+      "examples": [
+        {
+          "label": "mission_brand",
+          "chunk_id": "603a4aa29f92f91f",
+          "terms": [
+            "artificial intelligence"
+          ],
+          "text": "Palantir places all the analytical power and technical prowess of the world’s best software engineers at your fingertips. Palantir shifts the paradigm away from both the etching technologies that merely let you map out what you already know and the quasi stand-alone field of artificial intelligence,"
+        }
+      ]
     },
     {
       "year": 2013,
-      "total_chunks": 12,
+      "total_chunks": 23,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 6,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
-          "chunks": 11,
+          "chunks": 16,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -90,13 +127,18 @@
     },
     {
       "year": 2014,
-      "total_chunks": 2,
+      "total_chunks": 27,
       "ai_chunks": 0,
       "prevalence": 0.0,
-      "thin": true,
+      "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "mission_brand": {
-          "chunks": 1,
+          "chunks": 19,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -111,7 +153,7 @@
     },
     {
       "year": 2015,
-      "total_chunks": 10,
+      "total_chunks": 19,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -122,7 +164,7 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 4,
+          "chunks": 13,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -137,7 +179,7 @@
     },
     {
       "year": 2016,
-      "total_chunks": 10,
+      "total_chunks": 17,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -153,7 +195,7 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 1,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -168,13 +210,18 @@
     },
     {
       "year": 2017,
-      "total_chunks": 7,
+      "total_chunks": 14,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "mission_brand": {
-          "chunks": 7,
+          "chunks": 11,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
+        "process_logistics": {
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -236,23 +283,28 @@
     },
     {
       "year": 2020,
-      "total_chunks": 13,
+      "total_chunks": 24,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "job_listing": {
           "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 9,
+          "chunks": 12,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 3,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -262,11 +314,16 @@
     },
     {
       "year": 2021,
-      "total_chunks": 26,
+      "total_chunks": 51,
       "ai_chunks": 1,
-      "prevalence": 0.0385,
+      "prevalence": 0.0196,
       "thin": false,
       "labels": {
+        "benefits_perks": {
+          "chunks": 3,
+          "ai_chunks": 0,
+          "mentions": 0
+        },
         "employee_story": {
           "chunks": 1,
           "ai_chunks": 1,
@@ -278,12 +335,12 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 17,
+          "chunks": 38,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 7,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -305,34 +362,34 @@
     {
       "year": 2022,
       "total_chunks": 53,
-      "ai_chunks": 1,
-      "prevalence": 0.0189,
+      "ai_chunks": 2,
+      "prevalence": 0.0377,
       "thin": false,
       "labels": {
         "employee_story": {
-          "chunks": 1,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 2,
+          "ai_chunks": 1,
+          "mentions": 1
         },
         "job_listing": {
-          "chunks": 3,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 28,
+          "chunks": 29,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 21,
+          "chunks": 20,
           "ai_chunks": 1,
           "mentions": 2
         }
       },
       "terms": {
-        "AI": 1,
-        "ML": 1
+        "ML": 2,
+        "AI": 1
       },
       "examples": [
         {
@@ -343,12 +400,20 @@
             "ML"
           ],
           "text": "Please specify the trainings areas you are interested in: Data Analysis/Data Science; Data Engineering; Application Development; Platform Administration; Intel Analysis; Mission Planning; AI/ML."
+        },
+        {
+          "label": "employee_story",
+          "chunk_id": "2de74241dbfe95d5",
+          "terms": [
+            "ML"
+          ],
+          "text": "Bruno de F. Melo e Souza, Head of Data Platform and ML, Grupo Globo"
         }
       ]
     },
     {
       "year": 2023,
-      "total_chunks": 31,
+      "total_chunks": 32,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -364,7 +429,7 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 24,
+          "chunks": 25,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -410,28 +475,28 @@
     },
     {
       "year": 2025,
-      "total_chunks": 31,
+      "total_chunks": 38,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "employee_story": {
-          "chunks": 2,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 2,
+          "chunks": 3,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 23,
+          "chunks": 25,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 4,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -441,9 +506,9 @@
     },
     {
       "year": 2026,
-      "total_chunks": 36,
+      "total_chunks": 37,
       "ai_chunks": 2,
-      "prevalence": 0.0556,
+      "prevalence": 0.0541,
       "thin": false,
       "labels": {
         "job_listing": {
@@ -452,7 +517,7 @@
           "mentions": 2
         },
         "mission_brand": {
-          "chunks": 28,
+          "chunks": 29,
           "ai_chunks": 0,
           "mentions": 0
         }

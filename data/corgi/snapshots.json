@@ -6,35 +6,235 @@
       "original": "https://www.corgi.insure/careers",
       "digest": "58ff02fa78d191cfb887e123",
       "html_file": "20261106120000_58ff02fa78d191cfb887e123.html",
-      "source": "live"
+      "source": "live",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 16,
+        "trafilatura_words": 896,
+        "dom_to_trafilatura_ratio": 0.02
+      },
+      "thin": true
     },
     {
       "timestamp": "20261106120000",
       "original": "https://www.corgi.insure/careers/business-development-representative-founding-gtm-dh64mf",
       "digest": "922ef729646fbfaba5b64ee6",
       "html_file": "20261106120000_922ef729646fbfaba5b64ee6.html",
-      "source": "live"
+      "source": "live",
+      "coverage": {
+        "chunk_count": 5,
+        "dom_words": 392,
+        "trafilatura_words": 475,
+        "dom_to_trafilatura_ratio": 0.83
+      },
+      "thin": false
     },
     {
       "timestamp": "20261106120000",
       "original": "https://www.corgi.insure/careers/accounting-lead-3mms7x",
       "digest": "fbb0e9818fecb0737211a852",
       "html_file": "20261106120000_fbb0e9818fecb0737211a852.html",
-      "source": "live"
+      "source": "live",
+      "coverage": {
+        "chunk_count": 5,
+        "dom_words": 499,
+        "trafilatura_words": 606,
+        "dom_to_trafilatura_ratio": 0.82
+      },
+      "thin": false
     },
     {
       "timestamp": "20261106120000",
       "original": "https://www.corgi.insure/careers/corporate-attorney-1ab43z",
       "digest": "f46f70171fa693e05756481b",
       "html_file": "20261106120000_f46f70171fa693e05756481b.html",
-      "source": "live"
+      "source": "live",
+      "coverage": {
+        "chunk_count": 4,
+        "dom_words": 240,
+        "trafilatura_words": 323,
+        "dom_to_trafilatura_ratio": 0.74
+      },
+      "thin": false
     },
     {
       "timestamp": "20260806120000",
       "original": "https://jobs.ashbyhq.com/corgi",
       "digest": "e182c5aec33f25f1b843152f",
       "html_file": "20260806120000_e182c5aec33f25f1b843152f.html",
-      "source": "ashby_posting_api (corgi_jobs.json)"
+      "source": "ashby_posting_api (corgi_jobs.json)",
+      "coverage": {
+        "chunk_count": 46,
+        "dom_words": 4562,
+        "trafilatura_words": 4838,
+        "dom_to_trafilatura_ratio": 0.94
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/corgi/194714a9-ec78-4112-b717-75316cd19682",
+      "timestamp": "20251220230155",
+      "original": "https://jobs.ashbyhq.com/corgi/194714a9-ec78-4112-b717-75316cd19682",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "TIINTQLYVA4RGNMCKVADGLINLW2MXR3S",
+      "length": 10919,
+      "html_file": "20251220230155_862f3286cf0a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 13,
+        "dom_words": 285,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 31.67
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/corgi/fd7f026c-be09-4402-9e96-e4efa2def97e",
+      "timestamp": "20251223063655",
+      "original": "https://jobs.ashbyhq.com/corgi/fd7f026c-be09-4402-9e96-e4efa2def97e",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "OQQCTCANUPQ5IWBFXFLRQDPBEWKT7UTV",
+      "length": 11289,
+      "html_file": "20251223063655_40753f5d5a03.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 9,
+        "dom_words": 354,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 39.33
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/corgi/226a7764-2b68-4e7a-9a55-478750b21383",
+      "timestamp": "20260417072803",
+      "original": "https://jobs.ashbyhq.com/corgi/226a7764-2b68-4e7a-9a55-478750b21383",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "5YRMC7MGVFTPAG66J5WYLKRNJULIZRDM",
+      "length": 10565,
+      "html_file": "20260417072803_8ba867775a6c.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 18,
+        "dom_words": 349,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 38.78
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/corgi/20642b81-70e9-474c-8ee7-71b06374bd53",
+      "timestamp": "20260602153356",
+      "original": "https://jobs.ashbyhq.com/corgi/20642b81-70e9-474c-8ee7-71b06374bd53",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "VCD2DH7HWNMSTXZYBN6BVUFMFUUVPBBK",
+      "length": 12973,
+      "html_file": "20260602153356_47509d406bf5.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 6,
+        "dom_words": 144,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 16.0
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/corgi",
+      "timestamp": "20261016025017",
+      "original": "https://jobs.ashbyhq.com/corgi",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "EYWHPJHA4GM5OHNYUIAKZADDNT3JKSRK",
+      "length": 3320,
+      "html_file": "20261016025017_57c0676f594a.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 0.0
+      },
+      "thin": true
     }
-  ]
+  ],
+  "json_candidates": [],
+  "digest_timeline": {
+    "UOJ2YW6VTHIQTCXN3FEEDXTJVCMKIPJF": [
+      "20251109121518",
+      "20251109121518",
+      "20251210011759",
+      "20251210011759"
+    ],
+    "TIINTQLYVA4RGNMCKVADGLINLW2MXR3S": [
+      "20251220230155"
+    ],
+    "OQQCTCANUPQ5IWBFXFLRQDPBEWKT7UTV": [
+      "20251223063655"
+    ],
+    "KEQIYGCAWP4DCNAP23USZBL7EX5QJFRY": [
+      "20260113155602",
+      "20260113155602"
+    ],
+    "5S4N7YLVFJUION6CSQOVPRY437XZTCEB": [
+      "20260204093901",
+      "20260204093901"
+    ],
+    "5YRMC7MGVFTPAG66J5WYLKRNJULIZRDM": [
+      "20260417072803"
+    ],
+    "VCD2DH7HWNMSTXZYBN6BVUFMFUUVPBBK": [
+      "20260602153356"
+    ],
+    "WKFXIH4ZYDTTKUQLHCCPPZJPG5PN3GSJ": [
+      "20260602153356"
+    ],
+    "ULCJD4EUY7RB6TXBMDXTPJH6AG7UWAA5": [
+      "20260602153356"
+    ],
+    "I422SK3WGXJTGEHRPXSKSZWJQ6VNOSB3": [
+      "20260616092047"
+    ],
+    "AZL5XP6CEDX655ATVFMBP54IBJONSNKC": [
+      "20260616093010"
+    ],
+    "YI7XNI2N6ACM2Q4GNYURGMT4F3P6ZBRL": [
+      "20260616095938"
+    ],
+    "QEOAMBV26M662FSKW2IUDAEJV2SP5F7U": [
+      "20260713210645"
+    ],
+    "S7Z67SZV7H7OWLH56IEXUILRDCR72L6T": [
+      "20260713214503"
+    ],
+    "YSOCHRAMXVW5EOP75MBWD7GQUT44SX2L": [
+      "20260713215031"
+    ],
+    "2YIFQ6BN3PYNDFUNTLSZ4APZ5LDUU2XE": [
+      "20260713221528"
+    ],
+    "LVLP3U2KLHYX6Y6P64NN7SNSK4WBZW25": [
+      "20260810170638"
+    ],
+    "AL3Z5VLU6VZSY6B3SFNVWGURDOOFHCJV": [
+      "20260827010634",
+      "20260827010634"
+    ],
+    "P2VEZJAQOUWFIWB2ABI34OIK2YTFOUXJ": [
+      "20260926024750",
+      "20260926024750"
+    ],
+    "Z5GRMUJPG4JIZJ3VILFJ5PZTPJXJ5ROV": [
+      "20261009093038",
+      "20261009093038"
+    ],
+    "EYWHPJHA4GM5OHNYUIAKZADDNT3JKSRK": [
+      "20261016025017",
+      "20261016025017"
+    ]
+  }
 }

@@ -4,7 +4,7 @@
 - neutral: 3
 
 ## 2007
-- neutral: 4
+- neutral: 3
 
 ## 2008
 - neutral: 3

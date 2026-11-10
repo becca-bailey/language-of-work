@@ -13,11 +13,11 @@
 - neutral: 2
 
 ## 2014
-- neutral: 9
+- neutral: 10
 
 ## 2015
-- affirming_dei: 2
-- neutral: 8
+- affirming_dei: 3
+- neutral: 13
 
 ## 2016
 - affirming_dei: 2
@@ -29,7 +29,7 @@
 
 ## 2018
 - affirming_dei: 1
-- neutral: 9
+- neutral: 11
 
 ## 2019
 - neutral: 9
@@ -40,7 +40,7 @@
 
 ## 2021
 - affirming_dei: 3
-- neutral: 10
+- neutral: 11
 
 ## 2022
 - neutral: 16
@@ -50,13 +50,13 @@
 - mission_focus_apolitical: 1
 
 ## 2024
-- neutral: 15
+- neutral: 33
 - mission_focus_apolitical: 3
 
 ## 2025
-- neutral: 7
+- neutral: 18
 - mission_focus_apolitical: 1
 
 ## 2026
-- neutral: 43
+- neutral: 46
 - mission_focus_apolitical: 1

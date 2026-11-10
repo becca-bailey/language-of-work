@@ -1,12 +1,11 @@
 {
   "n": 90,
-  "accuracy": 0.933,
-  "krippendorff_alpha": 0.888,
+  "accuracy": 0.944,
+  "krippendorff_alpha": 0.908,
   "confusion": {
     "mission_brand": {
       "mission_brand": 53,
-      "job_listing": 2,
-      "benefits_perks": 1
+      "job_listing": 2
     },
     "employee_story": {
       "employee_story": 10
@@ -24,6 +23,9 @@
     },
     "process_logistics": {
       "process_logistics": 2
+    },
+    "benefits_perks": {
+      "benefits_perks": 1
     }
   },
   "disagreements": [
@@ -51,11 +53,6 @@
       "chunk_id": "b8af94078323d80b",
       "hand_label": "mission_brand",
       "predicted": "job_listing"
-    },
-    {
-      "chunk_id": "22b2a1dd66923302",
-      "hand_label": "mission_brand",
-      "predicted": "benefits_perks"
     }
   ]
 }

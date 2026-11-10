@@ -1,12 +1,10 @@
 {
   "n": 10,
-  "accuracy": 0.8,
-  "krippendorff_alpha": 0.608,
+  "accuracy": 1.0,
+  "krippendorff_alpha": 1.0,
   "confusion": {
     "mission_brand": {
-      "employee_story": 1,
-      "job_listing": 1,
-      "mission_brand": 6
+      "mission_brand": 8
     },
     "navigation_junk": {
       "navigation_junk": 1
@@ -15,16 +13,5 @@
       "process_logistics": 1
     }
   },
-  "disagreements": [
-    {
-      "chunk_id": "961202f9db454ca7",
-      "hand_label": "mission_brand",
-      "predicted": "employee_story"
-    },
-    {
-      "chunk_id": "d40c6cb9c700080a",
-      "hand_label": "mission_brand",
-      "predicted": "job_listing"
-    }
-  ]
+  "disagreements": []
 }

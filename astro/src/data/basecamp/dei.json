@@ -648,10 +648,10 @@
     {
       "year": 2020,
       "inclusionTopkMean": 0.422,
-      "inclusionMean": 0.2832,
+      "inclusionMean": 0.2838,
       "inclusionMax": 0.4563,
-      "inclusionFractionPresent": 0.7,
-      "nChunks": 40,
+      "inclusionFractionPresent": 0.6923,
+      "nChunks": 39,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -659,7 +659,7 @@
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 0,
-        "absent": 39,
+        "absent": 38,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -958,10 +958,10 @@
     {
       "year": 2025,
       "inclusionTopkMean": 0.4233,
-      "inclusionMean": 0.2969,
+      "inclusionMean": 0.2989,
       "inclusionMax": 0.4413,
-      "inclusionFractionPresent": 0.7368,
-      "nChunks": 38,
+      "inclusionFractionPresent": 0.7568,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -969,7 +969,7 @@
         "structural_process": 1,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 37,
+        "absent": 36,
         "mission_focus_apolitical": 1,
         "civilizational_mission": 0
       },
@@ -2663,12 +2663,6 @@
         "year": 2020,
         "text": "Occasionally we update an internal policy.",
         "score": 0.3179
-      },
-      {
-        "id": "d8eb626c5d3e",
-        "year": 2020,
-        "text": "While our internal communications are almost exclusively in Basecamp (with code reviews in GitHub the primary exception), we still correspond with some external service providers and customers via email.",
-        "score": 0.3174
       },
       {
         "id": "834ee3dfdad2",

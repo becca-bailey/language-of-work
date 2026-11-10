@@ -1,0 +1,30 @@
+{
+  "n": 10,
+  "accuracy": 0.9,
+  "krippendorff_alpha": 0.867,
+  "confusion": {
+    "benefits_perks": {
+      "benefits_perks": 1
+    },
+    "mission_brand": {
+      "job_listing": 1,
+      "mission_brand": 4
+    },
+    "legal_boilerplate": {
+      "legal_boilerplate": 1
+    },
+    "process_logistics": {
+      "process_logistics": 2
+    },
+    "job_listing": {
+      "job_listing": 1
+    }
+  },
+  "disagreements": [
+    {
+      "chunk_id": "2afdef3625258526",
+      "hand_label": "mission_brand",
+      "predicted": "job_listing"
+    }
+  ]
+}

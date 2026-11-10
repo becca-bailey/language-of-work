@@ -20,7 +20,7 @@ def load_hand_labels(path: Path, column: str, *, missing_ok: bool = True):
     path = Path(path)
     if not path.exists():
         if missing_ok:
-            return pd.DataFrame(columns=[column])
+            return pd.DataFrame(columns=["chunk_id", column])
         raise SystemExit(f"{path} not found — run the sampler for this task first")
     df = pd.read_csv(path, dtype={column: "string"}).dropna(subset=[column])
     df = df[df[column].str.strip() != ""].copy()

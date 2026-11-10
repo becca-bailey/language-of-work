@@ -1,11 +1,95 @@
 {
   "terms": [
     {
+      "term": "equity",
+      "first_year": 2010,
+      "last_year": 2021,
+      "max_score": 0.6678,
+      "example": "We believe that all Palantirians share the responsibility of upholding our values of equity and inclusion."
+    },
+    {
       "term": "women",
       "first_year": 2013,
-      "last_year": 2013,
-      "max_score": 0.3941,
-      "example": "On November 13, Pooja Sankar, CEO of Piazza, an online Q&A platform used by students and teachers, sat down with four women at Palantir to discuss their experiences working in technology."
+      "last_year": 2021,
+      "max_score": 0.4533,
+      "example": "For example, BreakLine supports and assists US military veterans, women, and people of color as they transition into careers within the tech sector."
+    },
+    {
+      "term": "diversity",
+      "first_year": 2020,
+      "last_year": 2021,
+      "max_score": 0.6698,
+      "example": "We recognize that increasing diversity within the tech industry takes consistent, impactful action to increase access and opportunities for members of underrepresented communities."
+    },
+    {
+      "term": "underrepresented",
+      "first_year": 2020,
+      "last_year": 2021,
+      "max_score": 0.6698,
+      "example": "We recognize that increasing diversity within the tech industry takes consistent, impactful action to increase access and opportunities for members of underrepresented communities."
+    },
+    {
+      "term": "inclusion",
+      "first_year": 2020,
+      "last_year": 2021,
+      "max_score": 0.6678,
+      "example": "We believe that all Palantirians share the responsibility of upholding our values of equity and inclusion."
+    },
+    {
+      "term": "black",
+      "first_year": 2020,
+      "last_year": 2021,
+      "max_score": 0.4529,
+      "example": "PalNoir PalNoir creates a safe, supportive, and inclusive community for employees that identify as Black or of African descent."
+    },
+    {
+      "term": "belonging",
+      "first_year": 2020,
+      "last_year": 2021,
+      "max_score": 0.5165,
+      "example": "We aim to provide a space for dialogue and mutual support for our API community members, to foster mentorship and professional development, to increase cultural awareness and belonging within the comp"
+    },
+    {
+      "term": "latinx",
+      "first_year": 2020,
+      "last_year": 2021,
+      "max_score": 0.378,
+      "example": "Palamigos Palamigos represents the Latinx and Hispanic community at Palantir."
+    },
+    {
+      "term": "hispanic",
+      "first_year": 2020,
+      "last_year": 2021,
+      "max_score": 0.378,
+      "example": "Palamigos Palamigos represents the Latinx and Hispanic community at Palantir."
+    },
+    {
+      "term": "lgbtq",
+      "first_year": 2020,
+      "last_year": 2021,
+      "max_score": 0.5343,
+      "example": "Our mission is to support and grow our sense of community, foster an increasingly inclusive and comfortable internal workplace, and ensure the consideration of important issues to the LGBTQ+ community"
+    },
+    {
+      "term": "representation",
+      "first_year": 2020,
+      "last_year": 2021,
+      "max_score": 0.2972,
+      "example": "PIN seeks to have representation across many communities, including but not limited to Buddhism, Christianity, Hinduism, Islam, Judaism, and Sikhism."
+    },
+    {
+      "term": "affirmative",
+      "first_year": 2021,
+      "last_year": 2021,
+      "max_score": 0.5089,
+      "example": "Palantir is proud to be an Equal Employment Opportunity and Affirmative Action employer."
+    },
+    {
+      "term": "disability",
+      "first_year": 2021,
+      "last_year": 2021,
+      "max_score": 0.5548,
+      "example": "We do not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expressio"
     }
   ],
   "high_scoring_sentences": [
@@ -70,10 +154,64 @@
       "score": 0.3081
     },
     {
+      "id": "ca38d237c3bd",
+      "year": 2011,
+      "text": "In building the institution that is Palantir, we’ve been very careful to make sure that we’re engineering the company for sustainability in its most important asset: people.",
+      "score": 0.4872
+    },
+    {
       "id": "f0ce6635c689",
       "year": 2011,
       "text": "Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards.",
       "score": 0.4857
+    },
+    {
+      "id": "d850e4bf1ac5",
+      "year": 2011,
+      "text": "We’re here to build great software and to change the world.",
+      "score": 0.463
+    },
+    {
+      "id": "7edbfe619e24",
+      "year": 2011,
+      "text": "We love working on hard problems , but there’s more to life than just work.",
+      "score": 0.4146
+    },
+    {
+      "id": "c40ef214012b",
+      "year": 2011,
+      "text": "We see the perks as helping us in that mission – by making our lives and time at the office easier, it allows us to focus on what really matters.",
+      "score": 0.4129
+    },
+    {
+      "id": "3f870f746f82",
+      "year": 2011,
+      "text": "At Palantir’s offices, we provide a variety of perks to make life easier and make relaxation time as ‘productive’ as work time.",
+      "score": 0.4115
+    },
+    {
+      "id": "a5d67e315c75",
+      "year": 2011,
+      "text": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs.",
+      "score": 0.4007
+    },
+    {
+      "id": "51c352090787",
+      "year": 2011,
+      "text": "However it can no longer be denied that in today’s work environment, being able to deepen our understanding of an issue has made us all the more valuable.",
+      "score": 0.3831
+    },
+    {
+      "id": "44b3ed7c57c8",
+      "year": 2011,
+      "text": "We at Palantir Technologies believe that the next seismic shift already has begun.",
+      "score": 0.3601
+    },
+    {
+      "id": "1729a60d1528",
+      "year": 2011,
+      "text": "The amenities are not entitlements and definitely not the reason we work here.",
+      "score": 0.3438
     },
     {
       "id": "15d6207b0187",
@@ -82,16 +220,40 @@
       "score": 0.3419
     },
     {
+      "id": "bc332338ed10",
+      "year": 2011,
+      "text": "We treat each other like adults.",
+      "score": 0.3408
+    },
+    {
+      "id": "2d7d92d842ca",
+      "year": 2011,
+      "text": "Don’t worry: we offer local gym memberships to all employees.",
+      "score": 0.3308
+    },
+    {
       "id": "2ed1107f974b",
       "year": 2011,
       "text": "Palantir was built by technologists serious about protecting privacy and civil liberties.",
       "score": 0.3304
     },
     {
+      "id": "d6cc25a13375",
+      "year": 2011,
+      "text": "As the CEO and founder of Palantir Technologies, I can say with pride that every engineer on the Palantir team is working with a sense of excitement and mission, convinced that we have created a product that will help analysts take quantum leaps in their knowledge base and their fields of particular expertise.",
+      "score": 0.3288
+    },
+    {
       "id": "b34ebe95b5e5",
       "year": 2011,
       "text": "Thoughts on Palantir and the promise of analysis by our CEO, Alex Karp.",
       "score": 0.327
+    },
+    {
+      "id": "bca6b5f5b8b2",
+      "year": 2011,
+      "text": "At Palantir, we’ve created a rich \"conceptual environment,\" where each analyst can create his or her own visual intuitive space where they can absorb, understand, and interact with disparate information to come up with sophisticated findings.",
+      "score": 0.3099
     },
     {
       "id": "483acecf8360",
@@ -124,6 +286,12 @@
       "score": 0.5003
     },
     {
+      "id": "ca38d237c3bd",
+      "year": 2012,
+      "text": "In building the institution that is Palantir, we’ve been very careful to make sure that we’re engineering the company for sustainability in its most important asset: people.",
+      "score": 0.4872
+    },
+    {
       "id": "f0ce6635c689",
       "year": 2012,
       "text": "Since then we’ve doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic, and rigorous hiring standards.",
@@ -142,10 +310,34 @@
       "score": 0.4742
     },
     {
+      "id": "3f754df668ac",
+      "year": 2012,
+      "text": "In crafting the institution that is Palantir, we've been very careful to make sure that we're engineering the company for sustainability in its most important asset: people .",
+      "score": 0.4653
+    },
+    {
+      "id": "d850e4bf1ac5",
+      "year": 2012,
+      "text": "We’re here to build great software and to change the world.",
+      "score": 0.463
+    },
+    {
       "id": "bd41e6cb8ac2",
       "year": 2012,
       "text": "With strong mission focus , we all work together to help make the world a better place.",
       "score": 0.452
+    },
+    {
+      "id": "4fc6dcedbbd2",
+      "year": 2012,
+      "text": "We're here to change the world through great software.",
+      "score": 0.4493
+    },
+    {
+      "id": "10d728474b68",
+      "year": 2012,
+      "text": "Our environment is designed to make work energizing and to stimulate the best thinking.",
+      "score": 0.4478
     },
     {
       "id": "ef934f5387e0",
@@ -154,10 +346,40 @@
       "score": 0.4339
     },
     {
+      "id": "7edbfe619e24",
+      "year": 2012,
+      "text": "We love working on hard problems , but there’s more to life than just work.",
+      "score": 0.4146
+    },
+    {
+      "id": "c40ef214012b",
+      "year": 2012,
+      "text": "We see the perks as helping us in that mission – by making our lives and time at the office easier, it allows us to focus on what really matters.",
+      "score": 0.4129
+    },
+    {
+      "id": "3f870f746f82",
+      "year": 2012,
+      "text": "At Palantir’s offices, we provide a variety of perks to make life easier and make relaxation time as ‘productive’ as work time.",
+      "score": 0.4115
+    },
+    {
       "id": "5255544242db",
       "year": 2012,
       "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes.",
       "score": 0.4065
+    },
+    {
+      "id": "868911e06210",
+      "year": 2012,
+      "text": "Palantir provides a variety of perks that aid us in that mission by promoting productivity and freeing up time at and away from the office.",
+      "score": 0.4031
+    },
+    {
+      "id": "a5d67e315c75",
+      "year": 2012,
+      "text": "At Palantir, we are only hiring the best and the brightest computer engineers to help us harness this awesome power to meet today’s vast analytical needs.",
+      "score": 0.4007
     },
     {
       "id": "6faa73538bcc",
@@ -172,6 +394,12 @@
       "score": 0.3904
     },
     {
+      "id": "51c352090787",
+      "year": 2012,
+      "text": "However it can no longer be denied that in today’s work environment, being able to deepen our understanding of an issue has made us all the more valuable.",
+      "score": 0.3831
+    },
+    {
       "id": "ac556813dcf8",
       "year": 2012,
       "text": "We build groundbreaking technologies , from our data fusion platforms to the extensions cooked up in our labs .",
@@ -184,10 +412,22 @@
       "score": 0.3634
     },
     {
+      "id": "44b3ed7c57c8",
+      "year": 2012,
+      "text": "We at Palantir Technologies believe that the next seismic shift already has begun.",
+      "score": 0.3601
+    },
+    {
       "id": "eed0143f343a",
       "year": 2012,
       "text": "Our solutions are revolutionizing the work being done at organizations across government, commercial and health industries.",
       "score": 0.3507
+    },
+    {
+      "id": "1729a60d1528",
+      "year": 2012,
+      "text": "The amenities are not entitlements and definitely not the reason we work here.",
+      "score": 0.3438
     },
     {
       "id": "15d6207b0187",
@@ -196,10 +436,28 @@
       "score": 0.3419
     },
     {
+      "id": "bc332338ed10",
+      "year": 2012,
+      "text": "We treat each other like adults.",
+      "score": 0.3408
+    },
+    {
+      "id": "7794a138efce",
+      "year": 2012,
+      "text": "We offer local gym memberships to all employees, and family members get a discounted rate.",
+      "score": 0.3405
+    },
+    {
       "id": "e5fbb92efb30",
       "year": 2012,
       "text": "Our products are built for real analysis with a focus on security, scalability, ease of use and collaboration.",
       "score": 0.3344
+    },
+    {
+      "id": "9594b708f35f",
+      "year": 2012,
+      "text": "Once a winter, the entire company convenes in Tahoe for an all-expenses-paid weekend in the snow.",
+      "score": 0.3341
     },
     {
       "id": "b4225803f256",
@@ -208,16 +466,58 @@
       "score": 0.3334
     },
     {
+      "id": "2d7d92d842ca",
+      "year": 2012,
+      "text": "Don’t worry: we offer local gym memberships to all employees.",
+      "score": 0.3308
+    },
+    {
       "id": "2ed1107f974b",
       "year": 2012,
       "text": "Palantir was built by technologists serious about protecting privacy and civil liberties.",
       "score": 0.3304
     },
     {
+      "id": "d6cc25a13375",
+      "year": 2012,
+      "text": "As the CEO and founder of Palantir Technologies, I can say with pride that every engineer on the Palantir team is working with a sense of excitement and mission, convinced that we have created a product that will help analysts take quantum leaps in their knowledge base and their fields of particular expertise.",
+      "score": 0.3288
+    },
+    {
+      "id": "e713c9ccac8a",
+      "year": 2012,
+      "text": "We have a small gym and showers on-site, and provide organized yoga classes, on-site haircuts, a doctor, a chiropractor, massages, laundry and dry-cleaning.",
+      "score": 0.326
+    },
+    {
+      "id": "4a4c7b4f785c",
+      "year": 2012,
+      "text": "Sure, perks are nice, but they exist to allow us to focus on what really matters.",
+      "score": 0.3205
+    },
+    {
+      "id": "4f6c8e7c710f",
+      "year": 2012,
+      "text": "One of our engineering teams is obsessed with Halo, and you can find four-on-four battles taking place after dinner nightly.",
+      "score": 0.319
+    },
+    {
+      "id": "bca6b5f5b8b2",
+      "year": 2012,
+      "text": "At Palantir, we’ve created a rich \"conceptual environment,\" where each analyst can create his or her own visual intuitive space where they can absorb, understand, and interact with disparate information to come up with sophisticated findings.",
+      "score": 0.3099
+    },
+    {
       "id": "483acecf8360",
       "year": 2012,
       "text": "Palantir Technologies is working to radically change how groups analyze information.",
       "score": 0.3081
+    },
+    {
+      "id": "6936a16fe562",
+      "year": 2012,
+      "text": "We have no set hours—as long as your work is getting done, you're free to work whatever schedule suits you.",
+      "score": 0.3016
     },
     {
       "id": "86f3bfe61a0f",
@@ -256,10 +556,28 @@
       "score": 0.4742
     },
     {
+      "id": "3f754df668ac",
+      "year": 2013,
+      "text": "In crafting the institution that is Palantir, we've been very careful to make sure that we're engineering the company for sustainability in its most important asset: people .",
+      "score": 0.4653
+    },
+    {
       "id": "bd41e6cb8ac2",
       "year": 2013,
       "text": "With strong mission focus , we all work together to help make the world a better place.",
       "score": 0.452
+    },
+    {
+      "id": "4fc6dcedbbd2",
+      "year": 2013,
+      "text": "We're here to change the world through great software.",
+      "score": 0.4493
+    },
+    {
+      "id": "10d728474b68",
+      "year": 2013,
+      "text": "Our environment is designed to make work energizing and to stimulate the best thinking.",
+      "score": 0.4478
     },
     {
       "id": "ef934f5387e0",
@@ -268,10 +586,28 @@
       "score": 0.4339
     },
     {
+      "id": "1ef6b37e8d05",
+      "year": 2013,
+      "text": "It’s our chance to engage our community in a different way - leaving “work” at the door.",
+      "score": 0.4212
+    },
+    {
+      "id": "b6f92c1ab62f",
+      "year": 2013,
+      "text": "We build platforms and applications following a human-computer symbiosis approach.",
+      "score": 0.4202
+    },
+    {
       "id": "5255544242db",
       "year": 2013,
       "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes.",
       "score": 0.4065
+    },
+    {
+      "id": "868911e06210",
+      "year": 2013,
+      "text": "Palantir provides a variety of perks that aid us in that mission by promoting productivity and freeing up time at and away from the office.",
+      "score": 0.4031
     },
     {
       "id": "a4676d06b916",
@@ -292,6 +628,12 @@
       "score": 0.3904
     },
     {
+      "id": "73974e9f3d66",
+      "year": 2013,
+      "text": "We invite experts in tech, national security, philanthropy, and the thought leaders on topics currently trending in our hallways to engage in informal discussions with us and friends of Palantir.",
+      "score": 0.3838
+    },
+    {
       "id": "ac556813dcf8",
       "year": 2013,
       "text": "We build groundbreaking technologies , from our data fusion platforms to the extensions cooked up in our labs .",
@@ -310,6 +652,12 @@
       "score": 0.3507
     },
     {
+      "id": "7794a138efce",
+      "year": 2013,
+      "text": "We offer local gym memberships to all employees, and family members get a discounted rate.",
+      "score": 0.3405
+    },
+    {
       "id": "9e0983e29c7d",
       "year": 2013,
       "text": "Originally broadcasted live to students in Piazza’s network, the panelists spoke about their roles at Palantir and how they’ve navigated the ups and downs [...]",
@@ -322,16 +670,58 @@
       "score": 0.3344
     },
     {
+      "id": "9594b708f35f",
+      "year": 2013,
+      "text": "Once a winter, the entire company convenes in Tahoe for an all-expenses-paid weekend in the snow.",
+      "score": 0.3341
+    },
+    {
       "id": "b4225803f256",
       "year": 2013,
       "text": "Palantir is grounded in an engineering culture .",
       "score": 0.3334
     },
     {
+      "id": "e713c9ccac8a",
+      "year": 2013,
+      "text": "We have a small gym and showers on-site, and provide organized yoga classes, on-site haircuts, a doctor, a chiropractor, massages, laundry and dry-cleaning.",
+      "score": 0.326
+    },
+    {
+      "id": "a05e0a03d5ab",
+      "year": 2013,
+      "text": "Once a year, the entire company convenes in Palo Alto for \"HobbitCon.\" In the summers, we head to the Sacramento Valley to spend a day floating down a lazy river in inner tubes or to the Santa Cruz boardwalk for some old-fashioned fun.",
+      "score": 0.3243
+    },
+    {
+      "id": "f55b096bbf19",
+      "year": 2013,
+      "text": "Explore some favorite posts from our Tech Blog, a forum where engineers come together to discuss general software engineering topics and where you can learn more about how our engineers think.",
+      "score": 0.324
+    },
+    {
+      "id": "269ca598baa9",
+      "year": 2013,
+      "text": "From new platform features to performance tests, check out how Palantir interns spent their summer.",
+      "score": 0.3218
+    },
+    {
+      "id": "4a4c7b4f785c",
+      "year": 2013,
+      "text": "Sure, perks are nice, but they exist to allow us to focus on what really matters.",
+      "score": 0.3205
+    },
+    {
       "id": "483acecf8360",
       "year": 2013,
       "text": "Palantir Technologies is working to radically change how groups analyze information.",
       "score": 0.3081
+    },
+    {
+      "id": "6936a16fe562",
+      "year": 2013,
+      "text": "We have no set hours—as long as your work is getting done, you're free to work whatever schedule suits you.",
+      "score": 0.3016
     },
     {
       "id": "e0b2d33bed40",
@@ -358,10 +748,22 @@
       "score": 0.5031
     },
     {
+      "id": "24f4ddcc1598",
+      "year": 2014,
+      "text": "With a combination of perks, benefits, social activities, and learning opportunities, we invest every day in our most important asset: our people.",
+      "score": 0.5005
+    },
+    {
       "id": "74ab80f21122",
       "year": 2014,
       "text": "We’re passionate about making a difference with mission-driven organizations through our philanthropic work.",
       "score": 0.5003
+    },
+    {
+      "id": "6493c292c2c5",
+      "year": 2014,
+      "text": "Since then we've doubled in size every year while retaining our early-stage values: a startup culture, strong work ethic and rigorous hiring standards.",
+      "score": 0.4812
     },
     {
       "id": "27337b52f4a4",
@@ -370,10 +772,40 @@
       "score": 0.4742
     },
     {
+      "id": "3f754df668ac",
+      "year": 2014,
+      "text": "In crafting the institution that is Palantir, we've been very careful to make sure that we're engineering the company for sustainability in its most important asset: people .",
+      "score": 0.4653
+    },
+    {
       "id": "bd41e6cb8ac2",
       "year": 2014,
       "text": "With strong mission focus , we all work together to help make the world a better place.",
       "score": 0.452
+    },
+    {
+      "id": "4fc6dcedbbd2",
+      "year": 2014,
+      "text": "We're here to change the world through great software.",
+      "score": 0.4493
+    },
+    {
+      "id": "10d728474b68",
+      "year": 2014,
+      "text": "Our environment is designed to make work energizing and to stimulate the best thinking.",
+      "score": 0.4478
+    },
+    {
+      "id": "a4d4b8358fb1",
+      "year": 2014,
+      "text": "We believe in augmenting human intelligence, not replacing it.",
+      "score": 0.4429
+    },
+    {
+      "id": "5ddbfd63c8ec",
+      "year": 2014,
+      "text": "At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+      "score": 0.4353
     },
     {
       "id": "ef934f5387e0",
@@ -382,10 +814,52 @@
       "score": 0.4339
     },
     {
+      "id": "0e904d5706bc",
+      "year": 2014,
+      "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+      "score": 0.4292
+    },
+    {
+      "id": "1ef6b37e8d05",
+      "year": 2014,
+      "text": "It’s our chance to engage our community in a different way - leaving “work” at the door.",
+      "score": 0.4212
+    },
+    {
+      "id": "b6f92c1ab62f",
+      "year": 2014,
+      "text": "We build platforms and applications following a human-computer symbiosis approach.",
+      "score": 0.4202
+    },
+    {
+      "id": "9dccb60fc2bd",
+      "year": 2014,
+      "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+      "score": 0.4082
+    },
+    {
+      "id": "9bf887a9abcb",
+      "year": 2014,
+      "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+      "score": 0.4076
+    },
+    {
       "id": "5255544242db",
       "year": 2014,
       "text": "At the heart of what we do is a desire to connect people with the information they need to achieve extraordinary outcomes.",
       "score": 0.4065
+    },
+    {
+      "id": "16c45b3da39a",
+      "year": 2014,
+      "text": "We are engineers on a mission.",
+      "score": 0.4056
+    },
+    {
+      "id": "868911e06210",
+      "year": 2014,
+      "text": "Palantir provides a variety of perks that aid us in that mission by promoting productivity and freeing up time at and away from the office.",
+      "score": 0.4031
     },
     {
       "id": "6faa73538bcc",
@@ -400,10 +874,52 @@
       "score": 0.3904
     },
     {
+      "id": "d7145d453ae1",
+      "year": 2014,
+      "text": "We have proven products and an engineering mindset.",
+      "score": 0.3848
+    },
+    {
+      "id": "8110196f3156",
+      "year": 2014,
+      "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+      "score": 0.3844
+    },
+    {
+      "id": "114171769ad7",
+      "year": 2014,
+      "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+      "score": 0.3843
+    },
+    {
+      "id": "73974e9f3d66",
+      "year": 2014,
+      "text": "We invite experts in tech, national security, philanthropy, and the thought leaders on topics currently trending in our hallways to engage in informal discussions with us and friends of Palantir.",
+      "score": 0.3838
+    },
+    {
+      "id": "02a24f2faf4c",
+      "year": 2014,
+      "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+      "score": 0.3775
+    },
+    {
+      "id": "03ce39b72974",
+      "year": 2014,
+      "text": "Focus on what matters: Palantir provides a variety of perks that help us focus on the mission by promoting productivity and freeing up time at and away from the office.",
+      "score": 0.3746
+    },
+    {
       "id": "15577d4bd5ac",
       "year": 2014,
       "text": "We build groundbreaking technologies , including our data fusion platforms .",
       "score": 0.37
+    },
+    {
+      "id": "e82d8629ec14",
+      "year": 2014,
+      "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+      "score": 0.3678
     },
     {
       "id": "e8574db9dd18",
@@ -412,16 +928,124 @@
       "score": 0.3634
     },
     {
+      "id": "60a74fac2a93",
+      "year": 2014,
+      "text": "By establishing a true partnership, we help customers get the most out of our products and engineering expertise.",
+      "score": 0.3587
+    },
+    {
+      "id": "ed45494404c7",
+      "year": 2014,
+      "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+      "score": 0.3527
+    },
+    {
       "id": "69df774f55f2",
       "year": 2014,
       "text": "Our solutions and integrations are revolutionizing the work being done at organizations across government, commercial and health industries.",
       "score": 0.3519
     },
     {
+      "id": "e7c69f28be65",
+      "year": 2014,
+      "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+      "score": 0.3502
+    },
+    {
+      "id": "7393e25e3fef",
+      "year": 2014,
+      "text": "See the challenges we help our customers face",
+      "score": 0.3415
+    },
+    {
+      "id": "7794a138efce",
+      "year": 2014,
+      "text": "We offer local gym memberships to all employees, and family members get a discounted rate.",
+      "score": 0.3405
+    },
+    {
+      "id": "e5fbb92efb30",
+      "year": 2014,
+      "text": "Our products are built for real analysis with a focus on security, scalability, ease of use and collaboration.",
+      "score": 0.3344
+    },
+    {
       "id": "b4225803f256",
       "year": 2014,
       "text": "Palantir is grounded in an engineering culture .",
       "score": 0.3334
+    },
+    {
+      "id": "e713c9ccac8a",
+      "year": 2014,
+      "text": "We have a small gym and showers on-site, and provide organized yoga classes, on-site haircuts, a doctor, a chiropractor, massages, laundry and dry-cleaning.",
+      "score": 0.326
+    },
+    {
+      "id": "a05e0a03d5ab",
+      "year": 2014,
+      "text": "Once a year, the entire company convenes in Palo Alto for \"HobbitCon.\" In the summers, we head to the Sacramento Valley to spend a day floating down a lazy river in inner tubes or to the Santa Cruz boardwalk for some old-fashioned fun.",
+      "score": 0.3243
+    },
+    {
+      "id": "269ca598baa9",
+      "year": 2014,
+      "text": "From new platform features to performance tests, check out how Palantir interns spent their summer.",
+      "score": 0.3218
+    },
+    {
+      "id": "4a4c7b4f785c",
+      "year": 2014,
+      "text": "Sure, perks are nice, but they exist to allow us to focus on what really matters.",
+      "score": 0.3205
+    },
+    {
+      "id": "5087c9530587",
+      "year": 2014,
+      "text": "We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years.",
+      "score": 0.3145
+    },
+    {
+      "id": "68c7423caa76",
+      "year": 2014,
+      "text": "No sweat: We offer local gym memberships to all employees, and family members get a discounted rate.",
+      "score": 0.3101
+    },
+    {
+      "id": "483acecf8360",
+      "year": 2014,
+      "text": "Palantir Technologies is working to radically change how groups analyze information.",
+      "score": 0.3081
+    },
+    {
+      "id": "3bea40b35647",
+      "year": 2014,
+      "text": "We have organized games of pickup basketball, soccer, and ultimate Frisbee, and we field teams in local basketball leagues.",
+      "score": 0.3035
+    },
+    {
+      "id": "6936a16fe562",
+      "year": 2014,
+      "text": "We have no set hours—as long as your work is getting done, you're free to work whatever schedule suits you.",
+      "score": 0.3016
+    },
+    {
+      "id": "e0b2d33bed40",
+      "year": 2014,
+      "text": "Last month we hosted Palantir Sync: Investigate, which brought together members of the investigative, regulatory, and prosecutorial communities for a discussion of how technology and data are transforming their missions.",
+      "score": 0.3015
+    },
+    {
+      "id": "de6de7519ef4",
+      "year": 2014,
+      "text": "Organizations around the world are using Palantir to help them do their most important work.",
+      "score": 0.3008
+    },
+    {
+      "id": "a755a4fa7833",
+      "year": 2015,
+      "text": "No matter where you're based, or which team you work on, you’ll be part of a group of people working together to build solutions to mission-critical problems and a company that values the very best ideas.",
+      "score": 0.5223
     },
     {
       "id": "656f954bf65e",
@@ -454,10 +1078,76 @@
       "score": 0.4478
     },
     {
+      "id": "a4d4b8358fb1",
+      "year": 2015,
+      "text": "We believe in augmenting human intelligence, not replacing it.",
+      "score": 0.4429
+    },
+    {
+      "id": "5ddbfd63c8ec",
+      "year": 2015,
+      "text": "At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+      "score": 0.4353
+    },
+    {
       "id": "1d909292c2a1",
       "year": 2015,
       "text": "While we certainly think we’re doing exciting, impactful work, we don’t want you to just take our word for it.",
       "score": 0.4314
+    },
+    {
+      "id": "0e904d5706bc",
+      "year": 2015,
+      "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+      "score": 0.4292
+    },
+    {
+      "id": "9dccb60fc2bd",
+      "year": 2015,
+      "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+      "score": 0.4082
+    },
+    {
+      "id": "9bf887a9abcb",
+      "year": 2015,
+      "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+      "score": 0.4076
+    },
+    {
+      "id": "16c45b3da39a",
+      "year": 2015,
+      "text": "We are engineers on a mission.",
+      "score": 0.4056
+    },
+    {
+      "id": "d7145d453ae1",
+      "year": 2015,
+      "text": "We have proven products and an engineering mindset.",
+      "score": 0.3848
+    },
+    {
+      "id": "8110196f3156",
+      "year": 2015,
+      "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+      "score": 0.3844
+    },
+    {
+      "id": "114171769ad7",
+      "year": 2015,
+      "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+      "score": 0.3843
+    },
+    {
+      "id": "98984b49176e",
+      "year": 2015,
+      "text": "There’s a role here for you—whether you're a new grad or have years of experience.",
+      "score": 0.3797
+    },
+    {
+      "id": "02a24f2faf4c",
+      "year": 2015,
+      "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+      "score": 0.3775
     },
     {
       "id": "03ce39b72974",
@@ -470,6 +1160,36 @@
       "year": 2015,
       "text": "Find out more about us—we think you’ll like what you see.",
       "score": 0.3686
+    },
+    {
+      "id": "e82d8629ec14",
+      "year": 2015,
+      "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+      "score": 0.3678
+    },
+    {
+      "id": "60a74fac2a93",
+      "year": 2015,
+      "text": "By establishing a true partnership, we help customers get the most out of our products and engineering expertise.",
+      "score": 0.3587
+    },
+    {
+      "id": "ed45494404c7",
+      "year": 2015,
+      "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+      "score": 0.3527
+    },
+    {
+      "id": "e7c69f28be65",
+      "year": 2015,
+      "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+      "score": 0.3502
+    },
+    {
+      "id": "7393e25e3fef",
+      "year": 2015,
+      "text": "See the challenges we help our customers face",
+      "score": 0.3415
     },
     {
       "id": "e713c9ccac8a",
@@ -488,6 +1208,12 @@
       "year": 2015,
       "text": "Where you take the next step in your career matters.",
       "score": 0.3164
+    },
+    {
+      "id": "5087c9530587",
+      "year": 2015,
+      "text": "We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years.",
+      "score": 0.3145
     },
     {
       "id": "129ad3257433",
@@ -520,6 +1246,12 @@
       "score": 0.3016
     },
     {
+      "id": "de6de7519ef4",
+      "year": 2015,
+      "text": "Organizations around the world are using Palantir to help them do their most important work.",
+      "score": 0.3008
+    },
+    {
       "id": "656f954bf65e",
       "year": 2016,
       "text": "Perks, benefits, social activities, and learning opportunities: we believe people are our most important asset, so we invest in our people every day to promote productivity and reduce friction.",
@@ -550,16 +1282,112 @@
       "score": 0.4478
     },
     {
+      "id": "a4d4b8358fb1",
+      "year": 2016,
+      "text": "We believe in augmenting human intelligence, not replacing it.",
+      "score": 0.4429
+    },
+    {
+      "id": "5ddbfd63c8ec",
+      "year": 2016,
+      "text": "At our headquarters in Palo Alto and at offices around the world we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
+      "score": 0.4353
+    },
+    {
+      "id": "0e904d5706bc",
+      "year": 2016,
+      "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
+      "score": 0.4292
+    },
+    {
+      "id": "9dccb60fc2bd",
+      "year": 2016,
+      "text": "Whatever the situation, our approach with all our clients is the same: to establish a partnership that transforms the way they use data in pursuit of their goals.",
+      "score": 0.4082
+    },
+    {
+      "id": "9bf887a9abcb",
+      "year": 2016,
+      "text": "We’re focused on creating the world’s best user experience for working with data, one that empowers people to ask and answer complex questions without requiring them to master querying languages, statistical modeling, or the command line.",
+      "score": 0.4076
+    },
+    {
+      "id": "16c45b3da39a",
+      "year": 2016,
+      "text": "We are engineers on a mission.",
+      "score": 0.4056
+    },
+    {
+      "id": "d7145d453ae1",
+      "year": 2016,
+      "text": "We have proven products and an engineering mindset.",
+      "score": 0.3848
+    },
+    {
+      "id": "8110196f3156",
+      "year": 2016,
+      "text": "We saw a need for a different kind of technology, and we knew it would take a different kind of company to build it.",
+      "score": 0.3844
+    },
+    {
+      "id": "114171769ad7",
+      "year": 2016,
+      "text": "Whatever their role, each Palantirian combines an uncompromising engineering mindset with an unwavering focus on executing in service of the mission.",
+      "score": 0.3843
+    },
+    {
+      "id": "02a24f2faf4c",
+      "year": 2016,
+      "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
+      "score": 0.3775
+    },
+    {
       "id": "03ce39b72974",
       "year": 2016,
       "text": "Focus on what matters: Palantir provides a variety of perks that help us focus on the mission by promoting productivity and freeing up time at and away from the office.",
       "score": 0.3746
     },
     {
+      "id": "e82d8629ec14",
+      "year": 2016,
+      "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
+      "score": 0.3678
+    },
+    {
+      "id": "60a74fac2a93",
+      "year": 2016,
+      "text": "By establishing a true partnership, we help customers get the most out of our products and engineering expertise.",
+      "score": 0.3587
+    },
+    {
+      "id": "ed45494404c7",
+      "year": 2016,
+      "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
+      "score": 0.3527
+    },
+    {
+      "id": "e7c69f28be65",
+      "year": 2016,
+      "text": "We seek out the most critical problems we can find—the ones that pose threats not only to many of the world’s most important institutions, but to the people they serve as well.",
+      "score": 0.3502
+    },
+    {
+      "id": "7393e25e3fef",
+      "year": 2016,
+      "text": "See the challenges we help our customers face",
+      "score": 0.3415
+    },
+    {
       "id": "ec545547e817",
       "year": 2016,
       "text": "We have a small gym and showers on-site, and provide organized yoga classes, on-site haircuts, a doctor, a chiropractor, massages, laundry, and dry cleaning.",
       "score": 0.3259
+    },
+    {
+      "id": "5087c9530587",
+      "year": 2016,
+      "text": "We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years.",
+      "score": 0.3145
     },
     {
       "id": "41808417effd",
@@ -586,6 +1414,24 @@
       "score": 0.3016
     },
     {
+      "id": "de6de7519ef4",
+      "year": 2016,
+      "text": "Organizations around the world are using Palantir to help them do their most important work.",
+      "score": 0.3008
+    },
+    {
+      "id": "18381f46613b",
+      "year": 2017,
+      "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
+      "score": 0.4892
+    },
+    {
+      "id": "bc6b0f8ca04e",
+      "year": 2017,
+      "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
+      "score": 0.4528
+    },
+    {
       "id": "a4d4b8358fb1",
       "year": 2017,
       "text": "We believe in augmenting human intelligence, not replacing it.",
@@ -670,16 +1516,40 @@
       "score": 0.3502
     },
     {
+      "id": "3053701d14ce",
+      "year": 2017,
+      "text": "Palantir interns apply their knowledge to real-world problems, shape the company, and learn from those around them from day one.",
+      "score": 0.344
+    },
+    {
       "id": "7393e25e3fef",
       "year": 2017,
       "text": "See the challenges we help our customers face",
       "score": 0.3415
     },
     {
+      "id": "66a00bb6cf39",
+      "year": 2017,
+      "text": "You do have to speak up when things aren't right and build to fix what's broken.",
+      "score": 0.3184
+    },
+    {
       "id": "5087c9530587",
       "year": 2017,
       "text": "We send our engineers into the field to work directly with our customers—deploying our products, integrating their data, optimizing their workflows, and producing operational results in weeks, not years.",
       "score": 0.3145
+    },
+    {
+      "id": "129ad3257433",
+      "year": 2017,
+      "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer.",
+      "score": 0.3111
+    },
+    {
+      "id": "c7b302864b5d",
+      "year": 2017,
+      "text": "Palantir interns apply their knowledge to real-world problems from day one.",
+      "score": 0.3074
     },
     {
       "id": "de6de7519ef4",
@@ -940,10 +1810,208 @@
       "score": 0.3008
     },
     {
+      "id": "cdf9fb0914b1",
+      "year": 2020,
+      "text": "We know it takes active effort to build an inclusive and equitable world where all voices are heard, and we’re committed to being part of the change.",
+      "score": 0.7163
+    },
+    {
+      "id": "acd233c445fa",
+      "year": 2020,
+      "text": "We recognize that increasing diversity within the tech industry takes consistent, impactful action to increase access and opportunities for members of underrepresented communities.",
+      "score": 0.6698
+    },
+    {
+      "id": "baf4ba97b61c",
+      "year": 2020,
+      "text": "We believe that all Palantirians share the responsibility of upholding our values of equity and inclusion.",
+      "score": 0.6678
+    },
+    {
+      "id": "3487587fee24",
+      "year": 2020,
+      "text": "We center inclusion and listen to our community as we design policies, processes, and spaces.",
+      "score": 0.6375
+    },
+    {
+      "id": "43cf273963c0",
+      "year": 2020,
+      "text": "We aim to engage mindfully in open dialogues to ensure that each member is supported, valued, and empowered to strike a healthy balance inside and out of work.",
+      "score": 0.6312
+    },
+    {
+      "id": "035787f5eb35",
+      "year": 2020,
+      "text": "We celebrate the diversity within our own community and strive to be strong and active allies to all other underrepresented groups.",
+      "score": 0.6295
+    },
+    {
+      "id": "62734e45e69b",
+      "year": 2020,
+      "text": "To achieve our best outcomes, Palantir needs people who bring a wide range of backgrounds, perspectives, and lived experiences.",
+      "score": 0.6294
+    },
+    {
+      "id": "ff3c16e40f0f",
+      "year": 2020,
+      "text": "Transparency We recognize the need to hold ourselves accountable as we aim to improve diversity, equity, and inclusion.",
+      "score": 0.6261
+    },
+    {
+      "id": "4ab9eabf9f7b",
+      "year": 2020,
+      "text": "To give people from all backgrounds a chance to thrive in tech and support future leaders, we have several programs aimed at reducing barriers to access.",
+      "score": 0.612
+    },
+    {
+      "id": "85b554612adb",
+      "year": 2020,
+      "text": "We’re committed to promoting these values across the broader tech community.",
+      "score": 0.594
+    },
+    {
+      "id": "6b1d7551a8ce",
+      "year": 2020,
+      "text": "Learn More Partnerships We partner with several forward-thinking organizations who share our values in amplifying talented people from underrepresented backgrounds as they pursue careers in tech.",
+      "score": 0.5791
+    },
+    {
+      "id": "12a48a6d4dae",
+      "year": 2020,
+      "text": "Our Diversity, Equity & Inclusion (DEI) team takes the lead in working to increase awareness and accountability and promote active allyship throughout Palantir.",
+      "score": 0.5776
+    },
+    {
+      "id": "f1f226ef70af",
+      "year": 2020,
+      "text": "We acknowledge that each member of our increasingly diverse community has their own needs, experiences, and opportunities.",
+      "score": 0.571
+    },
+    {
+      "id": "6837aecf8efb",
+      "year": 2020,
+      "text": "We raise awareness about issues that impact our community, and strive to be allies to other underrepresented groups.",
+      "score": 0.5699
+    },
+    {
+      "id": "91cc89a15840",
+      "year": 2020,
+      "text": "One avenue for employees to contribute their voices is through Affinity Groups: employee-led resource groups that celebrate unique perspectives and backgrounds and help guide our DEI initiatives.",
+      "score": 0.5654
+    },
+    {
+      "id": "9874cf0a01e6",
+      "year": 2020,
+      "text": "We maintain an internal dashboard of demographic data so all Palantirians can see where we’re succeeding and where we’re falling short.",
+      "score": 0.5612
+    },
+    {
+      "id": "4fbad7e08ebe",
+      "year": 2020,
+      "text": "Instead of traditional career ladders, we celebrate individuals’ strengths, skills, and interests, from your first interview to your long-term trajectory.",
+      "score": 0.5473
+    },
+    {
+      "id": "bb813a34038f",
+      "year": 2020,
+      "text": "Equity We share responsibility for our mission and success, which is why we believe in collective ownership of our company and offer equity to full-time employees.",
+      "score": 0.5403
+    },
+    {
+      "id": "430f6b38f94f",
+      "year": 2020,
+      "text": "Conferences We support the development of our internal community and sponsor employees to attend conferences dedicated to connecting and promoting under-tapped voices.",
+      "score": 0.5395
+    },
+    {
+      "id": "9ee6cdaba311",
+      "year": 2020,
+      "text": "Our mission is to support and grow our sense of community, foster an increasingly inclusive and comfortable internal workplace, and ensure the consideration of important issues to the LGBTQ+ community in Palantir’s business decisions and technological developments.",
+      "score": 0.5343
+    },
+    {
+      "id": "4131b5d3fbea",
+      "year": 2020,
+      "text": "Our mission is to create an inclusive and supportive community through professional development, internal networking, external outreach opportunities, and enabling conversations around intersectional gender issues.",
+      "score": 0.5322
+    },
+    {
+      "id": "3cc7309103ab",
+      "year": 2020,
+      "text": "We also support and encourage employees to submit speaker proposals to amplify their accomplishments and experience.",
+      "score": 0.5318
+    },
+    {
+      "id": "b47cbbbb2579",
+      "year": 2020,
+      "text": "For more information, read this post from a member of our community on the ways we support trans Palantirians.",
+      "score": 0.5247
+    },
+    {
+      "id": "8f6834736ddd",
+      "year": 2020,
+      "text": "This includes gender-affirming healthcare coverage, which we’re working toward offering to employees in as many locations as possible.",
+      "score": 0.5193
+    },
+    {
+      "id": "df67cb794351",
+      "year": 2020,
+      "text": "We aim to provide a space for dialogue and mutual support for our API community members, to foster mentorship and professional development, to increase cultural awareness and belonging within the company, and to empower members to be leaders and advocates both in the company and in our communities.",
+      "score": 0.5165
+    },
+    {
+      "id": "86e570c42eb5",
+      "year": 2020,
+      "text": "To succeed, we need voices from all walks of life.",
+      "score": 0.5076
+    },
+    {
+      "id": "fc08f8833d51",
+      "year": 2020,
+      "text": "We also comply with UK Gender Pay Gap reporting requirements, and support the effort to encourage transparency.",
+      "score": 0.5044
+    },
+    {
       "id": "18381f46613b",
       "year": 2020,
       "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
       "score": 0.4892
+    },
+    {
+      "id": "e71578394714",
+      "year": 2020,
+      "text": "We build up and support each other, share experiences, and promote professional growth and development.",
+      "score": 0.4855
+    },
+    {
+      "id": "d25b06dbab5f",
+      "year": 2020,
+      "text": "Understanding that not everyone has access to technical opportunities before college, we provide opportunity and exposure through hands-on learning and mentorship alongside engineers and analysts.",
+      "score": 0.4781
+    },
+    {
+      "id": "81d0aba33b36",
+      "year": 2020,
+      "text": "We work to continuously improve our offerings, and listen to our community as we design and update them.",
+      "score": 0.4751
+    },
+    {
+      "id": "52bf8c9b702f",
+      "year": 2020,
+      "text": "Our mission is to create a space for gender non-conforming and transgender individuals to connect and support each another personally and professionally, share relevant resources and experiences, and educate the broader Palantir community on issues regarding gender identity.",
+      "score": 0.4541
+    },
+    {
+      "id": "7a05a5b60774",
+      "year": 2020,
+      "text": "For example, BreakLine supports and assists US military veterans, women, and people of color as they transition into careers within the tech sector.",
+      "score": 0.4533
+    },
+    {
+      "id": "7c4156a6a10a",
+      "year": 2020,
+      "text": "PalNoir PalNoir creates a safe, supportive, and inclusive community for employees that identify as Black or of African descent.",
+      "score": 0.4529
     },
     {
       "id": "bc6b0f8ca04e",
@@ -952,10 +2020,28 @@
       "score": 0.4528
     },
     {
+      "id": "c5c18effec2c",
+      "year": 2020,
+      "text": "Palantirian voices are critical to helping us innovate on our software and strengthen our community.",
+      "score": 0.446
+    },
+    {
       "id": "a4d4b8358fb1",
       "year": 2020,
       "text": "We believe in augmenting human intelligence, not replacing it.",
       "score": 0.4429
+    },
+    {
+      "id": "67d71f17a10c",
+      "year": 2020,
+      "text": "PalAPI partners with other affinity groups at Palantir as an ally, recognizing their unique strengths and challenges as well as commonalities.",
+      "score": 0.4428
+    },
+    {
+      "id": "259709064345",
+      "year": 2020,
+      "text": "Note that our offerings may vary by region as we strive to respond to the unique needs of Palantirians around the globe.",
+      "score": 0.4427
     },
     {
       "id": "5ddbfd63c8ec",
@@ -964,10 +2050,58 @@
       "score": 0.4353
     },
     {
+      "id": "a78bde563009",
+      "year": 2020,
+      "text": "To that end, candidates have the opportunity to connect with Affinity Group members to learn more about their experiences at Palantir.",
+      "score": 0.4337
+    },
+    {
+      "id": "15cf81465699",
+      "year": 2020,
+      "text": "Women in Tech Women in Tech is composed of women and allies, regardless of technical background.",
+      "score": 0.4297
+    },
+    {
       "id": "0e904d5706bc",
       "year": 2020,
       "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
       "score": 0.4292
+    },
+    {
+      "id": "b1b2f826c35c",
+      "year": 2020,
+      "text": "Our mission is to deepen connections, support the personal and professional development of our members, and increase business awareness of important issues that impact our community.",
+      "score": 0.428
+    },
+    {
+      "id": "6d2f57c19fcb",
+      "year": 2020,
+      "text": "We welcome guests to our offices, and you can expect to see Palantir families, friends, and furry friends around.",
+      "score": 0.4259
+    },
+    {
+      "id": "f0e424b0342f",
+      "year": 2020,
+      "text": "Read our 2018 Report Community Our community is one of our greatest assets, and that extends beyond our colleagues.",
+      "score": 0.4258
+    },
+    {
+      "id": "44010f887ff3",
+      "year": 2020,
+      "text": "Around the world, we’re working to help critical institutions better serve society — from combating child exploitation to empowering workers to protecting public health .",
+      "score": 0.4171
+    },
+    {
+      "id": "ea13026fbc38",
+      "year": 2020,
+      "text": "Palan-Queer Palan-Queer represents the LGBTQ+ community at Palantir.",
+      "score": 0.4142
+    },
+    {
+      "id": "92b3fb6bf73f",
+      "year": 2020,
+      "text": "Our benefits aim to promote health and wellbeing across all areas of Palantirians’ lives.",
+      "score": 0.4138
     },
     {
       "id": "9dccb60fc2bd",
@@ -982,10 +2116,34 @@
       "score": 0.4076
     },
     {
+      "id": "084212ae7285",
+      "year": 2020,
+      "text": "We learn from each other and help educate the broader Palantir community about Vets, and engage and support external parties that address current Veteran issues.",
+      "score": 0.4071
+    },
+    {
       "id": "16c45b3da39a",
       "year": 2020,
       "text": "We are engineers on a mission.",
       "score": 0.4056
+    },
+    {
+      "id": "22fdca465d77",
+      "year": 2020,
+      "text": "We also offer flexible working arrangements (including working from home) and hours.",
+      "score": 0.402
+    },
+    {
+      "id": "b2d9a1f1b4b9",
+      "year": 2020,
+      "text": "Rewriting the Code helps women from a diverse range of backgrounds become the next generation of engineers and tech leaders through community-building, mentorship opportunities, and by providing access to industry and educational resources.",
+      "score": 0.4003
+    },
+    {
+      "id": "0f7c372c3d2e",
+      "year": 2020,
+      "text": "Family Support We provide generous paid parental leave; where not covered by local law, a stipend for new parents; and family leave for taking care of loved ones.",
+      "score": 0.3905
     },
     {
       "id": "d7145d453ae1",
@@ -1006,10 +2164,28 @@
       "score": 0.3843
     },
     {
+      "id": "24fb9c3b98da",
+      "year": 2020,
+      "text": "Palamigos Palamigos represents the Latinx and Hispanic community at Palantir.",
+      "score": 0.378
+    },
+    {
       "id": "02a24f2faf4c",
       "year": 2020,
       "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
       "score": 0.3775
+    },
+    {
+      "id": "2d564ff5fbd1",
+      "year": 2020,
+      "text": "Join us in solving the world’s hardest problems.",
+      "score": 0.3731
+    },
+    {
+      "id": "73a6b40de864",
+      "year": 2020,
+      "text": "Affinity Groups also act as a bridge between Palantir and the world around us, working to help the external community understand our mission to make global institutions work better and for the benefit of all.",
+      "score": 0.3699
     },
     {
       "id": "e82d8629ec14",
@@ -1018,10 +2194,46 @@
       "score": 0.3678
     },
     {
+      "id": "319e4c7ebf4d",
+      "year": 2020,
+      "text": "Take-What-You-Need Time Off Policy We know the importance of taking time to recharge.",
+      "score": 0.3666
+    },
+    {
+      "id": "8a1804916bc8",
+      "year": 2020,
+      "text": "We have several initiatives to cultivate future leaders from these communities, including: Palantir Path Palantir Path is a summer internship program designed to give college sophomores and juniors a path into a career in technology.",
+      "score": 0.3616
+    },
+    {
+      "id": "4c52983de0d9",
+      "year": 2020,
+      "text": "Mental Health and Wellbeing Our holistic approach to supporting Palantirians’ mental health and wellbeing includes offering access to virtual therapy, coaching, complementary medicine, meditation, and fitness.",
+      "score": 0.361
+    },
+    {
+      "id": "46ca8d113585",
+      "year": 2020,
+      "text": "Whether you're a seasoned pro or just starting your journey, there's an inclusive community here happy to share their experiences, insights, and ideas.",
+      "score": 0.3597
+    },
+    {
       "id": "60a74fac2a93",
       "year": 2020,
       "text": "By establishing a true partnership, we help customers get the most out of our products and engineering expertise.",
       "score": 0.3587
+    },
+    {
+      "id": "10af02b5e393",
+      "year": 2020,
+      "text": "Scholarship recipients are invited to visit one of our offices for a full-day workshop focused on professional development and community building.",
+      "score": 0.3582
+    },
+    {
+      "id": "22f8fbf1870a",
+      "year": 2020,
+      "text": "All Palantir parents can take advantage of flexible working arrangements, childcare assistance, and other benefits and programming to support healthy families.",
+      "score": 0.3532
     },
     {
       "id": "ed45494404c7",
@@ -1036,10 +2248,40 @@
       "score": 0.3502
     },
     {
+      "id": "8f1167f092b0",
+      "year": 2020,
+      "text": "We close all of our offices for two weeks in December and offer a take-what-you-need policy to help Palantirians achieve the balance they need to succeed, whether that means taking a long weekend, observing a religious holiday, or navigating school breaks as a parent.",
+      "score": 0.3458
+    },
+    {
+      "id": "51de6a43a910",
+      "year": 2020,
+      "text": "Path interns interact with clients, get professional development from fellow Palantirians, and help influence decisions that impact our business and our customers’ missions.",
+      "score": 0.3454
+    },
+    {
       "id": "7393e25e3fef",
       "year": 2020,
       "text": "See the challenges we help our customers face",
       "score": 0.3415
+    },
+    {
+      "id": "3768c926e944",
+      "year": 2020,
+      "text": "PalVets PalVets represents Palantir’s diverse military Veteran community.",
+      "score": 0.335
+    },
+    {
+      "id": "38be92f35bda",
+      "year": 2020,
+      "text": "Learn More Global Scholarships In an effort to reduce financial barriers to access, Palantir offers scholarships to support students from underrepresented communities in STEM who are beginning careers in technology.",
+      "score": 0.3329
+    },
+    {
+      "id": "358aeb468335",
+      "year": 2020,
+      "text": "Healthcare Our robust healthcare benefits for Palantirians and their families exceed the industry average.",
+      "score": 0.3258
     },
     {
       "id": "66a00bb6cf39",
@@ -1054,16 +2296,178 @@
       "score": 0.3145
     },
     {
+      "id": "dfaf25e6f183",
+      "year": 2020,
+      "text": "Parents Palantir Parents exists to foster openness and appreciation of the multiple dimensions of parenthood at every stage of the journey.",
+      "score": 0.3143
+    },
+    {
       "id": "129ad3257433",
       "year": 2020,
       "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer.",
       "score": 0.3111
     },
     {
+      "id": "86d3bd4a67ae",
+      "year": 2020,
+      "text": "We also offer fertility services and adoption assistance.",
+      "score": 0.3087
+    },
+    {
+      "id": "2835dc1f44b0",
+      "year": 2020,
+      "text": "The mission of PalVets is to support and grow our sense of belonging, and to provide an inclusive venue to share experiences and support each other as we continue to serve our community in a different capacity.",
+      "score": 0.303
+    },
+    {
       "id": "de6de7519ef4",
       "year": 2020,
       "text": "Organizations around the world are using Palantir to help them do their most important work.",
       "score": 0.3008
+    },
+    {
+      "id": "cdf9fb0914b1",
+      "year": 2021,
+      "text": "We know it takes active effort to build an inclusive and equitable world where all voices are heard, and we’re committed to being part of the change.",
+      "score": 0.7163
+    },
+    {
+      "id": "acd233c445fa",
+      "year": 2021,
+      "text": "We recognize that increasing diversity within the tech industry takes consistent, impactful action to increase access and opportunities for members of underrepresented communities.",
+      "score": 0.6698
+    },
+    {
+      "id": "baf4ba97b61c",
+      "year": 2021,
+      "text": "We believe that all Palantirians share the responsibility of upholding our values of equity and inclusion.",
+      "score": 0.6678
+    },
+    {
+      "id": "3487587fee24",
+      "year": 2021,
+      "text": "We center inclusion and listen to our community as we design policies, processes, and spaces.",
+      "score": 0.6375
+    },
+    {
+      "id": "43cf273963c0",
+      "year": 2021,
+      "text": "We aim to engage mindfully in open dialogues to ensure that each member is supported, valued, and empowered to strike a healthy balance inside and out of work.",
+      "score": 0.6312
+    },
+    {
+      "id": "035787f5eb35",
+      "year": 2021,
+      "text": "We celebrate the diversity within our own community and strive to be strong and active allies to all other underrepresented groups.",
+      "score": 0.6295
+    },
+    {
+      "id": "62734e45e69b",
+      "year": 2021,
+      "text": "To achieve our best outcomes, Palantir needs people who bring a wide range of backgrounds, perspectives, and lived experiences.",
+      "score": 0.6294
+    },
+    {
+      "id": "ff3c16e40f0f",
+      "year": 2021,
+      "text": "Transparency We recognize the need to hold ourselves accountable as we aim to improve diversity, equity, and inclusion.",
+      "score": 0.6261
+    },
+    {
+      "id": "4ab9eabf9f7b",
+      "year": 2021,
+      "text": "To give people from all backgrounds a chance to thrive in tech and support future leaders, we have several programs aimed at reducing barriers to access.",
+      "score": 0.612
+    },
+    {
+      "id": "85b554612adb",
+      "year": 2021,
+      "text": "We’re committed to promoting these values across the broader tech community.",
+      "score": 0.594
+    },
+    {
+      "id": "6b1d7551a8ce",
+      "year": 2021,
+      "text": "Learn More Partnerships We partner with several forward-thinking organizations who share our values in amplifying talented people from underrepresented backgrounds as they pursue careers in tech.",
+      "score": 0.5791
+    },
+    {
+      "id": "12a48a6d4dae",
+      "year": 2021,
+      "text": "Our Diversity, Equity & Inclusion (DEI) team takes the lead in working to increase awareness and accountability and promote active allyship throughout Palantir.",
+      "score": 0.5776
+    },
+    {
+      "id": "f1f226ef70af",
+      "year": 2021,
+      "text": "We acknowledge that each member of our increasingly diverse community has their own needs, experiences, and opportunities.",
+      "score": 0.571
+    },
+    {
+      "id": "6837aecf8efb",
+      "year": 2021,
+      "text": "We raise awareness about issues that impact our community, and strive to be allies to other underrepresented groups.",
+      "score": 0.5699
+    },
+    {
+      "id": "91cc89a15840",
+      "year": 2021,
+      "text": "One avenue for employees to contribute their voices is through Affinity Groups: employee-led resource groups that celebrate unique perspectives and backgrounds and help guide our DEI initiatives.",
+      "score": 0.5654
+    },
+    {
+      "id": "9874cf0a01e6",
+      "year": 2021,
+      "text": "We maintain an internal dashboard of demographic data so all Palantirians can see where we’re succeeding and where we’re falling short.",
+      "score": 0.5612
+    },
+    {
+      "id": "9edfd044385a",
+      "year": 2021,
+      "text": "We do not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics.",
+      "score": 0.5548
+    },
+    {
+      "id": "4fbad7e08ebe",
+      "year": 2021,
+      "text": "Instead of traditional career ladders, we celebrate individuals’ strengths, skills, and interests, from your first interview to your long-term trajectory.",
+      "score": 0.5473
+    },
+    {
+      "id": "bb813a34038f",
+      "year": 2021,
+      "text": "Equity We share responsibility for our mission and success, which is why we believe in collective ownership of our company and offer equity to full-time employees.",
+      "score": 0.5403
+    },
+    {
+      "id": "430f6b38f94f",
+      "year": 2021,
+      "text": "Conferences We support the development of our internal community and sponsor employees to attend conferences dedicated to connecting and promoting under-tapped voices.",
+      "score": 0.5395
+    },
+    {
+      "id": "9ee6cdaba311",
+      "year": 2021,
+      "text": "Our mission is to support and grow our sense of community, foster an increasingly inclusive and comfortable internal workplace, and ensure the consideration of important issues to the LGBTQ+ community in Palantir’s business decisions and technological developments.",
+      "score": 0.5343
+    },
+    {
+      "id": "4131b5d3fbea",
+      "year": 2021,
+      "text": "Our mission is to create an inclusive and supportive community through professional development, internal networking, external outreach opportunities, and enabling conversations around intersectional gender issues.",
+      "score": 0.5322
+    },
+    {
+      "id": "3cc7309103ab",
+      "year": 2021,
+      "text": "We also support and encourage employees to submit speaker proposals to amplify their accomplishments and experience.",
+      "score": 0.5318
+    },
+    {
+      "id": "b47cbbbb2579",
+      "year": 2021,
+      "text": "For more information, read this post from a member of our community on the ways we support trans Palantirians.",
+      "score": 0.5247
     },
     {
       "id": "a755a4fa7833",
@@ -1072,10 +2476,58 @@
       "score": 0.5223
     },
     {
+      "id": "8f6834736ddd",
+      "year": 2021,
+      "text": "This includes gender-affirming healthcare coverage, which we’re working toward offering to employees in as many locations as possible.",
+      "score": 0.5193
+    },
+    {
+      "id": "df67cb794351",
+      "year": 2021,
+      "text": "We aim to provide a space for dialogue and mutual support for our API community members, to foster mentorship and professional development, to increase cultural awareness and belonging within the company, and to empower members to be leaders and advocates both in the company and in our communities.",
+      "score": 0.5165
+    },
+    {
+      "id": "455f8029cb18",
+      "year": 2021,
+      "text": "Palantir is proud to be an Equal Employment Opportunity and Affirmative Action employer.",
+      "score": 0.5089
+    },
+    {
+      "id": "86e570c42eb5",
+      "year": 2021,
+      "text": "To succeed, we need voices from all walks of life.",
+      "score": 0.5076
+    },
+    {
+      "id": "fc08f8833d51",
+      "year": 2021,
+      "text": "We also comply with UK Gender Pay Gap reporting requirements, and support the effort to encourage transparency.",
+      "score": 0.5044
+    },
+    {
       "id": "18381f46613b",
       "year": 2021,
       "text": "At Palantir, we work for the common good—within our organization and with other organizations around the world.",
       "score": 0.4892
+    },
+    {
+      "id": "e71578394714",
+      "year": 2021,
+      "text": "We build up and support each other, share experiences, and promote professional growth and development.",
+      "score": 0.4855
+    },
+    {
+      "id": "d25b06dbab5f",
+      "year": 2021,
+      "text": "Understanding that not everyone has access to technical opportunities before college, we provide opportunity and exposure through hands-on learning and mentorship alongside engineers and analysts.",
+      "score": 0.4781
+    },
+    {
+      "id": "81d0aba33b36",
+      "year": 2021,
+      "text": "We work to continuously improve our offerings, and listen to our community as we design and update them.",
+      "score": 0.4751
     },
     {
       "id": "6537218a2293",
@@ -1084,10 +2536,34 @@
       "score": 0.4669
     },
     {
+      "id": "52bf8c9b702f",
+      "year": 2021,
+      "text": "Our mission is to create a space for gender non-conforming and transgender individuals to connect and support each another personally and professionally, share relevant resources and experiences, and educate the broader Palantir community on issues regarding gender identity.",
+      "score": 0.4541
+    },
+    {
+      "id": "7a05a5b60774",
+      "year": 2021,
+      "text": "For example, BreakLine supports and assists US military veterans, women, and people of color as they transition into careers within the tech sector.",
+      "score": 0.4533
+    },
+    {
+      "id": "7c4156a6a10a",
+      "year": 2021,
+      "text": "PalNoir PalNoir creates a safe, supportive, and inclusive community for employees that identify as Black or of African descent.",
+      "score": 0.4529
+    },
+    {
       "id": "bc6b0f8ca04e",
       "year": 2021,
       "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
       "score": 0.4528
+    },
+    {
+      "id": "c5c18effec2c",
+      "year": 2021,
+      "text": "Palantirian voices are critical to helping us innovate on our software and strengthen our community.",
+      "score": 0.446
     },
     {
       "id": "a4d4b8358fb1",
@@ -1096,10 +2572,76 @@
       "score": 0.4429
     },
     {
+      "id": "67d71f17a10c",
+      "year": 2021,
+      "text": "PalAPI partners with other affinity groups at Palantir as an ally, recognizing their unique strengths and challenges as well as commonalities.",
+      "score": 0.4428
+    },
+    {
+      "id": "259709064345",
+      "year": 2021,
+      "text": "Note that our offerings may vary by region as we strive to respond to the unique needs of Palantirians around the globe.",
+      "score": 0.4427
+    },
+    {
+      "id": "a78bde563009",
+      "year": 2021,
+      "text": "To that end, candidates have the opportunity to connect with Affinity Group members to learn more about their experiences at Palantir.",
+      "score": 0.4337
+    },
+    {
+      "id": "15cf81465699",
+      "year": 2021,
+      "text": "Women in Tech Women in Tech is composed of women and allies, regardless of technical background.",
+      "score": 0.4297
+    },
+    {
       "id": "0e904d5706bc",
       "year": 2021,
       "text": "We have always been, and continue to be, committed to helping organizations get value out of their data while protecting sensitive information from misuse and abuse.",
       "score": 0.4292
+    },
+    {
+      "id": "b1b2f826c35c",
+      "year": 2021,
+      "text": "Our mission is to deepen connections, support the personal and professional development of our members, and increase business awareness of important issues that impact our community.",
+      "score": 0.428
+    },
+    {
+      "id": "6d2f57c19fcb",
+      "year": 2021,
+      "text": "We welcome guests to our offices, and you can expect to see Palantir families, friends, and furry friends around.",
+      "score": 0.4259
+    },
+    {
+      "id": "f0e424b0342f",
+      "year": 2021,
+      "text": "Read our 2018 Report Community Our community is one of our greatest assets, and that extends beyond our colleagues.",
+      "score": 0.4258
+    },
+    {
+      "id": "c0741891ec51",
+      "year": 2021,
+      "text": "Palantir is committed to working with and providing reasonable accommodations to applicants with physical and mental disabilities.",
+      "score": 0.4184
+    },
+    {
+      "id": "44010f887ff3",
+      "year": 2021,
+      "text": "Around the world, we’re working to help critical institutions better serve society — from combating child exploitation to empowering workers to protecting public health .",
+      "score": 0.4171
+    },
+    {
+      "id": "ea13026fbc38",
+      "year": 2021,
+      "text": "Palan-Queer Palan-Queer represents the LGBTQ+ community at Palantir.",
+      "score": 0.4142
+    },
+    {
+      "id": "92b3fb6bf73f",
+      "year": 2021,
+      "text": "Our benefits aim to promote health and wellbeing across all areas of Palantirians’ lives.",
+      "score": 0.4138
     },
     {
       "id": "9dccb60fc2bd",
@@ -1114,10 +2656,34 @@
       "score": 0.4076
     },
     {
+      "id": "084212ae7285",
+      "year": 2021,
+      "text": "We learn from each other and help educate the broader Palantir community about Vets, and engage and support external parties that address current Veteran issues.",
+      "score": 0.4071
+    },
+    {
       "id": "16c45b3da39a",
       "year": 2021,
       "text": "We are engineers on a mission.",
       "score": 0.4056
+    },
+    {
+      "id": "22fdca465d77",
+      "year": 2021,
+      "text": "We also offer flexible working arrangements (including working from home) and hours.",
+      "score": 0.402
+    },
+    {
+      "id": "b2d9a1f1b4b9",
+      "year": 2021,
+      "text": "Rewriting the Code helps women from a diverse range of backgrounds become the next generation of engineers and tech leaders through community-building, mentorship opportunities, and by providing access to industry and educational resources.",
+      "score": 0.4003
+    },
+    {
+      "id": "0b5f3fd793b9",
+      "year": 2021,
+      "text": "Family Support We provide generous paid parental leave, where not covered by local law; a stipend for new parents; and family leave for taking care of loved ones.",
+      "score": 0.389
     },
     {
       "id": "d7145d453ae1",
@@ -1144,16 +2710,64 @@
       "score": 0.3842
     },
     {
+      "id": "98984b49176e",
+      "year": 2021,
+      "text": "There’s a role here for you—whether you're a new grad or have years of experience.",
+      "score": 0.3797
+    },
+    {
+      "id": "24fb9c3b98da",
+      "year": 2021,
+      "text": "Palamigos Palamigos represents the Latinx and Hispanic community at Palantir.",
+      "score": 0.378
+    },
+    {
       "id": "02a24f2faf4c",
       "year": 2021,
       "text": "We are working to build a future in which public institutions, commercial enterprises, and non-profit organizations can use data to function as they were designed—to fulfill the mandates with which they’ve been entrusted, to deliver value to customers, and to distribute aid to those most in need.",
       "score": 0.3775
     },
     {
+      "id": "2d564ff5fbd1",
+      "year": 2021,
+      "text": "Join us in solving the world’s hardest problems.",
+      "score": 0.3731
+    },
+    {
+      "id": "73a6b40de864",
+      "year": 2021,
+      "text": "Affinity Groups also act as a bridge between Palantir and the world around us, working to help the external community understand our mission to make global institutions work better and for the benefit of all.",
+      "score": 0.3699
+    },
+    {
       "id": "e82d8629ec14",
       "year": 2021,
       "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
       "score": 0.3678
+    },
+    {
+      "id": "319e4c7ebf4d",
+      "year": 2021,
+      "text": "Take-What-You-Need Time Off Policy We know the importance of taking time to recharge.",
+      "score": 0.3666
+    },
+    {
+      "id": "8a1804916bc8",
+      "year": 2021,
+      "text": "We have several initiatives to cultivate future leaders from these communities, including: Palantir Path Palantir Path is a summer internship program designed to give college sophomores and juniors a path into a career in technology.",
+      "score": 0.3616
+    },
+    {
+      "id": "4c52983de0d9",
+      "year": 2021,
+      "text": "Mental Health and Wellbeing Our holistic approach to supporting Palantirians’ mental health and wellbeing includes offering access to virtual therapy, coaching, complementary medicine, meditation, and fitness.",
+      "score": 0.361
+    },
+    {
+      "id": "46ca8d113585",
+      "year": 2021,
+      "text": "Whether you're a seasoned pro or just starting your journey, there's an inclusive community here happy to share their experiences, insights, and ideas.",
+      "score": 0.3597
     },
     {
       "id": "0e390f8e7777",
@@ -1168,6 +2782,18 @@
       "score": 0.3587
     },
     {
+      "id": "10af02b5e393",
+      "year": 2021,
+      "text": "Scholarship recipients are invited to visit one of our offices for a full-day workshop focused on professional development and community building.",
+      "score": 0.3582
+    },
+    {
+      "id": "22f8fbf1870a",
+      "year": 2021,
+      "text": "All Palantir parents can take advantage of flexible working arrangements, childcare assistance, and other benefits and programming to support healthy families.",
+      "score": 0.3532
+    },
+    {
       "id": "ed45494404c7",
       "year": 2021,
       "text": "To achieve this, we build platforms for integrating, managing, and securing data on top of which we layer applications for fully interactive human-driven, machine-assisted analysis.",
@@ -1180,10 +2806,34 @@
       "score": 0.3502
     },
     {
+      "id": "8f1167f092b0",
+      "year": 2021,
+      "text": "We close all of our offices for two weeks in December and offer a take-what-you-need policy to help Palantirians achieve the balance they need to succeed, whether that means taking a long weekend, observing a religious holiday, or navigating school breaks as a parent.",
+      "score": 0.3458
+    },
+    {
+      "id": "51de6a43a910",
+      "year": 2021,
+      "text": "Path interns interact with clients, get professional development from fellow Palantirians, and help influence decisions that impact our business and our customers’ missions.",
+      "score": 0.3454
+    },
+    {
       "id": "7393e25e3fef",
       "year": 2021,
       "text": "See the challenges we help our customers face",
       "score": 0.3415
+    },
+    {
+      "id": "7cc442ffcf36",
+      "year": 2021,
+      "text": "Please read our candidate privacy notice .",
+      "score": 0.3393
+    },
+    {
+      "id": "d891e42beb44",
+      "year": 2021,
+      "text": "Please see the United States Department of Labor's EEO poster and EEO poster supplement for additional information.",
+      "score": 0.3387
     },
     {
       "id": "febb84bf56c4",
@@ -1192,10 +2842,40 @@
       "score": 0.336
     },
     {
+      "id": "3768c926e944",
+      "year": 2021,
+      "text": "PalVets PalVets represents Palantir’s diverse military Veteran community.",
+      "score": 0.335
+    },
+    {
+      "id": "38be92f35bda",
+      "year": 2021,
+      "text": "Learn More Global Scholarships In an effort to reduce financial barriers to access, Palantir offers scholarships to support students from underrepresented communities in STEM who are beginning careers in technology.",
+      "score": 0.3329
+    },
+    {
+      "id": "7de4f76a63ca",
+      "year": 2021,
+      "text": "Interested in contract roles at Palantir?",
+      "score": 0.3322
+    },
+    {
       "id": "94df4629b205",
       "year": 2021,
       "text": "This partnership really created an environment conducive to the type of digital transformation we were aiming for.",
       "score": 0.3322
+    },
+    {
+      "id": "358aeb468335",
+      "year": 2021,
+      "text": "Healthcare Our robust healthcare benefits for Palantirians and their families exceed the industry average.",
+      "score": 0.3258
+    },
+    {
+      "id": "22b936a1c0d0",
+      "year": 2021,
+      "text": "Please visit the Palantir Contractor Opportunities site.",
+      "score": 0.3212
     },
     {
       "id": "66a00bb6cf39",
@@ -1210,16 +2890,34 @@
       "score": 0.3145
     },
     {
+      "id": "dfaf25e6f183",
+      "year": 2021,
+      "text": "Parents Palantir Parents exists to foster openness and appreciation of the multiple dimensions of parenthood at every stage of the journey.",
+      "score": 0.3143
+    },
+    {
       "id": "129ad3257433",
       "year": 2021,
       "text": "Engineers build to solve problems, but at Palantir you don't have to be a computer scientist to be an engineer.",
       "score": 0.3111
     },
     {
+      "id": "86d3bd4a67ae",
+      "year": 2021,
+      "text": "We also offer fertility services and adoption assistance.",
+      "score": 0.3087
+    },
+    {
       "id": "53832d9d1796",
       "year": 2021,
       "text": "Being able to change the teams’ mindset around decisions and how decisions should be made using data was one of the biggest gains we had with the partnership.",
       "score": 0.3066
+    },
+    {
+      "id": "2835dc1f44b0",
+      "year": 2021,
+      "text": "The mission of PalVets is to support and grow our sense of belonging, and to provide an inclusive venue to share experiences and support each other as we continue to serve our community in a different capacity.",
+      "score": 0.303
     },
     {
       "id": "de6de7519ef4",
@@ -1318,6 +3016,12 @@
       "score": 0.3775
     },
     {
+      "id": "15da34f8259f",
+      "year": 2022,
+      "text": "We like to describe what we’re doing with Foundry as becoming a data-connected company...",
+      "score": 0.3721
+    },
+    {
       "id": "e82d8629ec14",
       "year": 2022,
       "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
@@ -1354,6 +3058,12 @@
       "score": 0.3145
     },
     {
+      "id": "fb40581c67d3",
+      "year": 2022,
+      "text": "This means more innovative solutions and services for our clients, as well as deeper information to steer and drive the business.",
+      "score": 0.3083
+    },
+    {
       "id": "de6de7519ef4",
       "year": 2022,
       "text": "Organizations around the world are using Palantir to help them do their most important work.",
@@ -1382,6 +3092,12 @@
       "year": 2023,
       "text": "We’re building a future where data can be leveraged to serve people, create value, and improve quality of life.",
       "score": 0.4528
+    },
+    {
+      "id": "1d909292c2a1",
+      "year": 2023,
+      "text": "While we certainly think we’re doing exciting, impactful work, we don’t want you to just take our word for it.",
+      "score": 0.4314
     },
     {
       "id": "0e904d5706bc",
@@ -1612,6 +3328,12 @@
       "score": 0.4892
     },
     {
+      "id": "df18de92c816",
+      "year": 2025,
+      "text": "At Palantir, we work for the common good—within our organization and within commercial and governmental institutions.",
+      "score": 0.473
+    },
+    {
       "id": "6537218a2293",
       "year": 2025,
       "text": "At our offices around the world, we’ve assembled a team that combines practical expertise in distributed systems infrastructure, big data processing, user experience design, and data science.",
@@ -1688,6 +3410,12 @@
       "year": 2025,
       "text": "That's why we build privacy-protective capabilities into our products, help customers understand how to use them responsibly, and work with advocacy groups and the policy community on how technology can be used to protect privacy interests today and in the future.",
       "score": 0.3678
+    },
+    {
+      "id": "85096d5d7132",
+      "year": 2025,
+      "text": "Blog post: Engineering for Impact: Problem solving with purpose at Palantir",
+      "score": 0.3661
     },
     {
       "id": "ed45494404c7",
@@ -1837,11 +3565,95 @@
   "lexicons": {
     "inclusion": [
       {
+        "term": "equity",
+        "first_year": 2010,
+        "last_year": 2021,
+        "max_score": 0.6678,
+        "example": "We believe that all Palantirians share the responsibility of upholding our values of equity and inclusion."
+      },
+      {
         "term": "women",
         "first_year": 2013,
-        "last_year": 2013,
-        "max_score": 0.3941,
-        "example": "On November 13, Pooja Sankar, CEO of Piazza, an online Q&A platform used by students and teachers, sat down with four women at Palantir to discuss their experiences working in technology."
+        "last_year": 2021,
+        "max_score": 0.4533,
+        "example": "For example, BreakLine supports and assists US military veterans, women, and people of color as they transition into careers within the tech sector."
+      },
+      {
+        "term": "diversity",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.6698,
+        "example": "We recognize that increasing diversity within the tech industry takes consistent, impactful action to increase access and opportunities for members of underrepresented communities."
+      },
+      {
+        "term": "underrepresented",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.6698,
+        "example": "We recognize that increasing diversity within the tech industry takes consistent, impactful action to increase access and opportunities for members of underrepresented communities."
+      },
+      {
+        "term": "inclusion",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.6678,
+        "example": "We believe that all Palantirians share the responsibility of upholding our values of equity and inclusion."
+      },
+      {
+        "term": "black",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.4529,
+        "example": "PalNoir PalNoir creates a safe, supportive, and inclusive community for employees that identify as Black or of African descent."
+      },
+      {
+        "term": "belonging",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.5165,
+        "example": "We aim to provide a space for dialogue and mutual support for our API community members, to foster mentorship and professional development, to increase cultural awareness and belonging within the comp"
+      },
+      {
+        "term": "latinx",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.378,
+        "example": "Palamigos Palamigos represents the Latinx and Hispanic community at Palantir."
+      },
+      {
+        "term": "hispanic",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.378,
+        "example": "Palamigos Palamigos represents the Latinx and Hispanic community at Palantir."
+      },
+      {
+        "term": "lgbtq",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.5343,
+        "example": "Our mission is to support and grow our sense of community, foster an increasingly inclusive and comfortable internal workplace, and ensure the consideration of important issues to the LGBTQ+ community"
+      },
+      {
+        "term": "representation",
+        "first_year": 2020,
+        "last_year": 2021,
+        "max_score": 0.2972,
+        "example": "PIN seeks to have representation across many communities, including but not limited to Buddhism, Christianity, Hinduism, Islam, Judaism, and Sikhism."
+      },
+      {
+        "term": "affirmative",
+        "first_year": 2021,
+        "last_year": 2021,
+        "max_score": 0.5089,
+        "example": "Palantir is proud to be an Equal Employment Opportunity and Affirmative Action employer."
+      },
+      {
+        "term": "disability",
+        "first_year": 2021,
+        "last_year": 2021,
+        "max_score": 0.5548,
+        "example": "We do not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expressio"
       }
     ],
     "civilizational": [

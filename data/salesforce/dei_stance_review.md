@@ -75,4 +75,4 @@
 
 ## 2026
 - affirming_dei: 39
-- neutral: 43
+- neutral: 44

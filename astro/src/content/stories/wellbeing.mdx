@@ -20,7 +20,7 @@ import MaterialDeiViz from "@/components/viz/MaterialDeiViz.astro";
   id="concession-timeline"
   title="Care talk, DEI talk, and the quits rate"
   definition="Corpus-wide care talk (rest, balance, mental health, sustainable pace) and DEI talk by year, overlaid on the JOLTS quits rate — how freely workers were leaving jobs. All three standardized onto one scale."
-  source="Care talk jumped to ~3.7× its prior level in 2020, in near-lockstep with DEI talk. The 2020 spike coincides with the pandemic, so part of it may be lockdown wellness talk; the clean, unconfounded part is the deflation — as quits fell 2.8 → 2.1 (2022–2024), care talk fell with it. Quits rate is total-nonfarm, not the information sector, and the overlay rests on about ten annual points."
+  source="Care talk climbs from 2019 and peaks in 2021–22, in near-lockstep with DEI talk and the quits peak. The pandemic years are partly confounded with lockdown wellness talk; the clean, unconfounded part is the deflation — as quits fell 2.8 → 2.1 (2022–2024), care talk fell with it. Quits rate is total-nonfarm, not the information sector, and the overlay rests on twelve annual points."
 >
   <ConcessionViz />
 </Figure>
@@ -30,7 +30,7 @@ import MaterialDeiViz from "@/components/viz/MaterialDeiViz.astro";
   title="The same pair, one company at a time"
   definition="Each firm's own care and DEI talk, standardized within the company."
   hint="Pick a company."
-  source="The paired rise-and-recede shows in 15 of 16 firms (median within-company correlation +0.53, 95% CI [0.27, 0.70]), from Salesforce (r = +0.79) down through GitLab, Amazon, and Palantir. HubSpot is the one break in the pattern."
+  source="The paired rise-and-recede shows in all 20 firms (median within-company correlation +0.65, 95% CI [0.57, 0.84]), from GitLab (r = +0.95) down to Shopify (+0.13); the panel has no negative case."
 >
   <CompanyConcessionViz />
 </Figure>
@@ -57,7 +57,7 @@ import MaterialDeiViz from "@/components/viz/MaterialDeiViz.astro";
   id="material-dei"
   title="Whole-life benefits as a share of everything advertised"
   definition="Benefits that support life outside work — parental leave, childcare, elder and dependent care, fertility, lactation, identity-positive coverage, bereavement — as a share of all advertised benefit mentions, by year."
-  source="The share peaks around 2018 at roughly one mention in seven, before the 2020 talk spike, and shrinks after. Parental leave is the sturdiest thread; fertility appears in only four companies ever (an anecdote, not a trend); lactation, bereavement, and identity-positive coverage barely register."
+  source="The share peaks in 2017–18 at roughly one mention in ten, before the pandemic-era talk spike, and shrinks after. Parental leave is the sturdiest thread; fertility totals fifteen benefit mentions ever (an anecdote, not a trend); lactation, bereavement, and identity-positive coverage barely register."
 >
   <MaterialDeiViz />
 </Figure>

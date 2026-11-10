@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 1999,
-      "zscore": -0.6969,
+      "zscore": -0.718,
       "rawTopkMean": 0.0177,
       "nChunks": 8,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2000,
-      "zscore": -0.3425,
+      "zscore": -0.3668,
       "rawTopkMean": 0.0346,
       "nChunks": 10,
       "kUsed": 5,
@@ -77,17 +77,27 @@
     },
     {
       "year": 2007,
-      "zscore": 0.3262,
-      "rawTopkMean": 0.0663,
-      "nChunks": 26,
+      "zscore": 0.6209,
+      "rawTopkMean": 0.0819,
+      "nChunks": 44,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
         {
+          "text": "Benefits Help How to Apply FAQ Amazon.com currently employs more than 12,000 people around the world.",
+          "heading": "",
+          "score": 0.1045
+        },
+        {
           "text": "You can also visit our investor relations and PR sites to review our last annual report and read recent announcements about partnerships and product launches.",
           "heading": "",
           "score": 0.0928
+        },
+        {
+          "text": "Our employees work in corporate offices, fulfillment centres, customer service centres and software development centres across North America, Europe and Asia.",
+          "heading": "",
+          "score": 0.0749
         },
         {
           "text": "Benefits Help How to Apply FAQ We make decisions as a company, and as individuals, based on our core values.",
@@ -98,23 +108,13 @@
           "text": "Finally, independent software developers also derive value from the platform--through Amazon Web Services--by building profitable applications and services that cater to Amazon.com customers and sellers.",
           "heading": "",
           "score": 0.0685
-        },
-        {
-          "text": "Benefits Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce.",
-          "heading": "",
-          "score": 0.0651
-        },
-        {
-          "text": "Check out the stores, read some customer reviews and learn about our programs.",
-          "heading": "",
-          "score": 0.0363
         }
       ]
     },
     {
       "year": 2008,
-      "zscore": -0.0051,
-      "rawTopkMean": 0.0506,
+      "zscore": 0.1367,
+      "rawTopkMean": 0.0587,
       "nChunks": 24,
       "kUsed": 5,
       "thin": false,
@@ -131,6 +131,11 @@
           "score": 0.0685
         },
         {
+          "text": "Benefits Help How to Apply FAQ Earth's Most Customer-Centric Company Amazon.com, a Fortune 500 company based in Seattle, Washington, is the global leader in e-commerce.",
+          "heading": "",
+          "score": 0.0651
+        },
+        {
           "text": "Check out the stores, read some customer reviews and learn about our programs.",
           "heading": "",
           "score": 0.0363
@@ -139,17 +144,12 @@
           "text": "Your day to make your ideas come to life.",
           "heading": "",
           "score": 0.0307
-        },
-        {
-          "text": "Learn More To learn more about Amazon.com today, explore our website .",
-          "heading": "",
-          "score": 0.0246
         }
       ]
     },
     {
       "year": 2011,
-      "zscore": -1.1054,
+      "zscore": -1.1227,
       "rawTopkMean": -0.0017,
       "nChunks": 18,
       "kUsed": 5,
@@ -185,7 +185,7 @@
     },
     {
       "year": 2013,
-      "zscore": 0.1536,
+      "zscore": 0.1247,
       "rawTopkMean": 0.0581,
       "nChunks": 24,
       "kUsed": 5,
@@ -221,7 +221,7 @@
     },
     {
       "year": 2014,
-      "zscore": -1.2899,
+      "zscore": -1.3055,
       "rawTopkMean": -0.0105,
       "nChunks": 3,
       "kUsed": 3,
@@ -247,7 +247,7 @@
     },
     {
       "year": 2016,
-      "zscore": -0.4474,
+      "zscore": -0.4708,
       "rawTopkMean": 0.0296,
       "nChunks": 47,
       "kUsed": 5,
@@ -283,7 +283,7 @@
     },
     {
       "year": 2017,
-      "zscore": 1.1434,
+      "zscore": 1.1054,
       "rawTopkMean": 0.1051,
       "nChunks": 177,
       "kUsed": 5,
@@ -319,7 +319,7 @@
     },
     {
       "year": 2018,
-      "zscore": 1.1434,
+      "zscore": 1.1054,
       "rawTopkMean": 0.1051,
       "nChunks": 178,
       "kUsed": 5,
@@ -355,7 +355,7 @@
     },
     {
       "year": 2019,
-      "zscore": -0.4474,
+      "zscore": -0.4708,
       "rawTopkMean": 0.0296,
       "nChunks": 48,
       "kUsed": 5,
@@ -391,7 +391,7 @@
     },
     {
       "year": 2020,
-      "zscore": -0.4474,
+      "zscore": -0.4708,
       "rawTopkMean": 0.0296,
       "nChunks": 45,
       "kUsed": 5,
@@ -427,7 +427,7 @@
     },
     {
       "year": 2021,
-      "zscore": -0.4474,
+      "zscore": -0.4708,
       "rawTopkMean": 0.0296,
       "nChunks": 45,
       "kUsed": 5,
@@ -463,7 +463,7 @@
     },
     {
       "year": 2022,
-      "zscore": -2.2885,
+      "zscore": -2.2949,
       "rawTopkMean": -0.0579,
       "nChunks": 2,
       "kUsed": 2,
@@ -484,7 +484,7 @@
     },
     {
       "year": 2023,
-      "zscore": 0.956,
+      "zscore": 0.9197,
       "rawTopkMean": 0.0962,
       "nChunks": 13,
       "kUsed": 5,
@@ -520,7 +520,7 @@
     },
     {
       "year": 2024,
-      "zscore": 1.1794,
+      "zscore": 1.1411,
       "rawTopkMean": 0.1069,
       "nChunks": 17,
       "kUsed": 5,
@@ -556,7 +556,7 @@
     },
     {
       "year": 2025,
-      "zscore": 1.2795,
+      "zscore": 1.2403,
       "rawTopkMean": 0.1116,
       "nChunks": 21,
       "kUsed": 5,
@@ -592,7 +592,7 @@
     },
     {
       "year": 2026,
-      "zscore": 1.3366,
+      "zscore": 1.2969,
       "rawTopkMean": 0.1143,
       "nChunks": 22,
       "kUsed": 5,
@@ -611,7 +611,7 @@
         },
         {
           "text": "Amazon is proud of our ability to create great jobs with great benefits for all employees.",
-          "heading": "",
+          "heading": "Working at Amazon",
           "score": 0.1084
         },
         {

@@ -6,14 +6,399 @@
       "original": "https://cluely.com/careers",
       "digest": "c57a4aac99d095427bd8d05a",
       "html_file": "20261106120000_c57a4aac99d095427bd8d05a.html",
-      "source": "live"
+      "source": "live",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 77,
+        "dom_to_trafilatura_ratio": 0.0
+      },
+      "thin": true
     },
     {
       "timestamp": "20261106120000",
       "original": "https://jobs.ashbyhq.com/cluely",
       "digest": "39011a94bf8a5d8c35005e99",
       "html_file": "20261106120000_39011a94bf8a5d8c35005e99.html",
-      "source": "ashby_posting_api (cluely_jobs.json)"
+      "source": "ashby_posting_api (cluely_jobs.json)",
+      "coverage": {
+        "chunk_count": 7,
+        "dom_words": 1012,
+        "trafilatura_words": 1068,
+        "dom_to_trafilatura_ratio": 0.95
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/cluely/22f53395-e509-4b43-a8b4-03206174c6b7",
+      "timestamp": "20250430190245",
+      "original": "https://jobs.ashbyhq.com/cluely/22f53395-e509-4b43-a8b4-03206174c6b7",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "ZTRP2TG4ZYOOUKSINLEY33LHYCMPNJBN",
+      "length": 9770,
+      "html_file": "20250430190245_f1aa77a230f4.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 9,
+        "dom_words": 244,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 27.11
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/cluely/22f53395-e509-4b43-a8b4-03206174c6b7",
+      "timestamp": "20250524194420",
+      "original": "https://jobs.ashbyhq.com/cluely/22f53395-e509-4b43-a8b4-03206174c6b7",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "NHNENQBETV2DBMZAPNDT2VRNXSRFGZGL",
+      "length": 9691,
+      "html_file": "20250524194420_f1aa77a230f4.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 9,
+        "dom_words": 242,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 26.89
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/cluely/89809243-a79a-4a8f-a394-8e8b12743108",
+      "timestamp": "20250815043558",
+      "original": "https://jobs.ashbyhq.com/cluely/89809243-a79a-4a8f-a394-8e8b12743108",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "WVFOZRBMUZ7XA74GGMBKIWBJ5HSZUKRS",
+      "length": 11344,
+      "html_file": "20250815043558_c0e4c7f6eba7.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 15,
+        "dom_words": 418,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 46.44
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/cluely/58943a03-e620-4ac3-abc1-b0a4dca53f21",
+      "timestamp": "20251008124851",
+      "original": "https://jobs.ashbyhq.com/cluely/58943a03-e620-4ac3-abc1-b0a4dca53f21",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "N4WTGXYXZ3Z56GJBMJDKK6Z77E67WPTN",
+      "length": 9500,
+      "html_file": "20251008124851_5a87fc311bcb.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 9,
+        "dom_words": 211,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 23.44
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/cluely/89809243-a79a-4a8f-a394-8e8b12743108",
+      "timestamp": "20260203120811",
+      "original": "https://jobs.ashbyhq.com/cluely/89809243-a79a-4a8f-a394-8e8b12743108",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "IA5ZYDNYNCPX6BR7ZYSA7AQOVYGUMLRM",
+      "length": 10719,
+      "html_file": "20260203120811_c0e4c7f6eba7.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 7,
+        "dom_words": 110,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 12.22
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/cluely/89809243-a79a-4a8f-a394-8e8b12743108?gh_src=susa+ventures+job+board&utm_medium=getro.com&utm_source=susa+ventures+job+board",
+      "timestamp": "20260413150353",
+      "original": "https://jobs.ashbyhq.com/cluely/89809243-a79a-4a8f-a394-8e8b12743108?utm_source=Susa+Ventures+job+board&utm_medium=getro.com&gh_src=Susa+Ventures+job+board",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "QKWF2LU7Z4R5XH6DNP57Z56IO2NC4FGK",
+      "length": 10725,
+      "html_file": "20260413150353_f73483dca4f1.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 7,
+        "dom_words": 110,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 12.22
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,ashbyhq,jobs)/cluely/f9172b86-5e96-4c92-a829-a38857f7cfc9",
+      "timestamp": "20260830181154",
+      "original": "https://jobs.ashbyhq.com/cluely/f9172b86-5e96-4c92-a829-a38857f7cfc9",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "CEG47WL4HYVX2F5QHPI56BTD2QLWTVHW",
+      "length": 3814,
+      "html_file": "20260830181154_404dcb6f40ac.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 9,
+        "dom_to_trafilatura_ratio": 0.0
+      },
+      "thin": true
     }
-  ]
+  ],
+  "json_candidates": [],
+  "digest_timeline": {
+    "ZTRP2TG4ZYOOUKSINLEY33LHYCMPNJBN": [
+      "20250430190245"
+    ],
+    "FXXEL5NGWFBAMFTK2BIH7R4NUYPNQJF7": [
+      "20250503105837",
+      "20250503105837"
+    ],
+    "NHNENQBETV2DBMZAPNDT2VRNXSRFGZGL": [
+      "20250524194420"
+    ],
+    "IML2GOVGRL4SYASEFAHGWSQJF3KLVRPB": [
+      "20250524194529"
+    ],
+    "DMUG2TRMN576LCL3D64LT43NTGI66VZA": [
+      "20250526034658",
+      "20250526034658"
+    ],
+    "ASLQQHQJ5R3CEFAP753L3VMCAHYIHKL6": [
+      "20250526034703"
+    ],
+    "PMGSOWGZVI6UVS6GYH62PWMZ3PPKKSYA": [
+      "20250526034720"
+    ],
+    "SGBKESMWOTYALY5BC6WKHWNG3UW6AFL6": [
+      "20250526035614"
+    ],
+    "KB2UFPSEPGGDWPAP4VOUJCEHHAVYTXMK": [
+      "20250526064705"
+    ],
+    "ASLBCNGOXLXYQ65NCH6MNP7B4NDGMXTP": [
+      "20250526083916"
+    ],
+    "C63T7JMT7L5DFDG56GCF4OBNWM7XUV4D": [
+      "20250526083917"
+    ],
+    "MT4PNQHMGFDI24HT3GD43JP5KSK6WXL7": [
+      "20250526104245"
+    ],
+    "44SEXBXKC75752VCWFVWCSAOSXBXUW6J": [
+      "20250526142332"
+    ],
+    "YJ2NAUHHTCJSC2PHEZVRNB3DCPUAMIOP": [
+      "20250526220544"
+    ],
+    "RZ7NJNVAXJUBPMXOLU4LJD6KHOGFLPBD": [
+      "20250527214708"
+    ],
+    "ZGMFNJTOBQYW3LU33KHPHL4RZNK645OU": [
+      "20250608215414"
+    ],
+    "X62QFTKP4QSJ37I55OXDKKUK4TU4QO3P": [
+      "20250617084610",
+      "20250617084610"
+    ],
+    "FNTAPQMEM3YNLPJL3E6KOSUCS4QGOPTI": [
+      "20250617084725"
+    ],
+    "6XLOYMUAPKFKMVWIJAO2D2WYWB5SPEDN": [
+      "20250618091357"
+    ],
+    "ZBPJPL6ICLC3DJDINAEXJ4MEENNEDVB2": [
+      "20250618093844"
+    ],
+    "NTKF4NTZUTMLQDQFD773QYH4VHFGAY34": [
+      "20250623033424"
+    ],
+    "K4UHKAZP445TXITGN37ZGP63XYBYREIY": [
+      "20250623033438"
+    ],
+    "TV272GQADB6TETJ3XI6HEJHOHI5UCTZL": [
+      "20250710015104",
+      "20250710015104"
+    ],
+    "V4YRAUDCOTWM7TYA7JVLE2VNOBP25O4G": [
+      "20250711220851"
+    ],
+    "NLD7BT65BDCE3B4U224M32XHK5BKOUJZ": [
+      "20250716171726"
+    ],
+    "T5GVAWT2GE7HFNK2CDOS7NRCQPPEQWIA": [
+      "20250718053854"
+    ],
+    "BWGLYUHHVBCHVQ7BT5F3664KDIREYCC5": [
+      "20250718053909"
+    ],
+    "IIUTXVX6P6FOIAGWSSUCZX4GOK5KHGWM": [
+      "20250719114514"
+    ],
+    "MXEHJ6HHC7AAMQBTKYBWCWDSHUP5ZVBC": [
+      "20250722130103"
+    ],
+    "RCBKGJXZUWZ3QHZB3X3MCPPSETGFGKMZ": [
+      "20250812051901",
+      "20250812051901"
+    ],
+    "WVFOZRBMUZ7XA74GGMBKIWBJ5HSZUKRS": [
+      "20250815043558"
+    ],
+    "FZNAYM3IIBWKNRZRODM7CX4H4YETVTUU": [
+      "20250817075808"
+    ],
+    "GEUA53VEOGJCLSWGI2K7OZ3ZP2QIZRM6": [
+      "20250907212236"
+    ],
+    "X5M77JP2EGUGOVHD5SUSL7UW6QRHPWQF": [
+      "20250908161136"
+    ],
+    "NMKEPM2ELS4L7MO5RJEIY6QJNQLTOOUA": [
+      "20250913142224"
+    ],
+    "G232LJRJGYJRTLFVP5HZX3ZIZGVIBLHJ": [
+      "20250915062846"
+    ],
+    "NHUSDX6MCZWYIH5SO4IIR5QRXQJRNCMF": [
+      "20250915190136"
+    ],
+    "QKP44XEKG6NAZMITWWRUXZJSHLMZ4SPL": [
+      "20250916072847"
+    ],
+    "XNE37DRROY6MI2OU3KKYZIO2P6QGSZJV": [
+      "20250917074626",
+      "20250917074626"
+    ],
+    "DLRC6P52ZLXVJR4AAJLIX7Q6YOHV4YOO": [
+      "20250917183154"
+    ],
+    "N4WTGXYXZ3Z56GJBMJDKK6Z77E67WPTN": [
+      "20251008124851"
+    ],
+    "RL3H42XCFJK76CGCAEXGSFMGNMMHOW3T": [
+      "20251010101617"
+    ],
+    "ZKB4AAINBUW7LICDDG2NIUZEIEGXRMW4": [
+      "20251011183058"
+    ],
+    "337I2V3L2TNGFG5AM5XYNXDRLUCHIRQ7": [
+      "20251016073815",
+      "20251016073815"
+    ],
+    "5V7CFO33WPOLNAG4GZXOEWQUAMOCIVWC": [
+      "20251024055236"
+    ],
+    "YPZDT54Z36JSSQRUK5EPB5Y45UQPETRH": [
+      "20251103224948"
+    ],
+    "WFCEZ4BHUPJ65CSYPE7PAG7MRMM5PK55": [
+      "20251103225011"
+    ],
+    "IMDM3G5C6U4FJLYY2TYQUQXXBJG6KNW7": [
+      "20251104212453"
+    ],
+    "LZ7BJROEA4P3MIUBUKQML2WJYZBGMEEW": [
+      "20251111232034",
+      "20251111232034"
+    ],
+    "75N6HP2EEUFLHRYTZQNTEMARNL4PGEJW": [
+      "20251212065337"
+    ],
+    "R6A4NCKBRBFMWVULLDCEBRIRIL2N6SHH": [
+      "20260106193328",
+      "20260106193328"
+    ],
+    "SWC5CYV46EH55LV6TL4SXYFRPTEARW6F": [
+      "20260106193508"
+    ],
+    "F6K3VB7CULQPKIRIGNXLDIY43JWAZC6K": [
+      "20260106193613"
+    ],
+    "HKTTJHRK4U6XGRL5QE3LDRYLONQOCICR": [
+      "20260106193624",
+      "20260106193624"
+    ],
+    "IZLH7EEXKHSZDHJS74YNQCILVWWT3OU6": [
+      "20260106193639"
+    ],
+    "N3MHVPWMEMS5SRGCBOY52GUGELL5L4JG": [
+      "20260106193647"
+    ],
+    "IA5ZYDNYNCPX6BR7ZYSA7AQOVYGUMLRM": [
+      "20260203120811"
+    ],
+    "2OGJZAYMIBGOIJUA5X5ZMXOFOJ2F7SOH": [
+      "20260203120811"
+    ],
+    "BUWPOM4W5FBDSCO5D45RBF4F4MTI2QZL": [
+      "20260216173403"
+    ],
+    "TVO46G7BKJ6R72FTYMOVLNLW6IH6YPGV": [
+      "20260222101523"
+    ],
+    "3F7NOEWGLGKADWYHZHWBEDDFEKOLCZSW": [
+      "20260312041600"
+    ],
+    "YVMEDPRA2QLQJSOW52ECCUW34E4ZLRDV": [
+      "20260316053720"
+    ],
+    "GPM466U3MJAPBMTBZ7K7YKZD35CDMVUS": [
+      "20260408110030",
+      "20260408110030"
+    ],
+    "QKWF2LU7Z4R5XH6DNP57Z56IO2NC4FGK": [
+      "20260413150353"
+    ],
+    "BBAQM6H7J4G6XKGN7HPVXZUXFCM2G6MZ": [
+      "20260417093632"
+    ],
+    "7GDRKFTVVAZBDGFG2GBTWXJAJQO2ZNZ4": [
+      "20260418132827",
+      "20260418132827"
+    ],
+    "P36RV6B7DB62SRJP5DNZ47RW7M7E5PW4": [
+      "20260420141102"
+    ],
+    "TPFZKVW3YAXFJ6HFYSQS6ZD3XIAHOY2J": [
+      "20260421081917"
+    ],
+    "KHRYBWI2TAU55HLFVHLX3JBTHBVC75CR": [
+      "20260424124638"
+    ],
+    "UEL2JVAAGXJXQJBICXNQ52MFIODMCGCA": [
+      "20260517151818"
+    ],
+    "AHJKIDGRUVUPVDBUWNUQFIQZKYV5KI2X": [
+      "20260519184618"
+    ],
+    "QBDRVXW6AM4ZBITYZOE7EUZDX3LYO43Y": [
+      "20260610130859"
+    ],
+    "VGPPU3A2A2HCNB5LNFCRBHXRNCA5GIIM": [
+      "20260713184516"
+    ],
+    "GFAF3WTWCIJA2GWTVPZOJCQQADBUSE2F": [
+      "20260824193941",
+      "20260824193941"
+    ],
+    "CEG47WL4HYVX2F5QHPI56BTD2QLWTVHW": [
+      "20260830181154"
+    ],
+    "SQKGQGDR5SWDNFA7N7XB4K5OY373PV7J": [
+      "20261010174853",
+      "20261010174853"
+    ]
+  }
 }

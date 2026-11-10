@@ -6017,6 +6017,42 @@
         "dom_to_trafilatura_ratio": 0.48
       },
       "thin": false
+    },
+    {
+      "urlkey": "com,amazon)/b?ie=utf8&node=239365011",
+      "timestamp": "20070505220958",
+      "original": "http://www.amazon.com:80/b?ie=UTF8&node=239365011",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "OTE4BAF3FUQG6QQHKS352ETHPDWSRN2J",
+      "length": 5485,
+      "html_file": "20070505220958_13450f2ff2e7.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 146,
+        "trafilatura_words": 137,
+        "dom_to_trafilatura_ratio": 1.07
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,amazon)/b?ie=utf8&node=239364011",
+      "timestamp": "20080128203812",
+      "original": "http://www.amazon.com:80/b?ie=UTF8&node=239364011",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "OSIO7KIS73QDXLU45V4KEPF2FPUKW4R4",
+      "length": 8494,
+      "html_file": "20080128203812_efa88e7e35fd.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 1,
+        "dom_words": 373,
+        "trafilatura_words": 363,
+        "dom_to_trafilatura_ratio": 1.03
+      },
+      "thin": false
     }
   ],
   "digest_timeline": {
@@ -7302,6 +7338,9 @@
     "NP7AQJBLFVS4DLX43VJNJB4WVFMJDDAQ": [
       "20060222175529"
     ],
+    "OTE4BAF3FUQG6QQHKS352ETHPDWSRN2J": [
+      "20070505220958"
+    ],
     "7URLLJD5WGQJKMZBZM6UYOJADRKW4UTD": [
       "20070506231520"
     ],
@@ -7319,6 +7358,9 @@
     ],
     "IP6GCAI2FKU7WBCPEI6EC425WULF65XO": [
       "20070923171718"
+    ],
+    "OSIO7KIS73QDXLU45V4KEPF2FPUKW4R4": [
+      "20080128203812"
     ],
     "QV5QT5EICRLEFL5FMXNTL7ZU6QCHYTRX": [
       "20080220061438"
@@ -7472,8 +7514,8 @@
     "MMHJBORVXFQHRVWM5SB23ANBXEFQXCKY": [
       "20140814200416"
     ],
-    "L7LFWOA6Q5YVCCNTDZTGDWRW4WNQKHF3": [
-      "20140904120456"
+    "5KHRQ3FBX4XNESF6FYXWGRF3U6FOVGSV": [
+      "20140902095717"
     ],
     "6KRJRQRTJ4DHQ25DFU2KZV64JFNOCAK6": [
       "20140914065908"
@@ -8502,22 +8544,22 @@
       "20260203192302",
       "20260203192302"
     ],
-    "COCN6QL22XZSRH4SYZ4LVNRCJKZPHWVQ": [
-      "20260306025321"
+    "ATZ57SIBAX362BDT3WX6OEL7HHP5KJIF": [
+      "20260301001344"
     ],
     "VGJXSBIZWDE6625VDOI7Q74BEGC4MP3H": [
       "20260312051656",
       "20260312051656"
     ],
-    "OG4MJURWFE6BL6NTYV6APIANUOQBJGY5": [
-      "20260401132547"
+    "KJFINQQANT3LF6DLVFISO5TZQRHY7LPA": [
+      "20260401024349"
     ],
     "K2ZGN2BLAJUD5E2VZDKZ6KOHZJNBIIQ2": [
       "20260410232504",
       "20260410232504"
     ],
-    "TFJJH3QYTMGQ2DN4KWMBO7D4WBT7LRMQ": [
-      "20260502051055"
+    "NKVRSK2WR4PBJM3Z3LKSVM2HMZMRCQLY": [
+      "20260501021306"
     ],
     "UEVW5Q4DJ3TE5PTQDFNOAG7F2VJZYF4Y": [
       "20260506050552",
@@ -8536,6 +8578,27 @@
     "252OMPGSMXT25OFIHSRTFXDWTIGYPQ4E": [
       "20260708145828",
       "20260708145828"
+    ],
+    "FUOJRF2BUAYVYBRDVMOWABXLKBV47MHM": [
+      "20260801011952"
+    ],
+    "UIXVJVTBRZJFBAGWOTAPGJNV2JPE454O": [
+      "20260807140704",
+      "20260807140704"
+    ],
+    "6XWXPFU3P3FHZ5RVRCOA257VKHMJLXDG": [
+      "20260901201627"
+    ],
+    "P675BBS4LMNRIE5B6ZLVBATAZ3JMINVL": [
+      "20260911175614",
+      "20260911175614"
+    ],
+    "W7AKOTISIMXTT5LN7BLELTGNEP6WO5GT": [
+      "20261001022245"
+    ],
+    "2DL3K522Y42PSKZKS42JULJGHYCCQKNR": [
+      "20261020204938",
+      "20261020204938"
     ]
   },
   "json_candidates": [
@@ -8997,6 +9060,33 @@
       "statuscode": "200",
       "digest": "PWNVULJ3RIQRQYTTI662KDEJWIO7E5MZ",
       "length": 30211
+    },
+    {
+      "urlkey": "jobs,amazon)/api/jobs/search?is_als=true",
+      "timestamp": "20260804042815",
+      "original": "https://www.amazon.jobs/api/jobs/search?is_als=true",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VJWFBWII4JQGPAYMS2AI5TGJPUYA77XV",
+      "length": 751
+    },
+    {
+      "urlkey": "jobs,amazon)/api/jobs/search?is_als=true",
+      "timestamp": "20260901004139",
+      "original": "https://amazon.jobs/api/jobs/search?is_als=true",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GRNQ5LUOPMI5TPPXV2YHNWBQLJAATBYC",
+      "length": 20861
+    },
+    {
+      "urlkey": "jobs,amazon)/api/jobs/search?is_als=true",
+      "timestamp": "20261006062454",
+      "original": "https://amazon.jobs/api/jobs/search?is_als=true",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GWXTUMCU7LM4RXNT7KSMYFMYML4ZLBL6",
+      "length": 23335
     },
     {
       "urlkey": "jobs,amazon)/api/jobs/search?jobcategoryids[]=67&limit=30&offset=30",
@@ -9566,6 +9656,33 @@
       "length": 1561
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/homepage_jobs",
+      "timestamp": "20260802002012",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/homepage_jobs",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "A5KI5W6WS5QWYQE5MURZ23ZZKKTS6CY2",
+      "length": 1565
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/homepage_jobs",
+      "timestamp": "20260901201628",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/homepage_jobs",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "Q2F5XCNCMFYQKSO36W6F7XIDZMFJS3DD",
+      "length": 1563
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/homepage_jobs",
+      "timestamp": "20261004031002",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/homepage_jobs",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "NNMHDG7JQK7SKMZHZ7VVNS4RRGRWUGPJ",
+      "length": 1569
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10371628",
       "timestamp": "20260430052435",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10371628",
@@ -9629,6 +9746,15 @@
       "length": 2489
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10379285",
+      "timestamp": "20260726215216",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10379285",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "KJ4C4ZRTLPAMNYN3NMUPBODXGJQBKYZ5",
+      "length": 2700
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10379831",
       "timestamp": "20260629140433",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10379831",
@@ -9681,6 +9807,42 @@
       "statuscode": "200",
       "digest": "OD5N36FON7Z5CRMCONJOIRPJJ4ELDNQ4",
       "length": 2662
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10383388",
+      "timestamp": "20260730144100",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10383388",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "3AUWG6IRWKSHTWR6URTXXWR43C4QX7W7",
+      "length": 2720
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10383896",
+      "timestamp": "20260416003337",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10383896",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "QNMJXQVCU672U46N5DYFMV3ZU4G277QR",
+      "length": 2608
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10384951",
+      "timestamp": "20260913174948",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10384951",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K54MTYYYHLT22T4DINBRXLHSRLKZA6KH",
+      "length": 2575
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10385290",
+      "timestamp": "20260408164858",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10385290",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RTDYZEDTJ6DQHZTV5ZSLTRKY7HJFJSXL",
+      "length": 2582
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10386547",
@@ -9737,6 +9899,15 @@
       "length": 2622
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10388366",
+      "timestamp": "20261006121609",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10388366",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "R5SVAVPBFBDZTZNDNVCUDYGV666SJPN2",
+      "length": 2551
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10388673",
       "timestamp": "20260628194740",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10388673",
@@ -9773,6 +9944,33 @@
       "length": 2537
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10390923",
+      "timestamp": "20260918141057",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10390923",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4PDW3HHTD2VHE3DEVS3XEENS6DDF2WPR",
+      "length": 2569
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10391379",
+      "timestamp": "20260815181112",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10391379",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "2IQTHCLCQZ3BDE7VWL3KXTTWI5PRLZSG",
+      "length": 2599
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10393789",
+      "timestamp": "20260918133152",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10393789",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "G6DJ7NSKWJDILTNADRL5AZC33OV2AQZ7",
+      "length": 2666
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10393903",
       "timestamp": "20260501081718",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10393903",
@@ -9800,6 +9998,15 @@
       "length": 2608
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10395984",
+      "timestamp": "20260720200346",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10395984",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "2T6Q3XXIXM3R7XRK3QJHSRQ4JBAO6R5X",
+      "length": 2491
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10396342",
       "timestamp": "20260425190053",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10396342",
@@ -9825,6 +10032,15 @@
       "statuscode": "200",
       "digest": "I2V3VFHQHKPHAUVS6UX5HWGQX7Y23XSF",
       "length": 2533
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10397617",
+      "timestamp": "20260913174147",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10397617",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "UZQWQFKHO4M6CFZYIEKHHTXODPEQGUQS",
+      "length": 2507
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10397965",
@@ -9863,6 +10079,24 @@
       "length": 2595
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10402812",
+      "timestamp": "20260729023831",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10402812",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "AXKOXUHI4UVLZMEHYVRKBJQTMW6GTHYB",
+      "length": 2744
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10403393",
+      "timestamp": "20260607184538",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10403393",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "7CS4IS33ZZ6OSDUUAURFOGROF4ISX33U",
+      "length": 2674
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10403917",
       "timestamp": "20260529225117",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10403917",
@@ -9890,6 +10124,15 @@
       "length": 2604
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10404522",
+      "timestamp": "20260819003827",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10404522",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DOW5LSMLWIZSRUEUFAXASZK7HZRR4PAD",
+      "length": 2707
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10405578",
       "timestamp": "20260712203554",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10405578",
@@ -9897,6 +10140,15 @@
       "statuscode": "200",
       "digest": "DEGV47I2VH6KU7YTC3TQUNUIJVDTFQYE",
       "length": 2590
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10406134",
+      "timestamp": "20260901091731",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10406134",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MP62MRPNMTXUNZCBLQBZYAKKQJL7ABRT",
+      "length": 2690
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10406982",
@@ -9915,6 +10167,69 @@
       "statuscode": "200",
       "digest": "6W3UZTSJINI2AOG75XUEW6C3I2C73IJE",
       "length": 2619
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10408763",
+      "timestamp": "20260914095531",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10408763",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HGV3MGUOX3XT4SKSHA3I2O4NQDNBGC67",
+      "length": 2559
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10409017",
+      "timestamp": "20260728191525",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10409017",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "IEHOFF3XDKGXKBFVGKMZOGBW7OJLG6WJ",
+      "length": 2578
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10409235",
+      "timestamp": "20260514221147",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10409235",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6DJCY34A7JZ7BLZ4NRIUXFEXUP3JSAMS",
+      "length": 2599
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10410587",
+      "timestamp": "20260923080018",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10410587",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HXYPDD7GSG3V4GIKHXHRMPSQHEXDGKFG",
+      "length": 2684
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10410638",
+      "timestamp": "20260513060441",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10410638",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "EVZYLZ424RRLDEK2OQDZPO6DT5DCPV2T",
+      "length": 2454
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10411425",
+      "timestamp": "20260823011930",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10411425",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MDU3QALM2PQYD6PBCUBF3K6SAERQKGHY",
+      "length": 2720
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10411642",
+      "timestamp": "20260506225903",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10411642",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "5ZH24BNME7JKZZECV5SES4YLQPOF2FCF",
+      "length": 2571
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10412345",
@@ -9944,6 +10259,24 @@
       "length": 2628
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10414635",
+      "timestamp": "20260720202359",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10414635",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ECJXBAD67GMIS6JM6JAAVJMVF7O3JGCJ",
+      "length": 2533
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10414903",
+      "timestamp": "20260915152806",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10414903",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6WYLBHCXYTTUPODEYP2OBOUMMRABU3F5",
+      "length": 2632
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10415774",
       "timestamp": "20260522102156",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10415774",
@@ -9969,6 +10302,24 @@
       "statuscode": "200",
       "digest": "YIMM6SRPC2HAITXUUH5ZMGOMS4U7TKF4",
       "length": 2621
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10419240",
+      "timestamp": "20260914210237",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10419240",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "IC3LDXYNXIFCXRGMVU3SNTMC4MJXZ4RJ",
+      "length": 2633
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10419280",
+      "timestamp": "20260526232719",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10419280",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MKHB3K4CGPIABFZMBQNDSL72AEAHHJRQ",
+      "length": 2648
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10419994",
@@ -9998,6 +10349,33 @@
       "length": 2570
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10420615",
+      "timestamp": "20260817181502",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10420615",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "Q5V3JWLADEXO2I2DTMJGVCYIUKOWB3FK",
+      "length": 2601
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10420946",
+      "timestamp": "20260628195013",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10420946",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HFMLLWDWEBZCERIB6OOM24PA5PLT25B4",
+      "length": 2613
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10421820",
+      "timestamp": "20261010035959",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10421820",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SSTHWFNT4U3BHFYGAEQSQRQU3PJC5C5U",
+      "length": 2591
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10421839",
       "timestamp": "20260526224250",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10421839",
@@ -10025,6 +10403,24 @@
       "length": 2608
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10424277",
+      "timestamp": "20260918005013",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10424277",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "QGFD7CASJHUFCVJKZC36FOUOTYI653KT",
+      "length": 2664
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10425122",
+      "timestamp": "20261022160225",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10425122",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "F3GCKN5RAKXBEOS5TID6VZRG65ZN6IXJ",
+      "length": 2716
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10425505",
       "timestamp": "20260712203714",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10425505",
@@ -10043,6 +10439,15 @@
       "length": 2595
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10426196",
+      "timestamp": "20260907154028",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10426196",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K3UJRHHQQL6DAKE7S5ERIZO4Y7HGHWYA",
+      "length": 2565
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10426502",
       "timestamp": "20260703023114",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10426502",
@@ -10050,6 +10455,15 @@
       "statuscode": "200",
       "digest": "ZSXQPXHSB6JHT7FVV7LQPUNR4KWLT6WT",
       "length": 2636
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10426511",
+      "timestamp": "20260918142028",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10426511",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MWLUNOXIBFAQQUFFESE463W5LJPAK47X",
+      "length": 2548
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10426564",
@@ -10061,6 +10475,15 @@
       "length": 1569
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10428051",
+      "timestamp": "20261006121701",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10428051",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RGNLHTQ35HUQKAUTCULMWFSQ4PNV3VCB",
+      "length": 2422
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10428480",
       "timestamp": "20260717153450",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10428480",
@@ -10068,6 +10491,15 @@
       "statuscode": "200",
       "digest": "KFGLNVQIOG65BSM3RDJJFAGHZI7PSCT4",
       "length": 2592
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10429541",
+      "timestamp": "20260914095538",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10429541",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ZFKNWKAQSNAV5NG3JJARKHLQX7XLLBGW",
+      "length": 2579
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10430158",
@@ -10079,6 +10511,78 @@
       "length": 2674
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10430159",
+      "timestamp": "20260901090801",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10430159",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "7L4KNUOZUBBI6RWKWWPHQJTYOM24NQ4L",
+      "length": 2659
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10431835",
+      "timestamp": "20260831110912",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10431835",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VD5SUKNK6MX5STLP6IPCIY7UAOBPH42Z",
+      "length": 2642
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10432755",
+      "timestamp": "20260926162523",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10432755",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "36FTQ3JTNUPDX2UDN6XORB5YEKRBGUK4",
+      "length": 2601
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10433777",
+      "timestamp": "20260628194946",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10433777",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ESJ647XV4D4C5MCQOLGJFTEJIKALOOOW",
+      "length": 2640
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10433854",
+      "timestamp": "20260915054432",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10433854",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ZYB4H3CBI3XKPIBN35KOZOCX7H72Q7WW",
+      "length": 2717
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10434589",
+      "timestamp": "20260630150102",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10434589",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "2PG3N2J6UL63P5HMEU3MJ75S6UTFHE5R",
+      "length": 2703
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10441063",
+      "timestamp": "20260915155717",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10441063",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "WIIM3WFCUHPJ4XITNR7YBPFDDON4ZLPM",
+      "length": 2698
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10441512",
+      "timestamp": "20261010032921",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10441512",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "UUURCAVLF222ARLMVWPGSWN6EBDA6ENM",
+      "length": 2640
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10442028",
       "timestamp": "20260708223344",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10442028",
@@ -10086,6 +10590,15 @@
       "statuscode": "200",
       "digest": "HJU3JBK4WYGXKKNKEABL6KYPSAZKT4PC",
       "length": 2575
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10442290",
+      "timestamp": "20261010032955",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10442290",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "KQFJ7FUPM7LI4GEVZUB4IDEI7UOQIKZ5",
+      "length": 2603
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10443045",
@@ -10097,6 +10610,51 @@
       "length": 2707
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10444001",
+      "timestamp": "20260724034845",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10444001",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TQMMLENJI4YYTOIFEVOHLVTEUTW5Z236",
+      "length": 2653
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10444202",
+      "timestamp": "20260630041027",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10444202",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "23HN5BYQZGF4I2RYGHCU5AE6NAKHL45G",
+      "length": 2612
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10444730",
+      "timestamp": "20260901004428",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10444730",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FPG6IBG6AALF6PCZ3F3ZD7Y5DVAIKGZN",
+      "length": 2665
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10445237",
+      "timestamp": "20260621014827",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10445237",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "EO5XRXCLCFCHJCEKZWLOXLICCF35GB2U",
+      "length": 2587
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10445970",
+      "timestamp": "20260909222935",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10445970",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DCTFY7QSRBJO2R5KQNGQYEF7HZFEDUDX",
+      "length": 2681
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10446548",
       "timestamp": "20260716050157",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10446548",
@@ -10106,6 +10664,33 @@
       "length": 2619
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10448647",
+      "timestamp": "20260913174215",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10448647",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FZFUDGRGIYJNZKPCX6R7BJDP6X2WN52G",
+      "length": 2609
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10448704",
+      "timestamp": "20261015183841",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10448704",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ZDXSP4CVB5CMHTCXJXBXBB4NLGKAFSGM",
+      "length": 2641
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10449267",
+      "timestamp": "20260901005203",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10449267",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LVRRYJSB2PSFEVMIHZCS4S4OKJ7SYIUC",
+      "length": 2674
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10451002",
       "timestamp": "20260630150102",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10451002",
@@ -10113,6 +10698,15 @@
       "statuscode": "200",
       "digest": "KXANHR6DZ7WXL7QEEDCYXE5U6TGYYT6B",
       "length": 2602
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10451217",
+      "timestamp": "20260906170718",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10451217",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "M3WINHLK7FLLZ2U45MBXJTNR274753JE",
+      "length": 2569
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10451495",
@@ -10133,6 +10727,24 @@
       "length": 2732
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10453152",
+      "timestamp": "20261010035619",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10453152",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YMQZMAWIO5O2KU5FMROPX7YSKKAU366G",
+      "length": 2589
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10453655",
+      "timestamp": "20260622171105",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10453655",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TM76SDTNHLOZGO6EPFAXBJNMPXEBROJZ",
+      "length": 2535
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10453655",
       "timestamp": "20260712203527",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10453655",
@@ -10151,13 +10763,31 @@
       "length": 2598
     },
     {
-      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10455350",
-      "timestamp": "20260711034544",
-      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10455350",
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10453787",
+      "timestamp": "20260906180452",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10453787",
       "mimetype": "application/json",
       "statuscode": "200",
-      "digest": "JPN2ORNJRGW7YHPYFDQNOFHOAWYWOXI4",
-      "length": 2567
+      "digest": "5Z5TWARYQRWP2ORAAA4E7Q725XH6HRRJ",
+      "length": 2574
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10453790",
+      "timestamp": "20260720200452",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10453790",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "QZGSUNNJS5NJTAQIW5RB6AR6PDA6OPZM",
+      "length": 2531
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10456103",
+      "timestamp": "20260813080949",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10456103",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RVQP3YWLFEPFAHSFGYE7TJKTCQVMAKK2",
+      "length": 2726
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10456999",
@@ -10167,6 +10797,60 @@
       "statuscode": "200",
       "digest": "ZQ52I2E2OXKFFYKNWB6OGH6Z53BWQTHL",
       "length": 2670
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10458345",
+      "timestamp": "20260811201733",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10458345",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TGIYM5NCCYZGWXSRKL2XI5S2G7JZIC6Q",
+      "length": 2650
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10458564",
+      "timestamp": "20260629224931",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10458564",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RGVHL6HOY6J34NLIXZCRPI6CYY4ZQ5CR",
+      "length": 2672
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10458713",
+      "timestamp": "20260815181225",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10458713",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DJQ5X2SCOB7AGHOV6CVT72BALNU3VVPM",
+      "length": 2623
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10459133",
+      "timestamp": "20260629225003",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10459133",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "5BARPQ5SFGQYTJOZVLTTOLK7Y334RH32",
+      "length": 2557
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10459853",
+      "timestamp": "20260729023207",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10459853",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "T3H24VOJNSQV4Z42W7J5AJNXITQ3ICKB",
+      "length": 2764
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10460499",
+      "timestamp": "20260629224838",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10460499",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GVM5UF3LKB6ITL3BMRXAFJ222GLUSJLE",
+      "length": 2778
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10461328",
@@ -10187,6 +10871,15 @@
       "length": 1579
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10462071",
+      "timestamp": "20260921150852",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10462071",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RXQ5R6USQAJOKI4MOPVEUYQVTEWLMGGH",
+      "length": 2724
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10462664",
       "timestamp": "20260716045957",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10462664",
@@ -10194,6 +10887,861 @@
       "statuscode": "200",
       "digest": "2RFKRL3JDOSQLPNYUHH2LINAD5Z5NEWB",
       "length": 2587
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10463418",
+      "timestamp": "20260906170820",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10463418",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ZZXBRPDU6LCZJ2BH3W2EYZD7USSTGNSC",
+      "length": 2629
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10464178",
+      "timestamp": "20260706173403",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10464178",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "EKTKHJQ772NR5MQTA7E5GCT43UQQIWWS",
+      "length": 2636
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10464928",
+      "timestamp": "20260819003941",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10464928",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "BJGH2PXNQTNUE6TISQL2P7CAKDHIMCPB",
+      "length": 2637
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10465509",
+      "timestamp": "20260918133603",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10465509",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XWUVHNFP6OT7HQEGMB6CXZWPZDTOZWZ4",
+      "length": 2549
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10466157",
+      "timestamp": "20260731225614",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10466157",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GVAN6BBUJUO3SPR3EQOAY6XH7RCK3DVG",
+      "length": 2763
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10467304",
+      "timestamp": "20260923080002",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10467304",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "EATE7R6FURTMGU5X3SECNYIBMCFS7W4Y",
+      "length": 2566
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10468602",
+      "timestamp": "20260803155150",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10468602",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HZFDLRMICFYEHYMMHE6O6BP2QQLXAITY",
+      "length": 2510
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10468692",
+      "timestamp": "20260712202343",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10468692",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "JNJ5PRWPFDIHQJS7RZDVCT32PPK6WHNR",
+      "length": 2560
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10469429",
+      "timestamp": "20260901005128",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10469429",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "2DXVFC35TOXCWCK5LRTQJ5N7KPPFGGLS",
+      "length": 2639
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10470021",
+      "timestamp": "20261023032009",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10470021",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ESH352M6RM5F73HIDNI5CVHXKRUV3SRT",
+      "length": 2639
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10470169",
+      "timestamp": "20260716045755",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10470169",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6374BUW7JPCW6KG5AWM7RV5T7HWDNDQB",
+      "length": 2648
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10471127",
+      "timestamp": "20260909162105",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10471127",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FYGR7NEDBVHQ7XTQS7LGD452XDFMINTY",
+      "length": 2660
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10471620",
+      "timestamp": "20261022182343",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10471620",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "OD6745XGWBNUAMSVCW4GBSBLUJVA3EOO",
+      "length": 2626
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10471948",
+      "timestamp": "20260717153455",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10471948",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MKVOFUI2IBUW4LEXH2HUBW24F7VRVGTM",
+      "length": 2609
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10472127",
+      "timestamp": "20260803154956",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10472127",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "C4EW4YJYYNJJYORS5SCZN7SC2CNTKJM5",
+      "length": 2565
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10472920",
+      "timestamp": "20260901005113",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10472920",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LWUYIXQRY3R7M26TR5X6ZRADTTCNQDNA",
+      "length": 2625
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10473111",
+      "timestamp": "20260716045940",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10473111",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "AJTOSG75FK5X64JRU7ABCID7WQNULCF7",
+      "length": 2439
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10475344",
+      "timestamp": "20260916122411",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10475344",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VKVYB6UIWZSHVPNE3BJ2ZGZJCF3S6YKE",
+      "length": 2673
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10478315",
+      "timestamp": "20260721043745",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10478315",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XWBUBOUNIOUQQRE6WIU5HUNRQ3NOFERS",
+      "length": 2563
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10480012",
+      "timestamp": "20260918004155",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10480012",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ZPLXVU5MLJ4MY6MALWTN2DZKFRFWKOK5",
+      "length": 2699
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10480216",
+      "timestamp": "20260802002232",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10480216",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DXSF2BZZ5TJIILH3NTP2QF5YWDAE6UHB",
+      "length": 2664
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10481072",
+      "timestamp": "20260921005452",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10481072",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "Q2LCJTQFRCASMCEUS2IKVQAMNL5HRZ25",
+      "length": 2722
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10481172",
+      "timestamp": "20261005194722",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10481172",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TSA5PXM33TSKWKBB3BQKMQVEGMTTQRKK",
+      "length": 2714
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10481275",
+      "timestamp": "20260913174154",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10481275",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FE5X4BXJG4J6JUVPYM6LQTIONDALHAVL",
+      "length": 2606
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10482591",
+      "timestamp": "20261022231646",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10482591",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GWXO6BN2HU3PXH24HK3Y5BNXN7KU5EAR",
+      "length": 2609
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10482735",
+      "timestamp": "20260819004010",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10482735",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "V4VURH43QRTXFW2DRWYRUAUNDJWXXPLZ",
+      "length": 2634
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10483262",
+      "timestamp": "20260921150851",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10483262",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LMLV7757ZJ3VV4OETACRQFU2NVA24NZX",
+      "length": 2703
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10483630",
+      "timestamp": "20260818201801",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10483630",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RSQFUVJQC3M6KWMJW4AQQLVOSSFF2D4R",
+      "length": 2630
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10483965",
+      "timestamp": "20260909164915",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10483965",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "KRN7TMQJBRSVUWJAVKHGMYTHB72WZJIV",
+      "length": 2710
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10484028",
+      "timestamp": "20260731171144",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10484028",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YE3C3IRLURWQOQCPNBJKUR6EVNHTJIGD",
+      "length": 2635
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10484028",
+      "timestamp": "20260801032820",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10484028",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TR64BGJP42YYLUTF36G7WXXRSBFW6EO7",
+      "length": 2647
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10484850",
+      "timestamp": "20261010035448",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10484850",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SF4DVTVV6V6LYVFRNA5QTYFYQYS56ADV",
+      "length": 2647
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10485603",
+      "timestamp": "20260819004113",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10485603",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "43EF54TTC27X6POM7EGJBAUUOFK7QE3B",
+      "length": 2546
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10485636",
+      "timestamp": "20260922055259",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10485636",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "OWEPK6JF3LB5I5QNBEBIPRH3XPAPXQUH",
+      "length": 2699
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10486789",
+      "timestamp": "20261027061516",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10486789",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "A55BVNCJLZOIT67YOWQGOC2PSLHSOT6T",
+      "length": 2626
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10487350",
+      "timestamp": "20260918141447",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10487350",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "JQZIBJS5GGDJ3PELW6XSCRJV5VM2UFQE",
+      "length": 2703
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10488615",
+      "timestamp": "20261007214156",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10488615",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YSUAS5BQRVLCSXNGBXG5UDSKUND66GV6",
+      "length": 2570
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10488974",
+      "timestamp": "20260807040715",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10488974",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "AJ62XZ7F6LUPJ5X6HQOEEWJ3EZ2UTQ3N",
+      "length": 1576
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10489049",
+      "timestamp": "20261022155840",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10489049",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DUHFNLEW7NMHPRGJMU5YG7RHO7GAASH6",
+      "length": 2721
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10489698",
+      "timestamp": "20260901113437",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10489698",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "IWNL3ZSM3V7WUVCD3T5BPD244G7W7FXW",
+      "length": 2705
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10490998",
+      "timestamp": "20261010033254",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10490998",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4VXPOSZHBYL4COBJ5RDF3VHUA4IDRVO3",
+      "length": 2556
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10491075",
+      "timestamp": "20260819224744",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10491075",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DFRX6ERNXDZYT3LLAWECXYLWYXK5RMLX",
+      "length": 2609
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10491603",
+      "timestamp": "20260914081211",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10491603",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "H554DQJOUPF3AYKVR7TQW4FAXG3SIO4I",
+      "length": 2600
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10491882",
+      "timestamp": "20261023152646",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10491882",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "AHTLLZZ5AEDHTNQVEBAWF7DHLTUCOBNS",
+      "length": 2512
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10491883",
+      "timestamp": "20260808013740",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10491883",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4B2FTQKTWECOPD2GRSCDAB5MCLJBCE7G",
+      "length": 2688
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10492631",
+      "timestamp": "20260918004126",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10492631",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "3WJNBCMZKQ46TQVRCGYJNXRNO6QSVQJF",
+      "length": 2637
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10493056",
+      "timestamp": "20260819004148",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10493056",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "UOOYCMEHP3CBX2ZSJWHJBJERMSLZ6JXL",
+      "length": 2586
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10493433",
+      "timestamp": "20260909031306",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10493433",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "F56YG5AF7PU5ANCEGGRPPNL5NAP45HXW",
+      "length": 2518
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10493728",
+      "timestamp": "20261010033112",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10493728",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4T5WC3XCICFYPB2PIBYLTFGQBR3OI5QA",
+      "length": 2573
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10493835",
+      "timestamp": "20260812022521",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10493835",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "J6F2EGHQJJ5PEFCQONLUCHX7A6VEAI2L",
+      "length": 2540
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10496275",
+      "timestamp": "20260901092253",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10496275",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K6AQYV7ASTWA2RJTNKSJYJK2QTH3JU47",
+      "length": 2584
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10498850",
+      "timestamp": "20261023034533",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10498850",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "OE5E2VE3XSUPEI2LBBHSU6MF3BHFIVGC",
+      "length": 2607
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10499096",
+      "timestamp": "20260916121219",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10499096",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XKXJEBBMO53T2KXZNVLPRFSO6CKR5SQ5",
+      "length": 2747
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10499148",
+      "timestamp": "20261010034752",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10499148",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RF5OVSV324Q23GSY34377P4OF2VS22EC",
+      "length": 2567
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10499406",
+      "timestamp": "20260812042818",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10499406",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "464ANSIKJGXPK2FJPMTK742XPO2QTOT5",
+      "length": 1571
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10500641",
+      "timestamp": "20260913175041",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10500641",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VZLCKAXPHHINQXADFOLCDUPVR6GTJRT5",
+      "length": 2591
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10501147",
+      "timestamp": "20260815180437",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10501147",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "J4AFHFCPQTSWOFYRJ33RGMB5ZJV6YJIW",
+      "length": 2595
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10503210",
+      "timestamp": "20261010034655",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10503210",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "3BLXNJPBZGQVNVQICXENFRBG7F6G35HT",
+      "length": 2647
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10503316",
+      "timestamp": "20260901004935",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10503316",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "PDB3ADTYPPXSB3377IPPPPIDXX7NRCHT",
+      "length": 2672
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10505436",
+      "timestamp": "20261022070922",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10505436",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RP7YPFRRBYFDXYDLMLW6RCUB2KSKVS32",
+      "length": 2550
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10509156",
+      "timestamp": "20260908063443",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10509156",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "5KOBOVR7O3C6EASNHKYWYUCEZWZQQILX",
+      "length": 2595
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10509639",
+      "timestamp": "20260821161556",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10509639",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "KRYYINH4NLWAGVM6HBTTX5VMYB5LGTII",
+      "length": 2694
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10509686",
+      "timestamp": "20261010033416",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10509686",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FBOM4QODX2CCXFH4P4JWMWX3LOY52MRO",
+      "length": 2543
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10510005",
+      "timestamp": "20260916122416",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10510005",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VIQ45P5QQWX7MXQNQHPTTO6IZ4GHNDFJ",
+      "length": 2615
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10510882",
+      "timestamp": "20261020060550",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10510882",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GITPONAN65H3GBCZ5C56M655W3ODDDLI",
+      "length": 2621
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10511494",
+      "timestamp": "20260909162100",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10511494",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ABP7E2SRMQ7M4OI7LAXLB7HJSRJEFQ6N",
+      "length": 2727
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10512092",
+      "timestamp": "20260831110848",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10512092",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "KOP42S5OIPQPQ4M5TGRSAZDOMCBEU7UB",
+      "length": 2557
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10512092",
+      "timestamp": "20260901073621",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10512092",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FSM7RZ4VJZVDRM3EUX546OSH2EZLZL2W",
+      "length": 2521
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10513151",
+      "timestamp": "20260825145538",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10513151",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K7OH5UACBYTMHMKVXRDTDY53656675YF",
+      "length": 2612
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10513643",
+      "timestamp": "20260901115611",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10513643",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RNXJS3XM74PBAZW7TKUMV2CDOTR2Y4XC",
+      "length": 2670
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10514036",
+      "timestamp": "20261010034724",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10514036",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ILZPL6I2IB7RAB3GVIA7XA6JYZE6EIDE",
+      "length": 2541
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10516119",
+      "timestamp": "20260908062914",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10516119",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6DMO6N7IXF67DXGVY44ED6BG5K2NIZZK",
+      "length": 2554
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10517550",
+      "timestamp": "20261004151558",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10517550",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "63XT7ELTPUKEL7XGQZ6VMEVLRNGEQNNF",
+      "length": 2728
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10518025",
+      "timestamp": "20260922163423",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10518025",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "UA76A4GPQGBXEFGQ2X6KCNLF6XHZO36W",
+      "length": 2616
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10521207",
+      "timestamp": "20260831052925",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10521207",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "G3GNHMONYIMLZ27ZVW5O4JLPXZBVAJRP",
+      "length": 1574
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10521829",
+      "timestamp": "20260918142009",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10521829",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "2RTM4I3B526JNLGISQUVFBQDNGNGXU7L",
+      "length": 2455
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10522925",
+      "timestamp": "20261010034027",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10522925",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "UHN2WMRLD73QNPJ6VAP3JNR22EFAHRHK",
+      "length": 2605
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10524242",
+      "timestamp": "20260918133141",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10524242",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GXU4RJLDWPKI73BBFTK42POTQFPMQ5HX",
+      "length": 2672
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10524262",
+      "timestamp": "20261006221908",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10524262",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "5WXRJT6RZLD42U2FPNQVBY3TPGCS5I62",
+      "length": 2587
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10525042",
+      "timestamp": "20260924234917",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10525042",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TYUG3L4LAEY4IBZEVZOYXHHMPDMAHVRX",
+      "length": 2573
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10526514",
+      "timestamp": "20261006215652",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10526514",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "IG2THS7Z44MYGHDXXEWY33Q6KCO7PGZS",
+      "length": 2708
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10529525",
+      "timestamp": "20260907064830",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10529525",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "NCFUWSRSM77F2ETMDYL6M3RB2UOR57LW",
+      "length": 2532
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10529794",
+      "timestamp": "20261006124327",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10529794",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4LVR3MIPC7N24GGPEHR7EXIWTQIHNWHG",
+      "length": 2526
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10529858",
+      "timestamp": "20260905185930",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10529858",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SSZQ6W56LORJETVVUH2JUWB6KSRBQ5AJ",
+      "length": 2631
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10535239",
+      "timestamp": "20261020195317",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10535239",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SJG6JYDIIZBDMM4ZGLTEPKVJVEBBWXKC",
+      "length": 2680
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10535281",
+      "timestamp": "20260910225435",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10535281",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SW4TYQKUZYC2NZ7YKLQWNQZEFUURLLLX",
+      "length": 2620
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10543896",
+      "timestamp": "20261006062519",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10543896",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "F4FS6L57BZBMP6UWJXX4ARZNMWSEF2HN",
+      "length": 2609
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10551350",
+      "timestamp": "20260918133129",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10551350",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K5AV46GHYX3HQ5LTOJDT3DMPLBZCGHBL",
+      "length": 2742
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10551654",
+      "timestamp": "20261002091526",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10551654",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6F7FPJTWA2IPP5P6WF5MLBKJGR3LS4K2",
+      "length": 2472
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10552130",
+      "timestamp": "20260928122358",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10552130",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "65Z3O43EVBIA2LCTUDCISJGR2XHL6OGL",
+      "length": 2660
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10553505",
+      "timestamp": "20261010035335",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10553505",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XB3UXHQDLMMMOYBCVPX4TDKYT6MIPSIS",
+      "length": 2698
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10556824",
+      "timestamp": "20260923060842",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10556824",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FGJDPMH32W6TT7HJ3KSNFBKBWHMBWSLI",
+      "length": 1574
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10557783",
+      "timestamp": "20261023022151",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10557783",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XHBJB7UGI27E72Q3OYPMVRWLRX4KUGNK",
+      "length": 2663
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10569747",
+      "timestamp": "20261101084147",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10569747",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LHIX2W3BPLCH5QOTJBAS3XLBVM4543TU",
+      "length": 2595
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10570299",
+      "timestamp": "20261010035918",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10570299",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HHIGLEX4LB7ED3F2SHGALP3NJMG3YRYT",
+      "length": 2806
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=1101264",
@@ -24785,6 +26333,15 @@
       "length": 2644
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=2831138",
+      "timestamp": "20250220022136",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=2831138",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "663STUIXHO273HUAI6IO5PMF7CS5HO4O",
+      "length": 2491
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=2831226",
       "timestamp": "20250122224822",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=2831226",
@@ -26334,12 +27891,12 @@
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=2873428",
-      "timestamp": "20250215195733",
+      "timestamp": "20250204123527",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=2873428",
       "mimetype": "application/json",
       "statuscode": "200",
-      "digest": "OAEUJPLK7BSZEFBEZDWZHHHWQ6SSBW2S",
-      "length": 2706
+      "digest": "L7RFBRLZNKXQVAWN6N5PMSLVHQVNN7ZT",
+      "length": 2620
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=2873469",
@@ -32327,6 +33884,24 @@
       "length": 2805
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3065229",
+      "timestamp": "20260720202341",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3065229",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "L6SV564L3OJ4VM6IUQEC6HKNRVT5NLI6",
+      "length": 2601
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3065232",
+      "timestamp": "20250829090034",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3065232",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "32JPMCI5DRFQFNAFI4TUTUQ4I3Z3QDG3",
+      "length": 2615
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3065325",
       "timestamp": "20250918052125",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3065325",
@@ -33380,6 +34955,24 @@
       "length": 2494
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3104589",
+      "timestamp": "20260914211408",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3104589",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "R6Z6SKVJSDLXPTUBGNMO34DAUXRSYKHY",
+      "length": 2568
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3104684",
+      "timestamp": "20251009073302",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3104684",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "V2TMHKGSIBUTYYF2XQ7JIAQCMR22U2VT",
+      "length": 1564
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3105056",
       "timestamp": "20251102135104",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3105056",
@@ -33758,6 +35351,24 @@
       "length": 2705
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3130362",
+      "timestamp": "20260913174251",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3130362",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VW6MUBVBRMLW6VFNCILUEN2OIEUHQ7UK",
+      "length": 2600
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3131218",
+      "timestamp": "20260115211839",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3131218",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "63CJ7IXEJ5I4QJIR4QLU3IPD4QSGIFVG",
+      "length": 2699
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3131439",
       "timestamp": "20251125093107",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3131439",
@@ -33846,6 +35457,15 @@
       "statuscode": "200",
       "digest": "XFY4JBLONMU5BYA5OCNRTBLTCCBDL5VJ",
       "length": 2475
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3134253",
+      "timestamp": "20261006124307",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3134253",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TIEMLDLW3LMOH5YQLCJENGLAHYZDIXDG",
+      "length": 2622
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3135965",
@@ -33956,6 +35576,15 @@
       "length": 2513
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3141336",
+      "timestamp": "20261002060750",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3141336",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FFMSKLRJ3Q7BBMR4ATGSISJ72KAQV6KX",
+      "length": 2554
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3141517",
       "timestamp": "20260115211216",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3141517",
@@ -34053,6 +35682,15 @@
       "statuscode": "200",
       "digest": "SORDUGYUN7Z5NXVMVKWYPMIYRZYWKXU4",
       "length": 2678
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3145839",
+      "timestamp": "20260819224252",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3145839",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YWIBNXEFWLT5KVEFMRS7QKTNBZ4ZE2XR",
+      "length": 2666
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3145977",
@@ -34451,6 +36089,15 @@
       "length": 2686
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175274",
+      "timestamp": "20260824085456",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175274",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MDIX52DR66M4RCB2GAXSZISZGGMY3K4C",
+      "length": 2634
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175825",
       "timestamp": "20260210175331",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175825",
@@ -34469,6 +36116,33 @@
       "length": 2637
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175845",
+      "timestamp": "20260720202405",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175845",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "BBBE5MLK5GIT6FYGJQENRBTT6ASQW3EI",
+      "length": 2637
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175845",
+      "timestamp": "20261006121630",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175845",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "U44T4CGC4SHNMSFME6SHMIMXRTNTGACY",
+      "length": 2528
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175965",
+      "timestamp": "20260504112717",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175965",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K3K7OZ2LJYOAVYG2V2AAAKYJN4F4EGWN",
+      "length": 2655
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175992",
       "timestamp": "20260417092142",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175992",
@@ -34485,6 +36159,24 @@
       "statuscode": "200",
       "digest": "6JYG4BVV3S7HBNB3DUNKEGXNZKX7II5S",
       "length": 2575
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3176565",
+      "timestamp": "20260729223549",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3176565",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "5SCHTP2KV64UDNATLRXEGUEN5N4TZK3Z",
+      "length": 2574
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3176569",
+      "timestamp": "20260210005720",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3176569",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HNAELZOQ7QNIVSACQ3NM66KSE44JPGR7",
+      "length": 2946
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3176585",
@@ -34622,6 +36314,15 @@
       "length": 2599
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3185829",
+      "timestamp": "20260918150938",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3185829",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K5WADSNPNOIDUYRTCF2D46CPGN4BJIVE",
+      "length": 2485
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3186197",
       "timestamp": "20260702010934",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3186197",
@@ -34703,6 +36404,15 @@
       "length": 2634
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3193613",
+      "timestamp": "20261005170529",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3193613",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YT5CG3WDCVOL4IPGK4FI7CDSEAXMKQTK",
+      "length": 2687
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3193925",
       "timestamp": "20260306183410",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3193925",
@@ -34728,6 +36438,15 @@
       "statuscode": "200",
       "digest": "7NCF4MHG4CB5XWLGDJYR6OYD5Z3GNAXL",
       "length": 2746
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3196353",
+      "timestamp": "20260730145037",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3196353",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GH5GBAE6YWHDXJ4NRJEXUMTUUS45DGMY",
+      "length": 2695
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3196444",
@@ -34757,6 +36476,33 @@
       "length": 1578
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3198332",
+      "timestamp": "20260913173451",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3198332",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "JVYYBETIYLBFBC7LLIFMYXY65UZ65VNH",
+      "length": 2638
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3199415",
+      "timestamp": "20260819004220",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3199415",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HOMO7TUWY7NISVZNLW75ZV555E4Z6BGP",
+      "length": 2536
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3199693",
+      "timestamp": "20260415183336",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3199693",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LFGW4QTHMF35N2EJ4Q5AFUCFCBBM77BX",
+      "length": 2628
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3200335",
       "timestamp": "20260325000106",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3200335",
@@ -34764,6 +36510,24 @@
       "statuscode": "200",
       "digest": "GQAMKZFA4BD7IBGHT66XUWU3METMFXAR",
       "length": 2541
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3200752",
+      "timestamp": "20260720200518",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3200752",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6CBP5HLTWNMR4SF5Q4FLFMU77ECTZRZF",
+      "length": 2542
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3202392",
+      "timestamp": "20260331032901",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3202392",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "D2THXKKYTKXBBBAXQP6B4J2WQDIM7YCW",
+      "length": 2673
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3202447",
@@ -34775,6 +36539,15 @@
       "length": 2575
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3203123",
+      "timestamp": "20260922053757",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3203123",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "I5H6ONUH2ZOQ6M5ZTHQ6PDQKRZESDUUJ",
+      "length": 2648
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3204310",
       "timestamp": "20260628194634",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3204310",
@@ -34784,6 +36557,15 @@
       "length": 2582
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3204846",
+      "timestamp": "20260820060114",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3204846",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GMUEO5CEFXPHWFCQTJTDIVXMV6TYALFU",
+      "length": 2653
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3205695",
       "timestamp": "20260408221146",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3205695",
@@ -34791,6 +36573,15 @@
       "statuscode": "200",
       "digest": "V3TSQPL32273G2L62272WBFGV3QFJNH6",
       "length": 2547
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3206791",
+      "timestamp": "20260720200313",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3206791",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SKCNEUAK4Q37E6QIY5AVPCKAVPK7GK4A",
+      "length": 2454
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=4157",
@@ -35405,6 +37196,33 @@
       "length": 30211
     },
     {
+      "urlkey": "jobs,amazon)/api/jobs/search?is_als=true",
+      "timestamp": "20260804042815",
+      "original": "https://www.amazon.jobs/api/jobs/search?is_als=true",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VJWFBWII4JQGPAYMS2AI5TGJPUYA77XV",
+      "length": 751
+    },
+    {
+      "urlkey": "jobs,amazon)/api/jobs/search?is_als=true",
+      "timestamp": "20260901004139",
+      "original": "https://amazon.jobs/api/jobs/search?is_als=true",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GRNQ5LUOPMI5TPPXV2YHNWBQLJAATBYC",
+      "length": 20861
+    },
+    {
+      "urlkey": "jobs,amazon)/api/jobs/search?is_als=true",
+      "timestamp": "20261006062454",
+      "original": "https://amazon.jobs/api/jobs/search?is_als=true",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GWXTUMCU7LM4RXNT7KSMYFMYML4ZLBL6",
+      "length": 23335
+    },
+    {
       "urlkey": "jobs,amazon)/api/jobs/search?jobcategoryids[]=67&limit=30&offset=30",
       "timestamp": "20151007214636",
       "original": "http://www.amazon.jobs/api/jobs/search?jobCategoryIds%5B%5D=67&offset=30&limit=30",
@@ -35972,6 +37790,33 @@
       "length": 1561
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/homepage_jobs",
+      "timestamp": "20260802002012",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/homepage_jobs",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "A5KI5W6WS5QWYQE5MURZ23ZZKKTS6CY2",
+      "length": 1565
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/homepage_jobs",
+      "timestamp": "20260901201628",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/homepage_jobs",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "Q2F5XCNCMFYQKSO36W6F7XIDZMFJS3DD",
+      "length": 1563
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/homepage_jobs",
+      "timestamp": "20261004031002",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/homepage_jobs",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "NNMHDG7JQK7SKMZHZ7VVNS4RRGRWUGPJ",
+      "length": 1569
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10371628",
       "timestamp": "20260430052435",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10371628",
@@ -36035,6 +37880,15 @@
       "length": 2489
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10379285",
+      "timestamp": "20260726215216",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10379285",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "KJ4C4ZRTLPAMNYN3NMUPBODXGJQBKYZ5",
+      "length": 2700
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10379831",
       "timestamp": "20260629140433",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10379831",
@@ -36087,6 +37941,42 @@
       "statuscode": "200",
       "digest": "OD5N36FON7Z5CRMCONJOIRPJJ4ELDNQ4",
       "length": 2662
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10383388",
+      "timestamp": "20260730144100",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10383388",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "3AUWG6IRWKSHTWR6URTXXWR43C4QX7W7",
+      "length": 2720
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10383896",
+      "timestamp": "20260416003337",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10383896",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "QNMJXQVCU672U46N5DYFMV3ZU4G277QR",
+      "length": 2608
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10384951",
+      "timestamp": "20260913174948",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10384951",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K54MTYYYHLT22T4DINBRXLHSRLKZA6KH",
+      "length": 2575
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10385290",
+      "timestamp": "20260408164858",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10385290",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RTDYZEDTJ6DQHZTV5ZSLTRKY7HJFJSXL",
+      "length": 2582
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10386547",
@@ -36143,6 +38033,15 @@
       "length": 2622
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10388366",
+      "timestamp": "20261006121609",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10388366",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "R5SVAVPBFBDZTZNDNVCUDYGV666SJPN2",
+      "length": 2551
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10388673",
       "timestamp": "20260628194740",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10388673",
@@ -36179,6 +38078,33 @@
       "length": 2537
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10390923",
+      "timestamp": "20260918141057",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10390923",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4PDW3HHTD2VHE3DEVS3XEENS6DDF2WPR",
+      "length": 2569
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10391379",
+      "timestamp": "20260815181112",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10391379",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "2IQTHCLCQZ3BDE7VWL3KXTTWI5PRLZSG",
+      "length": 2599
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10393789",
+      "timestamp": "20260918133152",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10393789",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "G6DJ7NSKWJDILTNADRL5AZC33OV2AQZ7",
+      "length": 2666
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10393903",
       "timestamp": "20260501081718",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10393903",
@@ -36206,6 +38132,15 @@
       "length": 2608
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10395984",
+      "timestamp": "20260720200346",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10395984",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "2T6Q3XXIXM3R7XRK3QJHSRQ4JBAO6R5X",
+      "length": 2491
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10396342",
       "timestamp": "20260425190053",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10396342",
@@ -36231,6 +38166,15 @@
       "statuscode": "200",
       "digest": "I2V3VFHQHKPHAUVS6UX5HWGQX7Y23XSF",
       "length": 2533
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10397617",
+      "timestamp": "20260913174147",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10397617",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "UZQWQFKHO4M6CFZYIEKHHTXODPEQGUQS",
+      "length": 2507
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10397965",
@@ -36269,6 +38213,24 @@
       "length": 2595
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10402812",
+      "timestamp": "20260729023831",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10402812",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "AXKOXUHI4UVLZMEHYVRKBJQTMW6GTHYB",
+      "length": 2744
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10403393",
+      "timestamp": "20260607184538",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10403393",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "7CS4IS33ZZ6OSDUUAURFOGROF4ISX33U",
+      "length": 2674
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10403917",
       "timestamp": "20260529225117",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10403917",
@@ -36296,6 +38258,15 @@
       "length": 2604
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10404522",
+      "timestamp": "20260819003827",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10404522",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DOW5LSMLWIZSRUEUFAXASZK7HZRR4PAD",
+      "length": 2707
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10405578",
       "timestamp": "20260712203554",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10405578",
@@ -36303,6 +38274,15 @@
       "statuscode": "200",
       "digest": "DEGV47I2VH6KU7YTC3TQUNUIJVDTFQYE",
       "length": 2590
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10406134",
+      "timestamp": "20260901091731",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10406134",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MP62MRPNMTXUNZCBLQBZYAKKQJL7ABRT",
+      "length": 2690
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10406982",
@@ -36321,6 +38301,69 @@
       "statuscode": "200",
       "digest": "6W3UZTSJINI2AOG75XUEW6C3I2C73IJE",
       "length": 2619
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10408763",
+      "timestamp": "20260914095531",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10408763",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HGV3MGUOX3XT4SKSHA3I2O4NQDNBGC67",
+      "length": 2559
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10409017",
+      "timestamp": "20260728191525",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10409017",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "IEHOFF3XDKGXKBFVGKMZOGBW7OJLG6WJ",
+      "length": 2578
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10409235",
+      "timestamp": "20260514221147",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10409235",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6DJCY34A7JZ7BLZ4NRIUXFEXUP3JSAMS",
+      "length": 2599
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10410587",
+      "timestamp": "20260923080018",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10410587",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HXYPDD7GSG3V4GIKHXHRMPSQHEXDGKFG",
+      "length": 2684
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10410638",
+      "timestamp": "20260513060441",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10410638",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "EVZYLZ424RRLDEK2OQDZPO6DT5DCPV2T",
+      "length": 2454
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10411425",
+      "timestamp": "20260823011930",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10411425",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MDU3QALM2PQYD6PBCUBF3K6SAERQKGHY",
+      "length": 2720
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10411642",
+      "timestamp": "20260506225903",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10411642",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "5ZH24BNME7JKZZECV5SES4YLQPOF2FCF",
+      "length": 2571
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10412345",
@@ -36350,6 +38393,24 @@
       "length": 2628
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10414635",
+      "timestamp": "20260720202359",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10414635",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ECJXBAD67GMIS6JM6JAAVJMVF7O3JGCJ",
+      "length": 2533
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10414903",
+      "timestamp": "20260915152806",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10414903",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6WYLBHCXYTTUPODEYP2OBOUMMRABU3F5",
+      "length": 2632
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10415774",
       "timestamp": "20260522102156",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10415774",
@@ -36375,6 +38436,24 @@
       "statuscode": "200",
       "digest": "YIMM6SRPC2HAITXUUH5ZMGOMS4U7TKF4",
       "length": 2621
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10419240",
+      "timestamp": "20260914210237",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10419240",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "IC3LDXYNXIFCXRGMVU3SNTMC4MJXZ4RJ",
+      "length": 2633
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10419280",
+      "timestamp": "20260526232719",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10419280",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MKHB3K4CGPIABFZMBQNDSL72AEAHHJRQ",
+      "length": 2648
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10419994",
@@ -36404,6 +38483,33 @@
       "length": 2570
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10420615",
+      "timestamp": "20260817181502",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10420615",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "Q5V3JWLADEXO2I2DTMJGVCYIUKOWB3FK",
+      "length": 2601
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10420946",
+      "timestamp": "20260628195013",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10420946",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HFMLLWDWEBZCERIB6OOM24PA5PLT25B4",
+      "length": 2613
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10421820",
+      "timestamp": "20261010035959",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10421820",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SSTHWFNT4U3BHFYGAEQSQRQU3PJC5C5U",
+      "length": 2591
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10421839",
       "timestamp": "20260526224250",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10421839",
@@ -36431,6 +38537,24 @@
       "length": 2608
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10424277",
+      "timestamp": "20260918005013",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10424277",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "QGFD7CASJHUFCVJKZC36FOUOTYI653KT",
+      "length": 2664
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10425122",
+      "timestamp": "20261022160225",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10425122",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "F3GCKN5RAKXBEOS5TID6VZRG65ZN6IXJ",
+      "length": 2716
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10425505",
       "timestamp": "20260712203714",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10425505",
@@ -36449,6 +38573,15 @@
       "length": 2595
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10426196",
+      "timestamp": "20260907154028",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10426196",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K3UJRHHQQL6DAKE7S5ERIZO4Y7HGHWYA",
+      "length": 2565
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10426502",
       "timestamp": "20260703023114",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10426502",
@@ -36456,6 +38589,15 @@
       "statuscode": "200",
       "digest": "ZSXQPXHSB6JHT7FVV7LQPUNR4KWLT6WT",
       "length": 2636
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10426511",
+      "timestamp": "20260918142028",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10426511",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MWLUNOXIBFAQQUFFESE463W5LJPAK47X",
+      "length": 2548
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10426564",
@@ -36467,6 +38609,15 @@
       "length": 1569
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10428051",
+      "timestamp": "20261006121701",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10428051",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RGNLHTQ35HUQKAUTCULMWFSQ4PNV3VCB",
+      "length": 2422
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10428480",
       "timestamp": "20260717153450",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10428480",
@@ -36474,6 +38625,15 @@
       "statuscode": "200",
       "digest": "KFGLNVQIOG65BSM3RDJJFAGHZI7PSCT4",
       "length": 2592
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10429541",
+      "timestamp": "20260914095538",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10429541",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ZFKNWKAQSNAV5NG3JJARKHLQX7XLLBGW",
+      "length": 2579
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10430158",
@@ -36485,6 +38645,78 @@
       "length": 2674
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10430159",
+      "timestamp": "20260901090801",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10430159",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "7L4KNUOZUBBI6RWKWWPHQJTYOM24NQ4L",
+      "length": 2659
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10431835",
+      "timestamp": "20260831110912",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10431835",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VD5SUKNK6MX5STLP6IPCIY7UAOBPH42Z",
+      "length": 2642
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10432755",
+      "timestamp": "20260926162523",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10432755",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "36FTQ3JTNUPDX2UDN6XORB5YEKRBGUK4",
+      "length": 2601
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10433777",
+      "timestamp": "20260628194946",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10433777",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ESJ647XV4D4C5MCQOLGJFTEJIKALOOOW",
+      "length": 2640
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10433854",
+      "timestamp": "20260915054432",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10433854",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ZYB4H3CBI3XKPIBN35KOZOCX7H72Q7WW",
+      "length": 2717
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10434589",
+      "timestamp": "20260630150102",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10434589",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "2PG3N2J6UL63P5HMEU3MJ75S6UTFHE5R",
+      "length": 2703
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10441063",
+      "timestamp": "20260915155717",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10441063",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "WIIM3WFCUHPJ4XITNR7YBPFDDON4ZLPM",
+      "length": 2698
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10441512",
+      "timestamp": "20261010032921",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10441512",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "UUURCAVLF222ARLMVWPGSWN6EBDA6ENM",
+      "length": 2640
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10442028",
       "timestamp": "20260708223344",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10442028",
@@ -36492,6 +38724,15 @@
       "statuscode": "200",
       "digest": "HJU3JBK4WYGXKKNKEABL6KYPSAZKT4PC",
       "length": 2575
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10442290",
+      "timestamp": "20261010032955",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10442290",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "KQFJ7FUPM7LI4GEVZUB4IDEI7UOQIKZ5",
+      "length": 2603
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10443045",
@@ -36503,6 +38744,51 @@
       "length": 2707
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10444001",
+      "timestamp": "20260724034845",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10444001",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TQMMLENJI4YYTOIFEVOHLVTEUTW5Z236",
+      "length": 2653
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10444202",
+      "timestamp": "20260630041027",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10444202",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "23HN5BYQZGF4I2RYGHCU5AE6NAKHL45G",
+      "length": 2612
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10444730",
+      "timestamp": "20260901004428",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10444730",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FPG6IBG6AALF6PCZ3F3ZD7Y5DVAIKGZN",
+      "length": 2665
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10445237",
+      "timestamp": "20260621014827",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10445237",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "EO5XRXCLCFCHJCEKZWLOXLICCF35GB2U",
+      "length": 2587
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10445970",
+      "timestamp": "20260909222935",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10445970",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DCTFY7QSRBJO2R5KQNGQYEF7HZFEDUDX",
+      "length": 2681
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10446548",
       "timestamp": "20260716050157",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10446548",
@@ -36512,6 +38798,33 @@
       "length": 2619
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10448647",
+      "timestamp": "20260913174215",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10448647",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FZFUDGRGIYJNZKPCX6R7BJDP6X2WN52G",
+      "length": 2609
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10448704",
+      "timestamp": "20261015183841",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10448704",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ZDXSP4CVB5CMHTCXJXBXBB4NLGKAFSGM",
+      "length": 2641
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10449267",
+      "timestamp": "20260901005203",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10449267",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LVRRYJSB2PSFEVMIHZCS4S4OKJ7SYIUC",
+      "length": 2674
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10451002",
       "timestamp": "20260630150102",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10451002",
@@ -36519,6 +38832,15 @@
       "statuscode": "200",
       "digest": "KXANHR6DZ7WXL7QEEDCYXE5U6TGYYT6B",
       "length": 2602
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10451217",
+      "timestamp": "20260906170718",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10451217",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "M3WINHLK7FLLZ2U45MBXJTNR274753JE",
+      "length": 2569
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10451495",
@@ -36539,6 +38861,24 @@
       "length": 2732
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10453152",
+      "timestamp": "20261010035619",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10453152",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YMQZMAWIO5O2KU5FMROPX7YSKKAU366G",
+      "length": 2589
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10453655",
+      "timestamp": "20260622171105",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10453655",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TM76SDTNHLOZGO6EPFAXBJNMPXEBROJZ",
+      "length": 2535
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10453655",
       "timestamp": "20260712203527",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10453655",
@@ -36557,13 +38897,31 @@
       "length": 2598
     },
     {
-      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10455350",
-      "timestamp": "20260711034544",
-      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10455350",
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10453787",
+      "timestamp": "20260906180452",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10453787",
       "mimetype": "application/json",
       "statuscode": "200",
-      "digest": "JPN2ORNJRGW7YHPYFDQNOFHOAWYWOXI4",
-      "length": 2567
+      "digest": "5Z5TWARYQRWP2ORAAA4E7Q725XH6HRRJ",
+      "length": 2574
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10453790",
+      "timestamp": "20260720200452",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10453790",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "QZGSUNNJS5NJTAQIW5RB6AR6PDA6OPZM",
+      "length": 2531
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10456103",
+      "timestamp": "20260813080949",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10456103",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RVQP3YWLFEPFAHSFGYE7TJKTCQVMAKK2",
+      "length": 2726
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10456999",
@@ -36573,6 +38931,60 @@
       "statuscode": "200",
       "digest": "ZQ52I2E2OXKFFYKNWB6OGH6Z53BWQTHL",
       "length": 2670
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10458345",
+      "timestamp": "20260811201733",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10458345",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TGIYM5NCCYZGWXSRKL2XI5S2G7JZIC6Q",
+      "length": 2650
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10458564",
+      "timestamp": "20260629224931",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10458564",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RGVHL6HOY6J34NLIXZCRPI6CYY4ZQ5CR",
+      "length": 2672
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10458713",
+      "timestamp": "20260815181225",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10458713",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DJQ5X2SCOB7AGHOV6CVT72BALNU3VVPM",
+      "length": 2623
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10459133",
+      "timestamp": "20260629225003",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10459133",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "5BARPQ5SFGQYTJOZVLTTOLK7Y334RH32",
+      "length": 2557
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10459853",
+      "timestamp": "20260729023207",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10459853",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "T3H24VOJNSQV4Z42W7J5AJNXITQ3ICKB",
+      "length": 2764
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10460499",
+      "timestamp": "20260629224838",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10460499",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GVM5UF3LKB6ITL3BMRXAFJ222GLUSJLE",
+      "length": 2778
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10461328",
@@ -36593,6 +39005,15 @@
       "length": 1579
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10462071",
+      "timestamp": "20260921150852",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10462071",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RXQ5R6USQAJOKI4MOPVEUYQVTEWLMGGH",
+      "length": 2724
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10462664",
       "timestamp": "20260716045957",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10462664",
@@ -36600,6 +39021,861 @@
       "statuscode": "200",
       "digest": "2RFKRL3JDOSQLPNYUHH2LINAD5Z5NEWB",
       "length": 2587
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10463418",
+      "timestamp": "20260906170820",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10463418",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ZZXBRPDU6LCZJ2BH3W2EYZD7USSTGNSC",
+      "length": 2629
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10464178",
+      "timestamp": "20260706173403",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10464178",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "EKTKHJQ772NR5MQTA7E5GCT43UQQIWWS",
+      "length": 2636
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10464928",
+      "timestamp": "20260819003941",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10464928",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "BJGH2PXNQTNUE6TISQL2P7CAKDHIMCPB",
+      "length": 2637
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10465509",
+      "timestamp": "20260918133603",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10465509",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XWUVHNFP6OT7HQEGMB6CXZWPZDTOZWZ4",
+      "length": 2549
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10466157",
+      "timestamp": "20260731225614",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10466157",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GVAN6BBUJUO3SPR3EQOAY6XH7RCK3DVG",
+      "length": 2763
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10467304",
+      "timestamp": "20260923080002",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10467304",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "EATE7R6FURTMGU5X3SECNYIBMCFS7W4Y",
+      "length": 2566
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10468602",
+      "timestamp": "20260803155150",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10468602",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HZFDLRMICFYEHYMMHE6O6BP2QQLXAITY",
+      "length": 2510
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10468692",
+      "timestamp": "20260712202343",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10468692",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "JNJ5PRWPFDIHQJS7RZDVCT32PPK6WHNR",
+      "length": 2560
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10469429",
+      "timestamp": "20260901005128",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10469429",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "2DXVFC35TOXCWCK5LRTQJ5N7KPPFGGLS",
+      "length": 2639
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10470021",
+      "timestamp": "20261023032009",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10470021",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ESH352M6RM5F73HIDNI5CVHXKRUV3SRT",
+      "length": 2639
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10470169",
+      "timestamp": "20260716045755",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10470169",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6374BUW7JPCW6KG5AWM7RV5T7HWDNDQB",
+      "length": 2648
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10471127",
+      "timestamp": "20260909162105",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10471127",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FYGR7NEDBVHQ7XTQS7LGD452XDFMINTY",
+      "length": 2660
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10471620",
+      "timestamp": "20261022182343",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10471620",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "OD6745XGWBNUAMSVCW4GBSBLUJVA3EOO",
+      "length": 2626
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10471948",
+      "timestamp": "20260717153455",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10471948",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MKVOFUI2IBUW4LEXH2HUBW24F7VRVGTM",
+      "length": 2609
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10472127",
+      "timestamp": "20260803154956",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10472127",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "C4EW4YJYYNJJYORS5SCZN7SC2CNTKJM5",
+      "length": 2565
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10472920",
+      "timestamp": "20260901005113",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10472920",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LWUYIXQRY3R7M26TR5X6ZRADTTCNQDNA",
+      "length": 2625
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10473111",
+      "timestamp": "20260716045940",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10473111",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "AJTOSG75FK5X64JRU7ABCID7WQNULCF7",
+      "length": 2439
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10475344",
+      "timestamp": "20260916122411",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10475344",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VKVYB6UIWZSHVPNE3BJ2ZGZJCF3S6YKE",
+      "length": 2673
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10478315",
+      "timestamp": "20260721043745",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10478315",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XWBUBOUNIOUQQRE6WIU5HUNRQ3NOFERS",
+      "length": 2563
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10480012",
+      "timestamp": "20260918004155",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10480012",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ZPLXVU5MLJ4MY6MALWTN2DZKFRFWKOK5",
+      "length": 2699
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10480216",
+      "timestamp": "20260802002232",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10480216",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DXSF2BZZ5TJIILH3NTP2QF5YWDAE6UHB",
+      "length": 2664
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10481072",
+      "timestamp": "20260921005452",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10481072",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "Q2LCJTQFRCASMCEUS2IKVQAMNL5HRZ25",
+      "length": 2722
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10481172",
+      "timestamp": "20261005194722",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10481172",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TSA5PXM33TSKWKBB3BQKMQVEGMTTQRKK",
+      "length": 2714
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10481275",
+      "timestamp": "20260913174154",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10481275",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FE5X4BXJG4J6JUVPYM6LQTIONDALHAVL",
+      "length": 2606
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10482591",
+      "timestamp": "20261022231646",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10482591",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GWXO6BN2HU3PXH24HK3Y5BNXN7KU5EAR",
+      "length": 2609
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10482735",
+      "timestamp": "20260819004010",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10482735",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "V4VURH43QRTXFW2DRWYRUAUNDJWXXPLZ",
+      "length": 2634
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10483262",
+      "timestamp": "20260921150851",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10483262",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LMLV7757ZJ3VV4OETACRQFU2NVA24NZX",
+      "length": 2703
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10483630",
+      "timestamp": "20260818201801",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10483630",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RSQFUVJQC3M6KWMJW4AQQLVOSSFF2D4R",
+      "length": 2630
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10483965",
+      "timestamp": "20260909164915",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10483965",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "KRN7TMQJBRSVUWJAVKHGMYTHB72WZJIV",
+      "length": 2710
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10484028",
+      "timestamp": "20260731171144",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10484028",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YE3C3IRLURWQOQCPNBJKUR6EVNHTJIGD",
+      "length": 2635
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10484028",
+      "timestamp": "20260801032820",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10484028",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TR64BGJP42YYLUTF36G7WXXRSBFW6EO7",
+      "length": 2647
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10484850",
+      "timestamp": "20261010035448",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10484850",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SF4DVTVV6V6LYVFRNA5QTYFYQYS56ADV",
+      "length": 2647
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10485603",
+      "timestamp": "20260819004113",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10485603",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "43EF54TTC27X6POM7EGJBAUUOFK7QE3B",
+      "length": 2546
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10485636",
+      "timestamp": "20260922055259",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10485636",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "OWEPK6JF3LB5I5QNBEBIPRH3XPAPXQUH",
+      "length": 2699
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10486789",
+      "timestamp": "20261027061516",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10486789",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "A55BVNCJLZOIT67YOWQGOC2PSLHSOT6T",
+      "length": 2626
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10487350",
+      "timestamp": "20260918141447",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10487350",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "JQZIBJS5GGDJ3PELW6XSCRJV5VM2UFQE",
+      "length": 2703
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10488615",
+      "timestamp": "20261007214156",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10488615",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YSUAS5BQRVLCSXNGBXG5UDSKUND66GV6",
+      "length": 2570
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10488974",
+      "timestamp": "20260807040715",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10488974",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "AJ62XZ7F6LUPJ5X6HQOEEWJ3EZ2UTQ3N",
+      "length": 1576
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10489049",
+      "timestamp": "20261022155840",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10489049",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DUHFNLEW7NMHPRGJMU5YG7RHO7GAASH6",
+      "length": 2721
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10489698",
+      "timestamp": "20260901113437",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10489698",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "IWNL3ZSM3V7WUVCD3T5BPD244G7W7FXW",
+      "length": 2705
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10490998",
+      "timestamp": "20261010033254",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10490998",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4VXPOSZHBYL4COBJ5RDF3VHUA4IDRVO3",
+      "length": 2556
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10491075",
+      "timestamp": "20260819224744",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10491075",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "DFRX6ERNXDZYT3LLAWECXYLWYXK5RMLX",
+      "length": 2609
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10491603",
+      "timestamp": "20260914081211",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10491603",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "H554DQJOUPF3AYKVR7TQW4FAXG3SIO4I",
+      "length": 2600
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10491882",
+      "timestamp": "20261023152646",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10491882",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "AHTLLZZ5AEDHTNQVEBAWF7DHLTUCOBNS",
+      "length": 2512
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10491883",
+      "timestamp": "20260808013740",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10491883",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4B2FTQKTWECOPD2GRSCDAB5MCLJBCE7G",
+      "length": 2688
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10492631",
+      "timestamp": "20260918004126",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10492631",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "3WJNBCMZKQ46TQVRCGYJNXRNO6QSVQJF",
+      "length": 2637
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10493056",
+      "timestamp": "20260819004148",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10493056",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "UOOYCMEHP3CBX2ZSJWHJBJERMSLZ6JXL",
+      "length": 2586
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10493433",
+      "timestamp": "20260909031306",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10493433",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "F56YG5AF7PU5ANCEGGRPPNL5NAP45HXW",
+      "length": 2518
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10493728",
+      "timestamp": "20261010033112",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10493728",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4T5WC3XCICFYPB2PIBYLTFGQBR3OI5QA",
+      "length": 2573
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10493835",
+      "timestamp": "20260812022521",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10493835",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "J6F2EGHQJJ5PEFCQONLUCHX7A6VEAI2L",
+      "length": 2540
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10496275",
+      "timestamp": "20260901092253",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10496275",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K6AQYV7ASTWA2RJTNKSJYJK2QTH3JU47",
+      "length": 2584
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10498850",
+      "timestamp": "20261023034533",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10498850",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "OE5E2VE3XSUPEI2LBBHSU6MF3BHFIVGC",
+      "length": 2607
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10499096",
+      "timestamp": "20260916121219",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10499096",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XKXJEBBMO53T2KXZNVLPRFSO6CKR5SQ5",
+      "length": 2747
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10499148",
+      "timestamp": "20261010034752",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10499148",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RF5OVSV324Q23GSY34377P4OF2VS22EC",
+      "length": 2567
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10499406",
+      "timestamp": "20260812042818",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10499406",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "464ANSIKJGXPK2FJPMTK742XPO2QTOT5",
+      "length": 1571
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10500641",
+      "timestamp": "20260913175041",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10500641",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VZLCKAXPHHINQXADFOLCDUPVR6GTJRT5",
+      "length": 2591
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10501147",
+      "timestamp": "20260815180437",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10501147",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "J4AFHFCPQTSWOFYRJ33RGMB5ZJV6YJIW",
+      "length": 2595
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10503210",
+      "timestamp": "20261010034655",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10503210",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "3BLXNJPBZGQVNVQICXENFRBG7F6G35HT",
+      "length": 2647
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10503316",
+      "timestamp": "20260901004935",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10503316",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "PDB3ADTYPPXSB3377IPPPPIDXX7NRCHT",
+      "length": 2672
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10505436",
+      "timestamp": "20261022070922",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10505436",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RP7YPFRRBYFDXYDLMLW6RCUB2KSKVS32",
+      "length": 2550
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10509156",
+      "timestamp": "20260908063443",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10509156",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "5KOBOVR7O3C6EASNHKYWYUCEZWZQQILX",
+      "length": 2595
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10509639",
+      "timestamp": "20260821161556",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10509639",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "KRYYINH4NLWAGVM6HBTTX5VMYB5LGTII",
+      "length": 2694
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10509686",
+      "timestamp": "20261010033416",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10509686",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FBOM4QODX2CCXFH4P4JWMWX3LOY52MRO",
+      "length": 2543
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10510005",
+      "timestamp": "20260916122416",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10510005",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VIQ45P5QQWX7MXQNQHPTTO6IZ4GHNDFJ",
+      "length": 2615
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10510882",
+      "timestamp": "20261020060550",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10510882",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GITPONAN65H3GBCZ5C56M655W3ODDDLI",
+      "length": 2621
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10511494",
+      "timestamp": "20260909162100",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10511494",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ABP7E2SRMQ7M4OI7LAXLB7HJSRJEFQ6N",
+      "length": 2727
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10512092",
+      "timestamp": "20260831110848",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10512092",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "KOP42S5OIPQPQ4M5TGRSAZDOMCBEU7UB",
+      "length": 2557
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10512092",
+      "timestamp": "20260901073621",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10512092",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FSM7RZ4VJZVDRM3EUX546OSH2EZLZL2W",
+      "length": 2521
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10513151",
+      "timestamp": "20260825145538",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10513151",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K7OH5UACBYTMHMKVXRDTDY53656675YF",
+      "length": 2612
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10513643",
+      "timestamp": "20260901115611",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10513643",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "RNXJS3XM74PBAZW7TKUMV2CDOTR2Y4XC",
+      "length": 2670
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10514036",
+      "timestamp": "20261010034724",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10514036",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "ILZPL6I2IB7RAB3GVIA7XA6JYZE6EIDE",
+      "length": 2541
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10516119",
+      "timestamp": "20260908062914",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10516119",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6DMO6N7IXF67DXGVY44ED6BG5K2NIZZK",
+      "length": 2554
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10517550",
+      "timestamp": "20261004151558",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10517550",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "63XT7ELTPUKEL7XGQZ6VMEVLRNGEQNNF",
+      "length": 2728
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10518025",
+      "timestamp": "20260922163423",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10518025",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "UA76A4GPQGBXEFGQ2X6KCNLF6XHZO36W",
+      "length": 2616
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10521207",
+      "timestamp": "20260831052925",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10521207",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "G3GNHMONYIMLZ27ZVW5O4JLPXZBVAJRP",
+      "length": 1574
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10521829",
+      "timestamp": "20260918142009",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10521829",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "2RTM4I3B526JNLGISQUVFBQDNGNGXU7L",
+      "length": 2455
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10522925",
+      "timestamp": "20261010034027",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10522925",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "UHN2WMRLD73QNPJ6VAP3JNR22EFAHRHK",
+      "length": 2605
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10524242",
+      "timestamp": "20260918133141",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10524242",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GXU4RJLDWPKI73BBFTK42POTQFPMQ5HX",
+      "length": 2672
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10524262",
+      "timestamp": "20261006221908",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10524262",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "5WXRJT6RZLD42U2FPNQVBY3TPGCS5I62",
+      "length": 2587
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10525042",
+      "timestamp": "20260924234917",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10525042",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TYUG3L4LAEY4IBZEVZOYXHHMPDMAHVRX",
+      "length": 2573
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10526514",
+      "timestamp": "20261006215652",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10526514",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "IG2THS7Z44MYGHDXXEWY33Q6KCO7PGZS",
+      "length": 2708
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10529525",
+      "timestamp": "20260907064830",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10529525",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "NCFUWSRSM77F2ETMDYL6M3RB2UOR57LW",
+      "length": 2532
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10529794",
+      "timestamp": "20261006124327",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10529794",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "4LVR3MIPC7N24GGPEHR7EXIWTQIHNWHG",
+      "length": 2526
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10529858",
+      "timestamp": "20260905185930",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10529858",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SSZQ6W56LORJETVVUH2JUWB6KSRBQ5AJ",
+      "length": 2631
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10535239",
+      "timestamp": "20261020195317",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10535239",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SJG6JYDIIZBDMM4ZGLTEPKVJVEBBWXKC",
+      "length": 2680
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10535281",
+      "timestamp": "20260910225435",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10535281",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SW4TYQKUZYC2NZ7YKLQWNQZEFUURLLLX",
+      "length": 2620
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10543896",
+      "timestamp": "20261006062519",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10543896",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "F4FS6L57BZBMP6UWJXX4ARZNMWSEF2HN",
+      "length": 2609
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10551350",
+      "timestamp": "20260918133129",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10551350",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K5AV46GHYX3HQ5LTOJDT3DMPLBZCGHBL",
+      "length": 2742
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10551654",
+      "timestamp": "20261002091526",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10551654",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6F7FPJTWA2IPP5P6WF5MLBKJGR3LS4K2",
+      "length": 2472
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10552130",
+      "timestamp": "20260928122358",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=10552130",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "65Z3O43EVBIA2LCTUDCISJGR2XHL6OGL",
+      "length": 2660
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10553505",
+      "timestamp": "20261010035335",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10553505",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XB3UXHQDLMMMOYBCVPX4TDKYT6MIPSIS",
+      "length": 2698
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10556824",
+      "timestamp": "20260923060842",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10556824",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FGJDPMH32W6TT7HJ3KSNFBKBWHMBWSLI",
+      "length": 1574
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10557783",
+      "timestamp": "20261023022151",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10557783",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "XHBJB7UGI27E72Q3OYPMVRWLRX4KUGNK",
+      "length": 2663
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10569747",
+      "timestamp": "20261101084147",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10569747",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LHIX2W3BPLCH5QOTJBAS3XLBVM4543TU",
+      "length": 2595
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=10570299",
+      "timestamp": "20261010035918",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=10570299",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HHIGLEX4LB7ED3F2SHGALP3NJMG3YRYT",
+      "length": 2806
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=1101264",
@@ -51191,6 +54467,15 @@
       "length": 2644
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=2831138",
+      "timestamp": "20250220022136",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=2831138",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "663STUIXHO273HUAI6IO5PMF7CS5HO4O",
+      "length": 2491
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=2831226",
       "timestamp": "20250122224822",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=2831226",
@@ -52740,12 +56025,12 @@
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=2873428",
-      "timestamp": "20250215195733",
+      "timestamp": "20250204123527",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=2873428",
       "mimetype": "application/json",
       "statuscode": "200",
-      "digest": "OAEUJPLK7BSZEFBEZDWZHHHWQ6SSBW2S",
-      "length": 2706
+      "digest": "L7RFBRLZNKXQVAWN6N5PMSLVHQVNN7ZT",
+      "length": 2620
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=2873469",
@@ -58733,6 +62018,24 @@
       "length": 2805
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3065229",
+      "timestamp": "20260720202341",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3065229",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "L6SV564L3OJ4VM6IUQEC6HKNRVT5NLI6",
+      "length": 2601
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3065232",
+      "timestamp": "20250829090034",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3065232",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "32JPMCI5DRFQFNAFI4TUTUQ4I3Z3QDG3",
+      "length": 2615
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3065325",
       "timestamp": "20250918052125",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3065325",
@@ -59786,6 +63089,24 @@
       "length": 2494
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3104589",
+      "timestamp": "20260914211408",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3104589",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "R6Z6SKVJSDLXPTUBGNMO34DAUXRSYKHY",
+      "length": 2568
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3104684",
+      "timestamp": "20251009073302",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3104684",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "V2TMHKGSIBUTYYF2XQ7JIAQCMR22U2VT",
+      "length": 1564
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3105056",
       "timestamp": "20251102135104",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3105056",
@@ -60164,6 +63485,24 @@
       "length": 2705
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3130362",
+      "timestamp": "20260913174251",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3130362",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "VW6MUBVBRMLW6VFNCILUEN2OIEUHQ7UK",
+      "length": 2600
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3131218",
+      "timestamp": "20260115211839",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3131218",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "63CJ7IXEJ5I4QJIR4QLU3IPD4QSGIFVG",
+      "length": 2699
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3131439",
       "timestamp": "20251125093107",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3131439",
@@ -60252,6 +63591,15 @@
       "statuscode": "200",
       "digest": "XFY4JBLONMU5BYA5OCNRTBLTCCBDL5VJ",
       "length": 2475
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3134253",
+      "timestamp": "20261006124307",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3134253",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "TIEMLDLW3LMOH5YQLCJENGLAHYZDIXDG",
+      "length": 2622
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3135965",
@@ -60362,6 +63710,15 @@
       "length": 2513
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3141336",
+      "timestamp": "20261002060750",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3141336",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "FFMSKLRJ3Q7BBMR4ATGSISJ72KAQV6KX",
+      "length": 2554
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3141517",
       "timestamp": "20260115211216",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3141517",
@@ -60459,6 +63816,15 @@
       "statuscode": "200",
       "digest": "SORDUGYUN7Z5NXVMVKWYPMIYRZYWKXU4",
       "length": 2678
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3145839",
+      "timestamp": "20260819224252",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3145839",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YWIBNXEFWLT5KVEFMRS7QKTNBZ4ZE2XR",
+      "length": 2666
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3145977",
@@ -60857,6 +64223,15 @@
       "length": 2686
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175274",
+      "timestamp": "20260824085456",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175274",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "MDIX52DR66M4RCB2GAXSZISZGGMY3K4C",
+      "length": 2634
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175825",
       "timestamp": "20260210175331",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175825",
@@ -60875,6 +64250,33 @@
       "length": 2637
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175845",
+      "timestamp": "20260720202405",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175845",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "BBBE5MLK5GIT6FYGJQENRBTT6ASQW3EI",
+      "length": 2637
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175845",
+      "timestamp": "20261006121630",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175845",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "U44T4CGC4SHNMSFME6SHMIMXRTNTGACY",
+      "length": 2528
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175965",
+      "timestamp": "20260504112717",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175965",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K3K7OZ2LJYOAVYG2V2AAAKYJN4F4EGWN",
+      "length": 2655
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3175992",
       "timestamp": "20260417092142",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3175992",
@@ -60891,6 +64293,24 @@
       "statuscode": "200",
       "digest": "6JYG4BVV3S7HBNB3DUNKEGXNZKX7II5S",
       "length": 2575
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3176565",
+      "timestamp": "20260729223549",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3176565",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "5SCHTP2KV64UDNATLRXEGUEN5N4TZK3Z",
+      "length": 2574
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3176569",
+      "timestamp": "20260210005720",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3176569",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HNAELZOQ7QNIVSACQ3NM66KSE44JPGR7",
+      "length": 2946
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3176585",
@@ -61028,6 +64448,15 @@
       "length": 2599
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3185829",
+      "timestamp": "20260918150938",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3185829",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "K5WADSNPNOIDUYRTCF2D46CPGN4BJIVE",
+      "length": 2485
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3186197",
       "timestamp": "20260702010934",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3186197",
@@ -61109,6 +64538,15 @@
       "length": 2634
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3193613",
+      "timestamp": "20261005170529",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3193613",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "YT5CG3WDCVOL4IPGK4FI7CDSEAXMKQTK",
+      "length": 2687
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3193925",
       "timestamp": "20260306183410",
       "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3193925",
@@ -61134,6 +64572,15 @@
       "statuscode": "200",
       "digest": "7NCF4MHG4CB5XWLGDJYR6OYD5Z3GNAXL",
       "length": 2746
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3196353",
+      "timestamp": "20260730145037",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3196353",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GH5GBAE6YWHDXJ4NRJEXUMTUUS45DGMY",
+      "length": 2695
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3196444",
@@ -61163,6 +64610,33 @@
       "length": 1578
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3198332",
+      "timestamp": "20260913173451",
+      "original": "https://amazon.jobs/api/v1/recommendations/jobs?job_id=3198332",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "JVYYBETIYLBFBC7LLIFMYXY65UZ65VNH",
+      "length": 2638
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3199415",
+      "timestamp": "20260819004220",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3199415",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "HOMO7TUWY7NISVZNLW75ZV555E4Z6BGP",
+      "length": 2536
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3199693",
+      "timestamp": "20260415183336",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3199693",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "LFGW4QTHMF35N2EJ4Q5AFUCFCBBM77BX",
+      "length": 2628
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3200335",
       "timestamp": "20260325000106",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3200335",
@@ -61170,6 +64644,24 @@
       "statuscode": "200",
       "digest": "GQAMKZFA4BD7IBGHT66XUWU3METMFXAR",
       "length": 2541
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3200752",
+      "timestamp": "20260720200518",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3200752",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "6CBP5HLTWNMR4SF5Q4FLFMU77ECTZRZF",
+      "length": 2542
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3202392",
+      "timestamp": "20260331032901",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3202392",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "D2THXKKYTKXBBBAXQP6B4J2WQDIM7YCW",
+      "length": 2673
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3202447",
@@ -61181,6 +64673,15 @@
       "length": 2575
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3203123",
+      "timestamp": "20260922053757",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3203123",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "I5H6ONUH2ZOQ6M5ZTHQ6PDQKRZESDUUJ",
+      "length": 2648
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3204310",
       "timestamp": "20260628194634",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3204310",
@@ -61190,6 +64691,15 @@
       "length": 2582
     },
     {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3204846",
+      "timestamp": "20260820060114",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3204846",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "GMUEO5CEFXPHWFCQTJTDIVXMV6TYALFU",
+      "length": 2653
+    },
+    {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3205695",
       "timestamp": "20260408221146",
       "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3205695",
@@ -61197,6 +64707,15 @@
       "statuscode": "200",
       "digest": "V3TSQPL32273G2L62272WBFGV3QFJNH6",
       "length": 2547
+    },
+    {
+      "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=3206791",
+      "timestamp": "20260720200313",
+      "original": "https://www.amazon.jobs/api/v1/recommendations/jobs?job_id=3206791",
+      "mimetype": "application/json",
+      "statuscode": "200",
+      "digest": "SKCNEUAK4Q37E6QIY5AVPCKAVPK7GK4A",
+      "length": 2454
     },
     {
       "urlkey": "jobs,amazon)/api/v1/recommendations/jobs?job_id=4157",

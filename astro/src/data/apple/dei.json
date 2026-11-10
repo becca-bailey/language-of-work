@@ -792,15 +792,15 @@
     {
       "year": 2018,
       "inclusionTopkMean": 0.5841,
-      "inclusionMean": 0.4247,
+      "inclusionMean": 0.4239,
       "inclusionMax": 0.6559,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 21,
+      "nChunks": 22,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 4,
-        "structural_process": 3,
+        "structural_process": 4,
         "aspirational_vague": 4,
         "belonging_culture": 0,
         "absent": 10,
@@ -1040,10 +1040,10 @@
     {
       "year": 2022,
       "inclusionTopkMean": 0.712,
-      "inclusionMean": 0.5033,
+      "inclusionMean": 0.5052,
       "inclusionMax": 0.7513,
-      "inclusionFractionPresent": 0.9877,
-      "nChunks": 81,
+      "inclusionFractionPresent": 0.9875,
+      "nChunks": 80,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -1051,7 +1051,7 @@
         "structural_process": 22,
         "aspirational_vague": 19,
         "belonging_culture": 4,
-        "absent": 22,
+        "absent": 21,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -1102,10 +1102,10 @@
     {
       "year": 2023,
       "inclusionTopkMean": 0.6976,
-      "inclusionMean": 0.4873,
+      "inclusionMean": 0.4891,
       "inclusionMax": 0.7513,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 75,
+      "nChunks": 74,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -1113,7 +1113,7 @@
         "structural_process": 14,
         "aspirational_vague": 9,
         "belonging_culture": 6,
-        "absent": 24,
+        "absent": 23,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -1164,17 +1164,17 @@
     {
       "year": 2024,
       "inclusionTopkMean": 0.6414,
-      "inclusionMean": 0.4592,
+      "inclusionMean": 0.4627,
       "inclusionMax": 0.7513,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 38,
+      "nChunks": 37,
       "kUsed": 5,
       "thin": false,
       "registers": {
         "explicit_demographic": 8,
         "structural_process": 3,
         "aspirational_vague": 4,
-        "belonging_culture": 3,
+        "belonging_culture": 2,
         "absent": 20,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
@@ -1414,6 +1414,13 @@
         "example": "We have several ongoing and upcoming initiatives to help break down systemic barriers and bias in R&D and beyond."
       },
       {
+        "term": "representation",
+        "first_year": 2018,
+        "last_year": 2025,
+        "max_score": 0.763,
+        "example": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level."
+      },
+      {
         "term": "lgbtq",
         "first_year": 2018,
         "last_year": 2025,
@@ -1426,13 +1433,6 @@
         "last_year": 2026,
         "max_score": 0.6106,
         "example": "We champion pay equity for employees in similar roles, in similar markets, and with similar performance — in every single country where we operate."
-      },
-      {
-        "term": "representation",
-        "first_year": 2018,
-        "last_year": 2025,
-        "max_score": 0.763,
-        "example": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level."
       },
       {
         "term": "accessibility",
@@ -3379,6 +3379,12 @@
         "score": 0.5427
       },
       {
+        "id": "06fdbd955c3a",
+        "year": 2018,
+        "text": "We believe the information we report elsewhere on this site is a far more accurate reflection of our progress toward diversity.",
+        "score": 0.5393
+      },
+      {
         "id": "9202a7587b41",
         "year": 2018,
         "text": "We’ve achieved pay equity in every country where we operate when you factor in similar roles, markets and performance.",
@@ -3505,6 +3511,12 @@
         "score": 0.413
       },
       {
+        "id": "8cd91ad3e8ec",
+        "year": 2018,
+        "text": "Because the majority of our previously undeclared employees identified as White, the decrease had no impact on the representation rates for any other group.",
+        "score": 0.4119
+      },
+      {
         "id": "5e324b2b4a21",
         "year": 2018,
         "text": "In the United States, underrepresented minorities earn one dollar for every dollar white employees earn.",
@@ -3539,6 +3551,12 @@
         "year": 2018,
         "text": "The people here at Apple don’t just create products — they create the kind of wonder that’s revolutionized entire industries.",
         "score": 0.377
+      },
+      {
+        "id": "c3c5372eaf16",
+        "year": 2018,
+        "text": "The population of employees whose race or ethnicity was undeclared decreased from 6 percent in 2015 to less than 1 percent in 2016 and continues to remain below 1 percent in 2017.",
+        "score": 0.3726
       },
       {
         "id": "d29bfe34256b",
@@ -3589,6 +3607,12 @@
         "score": 0.3568
       },
       {
+        "id": "07c66fe72ba3",
+        "year": 2018,
+        "text": "The population of employees whose race or ethnicity is undeclared this year is less than 1 percent.",
+        "score": 0.352
+      },
+      {
         "id": "cc415fc8ff57",
         "year": 2018,
         "text": "Through our partnership with Historically Black Colleges and Universities, we welcomed our second class of Thurgood Marshall College Fund scholars to Apple in summer 2017.",
@@ -3631,6 +3655,12 @@
         "score": 0.3279
       },
       {
+        "id": "1833d2036887",
+        "year": 2018,
+        "text": "This decrease comes as the result of stronger internal processes and employees properly identifying themselves.",
+        "score": 0.3157
+      },
+      {
         "id": "38186acdb8ed",
         "year": 2018,
         "text": "From your own home, you’ll be their human connection to Apple: friendly, thoughtful, and real.",
@@ -3661,10 +3691,22 @@
         "score": 0.3048
       },
       {
+        "id": "0aae21ca0fb1",
+        "year": 2018,
+        "text": "We make the document publicly available, but it’s not how we measure our progress.",
+        "score": 0.3039
+      },
+      {
         "id": "d13628aca6ea",
         "year": 2018,
         "text": "That’s why we’ve created free curricula for students from kindergarten through college.",
         "score": 0.3031
+      },
+      {
+        "id": "be2ba881a015",
+        "year": 2018,
+        "text": "This decrease came as a result of stronger internal processes and employees properly identifying themselves.",
+        "score": 0.3018
       },
       {
         "id": "897bacd70106",
@@ -5995,12 +6037,6 @@
         "score": 0.4144
       },
       {
-        "id": "fe08c0788887",
-        "year": 2022,
-        "text": "They know our products inside and out — and make sure everyone feels welcome.",
-        "score": 0.4133
-      },
-      {
         "id": "b715737fa1a2",
         "year": 2022,
         "text": "Starting with a $100 million commitment, our Racial Equity and Justice Initiative (REJI) focuses on three key areas to create lasting change: expanding access to education, advocating for criminal justice reform, and removing barriers for Black and Brown entrepreneurs.",
@@ -6071,12 +6107,6 @@
         "year": 2022,
         "text": "We have about 160,000 talented employees across the world.",
         "score": 0.3979
-      },
-      {
-        "id": "b9e683f465a7",
-        "year": 2022,
-        "text": "Across the globe, our Apple Store team members are building strong connections to the communities they serve.",
-        "score": 0.3963
       },
       {
         "id": "ccaef3178f03",
@@ -7303,12 +7333,6 @@
         "score": 0.4126
       },
       {
-        "id": "d558f5148163",
-        "year": 2023,
-        "text": "They know our products and services inside and out — and aim to make everyone feel welcome.",
-        "score": 0.41
-      },
-      {
         "id": "3b5cd8124e32",
         "year": 2023,
         "text": "Apple deeply respects that gender is not binary.",
@@ -7439,12 +7463,6 @@
         "year": 2023,
         "text": "Cross-team communication and collaboration rallied our teams so we could fast-track the LiDAR Scanner prototype to create what is now our People Detection feature.",
         "score": 0.3711
-      },
-      {
-        "id": "81cc721c7809",
-        "year": 2023,
-        "text": "Across the globe, our Apple Store team members are committed to caring for each other and customers as well as building strong connections to the communities they serve.",
-        "score": 0.3702
       },
       {
         "id": "86dbaa44d870",
@@ -8477,12 +8495,6 @@
         "year": 2024,
         "text": "It’s important that our audiences can relate deeply to the characters and their lives.",
         "score": 0.3319
-      },
-      {
-        "id": "1f7ef0e66d35",
-        "year": 2024,
-        "text": "SignTime has already made a difference in how the team connects — both with each other and with customers. “After SignTime was released, I felt a stronger sense of belonging because it bridged the communication gap that previously existed,” says Ricky Winarta, Apple Carnegie Library. “This made it easier to build relationships, removed any unnecessary barriers when typing back and forth with customers and coworkers, and made the customer’s experience better.”",
-        "score": 0.3309
       },
       {
         "id": "bd28ffb0eb32",
@@ -10009,6 +10021,13 @@
           "example": "We have several ongoing and upcoming initiatives to help break down systemic barriers and bias in R&D and beyond."
         },
         {
+          "term": "representation",
+          "first_year": 2018,
+          "last_year": 2025,
+          "max_score": 0.763,
+          "example": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level."
+        },
+        {
           "term": "lgbtq",
           "first_year": 2018,
           "last_year": 2025,
@@ -10021,13 +10040,6 @@
           "last_year": 2026,
           "max_score": 0.6106,
           "example": "We champion pay equity for employees in similar roles, in similar markets, and with similar performance — in every single country where we operate."
-        },
-        {
-          "term": "representation",
-          "first_year": 2018,
-          "last_year": 2025,
-          "max_score": 0.763,
-          "example": "We’re continuing to create a culture of inclusion, increasing representation across teams, and holding ourselves accountable at every level."
         },
         {
           "term": "accessibility",

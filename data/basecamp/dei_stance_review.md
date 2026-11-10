@@ -35,7 +35,7 @@
 - neutral: 33
 
 ## 2020
-- neutral: 40
+- neutral: 39
 
 ## 2021
 - neutral: 57
@@ -53,7 +53,7 @@
 - mission_focus_apolitical: 1
 
 ## 2025
-- neutral: 37
+- neutral: 36
 - mission_focus_apolitical: 1
 
 ## 2026

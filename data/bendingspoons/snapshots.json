@@ -6,14 +6,109 @@
       "original": "https://bendingspoons.com/careers",
       "digest": "9dfb25876348edcb082424b1",
       "html_file": "20261106120000_9dfb25876348edcb082424b1.html",
-      "source": "live"
+      "source": "live",
+      "coverage": {
+        "chunk_count": 5,
+        "dom_words": 299,
+        "trafilatura_words": 420,
+        "dom_to_trafilatura_ratio": 0.71
+      },
+      "thin": false
     },
     {
       "timestamp": "20261106120000",
       "original": "https://jobs.bendingspoons.com/faq",
       "digest": "9678bd2c13c018f9e3b2b4f1",
       "html_file": "20261106120000_9678bd2c13c018f9e3b2b4f1.html",
-      "source": "live"
+      "source": "live",
+      "coverage": {
+        "chunk_count": 0,
+        "dom_words": 0,
+        "trafilatura_words": 1559,
+        "dom_to_trafilatura_ratio": 0.0
+      },
+      "thin": true
+    },
+    {
+      "urlkey": "com,bendingspoons)/careers",
+      "timestamp": "20260829021217",
+      "original": "https://bendingspoons.com/careers",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "5S6TAOSWJOJGX3FAFJ3UCRAVUKZ6MBV6",
+      "length": 18129,
+      "html_file": "20260829021217_c64a9967f083.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 5,
+        "dom_words": 299,
+        "trafilatura_words": 420,
+        "dom_to_trafilatura_ratio": 0.71
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,bendingspoons)/careers",
+      "timestamp": "20260910140144",
+      "original": "https://bendingspoons.com/careers",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "T7Y3KKBCW7FHASPVFK3WLIAP2MNDNFOX",
+      "length": 18591,
+      "html_file": "20260910140144_c64a9967f083.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 5,
+        "dom_words": 299,
+        "trafilatura_words": 420,
+        "dom_to_trafilatura_ratio": 0.71
+      },
+      "thin": false
+    },
+    {
+      "urlkey": "com,bendingspoons)/careers",
+      "timestamp": "20261005235030",
+      "original": "https://bendingspoons.com/careers",
+      "mimetype": "text/html",
+      "statuscode": "200",
+      "digest": "ODAIZO7PJTTCDDVUZMLI7QV45COCBXJG",
+      "length": 13989,
+      "html_file": "20261005235030_c64a9967f083.html",
+      "source": "pattern_fetch",
+      "coverage": {
+        "chunk_count": 5,
+        "dom_words": 299,
+        "trafilatura_words": 420,
+        "dom_to_trafilatura_ratio": 0.71
+      },
+      "thin": false
     }
-  ]
+  ],
+  "json_candidates": [],
+  "digest_timeline": {
+    "IFUYZI2TX6Y4JRKUFDZZ6JWVYC4CE4V7": [
+      "20260818213427"
+    ],
+    "5S6TAOSWJOJGX3FAFJ3UCRAVUKZ6MBV6": [
+      "20260829021217",
+      "20260829021217",
+      "20260829021217"
+    ],
+    "5QNFZ4XKJFRERT4NZ3MRBP2XCASUN2BM": [
+      "20260902072604"
+    ],
+    "T7Y3KKBCW7FHASPVFK3WLIAP2MNDNFOX": [
+      "20260910140144",
+      "20260910140144",
+      "20260910140144"
+    ],
+    "4VHCVVYMKIRULBHY7KNNKRB23VWJLDEH": [
+      "20261002072621"
+    ],
+    "ODAIZO7PJTTCDDVUZMLI7QV45COCBXJG": [
+      "20261005235030",
+      "20261005235030",
+      "20261005235030"
+    ]
+  }
 }

@@ -629,11 +629,11 @@
     },
     {
       "year": 2017,
-      "inclusionTopkMean": 0.4089,
-      "inclusionMean": 0.3051,
+      "inclusionTopkMean": 0.4041,
+      "inclusionMean": 0.3031,
       "inclusionMax": 0.5887,
-      "inclusionFractionPresent": 0.6364,
-      "nChunks": 11,
+      "inclusionFractionPresent": 0.6,
+      "nChunks": 10,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -641,11 +641,11 @@
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 0,
-        "absent": 9,
+        "absent": 8,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.0399,
+      "controlTopkMean": 0.0302,
       "inclusionQuotes": [
         {
           "text": "At the heart of our business, we seek to inspire and nurture the human spirit - understanding that each person brings a distinct life experience to the table. Our partners are diverse not only in gender, race, ethnicity, sexual orientation, disability, religion and age, but also in cultural backgrounds, life experiences, thoughts and ideas. Embracing diversity only enhances our work culture, it al",
@@ -680,12 +680,12 @@
           "score": 0.3618
         },
         {
-          "text": "Being a Starbucks partner means having the opportunity to be something more than an employee (#tobeapartner). Gigantic possibilities lie ahead—to grow as a person, in your career and in your community. To live the Starbucks mission and to be a leader. It’s the opportunity to become your personal best. To be connected to something bigger. To be meaningful to the world. And to be recognized for all ",
-          "heading": "To Be A Partner",
+          "text": "In a first of its kind collaboration with Arizona State University (ASU), we’re offering all part- and full-time benefits eligible U.S. partners full tuition coverage for every year of college to earn a bachelor’s degree. Partners receive support from a dedicated team of coaches and advisors, 24/7 tutoring on a variety of subjects, and a choice of more than 60 undergraduate degrees through ASU's r",
+          "heading": "Starbucks College Achievement Plan",
           "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3252,
-          "score": 0.3252
+          "stance": "affirming_dei",
+          "inclusion": 0.301,
+          "score": 0.301
         }
       ]
     },
@@ -1002,10 +1002,10 @@
     {
       "year": 2023,
       "inclusionTopkMean": 0.6242,
-      "inclusionMean": 0.3681,
+      "inclusionMean": 0.3686,
       "inclusionMax": 0.7256,
-      "inclusionFractionPresent": 0.8783,
-      "nChunks": 115,
+      "inclusionFractionPresent": 0.8772,
+      "nChunks": 114,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -1013,7 +1013,7 @@
         "structural_process": 9,
         "aspirational_vague": 10,
         "belonging_culture": 4,
-        "absent": 67,
+        "absent": 66,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -4151,12 +4151,6 @@
         "score": 0.3693
       },
       {
-        "id": "170ae5c84016",
-        "year": 2017,
-        "text": "Being a Starbucks partner means having the opportunity to be something more than an employee (#tobeapartner).",
-        "score": 0.3531
-      },
-      {
         "id": "5e47a1acbd1a",
         "year": 2017,
         "text": "One way we support our global communities is through our eight-year partnership with (RED) – thanks to you we’ve contributed more than $14 million and counting.",
@@ -4193,12 +4187,6 @@
         "score": 0.3295
       },
       {
-        "id": "b890ca3572cc",
-        "year": 2017,
-        "text": "To live the Starbucks mission and to be a leader.",
-        "score": 0.3227
-      },
-      {
         "id": "2261d832c4de",
         "year": 2017,
         "text": "We have deep relationships with many coffee growing communities in Africa.",
@@ -4209,12 +4197,6 @@
         "year": 2017,
         "text": "And it’s designed just for you. -eligible partners (those working 20 or more hours a week) can get a wide range of perks, benefits and assistance.",
         "score": 0.3179
-      },
-      {
-        "id": "9281a22d699e",
-        "year": 2017,
-        "text": "Gigantic possibilities lie ahead—to grow as a person, in your career and in your community.",
-        "score": 0.315
       },
       {
         "id": "ba57e2445027",
@@ -6837,12 +6819,6 @@
         "year": 2023,
         "text": "<p>Starbucks chairman and ceo <a href=\"http://news.starbucks.com/news/schultz-begins-a-conversation-with-starbucks-partners-about-racial-issues\">Howard Schultz held an impromptu meeting in December of 2014</a> in the company’s Seattle headquarters. <span style=\"line-height: 1.6em;\">Although all-company meetings, called Partner Open Forums, are regular occurrences for partners who work in the Starbucks Support Center, the topic of conversation was uncommon in a corporate setting – racial tension in America.",
         "score": 0.3174
-      },
-      {
-        "id": "ee195278230b",
-        "year": 2023,
-        "text": "“Solutions City is an example of the type of tangible, public-private models we are building to create pathways to opportunity for young people,” said Blair Taylor, executive vice president and chief community officer for Starbucks, who hosted the town hall with Mayor Coleman. “This is ultimately about coming together to provide the skills, training and job opportunities young people need to participate in the 21st century economy.”",
-        "score": 0.316
       },
       {
         "id": "dbdba8111000",

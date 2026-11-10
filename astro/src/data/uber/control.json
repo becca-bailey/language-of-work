@@ -5,7 +5,7 @@
   "years": [
     {
       "year": 2011,
-      "zscore": 0.0688,
+      "zscore": 0.0453,
       "rawTopkMean": 0.0197,
       "nChunks": 9,
       "kUsed": 5,
@@ -41,7 +41,7 @@
     },
     {
       "year": 2012,
-      "zscore": -0.2712,
+      "zscore": -0.2849,
       "rawTopkMean": -0.001,
       "nChunks": 3,
       "kUsed": 3,
@@ -67,7 +67,7 @@
     },
     {
       "year": 2013,
-      "zscore": -1.0519,
+      "zscore": -1.0426,
       "rawTopkMean": -0.0487,
       "nChunks": 3,
       "kUsed": 3,
@@ -93,7 +93,7 @@
     },
     {
       "year": 2014,
-      "zscore": -0.8722,
+      "zscore": -0.8682,
       "rawTopkMean": -0.0377,
       "nChunks": 7,
       "kUsed": 5,
@@ -129,7 +129,7 @@
     },
     {
       "year": 2015,
-      "zscore": -0.8365,
+      "zscore": -0.8335,
       "rawTopkMean": -0.0355,
       "nChunks": 7,
       "kUsed": 5,
@@ -165,7 +165,7 @@
     },
     {
       "year": 2016,
-      "zscore": -0.5636,
+      "zscore": -0.5686,
       "rawTopkMean": -0.0189,
       "nChunks": 13,
       "kUsed": 5,
@@ -194,14 +194,14 @@
         },
         {
           "text": "Because you have to take risks if you want to build the next big idea.",
-          "heading": "Take bold steps",
+          "heading": "Shape the world you want",
           "score": -0.0312
         }
       ]
     },
     {
       "year": 2017,
-      "zscore": -0.8253,
+      "zscore": -0.8226,
       "rawTopkMean": -0.0348,
       "nChunks": 10,
       "kUsed": 5,
@@ -237,7 +237,7 @@
     },
     {
       "year": 2018,
-      "zscore": 1.5385,
+      "zscore": 1.4718,
       "rawTopkMean": 0.1093,
       "nChunks": 82,
       "kUsed": 5,
@@ -273,7 +273,7 @@
     },
     {
       "year": 2019,
-      "zscore": 1.533,
+      "zscore": 1.4664,
       "rawTopkMean": 0.109,
       "nChunks": 80,
       "kUsed": 5,
@@ -309,13 +309,18 @@
     },
     {
       "year": 2024,
-      "zscore": 1.2803,
-      "rawTopkMean": 0.0936,
-      "nChunks": 42,
+      "zscore": 1.4369,
+      "rawTopkMean": 0.1072,
+      "nChunks": 46,
       "kUsed": 5,
       "thin": false,
       "carriedForwardFrac": null,
       "quotes": [
+        {
+          "text": "Friends or family members will receive a link where they can see the driver’s name, photo, and vehicle information, and track where the rider is on the map in real time until they arrive at their destination—all without downloading the Uber app.",
+          "heading": "Share your ETA and location",
+          "score": 0.1236
+        },
         {
           "text": "Anyone who is legally able to drive can apply to drive with Uber.",
           "heading": "Drivers with mobility disabilities",
@@ -327,19 +332,14 @@
           "score": 0.0993
         },
         {
+          "text": "Riders can easily share their ride details, including the specific route and estimated time of arrival, with loved ones for extra peace of mind.",
+          "heading": "Share your ETA and location",
+          "score": 0.0982
+        },
+        {
           "text": "All new and existing drivers will receive an in-app notification that requires them to acknowledge their contractual and legal obligations related to accepting service animals on trips.",
           "heading": "In-app notifications for new and existing drivers",
           "score": 0.0933
-        },
-        {
-          "text": "To learn more about our US Service Animal Policy and the process for reporting service animal denial complaints, check out this guide .",
-          "heading": "An updated Service Animal Policy",
-          "score": 0.0816
-        },
-        {
-          "text": "This gives them peace of mind and helps eliminate the risk of fraud.",
-          "heading": "Upfront pricing",
-          "score": 0.0724
         }
       ]
     }

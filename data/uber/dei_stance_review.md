@@ -32,4 +32,4 @@
 - neutral: 5
 
 ## 2024
-- neutral: 21
+- neutral: 23

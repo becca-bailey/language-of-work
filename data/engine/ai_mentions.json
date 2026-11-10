@@ -10,13 +10,13 @@
   "years": [
     {
       "year": 2013,
-      "total_chunks": 2,
+      "total_chunks": 1,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": true,
       "labels": {
         "process_logistics": {
-          "chunks": 2,
+          "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -26,7 +26,7 @@
     },
     {
       "year": 2014,
-      "total_chunks": 7,
+      "total_chunks": 5,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -42,7 +42,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 3,
+          "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -131,12 +131,7 @@
           "mentions": 1
         },
         "mission_brand": {
-          "chunks": 4,
-          "ai_chunks": 0,
-          "mentions": 0
-        },
-        "process_logistics": {
-          "chunks": 1,
+          "chunks": 5,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -188,9 +183,9 @@
     },
     {
       "year": 2022,
-      "total_chunks": 34,
+      "total_chunks": 33,
       "ai_chunks": 1,
-      "prevalence": 0.0294,
+      "prevalence": 0.0303,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -209,7 +204,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 3,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -280,7 +275,7 @@
     },
     {
       "year": 2024,
-      "total_chunks": 44,
+      "total_chunks": 43,
       "ai_chunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -295,13 +290,13 @@
           "ai_chunks": 0,
           "mentions": 0
         },
-        "mission_brand": {
-          "chunks": 39,
+        "job_listing": {
+          "chunks": 1,
           "ai_chunks": 0,
           "mentions": 0
         },
-        "process_logistics": {
-          "chunks": 1,
+        "mission_brand": {
+          "chunks": 38,
           "ai_chunks": 0,
           "mentions": 0
         }

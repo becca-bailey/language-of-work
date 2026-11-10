@@ -119,7 +119,7 @@
     },
     {
       "year": 2014,
-      "totalChunks": 21,
+      "totalChunks": 22,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -135,7 +135,7 @@
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 7,
+          "chunks": 8,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -151,28 +151,28 @@
     },
     {
       "year": 2015,
-      "totalChunks": 28,
+      "totalChunks": 40,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 1,
+          "chunks": 5,
           "ai_chunks": 0,
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 13,
+          "chunks": 18,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 9,
+          "chunks": 11,
           "ai_chunks": 0,
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 5,
+          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -183,7 +183,7 @@
     },
     {
       "year": 2016,
-      "totalChunks": 12,
+      "totalChunks": 17,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -194,7 +194,7 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 1,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -204,7 +204,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 2,
+          "chunks": 4,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -215,7 +215,7 @@
     },
     {
       "year": 2017,
-      "totalChunks": 19,
+      "totalChunks": 22,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -231,7 +231,7 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 4,
+          "chunks": 7,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -252,7 +252,7 @@
     },
     {
       "year": 2018,
-      "totalChunks": 16,
+      "totalChunks": 30,
       "aiChunks": 0,
       "prevalence": 0.0,
       "thin": false,
@@ -263,12 +263,12 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 4,
+          "chunks": 16,
           "ai_chunks": 0,
           "mentions": 0
         },
         "mission_brand": {
-          "chunks": 9,
+          "chunks": 11,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -333,9 +333,9 @@
     },
     {
       "year": 2021,
-      "totalChunks": 20,
+      "totalChunks": 21,
       "aiChunks": 1,
-      "prevalence": 0.05,
+      "prevalence": 0.0476,
       "thin": false,
       "labels": {
         "job_listing": {
@@ -344,7 +344,7 @@
           "mentions": 1
         },
         "mission_brand": {
-          "chunks": 13,
+          "chunks": 14,
           "ai_chunks": 0,
           "mentions": 0
         },
@@ -454,9 +454,9 @@
     },
     {
       "year": 2023,
-      "totalChunks": 51,
+      "totalChunks": 57,
       "aiChunks": 1,
-      "prevalence": 0.0196,
+      "prevalence": 0.0175,
       "thin": false,
       "labels": {
         "benefits_perks": {
@@ -470,7 +470,7 @@
           "mentions": 0
         },
         "job_listing": {
-          "chunks": 8,
+          "chunks": 13,
           "ai_chunks": 1,
           "mentions": 3
         },
@@ -480,7 +480,7 @@
           "mentions": 0
         },
         "process_logistics": {
-          "chunks": 18,
+          "chunks": 19,
           "ai_chunks": 0,
           "mentions": 0
         }
@@ -517,99 +517,309 @@
     },
     {
       "year": 2024,
-      "totalChunks": 19,
-      "aiChunks": 0,
-      "prevalence": 0.0,
+      "totalChunks": 55,
+      "aiChunks": 4,
+      "prevalence": 0.0727,
       "thin": false,
       "labels": {
         "benefits_perks": {
-          "chunks": 1,
+          "chunks": 2,
           "ai_chunks": 0,
           "mentions": 0
         },
-        "mission_brand": {
+        "job_listing": {
           "chunks": 17,
-          "ai_chunks": 0,
-          "mentions": 0
-        },
-        "process_logistics": {
-          "chunks": 1,
-          "ai_chunks": 0,
-          "mentions": 0
-        }
-      },
-      "terms": {},
-      "projections": [],
-      "quotes": []
-    },
-    {
-      "year": 2025,
-      "totalChunks": 13,
-      "aiChunks": 0,
-      "prevalence": 0.0,
-      "thin": false,
-      "labels": {
-        "job_listing": {
-          "chunks": 2,
-          "ai_chunks": 0,
-          "mentions": 0
+          "ai_chunks": 3,
+          "mentions": 6
         },
         "mission_brand": {
-          "chunks": 8,
-          "ai_chunks": 0,
-          "mentions": 0
+          "chunks": 34,
+          "ai_chunks": 1,
+          "mentions": 2
         },
         "process_logistics": {
-          "chunks": 3,
-          "ai_chunks": 0,
-          "mentions": 0
-        }
-      },
-      "terms": {},
-      "projections": [],
-      "quotes": []
-    },
-    {
-      "year": 2026,
-      "totalChunks": 52,
-      "aiChunks": 2,
-      "prevalence": 0.0385,
-      "thin": false,
-      "labels": {
-        "job_listing": {
           "chunks": 2,
-          "ai_chunks": 0,
-          "mentions": 0
-        },
-        "mission_brand": {
-          "chunks": 44,
-          "ai_chunks": 2,
-          "mentions": 4
-        },
-        "process_logistics": {
-          "chunks": 6,
           "ai_chunks": 0,
           "mentions": 0
         }
       },
       "terms": {
-        "AI": 4
+        "ML": 5,
+        "AI": 3
       },
       "projections": [
         {
           "group": "all",
-          "meanProjection": 0.0014,
-          "nChunks": 2,
+          "meanProjection": -0.0099,
+          "nChunks": 4,
+          "thin": true
+        },
+        {
+          "group": "hire",
+          "meanProjection": 0.0207,
+          "nChunks": 3,
           "thin": true
         },
         {
           "group": "talk",
-          "meanProjection": 0.0014,
-          "nChunks": 2,
+          "meanProjection": -0.1015,
+          "nChunks": 1,
           "thin": true
         }
       ],
       "quotes": [
+        {
+          "chunk_id": "6e954feba4d97f61",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.1015,
+          "text": "Engineering is our DNA. It underpins our mission to make commerce better for everyone and how we work as a company. [Read: literally everything we do.] Engineers join Shopify to work alongside the world's best technical minds. Working together to solve massive technical problems forces a constant levelling up of technical excellence. Think unreal challenge. Think unreal scale . Think unreal impact"
+        },
+        {
+          "chunk_id": "68441c0d15605aeb",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "ML"
+          ],
+          "projection": 0.0584,
+          "text": "At the helm of state-of-the-art ML systems. Create, train, and deploy ML models at scale. Empower our merchants by building products that help them make the best decisions faster, and more intelligently."
+        },
+        {
+          "chunk_id": "1c17b8758f738713",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "projection": 0.0124,
+          "text": "Thrive at the intersection of ML and Software Engineering, and use your know-how of both realms to create products that super charge merchants. Use your range of development skills to build everything from the critical infrastructure and systems that support in-house ML models, to AI-powered products."
+        },
+        {
+          "chunk_id": "e5de84a353499695",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "ML"
+          ],
+          "projection": -0.0088,
+          "text": "Build and manage the team(s) that create and fine-tune ML models. Drive impact for merchants and Shopify by exhibiting extreme ownership and surfacing problems and gaps quickly with proposed solutions."
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "totalChunks": 64,
+      "aiChunks": 9,
+      "prevalence": 0.1406,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 38,
+          "ai_chunks": 8,
+          "mentions": 12
+        },
+        "mission_brand": {
+          "chunks": 19,
+          "ai_chunks": 1,
+          "mentions": 4
+        },
+        "process_logistics": {
+          "chunks": 7,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 11,
+        "ML": 5
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": 0.0097,
+          "nChunks": 9,
+          "thin": false
+        },
+        {
+          "group": "hire",
+          "meanProjection": 0.014,
+          "nChunks": 8,
+          "thin": false
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.0248,
+          "nChunks": 1,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "70cedadf4bf8417e",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.1015,
+          "text": "Engineering is our DNA. It underpins our mission to make commerce better for everyone and how we work as a company. [Read: literally everything we do.] Engineers join Shopify to work alongside the world's best technical minds. Working together to solve massive technical problems forces a constant levelling up of technical excellence. Think unreal challenge. Think unreal scale . Think unreal impact"
+        },
+        {
+          "chunk_id": "834c28c4f5239e71",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI"
+          ],
+          "projection": 0.0809,
+          "text": "Simplify the path to entrepreneurship by going all-in on AI, from personal assistants to media editing and beyond."
+        },
+        {
+          "chunk_id": "3b4321f135f85f08",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "ML"
+          ],
+          "projection": 0.0584,
+          "text": "At the helm of state-of-the-art ML systems. Create, train, and deploy ML models at scale. Empower our merchants by building products that help them make the best decisions faster, and more intelligently."
+        },
+        {
+          "chunk_id": "427cf1a1fc205585",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI"
+          ],
+          "projection": 0.0395,
+          "text": "Create for the consumer facing Shop App, including Shop Pay, Shop Cash, and the AI shopping assistant."
+        },
+        {
+          "chunk_id": "27ab3bfaba33ab25",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "projection": 0.0315,
+          "text": "Thrive where ML meets Software Engineering to build products that supercharge merchants. Use your broad range of development skills to create essential infrastructure and AI-powered tools supporting in-house ML models."
+        },
+        {
+          "chunk_id": "671d5abeba97671e",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI"
+          ],
+          "projection": 0.0259,
+          "text": "Shopify's Revenue team has no speed limit—every step is faster than you thought possible to make an impact and unlock your best. Customers need us to know the details of their tech stacks, master the market context, and make expert recommendations early. We bring together deep knowledge of industry, technical excellence, and the entrepreneurial spirit to engage and enhance everything. How you coll"
+        },
+        {
+          "chunk_id": "994aeebe15ef97f7",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.0248,
+          "text": "Yes, AI is changing everything. And yes, we're all in. We are embracing AI in our tools, workflows and philosophies because we believe technology will always create opportunities for those sufficiently courageous to claim it. We want people committed to the tools of tomorrow, because true innovation happens when craft excellence meets technological audacity. We are confident that in a world where "
+        },
+        {
+          "chunk_id": "4299a479275126e9",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.014,
+          "text": "UX is Shopify’s killer feature. It’s the bridge between technology and people, and it’s through exceptional user experiences that Shopify makes commerce accessible and attainable to more and more entrepreneurs. While entrepreneurship defines our mission, user experience defines our product. The key to our craft is delighting merchants by unlocking the right tools at the right time to drive their g"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "totalChunks": 82,
+      "aiChunks": 9,
+      "prevalence": 0.1098,
+      "thin": false,
+      "labels": {
+        "job_listing": {
+          "chunks": 26,
+          "ai_chunks": 6,
+          "mentions": 10
+        },
+        "mission_brand": {
+          "chunks": 47,
+          "ai_chunks": 3,
+          "mentions": 8
+        },
+        "process_logistics": {
+          "chunks": 9,
+          "ai_chunks": 0,
+          "mentions": 0
+        }
+      },
+      "terms": {
+        "AI": 14,
+        "ML": 4
+      },
+      "projections": [
+        {
+          "group": "all",
+          "meanProjection": -0.0161,
+          "nChunks": 9,
+          "thin": false
+        },
+        {
+          "group": "hire",
+          "meanProjection": -0.0205,
+          "nChunks": 6,
+          "thin": false
+        },
+        {
+          "group": "talk",
+          "meanProjection": -0.0073,
+          "nChunks": 3,
+          "thin": true
+        }
+      ],
+      "quotes": [
+        {
+          "chunk_id": "9f47788c4a4cee20",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.1015,
+          "text": "Engineering is our DNA. It underpins our mission to make commerce better for everyone and how we work as a company. [Read: literally everything we do.] Engineers join Shopify to work alongside the world's best technical minds. Working together to solve massive technical problems forces a constant levelling up of technical excellence. Think unreal challenge. Think unreal scale . Think unreal impact"
+        },
+        {
+          "chunk_id": "bec46db4baa5cf48",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.0959,
+          "text": "Engineering isn't a department at Shopify. It's our DNA. The engineers who thrive here care about the code, the system, and the merchants relying on both. They want hard problems and uncomfortable growth. They find solutions without waiting for permission. They ship weekly. They want commerce to work better for everyone. So does our founder, Tobi, who still codes and still shapes where this thing "
+        },
+        {
+          "chunk_id": "228be08496fd7170",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "ML"
+          ],
+          "projection": 0.0584,
+          "text": "At the helm of state-of-the-art ML systems. Create, train, and deploy ML models at scale. Empower our merchants by building products that help them make the best decisions faster, and more intelligently."
+        },
         {
           "chunk_id": "cf470103e0260c91",
           "label": "mission_brand",
@@ -629,6 +839,37 @@
           ],
           "projection": -0.0542,
           "text": "Everyone at Shopify works on product. (Yes, even the finance team.) Product thinking, combined with our reflexive use of AI, is why our people have superpowers. It’s why we build what our merchants need before they know they need it. In a world where AI can make anything, taste and craft become our differentiator. Dive deeper: Read our open-sourced Product Principles and Tobi's AI memo ."
+        },
+        {
+          "chunk_id": "59481c874b522eb9",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI",
+            "ML"
+          ],
+          "projection": 0.045,
+          "text": "Build the future of commerce with AI at Shopify! You'll build products and services for our merchants and customers utilizing cutting edge AI and advanced ML techniques."
+        },
+        {
+          "chunk_id": "c3909c90eb2d3813",
+          "label": "mission_brand",
+          "group": "talk",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.0248,
+          "text": "Yes, AI is changing everything. And yes, we're all in. We are embracing AI in our tools, workflows and philosophies because we believe technology will always create opportunities for those sufficiently courageous to claim it. We want people committed to the tools of tomorrow, because true innovation happens when craft excellence meets technological audacity. We are confident that in a world where "
+        },
+        {
+          "chunk_id": "231c007e3d0e72d5",
+          "label": "job_listing",
+          "group": "hire",
+          "terms": [
+            "AI"
+          ],
+          "projection": -0.0204,
+          "text": "Shopify is for those who play the long game. We've completely reimagined how sales works, building a model that matches our ethos: betting on merchant success over the long term. You'll build a portfolio of relationships that compound in value over time, and a portfolio that grows more valuable as your merchants do. We win by helping our merchants win. Success here means mastering tech stacks and "
         }
       ]
     }

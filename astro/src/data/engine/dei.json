@@ -221,11 +221,11 @@
     },
     {
       "year": 2020,
-      "inclusionTopkMean": 0.3612,
-      "inclusionMean": 0.3612,
+      "inclusionTopkMean": 0.3887,
+      "inclusionMean": 0.3654,
       "inclusionMax": 0.4724,
-      "inclusionFractionPresent": 0.8,
-      "nChunks": 5,
+      "inclusionFractionPresent": 0.8333,
+      "nChunks": 6,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -233,7 +233,7 @@
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 5,
+        "absent": 6,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -256,6 +256,14 @@
           "score": 0.4451
         },
         {
+          "text": "If you are among the best and brightest, and want to work with the best and the brightest, check out some of the open positions at Hotel Engine.",
+          "heading": "Join our team",
+          "register": "absent",
+          "stance": "neutral",
+          "inclusion": 0.3861,
+          "score": 0.3861
+        },
+        {
           "text": "Here are just some of the benefits we're proud to provide to our team members Medical, dental, vision, and supplemental insurance Craft brews and ciders on tap Company-sponsored social events and happy hours Free organic fruit, snacks, and beverages Unmatched views of the Rocky Mountains",
           "heading": "We're committed to building a team who thrives — both in and out of the office",
           "register": "absent",
@@ -270,14 +278,6 @@
           "stance": "neutral",
           "inclusion": 0.2602,
           "score": 0.2602
-        },
-        {
-          "text": "When you apply innovative customer-centric technology to the complex hotel industry, you can change the way the lodging industry does business — and the way business does lodging.",
-          "heading": "Bridging the gap between hotels and travelers",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.2486,
-          "score": 0.2486
         }
       ]
     },
@@ -470,10 +470,10 @@
     {
       "year": 2024,
       "inclusionTopkMean": 0.5724,
-      "inclusionMean": 0.4069,
+      "inclusionMean": 0.409,
       "inclusionMax": 0.6596,
-      "inclusionFractionPresent": 0.975,
-      "nChunks": 40,
+      "inclusionFractionPresent": 0.9744,
+      "nChunks": 39,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -481,11 +481,11 @@
         "structural_process": 0,
         "aspirational_vague": 4,
         "belonging_culture": 0,
-        "absent": 36,
+        "absent": 35,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
-      "controlTopkMean": 0.079,
+      "controlTopkMean": 0.0772,
       "inclusionQuotes": [
         {
           "text": "We’re focused on finding the right people who are energized by our culture, with diverse experiences and backgrounds that will help us unlock our full potential.",
@@ -966,6 +966,12 @@
         "year": 2020,
         "text": "Every individual is empowered to take initiative and tackle challenges.",
         "score": 0.4075
+      },
+      {
+        "id": "9aed3c3f9eb3",
+        "year": 2020,
+        "text": "If you are among the best and brightest, and want to work with the best and the brightest, check out some of the open positions at Hotel Engine.",
+        "score": 0.3861
       },
       {
         "id": "73b436e0c372",
@@ -2046,12 +2052,6 @@
         "year": 2024,
         "text": "Keep asking the “what ifs” and pushing the boundaries of the way things have always been done.",
         "score": 0.3075
-      },
-      {
-        "id": "91ad7fb474f9",
-        "year": 2024,
-        "text": "Instead, you always put in the passion, time and effort to win, and you motivate your colleagues and teams to do the same.",
-        "score": 0.3047
       },
       {
         "id": "ec926395dd76",

@@ -7,7 +7,7 @@
 - neutral: 1
 
 ## 2007
-- neutral: 2
+- neutral: 3
 
 ## 2008
 - neutral: 2
@@ -60,7 +60,7 @@
 
 ## 2025
 - affirming_dei: 3
-- neutral: 2
+- neutral: 1
 
 ## 2026
 - affirming_dei: 4

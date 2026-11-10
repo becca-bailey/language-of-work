@@ -51,32 +51,24 @@
     },
     {
       "year": 2007,
-      "inclusionTopkMean": 0.3055,
-      "inclusionMean": 0.3055,
-      "inclusionMax": 0.3147,
+      "inclusionTopkMean": 0.3024,
+      "inclusionMean": 0.3024,
+      "inclusionMax": 0.3055,
       "inclusionFractionPresent": 1.0,
-      "nChunks": 4,
-      "kUsed": 4,
+      "nChunks": 3,
+      "kUsed": 3,
       "thin": true,
       "registers": {
         "explicit_demographic": 0,
         "structural_process": 0,
         "aspirational_vague": 0,
         "belonging_culture": 0,
-        "absent": 4,
+        "absent": 3,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
       "controlTopkMean": 0.0617,
       "inclusionQuotes": [
-        {
-          "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
-          "heading": "",
-          "register": "absent",
-          "stance": "neutral",
-          "inclusion": 0.3147,
-          "score": 0.3147
-        },
         {
           "text": "As a world leader in visual computing technology NVIDIA's objective remains solid: to be the most important 3D company in the world. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver quality, competitively priced products to our customers. NVIDIA's culture promotes and inspires our team of world-class engineers and developer",
           "heading": "",

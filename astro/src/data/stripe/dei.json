@@ -825,11 +825,11 @@
     },
     {
       "year": 2026,
-      "inclusionTopkMean": 0.5182,
-      "inclusionMean": 0.3844,
+      "inclusionTopkMean": 0.52,
+      "inclusionMean": 0.3886,
       "inclusionMax": 0.5451,
-      "inclusionFractionPresent": 0.9375,
-      "nChunks": 48,
+      "inclusionFractionPresent": 0.9444,
+      "nChunks": 54,
       "kUsed": 5,
       "thin": false,
       "registers": {
@@ -837,7 +837,7 @@
         "structural_process": 0,
         "aspirational_vague": 1,
         "belonging_culture": 1,
-        "absent": 46,
+        "absent": 52,
         "mission_focus_apolitical": 0,
         "civilizational_mission": 0
       },
@@ -876,12 +876,12 @@
           "score": 0.5082
         },
         {
-          "text": "We are grappling with the challenges of operating at an organizational scale that few tech companies reach. We care about our culture and want to preserve the important parts while evolving to meet the needs of new Stripes and our changing business context.",
-          "heading": "Where we’re improving",
+          "text": "The bar here is high, and the people who clear it tend to share a few things. They approach their work with curiosity and careful thought, push back when something doesn't add up, and change their mind when the evidence warrants it. They come from research labs, fast-growing startups, government, big tech, academia—but what they share isn't a background. It's a disposition: they want to work on so",
+          "heading": "What does it take to do well at Stripe?",
           "register": "absent",
           "stance": "neutral",
-          "inclusion": 0.4937,
-          "score": 0.4937
+          "inclusion": 0.5025,
+          "score": 0.5025
         }
       ]
     }
@@ -6353,10 +6353,22 @@
         "score": 0.5091
       },
       {
+        "id": "6759f81ed2d9",
+        "year": 2026,
+        "text": "We invest in development through stretch projects, direct feedback, and internal mobility.",
+        "score": 0.5021
+      },
+      {
         "id": "fe528a802ae6",
         "year": 2026,
         "text": "We work as one team: no fiefdoms, no hoarding information, no “not my problem.” We question assumptions, debate energetically, and abandon ideas when better ones emerge.",
         "score": 0.4997
+      },
+      {
+        "id": "6cb6e916709f",
+        "year": 2026,
+        "text": "To meet this moment, we’re looking for people who move with urgency, like hard problems, and want their work to matter at a time of great change.",
+        "score": 0.4938
       },
       {
         "id": "24e8bf04db07",
@@ -6425,6 +6437,12 @@
         "score": 0.4472
       },
       {
+        "id": "b27bc6f4cad0",
+        "year": 2026,
+        "text": "We’re meticulous about getting it right, so that businesses grow, jobs are created, and more people find prosperity.",
+        "score": 0.4441
+      },
+      {
         "id": "68fa81578ceb",
         "year": 2026,
         "text": "We offer that plus something a bit rarer: the opportunity to work with speed and agility on a platform that has an impact across the entire internet.",
@@ -6455,6 +6473,12 @@
         "score": 0.4344
       },
       {
+        "id": "caf503ba1048",
+        "year": 2026,
+        "text": "We’re at the center of this, and we think the best work is still in front of us.",
+        "score": 0.4318
+      },
+      {
         "id": "1ff86bf5fe93",
         "year": 2026,
         "text": "These principles don’t aim to capture everything about working here, but they express the few behaviors that matter most to building a high-trust, high-impact company.",
@@ -6465,6 +6489,12 @@
         "year": 2026,
         "text": "We exist to increase economic growth, and we pursue it on every front: by building tools that make it easier and cheaper for ambitious businesses to start and scale, by publishing ideas that advance progress, and by creating the economic infrastructure for AI.",
         "score": 0.428
+      },
+      {
+        "id": "14273a581bb6",
+        "year": 2026,
+        "text": "We’re proud of what we’ve built, but we spend a lot of our time thinking about everything we haven’t done yet.",
+        "score": 0.4253
       },
       {
         "id": "714541779c05",
@@ -6501,6 +6531,12 @@
         "year": 2026,
         "text": "We don’t assume the best way to do something is the way it’s always been done.",
         "score": 0.4007
+      },
+      {
+        "id": "007f28cba9ac",
+        "year": 2026,
+        "text": "They come from research labs, fast-growing startups, government, big tech, academia—but what they share isn't a background.",
+        "score": 0.4
       },
       {
         "id": "12b53e6cdc03",
@@ -6611,6 +6647,12 @@
         "score": 0.3804
       },
       {
+        "id": "3ff8b4c4a727",
+        "year": 2026,
+        "text": "In either case, we need to do better, and we want your help.",
+        "score": 0.3802
+      },
+      {
         "id": "b4ec7da4301a",
         "year": 2026,
         "text": "Most Stripes don’t come from finance, and they’ve thrived by bringing fresh perspectives.",
@@ -6683,6 +6725,12 @@
         "score": 0.3601
       },
       {
+        "id": "e31129db841e",
+        "year": 2026,
+        "text": "Promotions are tied to demonstrated impact, not tenure.",
+        "score": 0.3599
+      },
+      {
         "id": "3d1bf8a7753a",
         "year": 2026,
         "text": "It is common for Stripes to work on things outside their domain of expertise, so we encourage people to regularly attend hands-on classes led by internal and external experts on everything from Learning to Code to Thinking Like a Lawyer.",
@@ -6719,6 +6767,12 @@
         "score": 0.3554
       },
       {
+        "id": "a94a323acbd0",
+        "year": 2026,
+        "text": "It's a disposition: they want to work on something that matters, and they'd rather be challenged than comfortable.",
+        "score": 0.3495
+      },
+      {
         "id": "a590e9235fbc",
         "year": 2026,
         "text": "Stripes come from all sorts of professional backgrounds like engineering, design, operations, consulting, government, finance, healthcare, and education.",
@@ -6735,6 +6789,12 @@
         "year": 2026,
         "text": "We are lucky to be at the center of this revolution: 88% of leading AI companies already run on Stripe.",
         "score": 0.3472
+      },
+      {
+        "id": "1707d66ad2cb",
+        "year": 2026,
+        "text": "You’ll have the support and tooling to see them through, and you’ll be working alongside some of the best minds in your field.",
+        "score": 0.344
       },
       {
         "id": "e71d2a55cdd7",
@@ -6759,6 +6819,12 @@
         "year": 2026,
         "text": "We’re generous with credit and stingy with blame.",
         "score": 0.3367
+      },
+      {
+        "id": "915769cc88d5",
+        "year": 2026,
+        "text": "Stripe gives people ownership early, which means you could find yourself leading significant work sooner than you would elsewhere.",
+        "score": 0.3337
       },
       {
         "id": "b8b6b3f09517",
@@ -6809,10 +6875,22 @@
         "score": 0.3253
       },
       {
+        "id": "d5e42771d653",
+        "year": 2026,
+        "text": "They approach their work with curiosity and careful thought, push back when something doesn't add up, and change their mind when the evidence warrants it.",
+        "score": 0.3248
+      },
+      {
         "id": "429ffb40c591",
         "year": 2026,
         "text": "If that's you, there's no better place to build your career.",
         "score": 0.3241
+      },
+      {
+        "id": "6e7ba01562b6",
+        "year": 2026,
+        "text": "If that’s you, there’s no better place to build your career.",
+        "score": 0.324
       },
       {
         "id": "016533cdc11a",
@@ -6887,10 +6965,22 @@
         "score": 0.3069
       },
       {
+        "id": "bc6b8503e123",
+        "year": 2026,
+        "text": "Small teams can impact how millions of businesses grow.",
+        "score": 0.3062
+      },
+      {
         "id": "7369854a55dd",
         "year": 2026,
         "text": "Every project exposes us to challenges that are beyond our current capabilities.",
         "score": 0.3056
+      },
+      {
+        "id": "91e95d143d57",
+        "year": 2026,
+        "text": "The bar here is high, and the people who clear it tend to share a few things.",
+        "score": 0.3037
       },
       {
         "id": "a2bbae368df4",
